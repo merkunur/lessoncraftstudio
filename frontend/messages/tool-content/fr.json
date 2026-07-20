@@ -560,6 +560,28 @@
       "Au CE1, comptez de 25 en 25 jusqu’à 500 : posez un « ? » sur la case qui suivra 75, laissez la classe débattre de ce qui va s’écrire, puis appuyez pour voir le nombre arriver."
     ]
   },
+  "our-day": {
+    "slug": "notre-journee",
+    "name": "Notre journée",
+    "tagline": "La frise de la journée en version interactive : des cartes illustrées et un soleil qui avance au rythme de la classe.",
+    "metaTitle": "Frise de la journée maternelle — emploi du temps visuel gratuit",
+    "metaDescription": "Construisez votre frise de la journée : cartes illustrées, soleil qui avance, rituel du changement. Emploi du temps visuel gratuit pour la maternelle et le CP.",
+    "about": [
+      "Notre journée transforme la frise de la journée — cet emploi du temps visuel affiché dans presque toutes les classes de maternelle — en un grand affichage interactif pour le vidéoprojecteur ou le TNI. En une trentaine de secondes, vous touchez les cartes illustrées (l’accueil, le regroupement, les ateliers, la cantine, la récréation, la sieste…) pour construire le déroulé du jour. Ensuite, c’est un humain qui fait avancer le soleil : vous, ou votre responsable de la journée. À chaque étape, la carte terminée se replie doucement et la classe entend « Maintenant, c’est la récréation ! ». Aucun compte à rebours, aucune course contre la montre : l’outil ne compare jamais l’horloge au programme.",
+      "Quand quelque chose change — piscine annulée, intervenant en retard — le rituel du changement remplace la carte en trois gestes, en gardant l’ancienne visible en petit (« avant : la motricité ») pour rassurer les enfants qui ont besoin de prévisibilité. Construire la journée, avec toutes les cartes et le soleil, est gratuit, sans compte. La version Premium ajoute les heures sur les cartes, dites à la française (« La cantine, c’est à midi et demi. »), la voix qui annonce les activités, les plans de la semaine enregistrés et l’impression du déroulé."
+    ],
+    "howToUse": [
+      "Touchez les cartes à gauche pour construire la journée du jour — vous pouvez répéter une carte, et en placer jusqu’à 16.",
+      "Appuyez sur « Commencer la journée », puis projetez la frise : le soleil se pose sur la première activité.",
+      "À chaque transition, touchez le soleil (ou laissez votre responsable du jour le faire) : la carte terminée se replie et la suivante s’annonce.",
+      "En cas d’imprévu, touchez une carte puis « Remplacer », « Retirer » ou « Ajouter » : l’ancienne activité reste visible en petit pour rassurer la classe."
+    ],
+    "classroomIdeas": [
+      "Nommez un « responsable de la journée » : à chaque transition, c’est cet enfant qui vient faire avancer le soleil — un rituel très attendu qui rend le temps concret.",
+      "Lors du regroupement du matin, lisez la frise ensemble : « On commence la journée avec l’accueil… la récréation vient après les maths » — un vrai travail sur la structuration du temps.",
+      "Pour les enfants anxieux face aux imprévus, utilisez la carte « changement » de façon systématique : montrer ce qui change, et ce qui ne change pas, apaise beaucoup les transitions."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

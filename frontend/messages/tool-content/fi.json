@@ -560,6 +560,28 @@
       "Ennustusleikki: merkitse kysymysmerkki kauas tulevaan ruutuun ja pohtikaa matkan varrella, mikä luku siihen aikanaan kirjoitetaan."
     ]
   },
+  "our-day": {
+    "slug": "meidan-paiva",
+    "name": "Meidän päivä",
+    "tagline": "Kuvitettu päiväjärjestys, joka tekee koulupäivästä ennakoitavan.",
+    "metaTitle": "Kuvitettu päiväjärjestys – Meidän päivä eskariin ja kouluun",
+    "metaDescription": "Rakenna luokan kuvitettu päiväjärjestys hetkessä: kuvakortit, päivän mukana kulkeva aurinko ja lempeä tapa kertoa muutoksista. Sopii eskariin ja alkuopetukseen.",
+    "about": [
+      "Meidän päivä on luokan yhteinen kuvitettu päiväjärjestys — sama tuttu rakenne, johon moni suomalainen eskari ja alkuopetuksen luokka jo nojaa. Päivä kootaan kuvakorteista muutamassa sekunnissa, ja aurinko siirtyy kortilta toiselle aina silloin, kun opettaja tai päivän apulainen sitä napauttaa — ei koskaan kellon komennosta. Ennakoitava rakenne rauhoittaa: kun lapsi näkee, mitä on jo tehty ja mitä tulee seuraavaksi, siirtymät sujuvat ja epävarmuus vähenee. Muutoksillekin on oma lempeä rituaalinsa: uusi kortti tulee tilalle, ja vanha jää pienenä näkyviin — 'aiemmin: liikunta'. Työkalu sopii erityisen hyvin strukturoitua opetusta hyödyntäviin ryhmiin ja tukee lapsia, joille kuvat kertovat enemmän kuin sanat.",
+      "Ilmaisversiolla rakennat koko päivän: kaikki kuvakortit, aurinko, muutoskortit ja lempeät taittumat ovat aina käytössä ilman kirjautumista. Premium lisää arkea helpottavat mukavuudet: kellonajat kortteihin viiden minuutin tarkkuudella, puhutut kuulutukset luonnollisilla suomen aikailmauksilla — 'puoli 12', 'varttia vaille 12' — tallennettavat viikkosuunnitelmat maanantaista perjantaihin sekä tulostettavan pöytänauhan. Mikään ei mene lukkoon kesken päivän: ilmainen osa on kokonainen työkalu, ei maistiainen."
+    ],
+    "howToUse": [
+      "Avaa työkalu taululle ja kokoa päivän ohjelma napauttamalla kuvakortteja — järjestys on valmis alle minuutissa.",
+      "Aloita päivä: aurinko asettuu ensimmäisen kortin kohdalle. Napauta aurinkoa aina, kun siirrytte seuraavaan puuhaan.",
+      "Kun jokin muuttuu, käytä muutosrituaalia: vaihda kortti, ja vanha jää pienenä näkyviin, jotta muutos on lapselle turvallinen.",
+      "Premiumilla lisäät kortteihin kellonajat, kuuntelutat kuulutukset ja tallennat viikon päivät valmiiksi suunnitelmiksi."
+    ],
+    "classroomIdeas": [
+      "Valitse viikoittain vaihtuva päivän apulainen, joka saa siirtää aurinkoa siirtymien merkiksi — vastuu motivoi ja rytmittää päivää.",
+      "Käykää aamupiirissä koko päivä läpi kortti kerrallaan: mitä tehdään ensin, mitä sitten — ajan hahmottaminen ja järjestyssanat harjaantuvat samalla.",
+      "Tulosta päiväjärjestys pöytänauhaksi lapselle, joka hyötyy omasta lähistruktuurista — sama kuva taululla ja pulpetilla rauhoittaa."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

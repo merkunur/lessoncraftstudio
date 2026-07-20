@@ -560,6 +560,28 @@
       "Tell baklengs fra 20 som overgangsrutine før friminuttet — sett et spørsmålstegn på et par ruter, og la klassen hviske tallet når dere kommer dit."
     ]
   },
+  "our-day": {
+    "slug": "dagen-var",
+    "name": "Dagen vår",
+    "tagline": "En visuell dagtavle for klasserommet — bygg dagen med kort, og la sola vise hvor dere er.",
+    "metaTitle": "Dagtavle på nett – visuell dagsplan for skole og barnehage",
+    "metaDescription": "Bygg dagens plan med illustrerte kort, flytt sola fra aktivitet til aktivitet, og forbered barna på endringer. Gratis dagtavle for barnehage og 1.–2. trinn.",
+    "about": [
+      "Dagen vår er en digital dagtavle for barnehagen og de første trinnene. Dere bygger dagens plan sammen med illustrerte aktivitetskort — samlingsstund, matpakketid, friminutt, utetid — og en vennlig sol viser hvor på dagen dere er. Det er alltid et menneske som flytter sola videre, aldri klokka: tavla sammenligner aldri planen med tiden, og ingenting blinker eller teller ned. Ferdige aktiviteter brettes rolig sammen, men blir stående synlige, slik at barna ser både det som er gjort og det som kommer. Forutsigbarhet er hele poenget.",
+      "Alt det viktigste er gratis: hele kortsamlingen, sola og endringsritualet som forbereder barna når noe blir annerledes — det gamle kortet blir stående i det små, med «før: gym» under det nye. Med Premium kan hvert kort få sitt eget klokkeslett, vist på analog og digital klokke og lest opp slik vi faktisk sier det — «Matpakketid er klokka halv tolv» — i tillegg til opplesing av aktivitetene, lagrede ukeplaner for hver ukedag og en utskriftsvennlig pultstripe."
+    ],
+    "howToUse": [
+      "Trykk på kortene til venstre og bygg dagens plan — rekkefølgen kan endres når som helst.",
+      "Trykk på «Start dagen» når planen er klar, og la tavla stå fremme på storskjermen.",
+      "La dagens ordenselev eller deg selv flytte sola videre når en aktivitet er ferdig.",
+      "Blir noe annerledes? Bruk endringskortet: det nye kortet kommer inn, og det gamle blir stående i det små — trygt og tydelig for alle."
+    ],
+    "classroomIdeas": [
+      "La ordenseleven være «solvakt» som flytter sola og sier høyt: «Nå er det friminutt!»",
+      "Gå gjennom tavla i samlingsstunden om morgenen, og la barna gjette hva som kommer etter hva.",
+      "Skriv ut pultstripen til barn som trenger sin egen plan på pulten — samme kort, samme rekkefølge."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

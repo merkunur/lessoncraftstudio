@@ -561,6 +561,28 @@
       "Vermutungs-Spiel: Ein Fragezeichen weit unten im Blatt setzen — wer kann begründen, welche Zahl dort stehen wird, bevor die Klasse dort ankommt?"
     ]
   },
+  "our-day": {
+    "slug": "unser-tag",
+    "name": "Unser Tag",
+    "tagline": "Der visuelle Tagesplan: Bildkarten, eine wandernde Sonne und ein ruhiges Ritual, wenn etwas anders ist.",
+    "metaTitle": "Visueller Tagesplan für Grundschule & Kita | Unser Tag",
+    "metaDescription": "Die digitale Tagestransparenz für Grundschule und Kita: Bildkarten machen den Tagesablauf sichtbar, eine freundliche Sonne zeigt, was gerade dran ist.",
+    "about": [
+      "Unser Tag macht den Tagesablauf sichtbar — als digitale Tagestransparenz für Tafel, Whiteboard oder Beamer. Aus über vierzig Bildkarten baut ihr in einer halben Minute den heutigen Tagesstreifen: Ankommen, Morgenkreis, Buchstabenzeit, Hofpause. Eine freundliche Sonne wandert von Karte zu Karte und zeigt, was gerade dran ist — weitergetippt wird sie von einem Menschen, nie von der Uhr. Erledigte Karten klappen sanft ein und bleiben den ganzen Tag sichtbar. Gerade Kinder, die Verlässlichkeit brauchen — auch autistische Kinder — finden in diesem immer gleichen Ablauf Halt. Und wenn etwas anders ist, gibt es ein ruhiges Änderungsritual: Die neue Karte kommt in den Streifen, „vorher: Sport“ bleibt klein und gut lesbar stehen.",
+      "Mit Premium bekommen die Karten Uhrzeiten mit kleiner Analog- und Digitaluhr, und die Ansagestimme sagt sie so, wie man wirklich spricht: „Mittagessen ist um halb 1.“ Wochenpläne für Montag bis Freitag lassen sich speichern und liegen morgens automatisch bereit, und der fertige Tagesplan lässt sich als Streifen für den Tisch ausdrucken — für Kinder, die ihren eigenen Plan in der Hand halten möchten. Ehrlich aufgeteilt: Den Tag bauen — mit der Sonne, dem Änderungsritual und allen Aktivitätskarten — ist dauerhaft kostenlos; Uhrzeiten, Stimme, Wochenpläne und Druck gehören zu Premium."
+    ],
+    "howToUse": [
+      "Tippt morgens links auf die Bildkarten — jede landet sofort im Tagesstreifen. Die Reihenfolge lässt sich jederzeit noch ändern.",
+      "Tippt auf „Den Tag beginnen“: Die Sonne stellt sich auf die erste Karte und sagt an, womit der Tag anfängt.",
+      "Nach jeder Aktivität tippt ihr — oder euer Tagesplan-Kind — auf die Sonne. Sie wandert weiter, die fertige Karte klappt sanft ein.",
+      "Wenn sich etwas ändert, tippt auf die betroffene Karte und wählt Tauschen, Herausnehmen oder Einfügen — die alte Aktivität bleibt als „vorher: …“ sichtbar, damit kein Kind den Faden verliert."
+    ],
+    "classroomIdeas": [
+      "Tagesplan-Dienst: Jede Woche darf ein anderes Kind die Sonne weitertippen — ein echtes Ämtchen, das Struktur gibt und stolz macht.",
+      "Im Morgenkreis den Streifen gemeinsam durchgehen und den Tag versprachlichen: „Hofpause kommt nach Mathe.“ So üben die Kinder Zeitbegriffe ganz nebenbei.",
+      "Für einzelne Kinder, die ihren eigenen Plan brauchen, den Tagesstreifen ausdrucken und auf den Tisch legen — Erledigtes wird mit dem Stift abgehakt, genau wie an der Tafel."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

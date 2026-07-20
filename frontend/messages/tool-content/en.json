@@ -561,6 +561,28 @@
       "Save Tuesday’s count mid-grid, and on Wednesday resume it: “where were we? What comes next?” — the halo remembers."
     ]
   },
+  "our-day": {
+    "slug": "our-day",
+    "name": "Our Day",
+    "tagline": "The visual daily schedule that makes the whole day feel safe and knowable.",
+    "metaTitle": "Our Day — Visual Daily Schedule for the K-3 Classroom",
+    "metaDescription": "Build today's schedule from illustrated cards in 30 seconds. A gentle sun marks what's now, finished cards fold softly, and changes get a friendly ritual. Free to start.",
+    "about": [
+      "Our Day is the classroom visual schedule without the laminating: tap illustrated activity cards — morning circle, math, lunch, recess and dozens more — into today's order in about thirty seconds, and project the strip all day. A soft breathing sun marks what's happening now, and only a person ever moves it: you, or this week's schedule helper, tap the sun and it glides to the next card while the finished one folds gently — still visible, because \"look at everything we did\" matters. The tool never compares the clock to your plan and never hurries anyone. For the children who need predictability most, that calm, human-paced strip is the whole point.",
+      "When plans change, the change gets a ritual instead of a silent swap: a friendly overlay, a new card with a small ⟳ badge, and the old activity kept readable underneath — \"was: PE\" — so nobody's day quietly loses a promise. Skipped things fold under a little moon: \"another day.\" Building today is free forever, with every activity card included. Premium adds times on the cards — spoken the way people actually say them, \"lunch is at half past twelve\" — plus spoken transitions, saved weekly plans that greet you each morning, and a printable strip that doubles as a personal desk schedule for children who need one to touch."
+    ],
+    "howToUse": [
+      "Tap cards from the palette to build today's order — then tap Start the day and the sun settles on your first activity.",
+      "At each transition, you or the schedule helper taps the sun: the finished card folds softly and the next one glows.",
+      "When something changes, tap Edit and then the card: swap it, move it, or fold it to \"another day\" — the old plan stays visible.",
+      "With Premium, add times to the cards, save each weekday's plan, and print the strip for a para or a child's desk."
+    ],
+    "classroomIdeas": [
+      "Make \"schedule helper\" a classroom job: at every transition, the helper walks to the board and moves the sun — the day belongs to the class.",
+      "Morning build ritual: assemble today's strip together while the class names each card aloud — then count how many things today holds.",
+      "Print the day for the one or two children who need a schedule they can touch, and let them check off cards with a pencil as the sun moves."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

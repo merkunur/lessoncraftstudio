@@ -560,6 +560,28 @@
       "Nella conta di 10 in 10, a ogni numero scritto un bambino alza tutte e dieci le dita: la griglia cresce insieme alle mani alzate e le decine si vedono, oltre a sentirsi."
     ]
   },
+  "our-day": {
+    "slug": "la-nostra-giornata",
+    "name": "La nostra giornata",
+    "tagline": "L’agenda visiva della classe: carte illustrate e un sole che accompagna i bambini lungo tutta la giornata.",
+    "metaTitle": "Agenda visiva della giornata — scuola dell’infanzia e primaria",
+    "metaDescription": "Costruisci la giornata scolastica con carte illustrate: i bambini vedono cosa c’è adesso e cosa viene dopo. Agenda visiva calma, senza timer, in italiano.",
+    "about": [
+      "La nostra giornata è un’agenda visiva da proiettare in classe: una striscia di carte illustrate che racconta la giornata dall’accoglienza all’uscita. Si costruisce in mezzo minuto toccando le carte, poi un sole gentile accompagna la classe da un’attività all’altra: le carte finite si ripiegano con calma e restano visibili tutto il giorno. Ogni bambino vede che cosa c’è adesso e che cosa viene dopo — e quando il programma cambia, un piccolo rituale in tre tocchi mostra il cambio senza agitazione, con la vecchia attività ancora leggibile in piccolo, perché i bambini più ansiosi hanno bisogno di capire, non di indovinare.",
+      "Costruire e usare la giornata è gratuito, per sempre: tutte le carte, il sole, i cambi di programma e la modalità proiezione. Con Premium si aggiungono gli orari sulle carte, letti come si dice davvero — «La mensa comincia quando l’orologio segna mezzogiorno e mezzo» — la voce che annuncia le attività, i piani salvati per ogni giorno della settimana e la stampa della striscia da appendere in classe. Niente timer e niente conti alla rovescia: questo strumento non mette fretta a nessuno."
+    ],
+    "howToUse": [
+      "Tocca le carte a sinistra per comporre la giornata di oggi — una carta si può ripetere tutte le volte che serve.",
+      "Tocca «Inizia la giornata»: il sole si posa sulla prima attività.",
+      "Quando un’attività finisce, tocca il sole: la carta si ripiega e la classe sente che cosa c’è adesso.",
+      "Se il programma cambia, tocca la carta e scegli: cambia, togli o aggiungi — la vecchia attività resta indicata in piccolo."
+    ],
+    "classroomIdeas": [
+      "Nomina ogni mattina un responsabile della giornata: è lui o lei a far avanzare il sole — un incarico perfetto per la routine dell’infanzia.",
+      "Per i bambini che soffrono i cambiamenti, usa il cambio di programma come rituale fisso: si nomina ciò che oggi non c’è, si accoglie ciò che arriva.",
+      "Stampa la striscia della giornata e appendila accanto alla porta, oppure mettila sul banco di chi ha bisogno di averla sempre vicina."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

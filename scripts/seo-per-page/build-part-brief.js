@@ -27,6 +27,18 @@ function loadJSON(p, fallback) {
   try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return fallback; }
 }
 
+/* Real harvested demand for the language a cross-language page teaches.
+ * See harvest-crosslang-demand.js for why the main corpus lacks these. */
+const CROSSLANG = loadJSON(
+  path.join(ROOT, 'docs', 'SEO', 'harvests', 'crosslang-en.json'), { byLang: {} }).byLang || {};
+
+function crossLangFor(slug) {
+  const m = /^([a-z]+)-/.exec(String(slug || ''));
+  if (!m) return null;
+  const list = CROSSLANG[m[1]];
+  return list && list.length ? list.slice(0, 20) : null;
+}
+
 function build(partId, sliceSize, outDir) {
   const part = loadJSON(path.join(PARTS_DIR, `${partId}.json`));
   if (!part) throw new Error(`no part ${partId}`);
@@ -78,6 +90,13 @@ function build(partId, sliceSize, outDir) {
       },
       // demand signal only — never a formula to fill in
       demandCandidates: pool.slice(0, 25),
+      // For a cross-language page, the type pool offers generic word-search
+      // queries, which is the wrong intent: this page teaches Danish. Those
+      // phrasings were missing from the corpus entirely — not because nobody
+      // searches them, but because the corpus was seeded from our own taxonomy
+      // and never asked. Probing directly found real demand, dominated by
+      // "<language> words for kids" and "<language> worksheets for kids pdf".
+      crossLanguageDemand: crossLangFor(g.slug),
     };
   });
 

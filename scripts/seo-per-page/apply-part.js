@@ -141,7 +141,12 @@ const NUM_RE = '\\d{1,2}|one|two|three|four|five|six|seven|eight|nine|ten|eleven
  */
 const LEN_CLAIM = new RegExp(
   '([A-ZÆØÅÄÖÜÉÈ]{2,})\\s+(?:is|has|runs to|comes to|sits at|stands at)\\s+(?:just\\s+|only\\s+)?(' + NUM_RE + ')\\s+letters?'
-  + '|([A-ZÆØÅÄÖÜÉÈ]{2,})[^.!?]{0,20}?\\bat\\s+(' + NUM_RE + ')\\s+letters?',
+  // "HIMBEERE, at eight letters" — but the gap must not skip OVER another
+  // capitalised word, or "KIWI simply KIWI, and HIMBEERE, at eight letters"
+  // pins HIMBEERE's correct count on KIWI (the third false positive this check
+  // produced; it has found 2 real errors and 4 false ones, so every widening
+  // gets paid for in wrongly-accused good writing).
+  + '|([A-ZÆØÅÄÖÜÉÈ]{2,})[^.!?A-ZÆØÅÄÖÜÉÈ]{0,12}\\bat\\s+(' + NUM_RE + ')\\s+letters?',
   'gi');
 
 function letterCountLies(text, sheetWords) {

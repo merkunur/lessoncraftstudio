@@ -64,6 +64,19 @@ const WRONG_INTENT = new RegExp('(' + [
   // an artefact word, though a poster is not what is on the other end.
   '\\bposters?\\b', '\\bbanners?\\b', '\\bbunting\\b', '\\bdecor\\b',
   '\\bdisplay\\b', '\\blabels?\\b', '\\bname tags?\\b', '\\bborders?\\b',
+  '\\btemplates?\\b',
+  /* SPECIAL EDUCATIONAL NEEDS — never claimed.
+   *
+   * "free printable worksheets for autistic students" was fitted to a generic
+   * German crossword. A parent searching that needs materials genuinely designed
+   * for their child — predictable structure, reduced sensory load, considered
+   * language — and we publish none. Taking that click is worse than missing it:
+   * it wastes the time of someone who had little to spare, on a promise we
+   * cannot keep. This is not an SEO trade-off. */
+  'autis\\w*', '\\basd\\b', '\\badhd\\b', 'dyslexi\\w*', 'dyspraxi\\w*',
+  'special needs', 'special education', '\\bsen\\b', '\\bsend\\b', '\\biep\\b',
+  'speech therapy', 'occupational therapy', 'sensory', 'down syndrome',
+  'learning disab\\w*', 'nonverbal', 'non-verbal',
 ].join('|') + ')', 'i');
 
 /* TWO signals, not one.

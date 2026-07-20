@@ -115,6 +115,85 @@ const TOO_YOUNG = ['1 year old', '1 year olds', '2 year old', '2 year olds',
   'baby', 'babies', 'infant', 'infants'];
 const SUBJECT_WORDS = Object.keys(SUBJECT_OWNERS);
 
+/* ARTEFACT CLAIMS — the same permissive-OR bug as subjects, one level up.
+ *
+ * The bank filter accepts a phrase containing ANY artefact word, so "printable
+ * masks for kids" passes on "printable" and reached a German crossword page,
+ * along with stickers, booklets, flashcards, memory games and cutting practice.
+ * I had already patched exactly this shape once by blacklisting "posters".
+ * Patching masks, then stickers, then booklets is a list that is never finished.
+ *
+ * So an artefact word is OWNED, like a subject: only the types that actually
+ * produce that thing may claim it. Words for things we do not publish own
+ * nothing, which makes them unwearable by construction — no blacklist to keep
+ * up to date, and a new junk artefact fails closed instead of shipping.
+ */
+const ANY_TYPE = '*';
+const ARTEFACT_OWNERS = {
+  // generic — anything we publish is one of these
+  worksheet: ANY_TYPE, worksheets: ANY_TYPE, printable: ANY_TYPE, printables: ANY_TYPE,
+  'activity sheet': ANY_TYPE, 'activity sheets': ANY_TYPE, 'activity page': ANY_TYPE,
+  'activity pages': ANY_TYPE, 'practice sheet': ANY_TYPE, 'practice sheets': ANY_TYPE,
+  'work sheet': ANY_TYPE, 'work sheets': ANY_TYPE, handout: ANY_TYPE, handouts: ANY_TYPE,
+  workbook: ANY_TYPE, workbooks: ANY_TYPE,
+  // specific — only the type that makes it
+  crossword: ['crossword'], crosswords: ['crossword'],
+  'word search': ['wordsearch'], 'word searches': ['wordsearch'], wordsearch: ['wordsearch'],
+  maze: ['picture-path', 'picture-trail', 'treasure-hunt'],
+  mazes: ['picture-path', 'picture-trail', 'treasure-hunt'],
+  sudoku: ['sudoku'], bingo: ['bingo'],
+  puzzle: ['crossword', 'wordsearch', 'sudoku', 'math-puzzle', 'missing-pieces',
+    'picture-path', 'picture-trail', 'treasure-hunt', 'word-scramble', 'cryptogram',
+    'grid-match', 'visual-logic'],
+  puzzles: ['crossword', 'wordsearch', 'sudoku', 'math-puzzle', 'missing-pieces',
+    'picture-path', 'picture-trail', 'treasure-hunt', 'word-scramble', 'cryptogram',
+    'grid-match', 'visual-logic'],
+  matching: ['matching', 'shadow-match', 'grid-match', 'science-match', 'visual-matching'],
+  sorting: ['picture-sort', 'sorting-categories', 'odd-one-out'],
+  'cut and paste': ['picture-sort', 'missing-pieces', 'alphabet-train'],
+  // things we do NOT publish: owned by nobody, therefore never wearable
+  mask: [], masks: [], sticker: [], stickers: [], booklet: [], booklets: [],
+  flashcard: [], flashcards: [], 'flash card': [], 'flash cards': [],
+  'memory game': [], 'memory games': [], 'cutting practice': [], 'task card': [],
+  'task cards': [], 'colouring page': [], 'colouring pages': [],
+  'coloring page': [], 'coloring pages': [], tracing: [],
+};
+const ARTEFACT_WORDS = Object.keys(ARTEFACT_OWNERS)
+  .sort((a, b) => b.length - a.length);   // longest first: "word search" before "search"
+
+/* Every type's OWN NAME is a subject only it may claim — derived, not listed.
+ *
+ * A find-and-count page was fitted with "printable big and small worksheets",
+ * because "big or small" is a different worksheet type and my hand-written
+ * SUBJECT_OWNERS did not mention it. That list has now been one word short five
+ * times (math/maths, number, initial sound, big and small...). Hand-maintaining
+ * a vocabulary that must cover 60 types is the wrong shape.
+ *
+ * The taxonomy already names every type. Take those names as owned subject
+ * words, so adding a worksheet type to the catalogue extends this automatically
+ * and a name I never thought of still fails closed.
+ */
+function deriveTypeNameOwners(locale) {
+  const tax = JSON.parse(fs.readFileSync(
+    path.join(ROOT, 'frontend', 'config', 'topics-taxonomy.json'), 'utf8')).axes || {};
+  const owners = {};
+  const STOP = new Set(['worksheet', 'worksheets', 'picture', 'pictures', 'kids',
+    'and', 'the', 'for', 'with', 'from']);
+  for (const [key, e] of Object.entries(tax['exercise-type'] || {})) {
+    const name = (e.name && (e.name[locale] || e.name.en)) || '';
+    const words = String(name).toLowerCase().replace(/[^\p{L}\s]/gu, ' ').split(/\s+/)
+      .filter((w) => w.length > 3 && !STOP.has(w));
+    // the full name, and each distinctive word in it, belong to this type
+    const phrases = [String(name).toLowerCase().trim(), ...words].filter(Boolean);
+    for (const ph of phrases) {
+      if (!ph || ph.length < 4) continue;
+      owners[ph] = owners[ph] || [];
+      if (!owners[ph].includes(key)) owners[ph].push(key);
+    }
+  }
+  return owners;
+}
+
 function buildMatchers(locale) {
   const tax = JSON.parse(fs.readFileSync(
     path.join(ROOT, 'frontend', 'config', 'topics-taxonomy.json'), 'utf8')).axes || {};
@@ -123,11 +202,12 @@ function buildMatchers(locale) {
     const n = (e.name && (e.name[locale] || e.name.en)) || key.replace(/_/g, ' ');
     themeName.set(key, String(n).toLowerCase().replace(/\s+\d+$/, '').trim());
   }
+  const derived = deriveTypeNameOwners(locale);
   const themeVocab = [...new Set([...themeName.values()])].filter((t) => t.length > 3);
   const themeRe = new RegExp('\\b(' + themeVocab.map(esc).join('|') + ')\\b', 'i');
   const levelRe = new RegExp('\\b(' + ALL_LEVEL_WORDS.map(esc).join('|') + ')\\b', 'i');
   const langRe = new RegExp('\\b(' + LANGUAGES.join('|') + ')\\b', 'i');
-  return { themeName, themeRe, levelRe, langRe };
+  return { themeName, themeRe, levelRe, langRe, derived };
 }
 
 /** Attributes a phrase CLAIMS. Anything claimed must be true of the wearer. */
@@ -153,12 +233,17 @@ function claimsOf(phrase, m) {
    * missing plural at a time is how this vocabulary has been wrong three times,
    * so match both forms instead of adding another entry. */
   const subjects = new Set();
+  const derivedWords = Object.keys((m && m.derived) || {});
+  for (const w of derivedWords) if (p.includes(' ' + w + ' ')) subjects.add(w);
   for (const w of SUBJECT_WORDS) {
     const singular = w.replace(/s$/, '');
     if (p.includes(' ' + w + ' ') || p.includes(' ' + singular + ' ')
       || p.includes(' ' + singular + 's ')) subjects.add(w);
   }
-  return { levels, themes, langs, foreign, subjects };
+  // artefacts the phrase claims to be
+  const artefacts = new Set();
+  for (const w of ARTEFACT_WORDS) if (p.includes(' ' + w + ' ')) artefacts.add(w);
+  return { levels, themes, langs, foreign, subjects, artefacts, derived: (m && m.derived) || {} };
 }
 
 function pageAttrs(l, m) {
@@ -191,8 +276,14 @@ function wearable(claims, attrs) {
   if (claims.foreign) return false;
   // a claimed subject must be one this worksheet type actually teaches
   for (const sub of claims.subjects) {
-    const owners = SUBJECT_OWNERS[sub] || [];
+    const owners = SUBJECT_OWNERS[sub] || (claims.derived && claims.derived[sub]) || [];
     if (!owners.includes(attrs.type)) return false;
+  }
+  // a claimed artefact must be a thing this page actually IS
+  for (const art of claims.artefacts) {
+    const owners = ARTEFACT_OWNERS[art];
+    if (owners === ANY_TYPE) continue;
+    if (!Array.isArray(owners) || !owners.includes(attrs.type)) return false;
   }
   return true;
 }

@@ -136,6 +136,7 @@ function checkOne(slug, block, f, fails) {
    * skill. 472 operations across 390 live decks claimed a difficulty their sheet does not
    * have. Recomputing independently means a future regression in the deriver shows up here
    * instead of shipping. */
+  // the ten-crossing assertions below only make sense for families that can cross
   var recount = 0;
   var citedAsCrossing = [];
   (f.operations || []).forEach(function (o) {
@@ -198,6 +199,39 @@ function checkOne(slug, block, f, fails) {
   }
   if (/Motiv mit [A-ZÄÖÜ]/.test(text)) {
     add('theme', 'uses "mit <Thema>" which needs a dative plural; only "zum Thema X" is case-safe');
+  }
+
+  /* F2. PICTURE-ARITHMETIC FAMILY — two claims it must never make.
+   *
+   * These sheets are not jigsaws. They have no reveal picture, so nothing on the paper tells
+   * a child they are wrong; there is an answer key and a browser version that checks. And no
+   * deck in the family contains a ten-crossing, so any crossing language would be describing
+   * a difficulty that is not there — the same overstatement that had to be corrected on 390
+   * math-puzzle decks. Both practitioners ruled on this independently. */
+  if (f.type === 'addition' || f.type === 'subtraction') {
+    if (/selbst (kontrolliert|korrigiert)|kontrolliert sich selbst|self-correct|corrects itself|Lösungsbild|reveal picture/i.test(text)) {
+      add('overclaim', 'claims self-correction on a sheet that has no reveal picture');
+    }
+    if (/Zehnerübergang|tienoverschrijding|passage de la dizaine|pasar de la decena|passaggio della decina|passar do dez|tiotalsövergång|tierovergang|kymmenalitus|crosses 10|crossing 10/i.test(text)) {
+      add('overclaim', 'uses ten-crossing language on a family where no deck crosses ten');
+    }
+    /* Every object named must actually be pictured on THIS sheet — asserted against the
+     * list the builder RECORDED, not by scanning prose.
+     *
+     * The first version matched capitalised words and flagged anything that merely PREFIXED
+     * an object name: "Sechs" (the first word of the German sentence) collided with the
+     * pictured "Sechseck", and "Flip" with "Flip Flops" — 228 false failures. It was also
+     * trying to catch something the generator cannot do, since the copy only ever draws from
+     * depictedNouns. Comparing the two lists is exact and cannot be fooled by prose. */
+    var pictured = {};
+    (f.depictedNouns || []).forEach(function (n) { pictured[String(n).toLowerCase()] = true; });
+    (block.namedObjects || []).forEach(function (n) {
+      if (!pictured[String(n).toLowerCase()]) {
+        add('objects', 'names ' + n + ' which is not pictured on this sheet');
+      } else if (text.indexOf(n) === -1) {
+        add('objects', 'records ' + n + ' as named but it does not appear in the text');
+      }
+    });
   }
 
   /* G. things the ensemble ruled out entirely */

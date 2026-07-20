@@ -102,7 +102,7 @@ function renderHtml(copy, facts) {
   // German bans age-in-years outright. The renderer stays agnostic; the copy system decides.
   chips.push(copy.chipRange);
   chips.push(copy.chipMode);
-  chips.push(copy.chipTen);
+  if (copy.chipTen) chips.push(copy.chipTen);
   if (copy.chipLevel) chips.push(copy.chipLevel);
 
   var lines = [];
@@ -126,8 +126,10 @@ function renderHtml(copy, facts) {
   // The deck's own nine operations, visible. Both the teacher's fastest check and the
   // page's structural fingerprint (see teaching-copy/de.js taskList).
   if (copy.taskList) lines.push('  <p class="lcs-teaching-tasks">' + esc(copy.taskList) + '</p>');
-  lines.push('  <h2>' + esc(copy.heading2) + '</h2>');
-  lines.push('  <p>' + esc(copy.block2) + '</p>');
+  if (copy.heading2 && copy.block2) {
+    lines.push('  <h2>' + esc(copy.heading2) + '</h2>');
+    lines.push('  <p>' + esc(copy.block2) + '</p>');
+  }
   lines.push('  <h2>' + esc(copy.heading3) + '</h2>');
   lines.push('  <p>' + esc(copy.block3) + '</p>');
   if (copy.blockExtras) lines.push('  <p>' + esc(copy.blockExtras) + '</p>');
@@ -152,12 +154,26 @@ function main() {
   var outPath = arg('out', '/tmp/teaching-blocks-' + locale + '.json');
   var limit = parseInt(arg('limit', '0'), 10);
 
+  // Route by FAMILY, not just locale. math-puzzle has a per-locale module because its copy
+  // needs per-locale rules (band vs true maximum, ten-crossing phrasing). Picture-arithmetic
+  // has no such rules — every deck is within 10 with no crossing — so all locales share one
+  // module with a per-locale string table.
+  var family = arg('family', 'math-puzzle');
   var copySystem;
-  try {
-    copySystem = require('./teaching-copy/' + locale + '.js');
-  } catch (e) {
-    console.error('no authored copy system for locale ' + locale + ' — a native ensemble must author it first (§21.3)');
-    process.exit(2);
+  if (family === 'picture-arith') {
+    var pa = require('./teaching-copy/picture-arith.js');
+    if (pa.locales.indexOf(locale) === -1) {
+      console.error('no authored picture-arithmetic copy for ' + locale + ' yet (§21.3)');
+      process.exit(2);
+    }
+    copySystem = { build: function (f, ord) { return pa.build(f, ord, locale); } };
+  } else {
+    try {
+      copySystem = require('./teaching-copy/' + locale + '.js');
+    } catch (e) {
+      console.error('no authored copy system for locale ' + locale + ' — a native ensemble must author it first (§21.3)');
+      process.exit(2);
+    }
   }
 
   var facts = JSON.parse(fs.readFileSync(factsPath, 'utf8'));
@@ -181,6 +197,7 @@ function main() {
     if (!f.themeName) { missingTheme++; f.themeName = null; }
 
     var copy = copySystem.build(f, ordinal);
+    if (!copy) continue;   // an unauthored mode yields NO block, never a vague one
     var key = copy.shapes.block1 + '/' + copy.shapes.block2 + '/' + copy.shapes.block3;
     shapeUse[key] = (shapeUse[key] || 0) + 1;
 
@@ -188,6 +205,7 @@ function main() {
       html: renderHtml(copy, f),
       text: plainText(copy),
       shapes: copy.shapes,
+      namedObjects: copy.namedObjects || [],
       // carried for the verifier: every claim must trace back to these
       facts: {
         mode: f.mode, maxSeen: f.band.maxSeen, tenCase: f.tenCase,

@@ -163,7 +163,15 @@ function main() {
   failures.slice(0, 20).forEach(function (f) { console.log('    - ' + f); });
 
   if (heldSlugs.length) {
-    var hp = '/tmp/teaching-holdout-' + locale + '.json';
+    /* The holdout list is keyed by the BLOCKS FILE, not just the locale.
+     *
+     * It was `/tmp/teaching-holdout-<locale>.json`, so injecting a second deck type for the
+     * same locale silently overwrote the first type's record. Membership itself is a
+     * deterministic hash of the slug and was never wrong, so nothing was mis-held — but the
+     * measurement record is the whole point of holding decks back, and losing it would mean
+     * discovering at week 8 that we cannot tell which pages were the control. */
+    var tag = path.basename(blocksPath).replace(/\.json$/, '');
+    var hp = '/tmp/teaching-holdout-' + tag + '.json';
     if (!opts.dryRun) fs.writeFileSync(hp, JSON.stringify(heldSlugs, null, 1));
     console.log('  holdout list -> ' + hp);
   }

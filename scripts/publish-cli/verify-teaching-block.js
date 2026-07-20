@@ -164,7 +164,12 @@ function checkOne(slug, block, f, fails) {
   }
 
   /* G. things the ensemble ruled out entirely */
-  if (/["„“”‘’]/.test(text)) add('forbidden', 'contains a quotation mark (breaks the SWC build)');
+  /* Quotation marks break the SWC build inside single-quoted strings — but U+2019 is also
+   * the correct French apostrophe (`jusqu’à`, `l’addition`), and blanket-banning it reported
+   * all 146 French blocks as defective. An apostrophe sits BETWEEN letters; an opening quote
+   * never does. So U+2019 is only a violation in quote position. */
+  if (/["„“”‘]/.test(text)) add('forbidden', 'contains a quotation mark (breaks the SWC build)');
+  if (/(^|[\s(])[’]/.test(text)) add('forbidden', 'U+2019 in opening-quote position (an apostrophe never starts a word)');
   if (/Common Core/i.test(text)) add('forbidden', 'mentions Common Core on a German page');
   if (/\d+\s*[-–]\s*\d+\s*Jahre|für \d+-Jährige/.test(text)) add('forbidden', 'states an age in years; German material is banded by Klasse');
   if (/Lernstandserhebung|Diagnose|Förderbedarf|Lernzielkontrolle/i.test(text)) {

@@ -631,8 +631,23 @@ function composeOne(l, row, ctx) {
   ].filter(Boolean);
   const tail = [level, demoted].filter(Boolean);
 
-  let title = [head.join(' '), body.join(' ')].filter(Boolean).join(' ').trim();
+  // A caller-supplied token that MUST land inside the visible budget. Used by the
+  // repair pass in apply-demand-titles.js for the pages whose real differentiator
+  // otherwise falls past character 50 — Google truncates there, so two titles that
+  // differ only after it present identically. Placed right behind the head, which
+  // is the earliest position that still reads naturally.
+  const early = (ctx.forceEarly && ctx.forceEarly.get) ? ctx.forceEarly.get(l.slug) : null;
+
+  let title = [head.join(' '), early || null, body.join(' ')].filter(Boolean).join(' ').trim();
   if (tail.length) title += `${S.sep}${tail.join(', ')}`;
+
+  // Some landings share a COMPLETE coordinate with a sibling — 109 es pages in 48
+  // groups, zero in every other locale (measured). They are genuine multiple
+  // instances of one teaching point, so no coordinate component can separate them.
+  // match-demand.js already assigns each a stable slug-sorted ordinal for exactly
+  // this; read it rather than inventing a second scheme.
+  const ordinal = row && row.variantOrdinal ? row.variantOrdinal : null;
+  if (ordinal && ordinal > 1) title += ` (${ordinal})`;
   // One format cue for CTR. Never the thing that distinguishes two pages —
   // pdf/printable/free all collapse to the same SERP.
   const cue = ` | ${S.free} ${S.print}`;
@@ -676,5 +691,5 @@ function buildMeta({ l, S, descriptor, theme, level, factBits }) {
 
 module.exports = {
   SURFACE, NATIVE_LEAD, EDGE_STOPWORDS, TITLE_SOFT_CAP, META_MIN, META_MAX,
-  loadOverrides, loadEngine, loadCorpus, corpusHas, corpusHasCompound, demandLeadForType, composeOne, chromeTokens, engineOp, opVariesByMode, themeDisplayFor, BW_LABEL, buildLeadMap, assertEngineAdapters, engineQual, engineRange,
+  loadOverrides, loadEngine, loadCorpus, taxonomyName, corpusHas, corpusHasCompound, demandLeadForType, composeOne, chromeTokens, engineOp, opVariesByMode, themeDisplayFor, BW_LABEL, buildLeadMap, assertEngineAdapters, engineQual, engineRange,
 };

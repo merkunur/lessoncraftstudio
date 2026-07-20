@@ -61,6 +61,102 @@ function buildContext(locale) {
   return ctx;
 }
 
+/**
+ * Pull each colliding page's real differentiator inside the visible budget.
+ *
+ * The titles in a colliding group are usually already DISTINCT — just not within
+ * the first 50 characters, which is where Google truncates, so they present
+ * identically:
+ *
+ *   In giro per casa Schede di addizioni entro il 20 con le immagini Immagine-Immagine
+ *   In giro per casa Schede di addizioni entro il 20 con immagini e numeri Immagine-Numero
+ *                                                     ^ first difference at char ~52
+ *
+ * This is a REPAIR PASS, not a global reorder. It re-composes only the pages that
+ * collide, so the locales already at zero stay byte-identical. That constraint is
+ * the lesson from the previous iteration: a global rule that fixed 49 en
+ * collisions created 259 fr ones. Fixing 159 pages must not put the ~30,000 that
+ * are already correct at risk.
+ */
+function repairPrefixCollisions(composed, rows, ctx) {
+  const groupsOf = (items) => {
+    const m = new Map();
+    for (const it of items) {
+      const k = it.out.title.slice(0, PREFIX_LEN).toLowerCase().trim();
+      if (!m.has(k)) m.set(k, []);
+      m.get(k).push(it);
+    }
+    return [...m.values()].filter((g) => g.length > 1);
+  };
+
+  let repairedCount = 0;
+  const forceEarly = new Map();
+
+  for (const group of groupsOf(composed)) {
+    // Which coordinate axis actually separates these pages?
+    const axes = ['mode', 'level', 'letter', 'target'];
+    const differing = axes.filter((a) => new Set(group.map((g) => String((g.l.coordinate || {})[a]))).size > 1);
+
+    for (const it of group) {
+      const c = it.l.coordinate || {};
+      let token = null;
+      for (const a of differing) {
+        if (a === 'mode' && c.mode) token = C.taxonomyName('exercise-mode', c.mode, ctx.locale);
+        if (!token && a === 'level' && c.level) token = engineLevelLabel(c.level, ctx);
+        if (!token && a === 'letter' && c.letter) token = String(c.letter).toUpperCase();
+        if (token) break;
+      }
+      // No coordinate difference at all -> a true duplicate (109 es pages). The
+      // ordinal composeOne appends is the only honest separator, but appended it
+      // lands PAST character 50 on a long title and the prefix still collides —
+      // which is why es stayed at 48 groups when the ordinal alone was added. Pull
+      // it into the visible budget like any other differentiator.
+      if (!token) {
+        const row = rows.get(it.l.slug);
+        const ord = row && row.variantOrdinal;
+        if (ord && ord > 1) token = `(${ord})`;
+      }
+      if (token) forceEarly.set(it.l.slug, token);
+    }
+  }
+
+  const applyAndRecompose = () => {
+    const ctx2 = { ...ctx, forceEarly };
+    for (const it of composed) {
+      if (!forceEarly.has(it.l.slug)) continue; // untouched pages stay byte-identical
+      it.out = C.composeOne(it.l, rows.get(it.l.slug), ctx2);
+    }
+  };
+
+  if (forceEarly.size) { applyAndRecompose(); repairedCount = forceEarly.size; }
+
+  // A single pass leaves a residue: a group can share a prefix for more than one
+  // reason (e.g. same mode AND a long descriptor), so the first token chosen does
+  // not always separate it. Iterate, and fall back to an explicit numbered variant
+  // — honest and always separating — rather than shipping a collision.
+  for (let round = 0; round < 3; round++) {
+    const still = groupsOf(composed);
+    if (!still.length) break;
+    for (const group of still) {
+      group.slice().sort((a, b) => (a.l.slug < b.l.slug ? -1 : 1)).forEach((it, i) => {
+        if (i === 0) return; // the first keeps the clean title
+        const prev = forceEarly.get(it.l.slug);
+        const suffix = `(${i + 1})`;
+        forceEarly.set(it.l.slug, prev && !prev.startsWith('(') ? `${prev} ${suffix}` : suffix);
+      });
+    }
+    applyAndRecompose();
+    repairedCount = forceEarly.size;
+  }
+  return repairedCount;
+}
+
+/** Level label via the locale's engine, mirroring the composer's own resolution. */
+function engineLevelLabel(level, ctx) {
+  const g = ctx.engine && ctx.engine.GRADE_LABEL && ctx.engine.GRADE_LABEL[level];
+  return g || null;
+}
+
 function runLocale(locale, opts) {
   const file = path.join(LANDING_DIR, `${locale}.json`);
   const matchFile = path.join(MATCH_DIR, `${locale}.json`);
@@ -77,6 +173,8 @@ function runLocale(locale, opts) {
 
   const composed = [];
   for (const l of landings) composed.push({ l, out: C.composeOne(l, rows.get(l.slug), ctx) });
+
+  const repaired = repairPrefixCollisions(composed, rows, ctx);
 
   // ---- pre-checks, all fail-closed ------------------------------------------
   const problems = [];

@@ -59,6 +59,11 @@ const WRONG_INTENT = new RegExp('(' + [
   '\\bseniors?\\b', '\\belderly\\b', '\\badults?\\b', 'gradebook', 'grade book',
   '\\bassessment\\b', '\\btests?\\b', '\\bexams?\\b', 'certificate', '\\bawards?\\b',
   'lesson plan', 'report card', 'attendance', '\\broster\\b', '\\bplanner\\b',
+  // Classroom decor we do not publish. "Printable English Posters for the
+  // Classroom" reached a treasure-hunt page: it passed because "printable" is
+  // an artefact word, though a poster is not what is on the other end.
+  '\\bposters?\\b', '\\bbanners?\\b', '\\bbunting\\b', '\\bdecor\\b',
+  '\\bdisplay\\b', '\\blabels?\\b', '\\bname tags?\\b', '\\bborders?\\b',
 ].join('|') + ')', 'i');
 
 /* TWO signals, not one.
@@ -79,7 +84,11 @@ const AUDIENCE = /\b(kids?|children|child|toddlers?|preschool\w*|kindergarten\w*
 function classify(q) {
   if (!ARTEFACT.test(q)) return 'not-a-printable';
   if (!AUDIENCE.test(q)) return 'no-child-audience';
-  if (!EDU.test(q)) return 'no-edu-signal';
+  /* The old single-signal EDU test is NOT applied here any more. It is
+   * subsumed by ARTEFACT + AUDIENCE, which is strictly stronger, and left in
+   * the chain it only produced false rejections: "workbooks for 5 year olds"
+   * was thrown out as having no education signal, because EDU happened not to
+   * list "workbook". Kept as an export for the earlier callers. */
   if (OFF_DOMAIN.test(q)) return 'off-domain';
   if (ABOVE_K3.test(q)) return 'above-k3';
   if (WRONG_INTENT.test(q)) return 'wrong-intent';

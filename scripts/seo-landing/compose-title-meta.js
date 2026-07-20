@@ -367,6 +367,226 @@ function buildLeadMap(locale, overrides, corpus) {
   return out;
 }
 
+/* ===========================================================================
+ * PER-PAGE FRAMING ASSIGNMENT
+ *
+ * Every page is individually valuable, so every page gets the query that best
+ * describes IT — not a phrase shared with the other 500 pages of its type.
+ *
+ * Measured before this existed: 3,143 en pages across 14 types shared 14 lead
+ * phrases while the pools held 1,920 usable alternatives. Six alphabet-train
+ * pages with genuinely different content (flags/stars/drum, hats/belts/scarf,
+ * cat/sheep/hen) all read "… Alphabet Train – Preschool".
+ *
+ * A framing is scored against THIS page's own coordinate and pictures, so the
+ * preschool page takes a preschool query and the letter-B page takes the letter-B
+ * query. Assignment is greedy over slug-sorted pages and each framing is claimed
+ * once, so the fit is real rather than a round-robin shuffle. Deterministic, so a
+ * page keeps its framing across regenerations (§21.5a).
+ * =========================================================================== */
+
+const LEVEL_HINTS = {
+  preschool: /preschool|pre-k|nursery|vorschule|maternelle|preescolar|infanzia|kleuter|förskola|forskola|børnehave|barnehage|esiopetus|educação infantil/i,
+  kindergarten: /kindergarten|reception|kinder|jardin|kínder|groep 2|förskoleklass|børnehaveklasse|skolestartere|eskari/i,
+  'grade-1': /grade 1|1st grade|first grade|klasse 1|1\. klasse|\bcp\b|primer grado|classe prima|groep 3|åk 1|1\. trinn|1\. luokka|1º ano/i,
+  'grade-2': /grade 2|2nd grade|second grade|klasse 2|2\. klasse|\bce1\b|segundo grado|classe seconda|groep 4|åk 2|2\. trinn|2\. luokka|2º ano/i,
+};
+const SEASONAL = /christmas|halloween|easter|thanksgiving|valentine|winter|spring|summer|autumn|weihnacht|ostern|jul|påske|navidad|pascua|natal|natale|pasqua|kerst|pasen|joulu/i;
+
+function scoreFramingForPage(framing, page, ctx, rankBonus) {
+  const locale = ctx && ctx.locale ? ctx.locale : ctx;
+  const c = page.coordinate || {};
+  const f = framing.toLowerCase();
+  let s = rankBonus;
+
+  // Level: a preschool page must not advertise itself as grade 2.
+  const lv = LEVEL_HINTS[c.level];
+  if (lv && lv.test(f)) s += 6;
+  for (const [k, re] of Object.entries(LEVEL_HINTS)) {
+    if (k !== c.level && re.test(f)) s -= 5; // wrong level is worse than no level
+  }
+
+  // Letter — the most specific signal a page can carry, and the most damaging to
+  // get wrong. A framing naming a letter must only go to THAT letter's page:
+  // "free printable letter x worksheets" was handed to the 4th-of-July page in the
+  // first run, which is simply a false promise to the searcher.
+  const namesLetter = /\b(?:letter|bokstav|buchstabe|letra|lettre|lettera|kirjain)\s+([a-zåäöæøü])\b/i.exec(f);
+  if (c.letter) {
+    const L = String(c.letter).toLowerCase();
+    if (namesLetter && namesLetter[1].toLowerCase() === L) s += 12;
+    else if (namesLetter) s -= 20;                       // names a DIFFERENT letter
+    else if (new RegExp('\\b' + L + ' worksheet', 'i').test(f)) s += 6;
+  } else if (namesLetter) {
+    s -= 20; // page has no letter at all
+  }
+
+  // Mode / skill wording. `distinctive` carries, per mode, the words that belong
+  // to THIS mode and not its siblings — computed once per type from the engine's
+  // per-mode operation names.
+  //
+  // This is where mode-fit is enforced, deliberately NOT by splitting the pool.
+  // Splitting starved small pools (find-objects::i-spy went 34 -> 0 framings) or
+  // achieved nothing when the split pools re-inherited the type vocabulary
+  // (big-small::findBig and ::orderAsc came out byte-identical). Scoring keeps
+  // every candidate available while still preventing a counting query from
+  // landing on a beginning-sounds page.
+  if (c.mode && ctx.distinctive) {
+    const mine = ctx.distinctive.get(`${c.type}::${c.mode}`);
+    if (mine && mine.size) {
+      for (const w of mine) if (f.includes(w)) { s += 9; break; }
+    }
+    const others = ctx.distinctive.get(`${c.type}::__others__::${c.mode}`);
+    if (others && others.size) {
+      for (const w of others) if (f.includes(w)) { s -= 14; break; } // another mode's purpose
+    }
+  }
+  if (c.mode) {
+    const modeName = taxonomyName('exercise-mode', c.mode, locale);
+    if (modeName && toks(modeName).some((t) => t.length > 3 && f.includes(t))) s += 4;
+  }
+
+  // Season: a Christmas page should take a Christmas query when one exists, and a
+  // non-seasonal page should never be handed one.
+  const themeName = c.theme ? String(c.theme).replace(/_/g, ' ').toLowerCase() : '';
+  const pageSeasonal = SEASONAL.test(themeName);
+  if (pageSeasonal && SEASONAL.test(f)) s += 8;
+  if (!pageSeasonal && SEASONAL.test(f)) s -= 6;
+
+  // The actual pictures on the sheet.
+  const nouns = (page.slotTokens || []).map((t) => String(t).toLowerCase()).filter((t) => t.length > 3);
+  for (const n of nouns) if (f.includes(n)) { s += 3; break; }
+  if (themeName && themeName.length > 3 && f.includes(themeName)) s += 5;
+
+  return s;
+}
+
+/**
+ * slug -> framing for a whole locale. Computed per locale because the claim-once
+ * rule is global to a type, not per page.
+ */
+
+/**
+ * Per (type, mode): the words that identify THIS mode's purpose and not its
+ * siblings'. Derived from the engine's own per-mode operation names, so it is
+ * native to the locale and needs no hand-authored list.
+ *
+ *   find-and-count  letter-spotting -> "Beginning Sounds"  => sounds, beginning
+ *                   spot-and-count  -> "Find and Count"    => count, find
+ *
+ * Shared words (e.g. "Patterns" across AAB/ABB/AABB) drop out, so parameter
+ * variants of one worksheet contribute nothing and are left to the theme/level
+ * differentiators — which is correct: they ARE the same worksheet with a setting
+ * changed.
+ */
+function buildModeDistinctiveWords(landings, engine) {
+  const modesByType = new Map();
+  for (const l of landings) {
+    const c = l.coordinate || {};
+    if (!c.type || c.mode == null) continue;
+    if (!modesByType.has(c.type)) modesByType.set(c.type, new Set());
+    modesByType.get(c.type).add(c.mode);
+  }
+  const out = new Map();
+  for (const [type, modes] of modesByType) {
+    if (modes.size < 2) continue;
+    const words = new Map();
+    for (const m of modes) {
+      const op = engineOp(type, { type, mode: m, level: null }, null, engine) || '';
+      words.set(m, new Set(toks(op).filter((w) => w.length > 3)));
+    }
+    for (const m of modes) {
+      const mine = new Set(words.get(m));
+      const others = new Set();
+      for (const [m2, ws] of words) {
+        if (m2 === m) continue;
+        for (const w of ws) others.add(w);
+      }
+      // a word shared with any sibling mode identifies nothing
+      for (const w of [...mine]) if (others.has(w)) mine.delete(w);
+      const otherOnly = new Set([...others].filter((w) => !words.get(m).has(w)));
+      out.set(type + '::' + m, mine);
+      out.set(type + '::__others__::' + m, otherOnly);
+    }
+  }
+  return out;
+}
+
+/**
+ * A framing naming a specific letter is only ever eligible for that letter's
+ * page. Scoring it down was not enough — where a pool is exhausted the fallback
+ * still selected one, leaving 301 en pages promising a letter they do not teach.
+ */
+const NAMES_LETTER = /\b(?:letter|bokstav|buchstabe|letra|lettre|lettera|kirjain)\s+([a-z\u00e5\u00e4\u00f6\u00e6\u00f8\u00fc])\b/i;
+function letterEligible(framing, coordinate) {
+  const m = NAMES_LETTER.exec(framing);
+  if (!m) return true;
+  const pageLetter = coordinate && coordinate.letter ? String(coordinate.letter).toLowerCase() : null;
+  return !!pageLetter && m[1].toLowerCase() === pageLetter;
+}
+
+function buildFramingAssignment(locale, landings, pools, engine) {
+  const out = new Map();
+  if (!pools) return out;
+  const distinctive = engine ? buildModeDistinctiveWords(landings, engine) : new Map();
+  const sctx = { locale: locale, distinctive: distinctive };
+  const byType = new Map();
+  for (const l of landings) {
+    const t = l.coordinate && l.coordinate.type;
+    if (!t) continue;
+    if (!byType.has(t)) byType.set(t, []);
+    byType.get(t).push(l);
+  }
+  for (const [type, pages] of byType) {
+    const pool = (pools[type] && pools[type].framings) || [];
+    if (!pool.length) continue; // no evidence for this type — keep the existing lead
+    const rank = new Map(pool.map((q, i) => [q, Math.max(0, 8 - Math.floor(i / 10))]));
+    const claimed = new Set();
+    const ordered = pages.slice().sort((a, b) => (a.slug < b.slug ? -1 : 1));
+    for (const page of ordered) {
+      // Purpose-correct candidates only. A framing carrying a sibling mode's
+      // distinctive vocabulary describes a different worksheet.
+      const c0 = page.coordinate || {};
+      const otherWords = c0.mode ? distinctive.get(c0.type + '::__others__::' + c0.mode) : null;
+      const purposeOk = (q) => {
+        if (!letterEligible(q, c0)) return false;
+        if (otherWords && otherWords.size) {
+          const lq = q.toLowerCase();
+          for (const w of otherWords) if (lq.includes(w)) return false;
+        }
+        return true;
+      };
+      const eligible = pool.filter(purposeOk);
+      const candidates = eligible.length ? eligible : pool.filter((q) => letterEligible(q, c0));
+      let best = null, bestScore = -Infinity;
+      for (const q of candidates) {
+        if (claimed.has(q)) continue;
+        const sc = scoreFramingForPage(q, page, sctx, rank.get(q) || 0);
+        if (sc > bestScore) { bestScore = sc; best = q; }
+      }
+      if (best) {
+        claimed.add(best);
+      } else {
+        // Pool exhausted (odd-one-out: 4 framings for 99 pages). Reuse the best
+        // fit rather than invent one; theme/level/mode still separate the pages.
+        // Reuse the best PURPOSE-CORRECT framing rather than borrowing a sibling
+        // mode's. Theme/level/mode still separate these pages.
+        for (const q of candidates) {
+          const sc = scoreFramingForPage(q, page, sctx, rank.get(q) || 0);
+          if (sc > bestScore) { bestScore = sc; best = q; }
+        }
+      }
+      if (best) out.set(page.slug, best);
+    }
+  }
+  return out;
+}
+
+function loadFramingPools(locale) {
+  const f = path.join(ROOT, 'frontend', 'content', 'seo-landing', 'framing-pools', locale + '.json');
+  if (!fs.existsSync(f)) return null;
+  try { return JSON.parse(fs.readFileSync(f, 'utf8')).pools || null; } catch { return null; }
+}
+
 /**
  * Native operation name from the locale's own engine.
  *
@@ -560,7 +780,10 @@ function composeOne(l, row, ctx) {
   const c = l.coordinate || {};
 
   // --- the type descriptor, best available -----------------------------------
-  const lead = ctx.leadMap ? (ctx.leadMap.get(c.type) || null) : demandLeadForType(c.type, locale, overrides, corpus);
+  // Per-PAGE framing first — the query that best describes THIS page. Falls back
+  // to the per-type lead only where the pool has no evidence for the type.
+  const perPage = ctx.framing ? ctx.framing.get(l.slug) : null;
+  const lead = perPage || (ctx.leadMap ? (ctx.leadMap.get(c.type) || null) : demandLeadForType(c.type, locale, overrides, corpus));
   const op = engineOp(c.type, c, l.standard, engine);
   const taxName = taxonomyName('exercise-type', c.type, locale);
   const fallback = op || taxName || String(c.type).replace(/-/g, ' ');
@@ -667,10 +890,22 @@ function composeOne(l, row, ctx) {
   // pair 1.000. Anything that separates two pages in the title has to separate
   // them here too.
   const metaDifferentiators = [
+    // Target language, for the cross-language decks. It leads the TITLE but was
+    // absent from the meta, so "Learn German: reptiles wordsearch" and
+    // "Learn Spanish: reptiles wordsearch" shared one meta — 10 pages on a single
+    // string in en. Third instance of the same omission (letter, repair token,
+    // now target), which is why the rule is now stated once and applied to all.
+    c.target ? (taxonomyName('target-language', c.target, locale) || c.target) : null,
     letter ? `${letter}` : null,
     range || null,
     qual || null,
     modeLabel && !modeRedundant ? modeLabel : null,
+    // The repair pass's token has to reach the meta too. It was read only in the
+    // title assembly, so a repaired page could end up with a distinct title and a
+    // BYTE-IDENTICAL meta — measured pre-repair at en 50, es 28, pt 20 duplicate
+    // metas. Same principle as the letter fix: whatever separates two pages in the
+    // title must separate them here.
+    early || null,
   ].filter(Boolean);
   const meta = buildMeta({ l, S, descriptor, theme, level, factBits, metaDifferentiators, ordinal });
 
@@ -708,5 +943,5 @@ function buildMeta({ l, S, descriptor, theme, level, factBits, metaDifferentiato
 
 module.exports = {
   SURFACE, NATIVE_LEAD, EDGE_STOPWORDS, TITLE_SOFT_CAP, META_MIN, META_MAX,
-  loadOverrides, loadEngine, loadCorpus, taxonomyName, corpusHas, corpusHasCompound, demandLeadForType, composeOne, chromeTokens, engineOp, opVariesByMode, themeDisplayFor, BW_LABEL, buildLeadMap, assertEngineAdapters, engineQual, engineRange,
+  loadOverrides, loadEngine, loadCorpus, taxonomyName, loadFramingPools, buildFramingAssignment, buildModeDistinctiveWords, letterEligible, corpusHas, corpusHasCompound, demandLeadForType, composeOne, chromeTokens, engineOp, opVariesByMode, themeDisplayFor, BW_LABEL, buildLeadMap, assertEngineAdapters, engineQual, engineRange,
 };

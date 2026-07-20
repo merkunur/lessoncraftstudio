@@ -58,6 +58,7 @@ function buildContext(locale) {
     themeAxis: typeof engine.loadTaxonomyThemes === 'function' ? engine.loadTaxonomyThemes() : {},
   };
   ctx.leadMap = C.buildLeadMap(locale, ctx.overrides, ctx.corpus);
+  ctx.pools = C.loadFramingPools(locale);
   return ctx;
 }
 
@@ -171,6 +172,8 @@ function runLocale(locale, opts) {
   const ctx = buildContext(locale);
   const S = C.SURFACE[locale] || C.SURFACE.en;
 
+  // per-PAGE framing needs the whole locale in hand (claim-once is global to a type)
+  ctx.framing = C.buildFramingAssignment(locale, landings, ctx.pools, ctx.engine);
   const composed = [];
   for (const l of landings) composed.push({ l, out: C.composeOne(l, rows.get(l.slug), ctx) });
 
@@ -188,6 +191,29 @@ function runLocale(locale, opts) {
     const hits = composed.filter((c) => c.out.title.toLowerCase().includes(dead.toLowerCase()));
     if (hits.length) problems.push(`${hits.length} titles contain the dead/wrong-market string "${dead}"`);
   }
+
+  // Exact duplicates, zero tolerance. Structural rather than ratio-based: two
+  // pages carrying the same string are indisputably one page to Google, whatever
+  // the string's length, so this needs no calibration. The driver previously
+  // tested only TITLE distinctness and reported all 11 locales passing while
+  // en 50 / es 28 / pt 20 metas were byte-identical underneath.
+  const dupOf = (get, label) => {
+    const seen = new Map();
+    for (const c of composed) {
+      const k = String(get(c) || '').toLowerCase().replace(/\s+/g, ' ').trim();
+      if (!seen.has(k)) seen.set(k, []);
+      seen.get(k).push(c.l.slug);
+    }
+    const groups = [...seen.entries()].filter(([, v]) => v.length > 1);
+    if (groups.length) {
+      const worst = groups.sort((a, b) => b[1].length - a[1].length)[0];
+      problems.push(`${groups.length} groups of pages share an identical ${label} ` +
+        `(worst: ${worst[1].length} pages, e.g. ${worst[1].slice(0, 2).join(', ')})`);
+    }
+    return groups.length;
+  };
+  dupOf((c) => c.out.title, 'title');
+  dupOf((c) => c.out.metaDescription, 'metaDescription');
 
   const byPrefix = new Map();
   for (const c of composed) {

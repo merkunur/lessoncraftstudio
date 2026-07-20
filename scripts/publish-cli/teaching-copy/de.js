@@ -99,10 +99,24 @@ function range(max, mode) {
  * actually demonstrates the relationship being claimed.
  */
 function ten(tenCase, reg, ex, mode) {
+  /* DIRECTION COMES FROM THE OPERATION, NOT THE DECK MODE.
+   *
+   * The first version keyed the verb on `mode`, so a MIXED deck got the addition verb —
+   * and shipped `18 - 9 überschreitet den Zehner` to 98 live pages. 18 - 9 does not
+   * überschreiten anything; it goes DOWN through the ten.
+   *
+   * The Dutch reviewer found the structural reason, and it is verified across the whole
+   * corpus: every answer on every math-puzzle deck is 2-10, so a crossing ADDITION
+   * (7 + 5 = 12) cannot exist here — its sum would not fit the answer set. Measured: 0
+   * crossing additions, 266 crossing subtractions. So a crossing is ALWAYS a subtraction,
+   * whatever the deck's mode, and the verb must follow the example.
+   */
+  var crossingIsSubtraction = ex && ex.crossing
+    ? ex.crossing.indexOf('-') !== -1
+    : mode === 'subtraction';
   var sub = mode === 'subtraction';
-  // 13 - 8 does not "überschreiten" anything; it goes down through the ten.
-  var cross = sub ? 'führen unter den Zehner' : 'überschreiten den Zehner';
-  var crossSg = sub ? 'führt unter den Zehner' : 'überschreitet den Zehner';
+  var cross = crossingIsSubtraction ? 'führen unter den Zehner' : 'überschreiten den Zehner';
+  var crossSg = crossingIsSubtraction ? 'führt unter den Zehner' : 'überschreitet den Zehner';
   var withEx = function (s, e) { return e ? s + ' (' + e + ')' : s; };
   var c = reg.crossesTen;
 
@@ -152,7 +166,8 @@ function ten(tenCase, reg, ex, mode) {
         // which contradicts itself: if the crossing tasks go BELOW the ten, the others
         // cannot also be below it.
         sentence: withEx('Etwa die Hälfte der Aufgaben ' + cross, ex.crossing)
-          + (sub ? ', die übrigen bleiben innerhalb eines Zehners.' : ', die übrigen bleiben darunter.'),
+          + (crossingIsSubtraction ? ', die übrigen bleiben innerhalb eines Zehners.'
+            : ', die übrigen bleiben darunter.'),
       };
     case 'T6':
       return {
@@ -318,7 +333,12 @@ function block3Keys(f) {
  * so shape assignment is stable across runs and scattered across themes.
  */
 function build(f, ordinal) {
-  var mode = f.mode || 'mixed';
+  /* The mode a reader would infer from the nine operations — NOT manifest.exercise_mode.
+   * Some decks are tagged `mixed` while carrying nine additions and no subtraction; asserting
+   * "Plus und Minus wechseln" about such a sheet is simply false. */
+  var reg0 = f.regrouping || {};
+  var mode = (reg0.additions > 0 && reg0.subtractions > 0) ? 'mixed'
+    : (reg0.subtractions > 0 ? 'subtraction' : 'addition');
   var r = range(f.band.maxSeen, mode);
   var t = ten(f.tenCase, f.regrouping, f.tenExample || {}, mode);
 
@@ -388,8 +408,43 @@ function build(f, ordinal) {
   var themeClause = s.theme
     ? ' Das Lösungsbild zeigt ein Motiv zum Thema ' + s.theme + '.'
     : '';
+  // The structural weakness, disclosed with its fix.
+  //
+  // The answers on EVERY math-puzzle deck are exactly {2..10}, one per piece — a property of
+  // how the nine-piece jigsaw works. So a child who has placed six pieces can get the last
+  // three by elimination, and can also fit by piece shape instead of calculating. The German
+  // teacher named this (Umgehungsstrategie) and the English practitioner named it
+  // independently; the first build of this block omitted both. Hiding a limitation a teacher
+  // will discover in the first lesson is the quiet way to lose them, and naming it costs one
+  // sentence — with the ten-second fix attached, so it reads as advice rather than apology.
+  // Three phrasings, rotated. One identical 30-word paragraph on every page is exactly the
+  // constant text that pushes near-duplicate pages together — the gate went from 0 to 5
+  // failures the moment this was added as a single fixed sentence.
+  var CAVEATS = [
+    ' Auf jedem Blatt kommen die Ergebnisse 2 bis 10 je einmal vor. Wer schon sechs Teile '
+      + 'gelegt hat, kann die letzten durch Ausschluss finden — lassen Sie deshalb erst alle '
+      + 'neun Aufgaben rechnen und dann legen.',
+    ' Da jedes Ergebnis von 2 bis 10 genau einmal vorkommt, lassen sich die letzten Teile auch '
+      + 'ohne Rechnen zuordnen. Wer das vermeiden will, lässt die Lösungen zuerst aufschreiben.',
+    ' Die neun Ergebnisse sind auf jedem Blatt dieselben (2 bis 10). Manche Kinder legen '
+      + 'deshalb nach Form statt nach Ergebnis — ein kurzes Nachfragen bei zwei Aufgaben genügt.',
+  ];
+  var caveat = CAVEATS[ordinal % CAVEATS.length];
+
+  // Verified across the corpus (0 crossing additions, 266 crossing subtractions): because
+  // every answer is 2-10, a sum can never pass ten on this worksheet type. So the hardest
+  // Klasse-1 skill, addition over the ten, is simply not practised here. A teacher planning
+  // a week on Zehnerübergang needs that before printing, and no competitor states it.
+  var SCOPE = [
+    ' Der Zehnerübergang wird hier nur beim Abziehen geübt; Plusaufgaben über den Zehner '
+      + 'kommen bei dieser Blattform nicht vor.',
+    ' Geübt wird der Übergang ausschließlich beim Minusrechnen — für Plusaufgaben über den '
+      + 'Zehner brauchen Sie ein anderes Blatt.',
+  ];
+  var scopeNote = (f.regrouping.crossesTen > 0) ? SCOPE[ordinal % SCOPE.length] : '';
+
   var extras = 'Das Lösungsblatt zeigt alle neun Ergebnisse — praktisch, um vor dem Ausdrucken '
-    + 'kurz zu prüfen, ob der Zahlenraum passt.' + themeClause;
+    + 'kurz zu prüfen, ob der Zahlenraum passt.' + caveat + scopeNote + themeClause;
 
   // The nine operations, in full.
   //

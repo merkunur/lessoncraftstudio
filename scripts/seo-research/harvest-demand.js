@@ -407,9 +407,34 @@ function typeNameSeeds(locale, anchors) {
     if (!n) continue;
     const name = String(n).toLowerCase().trim();
     out.push(name);
-    if (anchors && anchors[0]) out.push(`${name} ${anchors[0]}`);
+    // ⚠ The anchored variant is NOT evidence about the name. Many type names
+    // already contain the domain noun, so appending the anchor produces nonsense
+    // that returns nothing for grammatical reasons, not demand reasons:
+    // fr "fiche de mathématiques" + "fiches" = "worksheet of mathematics
+    // worksheets". Counting those as dead inflated the dead-name rate roughly 2x
+    // (fr read 52% when the bare-name truth is 24%). It is still probed — an
+    // anchored hit is useful positive evidence — but ONLY bare names may be used
+    // to judge whether a name is searched. See countDeadTypeNames() below.
+    if (anchors && anchors[0] && !name.includes(anchors[0])) out.push(`${name} ${anchors[0]}`);
   }
   return [...new Set(out)];
+}
+
+/**
+ * Dead-type-name rate, measured on BARE names only. Kept as a function so the
+ * measurement lives next to the seed builder that produces it and cannot drift
+ * apart from it again.
+ */
+function countDeadTypeNames(locale, suggestions) {
+  const types = (TAXONOMY_THEMES && TAXONOMY_THEMES.axes && TAXONOMY_THEMES.axes['exercise-type']) || {};
+  const bare = new Set();
+  for (const key of Object.keys(types)) {
+    const n = types[key] && types[key].name && types[key].name[locale];
+    if (n) bare.add(String(n).toLowerCase().trim());
+  }
+  const probed = Object.entries(suggestions).filter(([s, v]) => v.cls === 'typeName' && bare.has(s));
+  const dead = probed.filter(([, v]) => v.s.length === 0);
+  return { probed: probed.length, dead: dead.length, deadNames: dead.map(([s]) => s) };
 }
 
 function buildDemandSeeds(locale) {

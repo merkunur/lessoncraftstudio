@@ -210,3 +210,7 @@ docs/audit-results/mobile-livecheck/
 
 # Story Studio tenancy — local dev media root (production: /var/www/lcs-media/studio/stories)
 frontend/.studio-stories/
+
+# Demand-match reports: regenerable from harvests + landing JSON (18MB), see
+# scripts/seo-landing/match-demand.js. Evidence lives in docs/SEO/harvests/.
+docs/audit-results/demand-match/

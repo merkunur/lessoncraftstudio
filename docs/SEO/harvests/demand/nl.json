@@ -1,0 +1,4402 @@
+{
+ "locale": "nl",
+ "market": {
+  "hl": "nl",
+  "gl": "nl"
+ },
+ "generatedAt": "2026-07-20T08:55:03.875Z",
+ "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
+ "requestCount": 349,
+ "seedCounts": {
+  "skill": 23,
+  "context": 10,
+  "audience": 6,
+  "enumerated": 32,
+  "pack": 2,
+  "cross": 276
+ },
+ "errorCount": 0,
+ "errors": [],
+ "newVsInventory": {
+  "inventoryUnique": 1384,
+  "demandUnique": 887,
+  "novel": 841,
+  "novelShare": 0.948
+ },
+ "deadSeeds": [
+  "zelfstandig werken werkbladen",
+  "hoeken werkbladen",
+  "letter q werkblad",
+  "werkbladen pakket",
+  "4 juli rekenen",
+  "4 juli tellen",
+  "4 juli letters",
+  "4 juli lezen",
+  "accessoires rekenen",
+  "activiteiten tellen",
+  "rond het huis rekenen",
+  "rond het huis tellen",
+  "rond het huis letters",
+  "rond het huis lezen",
+  "in de supermarkt rekenen",
+  "in de supermarkt tellen",
+  "in de supermarkt letters",
+  "bakkerij rekenen",
+  "bakkerij tellen",
+  "bakkerij lezen",
+  "strand rekenen",
+  "strand tellen",
+  "strand lezen",
+  "vogels rekenen",
+  "vogels 2 rekenen",
+  "vogels 2 tellen",
+  "vogels 2 lezen",
+  "lichaamsdelen rekenen",
+  "lichaamsdelen lezen",
+  "ontbijt rekenen",
+  "ontbijt tellen",
+  "ontbijt lezen",
+  "kamperen rekenen",
+  "kamperen tellen",
+  "kamperen lezen",
+  "kerstmis tellen",
+  "klaslokaal rekenen",
+  "klaslokaal tellen",
+  "klaslokaal lezen",
+  "kleding rekenen",
+  "kleding tellen",
+  "desserts en snoep rekenen",
+  "desserts en snoep tellen",
+  "desserts en snoep letters",
+  "desserts en snoep lezen",
+  "dinosaurussen rekenen",
+  "dinosaurussen tellen",
+  "dinosaurussen letters",
+  "emoties rekenen",
+  "emoties tellen",
+  "boerderijdieren rekenen",
+  "boerderijdieren lezen",
+  "boswezens rekenen",
+  "boswezens tellen",
+  "boswezens letters",
+  "boswezens lezen",
+  "meubels rekenen",
+  "meubels tellen",
+  "meubels letters",
+  "meubels lezen",
+  "ziekenhuis rekenen",
+  "ziekenhuis tellen",
+  "insecten en beestjes rekenen",
+  "insecten en beestjes tellen",
+  "insecten en beestjes letters",
+  "insecten en beestjes lezen",
+  "keukengerei rekenen",
+  "keukengerei tellen",
+  "keukengerei lezen",
+  "diversen rekenen",
+  "diversen tellen",
+  "diversen lezen",
+  "beroepen tellen",
+  "oceaanleven rekenen",
+  "oceaanleven tellen",
+  "oceaanleven letters",
+  "oceaanleven lezen",
+  "huisdieren rekenen",
+  "huisdieren tellen",
+  "huisdieren lezen",
+  "postkantoor rekenen",
+  "postkantoor tellen",
+  "postkantoor lezen",
+  "reptielen en amfibieën rekenen",
+  "reptielen en amfibieën tellen",
+  "reptielen en amfibieën letters",
+  "reptielen en amfibieën lezen",
+  "ruimte tellen",
+  "thanksgiving rekenen",
+  "thanksgiving tellen",
+  "thanksgiving lezen",
+  "dingen die vliegen rekenen",
+  "dingen die vliegen tellen",
+  "dingen die vliegen letters",
+  "dingen die vliegen lezen",
+  "gereedschap rekenen",
+  "gereedschap tellen",
+  "gereedschap lezen",
+  "bomen rekenen",
+  "groenten tellen",
+  "groenten lezen",
+  "voertuigen rekenen",
+  "voertuigen lezen",
+  "weer rekenen",
+  "weer tellen",
+  "dierentuindieren rekenen",
+  "dierentuindieren tellen",
+  "dierentuindieren letters",
+  "dierentuindieren lezen",
+  "dieren zw 2 rekenen",
+  "dieren zw 2 tellen",
+  "dieren zw 2 letters",
+  "dieren zw 2 lezen",
+  "dieren zw 3 rekenen",
+  "dieren zw 3 tellen",
+  "dieren zw 3 letters",
+  "dieren zw 3 lezen",
+  "dieren zw 4 rekenen",
+  "dieren zw 4 tellen",
+  "dieren zw 4 letters",
+  "dieren zw 4 lezen",
+  "dieren zw 5 rekenen",
+  "dieren zw 5 tellen",
+  "dieren zw 5 letters",
+  "dieren zw 5 lezen",
+  "strand zw 2 rekenen",
+  "strand zw 2 tellen",
+  "strand zw 2 letters",
+  "strand zw 2 lezen",
+  "vogels z&w 2 rekenen",
+  "vogels z&w 2 tellen",
+  "vogels z&w 2 letters",
+  "vogels z&w 2 lezen",
+  "kerstmis z/w 2 rekenen",
+  "kerstmis z/w 2 tellen",
+  "kerstmis z/w 2 letters",
+  "kerstmis z/w 2 lezen",
+  "klaslokaal 2 (z/w) rekenen",
+  "klaslokaal 2 (z/w) tellen",
+  "klaslokaal 2 (z/w) letters",
+  "klaslokaal 2 (z/w) lezen",
+  "pasen zw 2 rekenen",
+  "pasen zw 2 tellen",
+  "pasen zw 2 letters",
+  "pasen zw 2 lezen",
+  "voedsel zw 2 rekenen",
+  "voedsel zw 2 tellen",
+  "voedsel zw 2 letters",
+  "voedsel zw 2 lezen",
+  "voedsel zw 3 rekenen",
+  "voedsel zw 3 tellen",
+  "voedsel zw 3 letters",
+  "voedsel zw 3 lezen",
+  "huis zw 2 rekenen",
+  "huis zw 2 tellen",
+  "huis zw 2 letters",
+  "huis zw 2 lezen",
+  "zeeleven zw 2 rekenen",
+  "zeeleven zw 2 tellen",
+  "zeeleven zw 2 letters",
+  "zeeleven zw 2 lezen",
+  "sport zw 2 rekenen",
+  "sport zw 2 tellen",
+  "sport zw 2 letters",
+  "sport zw 2 lezen",
+  "speelgoed zw 2 rekenen",
+  "speelgoed zw 2 tellen",
+  "speelgoed zw 2 letters",
+  "speelgoed zw 2 lezen",
+  "valentijnsdag zw 2 rekenen",
+  "valentijnsdag zw 2 tellen",
+  "valentijnsdag zw 2 letters",
+  "valentijnsdag zw 2 lezen",
+  "groenten zw 2 rekenen",
+  "groenten zw 2 tellen",
+  "groenten zw 2 letters",
+  "groenten zw 2 lezen",
+  "voertuigen zw 2 rekenen",
+  "voertuigen zw 2 tellen",
+  "voertuigen zw 2 letters",
+  "voertuigen zw 2 lezen",
+  "voertuigen zw 3 rekenen",
+  "voertuigen zw 3 tellen",
+  "voertuigen zw 3 letters",
+  "voertuigen zw 3 lezen"
+ ],
+ "suggestions": {
+  "letters leren": {
+   "cls": "skill",
+   "s": [
+    "letters leren",
+    "letters leren schrijven",
+    "letters leren groep 2",
+    "letters leren groep 1",
+    "letters leren kleuters",
+    "letters leren schrijven werkblad",
+    "letters leren spel",
+    "letters leren met lucy",
+    "letters leren 3 jaar",
+    "letters leren is een eitje"
+   ]
+  },
+  "klanken": {
+   "cls": "skill",
+   "s": [
+    "klankennest",
+    "klankenbos",
+    "klanken",
+    "klankenkaravaan",
+    "klankenreeks 6 letters",
+    "klankenbos pelt",
+    "klankenbord",
+    "klanken engels",
+    "klankenreeks",
+    "klanken oefenen"
+   ]
+  },
+  "rijmwoorden": {
+   "cls": "skill",
+   "s": [
+    "rijmwoordenboek",
+    "rijmwoorden",
+    "rijmwoordenboek mick",
+    "rijmwoordenboek van dale",
+    "rijmwoorden zoeken",
+    "rijmwoordenboek engels",
+    "rijmwoorden zijn",
+    "rijmwoorden is",
+    "rijmwoorden doen",
+    "rijmwoorden jaar"
+   ]
+  },
+  "lettergrepen": {
+   "cls": "skill",
+   "s": [
+    "lettergrepen",
+    "lettergrepen engels",
+    "lettergrepen voorbeelden",
+    "lettergrepen haiku",
+    "lettergrepen oefenen",
+    "lettergrepen klappen kleuters",
+    "lettergrepen betekenis",
+    "lettergrepen klappen",
+    "lettergrepen teller",
+    "lettergrepen woordenboek"
+   ]
+  },
+  "beginklank": {
+   "cls": "skill",
+   "s": [
+    "beginklank kleuters",
+    "beginklank",
+    "beginklank woord of lettergreep",
+    "beginklank lettergreep",
+    "beginklank van een woord",
+    "beginklank oefenen kleuters",
+    "beginklank memory",
+    "beginklank spel",
+    "beginklank oefenen",
+    "beginklank gynzy"
+   ]
+  },
+  "mkm woorden": {
+   "cls": "skill",
+   "s": [
+    "mkm woorden",
+    "mkm woorden groep 2",
+    "mkm woorden groep 3",
+    "mkm woorden met i",
+    "mkm woorden zomer",
+    "mkm woorden kleuters",
+    "mkm woorden lezen",
+    "mkm woorden plaatjes",
+    "mkm woorden lente",
+    "mkm woorden met eu"
+   ]
+  },
+  "getalbegrip": {
+   "cls": "skill",
+   "s": [
+    "getalbegrip",
+    "getalbegrip kleuters",
+    "getalbegrip tot 100 werkblad",
+    "getalbegrip tot 100",
+    "getalbegrip groep 3",
+    "getalbegrip tot 20",
+    "getalbegrip oefenen",
+    "getalbegrip tot 10",
+    "getalbegrip betekenis",
+    "getalbegrip groep 4"
+   ]
+  },
+  "splitsen tot 10": {
+   "cls": "skill",
+   "s": [
+    "splitsen tot 10",
+    "splitsen tot 10 werkblad",
+    "splitsen tot 10 online oefenen",
+    "splitsen tot 100",
+    "splitsen tot 10 werkboekje",
+    "splitsen tot 10 online",
+    "splitsen tot 10 oefeningen",
+    "splitsen tot 10 groep 3",
+    "splitsen tot 10 bewegend leren",
+    "splitsen tot 10 bundel"
+   ]
+  },
+  "sommen tot 10": {
+   "cls": "skill",
+   "s": [
+    "sommen tot 10",
+    "sommen tot 100",
+    "sommen tot 10 werkblad",
+    "sommen tot 10 automatiseren",
+    "sommen tot 100 werkblad",
+    "sommen tot 1000",
+    "sommen tot 10 oefenen",
+    "sommen tot 10 joggen",
+    "sommen tot 10 flitsen",
+    "sommen tot 10 online oefenen"
+   ]
+  },
+  "sommen tot 20": {
+   "cls": "skill",
+   "s": [
+    "sommen tot 20",
+    "sommen tot 20 werkblad",
+    "sommen tot 20 automatiseren",
+    "sommen tot 20 met brug",
+    "sommen tot 20 groep 3",
+    "sommen tot 20 oefenen",
+    "sommen tot 20 zonder brug",
+    "sommen tot 20 over het tiental",
+    "sommen tot 20 flitsen",
+    "sommen tot 20 kleurplaat"
+   ]
+  },
+  "tellen tot 20": {
+   "cls": "skill",
+   "s": [
+    "tellen tot 20 frans",
+    "tellen tot 20 spaans",
+    "tellen tot 20",
+    "tellen tot 20 italiaans",
+    "tellen tot 20 kleuters",
+    "tellen tot 20 duits",
+    "tellen tot 20 leeftijd",
+    "tellen tot 20 portugees",
+    "tellen tot 20 werkblad",
+    "tellen tot 20 nt2"
+   ]
+  },
+  "klokkijken": {
+   "cls": "skill",
+   "s": [
+    "klokkijken",
+    "klokkijken oefenen",
+    "klokkijken werkbladen",
+    "klokkijken oefenen online",
+    "klokkijken oefenen groep 5",
+    "klokkijken oefenen groep 4",
+    "klokkijken groep 3",
+    "klokkijken groep 3 werkblad",
+    "klokkijken in het frans",
+    "klokkijken leren"
+   ]
+  },
+  "meten": {
+   "cls": "skill",
+   "s": [
+    "meten",
+    "meten in google maps",
+    "meten met iphone",
+    "meten engels",
+    "meten met telefoon",
+    "meten is weten",
+    "meten verleden tijd",
+    "meten met gsm",
+    "meten met 2 maten",
+    "metend rekenen"
+   ]
+  },
+  "vormen": {
+   "cls": "skill",
+   "s": [
+    "vormen",
+    "vormen van dementie",
+    "vormend bestanddeel 7 letters",
+    "vormenstoof",
+    "vormend bestanddeel",
+    "vormen van autisme",
+    "vormen van huidkanker",
+    "vormen van symbiose",
+    "vormenstoof little dutch",
+    "vormen nagels"
+   ]
+  },
+  "patronen": {
+   "cls": "skill",
+   "s": [
+    "patronen doorbreken",
+    "patronen",
+    "patronen doorbreken boek",
+    "patronen van gordon",
+    "patronen kleding",
+    "patronen tassen maken gratis",
+    "patronen tekenen",
+    "patronen doorbreken hannie van genderen",
+    "patronen kleding gratis",
+    "patronen belle etoile"
+   ]
+  },
+  "schrijfpatronen": {
+   "cls": "skill",
+   "s": [
+    "schrijfpatronen",
+    "schrijfpatronen kleuters",
+    "schrijfpatronen werkbladen",
+    "schrijfpatronen kleuters zomer",
+    "schrijfpatronen zomer",
+    "schrijfpatronen groep 2",
+    "schrijfpatronen lente",
+    "schrijfpatronen kleuters lente",
+    "schrijfpatronen letters",
+    "schrijfpatronen boekje"
+   ]
+  },
+  "fijne motoriek": {
+   "cls": "skill",
+   "s": [
+    "fijne motoriek",
+    "fijne motoriek oefeningen",
+    "fijne motoriek oefeningen kleuters",
+    "fijne motoriek kleuters",
+    "fijne motoriek speelgoed",
+    "fijne motoriek engels",
+    "fijne motoriek baby",
+    "fijne motoriek peuter",
+    "fijne motoriek voorbeelden",
+    "fijne motoriek oefeningen na cva"
+   ]
+  },
+  "kern 1": {
+   "cls": "skill",
+   "s": [
+    "kern 10 veilig leren lezen",
+    "kern 10",
+    "kern 11",
+    "kern 11 veilig leren lezen",
+    "kern 10 werkbladen",
+    "kern 1 veilig leren lezen",
+    "kern 1",
+    "kern 11 werkbladen",
+    "kern 12 veilig leren lezen",
+    "kern 11 vll"
+   ]
+  },
+  "kern 2": {
+   "cls": "skill",
+   "s": [
+    "kern 2 veilig leren lezen",
+    "kern 2",
+    "kern 2 werkbladen",
+    "kern 2 leesbladen",
+    "kern 2026",
+    "kern 2 letters",
+    "kern 2500",
+    "kern 2000",
+    "kern 2 vll",
+    "kern 2 system_msg"
+   ]
+  },
+  "kern 3": {
+   "cls": "skill",
+   "s": [
+    "kern 3 letters",
+    "kern 3 veilig leren lezen",
+    "kern 3",
+    "kern 3 werkbladen",
+    "kern 3 woordzoeker",
+    "kern 3 lezen",
+    "kern 3500",
+    "kern 346-77",
+    "kern 3600",
+    "kern 3200"
+   ]
+  },
+  "kern 4": {
+   "cls": "skill",
+   "s": [
+    "kern 4 letters",
+    "kern 4",
+    "kern 4 veilig leren lezen",
+    "kern 4 werkbladen",
+    "kern 4 lezen",
+    "kern 4 woorden",
+    "kern 440",
+    "kern 440-47n",
+    "kern 440 manual",
+    "kern 440-43n"
+   ]
+  },
+  "kern 5": {
+   "cls": "skill",
+   "s": [
+    "kern 5 veilig leren lezen",
+    "kern 5",
+    "kern 5 letters",
+    "kern 5 werkbladen",
+    "kern 5 lezen",
+    "kern 5 vll",
+    "kern 5 woorden",
+    "kern 572-39",
+    "kern 572-33",
+    "kern 572"
+   ]
+  },
+  "kern 6": {
+   "cls": "skill",
+   "s": [
+    "kern 6 veilig leren lezen",
+    "kern 6",
+    "kern 6 werkbladen",
+    "kern 6 vll",
+    "kern 6 woorden",
+    "kern 6 veilig leren lezen werkbladen",
+    "kern's 6 steps of curriculum development",
+    "kern's 6 steps",
+    "kern's 6 step approach",
+    "kern 6 letters"
+   ]
+  },
+  "zelfstandig werken werkbladen": {
+   "cls": "context",
+   "s": []
+  },
+  "zelfstandig werken groep 3": {
+   "cls": "context",
+   "s": [
+    "zelfstandig werken groep 3",
+    "stappenplan zelfstandig werken groep 3",
+    "zelfstandig werken boekje groep 3"
+   ]
+  },
+  "weektaak werkbladen": {
+   "cls": "context",
+   "s": [
+    "weektaak werkbladen",
+    "werkbladen weektaak groep 7"
+   ]
+  },
+  "weektaak groep 3": {
+   "cls": "context",
+   "s": [
+    "weektaak groep 3",
+    "weektaak groep 3 pdf",
+    "weektaak groep 3 4",
+    "weektaak groep 3 voorbeeld",
+    "weektaak opdrachten groep.3"
+   ]
+  },
+  "huiswerk werkbladen": {
+   "cls": "context",
+   "s": [
+    "huiswerk werkbladen",
+    "huiswerk groep 8 werkbladen",
+    "huiswerk groep 6 werkbladen",
+    "huiswerk groep 5 werkbladen"
+   ]
+  },
+  "huiswerk groep 3": {
+   "cls": "context",
+   "s": [
+    "huiswerk groep 3",
+    "huiswerk groep 3 printen",
+    "huiswerk groep 3 rekenen",
+    "huiswerk lezen groep 3",
+    "huiswerk spelling groep 3"
+   ]
+  },
+  "hoeken werkbladen": {
+   "cls": "context",
+   "s": []
+  },
+  "hoeken groep 3": {
+   "cls": "context",
+   "s": [
+    "hoeken groep 3",
+    "werken in hoeken groep 3",
+    "spelen in hoeken groep 3",
+    "welke hoeken in groep 3"
+   ]
+  },
+  "extra oefenen werkbladen": {
+   "cls": "context",
+   "s": [
+    "spelling extra oefenen werkbladen",
+    "spelling extra oefenen werkbladen taal actief"
+   ]
+  },
+  "extra oefenen groep 3": {
+   "cls": "context",
+   "s": [
+    "extra oefenen groep 3",
+    "pluspunt extra oefenen groep 3",
+    "extra oefenen lezen groep 3",
+    "extra oefenen schrijven groep 3",
+    "extra oefenen rekenen groep 3"
+   ]
+  },
+  "nt2 werkbladen": {
+   "cls": "audience",
+   "s": [
+    "nt2 werkbladen volwassenen",
+    "nt2 werkbladen",
+    "nt2 werkbladen groep 3",
+    "nt2 werkbladen basisschool",
+    "nt2 werkbladen kinderen",
+    "werkbladen nt2 leerlingen",
+    "werkbladen nt2 grammatica",
+    "werkbladen nt2 a1",
+    "werkbladen nt2 basisonderwijs",
+    "woordenschat nt2 werkbladen"
+   ]
+  },
+  "nt2 groep 3": {
+   "cls": "audience",
+   "s": [
+    "nt2 groep 3",
+    "nt2 werkbladen groep 3",
+    "woordenschat nt2 groep 3",
+    "nt2 leerling in groep 3"
+   ]
+  },
+  "dyslexie werkbladen": {
+   "cls": "audience",
+   "s": [
+    "dyslexie werkbladen",
+    "dyslexie oefeningen werkbladen"
+   ]
+  },
+  "dyslexie groep 3": {
+   "cls": "audience",
+   "s": [
+    "dyslexie groep 3",
+    "dyslexie groep 3 doubleren",
+    "dyslexie groep 3 oefeningen",
+    "kenmerken dyslexie groep 3",
+    "dyslexie boeken groep 3",
+    "tekenen dyslexie groep 3",
+    "vermoeden dyslexie groep 3",
+    "dyslexie kind groep 3",
+    "dyslexie test groep 3",
+    "protocol dyslexie groep 3"
+   ]
+  },
+  "speciaal onderwijs werkbladen": {
+   "cls": "audience",
+   "s": [
+    "speciaal onderwijs werkbladen"
+   ]
+  },
+  "speciaal onderwijs groep 3": {
+   "cls": "audience",
+   "s": [
+    "speciaal onderwijs groep 3"
+   ]
+  },
+  "letter a werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter a werkblad",
+    "letter a werkblad kleuters",
+    "letter a schrijven werkblad",
+    "letter werkbladen",
+    "letter werkbladen groep 2",
+    "letter werkbladen groep 3",
+    "letter werkbladen kleuters"
+   ]
+  },
+  "letter b werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter b werkblad",
+    "letter b werkblad kleuters",
+    "werkblad letter b groep 3",
+    "werkblad letter b groep 2"
+   ]
+  },
+  "letter c werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter c werkblad"
+   ]
+  },
+  "letter d werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter d werkblad",
+    "letter d werkblad kleuters",
+    "werkblad letter d groep 3",
+    "werkblad letter d groep 2",
+    "werkblad letter d schrijven"
+   ]
+  },
+  "letter e werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter e werkblad",
+    "letter e werkblad kleuters",
+    "werkblad letter e groep 2",
+    "werkblad letter e groep 3"
+   ]
+  },
+  "letter f werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter f werkblad",
+    "letter f werkblad kleuters",
+    "werkblad letter f groep 2"
+   ]
+  },
+  "letter g werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter g werkblad",
+    "letter g werkblad kleuters",
+    "letter g werkbladen"
+   ]
+  },
+  "letter h werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter h werkblad",
+    "letter h werkblad kleuters",
+    "werkblad letter h groep 2",
+    "werkblad letter h groep 3"
+   ]
+  },
+  "letter i werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter i werkblad",
+    "letter i werkblad kleuters",
+    "letter werkbladen groep 2",
+    "letter werkbladen groep 3",
+    "letter werkbladen kleuters"
+   ]
+  },
+  "letter j werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter j werkblad",
+    "letter j werkblad kleuters",
+    "werkblad letter j groep 2"
+   ]
+  },
+  "letter k werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter k werkblad",
+    "letter k werkblad kleuters",
+    "letter k schrijven werkblad",
+    "werkblad letter k groep 2",
+    "werkblad letter k groep 3"
+   ]
+  },
+  "letter l werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter l werkblad",
+    "letter l werkblad kleuters",
+    "werkblad letter l groep 2",
+    "werkblad letter l groep 3"
+   ]
+  },
+  "letter m werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter m werkblad",
+    "letter m werkblad kleuters",
+    "letter m werkblad groep 2",
+    "werkblad letter m groep 3",
+    "werkblad letter m schrijven"
+   ]
+  },
+  "letter n werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter n werkblad",
+    "letter n werkblad kleuters",
+    "werkblad letter n groep 3",
+    "werkblad letter n groep 2"
+   ]
+  },
+  "letter o werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter o werkblad",
+    "letter o werkblad kleuters",
+    "werkblad letter o groep 2"
+   ]
+  },
+  "letter p werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter p werkblad",
+    "letter p werkblad kleuters",
+    "werkblad letter p groep 2",
+    "werkblad letter p groep 3",
+    "werkblad letter p schrijven"
+   ]
+  },
+  "letter q werkblad": {
+   "cls": "enumerated",
+   "s": []
+  },
+  "letter r werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter r werkblad",
+    "letter r werkblad kleuters",
+    "werkblad letter r groep 2",
+    "werkblad letter r groep 3",
+    "werkblad letter r schrijven"
+   ]
+  },
+  "letter s werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter s werkblad",
+    "letter s werkblad kleuters",
+    "werkblad letters sinterklaas",
+    "werkblad letters groep 2",
+    "werkblad letter s schrijven",
+    "werkblad letter s groep 3"
+   ]
+  },
+  "letter t werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter t werkblad",
+    "letter t werkblad kleuters",
+    "letter werkblad",
+    "letter werkbladen",
+    "letter werkblad kleuters",
+    "letter werkbladen groep 2",
+    "letter werkbladen groep 3"
+   ]
+  },
+  "letter u werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter u werkblad"
+   ]
+  },
+  "letter v werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter v werkblad",
+    "letter v werkblad kleuters",
+    "werkblad letter v groep 2"
+   ]
+  },
+  "letter w werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter w werkblad",
+    "letter w werkblad kleuters",
+    "werkblad letter w groep 3"
+   ]
+  },
+  "letter x werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "werkblad letter x"
+   ]
+  },
+  "letter y werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "werkblad letter y"
+   ]
+  },
+  "letter z werkblad": {
+   "cls": "enumerated",
+   "s": [
+    "letter z werkblad",
+    "letter z werkblad kleuters",
+    "werkblad letter z groep 2",
+    "werkblad letter z groep 3"
+   ]
+  },
+  "werkblaadjes leerjaar 1": {
+   "cls": "enumerated",
+   "s": [
+    "werkblaadjes 1ste leerjaar",
+    "werkblaadjes 1ste leerjaar afdrukken",
+    "werkblad 1ste leerjaar"
+   ]
+  },
+  "werkblaadjes leerjaar 2": {
+   "cls": "enumerated",
+   "s": [
+    "werkblaadjes 2de leerjaar",
+    "werkblaadjes 2de leerjaar afdrukken",
+    "werkblad 2de leerjaar",
+    "werkblaadjes taal 2de leerjaar afdrukken"
+   ]
+  },
+  "werkblaadjes leerjaar 3": {
+   "cls": "enumerated",
+   "s": [
+    "werkblaadjes 3de leerjaar",
+    "werkblaadjes 3de leerjaar taal",
+    "werkblaadjes 3de leerjaar rekenen",
+    "werkblaadjes 3de leerjaar afdrukken",
+    "werkblad 3de leerjaar"
+   ]
+  },
+  "werkblaadjes leerjaar 4": {
+   "cls": "enumerated",
+   "s": [
+    "werkblaadjes 4de leerjaar",
+    "werkblaadjes 4de leerjaar rekenen",
+    "werkblaadjes 4de leerjaar taal",
+    "werkblad 4de leerjaar",
+    "werkblaadjes cijferen 4de leerjaar",
+    "werkblaadjes kommagetallen 4de leerjaar"
+   ]
+  },
+  "werkblaadjes leerjaar 5": {
+   "cls": "enumerated",
+   "s": [
+    "werkblaadjes 5de leerjaar",
+    "werkblaadjes 5de leerjaar wiskunde",
+    "werkblaadjes frans 5de leerjaar"
+   ]
+  },
+  "werkblaadjes leerjaar 6": {
+   "cls": "enumerated",
+   "s": [
+    "werkblaadjes 6de leerjaar"
+   ]
+  },
+  "werkbladen pakket": {
+   "cls": "pack",
+   "s": []
+  },
+  "oefenboekje": {
+   "cls": "pack",
+   "s": [
+    "oefenboekjes 5 jaar",
+    "oefenboekjes 3 jaar",
+    "oefenboekjes groep 2",
+    "oefenboekjes 4 jaar",
+    "oefenboekjes 1ste leerjaar",
+    "oefenboekjes groep 3",
+    "oefenboekjes",
+    "oefenboekjes 6 jaar",
+    "oefenboek groep 1",
+    "oefenboek groep 4"
+   ]
+  },
+  "4 juli rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "4 juli tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "4 juli letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "4 juli lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "accessoires rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "accessoires tellen": {
+   "cls": "cross",
+   "s": [
+    "tellen accessoires mee voor bijtelling"
+   ]
+  },
+  "accessoires letters": {
+   "cls": "cross",
+   "s": [
+    "accessoires 10 letters",
+    "crocs accessoires letters",
+    "accessoires 4 letters",
+    "accessoires 9 letters",
+    "accessoires 6 letters"
+   ]
+  },
+  "accessoires lezen": {
+   "cls": "cross",
+   "s": [
+    "accessoires lezen",
+    "accessoires boeken lezen"
+   ]
+  },
+  "activiteiten rekenen": {
+   "cls": "cross",
+   "s": [
+    "activiteiten rekenen kleuters",
+    "rekenen activiteiten",
+    "ontluikend rekenen activiteiten"
+   ]
+  },
+  "activiteiten tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "activiteiten letters": {
+   "cls": "cross",
+   "s": [
+    "activiteiten letters kleuters",
+    "activiteiten letters",
+    "activiteiten met letters"
+   ]
+  },
+  "activiteiten lezen": {
+   "cls": "cross",
+   "s": [
+    "activiteiten lezen",
+    "activiteiten om lezen te stimuleren",
+    "list lezen activiteiten",
+    "technisch lezen activiteiten",
+    "activiteiten week van lezen en schrijven"
+   ]
+  },
+  "dieren rekenen": {
+   "cls": "cross",
+   "s": [
+    "dieren rekenen",
+    "kunnen dieren rekenen"
+   ]
+  },
+  "dieren tellen": {
+   "cls": "cross",
+   "s": [
+    "dieren tellen",
+    "dieren tellen een flapjesboek",
+    "dieren tellen kleuters",
+    "dieren tellen werkblad",
+    "dieren tellen boek",
+    "nijntje dieren tellen",
+    "alle dieren tellen mee",
+    "nijntje dieren tellen spelregels",
+    "kunnen dieren tellen",
+    "alle dieren tellen mee tv"
+   ]
+  },
+  "dieren letters": {
+   "cls": "cross",
+   "s": [
+    "dieren letters",
+    "dieren letters alfabet",
+    "dieren letters tekenen",
+    "dieren letters hout",
+    "dieren 4 letters",
+    "dieren 8 letters",
+    "dieren 5 letters",
+    "dieren 7 letters",
+    "dieren 6 letters",
+    "dieren met letters"
+   ]
+  },
+  "dieren lezen": {
+   "cls": "cross",
+   "s": [
+    "dieren lezen",
+    "dieren die lezen",
+    "dieren chip lezen",
+    "kunnen dieren lezen",
+    "begrijpend lezen dieren",
+    "foto lezen dieren"
+   ]
+  },
+  "rond het huis rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "rond het huis tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "rond het huis letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "rond het huis lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "in de supermarkt rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "in de supermarkt tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "in de supermarkt letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "in de supermarkt lezen": {
+   "cls": "cross",
+   "s": [
+    "etiketten lezen in de supermarkt"
+   ]
+  },
+  "bakkerij rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "bakkerij tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "bakkerij letters": {
+   "cls": "cross",
+   "s": [
+    "bakkerij letters",
+    "bakkerij acht letters",
+    "bakkerij negen letters",
+    "bakkerij apparaat 4 letters"
+   ]
+  },
+  "bakkerij lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand letters": {
+   "cls": "cross",
+   "s": [
+    "strand letters",
+    "letters strand malaga",
+    "strand 4 letters",
+    "strand 5 letters",
+    "crossword clue strand 4 letters",
+    "dna strand letters",
+    "strand 6 letters",
+    "strand 7 letters",
+    "strand vier letters",
+    "strand 10 letters"
+   ]
+  },
+  "strand lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "vogels rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "vogels tellen": {
+   "cls": "cross",
+   "s": [
+    "vogels tellen",
+    "vogels tellen 2026",
+    "vogels tellen app",
+    "vogels tellen bijbaan",
+    "vogels tellen vacature",
+    "vogels tellen formulier",
+    "vogels tellen natuurpunt",
+    "vogels tellen 2025",
+    "vogels tellen weekend",
+    "vogels tellen in de tuin"
+   ]
+  },
+  "vogels letters": {
+   "cls": "cross",
+   "s": [
+    "vogels letters",
+    "vogels 5 letters",
+    "vogels 7 letters",
+    "vogels 4 letters",
+    "vogels 6 letters",
+    "vogels 8 letters",
+    "vogels 3 letters",
+    "vogels 10 letters",
+    "vogels 9 letters",
+    "vogels 11 letters"
+   ]
+  },
+  "vogels lezen": {
+   "cls": "cross",
+   "s": [
+    "begrijpend lezen vogels"
+   ]
+  },
+  "vogels 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "vogels 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "vogels 2 letters": {
+   "cls": "cross",
+   "s": [
+    "vogels met 2 letters"
+   ]
+  },
+  "vogels 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "lichaamsdelen rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "lichaamsdelen tellen": {
+   "cls": "cross",
+   "s": [
+    "welke lichaamsdelen tellen bij buitenspel",
+    "welke lichaamsdelen tellen mee voor buitenspel"
+   ]
+  },
+  "lichaamsdelen letters": {
+   "cls": "cross",
+   "s": [
+    "lichaamsdelen 6 letters",
+    "lichaamsdelen 5 letters",
+    "lichaamsdelen 4 letters",
+    "lichaamsdelen met 3 letters"
+   ]
+  },
+  "lichaamsdelen lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "ontbijt rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "ontbijt tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "ontbijt letters": {
+   "cls": "cross",
+   "s": [
+    "ontbijt 11 letters",
+    "ontbijt 6 letters",
+    "ontbijt 3 letters",
+    "ontbijt lunch 6 letters"
+   ]
+  },
+  "ontbijt lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "kamperen rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "kamperen tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "kamperen letters": {
+   "cls": "cross",
+   "s": [
+    "kamperen 7 letters"
+   ]
+  },
+  "kamperen lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "kerstmis rekenen": {
+   "cls": "cross",
+   "s": [
+    "kerstmis rekenen"
+   ]
+  },
+  "kerstmis tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "kerstmis letters": {
+   "cls": "cross",
+   "s": [
+    "kerstmis letters"
+   ]
+  },
+  "kerstmis lezen": {
+   "cls": "cross",
+   "s": [
+    "begrijpend lezen kerstmis",
+    "begrijpend lezen kerstmis groep 4",
+    "begrijpend lezen kerstmis groep 5"
+   ]
+  },
+  "klaslokaal rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "klaslokaal tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "klaslokaal letters": {
+   "cls": "cross",
+   "s": [
+    "klaslokaal 4 letters"
+   ]
+  },
+  "klaslokaal lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "kleding rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "kleding tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "kleding letters": {
+   "cls": "cross",
+   "s": [
+    "kleding letters",
+    "letters kleding laten los",
+    "kleding 6 letters",
+    "kleding 3 letters",
+    "kleding 9 letters",
+    "kleding 10 letters",
+    "kleding 7 letters",
+    "kleding 4 letters",
+    "kleding 5 letters",
+    "kleding 11 letters"
+   ]
+  },
+  "kleding lezen": {
+   "cls": "cross",
+   "s": [
+    "etiket lezen kleding",
+    "begrijpend lezen kleding"
+   ]
+  },
+  "kleuren rekenen": {
+   "cls": "cross",
+   "s": [
+    "kleuren rekenen",
+    "kleuren rekenen spelletjes",
+    "rekenen kleuren op nummer",
+    "rekenen kleuren op code",
+    "kleuren met rekenen",
+    "werkblad rekenen kleuren",
+    "kleuren op nummer rekenen groep 3",
+    "kleuren op code rekenen groep 4",
+    "sommen en kleuren rekenen",
+    "kleuren op code rekenen groep 5"
+   ]
+  },
+  "kleuren tellen": {
+   "cls": "cross",
+   "s": [
+    "kleuren tellen in excel",
+    "kleuren tellen",
+    "kleuren cellen tellen excel",
+    "formule excel kleuren tellen",
+    "kan excel kleuren tellen"
+   ]
+  },
+  "kleuren letters": {
+   "cls": "cross",
+   "s": [
+    "kleuren letters",
+    "kleuren letters 2 voor 12",
+    "kleuren letters google",
+    "letters kleuren groep 3",
+    "letters kleuren kleuters",
+    "kleuren 6 letters",
+    "kleuren op letters",
+    "kleuren 4 letters",
+    "kleuren 5 letters",
+    "kleuren en letters elektra"
+   ]
+  },
+  "kleuren lezen": {
+   "cls": "cross",
+   "s": [
+    "kleuren lezen",
+    "kleuren lezen in andere kleur",
+    "kleuren lezen test",
+    "dyslexie kleuren lezen",
+    "aura lezen kleuren",
+    "begrijpend lezen kleuren",
+    "ik leer kleuren lezen schrijven",
+    "avi lezen kleuren",
+    "kleuren veilig leren lezen"
+   ]
+  },
+  "desserts en snoep rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "desserts en snoep tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "desserts en snoep letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "desserts en snoep lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosaurussen rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosaurussen tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosaurussen letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosaurussen lezen": {
+   "cls": "cross",
+   "s": [
+    "begrijpend lezen dinosaurussen groep 4",
+    "begrijpend lezen dinosaurussen"
+   ]
+  },
+  "pasen rekenen": {
+   "cls": "cross",
+   "s": [
+    "pasen rekenen groep 4",
+    "pasen rekenen",
+    "pasen rekenen groep 3",
+    "pasen rekenen groep 5",
+    "pasen rekenen kleuters",
+    "pasen rekenen groep 6",
+    "pasen rekenen groep 7",
+    "rekenen pasen groep 2",
+    "rekenen pasen groep 8",
+    "werkblad pasen rekenen"
+   ]
+  },
+  "pasen tellen": {
+   "cls": "cross",
+   "s": [
+    "tellen pasen",
+    "werkblad pasen tellen"
+   ]
+  },
+  "pasen letters": {
+   "cls": "cross",
+   "s": [
+    "pasen letters",
+    "vrolijk pasen letters"
+   ]
+  },
+  "pasen lezen": {
+   "cls": "cross",
+   "s": [
+    "pasen lezen",
+    "pasen lezen groep 3",
+    "pasen begrijpend lezen",
+    "begrijpend lezen pasen groep 4",
+    "begrijpend lezen pasen groep 5",
+    "begrijpend lezen pasen groep 7",
+    "begrijpend lezen pasen groep 6",
+    "begrijpend lezen pasen groep 3",
+    "begrijpend lezen pasen groep 8",
+    "bijbel lezen pasen"
+   ]
+  },
+  "emoties rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "emoties tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "emoties letters": {
+   "cls": "cross",
+   "s": [
+    "emoties 7 letters",
+    "emoties 11 letters",
+    "emoties oproepend 7 letters"
+   ]
+  },
+  "emoties lezen": {
+   "cls": "cross",
+   "s": [
+    "emoties lezen",
+    "emoties lezen in de ogen test",
+    "begrijpend lezen emoties"
+   ]
+  },
+  "boerderijdieren rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "boerderijdieren tellen": {
+   "cls": "cross",
+   "s": [
+    "boerderijdieren tellen"
+   ]
+  },
+  "boerderijdieren letters": {
+   "cls": "cross",
+   "s": [
+    "boerderijdieren 7 letters",
+    "boerderijdieren 3 letters",
+    "boerderijdieren 6 letters",
+    "boerderijdieren 4 letters",
+    "boerderijdieren 8 letters",
+    "boerderijdieren 11 letters"
+   ]
+  },
+  "boerderijdieren lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "bloemen rekenen": {
+   "cls": "cross",
+   "s": [
+    "bloemen rekenen"
+   ]
+  },
+  "bloemen tellen": {
+   "cls": "cross",
+   "s": [
+    "bloemen tellen kleuters",
+    "bloemen tellen",
+    "werkblad bloemen tellen"
+   ]
+  },
+  "bloemen letters": {
+   "cls": "cross",
+   "s": [
+    "bloemen letters",
+    "bloemen letters alfabet",
+    "bloemen letters tekenen",
+    "bloemen letters borduren",
+    "bloemen 8 letters",
+    "bloemen 6 letters",
+    "bloemen 7 letters",
+    "bloemen 5 letters",
+    "bloemen 9 letters",
+    "bloemen met letters"
+   ]
+  },
+  "bloemen lezen": {
+   "cls": "cross",
+   "s": [
+    "bloemen lezen",
+    "bloemen lezen spiritueel"
+   ]
+  },
+  "boswezens rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "boswezens tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "boswezens letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "boswezens lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "fruit rekenen": {
+   "cls": "cross",
+   "s": [
+    "fruit rekenen",
+    "fruit merge rekenen",
+    "fruit merge rekenen nl"
+   ]
+  },
+  "fruit tellen": {
+   "cls": "cross",
+   "s": [
+    "fruit tellen kleuters",
+    "fruit tellen",
+    "schooltv fruit tellen",
+    "werkblad fruit tellen"
+   ]
+  },
+  "fruit letters": {
+   "cls": "cross",
+   "s": [
+    "fruit letters",
+    "fruit letters of the alphabet",
+    "fruit letters n",
+    "fruit 4 letters",
+    "fruit 5 letters",
+    "fruit 6 letters",
+    "fruit 7 letters",
+    "fruit 10 letters",
+    "fruit 9 letters",
+    "fruit 5 letters crossword clue"
+   ]
+  },
+  "fruit lezen": {
+   "cls": "cross",
+   "s": [
+    "turks fruit lezen voor de lijst",
+    "turks fruit lezen"
+   ]
+  },
+  "meubels rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "meubels tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "meubels letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "meubels lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "ziekenhuis rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "ziekenhuis tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "ziekenhuis letters": {
+   "cls": "cross",
+   "s": [
+    "ziekenhuis letters",
+    "ziekenhuis 7 letters",
+    "ziekenhuis 9 letters",
+    "ziekenhuis 6 letters",
+    "ziekenhuis 7 letters puzzelwoord",
+    "ziekenhuis 3 letters",
+    "ziekenhuis 8 letters",
+    "ziekenhuis porties 5 letters"
+   ]
+  },
+  "ziekenhuis lezen": {
+   "cls": "cross",
+   "s": [
+    "monitor lezen ziekenhuis"
+   ]
+  },
+  "insecten en beestjes rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "insecten en beestjes tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "insecten en beestjes letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "insecten en beestjes lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "keukengerei rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "keukengerei tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "keukengerei letters": {
+   "cls": "cross",
+   "s": [
+    "keukengerei letters",
+    "keukengerei 7 letters",
+    "keukengerei 6 letters",
+    "keukengerei 8 letters",
+    "keukengerei 9 letters",
+    "keukengerei 10 letters",
+    "keukengerei 4 letters",
+    "keukengerei 5 letters",
+    "keukengerei 11 letters",
+    "keukengerei 10 letters puzzelwoord"
+   ]
+  },
+  "keukengerei lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "diversen rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "diversen tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "diversen letters": {
+   "cls": "cross",
+   "s": [
+    "diversen 5 letters",
+    "diversen 4 letters"
+   ]
+  },
+  "diversen lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "muziek rekenen": {
+   "cls": "cross",
+   "s": [
+    "rekenen muziek"
+   ]
+  },
+  "muziek tellen": {
+   "cls": "cross",
+   "s": [
+    "muziek tellen",
+    "noten muziek tellen",
+    "muziek maten tellen",
+    "muziek maten tellen app",
+    "muziek leren tellen",
+    "ritme tellen muziek",
+    "8 tellen muziek",
+    "muziek noten hoeveel tellen",
+    "4 tellen muziek"
+   ]
+  },
+  "muziek letters": {
+   "cls": "cross",
+   "s": [
+    "muziek letters",
+    "muziek letters noten",
+    "muziek 3 letters",
+    "muziek 4 letters",
+    "muziek 6 letters",
+    "muziek 5 letters",
+    "muziek 9 letters",
+    "muziek 7 letters",
+    "muziek 8 letters",
+    "piano muziek letters"
+   ]
+  },
+  "muziek lezen": {
+   "cls": "cross",
+   "s": [
+    "muziek lezen",
+    "muziek lezen op tablet",
+    "muziek lezen leren",
+    "muziek lezen op ipad",
+    "muziek lezen app",
+    "muziek noten lezen",
+    "digitaal muziek lezen",
+    "muziek leren lezen app",
+    "muziek tijdens lezen",
+    "muziek noten lezen piano"
+   ]
+  },
+  "beroepen rekenen": {
+   "cls": "cross",
+   "s": [
+    "beroepen met rekenen"
+   ]
+  },
+  "beroepen tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "beroepen letters": {
+   "cls": "cross",
+   "s": [
+    "beroepen letters door elkaar",
+    "beroepen 15 letters",
+    "beroepen 10 letters",
+    "beroepen 8 letters",
+    "beroepen 7 letters",
+    "beroepen 11 letters",
+    "beroepen 9 letters",
+    "beroepen 14 letters",
+    "beroepen 13 letters",
+    "beroepen 12 letters"
+   ]
+  },
+  "beroepen lezen": {
+   "cls": "cross",
+   "s": [
+    "begrijpend lezen beroepen"
+   ]
+  },
+  "oceaanleven rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "oceaanleven tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "oceaanleven letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "oceaanleven lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "huisdieren rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "huisdieren tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "huisdieren letters": {
+   "cls": "cross",
+   "s": [
+    "huisdieren attribuut 8 letters"
+   ]
+  },
+  "huisdieren lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "postkantoor rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "postkantoor tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "postkantoor letters": {
+   "cls": "cross",
+   "s": [
+    "postkantoor 7 letters"
+   ]
+  },
+  "postkantoor lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "reptielen en amfibieën rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "reptielen en amfibieën tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "reptielen en amfibieën letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "reptielen en amfibieën lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "vormen rekenen": {
+   "cls": "cross",
+   "s": [
+    "vormen rekenen",
+    "koekeloere rekenen vormen"
+   ]
+  },
+  "vormen tellen": {
+   "cls": "cross",
+   "s": [
+    "vormen tellen",
+    "vormen van tellen"
+   ]
+  },
+  "vormen letters": {
+   "cls": "cross",
+   "s": [
+    "vormen letters",
+    "letters vormen woord",
+    "letters vormen met lichaam",
+    "letters vormen met mensen",
+    "vormen 8 letters",
+    "vormen 6 letters",
+    "vormen 12 letters",
+    "woorden vormen letters",
+    "vormen 7 letters",
+    "klei vormen letters"
+   ]
+  },
+  "vormen lezen": {
+   "cls": "cross",
+   "s": [
+    "lezen vormen",
+    "vormen van lezen"
+   ]
+  },
+  "ruimte rekenen": {
+   "cls": "cross",
+   "s": [
+    "ruimte rekenen",
+    "rekenen ruimte groep 3",
+    "rekenen ruimte kleuters",
+    "hoeveel ruimte rekenen voor stoel aan tafel",
+    "hoeveel ruimte rekenen voor eettafel",
+    "thema ruimte rekenen",
+    "getal en ruimte rekenen",
+    "getal en ruimte rekenen groep 8"
+   ]
+  },
+  "ruimte tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "ruimte letters": {
+   "cls": "cross",
+   "s": [
+    "ruimte letters",
+    "ruimte 5 letters",
+    "ruimte 4 letters",
+    "ruimte 6 letters",
+    "ruimte 7 letters",
+    "ruimte tussen letters word",
+    "ruimte tussen letters",
+    "ruimte zes letters",
+    "ruimte tussen letters aanpassen word",
+    "ruimte 3 letters"
+   ]
+  },
+  "ruimte lezen": {
+   "cls": "cross",
+   "s": [
+    "ruimte lezen",
+    "nota ruimte lezen",
+    "begrijpend lezen ruimte",
+    "ruimte om te lezen 8 letters",
+    "ruimte om te lezen"
+   ]
+  },
+  "lente rekenen": {
+   "cls": "cross",
+   "s": [
+    "lente rekenen kleuters",
+    "lente rekenen",
+    "lente rekenen groep 2",
+    "lente rekenen groep 3",
+    "thema lente rekenen kleuters",
+    "thema lente rekenen",
+    "werkblad rekenen lente"
+   ]
+  },
+  "lente tellen": {
+   "cls": "cross",
+   "s": [
+    "tellen lente"
+   ]
+  },
+  "lente letters": {
+   "cls": "cross",
+   "s": [
+    "lente letters",
+    "lente letters kleurplaat",
+    "lente 8 letters",
+    "thema lente letters",
+    "lente verschijnsel 5 letters",
+    "lente dier 3 letters",
+    "lente ui 5 letters"
+   ]
+  },
+  "lente lezen": {
+   "cls": "cross",
+   "s": [
+    "lente lezen",
+    "lente begrijpend lezen",
+    "begrijpend lezen lente groep 4",
+    "begrijpend lezen lente groep 3",
+    "begrijpend lezen lente groep 5"
+   ]
+  },
+  "zomer rekenen": {
+   "cls": "cross",
+   "s": [
+    "zomer rekenen",
+    "zomer rekenen groep 3",
+    "zomer rekenen kleuters",
+    "zomer rekenen groep 4",
+    "rekenen zomer groep 5",
+    "thema zomer rekenen",
+    "werkblad zomer rekenen",
+    "werkboekje rekenen zomer groep 3",
+    "werkboekje rekenen zomer"
+   ]
+  },
+  "zomer tellen": {
+   "cls": "cross",
+   "s": [
+    "tellen zomer"
+   ]
+  },
+  "zomer letters": {
+   "cls": "cross",
+   "s": [
+    "zomer letters",
+    "kleurplaat zomer letters",
+    "zomer zes letters",
+    "thema zomer letters",
+    "zomer vijf letters",
+    "zomer schoeisel 7 letters",
+    "zomer vrucht 7 letters",
+    "zomer kledingstuk 6 letters"
+   ]
+  },
+  "zomer lezen": {
+   "cls": "cross",
+   "s": [
+    "zomer lezen",
+    "zomer lezen geschenk"
+   ]
+  },
+  "thanksgiving rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "thanksgiving tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "thanksgiving letters": {
+   "cls": "cross",
+   "s": [
+    "thanksgiving letters",
+    "thanksgiving letters printable",
+    "thanksgiving letters to friends",
+    "thanksgiving letters printable free",
+    "thanksgiving letters for bulletin board",
+    "thanksgiving letters to print",
+    "thanksgiving letters clipart",
+    "thanksgiving letters to family"
+   ]
+  },
+  "thanksgiving lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dingen die vliegen rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dingen die vliegen tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dingen die vliegen letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "dingen die vliegen lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "gereedschap rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "gereedschap tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "gereedschap letters": {
+   "cls": "cross",
+   "s": [
+    "gereedschap letters",
+    "gereedschap 5 letters",
+    "gereedschap 8 letters",
+    "gereedschap 4 letters",
+    "gereedschap 9 letters",
+    "gereedschap 7 letters",
+    "gereedschap 11 letters",
+    "gereedschap 6 letters",
+    "gereedschap 3 letters",
+    "gereedschap 10 letters"
+   ]
+  },
+  "gereedschap lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "speelgoed rekenen": {
+   "cls": "cross",
+   "s": [
+    "speelgoed rekenen",
+    "educatief speelgoed rekenen",
+    "montessori speelgoed rekenen",
+    "speelgoed leren rekenen",
+    "houten speelgoed rekenen"
+   ]
+  },
+  "speelgoed tellen": {
+   "cls": "cross",
+   "s": [
+    "speelgoed tellen",
+    "speelgoed leren tellen",
+    "montessori speelgoed tellen",
+    "houten speelgoed tellen",
+    "educatief speelgoed tellen",
+    "leren tellen speelgoed 2 jaar",
+    "speelgoed 3 jaar tellen"
+   ]
+  },
+  "speelgoed letters": {
+   "cls": "cross",
+   "s": [
+    "speelgoed letters",
+    "speelgoed letters en cijfers",
+    "speelgoed letters leren",
+    "speelgoed 7 letters",
+    "speelgoed 12 letters",
+    "speelgoed 4 letters",
+    "speelgoed 5 letters",
+    "speelgoed 8 letters",
+    "speelgoed 9 letters",
+    "speelgoed 3 letters"
+   ]
+  },
+  "speelgoed lezen": {
+   "cls": "cross",
+   "s": [
+    "speelgoed lezen",
+    "speelgoed leren lezen"
+   ]
+  },
+  "bomen rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "bomen tellen": {
+   "cls": "cross",
+   "s": [
+    "bomen tellen"
+   ]
+  },
+  "bomen letters": {
+   "cls": "cross",
+   "s": [
+    "bomen 5 letters",
+    "bomen 6 letters",
+    "bomen 3 letters",
+    "bomen 4 letters",
+    "bomen 8 letters",
+    "bomen 7 letters",
+    "bomen 9 letters",
+    "bomen van letters cryptogram",
+    "bomen veredelen 5 letters",
+    "bomen kappen 8 letters"
+   ]
+  },
+  "bomen lezen": {
+   "cls": "cross",
+   "s": [
+    "bomen lezen",
+    "boek bomen lezen"
+   ]
+  },
+  "groenten rekenen": {
+   "cls": "cross",
+   "s": [
+    "hoeveel groenten rekenen per persoon"
+   ]
+  },
+  "groenten tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "groenten letters": {
+   "cls": "cross",
+   "s": [
+    "groenten 4 letters",
+    "groenten 8 letters",
+    "groenten 7 letters",
+    "groenten 6 letters",
+    "groenten 3 letters",
+    "groenten 5 letters",
+    "groenten 2 letters",
+    "groenten 9 letters",
+    "groenten 12 letters",
+    "groenten 10 letters"
+   ]
+  },
+  "groenten lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voertuigen rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voertuigen tellen": {
+   "cls": "cross",
+   "s": [
+    "voertuigen tellen"
+   ]
+  },
+  "voertuigen letters": {
+   "cls": "cross",
+   "s": [
+    "voertuigen 9 letters",
+    "voertuigen stroom 7 letters",
+    "voertuigen beurs 9 letters"
+   ]
+  },
+  "voertuigen lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "weer rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "weer tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "weer letters": {
+   "cls": "cross",
+   "s": [
+    "weer 7 letters",
+    "weer drie letters",
+    "weer vier letters",
+    "weer 5 letters",
+    "weer 6 letters",
+    "weer 8 letters",
+    "weer term 9 letters",
+    "weer term 7 letters",
+    "weer gemaakt 8 letters",
+    "weer bijeenbrengen 9 letters"
+   ]
+  },
+  "weer lezen": {
+   "cls": "cross",
+   "s": [
+    "weer lezen",
+    "weer lezen zonder bril",
+    "wanneer weer lezen na staaroperatie",
+    "weer beginnen met lezen"
+   ]
+  },
+  "winter rekenen": {
+   "cls": "cross",
+   "s": [
+    "winter rekenen",
+    "winter rekenen groep 3",
+    "winter rekenen kleuters",
+    "winter rekenen groep 4",
+    "winter rekenen groep 5",
+    "rekenen winter groep 2",
+    "thema winter rekenen kleuters",
+    "thema winter rekenen",
+    "werkblad rekenen winter",
+    "werkblad rekenen winter groep 3"
+   ]
+  },
+  "winter tellen": {
+   "cls": "cross",
+   "s": [
+    "tellen winter",
+    "werkblad tellen winter"
+   ]
+  },
+  "winter letters": {
+   "cls": "cross",
+   "s": [
+    "winter letters balmoral",
+    "winter letters kryptex piano",
+    "winter letters ftbn",
+    "winter letters song",
+    "winter letters",
+    "ftb winter letters lyrics",
+    "winter letters printable free",
+    "winter letters of ashcroft manor",
+    "winter letters from balmoral where to watch",
+    "winter letters printable"
+   ]
+  },
+  "winter lezen": {
+   "cls": "cross",
+   "s": [
+    "winter lezen",
+    "winter lezen groep 3",
+    "begrijpend lezen winter",
+    "begrijpend lezen winter groep 4",
+    "begrijpend lezen winter groep 3",
+    "begrijpend lezen winter groep 5",
+    "leon de winter lezen voor de lijst"
+   ]
+  },
+  "dierentuindieren rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dierentuindieren tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dierentuindieren letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "dierentuindieren lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 2 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 3 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 3 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 3 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 3 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 4 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 4 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 4 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 4 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 5 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 5 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 5 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "dieren zw 5 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand zw 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand zw 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand zw 2 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand zw 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "vogels z&w 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "vogels z&w 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "vogels z&w 2 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "vogels z&w 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "kerstmis z/w 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "kerstmis z/w 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "kerstmis z/w 2 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "kerstmis z/w 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "klaslokaal 2 (z/w) rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "klaslokaal 2 (z/w) tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "klaslokaal 2 (z/w) letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "klaslokaal 2 (z/w) lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "pasen zw 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "pasen zw 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "pasen zw 2 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "pasen zw 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voedsel zw 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voedsel zw 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voedsel zw 2 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "voedsel zw 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voedsel zw 3 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voedsel zw 3 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voedsel zw 3 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "voedsel zw 3 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "huis zw 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "huis zw 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "huis zw 2 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "huis zw 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "zeeleven zw 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "zeeleven zw 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "zeeleven zw 2 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "zeeleven zw 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport zw 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport zw 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport zw 2 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport zw 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "speelgoed zw 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "speelgoed zw 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "speelgoed zw 2 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "speelgoed zw 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "valentijnsdag zw 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "valentijnsdag zw 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "valentijnsdag zw 2 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "valentijnsdag zw 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "groenten zw 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "groenten zw 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "groenten zw 2 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "groenten zw 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voertuigen zw 2 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voertuigen zw 2 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voertuigen zw 2 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "voertuigen zw 2 lezen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voertuigen zw 3 rekenen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voertuigen zw 3 tellen": {
+   "cls": "cross",
+   "s": []
+  },
+  "voertuigen zw 3 letters": {
+   "cls": "cross",
+   "s": []
+  },
+  "voertuigen zw 3 lezen": {
+   "cls": "cross",
+   "s": []
+  }
+ },
+ "unique": [
+  "4 tellen muziek",
+  "8 tellen muziek",
+  "accessoires 10 letters",
+  "accessoires 4 letters",
+  "accessoires 6 letters",
+  "accessoires 9 letters",
+  "accessoires boeken lezen",
+  "accessoires lezen",
+  "activiteiten letters",
+  "activiteiten letters kleuters",
+  "activiteiten lezen",
+  "activiteiten met letters",
+  "activiteiten om lezen te stimuleren",
+  "activiteiten rekenen kleuters",
+  "activiteiten week van lezen en schrijven",
+  "alle dieren tellen mee",
+  "alle dieren tellen mee tv",
+  "aura lezen kleuren",
+  "avi lezen kleuren",
+  "bakkerij acht letters",
+  "bakkerij apparaat 4 letters",
+  "bakkerij letters",
+  "bakkerij negen letters",
+  "beginklank",
+  "beginklank gynzy",
+  "beginklank kleuters",
+  "beginklank lettergreep",
+  "beginklank memory",
+  "beginklank oefenen",
+  "beginklank oefenen kleuters",
+  "beginklank spel",
+  "beginklank van een woord",
+  "beginklank woord of lettergreep",
+  "begrijpend lezen beroepen",
+  "begrijpend lezen dieren",
+  "begrijpend lezen dinosaurussen",
+  "begrijpend lezen dinosaurussen groep 4",
+  "begrijpend lezen emoties",
+  "begrijpend lezen kerstmis",
+  "begrijpend lezen kerstmis groep 4",
+  "begrijpend lezen kerstmis groep 5",
+  "begrijpend lezen kleding",
+  "begrijpend lezen kleuren",
+  "begrijpend lezen lente groep 3",
+  "begrijpend lezen lente groep 4",
+  "begrijpend lezen lente groep 5",
+  "begrijpend lezen pasen groep 3",
+  "begrijpend lezen pasen groep 4",
+  "begrijpend lezen pasen groep 5",
+  "begrijpend lezen pasen groep 6",
+  "begrijpend lezen pasen groep 7",
+  "begrijpend lezen pasen groep 8",
+  "begrijpend lezen ruimte",
+  "begrijpend lezen vogels",
+  "begrijpend lezen winter",
+  "begrijpend lezen winter groep 3",
+  "begrijpend lezen winter groep 4",
+  "begrijpend lezen winter groep 5",
+  "beroepen 10 letters",
+  "beroepen 11 letters",
+  "beroepen 12 letters",
+  "beroepen 13 letters",
+  "beroepen 14 letters",
+  "beroepen 15 letters",
+  "beroepen 7 letters",
+  "beroepen 8 letters",
+  "beroepen 9 letters",
+  "beroepen letters door elkaar",
+  "beroepen met rekenen",
+  "bijbel lezen pasen",
+  "bloemen 5 letters",
+  "bloemen 6 letters",
+  "bloemen 7 letters",
+  "bloemen 8 letters",
+  "bloemen 9 letters",
+  "bloemen letters",
+  "bloemen letters alfabet",
+  "bloemen letters borduren",
+  "bloemen letters tekenen",
+  "bloemen lezen",
+  "bloemen lezen spiritueel",
+  "bloemen met letters",
+  "bloemen rekenen",
+  "bloemen tellen",
+  "bloemen tellen kleuters",
+  "boek bomen lezen",
+  "boerderijdieren 11 letters",
+  "boerderijdieren 3 letters",
+  "boerderijdieren 4 letters",
+  "boerderijdieren 6 letters",
+  "boerderijdieren 7 letters",
+  "boerderijdieren 8 letters",
+  "boerderijdieren tellen",
+  "bomen 3 letters",
+  "bomen 4 letters",
+  "bomen 5 letters",
+  "bomen 6 letters",
+  "bomen 7 letters",
+  "bomen 8 letters",
+  "bomen 9 letters",
+  "bomen kappen 8 letters",
+  "bomen lezen",
+  "bomen tellen",
+  "bomen van letters cryptogram",
+  "bomen veredelen 5 letters",
+  "crocs accessoires letters",
+  "crossword clue strand 4 letters",
+  "dieren 4 letters",
+  "dieren 5 letters",
+  "dieren 6 letters",
+  "dieren 7 letters",
+  "dieren 8 letters",
+  "dieren chip lezen",
+  "dieren die lezen",
+  "dieren letters",
+  "dieren letters alfabet",
+  "dieren letters hout",
+  "dieren letters tekenen",
+  "dieren lezen",
+  "dieren met letters",
+  "dieren rekenen",
+  "dieren tellen",
+  "dieren tellen boek",
+  "dieren tellen een flapjesboek",
+  "dieren tellen kleuters",
+  "dieren tellen werkblad",
+  "digitaal muziek lezen",
+  "diversen 4 letters",
+  "diversen 5 letters",
+  "dna strand letters",
+  "dyslexie boeken groep 3",
+  "dyslexie groep 3",
+  "dyslexie groep 3 doubleren",
+  "dyslexie groep 3 oefeningen",
+  "dyslexie kind groep 3",
+  "dyslexie kleuren lezen",
+  "dyslexie oefeningen werkbladen",
+  "dyslexie test groep 3",
+  "dyslexie werkbladen",
+  "educatief speelgoed rekenen",
+  "educatief speelgoed tellen",
+  "emoties 11 letters",
+  "emoties 7 letters",
+  "emoties lezen",
+  "emoties lezen in de ogen test",
+  "emoties oproepend 7 letters",
+  "etiket lezen kleding",
+  "etiketten lezen in de supermarkt",
+  "extra oefenen groep 3",
+  "extra oefenen lezen groep 3",
+  "extra oefenen rekenen groep 3",
+  "extra oefenen schrijven groep 3",
+  "fijne motoriek",
+  "fijne motoriek baby",
+  "fijne motoriek engels",
+  "fijne motoriek kleuters",
+  "fijne motoriek oefeningen",
+  "fijne motoriek oefeningen kleuters",
+  "fijne motoriek oefeningen na cva",
+  "fijne motoriek peuter",
+  "fijne motoriek speelgoed",
+  "fijne motoriek voorbeelden",
+  "formule excel kleuren tellen",
+  "foto lezen dieren",
+  "fruit 10 letters",
+  "fruit 4 letters",
+  "fruit 5 letters",
+  "fruit 5 letters crossword clue",
+  "fruit 6 letters",
+  "fruit 7 letters",
+  "fruit 9 letters",
+  "fruit letters",
+  "fruit letters n",
+  "fruit letters of the alphabet",
+  "fruit merge rekenen",
+  "fruit merge rekenen nl",
+  "fruit rekenen",
+  "fruit tellen",
+  "fruit tellen kleuters",
+  "ftb winter letters lyrics",
+  "gereedschap 10 letters",
+  "gereedschap 11 letters",
+  "gereedschap 3 letters",
+  "gereedschap 4 letters",
+  "gereedschap 5 letters",
+  "gereedschap 6 letters",
+  "gereedschap 7 letters",
+  "gereedschap 8 letters",
+  "gereedschap 9 letters",
+  "gereedschap letters",
+  "getal en ruimte rekenen",
+  "getal en ruimte rekenen groep 8",
+  "getalbegrip",
+  "getalbegrip betekenis",
+  "getalbegrip groep 3",
+  "getalbegrip groep 4",
+  "getalbegrip kleuters",
+  "getalbegrip oefenen",
+  "getalbegrip tot 10",
+  "getalbegrip tot 100",
+  "getalbegrip tot 100 werkblad",
+  "getalbegrip tot 20",
+  "groenten 10 letters",
+  "groenten 12 letters",
+  "groenten 2 letters",
+  "groenten 3 letters",
+  "groenten 4 letters",
+  "groenten 5 letters",
+  "groenten 6 letters",
+  "groenten 7 letters",
+  "groenten 8 letters",
+  "groenten 9 letters",
+  "hoeken groep 3",
+  "hoeveel groenten rekenen per persoon",
+  "hoeveel ruimte rekenen voor eettafel",
+  "hoeveel ruimte rekenen voor stoel aan tafel",
+  "houten speelgoed rekenen",
+  "houten speelgoed tellen",
+  "huisdieren attribuut 8 letters",
+  "huiswerk groep 3",
+  "huiswerk groep 3 printen",
+  "huiswerk groep 3 rekenen",
+  "huiswerk groep 5 werkbladen",
+  "huiswerk groep 6 werkbladen",
+  "huiswerk groep 8 werkbladen",
+  "huiswerk lezen groep 3",
+  "huiswerk spelling groep 3",
+  "huiswerk werkbladen",
+  "ik leer kleuren lezen schrijven",
+  "kamperen 7 letters",
+  "kan excel kleuren tellen",
+  "kenmerken dyslexie groep 3",
+  "kern 1",
+  "kern 1 veilig leren lezen",
+  "kern 10",
+  "kern 10 veilig leren lezen",
+  "kern 10 werkbladen",
+  "kern 11",
+  "kern 11 veilig leren lezen",
+  "kern 11 vll",
+  "kern 11 werkbladen",
+  "kern 12 veilig leren lezen",
+  "kern 2",
+  "kern 2 leesbladen",
+  "kern 2 letters",
+  "kern 2 system_msg",
+  "kern 2 veilig leren lezen",
+  "kern 2 vll",
+  "kern 2 werkbladen",
+  "kern 2000",
+  "kern 2026",
+  "kern 2500",
+  "kern 3",
+  "kern 3 letters",
+  "kern 3 lezen",
+  "kern 3 veilig leren lezen",
+  "kern 3 werkbladen",
+  "kern 3 woordzoeker",
+  "kern 3200",
+  "kern 346-77",
+  "kern 3500",
+  "kern 3600",
+  "kern 4",
+  "kern 4 letters",
+  "kern 4 lezen",
+  "kern 4 veilig leren lezen",
+  "kern 4 werkbladen",
+  "kern 4 woorden",
+  "kern 440",
+  "kern 440 manual",
+  "kern 440-43n",
+  "kern 440-47n",
+  "kern 5",
+  "kern 5 letters",
+  "kern 5 lezen",
+  "kern 5 veilig leren lezen",
+  "kern 5 vll",
+  "kern 5 werkbladen",
+  "kern 5 woorden",
+  "kern 572",
+  "kern 572-33",
+  "kern 572-39",
+  "kern 6",
+  "kern 6 letters",
+  "kern 6 veilig leren lezen",
+  "kern 6 veilig leren lezen werkbladen",
+  "kern 6 vll",
+  "kern 6 werkbladen",
+  "kern 6 woorden",
+  "kern's 6 step approach",
+  "kern's 6 steps",
+  "kern's 6 steps of curriculum development",
+  "kerstmis letters",
+  "kerstmis rekenen",
+  "keukengerei 10 letters",
+  "keukengerei 10 letters puzzelwoord",
+  "keukengerei 11 letters",
+  "keukengerei 4 letters",
+  "keukengerei 5 letters",
+  "keukengerei 6 letters",
+  "keukengerei 7 letters",
+  "keukengerei 8 letters",
+  "keukengerei 9 letters",
+  "keukengerei letters",
+  "klanken",
+  "klanken engels",
+  "klanken oefenen",
+  "klankenbord",
+  "klankenbos",
+  "klankenbos pelt",
+  "klankenkaravaan",
+  "klankennest",
+  "klankenreeks",
+  "klankenreeks 6 letters",
+  "klaslokaal 4 letters",
+  "kleding 10 letters",
+  "kleding 11 letters",
+  "kleding 3 letters",
+  "kleding 4 letters",
+  "kleding 5 letters",
+  "kleding 6 letters",
+  "kleding 7 letters",
+  "kleding 9 letters",
+  "kleding letters",
+  "klei vormen letters",
+  "kleuren 4 letters",
+  "kleuren 5 letters",
+  "kleuren 6 letters",
+  "kleuren cellen tellen excel",
+  "kleuren en letters elektra",
+  "kleuren letters",
+  "kleuren letters 2 voor 12",
+  "kleuren letters google",
+  "kleuren lezen",
+  "kleuren lezen in andere kleur",
+  "kleuren lezen test",
+  "kleuren met rekenen",
+  "kleuren op code rekenen groep 4",
+  "kleuren op code rekenen groep 5",
+  "kleuren op letters",
+  "kleuren op nummer rekenen groep 3",
+  "kleuren rekenen",
+  "kleuren rekenen spelletjes",
+  "kleuren tellen",
+  "kleuren tellen in excel",
+  "kleuren veilig leren lezen",
+  "kleurplaat zomer letters",
+  "klokkijken",
+  "klokkijken groep 3",
+  "klokkijken groep 3 werkblad",
+  "klokkijken in het frans",
+  "klokkijken leren",
+  "klokkijken oefenen",
+  "klokkijken oefenen groep 4",
+  "klokkijken oefenen groep 5",
+  "klokkijken oefenen online",
+  "klokkijken werkbladen",
+  "koekeloere rekenen vormen",
+  "kunnen dieren lezen",
+  "kunnen dieren rekenen",
+  "kunnen dieren tellen",
+  "lente 8 letters",
+  "lente begrijpend lezen",
+  "lente dier 3 letters",
+  "lente letters",
+  "lente letters kleurplaat",
+  "lente lezen",
+  "lente rekenen",
+  "lente rekenen groep 2",
+  "lente rekenen groep 3",
+  "lente rekenen kleuters",
+  "lente ui 5 letters",
+  "lente verschijnsel 5 letters",
+  "leon de winter lezen voor de lijst",
+  "leren tellen speelgoed 2 jaar",
+  "letter a schrijven werkblad",
+  "letter a werkblad",
+  "letter a werkblad kleuters",
+  "letter b werkblad",
+  "letter b werkblad kleuters",
+  "letter c werkblad",
+  "letter d werkblad",
+  "letter d werkblad kleuters",
+  "letter e werkblad",
+  "letter e werkblad kleuters",
+  "letter f werkblad",
+  "letter f werkblad kleuters",
+  "letter g werkblad",
+  "letter g werkblad kleuters",
+  "letter g werkbladen",
+  "letter h werkblad",
+  "letter h werkblad kleuters",
+  "letter i werkblad",
+  "letter i werkblad kleuters",
+  "letter j werkblad",
+  "letter j werkblad kleuters",
+  "letter k schrijven werkblad",
+  "letter k werkblad",
+  "letter k werkblad kleuters",
+  "letter l werkblad",
+  "letter l werkblad kleuters",
+  "letter m werkblad",
+  "letter m werkblad groep 2",
+  "letter m werkblad kleuters",
+  "letter n werkblad",
+  "letter n werkblad kleuters",
+  "letter o werkblad",
+  "letter o werkblad kleuters",
+  "letter p werkblad",
+  "letter p werkblad kleuters",
+  "letter r werkblad",
+  "letter r werkblad kleuters",
+  "letter s werkblad",
+  "letter s werkblad kleuters",
+  "letter t werkblad",
+  "letter t werkblad kleuters",
+  "letter u werkblad",
+  "letter v werkblad",
+  "letter v werkblad kleuters",
+  "letter w werkblad",
+  "letter w werkblad kleuters",
+  "letter werkblad",
+  "letter werkblad kleuters",
+  "letter werkbladen",
+  "letter werkbladen groep 2",
+  "letter werkbladen groep 3",
+  "letter werkbladen kleuters",
+  "letter z werkblad",
+  "letter z werkblad kleuters",
+  "lettergrepen",
+  "lettergrepen betekenis",
+  "lettergrepen engels",
+  "lettergrepen haiku",
+  "lettergrepen klappen",
+  "lettergrepen klappen kleuters",
+  "lettergrepen oefenen",
+  "lettergrepen teller",
+  "lettergrepen voorbeelden",
+  "lettergrepen woordenboek",
+  "letters kleding laten los",
+  "letters kleuren groep 3",
+  "letters kleuren kleuters",
+  "letters leren",
+  "letters leren 3 jaar",
+  "letters leren groep 1",
+  "letters leren groep 2",
+  "letters leren is een eitje",
+  "letters leren kleuters",
+  "letters leren met lucy",
+  "letters leren schrijven",
+  "letters leren schrijven werkblad",
+  "letters leren spel",
+  "letters strand malaga",
+  "letters vormen met lichaam",
+  "letters vormen met mensen",
+  "letters vormen woord",
+  "lezen vormen",
+  "lichaamsdelen 4 letters",
+  "lichaamsdelen 5 letters",
+  "lichaamsdelen 6 letters",
+  "lichaamsdelen met 3 letters",
+  "list lezen activiteiten",
+  "meten",
+  "meten engels",
+  "meten in google maps",
+  "meten is weten",
+  "meten met 2 maten",
+  "meten met gsm",
+  "meten met iphone",
+  "meten met telefoon",
+  "meten verleden tijd",
+  "metend rekenen",
+  "mkm woorden",
+  "mkm woorden groep 2",
+  "mkm woorden groep 3",
+  "mkm woorden kleuters",
+  "mkm woorden lente",
+  "mkm woorden lezen",
+  "mkm woorden met eu",
+  "mkm woorden met i",
+  "mkm woorden plaatjes",
+  "mkm woorden zomer",
+  "monitor lezen ziekenhuis",
+  "montessori speelgoed rekenen",
+  "montessori speelgoed tellen",
+  "muziek 3 letters",
+  "muziek 4 letters",
+  "muziek 5 letters",
+  "muziek 6 letters",
+  "muziek 7 letters",
+  "muziek 8 letters",
+  "muziek 9 letters",
+  "muziek leren lezen app",
+  "muziek leren tellen",
+  "muziek letters",
+  "muziek letters noten",
+  "muziek lezen",
+  "muziek lezen app",
+  "muziek lezen leren",
+  "muziek lezen op ipad",
+  "muziek lezen op tablet",
+  "muziek maten tellen",
+  "muziek maten tellen app",
+  "muziek noten hoeveel tellen",
+  "muziek noten lezen",
+  "muziek noten lezen piano",
+  "muziek tellen",
+  "muziek tijdens lezen",
+  "nijntje dieren tellen",
+  "nijntje dieren tellen spelregels",
+  "nota ruimte lezen",
+  "noten muziek tellen",
+  "nt2 groep 3",
+  "nt2 leerling in groep 3",
+  "nt2 werkbladen",
+  "nt2 werkbladen basisschool",
+  "nt2 werkbladen groep 3",
+  "nt2 werkbladen kinderen",
+  "nt2 werkbladen volwassenen",
+  "oefenboek groep 1",
+  "oefenboek groep 4",
+  "oefenboekjes",
+  "oefenboekjes 1ste leerjaar",
+  "oefenboekjes 3 jaar",
+  "oefenboekjes 4 jaar",
+  "oefenboekjes 5 jaar",
+  "oefenboekjes 6 jaar",
+  "oefenboekjes groep 2",
+  "oefenboekjes groep 3",
+  "ontbijt 11 letters",
+  "ontbijt 3 letters",
+  "ontbijt 6 letters",
+  "ontbijt lunch 6 letters",
+  "ontluikend rekenen activiteiten",
+  "pasen begrijpend lezen",
+  "pasen letters",
+  "pasen lezen",
+  "pasen lezen groep 3",
+  "pasen rekenen",
+  "pasen rekenen groep 3",
+  "pasen rekenen groep 4",
+  "pasen rekenen groep 5",
+  "pasen rekenen groep 6",
+  "pasen rekenen groep 7",
+  "pasen rekenen kleuters",
+  "patronen",
+  "patronen belle etoile",
+  "patronen doorbreken",
+  "patronen doorbreken boek",
+  "patronen doorbreken hannie van genderen",
+  "patronen kleding",
+  "patronen kleding gratis",
+  "patronen tassen maken gratis",
+  "patronen tekenen",
+  "patronen van gordon",
+  "piano muziek letters",
+  "pluspunt extra oefenen groep 3",
+  "postkantoor 7 letters",
+  "protocol dyslexie groep 3",
+  "rekenen activiteiten",
+  "rekenen kleuren op code",
+  "rekenen kleuren op nummer",
+  "rekenen muziek",
+  "rekenen pasen groep 2",
+  "rekenen pasen groep 8",
+  "rekenen ruimte groep 3",
+  "rekenen ruimte kleuters",
+  "rekenen winter groep 2",
+  "rekenen zomer groep 5",
+  "rijmwoorden",
+  "rijmwoorden doen",
+  "rijmwoorden is",
+  "rijmwoorden jaar",
+  "rijmwoorden zijn",
+  "rijmwoorden zoeken",
+  "rijmwoordenboek",
+  "rijmwoordenboek engels",
+  "rijmwoordenboek mick",
+  "rijmwoordenboek van dale",
+  "ritme tellen muziek",
+  "ruimte 3 letters",
+  "ruimte 4 letters",
+  "ruimte 5 letters",
+  "ruimte 6 letters",
+  "ruimte 7 letters",
+  "ruimte letters",
+  "ruimte lezen",
+  "ruimte om te lezen",
+  "ruimte om te lezen 8 letters",
+  "ruimte rekenen",
+  "ruimte tussen letters",
+  "ruimte tussen letters aanpassen word",
+  "ruimte tussen letters word",
+  "ruimte zes letters",
+  "schooltv fruit tellen",
+  "schrijfpatronen",
+  "schrijfpatronen boekje",
+  "schrijfpatronen groep 2",
+  "schrijfpatronen kleuters",
+  "schrijfpatronen kleuters lente",
+  "schrijfpatronen kleuters zomer",
+  "schrijfpatronen lente",
+  "schrijfpatronen letters",
+  "schrijfpatronen werkbladen",
+  "schrijfpatronen zomer",
+  "sommen en kleuren rekenen",
+  "sommen tot 10",
+  "sommen tot 10 automatiseren",
+  "sommen tot 10 flitsen",
+  "sommen tot 10 joggen",
+  "sommen tot 10 oefenen",
+  "sommen tot 10 online oefenen",
+  "sommen tot 10 werkblad",
+  "sommen tot 100",
+  "sommen tot 100 werkblad",
+  "sommen tot 1000",
+  "sommen tot 20",
+  "sommen tot 20 automatiseren",
+  "sommen tot 20 flitsen",
+  "sommen tot 20 groep 3",
+  "sommen tot 20 kleurplaat",
+  "sommen tot 20 met brug",
+  "sommen tot 20 oefenen",
+  "sommen tot 20 over het tiental",
+  "sommen tot 20 werkblad",
+  "sommen tot 20 zonder brug",
+  "speciaal onderwijs groep 3",
+  "speciaal onderwijs werkbladen",
+  "speelgoed 12 letters",
+  "speelgoed 3 jaar tellen",
+  "speelgoed 3 letters",
+  "speelgoed 4 letters",
+  "speelgoed 5 letters",
+  "speelgoed 7 letters",
+  "speelgoed 8 letters",
+  "speelgoed 9 letters",
+  "speelgoed leren lezen",
+  "speelgoed leren rekenen",
+  "speelgoed leren tellen",
+  "speelgoed letters",
+  "speelgoed letters en cijfers",
+  "speelgoed letters leren",
+  "speelgoed lezen",
+  "speelgoed rekenen",
+  "speelgoed tellen",
+  "spelen in hoeken groep 3",
+  "spelling extra oefenen werkbladen",
+  "spelling extra oefenen werkbladen taal actief",
+  "splitsen tot 10",
+  "splitsen tot 10 bewegend leren",
+  "splitsen tot 10 bundel",
+  "splitsen tot 10 groep 3",
+  "splitsen tot 10 oefeningen",
+  "splitsen tot 10 online",
+  "splitsen tot 10 online oefenen",
+  "splitsen tot 10 werkblad",
+  "splitsen tot 10 werkboekje",
+  "splitsen tot 100",
+  "stappenplan zelfstandig werken groep 3",
+  "strand 10 letters",
+  "strand 4 letters",
+  "strand 5 letters",
+  "strand 6 letters",
+  "strand 7 letters",
+  "strand letters",
+  "strand vier letters",
+  "technisch lezen activiteiten",
+  "tekenen dyslexie groep 3",
+  "tellen accessoires mee voor bijtelling",
+  "tellen lente",
+  "tellen pasen",
+  "tellen tot 20",
+  "tellen tot 20 duits",
+  "tellen tot 20 frans",
+  "tellen tot 20 italiaans",
+  "tellen tot 20 kleuters",
+  "tellen tot 20 leeftijd",
+  "tellen tot 20 nt2",
+  "tellen tot 20 portugees",
+  "tellen tot 20 spaans",
+  "tellen tot 20 werkblad",
+  "tellen winter",
+  "tellen zomer",
+  "thanksgiving letters",
+  "thanksgiving letters clipart",
+  "thanksgiving letters for bulletin board",
+  "thanksgiving letters printable",
+  "thanksgiving letters printable free",
+  "thanksgiving letters to family",
+  "thanksgiving letters to friends",
+  "thanksgiving letters to print",
+  "thema lente letters",
+  "thema lente rekenen",
+  "thema lente rekenen kleuters",
+  "thema ruimte rekenen",
+  "thema winter rekenen",
+  "thema winter rekenen kleuters",
+  "thema zomer letters",
+  "thema zomer rekenen",
+  "turks fruit lezen",
+  "turks fruit lezen voor de lijst",
+  "vermoeden dyslexie groep 3",
+  "voertuigen 9 letters",
+  "voertuigen beurs 9 letters",
+  "voertuigen stroom 7 letters",
+  "voertuigen tellen",
+  "vogels 10 letters",
+  "vogels 11 letters",
+  "vogels 3 letters",
+  "vogels 4 letters",
+  "vogels 5 letters",
+  "vogels 6 letters",
+  "vogels 7 letters",
+  "vogels 8 letters",
+  "vogels 9 letters",
+  "vogels letters",
+  "vogels met 2 letters",
+  "vogels tellen",
+  "vogels tellen 2025",
+  "vogels tellen 2026",
+  "vogels tellen app",
+  "vogels tellen bijbaan",
+  "vogels tellen formulier",
+  "vogels tellen in de tuin",
+  "vogels tellen natuurpunt",
+  "vogels tellen vacature",
+  "vogels tellen weekend",
+  "vormen",
+  "vormen 12 letters",
+  "vormen 6 letters",
+  "vormen 7 letters",
+  "vormen 8 letters",
+  "vormen letters",
+  "vormen nagels",
+  "vormen rekenen",
+  "vormen tellen",
+  "vormen van autisme",
+  "vormen van dementie",
+  "vormen van huidkanker",
+  "vormen van lezen",
+  "vormen van symbiose",
+  "vormen van tellen",
+  "vormend bestanddeel",
+  "vormend bestanddeel 7 letters",
+  "vormenstoof",
+  "vormenstoof little dutch",
+  "vrolijk pasen letters",
+  "wanneer weer lezen na staaroperatie",
+  "weektaak groep 3",
+  "weektaak groep 3 4",
+  "weektaak groep 3 pdf",
+  "weektaak groep 3 voorbeeld",
+  "weektaak opdrachten groep.3",
+  "weektaak werkbladen",
+  "weer 5 letters",
+  "weer 6 letters",
+  "weer 7 letters",
+  "weer 8 letters",
+  "weer beginnen met lezen",
+  "weer bijeenbrengen 9 letters",
+  "weer drie letters",
+  "weer gemaakt 8 letters",
+  "weer lezen",
+  "weer lezen zonder bril",
+  "weer term 7 letters",
+  "weer term 9 letters",
+  "weer vier letters",
+  "welke hoeken in groep 3",
+  "welke lichaamsdelen tellen bij buitenspel",
+  "welke lichaamsdelen tellen mee voor buitenspel",
+  "werkblaadjes 1ste leerjaar",
+  "werkblaadjes 1ste leerjaar afdrukken",
+  "werkblaadjes 2de leerjaar",
+  "werkblaadjes 2de leerjaar afdrukken",
+  "werkblaadjes 3de leerjaar",
+  "werkblaadjes 3de leerjaar afdrukken",
+  "werkblaadjes 3de leerjaar rekenen",
+  "werkblaadjes 3de leerjaar taal",
+  "werkblaadjes 4de leerjaar",
+  "werkblaadjes 4de leerjaar rekenen",
+  "werkblaadjes 4de leerjaar taal",
+  "werkblaadjes 5de leerjaar",
+  "werkblaadjes 5de leerjaar wiskunde",
+  "werkblaadjes 6de leerjaar",
+  "werkblaadjes cijferen 4de leerjaar",
+  "werkblaadjes frans 5de leerjaar",
+  "werkblaadjes kommagetallen 4de leerjaar",
+  "werkblaadjes taal 2de leerjaar afdrukken",
+  "werkblad 1ste leerjaar",
+  "werkblad 2de leerjaar",
+  "werkblad 3de leerjaar",
+  "werkblad 4de leerjaar",
+  "werkblad bloemen tellen",
+  "werkblad fruit tellen",
+  "werkblad letter b groep 2",
+  "werkblad letter b groep 3",
+  "werkblad letter d groep 2",
+  "werkblad letter d groep 3",
+  "werkblad letter d schrijven",
+  "werkblad letter e groep 2",
+  "werkblad letter e groep 3",
+  "werkblad letter f groep 2",
+  "werkblad letter h groep 2",
+  "werkblad letter h groep 3",
+  "werkblad letter j groep 2",
+  "werkblad letter k groep 2",
+  "werkblad letter k groep 3",
+  "werkblad letter l groep 2",
+  "werkblad letter l groep 3",
+  "werkblad letter m groep 3",
+  "werkblad letter m schrijven",
+  "werkblad letter n groep 2",
+  "werkblad letter n groep 3",
+  "werkblad letter o groep 2",
+  "werkblad letter p groep 2",
+  "werkblad letter p groep 3",
+  "werkblad letter p schrijven",
+  "werkblad letter r groep 2",
+  "werkblad letter r groep 3",
+  "werkblad letter r schrijven",
+  "werkblad letter s groep 3",
+  "werkblad letter s schrijven",
+  "werkblad letter v groep 2",
+  "werkblad letter w groep 3",
+  "werkblad letter x",
+  "werkblad letter y",
+  "werkblad letter z groep 2",
+  "werkblad letter z groep 3",
+  "werkblad letters groep 2",
+  "werkblad letters sinterklaas",
+  "werkblad pasen rekenen",
+  "werkblad pasen tellen",
+  "werkblad rekenen kleuren",
+  "werkblad rekenen lente",
+  "werkblad rekenen winter",
+  "werkblad rekenen winter groep 3",
+  "werkblad tellen winter",
+  "werkblad zomer rekenen",
+  "werkbladen nt2 a1",
+  "werkbladen nt2 basisonderwijs",
+  "werkbladen nt2 grammatica",
+  "werkbladen nt2 leerlingen",
+  "werkbladen weektaak groep 7",
+  "werkboekje rekenen zomer",
+  "werkboekje rekenen zomer groep 3",
+  "werken in hoeken groep 3",
+  "winter letters",
+  "winter letters balmoral",
+  "winter letters from balmoral where to watch",
+  "winter letters ftbn",
+  "winter letters kryptex piano",
+  "winter letters of ashcroft manor",
+  "winter letters printable",
+  "winter letters printable free",
+  "winter letters song",
+  "winter lezen",
+  "winter lezen groep 3",
+  "winter rekenen",
+  "winter rekenen groep 3",
+  "winter rekenen groep 4",
+  "winter rekenen groep 5",
+  "winter rekenen kleuters",
+  "woorden vormen letters",
+  "woordenschat nt2 groep 3",
+  "woordenschat nt2 werkbladen",
+  "zelfstandig werken boekje groep 3",
+  "zelfstandig werken groep 3",
+  "ziekenhuis 3 letters",
+  "ziekenhuis 6 letters",
+  "ziekenhuis 7 letters",
+  "ziekenhuis 7 letters puzzelwoord",
+  "ziekenhuis 8 letters",
+  "ziekenhuis 9 letters",
+  "ziekenhuis letters",
+  "ziekenhuis porties 5 letters",
+  "zomer kledingstuk 6 letters",
+  "zomer letters",
+  "zomer lezen",
+  "zomer lezen geschenk",
+  "zomer rekenen",
+  "zomer rekenen groep 3",
+  "zomer rekenen groep 4",
+  "zomer rekenen kleuters",
+  "zomer schoeisel 7 letters",
+  "zomer vijf letters",
+  "zomer vrucht 7 letters",
+  "zomer zes letters"
+ ],
+ "novel": [
+  "4 tellen muziek",
+  "8 tellen muziek",
+  "accessoires 10 letters",
+  "accessoires 4 letters",
+  "accessoires 6 letters",
+  "accessoires 9 letters",
+  "accessoires boeken lezen",
+  "accessoires lezen",
+  "activiteiten letters",
+  "activiteiten letters kleuters",
+  "activiteiten lezen",
+  "activiteiten met letters",
+  "activiteiten om lezen te stimuleren",
+  "activiteiten rekenen kleuters",
+  "activiteiten week van lezen en schrijven",
+  "alle dieren tellen mee",
+  "alle dieren tellen mee tv",
+  "aura lezen kleuren",
+  "avi lezen kleuren",
+  "bakkerij acht letters",
+  "bakkerij apparaat 4 letters",
+  "bakkerij letters",
+  "bakkerij negen letters",
+  "beginklank gynzy",
+  "beginklank memory",
+  "begrijpend lezen beroepen",
+  "begrijpend lezen dieren",
+  "begrijpend lezen dinosaurussen",
+  "begrijpend lezen dinosaurussen groep 4",
+  "begrijpend lezen emoties",
+  "begrijpend lezen kerstmis",
+  "begrijpend lezen kerstmis groep 4",
+  "begrijpend lezen kerstmis groep 5",
+  "begrijpend lezen kleding",
+  "begrijpend lezen kleuren",
+  "begrijpend lezen lente groep 3",
+  "begrijpend lezen lente groep 4",
+  "begrijpend lezen lente groep 5",
+  "begrijpend lezen pasen groep 3",
+  "begrijpend lezen pasen groep 4",
+  "begrijpend lezen pasen groep 5",
+  "begrijpend lezen pasen groep 6",
+  "begrijpend lezen pasen groep 7",
+  "begrijpend lezen pasen groep 8",
+  "begrijpend lezen ruimte",
+  "begrijpend lezen vogels",
+  "begrijpend lezen winter",
+  "begrijpend lezen winter groep 3",
+  "begrijpend lezen winter groep 4",
+  "begrijpend lezen winter groep 5",
+  "beroepen 10 letters",
+  "beroepen 11 letters",
+  "beroepen 12 letters",
+  "beroepen 13 letters",
+  "beroepen 14 letters",
+  "beroepen 15 letters",
+  "beroepen 7 letters",
+  "beroepen 8 letters",
+  "beroepen 9 letters",
+  "beroepen letters door elkaar",
+  "beroepen met rekenen",
+  "bijbel lezen pasen",
+  "bloemen 5 letters",
+  "bloemen 6 letters",
+  "bloemen 7 letters",
+  "bloemen 8 letters",
+  "bloemen 9 letters",
+  "bloemen letters",
+  "bloemen letters alfabet",
+  "bloemen letters borduren",
+  "bloemen letters tekenen",
+  "bloemen lezen",
+  "bloemen lezen spiritueel",
+  "bloemen met letters",
+  "bloemen rekenen",
+  "bloemen tellen",
+  "bloemen tellen kleuters",
+  "boek bomen lezen",
+  "boerderijdieren 11 letters",
+  "boerderijdieren 3 letters",
+  "boerderijdieren 4 letters",
+  "boerderijdieren 6 letters",
+  "boerderijdieren 7 letters",
+  "boerderijdieren 8 letters",
+  "boerderijdieren tellen",
+  "bomen 3 letters",
+  "bomen 4 letters",
+  "bomen 5 letters",
+  "bomen 6 letters",
+  "bomen 7 letters",
+  "bomen 8 letters",
+  "bomen 9 letters",
+  "bomen kappen 8 letters",
+  "bomen lezen",
+  "bomen tellen",
+  "bomen van letters cryptogram",
+  "bomen veredelen 5 letters",
+  "crocs accessoires letters",
+  "crossword clue strand 4 letters",
+  "dieren 4 letters",
+  "dieren 5 letters",
+  "dieren 6 letters",
+  "dieren 7 letters",
+  "dieren 8 letters",
+  "dieren chip lezen",
+  "dieren die lezen",
+  "dieren letters",
+  "dieren letters alfabet",
+  "dieren letters hout",
+  "dieren letters tekenen",
+  "dieren lezen",
+  "dieren met letters",
+  "dieren rekenen",
+  "dieren tellen",
+  "dieren tellen boek",
+  "dieren tellen een flapjesboek",
+  "dieren tellen kleuters",
+  "dieren tellen werkblad",
+  "digitaal muziek lezen",
+  "diversen 4 letters",
+  "diversen 5 letters",
+  "dna strand letters",
+  "dyslexie boeken groep 3",
+  "dyslexie groep 3",
+  "dyslexie groep 3 doubleren",
+  "dyslexie groep 3 oefeningen",
+  "dyslexie kind groep 3",
+  "dyslexie kleuren lezen",
+  "dyslexie oefeningen werkbladen",
+  "dyslexie test groep 3",
+  "dyslexie werkbladen",
+  "educatief speelgoed rekenen",
+  "educatief speelgoed tellen",
+  "emoties 11 letters",
+  "emoties 7 letters",
+  "emoties lezen",
+  "emoties lezen in de ogen test",
+  "emoties oproepend 7 letters",
+  "etiket lezen kleding",
+  "etiketten lezen in de supermarkt",
+  "extra oefenen groep 3",
+  "extra oefenen lezen groep 3",
+  "extra oefenen rekenen groep 3",
+  "extra oefenen schrijven groep 3",
+  "fijne motoriek",
+  "fijne motoriek baby",
+  "fijne motoriek engels",
+  "fijne motoriek kleuters",
+  "fijne motoriek oefeningen",
+  "fijne motoriek oefeningen kleuters",
+  "fijne motoriek oefeningen na cva",
+  "fijne motoriek peuter",
+  "fijne motoriek speelgoed",
+  "fijne motoriek voorbeelden",
+  "formule excel kleuren tellen",
+  "foto lezen dieren",
+  "fruit 10 letters",
+  "fruit 4 letters",
+  "fruit 5 letters",
+  "fruit 5 letters crossword clue",
+  "fruit 6 letters",
+  "fruit 7 letters",
+  "fruit 9 letters",
+  "fruit letters",
+  "fruit letters n",
+  "fruit letters of the alphabet",
+  "fruit merge rekenen",
+  "fruit merge rekenen nl",
+  "fruit rekenen",
+  "fruit tellen",
+  "fruit tellen kleuters",
+  "ftb winter letters lyrics",
+  "gereedschap 10 letters",
+  "gereedschap 11 letters",
+  "gereedschap 3 letters",
+  "gereedschap 4 letters",
+  "gereedschap 5 letters",
+  "gereedschap 6 letters",
+  "gereedschap 7 letters",
+  "gereedschap 8 letters",
+  "gereedschap 9 letters",
+  "gereedschap letters",
+  "getal en ruimte rekenen",
+  "getal en ruimte rekenen groep 8",
+  "getalbegrip betekenis",
+  "groenten 10 letters",
+  "groenten 12 letters",
+  "groenten 2 letters",
+  "groenten 3 letters",
+  "groenten 4 letters",
+  "groenten 5 letters",
+  "groenten 6 letters",
+  "groenten 7 letters",
+  "groenten 8 letters",
+  "groenten 9 letters",
+  "hoeken groep 3",
+  "hoeveel groenten rekenen per persoon",
+  "hoeveel ruimte rekenen voor eettafel",
+  "hoeveel ruimte rekenen voor stoel aan tafel",
+  "houten speelgoed rekenen",
+  "houten speelgoed tellen",
+  "huisdieren attribuut 8 letters",
+  "huiswerk groep 3",
+  "huiswerk groep 3 printen",
+  "huiswerk groep 3 rekenen",
+  "huiswerk groep 5 werkbladen",
+  "huiswerk groep 6 werkbladen",
+  "huiswerk groep 8 werkbladen",
+  "huiswerk lezen groep 3",
+  "huiswerk spelling groep 3",
+  "huiswerk werkbladen",
+  "ik leer kleuren lezen schrijven",
+  "kamperen 7 letters",
+  "kan excel kleuren tellen",
+  "kenmerken dyslexie groep 3",
+  "kern 1",
+  "kern 1 veilig leren lezen",
+  "kern 10",
+  "kern 10 veilig leren lezen",
+  "kern 10 werkbladen",
+  "kern 11",
+  "kern 11 veilig leren lezen",
+  "kern 11 vll",
+  "kern 11 werkbladen",
+  "kern 12 veilig leren lezen",
+  "kern 2",
+  "kern 2 leesbladen",
+  "kern 2 letters",
+  "kern 2 system_msg",
+  "kern 2 veilig leren lezen",
+  "kern 2 vll",
+  "kern 2 werkbladen",
+  "kern 2000",
+  "kern 2026",
+  "kern 2500",
+  "kern 3",
+  "kern 3 letters",
+  "kern 3 lezen",
+  "kern 3 veilig leren lezen",
+  "kern 3 werkbladen",
+  "kern 3 woordzoeker",
+  "kern 3200",
+  "kern 346-77",
+  "kern 3500",
+  "kern 3600",
+  "kern 4",
+  "kern 4 letters",
+  "kern 4 lezen",
+  "kern 4 veilig leren lezen",
+  "kern 4 werkbladen",
+  "kern 4 woorden",
+  "kern 440",
+  "kern 440 manual",
+  "kern 440-43n",
+  "kern 440-47n",
+  "kern 5",
+  "kern 5 letters",
+  "kern 5 lezen",
+  "kern 5 veilig leren lezen",
+  "kern 5 vll",
+  "kern 5 werkbladen",
+  "kern 5 woorden",
+  "kern 572",
+  "kern 572-33",
+  "kern 572-39",
+  "kern 6",
+  "kern 6 letters",
+  "kern 6 veilig leren lezen",
+  "kern 6 veilig leren lezen werkbladen",
+  "kern 6 vll",
+  "kern 6 werkbladen",
+  "kern 6 woorden",
+  "kern's 6 step approach",
+  "kern's 6 steps",
+  "kern's 6 steps of curriculum development",
+  "kerstmis letters",
+  "kerstmis rekenen",
+  "keukengerei 10 letters",
+  "keukengerei 10 letters puzzelwoord",
+  "keukengerei 11 letters",
+  "keukengerei 4 letters",
+  "keukengerei 5 letters",
+  "keukengerei 6 letters",
+  "keukengerei 7 letters",
+  "keukengerei 8 letters",
+  "keukengerei 9 letters",
+  "keukengerei letters",
+  "klanken",
+  "klanken engels",
+  "klanken oefenen",
+  "klankenbord",
+  "klankenbos",
+  "klankenbos pelt",
+  "klankenkaravaan",
+  "klankennest",
+  "klankenreeks",
+  "klankenreeks 6 letters",
+  "klaslokaal 4 letters",
+  "kleding 10 letters",
+  "kleding 11 letters",
+  "kleding 3 letters",
+  "kleding 4 letters",
+  "kleding 5 letters",
+  "kleding 6 letters",
+  "kleding 7 letters",
+  "kleding 9 letters",
+  "kleding letters",
+  "klei vormen letters",
+  "kleuren 4 letters",
+  "kleuren 5 letters",
+  "kleuren 6 letters",
+  "kleuren cellen tellen excel",
+  "kleuren en letters elektra",
+  "kleuren letters",
+  "kleuren letters 2 voor 12",
+  "kleuren letters google",
+  "kleuren lezen",
+  "kleuren lezen in andere kleur",
+  "kleuren lezen test",
+  "kleuren met rekenen",
+  "kleuren op code rekenen groep 4",
+  "kleuren op code rekenen groep 5",
+  "kleuren op letters",
+  "kleuren op nummer rekenen groep 3",
+  "kleuren rekenen",
+  "kleuren rekenen spelletjes",
+  "kleuren tellen",
+  "kleuren tellen in excel",
+  "kleuren veilig leren lezen",
+  "kleurplaat zomer letters",
+  "klokkijken in het frans",
+  "koekeloere rekenen vormen",
+  "kunnen dieren lezen",
+  "kunnen dieren rekenen",
+  "kunnen dieren tellen",
+  "lente 8 letters",
+  "lente begrijpend lezen",
+  "lente dier 3 letters",
+  "lente letters",
+  "lente letters kleurplaat",
+  "lente lezen",
+  "lente rekenen",
+  "lente rekenen groep 2",
+  "lente rekenen groep 3",
+  "lente rekenen kleuters",
+  "lente ui 5 letters",
+  "lente verschijnsel 5 letters",
+  "leon de winter lezen voor de lijst",
+  "leren tellen speelgoed 2 jaar",
+  "letter a schrijven werkblad",
+  "letter a werkblad",
+  "letter a werkblad kleuters",
+  "letter b werkblad",
+  "letter b werkblad kleuters",
+  "letter c werkblad",
+  "letter d werkblad",
+  "letter d werkblad kleuters",
+  "letter e werkblad",
+  "letter e werkblad kleuters",
+  "letter f werkblad",
+  "letter f werkblad kleuters",
+  "letter g werkblad",
+  "letter g werkblad kleuters",
+  "letter g werkbladen",
+  "letter h werkblad",
+  "letter h werkblad kleuters",
+  "letter i werkblad",
+  "letter i werkblad kleuters",
+  "letter j werkblad",
+  "letter j werkblad kleuters",
+  "letter k schrijven werkblad",
+  "letter k werkblad",
+  "letter k werkblad kleuters",
+  "letter l werkblad",
+  "letter l werkblad kleuters",
+  "letter m werkblad",
+  "letter m werkblad groep 2",
+  "letter m werkblad kleuters",
+  "letter n werkblad",
+  "letter n werkblad kleuters",
+  "letter o werkblad",
+  "letter o werkblad kleuters",
+  "letter p werkblad",
+  "letter p werkblad kleuters",
+  "letter r werkblad",
+  "letter r werkblad kleuters",
+  "letter s werkblad",
+  "letter s werkblad kleuters",
+  "letter t werkblad",
+  "letter t werkblad kleuters",
+  "letter u werkblad",
+  "letter v werkblad",
+  "letter v werkblad kleuters",
+  "letter w werkblad",
+  "letter w werkblad kleuters",
+  "letter werkblad",
+  "letter werkblad kleuters",
+  "letter werkbladen",
+  "letter werkbladen groep 2",
+  "letter werkbladen groep 3",
+  "letter werkbladen kleuters",
+  "letter z werkblad",
+  "letter z werkblad kleuters",
+  "lettergrepen",
+  "lettergrepen betekenis",
+  "lettergrepen engels",
+  "lettergrepen haiku",
+  "lettergrepen klappen",
+  "lettergrepen klappen kleuters",
+  "lettergrepen oefenen",
+  "lettergrepen teller",
+  "lettergrepen voorbeelden",
+  "lettergrepen woordenboek",
+  "letters kleding laten los",
+  "letters kleuren groep 3",
+  "letters kleuren kleuters",
+  "letters leren",
+  "letters leren 3 jaar",
+  "letters leren groep 1",
+  "letters leren groep 2",
+  "letters leren is een eitje",
+  "letters leren kleuters",
+  "letters leren met lucy",
+  "letters leren schrijven",
+  "letters leren schrijven werkblad",
+  "letters leren spel",
+  "letters strand malaga",
+  "letters vormen met lichaam",
+  "letters vormen met mensen",
+  "letters vormen woord",
+  "lezen vormen",
+  "lichaamsdelen 4 letters",
+  "lichaamsdelen 5 letters",
+  "lichaamsdelen 6 letters",
+  "lichaamsdelen met 3 letters",
+  "list lezen activiteiten",
+  "mkm woorden",
+  "mkm woorden groep 2",
+  "mkm woorden groep 3",
+  "mkm woorden kleuters",
+  "mkm woorden lente",
+  "mkm woorden lezen",
+  "mkm woorden met eu",
+  "mkm woorden met i",
+  "mkm woorden plaatjes",
+  "mkm woorden zomer",
+  "monitor lezen ziekenhuis",
+  "montessori speelgoed rekenen",
+  "montessori speelgoed tellen",
+  "muziek 3 letters",
+  "muziek 4 letters",
+  "muziek 5 letters",
+  "muziek 6 letters",
+  "muziek 7 letters",
+  "muziek 8 letters",
+  "muziek 9 letters",
+  "muziek leren lezen app",
+  "muziek leren tellen",
+  "muziek letters",
+  "muziek letters noten",
+  "muziek lezen",
+  "muziek lezen app",
+  "muziek lezen leren",
+  "muziek lezen op ipad",
+  "muziek lezen op tablet",
+  "muziek maten tellen",
+  "muziek maten tellen app",
+  "muziek noten hoeveel tellen",
+  "muziek noten lezen",
+  "muziek noten lezen piano",
+  "muziek tellen",
+  "muziek tijdens lezen",
+  "nijntje dieren tellen",
+  "nijntje dieren tellen spelregels",
+  "nota ruimte lezen",
+  "noten muziek tellen",
+  "nt2 groep 3",
+  "nt2 leerling in groep 3",
+  "nt2 werkbladen",
+  "nt2 werkbladen basisschool",
+  "nt2 werkbladen groep 3",
+  "nt2 werkbladen kinderen",
+  "nt2 werkbladen volwassenen",
+  "oefenboek groep 1",
+  "oefenboek groep 4",
+  "oefenboekjes",
+  "oefenboekjes 1ste leerjaar",
+  "oefenboekjes 3 jaar",
+  "oefenboekjes 4 jaar",
+  "oefenboekjes 5 jaar",
+  "oefenboekjes 6 jaar",
+  "oefenboekjes groep 2",
+  "oefenboekjes groep 3",
+  "ontbijt 11 letters",
+  "ontbijt 3 letters",
+  "ontbijt 6 letters",
+  "ontbijt lunch 6 letters",
+  "ontluikend rekenen activiteiten",
+  "pasen begrijpend lezen",
+  "pasen letters",
+  "pasen lezen",
+  "pasen lezen groep 3",
+  "pasen rekenen",
+  "pasen rekenen groep 3",
+  "pasen rekenen groep 4",
+  "pasen rekenen groep 5",
+  "pasen rekenen groep 6",
+  "pasen rekenen groep 7",
+  "pasen rekenen kleuters",
+  "patronen belle etoile",
+  "piano muziek letters",
+  "pluspunt extra oefenen groep 3",
+  "postkantoor 7 letters",
+  "protocol dyslexie groep 3",
+  "rekenen activiteiten",
+  "rekenen kleuren op code",
+  "rekenen kleuren op nummer",
+  "rekenen muziek",
+  "rekenen pasen groep 2",
+  "rekenen pasen groep 8",
+  "rekenen ruimte groep 3",
+  "rekenen ruimte kleuters",
+  "rekenen winter groep 2",
+  "rekenen zomer groep 5",
+  "rijmwoorden",
+  "rijmwoorden doen",
+  "rijmwoorden is",
+  "rijmwoorden jaar",
+  "rijmwoorden zijn",
+  "rijmwoorden zoeken",
+  "rijmwoordenboek",
+  "rijmwoordenboek engels",
+  "rijmwoordenboek mick",
+  "rijmwoordenboek van dale",
+  "ritme tellen muziek",
+  "ruimte 3 letters",
+  "ruimte 4 letters",
+  "ruimte 5 letters",
+  "ruimte 6 letters",
+  "ruimte 7 letters",
+  "ruimte letters",
+  "ruimte lezen",
+  "ruimte om te lezen",
+  "ruimte om te lezen 8 letters",
+  "ruimte rekenen",
+  "ruimte tussen letters",
+  "ruimte tussen letters aanpassen word",
+  "ruimte tussen letters word",
+  "ruimte zes letters",
+  "schooltv fruit tellen",
+  "schrijfpatronen",
+  "schrijfpatronen boekje",
+  "schrijfpatronen groep 2",
+  "schrijfpatronen kleuters",
+  "schrijfpatronen kleuters lente",
+  "schrijfpatronen kleuters zomer",
+  "schrijfpatronen lente",
+  "schrijfpatronen letters",
+  "schrijfpatronen werkbladen",
+  "schrijfpatronen zomer",
+  "sommen en kleuren rekenen",
+  "sommen tot 10",
+  "sommen tot 10 automatiseren",
+  "sommen tot 10 flitsen",
+  "sommen tot 10 joggen",
+  "sommen tot 10 oefenen",
+  "sommen tot 10 online oefenen",
+  "sommen tot 10 werkblad",
+  "sommen tot 100",
+  "sommen tot 100 werkblad",
+  "sommen tot 1000",
+  "sommen tot 20",
+  "sommen tot 20 automatiseren",
+  "sommen tot 20 flitsen",
+  "sommen tot 20 groep 3",
+  "sommen tot 20 kleurplaat",
+  "sommen tot 20 met brug",
+  "sommen tot 20 oefenen",
+  "sommen tot 20 over het tiental",
+  "sommen tot 20 werkblad",
+  "sommen tot 20 zonder brug",
+  "speciaal onderwijs groep 3",
+  "speciaal onderwijs werkbladen",
+  "speelgoed 12 letters",
+  "speelgoed 3 jaar tellen",
+  "speelgoed 3 letters",
+  "speelgoed 4 letters",
+  "speelgoed 5 letters",
+  "speelgoed 7 letters",
+  "speelgoed 8 letters",
+  "speelgoed 9 letters",
+  "speelgoed leren lezen",
+  "speelgoed leren rekenen",
+  "speelgoed leren tellen",
+  "speelgoed letters",
+  "speelgoed letters en cijfers",
+  "speelgoed letters leren",
+  "speelgoed lezen",
+  "speelgoed rekenen",
+  "speelgoed tellen",
+  "spelen in hoeken groep 3",
+  "spelling extra oefenen werkbladen",
+  "spelling extra oefenen werkbladen taal actief",
+  "splitsen tot 10",
+  "splitsen tot 10 bewegend leren",
+  "splitsen tot 10 bundel",
+  "splitsen tot 10 groep 3",
+  "splitsen tot 10 oefeningen",
+  "splitsen tot 10 online",
+  "splitsen tot 10 online oefenen",
+  "splitsen tot 10 werkblad",
+  "splitsen tot 10 werkboekje",
+  "splitsen tot 100",
+  "stappenplan zelfstandig werken groep 3",
+  "strand 10 letters",
+  "strand 4 letters",
+  "strand 5 letters",
+  "strand 6 letters",
+  "strand 7 letters",
+  "strand letters",
+  "strand vier letters",
+  "technisch lezen activiteiten",
+  "tekenen dyslexie groep 3",
+  "tellen accessoires mee voor bijtelling",
+  "tellen lente",
+  "tellen pasen",
+  "tellen tot 20",
+  "tellen tot 20 duits",
+  "tellen tot 20 frans",
+  "tellen tot 20 italiaans",
+  "tellen tot 20 kleuters",
+  "tellen tot 20 leeftijd",
+  "tellen tot 20 nt2",
+  "tellen tot 20 portugees",
+  "tellen tot 20 spaans",
+  "tellen tot 20 werkblad",
+  "tellen winter",
+  "tellen zomer",
+  "thanksgiving letters",
+  "thanksgiving letters clipart",
+  "thanksgiving letters for bulletin board",
+  "thanksgiving letters printable",
+  "thanksgiving letters printable free",
+  "thanksgiving letters to family",
+  "thanksgiving letters to friends",
+  "thanksgiving letters to print",
+  "thema lente letters",
+  "thema lente rekenen",
+  "thema lente rekenen kleuters",
+  "thema ruimte rekenen",
+  "thema winter rekenen",
+  "thema winter rekenen kleuters",
+  "thema zomer letters",
+  "thema zomer rekenen",
+  "turks fruit lezen",
+  "turks fruit lezen voor de lijst",
+  "vermoeden dyslexie groep 3",
+  "voertuigen 9 letters",
+  "voertuigen beurs 9 letters",
+  "voertuigen stroom 7 letters",
+  "voertuigen tellen",
+  "vogels 10 letters",
+  "vogels 11 letters",
+  "vogels 3 letters",
+  "vogels 4 letters",
+  "vogels 5 letters",
+  "vogels 6 letters",
+  "vogels 7 letters",
+  "vogels 8 letters",
+  "vogels 9 letters",
+  "vogels letters",
+  "vogels met 2 letters",
+  "vogels tellen",
+  "vogels tellen 2025",
+  "vogels tellen 2026",
+  "vogels tellen app",
+  "vogels tellen bijbaan",
+  "vogels tellen formulier",
+  "vogels tellen in de tuin",
+  "vogels tellen natuurpunt",
+  "vogels tellen vacature",
+  "vogels tellen weekend",
+  "vormen",
+  "vormen 12 letters",
+  "vormen 6 letters",
+  "vormen 7 letters",
+  "vormen 8 letters",
+  "vormen letters",
+  "vormen nagels",
+  "vormen rekenen",
+  "vormen tellen",
+  "vormen van autisme",
+  "vormen van dementie",
+  "vormen van huidkanker",
+  "vormen van lezen",
+  "vormen van symbiose",
+  "vormen van tellen",
+  "vormend bestanddeel",
+  "vormend bestanddeel 7 letters",
+  "vormenstoof",
+  "vormenstoof little dutch",
+  "vrolijk pasen letters",
+  "wanneer weer lezen na staaroperatie",
+  "weektaak groep 3",
+  "weektaak groep 3 4",
+  "weektaak groep 3 pdf",
+  "weektaak groep 3 voorbeeld",
+  "weektaak opdrachten groep.3",
+  "weektaak werkbladen",
+  "weer 5 letters",
+  "weer 6 letters",
+  "weer 7 letters",
+  "weer 8 letters",
+  "weer beginnen met lezen",
+  "weer bijeenbrengen 9 letters",
+  "weer drie letters",
+  "weer gemaakt 8 letters",
+  "weer lezen",
+  "weer lezen zonder bril",
+  "weer term 7 letters",
+  "weer term 9 letters",
+  "weer vier letters",
+  "welke hoeken in groep 3",
+  "welke lichaamsdelen tellen bij buitenspel",
+  "welke lichaamsdelen tellen mee voor buitenspel",
+  "werkblaadjes 1ste leerjaar",
+  "werkblaadjes 1ste leerjaar afdrukken",
+  "werkblaadjes 2de leerjaar",
+  "werkblaadjes 2de leerjaar afdrukken",
+  "werkblaadjes 3de leerjaar",
+  "werkblaadjes 3de leerjaar afdrukken",
+  "werkblaadjes 3de leerjaar rekenen",
+  "werkblaadjes 3de leerjaar taal",
+  "werkblaadjes 4de leerjaar",
+  "werkblaadjes 4de leerjaar rekenen",
+  "werkblaadjes 4de leerjaar taal",
+  "werkblaadjes 5de leerjaar",
+  "werkblaadjes 5de leerjaar wiskunde",
+  "werkblaadjes 6de leerjaar",
+  "werkblaadjes cijferen 4de leerjaar",
+  "werkblaadjes frans 5de leerjaar",
+  "werkblaadjes kommagetallen 4de leerjaar",
+  "werkblaadjes taal 2de leerjaar afdrukken",
+  "werkblad 1ste leerjaar",
+  "werkblad 2de leerjaar",
+  "werkblad 3de leerjaar",
+  "werkblad 4de leerjaar",
+  "werkblad bloemen tellen",
+  "werkblad fruit tellen",
+  "werkblad letter b groep 2",
+  "werkblad letter b groep 3",
+  "werkblad letter d groep 2",
+  "werkblad letter d groep 3",
+  "werkblad letter d schrijven",
+  "werkblad letter e groep 2",
+  "werkblad letter e groep 3",
+  "werkblad letter f groep 2",
+  "werkblad letter h groep 2",
+  "werkblad letter h groep 3",
+  "werkblad letter j groep 2",
+  "werkblad letter k groep 2",
+  "werkblad letter k groep 3",
+  "werkblad letter l groep 2",
+  "werkblad letter l groep 3",
+  "werkblad letter m groep 3",
+  "werkblad letter m schrijven",
+  "werkblad letter n groep 2",
+  "werkblad letter n groep 3",
+  "werkblad letter o groep 2",
+  "werkblad letter p groep 2",
+  "werkblad letter p groep 3",
+  "werkblad letter p schrijven",
+  "werkblad letter r groep 2",
+  "werkblad letter r groep 3",
+  "werkblad letter r schrijven",
+  "werkblad letter s groep 3",
+  "werkblad letter s schrijven",
+  "werkblad letter v groep 2",
+  "werkblad letter w groep 3",
+  "werkblad letter x",
+  "werkblad letter y",
+  "werkblad letter z groep 2",
+  "werkblad letter z groep 3",
+  "werkblad letters groep 2",
+  "werkblad letters sinterklaas",
+  "werkblad pasen rekenen",
+  "werkblad pasen tellen",
+  "werkblad rekenen kleuren",
+  "werkblad rekenen lente",
+  "werkblad rekenen winter",
+  "werkblad rekenen winter groep 3",
+  "werkblad tellen winter",
+  "werkblad zomer rekenen",
+  "werkbladen nt2 a1",
+  "werkbladen nt2 basisonderwijs",
+  "werkbladen nt2 grammatica",
+  "werkbladen nt2 leerlingen",
+  "werkbladen weektaak groep 7",
+  "werkboekje rekenen zomer",
+  "werkboekje rekenen zomer groep 3",
+  "werken in hoeken groep 3",
+  "winter letters",
+  "winter letters balmoral",
+  "winter letters from balmoral where to watch",
+  "winter letters ftbn",
+  "winter letters kryptex piano",
+  "winter letters of ashcroft manor",
+  "winter letters printable",
+  "winter letters printable free",
+  "winter letters song",
+  "winter lezen",
+  "winter lezen groep 3",
+  "winter rekenen",
+  "winter rekenen groep 3",
+  "winter rekenen groep 4",
+  "winter rekenen groep 5",
+  "winter rekenen kleuters",
+  "woorden vormen letters",
+  "woordenschat nt2 groep 3",
+  "zelfstandig werken boekje groep 3",
+  "zelfstandig werken groep 3",
+  "ziekenhuis 3 letters",
+  "ziekenhuis 6 letters",
+  "ziekenhuis 7 letters",
+  "ziekenhuis 7 letters puzzelwoord",
+  "ziekenhuis 8 letters",
+  "ziekenhuis 9 letters",
+  "ziekenhuis letters",
+  "ziekenhuis porties 5 letters",
+  "zomer kledingstuk 6 letters",
+  "zomer letters",
+  "zomer lezen",
+  "zomer lezen geschenk",
+  "zomer rekenen",
+  "zomer rekenen groep 3",
+  "zomer rekenen groep 4",
+  "zomer rekenen kleuters",
+  "zomer schoeisel 7 letters",
+  "zomer vijf letters",
+  "zomer vrucht 7 letters",
+  "zomer zes letters"
+ ],
+ "refilteredAt": "2026-07-20T08:58:53.397Z"
+}

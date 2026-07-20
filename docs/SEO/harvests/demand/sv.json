@@ -1,0 +1,2437 @@
+{
+ "locale": "sv",
+ "market": {
+  "hl": "sv",
+  "gl": "se"
+ },
+ "generatedAt": "2026-07-20T08:56:00.639Z",
+ "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
+ "requestCount": 239,
+ "seedCounts": {
+  "skill": 16,
+  "context": 8,
+  "audience": 6,
+  "enumerated": 0,
+  "pack": 2,
+  "cross": 207
+ },
+ "errorCount": 0,
+ "errors": [],
+ "newVsInventory": {
+  "inventoryUnique": 1075,
+  "demandUnique": 415,
+  "novel": 377,
+  "novelShare": 0.908
+ },
+ "deadSeeds": [
+  "subtraktion upp till 10",
+  "eget arbete arbetsblad",
+  "eget arbete förskoleklass",
+  "läxa arbetsblad",
+  "stationer arbetsblad",
+  "extra träning arbetsblad",
+  "extra träning förskoleklass",
+  "svenska som andraspråk arbetsblad",
+  "särskola arbetsblad",
+  "arbetsblad paket",
+  "4 juli matte",
+  "4 juli räkna",
+  "tillbehör matte",
+  "tillbehör räkna",
+  "aktiviteter räkna",
+  "runt huset matte",
+  "runt huset räkna",
+  "runt huset bokstäver",
+  "i snabbköpet matte",
+  "i snabbköpet räkna",
+  "i snabbköpet bokstäver",
+  "bageri matte",
+  "bageri räkna",
+  "bageri bokstäver",
+  "strand räkna",
+  "fåglar matte",
+  "fåglar 2 matte",
+  "fåglar 2 räkna",
+  "fåglar 2 bokstäver",
+  "kroppsdelar matte",
+  "kroppsdelar räkna",
+  "frukost matte",
+  "frukost räkna",
+  "frukost bokstäver",
+  "camping räkna",
+  "camping bokstäver",
+  "jul räkna",
+  "klassrum räkna",
+  "kläder matte",
+  "kläder räkna",
+  "färger matte",
+  "färger bokstäver",
+  "efterrätter och godis matte",
+  "efterrätter och godis räkna",
+  "efterrätter och godis bokstäver",
+  "påsk matte",
+  "känslor matte",
+  "känslor räkna",
+  "bondgårdsdjur matte",
+  "bondgårdsdjur räkna",
+  "bondgårdsdjur bokstäver",
+  "blommor matte",
+  "skogsdjur matte",
+  "skogsdjur räkna",
+  "frukter matte",
+  "möbler matte",
+  "möbler räkna",
+  "sjukhus matte",
+  "sjukhus räkna",
+  "insekter och kryp matte",
+  "insekter och kryp räkna",
+  "insekter och kryp bokstäver",
+  "köksredskap matte",
+  "köksredskap räkna",
+  "blandat matte",
+  "blandat räkna",
+  "yrken matte",
+  "yrken räkna",
+  "havsliv matte",
+  "havsliv räkna",
+  "havsliv bokstäver",
+  "husdjur matte",
+  "husdjur räkna",
+  "postkontor matte",
+  "postkontor räkna",
+  "postkontor bokstäver",
+  "reptiler och groddjur matte",
+  "reptiler och groddjur räkna",
+  "reptiler och groddjur bokstäver",
+  "former räkna",
+  "former bokstäver",
+  "rymden räkna",
+  "vår matte",
+  "vår räkna",
+  "sommar räkna",
+  "thanksgiving räkna",
+  "thanksgiving bokstäver",
+  "saker som flyger matte",
+  "saker som flyger räkna",
+  "saker som flyger bokstäver",
+  "träd matte",
+  "grönsaker matte",
+  "grönsaker räkna",
+  "fordon matte",
+  "väder matte",
+  "väder räkna",
+  "vinter räkna",
+  "djurparksdjur matte",
+  "djurparksdjur räkna",
+  "djurparksdjur bokstäver",
+  "djur sv 2 matte",
+  "djur sv 2 räkna",
+  "djur sv 2 bokstäver",
+  "djur sv 3 matte",
+  "djur sv 3 räkna",
+  "djur sv 3 bokstäver",
+  "djur sv 4 matte",
+  "djur sv 4 räkna",
+  "djur sv 4 bokstäver",
+  "djur sv 5 matte",
+  "djur sv 5 räkna",
+  "djur sv 5 bokstäver",
+  "strand sv 2 matte",
+  "strand sv 2 räkna",
+  "strand sv 2 bokstäver",
+  "fåglar s&v 2 matte",
+  "fåglar s&v 2 räkna",
+  "fåglar s&v 2 bokstäver",
+  "jul s/v 2 matte",
+  "jul s/v 2 räkna",
+  "jul s/v 2 bokstäver",
+  "klassrum 2 (s/v) matte",
+  "klassrum 2 (s/v) räkna",
+  "klassrum 2 (s/v) bokstäver",
+  "påsk sv 2 matte",
+  "påsk sv 2 räkna",
+  "påsk sv 2 bokstäver",
+  "mat sv 2 matte",
+  "mat sv 2 räkna",
+  "mat sv 2 bokstäver",
+  "mat sv 3 matte",
+  "mat sv 3 räkna",
+  "mat sv 3 bokstäver",
+  "hem sv 2 matte",
+  "hem sv 2 räkna",
+  "hem sv 2 bokstäver",
+  "havsliv sv 2 matte",
+  "havsliv sv 2 räkna",
+  "havsliv sv 2 bokstäver",
+  "sport sv 2 matte",
+  "sport sv 2 räkna",
+  "sport sv 2 bokstäver",
+  "leksaker sv 2 matte",
+  "leksaker sv 2 räkna",
+  "leksaker sv 2 bokstäver",
+  "alla hjärtans dag sv 2 matte",
+  "alla hjärtans dag sv 2 räkna",
+  "alla hjärtans dag sv 2 bokstäver",
+  "grönsaker sv 2 matte",
+  "grönsaker sv 2 räkna",
+  "grönsaker sv 2 bokstäver",
+  "fordon sv 2 matte",
+  "fordon sv 2 räkna",
+  "fordon sv 2 bokstäver",
+  "fordon sv 3 matte",
+  "fordon sv 3 räkna",
+  "fordon sv 3 bokstäver"
+ ],
+ "suggestions": {
+  "bokstäver": {
+   "cls": "skill",
+   "s": [
+    "bokstäver",
+    "bokstäver i alfabetet",
+    "bokstäver i trä",
+    "bokstäver klistermärken",
+    "bokstäver på engelska",
+    "bokstäver i einsteins relativitetsteori",
+    "bokstäver att skriva ut",
+    "bokstäver teckenspråk",
+    "bokstäver barnrum",
+    "bokstäver till dörr"
+   ]
+  },
+  "ljuda": {
+   "cls": "skill",
+   "s": [
+    "ljudabsorbenter vägg",
+    "ljudabsorbenter",
+    "ljudanläggning",
+    "ljudanläggning 2 bokstäver",
+    "ljudabsorbenter tak",
+    "ljuda",
+    "ljudabsorbent",
+    "ljuda korsord",
+    "ljudabsorberande panel",
+    "ljudaborg"
+   ]
+  },
+  "rimord": {
+   "cls": "skill",
+   "s": [
+    "rimord",
+    "rimord korsord",
+    "rimordbok",
+    "rimord synonym",
+    "rimord korsord 5 bokstäver",
+    "rimord på dag",
+    "rimord 5 bokstäver",
+    "rimord på svenska",
+    "rimord förskola",
+    "rimord på till"
+   ]
+  },
+  "stavelser": {
+   "cls": "skill",
+   "s": [
+    "stavelser",
+    "stavelser engelska",
+    "stavelser i ord",
+    "stavelser regler",
+    "stavelser svenska",
+    "stavelser betyder",
+    "stavelser krydsord",
+    "stavelser räknare",
+    "stavelser i dikt",
+    "stavelser förskoleklass"
+   ]
+  },
+  "första ljudet": {
+   "cls": "skill",
+   "s": [
+    "första ljudet",
+    "första ljudet arbetsblad",
+    "första ljudet förskoleklass",
+    "första ljudet bingo",
+    "första ljudet tärningsbingo",
+    "första ljudet spel",
+    "första ljudet i ord",
+    "första ljudet film",
+    "första ljudet wordwall",
+    "första inspelade ljudet"
+   ]
+  },
+  "läsförståelse": {
+   "cls": "skill",
+   "s": [
+    "läsförståelse",
+    "läsförståelse svenska",
+    "läsförståelse på engelska",
+    "läsförståelse åk 2 gratis",
+    "läsförståelse åk 1",
+    "läsförståelse röd",
+    "läsförståelse åk 3",
+    "läsförståelse grön",
+    "läsförståelse åk 1 gratis",
+    "läsförståelse blå"
+   ]
+  },
+  "taluppfattning": {
+   "cls": "skill",
+   "s": [
+    "taluppfattning",
+    "taluppfattning matematik",
+    "taluppfattning och tals användning",
+    "taluppfattning åk 1",
+    "taluppfattning förskola",
+    "taluppfattning förskoleklass",
+    "taluppfattning skolverket",
+    "taluppfattning åk 2",
+    "taluppfattning åk 3",
+    "taluppfattning åk 9"
+   ]
+  },
+  "tiokamrater": {
+   "cls": "skill",
+   "s": [
+    "tiokamrater",
+    "tiokamraterna",
+    "tiokamrater arbetsblad",
+    "tiokamraterna matematik",
+    "tiokamrater spel",
+    "tiokamraterna sång",
+    "tiokamrater film",
+    "tiokamraterna övningar",
+    "talkamrater på hög",
+    "skolplus tiokamrater"
+   ]
+  },
+  "addition upp till 10": {
+   "cls": "skill",
+   "s": [
+    "addition upp till 10",
+    "addition upp till 100",
+    "addition up 10",
+    "addition up 100"
+   ]
+  },
+  "subtraktion upp till 10": {
+   "cls": "skill",
+   "s": []
+  },
+  "räkna till 20": {
+   "cls": "skill",
+   "s": [
+    "räkna till 20 på spanska",
+    "räkna till 20 på franska",
+    "räkna till 20 på italienska",
+    "räkna till 20 på tyska",
+    "räkna till 20 på finska",
+    "räkna till 20",
+    "räkna till 20 på norska",
+    "räkna till 20 på arabiska",
+    "räkna till 20 på danska",
+    "räkna till 20 på grekiska"
+   ]
+  },
+  "klockan": {
+   "cls": "skill",
+   "s": [
+    "klockan",
+    "klockan nu",
+    "klockan i new york",
+    "klockan i usa",
+    "klockan i thailand",
+    "klockan i sverige",
+    "klockan just nu",
+    "klockan i los angeles",
+    "klockan i japan",
+    "klockan i australien"
+   ]
+  },
+  "mätning": {
+   "cls": "skill",
+   "s": [
+    "mätningsingenjör",
+    "mätningsingenjör lön",
+    "mätning",
+    "mätning partier",
+    "mätningstekniker lön",
+    "mätningar inför valet 2026",
+    "mätningstekniker",
+    "mätningsingenjör jobb",
+    "mätningsingenjör göteborg",
+    "mätningar politik"
+   ]
+  },
+  "geometriska former": {
+   "cls": "skill",
+   "s": [
+    "geometriska former",
+    "geometriska former förskola",
+    "geometriska former att skriva ut",
+    "geometriska former 3d",
+    "geometriska former arbetsblad",
+    "geometriska former film",
+    "geometriska former namn",
+    "geometriska former åk 4",
+    "geometriska former 2d",
+    "geometriska former förskoleklass"
+   ]
+  },
+  "mönster": {
+   "cls": "skill",
+   "s": [
+    "mönsterdjup sommardäck",
+    "mönsterås",
+    "mönster",
+    "mönsterdjup vinterdäck",
+    "mönsterbetong",
+    "mönsterfabriken",
+    "mönsterås kommun",
+    "mönsterdjup nya sommardäck",
+    "mönsterpapper",
+    "mönster stickad tröja"
+   ]
+  },
+  "finmotorik": {
+   "cls": "skill",
+   "s": [
+    "finmotorik",
+    "finmotorik barn",
+    "finmotorik övningar",
+    "finmotorik synonym",
+    "finmotoriken",
+    "finmotorik betyder",
+    "finmotorik förskola",
+    "finmotorik barn 2 år",
+    "finmotorik barn förskola",
+    "finmotorik test"
+   ]
+  },
+  "eget arbete arbetsblad": {
+   "cls": "context",
+   "s": []
+  },
+  "eget arbete förskoleklass": {
+   "cls": "context",
+   "s": []
+  },
+  "läxa arbetsblad": {
+   "cls": "context",
+   "s": []
+  },
+  "läxa förskoleklass": {
+   "cls": "context",
+   "s": [
+    "läxa förskoleklass"
+   ]
+  },
+  "stationer arbetsblad": {
+   "cls": "context",
+   "s": []
+  },
+  "stationer förskoleklass": {
+   "cls": "context",
+   "s": [
+    "stationer förskoleklass",
+    "stationer idrott förskoleklass",
+    "matematik stationer förskoleklass",
+    "kartläggning förskoleklass stationer"
+   ]
+  },
+  "extra träning arbetsblad": {
+   "cls": "context",
+   "s": []
+  },
+  "extra träning förskoleklass": {
+   "cls": "context",
+   "s": []
+  },
+  "sva arbetsblad": {
+   "cls": "audience",
+   "s": [
+    "sva arbetsblad"
+   ]
+  },
+  "sva förskoleklass": {
+   "cls": "audience",
+   "s": [
+    "sva förskoleklass",
+    "sva undervisning förskoleklass"
+   ]
+  },
+  "svenska som andraspråk arbetsblad": {
+   "cls": "audience",
+   "s": []
+  },
+  "svenska som andraspråk förskoleklass": {
+   "cls": "audience",
+   "s": [
+    "svenska som andraspråk förskoleklass",
+    "kartläggning förskoleklass svenska som andraspråk"
+   ]
+  },
+  "särskola arbetsblad": {
+   "cls": "audience",
+   "s": []
+  },
+  "särskola förskoleklass": {
+   "cls": "audience",
+   "s": [
+    "särskola förskoleklass"
+   ]
+  },
+  "arbetsblad paket": {
+   "cls": "pack",
+   "s": []
+  },
+  "övningshäfte": {
+   "cls": "pack",
+   "s": [
+    "övningshäfte skrivstil",
+    "övningshäfte matematik",
+    "övningshäfte körkort",
+    "övningshäfte engelska",
+    "övningshäfte svenska",
+    "övningshäfte bokstäver",
+    "verkstadshandboken övningshäfte",
+    "maskinelement övningshäfte",
+    "r övningshäfte"
+   ]
+  },
+  "4 juli matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "4 juli räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "4 juli bokstäver": {
+   "cls": "cross",
+   "s": [
+    "inleder juli 4 bokstäver",
+    "namnsdag i juli 4 bokstäver",
+    "sist i juli 4 bokstäver",
+    "firas i juli 4 bokstäver",
+    "man i juli 4 bokstäver"
+   ]
+  },
+  "tillbehör matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "tillbehör räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "tillbehör bokstäver": {
+   "cls": "cross",
+   "s": [
+    "tillbehör 8 bokstäver",
+    "tillbehör 10 bokstäver",
+    "tillbehör 3 bokstäver",
+    "tillbehör 6 bokstäver",
+    "tillbehör korsord 8 bokstäver",
+    "tillbehör korsord 3 bokstäver",
+    "tillbehör korsord 10 bokstäver"
+   ]
+  },
+  "aktiviteter matte": {
+   "cls": "cross",
+   "s": [
+    "aktiviteter matte",
+    "matte aktiviteter på förskolan",
+    "matte aktiviteter for barn",
+    "matte aktiviteter ute"
+   ]
+  },
+  "aktiviteter räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "aktiviteter bokstäver": {
+   "cls": "cross",
+   "s": [
+    "aktiviteter bokstäver förskola",
+    "aktiviteter med bokstäver",
+    "aktiviteter 12 bokstäver"
+   ]
+  },
+  "djur matte": {
+   "cls": "cross",
+   "s": [
+    "djur matte"
+   ]
+  },
+  "djur räkna": {
+   "cls": "cross",
+   "s": [
+    "räkna djur"
+   ]
+  },
+  "djur bokstäver": {
+   "cls": "cross",
+   "s": [
+    "djur bokstäver",
+    "djur 3 bokstäver",
+    "djur 2 bokstäver",
+    "djur 4 bokstäver",
+    "djur 5 bokstäver",
+    "djur 7 bokstäver",
+    "djur 7 bokstäver korsord",
+    "djur 2 bokstäver korsord",
+    "djur 5 bokstäver korsord",
+    "djur 4 bokstäver korsord"
+   ]
+  },
+  "runt huset matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "runt huset räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "runt huset bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "i snabbköpet matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "i snabbköpet räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "i snabbköpet bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "bageri matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "bageri räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "bageri bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand matte": {
+   "cls": "cross",
+   "s": [
+    "strand matte got2b",
+    "strand matte",
+    "strand matte wax",
+    "strand matte got2b spray",
+    "strand matte dm",
+    "strand matte paste",
+    "strand matte gepolstert",
+    "strand matte haarspray",
+    "strand matte haare"
+   ]
+  },
+  "strand räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand bokstäver": {
+   "cls": "cross",
+   "s": [
+    "strand 5 bokstäver",
+    "strand 4 bokstäver",
+    "strand ellen 3 bokstäver",
+    "strand korsord 5 bokstäver"
+   ]
+  },
+  "fåglar matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "fåglar räkna": {
+   "cls": "cross",
+   "s": [
+    "räkna fåglar 2026",
+    "räkna fåglar",
+    "räkna fåglar vid fågelbordet",
+    "räkna fåglar 2025",
+    "räkna fåglar i sverige"
+   ]
+  },
+  "fåglar bokstäver": {
+   "cls": "cross",
+   "s": [
+    "fåglar 5 bokstäver",
+    "fåglar 4 bokstäver",
+    "fåglar 6 bokstäver korsord",
+    "fåglar 6 bokstäver",
+    "fåglar 7 bokstäver",
+    "fåglar 4 bokstäver korsord",
+    "fåglar 5 bokstäver korsord",
+    "fåglar 3 bokstäver",
+    "fåglar 9 bokstäver",
+    "fåglar 8 bokstäver"
+   ]
+  },
+  "fåglar 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "fåglar 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "fåglar 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "kroppsdelar matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "kroppsdelar räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "kroppsdelar bokstäver": {
+   "cls": "cross",
+   "s": [
+    "kroppsdelar 4 bokstäver korsord",
+    "kroppsdelar 5 bokstäver korsord",
+    "kroppsdelar 5 bokstäver",
+    "kroppsdelar 3 bokstäver",
+    "kroppsdelar 4 bokstäver",
+    "kroppsdelar 7 bokstäver",
+    "kroppsdelar 6 bokstäver"
+   ]
+  },
+  "frukost matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "frukost räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "frukost bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "camping matte": {
+   "cls": "cross",
+   "s": [
+    "camping matte",
+    "camping matte selbstaufblasend",
+    "camping matte vorzelt",
+    "camping matte landi",
+    "camping matte test",
+    "camping matte aufblasbar"
+   ]
+  },
+  "camping räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "camping bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "jul matte": {
+   "cls": "cross",
+   "s": [
+    "jul matte"
+   ]
+  },
+  "jul räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "jul bokstäver": {
+   "cls": "cross",
+   "s": [
+    "jul bokstäver",
+    "god jul bokstäver",
+    "god jul bokstäver i trä",
+    "jul tre bokstäver",
+    "omkastade bokstäver jul"
+   ]
+  },
+  "klassrum matte": {
+   "cls": "cross",
+   "s": [
+    "matte klassrum"
+   ]
+  },
+  "klassrum räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "klassrum bokstäver": {
+   "cls": "cross",
+   "s": [
+    "bokstäver klassrum",
+    "klassrum 7 bokstäver",
+    "klassrum 8 bokstäver",
+    "klassrum 5 bokstäver"
+   ]
+  },
+  "kläder matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "kläder räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "kläder bokstäver": {
+   "cls": "cross",
+   "s": [
+    "bokstäver kläder",
+    "kläder 5 bokstäver"
+   ]
+  },
+  "färger matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "färger räkna": {
+   "cls": "cross",
+   "s": [
+    "räkna färger i excel"
+   ]
+  },
+  "färger bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "efterrätter och godis matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "efterrätter och godis räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "efterrätter och godis bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosaurier matte": {
+   "cls": "cross",
+   "s": [
+    "dinosaurier matte"
+   ]
+  },
+  "dinosaurier räkna": {
+   "cls": "cross",
+   "s": [
+    "räkna dinosaurier"
+   ]
+  },
+  "dinosaurier bokstäver": {
+   "cls": "cross",
+   "s": [
+    "dinosaurier bokstäver",
+    "dinosaurier 10 bokstäver",
+    "dinosaurier 11 bokstäver"
+   ]
+  },
+  "påsk matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "påsk räkna": {
+   "cls": "cross",
+   "s": [
+    "påsk räkna ut"
+   ]
+  },
+  "påsk bokstäver": {
+   "cls": "cross",
+   "s": [
+    "påsk 5 bokstäver",
+    "påsk 4 bokstäver",
+    "glad påsk bokstäver",
+    "påsk 5 bokstäver korsord",
+    "påsk 4 bokstäver korsord",
+    "påsk färg 5 bokstäver"
+   ]
+  },
+  "känslor matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "känslor räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "känslor bokstäver": {
+   "cls": "cross",
+   "s": [
+    "känslor 9 bokstäver",
+    "känslor 6 bokstäver",
+    "känslor 7 bokstäver",
+    "känslor nio bokstäver",
+    "känslor korsord 9 bokstäver",
+    "känslor korsord 6 bokstäver"
+   ]
+  },
+  "bondgårdsdjur matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "bondgårdsdjur räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "bondgårdsdjur bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "blommor matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "blommor räkna": {
+   "cls": "cross",
+   "s": [
+    "räkna blommor"
+   ]
+  },
+  "blommor bokstäver": {
+   "cls": "cross",
+   "s": [
+    "blommor bokstäver",
+    "blommor 6 bokstäver",
+    "blommor 8 bokstäver",
+    "blommor 9 bokstäver",
+    "blommor 7 bokstäver",
+    "blommor 5 bokstäver",
+    "blommor med bokstäver",
+    "blommor korsord 6 bokstäver",
+    "blommor korsord 8 bokstäver",
+    "blommor på alla bokstäver"
+   ]
+  },
+  "skogsdjur matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "skogsdjur räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "skogsdjur bokstäver": {
+   "cls": "cross",
+   "s": [
+    "skogsdjur 4 bokstäver",
+    "skogsdjur 4 bokstäver korsord",
+    "skogsdjur 6 bokstäver"
+   ]
+  },
+  "frukter matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "frukter räkna": {
+   "cls": "cross",
+   "s": [
+    "räkna frukter"
+   ]
+  },
+  "frukter bokstäver": {
+   "cls": "cross",
+   "s": [
+    "frukter 6 bokstäver",
+    "frukter 7 bokstäver",
+    "frukter på alla bokstäver",
+    "frukter på fem bokstäver"
+   ]
+  },
+  "möbler matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "möbler räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "möbler bokstäver": {
+   "cls": "cross",
+   "s": [
+    "möbler 5 bokstäver",
+    "möbler 6 bokstäver",
+    "möbler 7 bokstäver",
+    "möbler korsord 5 bokstäver"
+   ]
+  },
+  "sjukhus matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "sjukhus räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "sjukhus bokstäver": {
+   "cls": "cross",
+   "s": [
+    "sjukhus 5 bokstäver",
+    "sjukhus 2 bokstäver",
+    "sjukhus 5 bokstäver korsord",
+    "sjukhus 8 bokstäver",
+    "sjukhus 3 bokstäver",
+    "sjukhus 6 bokstäver",
+    "sjukhus 10 bokstäver",
+    "sjukhus korsord 2 bokstäver",
+    "sjukhus korsord 8 bokstäver",
+    "sjukhus stockholm 5 bokstäver"
+   ]
+  },
+  "insekter och kryp matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "insekter och kryp räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "insekter och kryp bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "köksredskap matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "köksredskap räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "köksredskap bokstäver": {
+   "cls": "cross",
+   "s": [
+    "köksredskap 4 bokstäver",
+    "köksredskap 8 bokstäver",
+    "köksredskap 3 bokstäver",
+    "köksredskap 7 bokstäver",
+    "köksredskap 10 bokstäver",
+    "köksredskap 6 bokstäver",
+    "köksredskap 9 bokstäver",
+    "köksredskap korsord 4 bokstäver",
+    "köksredskap korsord 9 bokstäver"
+   ]
+  },
+  "blandat matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "blandat räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "blandat bokstäver": {
+   "cls": "cross",
+   "s": [
+    "blandat 4 bokstäver",
+    "blandat 7 bokstäver",
+    "blandat väsen 8 bokstäver",
+    "blandat smeten 4 bokstäver",
+    "blandat språk 6 bokstäver",
+    "blandat väsen 8 bokstäver korsord",
+    "blandat om 4 bokstäver"
+   ]
+  },
+  "musik matte": {
+   "cls": "cross",
+   "s": [
+    "musik matte"
+   ]
+  },
+  "musik räkna": {
+   "cls": "cross",
+   "s": [
+    "räkna musik"
+   ]
+  },
+  "musik bokstäver": {
+   "cls": "cross",
+   "s": [
+    "musik bokstäver",
+    "musik 3 bokstäver",
+    "musik 4 bokstäver",
+    "musik chris 3 bokstäver",
+    "musik diaz 3 bokstäver",
+    "musik möller 3 bokstäver",
+    "musik james 4 bokstäver",
+    "musik ornament 5 bokstäver",
+    "musik carl 4 bokstäver",
+    "musik brian 3 bokstäver"
+   ]
+  },
+  "yrken matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "yrken räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "yrken bokstäver": {
+   "cls": "cross",
+   "s": [
+    "omkastade bokstäver yrken"
+   ]
+  },
+  "havsliv matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "havsliv räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "havsliv bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "husdjur matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "husdjur räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "husdjur bokstäver": {
+   "cls": "cross",
+   "s": [
+    "husdjur 2 bokstäver",
+    "husdjur 7 bokstäver",
+    "husdjur 3 bokstäver",
+    "husdjur 6 bokstäver",
+    "husdjur 5 bokstäver",
+    "husdjur 4 bokstäver",
+    "husdjur 5 bokstäver korsord",
+    "husdjur 9 bokstäver",
+    "husdjur 10 bokstäver",
+    "husdjur 7 bokstäver korsord"
+   ]
+  },
+  "postkontor matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "postkontor räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "postkontor bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "reptiler och groddjur matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "reptiler och groddjur räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "reptiler och groddjur bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "former matte": {
+   "cls": "cross",
+   "s": [
+    "former matte"
+   ]
+  },
+  "former räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "former bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "rymden matte": {
+   "cls": "cross",
+   "s": [
+    "rymden matte"
+   ]
+  },
+  "rymden räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "rymden bokstäver": {
+   "cls": "cross",
+   "s": [
+    "rymden 5 bokstäver",
+    "rymden 5 bokstäver korsord",
+    "rymden 3 bokstäver",
+    "rymden 6 bokstäver"
+   ]
+  },
+  "vår matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "vår räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "vår bokstäver": {
+   "cls": "cross",
+   "s": [
+    "vår 5 bokstäver",
+    "vår 5 bokstäver korsord",
+    "vår tid 3 bokstäver",
+    "vår planet 6 bokstäver korsord",
+    "vår adam 3 bokstäver",
+    "vår moder 4 bokstäver",
+    "vår attila 4 bokstäver",
+    "vår motsats 2 bokstäver",
+    "vår fortplantning 6 bokstäver",
+    "vår gumma två bokstäver"
+   ]
+  },
+  "sommar matte": {
+   "cls": "cross",
+   "s": [
+    "sommar matte"
+   ]
+  },
+  "sommar räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "sommar bokstäver": {
+   "cls": "cross",
+   "s": [
+    "sommar bokstäver",
+    "sommar 6 bokstäver",
+    "glad sommar bokstäver",
+    "sommar korsord 6 bokstäver"
+   ]
+  },
+  "thanksgiving matte": {
+   "cls": "cross",
+   "s": [
+    "thanksgiving matte nails"
+   ]
+  },
+  "thanksgiving räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "thanksgiving bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "saker som flyger matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "saker som flyger räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "saker som flyger bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "verktyg matte": {
+   "cls": "cross",
+   "s": [
+    "digitalt verktyg matte"
+   ]
+  },
+  "verktyg räkna": {
+   "cls": "cross",
+   "s": [
+    "verktyg för att räkna ut vinkel",
+    "verktyg för att räkna kalorier"
+   ]
+  },
+  "verktyg bokstäver": {
+   "cls": "cross",
+   "s": [
+    "verktyg 3 bokstäver",
+    "verktyg 4 bokstäver",
+    "verktyg 3 bokstäver korsord",
+    "verktyg 5 bokstäver",
+    "verktyg 4 bokstäver korsord",
+    "verktyg 6 bokstäver",
+    "verktyg 5 bokstäver korsord",
+    "verktyg korsord 6 bokstäver",
+    "verktyg korsord 7 bokstäver"
+   ]
+  },
+  "leksaker matte": {
+   "cls": "cross",
+   "s": [
+    "leksaker matte"
+   ]
+  },
+  "leksaker räkna": {
+   "cls": "cross",
+   "s": [
+    "leksaker räkna"
+   ]
+  },
+  "leksaker bokstäver": {
+   "cls": "cross",
+   "s": [
+    "leksaker bokstäver",
+    "leksaker bokstäver barn",
+    "leksaker med bokstäver",
+    "leksaker 6 bokstäver",
+    "pedagogiska leksaker bokstäver",
+    "leksaker 6 bokstäver korsord",
+    "micki leksaker bokstäver"
+   ]
+  },
+  "träd matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "träd räkna": {
+   "cls": "cross",
+   "s": [
+    "räkna träd per hektar",
+    "räkna träd"
+   ]
+  },
+  "träd bokstäver": {
+   "cls": "cross",
+   "s": [
+    "träd 3 bokstäver",
+    "träd 4 bokstäver",
+    "träd 8 bokstäver",
+    "träd 3 bokstäver sal",
+    "träd 5 bokstäver",
+    "träd 2 bokstäver"
+   ]
+  },
+  "grönsaker matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "grönsaker räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "grönsaker bokstäver": {
+   "cls": "cross",
+   "s": [
+    "grönsaker 7 bokstäver",
+    "grönsaker 7 bokstäver korsord",
+    "grönsaker 8 bokstäver",
+    "grönsaker 6 bokstäver",
+    "grönsaker korsord 8 bokstäver"
+   ]
+  },
+  "fordon matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "fordon räkna": {
+   "cls": "cross",
+   "s": [
+    "räkna fordon",
+    "skatt fordon räkna"
+   ]
+  },
+  "fordon bokstäver": {
+   "cls": "cross",
+   "s": [
+    "fordon 3 bokstäver",
+    "fordon 6 bokstäver",
+    "fordon 2 bokstäver",
+    "fordon 4 bokstäver",
+    "fordon 5 bokstäver",
+    "fordon 3 bokstäver korsord",
+    "fordon 7 bokstäver",
+    "fordon 9 bokstäver",
+    "fordon 8 bokstäver",
+    "fordon fordom 4 bokstäver"
+   ]
+  },
+  "väder matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "väder räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "väder bokstäver": {
+   "cls": "cross",
+   "s": [
+    "väder 6 bokstäver",
+    "väder fyra bokstäver",
+    "väder verktyg 3 bokstäver",
+    "väder glosa 3 bokstäver"
+   ]
+  },
+  "vinter matte": {
+   "cls": "cross",
+   "s": [
+    "vinter matte"
+   ]
+  },
+  "vinter räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "vinter bokstäver": {
+   "cls": "cross",
+   "s": [
+    "vinter uttryck 3 bokstäver",
+    "vinter härskare 4 bokstäver"
+   ]
+  },
+  "djurparksdjur matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "djurparksdjur räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "djurparksdjur bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "djur sv 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "djur sv 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "djur sv 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "djur sv 3 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "djur sv 3 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "djur sv 3 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "djur sv 4 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "djur sv 4 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "djur sv 4 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "djur sv 5 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "djur sv 5 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "djur sv 5 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand sv 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand sv 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand sv 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "fåglar s&v 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "fåglar s&v 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "fåglar s&v 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "jul s/v 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "jul s/v 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "jul s/v 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "klassrum 2 (s/v) matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "klassrum 2 (s/v) räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "klassrum 2 (s/v) bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "påsk sv 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "påsk sv 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "påsk sv 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "mat sv 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "mat sv 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "mat sv 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "mat sv 3 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "mat sv 3 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "mat sv 3 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "hem sv 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "hem sv 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "hem sv 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "havsliv sv 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "havsliv sv 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "havsliv sv 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport sv 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport sv 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport sv 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "leksaker sv 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "leksaker sv 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "leksaker sv 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "alla hjärtans dag sv 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "alla hjärtans dag sv 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "alla hjärtans dag sv 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "grönsaker sv 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "grönsaker sv 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "grönsaker sv 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "fordon sv 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "fordon sv 2 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "fordon sv 2 bokstäver": {
+   "cls": "cross",
+   "s": []
+  },
+  "fordon sv 3 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "fordon sv 3 räkna": {
+   "cls": "cross",
+   "s": []
+  },
+  "fordon sv 3 bokstäver": {
+   "cls": "cross",
+   "s": []
+  }
+ },
+ "unique": [
+  "addition up 10",
+  "addition up 100",
+  "addition upp till 10",
+  "addition upp till 100",
+  "aktiviteter 12 bokstäver",
+  "aktiviteter bokstäver förskola",
+  "aktiviteter matte",
+  "aktiviteter med bokstäver",
+  "blandat 4 bokstäver",
+  "blandat 7 bokstäver",
+  "blandat om 4 bokstäver",
+  "blandat smeten 4 bokstäver",
+  "blandat språk 6 bokstäver",
+  "blandat väsen 8 bokstäver",
+  "blandat väsen 8 bokstäver korsord",
+  "blommor 5 bokstäver",
+  "blommor 6 bokstäver",
+  "blommor 7 bokstäver",
+  "blommor 8 bokstäver",
+  "blommor 9 bokstäver",
+  "blommor bokstäver",
+  "blommor korsord 6 bokstäver",
+  "blommor korsord 8 bokstäver",
+  "blommor med bokstäver",
+  "blommor på alla bokstäver",
+  "bokstäver",
+  "bokstäver att skriva ut",
+  "bokstäver barnrum",
+  "bokstäver i alfabetet",
+  "bokstäver i einsteins relativitetsteori",
+  "bokstäver i trä",
+  "bokstäver klassrum",
+  "bokstäver klistermärken",
+  "bokstäver kläder",
+  "bokstäver på engelska",
+  "bokstäver teckenspråk",
+  "bokstäver till dörr",
+  "camping matte",
+  "camping matte aufblasbar",
+  "camping matte landi",
+  "camping matte selbstaufblasend",
+  "camping matte test",
+  "camping matte vorzelt",
+  "digitalt verktyg matte",
+  "dinosaurier 10 bokstäver",
+  "dinosaurier 11 bokstäver",
+  "dinosaurier bokstäver",
+  "dinosaurier matte",
+  "djur 2 bokstäver",
+  "djur 2 bokstäver korsord",
+  "djur 3 bokstäver",
+  "djur 4 bokstäver",
+  "djur 4 bokstäver korsord",
+  "djur 5 bokstäver",
+  "djur 5 bokstäver korsord",
+  "djur 7 bokstäver",
+  "djur 7 bokstäver korsord",
+  "djur bokstäver",
+  "djur matte",
+  "finmotorik",
+  "finmotorik barn",
+  "finmotorik barn 2 år",
+  "finmotorik barn förskola",
+  "finmotorik betyder",
+  "finmotorik förskola",
+  "finmotorik synonym",
+  "finmotorik test",
+  "finmotorik övningar",
+  "finmotoriken",
+  "firas i juli 4 bokstäver",
+  "fordon 2 bokstäver",
+  "fordon 3 bokstäver",
+  "fordon 3 bokstäver korsord",
+  "fordon 4 bokstäver",
+  "fordon 5 bokstäver",
+  "fordon 6 bokstäver",
+  "fordon 7 bokstäver",
+  "fordon 8 bokstäver",
+  "fordon 9 bokstäver",
+  "fordon fordom 4 bokstäver",
+  "former matte",
+  "frukter 6 bokstäver",
+  "frukter 7 bokstäver",
+  "frukter på alla bokstäver",
+  "frukter på fem bokstäver",
+  "fåglar 3 bokstäver",
+  "fåglar 4 bokstäver",
+  "fåglar 4 bokstäver korsord",
+  "fåglar 5 bokstäver",
+  "fåglar 5 bokstäver korsord",
+  "fåglar 6 bokstäver",
+  "fåglar 6 bokstäver korsord",
+  "fåglar 7 bokstäver",
+  "fåglar 8 bokstäver",
+  "fåglar 9 bokstäver",
+  "första inspelade ljudet",
+  "första ljudet",
+  "första ljudet arbetsblad",
+  "första ljudet bingo",
+  "första ljudet film",
+  "första ljudet förskoleklass",
+  "första ljudet i ord",
+  "första ljudet spel",
+  "första ljudet tärningsbingo",
+  "första ljudet wordwall",
+  "geometriska former",
+  "geometriska former 2d",
+  "geometriska former 3d",
+  "geometriska former arbetsblad",
+  "geometriska former att skriva ut",
+  "geometriska former film",
+  "geometriska former förskola",
+  "geometriska former förskoleklass",
+  "geometriska former namn",
+  "geometriska former åk 4",
+  "glad påsk bokstäver",
+  "glad sommar bokstäver",
+  "god jul bokstäver",
+  "god jul bokstäver i trä",
+  "grönsaker 6 bokstäver",
+  "grönsaker 7 bokstäver",
+  "grönsaker 7 bokstäver korsord",
+  "grönsaker 8 bokstäver",
+  "grönsaker korsord 8 bokstäver",
+  "husdjur 10 bokstäver",
+  "husdjur 2 bokstäver",
+  "husdjur 3 bokstäver",
+  "husdjur 4 bokstäver",
+  "husdjur 5 bokstäver",
+  "husdjur 5 bokstäver korsord",
+  "husdjur 6 bokstäver",
+  "husdjur 7 bokstäver",
+  "husdjur 7 bokstäver korsord",
+  "husdjur 9 bokstäver",
+  "inleder juli 4 bokstäver",
+  "jul bokstäver",
+  "jul matte",
+  "jul tre bokstäver",
+  "kartläggning förskoleklass stationer",
+  "kartläggning förskoleklass svenska som andraspråk",
+  "klassrum 5 bokstäver",
+  "klassrum 7 bokstäver",
+  "klassrum 8 bokstäver",
+  "klockan",
+  "klockan i australien",
+  "klockan i japan",
+  "klockan i los angeles",
+  "klockan i new york",
+  "klockan i sverige",
+  "klockan i thailand",
+  "klockan i usa",
+  "klockan just nu",
+  "klockan nu",
+  "kläder 5 bokstäver",
+  "kroppsdelar 3 bokstäver",
+  "kroppsdelar 4 bokstäver",
+  "kroppsdelar 4 bokstäver korsord",
+  "kroppsdelar 5 bokstäver",
+  "kroppsdelar 5 bokstäver korsord",
+  "kroppsdelar 6 bokstäver",
+  "kroppsdelar 7 bokstäver",
+  "känslor 6 bokstäver",
+  "känslor 7 bokstäver",
+  "känslor 9 bokstäver",
+  "känslor korsord 6 bokstäver",
+  "känslor korsord 9 bokstäver",
+  "känslor nio bokstäver",
+  "köksredskap 10 bokstäver",
+  "köksredskap 3 bokstäver",
+  "köksredskap 4 bokstäver",
+  "köksredskap 6 bokstäver",
+  "köksredskap 7 bokstäver",
+  "köksredskap 8 bokstäver",
+  "köksredskap 9 bokstäver",
+  "köksredskap korsord 4 bokstäver",
+  "köksredskap korsord 9 bokstäver",
+  "leksaker 6 bokstäver",
+  "leksaker 6 bokstäver korsord",
+  "leksaker bokstäver",
+  "leksaker bokstäver barn",
+  "leksaker matte",
+  "leksaker med bokstäver",
+  "leksaker räkna",
+  "ljuda",
+  "ljuda korsord",
+  "ljudaborg",
+  "ljudabsorbent",
+  "ljudabsorbenter",
+  "ljudabsorbenter tak",
+  "ljudabsorbenter vägg",
+  "ljudabsorberande panel",
+  "ljudanläggning",
+  "ljudanläggning 2 bokstäver",
+  "läsförståelse",
+  "läsförståelse blå",
+  "läsförståelse grön",
+  "läsförståelse på engelska",
+  "läsförståelse röd",
+  "läsförståelse svenska",
+  "läsförståelse åk 1",
+  "läsförståelse åk 1 gratis",
+  "läsförståelse åk 2 gratis",
+  "läsförståelse åk 3",
+  "läxa förskoleklass",
+  "man i juli 4 bokstäver",
+  "maskinelement övningshäfte",
+  "matematik stationer förskoleklass",
+  "matte aktiviteter for barn",
+  "matte aktiviteter på förskolan",
+  "matte aktiviteter ute",
+  "matte klassrum",
+  "micki leksaker bokstäver",
+  "musik 3 bokstäver",
+  "musik 4 bokstäver",
+  "musik bokstäver",
+  "musik brian 3 bokstäver",
+  "musik carl 4 bokstäver",
+  "musik chris 3 bokstäver",
+  "musik diaz 3 bokstäver",
+  "musik james 4 bokstäver",
+  "musik matte",
+  "musik möller 3 bokstäver",
+  "musik ornament 5 bokstäver",
+  "mätning",
+  "mätning partier",
+  "mätningar inför valet 2026",
+  "mätningar politik",
+  "mätningsingenjör",
+  "mätningsingenjör göteborg",
+  "mätningsingenjör jobb",
+  "mätningsingenjör lön",
+  "mätningstekniker",
+  "mätningstekniker lön",
+  "möbler 5 bokstäver",
+  "möbler 6 bokstäver",
+  "möbler 7 bokstäver",
+  "möbler korsord 5 bokstäver",
+  "mönster",
+  "mönster stickad tröja",
+  "mönsterbetong",
+  "mönsterdjup nya sommardäck",
+  "mönsterdjup sommardäck",
+  "mönsterdjup vinterdäck",
+  "mönsterfabriken",
+  "mönsterpapper",
+  "mönsterås",
+  "mönsterås kommun",
+  "namnsdag i juli 4 bokstäver",
+  "omkastade bokstäver jul",
+  "omkastade bokstäver yrken",
+  "pedagogiska leksaker bokstäver",
+  "påsk 4 bokstäver",
+  "påsk 4 bokstäver korsord",
+  "påsk 5 bokstäver",
+  "påsk 5 bokstäver korsord",
+  "påsk färg 5 bokstäver",
+  "påsk räkna ut",
+  "r övningshäfte",
+  "rimord",
+  "rimord 5 bokstäver",
+  "rimord förskola",
+  "rimord korsord",
+  "rimord korsord 5 bokstäver",
+  "rimord på dag",
+  "rimord på svenska",
+  "rimord på till",
+  "rimord synonym",
+  "rimordbok",
+  "rymden 3 bokstäver",
+  "rymden 5 bokstäver",
+  "rymden 5 bokstäver korsord",
+  "rymden 6 bokstäver",
+  "rymden matte",
+  "räkna blommor",
+  "räkna dinosaurier",
+  "räkna djur",
+  "räkna fordon",
+  "räkna frukter",
+  "räkna färger i excel",
+  "räkna fåglar",
+  "räkna fåglar 2025",
+  "räkna fåglar 2026",
+  "räkna fåglar i sverige",
+  "räkna fåglar vid fågelbordet",
+  "räkna musik",
+  "räkna till 20",
+  "räkna till 20 på arabiska",
+  "räkna till 20 på danska",
+  "räkna till 20 på finska",
+  "räkna till 20 på franska",
+  "räkna till 20 på grekiska",
+  "räkna till 20 på italienska",
+  "räkna till 20 på norska",
+  "räkna till 20 på spanska",
+  "räkna till 20 på tyska",
+  "räkna träd",
+  "räkna träd per hektar",
+  "sist i juli 4 bokstäver",
+  "sjukhus 10 bokstäver",
+  "sjukhus 2 bokstäver",
+  "sjukhus 3 bokstäver",
+  "sjukhus 5 bokstäver",
+  "sjukhus 5 bokstäver korsord",
+  "sjukhus 6 bokstäver",
+  "sjukhus 8 bokstäver",
+  "sjukhus korsord 2 bokstäver",
+  "sjukhus korsord 8 bokstäver",
+  "sjukhus stockholm 5 bokstäver",
+  "skatt fordon räkna",
+  "skogsdjur 4 bokstäver",
+  "skogsdjur 4 bokstäver korsord",
+  "skogsdjur 6 bokstäver",
+  "skolplus tiokamrater",
+  "sommar 6 bokstäver",
+  "sommar bokstäver",
+  "sommar korsord 6 bokstäver",
+  "sommar matte",
+  "stationer förskoleklass",
+  "stationer idrott förskoleklass",
+  "stavelser",
+  "stavelser betyder",
+  "stavelser engelska",
+  "stavelser förskoleklass",
+  "stavelser i dikt",
+  "stavelser i ord",
+  "stavelser krydsord",
+  "stavelser regler",
+  "stavelser räknare",
+  "stavelser svenska",
+  "strand 4 bokstäver",
+  "strand 5 bokstäver",
+  "strand ellen 3 bokstäver",
+  "strand korsord 5 bokstäver",
+  "strand matte",
+  "strand matte dm",
+  "strand matte gepolstert",
+  "strand matte got2b",
+  "strand matte got2b spray",
+  "strand matte haare",
+  "strand matte haarspray",
+  "strand matte paste",
+  "strand matte wax",
+  "sva arbetsblad",
+  "sva förskoleklass",
+  "sva undervisning förskoleklass",
+  "svenska som andraspråk förskoleklass",
+  "särskola förskoleklass",
+  "talkamrater på hög",
+  "taluppfattning",
+  "taluppfattning förskola",
+  "taluppfattning förskoleklass",
+  "taluppfattning matematik",
+  "taluppfattning och tals användning",
+  "taluppfattning skolverket",
+  "taluppfattning åk 1",
+  "taluppfattning åk 2",
+  "taluppfattning åk 3",
+  "taluppfattning åk 9",
+  "thanksgiving matte nails",
+  "tillbehör 10 bokstäver",
+  "tillbehör 3 bokstäver",
+  "tillbehör 6 bokstäver",
+  "tillbehör 8 bokstäver",
+  "tillbehör korsord 10 bokstäver",
+  "tillbehör korsord 3 bokstäver",
+  "tillbehör korsord 8 bokstäver",
+  "tiokamrater",
+  "tiokamrater arbetsblad",
+  "tiokamrater film",
+  "tiokamrater spel",
+  "tiokamraterna",
+  "tiokamraterna matematik",
+  "tiokamraterna sång",
+  "tiokamraterna övningar",
+  "träd 2 bokstäver",
+  "träd 3 bokstäver",
+  "träd 3 bokstäver sal",
+  "träd 4 bokstäver",
+  "träd 5 bokstäver",
+  "träd 8 bokstäver",
+  "verkstadshandboken övningshäfte",
+  "verktyg 3 bokstäver",
+  "verktyg 3 bokstäver korsord",
+  "verktyg 4 bokstäver",
+  "verktyg 4 bokstäver korsord",
+  "verktyg 5 bokstäver",
+  "verktyg 5 bokstäver korsord",
+  "verktyg 6 bokstäver",
+  "verktyg för att räkna kalorier",
+  "verktyg för att räkna ut vinkel",
+  "verktyg korsord 6 bokstäver",
+  "verktyg korsord 7 bokstäver",
+  "vinter härskare 4 bokstäver",
+  "vinter matte",
+  "vinter uttryck 3 bokstäver",
+  "väder 6 bokstäver",
+  "väder fyra bokstäver",
+  "väder glosa 3 bokstäver",
+  "väder verktyg 3 bokstäver",
+  "vår 5 bokstäver",
+  "vår 5 bokstäver korsord",
+  "vår adam 3 bokstäver",
+  "vår attila 4 bokstäver",
+  "vår fortplantning 6 bokstäver",
+  "vår gumma två bokstäver",
+  "vår moder 4 bokstäver",
+  "vår motsats 2 bokstäver",
+  "vår planet 6 bokstäver korsord",
+  "vår tid 3 bokstäver",
+  "övningshäfte bokstäver",
+  "övningshäfte engelska",
+  "övningshäfte körkort",
+  "övningshäfte matematik",
+  "övningshäfte skrivstil",
+  "övningshäfte svenska"
+ ],
+ "novel": [
+  "addition up 10",
+  "addition up 100",
+  "addition upp till 10",
+  "addition upp till 100",
+  "aktiviteter 12 bokstäver",
+  "aktiviteter bokstäver förskola",
+  "aktiviteter matte",
+  "aktiviteter med bokstäver",
+  "blandat 4 bokstäver",
+  "blandat 7 bokstäver",
+  "blandat om 4 bokstäver",
+  "blandat smeten 4 bokstäver",
+  "blandat språk 6 bokstäver",
+  "blandat väsen 8 bokstäver",
+  "blandat väsen 8 bokstäver korsord",
+  "blommor 5 bokstäver",
+  "blommor 6 bokstäver",
+  "blommor 7 bokstäver",
+  "blommor 8 bokstäver",
+  "blommor 9 bokstäver",
+  "blommor bokstäver",
+  "blommor korsord 6 bokstäver",
+  "blommor korsord 8 bokstäver",
+  "blommor med bokstäver",
+  "blommor på alla bokstäver",
+  "bokstäver",
+  "bokstäver att skriva ut",
+  "bokstäver barnrum",
+  "bokstäver i alfabetet",
+  "bokstäver i einsteins relativitetsteori",
+  "bokstäver i trä",
+  "bokstäver klassrum",
+  "bokstäver klistermärken",
+  "bokstäver kläder",
+  "bokstäver på engelska",
+  "bokstäver teckenspråk",
+  "bokstäver till dörr",
+  "camping matte",
+  "camping matte aufblasbar",
+  "camping matte landi",
+  "camping matte selbstaufblasend",
+  "camping matte test",
+  "camping matte vorzelt",
+  "digitalt verktyg matte",
+  "dinosaurier 10 bokstäver",
+  "dinosaurier 11 bokstäver",
+  "dinosaurier bokstäver",
+  "dinosaurier matte",
+  "djur 2 bokstäver",
+  "djur 2 bokstäver korsord",
+  "djur 3 bokstäver",
+  "djur 4 bokstäver",
+  "djur 4 bokstäver korsord",
+  "djur 5 bokstäver",
+  "djur 5 bokstäver korsord",
+  "djur 7 bokstäver",
+  "djur 7 bokstäver korsord",
+  "djur bokstäver",
+  "djur matte",
+  "finmotorik",
+  "finmotorik barn",
+  "finmotorik barn 2 år",
+  "finmotorik barn förskola",
+  "finmotorik betyder",
+  "finmotorik förskola",
+  "finmotorik synonym",
+  "finmotorik test",
+  "finmotorik övningar",
+  "finmotoriken",
+  "firas i juli 4 bokstäver",
+  "fordon 2 bokstäver",
+  "fordon 3 bokstäver",
+  "fordon 3 bokstäver korsord",
+  "fordon 4 bokstäver",
+  "fordon 5 bokstäver",
+  "fordon 6 bokstäver",
+  "fordon 7 bokstäver",
+  "fordon 8 bokstäver",
+  "fordon 9 bokstäver",
+  "fordon fordom 4 bokstäver",
+  "former matte",
+  "frukter 6 bokstäver",
+  "frukter 7 bokstäver",
+  "frukter på alla bokstäver",
+  "frukter på fem bokstäver",
+  "fåglar 3 bokstäver",
+  "fåglar 4 bokstäver",
+  "fåglar 4 bokstäver korsord",
+  "fåglar 5 bokstäver",
+  "fåglar 5 bokstäver korsord",
+  "fåglar 6 bokstäver",
+  "fåglar 6 bokstäver korsord",
+  "fåglar 7 bokstäver",
+  "fåglar 8 bokstäver",
+  "fåglar 9 bokstäver",
+  "geometriska former 2d",
+  "geometriska former 3d",
+  "geometriska former att skriva ut",
+  "geometriska former film",
+  "geometriska former förskola",
+  "geometriska former förskoleklass",
+  "geometriska former namn",
+  "geometriska former åk 4",
+  "glad påsk bokstäver",
+  "glad sommar bokstäver",
+  "god jul bokstäver",
+  "god jul bokstäver i trä",
+  "grönsaker 6 bokstäver",
+  "grönsaker 7 bokstäver",
+  "grönsaker 7 bokstäver korsord",
+  "grönsaker 8 bokstäver",
+  "grönsaker korsord 8 bokstäver",
+  "husdjur 10 bokstäver",
+  "husdjur 2 bokstäver",
+  "husdjur 3 bokstäver",
+  "husdjur 4 bokstäver",
+  "husdjur 5 bokstäver",
+  "husdjur 5 bokstäver korsord",
+  "husdjur 6 bokstäver",
+  "husdjur 7 bokstäver",
+  "husdjur 7 bokstäver korsord",
+  "husdjur 9 bokstäver",
+  "inleder juli 4 bokstäver",
+  "jul bokstäver",
+  "jul matte",
+  "jul tre bokstäver",
+  "kartläggning förskoleklass stationer",
+  "kartläggning förskoleklass svenska som andraspråk",
+  "klassrum 5 bokstäver",
+  "klassrum 7 bokstäver",
+  "klassrum 8 bokstäver",
+  "kläder 5 bokstäver",
+  "kroppsdelar 3 bokstäver",
+  "kroppsdelar 4 bokstäver",
+  "kroppsdelar 4 bokstäver korsord",
+  "kroppsdelar 5 bokstäver",
+  "kroppsdelar 5 bokstäver korsord",
+  "kroppsdelar 6 bokstäver",
+  "kroppsdelar 7 bokstäver",
+  "känslor 6 bokstäver",
+  "känslor 7 bokstäver",
+  "känslor 9 bokstäver",
+  "känslor korsord 6 bokstäver",
+  "känslor korsord 9 bokstäver",
+  "känslor nio bokstäver",
+  "köksredskap 10 bokstäver",
+  "köksredskap 3 bokstäver",
+  "köksredskap 4 bokstäver",
+  "köksredskap 6 bokstäver",
+  "köksredskap 7 bokstäver",
+  "köksredskap 8 bokstäver",
+  "köksredskap 9 bokstäver",
+  "köksredskap korsord 4 bokstäver",
+  "köksredskap korsord 9 bokstäver",
+  "leksaker 6 bokstäver",
+  "leksaker 6 bokstäver korsord",
+  "leksaker bokstäver",
+  "leksaker bokstäver barn",
+  "leksaker matte",
+  "leksaker med bokstäver",
+  "leksaker räkna",
+  "ljuda",
+  "ljuda korsord",
+  "ljudaborg",
+  "ljudabsorbent",
+  "ljudabsorbenter",
+  "ljudabsorbenter tak",
+  "ljudabsorbenter vägg",
+  "ljudabsorberande panel",
+  "ljudanläggning",
+  "ljudanläggning 2 bokstäver",
+  "läsförståelse",
+  "läsförståelse blå",
+  "läsförståelse grön",
+  "läsförståelse på engelska",
+  "läsförståelse röd",
+  "läsförståelse svenska",
+  "läsförståelse åk 1",
+  "läsförståelse åk 1 gratis",
+  "läsförståelse åk 2 gratis",
+  "läsförståelse åk 3",
+  "läxa förskoleklass",
+  "man i juli 4 bokstäver",
+  "maskinelement övningshäfte",
+  "matematik stationer förskoleklass",
+  "matte aktiviteter for barn",
+  "matte aktiviteter på förskolan",
+  "matte aktiviteter ute",
+  "matte klassrum",
+  "micki leksaker bokstäver",
+  "musik 3 bokstäver",
+  "musik 4 bokstäver",
+  "musik bokstäver",
+  "musik brian 3 bokstäver",
+  "musik carl 4 bokstäver",
+  "musik chris 3 bokstäver",
+  "musik diaz 3 bokstäver",
+  "musik james 4 bokstäver",
+  "musik matte",
+  "musik möller 3 bokstäver",
+  "musik ornament 5 bokstäver",
+  "mätningar inför valet 2026",
+  "mätningsingenjör göteborg",
+  "mätningsingenjör jobb",
+  "möbler 5 bokstäver",
+  "möbler 6 bokstäver",
+  "möbler 7 bokstäver",
+  "möbler korsord 5 bokstäver",
+  "mönsterpapper",
+  "namnsdag i juli 4 bokstäver",
+  "omkastade bokstäver jul",
+  "omkastade bokstäver yrken",
+  "pedagogiska leksaker bokstäver",
+  "påsk 4 bokstäver",
+  "påsk 4 bokstäver korsord",
+  "påsk 5 bokstäver",
+  "påsk 5 bokstäver korsord",
+  "påsk färg 5 bokstäver",
+  "påsk räkna ut",
+  "r övningshäfte",
+  "rimord",
+  "rimord 5 bokstäver",
+  "rimord förskola",
+  "rimord korsord",
+  "rimord korsord 5 bokstäver",
+  "rimord på dag",
+  "rimord på svenska",
+  "rimord på till",
+  "rimord synonym",
+  "rimordbok",
+  "rymden 3 bokstäver",
+  "rymden 5 bokstäver",
+  "rymden 5 bokstäver korsord",
+  "rymden 6 bokstäver",
+  "rymden matte",
+  "räkna blommor",
+  "räkna dinosaurier",
+  "räkna djur",
+  "räkna fordon",
+  "räkna frukter",
+  "räkna färger i excel",
+  "räkna fåglar",
+  "räkna fåglar 2025",
+  "räkna fåglar 2026",
+  "räkna fåglar i sverige",
+  "räkna fåglar vid fågelbordet",
+  "räkna musik",
+  "räkna till 20",
+  "räkna till 20 på arabiska",
+  "räkna till 20 på danska",
+  "räkna till 20 på finska",
+  "räkna till 20 på franska",
+  "räkna till 20 på grekiska",
+  "räkna till 20 på italienska",
+  "räkna till 20 på norska",
+  "räkna till 20 på spanska",
+  "räkna till 20 på tyska",
+  "räkna träd",
+  "räkna träd per hektar",
+  "sist i juli 4 bokstäver",
+  "sjukhus 10 bokstäver",
+  "sjukhus 2 bokstäver",
+  "sjukhus 3 bokstäver",
+  "sjukhus 5 bokstäver",
+  "sjukhus 5 bokstäver korsord",
+  "sjukhus 6 bokstäver",
+  "sjukhus 8 bokstäver",
+  "sjukhus korsord 2 bokstäver",
+  "sjukhus korsord 8 bokstäver",
+  "sjukhus stockholm 5 bokstäver",
+  "skatt fordon räkna",
+  "skogsdjur 4 bokstäver",
+  "skogsdjur 4 bokstäver korsord",
+  "skogsdjur 6 bokstäver",
+  "skolplus tiokamrater",
+  "sommar 6 bokstäver",
+  "sommar bokstäver",
+  "sommar korsord 6 bokstäver",
+  "sommar matte",
+  "stationer förskoleklass",
+  "stationer idrott förskoleklass",
+  "stavelser",
+  "stavelser betyder",
+  "stavelser engelska",
+  "stavelser förskoleklass",
+  "stavelser i dikt",
+  "stavelser i ord",
+  "stavelser krydsord",
+  "stavelser regler",
+  "stavelser räknare",
+  "stavelser svenska",
+  "strand 4 bokstäver",
+  "strand 5 bokstäver",
+  "strand ellen 3 bokstäver",
+  "strand korsord 5 bokstäver",
+  "strand matte",
+  "strand matte dm",
+  "strand matte gepolstert",
+  "strand matte got2b",
+  "strand matte got2b spray",
+  "strand matte haare",
+  "strand matte haarspray",
+  "strand matte paste",
+  "strand matte wax",
+  "sva arbetsblad",
+  "sva förskoleklass",
+  "sva undervisning förskoleklass",
+  "svenska som andraspråk förskoleklass",
+  "särskola förskoleklass",
+  "talkamrater på hög",
+  "taluppfattning",
+  "taluppfattning förskola",
+  "taluppfattning förskoleklass",
+  "taluppfattning matematik",
+  "taluppfattning och tals användning",
+  "taluppfattning skolverket",
+  "taluppfattning åk 1",
+  "taluppfattning åk 2",
+  "taluppfattning åk 3",
+  "taluppfattning åk 9",
+  "thanksgiving matte nails",
+  "tillbehör 10 bokstäver",
+  "tillbehör 3 bokstäver",
+  "tillbehör 6 bokstäver",
+  "tillbehör 8 bokstäver",
+  "tillbehör korsord 10 bokstäver",
+  "tillbehör korsord 3 bokstäver",
+  "tillbehör korsord 8 bokstäver",
+  "tiokamrater",
+  "tiokamrater arbetsblad",
+  "tiokamrater film",
+  "tiokamrater spel",
+  "tiokamraterna",
+  "tiokamraterna matematik",
+  "tiokamraterna sång",
+  "tiokamraterna övningar",
+  "träd 2 bokstäver",
+  "träd 3 bokstäver",
+  "träd 3 bokstäver sal",
+  "träd 4 bokstäver",
+  "träd 5 bokstäver",
+  "träd 8 bokstäver",
+  "verkstadshandboken övningshäfte",
+  "verktyg 3 bokstäver",
+  "verktyg 3 bokstäver korsord",
+  "verktyg 4 bokstäver",
+  "verktyg 4 bokstäver korsord",
+  "verktyg 5 bokstäver",
+  "verktyg 5 bokstäver korsord",
+  "verktyg 6 bokstäver",
+  "verktyg för att räkna kalorier",
+  "verktyg för att räkna ut vinkel",
+  "verktyg korsord 6 bokstäver",
+  "verktyg korsord 7 bokstäver",
+  "vinter härskare 4 bokstäver",
+  "vinter matte",
+  "vinter uttryck 3 bokstäver",
+  "väder 6 bokstäver",
+  "väder fyra bokstäver",
+  "väder glosa 3 bokstäver",
+  "väder verktyg 3 bokstäver",
+  "vår 5 bokstäver",
+  "vår 5 bokstäver korsord",
+  "vår adam 3 bokstäver",
+  "vår attila 4 bokstäver",
+  "vår fortplantning 6 bokstäver",
+  "vår gumma två bokstäver",
+  "vår moder 4 bokstäver",
+  "vår motsats 2 bokstäver",
+  "vår planet 6 bokstäver korsord",
+  "vår tid 3 bokstäver",
+  "övningshäfte bokstäver",
+  "övningshäfte engelska",
+  "övningshäfte körkort",
+  "övningshäfte matematik",
+  "övningshäfte skrivstil",
+  "övningshäfte svenska"
+ ],
+ "refilteredAt": "2026-07-20T08:58:53.401Z"
+}

@@ -1,0 +1,2075 @@
+{
+ "locale": "no",
+ "market": {
+  "hl": "no",
+  "gl": "no"
+ },
+ "generatedAt": "2026-07-20T08:57:48.401Z",
+ "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
+ "requestCount": 229,
+ "seedCounts": {
+  "skill": 11,
+  "context": 6,
+  "audience": 4,
+  "enumerated": 0,
+  "pack": 1,
+  "cross": 207
+ },
+ "errorCount": 0,
+ "errors": [],
+ "newVsInventory": {
+  "inventoryUnique": 743,
+  "demandUnique": 299,
+  "novel": 297,
+  "novelShare": 0.993
+ },
+ "deadSeeds": [
+  "de 120 ordene",
+  "lekser oppgaver",
+  "stasjoner oppgaver",
+  "ekstra trening oppgaver",
+  "ekstra trening 1. trinn",
+  "norsk som andrespråk 1. trinn",
+  "spesialundervisning oppgaver",
+  "spesialundervisning 1. trinn",
+  "4. juli matte",
+  "4. juli telle",
+  "4. juli bokstaver",
+  "tilbehør matte",
+  "tilbehør telle",
+  "aktiviteter telle",
+  "rundt i huset matte",
+  "rundt i huset telle",
+  "rundt i huset bokstaver",
+  "i supermarkedet matte",
+  "i supermarkedet telle",
+  "i supermarkedet bokstaver",
+  "bakeri matte",
+  "bakeri telle",
+  "bakeri bokstaver",
+  "strand telle",
+  "fugler matte",
+  "fugler 2 matte",
+  "fugler 2 telle",
+  "fugler 2 bokstaver",
+  "kroppsdeler matte",
+  "kroppsdeler telle",
+  "frokost matte",
+  "frokost telle",
+  "camping telle",
+  "camping bokstaver",
+  "jul telle",
+  "klasserom matte",
+  "klasserom telle",
+  "klær matte",
+  "klær telle",
+  "farger telle",
+  "desserter og godteri matte",
+  "desserter og godteri telle",
+  "desserter og godteri bokstaver",
+  "dinosaurer matte",
+  "dinosaurer telle",
+  "dinosaurer bokstaver",
+  "påske telle",
+  "følelser matte",
+  "følelser telle",
+  "følelser bokstaver",
+  "gårdsdyr matte",
+  "gårdsdyr telle",
+  "blomster matte",
+  "blomster telle",
+  "skogsdyr matte",
+  "skogsdyr telle",
+  "frukter matte",
+  "frukter telle",
+  "møbler matte",
+  "møbler telle",
+  "sykehus matte",
+  "sykehus telle",
+  "insekter og kryp matte",
+  "insekter og kryp telle",
+  "insekter og kryp bokstaver",
+  "kjøkkenredskaper matte",
+  "kjøkkenredskaper telle",
+  "diverse matte",
+  "diverse telle",
+  "yrker telle",
+  "yrker bokstaver",
+  "havliv matte",
+  "havliv telle",
+  "havliv bokstaver",
+  "kjæledyr matte",
+  "kjæledyr telle",
+  "postkontor matte",
+  "postkontor telle",
+  "postkontor bokstaver",
+  "reptiler og amfibier matte",
+  "reptiler og amfibier telle",
+  "reptiler og amfibier bokstaver",
+  "former telle",
+  "verdensrommet matte",
+  "verdensrommet telle",
+  "verdensrommet bokstaver",
+  "vår matte",
+  "vår telle",
+  "sommer telle",
+  "thanksgiving telle",
+  "thanksgiving bokstaver",
+  "ting som flyr matte",
+  "ting som flyr telle",
+  "ting som flyr bokstaver",
+  "trær matte",
+  "trær telle",
+  "grønnsaker matte",
+  "grønnsaker telle",
+  "kjøretøy matte",
+  "kjøretøy telle",
+  "vær matte",
+  "vær telle",
+  "vinter telle",
+  "dyrehagedyr matte",
+  "dyrehagedyr telle",
+  "dyrehagedyr bokstaver",
+  "dyr sh 2 matte",
+  "dyr sh 2 telle",
+  "dyr sh 2 bokstaver",
+  "dyr sh 3 matte",
+  "dyr sh 3 telle",
+  "dyr sh 3 bokstaver",
+  "dyr sh 4 matte",
+  "dyr sh 4 telle",
+  "dyr sh 4 bokstaver",
+  "dyr sh 5 matte",
+  "dyr sh 5 telle",
+  "dyr sh 5 bokstaver",
+  "strand sh 2 matte",
+  "strand sh 2 telle",
+  "strand sh 2 bokstaver",
+  "fugler s&h 2 matte",
+  "fugler s&h 2 telle",
+  "fugler s&h 2 bokstaver",
+  "jul s/h 2 matte",
+  "jul s/h 2 telle",
+  "jul s/h 2 bokstaver",
+  "klasserom 2 (s/h) matte",
+  "klasserom 2 (s/h) telle",
+  "klasserom 2 (s/h) bokstaver",
+  "påske sh 2 matte",
+  "påske sh 2 telle",
+  "påske sh 2 bokstaver",
+  "mat sh 2 matte",
+  "mat sh 2 telle",
+  "mat sh 2 bokstaver",
+  "mat sh 3 matte",
+  "mat sh 3 telle",
+  "mat sh 3 bokstaver",
+  "hjem sh 2 matte",
+  "hjem sh 2 telle",
+  "hjem sh 2 bokstaver",
+  "havliv sh 2 matte",
+  "havliv sh 2 telle",
+  "havliv sh 2 bokstaver",
+  "sport sh 2 matte",
+  "sport sh 2 telle",
+  "sport sh 2 bokstaver",
+  "leker sh 2 matte",
+  "leker sh 2 telle",
+  "leker sh 2 bokstaver",
+  "valentinsdag sh 2 matte",
+  "valentinsdag sh 2 telle",
+  "valentinsdag sh 2 bokstaver",
+  "grønnsaker sh 2 matte",
+  "grønnsaker sh 2 telle",
+  "grønnsaker sh 2 bokstaver",
+  "kjøretøy sh 2 matte",
+  "kjøretøy sh 2 telle",
+  "kjøretøy sh 2 bokstaver",
+  "kjøretøy sh 3 matte",
+  "kjøretøy sh 3 telle",
+  "kjøretøy sh 3 bokstaver"
+ ],
+ "suggestions": {
+  "de 120 ordene": {
+   "cls": "skill",
+   "s": []
+  },
+  "lesebestilling": {
+   "cls": "skill",
+   "s": [
+    "lesebestilling",
+    "lesebestilling eksempel"
+   ]
+  },
+  "bokstaver": {
+   "cls": "skill",
+   "s": [
+    "bokstaver kryssord",
+    "bokstaver",
+    "bokstaver i tre",
+    "bokstaver til barnerom",
+    "bokstaver klistremerker",
+    "bokstaver til russedress",
+    "bokstaver klistremerker biltema",
+    "bokstaver i alfabetet",
+    "bokstaver til å stryke på klær",
+    "bokstaver biltema"
+   ]
+  },
+  "lydering": {
+   "cls": "skill",
+   "s": [
+    "lydering",
+    "lydering av bokstaver",
+    "lydering av ord",
+    "lydering oppgaver",
+    "lydering betydning",
+    "lydering af bogstaver",
+    "lydering opgaver"
+   ]
+  },
+  "rim": {
+   "cls": "skill",
+   "s": [
+    "rimowa koffert",
+    "rimini",
+    "rimowa",
+    "rimnersbadet",
+    "rimi",
+    "rimordbok",
+    "rimi hagen",
+    "rimmad lax",
+    "rima iraki",
+    "rimbo"
+   ]
+  },
+  "stavelser": {
+   "cls": "skill",
+   "s": [
+    "stavelser",
+    "stavelser i ord",
+    "stavelser engelsk",
+    "stavelser oppgaver",
+    "stavelser regler",
+    "stavelser betyder",
+    "stavelser undervisningsopplegg",
+    "stavelser arbeidsark",
+    "stavelser norsk",
+    "regnbue stavelser"
+   ]
+  },
+  "tall til 20": {
+   "cls": "skill",
+   "s": [
+    "tall til 20",
+    "tall til 20 på spansk",
+    "tall 20",
+    "how to be 200cm tall",
+    "tall 20ft container",
+    "tall 200",
+    "tall 20 year old",
+    "tall 20 gallon fish tank",
+    "tall 20 gallon tank",
+    "tall 20 gallon terrarium"
+   ]
+  },
+  "pluss til 10": {
+   "cls": "skill",
+   "s": [
+    "100 plus",
+    "pluss 10",
+    "pluss 1000"
+   ]
+  },
+  "klokka": {
+   "cls": "skill",
+   "s": [
+    "klokka",
+    "klokka nå",
+    "klokka i new york",
+    "klokka i usa nå",
+    "klokka i usa",
+    "klokka i norge",
+    "klokka i thailand",
+    "klokkarstua",
+    "klokka i boston nå",
+    "klokka i new york nå"
+   ]
+  },
+  "geometriske former": {
+   "cls": "skill",
+   "s": [
+    "geometriske former",
+    "geometriske former navn",
+    "geometriske former barnehage",
+    "geometriske former i naturen",
+    "geometriske former 3d",
+    "geometriske former kunst",
+    "geometriske former og figurer",
+    "geometriske former kryssord",
+    "geometriske former oppgaver",
+    "geometriske former på engelsk"
+   ]
+  },
+  "finmotorikk": {
+   "cls": "skill",
+   "s": [
+    "finmotorikk",
+    "finmotorikk barn",
+    "finmotorikk leker",
+    "finmotorikk 2 år",
+    "finmotorikk øvelser",
+    "finmotorikk definisjon",
+    "finmotorikk 3 år",
+    "finmotorikk 4 år",
+    "finmotorikk trening",
+    "finmotorikk oppgaver"
+   ]
+  },
+  "lekser oppgaver": {
+   "cls": "context",
+   "s": []
+  },
+  "lekser 1. trinn": {
+   "cls": "context",
+   "s": [
+    "lekser 1 trinn"
+   ]
+  },
+  "stasjoner oppgaver": {
+   "cls": "context",
+   "s": []
+  },
+  "stasjoner 1. trinn": {
+   "cls": "context",
+   "s": [
+    "stasjoner 1 trinn",
+    "norsk stasjoner 1 trinn",
+    "matematikk stasjoner 1 trinn"
+   ]
+  },
+  "ekstra trening oppgaver": {
+   "cls": "context",
+   "s": []
+  },
+  "ekstra trening 1. trinn": {
+   "cls": "context",
+   "s": []
+  },
+  "norsk som andrespråk oppgaver": {
+   "cls": "audience",
+   "s": [
+    "norsk som andrespråk oppgaver",
+    "norsk som andrespråk oppgaver pdf",
+    "muntlige oppgaver norsk som andrespråk"
+   ]
+  },
+  "norsk som andrespråk 1. trinn": {
+   "cls": "audience",
+   "s": []
+  },
+  "spesialundervisning oppgaver": {
+   "cls": "audience",
+   "s": []
+  },
+  "spesialundervisning 1. trinn": {
+   "cls": "audience",
+   "s": []
+  },
+  "oppgavehefte": {
+   "cls": "pack",
+   "s": [
+    "oppgavehefte barn",
+    "oppgavehefter",
+    "oppgavehefte norsk",
+    "oppgavehefter skole",
+    "oppgavehefter lek og skole",
+    "oppgavehefte sommer",
+    "oppgavehefte engelsk",
+    "oppgavehefte barnehage",
+    "oppgavehefte algebra",
+    "oppgavehefte for personer med afasi"
+   ]
+  },
+  "4. juli matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "4. juli telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "4. juli bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "tilbehør matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "tilbehør telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "tilbehør bokstaver": {
+   "cls": "cross",
+   "s": [
+    "tilbehør 7 bokstaver",
+    "tilbehør 9 bokstaver",
+    "tilbehør 13 bokstaver",
+    "tilbehør 3 bokstaver",
+    "tilbehør 5 bokstaver",
+    "tilbehør 10 bokstaver",
+    "tilbehør 11 bokstaver",
+    "tilbehør 6 bokstaver",
+    "tilbehør 8 bokstaver"
+   ]
+  },
+  "aktiviteter matte": {
+   "cls": "cross",
+   "s": [
+    "matte aktiviteter for barn",
+    "matte aktiviteter ute",
+    "matte aktiviteter på förskolan"
+   ]
+  },
+  "aktiviteter telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "aktiviteter bokstaver": {
+   "cls": "cross",
+   "s": [
+    "aktiviteter med bokstaver",
+    "aktiviteter 9 bokstaver"
+   ]
+  },
+  "dyr matte": {
+   "cls": "cross",
+   "s": [
+    "matte dyr",
+    "mummi matte dyr"
+   ]
+  },
+  "dyr telle": {
+   "cls": "cross",
+   "s": [
+    "telle dyr"
+   ]
+  },
+  "dyr bokstaver": {
+   "cls": "cross",
+   "s": [
+    "dyr bokstaver",
+    "dyr 5 bokstaver",
+    "dyr 4 bokstaver",
+    "dyr 3 bokstaver",
+    "dyr 7 bokstaver",
+    "dyr 6 bokstaver",
+    "dyr 8 bokstaver",
+    "dyr 10 bokstaver",
+    "dyr 9 bokstaver",
+    "dyr 2 bokstaver"
+   ]
+  },
+  "rundt i huset matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "rundt i huset telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "rundt i huset bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "i supermarkedet matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "i supermarkedet telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "i supermarkedet bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "bakeri matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "bakeri telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "bakeri bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand matte": {
+   "cls": "cross",
+   "s": [
+    "strand matte",
+    "strand matte got2b",
+    "got2b.to be strand matte",
+    "strand matte dm",
+    "strand matte paste",
+    "strand matte gepolstert",
+    "strand matte haarspray",
+    "strand matte haare",
+    "strand matte got2b anwendung"
+   ]
+  },
+  "strand telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand bokstaver": {
+   "cls": "cross",
+   "s": [
+    "strand 7 bokstaver",
+    "strand 4 bokstaver",
+    "strand. 9 bokstaver",
+    "strand 5 bokstaver"
+   ]
+  },
+  "fugler matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "fugler telle": {
+   "cls": "cross",
+   "s": [
+    "telle fugler",
+    "telle fugler i hagen",
+    "telle fugler i hagen 2026",
+    "telle fugler i hagen 2025",
+    "hvordan telle fugler",
+    "hvordan telle fugler i hagen"
+   ]
+  },
+  "fugler bokstaver": {
+   "cls": "cross",
+   "s": [
+    "fugler 7 bokstaver",
+    "fugler 5 bokstaver",
+    "fugler 6 bokstaver",
+    "fugler 4 bokstaver",
+    "fugler 10 bokstaver",
+    "fugler 3 bokstaver",
+    "fugler 9 bokstaver",
+    "fugler 8 bokstaver",
+    "fugler 12 bokstaver",
+    "fugler 11 bokstaver"
+   ]
+  },
+  "fugler 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "fugler 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "fugler 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "kroppsdeler matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "kroppsdeler telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "kroppsdeler bokstaver": {
+   "cls": "cross",
+   "s": [
+    "kroppsdeler 6 bokstaver"
+   ]
+  },
+  "frokost matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "frokost telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "frokost bokstaver": {
+   "cls": "cross",
+   "s": [
+    "frokost 4 bokstaver",
+    "frokost kryssord 4 bokstaver"
+   ]
+  },
+  "camping matte": {
+   "cls": "cross",
+   "s": [
+    "camping matte",
+    "camping matte vorzelt",
+    "camping matte outdoor",
+    "camping matte isoliert",
+    "camping matte selbstaufblasend",
+    "camping matte landi"
+   ]
+  },
+  "camping telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "camping bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "jul matte": {
+   "cls": "cross",
+   "s": [
+    "jul matte",
+    "god jul matte"
+   ]
+  },
+  "jul telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "jul bokstaver": {
+   "cls": "cross",
+   "s": [
+    "jul bokstaver",
+    "god jul bokstaver"
+   ]
+  },
+  "klasserom matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "klasserom telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "klasserom bokstaver": {
+   "cls": "cross",
+   "s": [
+    "bokstaver klasserom"
+   ]
+  },
+  "klær matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "klær telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "klær bokstaver": {
+   "cls": "cross",
+   "s": [
+    "bokstaver klær",
+    "klær 3 bokstaver",
+    "klær 6 bokstaver",
+    "klær 7 bokstaver",
+    "klær 10 bokstaver",
+    "strykemerker til klær bokstaver",
+    "klær på 7 bokstaver"
+   ]
+  },
+  "farger matte": {
+   "cls": "cross",
+   "s": [
+    "matte farger"
+   ]
+  },
+  "farger telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "farger bokstaver": {
+   "cls": "cross",
+   "s": [
+    "bokstaver farger",
+    "farger på 6 bokstaver"
+   ]
+  },
+  "desserter og godteri matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "desserter og godteri telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "desserter og godteri bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosaurer matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosaurer telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosaurer bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "påske matte": {
+   "cls": "cross",
+   "s": [
+    "påske matte"
+   ]
+  },
+  "påske telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "påske bokstaver": {
+   "cls": "cross",
+   "s": [
+    "påske bokstaver"
+   ]
+  },
+  "følelser matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "følelser telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "følelser bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "gårdsdyr matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "gårdsdyr telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "gårdsdyr bokstaver": {
+   "cls": "cross",
+   "s": [
+    "gårdsdyr 4 bokstaver",
+    "gårdsdyr 3 bokstaver"
+   ]
+  },
+  "blomster matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "blomster telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "blomster bokstaver": {
+   "cls": "cross",
+   "s": [
+    "blomster bokstaver",
+    "blomster 8 bokstaver",
+    "blomster 5 bokstaver",
+    "blomster 6 bokstaver",
+    "blomster 6 bokstaver kryssord",
+    "blomster 7 bokstaver",
+    "blomster 10 bokstaver",
+    "blomster kryssord 7 bokstaver",
+    "blomster kryssord 8 bokstaver"
+   ]
+  },
+  "skogsdyr matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "skogsdyr telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "skogsdyr bokstaver": {
+   "cls": "cross",
+   "s": [
+    "skogsdyr 3 bokstaver",
+    "skogsdyr 5 bokstaver"
+   ]
+  },
+  "frukter matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "frukter telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "frukter bokstaver": {
+   "cls": "cross",
+   "s": [
+    "frukter 5 bokstaver",
+    "frukter 6 bokstaver",
+    "frukter 7 bokstaver",
+    "frukter 8 bokstaver"
+   ]
+  },
+  "møbler matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "møbler telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "møbler bokstaver": {
+   "cls": "cross",
+   "s": [
+    "møbler 6 bokstaver",
+    "møbler 5 bokstaver",
+    "møbler 10 bokstaver"
+   ]
+  },
+  "sykehus matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "sykehus telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "sykehus bokstaver": {
+   "cls": "cross",
+   "s": [
+    "sykehus 8 bokstaver",
+    "sykehus 7 bokstaver",
+    "sykehus 4 bokstaver",
+    "sykehus 13 bokstaver"
+   ]
+  },
+  "insekter og kryp matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "insekter og kryp telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "insekter og kryp bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjøkkenredskaper matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjøkkenredskaper telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjøkkenredskaper bokstaver": {
+   "cls": "cross",
+   "s": [
+    "kjøkkenredskaper på 9 bokstaver"
+   ]
+  },
+  "diverse matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "diverse telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "diverse bokstaver": {
+   "cls": "cross",
+   "s": [
+    "diverse 3 bokstaver",
+    "diverse 4 bokstaver",
+    "diverse 5 bokstaver"
+   ]
+  },
+  "musikk matte": {
+   "cls": "cross",
+   "s": [
+    "musikk matte",
+    "musikk i matte salaby",
+    "musikk og matte"
+   ]
+  },
+  "musikk telle": {
+   "cls": "cross",
+   "s": [
+    "telle musikk"
+   ]
+  },
+  "musikk bokstaver": {
+   "cls": "cross",
+   "s": [
+    "musikk bokstaver",
+    "musikk 4 bokstaver",
+    "musikk 5 bokstaver",
+    "musikk 3 bokstaver",
+    "musikk 6 bokstaver",
+    "musikk 7 bokstaver",
+    "musikk 9 bokstaver",
+    "musikk 8 bokstaver",
+    "musikk 3 bokstaver kryssord",
+    "musikk 10 bokstaver"
+   ]
+  },
+  "yrker matte": {
+   "cls": "cross",
+   "s": [
+    "yrker uten matte",
+    "yrker med matte",
+    "yrker med p matte"
+   ]
+  },
+  "yrker telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "yrker bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "havliv matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "havliv telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "havliv bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjæledyr matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjæledyr telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjæledyr bokstaver": {
+   "cls": "cross",
+   "s": [
+    "kjæledyr 3 bokstaver",
+    "kjæledyr 5 bokstaver",
+    "kjæledyr 7 bokstaver",
+    "kjæledyr 8 bokstaver"
+   ]
+  },
+  "postkontor matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "postkontor telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "postkontor bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "reptiler og amfibier matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "reptiler og amfibier telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "reptiler og amfibier bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "former matte": {
+   "cls": "cross",
+   "s": [
+    "former matte",
+    "ulike former matte",
+    "olika former matte"
+   ]
+  },
+  "former telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "former bokstaver": {
+   "cls": "cross",
+   "s": [
+    "former bokstaver",
+    "former 10 bokstaver",
+    "fondant former bokstaver",
+    "former 4 bokstaver"
+   ]
+  },
+  "verdensrommet matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "verdensrommet telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "verdensrommet bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "vår matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "vår telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "vår bokstaver": {
+   "cls": "cross",
+   "s": [
+    "vår bokstaver",
+    "vår 5 bokstaver"
+   ]
+  },
+  "sommer matte": {
+   "cls": "cross",
+   "s": [
+    "sommer matte"
+   ]
+  },
+  "sommer telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "sommer bokstaver": {
+   "cls": "cross",
+   "s": [
+    "sommer bokstaver",
+    "sommer 6 bokstaver"
+   ]
+  },
+  "thanksgiving matte": {
+   "cls": "cross",
+   "s": [
+    "thanksgiving matte nails"
+   ]
+  },
+  "thanksgiving telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "thanksgiving bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "ting som flyr matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "ting som flyr telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "ting som flyr bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "verktøy matte": {
+   "cls": "cross",
+   "s": [
+    "verktøy matte",
+    "magnetisk verktøy matte"
+   ]
+  },
+  "verktøy telle": {
+   "cls": "cross",
+   "s": [
+    "telle verktøy"
+   ]
+  },
+  "verktøy bokstaver": {
+   "cls": "cross",
+   "s": [
+    "verktøy 3 bokstaver",
+    "verktøy 7 bokstaver",
+    "verktøy 8 bokstaver",
+    "verktøy 6 bokstaver",
+    "verktøy 9 bokstaver",
+    "verktøy 5 bokstaver",
+    "verktøy 11 bokstaver",
+    "verktøy 4 bokstaver",
+    "verktøy 10 bokstaver",
+    "verktøy kryssord 8 bokstaver"
+   ]
+  },
+  "leker matte": {
+   "cls": "cross",
+   "s": [
+    "leker matte",
+    "extra leker matte"
+   ]
+  },
+  "leker telle": {
+   "cls": "cross",
+   "s": [
+    "telle leker for barn",
+    "telle leker"
+   ]
+  },
+  "leker bokstaver": {
+   "cls": "cross",
+   "s": [
+    "leker bokstaver",
+    "leker 2 bokstaver",
+    "leker med bokstaver",
+    "extra leker bokstaver",
+    "leker 7 bokstaver"
+   ]
+  },
+  "trær matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "trær telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "trær bokstaver": {
+   "cls": "cross",
+   "s": [
+    "trær 4 bokstaver",
+    "trær 5 bokstaver",
+    "trær 6 bokstaver",
+    "trær 7 bokstaver",
+    "trær kryssord 4 bokstaver",
+    "trær på fire bokstaver",
+    "trær på 5 bokstaver"
+   ]
+  },
+  "grønnsaker matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "grønnsaker telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "grønnsaker bokstaver": {
+   "cls": "cross",
+   "s": [
+    "grønnsaker 13 bokstaver",
+    "grønnsaker 8 bokstaver",
+    "grønnsaker 5 bokstaver",
+    "grønnsaker 6 bokstaver",
+    "grønnsaker 7 bokstaver",
+    "grønnsaker kryssord 7 bokstaver",
+    "grønnsaker kryssord 9 bokstaver"
+   ]
+  },
+  "kjøretøy matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjøretøy telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjøretøy bokstaver": {
+   "cls": "cross",
+   "s": [
+    "kjøretøy 8 bokstaver",
+    "kjøretøy 5 bokstaver",
+    "kjøretøy 6 bokstaver",
+    "kjøretøy 7 bokstaver",
+    "kjøretøy 9 bokstaver",
+    "kjøretøy 4 bokstaver",
+    "kjøretøy 3 bokstaver",
+    "kjøretøy 10 bokstaver",
+    "kjøretøy 11 bokstaver",
+    "kjøretøy 2 bokstaver"
+   ]
+  },
+  "vær matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "vær telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "vær bokstaver": {
+   "cls": "cross",
+   "s": [
+    "vær 3 bokstaver",
+    "vær 7 bokstaver",
+    "vær 4 bokstaver",
+    "vær 5 bokstaver",
+    "vær 6 bokstaver",
+    "vær hilset 3 bokstaver",
+    "vær hilset 5 bokstaver"
+   ]
+  },
+  "vinter matte": {
+   "cls": "cross",
+   "s": [
+    "vinter matte",
+    "vinter matte premium varmecomfort"
+   ]
+  },
+  "vinter telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "vinter bokstaver": {
+   "cls": "cross",
+   "s": [
+    "vinter bokstaver"
+   ]
+  },
+  "dyrehagedyr matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyrehagedyr telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyrehagedyr bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyr sh 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyr sh 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyr sh 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyr sh 3 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyr sh 3 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyr sh 3 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyr sh 4 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyr sh 4 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyr sh 4 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyr sh 5 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyr sh 5 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyr sh 5 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand sh 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand sh 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "strand sh 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "fugler s&h 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "fugler s&h 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "fugler s&h 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "jul s/h 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "jul s/h 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "jul s/h 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "klasserom 2 (s/h) matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "klasserom 2 (s/h) telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "klasserom 2 (s/h) bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "påske sh 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "påske sh 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "påske sh 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "mat sh 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "mat sh 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "mat sh 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "mat sh 3 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "mat sh 3 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "mat sh 3 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "hjem sh 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "hjem sh 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "hjem sh 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "havliv sh 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "havliv sh 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "havliv sh 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport sh 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport sh 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport sh 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "leker sh 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "leker sh 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "leker sh 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "valentinsdag sh 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "valentinsdag sh 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "valentinsdag sh 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "grønnsaker sh 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "grønnsaker sh 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "grønnsaker sh 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjøretøy sh 2 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjøretøy sh 2 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjøretøy sh 2 bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjøretøy sh 3 matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjøretøy sh 3 telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjøretøy sh 3 bokstaver": {
+   "cls": "cross",
+   "s": []
+  }
+ },
+ "unique": [
+  "100 plus",
+  "aktiviteter 9 bokstaver",
+  "aktiviteter med bokstaver",
+  "blomster 10 bokstaver",
+  "blomster 5 bokstaver",
+  "blomster 6 bokstaver",
+  "blomster 6 bokstaver kryssord",
+  "blomster 7 bokstaver",
+  "blomster 8 bokstaver",
+  "blomster bokstaver",
+  "blomster kryssord 7 bokstaver",
+  "blomster kryssord 8 bokstaver",
+  "bokstaver",
+  "bokstaver biltema",
+  "bokstaver farger",
+  "bokstaver i alfabetet",
+  "bokstaver i tre",
+  "bokstaver klasserom",
+  "bokstaver klistremerker",
+  "bokstaver klistremerker biltema",
+  "bokstaver klær",
+  "bokstaver kryssord",
+  "bokstaver til barnerom",
+  "bokstaver til russedress",
+  "bokstaver til å stryke på klær",
+  "camping matte",
+  "camping matte isoliert",
+  "camping matte landi",
+  "camping matte outdoor",
+  "camping matte selbstaufblasend",
+  "camping matte vorzelt",
+  "diverse 3 bokstaver",
+  "diverse 4 bokstaver",
+  "diverse 5 bokstaver",
+  "dyr 10 bokstaver",
+  "dyr 2 bokstaver",
+  "dyr 3 bokstaver",
+  "dyr 4 bokstaver",
+  "dyr 5 bokstaver",
+  "dyr 6 bokstaver",
+  "dyr 7 bokstaver",
+  "dyr 8 bokstaver",
+  "dyr 9 bokstaver",
+  "dyr bokstaver",
+  "extra leker bokstaver",
+  "extra leker matte",
+  "farger på 6 bokstaver",
+  "finmotorikk",
+  "finmotorikk 2 år",
+  "finmotorikk 3 år",
+  "finmotorikk 4 år",
+  "finmotorikk barn",
+  "finmotorikk definisjon",
+  "finmotorikk leker",
+  "finmotorikk oppgaver",
+  "finmotorikk trening",
+  "finmotorikk øvelser",
+  "fondant former bokstaver",
+  "former 10 bokstaver",
+  "former 4 bokstaver",
+  "former bokstaver",
+  "former matte",
+  "frokost 4 bokstaver",
+  "frokost kryssord 4 bokstaver",
+  "frukter 5 bokstaver",
+  "frukter 6 bokstaver",
+  "frukter 7 bokstaver",
+  "frukter 8 bokstaver",
+  "fugler 10 bokstaver",
+  "fugler 11 bokstaver",
+  "fugler 12 bokstaver",
+  "fugler 3 bokstaver",
+  "fugler 4 bokstaver",
+  "fugler 5 bokstaver",
+  "fugler 6 bokstaver",
+  "fugler 7 bokstaver",
+  "fugler 8 bokstaver",
+  "fugler 9 bokstaver",
+  "geometriske former",
+  "geometriske former 3d",
+  "geometriske former barnehage",
+  "geometriske former i naturen",
+  "geometriske former kryssord",
+  "geometriske former kunst",
+  "geometriske former navn",
+  "geometriske former og figurer",
+  "geometriske former oppgaver",
+  "geometriske former på engelsk",
+  "god jul bokstaver",
+  "god jul matte",
+  "got2b.to be strand matte",
+  "grønnsaker 13 bokstaver",
+  "grønnsaker 5 bokstaver",
+  "grønnsaker 6 bokstaver",
+  "grønnsaker 7 bokstaver",
+  "grønnsaker 8 bokstaver",
+  "grønnsaker kryssord 7 bokstaver",
+  "grønnsaker kryssord 9 bokstaver",
+  "gårdsdyr 3 bokstaver",
+  "gårdsdyr 4 bokstaver",
+  "how to be 200cm tall",
+  "hvordan telle fugler",
+  "hvordan telle fugler i hagen",
+  "jul bokstaver",
+  "jul matte",
+  "kjæledyr 3 bokstaver",
+  "kjæledyr 5 bokstaver",
+  "kjæledyr 7 bokstaver",
+  "kjæledyr 8 bokstaver",
+  "kjøkkenredskaper på 9 bokstaver",
+  "kjøretøy 10 bokstaver",
+  "kjøretøy 11 bokstaver",
+  "kjøretøy 2 bokstaver",
+  "kjøretøy 3 bokstaver",
+  "kjøretøy 4 bokstaver",
+  "kjøretøy 5 bokstaver",
+  "kjøretøy 6 bokstaver",
+  "kjøretøy 7 bokstaver",
+  "kjøretøy 8 bokstaver",
+  "kjøretøy 9 bokstaver",
+  "klokka",
+  "klokka i boston nå",
+  "klokka i new york",
+  "klokka i new york nå",
+  "klokka i norge",
+  "klokka i thailand",
+  "klokka i usa",
+  "klokka i usa nå",
+  "klokka nå",
+  "klokkarstua",
+  "klær 10 bokstaver",
+  "klær 3 bokstaver",
+  "klær 6 bokstaver",
+  "klær 7 bokstaver",
+  "klær på 7 bokstaver",
+  "kroppsdeler 6 bokstaver",
+  "leker 2 bokstaver",
+  "leker 7 bokstaver",
+  "leker bokstaver",
+  "leker matte",
+  "leker med bokstaver",
+  "lekser 1 trinn",
+  "lesebestilling",
+  "lesebestilling eksempel",
+  "lydering",
+  "lydering af bogstaver",
+  "lydering av bokstaver",
+  "lydering av ord",
+  "lydering betydning",
+  "lydering opgaver",
+  "lydering oppgaver",
+  "magnetisk verktøy matte",
+  "matematikk stasjoner 1 trinn",
+  "matte aktiviteter for barn",
+  "matte aktiviteter på förskolan",
+  "matte aktiviteter ute",
+  "matte dyr",
+  "matte farger",
+  "mummi matte dyr",
+  "muntlige oppgaver norsk som andrespråk",
+  "musikk 10 bokstaver",
+  "musikk 3 bokstaver",
+  "musikk 3 bokstaver kryssord",
+  "musikk 4 bokstaver",
+  "musikk 5 bokstaver",
+  "musikk 6 bokstaver",
+  "musikk 7 bokstaver",
+  "musikk 8 bokstaver",
+  "musikk 9 bokstaver",
+  "musikk bokstaver",
+  "musikk i matte salaby",
+  "musikk matte",
+  "musikk og matte",
+  "møbler 10 bokstaver",
+  "møbler 5 bokstaver",
+  "møbler 6 bokstaver",
+  "norsk som andrespråk oppgaver",
+  "norsk som andrespråk oppgaver pdf",
+  "norsk stasjoner 1 trinn",
+  "olika former matte",
+  "oppgavehefte algebra",
+  "oppgavehefte barn",
+  "oppgavehefte barnehage",
+  "oppgavehefte engelsk",
+  "oppgavehefte for personer med afasi",
+  "oppgavehefte norsk",
+  "oppgavehefte sommer",
+  "oppgavehefter",
+  "oppgavehefter lek og skole",
+  "oppgavehefter skole",
+  "pluss 10",
+  "pluss 1000",
+  "påske bokstaver",
+  "påske matte",
+  "regnbue stavelser",
+  "rima iraki",
+  "rimbo",
+  "rimi",
+  "rimi hagen",
+  "rimini",
+  "rimmad lax",
+  "rimnersbadet",
+  "rimordbok",
+  "rimowa",
+  "rimowa koffert",
+  "skogsdyr 3 bokstaver",
+  "skogsdyr 5 bokstaver",
+  "sommer 6 bokstaver",
+  "sommer bokstaver",
+  "sommer matte",
+  "stasjoner 1 trinn",
+  "stavelser",
+  "stavelser arbeidsark",
+  "stavelser betyder",
+  "stavelser engelsk",
+  "stavelser i ord",
+  "stavelser norsk",
+  "stavelser oppgaver",
+  "stavelser regler",
+  "stavelser undervisningsopplegg",
+  "strand 4 bokstaver",
+  "strand 5 bokstaver",
+  "strand 7 bokstaver",
+  "strand matte",
+  "strand matte dm",
+  "strand matte gepolstert",
+  "strand matte got2b",
+  "strand matte got2b anwendung",
+  "strand matte haare",
+  "strand matte haarspray",
+  "strand matte paste",
+  "strand. 9 bokstaver",
+  "strykemerker til klær bokstaver",
+  "sykehus 13 bokstaver",
+  "sykehus 4 bokstaver",
+  "sykehus 7 bokstaver",
+  "sykehus 8 bokstaver",
+  "tall 20",
+  "tall 20 gallon fish tank",
+  "tall 20 gallon tank",
+  "tall 20 gallon terrarium",
+  "tall 20 year old",
+  "tall 200",
+  "tall 20ft container",
+  "tall til 20",
+  "tall til 20 på spansk",
+  "telle dyr",
+  "telle fugler",
+  "telle fugler i hagen",
+  "telle fugler i hagen 2025",
+  "telle fugler i hagen 2026",
+  "telle leker",
+  "telle leker for barn",
+  "telle musikk",
+  "telle verktøy",
+  "thanksgiving matte nails",
+  "tilbehør 10 bokstaver",
+  "tilbehør 11 bokstaver",
+  "tilbehør 13 bokstaver",
+  "tilbehør 3 bokstaver",
+  "tilbehør 5 bokstaver",
+  "tilbehør 6 bokstaver",
+  "tilbehør 7 bokstaver",
+  "tilbehør 8 bokstaver",
+  "tilbehør 9 bokstaver",
+  "trær 4 bokstaver",
+  "trær 5 bokstaver",
+  "trær 6 bokstaver",
+  "trær 7 bokstaver",
+  "trær kryssord 4 bokstaver",
+  "trær på 5 bokstaver",
+  "trær på fire bokstaver",
+  "ulike former matte",
+  "verktøy 10 bokstaver",
+  "verktøy 11 bokstaver",
+  "verktøy 3 bokstaver",
+  "verktøy 4 bokstaver",
+  "verktøy 5 bokstaver",
+  "verktøy 6 bokstaver",
+  "verktøy 7 bokstaver",
+  "verktøy 8 bokstaver",
+  "verktøy 9 bokstaver",
+  "verktøy kryssord 8 bokstaver",
+  "verktøy matte",
+  "vinter bokstaver",
+  "vinter matte",
+  "vinter matte premium varmecomfort",
+  "vår 5 bokstaver",
+  "vår bokstaver",
+  "vær 3 bokstaver",
+  "vær 4 bokstaver",
+  "vær 5 bokstaver",
+  "vær 6 bokstaver",
+  "vær 7 bokstaver",
+  "vær hilset 3 bokstaver",
+  "vær hilset 5 bokstaver",
+  "yrker med matte",
+  "yrker med p matte",
+  "yrker uten matte"
+ ],
+ "novel": [
+  "100 plus",
+  "aktiviteter 9 bokstaver",
+  "aktiviteter med bokstaver",
+  "blomster 10 bokstaver",
+  "blomster 5 bokstaver",
+  "blomster 6 bokstaver",
+  "blomster 6 bokstaver kryssord",
+  "blomster 7 bokstaver",
+  "blomster 8 bokstaver",
+  "blomster bokstaver",
+  "blomster kryssord 7 bokstaver",
+  "blomster kryssord 8 bokstaver",
+  "bokstaver",
+  "bokstaver biltema",
+  "bokstaver farger",
+  "bokstaver i alfabetet",
+  "bokstaver i tre",
+  "bokstaver klasserom",
+  "bokstaver klistremerker",
+  "bokstaver klistremerker biltema",
+  "bokstaver klær",
+  "bokstaver kryssord",
+  "bokstaver til barnerom",
+  "bokstaver til russedress",
+  "bokstaver til å stryke på klær",
+  "camping matte",
+  "camping matte isoliert",
+  "camping matte landi",
+  "camping matte outdoor",
+  "camping matte selbstaufblasend",
+  "camping matte vorzelt",
+  "diverse 3 bokstaver",
+  "diverse 4 bokstaver",
+  "diverse 5 bokstaver",
+  "dyr 10 bokstaver",
+  "dyr 2 bokstaver",
+  "dyr 3 bokstaver",
+  "dyr 4 bokstaver",
+  "dyr 5 bokstaver",
+  "dyr 6 bokstaver",
+  "dyr 7 bokstaver",
+  "dyr 8 bokstaver",
+  "dyr 9 bokstaver",
+  "dyr bokstaver",
+  "extra leker bokstaver",
+  "extra leker matte",
+  "farger på 6 bokstaver",
+  "finmotorikk",
+  "finmotorikk 2 år",
+  "finmotorikk 3 år",
+  "finmotorikk 4 år",
+  "finmotorikk barn",
+  "finmotorikk definisjon",
+  "finmotorikk leker",
+  "finmotorikk oppgaver",
+  "finmotorikk trening",
+  "finmotorikk øvelser",
+  "fondant former bokstaver",
+  "former 10 bokstaver",
+  "former 4 bokstaver",
+  "former bokstaver",
+  "former matte",
+  "frokost 4 bokstaver",
+  "frokost kryssord 4 bokstaver",
+  "frukter 5 bokstaver",
+  "frukter 6 bokstaver",
+  "frukter 7 bokstaver",
+  "frukter 8 bokstaver",
+  "fugler 10 bokstaver",
+  "fugler 11 bokstaver",
+  "fugler 12 bokstaver",
+  "fugler 3 bokstaver",
+  "fugler 4 bokstaver",
+  "fugler 5 bokstaver",
+  "fugler 6 bokstaver",
+  "fugler 7 bokstaver",
+  "fugler 8 bokstaver",
+  "fugler 9 bokstaver",
+  "geometriske former 3d",
+  "geometriske former barnehage",
+  "geometriske former i naturen",
+  "geometriske former kryssord",
+  "geometriske former kunst",
+  "geometriske former navn",
+  "geometriske former og figurer",
+  "geometriske former på engelsk",
+  "god jul bokstaver",
+  "god jul matte",
+  "got2b.to be strand matte",
+  "grønnsaker 13 bokstaver",
+  "grønnsaker 5 bokstaver",
+  "grønnsaker 6 bokstaver",
+  "grønnsaker 7 bokstaver",
+  "grønnsaker 8 bokstaver",
+  "grønnsaker kryssord 7 bokstaver",
+  "grønnsaker kryssord 9 bokstaver",
+  "gårdsdyr 3 bokstaver",
+  "gårdsdyr 4 bokstaver",
+  "how to be 200cm tall",
+  "hvordan telle fugler",
+  "hvordan telle fugler i hagen",
+  "jul bokstaver",
+  "jul matte",
+  "kjæledyr 3 bokstaver",
+  "kjæledyr 5 bokstaver",
+  "kjæledyr 7 bokstaver",
+  "kjæledyr 8 bokstaver",
+  "kjøkkenredskaper på 9 bokstaver",
+  "kjøretøy 10 bokstaver",
+  "kjøretøy 11 bokstaver",
+  "kjøretøy 2 bokstaver",
+  "kjøretøy 3 bokstaver",
+  "kjøretøy 4 bokstaver",
+  "kjøretøy 5 bokstaver",
+  "kjøretøy 6 bokstaver",
+  "kjøretøy 7 bokstaver",
+  "kjøretøy 8 bokstaver",
+  "kjøretøy 9 bokstaver",
+  "klokka",
+  "klokka i boston nå",
+  "klokka i new york",
+  "klokka i new york nå",
+  "klokka i norge",
+  "klokka i thailand",
+  "klokka i usa",
+  "klokka i usa nå",
+  "klokka nå",
+  "klokkarstua",
+  "klær 10 bokstaver",
+  "klær 3 bokstaver",
+  "klær 6 bokstaver",
+  "klær 7 bokstaver",
+  "klær på 7 bokstaver",
+  "kroppsdeler 6 bokstaver",
+  "leker 2 bokstaver",
+  "leker 7 bokstaver",
+  "leker bokstaver",
+  "leker matte",
+  "leker med bokstaver",
+  "lekser 1 trinn",
+  "lesebestilling",
+  "lesebestilling eksempel",
+  "lydering",
+  "lydering af bogstaver",
+  "lydering av bokstaver",
+  "lydering av ord",
+  "lydering betydning",
+  "lydering opgaver",
+  "lydering oppgaver",
+  "magnetisk verktøy matte",
+  "matematikk stasjoner 1 trinn",
+  "matte aktiviteter for barn",
+  "matte aktiviteter på förskolan",
+  "matte aktiviteter ute",
+  "matte dyr",
+  "matte farger",
+  "mummi matte dyr",
+  "muntlige oppgaver norsk som andrespråk",
+  "musikk 10 bokstaver",
+  "musikk 3 bokstaver",
+  "musikk 3 bokstaver kryssord",
+  "musikk 4 bokstaver",
+  "musikk 5 bokstaver",
+  "musikk 6 bokstaver",
+  "musikk 7 bokstaver",
+  "musikk 8 bokstaver",
+  "musikk 9 bokstaver",
+  "musikk bokstaver",
+  "musikk i matte salaby",
+  "musikk matte",
+  "musikk og matte",
+  "møbler 10 bokstaver",
+  "møbler 5 bokstaver",
+  "møbler 6 bokstaver",
+  "norsk som andrespråk oppgaver",
+  "norsk som andrespråk oppgaver pdf",
+  "norsk stasjoner 1 trinn",
+  "olika former matte",
+  "oppgavehefte algebra",
+  "oppgavehefte barn",
+  "oppgavehefte barnehage",
+  "oppgavehefte engelsk",
+  "oppgavehefte for personer med afasi",
+  "oppgavehefte norsk",
+  "oppgavehefte sommer",
+  "oppgavehefter",
+  "oppgavehefter lek og skole",
+  "oppgavehefter skole",
+  "pluss 10",
+  "pluss 1000",
+  "påske bokstaver",
+  "påske matte",
+  "regnbue stavelser",
+  "rima iraki",
+  "rimbo",
+  "rimi",
+  "rimi hagen",
+  "rimini",
+  "rimmad lax",
+  "rimnersbadet",
+  "rimordbok",
+  "rimowa",
+  "rimowa koffert",
+  "skogsdyr 3 bokstaver",
+  "skogsdyr 5 bokstaver",
+  "sommer 6 bokstaver",
+  "sommer bokstaver",
+  "sommer matte",
+  "stasjoner 1 trinn",
+  "stavelser",
+  "stavelser arbeidsark",
+  "stavelser betyder",
+  "stavelser engelsk",
+  "stavelser i ord",
+  "stavelser norsk",
+  "stavelser oppgaver",
+  "stavelser regler",
+  "stavelser undervisningsopplegg",
+  "strand 4 bokstaver",
+  "strand 5 bokstaver",
+  "strand 7 bokstaver",
+  "strand matte",
+  "strand matte dm",
+  "strand matte gepolstert",
+  "strand matte got2b",
+  "strand matte got2b anwendung",
+  "strand matte haare",
+  "strand matte haarspray",
+  "strand matte paste",
+  "strand. 9 bokstaver",
+  "strykemerker til klær bokstaver",
+  "sykehus 13 bokstaver",
+  "sykehus 4 bokstaver",
+  "sykehus 7 bokstaver",
+  "sykehus 8 bokstaver",
+  "tall 20",
+  "tall 20 gallon fish tank",
+  "tall 20 gallon tank",
+  "tall 20 gallon terrarium",
+  "tall 20 year old",
+  "tall 200",
+  "tall 20ft container",
+  "tall til 20",
+  "tall til 20 på spansk",
+  "telle dyr",
+  "telle fugler",
+  "telle fugler i hagen",
+  "telle fugler i hagen 2025",
+  "telle fugler i hagen 2026",
+  "telle leker",
+  "telle leker for barn",
+  "telle musikk",
+  "telle verktøy",
+  "thanksgiving matte nails",
+  "tilbehør 10 bokstaver",
+  "tilbehør 11 bokstaver",
+  "tilbehør 13 bokstaver",
+  "tilbehør 3 bokstaver",
+  "tilbehør 5 bokstaver",
+  "tilbehør 6 bokstaver",
+  "tilbehør 7 bokstaver",
+  "tilbehør 8 bokstaver",
+  "tilbehør 9 bokstaver",
+  "trær 4 bokstaver",
+  "trær 5 bokstaver",
+  "trær 6 bokstaver",
+  "trær 7 bokstaver",
+  "trær kryssord 4 bokstaver",
+  "trær på 5 bokstaver",
+  "trær på fire bokstaver",
+  "ulike former matte",
+  "verktøy 10 bokstaver",
+  "verktøy 11 bokstaver",
+  "verktøy 3 bokstaver",
+  "verktøy 4 bokstaver",
+  "verktøy 5 bokstaver",
+  "verktøy 6 bokstaver",
+  "verktøy 7 bokstaver",
+  "verktøy 8 bokstaver",
+  "verktøy 9 bokstaver",
+  "verktøy kryssord 8 bokstaver",
+  "verktøy matte",
+  "vinter bokstaver",
+  "vinter matte",
+  "vinter matte premium varmecomfort",
+  "vår 5 bokstaver",
+  "vår bokstaver",
+  "vær 3 bokstaver",
+  "vær 4 bokstaver",
+  "vær 5 bokstaver",
+  "vær 6 bokstaver",
+  "vær 7 bokstaver",
+  "vær hilset 3 bokstaver",
+  "vær hilset 5 bokstaver",
+  "yrker med matte",
+  "yrker med p matte",
+  "yrker uten matte"
+ ],
+ "refilteredAt": "2026-07-20T08:58:53.406Z"
+}

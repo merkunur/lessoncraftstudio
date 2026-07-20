@@ -1,0 +1,4415 @@
+{
+ "locale": "es",
+ "market": {
+  "hl": "es",
+  "gl": "mx"
+ },
+ "generatedAt": "2026-07-20T08:51:09.160Z",
+ "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
+ "requestCount": 325,
+ "seedCounts": {
+  "skill": 14,
+  "context": 6,
+  "audience": 2,
+  "enumerated": 26,
+  "pack": 1,
+  "cross": 276
+ },
+ "errorCount": 0,
+ "errors": [],
+ "newVsInventory": {
+  "inventoryUnique": 2344,
+  "demandUnique": 920,
+  "novel": 908,
+  "novelShare": 0.987
+ },
+ "deadSeeds": [
+  "rincones fichas",
+  "necesidades especiales fichas",
+  "4 de julio matemáticas",
+  "4 de julio contar",
+  "4 de julio sumas",
+  "accesorios sumas",
+  "alrededor de la casa matemáticas",
+  "alrededor de la casa contar",
+  "alrededor de la casa sumas",
+  "alrededor de la casa letras",
+  "en el supermercado contar",
+  "en el supermercado sumas",
+  "panadería matemáticas",
+  "panadería contar",
+  "panadería sumas",
+  "playa contar",
+  "aves matemáticas",
+  "aves sumas",
+  "aves 2 matemáticas",
+  "aves 2 contar",
+  "aves 2 sumas",
+  "aves 2 letras",
+  "partes del cuerpo matemáticas",
+  "desayuno matemáticas",
+  "desayuno contar",
+  "desayuno sumas",
+  "campamento contar",
+  "campamento sumas",
+  "salón de clases matemáticas",
+  "salón de clases contar",
+  "salón de clases sumas",
+  "salón de clases letras",
+  "colores contar",
+  "postres y dulces matemáticas",
+  "postres y dulces contar",
+  "postres y dulces sumas",
+  "postres y dulces letras",
+  "pascua matemáticas",
+  "pascua contar",
+  "emociones sumas",
+  "animales de granja matemáticas",
+  "animales de granja sumas",
+  "criaturas del bosque matemáticas",
+  "criaturas del bosque contar",
+  "criaturas del bosque sumas",
+  "criaturas del bosque letras",
+  "muebles matemáticas",
+  "muebles contar",
+  "insectos y bichos matemáticas",
+  "insectos y bichos contar",
+  "insectos y bichos sumas",
+  "insectos y bichos letras",
+  "utensilios de cocina matemáticas",
+  "utensilios de cocina contar",
+  "utensilios de cocina sumas",
+  "misceláneo matemáticas",
+  "misceláneo contar",
+  "misceláneo sumas",
+  "misceláneo letras",
+  "ocupaciones matemáticas",
+  "ocupaciones contar",
+  "ocupaciones sumas",
+  "vida marina matemáticas",
+  "vida marina contar",
+  "vida marina sumas",
+  "mascotas matemáticas",
+  "mascotas contar",
+  "oficina de correos matemáticas",
+  "oficina de correos contar",
+  "oficina de correos sumas",
+  "reptiles y anfibios matemáticas",
+  "reptiles y anfibios contar",
+  "reptiles y anfibios sumas",
+  "reptiles y anfibios letras",
+  "espacio sumas",
+  "verano contar",
+  "día de acción de gracias matemáticas",
+  "día de acción de gracias contar",
+  "día de acción de gracias sumas",
+  "día de acción de gracias letras",
+  "cosas que vuelan matemáticas",
+  "cosas que vuelan contar",
+  "cosas que vuelan sumas",
+  "herramientas sumas",
+  "árboles contar",
+  "árboles sumas",
+  "verduras sumas",
+  "vehículos matemáticas",
+  "vehículos contar",
+  "vehículos sumas",
+  "vehículos letras",
+  "clima contar",
+  "invierno contar",
+  "animales del zoológico matemáticas",
+  "animales del zoológico contar",
+  "animales del zoológico sumas",
+  "animales del zoológico letras",
+  "animales bn 2 matemáticas",
+  "animales bn 2 contar",
+  "animales bn 2 sumas",
+  "animales bn 2 letras",
+  "animales bn 3 matemáticas",
+  "animales bn 3 contar",
+  "animales bn 3 sumas",
+  "animales bn 3 letras",
+  "animales bn 4 matemáticas",
+  "animales bn 4 contar",
+  "animales bn 4 sumas",
+  "animales bn 4 letras",
+  "animales bn 5 matemáticas",
+  "animales bn 5 contar",
+  "animales bn 5 sumas",
+  "animales bn 5 letras",
+  "playa bn 2 matemáticas",
+  "playa bn 2 contar",
+  "playa bn 2 sumas",
+  "playa bn 2 letras",
+  "aves byn 2 matemáticas",
+  "aves byn 2 contar",
+  "aves byn 2 sumas",
+  "aves byn 2 letras",
+  "navidad b&n 2 matemáticas",
+  "navidad b&n 2 contar",
+  "navidad b&n 2 sumas",
+  "navidad b&n 2 letras",
+  "salón de clases 2 (b/n) matemáticas",
+  "salón de clases 2 (b/n) contar",
+  "salón de clases 2 (b/n) sumas",
+  "salón de clases 2 (b/n) letras",
+  "pascua bn 2 matemáticas",
+  "pascua bn 2 contar",
+  "pascua bn 2 sumas",
+  "pascua bn 2 letras",
+  "comida bn 2 matemáticas",
+  "comida bn 2 contar",
+  "comida bn 2 sumas",
+  "comida bn 2 letras",
+  "comida bn 3 matemáticas",
+  "comida bn 3 contar",
+  "comida bn 3 sumas",
+  "comida bn 3 letras",
+  "hogar bn 2 matemáticas",
+  "hogar bn 2 contar",
+  "hogar bn 2 sumas",
+  "hogar bn 2 letras",
+  "vida marina bn 2 matemáticas",
+  "vida marina bn 2 contar",
+  "vida marina bn 2 sumas",
+  "vida marina bn 2 letras",
+  "deportes bn 2 matemáticas",
+  "deportes bn 2 contar",
+  "deportes bn 2 sumas",
+  "deportes bn 2 letras",
+  "juguetes bn 2 matemáticas",
+  "juguetes bn 2 contar",
+  "juguetes bn 2 sumas",
+  "juguetes bn 2 letras",
+  "san valentín bn 2 matemáticas",
+  "san valentín bn 2 contar",
+  "san valentín bn 2 sumas",
+  "san valentín bn 2 letras",
+  "verduras bn 2 matemáticas",
+  "verduras bn 2 contar",
+  "verduras bn 2 sumas",
+  "verduras bn 2 letras",
+  "vehículos bn 2 matemáticas",
+  "vehículos bn 2 contar",
+  "vehículos bn 2 sumas",
+  "vehículos bn 2 letras",
+  "vehículos bn 3 matemáticas",
+  "vehículos bn 3 contar",
+  "vehículos bn 3 sumas",
+  "vehículos bn 3 letras"
+ ],
+ "suggestions": {
+  "silabario": {
+   "cls": "skill",
+   "s": [
+    "silabario",
+    "silabario para imprimir",
+    "silabario pdf",
+    "silabario para niños",
+    "silabario para imprimir completo",
+    "silabario para imprimir pdf",
+    "silabario hispanoamericano",
+    "silabario vigo",
+    "silabario para primer grado",
+    "silabario para aprender a leer"
+   ]
+  },
+  "sílabas ma me mi mo mu": {
+   "cls": "skill",
+   "s": [
+    "sílabas ma me mi mo mu para imprimir",
+    "sílabas ma me mi mo mu",
+    "sílabas ma me mi mo mu para imprimir pdf",
+    "sílabas ma me mi mo mu para colorear",
+    "sílabas ma me mi mo mu pa pe pi po pu",
+    "sílabas ma me mi mo mu para repasar",
+    "sílabas ma me mi mo mu para recortar",
+    "sílabas ma me mi mo mu pdf",
+    "sílabas ma me mi mo mu ejercicios",
+    "silabas ma me mi mo mu para niños"
+   ]
+  },
+  "caligrafía": {
+   "cls": "skill",
+   "s": [
+    "caligrafía",
+    "caligrafía para mejorar la letra",
+    "caligrafía ejercicios",
+    "caligrafía para niños de 10 a 12 años pdf",
+    "caligrafia para niños",
+    "caligrafía de dibujos",
+    "caligrafía letras",
+    "caligrafía copiar y pegar",
+    "caligrafía para mejorar la letra pdf",
+    "caligrafía y ortografía"
+   ]
+  },
+  "pauta montessori": {
+   "cls": "skill",
+   "s": [
+    "pauta montessori",
+    "pauta montessori para imprimir",
+    "pauta montessori pdf",
+    "pauta montessori 5 mm",
+    "pauta montessori generador",
+    "pauta montessori para escribir",
+    "pauta montessori en canva",
+    "pauta montessori escritura",
+    "pauta montessori libreta",
+    "pauta montessori para imprimir pdf"
+   ]
+  },
+  "cuadrícula": {
+   "cls": "skill",
+   "s": [
+    "cuadrícula",
+    "cuadrícula para dibujar",
+    "cuadrícula dibujos",
+    "cuadrícula para imprimir",
+    "cuadrículas fáciles",
+    "cuadrícula png",
+    "cuadrícula una imagen",
+    "cuadrícula para quinto grado",
+    "cuadricula para niños",
+    "cuadrícula para segundo grado"
+   ]
+  },
+  "lectoescritura primer grado": {
+   "cls": "skill",
+   "s": [
+    "lectoescritura primer grado",
+    "lectoescritura primer grado pdf",
+    "lectoescritura primer grado actividades",
+    "lectoescritura primer grado wordwall",
+    "lectoescritura primer grado veracruz educando a distancia",
+    "lectoescritura primer grado por amor al norte de veracruz pdf",
+    "lectoescritura primer grado preescolar",
+    "lectoescritura primer grado primaria",
+    "lectoescritura primer grado portada",
+    "lectoescritura primer grado mayuscula"
+   ]
+  },
+  "lectoescritura": {
+   "cls": "skill",
+   "s": [
+    "lectoescritura",
+    "lectoescritura primer grado",
+    "lectoescritura actividades",
+    "lectoescritura segundo grado",
+    "lectoescritura para primer grado",
+    "lectoescritura preescolar",
+    "lectoescritura para niños",
+    "lectoescritura 1 primaria pdf",
+    "lectoescritura pdf",
+    "lectoescritura que es"
+   ]
+  },
+  "sílabas": {
+   "cls": "skill",
+   "s": [
+    "sílabas",
+    "sílabas trabadas",
+    "sílabas tónicas",
+    "sílabas inversas",
+    "sílabas compuestas",
+    "sílabas átonas",
+    "sílabas ma me mi mo mu para imprimir",
+    "sílabas para imprimir y recortar pdf",
+    "sílabas con ma me mi mo mu",
+    "sílabas simples"
+   ]
+  },
+  "conciencia fonológica": {
+   "cls": "skill",
+   "s": [
+    "conciencia fonológica",
+    "conciencia fonológica actividades",
+    "conciencia fonológica pdf",
+    "conciencia fonológica ejemplos",
+    "conciencia fonológica actividades para niños",
+    "conciencia fonológica wordwall",
+    "conciencia fonológica vocales",
+    "conciencia fonológica actividades para imprimir pdf",
+    "conciencia fonologica para niños",
+    "conciencia fonológica infantil"
+   ]
+  },
+  "sumas hasta 10": {
+   "cls": "skill",
+   "s": [
+    "sumas hasta 10",
+    "sumas hasta 10 wordwall",
+    "sumas hasta 100",
+    "sumas hasta 10 con dibujos",
+    "sumas hasta 10 para primer grado",
+    "sumas hasta 1000",
+    "sumas hasta 10 para niños",
+    "sumas hasta 100 wordwall",
+    "sumas hasta 1000 wordwall",
+    "sumas hasta 10 para colorear"
+   ]
+  },
+  "restas hasta 10": {
+   "cls": "skill",
+   "s": [
+    "restas hasta 10",
+    "restas hasta 10 para primer grado",
+    "restas hasta 10 wordwall",
+    "restas hasta 100",
+    "restas hasta 1000",
+    "restas hasta 10 con dibujos",
+    "restas hasta 100 en wordwall",
+    "restas hasta 10 interactivo",
+    "restas hasta 100 sin llevar",
+    "restas hasta 10000"
+   ]
+  },
+  "grafomotricidad": {
+   "cls": "skill",
+   "s": [
+    "grafomotricidad",
+    "grafomotricidad para niños",
+    "grafomotricidad preescolar",
+    "grafomotricidad para niños de 5 años",
+    "grafomotricidad 3 años",
+    "grafomotricidad pdf",
+    "grafomotricidad ejercicios",
+    "grafomotricidad para niños de 3 años",
+    "grafomotricidad para niños de 4 años",
+    "grafomotricidad para preescolar"
+   ]
+  },
+  "la hora": {
+   "cls": "skill",
+   "s": [
+    "la hora de la 1 directo",
+    "la hora de king kong",
+    "la hora. cl",
+    "la hora",
+    "la hora de la desaparición",
+    "la hora de jugar",
+    "la hora en chile",
+    "la hora pico",
+    "la hora en españa",
+    "la hora de tu muerte"
+   ]
+  },
+  "figuras geométricas": {
+   "cls": "skill",
+   "s": [
+    "figuras geométricas",
+    "figuras geométricas 3d",
+    "figuras geometricas para niños",
+    "figuras geométricas y sus nombres",
+    "figuras geométricas con nombre",
+    "figuras geométricas planas",
+    "figuras geométricas en inglés",
+    "figuras geométricas para armar",
+    "figuras geométricas 3d para armar",
+    "figuras geométricas para imprimir"
+   ]
+  },
+  "tarea fichas": {
+   "cls": "context",
+   "s": [
+    "fichas tarea",
+    "fichas para 4 años",
+    "tarea presenta tus fichas textuales",
+    "tarea presenta tus fichas"
+   ]
+  },
+  "tarea preescolar": {
+   "cls": "context",
+   "s": [
+    "tarea preescolar",
+    "tarea preescolar 3",
+    "tarea preescolar 2",
+    "tarea preescolar 1",
+    "tarea preescolar numeros",
+    "tarea preescolar cuaderno",
+    "tarea preescolar 5 años",
+    "tarea preescolar libreta",
+    "tarea preescolar para imprimir",
+    "tarea preescolar vocales"
+   ]
+  },
+  "rincones fichas": {
+   "cls": "context",
+   "s": []
+  },
+  "rincones preescolar": {
+   "cls": "context",
+   "s": [
+    "rincones preescolar",
+    "preescolar rincones de aprendizaje",
+    "rincones para preescolar",
+    "rincones matemáticas preescolar",
+    "modalidad rincones preescolar",
+    "rincones de aprendizaje preescolar nem",
+    "rincones de aprendizaje preescolar pdf",
+    "rincones de aprendizaje preescolar ejemplos",
+    "planeacion por rincones preescolar",
+    "rincones de lectura preescolar"
+   ]
+  },
+  "refuerzo fichas": {
+   "cls": "context",
+   "s": [
+    "refuerzo fichas de lengua 1 primaria",
+    "refuerzo fichas de matematicas 1 primaria",
+    "refuerzo fichas ingles 2 primaria",
+    "fichas refuerzo lengua 4 primaria",
+    "fichas refuerzo matematicas 4 primaria",
+    "fichas refuerzo matematicas 3 primaria",
+    "fichas refuerzo escolar 2025",
+    "fichas refuerzo matematicas 2 primaria",
+    "fichas refuerzo escolar 2025 primaria",
+    "fichas refuerzo lengua 5 primaria santillana"
+   ]
+  },
+  "refuerzo preescolar": {
+   "cls": "context",
+   "s": [
+    "refuerzo preescolar",
+    "refuerzo vocales preescolar",
+    "actividades refuerzo preescolar",
+    "tapete de refuerzo preescolar",
+    "taller de refuerzo preescolar",
+    "cuadernillo de refuerzo preescolar",
+    "refuerzo escolar para preescolar",
+    "refuerzo positivo en preescolar",
+    "guia de refuerzo preescolar"
+   ]
+  },
+  "necesidades especiales fichas": {
+   "cls": "audience",
+   "s": []
+  },
+  "necesidades especiales preescolar": {
+   "cls": "audience",
+   "s": [
+    "necesidades especiales en preescolar",
+    "necesidades educativas especiales en preescolar"
+   ]
+  },
+  "letra a fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra a fichas",
+    "letra a fichas infantil",
+    "letra fichas negras"
+   ]
+  },
+  "letra b fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra b fichas",
+    "letra b fichas para imprimir",
+    "letra b fichas de trabajo",
+    "fichas letra b pdf",
+    "fichas letra b letrilandia",
+    "fichas letra b infantil",
+    "fichas letra b mayúscula",
+    "fichas letra b minuscula"
+   ]
+  },
+  "letra c fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra c fichas",
+    "letra c fichas para imprimir",
+    "fichas letra c pdf",
+    "fichas letra c infantil"
+   ]
+  },
+  "letra d fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra d fichas",
+    "letra d fichas de trabajo",
+    "letra d fichas lectoescritura",
+    "letra d fichas para imprimir",
+    "fichas letra d pdf",
+    "fichas letra d infantil",
+    "fichas letra d letrilandia",
+    "fichas letra d minuscula",
+    "fichas letra d mayuscula",
+    "fichas letra d primer grado"
+   ]
+  },
+  "letra e fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra e fichas",
+    "letra e fichas para imprimir",
+    "fichas letra e mayuscula",
+    "fichas letra e minuscula",
+    "fichas letra e mayuscula para imprimir",
+    "fichas letra e infantil",
+    "fichas letra e pdf",
+    "fichas letra e mayuscula 3 años",
+    "fichas letra e letrilandia",
+    "fichas letra e minúscula para imprimir"
+   ]
+  },
+  "letra f fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra f fichas",
+    "letra f fichas para imprimir",
+    "letra f fichas de trabajo",
+    "letra f fichas pdf",
+    "letra f fichas primer grado",
+    "fichas letra f infantil",
+    "fichas letra f mayuscula",
+    "fichas letra f letrilandia"
+   ]
+  },
+  "letra g fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra g fichas",
+    "letra g fichas de trabajo",
+    "fichas letra g para imprimir",
+    "fichas letra g pdf"
+   ]
+  },
+  "letra h fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra h fichas",
+    "letra h fichas para imprimir",
+    "fichas letra h infantil",
+    "fichas letra h 3 primaria"
+   ]
+  },
+  "letra i fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra i fichas",
+    "letra fichas negras"
+   ]
+  },
+  "letra j fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra j fichas",
+    "letra j fichas para imprimir",
+    "fichas letra j letrilandia",
+    "fichas letra j minuscula",
+    "fichas letra j infantil"
+   ]
+  },
+  "letra k fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra k fichas",
+    "fichas letra k para primaria",
+    "fichas letra k infantil"
+   ]
+  },
+  "letra l fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra l fichas",
+    "letra l fichas de trabajo",
+    "letra l fichas para imprimir",
+    "letra l fichas lectoescritura",
+    "letrilandia letra l fichas",
+    "letra l mis fichas",
+    "fichas letra l pdf",
+    "fichas letra l letrilandia pdf",
+    "fichas letra l mayuscula",
+    "fichas letra l minuscula"
+   ]
+  },
+  "letra m fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra m fichas",
+    "letra m fichas de trabajo",
+    "letra m fichas para imprimir",
+    "letra m fichas lectoescritura",
+    "letra m fichas pdf",
+    "letra m fichas para niños",
+    "letrilandia letra m fichas",
+    "letra m mayuscula fichas",
+    "letra m mis fichas",
+    "fichas letra m letrilandia pdf"
+   ]
+  },
+  "letra n fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra n fichas",
+    "letra n fichas primer grado",
+    "letra n fichas para imprimir",
+    "letra n fichas de trabajo",
+    "fichas letra n pdf",
+    "fichas letra n mayuscula",
+    "fichas letra n infantil",
+    "fichas letra ñ para infantil",
+    "fichas letra n letrilandia",
+    "fichas letra n minuscula"
+   ]
+  },
+  "letra o fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra o fichas",
+    "letra fichas negras"
+   ]
+  },
+  "letra p fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra p fichas",
+    "letra p fichas de trabajo",
+    "letra p fichas primer grado",
+    "letra p fichas para imprimir",
+    "letra p fichas para niños",
+    "letra p fichas pdf",
+    "letrilandia letra p fichas",
+    "letra p mayuscula fichas",
+    "letra p mis fichas",
+    "fichas letra p letrilandia pdf"
+   ]
+  },
+  "letra q fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra q fichas",
+    "fichas letra q para imprimir"
+   ]
+  },
+  "letra r fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra r fichas",
+    "letra r fichas para imprimir",
+    "letra r fichas de trabajo",
+    "fichas letra r pdf",
+    "fichas letra r infantil",
+    "fichas letra r letrilandia",
+    "fichas letra r mayuscula",
+    "fichas letra r suave"
+   ]
+  },
+  "letra s fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra s fichas",
+    "letra s fichas de trabajo",
+    "letra s fichas para imprimir",
+    "letra s fichas pdf",
+    "letra s mis fichas",
+    "fichas letra s mayuscula para imprimir",
+    "fichas letra s infantil",
+    "fichas letra s letrilandia",
+    "fichas letra s minuscula",
+    "fichas letra s primer grado"
+   ]
+  },
+  "letra t fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra t fichas",
+    "letra t fichas de trabajo",
+    "letra t fichas para imprimir",
+    "fichas letra t pdf",
+    "fichas letra t mayuscula",
+    "fichas letra t 5 años",
+    "fichas letra t letrilandia",
+    "fichas letra t letrilandia pdf",
+    "fichas letra t infantil",
+    "fichas letra t minuscula"
+   ]
+  },
+  "letra u fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra u fichas",
+    "letra u fichas infantil",
+    "fichas letra u para imprimir",
+    "fichas letra u minuscula",
+    "fichas letra u mayuscula",
+    "fichas letra u letrilandia",
+    "fichas letra u mayuscula 3 años"
+   ]
+  },
+  "letra v fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra v fichas",
+    "letra v fichas de trabajo",
+    "fichas letra v infantil",
+    "fichas letra v pdf",
+    "fichas letra v letrilandia",
+    "fichas letra v para imprimir"
+   ]
+  },
+  "letra w fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra w fichas",
+    "fichas letra w para niños"
+   ]
+  },
+  "letra x fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra x fichas",
+    "fichas letra x para imprimir"
+   ]
+  },
+  "letra y fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra y fichas",
+    "letra fichas negras"
+   ]
+  },
+  "letra z fichas": {
+   "cls": "enumerated",
+   "s": [
+    "letra z fichas",
+    "letra z fichas de trabajo",
+    "fichas letra z para imprimir",
+    "fichas letra z infantil"
+   ]
+  },
+  "cuadernillo": {
+   "cls": "pack",
+   "s": [
+    "cuadernillo",
+    "cuadernillo para aprender a leer y escribir primer grado pdf gratis",
+    "cuadernillos cine",
+    "cuadernillo de lectoescritura",
+    "cuadernillo cuadriculado",
+    "cuadernillos icfes",
+    "cuadernillo icfes 2026 pdf con respuestas",
+    "cuadernillo de pruebas nacionales 2025 pdf",
+    "cuadernillo rubio",
+    "cuadernos rubio"
+   ]
+  },
+  "4 de julio matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "4 de julio contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "4 de julio sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "4 de julio letras": {
+   "cls": "cross",
+   "s": [
+    "4 de julio letras",
+    "sopa de letras 4 de julio"
+   ]
+  },
+  "accesorios matemáticas": {
+   "cls": "cross",
+   "s": [
+    "accesorios matemáticas"
+   ]
+  },
+  "accesorios contar": {
+   "cls": "cross",
+   "s": [
+    "accesorios para contar cuentos",
+    "accesorios para contar"
+   ]
+  },
+  "accesorios sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "accesorios letras": {
+   "cls": "cross",
+   "s": [
+    "accesorios letras",
+    "accesorios para letras copiar y pegar",
+    "accesorios para letras",
+    "accesorios de letras bonitas",
+    "accesorios crocs letras",
+    "accesorios para letras 3d",
+    "accesorios para pulseras letras",
+    "accesorios para decorar letras"
+   ]
+  },
+  "actividades matemáticas": {
+   "cls": "cross",
+   "s": [
+    "actividades matemáticas primer grado",
+    "actividades matemáticas para cuarto grado",
+    "actividades matemáticas sexto grado",
+    "actividades matemáticas tercer grado",
+    "actividades matemáticas",
+    "actividades matemáticas quinto grado",
+    "actividades matemáticas para preescolar",
+    "actividades matemáticas segundo grado",
+    "actividades matemáticas secundaria",
+    "actividades matemáticas para primer grado de primaria"
+   ]
+  },
+  "actividades contar": {
+   "cls": "cross",
+   "s": [
+    "actividades contar",
+    "actividades contar de 10 en 10",
+    "actividades contar de 2 en 2",
+    "actividades contar silabas",
+    "actividades contar de 5 en 5",
+    "actividades contar dinero",
+    "actividades contar objetos",
+    "actividades contar de 2 en 2 para imprimir",
+    "actividades contar hasta 10"
+   ]
+  },
+  "actividades sumas": {
+   "cls": "cross",
+   "s": [
+    "actividades sumas y restas primer grado",
+    "actividades sumas y restas",
+    "actividades sumas",
+    "actividades sumas preescolar",
+    "actividades sumas primer grado",
+    "actividades sumas y restas segundo grado",
+    "actividades sumas llevando",
+    "actividades sumas y restas preescolar",
+    "actividades sumas y restas tercer grado",
+    "actividades sumas que dan 10"
+   ]
+  },
+  "actividades letras": {
+   "cls": "cross",
+   "s": [
+    "actividades letras",
+    "actividades letras bonitas",
+    "actividades letras preescolar",
+    "actividades letras galegas 2026",
+    "actividades letras m p l s",
+    "actividades letras que suben y bajan para niños",
+    "actividades letras galegas",
+    "actividades letras niños 4 años",
+    "actividades letras trabadas",
+    "actividades letras galegas infantil"
+   ]
+  },
+  "animales matemáticas": {
+   "cls": "cross",
+   "s": [
+    "animales matemáticas",
+    "animales para matemáticas",
+    "conjunto de animales matemáticas"
+   ]
+  },
+  "animales contar": {
+   "cls": "cross",
+   "s": [
+    "contar animales",
+    "contar animales de la granja",
+    "contar animales en japones",
+    "contar animales hasta 10 cokitos",
+    "contar animales cokitos",
+    "contar animales marinos",
+    "contar animales preescolar",
+    "contar animales hasta 10",
+    "contar animales de la granja wordwall",
+    "contar animales actividad"
+   ]
+  },
+  "animales sumas": {
+   "cls": "cross",
+   "s": [
+    "sumas animales"
+   ]
+  },
+  "animales letras": {
+   "cls": "cross",
+   "s": [
+    "animales letras",
+    "animales letras bonitas",
+    "animales letras del abecedario",
+    "animales letras desordenadas",
+    "letras animales vertebrados",
+    "letras animales para imprimir",
+    "letras animales invertebrados",
+    "letras animales salvajes",
+    "letras animales vertebrados e invertebrados",
+    "letras animales de la selva"
+   ]
+  },
+  "alrededor de la casa matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "alrededor de la casa contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "alrededor de la casa sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "alrededor de la casa letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "en el supermercado matemáticas": {
+   "cls": "cross",
+   "s": [
+    "matemáticas en el supermercado"
+   ]
+  },
+  "en el supermercado contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "en el supermercado sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "en el supermercado letras": {
+   "cls": "cross",
+   "s": [
+    "letras de compras en el supermercado las perrerías de mike ep 1"
+   ]
+  },
+  "panadería matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "panadería contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "panadería sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "panadería letras": {
+   "cls": "cross",
+   "s": [
+    "panadería letras bonitas",
+    "panadería letras",
+    "panadería letras para imprimir",
+    "panadería seis letras"
+   ]
+  },
+  "playa matemáticas": {
+   "cls": "cross",
+   "s": [
+    "playa de matemáticas"
+   ]
+  },
+  "playa contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "playa sumas": {
+   "cls": "cross",
+   "s": [
+    "sumas playa"
+   ]
+  },
+  "playa letras": {
+   "cls": "cross",
+   "s": [
+    "playa letras",
+    "playa letras de cartagena",
+    "playa letras cancun",
+    "letras playa del carmen",
+    "letras playa del inglés",
+    "letras playa privada",
+    "letras playa sola",
+    "letras playa miramar",
+    "letras playa sola los invasores de nuevo león",
+    "letras playa del carmen fotos"
+   ]
+  },
+  "aves matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "aves contar": {
+   "cls": "cross",
+   "s": [
+    "como contar aves"
+   ]
+  },
+  "aves sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "aves letras": {
+   "cls": "cross",
+   "s": [
+    "aves letras",
+    "aves letras bonitas",
+    "letras aves negras",
+    "letras aves de paso",
+    "letras aves en el desierto",
+    "letras aves del tiempo",
+    "letras aves del tiempo cap 5",
+    "aves migratorias letras",
+    "letras aves de las tempestades",
+    "letras aves solo cadaver"
+   ]
+  },
+  "aves 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "aves 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "aves 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "aves 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "partes del cuerpo matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "partes del cuerpo contar": {
+   "cls": "cross",
+   "s": [
+    "partes del cuerpo para contar",
+    "contar partes del cuerpo"
+   ]
+  },
+  "partes del cuerpo sumas": {
+   "cls": "cross",
+   "s": [
+    "sumas con partes del cuerpo"
+   ]
+  },
+  "partes del cuerpo letras": {
+   "cls": "cross",
+   "s": [
+    "partes del cuerpo letras",
+    "partes del cuerpo letras bonitas",
+    "partes del cuerpo letras para imprimir",
+    "partes del cuerpo humano letras",
+    "partes del cuerpo por letras",
+    "partes del cuerpo 6 letras",
+    "partes del cuerpo 5 letras",
+    "partes del cuerpo sin letras",
+    "partes del cuerpo humano letras para imprimir",
+    "partes del cuerpo 4 letras"
+   ]
+  },
+  "desayuno matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "desayuno contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "desayuno sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "desayuno letras": {
+   "cls": "cross",
+   "s": [
+    "desayuno letras bonitas",
+    "desayuno letras",
+    "letras desayuno o cigarro",
+    "letras desayuno para' 2",
+    "letras desayuno saludable",
+    "desayuno barrio letras",
+    "desayuno saludable letras bonitas",
+    "quince letras desayuno",
+    "beso de desayuno letras"
+   ]
+  },
+  "campamento matemáticas": {
+   "cls": "cross",
+   "s": [
+    "campamento matemáticas madrid",
+    "campamento matemáticas",
+    "campamento matemáticas 2025",
+    "campamento matemáticas uam",
+    "campamento de verano matemáticas"
+   ]
+  },
+  "campamento contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "campamento sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "campamento letras": {
+   "cls": "cross",
+   "s": [
+    "campamento letras",
+    "campamento letras bonitas",
+    "letras campamento celestial",
+    "letras campamento de verano",
+    "campamento 5 letras",
+    "campamento gitano 5 letras",
+    "campamento nocturno 5 letras",
+    "campamento provisional cinco letras",
+    "campamento crucigrama 5 letras",
+    "campamento beduino 5 letras"
+   ]
+  },
+  "navidad matemáticas": {
+   "cls": "cross",
+   "s": [
+    "navidad matemáticas",
+    "matemáticas navidad secundaria",
+    "matemáticas navidad 2 primaria",
+    "actividades navidad matemáticas secundaria",
+    "feliz navidad matemáticas",
+    "portada navidad matemáticas",
+    "actividades navidad matemáticas"
+   ]
+  },
+  "navidad contar": {
+   "cls": "cross",
+   "s": [
+    "contar navidad",
+    "navidad para contar",
+    "conde contar navidad",
+    "ficha contar navidad"
+   ]
+  },
+  "navidad sumas": {
+   "cls": "cross",
+   "s": [
+    "navidad sumas y restas",
+    "navidad sumas",
+    "sumas navidad primer grado",
+    "sumas navidad infantil",
+    "dibujo.navidad sumas",
+    "fichas navidad sumas",
+    "colorear sumas navidad"
+   ]
+  },
+  "navidad letras": {
+   "cls": "cross",
+   "s": [
+    "navidad letras",
+    "navidad letras bonitas",
+    "navidad letras decoradas",
+    "navidad letras para imprimir",
+    "navidad letras doradas",
+    "navidad letras para colorear",
+    "navidad letras png",
+    "navidad letras molde",
+    "navidad letras grandes",
+    "navidad letras 3d"
+   ]
+  },
+  "salón de clases matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "salón de clases contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "salón de clases sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "salón de clases letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "ropa matemáticas": {
+   "cls": "cross",
+   "s": [
+    "ropa matemáticas",
+    "conjunto de ropa matemáticas"
+   ]
+  },
+  "ropa contar": {
+   "cls": "cross",
+   "s": [
+    "contar ropa",
+    "ropa para contar"
+   ]
+  },
+  "ropa sumas": {
+   "cls": "cross",
+   "s": [
+    "ropa sumas",
+    "ropa deportiva sumas pay",
+    "ropa interior sumas pay",
+    "tiendas de ropa sumas pay"
+   ]
+  },
+  "ropa letras": {
+   "cls": "cross",
+   "s": [
+    "ropa letras",
+    "ropa letras goticas",
+    "ropa letras japonesas",
+    "letras ropa de bazar",
+    "letras ropa interior",
+    "letras ropa de bazar feat bratty",
+    "letras ropa cara camilo",
+    "letras ropa apretada",
+    "letras ropa cara el jordan 23 pailita",
+    "letras ropa sucia patricio rey y sus redonditos de ricota"
+   ]
+  },
+  "colores matemáticas": {
+   "cls": "cross",
+   "s": [
+    "colores matemáticas",
+    "colores para matemáticas",
+    "conjunto de colores matemáticas",
+    "barras de colores matemáticas",
+    "fichas de colores matemáticas segundo grado",
+    "colores representativos de matemáticas",
+    "regletas de colores matemáticas",
+    "fichas de colores matemáticas",
+    "paleta de colores matemáticas",
+    "colores bonitos para matemáticas"
+   ]
+  },
+  "colores contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "colores sumas": {
+   "cls": "cross",
+   "s": [
+    "colores sumas",
+    "colorear por colores sumas y restas"
+   ]
+  },
+  "colores letras": {
+   "cls": "cross",
+   "s": [
+    "colores letras",
+    "colores letras minecraft",
+    "colores letras free fire",
+    "colores letras google",
+    "colores letras whatsapp",
+    "colores letras montessori",
+    "colores letras del abecedario",
+    "colores letras tdah",
+    "colores letras ff",
+    "colores letras fivem"
+   ]
+  },
+  "postres y dulces matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "postres y dulces contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "postres y dulces sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "postres y dulces letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosaurios matemáticas": {
+   "cls": "cross",
+   "s": [
+    "dinosaurios. matemáticas"
+   ]
+  },
+  "dinosaurios contar": {
+   "cls": "cross",
+   "s": [
+    "dinosaurios contar",
+    "dinosaurios para contar",
+    "dinosaurios para contar 60 piezas",
+    "dinosaurios para contar y colorear"
+   ]
+  },
+  "dinosaurios sumas": {
+   "cls": "cross",
+   "s": [
+    "dinosaurios sumas",
+    "dinosaurios sumas y restas",
+    "sumas dinosaurios para niños"
+   ]
+  },
+  "dinosaurios letras": {
+   "cls": "cross",
+   "s": [
+    "dinosaurios letras",
+    "dinosaurios letras animadas",
+    "dinosaurios letras raul beltran",
+    "letras dinosaurios para imprimir",
+    "letras dinosaurios raúl beltrán video musical",
+    "letras dinosaurios font",
+    "letras dinosaurios para colorear",
+    "letras dinosaurios png",
+    "letras dinosaurios cancion",
+    "letras dinosaurios canva"
+   ]
+  },
+  "pascua matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "pascua contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "pascua sumas": {
+   "cls": "cross",
+   "s": [
+    "sumas pascua cokitos",
+    "sumas pascua"
+   ]
+  },
+  "pascua letras": {
+   "cls": "cross",
+   "s": [
+    "pascua letras",
+    "pascua letras bonitas",
+    "letras pascua gaiteros de pillopo",
+    "letras pascua de resurreccion",
+    "letras pascua joven",
+    "feliz pascua letras",
+    "feliz pascua letras para imprimir",
+    "feliz pascua letras bonitas",
+    "felices pascua letras",
+    "pascua sopa de letras"
+   ]
+  },
+  "emociones matemáticas": {
+   "cls": "cross",
+   "s": [
+    "emociones en matemáticas"
+   ]
+  },
+  "emociones contar": {
+   "cls": "cross",
+   "s": [
+    "contar emociones",
+    "emociones para contar",
+    "emociones para contar pdf",
+    "emociones para contar libro",
+    "transmitir emociones contar historias expresar opiniones"
+   ]
+  },
+  "emociones sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "emociones letras": {
+   "cls": "cross",
+   "s": [
+    "emociones letras",
+    "emociones letras bonitas",
+    "emociones letras hades",
+    "emociones letras roberto carlos",
+    "emociones letras para imprimir",
+    "letras emociones hades66",
+    "letras emociones @hades66mmnf",
+    "letras emociones hades66 angel yamil santiago vazquez",
+    "letras emociones wisin & yandel topic",
+    "letras emociones elixir tyei piku"
+   ]
+  },
+  "animales de granja matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales de granja contar": {
+   "cls": "cross",
+   "s": [
+    "animales de granja para contar",
+    "animales de la granja para contar y clasificar",
+    "animales de la granja para contar set matemática 3",
+    "contar animales de la granja",
+    "contar animales de la granja wordwall"
+   ]
+  },
+  "animales de granja sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales de granja letras": {
+   "cls": "cross",
+   "s": [
+    "animales de granja letras",
+    "animales de granja con tres letras",
+    "animales de granja sopa de letras"
+   ]
+  },
+  "flores matemáticas": {
+   "cls": "cross",
+   "s": [
+    "flores matemáticas",
+    "flores para matemáticas",
+    "ray flores matemáticas",
+    "conjunto de flores matemáticas"
+   ]
+  },
+  "flores contar": {
+   "cls": "cross",
+   "s": [
+    "contar flores",
+    "flores para contar",
+    "flores para contar y colorear"
+   ]
+  },
+  "flores sumas": {
+   "cls": "cross",
+   "s": [
+    "sumas flores matematicas",
+    "sumas flores"
+   ]
+  },
+  "flores letras": {
+   "cls": "cross",
+   "s": [
+    "flores letras",
+    "flores letras bonitas",
+    "flores letras copiar y pegar",
+    "flores letras para decorar",
+    "flores letras latin mafia",
+    "flores letras xavi",
+    "flores babi letras",
+    "letras flores amarillas",
+    "letras flores pa los muertos",
+    "letras flores preservadas"
+   ]
+  },
+  "criaturas del bosque matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "criaturas del bosque contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "criaturas del bosque sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "criaturas del bosque letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "frutas matemáticas": {
+   "cls": "cross",
+   "s": [
+    "frutas matemáticas",
+    "frutas para matemáticas",
+    "conjuntos de frutas matemáticas"
+   ]
+  },
+  "frutas contar": {
+   "cls": "cross",
+   "s": [
+    "frutas contar",
+    "contar frutas y verduras",
+    "contar frutas para niños",
+    "contar frutas wordwall",
+    "frutas para contar del 1 al 10",
+    "frutas para contar",
+    "frutas para contar y colorear",
+    "frutas para contar del 1 al 20",
+    "atividade contar frutas"
+   ]
+  },
+  "frutas sumas": {
+   "cls": "cross",
+   "s": [
+    "sumas frutas"
+   ]
+  },
+  "frutas letras": {
+   "cls": "cross",
+   "s": [
+    "frutas letras",
+    "frutas letras bonitas",
+    "frutas letras del abecedario",
+    "letras frutas del diablo",
+    "letras frutas y verduras",
+    "frutas con letras e",
+    "frutas por letras",
+    "frutas con letras del abecedario en español",
+    "frutas con letras m",
+    "frutas con letras d"
+   ]
+  },
+  "muebles matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "muebles contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "muebles sumas": {
+   "cls": "cross",
+   "s": [
+    "muebles sumas pay"
+   ]
+  },
+  "muebles letras": {
+   "cls": "cross",
+   "s": [
+    "muebles letras",
+    "muebles 4 letras",
+    "muebles con las letras del abecedario",
+    "muebles con 5 letras",
+    "muebles con 3 letras",
+    "muebles con 6 letras"
+   ]
+  },
+  "hospital matemáticas": {
+   "cls": "cross",
+   "s": [
+    "hospital matemáticas"
+   ]
+  },
+  "hospital contar": {
+   "cls": "cross",
+   "s": [
+    "hospital contar"
+   ]
+  },
+  "hospital sumas": {
+   "cls": "cross",
+   "s": [
+    "sumas hospital",
+    "sumas hospital enugu",
+    "abbotsford hospital sumas wing"
+   ]
+  },
+  "hospital letras": {
+   "cls": "cross",
+   "s": [
+    "hospital letras",
+    "hospital letras para imprimir",
+    "hospital letras bonitas",
+    "hospital letras dibujo",
+    "letras hospital for souls",
+    "letras hospital pettinellis",
+    "hospital 9 letras",
+    "hospital 9 letras crucigrama",
+    "hospital crucigramas 5 letras",
+    "saliendo del hospital letras"
+   ]
+  },
+  "insectos y bichos matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "insectos y bichos contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "insectos y bichos sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "insectos y bichos letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "utensilios de cocina matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "utensilios de cocina contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "utensilios de cocina sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "utensilios de cocina letras": {
+   "cls": "cross",
+   "s": [
+    "utensilios de cocina letras",
+    "utensilios de cocina cinco letras",
+    "utensilios de cocina 8 letras",
+    "utensilios de cocina con las letras del abecedario",
+    "utensilios de cocina con 6 letras",
+    "utensilios de cocina crucigrama 5 letras",
+    "sopa de letras utensilios de cocina"
+   ]
+  },
+  "misceláneo matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "misceláneo contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "misceláneo sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "misceláneo letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "música matemáticas": {
+   "cls": "cross",
+   "s": [
+    "música matemáticas",
+    "música para matemáticas",
+    "música y matemáticas caixaforum valencia",
+    "música y matemáticas pdf",
+    "música y matemáticas un viaje sonoro del caos al cosmos",
+    "música y matemáticas curiosidades",
+    "música y matemáticas libro"
+   ]
+  },
+  "música contar": {
+   "cls": "cross",
+   "s": [
+    "música contar que beijo em outra boca",
+    "música para contar dinero"
+   ]
+  },
+  "música sumas": {
+   "cls": "cross",
+   "s": [
+    "música de sumas y restas",
+    "música de sumas perú"
+   ]
+  },
+  "música letras": {
+   "cls": "cross",
+   "s": [
+    "música letras",
+    "música letras bonitas",
+    "música letras y notas",
+    "música letras que pesan"
+   ]
+  },
+  "ocupaciones matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "ocupaciones contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "ocupaciones sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "ocupaciones letras": {
+   "cls": "cross",
+   "s": [
+    "ocupaciones letras",
+    "ocupaciones 4 letras crucigrama",
+    "ocupaciones cuatro letras",
+    "ocupaciones crucigrama 3 letras",
+    "ocupaciones sopa de letras de oficios y profesiones para niños"
+   ]
+  },
+  "vida marina matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marina contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marina sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marina letras": {
+   "cls": "cross",
+   "s": [
+    "vida marina letras",
+    "vida marina 4 letras",
+    "vida marina con 4 letras termina en a",
+    "vida marina con 4 letras empieza con o",
+    "vida marina con 4 letras ahorcado",
+    "vida marina con 4 letras en español",
+    "vida marina con 4 letras termina en ca",
+    "vida marina con 5 letras",
+    "vida marina con 4 letras empieza con v y termina con a",
+    "vida marina que lleve cuatro letras"
+   ]
+  },
+  "mascotas matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "mascotas contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "mascotas sumas": {
+   "cls": "cross",
+   "s": [
+    "mascotas de sumas mentales",
+    "mascotas de sumas mentales coloreado"
+   ]
+  },
+  "mascotas letras": {
+   "cls": "cross",
+   "s": [
+    "mascotas letras",
+    "mis mascotas letras",
+    "mis mascotas letras bonitas",
+    "mis mascotas letras para imprimir"
+   ]
+  },
+  "oficina de correos matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "oficina de correos contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "oficina de correos sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "oficina de correos letras": {
+   "cls": "cross",
+   "s": [
+    "oficina de correos barrio de las letras"
+   ]
+  },
+  "reptiles y anfibios matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "reptiles y anfibios contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "reptiles y anfibios sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "reptiles y anfibios letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "formas matemáticas": {
+   "cls": "cross",
+   "s": [
+    "formas matemáticas",
+    "formas matemáticas en español",
+    "formas matemáticas de decir te amo",
+    "matemáticas formas geométricas",
+    "formas modulares matemáticas",
+    "formas para matemáticas",
+    "formas de matemáticas primaria",
+    "formas de escribir matemáticas"
+   ]
+  },
+  "formas contar": {
+   "cls": "cross",
+   "s": [
+    "contar formas",
+    "formas de contar un cuento",
+    "formas de contar una historia",
+    "formas de contar un cuento para niños",
+    "formas de contar un embarazo",
+    "formas de contar dinero",
+    "formas de contar billetes",
+    "formas de contar en japones",
+    "formas de contar con los dedos"
+   ]
+  },
+  "formas sumas": {
+   "cls": "cross",
+   "s": [
+    "sumas formas vertical",
+    "formas de sumas de fracciones",
+    "formas de sumas y restas",
+    "formas de hacer sumas",
+    "formas de resolver sumas de fracciones con diferente denominador",
+    "formas de resolver sumas",
+    "formas de resolver sumas y restas",
+    "formas de resolver sumas de fracciones",
+    "formas de hacer sumas en excel"
+   ]
+  },
+  "formas letras": {
+   "cls": "cross",
+   "s": [
+    "formas letras",
+    "formas letras diferentes",
+    "formas letras bonitas",
+    "formas letras para carteles",
+    "letras formas de amor",
+    "letras formas de escribir",
+    "letras formas geometricas",
+    "letras formas de pensar",
+    "letras formas de animales",
+    "letras formas tamaños significado e intención"
+   ]
+  },
+  "espacio matemáticas": {
+   "cls": "cross",
+   "s": [
+    "espacio matemáticas",
+    "espacio muestral matemáticas",
+    "espacio curricular matemáticas",
+    "espacio y forma matemáticas",
+    "espacio vectorial en matemáticas",
+    "espacio muestral en matemáticas ejemplos",
+    "espacio muestral en matemáticas",
+    "geometría del espacio matemáticas",
+    "espacio tridimensional en matemáticas"
+   ]
+  },
+  "espacio contar": {
+   "cls": "cross",
+   "s": [
+    "contar espacio en blanco excel",
+    "contar espacio en excel",
+    "contar espacio",
+    "espacio para contar",
+    "espacio para contar cuentos"
+   ]
+  },
+  "espacio sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "espacio letras": {
+   "cls": "cross",
+   "s": [
+    "espacio letras",
+    "espacio letras free fire",
+    "espacio letras invisible",
+    "espacio letras bonitas",
+    "espacio letras word",
+    "espacio letras css",
+    "letras espacio luister la voz",
+    "espacio sideral letras",
+    "letras espacio vacío thalles roberto en español 2023",
+    "letras espacio vacío"
+   ]
+  },
+  "primavera matemáticas": {
+   "cls": "cross",
+   "s": [
+    "primavera matemáticas",
+    "concurso primavera matemáticas 2026",
+    "concurso primavera matemáticas",
+    "concurso primavera matemáticas pdf",
+    "concurso primavera matemáticas madrid",
+    "concurso primavera matemáticas 2025",
+    "concurso primavera matemáticas upv",
+    "concurso primavera matemáticas pdf 2024",
+    "concurso primavera matemáticas ejercicios",
+    "concurso primavera matemáticas upv 2025"
+   ]
+  },
+  "primavera contar": {
+   "cls": "cross",
+   "s": [
+    "contar primavera cokitos"
+   ]
+  },
+  "primavera sumas": {
+   "cls": "cross",
+   "s": [
+    "sumas primavera",
+    "sumas primavera infantil",
+    "sumas primavera cokitos"
+   ]
+  },
+  "primavera letras": {
+   "cls": "cross",
+   "s": [
+    "primavera letras",
+    "primavera letras para imprimir",
+    "primavera letras bonitas",
+    "primavera letras para colorear",
+    "primavera letras decoradas",
+    "primavera letras grandes",
+    "primavera letras animadas",
+    "primavera letras pdf",
+    "primavera letras png",
+    "letras primavera azul"
+   ]
+  },
+  "verano matemáticas": {
+   "cls": "cross",
+   "s": [
+    "verano matemáticas",
+    "cuaderno verano matemáticas 3 eso con soluciones",
+    "repaso verano matemáticas 1 eso pdf",
+    "cuaderno verano matemáticas 1 eso pdf con soluciones",
+    "repaso verano matemáticas 4 primaria pdf",
+    "repaso verano matemáticas 2 primaria"
+   ]
+  },
+  "verano contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "verano sumas": {
+   "cls": "cross",
+   "s": [
+    "sumas verano"
+   ]
+  },
+  "verano letras": {
+   "cls": "cross",
+   "s": [
+    "verano letras",
+    "verano letras bonitas",
+    "verano letras para imprimir",
+    "verano letras para colorear",
+    "verano letras png",
+    "verano letras animadas",
+    "verano letras 3d",
+    "letras verano rosa",
+    "letras verano traidor",
+    "letras verano azul"
+   ]
+  },
+  "día de acción de gracias matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "día de acción de gracias contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "día de acción de gracias sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "día de acción de gracias letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "cosas que vuelan matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "cosas que vuelan contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "cosas que vuelan sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "cosas que vuelan letras": {
+   "cls": "cross",
+   "s": [
+    "cosas que vuelan con las letras del abecedario"
+   ]
+  },
+  "herramientas matemáticas": {
+   "cls": "cross",
+   "s": [
+    "herramientas matemáticas",
+    "herramientas matemáticas i - álgebra",
+    "herramientas matemáticas 1 algebra siglo 21",
+    "herramientas matemáticas vi - modelos de simulación",
+    "herramientas matemáticas para la localización espacial",
+    "herramientas matemáticas iv - investigación operativa",
+    "herramientas matemáticas iii - estadística i",
+    "herramientas matemáticas ii - análisis",
+    "herramientas matemáticas iii",
+    "herramientas matemáticas antiguas"
+   ]
+  },
+  "herramientas contar": {
+   "cls": "cross",
+   "s": [
+    "herramientas para contar",
+    "herramientas para contar plantas y animales",
+    "herramientas para contar cuentos",
+    "herramientas para contar palabras",
+    "herramientas para contar historias",
+    "herramientas para contar calorias",
+    "herramientas para contar numeros",
+    "herramientas para contar plantas y animales pequeños",
+    "herramientas para contar para niños",
+    "herramientas artísticas para contar una historia"
+   ]
+  },
+  "herramientas sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "herramientas letras": {
+   "cls": "cross",
+   "s": [
+    "herramientas letras",
+    "herramientas letras bonitas",
+    "herramientas letras negritas",
+    "herramientas de letras vilma nuñez",
+    "herramientas para letras",
+    "herramientas de letras para facebook",
+    "herramientas para letras 3d",
+    "herramientas para letras corporeas",
+    "herramientas digitales letras",
+    "herramientas cinco letras"
+   ]
+  },
+  "juguetes matemáticas": {
+   "cls": "cross",
+   "s": [
+    "juguetes matemáticas",
+    "juguetes de matemáticas y para contar",
+    "juguetes para matemáticas",
+    "conjunto de juguetes matemáticas",
+    "juguetes para aprender matemáticas"
+   ]
+  },
+  "juguetes contar": {
+   "cls": "cross",
+   "s": [
+    "contar juguetes",
+    "juguetes para contar",
+    "juguetes para contar niños",
+    "montessori contar juguetes",
+    "juguetes didacticos para contar",
+    "juguetes aprender a contar"
+   ]
+  },
+  "juguetes sumas": {
+   "cls": "cross",
+   "s": [
+    "juguetes de sumas y restas",
+    "juguetes de sumas"
+   ]
+  },
+  "juguetes letras": {
+   "cls": "cross",
+   "s": [
+    "juguetes letras",
+    "juguetes letras y numeros",
+    "juguetes letras niños",
+    "letras juguetes perdidos",
+    "letras juguetes de accion",
+    "letras juguetes perdidos en vivo",
+    "letras juguetes de accion nuco",
+    "juguetes con letras del abecedario",
+    "alemán juguetes letras",
+    "aldi juguetes letras"
+   ]
+  },
+  "árboles matemáticas": {
+   "cls": "cross",
+   "s": [
+    "árboles matemáticas discretas",
+    "árboles matemáticas discretas pdf",
+    "árboles y redes matemáticas discretas",
+    "grafos y árboles matemáticas discretas",
+    "árboles y redes matemáticas discretas pdf",
+    "árboles con peso matemáticas discretas",
+    "tipos de árboles matemáticas discretas"
+   ]
+  },
+  "árboles contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "árboles sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "árboles letras": {
+   "cls": "cross",
+   "s": [
+    "letras árboles en el tejado",
+    "árboles cinco letras"
+   ]
+  },
+  "verduras matemáticas": {
+   "cls": "cross",
+   "s": [
+    "conjunto de verduras matemáticas"
+   ]
+  },
+  "verduras contar": {
+   "cls": "cross",
+   "s": [
+    "contar verduras",
+    "verduras para contar"
+   ]
+  },
+  "verduras sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "verduras letras": {
+   "cls": "cross",
+   "s": [
+    "verduras letras",
+    "verduras letras bonitas",
+    "letras verduras y frutas",
+    "verduras con letras del abecedario",
+    "verduras con letras u",
+    "chuy verduras letras",
+    "verduras con letras d",
+    "verduras con letras m",
+    "verduras con letras n",
+    "verduras con letras g"
+   ]
+  },
+  "vehículos matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "vehículos contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "vehículos sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "vehículos letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "clima matemáticas": {
+   "cls": "cross",
+   "s": [
+    "clima matemáticas",
+    "clima para matemáticas"
+   ]
+  },
+  "clima contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "clima sumas": {
+   "cls": "cross",
+   "s": [
+    "clima sumas",
+    "clima en sumas washington"
+   ]
+  },
+  "clima letras": {
+   "cls": "cross",
+   "s": [
+    "clima letras",
+    "clima letras bonitas",
+    "clima letras tolima",
+    "clima letras hoy",
+    "clima letras ec",
+    "letras clima lindo",
+    "letras clima tropical",
+    "letras clima lindo super slowed",
+    "letras clima lindo slowed",
+    "letras clima lindo 1 hour"
+   ]
+  },
+  "invierno matemáticas": {
+   "cls": "cross",
+   "s": [
+    "escuela de invierno matemáticas",
+    "paes de invierno matemáticas"
+   ]
+  },
+  "invierno contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "invierno sumas": {
+   "cls": "cross",
+   "s": [
+    "sumas invierno"
+   ]
+  },
+  "invierno letras": {
+   "cls": "cross",
+   "s": [
+    "invierno letras",
+    "invierno letras para imprimir",
+    "invierno letras bonitas",
+    "invierno letras para colorear",
+    "letras invierno del 92",
+    "letras invierno en primavera",
+    "letras invierno reik",
+    "letras invierno infantil",
+    "letras invierno para imprimir pdf",
+    "letras invierno para colorear e imprimir"
+   ]
+  },
+  "animales del zoológico matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales del zoológico contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales del zoológico sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales del zoológico letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 3 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 3 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 3 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 3 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 4 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 4 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 4 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 4 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 5 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 5 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 5 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "animales bn 5 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "playa bn 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "playa bn 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "playa bn 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "playa bn 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "aves byn 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "aves byn 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "aves byn 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "aves byn 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "navidad b&n 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "navidad b&n 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "navidad b&n 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "navidad b&n 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "salón de clases 2 (b/n) matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "salón de clases 2 (b/n) contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "salón de clases 2 (b/n) sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "salón de clases 2 (b/n) letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "pascua bn 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "pascua bn 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "pascua bn 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "pascua bn 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida bn 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida bn 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida bn 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida bn 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida bn 3 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida bn 3 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida bn 3 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida bn 3 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "hogar bn 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "hogar bn 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "hogar bn 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "hogar bn 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marina bn 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marina bn 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marina bn 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marina bn 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "deportes bn 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "deportes bn 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "deportes bn 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "deportes bn 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "juguetes bn 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "juguetes bn 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "juguetes bn 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "juguetes bn 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "san valentín bn 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "san valentín bn 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "san valentín bn 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "san valentín bn 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "verduras bn 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "verduras bn 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "verduras bn 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "verduras bn 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "vehículos bn 2 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "vehículos bn 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "vehículos bn 2 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "vehículos bn 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "vehículos bn 3 matemáticas": {
+   "cls": "cross",
+   "s": []
+  },
+  "vehículos bn 3 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "vehículos bn 3 sumas": {
+   "cls": "cross",
+   "s": []
+  },
+  "vehículos bn 3 letras": {
+   "cls": "cross",
+   "s": []
+  }
+ },
+ "unique": [
+  "4 de julio letras",
+  "abbotsford hospital sumas wing",
+  "accesorios crocs letras",
+  "accesorios de letras bonitas",
+  "accesorios letras",
+  "accesorios matemáticas",
+  "accesorios para contar",
+  "accesorios para contar cuentos",
+  "accesorios para decorar letras",
+  "accesorios para letras",
+  "accesorios para letras 3d",
+  "accesorios para letras copiar y pegar",
+  "accesorios para pulseras letras",
+  "actividades contar",
+  "actividades contar de 10 en 10",
+  "actividades contar de 2 en 2",
+  "actividades contar de 2 en 2 para imprimir",
+  "actividades contar de 5 en 5",
+  "actividades contar dinero",
+  "actividades contar hasta 10",
+  "actividades contar objetos",
+  "actividades contar silabas",
+  "actividades letras",
+  "actividades letras bonitas",
+  "actividades letras galegas",
+  "actividades letras galegas 2026",
+  "actividades letras galegas infantil",
+  "actividades letras m p l s",
+  "actividades letras niños 4 años",
+  "actividades letras preescolar",
+  "actividades letras que suben y bajan para niños",
+  "actividades letras trabadas",
+  "actividades matemáticas",
+  "actividades matemáticas para cuarto grado",
+  "actividades matemáticas para preescolar",
+  "actividades matemáticas para primer grado de primaria",
+  "actividades matemáticas primer grado",
+  "actividades matemáticas quinto grado",
+  "actividades matemáticas secundaria",
+  "actividades matemáticas segundo grado",
+  "actividades matemáticas sexto grado",
+  "actividades matemáticas tercer grado",
+  "actividades navidad matemáticas",
+  "actividades navidad matemáticas secundaria",
+  "actividades refuerzo preescolar",
+  "actividades sumas",
+  "actividades sumas llevando",
+  "actividades sumas preescolar",
+  "actividades sumas primer grado",
+  "actividades sumas que dan 10",
+  "actividades sumas y restas",
+  "actividades sumas y restas preescolar",
+  "actividades sumas y restas primer grado",
+  "actividades sumas y restas segundo grado",
+  "actividades sumas y restas tercer grado",
+  "aldi juguetes letras",
+  "alemán juguetes letras",
+  "animales de granja con tres letras",
+  "animales de granja letras",
+  "animales de granja para contar",
+  "animales de granja sopa de letras",
+  "animales de la granja para contar set matemática 3",
+  "animales de la granja para contar y clasificar",
+  "animales letras",
+  "animales letras bonitas",
+  "animales letras del abecedario",
+  "animales letras desordenadas",
+  "animales matemáticas",
+  "animales para matemáticas",
+  "atividade contar frutas",
+  "aves letras",
+  "aves letras bonitas",
+  "aves migratorias letras",
+  "barras de colores matemáticas",
+  "beso de desayuno letras",
+  "caligrafia para niños",
+  "caligrafía",
+  "caligrafía copiar y pegar",
+  "caligrafía de dibujos",
+  "caligrafía ejercicios",
+  "caligrafía letras",
+  "caligrafía para mejorar la letra",
+  "caligrafía para mejorar la letra pdf",
+  "caligrafía para niños de 10 a 12 años pdf",
+  "caligrafía y ortografía",
+  "campamento 5 letras",
+  "campamento beduino 5 letras",
+  "campamento crucigrama 5 letras",
+  "campamento de verano matemáticas",
+  "campamento gitano 5 letras",
+  "campamento letras",
+  "campamento letras bonitas",
+  "campamento matemáticas",
+  "campamento matemáticas 2025",
+  "campamento matemáticas madrid",
+  "campamento matemáticas uam",
+  "campamento nocturno 5 letras",
+  "campamento provisional cinco letras",
+  "chuy verduras letras",
+  "clima en sumas washington",
+  "clima letras",
+  "clima letras bonitas",
+  "clima letras ec",
+  "clima letras hoy",
+  "clima letras tolima",
+  "clima matemáticas",
+  "clima para matemáticas",
+  "clima sumas",
+  "colorear por colores sumas y restas",
+  "colorear sumas navidad",
+  "colores bonitos para matemáticas",
+  "colores letras",
+  "colores letras del abecedario",
+  "colores letras ff",
+  "colores letras fivem",
+  "colores letras free fire",
+  "colores letras google",
+  "colores letras minecraft",
+  "colores letras montessori",
+  "colores letras tdah",
+  "colores letras whatsapp",
+  "colores matemáticas",
+  "colores para matemáticas",
+  "colores representativos de matemáticas",
+  "colores sumas",
+  "como contar aves",
+  "conciencia fonologica para niños",
+  "conciencia fonológica",
+  "conciencia fonológica actividades",
+  "conciencia fonológica actividades para imprimir pdf",
+  "conciencia fonológica actividades para niños",
+  "conciencia fonológica ejemplos",
+  "conciencia fonológica infantil",
+  "conciencia fonológica pdf",
+  "conciencia fonológica vocales",
+  "conciencia fonológica wordwall",
+  "concurso primavera matemáticas",
+  "concurso primavera matemáticas 2025",
+  "concurso primavera matemáticas 2026",
+  "concurso primavera matemáticas ejercicios",
+  "concurso primavera matemáticas madrid",
+  "concurso primavera matemáticas pdf",
+  "concurso primavera matemáticas pdf 2024",
+  "concurso primavera matemáticas upv",
+  "concurso primavera matemáticas upv 2025",
+  "conde contar navidad",
+  "conjunto de animales matemáticas",
+  "conjunto de colores matemáticas",
+  "conjunto de flores matemáticas",
+  "conjunto de juguetes matemáticas",
+  "conjunto de ropa matemáticas",
+  "conjunto de verduras matemáticas",
+  "conjuntos de frutas matemáticas",
+  "contar animales",
+  "contar animales actividad",
+  "contar animales cokitos",
+  "contar animales de la granja",
+  "contar animales de la granja wordwall",
+  "contar animales en japones",
+  "contar animales hasta 10",
+  "contar animales hasta 10 cokitos",
+  "contar animales marinos",
+  "contar animales preescolar",
+  "contar emociones",
+  "contar espacio",
+  "contar espacio en blanco excel",
+  "contar espacio en excel",
+  "contar flores",
+  "contar formas",
+  "contar frutas para niños",
+  "contar frutas wordwall",
+  "contar frutas y verduras",
+  "contar juguetes",
+  "contar navidad",
+  "contar partes del cuerpo",
+  "contar primavera cokitos",
+  "contar ropa",
+  "contar verduras",
+  "cosas que vuelan con las letras del abecedario",
+  "cuadernillo",
+  "cuadernillo cuadriculado",
+  "cuadernillo de lectoescritura",
+  "cuadernillo de pruebas nacionales 2025 pdf",
+  "cuadernillo de refuerzo preescolar",
+  "cuadernillo icfes 2026 pdf con respuestas",
+  "cuadernillo para aprender a leer y escribir primer grado pdf gratis",
+  "cuadernillo rubio",
+  "cuadernillos cine",
+  "cuadernillos icfes",
+  "cuaderno verano matemáticas 1 eso pdf con soluciones",
+  "cuaderno verano matemáticas 3 eso con soluciones",
+  "cuadernos rubio",
+  "cuadricula para niños",
+  "cuadrícula",
+  "cuadrícula dibujos",
+  "cuadrícula para dibujar",
+  "cuadrícula para imprimir",
+  "cuadrícula para quinto grado",
+  "cuadrícula para segundo grado",
+  "cuadrícula png",
+  "cuadrícula una imagen",
+  "cuadrículas fáciles",
+  "desayuno barrio letras",
+  "desayuno letras",
+  "desayuno letras bonitas",
+  "desayuno saludable letras bonitas",
+  "dibujo.navidad sumas",
+  "dinosaurios contar",
+  "dinosaurios letras",
+  "dinosaurios letras animadas",
+  "dinosaurios letras raul beltran",
+  "dinosaurios para contar",
+  "dinosaurios para contar 60 piezas",
+  "dinosaurios para contar y colorear",
+  "dinosaurios sumas",
+  "dinosaurios sumas y restas",
+  "dinosaurios. matemáticas",
+  "emociones en matemáticas",
+  "emociones letras",
+  "emociones letras bonitas",
+  "emociones letras hades",
+  "emociones letras para imprimir",
+  "emociones letras roberto carlos",
+  "emociones para contar",
+  "emociones para contar libro",
+  "emociones para contar pdf",
+  "escuela de invierno matemáticas",
+  "espacio curricular matemáticas",
+  "espacio letras",
+  "espacio letras bonitas",
+  "espacio letras css",
+  "espacio letras free fire",
+  "espacio letras invisible",
+  "espacio letras word",
+  "espacio matemáticas",
+  "espacio muestral en matemáticas",
+  "espacio muestral en matemáticas ejemplos",
+  "espacio muestral matemáticas",
+  "espacio para contar",
+  "espacio para contar cuentos",
+  "espacio sideral letras",
+  "espacio tridimensional en matemáticas",
+  "espacio vectorial en matemáticas",
+  "espacio y forma matemáticas",
+  "felices pascua letras",
+  "feliz navidad matemáticas",
+  "feliz pascua letras",
+  "feliz pascua letras bonitas",
+  "feliz pascua letras para imprimir",
+  "ficha contar navidad",
+  "fichas de colores matemáticas",
+  "fichas de colores matemáticas segundo grado",
+  "fichas letra b infantil",
+  "fichas letra b letrilandia",
+  "fichas letra b mayúscula",
+  "fichas letra b minuscula",
+  "fichas letra b pdf",
+  "fichas letra c infantil",
+  "fichas letra c pdf",
+  "fichas letra d infantil",
+  "fichas letra d letrilandia",
+  "fichas letra d mayuscula",
+  "fichas letra d minuscula",
+  "fichas letra d pdf",
+  "fichas letra d primer grado",
+  "fichas letra e infantil",
+  "fichas letra e letrilandia",
+  "fichas letra e mayuscula",
+  "fichas letra e mayuscula 3 años",
+  "fichas letra e mayuscula para imprimir",
+  "fichas letra e minuscula",
+  "fichas letra e minúscula para imprimir",
+  "fichas letra e pdf",
+  "fichas letra f infantil",
+  "fichas letra f letrilandia",
+  "fichas letra f mayuscula",
+  "fichas letra g para imprimir",
+  "fichas letra g pdf",
+  "fichas letra h 3 primaria",
+  "fichas letra h infantil",
+  "fichas letra j infantil",
+  "fichas letra j letrilandia",
+  "fichas letra j minuscula",
+  "fichas letra k infantil",
+  "fichas letra k para primaria",
+  "fichas letra l letrilandia pdf",
+  "fichas letra l mayuscula",
+  "fichas letra l minuscula",
+  "fichas letra l pdf",
+  "fichas letra m letrilandia pdf",
+  "fichas letra n infantil",
+  "fichas letra n letrilandia",
+  "fichas letra n mayuscula",
+  "fichas letra n minuscula",
+  "fichas letra n pdf",
+  "fichas letra p letrilandia pdf",
+  "fichas letra q para imprimir",
+  "fichas letra r infantil",
+  "fichas letra r letrilandia",
+  "fichas letra r mayuscula",
+  "fichas letra r pdf",
+  "fichas letra r suave",
+  "fichas letra s infantil",
+  "fichas letra s letrilandia",
+  "fichas letra s mayuscula para imprimir",
+  "fichas letra s minuscula",
+  "fichas letra s primer grado",
+  "fichas letra t 5 años",
+  "fichas letra t infantil",
+  "fichas letra t letrilandia",
+  "fichas letra t letrilandia pdf",
+  "fichas letra t mayuscula",
+  "fichas letra t minuscula",
+  "fichas letra t pdf",
+  "fichas letra u letrilandia",
+  "fichas letra u mayuscula",
+  "fichas letra u mayuscula 3 años",
+  "fichas letra u minuscula",
+  "fichas letra u para imprimir",
+  "fichas letra v infantil",
+  "fichas letra v letrilandia",
+  "fichas letra v para imprimir",
+  "fichas letra v pdf",
+  "fichas letra w para niños",
+  "fichas letra x para imprimir",
+  "fichas letra z infantil",
+  "fichas letra z para imprimir",
+  "fichas letra ñ para infantil",
+  "fichas navidad sumas",
+  "fichas para 4 años",
+  "fichas refuerzo escolar 2025",
+  "fichas refuerzo escolar 2025 primaria",
+  "fichas refuerzo lengua 4 primaria",
+  "fichas refuerzo lengua 5 primaria santillana",
+  "fichas refuerzo matematicas 2 primaria",
+  "fichas refuerzo matematicas 3 primaria",
+  "fichas refuerzo matematicas 4 primaria",
+  "fichas tarea",
+  "figuras geometricas para niños",
+  "figuras geométricas",
+  "figuras geométricas 3d",
+  "figuras geométricas 3d para armar",
+  "figuras geométricas con nombre",
+  "figuras geométricas en inglés",
+  "figuras geométricas para armar",
+  "figuras geométricas para imprimir",
+  "figuras geométricas planas",
+  "figuras geométricas y sus nombres",
+  "flores babi letras",
+  "flores letras",
+  "flores letras bonitas",
+  "flores letras copiar y pegar",
+  "flores letras latin mafia",
+  "flores letras para decorar",
+  "flores letras xavi",
+  "flores matemáticas",
+  "flores para contar",
+  "flores para contar y colorear",
+  "flores para matemáticas",
+  "formas de contar billetes",
+  "formas de contar con los dedos",
+  "formas de contar dinero",
+  "formas de contar en japones",
+  "formas de contar un cuento",
+  "formas de contar un cuento para niños",
+  "formas de contar un embarazo",
+  "formas de contar una historia",
+  "formas de escribir matemáticas",
+  "formas de hacer sumas",
+  "formas de hacer sumas en excel",
+  "formas de matemáticas primaria",
+  "formas de resolver sumas",
+  "formas de resolver sumas de fracciones",
+  "formas de resolver sumas de fracciones con diferente denominador",
+  "formas de resolver sumas y restas",
+  "formas de sumas de fracciones",
+  "formas de sumas y restas",
+  "formas letras",
+  "formas letras bonitas",
+  "formas letras diferentes",
+  "formas letras para carteles",
+  "formas matemáticas",
+  "formas matemáticas de decir te amo",
+  "formas matemáticas en español",
+  "formas modulares matemáticas",
+  "formas para matemáticas",
+  "frutas con letras d",
+  "frutas con letras del abecedario en español",
+  "frutas con letras e",
+  "frutas con letras m",
+  "frutas contar",
+  "frutas letras",
+  "frutas letras bonitas",
+  "frutas letras del abecedario",
+  "frutas matemáticas",
+  "frutas para contar",
+  "frutas para contar del 1 al 10",
+  "frutas para contar del 1 al 20",
+  "frutas para contar y colorear",
+  "frutas para matemáticas",
+  "frutas por letras",
+  "geometría del espacio matemáticas",
+  "grafomotricidad",
+  "grafomotricidad 3 años",
+  "grafomotricidad ejercicios",
+  "grafomotricidad para niños",
+  "grafomotricidad para niños de 3 años",
+  "grafomotricidad para niños de 4 años",
+  "grafomotricidad para niños de 5 años",
+  "grafomotricidad para preescolar",
+  "grafomotricidad pdf",
+  "grafomotricidad preescolar",
+  "grafos y árboles matemáticas discretas",
+  "guia de refuerzo preescolar",
+  "herramientas artísticas para contar una historia",
+  "herramientas cinco letras",
+  "herramientas de letras para facebook",
+  "herramientas de letras vilma nuñez",
+  "herramientas digitales letras",
+  "herramientas letras",
+  "herramientas letras bonitas",
+  "herramientas letras negritas",
+  "herramientas matemáticas",
+  "herramientas matemáticas 1 algebra siglo 21",
+  "herramientas matemáticas antiguas",
+  "herramientas matemáticas i - álgebra",
+  "herramientas matemáticas ii - análisis",
+  "herramientas matemáticas iii",
+  "herramientas matemáticas iii - estadística i",
+  "herramientas matemáticas iv - investigación operativa",
+  "herramientas matemáticas para la localización espacial",
+  "herramientas matemáticas vi - modelos de simulación",
+  "herramientas para contar",
+  "herramientas para contar calorias",
+  "herramientas para contar cuentos",
+  "herramientas para contar historias",
+  "herramientas para contar numeros",
+  "herramientas para contar palabras",
+  "herramientas para contar para niños",
+  "herramientas para contar plantas y animales",
+  "herramientas para contar plantas y animales pequeños",
+  "herramientas para letras",
+  "herramientas para letras 3d",
+  "herramientas para letras corporeas",
+  "hospital 9 letras",
+  "hospital 9 letras crucigrama",
+  "hospital contar",
+  "hospital crucigramas 5 letras",
+  "hospital letras",
+  "hospital letras bonitas",
+  "hospital letras dibujo",
+  "hospital letras para imprimir",
+  "hospital matemáticas",
+  "invierno letras",
+  "invierno letras bonitas",
+  "invierno letras para colorear",
+  "invierno letras para imprimir",
+  "juguetes aprender a contar",
+  "juguetes con letras del abecedario",
+  "juguetes de matemáticas y para contar",
+  "juguetes de sumas",
+  "juguetes de sumas y restas",
+  "juguetes didacticos para contar",
+  "juguetes letras",
+  "juguetes letras niños",
+  "juguetes letras y numeros",
+  "juguetes matemáticas",
+  "juguetes para aprender matemáticas",
+  "juguetes para contar",
+  "juguetes para contar niños",
+  "juguetes para matemáticas",
+  "la hora",
+  "la hora de jugar",
+  "la hora de king kong",
+  "la hora de la 1 directo",
+  "la hora de la desaparición",
+  "la hora de tu muerte",
+  "la hora en chile",
+  "la hora en españa",
+  "la hora pico",
+  "la hora. cl",
+  "lectoescritura",
+  "lectoescritura 1 primaria pdf",
+  "lectoescritura actividades",
+  "lectoescritura para niños",
+  "lectoescritura para primer grado",
+  "lectoescritura pdf",
+  "lectoescritura preescolar",
+  "lectoescritura primer grado",
+  "lectoescritura primer grado actividades",
+  "lectoescritura primer grado mayuscula",
+  "lectoescritura primer grado pdf",
+  "lectoescritura primer grado por amor al norte de veracruz pdf",
+  "lectoescritura primer grado portada",
+  "lectoescritura primer grado preescolar",
+  "lectoescritura primer grado primaria",
+  "lectoescritura primer grado veracruz educando a distancia",
+  "lectoescritura primer grado wordwall",
+  "lectoescritura que es",
+  "lectoescritura segundo grado",
+  "letra a fichas",
+  "letra a fichas infantil",
+  "letra b fichas",
+  "letra b fichas de trabajo",
+  "letra b fichas para imprimir",
+  "letra c fichas",
+  "letra c fichas para imprimir",
+  "letra d fichas",
+  "letra d fichas de trabajo",
+  "letra d fichas lectoescritura",
+  "letra d fichas para imprimir",
+  "letra e fichas",
+  "letra e fichas para imprimir",
+  "letra f fichas",
+  "letra f fichas de trabajo",
+  "letra f fichas para imprimir",
+  "letra f fichas pdf",
+  "letra f fichas primer grado",
+  "letra fichas negras",
+  "letra g fichas",
+  "letra g fichas de trabajo",
+  "letra h fichas",
+  "letra h fichas para imprimir",
+  "letra i fichas",
+  "letra j fichas",
+  "letra j fichas para imprimir",
+  "letra k fichas",
+  "letra l fichas",
+  "letra l fichas de trabajo",
+  "letra l fichas lectoescritura",
+  "letra l fichas para imprimir",
+  "letra l mis fichas",
+  "letra m fichas",
+  "letra m fichas de trabajo",
+  "letra m fichas lectoescritura",
+  "letra m fichas para imprimir",
+  "letra m fichas para niños",
+  "letra m fichas pdf",
+  "letra m mayuscula fichas",
+  "letra m mis fichas",
+  "letra n fichas",
+  "letra n fichas de trabajo",
+  "letra n fichas para imprimir",
+  "letra n fichas primer grado",
+  "letra o fichas",
+  "letra p fichas",
+  "letra p fichas de trabajo",
+  "letra p fichas para imprimir",
+  "letra p fichas para niños",
+  "letra p fichas pdf",
+  "letra p fichas primer grado",
+  "letra p mayuscula fichas",
+  "letra p mis fichas",
+  "letra q fichas",
+  "letra r fichas",
+  "letra r fichas de trabajo",
+  "letra r fichas para imprimir",
+  "letra s fichas",
+  "letra s fichas de trabajo",
+  "letra s fichas para imprimir",
+  "letra s fichas pdf",
+  "letra s mis fichas",
+  "letra t fichas",
+  "letra t fichas de trabajo",
+  "letra t fichas para imprimir",
+  "letra u fichas",
+  "letra u fichas infantil",
+  "letra v fichas",
+  "letra v fichas de trabajo",
+  "letra w fichas",
+  "letra x fichas",
+  "letra y fichas",
+  "letra z fichas",
+  "letra z fichas de trabajo",
+  "letras animales de la selva",
+  "letras animales invertebrados",
+  "letras animales para imprimir",
+  "letras animales salvajes",
+  "letras animales vertebrados",
+  "letras animales vertebrados e invertebrados",
+  "letras aves de las tempestades",
+  "letras aves de paso",
+  "letras aves del tiempo",
+  "letras aves del tiempo cap 5",
+  "letras aves en el desierto",
+  "letras aves negras",
+  "letras aves solo cadaver",
+  "letras campamento celestial",
+  "letras campamento de verano",
+  "letras clima lindo",
+  "letras clima lindo 1 hour",
+  "letras clima lindo slowed",
+  "letras clima lindo super slowed",
+  "letras clima tropical",
+  "letras de compras en el supermercado las perrerías de mike ep 1",
+  "letras desayuno o cigarro",
+  "letras desayuno para' 2",
+  "letras desayuno saludable",
+  "letras dinosaurios cancion",
+  "letras dinosaurios canva",
+  "letras dinosaurios font",
+  "letras dinosaurios para colorear",
+  "letras dinosaurios para imprimir",
+  "letras dinosaurios png",
+  "letras dinosaurios raúl beltrán video musical",
+  "letras emociones @hades66mmnf",
+  "letras emociones elixir tyei piku",
+  "letras emociones hades66",
+  "letras emociones hades66 angel yamil santiago vazquez",
+  "letras emociones wisin & yandel topic",
+  "letras espacio luister la voz",
+  "letras espacio vacío",
+  "letras espacio vacío thalles roberto en español 2023",
+  "letras flores amarillas",
+  "letras flores pa los muertos",
+  "letras flores preservadas",
+  "letras formas de amor",
+  "letras formas de animales",
+  "letras formas de escribir",
+  "letras formas de pensar",
+  "letras formas geometricas",
+  "letras formas tamaños significado e intención",
+  "letras frutas del diablo",
+  "letras frutas y verduras",
+  "letras hospital for souls",
+  "letras hospital pettinellis",
+  "letras invierno del 92",
+  "letras invierno en primavera",
+  "letras invierno infantil",
+  "letras invierno para colorear e imprimir",
+  "letras invierno para imprimir pdf",
+  "letras invierno reik",
+  "letras juguetes de accion",
+  "letras juguetes de accion nuco",
+  "letras juguetes perdidos",
+  "letras juguetes perdidos en vivo",
+  "letras pascua de resurreccion",
+  "letras pascua gaiteros de pillopo",
+  "letras pascua joven",
+  "letras playa del carmen",
+  "letras playa del carmen fotos",
+  "letras playa del inglés",
+  "letras playa miramar",
+  "letras playa privada",
+  "letras playa sola",
+  "letras playa sola los invasores de nuevo león",
+  "letras primavera azul",
+  "letras ropa apretada",
+  "letras ropa cara camilo",
+  "letras ropa cara el jordan 23 pailita",
+  "letras ropa de bazar",
+  "letras ropa de bazar feat bratty",
+  "letras ropa interior",
+  "letras ropa sucia patricio rey y sus redonditos de ricota",
+  "letras verano azul",
+  "letras verano rosa",
+  "letras verano traidor",
+  "letras verduras y frutas",
+  "letras árboles en el tejado",
+  "letrilandia letra l fichas",
+  "letrilandia letra m fichas",
+  "letrilandia letra p fichas",
+  "mascotas de sumas mentales",
+  "mascotas de sumas mentales coloreado",
+  "mascotas letras",
+  "matemáticas en el supermercado",
+  "matemáticas formas geométricas",
+  "matemáticas navidad 2 primaria",
+  "matemáticas navidad secundaria",
+  "mis mascotas letras",
+  "mis mascotas letras bonitas",
+  "mis mascotas letras para imprimir",
+  "modalidad rincones preescolar",
+  "montessori contar juguetes",
+  "muebles 4 letras",
+  "muebles con 3 letras",
+  "muebles con 5 letras",
+  "muebles con 6 letras",
+  "muebles con las letras del abecedario",
+  "muebles letras",
+  "muebles sumas pay",
+  "música contar que beijo em outra boca",
+  "música de sumas perú",
+  "música de sumas y restas",
+  "música letras",
+  "música letras bonitas",
+  "música letras que pesan",
+  "música letras y notas",
+  "música matemáticas",
+  "música para contar dinero",
+  "música para matemáticas",
+  "música y matemáticas caixaforum valencia",
+  "música y matemáticas curiosidades",
+  "música y matemáticas libro",
+  "música y matemáticas pdf",
+  "música y matemáticas un viaje sonoro del caos al cosmos",
+  "navidad letras",
+  "navidad letras 3d",
+  "navidad letras bonitas",
+  "navidad letras decoradas",
+  "navidad letras doradas",
+  "navidad letras grandes",
+  "navidad letras molde",
+  "navidad letras para colorear",
+  "navidad letras para imprimir",
+  "navidad letras png",
+  "navidad matemáticas",
+  "navidad para contar",
+  "navidad sumas",
+  "navidad sumas y restas",
+  "necesidades educativas especiales en preescolar",
+  "necesidades especiales en preescolar",
+  "ocupaciones 4 letras crucigrama",
+  "ocupaciones crucigrama 3 letras",
+  "ocupaciones cuatro letras",
+  "ocupaciones letras",
+  "ocupaciones sopa de letras de oficios y profesiones para niños",
+  "oficina de correos barrio de las letras",
+  "paes de invierno matemáticas",
+  "paleta de colores matemáticas",
+  "panadería letras",
+  "panadería letras bonitas",
+  "panadería letras para imprimir",
+  "panadería seis letras",
+  "partes del cuerpo 4 letras",
+  "partes del cuerpo 5 letras",
+  "partes del cuerpo 6 letras",
+  "partes del cuerpo humano letras",
+  "partes del cuerpo humano letras para imprimir",
+  "partes del cuerpo letras",
+  "partes del cuerpo letras bonitas",
+  "partes del cuerpo letras para imprimir",
+  "partes del cuerpo para contar",
+  "partes del cuerpo por letras",
+  "partes del cuerpo sin letras",
+  "pascua letras",
+  "pascua letras bonitas",
+  "pascua sopa de letras",
+  "pauta montessori",
+  "pauta montessori 5 mm",
+  "pauta montessori en canva",
+  "pauta montessori escritura",
+  "pauta montessori generador",
+  "pauta montessori libreta",
+  "pauta montessori para escribir",
+  "pauta montessori para imprimir",
+  "pauta montessori para imprimir pdf",
+  "pauta montessori pdf",
+  "planeacion por rincones preescolar",
+  "playa de matemáticas",
+  "playa letras",
+  "playa letras cancun",
+  "playa letras de cartagena",
+  "portada navidad matemáticas",
+  "preescolar rincones de aprendizaje",
+  "primavera letras",
+  "primavera letras animadas",
+  "primavera letras bonitas",
+  "primavera letras decoradas",
+  "primavera letras grandes",
+  "primavera letras para colorear",
+  "primavera letras para imprimir",
+  "primavera letras pdf",
+  "primavera letras png",
+  "primavera matemáticas",
+  "quince letras desayuno",
+  "ray flores matemáticas",
+  "refuerzo escolar para preescolar",
+  "refuerzo fichas de lengua 1 primaria",
+  "refuerzo fichas de matematicas 1 primaria",
+  "refuerzo fichas ingles 2 primaria",
+  "refuerzo positivo en preescolar",
+  "refuerzo preescolar",
+  "refuerzo vocales preescolar",
+  "regletas de colores matemáticas",
+  "repaso verano matemáticas 1 eso pdf",
+  "repaso verano matemáticas 2 primaria",
+  "repaso verano matemáticas 4 primaria pdf",
+  "restas hasta 10",
+  "restas hasta 10 con dibujos",
+  "restas hasta 10 interactivo",
+  "restas hasta 10 para primer grado",
+  "restas hasta 10 wordwall",
+  "restas hasta 100",
+  "restas hasta 100 en wordwall",
+  "restas hasta 100 sin llevar",
+  "restas hasta 1000",
+  "restas hasta 10000",
+  "rincones de aprendizaje preescolar ejemplos",
+  "rincones de aprendizaje preescolar nem",
+  "rincones de aprendizaje preescolar pdf",
+  "rincones de lectura preescolar",
+  "rincones matemáticas preescolar",
+  "rincones para preescolar",
+  "rincones preescolar",
+  "ropa deportiva sumas pay",
+  "ropa interior sumas pay",
+  "ropa letras",
+  "ropa letras goticas",
+  "ropa letras japonesas",
+  "ropa matemáticas",
+  "ropa para contar",
+  "ropa sumas",
+  "saliendo del hospital letras",
+  "silabario",
+  "silabario hispanoamericano",
+  "silabario para aprender a leer",
+  "silabario para imprimir",
+  "silabario para imprimir completo",
+  "silabario para imprimir pdf",
+  "silabario para niños",
+  "silabario para primer grado",
+  "silabario pdf",
+  "silabario vigo",
+  "silabas ma me mi mo mu para niños",
+  "sopa de letras 4 de julio",
+  "sopa de letras utensilios de cocina",
+  "sumas animales",
+  "sumas con partes del cuerpo",
+  "sumas dinosaurios para niños",
+  "sumas flores",
+  "sumas flores matematicas",
+  "sumas formas vertical",
+  "sumas frutas",
+  "sumas hasta 10",
+  "sumas hasta 10 con dibujos",
+  "sumas hasta 10 para colorear",
+  "sumas hasta 10 para niños",
+  "sumas hasta 10 para primer grado",
+  "sumas hasta 10 wordwall",
+  "sumas hasta 100",
+  "sumas hasta 100 wordwall",
+  "sumas hasta 1000",
+  "sumas hasta 1000 wordwall",
+  "sumas hospital",
+  "sumas hospital enugu",
+  "sumas invierno",
+  "sumas navidad infantil",
+  "sumas navidad primer grado",
+  "sumas pascua",
+  "sumas pascua cokitos",
+  "sumas playa",
+  "sumas primavera",
+  "sumas primavera cokitos",
+  "sumas primavera infantil",
+  "sumas verano",
+  "sílabas",
+  "sílabas compuestas",
+  "sílabas con ma me mi mo mu",
+  "sílabas inversas",
+  "sílabas ma me mi mo mu",
+  "sílabas ma me mi mo mu ejercicios",
+  "sílabas ma me mi mo mu pa pe pi po pu",
+  "sílabas ma me mi mo mu para colorear",
+  "sílabas ma me mi mo mu para imprimir",
+  "sílabas ma me mi mo mu para imprimir pdf",
+  "sílabas ma me mi mo mu para recortar",
+  "sílabas ma me mi mo mu para repasar",
+  "sílabas ma me mi mo mu pdf",
+  "sílabas para imprimir y recortar pdf",
+  "sílabas simples",
+  "sílabas trabadas",
+  "sílabas tónicas",
+  "sílabas átonas",
+  "taller de refuerzo preescolar",
+  "tapete de refuerzo preescolar",
+  "tarea preescolar",
+  "tarea preescolar 1",
+  "tarea preescolar 2",
+  "tarea preescolar 3",
+  "tarea preescolar 5 años",
+  "tarea preescolar cuaderno",
+  "tarea preescolar libreta",
+  "tarea preescolar numeros",
+  "tarea preescolar para imprimir",
+  "tarea preescolar vocales",
+  "tarea presenta tus fichas",
+  "tarea presenta tus fichas textuales",
+  "tiendas de ropa sumas pay",
+  "tipos de árboles matemáticas discretas",
+  "transmitir emociones contar historias expresar opiniones",
+  "utensilios de cocina 8 letras",
+  "utensilios de cocina cinco letras",
+  "utensilios de cocina con 6 letras",
+  "utensilios de cocina con las letras del abecedario",
+  "utensilios de cocina crucigrama 5 letras",
+  "utensilios de cocina letras",
+  "verano letras",
+  "verano letras 3d",
+  "verano letras animadas",
+  "verano letras bonitas",
+  "verano letras para colorear",
+  "verano letras para imprimir",
+  "verano letras png",
+  "verano matemáticas",
+  "verduras con letras d",
+  "verduras con letras del abecedario",
+  "verduras con letras g",
+  "verduras con letras m",
+  "verduras con letras n",
+  "verduras con letras u",
+  "verduras letras",
+  "verduras letras bonitas",
+  "verduras para contar",
+  "vida marina 4 letras",
+  "vida marina con 4 letras ahorcado",
+  "vida marina con 4 letras empieza con o",
+  "vida marina con 4 letras empieza con v y termina con a",
+  "vida marina con 4 letras en español",
+  "vida marina con 4 letras termina en a",
+  "vida marina con 4 letras termina en ca",
+  "vida marina con 5 letras",
+  "vida marina letras",
+  "vida marina que lleve cuatro letras",
+  "árboles cinco letras",
+  "árboles con peso matemáticas discretas",
+  "árboles matemáticas discretas",
+  "árboles matemáticas discretas pdf",
+  "árboles y redes matemáticas discretas",
+  "árboles y redes matemáticas discretas pdf"
+ ],
+ "novel": [
+  "4 de julio letras",
+  "abbotsford hospital sumas wing",
+  "accesorios crocs letras",
+  "accesorios de letras bonitas",
+  "accesorios letras",
+  "accesorios matemáticas",
+  "accesorios para contar",
+  "accesorios para contar cuentos",
+  "accesorios para decorar letras",
+  "accesorios para letras",
+  "accesorios para letras 3d",
+  "accesorios para letras copiar y pegar",
+  "accesorios para pulseras letras",
+  "actividades contar",
+  "actividades contar de 10 en 10",
+  "actividades contar de 2 en 2",
+  "actividades contar de 2 en 2 para imprimir",
+  "actividades contar de 5 en 5",
+  "actividades contar dinero",
+  "actividades contar hasta 10",
+  "actividades contar objetos",
+  "actividades contar silabas",
+  "actividades letras",
+  "actividades letras bonitas",
+  "actividades letras galegas",
+  "actividades letras galegas 2026",
+  "actividades letras galegas infantil",
+  "actividades letras m p l s",
+  "actividades letras niños 4 años",
+  "actividades letras preescolar",
+  "actividades letras que suben y bajan para niños",
+  "actividades letras trabadas",
+  "actividades matemáticas",
+  "actividades matemáticas para cuarto grado",
+  "actividades matemáticas para preescolar",
+  "actividades matemáticas para primer grado de primaria",
+  "actividades matemáticas primer grado",
+  "actividades matemáticas quinto grado",
+  "actividades matemáticas secundaria",
+  "actividades matemáticas segundo grado",
+  "actividades matemáticas sexto grado",
+  "actividades matemáticas tercer grado",
+  "actividades navidad matemáticas",
+  "actividades navidad matemáticas secundaria",
+  "actividades refuerzo preescolar",
+  "actividades sumas",
+  "actividades sumas llevando",
+  "actividades sumas preescolar",
+  "actividades sumas primer grado",
+  "actividades sumas que dan 10",
+  "actividades sumas y restas",
+  "actividades sumas y restas preescolar",
+  "actividades sumas y restas primer grado",
+  "actividades sumas y restas segundo grado",
+  "actividades sumas y restas tercer grado",
+  "aldi juguetes letras",
+  "alemán juguetes letras",
+  "animales de granja con tres letras",
+  "animales de granja letras",
+  "animales de granja para contar",
+  "animales de granja sopa de letras",
+  "animales de la granja para contar set matemática 3",
+  "animales de la granja para contar y clasificar",
+  "animales letras",
+  "animales letras bonitas",
+  "animales letras del abecedario",
+  "animales letras desordenadas",
+  "animales matemáticas",
+  "animales para matemáticas",
+  "atividade contar frutas",
+  "aves letras",
+  "aves letras bonitas",
+  "aves migratorias letras",
+  "barras de colores matemáticas",
+  "beso de desayuno letras",
+  "caligrafia para niños",
+  "caligrafía",
+  "caligrafía copiar y pegar",
+  "caligrafía de dibujos",
+  "caligrafía ejercicios",
+  "caligrafía letras",
+  "caligrafía para mejorar la letra",
+  "caligrafía para mejorar la letra pdf",
+  "caligrafía para niños de 10 a 12 años pdf",
+  "caligrafía y ortografía",
+  "campamento 5 letras",
+  "campamento beduino 5 letras",
+  "campamento crucigrama 5 letras",
+  "campamento de verano matemáticas",
+  "campamento gitano 5 letras",
+  "campamento letras",
+  "campamento letras bonitas",
+  "campamento matemáticas",
+  "campamento matemáticas 2025",
+  "campamento matemáticas madrid",
+  "campamento matemáticas uam",
+  "campamento nocturno 5 letras",
+  "campamento provisional cinco letras",
+  "chuy verduras letras",
+  "clima en sumas washington",
+  "clima letras",
+  "clima letras bonitas",
+  "clima letras ec",
+  "clima letras hoy",
+  "clima letras tolima",
+  "clima matemáticas",
+  "clima para matemáticas",
+  "clima sumas",
+  "colorear por colores sumas y restas",
+  "colorear sumas navidad",
+  "colores bonitos para matemáticas",
+  "colores letras",
+  "colores letras del abecedario",
+  "colores letras ff",
+  "colores letras fivem",
+  "colores letras free fire",
+  "colores letras google",
+  "colores letras minecraft",
+  "colores letras montessori",
+  "colores letras tdah",
+  "colores letras whatsapp",
+  "colores matemáticas",
+  "colores para matemáticas",
+  "colores representativos de matemáticas",
+  "colores sumas",
+  "como contar aves",
+  "conciencia fonológica actividades para niños",
+  "concurso primavera matemáticas",
+  "concurso primavera matemáticas 2025",
+  "concurso primavera matemáticas 2026",
+  "concurso primavera matemáticas ejercicios",
+  "concurso primavera matemáticas madrid",
+  "concurso primavera matemáticas pdf",
+  "concurso primavera matemáticas pdf 2024",
+  "concurso primavera matemáticas upv",
+  "concurso primavera matemáticas upv 2025",
+  "conde contar navidad",
+  "conjunto de animales matemáticas",
+  "conjunto de colores matemáticas",
+  "conjunto de flores matemáticas",
+  "conjunto de juguetes matemáticas",
+  "conjunto de ropa matemáticas",
+  "conjunto de verduras matemáticas",
+  "conjuntos de frutas matemáticas",
+  "contar animales",
+  "contar animales actividad",
+  "contar animales cokitos",
+  "contar animales de la granja",
+  "contar animales de la granja wordwall",
+  "contar animales en japones",
+  "contar animales hasta 10",
+  "contar animales hasta 10 cokitos",
+  "contar animales marinos",
+  "contar animales preescolar",
+  "contar emociones",
+  "contar espacio",
+  "contar espacio en blanco excel",
+  "contar espacio en excel",
+  "contar flores",
+  "contar formas",
+  "contar frutas para niños",
+  "contar frutas wordwall",
+  "contar frutas y verduras",
+  "contar juguetes",
+  "contar navidad",
+  "contar partes del cuerpo",
+  "contar primavera cokitos",
+  "contar ropa",
+  "contar verduras",
+  "cosas que vuelan con las letras del abecedario",
+  "cuadernillo",
+  "cuadernillo cuadriculado",
+  "cuadernillo de lectoescritura",
+  "cuadernillo de pruebas nacionales 2025 pdf",
+  "cuadernillo de refuerzo preescolar",
+  "cuadernillo icfes 2026 pdf con respuestas",
+  "cuadernillo para aprender a leer y escribir primer grado pdf gratis",
+  "cuadernillo rubio",
+  "cuadernillos cine",
+  "cuadernillos icfes",
+  "cuaderno verano matemáticas 1 eso pdf con soluciones",
+  "cuaderno verano matemáticas 3 eso con soluciones",
+  "cuadernos rubio",
+  "cuadricula para niños",
+  "cuadrícula",
+  "cuadrícula dibujos",
+  "cuadrícula para dibujar",
+  "cuadrícula para imprimir",
+  "cuadrícula para quinto grado",
+  "cuadrícula para segundo grado",
+  "cuadrícula png",
+  "cuadrícula una imagen",
+  "cuadrículas fáciles",
+  "desayuno barrio letras",
+  "desayuno letras",
+  "desayuno letras bonitas",
+  "desayuno saludable letras bonitas",
+  "dibujo.navidad sumas",
+  "dinosaurios contar",
+  "dinosaurios letras",
+  "dinosaurios letras animadas",
+  "dinosaurios letras raul beltran",
+  "dinosaurios para contar",
+  "dinosaurios para contar 60 piezas",
+  "dinosaurios para contar y colorear",
+  "dinosaurios sumas",
+  "dinosaurios sumas y restas",
+  "dinosaurios. matemáticas",
+  "emociones en matemáticas",
+  "emociones letras",
+  "emociones letras bonitas",
+  "emociones letras hades",
+  "emociones letras para imprimir",
+  "emociones letras roberto carlos",
+  "emociones para contar",
+  "emociones para contar libro",
+  "emociones para contar pdf",
+  "escuela de invierno matemáticas",
+  "espacio curricular matemáticas",
+  "espacio letras",
+  "espacio letras bonitas",
+  "espacio letras css",
+  "espacio letras free fire",
+  "espacio letras invisible",
+  "espacio letras word",
+  "espacio matemáticas",
+  "espacio muestral en matemáticas",
+  "espacio muestral en matemáticas ejemplos",
+  "espacio muestral matemáticas",
+  "espacio para contar",
+  "espacio para contar cuentos",
+  "espacio sideral letras",
+  "espacio tridimensional en matemáticas",
+  "espacio vectorial en matemáticas",
+  "espacio y forma matemáticas",
+  "felices pascua letras",
+  "feliz navidad matemáticas",
+  "feliz pascua letras",
+  "feliz pascua letras bonitas",
+  "feliz pascua letras para imprimir",
+  "ficha contar navidad",
+  "fichas de colores matemáticas",
+  "fichas letra b infantil",
+  "fichas letra b letrilandia",
+  "fichas letra b mayúscula",
+  "fichas letra b minuscula",
+  "fichas letra b pdf",
+  "fichas letra c infantil",
+  "fichas letra c pdf",
+  "fichas letra d infantil",
+  "fichas letra d letrilandia",
+  "fichas letra d mayuscula",
+  "fichas letra d minuscula",
+  "fichas letra d pdf",
+  "fichas letra d primer grado",
+  "fichas letra e infantil",
+  "fichas letra e letrilandia",
+  "fichas letra e mayuscula",
+  "fichas letra e mayuscula 3 años",
+  "fichas letra e mayuscula para imprimir",
+  "fichas letra e minuscula",
+  "fichas letra e minúscula para imprimir",
+  "fichas letra e pdf",
+  "fichas letra f infantil",
+  "fichas letra f letrilandia",
+  "fichas letra f mayuscula",
+  "fichas letra g para imprimir",
+  "fichas letra g pdf",
+  "fichas letra h 3 primaria",
+  "fichas letra h infantil",
+  "fichas letra j infantil",
+  "fichas letra j letrilandia",
+  "fichas letra j minuscula",
+  "fichas letra k infantil",
+  "fichas letra k para primaria",
+  "fichas letra l letrilandia pdf",
+  "fichas letra l mayuscula",
+  "fichas letra l minuscula",
+  "fichas letra l pdf",
+  "fichas letra m letrilandia pdf",
+  "fichas letra n infantil",
+  "fichas letra n letrilandia",
+  "fichas letra n mayuscula",
+  "fichas letra n minuscula",
+  "fichas letra n pdf",
+  "fichas letra p letrilandia pdf",
+  "fichas letra q para imprimir",
+  "fichas letra r infantil",
+  "fichas letra r letrilandia",
+  "fichas letra r mayuscula",
+  "fichas letra r pdf",
+  "fichas letra r suave",
+  "fichas letra s infantil",
+  "fichas letra s letrilandia",
+  "fichas letra s mayuscula para imprimir",
+  "fichas letra s minuscula",
+  "fichas letra s primer grado",
+  "fichas letra t 5 años",
+  "fichas letra t infantil",
+  "fichas letra t letrilandia",
+  "fichas letra t letrilandia pdf",
+  "fichas letra t mayuscula",
+  "fichas letra t minuscula",
+  "fichas letra t pdf",
+  "fichas letra u letrilandia",
+  "fichas letra u mayuscula",
+  "fichas letra u mayuscula 3 años",
+  "fichas letra u minuscula",
+  "fichas letra u para imprimir",
+  "fichas letra v infantil",
+  "fichas letra v letrilandia",
+  "fichas letra v para imprimir",
+  "fichas letra v pdf",
+  "fichas letra w para niños",
+  "fichas letra z infantil",
+  "fichas letra ñ para infantil",
+  "fichas navidad sumas",
+  "fichas para 4 años",
+  "fichas refuerzo escolar 2025",
+  "fichas refuerzo escolar 2025 primaria",
+  "fichas refuerzo lengua 4 primaria",
+  "fichas refuerzo lengua 5 primaria santillana",
+  "fichas refuerzo matematicas 2 primaria",
+  "fichas refuerzo matematicas 3 primaria",
+  "fichas refuerzo matematicas 4 primaria",
+  "fichas tarea",
+  "figuras geometricas para niños",
+  "figuras geométricas",
+  "figuras geométricas 3d",
+  "figuras geométricas 3d para armar",
+  "figuras geométricas con nombre",
+  "figuras geométricas en inglés",
+  "figuras geométricas para armar",
+  "figuras geométricas para imprimir",
+  "figuras geométricas planas",
+  "figuras geométricas y sus nombres",
+  "flores babi letras",
+  "flores letras",
+  "flores letras bonitas",
+  "flores letras copiar y pegar",
+  "flores letras latin mafia",
+  "flores letras para decorar",
+  "flores letras xavi",
+  "flores matemáticas",
+  "flores para contar",
+  "flores para contar y colorear",
+  "flores para matemáticas",
+  "formas de contar billetes",
+  "formas de contar con los dedos",
+  "formas de contar dinero",
+  "formas de contar en japones",
+  "formas de contar un cuento",
+  "formas de contar un cuento para niños",
+  "formas de contar un embarazo",
+  "formas de contar una historia",
+  "formas de escribir matemáticas",
+  "formas de hacer sumas",
+  "formas de hacer sumas en excel",
+  "formas de matemáticas primaria",
+  "formas de resolver sumas",
+  "formas de resolver sumas de fracciones",
+  "formas de resolver sumas de fracciones con diferente denominador",
+  "formas de resolver sumas y restas",
+  "formas de sumas de fracciones",
+  "formas de sumas y restas",
+  "formas letras",
+  "formas letras bonitas",
+  "formas letras diferentes",
+  "formas letras para carteles",
+  "formas matemáticas",
+  "formas matemáticas de decir te amo",
+  "formas matemáticas en español",
+  "formas modulares matemáticas",
+  "formas para matemáticas",
+  "frutas con letras d",
+  "frutas con letras del abecedario en español",
+  "frutas con letras e",
+  "frutas con letras m",
+  "frutas contar",
+  "frutas letras",
+  "frutas letras bonitas",
+  "frutas letras del abecedario",
+  "frutas matemáticas",
+  "frutas para contar",
+  "frutas para contar del 1 al 10",
+  "frutas para contar del 1 al 20",
+  "frutas para contar y colorear",
+  "frutas para matemáticas",
+  "frutas por letras",
+  "geometría del espacio matemáticas",
+  "grafomotricidad",
+  "grafomotricidad 3 años",
+  "grafomotricidad ejercicios",
+  "grafomotricidad para niños",
+  "grafomotricidad para niños de 3 años",
+  "grafomotricidad para niños de 4 años",
+  "grafomotricidad para niños de 5 años",
+  "grafomotricidad para preescolar",
+  "grafomotricidad pdf",
+  "grafomotricidad preescolar",
+  "grafos y árboles matemáticas discretas",
+  "guia de refuerzo preescolar",
+  "herramientas artísticas para contar una historia",
+  "herramientas cinco letras",
+  "herramientas de letras para facebook",
+  "herramientas de letras vilma nuñez",
+  "herramientas digitales letras",
+  "herramientas letras",
+  "herramientas letras bonitas",
+  "herramientas letras negritas",
+  "herramientas matemáticas",
+  "herramientas matemáticas 1 algebra siglo 21",
+  "herramientas matemáticas antiguas",
+  "herramientas matemáticas i - álgebra",
+  "herramientas matemáticas ii - análisis",
+  "herramientas matemáticas iii",
+  "herramientas matemáticas iii - estadística i",
+  "herramientas matemáticas iv - investigación operativa",
+  "herramientas matemáticas para la localización espacial",
+  "herramientas matemáticas vi - modelos de simulación",
+  "herramientas para contar",
+  "herramientas para contar calorias",
+  "herramientas para contar cuentos",
+  "herramientas para contar historias",
+  "herramientas para contar numeros",
+  "herramientas para contar palabras",
+  "herramientas para contar para niños",
+  "herramientas para contar plantas y animales",
+  "herramientas para contar plantas y animales pequeños",
+  "herramientas para letras",
+  "herramientas para letras 3d",
+  "herramientas para letras corporeas",
+  "hospital 9 letras",
+  "hospital 9 letras crucigrama",
+  "hospital contar",
+  "hospital crucigramas 5 letras",
+  "hospital letras",
+  "hospital letras bonitas",
+  "hospital letras dibujo",
+  "hospital letras para imprimir",
+  "hospital matemáticas",
+  "invierno letras",
+  "invierno letras bonitas",
+  "invierno letras para colorear",
+  "invierno letras para imprimir",
+  "juguetes aprender a contar",
+  "juguetes con letras del abecedario",
+  "juguetes de matemáticas y para contar",
+  "juguetes de sumas",
+  "juguetes de sumas y restas",
+  "juguetes didacticos para contar",
+  "juguetes letras",
+  "juguetes letras niños",
+  "juguetes letras y numeros",
+  "juguetes matemáticas",
+  "juguetes para aprender matemáticas",
+  "juguetes para contar",
+  "juguetes para contar niños",
+  "juguetes para matemáticas",
+  "la hora",
+  "la hora de jugar",
+  "la hora de king kong",
+  "la hora de la 1 directo",
+  "la hora de la desaparición",
+  "la hora de tu muerte",
+  "la hora en chile",
+  "la hora en españa",
+  "la hora pico",
+  "la hora. cl",
+  "lectoescritura",
+  "lectoescritura 1 primaria pdf",
+  "lectoescritura actividades",
+  "lectoescritura para niños",
+  "lectoescritura para primer grado",
+  "lectoescritura pdf",
+  "lectoescritura preescolar",
+  "lectoescritura primer grado",
+  "lectoescritura primer grado actividades",
+  "lectoescritura primer grado mayuscula",
+  "lectoescritura primer grado pdf",
+  "lectoescritura primer grado por amor al norte de veracruz pdf",
+  "lectoescritura primer grado portada",
+  "lectoescritura primer grado preescolar",
+  "lectoescritura primer grado primaria",
+  "lectoescritura primer grado veracruz educando a distancia",
+  "lectoescritura primer grado wordwall",
+  "lectoescritura que es",
+  "lectoescritura segundo grado",
+  "letra a fichas",
+  "letra a fichas infantil",
+  "letra b fichas",
+  "letra b fichas de trabajo",
+  "letra b fichas para imprimir",
+  "letra c fichas",
+  "letra c fichas para imprimir",
+  "letra d fichas",
+  "letra d fichas de trabajo",
+  "letra d fichas lectoescritura",
+  "letra d fichas para imprimir",
+  "letra e fichas",
+  "letra e fichas para imprimir",
+  "letra f fichas",
+  "letra f fichas de trabajo",
+  "letra f fichas para imprimir",
+  "letra f fichas pdf",
+  "letra f fichas primer grado",
+  "letra fichas negras",
+  "letra g fichas",
+  "letra g fichas de trabajo",
+  "letra h fichas",
+  "letra h fichas para imprimir",
+  "letra i fichas",
+  "letra j fichas",
+  "letra j fichas para imprimir",
+  "letra k fichas",
+  "letra l fichas",
+  "letra l fichas de trabajo",
+  "letra l fichas lectoescritura",
+  "letra l fichas para imprimir",
+  "letra l mis fichas",
+  "letra m fichas",
+  "letra m fichas de trabajo",
+  "letra m fichas lectoescritura",
+  "letra m fichas para imprimir",
+  "letra m fichas para niños",
+  "letra m fichas pdf",
+  "letra m mayuscula fichas",
+  "letra m mis fichas",
+  "letra n fichas",
+  "letra n fichas de trabajo",
+  "letra n fichas para imprimir",
+  "letra n fichas primer grado",
+  "letra o fichas",
+  "letra p fichas",
+  "letra p fichas de trabajo",
+  "letra p fichas para imprimir",
+  "letra p fichas para niños",
+  "letra p fichas pdf",
+  "letra p fichas primer grado",
+  "letra p mayuscula fichas",
+  "letra p mis fichas",
+  "letra q fichas",
+  "letra r fichas",
+  "letra r fichas de trabajo",
+  "letra r fichas para imprimir",
+  "letra s fichas",
+  "letra s fichas de trabajo",
+  "letra s fichas para imprimir",
+  "letra s fichas pdf",
+  "letra s mis fichas",
+  "letra t fichas",
+  "letra t fichas de trabajo",
+  "letra t fichas para imprimir",
+  "letra u fichas",
+  "letra u fichas infantil",
+  "letra v fichas",
+  "letra v fichas de trabajo",
+  "letra w fichas",
+  "letra x fichas",
+  "letra y fichas",
+  "letra z fichas",
+  "letra z fichas de trabajo",
+  "letras animales de la selva",
+  "letras animales invertebrados",
+  "letras animales para imprimir",
+  "letras animales salvajes",
+  "letras animales vertebrados",
+  "letras animales vertebrados e invertebrados",
+  "letras aves de las tempestades",
+  "letras aves de paso",
+  "letras aves del tiempo",
+  "letras aves del tiempo cap 5",
+  "letras aves en el desierto",
+  "letras aves negras",
+  "letras aves solo cadaver",
+  "letras campamento celestial",
+  "letras campamento de verano",
+  "letras clima lindo",
+  "letras clima lindo 1 hour",
+  "letras clima lindo slowed",
+  "letras clima lindo super slowed",
+  "letras clima tropical",
+  "letras de compras en el supermercado las perrerías de mike ep 1",
+  "letras desayuno o cigarro",
+  "letras desayuno para' 2",
+  "letras desayuno saludable",
+  "letras dinosaurios cancion",
+  "letras dinosaurios canva",
+  "letras dinosaurios font",
+  "letras dinosaurios para colorear",
+  "letras dinosaurios para imprimir",
+  "letras dinosaurios png",
+  "letras dinosaurios raúl beltrán video musical",
+  "letras emociones @hades66mmnf",
+  "letras emociones elixir tyei piku",
+  "letras emociones hades66",
+  "letras emociones hades66 angel yamil santiago vazquez",
+  "letras emociones wisin & yandel topic",
+  "letras espacio luister la voz",
+  "letras espacio vacío",
+  "letras espacio vacío thalles roberto en español 2023",
+  "letras flores amarillas",
+  "letras flores pa los muertos",
+  "letras flores preservadas",
+  "letras formas de amor",
+  "letras formas de animales",
+  "letras formas de escribir",
+  "letras formas de pensar",
+  "letras formas geometricas",
+  "letras formas tamaños significado e intención",
+  "letras frutas del diablo",
+  "letras frutas y verduras",
+  "letras hospital for souls",
+  "letras hospital pettinellis",
+  "letras invierno del 92",
+  "letras invierno en primavera",
+  "letras invierno infantil",
+  "letras invierno para colorear e imprimir",
+  "letras invierno para imprimir pdf",
+  "letras invierno reik",
+  "letras juguetes de accion",
+  "letras juguetes de accion nuco",
+  "letras juguetes perdidos",
+  "letras juguetes perdidos en vivo",
+  "letras pascua de resurreccion",
+  "letras pascua gaiteros de pillopo",
+  "letras pascua joven",
+  "letras playa del carmen",
+  "letras playa del carmen fotos",
+  "letras playa del inglés",
+  "letras playa miramar",
+  "letras playa privada",
+  "letras playa sola",
+  "letras playa sola los invasores de nuevo león",
+  "letras primavera azul",
+  "letras ropa apretada",
+  "letras ropa cara camilo",
+  "letras ropa cara el jordan 23 pailita",
+  "letras ropa de bazar",
+  "letras ropa de bazar feat bratty",
+  "letras ropa interior",
+  "letras ropa sucia patricio rey y sus redonditos de ricota",
+  "letras verano azul",
+  "letras verano rosa",
+  "letras verano traidor",
+  "letras verduras y frutas",
+  "letras árboles en el tejado",
+  "letrilandia letra l fichas",
+  "letrilandia letra m fichas",
+  "letrilandia letra p fichas",
+  "mascotas de sumas mentales",
+  "mascotas de sumas mentales coloreado",
+  "mascotas letras",
+  "matemáticas en el supermercado",
+  "matemáticas formas geométricas",
+  "matemáticas navidad 2 primaria",
+  "matemáticas navidad secundaria",
+  "mis mascotas letras",
+  "mis mascotas letras bonitas",
+  "mis mascotas letras para imprimir",
+  "modalidad rincones preescolar",
+  "montessori contar juguetes",
+  "muebles 4 letras",
+  "muebles con 3 letras",
+  "muebles con 5 letras",
+  "muebles con 6 letras",
+  "muebles con las letras del abecedario",
+  "muebles letras",
+  "muebles sumas pay",
+  "música contar que beijo em outra boca",
+  "música de sumas perú",
+  "música de sumas y restas",
+  "música letras",
+  "música letras bonitas",
+  "música letras que pesan",
+  "música letras y notas",
+  "música matemáticas",
+  "música para contar dinero",
+  "música para matemáticas",
+  "música y matemáticas caixaforum valencia",
+  "música y matemáticas curiosidades",
+  "música y matemáticas libro",
+  "música y matemáticas pdf",
+  "música y matemáticas un viaje sonoro del caos al cosmos",
+  "navidad letras",
+  "navidad letras 3d",
+  "navidad letras bonitas",
+  "navidad letras decoradas",
+  "navidad letras doradas",
+  "navidad letras grandes",
+  "navidad letras molde",
+  "navidad letras para colorear",
+  "navidad letras para imprimir",
+  "navidad letras png",
+  "navidad matemáticas",
+  "navidad para contar",
+  "navidad sumas",
+  "navidad sumas y restas",
+  "necesidades educativas especiales en preescolar",
+  "necesidades especiales en preescolar",
+  "ocupaciones 4 letras crucigrama",
+  "ocupaciones crucigrama 3 letras",
+  "ocupaciones cuatro letras",
+  "ocupaciones letras",
+  "ocupaciones sopa de letras de oficios y profesiones para niños",
+  "oficina de correos barrio de las letras",
+  "paes de invierno matemáticas",
+  "paleta de colores matemáticas",
+  "panadería letras",
+  "panadería letras bonitas",
+  "panadería letras para imprimir",
+  "panadería seis letras",
+  "partes del cuerpo 4 letras",
+  "partes del cuerpo 5 letras",
+  "partes del cuerpo 6 letras",
+  "partes del cuerpo humano letras",
+  "partes del cuerpo humano letras para imprimir",
+  "partes del cuerpo letras",
+  "partes del cuerpo letras bonitas",
+  "partes del cuerpo letras para imprimir",
+  "partes del cuerpo para contar",
+  "partes del cuerpo por letras",
+  "partes del cuerpo sin letras",
+  "pascua letras",
+  "pascua letras bonitas",
+  "pascua sopa de letras",
+  "pauta montessori",
+  "pauta montessori 5 mm",
+  "pauta montessori en canva",
+  "pauta montessori escritura",
+  "pauta montessori generador",
+  "pauta montessori libreta",
+  "pauta montessori para escribir",
+  "pauta montessori para imprimir",
+  "pauta montessori para imprimir pdf",
+  "pauta montessori pdf",
+  "planeacion por rincones preescolar",
+  "playa de matemáticas",
+  "playa letras",
+  "playa letras cancun",
+  "playa letras de cartagena",
+  "portada navidad matemáticas",
+  "preescolar rincones de aprendizaje",
+  "primavera letras",
+  "primavera letras animadas",
+  "primavera letras bonitas",
+  "primavera letras decoradas",
+  "primavera letras grandes",
+  "primavera letras para colorear",
+  "primavera letras para imprimir",
+  "primavera letras pdf",
+  "primavera letras png",
+  "primavera matemáticas",
+  "quince letras desayuno",
+  "ray flores matemáticas",
+  "refuerzo escolar para preescolar",
+  "refuerzo fichas de lengua 1 primaria",
+  "refuerzo fichas de matematicas 1 primaria",
+  "refuerzo fichas ingles 2 primaria",
+  "refuerzo positivo en preescolar",
+  "refuerzo preescolar",
+  "refuerzo vocales preescolar",
+  "regletas de colores matemáticas",
+  "repaso verano matemáticas 1 eso pdf",
+  "repaso verano matemáticas 2 primaria",
+  "repaso verano matemáticas 4 primaria pdf",
+  "restas hasta 10",
+  "restas hasta 10 con dibujos",
+  "restas hasta 10 interactivo",
+  "restas hasta 10 para primer grado",
+  "restas hasta 10 wordwall",
+  "restas hasta 100",
+  "restas hasta 100 en wordwall",
+  "restas hasta 100 sin llevar",
+  "restas hasta 1000",
+  "restas hasta 10000",
+  "rincones de aprendizaje preescolar ejemplos",
+  "rincones de aprendizaje preescolar nem",
+  "rincones de aprendizaje preescolar pdf",
+  "rincones de lectura preescolar",
+  "rincones matemáticas preescolar",
+  "rincones para preescolar",
+  "rincones preescolar",
+  "ropa deportiva sumas pay",
+  "ropa interior sumas pay",
+  "ropa letras",
+  "ropa letras goticas",
+  "ropa letras japonesas",
+  "ropa matemáticas",
+  "ropa para contar",
+  "ropa sumas",
+  "saliendo del hospital letras",
+  "silabario",
+  "silabario hispanoamericano",
+  "silabario para aprender a leer",
+  "silabario para imprimir",
+  "silabario para imprimir completo",
+  "silabario para imprimir pdf",
+  "silabario para niños",
+  "silabario para primer grado",
+  "silabario pdf",
+  "silabario vigo",
+  "silabas ma me mi mo mu para niños",
+  "sopa de letras 4 de julio",
+  "sopa de letras utensilios de cocina",
+  "sumas animales",
+  "sumas con partes del cuerpo",
+  "sumas dinosaurios para niños",
+  "sumas flores",
+  "sumas flores matematicas",
+  "sumas formas vertical",
+  "sumas frutas",
+  "sumas hasta 10",
+  "sumas hasta 10 con dibujos",
+  "sumas hasta 10 para colorear",
+  "sumas hasta 10 para niños",
+  "sumas hasta 10 para primer grado",
+  "sumas hasta 10 wordwall",
+  "sumas hasta 100",
+  "sumas hasta 100 wordwall",
+  "sumas hasta 1000",
+  "sumas hasta 1000 wordwall",
+  "sumas hospital",
+  "sumas hospital enugu",
+  "sumas invierno",
+  "sumas navidad infantil",
+  "sumas navidad primer grado",
+  "sumas pascua",
+  "sumas pascua cokitos",
+  "sumas playa",
+  "sumas primavera",
+  "sumas primavera cokitos",
+  "sumas primavera infantil",
+  "sumas verano",
+  "sílabas",
+  "sílabas compuestas",
+  "sílabas con ma me mi mo mu",
+  "sílabas inversas",
+  "sílabas ma me mi mo mu",
+  "sílabas ma me mi mo mu ejercicios",
+  "sílabas ma me mi mo mu pa pe pi po pu",
+  "sílabas ma me mi mo mu para colorear",
+  "sílabas ma me mi mo mu para imprimir",
+  "sílabas ma me mi mo mu para imprimir pdf",
+  "sílabas ma me mi mo mu para recortar",
+  "sílabas ma me mi mo mu para repasar",
+  "sílabas ma me mi mo mu pdf",
+  "sílabas para imprimir y recortar pdf",
+  "sílabas simples",
+  "sílabas trabadas",
+  "sílabas tónicas",
+  "sílabas átonas",
+  "taller de refuerzo preescolar",
+  "tapete de refuerzo preescolar",
+  "tarea preescolar",
+  "tarea preescolar 1",
+  "tarea preescolar 2",
+  "tarea preescolar 3",
+  "tarea preescolar 5 años",
+  "tarea preescolar cuaderno",
+  "tarea preescolar libreta",
+  "tarea preescolar numeros",
+  "tarea preescolar para imprimir",
+  "tarea preescolar vocales",
+  "tarea presenta tus fichas",
+  "tarea presenta tus fichas textuales",
+  "tiendas de ropa sumas pay",
+  "tipos de árboles matemáticas discretas",
+  "transmitir emociones contar historias expresar opiniones",
+  "utensilios de cocina 8 letras",
+  "utensilios de cocina cinco letras",
+  "utensilios de cocina con 6 letras",
+  "utensilios de cocina con las letras del abecedario",
+  "utensilios de cocina crucigrama 5 letras",
+  "utensilios de cocina letras",
+  "verano letras",
+  "verano letras 3d",
+  "verano letras animadas",
+  "verano letras bonitas",
+  "verano letras para colorear",
+  "verano letras para imprimir",
+  "verano letras png",
+  "verano matemáticas",
+  "verduras con letras d",
+  "verduras con letras del abecedario",
+  "verduras con letras g",
+  "verduras con letras m",
+  "verduras con letras n",
+  "verduras con letras u",
+  "verduras letras",
+  "verduras letras bonitas",
+  "verduras para contar",
+  "vida marina 4 letras",
+  "vida marina con 4 letras ahorcado",
+  "vida marina con 4 letras empieza con o",
+  "vida marina con 4 letras empieza con v y termina con a",
+  "vida marina con 4 letras en español",
+  "vida marina con 4 letras termina en a",
+  "vida marina con 4 letras termina en ca",
+  "vida marina con 5 letras",
+  "vida marina letras",
+  "vida marina que lleve cuatro letras",
+  "árboles cinco letras",
+  "árboles con peso matemáticas discretas",
+  "árboles matemáticas discretas",
+  "árboles matemáticas discretas pdf",
+  "árboles y redes matemáticas discretas",
+  "árboles y redes matemáticas discretas pdf"
+ ],
+ "refilteredAt": "2026-07-20T08:58:53.385Z"
+}

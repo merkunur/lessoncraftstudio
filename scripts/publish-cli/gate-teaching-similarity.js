@@ -98,6 +98,7 @@ function main() {
   var blocksPath = arg('blocks', '/tmp/teaching-blocks-' + locale + '.json');
   var top = parseInt(arg('top', '10'), 10);
   var doPages = argv.indexOf('--pages') !== -1;
+  var pruneOut = arg('prune', null);
 
   var blocks = JSON.parse(fs.readFileSync(blocksPath, 'utf8'));
   var slugs = Object.keys(blocks);
@@ -130,6 +131,29 @@ function main() {
 
   var failed = report('block-only', blockPairs, top);
   if (doPages) failed += report('whole-page', pagePairs, top);
+
+  /* --prune drops the LATER deck of each failing pair and writes the survivors.
+   *
+   * After the copy has been tightened as far as its authors can take it, a handful of pairs
+   * survive because those particular decks really are near-identical — same mode, same band,
+   * overlapping pictures. Dropping one of the two is the honest end of the line: the deck
+   * keeps its page and simply gets no block, rather than a block that duplicates its
+   * neighbour's. Earlier-wins is the same tiebreak §15.13 uses for within-batch collisions.
+   *
+   * This must never be reached for a whole class of decks — if it prunes more than a few,
+   * the copy is the problem and the copy is what to fix. */
+  if (pruneOut) {
+    var drop = {};
+    blockPairs.concat(doPages ? pagePairs : []).forEach(function (p) {
+      if (p.j >= FAIL && !drop[p.a]) drop[p.b] = true;
+    });
+    var kept = {};
+    slugs.forEach(function (s) { if (!drop[s]) kept[s] = blocks[s]; });
+    fs.writeFileSync(pruneOut, JSON.stringify(kept, null, 1));
+    console.log('  pruned ' + Object.keys(drop).length + ' deck(s) -> ' + pruneOut
+      + '  (' + Object.keys(kept).length + ' kept)');
+    process.exit(0);
+  }
 
   console.log(failed ? '  FAIL — ' + failed + ' pair(s) at or above ' + FAIL : '  PASS — no pair at or above ' + FAIL);
   process.exit(failed ? 1 : 0);

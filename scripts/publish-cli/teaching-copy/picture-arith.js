@@ -453,4 +453,8 @@ function build(f, ordinal, locale) {
   };
 }
 
-module.exports = { build: build, locales: Object.keys(L) };
+/** The two section headings for a locale. Shared with the other families so the block
+ *  reads as the same furniture on every deck page, whatever the worksheet type. */
+function headings(locale) { return (L[locale] || L.en).headings; }
+
+module.exports = { build: build, locales: Object.keys(L), headings: headings };

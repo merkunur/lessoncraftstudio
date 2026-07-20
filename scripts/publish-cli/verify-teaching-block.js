@@ -33,7 +33,13 @@ function checkOne(slug, block, f, fails) {
   /* A. every operation printed must be one of this deck's own */
   var own = {};
   (f.operations || []).forEach(function (o) { own[o.text.replace(/\s+/g, '')] = true; });
-  var printed = text.match(/\d+\s*[+\-]\s*\d+/g) || [];
+  /* Operations carry SINGLE SPACES around the operator, exactly as derive-teaching-facts.js
+   * normalises them (`a + ' ' + op + ' ' + b`). Matching `\s*` instead let hyphenated RANGE
+   * notation through as if it were arithmetic — `talområdet 0-20`, `Lukualue 0-23`,
+   * `10-15 minuutin` — and reported 680 false failures across the four Nordic locales at
+   * once. The earlier seven wrote their ranges as words (bis 20, up to 20, t/m 20), so the
+   * bug was invisible until a locale used a dash. */
+  var printed = text.match(/\d+ [+\-] \d+/g) || [];
   printed.forEach(function (p) {
     if (!own[p.replace(/\s+/g, '')]) add('operation', 'prints ' + p + ' which is not on this sheet');
   });

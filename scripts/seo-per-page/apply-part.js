@@ -110,6 +110,66 @@ const CAPS_TOKEN = /\b[A-ZÆØÅÄÖÜÉÈ]{3,}\b/g;
 /* Capitals that are not claims about the sheet. */
 const CAPS_ALLOW = new Set(['PDF', 'ABC', 'ESL', 'EAL', 'KS1', 'KS2', 'USA', 'UK', 'TV', 'A4']);
 
+/* Letter-count claims are checkable, so check them.
+ *
+ * A good page says useful things like "POLITIEAGENT is twelve letters long" —
+ * and an author self-reported getting three of those wrong before fixing them.
+ * A teacher can count; if the page says twelve and the word has fourteen, the
+ * page is wrong in a way that is trivially visible. Only sentences naming
+ * exactly one sheet-word are judged, so "SJAAL and SCHORT are five letters
+ * apart" is never misread as a claim about either.
+ */
+const NUMBER_WORDS = {
+  one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9,
+  ten: 10, eleven: 11, twelve: 12, thirteen: 13, fourteen: 14, fifteen: 15,
+  sixteen: 16, seventeen: 17, eighteen: 18, nineteen: 19, twenty: 20,
+};
+
+const NUM_RE = '\\d{1,2}|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty';
+/* The word must be ADJACENT to the claim.
+ *
+ * A looser "any number + letters in the same sentence" version produced three
+ * false accusations out of six on real copy, all of them against good writing:
+ *   "BI is two letters ... SOMMERFUGL is ten"  -> BI is under the 3-char capital
+ *                                                 minimum, so `two` was pinned on
+ *                                                 SOMMERFUGL
+ *   "the one letter a child cannot skim past"  -> not a length claim at all
+ *   "Two letters here belong to Danish"        -> special characters, not length
+ * Requiring "<WORD> is N letters" (or "N letters long" straight after the word)
+ * leaves only real length claims. Two of the six were real: BOTERBLOEM and
+ * VERWARMING are 10, not eleven.
+ */
+const LEN_CLAIM = new RegExp(
+  '([A-ZÆØÅÄÖÜÉÈ]{2,})\\s+(?:is|has|runs to|comes to|sits at|stands at)\\s+(?:just\\s+|only\\s+)?(' + NUM_RE + ')\\s+letters?'
+  + '|([A-ZÆØÅÄÖÜÉÈ]{2,})[^.!?]{0,20}?\\bat\\s+(' + NUM_RE + ')\\s+letters?',
+  'gi');
+
+function letterCountLies(text, sheetWords) {
+  const out = [];
+  const seen = new Set();
+  let m;
+  LEN_CLAIM.lastIndex = 0;
+  while ((m = LEN_CLAIM.exec(String(text))) !== null) {
+    const word = (m[1] || m[3] || '').toUpperCase();
+    const numRaw = (m[2] || m[4] || '').toLowerCase();
+    if (!word || CAPS_ALLOW.has(word)) continue;
+    if (!sheetWords.includes(word)) continue;      // only claims about real sheet words
+    const claimed = /^\d+$/.test(numRaw) ? Number(numRaw) : NUMBER_WORDS[numRaw];
+    if (!claimed || claimed < 2) continue;   // "one letter" is never a length claim
+    // "LIMONADE is one letter AWAY from ours" / "two letters SHORTER" are
+    // comparisons, not lengths. Judge only what follows the match.
+    const after = String(text).slice(m.index + m[0].length, m.index + m[0].length + 24);
+    if (/^\s*(?:away|apart|from|short|shorter|longer|off|different|difference|more|less|fewer)\b/i.test(after)) continue;
+    const actual = [...word].length;
+    const key = word + ':' + claimed;
+    if (actual !== claimed && !seen.has(key)) {
+      seen.add(key);
+      out.push(`${word} is ${actual} letters, page says ${claimed}`);
+    }
+  }
+  return out;
+}
+
 function run(partId, inDir, write) {
   const part = loadJSON(path.join(PARTS_DIR, `${partId}.json`));
   if (!part) throw new Error(`no part ${partId}`);
@@ -195,6 +255,10 @@ function run(partId, inDir, write) {
     }
     if (bogus.size) {
       problems.push(`${slug}: claims word(s) not on the sheet — ${[...bogus].slice(0, 5).join(', ')}`);
+    }
+
+    for (const lie of letterCountLies(raw, sheetWords)) {
+      problems.push(`${slug}: ${lie}`);
     }
 
     // borrowed ordinary nouns (soft) — reported for reading, never blocking

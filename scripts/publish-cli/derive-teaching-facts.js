@@ -34,6 +34,9 @@ var fs = require('fs');
 var path = require('path');
 
 var DECKS_ROOT = '/var/www/lcs-media/decks';
+/* The generator's i18n bundles live in the repo, not beside the decks. Resolved from this
+ * file's own location so the script works from a checkout as well as from the server. */
+var REPO_ROOT = path.resolve(__dirname, '..', '..');
 
 /* ---------------------------------------------------------------- operations */
 
@@ -374,6 +377,118 @@ function deriveCodeAddition(manifest, deckDir) {
   };
 }
 
+/* --------------------------------------------------------- printable family */
+
+/**
+ * The headless worksheet generator's printable decks — 30 collapsed family keys, ~240
+ * worksheet types, 11 locales, and the thinnest pages on the site: 68-78 visible words with
+ * no description of their content at all.
+ *
+ * NOTHING HERE IS AUTHORED. Every sentence already exists, natively, in the generator's own
+ * i18n files, and this adapter only resolves the keys:
+ *
+ *   strings.<locale>.json          worksheet_type -> {title, instruction}
+ *                                  the instruction IS "what the child does", in the right
+ *                                  register, written when the worksheet was designed
+ *   skill-sentences.<locale>.json  exercise_type  -> {full, short}
+ *                                  the pedagogical rationale for the whole family
+ *
+ * Coverage was verified before this was written rather than assumed: 738/738 German printable
+ * decks resolve both keys, 0 misses.
+ *
+ * There is no answer to leak — these decks are `printable_only`, carry no answer key, and most
+ * have no `exercises[]` at all. The numbers that do appear are the grade band and the
+ * difficulty step, neither of which a child has to work out.
+ */
+function derivePrintable(manifest, locale, repoRoot) {
+  var vocab = require('./teaching-vocab.js');
+  var settings = manifest.settings || {};
+  var strings = loadGenStrings(repoRoot, 'strings', locale);
+  var skills = loadGenStrings(repoRoot, 'skill-sentences', locale);
+
+  var wt = settings.worksheet_type || null;
+  var entry = (wt && strings[wt]) || null;
+  var skill = skills[manifest.exercise_type] || null;
+
+  /* The nouns are English library keys in every locale (`sheep`, `duck`), exactly as
+   * build-deck-vocab.js found for thumbnail alt text, so they are translated here. */
+  var nouns = [];
+  var seen = {};
+  (manifest.vocabulary || []).forEach(function (k) {
+    var n = vocab.localizedNoun(String(k), locale);
+    if (!n) return;
+    var key = n.toLowerCase();
+    if (seen[key]) return;
+    seen[key] = true;
+    nouns.push(n);
+  });
+
+  return {
+    derivedMode: manifest.exercise_type || null,   // the collapsed family key IS the mode
+    worksheetType: wt,
+    // Native, already-authored, per worksheet type — the block's distinguishing content.
+    typeTitle: entry ? entry.title : null,
+    instruction: entry ? entry.instruction : null,
+    skillSentence: skill ? skill.full : null,
+    gradeBand: settings.grade_band || null,
+    difficulty: settings.difficulty || null,
+    /* The generator maps difficulty 1/2/3 to an `easy`/null/`hard` exercise_mode, which is
+     * already a user-facing slug component (`brueche-leicht-...`). Two decks of the same
+     * worksheet type and theme differ ONLY in this, so without it their blocks come out
+     * byte-identical — measured at Jaccard 1.000 on the first German run. The localized word
+     * is read from the taxonomy rather than re-authored (§10.4 read-from-SoT). */
+    difficultyLabel: localizedDifficulty(manifest.exercise_mode, locale),
+    ageRange: (manifest.metadata && manifest.metadata.age_range) || manifest.age_range || null,
+    depictedNouns: nouns,
+    band: null,                                    // no arithmetic band in this family
+    answersDoNotPrint: {},                         // nothing to leak: no answer key exists
+  };
+}
+
+/**
+ * `Leicht` / `Schwer` in the deck's own language, from `topics-taxonomy.json`
+ * `axes.exercise-mode`, which is where the slug already gets them. Returns null for the
+ * default difficulty, which has no mode and needs no label.
+ */
+var _taxonomy = null;
+function localizedDifficulty(mode, locale) {
+  if (mode !== 'easy' && mode !== 'hard') return null;
+  if (!_taxonomy) {
+    var candidates = [
+      path.join(REPO_ROOT, 'frontend', 'config', 'topics-taxonomy.json'),
+      '/opt/lessoncraftstudio/frontend/config/topics-taxonomy.json',
+    ];
+    for (var i = 0; i < candidates.length && !_taxonomy; i++) {
+      try { _taxonomy = JSON.parse(fs.readFileSync(candidates[i], 'utf8')); } catch (e) { /* next */ }
+    }
+    if (!_taxonomy) _taxonomy = {};
+  }
+  var axis = (_taxonomy.axes && _taxonomy.axes['exercise-mode']) || {};
+  var entry = axis[mode];
+  return (entry && entry.name && (entry.name[locale] || entry.name.en)) || null;
+}
+
+/** Cache the generator's i18n bundles: one read per (file, locale) instead of per deck. */
+var _genCache = {};
+function loadGenStrings(repoRoot, name, locale) {
+  var key = name + '/' + locale;
+  if (_genCache[key]) return _genCache[key];
+  /* Candidates, not one path: this script is run both from a repo checkout and from a
+   * scratch directory on the server, where a __dirname-relative root resolves to `/`. */
+  var candidates = [
+    repoRoot && path.join(repoRoot, 'scripts', 'worksheet-gen', 'i18n'),
+    '/opt/lessoncraftstudio/scripts/worksheet-gen/i18n',
+  ].filter(Boolean);
+  var out = {};
+  for (var i = 0; i < candidates.length; i++) {
+    var p = path.join(candidates[i], name + '.' + locale + '.json');
+    if (!fs.existsSync(p)) continue;
+    try { out = JSON.parse(fs.readFileSync(p, 'utf8')); break; } catch (e) { /* try next */ }
+  }
+  _genCache[key] = out;
+  return out;
+}
+
 /* ---------------------------------------------------------------- grade band */
 
 /**
@@ -597,7 +712,11 @@ function deriveOne(deckDir) {
    * return early: forcing them through collectOperations would yield zero operations and
    * the "no data" conclusion this script exists to correct. */
   var special = null;
-  if (manifest.exercise_type === 'math-worksheet') special = deriveMathWorksheet(manifest);
+  /* printable_only is checked FIRST and by the flag, not by a type list: the generator adds
+   * worksheet types over time, and a list would silently drop each new one into the
+   * math-puzzle path where it would produce nothing. */
+  if (manifest.printable_only) special = derivePrintable(manifest, manifest.language || 'en', REPO_ROOT);
+  else if (manifest.exercise_type === 'math-worksheet') special = deriveMathWorksheet(manifest);
   else if (manifest.exercise_type === 'more-less') special = deriveMoreLess(manifest, manifest.language || 'en');
   else if (manifest.exercise_type === 'code-addition') special = deriveCodeAddition(manifest, deckDir);
 
@@ -701,7 +820,10 @@ function main() {
     var dir = path.join(localeDir, entries[i]);
     var f = deriveOne(dir);
     if (!f) { skipped++; continue; }
-    if (f.type !== type) continue;
+    /* `--type=printable` selects the whole printable_only population in one pass. It spans 30
+     * exercise types that share one content source, so deriving them one type at a time would
+     * be 30 runs per locale for no gain. */
+    if (type === 'printable' ? !f.worksheetType : f.type !== type) continue;
     results.push(f);
     if (limit && results.length >= limit) break;
   }

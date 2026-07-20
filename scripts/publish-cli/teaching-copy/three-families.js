@@ -783,4 +783,17 @@ var CONJUNCTION = {
   pt: ' e ', sv: ' och ', da: ' og ', no: ' og ', fi: ' ja ',
 };
 
-module.exports = { build: build, locales: Object.keys(L) };
+/**
+ * The parts of a locale's copy that are not tied to any one mechanic — the classroom-use
+ * sentences and the objects sentence. Exposed so the printable family can reuse them instead
+ * of asking eleven practitioners to write a second set that would say the same things.
+ *
+ * Sharing them means cross-FAMILY similarity has to be measured, not assumed; it is, in the
+ * verification for that family.
+ */
+function frameFor(locale) {
+  var t = L[locale];
+  return t ? { uses: t.uses, objects: t.objects, check: t.check } : null;
+}
+
+module.exports = { build: build, locales: Object.keys(L), frameFor: frameFor };

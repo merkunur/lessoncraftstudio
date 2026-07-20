@@ -169,6 +169,13 @@ function main() {
       process.exit(2);
     }
     copySystem = { build: function (f, ord) { return pa.build(f, ord, locale); } };
+  } else if (family === 'printable') {
+    var pr = require('./teaching-copy/printable.js');
+    if (pr.locales.indexOf(locale) === -1) {
+      console.error('no authored frame for ' + locale + ' in the printable family yet (§21.3)');
+      process.exit(2);
+    }
+    copySystem = { build: function (f, ord) { return pr.build(f, ord, locale); } };
   } else if (family === 'math-worksheet' || family === 'more-less' || family === 'code-addition') {
     /* These three share one module for the same reason picture-arithmetic does: their copy
      * needs no per-locale RULES, only per-locale strings. What differs between them is the

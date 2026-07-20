@@ -538,6 +538,28 @@
       "Verzamelopdracht: hoeveel verschillende manieren vindt de klas om 50 cent te leggen? Verzamel ze allemaal op het bord."
     ]
   },
+  "choral-counting": {
+    "slug": "samen-tellen",
+    "name": "Samen tellen",
+    "tagline": "De hele klas telt hardop mee — elke tik schrijft het volgende getal op het bord.",
+    "metaTitle": "Samen tellen – telrij oefenen in groep 1 t/m 4 | Digibord-tool",
+    "metaDescription": "Tel samen hardop: elke tik schrijft het volgende getal in het rooster. Gratis digibord-tool voor de telrij in groep 1 t/m 4, met sprongen en terugtellen.",
+    "about": [
+      "Samen tellen is een klassikale telroutine voor op het digibord. De klas telt hardop en bij elke tik verschijnt het volgende getal in het telrooster, alsof je het zelf op een groot vel papier schrijft. De tool telt nooit vanzelf verder — jij bepaalt het tempo, en juist de pauzes maken het rekenen. Kleur daarna met de stiften de eenheden of de tientallen en vraag: wat valt jullie op? Zet de spraak aan en de klas hoort eenentwintig terwijl er 21 staat — precies de omkering waar getalbegrip in groep 3 en 4 om vraagt.",
+      "Gratis tel je met sprongen van 1 en 10, vanaf 0, 1 of 10 — met vraagteken-vakjes op lege plekken en de gesproken getallen erbij. Met Premium komt de rest: elke sprong en elk startgetal tot 1000, terugtellen, zelf kolommen kiezen, in kolommen schrijven, alle stiften en kleurhulpen voor het patroonwerk, de volledige plank met kant-en-klare tellingen — waaronder Goed luisteren met het lastige stukje 18–42 — en acht opgeslagen tellingen voor je eigen vaste routines."
+    ],
+    "howToUse": [
+      "Kies een kant-en-klare telling, of stel zelf startgetal, sprong en aantal kolommen in.",
+      "Tel samen hardop en tik op Volgende — het getal wordt in het rooster geschreven, in jouw tempo.",
+      "Pauzeer onderweg: zet een vraagteken op een leeg vakje en laat de klas voorspellen wat daar komt te staan.",
+      "Kleur na afloop patronen met de stiften of kleur de eenheden en tientallen, en bespreek samen: wat valt jullie op?"
+    ],
+    "classroomIdeas": [
+      "Maak er een vaste routine van: vijf minuten samen tellen aan het begin van elke rekenles, bij kleuters gewoon in de kring.",
+      "Zet de spraak aan bij het stukje 18–42: de klas hoort eenentwintig terwijl er 21 staat — precies waar omkeringsfouten in groep 3 ontstaan.",
+      "Laat de klas terugtellen vanaf 20 als aftelmoment voor het opruimen — zo oefent de telrij achteruit zich vanzelf."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

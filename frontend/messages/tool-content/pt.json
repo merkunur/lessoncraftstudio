@@ -538,6 +538,28 @@
       "Ditado de quantias: a professora fala uma quantia — um real e quarenta e cinco centavos — e as crianças montam no tapete antes de conferir no alto-falante."
     ]
   },
+  "choral-counting": {
+    "slug": "contagem-em-coro",
+    "name": "Contagem em coro",
+    "tagline": "A turma conta em voz alta e cada toque escreve o próximo número no quadro de contagem.",
+    "metaTitle": "Contagem Oral na Educação Infantil e 1º Ano | Contagem em Coro",
+    "metaDescription": "A turma conta em coro e cada toque escreve o próximo número no quadro. Contagem oral com marcação de padrões e voz em português — pronta para projetar.",
+    "about": [
+      "A contagem em coro é uma rotina curta e poderosa de matemática: a turma inteira conta em voz alta enquanto você registra — cada toque no botão escreve o próximo número no quadro de contagem projetado. A ferramenta nunca avança sozinha: a pausa entre um número e outro é justamente o momento de pensar. No meio da contagem (ou no fim), vem a pergunta que importa: o que vocês perceberam? Canetinhas coloridas destacam padrões, as casinhas com “?” convidam a prever o que vem por aí, e a voz opcional fala cada numeral em português. Da Educação Infantil ao 2º ano, na direção da BNCC: contagem oral, sequência numérica e regularidades do sistema decimal.",
+      "A versão gratuita já cobre a rotina essencial: contar de 1 em 1 e de 10 em 10 (começando em 0, 1 ou 10), com as casinhas de “?”, os números falados e duas contagens prontas para a Educação Infantil. O Premium abre o resto: qualquer passo e ponto de partida (de 0 a 999), contagem regressiva, escolha do número de colunas, registro em colunas, todas as canetinhas e os destaques de unidades e dezenas, a prateleira completa de contagens planejadas e até 8 contagens salvas."
+    ],
+    "howToUse": [
+      "Escolha uma contagem pronta na prateleira ou monte a sua: número inicial, passo e quantidade de colunas.",
+      "A turma conta em voz alta; a cada número falado, toque em Próximo — ele aparece escrito no quadro.",
+      "Pause quando quiser: destaque padrões com as canetinhas ou coloque um “?” numa casinha vazia para a turma prever o número.",
+      "No fim, pergunte “O que vocês perceberam?” e deixe a conversa matemática acontecer — a discussão é o objetivo, não a velocidade."
+    ],
+    "classroomIdeas": [
+      "Roda de matemática na Educação Infantil: contem até 30 e pintem todos os números que terminam em zero — o que essa coluna revela?",
+      "No 1º ano, contem de 10 em 10 começando no 7 e coloquem um “?” três casinhas à frente: quem descobre o número antes de ele chegar?",
+      "No 2º ano, contem de 25 em 25 até 500 e conversem sobre por que os finais 25, 50, 75 e 00 se repetem — uma ponte natural para as moedas de 25 centavos e os quartos de hora."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

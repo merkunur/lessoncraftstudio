@@ -538,6 +538,28 @@
       "Arjen hinnat: tutkikaa kaupan mainoslehteä, valitkaa sieltä tuttu tuote ja maksakaa sen hinta matolle — puhukaa samalla, miksi kaupassa hinnat pyöristyvät viiteen senttiin."
     ]
   },
+  "choral-counting": {
+    "slug": "lasketaan-yhdessa",
+    "name": "Lasketaan yhdessä",
+    "tagline": "Koko luokka laskee ääneen — jokainen napautus kirjoittaa seuraavan luvun taululle.",
+    "metaTitle": "Lasketaan yhdessä – lukujonot ja ääneen laskeminen luokassa",
+    "metaDescription": "Taulutyökalu yhteiseen ääneen laskemiseen: jokainen napautus kirjoittaa seuraavan luvun ruudukkoon. Lukujonot, merkit ja puheääni esikoulusta 2. luokalle.",
+    "about": [
+      "Lasketaan yhdessä tuo koko luokan yhteisen ääneen laskemisen taululle. Luokka laskee yhteen ääneen, ja jokainen napautus kirjoittaa seuraavan luvun ruudukkoon — työkalu ei koskaan kiirehdi eteenpäin, vaan opettaja määrää tahdin. Kun lukujono on taululla, alkaa tärkein vaihe: Mitä huomaatte? Tussiväreillä voi korostaa ruutuja ja kuvioita, ja kysymysmerkillä voi merkitä tyhjän ruudun, jota jäädään yhdessä odottamaan. Halutessaan opettaja voi antaa laitteen lukea jokaisen luvun ääneen: suomen pitkät, läpinäkyvät lukusanat, kuten kaksikymmentäyksi, kuuluvat selvästi, ja sadan jälkeen puhe hidastuu automaattisesti, jotta lukusanan osat erottuvat. Lukujonotaidot ovat esi- ja alkuopetuksen matematiikan ydintä, ja yhdessä laskien niitä harjoittelee koko luokka kerralla.",
+      "Ilmaisversiolla lasketaan ykkösin ja kymmenin: aloitusluvuksi 0, 1 tai 10, käytössä kysymysmerkit, puheääni ja kaksi esikoulun valmista lukujonoa. Premium avaa loput: kaikki askeleet ja aloitusluvut aina tuhanteen asti, taaksepäin laskemisen, sarakkeiden valinnan, tussit ja korostukset, koko valmiiden lukujonojen hyllyn — myös Kuunnellaan tarkasti -jonot, joissa lukusanat pääsevät oikeuksiinsa — sekä enintään kahdeksan tallennettua omaa lukujonoa. Pisteitä tai ajastimia ei ole: vain yhteistä laskemista ja huomaamisen iloa."
+    ],
+    "howToUse": [
+      "Valitse valmis lukujono tai kokoa oma: aloitusluku, askel ja sarakkeiden määrä.",
+      "Lasketaan yhdessä ääneen — napauta Seuraava vasta, kun luokka on sanonut luvun.",
+      "Merkitse kysymysmerkillä ruutu, jota jäädään odottamaan, ja korosta tusseilla lukujen kuvioita.",
+      "Kysy lopuksi: Mitä huomaatte? — keskustelu on koko harjoituksen tärkein osa."
+    ],
+    "classroomIdeas": [
+      "Aamupiirin rutiini: lasketaan joka aamu samaa lukujonoa ja jatketaan siitä, mihin eilen jäätiin.",
+      "Kuunnellaan tarkasti: laita puheääni päälle ja lasketaan sadan yli — huomaatteko, miten lukusanat pitenevät, vaikka puhe rauhoittuu?",
+      "Ennustusleikki: merkitse kysymysmerkki kauas tulevaan ruutuun ja pohtikaa matkan varrella, mikä luku siihen aikanaan kirjoitetaan."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

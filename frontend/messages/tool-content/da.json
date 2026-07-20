@@ -538,6 +538,28 @@
       "Gemte boder til stationer (Premium): Gem en bod pr. gruppe med priser, der passer til gruppens niveau, og lad grupperne rotere gennem det samme marked."
     ]
   },
+  "choral-counting": {
+    "slug": "taelle-i-kor",
+    "name": "Tælle i kor",
+    "tagline": "Klassen tæller højt sammen — hvert tryk skriver det næste tal på arket.",
+    "metaTitle": "Tælle i kor – tæl højt sammen i indskolingen | LessonCraftStudio",
+    "metaDescription": "Tæl højt sammen: hvert tryk skriver det næste tal i talrækken, mens klassen hører enogtyve og halvtreds. Gratis tavleværktøj til børnehaveklasse–2. klasse.",
+    "about": [
+      "Tælle i kor er en fælles tællerutine til tavlen: klassen tæller højt sammen, og hvert tryk skriver det næste tal ind i talrækken på arket — i jeres eget tempo, for værktøjet går aldrig videre af sig selv. Slå oplæsningen til, og klassen hører enogtyve og halvtreds, mens tavlen viser 21 og 50 — lige dér, hvor de danske talord driller mest. Med tuscherne markerer I mønstre i rækkerne, og med et spørgsmålstegn udpeger I et tomt felt og taler om, hvad der mon kommer dér, før I tæller videre. Rutinen passer til arbejdet med tal og talrækker fra børnehaveklassen til 2. klasse.",
+      "Det vigtigste er gratis: I kan tælle med 1 og med 10, sætte spørgsmålstegn i felterne og få hvert tal læst højt — rigeligt til den daglige tællerutine i børnehaveklassen. Med Premium åbner resten: alle spring og starttal (fx 25-spring til 500), baglæns tælling, valg af kolonner, at skrive ned ad kolonnerne, alle tuscher og farvninger samt op til otte gemte tællinger, så morgendagens tælling ligger klar, før klassen møder ind."
+    ],
+    "howToUse": [
+      "Vælg en planlagt tælling — eller indstil selv starttal, spring og kolonner.",
+      "Lad klassen tælle højt i kor, og tryk på Næste, når tallet er sagt — så bliver det skrevet på arket.",
+      "Stop op undervejs: spørg »Hvad lægger I mærke til?«, og markér mønstrene med tuscherne.",
+      "Sæt et spørgsmålstegn på et tomt felt, og tal sammen om, hvad der mon kommer dér, før I tæller derhen."
+    ],
+    "classroomIdeas": [
+      "Morgenrutine: Tæl fem minutter i kor hver dag — skift starttal hver uge, og lad talrækken vokse på tavlen, mens klassen finder mønstrene.",
+      "Lyt til de drilske tal: Slå oplæsningen til og tæl fra 40 — klassen hører halvtreds og tres, mens tavlen viser 50 og 60. Tal om, hvad man hører, og hvad man ser.",
+      "Mønsterjagt: Farv enerne eller tierne, sæt et spørgsmålstegn længere nede i rækken, og lad børnene forudsige tallet — tæl så derhen sammen og se det lande."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

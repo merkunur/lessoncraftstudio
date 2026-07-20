@@ -539,6 +539,28 @@
       "Saved-stall centers: save a stall per group with prices tuned to each group's band, and rotate groups through the same market."
     ]
   },
+  "choral-counting": {
+    "slug": "choral-counting",
+    "name": "Choral Counting",
+    "tagline": "Count aloud together while the chart writes itself — and the patterns pop.",
+    "metaTitle": "Choral Counting — Whole-Class Counting Chart for K-2 Math",
+    "metaDescription": "A projector counting chart for the whole class: every tap inks the next number as children chant, then color highlights make the patterns pop. Skip counting, countdowns, wonder marks. Free to start.",
+    "about": [
+      "Choral Counting is the beloved whole-class routine — count aloud together while the teacher records — without the hand-drawn chart that drifts, smudges, and ends up in the recycling. You choose where to start, what to count by, and how many columns (the secret planning lever: columns decide which patterns line up). Then the class chants and you tap: each tap inks the next number onto the chart with a warm pen-pop, and a coral halo keeps the current number findable from the back row. The tool never advances on its own — every pause for a turn-and-talk belongs to you. Flip on spoken numbers and the room hears each numeral in your language while the digits stand on the chart.",
+      "When the counting stops, the noticing begins. Pick up a marker and wash any cell, tap a column header to highlight the whole line, or tint every ones digit at once — “the ones repeat, the tens climb” becomes something children can point at. Tap any empty cell to leave a wonder mark: a friendly “?” the class watches until the count arrives there and the number simply inks in — no right or wrong, just arrival. Counting by 1s and 10s is free forever, with wonder marks and spoken numbers included; all skips and starts, counting down, the markers and digit tints, planned counts by grade, and saved counts to revisit tomorrow are part of Premium."
+    ],
+    "howToUse": [
+      "Choose a start number, a skip, and a column count — or open the planned counts and pick one for your grade.",
+      "As the class chants, tap Next (or press Space) to ink each number; pause anywhere to talk — the chart waits.",
+      "Tap an empty cell to leave a wonder mark: “what will go here?” — then keep counting until the number arrives.",
+      "After the count, arm a marker to highlight cells, columns, or every ones digit — and ask: what do you notice?"
+    ],
+    "classroomIdeas": [
+      "Morning circle warm-up: three quick counts — forward by 1s, by 10s, then backwards from 20 — with the class conducting the pace.",
+      "The off-decade classic: start at 7 and count by 10s. Tint the ones digits and watch the frozen 7 astonish your class.",
+      "Save Tuesday’s count mid-grid, and on Wednesday resume it: “where were we? What comes next?” — the halo remembers."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

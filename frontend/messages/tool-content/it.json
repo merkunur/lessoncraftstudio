@@ -538,6 +538,28 @@
       "Dal digitale al reale: allestite un angolo-negozio con cartellini dei prezzi scritti dai bambini e usate le stesse frasi del tappeto — «Riesci a pagare l’importo esatto?», «Ecco il tuo resto» — così i gesti e le parole migrano nel gioco vero."
     ]
   },
+  "choral-counting": {
+    "slug": "contiamo-insieme",
+    "name": "Contiamo insieme",
+    "tagline": "La classe conta ad alta voce e ogni tocco scrive il numero successivo sulla griglia.",
+    "metaTitle": "Conteggio ad alta voce in classe – Contiamo insieme",
+    "metaDescription": "La classe conta ad alta voce e ogni tocco scrive il numero successivo sulla griglia: salti, segni colorati e domande per scoprire insieme le regolarità.",
+    "about": [
+      "Contiamo insieme porta in digitale una routine amatissima del cerchio del mattino: la classe conta ad alta voce con una sola voce e, a ogni tocco dell’insegnante, il numero successivo appare scritto «a mano» sulla griglia, come su un cartellone. Lo strumento non va mai avanti da solo: la pausa è il cuore dell’attività. Quando la conta si ferma arriva la domanda «Che cosa notate?»: con i pennarelli si evidenziano le caselle, si colorano unità e decine e si scoprono insieme le regolarità. Con la voce attivata, ogni numero può anche essere pronunciato nella lingua della classe.",
+      "La versione gratuita include tutto ciò che serve per cominciare domattina: il conteggio di 1 in 1 e di 10 in 10, le caselle «?» per fermarsi a prevedere, i numeri pronunciati ad alta voce e due conte pronte per la scuola dell’infanzia. Con Premium si aprono tutti i salti e i punti di partenza, il conto all’indietro, la scrittura per colonne, i pennarelli per evidenziare le regolarità e fino a 8 conteggi salvati, pronti per la prossima mattina."
+    ],
+    "howToUse": [
+      "Scegli una conta pronta per la tua classe oppure imposta il punto di partenza e il salto.",
+      "La classe conta ad alta voce: quando il coro dice il numero, tocca «Avanti» e il numero compare sulla griglia.",
+      "Fermati e chiedi: «Che cosa notate?» — evidenzia le caselle con i pennarelli oppure colora unità e decine.",
+      "Metti un «?» su una casella vuota e chiedete quale numero ci andrà; poi continuate a contare fino ad arrivarci."
+    ],
+    "classroomIdeas": [
+      "In classe prima aprite il cerchio del mattino partendo da 15: attraverserete insieme ventuno, ventotto e il passaggio da venti a trenta — proprio i punti dove la voce della classe tende a esitare.",
+      "Prima di superare una decina, mettete un «?» qualche casella più avanti e raccogliete le previsioni a voce: quando il numero arriva davvero sulla griglia, il momento è una scoperta condivisa.",
+      "Nella conta di 10 in 10, a ogni numero scritto un bambino alza tutte e dieci le dita: la griglia cresce insieme alle mani alzate e le decine si vedono, oltre a sentirsi."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

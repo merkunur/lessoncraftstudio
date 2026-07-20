@@ -538,6 +538,28 @@
       "Cambia de artículo cada día y estimen antes de pagar: ¿bastará una moneda de 2 euros para el osito de peluche? Luego lo comprueban en el tapete."
     ]
   },
+  "choral-counting": {
+    "slug": "conteo-en-coro",
+    "name": "Conteo en coro",
+    "tagline": "La clase cuenta en voz alta y cada toque escribe el siguiente número en la cuadrícula.",
+    "metaTitle": "Conteo en coro: conteo en voz alta para preescolar y primaria",
+    "metaDescription": "Proyecta la cuadrícula, cuenten en voz alta y cada toque escribe el siguiente número. Marquen patrones y hagan predicciones. Gratis de 1 en 1 y de 10 en 10.",
+    "about": [
+      "El conteo en coro convierte el conteo en voz alta en una rutina para todo el grupo: los niños dicen los números juntos mientras tú, con cada toque, escribes el siguiente en una cuadrícula que se ve como hoja de rotafolio. La herramienta nunca se adelanta sola — la pausa es parte de la enseñanza. Cuando el grupo llega a un tramo interesante, detén el conteo, colorea casillas con los plumones y pregunta: «¿Qué observan?». Es una rutina de pensamiento matemático que fortalece el sentido numérico en preescolar y primaria, en sintonía con el enfoque de la Nueva Escuela Mexicana: primero la voz de los niños, después el registro.",
+      "La versión gratuita incluye lo esencial de la rutina: contar de 1 en 1 y de 10 en 10, las casillas de «?» para predecir y, si quieres, una voz que dice cada número en español. Con Premium se abren todos los saltos y números de inicio, la cuenta regresiva, la elección de columnas, la escritura por columnas, los plumones para señalar patrones y hasta ocho conteos guardados, listos para la siguiente clase. Así lo decimos tal cual: lo gratuito alcanza para la rutina diaria; Premium la lleva a 1º y 2º grado completos."
+    ],
+    "howToUse": [
+      "Elige un conteo preparado para tu grado — o define el número de inicio y el salto.",
+      "Proyecta la cuadrícula y cuenten todos juntos en voz alta; cada toque en «Siguiente» escribe el siguiente número.",
+      "Detén el conteo donde convenga, colorea casillas con los plumones y pregunta: «¿Qué observan?».",
+      "Coloca un «?» en una casilla vacía para que el grupo prediga qué número llegará ahí — y sigan contando hasta comprobarlo."
+    ],
+    "classroomIdeas": [
+      "Rutina de inicio de jornada: retomen cada mañana el conteo donde se quedó el grupo — los días de escuela, los puntos ganados o una colección del salón.",
+      "El brinco al treinta: empiecen en el 15, deténganse en el 29 y dejen que el grupo prediga cómo se dice y cómo se escribe el número que sigue antes de escribirlo.",
+      "Decenas con material concreto: cuenten de 10 en 10 mientras una niña o un niño junta paquetes de diez palitos; la cuadrícula crece al mismo ritmo que los montones."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

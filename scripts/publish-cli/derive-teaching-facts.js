@@ -54,15 +54,67 @@ function parseOperation(op) {
   return { a: a, b: b, operator: m[2], solution: solution, text: a + ' ' + m[2] + ' ' + b };
 }
 
+/**
+ * Per-type adapters. Each worksheet family stores its arithmetic differently, and the mode
+ * name in the manifest does not say what the child does — so the shape is read directly.
+ *
+ *   math-puzzle   exercises[].operations[].{text, solution}
+ *   addition      exercises[].{operandA, operandB, image:{name}}
+ *   subtraction   exercises[].{minuend, subtrahend, image:{name}}
+ *
+ * addition and subtraction differ from math-puzzle in a way that changes the copy, not just
+ * the parsing: EVERY operation carries a depicted object (measured 1,374/1,374 and
+ * 1,272/1,272), and every deck stays within 10 with no ten-crossing anywhere. So those decks
+ * are described by their mode and their pictured objects, never by a crossing count.
+ */
 function collectOperations(manifest) {
   var out = [];
   var exercises = manifest.exercises || [];
+  var type = manifest.exercise_type;
+
   for (var i = 0; i < exercises.length; i++) {
-    var ops = exercises[i].operations || [];
+    var e = exercises[i];
+
+    if (type === 'addition' && typeof e.operandA === 'number') {
+      out.push({
+        a: e.operandA, b: e.operandB, operator: '+',
+        solution: e.operandA + e.operandB,
+        text: e.operandA + ' + ' + e.operandB,
+        noun: (e.image && e.image.name) || null,
+      });
+      continue;
+    }
+
+    if (type === 'subtraction' && typeof e.minuend === 'number') {
+      out.push({
+        a: e.minuend, b: e.subtrahend, operator: '-',
+        solution: e.minuend - e.subtrahend,
+        text: e.minuend + ' - ' + e.subtrahend,
+        noun: (e.image && e.image.name) || null,
+      });
+      continue;
+    }
+
+    var ops = e.operations || [];
     for (var j = 0; j < ops.length; j++) {
       var p = parseOperation(ops[j]);
       if (p) out.push(p);
     }
+  }
+  return out;
+}
+
+/** The distinct objects pictured on this sheet, in sheet order, English library names. */
+function collectDepictedNouns(ops) {
+  var seen = {};
+  var out = [];
+  for (var i = 0; i < ops.length; i++) {
+    var n = ops[i].noun;
+    if (!n) continue;
+    var k = String(n).toLowerCase();
+    if (seen[k]) continue;
+    seen[k] = true;
+    out.push(n);
   }
   return out;
 }
@@ -306,6 +358,9 @@ function deriveOne(deckDir) {
     operationCount: ops.length,
     operations: ops.map(function (o) { return { text: o.text, solution: o.solution }; }),
     band: band,
+    // The objects pictured on this sheet. Present for addition/subtraction (every operation
+    // carries one); empty for math-puzzle, which has no images in its exercises.
+    depictedNouns: collectDepictedNouns(ops),
     regrouping: regrouping,
     tenCase: tenCase(regrouping),
     tenExample: pickTenExample(ops),

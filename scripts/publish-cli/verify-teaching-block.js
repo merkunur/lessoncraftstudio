@@ -34,6 +34,7 @@ function checkOne(slug, block, f, fails) {
    * and return here. Running the math-puzzle assertions over them would not merely be
    * useless — `f.band.maxSeen` and `f.regrouping` do not exist on those records, so the
    * gate would crash rather than report, which is the worst failure mode a gate has. */
+  if (f.worksheetType) return checkPrintable(slug, block, f, add, text);
   if (f.type === 'math-worksheet' || f.type === 'more-less' || f.type === 'code-addition') {
     return checkSpecialFamily(slug, block, f, add, text);
   }
@@ -404,6 +405,65 @@ function checkSpecialFamily(slug, block, f, add, text) {
   (f.depictedNouns || []).forEach(function (n) { pictured[strip(n)] = true; });
   (block.namedObjects || []).forEach(function (n) {
     if (!pictured[strip(n)]) add('objects', 'names ' + n + ' which is not pictured on this sheet');
+  });
+}
+
+/**
+ * The printable worksheet-generator decks.
+ *
+ * Their sentences are not authored downstream — they are resolved from the generator's own
+ * i18n files — so the question here is not "is this claim true of the sheet" but "is this
+ * THIS sheet's entry". A block carrying another worksheet type's title would be the failure
+ * mode, and it is checked by identity rather than by parsing prose.
+ */
+function checkPrintable(slug, block, f, add, text) {
+  if (f.typeTitle && text.indexOf(f.typeTitle) === -1) {
+    add('type', 'does not carry its own worksheet title (' + f.typeTitle + ')');
+  }
+  if (f.instruction && text.indexOf(f.instruction) === -1) {
+    add('type', 'does not carry its own instruction');
+  }
+  if (f.skillSentence && text.indexOf(f.skillSentence) === -1) {
+    add('skill', 'does not carry its own family skill sentence');
+  }
+  /* The block's shape key records which worksheet type it was built for. If that disagrees
+   * with the deck, two different sheets are sharing one description. */
+  var shape = (block.shapes && block.shapes.block1) || '';
+  // shape is `pr/<worksheetType>/<difficultyLabel|->`
+  var claimed = shape.indexOf('pr/') === 0 ? shape.split('/')[1] : null;
+  if (claimed && f.worksheetType && claimed !== f.worksheetType) {
+    add('type', 'built for worksheet type ' + claimed + ' but the deck is ' + f.worksheetType);
+  }
+
+  /* NO NUMERAL MAY APPEAR that is not the grade band or the difficulty step.
+   *
+   * There is nothing to leak today — these decks have no answer key and mostly no exercises —
+   * so this is a forward guard rather than a fix: if the generator ever starts putting
+   * quantities into the title or instruction, they arrive on the page automatically, and this
+   * is what would notice. Hyphenated ranges and ordinals are skipped for the same reasons as
+   * the other families. */
+  var allowed = {};
+  if (f.gradeBand) String(f.gradeBand).replace(/\d+/g, function (n) { allowed[n] = true; return n; });
+  if (f.difficulty) allowed[String(f.difficulty)] = true;
+  if (f.ageRange) String(f.ageRange).replace(/\d+/g, function (n) { allowed[n] = true; return n; });
+
+  /* The resolved sentences are removed before counting. The generator's own instructions
+   * carry numbers as a matter of course — "Kreise 5 Bilder ein", a bar-chart scale — and
+   * those are part of the worksheet's identity, not something a child works out. Counting
+   * them reported 57 correct German blocks as leaking. What remains after the removal is
+   * anything THIS code added, which is what the guard is actually for. */
+  var residue = [f.typeTitle, f.instruction, f.skillSentence].filter(Boolean)
+    .reduce(function (acc, s) { return acc.split(s).join(' '); }, String(text));
+  var deordinaled = residue.replace(/(\d+)\.\s+(\p{Ll})/gu, ' $2');
+  (deordinaled.match(/(?<![\d-])\d+(?![\d-])/g) || []).forEach(function (n) {
+    if (!allowed[n]) add('numeric', 'prints the number ' + n + ' outside its own title, instruction and skill sentence');
+  });
+
+  var strip = function (n) { return String(n).replace(/\s+\d+$/, '').toLowerCase(); };
+  var pictured = {};
+  (f.depictedNouns || []).forEach(function (n) { pictured[strip(n)] = true; });
+  (block.namedObjects || []).forEach(function (n) {
+    if (!pictured[strip(n)]) add('objects', 'names ' + n + ' which is not on this sheet');
   });
 }
 

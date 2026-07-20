@@ -222,6 +222,35 @@ function corpusHas(phrase, corpus) {
 }
 
 /**
+ * Compound-aware liveness test, for the compounding languages (de/nl/sv/da/no/fi).
+ *
+ * A long single-word compound can return nothing while its SPLIT form thrives.
+ * Verified live:
+ *   de  Musterarbeitsblatt      -> 0     muster fortsetzen      -> full ladder
+ *   fi  yhteenlaskutehtäviä     -> 0     yhteenlasku tehtäviä   -> 3
+ * Demoting on the compound's silence alone would bury the natural native word —
+ * in fi it left generic "Tehtäviä" leading while the real term
+ * "Yhteenlaskutehtäviä" sat in the tail.
+ *
+ * So a compound also counts as alive when the corpus contains a token that is a
+ * substantial PREFIX of it ("yhteenlasku" ⊂ "yhteenlaskutehtäviä"). Prefixes
+ * shorter than 6 characters are ignored as too weak to mean anything.
+ */
+function corpusHasCompound(phrase, corpus, minStem = 6) {
+  if (corpusHas(phrase, corpus)) return true;
+  const words = toks(phrase);
+  if (words.length !== 1) return false; // only single-word compounds
+  const w = words[0];
+  if (w.length < minStem + 2) return false;
+  for (const q of corpus) {
+    for (const t of q.toks) {
+      if (t.length >= minStem && (w.startsWith(t) || t.startsWith(w))) return true;
+    }
+  }
+  return false;
+}
+
+/**
  * The demand-keyed lead for an exercise type: the LONGEST contiguous phrase inside
  * the topic-override copy that real searches actually contain.
  *
@@ -288,7 +317,15 @@ function demandLeadForType(type, locale, overrides, corpus, maxWords = 4, chrome
           // word, or it describes no type at all. Without the stopword half,
           // sv "för barn" survives ("barn" is chrome, "för" is not).
           if (!t.some((x) => !CH.has(x) && !EDGE_STOPWORDS.has(x))) continue;
-          if (corpusHas(phrase, corpus)) return phrase;
+          if (!corpusHas(phrase, corpus)) continue;
+          // Trim chrome/function words off the EDGES. Without this da extracted
+          // "plus til print", which then collided with the range slot to read
+          // "plus til print til 10". The informative core is "plus".
+          const kept = span.slice();
+          const isEdge = (x) => { const n = norm(x); return CH.has(n) || EDGE_STOPWORDS.has(n); };
+          while (kept.length > 1 && isEdge(kept[kept.length - 1])) kept.pop();
+          while (kept.length > 1 && isEdge(kept[0])) kept.shift();
+          return kept.join(' ');
         }
       }
     }
@@ -338,6 +375,84 @@ function engineOp(type, coordinate, standard, engine) {
   catch { return null; }
 }
 
+/**
+ * The per-mode qualifier and the number range, taken from the LOCALE'S OWN engine.
+ *
+ * These carry the locked §22.4/§22.5 demand patterns — de/sv/nl/da/fi titles are
+ * range-led ("Addition bis 10 ohne Zehnerübergang"), and the qualifier is the
+ * per-mode distinguisher that keeps multi-mode siblings apart. An earlier draft of
+ * this composer dropped them and produced a bare "Accessoires Addition", which is
+ * strictly LESS specific than what shipped. They are reordered so the
+ * differentiator leads — never discarded.
+ *
+ * The function names differ per locale because the engines diverged, so this is an
+ * adapter rather than one call: en/de/es put `qual` on the TYPE_MAP entry, the
+ * other eight expose a top-level `resolveQual`; de has `bisRange`, and
+ * sv/nl/it/da/fi have `rangeFor`.
+ */
+/*
+ * The signatures genuinely differ per engine — they were written independently:
+ *   en/de/es   TYPE_MAP[type].qual(coord, standard)
+ *   the rest   resolveQual(TYPE_MAP_ENTRY, mode)        <- map + mode, not coord
+ *   de         bisRange(type, standard)
+ *   sv/da/fi   rangeFor(type, standard, level)
+ *   it         rangeFor(type, level)                    <- two args, not three
+ * Guessing one shape returns '' SILENTLY, which is how the first draft dropped
+ * every non-en/de range without erroring. Each shape is tried explicitly and
+ * assertEngineAdapters() below proves coverage per locale rather than trusting it.
+ */
+function engineQual(type, coordinate, standard, engine) {
+  const m = engine.TYPE_MAP && engine.TYPE_MAP[type];
+  const attempts = [];
+  if (m && typeof m.qual === 'function') attempts.push(() => m.qual(coordinate, standard));
+  if (m && typeof engine.resolveQual === 'function') {
+    attempts.push(() => engine.resolveQual(m, coordinate.mode));
+    attempts.push(() => engine.resolveQual(m, coordinate.mode === null ? 'null' : coordinate.mode));
+  }
+  for (const f of attempts) {
+    try { const v = f(); if (v && String(v).trim()) return String(v).trim(); } catch { /* next shape */ }
+  }
+  return '';
+}
+
+function engineRange(type, coordinate, standard, engine) {
+  const attempts = [];
+  if (typeof engine.bisRange === 'function') attempts.push(() => engine.bisRange(type, standard));
+  if (typeof engine.rangeFor === 'function') {
+    attempts.push(() => engine.rangeFor(type, standard, coordinate.level));
+    attempts.push(() => engine.rangeFor(type, coordinate.level)); // it: two-arg form
+  }
+  for (const f of attempts) {
+    try { const v = f(); if (v && String(v).trim()) return String(v).trim(); } catch { /* next shape */ }
+  }
+  return '';
+}
+
+/**
+ * Prove the adapters actually reach each engine, per locale, on a REAL landing.
+ * A silent '' is indistinguishable from "this locale has no range", so coverage
+ * is asserted rather than assumed. Used by apply-demand-titles.js as a pre-check.
+ */
+function assertEngineAdapters(locale, landings, engine) {
+  const numeric = landings.filter((l) => ['addition', 'subtraction'].includes(l.coordinate && l.coordinate.type));
+  const sample = numeric.slice(0, 25);
+  let qual = 0, range = 0;
+  for (const l of sample) {
+    if (engineQual(l.coordinate.type, l.coordinate, l.standard, engine)) qual++;
+    if (engineRange(l.coordinate.type, l.coordinate, l.standard, engine)) range++;
+  }
+  return { sampled: sample.length, qual, range,
+           hasRangeMaps: !!(engine.RANGE_BY_STANDARD || engine.RANGE_BY_LEVEL || engine.BIS_BY_STANDARD) };
+}
+
+/** Properly-cased level label from the engine, not the raw taxonomy name. */
+function engineLevel(level, locale, engine) {
+  if (!level) return null;
+  const g = engine.GRADE_LABEL && engine.GRADE_LABEL[level];
+  if (g) return g;
+  return taxonomyName('educational-level', level, locale);
+}
+
 function taxonomyName(axis, key, locale) {
   const e = TAXONOMY.axes && TAXONOMY.axes[axis] && TAXONOMY.axes[axis][key];
   return (e && e.name && (e.name[locale] || e.name.en)) || null;
@@ -358,14 +473,17 @@ function composeOne(l, row, ctx) {
   const taxName = taxonomyName('exercise-type', c.type, locale);
   const fallback = op || taxName || String(c.type).replace(/-/g, ' ');
   // Alive if the corpus has seen it. `lead` is corpus-verified by construction.
-  const descriptor = lead || (corpusHas(fallback, corpus) ? fallback : null);
+  // compound-aware: a dead-looking compound may just need its split form checked
+  const descriptor = lead || (corpusHasCompound(fallback, corpus) ? fallback : null);
   const demoted = descriptor ? null : fallback;
 
   // --- differentiators --------------------------------------------------------
   const theme = c.theme ? (taxonomyName('theme', c.theme, locale) || String(c.theme).replace(/_/g, ' ')) : null;
-  const level = c.level ? (taxonomyName('educational-level', c.level, locale) || null) : null;
+  const level = engineLevel(c.level, locale, engine);
   const mode = c.mode ? taxonomyName('exercise-mode', c.mode, locale) : null;
   const letter = c.letter ? String(c.letter).toUpperCase() : null;
+  const qual = engineQual(c.type, c, l.standard, engine);   // "ohne Zehnerübergang"
+  const range = engineRange(c.type, c, l.standard, engine);          // "bis 10" / "0–10" / "tot 10"
 
   // --- title: Tier-A differentiator FIRST -------------------------------------
   // Order follows what the paired-SERP tests showed actually splits results:
@@ -375,7 +493,14 @@ function composeOne(l, row, ctx) {
   else if (letter) head.push(`${letter}`);
   else if (theme) head.push(theme);
 
-  const body = [descriptor || S.worksheet, mode && !descriptor ? mode : null].filter(Boolean);
+  // range + qualifier ride WITH the operation, preserving the locked range-led
+  // shape ("Addition bis 10 ohne Zehnerübergang") now that the theme leads.
+  const body = [
+    descriptor || S.worksheet,
+    range || null,
+    qual || null,
+    mode && !descriptor ? mode : null,
+  ].filter(Boolean);
   const tail = [level, demoted].filter(Boolean);
 
   let title = [head.join(' '), body.join(' ')].filter(Boolean).join(' ').trim();
@@ -405,16 +530,23 @@ function buildMeta({ l, S, descriptor, theme, level, factBits }) {
   const opener = [descriptor || S.worksheet, theme, level].filter(Boolean).join(' – ');
   let m = opener;
   if (factBits.length) m += `. ${factBits.join('; ')}`;
+  // Keep adding whole sentences from p1 until the 120-char floor is cleared.
+  // Stopping at the FIRST sentence left metas at 103-113 chars, below the band
+  // the §21.2 preband step expects — which would make preband non-idempotent.
   if (m.length < META_MIN) {
     const p1 = String(l.p1 || '').replace(/\s+/g, ' ').trim();
-    const firstSentence = (p1.split(/(?<=[.!?])\s/)[0] || p1);
-    m = (m + '. ' + firstSentence).replace(/\.\s*\./g, '.').trim();
+    for (const sentence of p1.split(/(?<=[.!?])\s+/)) {
+      if (m.length >= META_MIN) break;
+      m = `${m}. ${sentence}`.replace(/\.\s*\./g, '.').trim();
+    }
   }
-  if (m.length > META_MAX) m = m.slice(0, META_MAX).replace(/\s+\S*$/, '').replace(/[,;–-]$/, '').trim();
+  if (m.length > META_MAX) {
+    m = m.slice(0, META_MAX).replace(/\s+\S*$/, '').replace(/[\s,;:–—-]+$/, '').trim();
+  }
   return m;
 }
 
 module.exports = {
   SURFACE, NATIVE_LEAD, EDGE_STOPWORDS, TITLE_SOFT_CAP, META_MIN, META_MAX,
-  loadOverrides, loadEngine, loadCorpus, corpusHas, demandLeadForType, composeOne, chromeTokens, buildLeadMap,
+  loadOverrides, loadEngine, loadCorpus, corpusHas, corpusHasCompound, demandLeadForType, composeOne, chromeTokens, buildLeadMap, assertEngineAdapters, engineQual, engineRange,
 };

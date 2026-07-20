@@ -53,9 +53,32 @@ const WRONG_INTENT = new RegExp('(' + [
   // kids book" was assigned to a crossword page. \\bbook\\b leaves "workbook"
   // intact, since that is a single token.
   '\\bbooks?\\b', '\\bdvds?\\b', '\\bcds?\\b', 'subscription', '\\btoys?\\b', 'amazon',
+  // Wrong audience, or teacher admin we do not make. Assigning "Free Printable
+  // Games for Seniors" to a kindergarten treasure hunt, or "Homeschool
+  // Assessment Test" to a word search, promises something that is not there.
+  '\\bseniors?\\b', '\\belderly\\b', '\\badults?\\b', 'gradebook', 'grade book',
+  '\\bassessment\\b', '\\btests?\\b', '\\bexams?\\b', 'certificate', '\\bawards?\\b',
+  'lesson plan', 'report card', 'attendance', '\\broster\\b', '\\bplanner\\b',
 ].join('|') + ')', 'i');
 
+/* TWO signals, not one.
+ *
+ * A single education-ish word was not enough. The wide filter passed
+ * "easy games to platinum ps5" (games), "easy piano sheet for children"
+ * (children), "4th of july game world cup" (game) and "easy practice 5 libro
+ * digitale" (practice) — and those reached real page titles before I read the
+ * output and stopped it.
+ *
+ * A usable phrase must name BOTH a printable artefact we actually publish AND a
+ * child or school audience. That takes the bank from 9,113 to 3,017, and what
+ * survives is uniformly the sort of thing on this site.
+ */
+const ARTEFACT = /\b(worksheets?|printables?|activity sheets?|activity pages?|practice sheets?|work sheets?|handouts?|workbooks?|flash ?cards?|task cards?|colouring pages?|coloring pages?|word ?search(es)?|crosswords?|puzzles?|mazes?|cut and paste|tracing|matching|sorting|bingo|sudoku)\b/i;
+const AUDIENCE = /\b(kids?|children|child|toddlers?|preschool\w*|kindergarten\w*|pre-?k|nursery|reception|eyfs|early years|students?|classroom|homeschool\w*|grade\s*[1-3]|1st grade|2nd grade|3rd grade|[3-8]\s*year olds?|little ones)\b/i;
+
 function classify(q) {
+  if (!ARTEFACT.test(q)) return 'not-a-printable';
+  if (!AUDIENCE.test(q)) return 'no-child-audience';
   if (!EDU.test(q)) return 'no-edu-signal';
   if (OFF_DOMAIN.test(q)) return 'off-domain';
   if (ABOVE_K3.test(q)) return 'above-k3';

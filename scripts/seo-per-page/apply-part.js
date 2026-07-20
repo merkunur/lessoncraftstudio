@@ -110,6 +110,14 @@ const CAPS_TOKEN = /\b[A-ZÆØÅÄÖÜÉÈ]{3,}\b/g;
 /* Capitals that are not claims about the sheet. */
 const CAPS_ALLOW = new Set(['PDF', 'ABC', 'ESL', 'EAL', 'KS1', 'KS2', 'USA', 'UK', 'TV', 'A4']);
 
+/** Intents a printable worksheet cannot honestly satisfy. */
+const TITLE_WRONG_INTENT = new RegExp([
+  '\\bapps?\\b', 'youtube', '\\bvideos?\\b', '\\bsongs?\\b', '\\bgames? online\\b',
+  'duolingo', 'babbel', 'rosetta',
+  '^how to\\b', '^is \\b', '^why\\b', '^what is\\b', '\\bhow to learn\\b',
+  'easiest way', 'hard to learn',
+].join('|'), 'i');
+
 /* Letter-count claims are checkable, so check them.
  *
  * A good page says useful things like "POLITIEAGENT is twelve letters long" —
@@ -235,6 +243,18 @@ function run(partId, inDir, write) {
 
     if (norm(a.title) === norm(a.h1)) problems.push(`${slug}: h1 merely restates title`);
 
+    /* A title must promise what the page delivers: a printable worksheet.
+     *
+     * The cross-language demand harvest included app, video and question-shaped
+     * queries ("learn german for kids app", "how to learn italian for
+     * beginners"), and an author aimed a title at one before I filtered them out
+     * of the source. Someone asking HOW to learn Italian does not want a PDF;
+     * winning that click loses the visitor and teaches Google the page answers
+     * badly. */
+    if (TITLE_WRONG_INTENT.test(a.title)) {
+      problems.push(`${slug}: title promises something this page is not — "${a.title}"`);
+    }
+
     // uniqueness across the part
     const tk = norm(a.title);
     if (seenTitle.has(tk)) problems.push(`${slug}: duplicate title with ${seenTitle.get(tk)}`);
@@ -251,10 +271,28 @@ function run(partId, inDir, write) {
     const fact = facts.get(deckBySlug.get(slug));
     const sheetWords = ((fact && fact.words) || []).map((w) => String(w).toUpperCase());
     const raw = [a.title, a.h1, meta, prose].join(' ');
+    /* A pronunciation gloss is not a claim about the sheet.
+     *
+     * "pee-ah-NEH-ta" and "ow-TOON-no" mark the stressed syllable of PIANETA and
+     * AUTUNNO — genuinely useful to a parent reading Italian aloud. But a
+     * phonetic respelling does not preserve spelling, so NEH and TOON can never
+     * be fragments of the real word and the fragment rule rejects them. Detect
+     * the shape instead: capitals sitting inside a hyphenated run that also has
+     * lowercase letters is a gloss, never a word list.
+     */
+    const glossed = new Set();
+    for (const run of (raw.match(/[\p{L}]+(?:-[\p{L}]+)+/gu) || [])) {
+      if (!/[a-zà-ÿ]/.test(run)) continue;          // all-caps hyphenation is not a gloss
+      for (const piece of run.split('-')) {
+        if (/^[A-ZÆØÅÄÖÜÉÈ]{2,}$/.test(piece)) glossed.add(piece);
+      }
+    }
+
     const bogus = new Set();
     for (const cap of (raw.match(CAPS_TOKEN) || [])) {
       const c = cap.toUpperCase();
       if (CAPS_ALLOW.has(c)) continue;
+      if (glossed.has(cap)) continue;
       if (sheetWords.some((w) => w === c || w.includes(c) || c.includes(w))) continue;
       bogus.add(cap);
     }

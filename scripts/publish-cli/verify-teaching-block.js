@@ -41,7 +41,13 @@ function checkOne(slug, block, f, fails) {
   /* B. any range claim must be the measured max or its band */
   var max = f.band.maxSeen;
   var band = bandFor(max);
-  var claims = text.match(/bis (\d+)/g) || [];
+  /* Only RANGE claims, not every "bis N".
+   *
+   * The first version matched any `bis (\d+)` and reported 97 false failures on the sentence
+   * `Auf jedem Blatt kommen die Ergebnisse 2 bis 10 je einmal vor.` — a true statement about
+   * the ANSWER SET, not a claim about the sheet's ceiling. Anchor on the words that actually
+   * introduce a range claim. */
+  var claims = text.match(/(?:Zahlenraum bis|Zahlen bis|reichen bis|Summen bis|bis zur) (\d+)/g) || [];
   claims.forEach(function (c) {
     var n = parseInt(c.replace(/\D/g, ''), 10);
     // `Zahlenraum bis <band>` or `Zahlen bis <exact max>` are the only truthful forms
@@ -75,6 +81,17 @@ function checkOne(slug, block, f, fails) {
   }
   if (/durchgehend mit Zehnerübergang/.test(text) && c < (f.regrouping.total || 9)) {
     add('crossing', 'claims every task crosses; only ' + c + ' do');
+  }
+
+  /* D2. a mixed claim requires BOTH operations to be present on the sheet.
+   *
+   * Added after finding two live-candidate blocks asserting "Addition and subtraction are
+   * mixed on the same sheet" about sheets containing nine additions and no subtraction. The
+   * manifest said mixed; the operations said otherwise. Labels are not evidence. */
+  var mixedClaim = /mixed on the same sheet|Plus und Minus wechseln|Addition and subtraction are mixed/.test(text);
+  if (mixedClaim && (!f.regrouping.additions || !f.regrouping.subtractions)) {
+    add('mode', 'claims the sheet mixes operations, but it has '
+      + f.regrouping.additions + ' additions and ' + f.regrouping.subtractions + ' subtractions');
   }
 
   /* E. the Zehnerergänzung LABEL is only earned at T3, and is an ADDITION concept */

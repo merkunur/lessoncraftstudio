@@ -79,10 +79,13 @@ function esc(s) {
  */
 function renderHtml(copy, facts) {
   var chips = [];
-  // Zahlenraum first: the German teacher applies it before any other filter.
+  // Range first: the fact a teacher applies before any other filter. `chipLevel` is
+  // locale-optional — English leads with ages because US Grade 1 equals UK Year 2, while
+  // German bans age-in-years outright. The renderer stays agnostic; the copy system decides.
   chips.push(copy.chipRange);
   chips.push(copy.chipMode);
   chips.push(copy.chipTen);
+  if (copy.chipLevel) chips.push(copy.chipLevel);
 
   var lines = [];
   lines.push('<!-- TEACHING_BLOCK_START -->');

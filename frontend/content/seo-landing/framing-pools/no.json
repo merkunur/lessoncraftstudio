@@ -1,0 +1,921 @@
+{
+ "locale": "no",
+ "generatedAt": "2026-07-20T11:43:09.145Z",
+ "corpusSize": 1150,
+ "note": "Real harvested queries per exercise type. Seeds are native to this locale — taxonomy name, engine TYPE_MAP ops, topic-override copy, native-verified leads. Never translated.",
+ "pools": {
+  "addition": {
+   "seeds": [
+    "Addisjon",
+    "Addisjonsoppgaver",
+    "Addisjon: plussoppgaver til å skrive ut og øve på nett",
+    "Addisjonsoppgaver for barn – til utskrift (PDF)"
+   ],
+   "framings": [
+    "addisjon 1 trinn",
+    "addisjon 2 trinn",
+    "addisjon oppgaver 1 trinn",
+    "addisjon oppgaver 2. trinn",
+    "addisjon og subtraksjon 2 trinn",
+    "addisjon med tierovergang 2 trinn",
+    "addisjon og subtraksjon oppgaver 2 trinn",
+    "addisjon oppgaver utskrift",
+    "oppstilt addisjon oppgaver utskrift",
+    "addisjon oppgaver",
+    "arbeidsark addisjon",
+    "gjentatt addisjon oppgaver",
+    "oppstilt addisjon oppgaver",
+    "arbeidsark oppstilt addisjon",
+    "addisjon oppstilling oppgaver",
+    "oppgaver addisjon og subtraksjon",
+    "arbeidsark addisjon og subtraksjon",
+    "oppgaver addisjon med tierovergang",
+    "addisjonsoppgaver"
+   ]
+  },
+  "sudoku": {
+   "seeds": [
+    "Bildesudoku",
+    "Bildesudoku: sudoku med bilder for barn",
+    "Bildesudoku for barn – til utskrift (PDF)",
+    "Sudoku for barn"
+   ],
+   "framings": [
+    "sudoku oppgaver gratis",
+    "sudoku oppgaver på nett"
+   ]
+  },
+  "cryptogram": {
+   "seeds": [
+    "Kryptogram",
+    "Kryptogram: knekk koden og finn setningen",
+    "Kryptogram for barn – knekk koden (PDF)"
+   ],
+   "framings": []
+  },
+  "picture-path": {
+   "seeds": [
+    "Bildevei",
+    "Labyrint",
+    "Bildevei: følg riktig vei gjennom bildefeltet",
+    "Bildevei – finn veien gjennom rutene",
+    "Labyrint til utskrift"
+   ],
+   "framings": []
+  },
+  "picture-trail": {
+   "seeds": [
+    "Labyrint"
+   ],
+   "framings": []
+  },
+  "subtraction": {
+   "seeds": [
+    "Subtraksjon",
+    "Subtraksjonsoppgaver",
+    "Subtraksjon: minusoppgaver med bilder til utskrift",
+    "Subtraksjonsoppgaver for barn – minus (PDF)"
+   ],
+   "framings": [
+    "subtraksjon 1 trinn",
+    "subtraksjon 2 trinn",
+    "subtraksjon oppgaver 1 trinn",
+    "subtraksjon oppgaver 2 trinn",
+    "subtraksjon oppgaver 3 trinn",
+    "subtraksjon oppgaver 4 trinn",
+    "addisjon og subtraksjon 2 trinn",
+    "subtraksjon med tierovergang 2 trinn",
+    "addisjon og subtraksjon oppgaver 2 trinn",
+    "subtraksjon oppgaver pdf",
+    "subtraksjon oppgaver utskrift",
+    "subtraksjon oppgaver",
+    "arbeidsark subtraksjon",
+    "arbeidsark pluss og minus",
+    "oppstilt subtraksjon oppgaver",
+    "matematikk subtraksjon oppgaver",
+    "oppgaver subtraksjon med låning",
+    "oppgaver addisjon og subtraksjon",
+    "oppstilling subtraksjon oppgaver",
+    "arbeidsark addisjon og subtraksjon"
+   ]
+  },
+  "code-addition": {
+   "seeds": [
+    "Kodeaddisjon",
+    "Tallkode",
+    "Hemmelig ord med tallkode",
+    "Kodeaddisjon: knekk koden og regn ut",
+    "Kodeaddisjon: regn med symboler (PDF)"
+   ],
+   "framings": []
+  },
+  "more-less": {
+   "seeds": [
+    "Mer Eller Mindre",
+    "Flest og færrest",
+    "Flere eller færre? Se og sammenlign mengder",
+    "Flere eller færre? Sammenlign mengder (PDF)"
+   ],
+   "framings": [
+    "stor eller liten barnehage"
+   ]
+  },
+  "math-puzzle": {
+   "seeds": [
+    "Mattepuslespill",
+    "Regnepuslespill pluss",
+    "Regnepuslespill minus",
+    "Regnepuslespill",
+    "Mattepuslespill: knekk tallgåten",
+    "Mattepuslespill for barn – til utskrift"
+   ],
+   "framings": [
+    "arbeidsark pluss og minus"
+   ]
+  },
+  "math-worksheet": {
+   "seeds": [
+    "Matteark",
+    "Regn med bilder",
+    "Regn med bilder (tre ledd)",
+    "Matteark: blandede regneoppgaver å skrive ut",
+    "Matteark – blandede oppgaver til utskrift"
+   ],
+   "framings": [
+    "matteark 1 trinn",
+    "matteark 3.trinn",
+    "matteark 4 trinn",
+    "matteark 5 trinn",
+    "matteark 2. trinn",
+    "matteark 4 klasse",
+    "gratis matteark",
+    "matteark til barn"
+   ]
+  },
+  "big-small": {
+   "seeds": [
+    "Stor Eller Liten",
+    "Størst og minst",
+    "Sorter etter størrelse",
+    "Stor eller liten? Sammenlign størrelser i barnehagen",
+    "Stor eller liten? Størrelser for barn (PDF)"
+   ],
+   "framings": [
+    "stor eller liten barnehage"
+   ]
+  },
+  "chart-count": {
+   "seeds": [
+    "Tell I Diagram",
+    "Søylediagram",
+    "Tell og fyll inn: første søylediagram for barn",
+    "Tell og fyll inn i diagram (PDF)"
+   ],
+   "framings": [
+    "første lyd oppgaver"
+   ]
+  },
+  "pattern-train": {
+   "seeds": [
+    "Mønstertoget",
+    "AB-mønster",
+    "AAB-mønster",
+    "ABB-mønster",
+    "AABB-mønster",
+    "ABC-mønster",
+    "Mønstertoget: kjenn igjen og fortsett mønsteret",
+    "Mønstertoget – fortsett mønsteret (PDF)",
+    "Mønster oppgaver"
+   ],
+   "framings": [
+    "gratis mønster barnehagevotter",
+    "mønster 1 trinn",
+    "mønster 2 trinn",
+    "mønster barnehage",
+    "mønster barnehagevotter",
+    "former og mønster 1 trinn",
+    "mønster matematikk 2 trinn",
+    "mønster oppgaver barnehage",
+    "mønster gratis",
+    "gratis mønster lue",
+    "gratis mønster forkle",
+    "gratis mønster skjørt",
+    "gratis mønster kjole barn",
+    "gratis mønster forkle barn",
+    "gratis mønster lappeteknikk",
+    "gratis mønster toalettmappe",
+    "gratis mønster på traktorgenser til barn",
+    "gratisoppskrift mønster strikkeoppskrift kaptein sabeltann genser dale garn",
+    "mønster oppgaver",
+    "mønster oppgaver matematikk",
+    "geometriske mønster oppgaver"
+   ]
+  },
+  "pattern-worksheet": {
+   "seeds": [
+    "Mønsterark",
+    "Mønster",
+    "Mønsterark: fortsett rekker og følger",
+    "Mønsterark – fortsett rekka (PDF)"
+   ],
+   "framings": [
+    "gratis mønster barnehagevotter",
+    "mønster 1 trinn",
+    "mønster 2 trinn",
+    "mønster barnehage",
+    "mønster barnehagevotter",
+    "former og mønster 1 trinn",
+    "mønster matematikk 2 trinn",
+    "mønster oppgaver barnehage",
+    "mønster gratis",
+    "gratis mønster lue",
+    "gratis mønster forkle",
+    "gratis mønster skjørt",
+    "gratis mønster kjole barn",
+    "gratis mønster forkle barn",
+    "gratis mønster lappeteknikk",
+    "gratis mønster toalettmappe",
+    "gratis mønster på traktorgenser til barn",
+    "gratisoppskrift mønster strikkeoppskrift kaptein sabeltann genser dale garn",
+    "mønster oppgaver",
+    "mønster oppgaver matematikk",
+    "geometriske mønster oppgaver",
+    "arbeidsark alfabetisk rekkefølge"
+   ]
+  },
+  "bingo": {
+   "seeds": [
+    "Bingo",
+    "Bildebingo",
+    "Bildebingo: ferdige bingobrett for barnehagen",
+    "Bildebingo for barnehagen – til utskrift"
+   ],
+   "framings": [
+    "bingo 1 trinn",
+    "bingo 2 trinn",
+    "bingo barnehage",
+    "høst bingo barnehage",
+    "trafikk bingo barnehage",
+    "vårtegn bingo barnehage",
+    "bingo gratis",
+    "bingo gratis zitro",
+    "bingo gratis online",
+    "bingo gratis tombola",
+    "bingo gratis italiano",
+    "bingo gratis promatic",
+    "bingo gratis en español",
+    "bingo tragamonedas gratis",
+    "bingo gratis sin registrarse",
+    "bingo gratis para jugar en casa",
+    "bingo oppgaver"
+   ]
+  },
+  "grid-match": {
+   "seeds": [
+    "Rutenettmatch",
+    "Para sammen bilder",
+    "Rutenettmatch: sett bildet på riktig plass",
+    "Rutenettmatch – finn maken i rutenettet"
+   ],
+   "framings": [
+    "arbeidsark plassverdisystemet"
+   ]
+  },
+  "matching": {
+   "seeds": [
+    "Matching",
+    "Første lyd og bokstav",
+    "Les og koble",
+    "Koble sammen: hva hører sammen?",
+    "Koble sammen – finn parene (PDF)"
+   ],
+   "framings": [
+    "bokstaver klasserom",
+    "matching oppgaver barnehage",
+    "matching gratis",
+    "e matching gratis",
+    "bokstavspill gratis",
+    "job matching gratis",
+    "matching gioco gratis",
+    "matching story gratis",
+    "e matching gratis week",
+    "matching story gratis leben",
+    "vidas gratis matching story",
+    "matching story gratis spielen",
+    "e matching gratis lidmaatschap",
+    "bokstavspill barn",
+    "matching oppgaver",
+    "første lyd oppgaver",
+    "arbeidsark bokstaver",
+    "bokstavhus arbeidsark",
+    "arbeidsark bokstaven s",
+    "bokstaver til barnerom",
+    "matching oppgaver barn",
+    "matching oppgaver autisme",
+    "arbeidsark bokstavinnlæring"
+   ]
+  },
+  "picture-sort": {
+   "seeds": [
+    "Sorter Bilder",
+    "Sortering",
+    "Sorter bilder: ordne etter kategori",
+    "Sorter bilder i grupper – for barn (PDF)"
+   ],
+   "framings": []
+  },
+  "shadow-match": {
+   "seeds": [
+    "Match Skygger",
+    "Finn skyggen",
+    "Gjør bildet helt",
+    "Match skyggen: hvilken skygge hører til bildet?",
+    "Match skyggen – finn riktig skygge (PDF)"
+   ],
+   "framings": [
+    "matching oppgaver barnehage",
+    "matching gratis",
+    "e matching gratis",
+    "job matching gratis",
+    "matching gioco gratis",
+    "matching story gratis",
+    "e matching gratis week",
+    "matching story gratis leben",
+    "vidas gratis matching story",
+    "matching story gratis spielen",
+    "e matching gratis lidmaatschap",
+    "matching oppgaver",
+    "matching oppgaver barn",
+    "matching oppgaver autisme"
+   ]
+  },
+  "alphabet-train": {
+   "seeds": [
+    "Alfabettoget",
+    "Alfabetisk rekkefølge",
+    "Alfabettoget: sett bokstavene i rekkefølge",
+    "Alfabettoget – ABC i riktig rekkefølge"
+   ],
+   "framings": [
+    "bokstaver klasserom",
+    "arbeidsark alfabetisk rekkefølge",
+    "bokstavspill gratis",
+    "bokstavspill barn",
+    "arbeidsark alfabetet",
+    "arbeidsark bokstaver",
+    "bokstavhus arbeidsark",
+    "arbeidsark bokstaven s",
+    "bokstaver til barnerom",
+    "arbeidsark bokstavinnlæring"
+   ]
+  },
+  "prepositions": {
+   "seeds": [
+    "Preposisjoner",
+    "Preposisjoner: i, på, under, ved siden av – med bilder",
+    "Preposisjoner med bilder – barnehage (PDF)"
+   ],
+   "framings": [
+    "preposisjoner barnehage",
+    "preposisjoner oppgaver barnehage",
+    "preposisjoner oppgaver pdf",
+    "preposisjoner oppgaver utskrift",
+    "preposisjoner oppgaver",
+    "arbeidsark preposisjoner",
+    "preposisjoner oppgaver barn",
+    "preposisjoner oppgaver norsk",
+    "preposisjoner spansk oppgaver",
+    "oppgaver preposisjoner engelsk",
+    "arbeidsark preposisjoner engelsk"
+   ]
+  },
+  "word-guess": {
+   "seeds": [
+    "Gjett Ordet",
+    "Manglende bokstaver",
+    "Gjett ordet: bokstav for bokstav til løsningen",
+    "Gjett ordet – bokstav for bokstav (PDF)"
+   ],
+   "framings": [
+    "bokstaver klasserom",
+    "bokstavspill gratis",
+    "bokstavspill barn",
+    "arbeidsark bokstaver",
+    "bokstavhus arbeidsark",
+    "arbeidsark bokstaven s",
+    "bokstaver til barnerom",
+    "arbeidsark bokstavinnlæring"
+   ]
+  },
+  "word-scramble": {
+   "seeds": [
+    "Bokstavspill",
+    "Stokk om bokstavene",
+    "Bokstavspill: sett bokstavene i riktig rekkefølge",
+    "Bokstavspill – ordne bokstavene (PDF)"
+   ],
+   "framings": [
+    "bokstaver klasserom",
+    "bokstavspill gratis",
+    "bokstavspill barn",
+    "arbeidsark bokstaver",
+    "bokstavhus arbeidsark",
+    "arbeidsark bokstaven s",
+    "bokstaver til barnerom",
+    "arbeidsark bokstavinnlæring",
+    "arbeidsark alfabetisk rekkefølge"
+   ]
+  },
+  "wordsearch": {
+   "seeds": [
+    "Ordleting",
+    "Ordsøk",
+    "Finn ord: ordgitter og ordleting for barn",
+    "Finn ord (ordleting) – ordgitter for barn"
+   ],
+   "framings": [
+    "ordleting oppgaver",
+    "ordletingsvansker barn"
+   ]
+  },
+  "crossword": {
+   "seeds": [
+    "Kryssord",
+    "Bildekryssord",
+    "Bildekryssord for barn",
+    "Kryssord for barn – til utskrift (PDF)"
+   ],
+   "framings": []
+  },
+  "find-and-count": {
+   "seeds": [
+    "Finn Og Tell",
+    "Finn og tell",
+    "Finn bokstaven",
+    "Søk og tell: finn motivene og tell dem",
+    "Søk og tell – for barnehagen (PDF)"
+   ],
+   "framings": [
+    "bokstaver klasserom",
+    "bokstavspill gratis",
+    "bokstavspill barn",
+    "arbeidsark bokstaver",
+    "bokstavhus arbeidsark",
+    "arbeidsark bokstaven s",
+    "bokstaver til barnerom",
+    "arbeidsark bokstavinnlæring"
+   ]
+  },
+  "find-objects": {
+   "seeds": [
+    "Finn Objektene",
+    "Finn de skjulte tingene",
+    "Finn forskjellen",
+    "Letebilder: finn de gjemte objektene",
+    "Finn objektene – letebilder for barn (PDF)",
+    "Myldrebilde"
+   ],
+   "framings": []
+  },
+  "treasure-hunt": {
+   "seeds": [
+    "Skattejakt",
+    "Skattejakt: gåteveier fram til skatten",
+    "Skattejakt-oppgaver for barn (PDF)"
+   ],
+   "framings": [
+    "skattejakt barnehage",
+    "påske skattejakt gratis",
+    "skattejakt for barn",
+    "skattejakt oppgaver",
+    "skattejakt rebus barn",
+    "skattejakt barnebursdag",
+    "skattejakt oppgaver barn",
+    "skattejakt rebus barn påske"
+   ]
+  },
+  "missing-pieces": {
+   "seeds": [
+    "Manglende Brikker",
+    "Den manglende brikken",
+    "Hva mangler? Finn den delen som mangler i bildet",
+    "Hva mangler? Finn den manglende brikken"
+   ],
+   "framings": []
+  },
+  "odd-one-out": {
+   "seeds": [
+    "Hvilken Passer Ikke",
+    "Hva passer ikke?",
+    "Hvem skal ut? Finn bildet som ikke passer",
+    "Hvem skal ut? Logikkoppgaver med bilder"
+   ],
+   "framings": []
+  },
+  "counting-pictures": {
+   "seeds": [
+    "Telle bilder",
+    "Tell bildene: telle og oppfatte mengder",
+    "Tell bildene – lær å telle med bilder (PDF)"
+   ],
+   "framings": [
+    "telle leker for barn",
+    "tellestreker oppgaver"
+   ]
+  },
+  "counting-frames": {
+   "seeds": [
+    "Tierramme",
+    "Tierramme: oppfatt mengder i tierrammen",
+    "Tierramme – øvelser til utskrift (PDF)"
+   ],
+   "framings": [
+    "tierramme oppgaver",
+    "øye hånd koordinasjon øvelser barn"
+   ]
+  },
+  "tally-counting": {
+   "seeds": [
+    "Tellestreker",
+    "Tellestreker: telle, bunte og lese av",
+    "Tellestreker – tell og noter (PDF)"
+   ],
+   "framings": [
+    "tellestreker oppgaver",
+    "telle leker for barn"
+   ]
+  },
+  "number-charts": {
+   "seeds": [
+    "Hundrerute",
+    "Hundrerute: øv i tallområdet opp til 100",
+    "Hundrerute – øvelser til utskrift (PDF)"
+   ],
+   "framings": [
+    "øye hånd koordinasjon øvelser barn"
+   ]
+  },
+  "comparing-numbers": {
+   "seeds": [
+    "Sammenligne tall",
+    "Sammenligne tall med <, > og =",
+    "Sammenligne tall: større, mindre, lik (PDF)"
+   ],
+   "framings": []
+  },
+  "comparing-groups": {
+   "seeds": [
+    "Sammenligne mengder",
+    "Sammenligne mengder: hvor er det flest, hvor færrest?",
+    "Sammenligne mengder – hvor er det flest?"
+   ],
+   "framings": []
+  },
+  "comparing-sizes": {
+   "seeds": [
+    "Sammenligne størrelser",
+    "Sammenligne størrelser: finn det største og minste",
+    "Sammenligne størrelser – ordne etter størrelse"
+   ],
+   "framings": []
+  },
+  "number-lines": {
+   "seeds": [
+    "Tallinje",
+    "Tallinje: plassér tall opp til 20",
+    "Tallinje – oppgaver til utskrift (PDF)"
+   ],
+   "framings": [
+    "tallinje 1 trinn",
+    "tallinje 2 trinn",
+    "oppgaver tallinje 2 trinn",
+    "tallinje oppgaver 1 trinn",
+    "tallinje oppgaver 3 trinn",
+    "tallinje oppgaver 4 trinn",
+    "tallinje 0 100 utskrift",
+    "gratis tallinje",
+    "tallinje 0 20 gratis",
+    "tallinje 0 100 gratis",
+    "tallinje arbetsblad gratis",
+    "tallinje oppgaver",
+    "arbeidsark tallinje",
+    "tom tallinje oppgaver",
+    "tallinje 0-20 oppgaver",
+    "brøk på tallinje oppgaver",
+    "arbeidsark plassverdisystemet",
+    "desimaltall på tallinje oppgaver"
+   ]
+  },
+  "base-ten": {
+   "seeds": [
+    "Plassverdi (tiere og enere)",
+    "Plassverdi: forstå tiere og enere",
+    "Plassverdi: tiere og enere – øvelser (PDF)"
+   ],
+   "framings": [
+    "tiere og enere oppgaver",
+    "arbeidsark tiere og enere",
+    "arbeidsark plassverdisystemet",
+    "øye hånd koordinasjon øvelser barn"
+   ]
+  },
+  "telling-time": {
+   "seeds": [
+    "Lese klokka",
+    "Lære klokka: les klokka steg for steg",
+    "Lære klokka – oppgaver til utskrift (PDF)"
+   ],
+   "framings": [
+    "oppgaver klokka 2 trinn",
+    "arbeidsark klokka",
+    "arbeidsark om klokka",
+    "klokke oppgaver på nett",
+    "arbeidsark analog klokke"
+   ]
+  },
+  "fractions": {
+   "seeds": [
+    "Brøk",
+    "Første brøk: halve, fjerdedeler, hele",
+    "Brøk for barn – oppdag halve og fjerdedeler"
+   ],
+   "framings": [
+    "første lyd oppgaver",
+    "arbeidsark dobling og halvering"
+   ]
+  },
+  "graphing-data": {
+   "seeds": [
+    "Diagram og data",
+    "Diagram og data: les av, tell og fyll inn",
+    "Diagram og data – oppgaver til utskrift"
+   ],
+   "framings": []
+  },
+  "arrays-multiplication": {
+   "seeds": [
+    "Ganging med rader",
+    "Ganging med rader: multiplikasjon med prikkefelt",
+    "Ganging med rader – første multiplikasjon (PDF)"
+   ],
+   "framings": [
+    "arbeidsark ganging",
+    "første lyd oppgaver",
+    "arbeidsark multiplikasjon",
+    "arbeidsark multiplikasjon og divisjon"
+   ]
+  },
+  "geometry": {
+   "seeds": [
+    "Geometri",
+    "Geometri: kjenne igjen former og figurer",
+    "Geometri – former og figurer for barn (PDF)"
+   ],
+   "framings": [
+    "geometriske former barnehage",
+    "geometri 2 trinn",
+    "geometri 1. trinn",
+    "geometri barnehage",
+    "former og mønster 1 trinn",
+    "geometri oppgaver 1 trinn",
+    "geometri oppgaver 4 trinn",
+    "geometri oppgaver 6 trinn",
+    "geometri oppgaver 7 trinn",
+    "geometri oppgaver 9 trinn",
+    "geometri oppgaver 10 trinn",
+    "oppgaver geometri 2. trinn",
+    "geometri oppgaver pdf",
+    "geometriske former oppgaver",
+    "arbeidsark geometriske figurer",
+    "geometri gratis",
+    "cfp geometri gratis",
+    "geometri online gratis",
+    "crediti geometri gratis",
+    "webinar geometri gratis",
+    "formazione geometri gratis",
+    "deontologia geometri gratis",
+    "webinar geometri gratis 2025",
+    "calcolo parcelle geometri gratis",
+    "oppgaver former",
+    "geometri oppgaver",
+    "arbeidsark geometri",
+    "geometri oppgaver 2p",
+    "geometriske mønster oppgaver",
+    "arbeidsark tredimensjonale figurer"
+   ]
+  },
+  "measurement": {
+   "seeds": [
+    "Måling",
+    "Måling: sammenlign og mål lengder",
+    "Måling – lengde og vekt for barn (PDF)"
+   ],
+   "framings": [
+    "måling 1 trinn",
+    "måling 2. trinn",
+    "måling barnehage",
+    "måling oppgaver 2 trinn",
+    "måling oppgaver 3 trinn",
+    "oppgaver måling 1 trinn",
+    "oppgaver måling 4 trinn",
+    "måling aktivitet i barnehagen",
+    "måling lengde oppgaver",
+    "radon måling gratis",
+    "blodsukker måling gratis",
+    "måling oppgaver",
+    "arbeidsark lengde",
+    "arbeidsark måling",
+    "måling vekt oppgaver",
+    "kittys oppgaver måling",
+    "praktiske oppgaver måling",
+    "matematikk måling oppgaver"
+   ]
+  },
+  "visual-logic": {
+   "seeds": [
+    "Logiske gåter",
+    "Logiske gåter: tenke og kombinere for barn",
+    "Logiske gåter for barn – gratis (PDF)"
+   ],
+   "framings": [
+    "tenkende klasserom oppgaver",
+    "logiske gåter for barn",
+    "logiske oppgaver for barn"
+   ]
+  },
+  "visual-discrimination": {
+   "seeds": [
+    "Visuell oppmerksomhet",
+    "Visuell oppmerksomhet: finn like og ulike bilder",
+    "Visuell oppmerksomhet – finn forskjeller (PDF)"
+   ],
+   "framings": []
+  },
+  "visual-matching": {
+   "seeds": [
+    "Finne par",
+    "Finn par: koble like bilder sammen",
+    "Finn par – like bilder for barn (PDF)"
+   ],
+   "framings": []
+  },
+  "patterns": {
+   "seeds": [
+    "Mønster",
+    "Mønster: kjenne igjen og fortsette rekker",
+    "Mønster – fortsett rekka (PDF)"
+   ],
+   "framings": [
+    "gratis mønster barnehagevotter",
+    "mønster 1 trinn",
+    "mønster 2 trinn",
+    "mønster barnehage",
+    "mønster barnehagevotter",
+    "former og mønster 1 trinn",
+    "mønster matematikk 2 trinn",
+    "mønster oppgaver barnehage",
+    "mønster gratis",
+    "gratis mønster lue",
+    "gratis mønster forkle",
+    "gratis mønster skjørt",
+    "gratis mønster kjole barn",
+    "gratis mønster forkle barn",
+    "gratis mønster lappeteknikk",
+    "gratis mønster toalettmappe",
+    "gratis mønster på traktorgenser til barn",
+    "gratisoppskrift mønster strikkeoppskrift kaptein sabeltann genser dale garn",
+    "mønster oppgaver",
+    "mønster oppgaver matematikk",
+    "geometriske mønster oppgaver",
+    "arbeidsark alfabetisk rekkefølge"
+   ]
+  },
+  "position-words": {
+   "seeds": [
+    "Plasseringsord",
+    "Plasseringsord: over, under, foran, bak",
+    "Plasseringsord – over, under, ved siden av"
+   ],
+   "framings": []
+  },
+  "sorting-categories": {
+   "seeds": [
+    "Sortere i grupper",
+    "Sortere i grupper: dele ting inn i kategorier",
+    "Sortere i grupper – øvingsark for barn"
+   ],
+   "framings": []
+  },
+  "picture-arithmetic": {
+   "seeds": [
+    "Regne med bilder",
+    "Regne med bilder: første pluss- og minusoppgaver",
+    "Regne med bilder – pluss og minus (PDF)"
+   ],
+   "framings": [
+    "arbeidsark pluss og minus",
+    "første lyd oppgaver",
+    "arbeidsark de fire regneartene"
+   ]
+  },
+  "science-sort": {
+   "seeds": [
+    "Sortere i naturfag",
+    "Naturfag: sortere, kategorisere, oppdage",
+    "Naturfag: sortere og kategorisere (PDF)"
+   ],
+   "framings": [
+    "arbeidsark naturfag"
+   ]
+  },
+  "science-sequence": {
+   "seeds": [
+    "Rekkefølge og livssykluser",
+    "Livssykluser: ordne naturens rekkefølger",
+    "Rekkefølge og livssykluser – naturfag (PDF)"
+   ],
+   "framings": [
+    "arbeidsark alfabetisk rekkefølge",
+    "arbeidsark naturfag",
+    "oppgaver for barn i naturen"
+   ]
+  },
+  "science-match": {
+   "seeds": [
+    "Para sammen i naturfag",
+    "Para sammen i naturfag: hva hører sammen?",
+    "Naturfag: para sammen bilder og begrep"
+   ],
+   "framings": [
+    "arbeidsark naturfag"
+   ]
+  },
+  "beginning-sounds": {
+   "seeds": [
+    "Førstelyd",
+    "Førstelyd: hør og kjenn igjen første lyd",
+    "Førstelyd – første lyd i ordet (PDF)"
+   ],
+   "framings": [
+    "første lyd oppgaver"
+   ]
+  },
+  "letter-knowledge": {
+   "seeds": [
+    "Bokstavkjennskap",
+    "Bokstavkjennskap: kjenne igjen og skille bokstaver",
+    "Bokstavkjennskap – kjenn igjen bokstaver (PDF)"
+   ],
+   "framings": [
+    "bokstaver klasserom",
+    "bokstavspill gratis",
+    "bokstavspill barn",
+    "arbeidsark bokstaver",
+    "bokstavhus arbeidsark",
+    "arbeidsark bokstaven s",
+    "bokstaver til barnerom",
+    "arbeidsark bokstavinnlæring"
+   ]
+  },
+  "word-building": {
+   "seeds": [
+    "Ordbygging",
+    "Ordbygging: legg bokstaver til hele ord",
+    "Ordbygging – bygg ord av bokstaver (PDF)"
+   ],
+   "framings": [
+    "bokstaver klasserom",
+    "bokstavspill gratis",
+    "bokstavspill barn",
+    "arbeidsark bokstaver",
+    "bokstavhus arbeidsark",
+    "arbeidsark bokstaven s",
+    "bokstaver til barnerom",
+    "arbeidsark bokstavinnlæring"
+   ]
+  },
+  "picture-vocabulary": {
+   "seeds": [
+    "Bildeordforråd",
+    "Bildeordforråd: se ordet, lær ordet",
+    "Bildeordforråd – ord med bilder (PDF)"
+   ],
+   "framings": []
+  },
+  "phonological-awareness": {
+   "seeds": [
+    "Språklig bevissthet",
+    "Språklig bevissthet: hør, klapp, les",
+    "Språklig bevissthet – lyder og stavelser (PDF)"
+   ],
+   "framings": [
+    "språklig bevissthet barn",
+    "språklig bevissthet barnehage",
+    "språklig bevissthet i barnehagen",
+    "lydering oppgaver",
+    "stavelser oppgaver",
+    "stavelser arbeidsark"
+   ]
+  }
+ }
+}

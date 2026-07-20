@@ -1,0 +1,921 @@
+{
+ "locale": "da",
+ "generatedAt": "2026-07-20T11:43:09.075Z",
+ "corpusSize": 1185,
+ "note": "Real harvested queries per exercise type. Seeds are native to this locale — taxonomy name, engine TYPE_MAP ops, topic-override copy, native-verified leads. Never translated.",
+ "pools": {
+  "addition": {
+   "seeds": [
+    "Addition",
+    "Plusopgaver",
+    "Additionsopgaver: første plusstykker med billeder",
+    "Additionsopgaver – plus til print (PDF)"
+   ],
+   "framings": [
+    "addition 1 klasse pdf",
+    "addition 2 klasse pdf",
+    "addition 2 klasse aufgaben pdf",
+    "addition 1. klasse",
+    "addition 2. klasse",
+    "mathe addition 1 klasse",
+    "addition 1 klasse bis 10",
+    "addition 1 klasse bis 20",
+    "addition 2 klasse aufgaben",
+    "addition 2 klasse erklären",
+    "addition 2 klasse mit lösung",
+    "addition klasse 1 einführung",
+    "addition klasse 2 kopfrechnen",
+    "addition subtraktion 1 klasse",
+    "addition 2 klasse arbeitsblatt",
+    "schriftliche addition 1 klasse",
+    "addition 1 klasse arbeitsblätter",
+    "tauschaufgaben addition 1 klasse",
+    "addition und subtraktion 2 klasse",
+    "rechenstrategien addition 2 klasse",
+    "addition gratis",
+    "addition opgaver",
+    "matematik opgaver addition"
+   ]
+  },
+  "sudoku": {
+   "seeds": [
+    "Billedsudoku",
+    "Sudoku for børn med billeder"
+   ],
+   "framings": [
+    "sudoku opgaver til print"
+   ]
+  },
+  "cryptogram": {
+   "seeds": [
+    "Kryptogram"
+   ],
+   "framings": []
+  },
+  "picture-path": {
+   "seeds": [
+    "Billedvej",
+    "Labyrint"
+   ],
+   "framings": [
+    "labyrint opgaver til print"
+   ]
+  },
+  "picture-trail": {
+   "seeds": [
+    "Labyrint"
+   ],
+   "framings": [
+    "labyrint opgaver til print"
+   ]
+  },
+  "subtraction": {
+   "seeds": [
+    "Subtraktion",
+    "Minusopgaver",
+    "Subtraktionsopgaver: første minusstykker med billeder",
+    "Subtraktionsopgaver – minus til print"
+   ],
+   "framings": [
+    "subtraktion 1 klasse pdf",
+    "subtraktion 2 klasse pdf",
+    "subtraktion 2 klasse mathe arbeitsblätter zum ausdrucken",
+    "subtraktion 1 klasse",
+    "subtraktion 2. klasse",
+    "subtraktion klasse 1 spiele",
+    "subtraktion 2 klasse bis 100",
+    "subtraktion 2 klasse übungen",
+    "subtraktion klasse 1 übungen",
+    "addition subtraktion 1 klasse",
+    "subtraktion 1 klasse erklären",
+    "subtraktion 2 klasse erklären",
+    "subtraktion 2 klasse rechenweg",
+    "subtraktion klasse 1 einführung",
+    "subtraktion grundschule 1 klasse",
+    "addition und subtraktion 2 klasse",
+    "subtraktion 2 klasse arbeitsblätter",
+    "nachbaraufgaben subtraktion klasse 1",
+    "subtraktion 1. klasse arbeitsblätter",
+    "rechenstrategien subtraktion 1 klasse",
+    "subtraktion mit zehnerübergang 2 klasse",
+    "minus opgaver til print",
+    "plus og minus opgaver til print",
+    "subtraktion opgaver",
+    "plus og minus opgaver"
+   ]
+  },
+  "code-addition": {
+   "seeds": [
+    "Kodeaddition",
+    "Regnekode",
+    "Hemmeligt ord med regnekode",
+    "Kodeaddition: knæk koden og regn",
+    "Kodeaddition – regn med symboler (PDF)",
+    "Regn og farv"
+   ],
+   "framings": []
+  },
+  "more-less": {
+   "seeds": [
+    "Mere Eller Mindre",
+    "Flest og færrest",
+    "Mere eller mindre? Sammenlign mængder",
+    "Mere eller mindre – opgaver til print"
+   ],
+   "framings": [
+    "flest og færrest opgaver"
+   ]
+  },
+  "math-puzzle": {
+   "seeds": [
+    "Matematikpuslespil",
+    "Talpuslespil plus",
+    "Talpuslespil minus",
+    "Talpuslespil",
+    "Matematikpuslespil: knæk tal-gåderne",
+    "Matematikpuslespil for børn (PDF)",
+    "Sjove matematikopgaver"
+   ],
+   "framings": [
+    "sjove matematikopgaver 1 klasse",
+    "sjove matematikopgaver 2 klasse",
+    "matematikopgaver 1 klasse gratis",
+    "matematikopgaver 2 klasse gratis",
+    "matematikopgaver 0. klasse",
+    "matematikopgaver 1. klasse",
+    "matematikopgaver 2. klasse",
+    "sjove opgaver til 0 klasse",
+    "sjove opgaver til 1 klasse",
+    "sjove opgaver til 2 klasse",
+    "sjove danskopgaver 2 klasse",
+    "sjove dansk opgaver 1 klasse",
+    "sjove dansk opgaver 2 klasse",
+    "sjove danskopgaver 1. klasse",
+    "matematikopgaver 0 klasse print",
+    "matematikopgaver 1 klasse print",
+    "matematikopgaver 2 klasse print",
+    "matematikopgaver 1 klasse online",
+    "sjove matematik opgaver 0 klasse",
+    "sjove matematik opgaver 1 klasse",
+    "sjove matematik opgaver 2 klasse",
+    "matematikopgaver online 2. klasse",
+    "blandede matematikopgaver 1 klasse",
+    "blandede matematikopgaver 2 klasse",
+    "minus opgaver til print",
+    "sjove opgaver til print",
+    "plus og minus opgaver til print",
+    "plus og minus opgaver"
+   ]
+  },
+  "math-worksheet": {
+   "seeds": [
+    "Matematikark",
+    "Regn med billeder",
+    "Regn med billeder (tre led)",
+    "Blandede matematikopgaver til print",
+    "Blandede matematikopgaver – til print"
+   ],
+   "framings": [
+    "blandede matematikopgaver 1 klasse",
+    "blandede matematikopgaver 2 klasse",
+    "matematikopgaver 1 klasse gratis",
+    "matematikopgaver 2 klasse gratis",
+    "matematikopgaver 0. klasse",
+    "matematikopgaver 1. klasse",
+    "matematikopgaver 2. klasse",
+    "matematik opgaver 2 klasse pdf",
+    "matematikopgaver 0 klasse print",
+    "matematikopgaver 1 klasse print",
+    "matematikopgaver 2 klasse print",
+    "sjove matematikopgaver 1 klasse",
+    "sjove matematikopgaver 2 klasse",
+    "matematikopgaver 1 klasse online",
+    "matematikopgaver online 2. klasse",
+    "blandede opgaver matematik 2. klasse",
+    "matematik opgaver 2 klasse til print",
+    "matematik opgaver til print 0 klasse",
+    "matematik opgaver til print 1 klasse",
+    "matematik opgaver til print 4 klasse",
+    "matematik opgaver til print 5 klasse",
+    "matematik opgaver til print 6 klasse",
+    "gratis matematik opgaver 1 klasse",
+    "matematik opgaver 0 klasse gratis",
+    "matematik opgaver 2 klasse gratis",
+    "jul matematik 4 klasse",
+    "jul matematik 5 klasse",
+    "jul matematik 6 klasse",
+    "matematik ark 1 klasse",
+    "matematik ark 2 klasse",
+    "påske matematik 1 klasse",
+    "påske matematik 2 klasse",
+    "påske matematik 3 klasse",
+    "påske matematik 4 klasse",
+    "matematik online 0 klasse",
+    "sommer matematik 1 klasse",
+    "sommer matematik 2 klasse",
+    "matematik 0 klasse opgaver",
+    "matematik 2 klasse opgaver",
+    "påske matematik indskoling",
+    "sommer matematik 3. klasse",
+    "matematik 1. klasse opgaver",
+    "matematik online indskoling",
+    "sommer matematik indskoling",
+    "matematik aktiviteter 1 klasse",
+    "matematik aktiviteter 2 klasse",
+    "matematik opgaver til 2 klasse",
+    "opgaver til 0 klasse matematik",
+    "opgaver til 1 klasse matematik",
+    "matematik aktiviteter indskoling",
+    "matematik opgaver 0 klasse print",
+    "matematik opgaver 1 klasse print",
+    "sjove matematik opgaver 0 klasse",
+    "sjove matematik opgaver 1 klasse",
+    "sjove matematik opgaver 2 klasse",
+    "ekstra opgaver matematik 1 klasse",
+    "ekstra opgaver matematik 2 klasse",
+    "matematik opgaver 1 klasse online",
+    "matematik opgaver 2 klasse online",
+    "matematik opgaver børnehaveklasse",
+    "gratis matematik opgaver til print",
+    "matematik ark til print",
+    "opgaver til print matematik",
+    "matematik online gratis",
+    "matematik opgaver online gratis",
+    "matematik opgave ark",
+    "opgavehæfter matematik",
+    "påske matematik opgaver",
+    "matematik online opgaver",
+    "sommer matematik opgaver",
+    "mønstre opgaver matematik",
+    "matematik opgaver addition",
+    "matematik opgaver børnehave"
+   ]
+  },
+  "big-small": {
+   "seeds": [
+    "Stor Eller Lille",
+    "Størst og mindst",
+    "Sortér efter størrelse",
+    "Stor eller lille? Sammenlign størrelser",
+    "Stor eller lille – opgaver til børnehaven"
+   ],
+   "framings": []
+  },
+  "chart-count": {
+   "seeds": [
+    "Tæl I Diagram",
+    "Søjlediagram",
+    "Tæl og tegn: første søjlediagrammer",
+    "Tæl og tegn diagram – opgaver (PDF)",
+    "Tælleopgaver"
+   ],
+   "framings": []
+  },
+  "pattern-train": {
+   "seeds": [
+    "Mønstertoget",
+    "AB-mønster",
+    "AAB-mønster",
+    "ABB-mønster",
+    "AABB-mønster",
+    "ABC-mønster",
+    "Mønstertoget: se mønsteret og fortsæt det",
+    "Mønstertoget – fortsæt mønsteret (PDF)",
+    "Mønstre"
+   ],
+   "framings": [
+    "mønstre 0 klasse",
+    "mønstre 1 klasse",
+    "reprint mønsterark",
+    "gratis mønstre",
+    "gratis mønstre dame",
+    "gratis mønstre barbie",
+    "gratis mønstre børnetøj",
+    "gratis mønstre selfmade",
+    "gratis mønstre på tasker",
+    "gratis mønstre til dukketøj",
+    "gratis mønstre til baby born",
+    "gratis mønstre til hama perler",
+    "gratis mønstre til perleplader",
+    "mønstre opgaver",
+    "mønstre opgaver matematik"
+   ]
+  },
+  "pattern-worksheet": {
+   "seeds": [
+    "Mønsterark",
+    "Mønstre",
+    "Mønsterark: fortsæt rækker og figurfølger",
+    "Mønsterark – fortsæt rækken (PDF)"
+   ],
+   "framings": [
+    "mønstre 0 klasse",
+    "mønstre 1 klasse",
+    "reprint mønsterark",
+    "gratis mønstre",
+    "gratis mønstre dame",
+    "gratis mønstre barbie",
+    "gratis mønstre børnetøj",
+    "gratis mønstre selfmade",
+    "gratis mønstre på tasker",
+    "gratis mønstre til dukketøj",
+    "gratis mønstre til baby born",
+    "gratis mønstre til hama perler",
+    "gratis mønstre til perleplader",
+    "mønstre opgaver",
+    "mønstre opgaver matematik"
+   ]
+  },
+  "bingo": {
+   "seeds": [
+    "Bingo",
+    "Bankoplader",
+    "Billedbingo: bingoplader med billeder",
+    "Billedbingo til børn – print gratis"
+   ],
+   "framings": [
+    "bingo 2.klasse",
+    "bingo 1. klasse",
+    "lese bingo klasse 2",
+    "bingo 1 klasse mathe",
+    "bingo lesen klasse 1",
+    "mathe bingo 2 klasse",
+    "silben bingo 1 klasse",
+    "bingo 1 klasse deutsch",
+    "ferien bingo 2. klasse",
+    "kennenlern bingo 1 klasse",
+    "kennenlern bingo klasse 2",
+    "osterferien bingo klasse 1",
+    "herbstferien bingo klasse 1",
+    "herbstferien bingo klasse 2",
+    "sommerferien bingo 2 klasse",
+    "sommerferien bingo klasse 1",
+    "weihnachtsferien bingo klasse 1",
+    "bingo gratis",
+    "bingo gratis bet365",
+    "bingo gratis casino",
+    "bingo gratis online",
+    "bingo gratis italiano",
+    "bingo gratis promatic",
+    "bingo gratis en español",
+    "bingo tragamonedas gratis",
+    "bingo gratis sin registrarse",
+    "bingo gratis para jugar en casa"
+   ]
+  },
+  "grid-match": {
+   "seeds": [
+    "Gittermatch",
+    "Billedbrikker",
+    "Gittermatch: sæt billedbrikkerne på rette plads",
+    "Gittermatch – sæt billedbrikker på plads"
+   ],
+   "framings": []
+  },
+  "matching": {
+   "seeds": [
+    "Matchning",
+    "Forlyd og bogstaver",
+    "Forbind ord og billede",
+    "Forbind billeder: hvad hører sammen?",
+    "Forbind billeder – matchopgaver (PDF)"
+   ],
+   "framings": [
+    "forlyd 0 klasse",
+    "forlyd opgaver 0 klasse",
+    "opgaver 0 klasse bogstaver",
+    "bogstaver til print",
+    "forlyd opgaver",
+    "bogstavlyde opgaver",
+    "bogstavlyde for børn",
+    "bogstavkendskab opgaver",
+    "forlydsopgaver"
+   ]
+  },
+  "picture-sort": {
+   "seeds": [
+    "Sortér Billeder",
+    "Sortér billederne",
+    "Sortér billeder: ordn efter kategori",
+    "Sortér billeder i grupper – opgaver"
+   ],
+   "framings": []
+  },
+  "shadow-match": {
+   "seeds": [
+    "Match Skygger",
+    "Find skyggen",
+    "Gør billedet helt",
+    "Find skyggen: hvilken skygge hører til?",
+    "Find skyggen – match skygger (PDF)"
+   ],
+   "framings": []
+  },
+  "alphabet-train": {
+   "seeds": [
+    "Alfabettoget",
+    "Alfabetisk rækkefølge",
+    "Alfabettoget: bogstaverne i rigtig rækkefølge",
+    "Alfabettoget – øv alfabetet (PDF)",
+    "Alfabet opgaver"
+   ],
+   "framings": [
+    "opgaver 0 klasse bogstaver",
+    "bogstaver til print"
+   ]
+  },
+  "prepositions": {
+   "seeds": [
+    "Præpositioner",
+    "Forholdsord",
+    "Forholdsord: i, på, under, ved siden af",
+    "Forholdsord – præpositioner til print"
+   ],
+   "framings": [
+    "præpositioner opgaver",
+    "præpositioner dansk opgaver"
+   ]
+  },
+  "word-guess": {
+   "seeds": [
+    "Gæt Ordet",
+    "Manglende bogstaver",
+    "Gæt ordet: bogstav for bogstav til løsningen",
+    "Gæt ordet – billedgåder for børn"
+   ],
+   "framings": [
+    "opgaver 0 klasse bogstaver",
+    "bogstaver til print",
+    "bogstavlyde opgaver",
+    "bogstavlyde for børn",
+    "bogstavkendskab opgaver"
+   ]
+  },
+  "word-scramble": {
+   "seeds": [
+    "Bogstavpuslespil",
+    "Byg et ord",
+    "Bogstavpuslespil: sæt bogstaverne i rækkefølge",
+    "Bogstavpuslespil – stav ordet (PDF)"
+   ],
+   "framings": [
+    "opgaver 0 klasse bogstaver",
+    "bogstaver til print"
+   ]
+  },
+  "wordsearch": {
+   "seeds": [
+    "Ordsøgning",
+    "Ordjagt",
+    "Ordsøgning: find ordene i bogstavfeltet",
+    "Ordsøgning – find ord til print (PDF)"
+   ],
+   "framings": []
+  },
+  "crossword": {
+   "seeds": [
+    "Krydsord",
+    "Kryds og tværs",
+    "Billed-kryds-og-tværs for børn",
+    "Kryds og tværs for børn – til print"
+   ],
+   "framings": [
+    "krydsord 0 klasse",
+    "krydsord 1 klasse",
+    "krydsord 2. klasse",
+    "kryds og tværs opgaver til print",
+    "krydsord engelsk opgaver til print",
+    "krydsord gratis",
+    "krydsord gratis let",
+    "krydsord gratis nem",
+    "krydsord gratis børn",
+    "krydsord gratis spil",
+    "krydsord gratis print",
+    "krydsord opgaver gratis",
+    "krydsord gratis tankesport",
+    "krydsord gratis ældre sagen",
+    "krydsord gratis jyllandsposten",
+    "krydsord gratis kristeligt dagblad",
+    "krydsord opgaver",
+    "børnehave krydsord",
+    "krydsord opgaver børn",
+    "håndværker opgaver krydsord"
+   ]
+  },
+  "find-and-count": {
+   "seeds": [
+    "Find Og Tæl",
+    "Find og tæl",
+    "Find bogstavet",
+    "Find og tæl: kig, find og tæl motiverne",
+    "Find og tæl – tælleopgaver (PDF)"
+   ],
+   "framings": [
+    "opgaver 0 klasse bogstaver",
+    "bogstaver til print",
+    "bogstavlyde opgaver",
+    "bogstavlyde for børn",
+    "bogstavkendskab opgaver"
+   ]
+  },
+  "find-objects": {
+   "seeds": [
+    "Find Genstandene",
+    "Find tingene",
+    "Find det, der er anderledes",
+    "Find tingene: spot de skjulte genstande",
+    "Find tingene – kig og find (PDF)"
+   ],
+   "framings": []
+  },
+  "treasure-hunt": {
+   "seeds": [
+    "Skattejagt",
+    "Skattejagt: følg ruten frem til skatten",
+    "Skattejagt-opgaver for børn (PDF)"
+   ],
+   "framings": [
+    "skattejagt 0 klasse",
+    "skattejagt 1 klasse",
+    "skattejagt 2 klasse",
+    "skattejagt børnehaveklasse",
+    "skattejagt gratis",
+    "påske skattejagt gratis",
+    "gratis skattejagt for børn",
+    "udendørs skattejagt gratis",
+    "gratis skattejagt københavn",
+    "halloween skattejagt gratis",
+    "skattejagt for voksne gratis",
+    "skattejagt for børn gratis print",
+    "skattejagt opgaver",
+    "skattejagt til børn",
+    "skattejagt børnehave",
+    "skattejagt børn 3 4 år",
+    "skattejagt med opgaver",
+    "skattejagt opgaver 7 år",
+    "skattejagt opgaver børn",
+    "nem skattejagt børnehave",
+    "skattejagt børnehavebørn",
+    "skattejagt opgaver voksne",
+    "skattejagt børnefødselsdag"
+   ]
+  },
+  "missing-pieces": {
+   "seeds": [
+    "Manglende Brikker",
+    "Den manglende brik",
+    "Hvad mangler? Find den manglende del",
+    "Hvad mangler? – billedgåder (PDF)"
+   ],
+   "framings": []
+  },
+  "odd-one-out": {
+   "seeds": [
+    "Hvilken Passer Ikke",
+    "Hvad passer ikke?",
+    "Hvilken passer ikke? Logik med billeder",
+    "Hvilken passer ikke? – opgaver (PDF)"
+   ],
+   "framings": []
+  },
+  "counting-pictures": {
+   "seeds": [
+    "Tæl billeder",
+    "Tæl billederne og skriv tallet",
+    "Tæl billederne – tælleopgaver (PDF)"
+   ],
+   "framings": []
+  },
+  "counting-frames": {
+   "seeds": [
+    "Tierramme",
+    "Tierramme: fang mængder i tierrammen",
+    "Tierramme – opgaver til print (PDF)"
+   ],
+   "framings": []
+  },
+  "tally-counting": {
+   "seeds": [
+    "Tæl med streger",
+    "Tællestreger: tæl, bundt og aflæs",
+    "Tællestreger – tæl og notér (PDF)"
+   ],
+   "framings": []
+  },
+  "number-charts": {
+   "seeds": [
+    "Hundredfelt",
+    "Hundredfelt: øvelser i talrummet op til 100",
+    "Hundredfelt – taltavle til print (PDF)"
+   ],
+   "framings": [
+    "finmotorik øvelser"
+   ]
+  },
+  "comparing-numbers": {
+   "seeds": [
+    "Sammenlign tal",
+    "Sammenlign tal med <, > og =",
+    "Sammenlign tal – større end, mindre end"
+   ],
+   "framings": []
+  },
+  "comparing-groups": {
+   "seeds": [
+    "Flest og færrest",
+    "Flest og færrest: hvor er der flest?",
+    "Flest og færrest – opgaver til print"
+   ],
+   "framings": [
+    "flest og færrest opgaver"
+   ]
+  },
+  "comparing-sizes": {
+   "seeds": [
+    "Størst og mindst",
+    "Størst og mindst: ordn efter størrelse",
+    "Størst og mindst – sortér efter størrelse"
+   ],
+   "framings": []
+  },
+  "number-lines": {
+   "seeds": [
+    "Tallinje",
+    "Tallinje: placer tal på tallinjen",
+    "Tallinje – opgaver til print (PDF)"
+   ],
+   "framings": [
+    "tallinje 1 klasse",
+    "tallinje regnestykker 2 klasse",
+    "tallinje til print",
+    "tallinje gratis",
+    "tallinje 0 20 gratis",
+    "tallinje 0 100 gratis",
+    "tallinje arbetsblad gratis",
+    "tallinje print",
+    "tallinje opgaver",
+    "brøker tallinje opgaver"
+   ]
+  },
+  "base-ten": {
+   "seeds": [
+    "Tiere og enere",
+    "Tiere og enere: forstå positionssystemet",
+    "Tiere og enere – opgaver til print"
+   ],
+   "framings": [
+    "tiere og enere opgaver",
+    "læs og forstå opgaver til print"
+   ]
+  },
+  "telling-time": {
+   "seeds": [
+    "Hvad er klokken",
+    "Lær klokken: aflæs uret trin for trin",
+    "Lær klokken – opgaver til print (PDF)"
+   ],
+   "framings": [
+    "hvad er klokken opgaver"
+   ]
+  },
+  "fractions": {
+   "seeds": [
+    "Brøker",
+    "Første brøker: halve, kvarte, hele",
+    "Brøker for begyndere – opgaver (PDF)"
+   ],
+   "framings": [
+    "brøker 2 klasse",
+    "brøker opgaver 3 klasse",
+    "brøker opgaver 4 klasse",
+    "brøker opgaver 5 klasse",
+    "brøker opgaver 6 klasse",
+    "brøker opgaver 7 klasse",
+    "brøker opgaver 8 klasse",
+    "brøker opgaver 9 klasse",
+    "brøker opgaver pdf",
+    "brøker opgaver til print",
+    "gratisskole brøker",
+    "brøker opgaver",
+    "brøker opgaver online",
+    "brøker tallinje opgaver"
+   ]
+  },
+  "graphing-data": {
+   "seeds": [
+    "Diagrammer og data",
+    "Diagrammer og data: aflæs, tæl, indfør",
+    "Diagrammer og data – opgaver (PDF)"
+   ],
+   "framings": []
+  },
+  "arrays-multiplication": {
+   "seeds": [
+    "Gange og rækker",
+    "Første gange: gangestykker med rækker",
+    "Gange med rækker – første gangestykker"
+   ],
+   "framings": [
+    "gange opgaver til print"
+   ]
+  },
+  "geometry": {
+   "seeds": [
+    "Geometri og former",
+    "Geometri: genkend former og figurer",
+    "Geometri – former og figurer (PDF)"
+   ],
+   "framings": [
+    "geometriske former børn",
+    "former og figurer opgaver",
+    "geometri opgaver til print",
+    "former opgaver",
+    "geometri og måling opgaver"
+   ]
+  },
+  "measurement": {
+   "seeds": [
+    "Måling",
+    "Måling: sammenlign og mål længder",
+    "Måling – mål og sammenlign længder"
+   ],
+   "framings": [
+    "måling 0 klasse",
+    "måling 2 klasse",
+    "måling 1. klasse",
+    "måling opgaver indskoling",
+    "radon måling gratis",
+    "blodsukker måling gratis",
+    "måling opgaver",
+    "måling af vinkler opgaver",
+    "geometri og måling opgaver"
+   ]
+  },
+  "visual-logic": {
+   "seeds": [
+    "Visuel logik",
+    "Logiske opgaver: knæk og kombinér",
+    "Logiske opgaver for børn (PDF)"
+   ],
+   "framings": []
+  },
+  "visual-discrimination": {
+   "seeds": [
+    "Find forskellen",
+    "Find forskellen: spot de små forskelle",
+    "Find forskellen – kigge-opgaver (PDF)"
+   ],
+   "framings": []
+  },
+  "visual-matching": {
+   "seeds": [
+    "Find par",
+    "Find magen til: hvilke billeder er ens?",
+    "Find magen til – paropgaver (PDF)"
+   ],
+   "framings": []
+  },
+  "patterns": {
+   "seeds": [
+    "Mønstre",
+    "Mønstre: se rækken og fortsæt den",
+    "Mønstre – fortsæt mønsteret (PDF)"
+   ],
+   "framings": [
+    "mønstre 0 klasse",
+    "mønstre 1 klasse",
+    "reprint mønsterark",
+    "gratis mønstre",
+    "gratis mønstre dame",
+    "gratis mønstre barbie",
+    "gratis mønstre børnetøj",
+    "gratis mønstre selfmade",
+    "gratis mønstre på tasker",
+    "gratis mønstre til dukketøj",
+    "gratis mønstre til baby born",
+    "gratis mønstre til hama perler",
+    "gratis mønstre til perleplader",
+    "mønstre opgaver",
+    "mønstre opgaver matematik"
+   ]
+  },
+  "position-words": {
+   "seeds": [
+    "Placering og retning",
+    "Placering og retning: foran, bagved, over, under",
+    "Placering og retning – opgaver (PDF)"
+   ],
+   "framings": []
+  },
+  "sorting-categories": {
+   "seeds": [
+    "Sortér i grupper",
+    "Sortér i grupper: del ting i kategorier",
+    "Sortér i grupper – kategoriopgaver"
+   ],
+   "framings": []
+  },
+  "picture-arithmetic": {
+   "seeds": [
+    "Billedregning",
+    "Regn med billeder: første plus og minus",
+    "Regn med billeder – plus og minus (PDF)"
+   ],
+   "framings": [
+    "minus opgaver til print",
+    "plus og minus opgaver til print",
+    "plus og minus opgaver"
+   ]
+  },
+  "science-sort": {
+   "seeds": [
+    "Sortér i naturen",
+    "Sortér i naturen: ordn og opdag",
+    "Sortér i naturen – natur/teknologi (PDF)"
+   ],
+   "framings": []
+  },
+  "science-sequence": {
+   "seeds": [
+    "Rækkefølge og livscyklusser",
+    "Livscyklusser: ordn naturens rækkefølger",
+    "Rækkefølge i naturen – livscyklusser"
+   ],
+   "framings": []
+  },
+  "science-match": {
+   "seeds": [
+    "Find par i naturen",
+    "Find par i naturen: hvad hører sammen?",
+    "Find par i naturen – natur og teknologi"
+   ],
+   "framings": []
+  },
+  "beginning-sounds": {
+   "seeds": [
+    "Forlyd",
+    "Forlyd: hør ordets første lyd",
+    "Forlyd – hør den første lyd (PDF)"
+   ],
+   "framings": [
+    "forlyd 0 klasse",
+    "forlyd opgaver 0 klasse",
+    "forlyd opgaver",
+    "forlydsopgaver"
+   ]
+  },
+  "letter-knowledge": {
+   "seeds": [
+    "Bogstavkendskab",
+    "Bogstavkendskab: genkend og skeln bogstaver",
+    "Bogstavkendskab – kend bogstaverne (PDF)"
+   ],
+   "framings": [
+    "opgaver 0 klasse bogstaver",
+    "bogstaver til print",
+    "bogstavkendskab opgaver",
+    "bogstavlyde opgaver",
+    "bogstavlyde for børn"
+   ]
+  },
+  "word-building": {
+   "seeds": [
+    "Ordbygning",
+    "Byg ord: læg bogstaver til hele ord",
+    "Byg ord af bogstaver – opgaver (PDF)"
+   ],
+   "framings": [
+    "opgaver 0 klasse bogstaver",
+    "bogstaver til print",
+    "bogstavlyde opgaver",
+    "bogstavlyde for børn",
+    "bogstavkendskab opgaver"
+   ]
+  },
+  "picture-vocabulary": {
+   "seeds": [
+    "Ordforråd",
+    "Ordforråd med billeder: se ordet, lær ordet",
+    "Ordforråd med billeder – til print (PDF)"
+   ],
+   "framings": [
+    "ordforråd 1 klasse",
+    "ordforråd opgaver"
+   ]
+  },
+  "phonological-awareness": {
+   "seeds": [
+    "Sproglig opmærksomhed",
+    "Sproglig opmærksomhed: hør lyde og stavelser",
+    "Sproglig opmærksomhed – opgaver (PDF)"
+   ],
+   "framings": [
+    "sproglig opmærksomhed 0 klasse",
+    "sproglig opmærksomhed i børnehaveklassen",
+    "stavelser indskoling",
+    "sproglig opmærksomhed opgaver",
+    "stavelser opgaver"
+   ]
+  }
+ }
+}

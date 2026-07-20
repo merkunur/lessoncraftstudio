@@ -128,6 +128,37 @@ function checkOne(slug, block, f, fails) {
     add('crossing', 'claims every task crosses; only ' + c + ' do');
   }
 
+  /* D3. the crossing count must be justified by the operations THEMSELVES, recomputed here
+   * rather than trusted from the facts file.
+   *
+   * The shipped measure counted `10 - 7` as crossing the ten, because 10 % 10 = 0 is below
+   * any subtrahend's units. It is not a crossing — it decomposes the ten, the precursor
+   * skill. 472 operations across 390 live decks claimed a difficulty their sheet does not
+   * have. Recomputing independently means a future regression in the deriver shows up here
+   * instead of shipping. */
+  var recount = 0;
+  var citedAsCrossing = [];
+  (f.operations || []).forEach(function (o) {
+    var m = String(o.text).match(/^(\d+) ([+\-]) (\d+)$/);
+    if (!m) return;
+    var a = parseInt(m[1], 10), op = m[2], b = parseInt(m[3], 10);
+    if (op === '+') { if ((a % 10) + (b % 10) > 10) recount++; return; }
+    if (o.solution !== null && o.solution % 10 === 0 && o.solution !== 0) return;
+    if (a === 10) return;                       // decomposition, not a crossing
+    if ((a % 10) < (b % 10)) recount++;
+  });
+  if (recount !== f.regrouping.crossesTen) {
+    add('crossing', 'facts say ' + f.regrouping.crossesTen + ' crossings; the operations give ' + recount);
+  }
+  // and a 10 - n operation must never be quoted as the crossing example
+  var exCross = (f.tenExample || {}).crossing;
+  if (exCross && /^10 - /.test(exCross) && text.indexOf(exCross) !== -1) {
+    citedAsCrossing.push(exCross);
+  }
+  if (citedAsCrossing.length) {
+    add('crossing', 'cites ' + citedAsCrossing[0] + ' as a crossing; subtracting from ten decomposes it');
+  }
+
   /* D2. a mixed claim requires BOTH operations to be present on the sheet.
    *
    * Added after finding two live-candidate blocks asserting "Addition and subtraction are

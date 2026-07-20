@@ -297,8 +297,13 @@ function build(f, ordinal) {
       // hardest early skill, addition over ten, is simply not practised here. No competitor
       // states this, and a teacher planning that week needs it before printing.
       + (c > 0 ? ' Note that crossing 10 only comes up in the subtraction here; adding over ten '
-        + 'does not appear on this type of sheet.' : '') + (f.themeName ? ' The completed picture shows a '
-        + String(f.themeName).toLowerCase() + ' scene.' : ''),
+        + 'does not appear on this type of sheet.' : '')
+      // Do not case-fold a proper noun. Blanket .toLowerCase() turned "4th of July" into
+      // "a 4th of july scene" on six live pages. An internal capital (or a leading digit)
+      // marks a name that must keep its own casing.
+      + (f.themeName ? ' The completed picture shows a '
+        + (/\s\p{Lu}|^\d/u.test(f.themeName) ? f.themeName : String(f.themeName).toLowerCase())
+        + ' scene.' : ''),
   };
 }
 

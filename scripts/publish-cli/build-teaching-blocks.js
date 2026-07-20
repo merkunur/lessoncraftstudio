@@ -30,6 +30,24 @@
 var fs = require('fs');
 var path = require('path');
 
+/**
+ * A theme display name fit to print.
+ *
+ * Two defects showed up in live copy: `birds_2` renders as "Vögel 2" / "birds 2" — the `_2`
+ * is a duplicate-marker on the image set, not part of the theme — and lowercasing for an
+ * English mid-sentence slot turned "4th of July" into "4th of july". Strip the marker, and
+ * never case-fold a name that carries capitals beyond its first letter, because those are
+ * proper nouns.
+ */
+function cleanThemeName(name) {
+  return String(name).replace(/\s+\d+$/, '').trim();
+}
+
+/** True when a display name carries an internal capital — a proper noun, do not case-fold. */
+function isProperNoun(name) {
+  return /\s\p{Lu}|^\d/u.test(String(name));
+}
+
 /** Theme keys are snake_case English; deck pages need the locale display name. */
 function loadThemeNames(locale) {
   var candidates = [
@@ -44,7 +62,7 @@ function loadThemeNames(locale) {
       var out = {};
       Object.keys(themes).forEach(function (key) {
         var n = themes[key].name;
-        if (n && n[locale]) out[key] = n[locale];
+        if (n && n[locale]) out[key] = cleanThemeName(n[locale]);
       });
       return out;
     } catch (e) { /* try next */ }
@@ -194,4 +212,4 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { renderHtml: renderHtml };
+module.exports = { renderHtml: renderHtml, cleanThemeName: cleanThemeName, isProperNoun: isProperNoun };

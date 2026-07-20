@@ -1,0 +1,156 @@
+#!/usr/bin/env node
+/**
+ * Prove no teaching block can misstate its own worksheet.
+ *
+ * A page that tells a teacher the wrong number range, or claims a skill the sheet does not
+ * practise, wastes the prep time of someone who had little to spare — on our promise. That
+ * is worse than saying nothing, so every claim is traced back to the deck's own manifest and
+ * anything untraceable is a FAILURE, not a warning.
+ *
+ * Seven assertions per block:
+ *   A. OPERATIONS   every `a + b` / `a - b` printed appears in that deck's own operations
+ *   B. MAXIMUM      any `bis N` claim matches the measured maximum or its curricular band
+ *   C. COUNTS       any `N der neun Aufgaben` matches the measured crossing count
+ *   D. CROSSING     `ohne Zehnerübergang` only when nothing crosses; `mit` only when it does
+ *   E. ERGAENZUNG   the Zehnerergänzung LABEL only at T3, and never on a subtraction sheet
+ *   F. THEME        the theme named is this deck's theme, in `zum Thema X` form only
+ *   G. FORBIDDEN    no quotation marks, no Common Core, no age-in-years, no diagnostic claim
+ *
+ * Usage:
+ *   node verify-teaching-block.js --blocks=<blocks.json> --facts=<facts.json> [--poison]
+ */
+'use strict';
+
+var fs = require('fs');
+
+/** German curricular bands. `im Zahlenraum bis 20` is legitimate for a max of 17. */
+function bandFor(max) { return max <= 10 ? 10 : (max <= 20 ? 20 : null); }
+
+function checkOne(slug, block, f, fails) {
+  var text = block.text;
+  var add = function (kind, msg) { fails.push({ slug: slug, kind: kind, msg: msg }); };
+
+  /* A. every operation printed must be one of this deck's own */
+  var own = {};
+  (f.operations || []).forEach(function (o) { own[o.text.replace(/\s+/g, '')] = true; });
+  var printed = text.match(/\d+\s*[+\-]\s*\d+/g) || [];
+  printed.forEach(function (p) {
+    if (!own[p.replace(/\s+/g, '')]) add('operation', 'prints ' + p + ' which is not on this sheet');
+  });
+
+  /* B. any range claim must be the measured max or its band */
+  var max = f.band.maxSeen;
+  var band = bandFor(max);
+  var claims = text.match(/bis (\d+)/g) || [];
+  claims.forEach(function (c) {
+    var n = parseInt(c.replace(/\D/g, ''), 10);
+    // `Zahlenraum bis <band>` or `Zahlen bis <exact max>` are the only truthful forms
+    if (n !== max && n !== band) add('range', 'claims "' + c + '" but the largest number is ' + max);
+  });
+  // and a `Zahlenraum bis N` must never quote a non-band number (rule 1 of the copy system)
+  var zr = text.match(/Zahlenraum bis (\d+)/g) || [];
+  zr.forEach(function (c) {
+    var n = parseInt(c.replace(/\D/g, ''), 10);
+    if ([10, 20, 100, 1000].indexOf(n) === -1) {
+      add('zahlenraum', '"' + c + '" — Zahlenraum names a band (10/20/100/1000), not a maximum');
+    }
+  });
+
+  /* C. counted claims must match the measurement */
+  var counted = text.match(/(\d+) der neun Aufgaben/);
+  if (counted) {
+    var n = parseInt(counted[1], 10);
+    if (n !== f.regrouping.crossesTen) {
+      add('count', 'claims ' + n + ' of nine cross the ten; measured ' + f.regrouping.crossesTen);
+    }
+  }
+
+  /* D. the crossing claim must match reality in both directions */
+  var c = f.regrouping.crossesTen;
+  if (/ohne Zehnerübergang/.test(text) && c > 0 && !/überwiegend ohne/.test(text)) {
+    add('crossing', 'claims "ohne Zehnerübergang" but ' + c + ' operations cross the ten');
+  }
+  if (/Ein Zehnerübergang kommt nicht vor/.test(text) && c > 0) {
+    add('crossing', 'states no crossing occurs, but ' + c + ' operations cross');
+  }
+  if (/durchgehend mit Zehnerübergang/.test(text) && c < (f.regrouping.total || 9)) {
+    add('crossing', 'claims every task crosses; only ' + c + ' do');
+  }
+
+  /* E. the Zehnerergänzung LABEL is only earned at T3, and is an ADDITION concept */
+  if (/Übung zur Zehnerergänzung|üben damit die Zehnerergänzung|Aufgaben zur Zehnerergänzung/.test(text)) {
+    if (f.tenCase !== 'T3') {
+      add('ergaenzung', 'labels the sheet a Zehnerergänzung exercise at ' + f.tenCase
+        + ' (only T3 earns the label; below that state the observation, not the purpose)');
+    }
+    if (f.mode === 'subtraction') {
+      add('ergaenzung', 'Zehnerergänzung used on a subtraction sheet — ergänzen is an addition verb');
+    }
+  }
+
+  /* F. the theme, if named, is this deck's, and only in the case-safe frame
+   *
+   * Asserted by PRESENCE, not by extraction. The first version pulled the theme out with
+   * /zum Thema ([^.]+)\./ and reported 33 false failures: a period-terminated match reads
+   * `zum Thema 4. Juli` as the theme "4", and a sentence-final `... zum Thema Aktivitäten
+   * vollständig.` as "Aktivitäten vollständig". The copy was right both times; the measure
+   * was wrong. Checking that this deck's own theme name follows the phrase avoids inventing
+   * a parser for German theme names. */
+  if (/zum Thema /.test(text)) {
+    if (!f.themeName) {
+      add('theme', 'names a theme but this deck has no resolved theme name');
+    } else if (text.indexOf('zum Thema ' + f.themeName) === -1) {
+      add('theme', 'the phrase after "zum Thema" is not this deck\'s theme (' + f.themeName + ')');
+    }
+  }
+  if (/Motiv mit [A-ZÄÖÜ]/.test(text)) {
+    add('theme', 'uses "mit <Thema>" which needs a dative plural; only "zum Thema X" is case-safe');
+  }
+
+  /* G. things the ensemble ruled out entirely */
+  if (/["„“”‘’]/.test(text)) add('forbidden', 'contains a quotation mark (breaks the SWC build)');
+  if (/Common Core/i.test(text)) add('forbidden', 'mentions Common Core on a German page');
+  if (/\d+\s*[-–]\s*\d+\s*Jahre|für \d+-Jährige/.test(text)) add('forbidden', 'states an age in years; German material is banded by Klasse');
+  if (/Lernstandserhebung|Diagnose|Förderbedarf|Lernzielkontrolle/i.test(text)) {
+    add('forbidden', 'makes a diagnostic claim — the self-correction destroys the evidence');
+  }
+  if (/lehrplankonform|lehrplangerecht/i.test(text)) add('forbidden', 'claims Lehrplan alignment without naming a Bundesland');
+  if (/selbstkorrigierend/i.test(text)) add('forbidden', 'uses the calque "selbstkorrigierend"; the German term is Selbstkontrolle');
+}
+
+function run(blocksPath, factsPath) {
+  var blocks = JSON.parse(fs.readFileSync(blocksPath, 'utf8'));
+  var facts = JSON.parse(fs.readFileSync(factsPath, 'utf8'));
+  var bySlug = {};
+  facts.forEach(function (f) { bySlug[f.slug] = f; });
+
+  var fails = [];
+  var checked = 0;
+  Object.keys(blocks).forEach(function (slug) {
+    var f = bySlug[slug];
+    if (!f) { fails.push({ slug: slug, kind: 'orphan', msg: 'block with no facts' }); return; }
+    f.themeName = blocks[slug].facts.themeName;
+    checkOne(slug, blocks[slug], f, fails);
+    checked++;
+  });
+
+  console.log('checked ' + checked + ' blocks');
+  if (!fails.length) { console.log('PASS — every claim traces to its own worksheet.'); return 0; }
+  var byKind = {};
+  fails.forEach(function (x) { (byKind[x.kind] = byKind[x.kind] || []).push(x); });
+  Object.keys(byKind).forEach(function (k) {
+    console.log('  ' + k + ': ' + byKind[k].length);
+    byKind[k].slice(0, 4).forEach(function (x) { console.log('     ' + x.slug + ' — ' + x.msg); });
+  });
+  console.log(fails.length + ' FAILURES — do not ship.');
+  return fails.length;
+}
+
+if (require.main === module) {
+  var args = process.argv.slice(2);
+  function arg(n, d) { var h = args.find(function (a) { return a.indexOf('--' + n + '=') === 0; }); return h ? h.split('=')[1] : d; }
+  var n = run(arg('blocks', '/tmp/teaching-blocks-de.json'), arg('facts', '/tmp/teaching-facts-de-math-puzzle.json'));
+  process.exit(n === 0 ? 0 : 1);
+}
+
+module.exports = { checkOne: checkOne, run: run };

@@ -49,8 +49,25 @@ console.log(lintFails? ('  -> '+lintFails+' lint fails'):'  -> all '+pages.lengt
 
 // ---- similarity
 const N=3;
-function pageGrams(p, normed){ const txt=[p.p1,p.p2,p.p3].join(' '); return grams(normed?normalize(txt,p.slotTokens):txt, N); }
-function paraGrams(p, key, normed){ return grams(normed?normalize(p[key],p.slotTokens):p[key], N); }
+// Memoized: these are called from O(n^2) pair loops (7.2M pairs at n=3,793), so
+// recomputing the 3-gram set per comparison meant ~14M gram builds over ~270-word
+// bodies and the gate never finished on a full locale. Results are identical.
+const _pgCache = [new Map(), new Map()]; // [raw, slot-normalized]
+function pageGrams(p, normed){
+  const c = _pgCache[normed ? 1 : 0];
+  let g = c.get(p);
+  if (!g) { const txt=[p.p1,p.p2,p.p3].join(' '); g = grams(normed?normalize(txt,p.slotTokens):txt, N); c.set(p, g); }
+  return g;
+}
+const _paraCache = new Map();
+function paraGrams(p, key, normed){
+  const ck = key + (normed ? ':n' : ':r');
+  let m = _paraCache.get(ck);
+  if (!m) { m = new Map(); _paraCache.set(ck, m); }
+  let g = m.get(p);
+  if (!g) { g = grams(normed?normalize(p[key],p.slotTokens):p[key], N); m.set(p, g); }
+  return g;
+}
 
 function pairStats(subset, normed, paraKey){
   let max=0, sum=0, cnt=0, over80=0, over65=0, over85=0, maxPair='';
@@ -111,6 +128,93 @@ for(let i=0;i<all.length;i++) for(let j=i+1;j<all.length;j++){
 console.log('\n=== cross-class template-collision probe (slot-normalized whole-page, DIFFERENT (type,mode) only) ===');
 console.log('  max cross-class slot-normalized Jaccard: '+xmax.toFixed(3)+'  ['+xpair+']');
 
+/* ===========================================================================
+ * §4.E  title + metaDescription distinctness   (added 2026-07-20)
+ *
+ * WHY THIS EXISTS. Everything above scores only p1/p2/p3. That is exactly why
+ * `title` and `metaDescription` were free to drift to pairwise 0.42-0.69 — above
+ * this gate's own WARN line — completely unnoticed, while the prose they sit on
+ * scored a healthy 0.13-0.31. Those two fields are the first thing Google reads
+ * and the only thing a searcher sees in the SERP, so they are now gated too.
+ *
+ * The decisive check for titles is NOT Jaccard but the PREFIX assertion: Google
+ * truncates around 50-60 characters, so ~50 siblings sharing an identical first
+ * 52 characters all present the SAME title in results, whatever follows.
+ * =========================================================================== */
+const PREFIX_LEN = 50;
+const META_MIN = 120, META_MAX = 170;
+
+function fieldGrams(p, key) { return grams(String(p[key] || ''), N); }
+function pairStatsPre(gs, subset) {
+  let max = 0, sum = 0, cnt = 0, over80 = 0, over65 = 0, maxPair = '';
+  for (let i = 0; i < gs.length; i++) for (let j = i + 1; j < gs.length; j++) {
+    const J = jaccard(gs[i], gs[j]); sum += J; cnt++;
+    if (J > max) { max = J; maxPair = subset[i].slug + ' ~ ' + subset[j].slug; }
+    if (J >= 0.80) over80++; if (J >= 0.65) over65++;
+  }
+  return { max, mean: cnt ? sum / cnt : 0, pairs: cnt, over80, over65, maxPair };
+}
+
+console.log('\n=== §4.E title + meta distinctness ===');
+
+// --- the decisive one: shared truncated-title prefixes -----------------------
+const prefixGroups = new Map();
+let missingTitle = 0, missingMeta = 0, metaOutOfBand = 0;
+for (const p of pages) {
+  const t = String(p.title || '');
+  if (!t) { missingTitle++; continue; }
+  const k = t.slice(0, PREFIX_LEN).toLowerCase().trim();
+  if (!prefixGroups.has(k)) prefixGroups.set(k, []);
+  prefixGroups.get(k).push(p.slug);
+}
+for (const p of pages) {
+  const m = String(p.metaDescription || '');
+  if (!m) { missingMeta++; continue; }
+  if (m.length < META_MIN || m.length > META_MAX) metaOutOfBand++;
+}
+const collidingPrefixes = [...prefixGroups.entries()].filter(([, v]) => v.length > 1)
+  .sort((a, b) => b[1].length - a[1].length);
+const pagesInCollidingPrefix = collidingPrefixes.reduce((a, [, v]) => a + v.length, 0);
+
+console.log('  [P] shared first-' + PREFIX_LEN + '-char title prefixes: ' + collidingPrefixes.length +
+  ' groups covering ' + pagesInCollidingPrefix + ' of ' + pages.length + ' pages -> ' +
+  (collidingPrefixes.length ? 'FAIL' : 'PASS'));
+for (const [pfx, slugs] of collidingPrefixes.slice(0, 5)) {
+  console.log('      ' + String(slugs.length).padStart(4) + ' pages share "' + pfx + '…"  e.g. ' + slugs.slice(0, 3).join(', '));
+}
+if (missingTitle) console.log('      WARN ' + missingTitle + ' pages have no title (route falls back to h1)');
+if (missingMeta) console.log('      WARN ' + missingMeta + ' pages have no metaDescription (route falls back to first sentence of p1 — which is UNIQUE, so this is healthier than a templated one)');
+if (metaOutOfBand) console.log('      WARN ' + metaOutOfBand + ' metaDescriptions outside the ' + META_MIN + '-' + META_MAX + ' band expected by the §21.2 preband step');
+
+// --- Jaccard, per cluster then all-pairs -------------------------------------
+let worstTitle = 0, worstTitlePair = '', worstMeta = 0, worstMetaPair = '';
+let titleClusterFail = false, metaClusterFail = false;
+for (const k of clusterKeys) {
+  const c = clusters[k];
+  // Pages with an EMPTY field must be excluded from the Jaccard, not scored:
+  // jaccard() returns 1.0 for two empty sets by definition, so a cluster whose
+  // titles are all absent (the cross-language decks, which legitimately fall back
+  // to h1) would otherwise report a perfect-1.000 collision that does not exist.
+  // Absence is already surfaced by the missingTitle / missingMeta warnings above.
+  const ct = c.filter((p) => String(p.title || '').trim());
+  const cm = c.filter((p) => String(p.metaDescription || '').trim());
+  if (ct.length < 2 && cm.length < 2) continue;
+  const ts = pairStatsPre(ct.map((p) => fieldGrams(p, 'title')), ct);
+  const ms = pairStatsPre(cm.map((p) => fieldGrams(p, 'metaDescription')), cm);
+  if (ts.max > worstTitle) { worstTitle = ts.max; worstTitlePair = ts.maxPair; }
+  if (ms.max > worstMeta) { worstMeta = ms.max; worstMetaPair = ms.maxPair; }
+  if (ts.over80) titleClusterFail = true;
+  if (ms.over80) metaClusterFail = true;
+  if (ts.mean >= 0.65 || ms.mean >= 0.65 || ts.over80 || ms.over80) {
+    console.log('  ' + k + ' (n=' + c.length + '): TITLE mean ' + ts.mean.toFixed(3) + ' max ' + ts.max.toFixed(3) +
+      ' #FAIL=' + ts.over80 + ' | META mean ' + ms.mean.toFixed(3) + ' max ' + ms.max.toFixed(3) + ' #FAIL=' + ms.over80);
+  }
+}
+console.log('  [T] worst within-class TITLE max: ' + worstTitle.toFixed(3) + '  [' + worstTitlePair + ']  -> ' + (titleClusterFail ? 'FAIL' : 'PASS'));
+console.log('  [M] worst within-class META  max: ' + worstMeta.toFixed(3) + '  [' + worstMetaPair + ']  -> ' + (metaClusterFail ? 'FAIL' : 'PASS'));
+
+const titleMetaPass = !collidingPrefixes.length && !titleClusterFail && !metaClusterFail;
+
 console.log('\n=== VERDICT vs LOCKED thresholds (2026-06-06 calibration) ===');
 console.log('  [1] cannibalization = WHOLE-PAGE RAW: FAIL>=0.80 / WARN 0.65-0.80 / PASS<0.65 (within+cross)');
 console.log('      worst within-class max: '+worstWithinMax.toFixed(3)+'  ['+worstWithinPair+']  -> '+(anyClusterFail?'FAIL':'PASS'));
@@ -118,4 +222,6 @@ console.log('      all-pairs max:          '+wpa.max+' #FAIL(>=0.80)='+wpa.over8
 console.log('  [2] cluster-density (whole-page-raw mean) alarm>0.75 (per cluster): '+(anyDensityAlarm?'ALARM':'OK'));
 console.log('  [3] cross-class slot-norm template-collision FAIL>=0.90: max='+xmax.toFixed(3)+'  -> '+(xmax>=0.90?'FAIL':'PASS'));
 console.log('  [4] P1-raw cluster-mean WARN>0.70 (per cluster): '+(anyP1Warn?'WARN (a cluster P1 is thin; enrich)':'ok'));
+console.log('  [5] title/meta distinctness (§4.E): shared-'+PREFIX_LEN+'-char-prefix groups='+collidingPrefixes.length+
+  ', worst TITLE '+worstTitle.toFixed(3)+', worst META '+worstMeta.toFixed(3)+'  -> '+(titleMetaPass?'PASS':'FAIL'));
 console.log('      (per-paragraph 0.85 FAIL + within-class slot-norm = RETIRED per ruling — they misfire on the intended template/variant design)');

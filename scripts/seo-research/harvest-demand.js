@@ -117,8 +117,16 @@ const DEMAND = {
       'letters leren', 'klanken', 'rijmwoorden', 'lettergrepen', 'beginklank', 'mkm woorden',
       'getalbegrip', 'splitsen tot 10', 'sommen tot 10', 'sommen tot 20', 'tellen tot 20',
       'klokkijken', 'meten', 'vormen', 'patronen', 'schrijfpatronen', 'fijne motoriek',
-      // Veilig Leren Lezen structural axis — native, absent from any English-designed taxonomy
+      'letterkennis', 'auditieve synthese', 'auditieve analyse', 'hakken en plakken',
+      'woordrijtjes', 'flitswoorden', 'erbij sommen', 'eraf sommen', 'getallenlijn',
+      'cijfers schrijven', 'ruimtelijke oriëntatie', 'visuele discriminatie',
+      // Veilig Leren Lezen structural axis — native, absent from any English-designed
+      // taxonomy. The full method runs to kern 12, not 6.
       'kern 1', 'kern 2', 'kern 3', 'kern 4', 'kern 5', 'kern 6',
+      'kern 7', 'kern 8', 'kern 9', 'kern 10', 'kern 11', 'kern 12',
+      // Flanders is a separate lexicon, not a dialect — these are the only forms
+      // that reach it (gl=be returns byte-identical results to gl=nl).
+      'werkblaadjes', 'kleuterklas', 'leerjaar 1', 'leerjaar 2',
     ],
     contexts: ['zelfstandig werken', 'weektaak', 'huiswerk', 'hoeken', 'extra oefenen'],
     audience: ['nt2', 'dyslexie', 'speciaal onderwijs'],
@@ -135,6 +143,10 @@ const DEMAND = {
       'bokstäver', 'ljuda', 'rimord', 'stavelser', 'första ljudet', 'läsförståelse',
       'taluppfattning', 'tiokamrater', 'addition upp till 10', 'subtraktion upp till 10',
       'räkna till 20', 'klockan', 'mätning', 'geometriska former', 'mönster', 'finmotorik',
+      'bokstavsljud', 'ljudning', 'ordbilder', 'läsförståelse åk 1', 'skrivstil',
+      'talraden', 'tiotal och ental', 'subtraktion upp till 20', 'talkamrater',
+      'positionssystemet', 'klockan hel och halv', 'symmetri',
+      'sortera och klassificera', 'öga-hand-koordination',
     ],
     contexts: ['eget arbete', 'läxa', 'stationer', 'extra träning'],
     audience: ['sva', 'svenska som andraspråk', 'särskola'],
@@ -152,12 +164,120 @@ const DEMAND = {
   //      result from these as evidence of absence (that is the exact mistake this
   //      script exists to correct).
   es: { skills: ['silabario', 'sílabas ma me mi mo mu', 'caligrafía', 'pauta montessori', 'cuadrícula', 'lectoescritura primer grado', 'lectoescritura', 'sílabas', 'conciencia fonológica', 'sumas hasta 10', 'restas hasta 10', 'grafomotricidad', 'la hora', 'figuras geométricas'], contexts: ['tarea', 'rincones', 'refuerzo'], audience: ['necesidades especiales'], anchors: ['fichas', 'preescolar'], crossAnchors: ['matemáticas', 'contar', 'sumas', 'letras'], enumerate: ['letra {L} fichas'], packs: ['cuadernillo'], letters: 'abcdefghijklmnopqrstuvwxyz'.split(''), numbers: [] },
-  fr: { skills: ['coloriage magique', 'période 1', 'période 2', 'graphème', 'phonème', 'avec corrigé', 'phonologie', 'syllabes', 'graphisme', 'lecture cp', 'additions jusqu’à 10', 'les nombres jusqu’à 20', 'lire l’heure', 'formes géométriques'], contexts: ['ateliers', 'devoirs', 'remédiation'], audience: ['fle', 'dys'], anchors: ['fiches', 'maternelle'], crossAnchors: ['maths', 'compter', 'additions', 'lettres'], enumerate: ['lettre {L} fiche'], packs: ['cahier d’exercices'], letters: 'abcdefghijklmnopqrstuvwxyz'.split(''), numbers: [] },
-  it: { skills: ['suoni difficili', 'gn gli', 'sce sci', 'cia cio ciu', 'que qui quo', 'corsivo', 'stampatello', 'pregrafismo', 'sillabe', 'prelettura', 'addizioni entro il 10', 'numeri fino a 20', 'orologio', 'forme geometriche'], contexts: ['compiti', 'laboratorio', 'recupero'], audience: ['dsa', 'italiano l2'], anchors: ['schede didattiche', 'prima elementare'], crossAnchors: ['matematica', 'contare', 'addizioni', 'lettere'], enumerate: ['lettera {L} schede'], packs: ['quaderno operativo'], letters: 'abcdefghijklmnopqrstuvwxyz'.split(''), numbers: [] },
+  fr: {
+    skills: [
+      // native structural axes: the school year is officially split into périodes
+      // by zones de vacances, and "coloriage magique" is a parallel genre with
+      // 0/10 SERP overlap against plain worksheet queries — the cleanest split found.
+      'coloriage magique', 'période 1', 'période 2', 'période 3', 'période 4', 'période 5',
+      'graphème', 'phonème', 'sons complexes', 'avec corrigé',
+      'phonologie', 'syllabes', 'graphisme', 'écriture cursive', 'lecture cp',
+      'confusion b d', 'mots outils', 'dictée muette', 'alphabet majuscule',
+      'additions jusqu’à 10', 'compléments à 10', 'décomposition des nombres',
+      'soustractions jusqu’à 10', 'les nombres jusqu’à 20', 'numération cp', 'dénombrement',
+      'lire l’heure', 'formes géométriques', 'suites logiques', 'discrimination visuelle',
+      'repérage dans l’espace', 'motricité fine', 'découpage collage',
+    ],
+    contexts: ['ateliers', 'devoirs', 'remédiation', 'rituels', 'plan de travail'],
+    audience: ['fle', 'dys', 'ulis'],
+    anchors: ['fiches', 'maternelle'],
+    crossAnchors: ['maths', 'compter', 'additions', 'lettres'],
+    enumerate: ['lettre {L} fiche'],
+    packs: ['cahier d’exercices', 'fichier'],
+    letters: 'abcdefghijklmnopqrstuvwxyz'.split(''),
+    numbers: [],
+  },
+  it: {
+    skills: [
+      // "suoni difficili" is a native ladder with ~25 coordinates and no English
+      // analogue; corsivo/stampatello is a 4-value script axis.
+      'suoni difficili', 'gn gli', 'sce sci', 'cia cio ciu', 'que qui quo', 'cqu',
+      'mp mb', 'doppie', 'apostrofo', 'accento',
+      'corsivo', 'stampatello', 'pregrafismo', 'sillabe', 'sillabe piane',
+      'lettura sillabica', 'prelettura', 'discriminazione visiva',
+      'addizioni entro il 10', 'sottrazioni entro il 10', 'numeri fino a 20',
+      'decine e unità', 'linea dei numeri', 'confronto di numeri', 'seriazione',
+      'orologio', 'forme geometriche', 'ritmi e sequenze',
+      'attenzione e concentrazione', 'coordinazione oculo-manuale',
+    ],
+    contexts: ['compiti', 'laboratorio', 'recupero', 'compiti delle vacanze'],
+    audience: ['dsa', 'italiano l2', 'bes'],
+    anchors: ['schede didattiche', 'prima elementare'],
+    crossAnchors: ['matematica', 'contare', 'addizioni', 'lettere'],
+    enumerate: ['lettera {L} schede'],
+    packs: ['quaderno operativo', 'schedario'],
+    letters: 'abcdefghijklmnopqrstuvwxyz'.split(''),
+    numbers: [],
+  },
   pt: { skills: ['pré-silábico', 'silábico', 'silábico-alfabético', 'alfabético', 'psicogênese', 'sondagem de escrita', 'alfabetização', 'sílabas', 'consciência fonológica', 'adição até 10', 'numerais até 20', 'traçado', 'horas', 'formas geométricas'], contexts: ['tarefa de casa', 'reforço', 'sondagem'], audience: ['educação especial'], anchors: ['atividades', 'educação infantil'], crossAnchors: ['matemática', 'contar', 'adição', 'letras'], enumerate: ['letra {L} atividades'], packs: ['apostila'], letters: 'abcdefghijklmnopqrstuvwxyz'.split(''), numbers: [] },
-  da: { skills: ['de 120 ord', 'sværhedsgrader', 'bevægelse', 'julematematik', 'fastelavn', 'bogstaver', 'lydering', 'rim', 'stavelser', 'tal til 20', 'plus til 10', 'klokken', 'geometriske former', 'finmotorik'], contexts: ['lektier', 'stationer', 'ekstra træning'], audience: ['dsa', 'specialundervisning'], anchors: ['opgaver', 'børnehaveklasse'], crossAnchors: ['matematik', 'tælle', 'bogstaver'], enumerate: [], packs: ['opgavehæfte'], letters: [], numbers: [] },
-  no: { skills: ['de 120 ordene', 'lesebestilling', 'bokstaver', 'lydering', 'rim', 'stavelser', 'tall til 20', 'pluss til 10', 'klokka', 'geometriske former', 'finmotorikk'], contexts: ['lekser', 'stasjoner', 'ekstra trening'], audience: ['norsk som andrespråk', 'spesialundervisning'], anchors: ['oppgaver', '1. trinn'], crossAnchors: ['matte', 'telle', 'bokstaver'], enumerate: [], packs: ['oppgavehefte'], letters: [], numbers: [] },
-  fi: { skills: ['tavutetut tehtävät', 'tavutettu teksti', 'kirjaimet', 'tavutus', 'riimit', 'äänteet', 'luvut 20 asti', 'yhteenlasku 10 asti', 'kellonajat', 'geometriset muodot', 'hienomotoriikka'], contexts: ['läksyt', 'pistetyöskentely', 'lisäharjoitus'], audience: ['s2', 'erityisopetus'], anchors: ['tehtäviä', 'esiopetus'], crossAnchors: ['matematiikka', 'laskeminen', 'kirjaimet'], enumerate: [], packs: ['tehtävävihko'], letters: [], numbers: [] },
+  da: {
+    skills: [
+      // 'de 120 ord' is the canonical Danish sight-word list; 'sværhedsgrader' is a
+      // difficulty axis running PARALLEL to grade; 'bevægelse' worksheets are
+      // curriculum-mandated. Danish is also NOT portal-owned — 13+ free sites rank.
+      'de 120 ord', 'sværhedsgrader', 'bevægelse',
+      'bogstaver', 'bogstavlyde', 'lydering', 'lydrette ord', 'ordbilleder',
+      'rim', 'stavelser', 'læseraketten', 'begyndende læsning',
+      'tal til 20', 'tallinje', 'plus til 10', 'tiervenner', 'plus og minus',
+      'titalssystemet', 'klokken', 'klokken hel og halv',
+      'geometriske former', 'spejling', 'sortering', 'finmotorik', 'mønstre',
+    ],
+    contexts: ['lektier', 'stationer', 'ekstra træning', 'vikartimer'],
+    audience: ['dsa', 'specialundervisning'],
+    anchors: ['opgaver', 'børnehaveklasse'],
+    crossAnchors: ['matematik', 'tælle', 'bogstaver'],
+    // Danish COMPOUNDS the theme into the noun — "julematematik", never
+    // "matematik med jul". A spaced {theme} {anchor} probe structurally cannot
+    // find Danish theme demand, so single-word themes are also probed joined.
+    crossCompound: true,
+    enumerate: [],
+    packs: ['opgavehæfte'],
+    letters: [],
+    numbers: [],
+  },
+  no: {
+    skills: [
+      'de 120 ordene', 'lesebestilling',
+      'bokstaver', 'bokstavlyder', 'lydering', 'lydrette ord', 'ordbilder',
+      'rim', 'stavelser', 'begynnende lesing',
+      'tall til 20', 'tallinje', 'pluss til 10', 'tiervenner', 'pluss og minus til 20',
+      'tiere og enere', 'klokka', 'klokka hel og halv',
+      'geometriske former', 'speiling', 'sortering', 'finmotorikk', 'mønster',
+      'øye-hånd-koordinasjon',
+    ],
+    contexts: ['lekser', 'stasjoner', 'ekstra trening', 'vikartimer'],
+    audience: ['norsk som andrespråk', 'spesialundervisning'],
+    anchors: ['oppgaver', '1. trinn'],
+    crossAnchors: ['matte', 'telle', 'bokstaver'],
+    crossCompound: true, // Norwegian compounds like Danish (juleoppgaver)
+    enumerate: [],
+    packs: ['oppgavehefte'],
+    letters: [],
+    numbers: [],
+  },
+  fi: {
+    skills: [
+      // 'tavutetut tehtävät' — worksheets whose own instruction text is
+      // pre-syllabified as a reading accommodation. A RENDERING VARIANT of every
+      // worksheet rather than a topic; no English equivalent exists.
+      'tavutetut tehtävät', 'tavutettu teksti',
+      'kirjaimet', 'kirjainten tunnistus', 'äänteet', 'äännetietoisuus',
+      'tavutus', 'riimit', 'sanahahmot', 'alkava lukutaito',
+      'luvut 20 asti', 'lukujono', 'yhteenlasku 10 asti', 'kymmenylitys',
+      'kymmenjärjestelmä', 'kellonajat', 'geometriset muodot',
+      'sarjoittaminen', 'hienomotoriikka', 'silmä-käsi-koordinaatio',
+      'esiopetuksen tehtävät', 'alkuopetus',
+    ],
+    contexts: ['läksyt', 'pistetyöskentely', 'lisäharjoitus', 'sijaisen tunti'],
+    audience: ['s2', 'erityisopetus'],
+    anchors: ['tehtäviä', 'esiopetus'],
+    crossAnchors: ['matematiikka', 'laskeminen', 'kirjaimet'],
+    crossCompound: true, // Finnish compounds too (joulutehtäviä)
+    enumerate: [],
+    packs: ['tehtävävihko'],
+    letters: [],
+    numbers: [],
+  },
 };
 
 function argVal(name, dflt) {
@@ -224,6 +344,42 @@ function themeNames(locale) {
  * "4th of july edition". A suggestion only counts as evidence for a seed if it
  * actually contains every token of that seed.
  */
+/**
+ * Education-context signals, per locale. Needed because COMPOUND cross probes are
+ * ambiguous in exactly the languages that compound: Norwegian `matte` means both
+ * "maths" and "mat/rug", so `strandmatte` returns "strandmatte bambus" (a beach
+ * mat) and `campingmatte` returns "campingmatte aufblasbar". A compound
+ * suggestion therefore only counts as demand if something else in it is a school
+ * signal — "julmatte åk 1" and "påskematematik 1 klasse" survive, the rugs do not.
+ *
+ * Spaced cross probes do not need this: their seed already contains the skill
+ * anchor as a separate token, and the all-tokens-present rule filters them.
+ */
+const EDU_SIGNALS = {
+  en: ['worksheet', 'worksheets', 'kindergarten', 'preschool', 'grade', 'printable', 'free', 'pdf', 'activities'],
+  de: ['arbeitsblatt', 'arbeitsblätter', 'klasse', 'grundschule', 'vorschule', 'kostenlos', 'ausdrucken', 'übungen'],
+  nl: ['werkblad', 'werkbladen', 'groep', 'kleuters', 'gratis', 'printen', 'oefenen', 'leerjaar'],
+  sv: ['åk', 'årskurs', 'klass', 'förskoleklass', 'förskola', 'gratis', 'arbetsblad', 'skriva', 'ut', 'elever'],
+  da: ['klasse', 'indskoling', 'mellemtrin', 'børnehaveklasse', 'gratis', 'opgaver', 'opgaveark', 'print', 'elever', 'undervisning'],
+  no: ['trinn', 'klasse', 'barnehage', 'gratis', 'oppgaver', 'arbeidsark', 'utskrift', 'elever', 'undervisning'],
+  fi: ['luokka', 'luokan', 'luokalle', 'esiopetus', 'tehtäviä', 'tehtävät', 'tulostettava', 'ilmainen', 'oppilaat'],
+  es: ['ficha', 'fichas', 'preescolar', 'primaria', 'grado', 'imprimir', 'gratis', 'pdf'],
+  fr: ['fiche', 'fiches', 'maternelle', 'cp', 'ce1', 'imprimer', 'gratuit', 'exercices'],
+  it: ['schede', 'scheda', 'classe', 'elementare', 'infanzia', 'stampare', 'gratis', 'esercizi'],
+  pt: ['atividades', 'atividade', 'ano', 'infantil', 'imprimir', 'grátis', 'pdf', 'exercícios'],
+};
+
+function isCompoundSeed(seed) {
+  return !/\s/.test(String(seed).trim());
+}
+
+function hasEduSignal(locale, seed, suggestion) {
+  const sig = EDU_SIGNALS[locale] || [];
+  const seedToks = new Set(String(seed).toLowerCase().split(/\s+/));
+  const toks = String(suggestion).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim().split(' ').filter(Boolean);
+  return toks.some((t) => !seedToks.has(t) && sig.includes(t));
+}
+
 function suggestionMatchesSeed(seed, suggestion) {
   const st = new Set(
     String(suggestion).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim().split(' ').filter(Boolean),
@@ -232,16 +388,50 @@ function suggestionMatchesSeed(seed, suggestion) {
   return seedToks.every((t) => st.has(t));
 }
 
+/**
+ * Every localized exercise-type NAME, probed bare and with the locale's domain
+ * anchor. This is the decisive experiment for "does anyone search what we call
+ * this?" — and it is recorded with empties (deadSeeds), so a name that comes back
+ * silent is distinguishable from one that was never asked about.
+ *
+ * harvest-suggest.js cannot answer this: it only stores seeds that RETURNED
+ * something, so its silence is ambiguous. That ambiguity is exactly what made
+ * Dutch "Aftrekken" look unsearched when the truth is that Google suppresses the
+ * term (slang sense) while real demand thrives under "aftreksommen"/"minsommen".
+ */
+function typeNameSeeds(locale, anchors) {
+  const types = (TAXONOMY_THEMES && TAXONOMY_THEMES.axes && TAXONOMY_THEMES.axes['exercise-type']) || {};
+  const out = [];
+  for (const key of Object.keys(types)) {
+    const n = types[key] && types[key].name && types[key].name[locale];
+    if (!n) continue;
+    const name = String(n).toLowerCase().trim();
+    out.push(name);
+    if (anchors && anchors[0]) out.push(`${name} ${anchors[0]}`);
+  }
+  return [...new Set(out)];
+}
+
 function buildDemandSeeds(locale) {
   const d = DEMAND[locale];
-  const seeds = { skill: [], context: [], audience: [], enumerated: [], pack: [], cross: [] };
+  const seeds = { skill: [], context: [], audience: [], enumerated: [], pack: [], cross: [], typeName: [] };
+  seeds.typeName = typeNameSeeds(locale, d.anchors);
 
   // theme x skill-anchor — the combination the research found splits the SERP
   // hardest (0/10 result overlap between themes) and which NEITHER existing
   // harvest ever probed. Without this class there is no evidence whether
   // "dinosaur addition worksheets" is a real query or an invention.
   if (d.crossAnchors && d.crossAnchors.length) {
-    for (const th of themeNames(locale)) for (const a of d.crossAnchors) seeds.cross.push(`${th} ${a}`);
+    for (const th of themeNames(locale)) {
+      for (const a of d.crossAnchors) {
+        seeds.cross.push(`${th} ${a}`);
+        // Scandinavian and Finnish compound the theme INTO the noun
+        // ("julematematik", never "matematik med jul"), so the spaced probe above
+        // structurally cannot find their theme demand. Only single-word themes
+        // compound cleanly, so multi-word themes are left to the spaced form.
+        if (d.crossCompound && !/\s/.test(th) && !/\s/.test(a)) seeds.cross.push(`${th}${a}`);
+      }
+    }
   }
   for (const s of d.skills) seeds.skill.push(s);
   // contexts/audience are ambiguous bare ("morning work" -> "morning workout";
@@ -295,7 +485,12 @@ async function harvestLocale(locale, opts) {
       // `cross` seeds combine two independent words, so autocomplete frequently
       // reinterprets them into an unrelated entity. Keep only suggestions that
       // genuinely contain the seed — otherwise a dead combination looks alive.
-      if (cls === 'cross') list = list.filter((s) => suggestionMatchesSeed(seed, s));
+      if (cls === 'cross') {
+        list = list.filter((s) => suggestionMatchesSeed(seed, s));
+        // compound seeds are ambiguous in compounding languages (no 'matte' =
+        // maths AND rug) -> require an explicit school signal.
+        if (isCompoundSeed(seed)) list = list.filter((s) => hasEduSignal(locale, seed, s));
+      }
       // An EMPTY result is a finding, not a failure — record it so a dead term is
       // distinguishable from a term that was never probed.
       suggestions[seed] = { cls, s: list };
@@ -368,6 +563,7 @@ function refilterLocale(locale, outDir) {
     if (v.cls !== 'cross') continue;
     const before = v.s.length;
     v.s = v.s.filter((s) => suggestionMatchesSeed(seed, s));
+    if (isCompoundSeed(seed)) v.s = v.s.filter((s) => hasEduSignal(locale, seed, s));
     dropped += before - v.s.length;
   }
   const unique = new Set();

@@ -39,17 +39,34 @@ const LOCALES = ['en', 'de', 'es', 'fr', 'it', 'nl', 'pt', 'sv', 'da', 'no', 'fi
 
 /**
  * Axis-key -> the word people actually search, where our internal name differs.
- * Sourced from docs/SEO/demand-map-en.md §6 ("Several internal axis names have ZERO
- * demand; the demand lives under a different term"). Applied BEFORE matching, so a
- * page whose type we call `find-objects` is matched against "hidden objects".
+ *
+ * MUST be locale-scoped. Sourced from docs/SEO/demand-map-en.md §6 ("Several
+ * internal axis names have ZERO demand; the demand lives under a different term")
+ * — but that research was only ever done for English. Applying the English
+ * replacements to every locale (the first version of this file did) leaks English
+ * into non-English targets: French pages came out as "Accessoires hidden objects
+ * i spy maternelle".
+ *
+ * The other ten locales are intentionally empty until native research fills them.
+ * That is not a gap in this script — see NON_SEARCHABLE_TYPE_NAMES below.
  */
 const REKEY = {
-  'find-objects': 'hidden objects',
-  'missing-pieces': 'missing parts',
-  'code-addition': 'secret code math',
-  'letter-knowledge': 'letter recognition',
-  'ocean_life': 'ocean animals',
-  'forest_creatures': 'forest animals',
+  en: {
+    'find-objects': 'hidden objects',
+    'missing-pieces': 'missing parts',
+    'code-addition': 'secret code math',
+    'letter-knowledge': 'letter recognition',
+    'ocean_life': 'ocean animals',
+    'forest_creatures': 'forest animals',
+  },
+  nl: {
+    // Verified live 2026-07-20: Google returns 0 autocomplete suggestions for
+    // 'aftrekken' in any educational phrasing (slang-sense suppression). Real Dutch
+    // subtraction demand sits under 'aftreksommen' ("aftreksommen groep 4",
+    // "aftreksommen onder elkaar werkblad") and 'minsommen' ("minsommen tot 20").
+    subtraction: 'aftreksommen',
+  },
+  de: {}, es: {}, fr: {}, it: {}, pt: {}, sv: {}, da: {}, no: {}, fi: {},
 };
 
 /**
@@ -77,10 +94,11 @@ function axisName(axis, key, locale) {
   return (e && e.name && (e.name[locale] || e.name.en)) || null;
 }
 
-/** The searchable phrase for an axis key, with the re-key table applied. */
+/** The searchable phrase for an axis key, with the locale's re-key table applied. */
 function searchTerm(axis, key, locale) {
   if (!key) return null;
-  if (REKEY[key]) return REKEY[key];
+  const rk = REKEY[locale] || {};
+  if (rk[key]) return rk[key];
   const n = axisName(axis, key, locale);
   if (n) return n;
   return String(key).replace(/_/g, ' ');
@@ -136,7 +154,11 @@ function pageTerms(l, locale) {
     toks(lv).forEach((x) => boost.add(x));
   }
   if (c.mode) {
-    parts.mode = String(c.mode).replace(/-/g, ' ');
+    // The `exercise-mode` axis carries per-locale names for 50 of its 51 keys
+    // (fully authored across all 11 locales). Using the raw key instead put the
+    // English mechanic name into every non-English target — "cross out",
+    // "one missing", "find shadow", "two symbols add sub".
+    parts.mode = searchTerm('exercise-mode', c.mode, locale) || String(c.mode).replace(/-/g, ' ');
     toks(parts.mode).forEach((x) => boost.add(x));
   }
   if (c.letter) {
@@ -303,6 +325,42 @@ function matchLocale(locale, opts) {
   const contestedPages = contested.reduce((a, [, n]) => a + n, 0);
   const matched = rows.filter((r) => r.evidence !== 'unverified').length;
 
+  // Exercise-type names absent from this locale's corpus. This is the real reason
+  // deeper harvesting does not lift the unverified share: many non-English type
+  // names are word-for-word calques of our internal mechanic names ("Pattern
+  // Train" -> nl "Patroontrein", fr "Train De Modèles", da "Mønstertoget"), so no
+  // corpus will ever contain them. docs/SEO/demand-map-en.md did this re-key work
+  // for English only; the other ten locales were never done.
+  //
+  // ⚠ These are RE-KEY CANDIDATES FOR NATIVE REVIEW, not proof of zero demand.
+  // Autocomplete absence has at least three causes and they are not separable here:
+  //   1. genuine calque nobody searches            (nl "Patroontrein")
+  //   2. Google SUPPRESSES the term. Verified live: nl "aftrekken" returns 0
+  //      suggestions even for "aftrekken groep 3" and "optellen en aftrekken",
+  //      because of the word's slang sense — yet Dutch subtraction demand is large
+  //      and sits under "aftreksommen" and "minsommen". Flagging "Aftrekken" as
+  //      unsearched would have been simply wrong.
+  //   3. never probed at all — harvest-suggest.js only records seeds that RETURNED
+  //      something, so absence in the inventory corpus cannot be distinguished from
+  //      a seed that came back empty. (harvest-demand.js records `deadSeeds`
+  //      precisely so this ambiguity does not recur.)
+  // A native speaker resolves which of the three applies. The page count is the
+  // size of the prize, not a verdict.
+  const typePages = {};
+  for (const l of landings) {
+    const t = l.coordinate && l.coordinate.type;
+    if (t) typePages[t] = (typePages[t] || 0) + 1;
+  }
+  const typeReKeyCandidates = [];
+  for (const t of Object.keys(typePages)) {
+    const term = searchTerm('exercise-type', t, locale);
+    if (!term) continue;
+    if (!findCovering(toks(term), corpus)) {
+      typeReKeyCandidates.push({ type: t, name: term, pages: typePages[t] });
+    }
+  }
+  typeReKeyCandidates.sort((a, b) => b.pages - a.pages);
+
   const report = {
     locale,
     generatedAt: new Date().toISOString(),
@@ -317,6 +375,8 @@ function matchLocale(locale, opts) {
     evidence: evidenceCount,
     tierAAxis: axisCount,
     skipClassPages: rows.filter((r) => r.skipClass).length,
+    typeReKeyCandidates,
+    typeReKeyCandidatePages: typeReKeyCandidates.reduce((a, t) => a + t.pages, 0),
     rows,
   };
 
@@ -328,7 +388,10 @@ function matchLocale(locale, opts) {
     `[${locale}] ${landings.length} landings | corpus ${corpus.length} (${report.corpusDemandFirst} demand-first)\n` +
     `      evidence: ${ev}\n` +
     `      distinct targets ${usedTarget.size}/${landings.length} | contested ${contested.length} targets over ` +
-    `${contestedPages} pages | skip-class ${report.skipClassPages}`,
+    `${contestedPages} pages | skip-class ${report.skipClassPages}
+` +
+    `      type-name re-key candidates (native review): ${typeReKeyCandidates.length} types over ${report.typeReKeyCandidatePages} pages` +
+    (typeReKeyCandidates.length ? ` — worst: ${typeReKeyCandidates.slice(0, 3).map((t) => t.name + ' (' + t.pages + ')').join(', ')}` : ''),
   );
 
   if (opts.samples) {

@@ -4,24 +4,25 @@
   "hl": "pt",
   "gl": "br"
  },
- "generatedAt": "2026-07-20T08:52:25.553Z",
+ "generatedAt": "2026-07-20T09:48:01.668Z",
  "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
- "requestCount": 325,
+ "requestCount": 419,
  "seedCounts": {
   "skill": 14,
   "context": 6,
   "audience": 2,
   "enumerated": 26,
   "pack": 1,
-  "cross": 276
+  "cross": 252,
+  "typeName": 118
  },
  "errorCount": 0,
  "errors": [],
  "newVsInventory": {
   "inventoryUnique": 1946,
-  "demandUnique": 937,
-  "novel": 927,
-  "novelShare": 0.989
+  "demandUnique": 1526,
+  "novel": 963,
+  "novelShare": 0.631
  },
  "deadSeeds": [
   "4 de julho matemática",
@@ -44,10 +45,6 @@
   "pássaros contar",
   "pássaros adição",
   "pássaros letras",
-  "pássaros 2 matemática",
-  "pássaros 2 contar",
-  "pássaros 2 adição",
-  "pássaros 2 letras",
   "partes do corpo matemática",
   "partes do corpo contar",
   "partes do corpo adição",
@@ -140,82 +137,100 @@
   "animais do zoológico contar",
   "animais do zoológico adição",
   "animais do zoológico letras",
-  "animais pb 2 matemática",
-  "animais pb 2 contar",
-  "animais pb 2 adição",
-  "animais pb 2 letras",
-  "animais pb 3 matemática",
-  "animais pb 3 contar",
-  "animais pb 3 adição",
-  "animais pb 3 letras",
-  "animais pb 4 matemática",
-  "animais pb 4 contar",
-  "animais pb 4 adição",
-  "animais pb 4 letras",
-  "animais pb 5 matemática",
-  "animais pb 5 contar",
-  "animais pb 5 adição",
-  "animais pb 5 letras",
-  "praia pb 2 matemática",
-  "praia pb 2 contar",
-  "praia pb 2 adição",
-  "praia pb 2 letras",
-  "pássaros p&b 2 matemática",
-  "pássaros p&b 2 contar",
-  "pássaros p&b 2 adição",
-  "pássaros p&b 2 letras",
-  "natal p&b 2 matemática",
-  "natal p&b 2 contar",
-  "natal p&b 2 adição",
-  "natal p&b 2 letras",
+  "animais pb matemática",
+  "animais pb contar",
+  "animais pb adição",
+  "animais pb letras",
+  "praia pb matemática",
+  "praia pb contar",
+  "praia pb adição",
+  "praia pb letras",
+  "pássaros p&b matemática",
+  "pássaros p&b contar",
+  "pássaros p&b adição",
+  "pássaros p&b letras",
+  "natal p&b matemática",
+  "natal p&b contar",
+  "natal p&b adição",
+  "natal p&b letras",
   "sala de aula 2 (p&b) matemática",
   "sala de aula 2 (p&b) contar",
   "sala de aula 2 (p&b) adição",
   "sala de aula 2 (p&b) letras",
-  "páscoa pb 2 matemática",
-  "páscoa pb 2 contar",
-  "páscoa pb 2 adição",
-  "páscoa pb 2 letras",
-  "comida pb 2 matemática",
-  "comida pb 2 contar",
-  "comida pb 2 adição",
-  "comida pb 2 letras",
-  "comida pb 3 matemática",
-  "comida pb 3 contar",
-  "comida pb 3 adição",
-  "comida pb 3 letras",
-  "casa pb 2 matemática",
-  "casa pb 2 contar",
-  "casa pb 2 adição",
-  "casa pb 2 letras",
-  "vida marinha pb 2 matemática",
-  "vida marinha pb 2 contar",
-  "vida marinha pb 2 adição",
-  "vida marinha pb 2 letras",
-  "esportes pb 2 matemática",
-  "esportes pb 2 contar",
-  "esportes pb 2 adição",
-  "esportes pb 2 letras",
-  "brinquedos pb 2 matemática",
-  "brinquedos pb 2 contar",
-  "brinquedos pb 2 adição",
-  "brinquedos pb 2 letras",
-  "dia dos namorados pb 2 matemática",
-  "dia dos namorados pb 2 contar",
-  "dia dos namorados pb 2 adição",
-  "dia dos namorados pb 2 letras",
-  "vegetais pb 2 matemática",
-  "vegetais pb 2 contar",
-  "vegetais pb 2 adição",
-  "vegetais pb 2 letras",
-  "veículos pb 2 matemática",
-  "veículos pb 2 contar",
-  "veículos pb 2 adição",
-  "veículos pb 2 letras",
-  "veículos pb 3 matemática",
-  "veículos pb 3 contar",
-  "veículos pb 3 adição",
-  "veículos pb 3 letras"
+  "páscoa pb matemática",
+  "páscoa pb contar",
+  "páscoa pb adição",
+  "páscoa pb letras",
+  "comida pb matemática",
+  "comida pb contar",
+  "comida pb adição",
+  "comida pb letras",
+  "casa pb matemática",
+  "casa pb contar",
+  "casa pb adição",
+  "casa pb letras",
+  "vida marinha pb matemática",
+  "vida marinha pb contar",
+  "vida marinha pb adição",
+  "vida marinha pb letras",
+  "esportes pb matemática",
+  "esportes pb contar",
+  "esportes pb adição",
+  "esportes pb letras",
+  "brinquedos pb matemática",
+  "brinquedos pb contar",
+  "brinquedos pb adição",
+  "brinquedos pb letras",
+  "dia dos namorados pb matemática",
+  "dia dos namorados pb contar",
+  "dia dos namorados pb adição",
+  "dia dos namorados pb letras",
+  "vegetais pb matemática",
+  "vegetais pb contar",
+  "vegetais pb adição",
+  "vegetais pb letras",
+  "veículos pb matemática",
+  "veículos pb contar",
+  "veículos pb adição",
+  "veículos pb letras",
+  "sudoku ilustrado atividades",
+  "criptograma atividades",
+  "caminho ilustrado atividades",
+  "adição com código atividades",
+  "quebra-cabeça matemático atividades",
+  "contagem em gráfico",
+  "contagem em gráfico atividades",
+  "trem de padrões",
+  "trem de padrões atividades",
+  "atividade de padrões atividades",
+  "pareamento em grade",
+  "pareamento em grade atividades",
+  "ordenar imagens atividades",
+  "trem do alfabeto atividades",
+  "adivinhe a palavra atividades",
+  "encontre e conte atividades",
+  "peças faltantes atividades",
+  "qual é diferente atividades",
+  "contar figuras atividades",
+  "quadro de dez atividades",
+  "marcas de contagem atividades",
+  "comparar números atividades",
+  "comparar grupos atividades",
+  "comparar tamanhos atividades",
+  "gráficos e dados atividades",
+  "lógica visual atividades",
+  "associação visual atividades",
+  "palavras de posição atividades",
+  "classificar por categorias atividades",
+  "contas ilustradas",
+  "contas ilustradas atividades",
+  "classificar em ciências",
+  "classificar em ciências atividades",
+  "sequências e ciclos de vida",
+  "sequências e ciclos de vida atividades",
+  "associação em ciências atividades",
+  "conhecimento das letras atividades",
+  "vocabulário com figuras atividades"
  ],
  "suggestions": {
   "pré-silábico": {
@@ -339,7 +354,7 @@
    ]
   },
   "consciência fonológica": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "consciência fonológica",
     "consciência fonológica atividades",
@@ -1182,22 +1197,6 @@
    "s": []
   },
   "pássaros letras": {
-   "cls": "cross",
-   "s": []
-  },
-  "pássaros 2 matemática": {
-   "cls": "cross",
-   "s": []
-  },
-  "pássaros 2 contar": {
-   "cls": "cross",
-   "s": []
-  },
-  "pássaros 2 adição": {
-   "cls": "cross",
-   "s": []
-  },
-  "pássaros 2 letras": {
    "cls": "cross",
    "s": []
   },
@@ -2284,115 +2283,67 @@
    "cls": "cross",
    "s": []
   },
-  "animais pb 2 matemática": {
+  "animais pb matemática": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 2 contar": {
+  "animais pb contar": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 2 adição": {
+  "animais pb adição": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 2 letras": {
+  "animais pb letras": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 3 matemática": {
+  "praia pb matemática": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 3 contar": {
+  "praia pb contar": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 3 adição": {
+  "praia pb adição": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 3 letras": {
+  "praia pb letras": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 4 matemática": {
+  "pássaros p&b matemática": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 4 contar": {
+  "pássaros p&b contar": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 4 adição": {
+  "pássaros p&b adição": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 4 letras": {
+  "pássaros p&b letras": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 5 matemática": {
+  "natal p&b matemática": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 5 contar": {
+  "natal p&b contar": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 5 adição": {
+  "natal p&b adição": {
    "cls": "cross",
    "s": []
   },
-  "animais pb 5 letras": {
-   "cls": "cross",
-   "s": []
-  },
-  "praia pb 2 matemática": {
-   "cls": "cross",
-   "s": []
-  },
-  "praia pb 2 contar": {
-   "cls": "cross",
-   "s": []
-  },
-  "praia pb 2 adição": {
-   "cls": "cross",
-   "s": []
-  },
-  "praia pb 2 letras": {
-   "cls": "cross",
-   "s": []
-  },
-  "pássaros p&b 2 matemática": {
-   "cls": "cross",
-   "s": []
-  },
-  "pássaros p&b 2 contar": {
-   "cls": "cross",
-   "s": []
-  },
-  "pássaros p&b 2 adição": {
-   "cls": "cross",
-   "s": []
-  },
-  "pássaros p&b 2 letras": {
-   "cls": "cross",
-   "s": []
-  },
-  "natal p&b 2 matemática": {
-   "cls": "cross",
-   "s": []
-  },
-  "natal p&b 2 contar": {
-   "cls": "cross",
-   "s": []
-  },
-  "natal p&b 2 adição": {
-   "cls": "cross",
-   "s": []
-  },
-  "natal p&b 2 letras": {
+  "natal p&b letras": {
    "cls": "cross",
    "s": []
   },
@@ -2412,181 +2363,1291 @@
    "cls": "cross",
    "s": []
   },
-  "páscoa pb 2 matemática": {
+  "páscoa pb matemática": {
    "cls": "cross",
    "s": []
   },
-  "páscoa pb 2 contar": {
+  "páscoa pb contar": {
    "cls": "cross",
    "s": []
   },
-  "páscoa pb 2 adição": {
+  "páscoa pb adição": {
    "cls": "cross",
    "s": []
   },
-  "páscoa pb 2 letras": {
+  "páscoa pb letras": {
    "cls": "cross",
    "s": []
   },
-  "comida pb 2 matemática": {
+  "comida pb matemática": {
    "cls": "cross",
    "s": []
   },
-  "comida pb 2 contar": {
+  "comida pb contar": {
    "cls": "cross",
    "s": []
   },
-  "comida pb 2 adição": {
+  "comida pb adição": {
    "cls": "cross",
    "s": []
   },
-  "comida pb 2 letras": {
+  "comida pb letras": {
    "cls": "cross",
    "s": []
   },
-  "comida pb 3 matemática": {
+  "casa pb matemática": {
    "cls": "cross",
    "s": []
   },
-  "comida pb 3 contar": {
+  "casa pb contar": {
    "cls": "cross",
    "s": []
   },
-  "comida pb 3 adição": {
+  "casa pb adição": {
    "cls": "cross",
    "s": []
   },
-  "comida pb 3 letras": {
+  "casa pb letras": {
    "cls": "cross",
    "s": []
   },
-  "casa pb 2 matemática": {
+  "vida marinha pb matemática": {
    "cls": "cross",
    "s": []
   },
-  "casa pb 2 contar": {
+  "vida marinha pb contar": {
    "cls": "cross",
    "s": []
   },
-  "casa pb 2 adição": {
+  "vida marinha pb adição": {
    "cls": "cross",
    "s": []
   },
-  "casa pb 2 letras": {
+  "vida marinha pb letras": {
    "cls": "cross",
    "s": []
   },
-  "vida marinha pb 2 matemática": {
+  "esportes pb matemática": {
    "cls": "cross",
    "s": []
   },
-  "vida marinha pb 2 contar": {
+  "esportes pb contar": {
    "cls": "cross",
    "s": []
   },
-  "vida marinha pb 2 adição": {
+  "esportes pb adição": {
    "cls": "cross",
    "s": []
   },
-  "vida marinha pb 2 letras": {
+  "esportes pb letras": {
    "cls": "cross",
    "s": []
   },
-  "esportes pb 2 matemática": {
+  "brinquedos pb matemática": {
    "cls": "cross",
    "s": []
   },
-  "esportes pb 2 contar": {
+  "brinquedos pb contar": {
    "cls": "cross",
    "s": []
   },
-  "esportes pb 2 adição": {
+  "brinquedos pb adição": {
    "cls": "cross",
    "s": []
   },
-  "esportes pb 2 letras": {
+  "brinquedos pb letras": {
    "cls": "cross",
    "s": []
   },
-  "brinquedos pb 2 matemática": {
+  "dia dos namorados pb matemática": {
    "cls": "cross",
    "s": []
   },
-  "brinquedos pb 2 contar": {
+  "dia dos namorados pb contar": {
    "cls": "cross",
    "s": []
   },
-  "brinquedos pb 2 adição": {
+  "dia dos namorados pb adição": {
    "cls": "cross",
    "s": []
   },
-  "brinquedos pb 2 letras": {
+  "dia dos namorados pb letras": {
    "cls": "cross",
    "s": []
   },
-  "dia dos namorados pb 2 matemática": {
+  "vegetais pb matemática": {
    "cls": "cross",
    "s": []
   },
-  "dia dos namorados pb 2 contar": {
+  "vegetais pb contar": {
    "cls": "cross",
    "s": []
   },
-  "dia dos namorados pb 2 adição": {
+  "vegetais pb adição": {
    "cls": "cross",
    "s": []
   },
-  "dia dos namorados pb 2 letras": {
+  "vegetais pb letras": {
    "cls": "cross",
    "s": []
   },
-  "vegetais pb 2 matemática": {
+  "veículos pb matemática": {
    "cls": "cross",
    "s": []
   },
-  "vegetais pb 2 contar": {
+  "veículos pb contar": {
    "cls": "cross",
    "s": []
   },
-  "vegetais pb 2 adição": {
+  "veículos pb adição": {
    "cls": "cross",
    "s": []
   },
-  "vegetais pb 2 letras": {
+  "veículos pb letras": {
    "cls": "cross",
    "s": []
   },
-  "veículos pb 2 matemática": {
-   "cls": "cross",
+  "adição": {
+   "cls": "typeName",
+   "s": [
+    "adição",
+    "adição e subtração",
+    "adição com reserva",
+    "adição com reagrupamento",
+    "adição e subtração 2 ano",
+    "adição e subtração de frações",
+    "adição de categoria",
+    "adição de fração",
+    "adição e subtração 3 ano",
+    "adição 1 ano"
+   ]
+  },
+  "adição atividades": {
+   "cls": "typeName",
+   "s": [
+    "adição atividades",
+    "adição atividades 2 ano",
+    "adição atividades 3 ano",
+    "adição atividades 1 ano",
+    "adição atividades 4 ano",
+    "adição atividades 5 ano",
+    "adição atividades de matematica 1 ano",
+    "adição atividades 6 ano",
+    "adição atividades de matematica 2 ano",
+    "adição atividades para imprimir"
+   ]
+  },
+  "sudoku ilustrado": {
+   "cls": "typeName",
+   "s": [
+    "sudoku ilustrado"
+   ]
+  },
+  "sudoku ilustrado atividades": {
+   "cls": "typeName",
    "s": []
   },
-  "veículos pb 2 contar": {
-   "cls": "cross",
+  "criptograma": {
+   "cls": "typeName",
+   "s": [
+    "criptograma",
+    "criptogramas",
+    "criptograma coquetel",
+    "criptograma para imprimir",
+    "criptograma online",
+    "criptograma racha cuca",
+    "criptograma jogo",
+    "criptograma para imprimir pdf",
+    "criptograma o que é",
+    "criptograma pdf"
+   ]
+  },
+  "criptograma atividades": {
+   "cls": "typeName",
    "s": []
   },
-  "veículos pb 2 adição": {
-   "cls": "cross",
+  "caminho ilustrado": {
+   "cls": "typeName",
+   "s": [
+    "caminho ilustrado",
+    "caminho a cristo ilustrado",
+    "caminho a cristo ilustrado pdf"
+   ]
+  },
+  "caminho ilustrado atividades": {
+   "cls": "typeName",
    "s": []
   },
-  "veículos pb 2 letras": {
-   "cls": "cross",
+  "subtração": {
+   "cls": "typeName",
+   "s": [
+    "subtração",
+    "subtração de fração",
+    "subtração com reserva",
+    "subtração com reagrupamento",
+    "subtração excel",
+    "subtração de frações com denominadores diferentes",
+    "subtração com reserva 3 ano",
+    "subtração 2 ano",
+    "subtração com reserva 2 ano",
+    "subtração 3 ano"
+   ]
+  },
+  "subtração atividades": {
+   "cls": "typeName",
+   "s": [
+    "subtração atividades",
+    "subtração atividades 2 ano",
+    "subtração atividades 1 ano",
+    "subtração atividades 5 ano",
+    "subtração atividades 4 ano",
+    "subtração atividades 3 ano",
+    "subtração atividades 6 ano",
+    "subtração atividades de matemática 5 ano",
+    "subtração atividades de matematica 2 ano fundamental",
+    "subtração atividades de matemática 3 ano"
+   ]
+  },
+  "adição com código": {
+   "cls": "typeName",
+   "s": [
+    "adição código bncc"
+   ]
+  },
+  "adição com código atividades": {
+   "cls": "typeName",
    "s": []
   },
-  "veículos pb 3 matemática": {
-   "cls": "cross",
+  "mais ou menos": {
+   "cls": "typeName",
+   "s": [
+    "mais ou menos",
+    "mais ou menos em ingles",
+    "mais ou menos simbolo",
+    "mais ou menos meme",
+    "mais ou menos em espanhol",
+    "mais ou menos sinonimo",
+    "mais ou menos sinal",
+    "mais ou menos ou mas ou menos",
+    "mais ou menos em frances",
+    "mais ou menos em italiano"
+   ]
+  },
+  "mais ou menos atividades": {
+   "cls": "typeName",
+   "s": [
+    "atividades mais ou menos educação infantil",
+    "atividades mais ou menos"
+   ]
+  },
+  "quebra-cabeça matemático": {
+   "cls": "typeName",
+   "s": [
+    "quebra-cabeça matemático",
+    "quebra-cabeça matemático para imprimir 6 ano",
+    "quebra-cabeça matemático para imprimir",
+    "quebra-cabeça matemático pdf",
+    "quebra cabeça matemático online",
+    "quebra cabeça matemático de sudoku",
+    "quebra cabeça matemático 1 ano",
+    "quebra cabeça matemático 4 ano",
+    "quebra cabeça matemático 2 ano",
+    "quebra cabeça matemático para imprimir 4 ano"
+   ]
+  },
+  "quebra-cabeça matemático atividades": {
+   "cls": "typeName",
    "s": []
   },
-  "veículos pb 3 contar": {
-   "cls": "cross",
+  "atividade de matemática": {
+   "cls": "typeName",
+   "s": [
+    "atividade de matemática",
+    "atividade de matemática 2 ano",
+    "atividade de matemática 3 ano",
+    "atividade de matemática 1 ano",
+    "atividade de matemática 4 ano",
+    "atividade de matemática 5 ano",
+    "atividade de matemática 6 ano",
+    "atividade de matemática para o 1o ano",
+    "atividade de matematica educação infantil",
+    "atividade de matemática 7 ano"
+   ]
+  },
+  "atividade de matemática atividades": {
+   "cls": "typeName",
+   "s": [
+    "atividade atividades de matemática"
+   ]
+  },
+  "grande ou pequeno": {
+   "cls": "typeName",
+   "s": [
+    "grande ou pequeno",
+    "grande ou pequeno tem sempre o tamanho de um pé",
+    "grande ou pequeno beatriz meirelles pdf",
+    "grande ou pequeno em inglês",
+    "grande ou pequeno em italiano",
+    "grande ou pequeno livro",
+    "grande ou pequeno educação infantil",
+    "grande ou pequeno pedro bandeira",
+    "grande ou pequeno beatriz meirelles",
+    "grande ou pequeno em alemão"
+   ]
+  },
+  "grande ou pequeno atividades": {
+   "cls": "typeName",
+   "s": [
+    "atividades grande ou pequeno"
+   ]
+  },
+  "contagem em gráfico": {
+   "cls": "typeName",
    "s": []
   },
-  "veículos pb 3 adição": {
-   "cls": "cross",
+  "contagem em gráfico atividades": {
+   "cls": "typeName",
    "s": []
   },
-  "veículos pb 3 letras": {
-   "cls": "cross",
+  "trem de padrões": {
+   "cls": "typeName",
    "s": []
+  },
+  "trem de padrões atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "atividade de padrões": {
+   "cls": "typeName",
+   "s": [
+    "atividade de padrões",
+    "atividade reconhecimento de padrões",
+    "atividade sequência de padrões",
+    "atividade padrões silábicos",
+    "atividade padrões 1 ano",
+    "atividade sobre padrões de beleza",
+    "ficha de atividade padrões e regularidades"
+   ]
+  },
+  "atividade de padrões atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bingo": {
+   "cls": "typeName",
+   "s": [
+    "bingo lotto",
+    "bingo",
+    "bingo filme",
+    "bingo e bluey",
+    "bingo futebol",
+    "bingo o rei das manhãs",
+    "bingo ao vivo",
+    "bingo chá de bebê",
+    "bingo das letras",
+    "bingo football"
+   ]
+  },
+  "bingo atividades": {
+   "cls": "typeName",
+   "s": [
+    "bingo atividades escolares",
+    "bingo atividades",
+    "atividades bingo de palavras",
+    "atividades bingo de numeros",
+    "atividades bingo de letras",
+    "atividades bingo das silabas",
+    "atividades bingo das vogais",
+    "atividades bingo do alfabeto",
+    "bluey e bingo atividades"
+   ]
+  },
+  "pareamento em grade": {
+   "cls": "typeName",
+   "s": []
+  },
+  "pareamento em grade atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "pareamento": {
+   "cls": "typeName",
+   "s": [
+    "pareamento",
+    "pareamento de cores",
+    "pareamento de cores educação infantil",
+    "pareamento das vogais",
+    "pareamento copa do mundo",
+    "pareamento wordwall",
+    "pareamento de cores para imprimir",
+    "pareamento de letras",
+    "pareamento de numeros",
+    "pareamento de animais"
+   ]
+  },
+  "pareamento atividades": {
+   "cls": "typeName",
+   "s": [
+    "pareamento atividades",
+    "pareamento atividades ludicas cores educação infantil",
+    "atividades pareamento de cores",
+    "atividades pareamento autismo",
+    "atividades pareamento de cores educação infantil",
+    "atividades pareamento educação infantil",
+    "atividades pareamento de letras",
+    "atividades pareamento das vogais",
+    "atividades pareamento para imprimir",
+    "atividades pareamento de sombras"
+   ]
+  },
+  "ordenar imagens": {
+   "cls": "typeName",
+   "s": [
+    "ordenar imagens wordwall",
+    "ordenar imagens de uma história",
+    "ordenar imagens"
+   ]
+  },
+  "ordenar imagens atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "pareamento de sombras": {
+   "cls": "typeName",
+   "s": [
+    "pareamento de sombras",
+    "pareamento de sombras para imprimir",
+    "pareamento de sombras animais",
+    "pareamento de sombras wordwall",
+    "pareamento de sombras educação infantil",
+    "pareamento de sombras pdf",
+    "pareamento de sombras objetivos",
+    "pareamento de sombras frutas",
+    "pareamento de sombras trabalha o que",
+    "pareamento de sombras festa junina"
+   ]
+  },
+  "pareamento de sombras atividades": {
+   "cls": "typeName",
+   "s": [
+    "atividades pareamento de sombras"
+   ]
+  },
+  "trem do alfabeto": {
+   "cls": "typeName",
+   "s": [
+    "trem do alfabeto",
+    "trem do alfabeto para imprimir",
+    "trem do alfabeto pdf",
+    "trem do alfabeto video",
+    "trem do alfabeto brinquedo",
+    "trem do alfabeto em eva",
+    "trem do alfabeto fisher price",
+    "trem do alfabeto para colorir",
+    "trem do alfabeto musica",
+    "bob trem do alfabeto"
+   ]
+  },
+  "trem do alfabeto atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "preposições": {
+   "cls": "typeName",
+   "s": [
+    "preposições",
+    "preposições em inglês",
+    "preposições essenciais",
+    "preposições exemplos",
+    "preposições de lugar em inglês",
+    "preposições acidentais",
+    "preposições portugues",
+    "preposições de tempo em inglês",
+    "preposições e conjunções",
+    "preposições essenciais e acidentais"
+   ]
+  },
+  "preposições atividades": {
+   "cls": "typeName",
+   "s": [
+    "preposições atividades",
+    "preposições atividades 7 ano",
+    "preposições atividades 5 ano",
+    "preposições atividades 4 ano",
+    "preposições atividades 6 ano",
+    "preposições atividades com gabarito",
+    "preposições atividades pdf",
+    "atividades preposições em ingles",
+    "atividades preposições de lugar em inglês",
+    "atividades preposições de tempo em ingles"
+   ]
+  },
+  "adivinhe a palavra": {
+   "cls": "typeName",
+   "s": [
+    "adivinhe a palavra",
+    "adivinhe a palavra jogo",
+    "adivinhe a palavra do dia",
+    "adivinhe a palavra pelo emoji",
+    "adivinhe a palavra 5 letras",
+    "adivinhe a palavra secreta",
+    "adivinhe a palavra em ingles",
+    "adivinhe a palavra jogo online",
+    "adivinhe a palavra online",
+    "adivinhe a palavra por aproximação"
+   ]
+  },
+  "adivinhe a palavra atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "letras embaralhadas": {
+   "cls": "typeName",
+   "s": [
+    "letras embaralhadas",
+    "letras embaralhadas para formar palavras",
+    "letras embaralhadas para imprimir",
+    "letras embaralhadas wordwall",
+    "letras embaralhadas visão",
+    "letras embaralhadas que formam palavras",
+    "letras embaralhadas jogo",
+    "letras embaralhadas leitura",
+    "letras embaralhadas atividades",
+    "letras embaralhadas de perto"
+   ]
+  },
+  "letras embaralhadas atividades": {
+   "cls": "typeName",
+   "s": [
+    "letras embaralhadas atividades"
+   ]
+  },
+  "caça-palavras": {
+   "cls": "typeName",
+   "s": [
+    "caça-palavras",
+    "caça-palavras copa do mundo 2026",
+    "caça-palavras países da copa",
+    "caça-palavras para imprimir",
+    "caça-palavras da copa do mundo",
+    "caça-palavras difícil",
+    "caça-palavras online",
+    "caça-palavras gerador",
+    "caça-palavras fácil",
+    "caça-palavras para imprimir infantil"
+   ]
+  },
+  "caça-palavras atividades": {
+   "cls": "typeName",
+   "s": [
+    "caça-palavras atividades",
+    "caça palavras atividades sobre separação de misturas 4 ano",
+    "caça palavras atividades para imprimir",
+    "caça palavras atividades 2 ano",
+    "caça palavras atividades de ensino religioso 9 ano valores",
+    "caça palavras atividades economicas",
+    "caça palavras atividades sobre fontes históricas 2 ano fundamental",
+    "caça palavras atividades educativas",
+    "caça palavras atividades dos dez mandamentos para imprimir",
+    "caça palavras atividades projeto de vida para imprimir"
+   ]
+  },
+  "palavras cruzadas": {
+   "cls": "typeName",
+   "s": [
+    "palavras cruzadas",
+    "palavras cruzadas para imprimir",
+    "palavras cruzadas coquetel",
+    "palavras cruzadas g1",
+    "palavras cruzadas online",
+    "palavras cruzadas diretas",
+    "palavras cruzadas fácil",
+    "palavras cruzadas pdf",
+    "palavras cruzadas on line gratis",
+    "palavras cruzadas para imprimir pdf"
+   ]
+  },
+  "palavras cruzadas atividades": {
+   "cls": "typeName",
+   "s": [
+    "palavras cruzadas atividades",
+    "atividades palavras cruzadas 2 ano",
+    "atividades palavras cruzadas 4 ano",
+    "atividades palavras cruzadas 5 ano",
+    "atividades palavras cruzadas 6 ano",
+    "atividades palavras cruzadas 1 ano",
+    "atividades palavras cruzadas 3 ano",
+    "atividades palavras cruzadas para imprimir",
+    "atividades palavras cruzadas para alfabetização"
+   ]
+  },
+  "encontre e conte": {
+   "cls": "typeName",
+   "s": [
+    "encontre e conte",
+    "encontre e conte animais do mar",
+    "atividade encontre e conte"
+   ]
+  },
+  "encontre e conte atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "encontre os objetos": {
+   "cls": "typeName",
+   "s": [
+    "encontre os objetos escondidos",
+    "encontre os objetos escondidos na imagem",
+    "encontre os objetos",
+    "encontre os objetos escondidos para imprimir",
+    "encontre os objetos roblox",
+    "encontre os objetos na imagem",
+    "encontre os objetos perdidos",
+    "encontre os objetos escondidos educação infantil",
+    "encontre os objetos escondidos difícil",
+    "encontre os objetos complementos verbais com as seguintes perguntas mandou o quê"
+   ]
+  },
+  "encontre os objetos atividades": {
+   "cls": "typeName",
+   "s": [
+    "atividades encontre os objetos escondidos"
+   ]
+  },
+  "caça ao tesouro": {
+   "cls": "typeName",
+   "s": [
+    "caça ao tesouro",
+    "caça ao tesouro forza horizon 6",
+    "caça ao tesouro bíblico",
+    "caça ao tesouro para imprimir",
+    "caça ao tesouro filme",
+    "caça ao tesouro infantil",
+    "caça ao tesouro decorativo wow",
+    "caça ao tesouro matemático",
+    "caça ao tesouro numérico",
+    "caça ao tesouro educação infantil"
+   ]
+  },
+  "caça ao tesouro atividades": {
+   "cls": "typeName",
+   "s": [
+    "caça ao tesouro atividades",
+    "atividades caça ao tesouro na escola",
+    "atividades de caça ao tesouro educação infantil",
+    "atividades de caça ao tesouro para crianças"
+   ]
+  },
+  "peças faltantes": {
+   "cls": "typeName",
+   "s": [
+    "peças faltantes lego",
+    "peças faltantes",
+    "peças faltantes quebra cabeça grow",
+    "peças faltantes quebra cabeça game office",
+    "pecas faltantes grow",
+    "comprar pecas faltantes lego",
+    "lego pedir peças faltantes",
+    "site lego peças faltantes"
+   ]
+  },
+  "peças faltantes atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "qual é diferente": {
+   "cls": "typeName",
+   "s": [
+    "qual é diferente",
+    "qual é diferente livro",
+    "qual nome é diferente joe john jacob mike",
+    "qual organela é diferente entre as células animais e vegetais",
+    "qual figura é diferente",
+    "qual é o diferente wordwall",
+    "qual urso é diferente",
+    "qual é as diferentes formas da superfície terrestre",
+    "qual imagem é diferente",
+    "qual opção é diferente das demais banana maçã uva cenoura"
+   ]
+  },
+  "qual é diferente atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "contar figuras": {
+   "cls": "typeName",
+   "s": [
+    "contar figuras geometricas",
+    "contar figuras",
+    "contar figuras geometricas para niños",
+    "contar figuras para niños",
+    "contar figuras en autocad",
+    "atividade de contar figuras",
+    "contar las figuras de cada dibujo y completar",
+    "wordwall contar figuras",
+    "como contar figuras musicales",
+    "ecognitiva contar figuras"
+   ]
+  },
+  "contar figuras atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "quadro de dez": {
+   "cls": "typeName",
+   "s": [
+    "quadro de dezena e unidade",
+    "quadro de dezena centena e unidade",
+    "quadro de dezenas",
+    "quadro de dez",
+    "quadro dezena de milhar",
+    "quadro de ordens dezena e unidade",
+    "quadro de valor dezena e unidade",
+    "quadro de unidade dezena centena e milhar",
+    "quadro dez mandamentos",
+    "quadro dez ou mil do programa do ratinho"
+   ]
+  },
+  "quadro de dez atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "marcas de contagem": {
+   "cls": "typeName",
+   "s": [
+    "marcas de contagem",
+    "marcas de contagem na parede",
+    "só marcas de contagem",
+    "outlet de marcas contagem",
+    "outlet só marcas de contagem",
+    "o que são marcas de contagem riscos",
+    "o que são marcas de contagem"
+   ]
+  },
+  "marcas de contagem atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "quadro numérico": {
+   "cls": "typeName",
+   "s": [
+    "quadro numérico",
+    "quadro numérico de 0 a 100",
+    "quadro numérico de 1 a 100",
+    "quadro numérico para imprimir",
+    "quadro numérico até 100",
+    "quadro numérico até 100 para completar",
+    "quadro numérico de 1 a 100 para imprimir",
+    "quadro numérico até 50",
+    "quadro numérico de 0 a 100 para imprimir",
+    "quadro numérico até 1000 para imprimir"
+   ]
+  },
+  "quadro numérico atividades": {
+   "cls": "typeName",
+   "s": [
+    "quadro numérico atividades",
+    "quadro numerico ate 100 atividades",
+    "atividades quadro numerico ate 50"
+   ]
+  },
+  "comparar números": {
+   "cls": "typeName",
+   "s": [
+    "comparar números naturais de até duas ordens em situações cotidianas",
+    "comparar números naturais",
+    "comparar números",
+    "comparar números inteiros",
+    "comparar números decimais",
+    "comparar números naturais de até duas ordens",
+    "comparar números racionais",
+    "comparar números racionais na forma fracionária ou decimal",
+    "comparar números racionais entre si",
+    "comparar números naturais até a ordem das centenas"
+   ]
+  },
+  "comparar números atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "comparar grupos": {
+   "cls": "typeName",
+   "s": [
+    "comparar grupos",
+    "comparar grupos spss",
+    "comparar dois grupos estatisticamente",
+    "comprar espadas grupos",
+    "comparar dos grupos",
+    "comparar dos grupos en spss",
+    "cómo comparar grupos de zoom con google meet webex"
+   ]
+  },
+  "comparar grupos atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "comparar tamanhos": {
+   "cls": "typeName",
+   "s": [
+    "comparar tamanhos",
+    "comparar tamanhos de paises",
+    "comparar tamanhos de pessoas",
+    "comparar tamanhos de tv",
+    "comparar tamanhos de celular",
+    "comparar tamanhos de pneus",
+    "comparar tamanhos iphone",
+    "comparar tamanhos de cidades",
+    "comparar tamanhos de mouse",
+    "comparar tamanhos apple watch"
+   ]
+  },
+  "comparar tamanhos atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "reta numérica": {
+   "cls": "typeName",
+   "s": [
+    "reta numérica",
+    "reta numérica 5 ano",
+    "reta numérica 7 ano",
+    "reta numérica 3 ano",
+    "reta numérica 4 ano",
+    "reta numérica dos números inteiros",
+    "reta numérica 6 ano",
+    "reta numérica para imprimir",
+    "reta numérica 1 ano",
+    "reta numérica 2 ano"
+   ]
+  },
+  "reta numérica atividades": {
+   "cls": "typeName",
+   "s": [
+    "reta numérica atividades",
+    "reta numérica atividades 4 ano",
+    "reta numérica atividades 7 ano",
+    "reta numérica atividades 3 ano",
+    "reta numérica atividades 5 ano",
+    "reta numérica atividades para imprimir",
+    "reta numerica atividades 2 ano",
+    "reta numerica atividades 1 ano",
+    "reta numerica atividades 6 ano",
+    "reta numerica atividades 9 ano"
+   ]
+  },
+  "valor posicional": {
+   "cls": "typeName",
+   "s": [
+    "valor posicional",
+    "valor posicional de um número",
+    "valor posicional dos algarismos",
+    "valor posicional 3 ano",
+    "valor posicional 4 ano",
+    "valor posicional e valor absoluto",
+    "valor posicional 2 ano",
+    "valor posicional e valor relativo",
+    "valor posicional 5 ano",
+    "valor posicional atividades"
+   ]
+  },
+  "valor posicional atividades": {
+   "cls": "typeName",
+   "s": [
+    "valor posicional atividades",
+    "valor posicional atividades 3 ano",
+    "valor posicional atividades 2 ano",
+    "valor posicional atividades 4 ano",
+    "valor posicional atividades 5 ano",
+    "valor posicional atividades 6 ano",
+    "valor posicional do algarismo atividades",
+    "valor posicional dos números atividades",
+    "quadro de valor posicional atividades",
+    "valor posicional do algarismo atividades 4 ano"
+   ]
+  },
+  "ver as horas": {
+   "cls": "typeName",
+   "s": [
+    "ver as horas iguais",
+    "ver as horas",
+    "ver as horas iguais com frequencia",
+    "ver as horas 2222",
+    "ver as horas 1111",
+    "ver as horas 2323",
+    "ver as horas 2121",
+    "ver as horas 1717",
+    "ver as horas 0000",
+    "ver as horas 1414"
+   ]
+  },
+  "ver as horas atividades": {
+   "cls": "typeName",
+   "s": [
+    "aprendendo a ver as horas atividades",
+    "atividades para ver as horas",
+    "atividades para aprender ver as horas"
+   ]
+  },
+  "frações": {
+   "cls": "typeName",
+   "s": [
+    "frações",
+    "frações equivalentes",
+    "frações equivalentes 5 ano",
+    "frações 5 ano",
+    "frações impróprias",
+    "frações algébricas",
+    "frações parciais",
+    "frações decimais",
+    "frações 6 ano",
+    "frações equivalentes exercícios"
+   ]
+  },
+  "frações atividades": {
+   "cls": "typeName",
+   "s": [
+    "frações atividades",
+    "frações atividades 5 ano",
+    "frações atividades 6 ano",
+    "frações atividades 7 ano",
+    "frações atividades 4 ano",
+    "frações atividades pdf",
+    "frações atividades adaptadas",
+    "frações atividades 3 ano",
+    "frações atividades para imprimir",
+    "frações atividades 6 ano pdf"
+   ]
+  },
+  "gráficos e dados": {
+   "cls": "typeName",
+   "s": [
+    "graficos de dados",
+    "graficos e representação de dados",
+    "gráficos e interpretação de dados",
+    "análise de gráficos e dados",
+    "estatística análise de gráficos e dados",
+    "dados gráficos e tabelas"
+   ]
+  },
+  "gráficos e dados atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "multiplicação": {
+   "cls": "typeName",
+   "s": [
+    "multiplicação",
+    "multiplicação de fração",
+    "multiplicação de matrizes",
+    "multiplicação 4 ano",
+    "multiplicação dos pães",
+    "multiplicação dos pães e peixes",
+    "multiplicação com dois algarismos",
+    "multiplicação 3 ano",
+    "multiplicação 5 ano",
+    "multiplicação de raizes"
+   ]
+  },
+  "multiplicação atividades": {
+   "cls": "typeName",
+   "s": [
+    "multiplicação atividades",
+    "multiplicação atividades 4 ano",
+    "multiplicação atividades 3 ano",
+    "multiplicação atividades 5 ano",
+    "multiplicação atividades de matemática 4 ano",
+    "multiplicação atividades de matemática 3 ano",
+    "multiplicação atividades 2 ano",
+    "multiplicação atividades 6 ano",
+    "multiplicação atividades de matemática 5 ano",
+    "multiplicação atividades adaptadas"
+   ]
+  },
+  "geometria": {
+   "cls": "typeName",
+   "s": [
+    "geometria",
+    "geometria molecular",
+    "geometria espacial",
+    "geometria analítica",
+    "geometria plana",
+    "geometria sagrada",
+    "geometria e balanceamento",
+    "geometria euclidiana",
+    "geometria descritiva",
+    "geometria espacial formulas"
+   ]
+  },
+  "geometria atividades": {
+   "cls": "typeName",
+   "s": [
+    "geometria atividades",
+    "geometria atividades 5 ano",
+    "geometria atividades 6 ano",
+    "geometria atividades 3 ano",
+    "geometria atividades 2 ano",
+    "geometria atividades 4 ano",
+    "geometria atividades 1 ano",
+    "geometria atividades 8 ano",
+    "atividades geometria plana",
+    "atividades geometria espacial"
+   ]
+  },
+  "medidas": {
+   "cls": "typeName",
+   "s": [
+    "medidas cama queen",
+    "medidas cama de casal",
+    "medidas",
+    "medidas camas",
+    "medidas mala de bordo",
+    "medidas de comprimento",
+    "medidas cama king",
+    "medidas cama de solteiro",
+    "medidas colchão solteiro",
+    "medidas antropométricas"
+   ]
+  },
+  "medidas atividades": {
+   "cls": "typeName",
+   "s": [
+    "medidas atividades",
+    "medidas atividades 4 ano",
+    "medidas atividades 3 ano",
+    "medidas atividades 2 ano",
+    "medidas atividades 5 ano",
+    "medidas atividades 1 ano",
+    "atividades medidas de comprimento 4 ano",
+    "atividades medidas de comprimento",
+    "atividades medidas de comprimento 3 ano",
+    "atividades medidas de tempo"
+   ]
+  },
+  "lógica visual": {
+   "cls": "typeName",
+   "s": [
+    "lógica visual",
+    "logica visualg",
+    "logica visual diseño grafico",
+    "logica visual beghelli",
+    "logica visual sas",
+    "logica visual software download",
+    "logica visual software",
+    "visualg logica de programação",
+    "variáveis logica visualg",
+    "logica ordem visualizacao stories"
+   ]
+  },
+  "lógica visual atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "discriminação visual": {
+   "cls": "typeName",
+   "s": [
+    "discriminação visual",
+    "discriminação visual atividades",
+    "discriminação visual wordwall",
+    "discriminação visual e auditiva",
+    "discriminação visual auditiva tátil",
+    "discriminação visual de formas diferenciar parear e classificar formas geométricas figuras e objetos",
+    "discriminação visual e percepção visual",
+    "discriminação visual sinonimo",
+    "discriminação visual atividades de atenção e concentração para imprimir",
+    "discriminação visual na educação infantil"
+   ]
+  },
+  "discriminação visual atividades": {
+   "cls": "typeName",
+   "s": [
+    "discriminação visual atividades",
+    "discriminação visual atividades de atenção e concentração para imprimir",
+    "atividades cognitivas discriminação visual atividades de atenção e concentração para imprimir",
+    "atividades discriminação visual educação infantil"
+   ]
+  },
+  "associação visual": {
+   "cls": "typeName",
+   "s": [
+    "associação visual",
+    "associação deficiente visual",
+    "associação comunicação visual",
+    "cortex de associação visual",
+    "área de associação visual função",
+    "jogos de associação visual",
+    "associação professores educação visual"
+   ]
+  },
+  "associação visual atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "padrões": {
+   "cls": "typeName",
+   "s": [
+    "padrões",
+    "padrões respiratórios",
+    "padrões de beleza",
+    "padrões de projeto",
+    "padrões de comportamento",
+    "padrões geométricos",
+    "padrões sinonimo",
+    "padrões da comunidade instagram",
+    "padrões de herança genética",
+    "padrões de beleza impostos pela sociedade"
+   ]
+  },
+  "padrões atividades": {
+   "cls": "typeName",
+   "s": [
+    "atividades padrões e sequências",
+    "atividades padrões geométricos",
+    "atividades padrões",
+    "padrões de atividades escoteiras",
+    "padrões de atividades escoteiras pdf",
+    "padrões silábicos atividades"
+   ]
+  },
+  "palavras de posição": {
+   "cls": "typeName",
+   "s": [
+    "palavras de posição",
+    "palavras posição da sílaba tônica"
+   ]
+  },
+  "palavras de posição atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "classificar por categorias": {
+   "cls": "typeName",
+   "s": [
+    "classificar significa organizar por categorias usando determinados critérios"
+   ]
+  },
+  "classificar por categorias atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "contas ilustradas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "contas ilustradas atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "classificar em ciências": {
+   "cls": "typeName",
+   "s": []
+  },
+  "classificar em ciências atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sequências e ciclos de vida": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sequências e ciclos de vida atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "associação em ciências": {
+   "cls": "typeName",
+   "s": [
+    "associação internacional de estudantes em ciências econômicas e comerciais"
+   ]
+  },
+  "associação em ciências atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sons iniciais": {
+   "cls": "typeName",
+   "s": [
+    "sons iniciais das palavras",
+    "sons iniciais",
+    "sons iniciais wordwall",
+    "sons iniciais mediais e finais",
+    "sons iniciais e finais",
+    "atividade sons iniciais",
+    "atividade sons iniciais das palavras",
+    "bingo sons iniciais",
+    "bingo dos sons iniciais para imprimir",
+    "bingo dos sons iniciais pdf"
+   ]
+  },
+  "sons iniciais atividades": {
+   "cls": "typeName",
+   "s": [
+    "atividades sons iniciais",
+    "atividades sons iniciais das palavras"
+   ]
+  },
+  "conhecimento das letras": {
+   "cls": "typeName",
+   "s": [
+    "conhecimento das letras",
+    "conhecimento das letras do alfabeto",
+    "alfaletrar conhecimento das letras",
+    "conhecimento letras e fonemas",
+    "video alfaletrar conhecimento das letras",
+    "atividade de conhecimento das letras",
+    "consciência fonológica e conhecimento das letras"
+   ]
+  },
+  "conhecimento das letras atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "montagem de palavras": {
+   "cls": "typeName",
+   "s": [
+    "montagem de palavras",
+    "montagem de palavras para alfabetização",
+    "montagem de palavras com silabas",
+    "montagem de palavras com letras móveis",
+    "montagem de palavras cruzadas",
+    "montagem de palavras com letras",
+    "montagem de palavras simples",
+    "montagem de caça palavras",
+    "atividade montagem de palavras",
+    "wordwall montagem de palavras"
+   ]
+  },
+  "montagem de palavras atividades": {
+   "cls": "typeName",
+   "s": [
+    "atividades montagem de palavras"
+   ]
+  },
+  "vocabulário com figuras": {
+   "cls": "typeName",
+   "s": [
+    "vocabulario figuras",
+    "vocabulario figuras geometricas",
+    "vocabulario figuras geometricas en ingles"
+   ]
+  },
+  "vocabulário com figuras atividades": {
+   "cls": "typeName",
+   "s": []
+  },
+  "consciência fonológica atividades": {
+   "cls": "typeName",
+   "s": [
+    "consciência fonológica atividades",
+    "consciência fonológica atividades pdf",
+    "consciência fonológica atividades 1 ano",
+    "consciência fonológica atividades educação infantil",
+    "consciência fonológica atividades 2 ano",
+    "consciência fonológica atividades práticas download",
+    "consciência fonologica atividades para imprimir",
+    "consciência fonológica atividades práticas",
+    "consciência fonológica atividades de aliteração",
+    "consciência fonológica atividades na escola"
+   ]
   }
  },
  "unique": [
@@ -2607,11 +3668,42 @@
   "acessórios de matemática",
   "acessórios para contar histórias",
   "acessórios para crocs letras",
+  "adivinhe a palavra",
+  "adivinhe a palavra 5 letras",
+  "adivinhe a palavra do dia",
+  "adivinhe a palavra em ingles",
+  "adivinhe a palavra jogo",
+  "adivinhe a palavra jogo online",
+  "adivinhe a palavra online",
+  "adivinhe a palavra pelo emoji",
+  "adivinhe a palavra por aproximação",
+  "adivinhe a palavra secreta",
+  "adição",
+  "adição 1 ano",
   "adição ate 10 wordwall",
+  "adição atividades",
+  "adição atividades 1 ano",
+  "adição atividades 2 ano",
+  "adição atividades 3 ano",
+  "adição atividades 4 ano",
+  "adição atividades 5 ano",
+  "adição atividades 6 ano",
+  "adição atividades de matematica 1 ano",
+  "adição atividades de matematica 2 ano",
+  "adição atividades para imprimir",
   "adição até 10",
   "adição até 100",
   "adição até 1000",
+  "adição com reagrupamento",
+  "adição com reserva",
+  "adição código bncc",
+  "adição de categoria",
+  "adição de fração",
+  "adição e subtração",
+  "adição e subtração 2 ano",
+  "adição e subtração 3 ano",
   "adição e subtração até 10",
+  "adição e subtração de frações",
   "adição natal",
   "adição simples até 10",
   "alfabetização",
@@ -2634,6 +3726,7 @@
   "alfabético ortográfico",
   "alfabético silábico",
   "alfabéticos",
+  "alfaletrar conhecimento das letras",
   "alimento popular no café da manhã 8 letras",
   "animais 4 letras",
   "animais 5 letras",
@@ -2649,6 +3742,7 @@
   "animais para contar",
   "animais relacionados a matemática",
   "animais sabem contar",
+  "análise de gráficos e dados",
   "aplique para roupas letras",
   "apostila",
   "apostila auto escola 2026 pdf grátis",
@@ -2661,11 +3755,32 @@
   "apostilamento",
   "apostilamento de haia",
   "apostilas",
+  "aprendendo a ver as horas atividades",
+  "associação comunicação visual",
+  "associação deficiente visual",
+  "associação internacional de estudantes em ciências econômicas e comerciais",
+  "associação professores educação visual",
+  "associação visual",
   "atividade adição até 10",
   "atividade adição natal",
+  "atividade atividades de matemática",
   "atividade contar animais",
   "atividade contar frutas",
+  "atividade de conhecimento das letras",
+  "atividade de contar figuras",
+  "atividade de matematica educação infantil",
+  "atividade de matemática",
+  "atividade de matemática 1 ano",
+  "atividade de matemática 2 ano",
+  "atividade de matemática 3 ano",
+  "atividade de matemática 4 ano",
+  "atividade de matemática 5 ano",
+  "atividade de matemática 6 ano",
+  "atividade de matemática 7 ano",
+  "atividade de matemática para o 1o ano",
+  "atividade de padrões",
   "atividade educação especial educação infantil",
+  "atividade encontre e conte",
   "atividade matemática animais",
   "atividade matemática cores",
   "atividade matemática formas geométricas",
@@ -2674,11 +3789,19 @@
   "atividade matemática natal educação infantil",
   "atividade matemática primavera educação infantil",
   "atividade matemática páscoa 4 ano",
+  "atividade montagem de palavras",
   "atividade natal matemática",
   "atividade natal matemática 1 ano",
+  "atividade padrões 1 ano",
+  "atividade padrões silábicos",
   "atividade páscoa matemática",
   "atividade páscoa matemática 3 ano",
+  "atividade reconhecimento de padrões",
   "atividade reforço educação infantil",
+  "atividade sequência de padrões",
+  "atividade sobre padrões de beleza",
+  "atividade sons iniciais",
+  "atividade sons iniciais das palavras",
   "atividade tarefa de casa educação infantil",
   "atividades adição",
   "atividades adição 1 ano",
@@ -2690,6 +3813,14 @@
   "atividades adição e subtração 4 ano",
   "atividades adição e subtração de frações com denominadores diferentes",
   "atividades adição e subtração de números inteiros 7 ano",
+  "atividades bingo das silabas",
+  "atividades bingo das vogais",
+  "atividades bingo de letras",
+  "atividades bingo de numeros",
+  "atividades bingo de palavras",
+  "atividades bingo do alfabeto",
+  "atividades caça ao tesouro na escola",
+  "atividades cognitivas discriminação visual atividades de atenção e concentração para imprimir",
   "atividades contar",
   "atividades contar 1 ano",
   "atividades contar de 10 em 10",
@@ -2700,10 +3831,17 @@
   "atividades contar medir ordenar e codificar 4 ano",
   "atividades contar quantidades",
   "atividades contar silabas",
+  "atividades de caça ao tesouro educação infantil",
+  "atividades de caça ao tesouro para crianças",
   "atividades de tarefa de casa 1 ano",
   "atividades de tarefa de casa 2 ano",
   "atividades de tarefa de casa 3 ano",
   "atividades de tarefa de casa 4 ano",
+  "atividades discriminação visual educação infantil",
+  "atividades encontre os objetos escondidos",
+  "atividades geometria espacial",
+  "atividades geometria plana",
+  "atividades grande ou pequeno",
   "atividades letra d educação infantil 5 anos",
   "atividades letra d educação infantil ideia criativa",
   "atividades letra d israela kotona",
@@ -2783,6 +3921,8 @@
   "atividades letras e numeros educação infantil",
   "atividades letras educação infantil",
   "atividades letras maiusculas e minusculas",
+  "atividades mais ou menos",
+  "atividades mais ou menos educação infantil",
   "atividades matemática",
   "atividades matemática 1 ano",
   "atividades matemática 1 ano fundamental",
@@ -2792,10 +3932,40 @@
   "atividades matemática 4 ano",
   "atividades matemática 5 ano",
   "atividades matemática 6 ano",
+  "atividades medidas de comprimento",
+  "atividades medidas de comprimento 3 ano",
+  "atividades medidas de comprimento 4 ano",
+  "atividades medidas de tempo",
+  "atividades montagem de palavras",
+  "atividades padrões",
+  "atividades padrões e sequências",
+  "atividades padrões geométricos",
+  "atividades palavras cruzadas 1 ano",
+  "atividades palavras cruzadas 2 ano",
+  "atividades palavras cruzadas 3 ano",
+  "atividades palavras cruzadas 4 ano",
+  "atividades palavras cruzadas 5 ano",
+  "atividades palavras cruzadas 6 ano",
+  "atividades palavras cruzadas para alfabetização",
+  "atividades palavras cruzadas para imprimir",
+  "atividades para aprender ver as horas",
   "atividades para tarefa de casa",
   "atividades para tarefa de casa educação infantil",
+  "atividades para ver as horas",
+  "atividades pareamento autismo",
+  "atividades pareamento das vogais",
+  "atividades pareamento de cores",
+  "atividades pareamento de cores educação infantil",
+  "atividades pareamento de letras",
+  "atividades pareamento de sombras",
+  "atividades pareamento educação infantil",
+  "atividades pareamento para imprimir",
+  "atividades preposições de lugar em inglês",
+  "atividades preposições de tempo em ingles",
+  "atividades preposições em ingles",
   "atividades primavera matemática",
   "atividades páscoa matemática educação infantil",
+  "atividades quadro numerico ate 50",
   "atividades sondagem 1 ano",
   "atividades sondagem 2 ano",
   "atividades sondagem 3 ano",
@@ -2803,8 +3973,27 @@
   "atividades sondagem 5 ano",
   "atividades sondagem alfabetização",
   "atividades sondagem educação infantil",
+  "atividades sons iniciais",
+  "atividades sons iniciais das palavras",
   "aula de reforço educação infantil",
   "bilhete tarefa de casa educação infantil",
+  "bingo",
+  "bingo ao vivo",
+  "bingo atividades",
+  "bingo atividades escolares",
+  "bingo chá de bebê",
+  "bingo das letras",
+  "bingo dos sons iniciais para imprimir",
+  "bingo dos sons iniciais pdf",
+  "bingo e bluey",
+  "bingo filme",
+  "bingo football",
+  "bingo futebol",
+  "bingo lotto",
+  "bingo o rei das manhãs",
+  "bingo sons iniciais",
+  "bluey e bingo atividades",
+  "bob trem do alfabeto",
   "brinquedos 4 letras",
   "brinquedos 5 letras",
   "brinquedos com letras 3 anos",
@@ -2827,7 +4016,42 @@
   "brinquedos que envolvem matemática",
   "caderno de reforço educação infantil",
   "café da manhã com sete letras",
+  "caminho a cristo ilustrado",
+  "caminho a cristo ilustrado pdf",
+  "caminho ilustrado",
   "capa para tarefa de casa educação infantil",
+  "caça ao tesouro",
+  "caça ao tesouro atividades",
+  "caça ao tesouro bíblico",
+  "caça ao tesouro decorativo wow",
+  "caça ao tesouro educação infantil",
+  "caça ao tesouro filme",
+  "caça ao tesouro forza horizon 6",
+  "caça ao tesouro infantil",
+  "caça ao tesouro matemático",
+  "caça ao tesouro numérico",
+  "caça ao tesouro para imprimir",
+  "caça palavras atividades 2 ano",
+  "caça palavras atividades de ensino religioso 9 ano valores",
+  "caça palavras atividades dos dez mandamentos para imprimir",
+  "caça palavras atividades economicas",
+  "caça palavras atividades educativas",
+  "caça palavras atividades para imprimir",
+  "caça palavras atividades projeto de vida para imprimir",
+  "caça palavras atividades sobre fontes históricas 2 ano fundamental",
+  "caça palavras atividades sobre separação de misturas 4 ano",
+  "caça-palavras",
+  "caça-palavras atividades",
+  "caça-palavras copa do mundo 2026",
+  "caça-palavras da copa do mundo",
+  "caça-palavras difícil",
+  "caça-palavras fácil",
+  "caça-palavras gerador",
+  "caça-palavras online",
+  "caça-palavras para imprimir",
+  "caça-palavras para imprimir infantil",
+  "caça-palavras países da copa",
+  "classificar significa organizar por categorias usando determinados critérios",
   "clima 4 letras",
   "clima cinco letras",
   "clima com mais letras em ingles",
@@ -2841,10 +4065,51 @@
   "como contar cores na planilha de excel",
   "como contar cores no google planilhas",
   "como contar espaço intercostal",
+  "como contar figuras musicales",
+  "comparar dois grupos estatisticamente",
+  "comparar dos grupos",
+  "comparar dos grupos en spss",
+  "comparar grupos",
+  "comparar grupos spss",
+  "comparar números",
+  "comparar números decimais",
+  "comparar números inteiros",
+  "comparar números naturais",
+  "comparar números naturais até a ordem das centenas",
+  "comparar números naturais de até duas ordens",
+  "comparar números naturais de até duas ordens em situações cotidianas",
+  "comparar números racionais",
+  "comparar números racionais entre si",
+  "comparar números racionais na forma fracionária ou decimal",
+  "comparar tamanhos",
+  "comparar tamanhos apple watch",
+  "comparar tamanhos de celular",
+  "comparar tamanhos de cidades",
+  "comparar tamanhos de mouse",
+  "comparar tamanhos de paises",
+  "comparar tamanhos de pessoas",
+  "comparar tamanhos de pneus",
+  "comparar tamanhos de tv",
+  "comparar tamanhos iphone",
+  "comprar espadas grupos",
+  "comprar pecas faltantes lego",
   "concurso matemática primavera",
+  "conhecimento das letras",
+  "conhecimento das letras do alfabeto",
+  "conhecimento letras e fonemas",
   "conjunto de frutas matemática",
+  "consciência fonologica atividades para imprimir",
   "consciência fonológica",
   "consciência fonológica atividades",
+  "consciência fonológica atividades 1 ano",
+  "consciência fonológica atividades 2 ano",
+  "consciência fonológica atividades de aliteração",
+  "consciência fonológica atividades educação infantil",
+  "consciência fonológica atividades na escola",
+  "consciência fonológica atividades pdf",
+  "consciência fonológica atividades práticas",
+  "consciência fonológica atividades práticas download",
+  "consciência fonológica e conhecimento das letras",
   "consciência fonológica e fonêmica",
   "consciência fonológica educação infantil",
   "consciência fonológica em crianças pequenas",
@@ -2873,11 +4138,17 @@
   "contar espaço de tempo",
   "contar espaço em branco excel",
   "contar espaço entre datas",
+  "contar figuras",
+  "contar figuras en autocad",
+  "contar figuras geometricas",
+  "contar figuras geometricas para niños",
+  "contar figuras para niños",
   "contar flores",
   "contar formas geometricas",
   "contar frutas para niños",
   "contar frutas wordwall",
   "contar frutas y verduras",
+  "contar las figuras de cada dibujo y completar",
   "contar primavera cokitos",
   "coquinhos adição primavera",
   "cores das letras da bandeira do brasil",
@@ -2891,16 +4162,40 @@
   "cores matemática",
   "cores para matemática",
   "correios letras",
+  "cortex de associação visual",
+  "criptograma",
+  "criptograma coquetel",
+  "criptograma jogo",
+  "criptograma o que é",
+  "criptograma online",
+  "criptograma para imprimir",
+  "criptograma para imprimir pdf",
+  "criptograma pdf",
+  "criptograma racha cuca",
+  "criptogramas",
   "curso de inverno matemática",
   "curso de inverno matemática 2025",
   "curso de inverno matemática 2026",
+  "cómo comparar grupos de zoom con google meet webex",
+  "dados gráficos e tabelas",
   "desafio das frutas matemática",
   "digipuzzle adição ate 10",
   "dinossauros com as letras do alfabeto",
   "dinossauros letras",
   "dinossauros vale das letras",
+  "discriminação visual",
+  "discriminação visual atividades",
+  "discriminação visual atividades de atenção e concentração para imprimir",
+  "discriminação visual auditiva tátil",
+  "discriminação visual de formas diferenciar parear e classificar formas geométricas figuras e objetos",
+  "discriminação visual e auditiva",
+  "discriminação visual e percepção visual",
+  "discriminação visual na educação infantil",
+  "discriminação visual sinonimo",
+  "discriminação visual wordwall",
   "diversos modelos de letras",
   "diversos tipos de letras",
+  "ecognitiva contar figuras",
   "educação especial adaptadas atividades de matemática para alunos com autismo para imprimir",
   "educação especial atividades",
   "educação especial atividades adaptadas",
@@ -2926,6 +4221,18 @@
   "emoções letras",
   "emprego da letra s atividades",
   "emprego da letra z atividades",
+  "encontre e conte",
+  "encontre e conte animais do mar",
+  "encontre os objetos",
+  "encontre os objetos complementos verbais com as seguintes perguntas mandou o quê",
+  "encontre os objetos escondidos",
+  "encontre os objetos escondidos difícil",
+  "encontre os objetos escondidos educação infantil",
+  "encontre os objetos escondidos na imagem",
+  "encontre os objetos escondidos para imprimir",
+  "encontre os objetos na imagem",
+  "encontre os objetos perdidos",
+  "encontre os objetos roblox",
   "espaço 5 letras",
   "espaço apagando letras",
   "espaço da matemática educação infantil",
@@ -2938,6 +4245,7 @@
   "espaço letras",
   "espaço matemática",
   "estagio letras praia grande",
+  "estatística análise de gráficos e dados",
   "excel contar cores celulas",
   "familia da letra g atividades",
   "familia silabica letra b atividades",
@@ -2958,6 +4266,7 @@
   "ferramentas digitais para matemática",
   "ferramentas letras",
   "ferramentas para ensinar matemática",
+  "ficha de atividade padrões e regularidades",
   "flores babi letras",
   "flores letras",
   "flores letras bonitas",
@@ -3002,6 +4311,26 @@
   "formas letras tattoo",
   "formas letras tatuagem",
   "formas modulares matemática",
+  "frações",
+  "frações 5 ano",
+  "frações 6 ano",
+  "frações algébricas",
+  "frações atividades",
+  "frações atividades 3 ano",
+  "frações atividades 4 ano",
+  "frações atividades 5 ano",
+  "frações atividades 6 ano",
+  "frações atividades 6 ano pdf",
+  "frações atividades 7 ano",
+  "frações atividades adaptadas",
+  "frações atividades para imprimir",
+  "frações atividades pdf",
+  "frações decimais",
+  "frações equivalentes",
+  "frações equivalentes 5 ano",
+  "frações equivalentes exercícios",
+  "frações impróprias",
+  "frações parciais",
   "frutas contar",
   "frutas cristalizadas tem adição de açúcar",
   "frutas desidratadas sem adição de açúcar",
@@ -3025,6 +4354,37 @@
   "frutas sem adição de açúcar",
   "função contar cores",
   "função contar cores excel",
+  "geometria",
+  "geometria analítica",
+  "geometria atividades",
+  "geometria atividades 1 ano",
+  "geometria atividades 2 ano",
+  "geometria atividades 3 ano",
+  "geometria atividades 4 ano",
+  "geometria atividades 5 ano",
+  "geometria atividades 6 ano",
+  "geometria atividades 8 ano",
+  "geometria descritiva",
+  "geometria e balanceamento",
+  "geometria espacial",
+  "geometria espacial formulas",
+  "geometria euclidiana",
+  "geometria molecular",
+  "geometria plana",
+  "geometria sagrada",
+  "graficos de dados",
+  "graficos e representação de dados",
+  "grande ou pequeno",
+  "grande ou pequeno beatriz meirelles",
+  "grande ou pequeno beatriz meirelles pdf",
+  "grande ou pequeno educação infantil",
+  "grande ou pequeno em alemão",
+  "grande ou pequeno em inglês",
+  "grande ou pequeno em italiano",
+  "grande ou pequeno livro",
+  "grande ou pequeno pedro bandeira",
+  "grande ou pequeno tem sempre o tamanho de um pé",
+  "gráficos e interpretação de dados",
   "hinos de páscoa letras",
   "horas",
   "horas agora",
@@ -3052,7 +4412,9 @@
   "inverno.com 6 letras",
   "jogo adição até 10",
   "jogo das cores matemática",
+  "jogos de associação visual",
   "l'hospital matemática",
+  "lego pedir peças faltantes",
   "letra a atividades",
   "letra a atividades 1 ano",
   "letra a atividades de alfabetização",
@@ -3215,6 +4577,16 @@
   "letras clima perfeito noite enluarada",
   "letras cores diferentes",
   "letras cores do vento",
+  "letras embaralhadas",
+  "letras embaralhadas atividades",
+  "letras embaralhadas de perto",
+  "letras embaralhadas jogo",
+  "letras embaralhadas leitura",
+  "letras embaralhadas para formar palavras",
+  "letras embaralhadas para imprimir",
+  "letras embaralhadas que formam palavras",
+  "letras embaralhadas visão",
+  "letras embaralhadas wordwall",
   "letras emoções roberto carlos",
   "letras espaço invisível",
   "letras espaço kids",
@@ -3246,8 +4618,28 @@
   "letras verão para colorir",
   "letras verão para imprimir",
   "localização no espaço matemática",
+  "logica ordem visualizacao stories",
+  "logica visual beghelli",
+  "logica visual diseño grafico",
+  "logica visual sas",
+  "logica visual software",
+  "logica visual software download",
+  "logica visualg",
   "louvores de páscoa letras",
+  "lógica visual",
   "lógico matemática profissões",
+  "mais ou menos",
+  "mais ou menos em espanhol",
+  "mais ou menos em frances",
+  "mais ou menos em ingles",
+  "mais ou menos em italiano",
+  "mais ou menos meme",
+  "mais ou menos ou mas ou menos",
+  "mais ou menos simbolo",
+  "mais ou menos sinal",
+  "mais ou menos sinonimo",
+  "marcas de contagem",
+  "marcas de contagem na parede",
   "matemática correios",
   "matemática espaço amostral",
   "matemática espaço e forma",
@@ -3260,8 +4652,52 @@
   "matemática natal 3 ano",
   "matemática no supermercado",
   "matemática profissões do futuro",
+  "medidas",
+  "medidas antropométricas",
+  "medidas atividades",
+  "medidas atividades 1 ano",
+  "medidas atividades 2 ano",
+  "medidas atividades 3 ano",
+  "medidas atividades 4 ano",
+  "medidas atividades 5 ano",
+  "medidas cama de casal",
+  "medidas cama de solteiro",
+  "medidas cama king",
+  "medidas cama queen",
+  "medidas camas",
+  "medidas colchão solteiro",
+  "medidas de comprimento",
+  "medidas mala de bordo",
   "meu hospital letras",
   "monstro das cores matemática",
+  "montagem de caça palavras",
+  "montagem de palavras",
+  "montagem de palavras com letras",
+  "montagem de palavras com letras móveis",
+  "montagem de palavras com silabas",
+  "montagem de palavras cruzadas",
+  "montagem de palavras para alfabetização",
+  "montagem de palavras simples",
+  "multiplicação",
+  "multiplicação 3 ano",
+  "multiplicação 4 ano",
+  "multiplicação 5 ano",
+  "multiplicação atividades",
+  "multiplicação atividades 2 ano",
+  "multiplicação atividades 3 ano",
+  "multiplicação atividades 4 ano",
+  "multiplicação atividades 5 ano",
+  "multiplicação atividades 6 ano",
+  "multiplicação atividades adaptadas",
+  "multiplicação atividades de matemática 3 ano",
+  "multiplicação atividades de matemática 4 ano",
+  "multiplicação atividades de matemática 5 ano",
+  "multiplicação com dois algarismos",
+  "multiplicação de fração",
+  "multiplicação de matrizes",
+  "multiplicação de raizes",
+  "multiplicação dos pães",
+  "multiplicação dos pães e peixes",
   "música contar as estrelas",
   "música contar pra que ninguém precisa entender",
   "música contar pra quê",
@@ -3300,12 +4736,67 @@
   "numerais até 20 por extenso",
   "numerais até 200",
   "numerais até 2000",
+  "o que são marcas de contagem",
+  "o que são marcas de contagem riscos",
   "objetivo da tarefa de casa na educação infantil",
   "objeto de sala de aula com 12 letras",
   "oficina de reforço educação infantil",
+  "ordenar imagens",
+  "ordenar imagens de uma história",
+  "ordenar imagens wordwall",
   "orientações para tarefa de casa educação infantil",
   "ortografia letra h atividades",
+  "outlet de marcas contagem",
+  "outlet só marcas de contagem",
   "padaria cafe com letras",
+  "padrões",
+  "padrões da comunidade instagram",
+  "padrões de atividades escoteiras",
+  "padrões de atividades escoteiras pdf",
+  "padrões de beleza",
+  "padrões de beleza impostos pela sociedade",
+  "padrões de comportamento",
+  "padrões de herança genética",
+  "padrões de projeto",
+  "padrões geométricos",
+  "padrões respiratórios",
+  "padrões silábicos atividades",
+  "padrões sinonimo",
+  "palavras cruzadas",
+  "palavras cruzadas atividades",
+  "palavras cruzadas coquetel",
+  "palavras cruzadas diretas",
+  "palavras cruzadas fácil",
+  "palavras cruzadas g1",
+  "palavras cruzadas on line gratis",
+  "palavras cruzadas online",
+  "palavras cruzadas para imprimir",
+  "palavras cruzadas para imprimir pdf",
+  "palavras cruzadas pdf",
+  "palavras de posição",
+  "palavras posição da sílaba tônica",
+  "pareamento",
+  "pareamento atividades",
+  "pareamento atividades ludicas cores educação infantil",
+  "pareamento copa do mundo",
+  "pareamento das vogais",
+  "pareamento de animais",
+  "pareamento de cores",
+  "pareamento de cores educação infantil",
+  "pareamento de cores para imprimir",
+  "pareamento de letras",
+  "pareamento de numeros",
+  "pareamento de sombras",
+  "pareamento de sombras animais",
+  "pareamento de sombras educação infantil",
+  "pareamento de sombras festa junina",
+  "pareamento de sombras frutas",
+  "pareamento de sombras objetivos",
+  "pareamento de sombras para imprimir",
+  "pareamento de sombras pdf",
+  "pareamento de sombras trabalha o que",
+  "pareamento de sombras wordwall",
+  "pareamento wordwall",
   "partes do corpo com 3 letras",
   "partes do corpo com 4 letras",
   "partes do corpo com 5 letras",
@@ -3316,7 +4807,12 @@
   "partes do corpo com duas letras",
   "partes do corpo com letras",
   "partes do corpo humano letras",
+  "pecas faltantes grow",
   "pei educação especial pronto educação infantil",
+  "peças faltantes",
+  "peças faltantes lego",
+  "peças faltantes quebra cabeça game office",
+  "peças faltantes quebra cabeça grow",
   "placas veículos letras estados",
   "pode contar natal e ano novo como férias",
   "postal dos correios letras",
@@ -3329,6 +4825,23 @@
   "praia do futuro letras",
   "praia do rosa letras",
   "praia letras",
+  "preposições",
+  "preposições acidentais",
+  "preposições atividades",
+  "preposições atividades 4 ano",
+  "preposições atividades 5 ano",
+  "preposições atividades 6 ano",
+  "preposições atividades 7 ano",
+  "preposições atividades com gabarito",
+  "preposições atividades pdf",
+  "preposições de lugar em inglês",
+  "preposições de tempo em inglês",
+  "preposições e conjunções",
+  "preposições em inglês",
+  "preposições essenciais",
+  "preposições essenciais e acidentais",
+  "preposições exemplos",
+  "preposições portugues",
   "primavera letras",
   "primavera letras bonitas",
   "primavera letras coloridas",
@@ -3375,6 +4888,49 @@
   "psicogênese da pessoa completa",
   "psicogênese significado",
   "páscoa matemática",
+  "quadro de dez",
+  "quadro de dezena centena e unidade",
+  "quadro de dezena e unidade",
+  "quadro de dezenas",
+  "quadro de ordens dezena e unidade",
+  "quadro de unidade dezena centena e milhar",
+  "quadro de valor dezena e unidade",
+  "quadro de valor posicional atividades",
+  "quadro dez mandamentos",
+  "quadro dez ou mil do programa do ratinho",
+  "quadro dezena de milhar",
+  "quadro numerico ate 100 atividades",
+  "quadro numérico",
+  "quadro numérico atividades",
+  "quadro numérico até 100",
+  "quadro numérico até 100 para completar",
+  "quadro numérico até 1000 para imprimir",
+  "quadro numérico até 50",
+  "quadro numérico de 0 a 100",
+  "quadro numérico de 0 a 100 para imprimir",
+  "quadro numérico de 1 a 100",
+  "quadro numérico de 1 a 100 para imprimir",
+  "quadro numérico para imprimir",
+  "qual figura é diferente",
+  "qual imagem é diferente",
+  "qual nome é diferente joe john jacob mike",
+  "qual opção é diferente das demais banana maçã uva cenoura",
+  "qual organela é diferente entre as células animais e vegetais",
+  "qual urso é diferente",
+  "qual é as diferentes formas da superfície terrestre",
+  "qual é diferente",
+  "qual é diferente livro",
+  "qual é o diferente wordwall",
+  "quebra cabeça matemático 1 ano",
+  "quebra cabeça matemático 2 ano",
+  "quebra cabeça matemático 4 ano",
+  "quebra cabeça matemático de sudoku",
+  "quebra cabeça matemático online",
+  "quebra cabeça matemático para imprimir 4 ano",
+  "quebra-cabeça matemático",
+  "quebra-cabeça matemático para imprimir",
+  "quebra-cabeça matemático para imprimir 6 ano",
+  "quebra-cabeça matemático pdf",
   "rastreamento correios letras",
   "recado tarefa de casa educação infantil",
   "reforço atividades",
@@ -3391,6 +4947,26 @@
   "reforço escolar educação infantil",
   "reforço negativo na educação infantil",
   "reforço positivo educação infantil",
+  "reta numerica atividades 1 ano",
+  "reta numerica atividades 2 ano",
+  "reta numerica atividades 6 ano",
+  "reta numerica atividades 9 ano",
+  "reta numérica",
+  "reta numérica 1 ano",
+  "reta numérica 2 ano",
+  "reta numérica 3 ano",
+  "reta numérica 4 ano",
+  "reta numérica 5 ano",
+  "reta numérica 6 ano",
+  "reta numérica 7 ano",
+  "reta numérica atividades",
+  "reta numérica atividades 3 ano",
+  "reta numérica atividades 4 ano",
+  "reta numérica atividades 5 ano",
+  "reta numérica atividades 7 ano",
+  "reta numérica atividades para imprimir",
+  "reta numérica dos números inteiros",
+  "reta numérica para imprimir",
   "roberto carlos café da manhã letras",
   "roupas brancas 5 letras",
   "roupas com 5 letras",
@@ -3425,6 +5001,7 @@
   "silábico-alfabético com valor sonoro",
   "silábico-alfabético exemplos",
   "silábico-alfabético para imprimir",
+  "site lego peças faltantes",
   "sobre educação especial na educação infantil",
   "som da letra s atividades",
   "sondagem atividades",
@@ -3455,7 +5032,33 @@
   "sons da letra s atividades",
   "sons da letra v atividades",
   "sons da letra x atividades",
+  "sons iniciais",
+  "sons iniciais das palavras",
+  "sons iniciais e finais",
+  "sons iniciais mediais e finais",
+  "sons iniciais wordwall",
   "sopa letras verão",
+  "subtração",
+  "subtração 2 ano",
+  "subtração 3 ano",
+  "subtração atividades",
+  "subtração atividades 1 ano",
+  "subtração atividades 2 ano",
+  "subtração atividades 3 ano",
+  "subtração atividades 4 ano",
+  "subtração atividades 5 ano",
+  "subtração atividades 6 ano",
+  "subtração atividades de matematica 2 ano fundamental",
+  "subtração atividades de matemática 3 ano",
+  "subtração atividades de matemática 5 ano",
+  "subtração com reagrupamento",
+  "subtração com reserva",
+  "subtração com reserva 2 ano",
+  "subtração com reserva 3 ano",
+  "subtração de fração",
+  "subtração de frações com denominadores diferentes",
+  "subtração excel",
+  "sudoku ilustrado",
   "sílabas",
   "sílabas canonicas",
   "sílabas complexas",
@@ -3466,6 +5069,7 @@
   "sílabas simples",
   "sílabas simples para imprimir",
   "sílabas tônicas",
+  "só marcas de contagem",
   "tamanho de roupas letras e numeros",
   "tamanhos de roupas letras",
   "tarefa de casa atividades",
@@ -3483,6 +5087,15 @@
   "traçador makita",
   "traçador quimico",
   "traçados",
+  "trem do alfabeto",
+  "trem do alfabeto brinquedo",
+  "trem do alfabeto em eva",
+  "trem do alfabeto fisher price",
+  "trem do alfabeto musica",
+  "trem do alfabeto para colorir",
+  "trem do alfabeto para imprimir",
+  "trem do alfabeto pdf",
+  "trem do alfabeto video",
   "tudo sala de aula adição",
   "tudo sala de aula adição 1 ano",
   "tudo sala de aula adição 2 ano",
@@ -3510,6 +5123,25 @@
   "utensílios de cozinha com 6 letras",
   "utensílios de cozinha com 7 letras",
   "utensílios de cozinha com 8 letras",
+  "valor posicional",
+  "valor posicional 2 ano",
+  "valor posicional 3 ano",
+  "valor posicional 4 ano",
+  "valor posicional 5 ano",
+  "valor posicional atividades",
+  "valor posicional atividades 2 ano",
+  "valor posicional atividades 3 ano",
+  "valor posicional atividades 4 ano",
+  "valor posicional atividades 5 ano",
+  "valor posicional atividades 6 ano",
+  "valor posicional de um número",
+  "valor posicional do algarismo atividades",
+  "valor posicional do algarismo atividades 4 ano",
+  "valor posicional dos algarismos",
+  "valor posicional dos números atividades",
+  "valor posicional e valor absoluto",
+  "valor posicional e valor relativo",
+  "variáveis logica visualg",
   "vegetais com 4 letras",
   "vegetais com 5 letras",
   "vegetais com 6 letras",
@@ -3517,15 +5149,33 @@
   "vegetais com 8 letras",
   "vegetais com 9 letras",
   "vegetais com as letras do alfabeto",
+  "ver as horas",
+  "ver as horas 0000",
+  "ver as horas 1111",
+  "ver as horas 1414",
+  "ver as horas 1717",
+  "ver as horas 2121",
+  "ver as horas 2222",
+  "ver as horas 2323",
+  "ver as horas iguais",
+  "ver as horas iguais com frequencia",
   "verão matemática 2026",
   "verão matemática ufba",
   "verão matemática ufmg 2026",
   "verão matemática ufpe",
   "verão matemática unicamp",
   "veículos com seis letras",
+  "video alfaletrar conhecimento das letras",
+  "visualg logica de programação",
+  "vocabulario figuras",
+  "vocabulario figuras geometricas",
+  "vocabulario figuras geometricas en ingles",
   "wordwall adição até 100",
+  "wordwall contar figuras",
   "wordwall matemática formas geometricas",
   "wordwall matemática frutas",
+  "wordwall montagem de palavras",
+  "área de associação visual função",
   "árvore de natal matemática"
  ],
  "novel": [
@@ -3546,7 +5196,9 @@
   "acessórios de matemática",
   "acessórios para contar histórias",
   "acessórios para crocs letras",
+  "adivinhe a palavra por aproximação",
   "adição ate 10 wordwall",
+  "adição atividades para imprimir",
   "adição até 10",
   "adição até 100",
   "adição até 1000",
@@ -3604,6 +5256,7 @@
   "atividade adição natal",
   "atividade contar animais",
   "atividade contar frutas",
+  "atividade de conhecimento das letras",
   "atividade educação especial educação infantil",
   "atividade matemática animais",
   "atividade matemática cores",
@@ -3615,6 +5268,7 @@
   "atividade matemática páscoa 4 ano",
   "atividade natal matemática",
   "atividade natal matemática 1 ano",
+  "atividade padrões 1 ano",
   "atividade páscoa matemática",
   "atividade páscoa matemática 3 ano",
   "atividade reforço educação infantil",
@@ -3643,6 +5297,7 @@
   "atividades de tarefa de casa 2 ano",
   "atividades de tarefa de casa 3 ano",
   "atividades de tarefa de casa 4 ano",
+  "atividades geometria espacial",
   "atividades letra d educação infantil 5 anos",
   "atividades letra d educação infantil ideia criativa",
   "atividades letra d israela kotona",
@@ -3744,6 +5399,8 @@
   "atividades sondagem educação infantil",
   "aula de reforço educação infantil",
   "bilhete tarefa de casa educação infantil",
+  "bingo chá de bebê",
+  "bob trem do alfabeto",
   "brinquedos 4 letras",
   "brinquedos 5 letras",
   "brinquedos com letras 3 anos",
@@ -3767,6 +5424,10 @@
   "caderno de reforço educação infantil",
   "café da manhã com sete letras",
   "capa para tarefa de casa educação infantil",
+  "caça ao tesouro matemático",
+  "caça ao tesouro numérico",
+  "caça palavras atividades projeto de vida para imprimir",
+  "caça-palavras da copa do mundo",
   "clima 4 letras",
   "clima cinco letras",
   "clima com mais letras em ingles",
@@ -3780,8 +5441,13 @@
   "como contar cores na planilha de excel",
   "como contar cores no google planilhas",
   "como contar espaço intercostal",
+  "comparar dois grupos estatisticamente",
+  "comparar números racionais na forma fracionária ou decimal",
+  "comparar tamanhos apple watch",
+  "comprar espadas grupos",
   "concurso matemática primavera",
   "conjunto de frutas matemática",
+  "consciência fonológica atividades na escola",
   "contar animais",
   "contar animais ate 10 coquinhos",
   "contar animais ja virou normal",
@@ -3828,6 +5494,7 @@
   "dinossauros com as letras do alfabeto",
   "dinossauros letras",
   "dinossauros vale das letras",
+  "discriminação visual sinonimo",
   "diversos modelos de letras",
   "diversos tipos de letras",
   "educação especial adaptadas atividades de matemática para alunos com autismo para imprimir",
@@ -3855,6 +5522,7 @@
   "emoções letras",
   "emprego da letra s atividades",
   "emprego da letra z atividades",
+  "encontre os objetos complementos verbais com as seguintes perguntas mandou o quê",
   "espaço 5 letras",
   "espaço apagando letras",
   "espaço da matemática educação infantil",
@@ -3931,6 +5599,7 @@
   "formas letras tattoo",
   "formas letras tatuagem",
   "formas modulares matemática",
+  "frações atividades 6 ano pdf",
   "frutas contar",
   "frutas cristalizadas tem adição de açúcar",
   "frutas desidratadas sem adição de açúcar",
@@ -3954,6 +5623,8 @@
   "frutas sem adição de açúcar",
   "função contar cores",
   "função contar cores excel",
+  "geometria espacial formulas",
+  "grande ou pequeno em alemão",
   "hinos de páscoa letras",
   "horas",
   "horas agora",
@@ -4175,6 +5846,7 @@
   "letras verão para colorir",
   "letras verão para imprimir",
   "localização no espaço matemática",
+  "logica visual sas",
   "louvores de páscoa letras",
   "lógico matemática profissões",
   "matemática correios",
@@ -4189,6 +5861,7 @@
   "matemática natal 3 ano",
   "matemática no supermercado",
   "matemática profissões do futuro",
+  "medidas camas",
   "meu hospital letras",
   "monstro das cores matemática",
   "música contar as estrelas",
@@ -4234,7 +5907,12 @@
   "oficina de reforço educação infantil",
   "orientações para tarefa de casa educação infantil",
   "ortografia letra h atividades",
+  "outlet só marcas de contagem",
   "padaria cafe com letras",
+  "padrões da comunidade instagram",
+  "palavras cruzadas on line gratis",
+  "pareamento copa do mundo",
+  "pareamento de sombras wordwall",
   "partes do corpo com 3 letras",
   "partes do corpo com 4 letras",
   "partes do corpo com 5 letras",
@@ -4304,6 +5982,9 @@
   "psicogênese da pessoa completa",
   "psicogênese significado",
   "páscoa matemática",
+  "quadro numérico até 100 para completar",
+  "quadro numérico até 50",
+  "quadro numérico de 1 a 100 para imprimir",
   "rastreamento correios letras",
   "recado tarefa de casa educação infantil",
   "reforço atividades",
@@ -4320,6 +6001,7 @@
   "reforço escolar educação infantil",
   "reforço negativo na educação infantil",
   "reforço positivo educação infantil",
+  "reta numérica 2 ano",
   "roberto carlos café da manhã letras",
   "roupas brancas 5 letras",
   "roupas com 5 letras",
@@ -4385,6 +6067,7 @@
   "sons da letra v atividades",
   "sons da letra x atividades",
   "sopa letras verão",
+  "subtração com reserva 2 ano",
   "sílabas",
   "sílabas canonicas",
   "sílabas complexas",
@@ -4412,6 +6095,7 @@
   "traçador makita",
   "traçador quimico",
   "traçados",
+  "trem do alfabeto pdf",
   "tudo sala de aula adição",
   "tudo sala de aula adição 1 ano",
   "tudo sala de aula adição 2 ano",
@@ -4439,6 +6123,8 @@
   "utensílios de cozinha com 6 letras",
   "utensílios de cozinha com 7 letras",
   "utensílios de cozinha com 8 letras",
+  "valor posicional do algarismo atividades 4 ano",
+  "valor posicional dos algarismos",
   "vegetais com 4 letras",
   "vegetais com 5 letras",
   "vegetais com 6 letras",
@@ -4456,6 +6142,5 @@
   "wordwall matemática formas geometricas",
   "wordwall matemática frutas",
   "árvore de natal matemática"
- ],
- "refilteredAt": "2026-07-20T08:58:53.390Z"
+ ]
 }

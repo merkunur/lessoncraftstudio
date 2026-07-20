@@ -4,39 +4,52 @@
   "hl": "da",
   "gl": "dk"
  },
- "generatedAt": "2026-07-20T08:56:54.857Z",
+ "generatedAt": "2026-07-20T09:55:16.514Z",
  "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
- "requestCount": 232,
+ "requestCount": 471,
  "seedCounts": {
-  "skill": 14,
-  "context": 6,
+  "skill": 25,
+  "context": 8,
   "audience": 4,
   "enumerated": 0,
   "pack": 1,
-  "cross": 207
+  "cross": 315,
+  "typeName": 118
  },
  "errorCount": 0,
  "errors": [],
  "newVsInventory": {
   "inventoryUnique": 698,
-  "demandUnique": 402,
-  "novel": 401,
-  "novelShare": 0.998
+  "demandUnique": 769,
+  "novel": 487,
+  "novelShare": 0.633
  },
  "deadSeeds": [
+  "begyndende læsning",
   "lektier børnehaveklasse",
   "stationer opgaver",
   "stationer børnehaveklasse",
   "ekstra træning opgaver",
   "ekstra træning børnehaveklasse",
+  "vikartimer opgaver",
+  "vikartimer børnehaveklasse",
   "dsa børnehaveklasse",
   "specialundervisning opgaver",
   "specialundervisning børnehaveklasse",
   "4. juli matematik",
   "4. juli tælle",
   "4. juli bogstaver",
+  "tilbehørmatematik",
   "tilbehør tælle",
+  "tilbehørtælle",
+  "tilbehørbogstaver",
+  "aktivitetermatematik",
   "aktiviteter tælle",
+  "aktivitetertælle",
+  "aktiviteterbogstaver",
+  "dyrmatematik",
+  "dyrtælle",
+  "dyrbogstaver",
   "rundt i huset matematik",
   "rundt i huset tælle",
   "rundt i huset bogstaver",
@@ -44,152 +57,314 @@
   "i supermarkedet tælle",
   "i supermarkedet bogstaver",
   "bageri matematik",
+  "bagerimatematik",
   "bageri tælle",
+  "bageritælle",
   "bageri bogstaver",
+  "bageribogstaver",
   "strand matematik",
+  "strandmatematik",
   "strand tælle",
+  "strandtælle",
+  "strandbogstaver",
   "fugle matematik",
-  "fugle 2 matematik",
-  "fugle 2 tælle",
-  "fugle 2 bogstaver",
+  "fuglematematik",
+  "fugletælle",
+  "fuglebogstaver",
   "kropsdele matematik",
+  "kropsdelematematik",
   "kropsdele tælle",
+  "kropsdeletælle",
+  "kropsdelebogstaver",
   "morgenmad matematik",
+  "morgenmadmatematik",
   "morgenmad tælle",
+  "morgenmadtælle",
+  "morgenmadbogstaver",
+  "campingmatematik",
   "camping tælle",
+  "campingtælle",
+  "campingbogstaver",
   "jul tælle",
+  "jultælle",
+  "julbogstaver",
   "klasseværelse matematik",
+  "klasseværelsematematik",
   "klasseværelse tælle",
+  "klasseværelsetælle",
   "klasseværelse bogstaver",
+  "klasseværelsebogstaver",
+  "tøjmatematik",
   "tøj tælle",
+  "tøjtælle",
+  "tøjbogstaver",
+  "farvermatematik",
   "farver tælle",
+  "farvertælle",
+  "farverbogstaver",
   "desserter og slik matematik",
   "desserter og slik tælle",
   "desserter og slik bogstaver",
   "dinosaurer matematik",
+  "dinosaurermatematik",
   "dinosaurer tælle",
+  "dinosaurertælle",
   "dinosaurer bogstaver",
+  "dinosaurerbogstaver",
   "påske tælle",
+  "påsketælle",
+  "påskebogstaver",
   "følelser matematik",
+  "følelsermatematik",
   "følelser tælle",
+  "følelsertælle",
   "følelser bogstaver",
+  "følelserbogstaver",
   "bondegårdsdyr matematik",
+  "bondegårdsdyrmatematik",
   "bondegårdsdyr tælle",
+  "bondegårdsdyrtælle",
   "bondegårdsdyr bogstaver",
+  "bondegårdsdyrbogstaver",
   "blomster matematik",
+  "blomstermatematik",
   "blomster tælle",
+  "blomstertælle",
+  "blomsterbogstaver",
   "skovdyr matematik",
+  "skovdyrmatematik",
   "skovdyr tælle",
+  "skovdyrtælle",
   "skovdyr bogstaver",
+  "skovdyrbogstaver",
   "frugter matematik",
+  "frugtermatematik",
   "frugter tælle",
+  "frugtertælle",
+  "frugterbogstaver",
   "møbler matematik",
+  "møblermatematik",
   "møbler tælle",
+  "møblertælle",
+  "møblerbogstaver",
+  "hospitalmatematik",
   "hospital tælle",
+  "hospitaltælle",
+  "hospitalbogstaver",
   "insekter og kryb matematik",
   "insekter og kryb tælle",
   "insekter og kryb bogstaver",
   "køkkenredskaber matematik",
+  "køkkenredskabermatematik",
   "køkkenredskaber tælle",
+  "køkkenredskabertælle",
   "køkkenredskaber bogstaver",
+  "køkkenredskaberbogstaver",
   "diverse matematik",
+  "diversematematik",
   "diverse tælle",
+  "diversetælle",
+  "diversebogstaver",
+  "musikmatematik",
   "musik tælle",
+  "musiktælle",
+  "musikbogstaver",
   "erhverv matematik",
+  "erhvervmatematik",
   "erhverv tælle",
+  "erhvervtælle",
+  "erhvervbogstaver",
   "havliv matematik",
+  "havlivmatematik",
   "havliv tælle",
+  "havlivtælle",
   "havliv bogstaver",
+  "havlivbogstaver",
   "kæledyr matematik",
+  "kæledyrmatematik",
   "kæledyr tælle",
+  "kæledyrtælle",
+  "kæledyrbogstaver",
   "postkontor matematik",
+  "postkontormatematik",
   "postkontor tælle",
+  "postkontortælle",
   "postkontor bogstaver",
+  "postkontorbogstaver",
   "krybdyr og padder matematik",
   "krybdyr og padder tælle",
   "krybdyr og padder bogstaver",
+  "formermatematik",
   "former tælle",
+  "formertælle",
+  "formerbogstaver",
+  "rummetmatematik",
   "rummet tælle",
+  "rummettælle",
+  "rummetbogstaver",
   "forår matematik",
+  "forårmatematik",
   "forår tælle",
+  "forårtælle",
+  "forårbogstaver",
+  "sommermatematik",
   "sommer tælle",
+  "sommertælle",
+  "sommerbogstaver",
   "thanksgiving matematik",
+  "thanksgivingmatematik",
   "thanksgiving tælle",
+  "thanksgivingtælle",
   "thanksgiving bogstaver",
+  "thanksgivingbogstaver",
   "ting der flyver matematik",
   "ting der flyver tælle",
   "ting der flyver bogstaver",
+  "værktøjmatematik",
   "værktøj tælle",
+  "værktøjtælle",
+  "værktøjbogstaver",
+  "legetøjmatematik",
+  "legetøjtælle",
+  "legetøjbogstaver",
   "træer matematik",
+  "træermatematik",
   "træer tælle",
+  "træertælle",
+  "træerbogstaver",
   "grøntsager matematik",
+  "grøntsagermatematik",
   "grøntsager tælle",
+  "grøntsagertælle",
+  "grøntsagerbogstaver",
   "køretøjer matematik",
+  "køretøjermatematik",
   "køretøjer tælle",
+  "køretøjertælle",
+  "køretøjerbogstaver",
   "vejr matematik",
+  "vejrmatematik",
   "vejr tælle",
+  "vejrtælle",
+  "vejrbogstaver",
+  "vintermatematik",
   "vinter tælle",
+  "vintertælle",
   "vinter bogstaver",
+  "vinterbogstaver",
   "zoodyr matematik",
+  "zoodyrmatematik",
   "zoodyr tælle",
+  "zoodyrtælle",
   "zoodyr bogstaver",
-  "dyr sh 2 matematik",
-  "dyr sh 2 tælle",
-  "dyr sh 2 bogstaver",
-  "dyr sh 3 matematik",
-  "dyr sh 3 tælle",
-  "dyr sh 3 bogstaver",
-  "dyr sh 4 matematik",
-  "dyr sh 4 tælle",
-  "dyr sh 4 bogstaver",
-  "dyr sh 5 matematik",
-  "dyr sh 5 tælle",
-  "dyr sh 5 bogstaver",
-  "strand sh 2 matematik",
-  "strand sh 2 tælle",
-  "strand sh 2 bogstaver",
-  "fugle s&h 2 matematik",
-  "fugle s&h 2 tælle",
-  "fugle s&h 2 bogstaver",
-  "jul s/h 2 matematik",
-  "jul s/h 2 tælle",
-  "jul s/h 2 bogstaver",
+  "zoodyrbogstaver",
+  "dyr sh matematik",
+  "dyr sh tælle",
+  "dyr sh bogstaver",
+  "strand sh matematik",
+  "strand sh tælle",
+  "strand sh bogstaver",
+  "fugle s&h matematik",
+  "fugle s&h tælle",
+  "fugle s&h bogstaver",
+  "jul s/h matematik",
+  "jul s/h tælle",
+  "jul s/h bogstaver",
   "klasseværelse 2 (s/h) matematik",
   "klasseværelse 2 (s/h) tælle",
   "klasseværelse 2 (s/h) bogstaver",
-  "påske sh 2 matematik",
-  "påske sh 2 tælle",
-  "påske sh 2 bogstaver",
-  "mad sh 2 matematik",
-  "mad sh 2 tælle",
-  "mad sh 2 bogstaver",
-  "mad sh 3 matematik",
-  "mad sh 3 tælle",
-  "mad sh 3 bogstaver",
-  "hjem sh 2 matematik",
-  "hjem sh 2 tælle",
-  "hjem sh 2 bogstaver",
-  "havliv sh 2 matematik",
-  "havliv sh 2 tælle",
-  "havliv sh 2 bogstaver",
-  "sport sh 2 matematik",
-  "sport sh 2 tælle",
-  "sport sh 2 bogstaver",
-  "legetøj sh 2 matematik",
-  "legetøj sh 2 tælle",
-  "legetøj sh 2 bogstaver",
-  "valentinsdag sh 2 matematik",
-  "valentinsdag sh 2 tælle",
-  "valentinsdag sh 2 bogstaver",
-  "grøntsager sh 2 matematik",
-  "grøntsager sh 2 tælle",
-  "grøntsager sh 2 bogstaver",
-  "køretøjer sh 2 matematik",
-  "køretøjer sh 2 tælle",
-  "køretøjer sh 2 bogstaver",
-  "køretøjer sh 3 matematik",
-  "køretøjer sh 3 tælle",
-  "køretøjer sh 3 bogstaver"
+  "påske sh matematik",
+  "påske sh tælle",
+  "påske sh bogstaver",
+  "mad sh matematik",
+  "mad sh tælle",
+  "mad sh bogstaver",
+  "hjem sh matematik",
+  "hjem sh tælle",
+  "hjem sh bogstaver",
+  "havliv sh matematik",
+  "havliv sh tælle",
+  "havliv sh bogstaver",
+  "sport sh matematik",
+  "sport sh tælle",
+  "sport sh bogstaver",
+  "legetøj sh matematik",
+  "legetøj sh tælle",
+  "legetøj sh bogstaver",
+  "valentinsdag sh matematik",
+  "valentinsdag sh tælle",
+  "valentinsdag sh bogstaver",
+  "grøntsager sh matematik",
+  "grøntsager sh tælle",
+  "grøntsager sh bogstaver",
+  "køretøjer sh matematik",
+  "køretøjer sh tælle",
+  "køretøjer sh bogstaver",
+  "billedsudoku opgaver",
+  "kryptogram opgaver",
+  "billedvej opgaver",
+  "kodeaddition",
+  "kodeaddition opgaver",
+  "mere eller mindre opgaver",
+  "matematikpuslespil",
+  "matematikpuslespil opgaver",
+  "matematikark opgaver",
+  "stor eller lille opgaver",
+  "tæl i diagram",
+  "tæl i diagram opgaver",
+  "mønstertoget",
+  "mønstertoget opgaver",
+  "mønsterark opgaver",
+  "bingo opgaver",
+  "gittermatch",
+  "gittermatch opgaver",
+  "matchning opgaver",
+  "sortér billeder opgaver",
+  "match skygger",
+  "match skygger opgaver",
+  "alfabettoget",
+  "alfabettoget opgaver",
+  "gæt ordet opgaver",
+  "bogstavpuslespil",
+  "bogstavpuslespil opgaver",
+  "ordsøgning opgaver",
+  "find og tæl opgaver",
+  "find genstandene",
+  "find genstandene opgaver",
+  "manglende brikker opgaver",
+  "hvilken passer ikke opgaver",
+  "tæl billeder",
+  "tæl billeder opgaver",
+  "tierramme opgaver",
+  "tæl med streger",
+  "tæl med streger opgaver",
+  "hundredfelt",
+  "hundredfelt opgaver",
+  "sammenlign tal opgaver",
+  "størst og mindst opgaver",
+  "diagrammer og data",
+  "diagrammer og data opgaver",
+  "gange og rækker",
+  "gange og rækker opgaver",
+  "geometri og former opgaver",
+  "visuel logik",
+  "visuel logik opgaver",
+  "find forskellen opgaver",
+  "find par opgaver",
+  "placering og retning",
+  "placering og retning opgaver",
+  "sortér i grupper",
+  "sortér i grupper opgaver",
+  "billedregning",
+  "billedregning opgaver",
+  "sortér i naturen",
+  "sortér i naturen opgaver",
+  "rækkefølge og livscyklusser",
+  "rækkefølge og livscyklusser opgaver",
+  "find par i naturen",
+  "find par i naturen opgaver",
+  "ordbygning",
+  "ordbygning opgaver"
  ],
  "suggestions": {
   "de 120 ord": {
@@ -237,36 +412,6 @@
     "bevægelsesligningen"
    ]
   },
-  "julematematik": {
-   "cls": "skill",
-   "s": [
-    "julematematik 2 klasse",
-    "julematematik 1 klasse",
-    "julematematik 3 klasse",
-    "julematematik indskoling",
-    "julematematik 4 klasse",
-    "julematematik 6 klasse",
-    "julematematik 5 klasse",
-    "julematematik udskoling",
-    "julematematik 7 klasse",
-    "julematematik 0 klasse"
-   ]
-  },
-  "fastelavn": {
-   "cls": "skill",
-   "s": [
-    "fastelavnsboller",
-    "fastelavn",
-    "fastelavn 2027",
-    "fastelavn 2026",
-    "fastelavnstønde",
-    "fastelavn engelsk",
-    "fastelavnsris",
-    "fastelavnsboller opskrift",
-    "fastelavnsboller med creme",
-    "fastelavnsboller med fløde"
-   ]
-  },
   "bogstaver": {
    "cls": "skill",
    "s": [
@@ -282,6 +427,19 @@
     "bogstaver i alfabetet"
    ]
   },
+  "bogstavlyde": {
+   "cls": "skill",
+   "s": [
+    "bogstavlyde",
+    "bogstavlyde for børn",
+    "bogstavlyde sang",
+    "bogstavlyde opgaver",
+    "bogstavlyde dansk",
+    "lær bogstavlyde",
+    "øve bogstavlyde",
+    "se bogstavlyde"
+   ]
+  },
   "lydering": {
    "cls": "skill",
    "s": [
@@ -292,6 +450,28 @@
     "lydering av bokstaver",
     "lydering av ord",
     "lydering oppgaver"
+   ]
+  },
+  "lydrette ord": {
+   "cls": "skill",
+   "s": [
+    "lydrette ord",
+    "lydrette ord 3 bogstaver",
+    "lydrette ord 4 bogstaver",
+    "lydrette ord 2 bogstaver",
+    "lydrette ord opgaver",
+    "lydrette ord liste",
+    "lydrette ord 2 stavelser",
+    "lydrette ord 6 bogstaver",
+    "lydrette ord spil"
+   ]
+  },
+  "ordbilleder": {
+   "cls": "skill",
+   "s": [
+    "ordbilleder",
+    "ordbilleder eksempler",
+    "ordbilleder læsning"
    ]
   },
   "rim": {
@@ -322,6 +502,24 @@
     "stavelser i ord"
    ]
   },
+  "læseraketten": {
+   "cls": "skill",
+   "s": [
+    "læseraketten",
+    "læseraketten 2025",
+    "læseraketten ghana",
+    "læseraketten 2024",
+    "læseraketten i guatemala",
+    "læseraketten kenya",
+    "læseraketten escape room",
+    "læseraketten 2023",
+    "læseraketten uganda"
+   ]
+  },
+  "begyndende læsning": {
+   "cls": "skill",
+   "s": []
+  },
   "tal til 20": {
    "cls": "skill",
    "s": [
@@ -335,6 +533,21 @@
     "tal 2023",
     "tal 20",
     "tal 2026 augmentation"
+   ]
+  },
+  "tallinje": {
+   "cls": "typeName",
+   "s": [
+    "tallinje",
+    "tallinje med negative tal",
+    "tallinje matematik",
+    "tallinje til print",
+    "tallinjen",
+    "tallinje 0-100",
+    "tallinje med decimaltal",
+    "tallinjer",
+    "tallinje 1-20",
+    "tallinje 0-20"
    ]
   },
   "plus til 10": {
@@ -352,6 +565,43 @@
     "plus 1000 roblox"
    ]
   },
+  "tiervenner": {
+   "cls": "skill",
+   "s": [
+    "tiervenner",
+    "tiervenner sang",
+    "tiervenner plakat",
+    "tiervenner opgaver",
+    "tiervenner spill",
+    "tiervenner matte",
+    "tiervenner sang youtube",
+    "tiervenner youtube",
+    "tiervenner film",
+    "tiervenner sang tekst"
+   ]
+  },
+  "plus og minus": {
+   "cls": "skill",
+   "s": [
+    "plus og minus",
+    "plus og minus batteri",
+    "plus og minus regler",
+    "plus og minus opgaver",
+    "plus og minus opgaver til print",
+    "plus og minus farver",
+    "plus og minus brøker",
+    "plus og minus med brøker",
+    "plus og minus stykker",
+    "plus og minus tegn"
+   ]
+  },
+  "titalssystemet": {
+   "cls": "skill",
+   "s": [
+    "titalssystemet",
+    "titalssystemet opgaver"
+   ]
+  },
   "klokken": {
    "cls": "skill",
    "s": [
@@ -365,6 +615,12 @@
     "klokken i usa",
     "klokken nu",
     "klokken i japan"
+   ]
+  },
+  "klokken hel og halv": {
+   "cls": "skill",
+   "s": [
+    "klokken hel og halv"
    ]
   },
   "geometriske former": {
@@ -382,6 +638,36 @@
     "geometriske former rombe"
    ]
   },
+  "spejling": {
+   "cls": "skill",
+   "s": [
+    "spejling",
+    "spejling krydsord",
+    "spejling pædagogik",
+    "spejlingsakse",
+    "spejling psykologi",
+    "spejlingsreklame",
+    "spejling matematik",
+    "spejling af skærm",
+    "spejlingsakser",
+    "spejlingssymmetri"
+   ]
+  },
+  "sortering": {
+   "cls": "skill",
+   "s": [
+    "sorteringskasser",
+    "sortering af affald",
+    "sorteringsguide",
+    "sorterings skraldespand",
+    "sorteringsguiden",
+    "sortering",
+    "sortering af flamingo",
+    "sortimentsbokse",
+    "sorteringsanlæg",
+    "sorteringsguiden kredsløb"
+   ]
+  },
   "finmotorik": {
    "cls": "skill",
    "s": [
@@ -395,6 +681,21 @@
     "finmotorikken",
     "finmotorik baby",
     "finmotorik test"
+   ]
+  },
+  "mønstre": {
+   "cls": "typeName",
+   "s": [
+    "mønstre",
+    "mønstre krydsord",
+    "mønstrede bukser",
+    "mønstrede bukser dame",
+    "mønstret tapet",
+    "mønstret kjole",
+    "mønstret bikini",
+    "mønstret",
+    "mønstret stof",
+    "mønstrede strømpebukser"
    ]
   },
   "lektier opgaver": {
@@ -420,6 +721,14 @@
    "s": []
   },
   "ekstra træning børnehaveklasse": {
+   "cls": "context",
+   "s": []
+  },
+  "vikartimer opgaver": {
+   "cls": "context",
+   "s": []
+  },
+  "vikartimer børnehaveklasse": {
    "cls": "context",
    "s": []
   },
@@ -477,7 +786,15 @@
     "matematik tilbehør"
    ]
   },
+  "tilbehørmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "tilbehør tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "tilbehørtælle": {
    "cls": "cross",
    "s": []
   },
@@ -496,6 +813,10 @@
     "tilbehør 3 bogstaver"
    ]
   },
+  "tilbehørbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "aktiviteter matematik": {
    "cls": "cross",
    "s": [
@@ -510,7 +831,15 @@
     "matematik aktiviteter förskola"
    ]
   },
+  "aktivitetermatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "aktiviteter tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "aktivitetertælle": {
    "cls": "cross",
    "s": []
   },
@@ -522,17 +851,29 @@
     "aktiviteter på 9 bogstaver"
    ]
   },
+  "aktiviteterbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "dyr matematik": {
    "cls": "cross",
    "s": [
     "matematik dyr"
    ]
   },
+  "dyrmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "dyr tælle": {
    "cls": "cross",
    "s": [
     "tælle dyr"
    ]
+  },
+  "dyrtælle": {
+   "cls": "cross",
+   "s": []
   },
   "dyr bogstaver": {
    "cls": "cross",
@@ -548,6 +889,10 @@
     "dyr 2 bogstaver",
     "dyr 7 bogstaver krydsord"
    ]
+  },
+  "dyrbogstaver": {
+   "cls": "cross",
+   "s": []
   },
   "rundt i huset matematik": {
    "cls": "cross",
@@ -577,7 +922,15 @@
    "cls": "cross",
    "s": []
   },
+  "bagerimatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "bageri tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "bageritælle": {
    "cls": "cross",
    "s": []
   },
@@ -585,11 +938,23 @@
    "cls": "cross",
    "s": []
   },
+  "bageribogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "strand matematik": {
    "cls": "cross",
    "s": []
   },
+  "strandmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "strand tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "strandtælle": {
    "cls": "cross",
    "s": []
   },
@@ -601,7 +966,15 @@
     "strand 7 bogstaver"
    ]
   },
+  "strandbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "fugle matematik": {
+   "cls": "cross",
+   "s": []
+  },
+  "fuglematematik": {
    "cls": "cross",
    "s": []
   },
@@ -610,6 +983,10 @@
    "s": [
     "tælle fugle i danmark"
    ]
+  },
+  "fugletælle": {
+   "cls": "cross",
+   "s": []
   },
   "fugle bogstaver": {
    "cls": "cross",
@@ -626,15 +1003,7 @@
     "fugle 11 bogstaver"
    ]
   },
-  "fugle 2 matematik": {
-   "cls": "cross",
-   "s": []
-  },
-  "fugle 2 tælle": {
-   "cls": "cross",
-   "s": []
-  },
-  "fugle 2 bogstaver": {
+  "fuglebogstaver": {
    "cls": "cross",
    "s": []
   },
@@ -642,7 +1011,15 @@
    "cls": "cross",
    "s": []
   },
+  "kropsdelematematik": {
+   "cls": "cross",
+   "s": []
+  },
   "kropsdele tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "kropsdeletælle": {
    "cls": "cross",
    "s": []
   },
@@ -655,11 +1032,23 @@
     "kropsdele 4 bogstaver"
    ]
   },
+  "kropsdelebogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "morgenmad matematik": {
    "cls": "cross",
    "s": []
   },
+  "morgenmadmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "morgenmad tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "morgenmadtælle": {
    "cls": "cross",
    "s": []
   },
@@ -669,6 +1058,10 @@
     "morgenmad 5 bogstaver"
    ]
   },
+  "morgenmadbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "camping matematik": {
    "cls": "cross",
    "s": [
@@ -676,7 +1069,15 @@
     "fp9 matematik camping"
    ]
   },
+  "campingmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "camping tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "campingtælle": {
    "cls": "cross",
    "s": []
   },
@@ -686,6 +1087,10 @@
     "camping 6 bogstaver",
     "camping 7 bogstaver"
    ]
+  },
+  "campingbogstaver": {
+   "cls": "cross",
+   "s": []
   },
   "jul matematik": {
    "cls": "cross",
@@ -697,7 +1102,17 @@
     "jul matematik 5 klasse"
    ]
   },
+  "julmatematik": {
+   "cls": "cross",
+   "s": [
+    "julmatematik gratis"
+   ]
+  },
   "jul tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "jultælle": {
    "cls": "cross",
    "s": []
   },
@@ -715,7 +1130,15 @@
     "jul ord 5 bogstaver"
    ]
   },
+  "julbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "klasseværelse matematik": {
+   "cls": "cross",
+   "s": []
+  },
+  "klasseværelsematematik": {
    "cls": "cross",
    "s": []
   },
@@ -723,7 +1146,15 @@
    "cls": "cross",
    "s": []
   },
+  "klasseværelsetælle": {
+   "cls": "cross",
+   "s": []
+  },
   "klasseværelse bogstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "klasseværelsebogstaver": {
    "cls": "cross",
    "s": []
   },
@@ -733,7 +1164,15 @@
     "matematik tøj"
    ]
   },
+  "tøjmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "tøj tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "tøjtælle": {
    "cls": "cross",
    "s": []
   },
@@ -752,13 +1191,25 @@
     "tøj 11 bogstaver"
    ]
   },
+  "tøjbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "farver matematik": {
    "cls": "cross",
    "s": [
     "matematik farver"
    ]
   },
+  "farvermatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "farver tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "farvertælle": {
    "cls": "cross",
    "s": []
   },
@@ -773,6 +1224,10 @@
     "farver på 5 bogstaver",
     "farver på 4 bogstaver"
    ]
+  },
+  "farverbogstaver": {
+   "cls": "cross",
+   "s": []
   },
   "desserter og slik matematik": {
    "cls": "cross",
@@ -790,11 +1245,23 @@
    "cls": "cross",
    "s": []
   },
+  "dinosaurermatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "dinosaurer tælle": {
    "cls": "cross",
    "s": []
   },
+  "dinosaurertælle": {
+   "cls": "cross",
+   "s": []
+  },
   "dinosaurer bogstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosaurerbogstaver": {
    "cls": "cross",
    "s": []
   },
@@ -811,7 +1278,20 @@
     "påske matematik opgaver"
    ]
   },
+  "påskematematik": {
+   "cls": "cross",
+   "s": [
+    "påskematematik 1 klasse",
+    "påskematematik 2 klasse",
+    "påskematematik mellemtrin",
+    "påskematematik indskoling"
+   ]
+  },
   "påske tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "påsketælle": {
    "cls": "cross",
    "s": []
   },
@@ -824,7 +1304,15 @@
     "påske krydsord 5 bogstaver"
    ]
   },
+  "påskebogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "følelser matematik": {
+   "cls": "cross",
+   "s": []
+  },
+  "følelsermatematik": {
    "cls": "cross",
    "s": []
   },
@@ -832,7 +1320,15 @@
    "cls": "cross",
    "s": []
   },
+  "følelsertælle": {
+   "cls": "cross",
+   "s": []
+  },
   "følelser bogstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "følelserbogstaver": {
    "cls": "cross",
    "s": []
   },
@@ -840,7 +1336,15 @@
    "cls": "cross",
    "s": []
   },
+  "bondegårdsdyrmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "bondegårdsdyr tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "bondegårdsdyrtælle": {
    "cls": "cross",
    "s": []
   },
@@ -848,11 +1352,23 @@
    "cls": "cross",
    "s": []
   },
+  "bondegårdsdyrbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "blomster matematik": {
    "cls": "cross",
    "s": []
   },
+  "blomstermatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "blomster tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "blomstertælle": {
    "cls": "cross",
    "s": []
   },
@@ -871,7 +1387,15 @@
     "blomster krydsord 5 bogstaver"
    ]
   },
+  "blomsterbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "skovdyr matematik": {
+   "cls": "cross",
+   "s": []
+  },
+  "skovdyrmatematik": {
    "cls": "cross",
    "s": []
   },
@@ -879,7 +1403,15 @@
    "cls": "cross",
    "s": []
   },
+  "skovdyrtælle": {
+   "cls": "cross",
+   "s": []
+  },
   "skovdyr bogstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "skovdyrbogstaver": {
    "cls": "cross",
    "s": []
   },
@@ -887,7 +1419,15 @@
    "cls": "cross",
    "s": []
   },
+  "frugtermatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "frugter tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "frugtertælle": {
    "cls": "cross",
    "s": []
   },
@@ -906,11 +1446,23 @@
     "frugter krydsord 8 bogstaver"
    ]
   },
+  "frugterbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "møbler matematik": {
    "cls": "cross",
    "s": []
   },
+  "møblermatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "møbler tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "møblertælle": {
    "cls": "cross",
    "s": []
   },
@@ -927,6 +1479,10 @@
     "møbler på 11 bogstaver"
    ]
   },
+  "møblerbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "hospital matematik": {
    "cls": "cross",
    "s": [
@@ -936,7 +1492,15 @@
     "hospital kecemasan matematik spm"
    ]
   },
+  "hospitalmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "hospital tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "hospitaltælle": {
    "cls": "cross",
    "s": []
   },
@@ -945,6 +1509,10 @@
    "s": [
     "hospital på 6 bogstaver"
    ]
+  },
+  "hospitalbogstaver": {
+   "cls": "cross",
+   "s": []
   },
   "insekter og kryb matematik": {
    "cls": "cross",
@@ -962,7 +1530,15 @@
    "cls": "cross",
    "s": []
   },
+  "køkkenredskabermatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "køkkenredskaber tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "køkkenredskabertælle": {
    "cls": "cross",
    "s": []
   },
@@ -970,11 +1546,23 @@
    "cls": "cross",
    "s": []
   },
+  "køkkenredskaberbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "diverse matematik": {
    "cls": "cross",
    "s": []
   },
+  "diversematematik": {
+   "cls": "cross",
+   "s": []
+  },
   "diverse tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "diversetælle": {
    "cls": "cross",
    "s": []
   },
@@ -984,6 +1572,10 @@
     "diverse 7 bogstaver",
     "diverse 4 bogstaver"
    ]
+  },
+  "diversebogstaver": {
+   "cls": "cross",
+   "s": []
   },
   "musik matematik": {
    "cls": "cross",
@@ -997,7 +1589,15 @@
     "musik och matematik"
    ]
   },
+  "musikmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "musik tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "musiktælle": {
    "cls": "cross",
    "s": []
   },
@@ -1016,11 +1616,23 @@
     "musik 11 bogstaver"
    ]
   },
+  "musikbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "erhverv matematik": {
    "cls": "cross",
    "s": []
   },
+  "erhvervmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "erhverv tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "erhvervtælle": {
    "cls": "cross",
    "s": []
   },
@@ -1037,7 +1649,15 @@
     "erhverv krydsord 6 bogstaver"
    ]
   },
+  "erhvervbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "havliv matematik": {
+   "cls": "cross",
+   "s": []
+  },
+  "havlivmatematik": {
    "cls": "cross",
    "s": []
   },
@@ -1045,7 +1665,15 @@
    "cls": "cross",
    "s": []
   },
+  "havlivtælle": {
+   "cls": "cross",
+   "s": []
+  },
   "havliv bogstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "havlivbogstaver": {
    "cls": "cross",
    "s": []
   },
@@ -1053,7 +1681,15 @@
    "cls": "cross",
    "s": []
   },
+  "kæledyrmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "kæledyr tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "kæledyrtælle": {
    "cls": "cross",
    "s": []
   },
@@ -1069,7 +1705,15 @@
     "kæledyr på 8 bogstaver"
    ]
   },
+  "kæledyrbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "postkontor matematik": {
+   "cls": "cross",
+   "s": []
+  },
+  "postkontormatematik": {
    "cls": "cross",
    "s": []
   },
@@ -1077,7 +1721,15 @@
    "cls": "cross",
    "s": []
   },
+  "postkontortælle": {
+   "cls": "cross",
+   "s": []
+  },
   "postkontor bogstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "postkontorbogstaver": {
    "cls": "cross",
    "s": []
   },
@@ -1106,7 +1758,15 @@
     "matematik former förskolan"
    ]
   },
+  "formermatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "former tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "formertælle": {
    "cls": "cross",
    "s": []
   },
@@ -1116,13 +1776,25 @@
     "former på 6 bogstaver"
    ]
   },
+  "formerbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "rummet matematik": {
    "cls": "cross",
    "s": [
     "rummet matematik"
    ]
   },
+  "rummetmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "rummet tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "rummettælle": {
    "cls": "cross",
    "s": []
   },
@@ -1138,11 +1810,23 @@
     "rummet på 7 bogstaver"
    ]
   },
+  "rummetbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "forår matematik": {
    "cls": "cross",
    "s": []
   },
+  "forårmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "forår tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "forårtælle": {
    "cls": "cross",
    "s": []
   },
@@ -1152,6 +1836,10 @@
     "forår 5 bogstaver",
     "forår krydsord 5 bogstaver"
    ]
+  },
+  "forårbogstaver": {
+   "cls": "cross",
+   "s": []
   },
   "sommer matematik": {
    "cls": "cross",
@@ -1164,7 +1852,15 @@
     "sommer matematik 1 klasse"
    ]
   },
+  "sommermatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "sommer tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "sommertælle": {
    "cls": "cross",
    "s": []
   },
@@ -1174,7 +1870,15 @@
     "sommer 5 bogstaver"
    ]
   },
+  "sommerbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "thanksgiving matematik": {
+   "cls": "cross",
+   "s": []
+  },
+  "thanksgivingmatematik": {
    "cls": "cross",
    "s": []
   },
@@ -1182,7 +1886,15 @@
    "cls": "cross",
    "s": []
   },
+  "thanksgivingtælle": {
+   "cls": "cross",
+   "s": []
+  },
   "thanksgiving bogstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "thanksgivingbogstaver": {
    "cls": "cross",
    "s": []
   },
@@ -1204,7 +1916,15 @@
     "cas værktøj matematik"
    ]
   },
+  "værktøjmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "værktøj tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "værktøjtælle": {
    "cls": "cross",
    "s": []
   },
@@ -1223,17 +1943,29 @@
     "værktøj 11 bogstaver"
    ]
   },
+  "værktøjbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "legetøj matematik": {
    "cls": "cross",
    "s": [
     "legetøj matematik"
    ]
   },
+  "legetøjmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "legetøj tælle": {
    "cls": "cross",
    "s": [
     "tælle legetøj"
    ]
+  },
+  "legetøjtælle": {
+   "cls": "cross",
+   "s": []
   },
   "legetøj bogstaver": {
    "cls": "cross",
@@ -1250,11 +1982,23 @@
     "legetøj 10 bogstaver"
    ]
   },
+  "legetøjbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "træer matematik": {
    "cls": "cross",
    "s": []
   },
+  "træermatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "træer tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "træertælle": {
    "cls": "cross",
    "s": []
   },
@@ -1272,11 +2016,23 @@
     "træer med 2 bogstaver"
    ]
   },
+  "træerbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "grøntsager matematik": {
    "cls": "cross",
    "s": []
   },
+  "grøntsagermatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "grøntsager tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "grøntsagertælle": {
    "cls": "cross",
    "s": []
   },
@@ -1294,11 +2050,23 @@
     "grøntsager på 8 bogstaver"
    ]
   },
+  "grøntsagerbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "køretøjer matematik": {
    "cls": "cross",
    "s": []
   },
+  "køretøjermatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "køretøjer tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "køretøjertælle": {
    "cls": "cross",
    "s": []
   },
@@ -1314,11 +2082,23 @@
     "køretøjer 10 bogstaver"
    ]
   },
+  "køretøjerbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "vejr matematik": {
    "cls": "cross",
    "s": []
   },
+  "vejrmatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "vejr tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "vejrtælle": {
    "cls": "cross",
    "s": []
   },
@@ -1332,6 +2112,10 @@
     "vejr på fem bogstaver"
    ]
   },
+  "vejrbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "vinter matematik": {
    "cls": "cross",
    "s": [
@@ -1340,7 +2124,15 @@
     "naturfagene vinter matematik"
    ]
   },
+  "vintermatematik": {
+   "cls": "cross",
+   "s": []
+  },
   "vinter tælle": {
+   "cls": "cross",
+   "s": []
+  },
+  "vintertælle": {
    "cls": "cross",
    "s": []
   },
@@ -1348,7 +2140,15 @@
    "cls": "cross",
    "s": []
   },
+  "vinterbogstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "zoodyr matematik": {
+   "cls": "cross",
+   "s": []
+  },
+  "zoodyrmatematik": {
    "cls": "cross",
    "s": []
   },
@@ -1356,91 +2156,63 @@
    "cls": "cross",
    "s": []
   },
+  "zoodyrtælle": {
+   "cls": "cross",
+   "s": []
+  },
   "zoodyr bogstaver": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 2 matematik": {
+  "zoodyrbogstaver": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 2 tælle": {
+  "dyr sh matematik": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 2 bogstaver": {
+  "dyr sh tælle": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 3 matematik": {
+  "dyr sh bogstaver": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 3 tælle": {
+  "strand sh matematik": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 3 bogstaver": {
+  "strand sh tælle": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 4 matematik": {
+  "strand sh bogstaver": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 4 tælle": {
+  "fugle s&h matematik": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 4 bogstaver": {
+  "fugle s&h tælle": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 5 matematik": {
+  "fugle s&h bogstaver": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 5 tælle": {
+  "jul s/h matematik": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 5 bogstaver": {
+  "jul s/h tælle": {
    "cls": "cross",
    "s": []
   },
-  "strand sh 2 matematik": {
-   "cls": "cross",
-   "s": []
-  },
-  "strand sh 2 tælle": {
-   "cls": "cross",
-   "s": []
-  },
-  "strand sh 2 bogstaver": {
-   "cls": "cross",
-   "s": []
-  },
-  "fugle s&h 2 matematik": {
-   "cls": "cross",
-   "s": []
-  },
-  "fugle s&h 2 tælle": {
-   "cls": "cross",
-   "s": []
-  },
-  "fugle s&h 2 bogstaver": {
-   "cls": "cross",
-   "s": []
-  },
-  "jul s/h 2 matematik": {
-   "cls": "cross",
-   "s": []
-  },
-  "jul s/h 2 tælle": {
-   "cls": "cross",
-   "s": []
-  },
-  "jul s/h 2 bogstaver": {
+  "jul s/h bogstaver": {
    "cls": "cross",
    "s": []
   },
@@ -1456,140 +2228,939 @@
    "cls": "cross",
    "s": []
   },
-  "påske sh 2 matematik": {
+  "påske sh matematik": {
    "cls": "cross",
    "s": []
   },
-  "påske sh 2 tælle": {
+  "påske sh tælle": {
    "cls": "cross",
    "s": []
   },
-  "påske sh 2 bogstaver": {
+  "påske sh bogstaver": {
    "cls": "cross",
    "s": []
   },
-  "mad sh 2 matematik": {
+  "mad sh matematik": {
    "cls": "cross",
    "s": []
   },
-  "mad sh 2 tælle": {
+  "mad sh tælle": {
    "cls": "cross",
    "s": []
   },
-  "mad sh 2 bogstaver": {
+  "mad sh bogstaver": {
    "cls": "cross",
    "s": []
   },
-  "mad sh 3 matematik": {
+  "hjem sh matematik": {
    "cls": "cross",
    "s": []
   },
-  "mad sh 3 tælle": {
+  "hjem sh tælle": {
    "cls": "cross",
    "s": []
   },
-  "mad sh 3 bogstaver": {
+  "hjem sh bogstaver": {
    "cls": "cross",
    "s": []
   },
-  "hjem sh 2 matematik": {
+  "havliv sh matematik": {
    "cls": "cross",
    "s": []
   },
-  "hjem sh 2 tælle": {
+  "havliv sh tælle": {
    "cls": "cross",
    "s": []
   },
-  "hjem sh 2 bogstaver": {
+  "havliv sh bogstaver": {
    "cls": "cross",
    "s": []
   },
-  "havliv sh 2 matematik": {
+  "sport sh matematik": {
    "cls": "cross",
    "s": []
   },
-  "havliv sh 2 tælle": {
+  "sport sh tælle": {
    "cls": "cross",
    "s": []
   },
-  "havliv sh 2 bogstaver": {
+  "sport sh bogstaver": {
    "cls": "cross",
    "s": []
   },
-  "sport sh 2 matematik": {
+  "legetøj sh matematik": {
    "cls": "cross",
    "s": []
   },
-  "sport sh 2 tælle": {
+  "legetøj sh tælle": {
    "cls": "cross",
    "s": []
   },
-  "sport sh 2 bogstaver": {
+  "legetøj sh bogstaver": {
    "cls": "cross",
    "s": []
   },
-  "legetøj sh 2 matematik": {
+  "valentinsdag sh matematik": {
    "cls": "cross",
    "s": []
   },
-  "legetøj sh 2 tælle": {
+  "valentinsdag sh tælle": {
    "cls": "cross",
    "s": []
   },
-  "legetøj sh 2 bogstaver": {
+  "valentinsdag sh bogstaver": {
    "cls": "cross",
    "s": []
   },
-  "valentinsdag sh 2 matematik": {
+  "grøntsager sh matematik": {
    "cls": "cross",
    "s": []
   },
-  "valentinsdag sh 2 tælle": {
+  "grøntsager sh tælle": {
    "cls": "cross",
    "s": []
   },
-  "valentinsdag sh 2 bogstaver": {
+  "grøntsager sh bogstaver": {
    "cls": "cross",
    "s": []
   },
-  "grøntsager sh 2 matematik": {
+  "køretøjer sh matematik": {
    "cls": "cross",
    "s": []
   },
-  "grøntsager sh 2 tælle": {
+  "køretøjer sh tælle": {
    "cls": "cross",
    "s": []
   },
-  "grøntsager sh 2 bogstaver": {
+  "køretøjer sh bogstaver": {
    "cls": "cross",
    "s": []
   },
-  "køretøjer sh 2 matematik": {
-   "cls": "cross",
+  "addition": {
+   "cls": "typeName",
+   "s": [
+    "addition",
+    "additional dansk",
+    "additional",
+    "additionsreaktion",
+    "additionally synonym",
+    "additionsprincippet",
+    "addition dansk",
+    "additionally dansk",
+    "addition kemi",
+    "addition af brøker"
+   ]
+  },
+  "addition opgaver": {
+   "cls": "typeName",
+   "s": [
+    "addition opgaver",
+    "matematik opgaver addition"
+   ]
+  },
+  "billedsudoku": {
+   "cls": "typeName",
+   "s": [
+    "billed sudoku"
+   ]
+  },
+  "billedsudoku opgaver": {
+   "cls": "typeName",
    "s": []
   },
-  "køretøjer sh 2 tælle": {
-   "cls": "cross",
+  "kryptogram": {
+   "cls": "typeName",
+   "s": [
+    "kryptogram",
+    "kryptogrammer",
+    "kryptogram krydsord",
+    "kryptogram synonym",
+    "kryptogram dj",
+    "cryptograms",
+    "kryptogram sagrada familia",
+    "kryptogram tour",
+    "kryptogram how long have you been away lyrics",
+    "kryptogram woman like you lyrics"
+   ]
+  },
+  "kryptogram opgaver": {
+   "cls": "typeName",
    "s": []
   },
-  "køretøjer sh 2 bogstaver": {
-   "cls": "cross",
+  "billedvej": {
+   "cls": "typeName",
+   "s": [
+    "billedvej 6",
+    "billedvej 4 nordhavn",
+    "billedvej nordhavn",
+    "billedvej 6 2150 nordhavn",
+    "billedvej 3",
+    "billedvej 2",
+    "billedvej 3 nordhavn",
+    "billedvej 2 nordhavn",
+    "billedvej 3 dk 2150 nordhavn",
+    "billedvej 8"
+   ]
+  },
+  "billedvej opgaver": {
+   "cls": "typeName",
    "s": []
   },
-  "køretøjer sh 3 matematik": {
-   "cls": "cross",
+  "subtraktion": {
+   "cls": "typeName",
+   "s": [
+    "subtraktion",
+    "subtraktion krydsord",
+    "subtraktion af vektorer",
+    "subtraktion med brøker",
+    "subtraktion opgaver",
+    "subtraktion synonym",
+    "subtraktion med decimaltal",
+    "subtraktion excel",
+    "subtraktion 1 klasse",
+    "subtraktions angio"
+   ]
+  },
+  "subtraktion opgaver": {
+   "cls": "typeName",
+   "s": [
+    "subtraktion opgaver"
+   ]
+  },
+  "kodeaddition": {
+   "cls": "typeName",
    "s": []
   },
-  "køretøjer sh 3 tælle": {
-   "cls": "cross",
+  "kodeaddition opgaver": {
+   "cls": "typeName",
    "s": []
   },
-  "køretøjer sh 3 bogstaver": {
-   "cls": "cross",
+  "mere eller mindre": {
+   "cls": "typeName",
+   "s": [
+    "mere eller mindre tegn",
+    "mere eller mindre",
+    "mere eller mindre synonym",
+    "mere eller mindre end tegn",
+    "mere eller mindre end",
+    "mere eller mindre engelsk",
+    "mere eller mindre betydning",
+    "mere eller mindre spil",
+    "mere eller mindre på spansk",
+    "mere eller mindre forkortelse"
+   ]
+  },
+  "mere eller mindre opgaver": {
+   "cls": "typeName",
    "s": []
+  },
+  "matematikpuslespil": {
+   "cls": "typeName",
+   "s": []
+  },
+  "matematikpuslespil opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "matematikark": {
+   "cls": "typeName",
+   "s": [
+    "matematik ark",
+    "matematik ark til print",
+    "matematikarka renata",
+    "matematikarka cz"
+   ]
+  },
+  "matematikark opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "stor eller lille": {
+   "cls": "typeName",
+   "s": [
+    "stor eller lille kålsommerfugl",
+    "stor eller lille vandsalamander",
+    "stor eller lille fatning",
+    "stor eller lille flagspætte",
+    "stor eller lille knallert",
+    "stor eller lille septim",
+    "stor eller lille barnevogn",
+    "stor eller lille service",
+    "stor eller lille terts",
+    "stor eller lille stat"
+   ]
+  },
+  "stor eller lille opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tæl i diagram": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tæl i diagram opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mønstertoget": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mønstertoget opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mønsterark": {
+   "cls": "typeName",
+   "s": [
+    "mønsterark til broderi",
+    "mønsterark",
+    "mønsterark sy",
+    "mønsterark til strikking",
+    "mønsterark broderi",
+    "mønsterark scrapbooking",
+    "mønsterark bunad",
+    "mønsterark selfmade",
+    "reprint mønsterark",
+    "mønsterark strikking"
+   ]
+  },
+  "mønsterark opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bingo": {
+   "cls": "typeName",
+   "s": [
+    "bingolotto",
+    "bingo loco",
+    "bingo",
+    "bingo banko",
+    "bingo dorthe",
+    "bingo loco aarhus",
+    "bingo spil",
+    "bingo loco københavn",
+    "bingo dk",
+    "bingo loco odense"
+   ]
+  },
+  "bingo opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "gittermatch": {
+   "cls": "typeName",
+   "s": []
+  },
+  "gittermatch opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "matchning": {
+   "cls": "typeName",
+   "s": [
+    "matchning",
+    "matchningskonsulent region midt",
+    "matchning synonym",
+    "matchning från dag ett",
+    "matchningsgruppen kristianstad",
+    "matchningsmidler hjørring kommune",
+    "matchningsprincipen redovisning",
+    "matchning region nordjylland",
+    "matchning från dag 1",
+    "matchningstjänster arbetsförmedlingen"
+   ]
+  },
+  "matchning opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortér billeder": {
+   "cls": "typeName",
+   "s": [
+    "sorter billeder iphone",
+    "sorter billeder",
+    "sorter billeder efter dato",
+    "sorter billeder app",
+    "sorter billeder efter dato iphone",
+    "klematis sorter billeder",
+    "hosta sorter billeder",
+    "thuja sorter billeder"
+   ]
+  },
+  "sortér billeder opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "match skygger": {
+   "cls": "typeName",
+   "s": []
+  },
+  "match skygger opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "alfabettoget": {
+   "cls": "typeName",
+   "s": []
+  },
+  "alfabettoget opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "præpositioner": {
+   "cls": "typeName",
+   "s": [
+    "præpositioner",
+    "præpositioner engelsk",
+    "præpositioner tysk",
+    "præpositioner dansk",
+    "præpositioner spansk",
+    "præpositioner fransk",
+    "præpositioner tysk skema",
+    "præpositioner der styrer akkusativ tysk",
+    "præpositioner der styrer dativ",
+    "præpositioner (forholdsord)"
+   ]
+  },
+  "præpositioner opgaver": {
+   "cls": "typeName",
+   "s": [
+    "præpositioner opgaver",
+    "præpositioner dansk opgaver"
+   ]
+  },
+  "gæt ordet": {
+   "cls": "typeName",
+   "s": [
+    "gæt ordet",
+    "gæt ordet spil",
+    "gæt ordet hjælp",
+    "gæt ordet dansk",
+    "gæt ordet brætspil",
+    "gæt ordet app",
+    "gæt ordet 5 bogstaver",
+    "gæt ordet kortspil",
+    "gæt ordet engelsk",
+    "gæt ordet online"
+   ]
+  },
+  "gæt ordet opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bogstavpuslespil": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bogstavpuslespil opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ordsøgning": {
+   "cls": "typeName",
+   "s": [
+    "ordsøgning",
+    "ordsøgning spil find ord",
+    "ordsøgning spil",
+    "ordsøgning ordspil",
+    "ordsøgning i word",
+    "ordsøgning dansk",
+    "ordsøgning bog"
+   ]
+  },
+  "ordsøgning opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "krydsord": {
+   "cls": "typeName",
+   "s": [
+    "krydsord",
+    "krydsord hjælp",
+    "krydsordbog",
+    "krydsord net",
+    "krydsordseksperten",
+    "krydsordexperten",
+    "krydsord gratis",
+    "krydsord ordbog",
+    "krydsord online",
+    "krydsord forslag"
+   ]
+  },
+  "krydsord opgaver": {
+   "cls": "typeName",
+   "s": [
+    "krydsord opgaver",
+    "krydsord opgaver gratis",
+    "krydsord opgaver børn",
+    "krydsord engelsk opgaver til print",
+    "håndværker opgaver krydsord"
+   ]
+  },
+  "find og tæl": {
+   "cls": "typeName",
+   "s": [
+    "find og tæl"
+   ]
+  },
+  "find og tæl opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "find genstandene": {
+   "cls": "typeName",
+   "s": []
+  },
+  "find genstandene opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "skattejagt": {
+   "cls": "typeName",
+   "s": [
+    "skattejagt",
+    "skattejagt ideer",
+    "skattejagt til børn",
+    "skattejagt københavn",
+    "skattejagt 7 år",
+    "skattejagt for voksne",
+    "skattejagt børn 3 4 år",
+    "skattejagt 6 år",
+    "skattejagt børnefødselsdag",
+    "skattejagt på museet"
+   ]
+  },
+  "skattejagt opgaver": {
+   "cls": "typeName",
+   "s": [
+    "skattejagt opgaver",
+    "skattejagt opgaver børn",
+    "skattejagt opgaver 7 år",
+    "skattejagt opgaver voksne",
+    "skattejagt med opgaver"
+   ]
+  },
+  "manglende brikker": {
+   "cls": "typeName",
+   "s": [
+    "manglende brikker lego",
+    "manglende brikker"
+   ]
+  },
+  "manglende brikker opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "hvilken passer ikke": {
+   "cls": "typeName",
+   "s": [
+    "hvilken passer ikke ind",
+    "hvilken stjernetegn passer ikke sammen"
+   ]
+  },
+  "hvilken passer ikke opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tæl billeder": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tæl billeder opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tierramme": {
+   "cls": "typeName",
+   "s": [
+    "tierrammer",
+    "tierramme oppgaver"
+   ]
+  },
+  "tierramme opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tæl med streger": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tæl med streger opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "hundredfelt": {
+   "cls": "typeName",
+   "s": []
+  },
+  "hundredfelt opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sammenlign tal": {
+   "cls": "typeName",
+   "s": [
+    "sammenlign tal i excel",
+    "sammenlign tal for områder i danmark",
+    "excel sammenlign tal i 2 kolonner"
+   ]
+  },
+  "sammenlign tal opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "flest og færrest": {
+   "cls": "typeName",
+   "s": [
+    "flest og færrest opgaver",
+    "flest og færrest",
+    "flest færrest",
+    "flest færrest like mange",
+    "kommunene med flest og færrest innbyggere"
+   ]
+  },
+  "flest og færrest opgaver": {
+   "cls": "typeName",
+   "s": [
+    "flest og færrest opgaver"
+   ]
+  },
+  "størst og mindst": {
+   "cls": "typeName",
+   "s": [
+    "størst og mindst",
+    "størst og mindst københavn",
+    "størst og mindst tegn",
+    "museum størst og mindst"
+   ]
+  },
+  "størst og mindst opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tallinje opgaver": {
+   "cls": "typeName",
+   "s": [
+    "tallinje opgaver",
+    "brøker tallinje opgaver"
+   ]
+  },
+  "tiere og enere": {
+   "cls": "typeName",
+   "s": [
+    "tiere og enere",
+    "tiere og enere opgaver",
+    "tiere og enere arbeidsark",
+    "tiere og enere spil",
+    "tiere og enere oppgaver",
+    "tiere og enere multi",
+    "enere tiere",
+    "hvor mange tiere og enere",
+    "hva er tiere og enere",
+    "mk x tiere og enere"
+   ]
+  },
+  "tiere og enere opgaver": {
+   "cls": "typeName",
+   "s": [
+    "tiere og enere opgaver"
+   ]
+  },
+  "hvad er klokken": {
+   "cls": "typeName",
+   "s": [
+    "hvad er klokken i danmark",
+    "hvad er klokken",
+    "hvad er klokken i usa",
+    "hvad er klokken i thailand",
+    "hvad er klokken i new york",
+    "hvad er klokken i australien",
+    "hvad er klokken i japan",
+    "hvad er klokken på bali",
+    "hvad er klokken i kina",
+    "hvad er klokken i canada"
+   ]
+  },
+  "hvad er klokken opgaver": {
+   "cls": "typeName",
+   "s": [
+    "hvad er klokken opgaver"
+   ]
+  },
+  "brøker": {
+   "cls": "typeName",
+   "s": [
+    "brøker",
+    "brøker regneregler",
+    "brøker krydsord",
+    "brøker på engelsk",
+    "brøker opgaver",
+    "brøker til decimaltal",
+    "brøker til procent",
+    "brøker plus",
+    "brøker brøndboring",
+    "brøker minus"
+   ]
+  },
+  "brøker opgaver": {
+   "cls": "typeName",
+   "s": [
+    "brøker opgaver",
+    "brøker opgaver pdf",
+    "brøker opgaver 3 klasse",
+    "brøker opgaver 9 klasse",
+    "brøker opgaver 7 klasse",
+    "brøker opgaver 5 klasse",
+    "brøker opgaver online",
+    "brøker opgaver 6 klasse",
+    "brøker opgaver 4 klasse",
+    "brøker opgaver 8 klasse"
+   ]
+  },
+  "diagrammer og data": {
+   "cls": "typeName",
+   "s": []
+  },
+  "diagrammer og data opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "gange og rækker": {
+   "cls": "typeName",
+   "s": []
+  },
+  "gange og rækker opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "geometri og former": {
+   "cls": "typeName",
+   "s": [
+    "geometri former",
+    "geometri former navn",
+    "geometri former 3d",
+    "geometri former namn"
+   ]
+  },
+  "geometri og former opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "måling": {
+   "cls": "typeName",
+   "s": [
+    "måling af blodtryk",
+    "måling af blodsukker",
+    "måling",
+    "måling af blodtryk hjemme",
+    "målinger dmi",
+    "måling af blodtryk efter måltid",
+    "målinger",
+    "måling af internethastighed",
+    "måling af skimmelsvamp",
+    "måling krydsord"
+   ]
+  },
+  "måling opgaver": {
+   "cls": "typeName",
+   "s": [
+    "måling opgaver",
+    "måling opgaver indskoling",
+    "geometri og måling opgaver",
+    "måling af vinkler opgaver"
+   ]
+  },
+  "visuel logik": {
+   "cls": "typeName",
+   "s": []
+  },
+  "visuel logik opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "find forskellen": {
+   "cls": "typeName",
+   "s": [
+    "find forskellen",
+    "find forskellen billeder",
+    "find forskellen spil",
+    "find forskellen i procent",
+    "find forskellen mellem 2 tal i procent"
+   ]
+  },
+  "find forskellen opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "find par": {
+   "cls": "typeName",
+   "s": [
+    "find parkering",
+    "find parkeringsplads",
+    "find parterapeut",
+    "find parcel",
+    "find partner",
+    "find parameter format not correct",
+    "find para cheat",
+    "find parking",
+    "find parts in house objects sims freeplay",
+    "find parfum"
+   ]
+  },
+  "find par opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mønstre opgaver": {
+   "cls": "typeName",
+   "s": [
+    "mønstre opgaver matematik",
+    "mønstre opgaver"
+   ]
+  },
+  "placering og retning": {
+   "cls": "typeName",
+   "s": []
+  },
+  "placering og retning opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortér i grupper": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortér i grupper opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "billedregning": {
+   "cls": "typeName",
+   "s": []
+  },
+  "billedregning opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortér i naturen": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortér i naturen opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "rækkefølge og livscyklusser": {
+   "cls": "typeName",
+   "s": []
+  },
+  "rækkefølge og livscyklusser opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "find par i naturen": {
+   "cls": "typeName",
+   "s": []
+  },
+  "find par i naturen opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "forlyd": {
+   "cls": "typeName",
+   "s": [
+    "forlyder krydsord",
+    "forlydender",
+    "forlyder",
+    "forlyde kryds",
+    "forlyd",
+    "forlyde",
+    "forlyder på 5 bogstaver",
+    "forlydender krydsord",
+    "forlydende",
+    "forlyd opgaver"
+   ]
+  },
+  "forlyd opgaver": {
+   "cls": "typeName",
+   "s": [
+    "forlyd opgaver",
+    "forlyd opgaver 0 klasse"
+   ]
+  },
+  "bogstavkendskab": {
+   "cls": "typeName",
+   "s": [
+    "bogstavkendskab test",
+    "bogstavkendskab opgaver",
+    "funktionelt bogstavkendskab"
+   ]
+  },
+  "bogstavkendskab opgaver": {
+   "cls": "typeName",
+   "s": [
+    "bogstavkendskab opgaver"
+   ]
+  },
+  "ordbygning": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ordbygning opgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ordforråd": {
+   "cls": "typeName",
+   "s": [
+    "ordforråd",
+    "ordforråd engelsk",
+    "ordforråd krydsord",
+    "ordforråd tysk",
+    "ordforråd synonym",
+    "ordforrådstest",
+    "ordforråd 2 år",
+    "ordforråd dansk",
+    "ordforråd test",
+    "ordforrådet"
+   ]
+  },
+  "ordforråd opgaver": {
+   "cls": "typeName",
+   "s": [
+    "ordforråd opgaver"
+   ]
+  },
+  "sproglig opmærksomhed": {
+   "cls": "typeName",
+   "s": [
+    "sproglig opmærksomhed",
+    "sproglig opmærksomhed i børnehaveklassen",
+    "sproglig opmærksomhed opgaver",
+    "sproglig opmærksomhed 0 klasse",
+    "hvad er sproglig opmærksomhed"
+   ]
+  },
+  "sproglig opmærksomhed opgaver": {
+   "cls": "typeName",
+   "s": [
+    "sproglig opmærksomhed opgaver"
+   ]
   }
  },
  "unique": [
+  "addition",
+  "addition af brøker",
+  "addition dansk",
+  "addition kemi",
+  "addition opgaver",
+  "additional",
+  "additional dansk",
+  "additionally dansk",
+  "additionally synonym",
+  "additionsprincippet",
+  "additionsreaktion",
   "aktiviteter 7 bogstaver",
   "aktiviteter matematik",
   "aktiviteter matematik förskolan",
@@ -1605,6 +3176,27 @@
   "bevægelsessensor",
   "bevægelsessensor indendørs",
   "bevægelsessensor udendørs",
+  "billed sudoku",
+  "billedvej 2",
+  "billedvej 2 nordhavn",
+  "billedvej 3",
+  "billedvej 3 dk 2150 nordhavn",
+  "billedvej 3 nordhavn",
+  "billedvej 4 nordhavn",
+  "billedvej 6",
+  "billedvej 6 2150 nordhavn",
+  "billedvej 8",
+  "billedvej nordhavn",
+  "bingo",
+  "bingo banko",
+  "bingo dk",
+  "bingo dorthe",
+  "bingo loco",
+  "bingo loco aarhus",
+  "bingo loco københavn",
+  "bingo loco odense",
+  "bingo spil",
+  "bingolotto",
   "blomster 10 bogstaver",
   "blomster 13 bogstaver",
   "blomster 5 bogstaver",
@@ -1626,10 +3218,38 @@
   "bogstaver til dør",
   "bogstaver til postkasse",
   "bogstaver til print",
+  "bogstavkendskab opgaver",
+  "bogstavkendskab test",
+  "bogstavlyde",
+  "bogstavlyde dansk",
+  "bogstavlyde for børn",
+  "bogstavlyde opgaver",
+  "bogstavlyde sang",
+  "brøker",
+  "brøker brøndboring",
+  "brøker krydsord",
+  "brøker minus",
+  "brøker opgaver",
+  "brøker opgaver 3 klasse",
+  "brøker opgaver 4 klasse",
+  "brøker opgaver 5 klasse",
+  "brøker opgaver 6 klasse",
+  "brøker opgaver 7 klasse",
+  "brøker opgaver 8 klasse",
+  "brøker opgaver 9 klasse",
+  "brøker opgaver online",
+  "brøker opgaver pdf",
+  "brøker plus",
+  "brøker på engelsk",
+  "brøker regneregler",
+  "brøker tallinje opgaver",
+  "brøker til decimaltal",
+  "brøker til procent",
   "camping 6 bogstaver",
   "camping 7 bogstaver",
   "camping matematik",
   "cas værktøj matematik",
+  "cryptograms",
   "de 120 ord",
   "de 120 ord alinea",
   "de 120 ord dansk",
@@ -1656,6 +3276,7 @@
   "dyr 8 bogstaver",
   "dyr 9 bogstaver",
   "dyr bogstaver",
+  "enere tiere",
   "erhverv 3 bogstaver",
   "erhverv 4 bogstaver",
   "erhverv 5 bogstaver",
@@ -1664,21 +3285,28 @@
   "erhverv 8 bogstaver",
   "erhverv krydsord 6 bogstaver",
   "erhverv på seks bogstaver",
+  "excel sammenlign tal i 2 kolonner",
   "farver 6 bogstaver",
   "farver på 3 bogstaver",
   "farver på 4 bogstaver",
   "farver på 5 bogstaver",
   "farver på 8 bogstaver",
-  "fastelavn",
-  "fastelavn 2026",
-  "fastelavn 2027",
-  "fastelavn engelsk",
-  "fastelavnsboller",
-  "fastelavnsboller med creme",
-  "fastelavnsboller med fløde",
-  "fastelavnsboller opskrift",
-  "fastelavnsris",
-  "fastelavnstønde",
+  "find forskellen",
+  "find forskellen billeder",
+  "find forskellen i procent",
+  "find forskellen mellem 2 tal i procent",
+  "find forskellen spil",
+  "find og tæl",
+  "find para cheat",
+  "find parameter format not correct",
+  "find parcel",
+  "find parfum",
+  "find parkering",
+  "find parkeringsplads",
+  "find parking",
+  "find parterapeut",
+  "find partner",
+  "find parts in house objects sims freeplay",
   "finmotorik",
   "finmotorik baby",
   "finmotorik engelsk",
@@ -1689,6 +3317,21 @@
   "finmotorik test",
   "finmotorik øvelser",
   "finmotorikken",
+  "flest færrest",
+  "flest færrest like mange",
+  "flest og færrest",
+  "flest og færrest opgaver",
+  "forlyd",
+  "forlyd opgaver",
+  "forlyd opgaver 0 klasse",
+  "forlyde",
+  "forlyde kryds",
+  "forlydende",
+  "forlydender",
+  "forlydender krydsord",
+  "forlyder",
+  "forlyder krydsord",
+  "forlyder på 5 bogstaver",
   "former matematik",
   "former matematik förskola",
   "former på 6 bogstaver",
@@ -1716,6 +3359,12 @@
   "fugle 7 bogstaver",
   "fugle 8 bogstaver",
   "fugle 9 bogstaver",
+  "funktionelt bogstavkendskab",
+  "geometri former",
+  "geometri former 3d",
+  "geometri former namn",
+  "geometri former navn",
+  "geometri og måling opgaver",
   "geometriska former matematik",
   "geometriske former",
   "geometriske former billedkunst",
@@ -1740,10 +3389,38 @@
   "grøntsager på 3 bogstaver",
   "grøntsager på 8 bogstaver",
   "gucci 100 plus",
+  "gæt ordet",
+  "gæt ordet 5 bogstaver",
+  "gæt ordet app",
+  "gæt ordet brætspil",
+  "gæt ordet dansk",
+  "gæt ordet engelsk",
+  "gæt ordet hjælp",
+  "gæt ordet kortspil",
+  "gæt ordet online",
+  "gæt ordet spil",
   "hej matematik musik",
   "hospital kecemasan matematik spm",
   "hospital matematik",
   "hospital på 6 bogstaver",
+  "hosta sorter billeder",
+  "hva er tiere og enere",
+  "hvad er klokken",
+  "hvad er klokken i australien",
+  "hvad er klokken i canada",
+  "hvad er klokken i danmark",
+  "hvad er klokken i japan",
+  "hvad er klokken i kina",
+  "hvad er klokken i new york",
+  "hvad er klokken i thailand",
+  "hvad er klokken i usa",
+  "hvad er klokken opgaver",
+  "hvad er klokken på bali",
+  "hvad er sproglig opmærksomhed",
+  "hvilken passer ikke ind",
+  "hvilken stjernetegn passer ikke sammen",
+  "hvor mange tiere og enere",
+  "håndværker opgaver krydsord",
   "ib laursen jul bogstaver",
   "jul 5 bogstaver",
   "jul 5 bogstaver coop",
@@ -1756,18 +3433,11 @@
   "jul matematik mellemtrin",
   "jul matematik udskoling",
   "jul ord 5 bogstaver",
-  "julematematik 0 klasse",
-  "julematematik 1 klasse",
-  "julematematik 2 klasse",
-  "julematematik 3 klasse",
-  "julematematik 4 klasse",
-  "julematematik 5 klasse",
-  "julematematik 6 klasse",
-  "julematematik 7 klasse",
-  "julematematik indskoling",
-  "julematematik udskoling",
+  "julmatematik gratis",
+  "klematis sorter billeder",
   "klokken",
   "klokken hc andersen",
+  "klokken hel og halv",
   "klokken i danmark",
   "klokken i japan",
   "klokken i new york",
@@ -1776,10 +3446,34 @@
   "klokken med sekunder",
   "klokken nu",
   "klokken århus",
+  "kommunene med flest og færrest innbyggere",
   "kropsdele 4 bogstaver",
   "kropsdele 5 bogstaver",
   "kropsdele 6 bogstaver",
   "kropsdele 7 bogstaver",
+  "krydsord",
+  "krydsord engelsk opgaver til print",
+  "krydsord forslag",
+  "krydsord gratis",
+  "krydsord hjælp",
+  "krydsord net",
+  "krydsord online",
+  "krydsord opgaver",
+  "krydsord opgaver børn",
+  "krydsord opgaver gratis",
+  "krydsord ordbog",
+  "krydsordbog",
+  "krydsordexperten",
+  "krydsordseksperten",
+  "kryptogram",
+  "kryptogram dj",
+  "kryptogram how long have you been away lyrics",
+  "kryptogram krydsord",
+  "kryptogram sagrada familia",
+  "kryptogram synonym",
+  "kryptogram tour",
+  "kryptogram woman like you lyrics",
+  "kryptogrammer",
   "kæledyr 3 bogstaver",
   "kæledyr 4 bogstaver",
   "kæledyr 5 bogstaver",
@@ -1814,20 +3508,68 @@
   "lydering betydning",
   "lydering opgaver",
   "lydering oppgaver",
+  "lydrette ord",
+  "lydrette ord 2 bogstaver",
+  "lydrette ord 2 stavelser",
+  "lydrette ord 3 bogstaver",
+  "lydrette ord 4 bogstaver",
+  "lydrette ord 6 bogstaver",
+  "lydrette ord liste",
+  "lydrette ord opgaver",
+  "lydrette ord spil",
+  "lær bogstavlyde",
+  "læseraketten",
+  "læseraketten 2023",
+  "læseraketten 2024",
+  "læseraketten 2025",
+  "læseraketten escape room",
+  "læseraketten ghana",
+  "læseraketten i guatemala",
+  "læseraketten kenya",
+  "læseraketten uganda",
+  "manglende brikker",
+  "manglende brikker lego",
+  "matchning",
+  "matchning från dag 1",
+  "matchning från dag ett",
+  "matchning region nordjylland",
+  "matchning synonym",
+  "matchningsgruppen kristianstad",
+  "matchningskonsulent region midt",
+  "matchningsmidler hjørring kommune",
+  "matchningsprincipen redovisning",
+  "matchningstjänster arbetsförmedlingen",
   "matematik aktiviteter 1 klasse",
   "matematik aktiviteter 2 klasse",
   "matematik aktiviteter förskola",
   "matematik aktiviteter indskoling",
   "matematik aktiviteter mellemtrin",
   "matematik aktiviteter udskoling",
+  "matematik ark",
+  "matematik ark til print",
   "matematik dyr",
   "matematik farver",
   "matematik former förskolan",
   "matematik former og figurer",
   "matematik hospital kuralı",
+  "matematik opgaver addition",
   "matematik tilbehør",
   "matematik tøj",
+  "matematikarka cz",
+  "matematikarka renata",
+  "mere eller mindre",
+  "mere eller mindre betydning",
+  "mere eller mindre end",
+  "mere eller mindre end tegn",
+  "mere eller mindre engelsk",
+  "mere eller mindre forkortelse",
+  "mere eller mindre på spansk",
+  "mere eller mindre spil",
+  "mere eller mindre synonym",
+  "mere eller mindre tegn",
+  "mk x tiere og enere",
   "morgenmad 5 bogstaver",
+  "museum størst og mindst",
   "musik 10 bogstaver",
   "musik 11 bogstaver",
   "musik 3 bogstaver",
@@ -1844,6 +3586,19 @@
   "musik och matematik",
   "musik og matematik",
   "musik og matematik srp",
+  "måling",
+  "måling af blodsukker",
+  "måling af blodtryk",
+  "måling af blodtryk efter måltid",
+  "måling af blodtryk hjemme",
+  "måling af internethastighed",
+  "måling af skimmelsvamp",
+  "måling af vinkler opgaver",
+  "måling krydsord",
+  "måling opgaver",
+  "måling opgaver indskoling",
+  "målinger",
+  "målinger dmi",
   "møbler 10 bogstaver",
   "møbler 12 bogstaver",
   "møbler 5 bogstaver",
@@ -1852,6 +3607,27 @@
   "møbler 8 bogstaver",
   "møbler 9 bogstaver",
   "møbler på 11 bogstaver",
+  "mønsterark",
+  "mønsterark broderi",
+  "mønsterark bunad",
+  "mønsterark scrapbooking",
+  "mønsterark selfmade",
+  "mønsterark strikking",
+  "mønsterark sy",
+  "mønsterark til broderi",
+  "mønsterark til strikking",
+  "mønstre",
+  "mønstre krydsord",
+  "mønstre opgaver",
+  "mønstre opgaver matematik",
+  "mønstrede bukser",
+  "mønstrede bukser dame",
+  "mønstrede strømpebukser",
+  "mønstret",
+  "mønstret bikini",
+  "mønstret kjole",
+  "mønstret stof",
+  "mønstret tapet",
   "naturfagene vinter matematik",
   "olika former i matematik",
   "opgavehæfte voksne",
@@ -1864,6 +3640,27 @@
   "opgavehæfter matematik",
   "opgavehæfter tysk",
   "opgavehæftet",
+  "ordbilleder",
+  "ordbilleder eksempler",
+  "ordbilleder læsning",
+  "ordforråd",
+  "ordforråd 2 år",
+  "ordforråd dansk",
+  "ordforråd engelsk",
+  "ordforråd krydsord",
+  "ordforråd opgaver",
+  "ordforråd synonym",
+  "ordforråd test",
+  "ordforråd tysk",
+  "ordforrådet",
+  "ordforrådstest",
+  "ordsøgning",
+  "ordsøgning bog",
+  "ordsøgning dansk",
+  "ordsøgning i word",
+  "ordsøgning ordspil",
+  "ordsøgning spil",
+  "ordsøgning spil find ord",
   "plus 10",
   "plus 10 pro",
   "plus 10 uno",
@@ -1873,6 +3670,28 @@
   "plus 1000 roblox",
   "plus 101",
   "plus 102",
+  "plus og minus",
+  "plus og minus batteri",
+  "plus og minus brøker",
+  "plus og minus farver",
+  "plus og minus med brøker",
+  "plus og minus opgaver",
+  "plus og minus opgaver til print",
+  "plus og minus regler",
+  "plus og minus stykker",
+  "plus og minus tegn",
+  "præpositioner",
+  "præpositioner (forholdsord)",
+  "præpositioner dansk",
+  "præpositioner dansk opgaver",
+  "præpositioner der styrer akkusativ tysk",
+  "præpositioner der styrer dativ",
+  "præpositioner engelsk",
+  "præpositioner fransk",
+  "præpositioner opgaver",
+  "præpositioner spansk",
+  "præpositioner tysk",
+  "præpositioner tysk skema",
   "påske 5 bogstaver",
   "påske 5 bogstaver coop",
   "påske krydsord 5 bogstaver",
@@ -1885,6 +3704,11 @@
   "påske matematik mellemtrin",
   "påske matematik opgaver",
   "påske ord 5 bogstaver",
+  "påskematematik 1 klasse",
+  "påskematematik 2 klasse",
+  "påskematematik indskoling",
+  "påskematematik mellemtrin",
+  "reprint mønsterark",
   "rim",
   "rimadyl",
   "rimboboller",
@@ -1903,7 +3727,25 @@
   "rummet 9 bogstaver",
   "rummet matematik",
   "rummet på 7 bogstaver",
+  "sammenlign tal for områder i danmark",
+  "sammenlign tal i excel",
+  "se bogstavlyde",
   "sjove matematik aktiviteter",
+  "skattejagt",
+  "skattejagt 6 år",
+  "skattejagt 7 år",
+  "skattejagt børn 3 4 år",
+  "skattejagt børnefødselsdag",
+  "skattejagt for voksne",
+  "skattejagt ideer",
+  "skattejagt københavn",
+  "skattejagt med opgaver",
+  "skattejagt opgaver",
+  "skattejagt opgaver 7 år",
+  "skattejagt opgaver børn",
+  "skattejagt opgaver voksne",
+  "skattejagt på museet",
+  "skattejagt til børn",
   "sommer 5 bogstaver",
   "sommer matematik",
   "sommer matematik 1 klasse",
@@ -1911,6 +3753,35 @@
   "sommer matematik 3. klasse",
   "sommer matematik indskoling",
   "sommer matematik opgaver",
+  "sorter billeder",
+  "sorter billeder app",
+  "sorter billeder efter dato",
+  "sorter billeder efter dato iphone",
+  "sorter billeder iphone",
+  "sortering",
+  "sortering af affald",
+  "sortering af flamingo",
+  "sorterings skraldespand",
+  "sorteringsanlæg",
+  "sorteringsguide",
+  "sorteringsguiden",
+  "sorteringsguiden kredsløb",
+  "sorteringskasser",
+  "sortimentsbokse",
+  "spejling",
+  "spejling af skærm",
+  "spejling krydsord",
+  "spejling matematik",
+  "spejling psykologi",
+  "spejling pædagogik",
+  "spejlingsakse",
+  "spejlingsakser",
+  "spejlingsreklame",
+  "spejlingssymmetri",
+  "sproglig opmærksomhed",
+  "sproglig opmærksomhed 0 klasse",
+  "sproglig opmærksomhed i børnehaveklassen",
+  "sproglig opmærksomhed opgaver",
   "stavelser",
   "stavelser dansk",
   "stavelser engelsk",
@@ -1919,9 +3790,32 @@
   "stavelser krydsord",
   "stavelser opgaver",
   "stavelser regler",
+  "stor eller lille barnevogn",
+  "stor eller lille fatning",
+  "stor eller lille flagspætte",
+  "stor eller lille knallert",
+  "stor eller lille kålsommerfugl",
+  "stor eller lille septim",
+  "stor eller lille service",
+  "stor eller lille stat",
+  "stor eller lille terts",
+  "stor eller lille vandsalamander",
   "strand 4 bogstaver",
   "strand 5 bogstaver",
   "strand 7 bogstaver",
+  "størst og mindst",
+  "størst og mindst københavn",
+  "størst og mindst tegn",
+  "subtraktion",
+  "subtraktion 1 klasse",
+  "subtraktion af vektorer",
+  "subtraktion excel",
+  "subtraktion krydsord",
+  "subtraktion med brøker",
+  "subtraktion med decimaltal",
+  "subtraktion opgaver",
+  "subtraktion synonym",
+  "subtraktions angio",
   "sværhedsgrader",
   "sværhedsgrader boulders",
   "sværhedsgrader dressur",
@@ -1942,6 +3836,36 @@
   "tal 2025",
   "tal 2026",
   "tal 2026 augmentation",
+  "tallinje",
+  "tallinje 0-100",
+  "tallinje 0-20",
+  "tallinje 1-20",
+  "tallinje matematik",
+  "tallinje med decimaltal",
+  "tallinje med negative tal",
+  "tallinje opgaver",
+  "tallinje til print",
+  "tallinjen",
+  "tallinjer",
+  "thuja sorter billeder",
+  "tiere og enere",
+  "tiere og enere arbeidsark",
+  "tiere og enere multi",
+  "tiere og enere opgaver",
+  "tiere og enere oppgaver",
+  "tiere og enere spil",
+  "tierramme oppgaver",
+  "tierrammer",
+  "tiervenner",
+  "tiervenner film",
+  "tiervenner matte",
+  "tiervenner opgaver",
+  "tiervenner plakat",
+  "tiervenner sang",
+  "tiervenner sang tekst",
+  "tiervenner sang youtube",
+  "tiervenner spill",
+  "tiervenner youtube",
   "tilbehør 10 bogstaver",
   "tilbehør 12 bogstaver",
   "tilbehør 13 bogstaver",
@@ -1952,6 +3876,8 @@
   "tilbehør 7 bogstaver",
   "tilbehør 8 bogstaver",
   "tilbehør 9 bogstaver",
+  "titalssystemet",
+  "titalssystemet opgaver",
   "træer 3 bogstaver",
   "træer 4 bogstaver",
   "træer 5 bogstaver",
@@ -1991,9 +3917,11 @@
   "værktøj 7 bogstaver",
   "værktøj 8 bogstaver",
   "værktøj 9 bogstaver",
-  "är former matematik"
+  "är former matematik",
+  "øve bogstavlyde"
  ],
  "novel": [
+  "addition kemi",
   "aktiviteter 7 bogstaver",
   "aktiviteter matematik",
   "aktiviteter matematik förskolan",
@@ -2009,6 +3937,10 @@
   "bevægelsessensor",
   "bevægelsessensor indendørs",
   "bevægelsessensor udendørs",
+  "billed sudoku",
+  "billedvej 3 dk 2150 nordhavn",
+  "billedvej 8",
+  "bingo dk",
   "blomster 10 bogstaver",
   "blomster 13 bogstaver",
   "blomster 5 bogstaver",
@@ -2030,10 +3962,17 @@
   "bogstaver til dør",
   "bogstaver til postkasse",
   "bogstaver til print",
+  "bogstavlyde",
+  "bogstavlyde dansk",
+  "bogstavlyde for børn",
+  "bogstavlyde opgaver",
+  "bogstavlyde sang",
+  "brøker på engelsk",
   "camping 6 bogstaver",
   "camping 7 bogstaver",
   "camping matematik",
   "cas værktøj matematik",
+  "cryptograms",
   "de 120 ord",
   "de 120 ord alinea",
   "de 120 ord dansk",
@@ -2073,16 +4012,10 @@
   "farver på 4 bogstaver",
   "farver på 5 bogstaver",
   "farver på 8 bogstaver",
-  "fastelavn",
-  "fastelavn 2026",
-  "fastelavn 2027",
-  "fastelavn engelsk",
-  "fastelavnsboller",
-  "fastelavnsboller med creme",
-  "fastelavnsboller med fløde",
-  "fastelavnsboller opskrift",
-  "fastelavnsris",
-  "fastelavnstønde",
+  "find para cheat",
+  "find parfum",
+  "find parking",
+  "find parts in house objects sims freeplay",
   "finmotorik",
   "finmotorik baby",
   "finmotorik engelsk",
@@ -2148,6 +4081,9 @@
   "hospital kecemasan matematik spm",
   "hospital matematik",
   "hospital på 6 bogstaver",
+  "hva er tiere og enere",
+  "hvad er klokken i canada",
+  "hvad er klokken i kina",
   "ib laursen jul bogstaver",
   "jul 5 bogstaver",
   "jul 5 bogstaver coop",
@@ -2160,18 +4096,10 @@
   "jul matematik mellemtrin",
   "jul matematik udskoling",
   "jul ord 5 bogstaver",
-  "julematematik 0 klasse",
-  "julematematik 1 klasse",
-  "julematematik 2 klasse",
-  "julematematik 3 klasse",
-  "julematematik 4 klasse",
-  "julematematik 5 klasse",
-  "julematematik 6 klasse",
-  "julematematik 7 klasse",
-  "julematematik indskoling",
-  "julematematik udskoling",
+  "julmatematik gratis",
   "klokken",
   "klokken hc andersen",
+  "klokken hel og halv",
   "klokken i danmark",
   "klokken i japan",
   "klokken i new york",
@@ -2184,6 +4112,7 @@
   "kropsdele 5 bogstaver",
   "kropsdele 6 bogstaver",
   "kropsdele 7 bogstaver",
+  "krydsord forslag",
   "kæledyr 3 bogstaver",
   "kæledyr 4 bogstaver",
   "kæledyr 5 bogstaver",
@@ -2218,6 +4147,27 @@
   "lydering betydning",
   "lydering opgaver",
   "lydering oppgaver",
+  "lydrette ord",
+  "lydrette ord 2 bogstaver",
+  "lydrette ord 2 stavelser",
+  "lydrette ord 3 bogstaver",
+  "lydrette ord 4 bogstaver",
+  "lydrette ord 6 bogstaver",
+  "lydrette ord liste",
+  "lydrette ord opgaver",
+  "lydrette ord spil",
+  "lær bogstavlyde",
+  "læseraketten",
+  "læseraketten 2023",
+  "læseraketten 2024",
+  "læseraketten 2025",
+  "læseraketten escape room",
+  "læseraketten ghana",
+  "læseraketten i guatemala",
+  "læseraketten kenya",
+  "læseraketten uganda",
+  "matchning från dag 1",
+  "matchningstjänster arbetsförmedlingen",
   "matematik aktiviteter 1 klasse",
   "matematik aktiviteter 2 klasse",
   "matematik aktiviteter förskola",
@@ -2231,6 +4181,8 @@
   "matematik hospital kuralı",
   "matematik tilbehør",
   "matematik tøj",
+  "matematikarka renata",
+  "mk x tiere og enere",
   "morgenmad 5 bogstaver",
   "musik 10 bogstaver",
   "musik 11 bogstaver",
@@ -2248,6 +4200,8 @@
   "musik och matematik",
   "musik og matematik",
   "musik og matematik srp",
+  "måling krydsord",
+  "målinger",
   "møbler 10 bogstaver",
   "møbler 12 bogstaver",
   "møbler 5 bogstaver",
@@ -2256,6 +4210,8 @@
   "møbler 8 bogstaver",
   "møbler 9 bogstaver",
   "møbler på 11 bogstaver",
+  "mønstret",
+  "mønstret bikini",
   "naturfagene vinter matematik",
   "olika former i matematik",
   "opgavehæfte voksne",
@@ -2268,6 +4224,11 @@
   "opgavehæfter matematik",
   "opgavehæfter tysk",
   "opgavehæftet",
+  "ordbilleder",
+  "ordbilleder eksempler",
+  "ordbilleder læsning",
+  "ordforråd synonym",
+  "ordforrådet",
   "plus 10",
   "plus 10 pro",
   "plus 10 uno",
@@ -2277,6 +4238,15 @@
   "plus 1000 roblox",
   "plus 101",
   "plus 102",
+  "plus og minus",
+  "plus og minus batteri",
+  "plus og minus brøker",
+  "plus og minus farver",
+  "plus og minus med brøker",
+  "plus og minus opgaver",
+  "plus og minus regler",
+  "plus og minus stykker",
+  "plus og minus tegn",
   "påske 5 bogstaver",
   "påske 5 bogstaver coop",
   "påske krydsord 5 bogstaver",
@@ -2289,6 +4259,10 @@
   "påske matematik mellemtrin",
   "påske matematik opgaver",
   "påske ord 5 bogstaver",
+  "påskematematik 1 klasse",
+  "påskematematik 2 klasse",
+  "påskematematik indskoling",
+  "påskematematik mellemtrin",
   "rim",
   "rimadyl",
   "rimboboller",
@@ -2307,13 +4281,35 @@
   "rummet 9 bogstaver",
   "rummet matematik",
   "rummet på 7 bogstaver",
+  "se bogstavlyde",
   "sjove matematik aktiviteter",
+  "skattejagt børnefødselsdag",
   "sommer 5 bogstaver",
   "sommer matematik",
   "sommer matematik 1 klasse",
   "sommer matematik 2 klasse",
   "sommer matematik 3. klasse",
   "sommer matematik indskoling",
+  "sortering",
+  "sortering af affald",
+  "sortering af flamingo",
+  "sorterings skraldespand",
+  "sorteringsanlæg",
+  "sorteringsguide",
+  "sorteringsguiden",
+  "sorteringsguiden kredsløb",
+  "sorteringskasser",
+  "sortimentsbokse",
+  "spejling",
+  "spejling af skærm",
+  "spejling krydsord",
+  "spejling matematik",
+  "spejling psykologi",
+  "spejling pædagogik",
+  "spejlingsakse",
+  "spejlingsakser",
+  "spejlingsreklame",
+  "spejlingssymmetri",
   "stavelser",
   "stavelser dansk",
   "stavelser engelsk",
@@ -2322,9 +4318,12 @@
   "stavelser krydsord",
   "stavelser opgaver",
   "stavelser regler",
+  "stor eller lille fatning",
   "strand 4 bogstaver",
   "strand 5 bogstaver",
   "strand 7 bogstaver",
+  "subtraktion 1 klasse",
+  "subtraktions angio",
   "sværhedsgrader",
   "sværhedsgrader boulders",
   "sværhedsgrader dressur",
@@ -2345,6 +4344,17 @@
   "tal 2025",
   "tal 2026",
   "tal 2026 augmentation",
+  "tallinje 0-20",
+  "tiervenner",
+  "tiervenner film",
+  "tiervenner matte",
+  "tiervenner opgaver",
+  "tiervenner plakat",
+  "tiervenner sang",
+  "tiervenner sang tekst",
+  "tiervenner sang youtube",
+  "tiervenner spill",
+  "tiervenner youtube",
   "tilbehør 10 bogstaver",
   "tilbehør 12 bogstaver",
   "tilbehør 13 bogstaver",
@@ -2355,6 +4365,8 @@
   "tilbehør 7 bogstaver",
   "tilbehør 8 bogstaver",
   "tilbehør 9 bogstaver",
+  "titalssystemet",
+  "titalssystemet opgaver",
   "træer 3 bogstaver",
   "træer 4 bogstaver",
   "træer 5 bogstaver",
@@ -2394,7 +4406,7 @@
   "værktøj 7 bogstaver",
   "værktøj 8 bogstaver",
   "værktøj 9 bogstaver",
-  "är former matematik"
- ],
- "refilteredAt": "2026-07-20T08:58:53.404Z"
+  "är former matematik",
+  "øve bogstavlyde"
+ ]
 }

@@ -4,24 +4,25 @@
   "hl": "sv",
   "gl": "se"
  },
- "generatedAt": "2026-07-20T08:56:00.639Z",
+ "generatedAt": "2026-07-20T09:53:23.313Z",
  "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
- "requestCount": 239,
+ "requestCount": 353,
  "seedCounts": {
-  "skill": 16,
+  "skill": 30,
   "context": 8,
   "audience": 6,
   "enumerated": 0,
   "pack": 2,
-  "cross": 207
+  "cross": 189,
+  "typeName": 118
  },
  "errorCount": 0,
  "errors": [],
  "newVsInventory": {
   "inventoryUnique": 1075,
-  "demandUnique": 415,
-  "novel": 377,
-  "novelShare": 0.908
+  "demandUnique": 869,
+  "novel": 517,
+  "novelShare": 0.595
  },
  "deadSeeds": [
   "subtraktion upp till 10",
@@ -50,9 +51,6 @@
   "bageri bokstäver",
   "strand räkna",
   "fåglar matte",
-  "fåglar 2 matte",
-  "fåglar 2 räkna",
-  "fåglar 2 bokstäver",
   "kroppsdelar matte",
   "kroppsdelar räkna",
   "frukost matte",
@@ -124,63 +122,111 @@
   "djurparksdjur matte",
   "djurparksdjur räkna",
   "djurparksdjur bokstäver",
-  "djur sv 2 matte",
-  "djur sv 2 räkna",
-  "djur sv 2 bokstäver",
-  "djur sv 3 matte",
-  "djur sv 3 räkna",
-  "djur sv 3 bokstäver",
-  "djur sv 4 matte",
-  "djur sv 4 räkna",
-  "djur sv 4 bokstäver",
-  "djur sv 5 matte",
-  "djur sv 5 räkna",
-  "djur sv 5 bokstäver",
-  "strand sv 2 matte",
-  "strand sv 2 räkna",
-  "strand sv 2 bokstäver",
-  "fåglar s&v 2 matte",
-  "fåglar s&v 2 räkna",
-  "fåglar s&v 2 bokstäver",
-  "jul s/v 2 matte",
-  "jul s/v 2 räkna",
-  "jul s/v 2 bokstäver",
+  "djur sv matte",
+  "djur sv räkna",
+  "djur sv bokstäver",
+  "strand sv matte",
+  "strand sv räkna",
+  "strand sv bokstäver",
+  "fåglar s&v matte",
+  "fåglar s&v räkna",
+  "fåglar s&v bokstäver",
+  "jul s/v matte",
+  "jul s/v räkna",
+  "jul s/v bokstäver",
   "klassrum 2 (s/v) matte",
   "klassrum 2 (s/v) räkna",
   "klassrum 2 (s/v) bokstäver",
-  "påsk sv 2 matte",
-  "påsk sv 2 räkna",
-  "påsk sv 2 bokstäver",
-  "mat sv 2 matte",
-  "mat sv 2 räkna",
-  "mat sv 2 bokstäver",
-  "mat sv 3 matte",
-  "mat sv 3 räkna",
-  "mat sv 3 bokstäver",
-  "hem sv 2 matte",
-  "hem sv 2 räkna",
-  "hem sv 2 bokstäver",
-  "havsliv sv 2 matte",
-  "havsliv sv 2 räkna",
-  "havsliv sv 2 bokstäver",
-  "sport sv 2 matte",
-  "sport sv 2 räkna",
-  "sport sv 2 bokstäver",
-  "leksaker sv 2 matte",
-  "leksaker sv 2 räkna",
-  "leksaker sv 2 bokstäver",
-  "alla hjärtans dag sv 2 matte",
-  "alla hjärtans dag sv 2 räkna",
-  "alla hjärtans dag sv 2 bokstäver",
-  "grönsaker sv 2 matte",
-  "grönsaker sv 2 räkna",
-  "grönsaker sv 2 bokstäver",
-  "fordon sv 2 matte",
-  "fordon sv 2 räkna",
-  "fordon sv 2 bokstäver",
-  "fordon sv 3 matte",
-  "fordon sv 3 räkna",
-  "fordon sv 3 bokstäver"
+  "påsk sv matte",
+  "påsk sv räkna",
+  "påsk sv bokstäver",
+  "mat sv matte",
+  "mat sv räkna",
+  "mat sv bokstäver",
+  "hem sv matte",
+  "hem sv räkna",
+  "hem sv bokstäver",
+  "havsliv sv matte",
+  "havsliv sv räkna",
+  "havsliv sv bokstäver",
+  "sport sv räkna",
+  "sport sv bokstäver",
+  "leksaker sv matte",
+  "leksaker sv räkna",
+  "leksaker sv bokstäver",
+  "alla hjärtans dag sv matte",
+  "alla hjärtans dag sv räkna",
+  "alla hjärtans dag sv bokstäver",
+  "grönsaker sv matte",
+  "grönsaker sv räkna",
+  "grönsaker sv bokstäver",
+  "fordon sv matte",
+  "fordon sv räkna",
+  "fordon sv bokstäver",
+  "bildsudoku",
+  "bildsudoku arbetsblad",
+  "kryptogram arbetsblad",
+  "bildväg arbetsblad",
+  "kodaddition",
+  "kodaddition arbetsblad",
+  "mer eller mindre arbetsblad",
+  "mattepussel arbetsblad",
+  "matteblad arbetsblad",
+  "stor eller liten arbetsblad",
+  "räkna i diagram",
+  "räkna i diagram arbetsblad",
+  "mönstertåget",
+  "mönstertåget arbetsblad",
+  "mönsterblad arbetsblad",
+  "bingo arbetsblad",
+  "rutmatchning",
+  "rutmatchning arbetsblad",
+  "matchning arbetsblad",
+  "sortera bilder arbetsblad",
+  "matcha skuggor",
+  "matcha skuggor arbetsblad",
+  "alfabetståget",
+  "alfabetståget arbetsblad",
+  "gissa ordet arbetsblad",
+  "bokstavspussel arbetsblad",
+  "ordleta arbetsblad",
+  "korsord arbetsblad",
+  "hitta och räkna arbetsblad",
+  "hitta föremålen",
+  "hitta föremålen arbetsblad",
+  "skattjakt arbetsblad",
+  "saknade bitar arbetsblad",
+  "vilken passar inte arbetsblad",
+  "räkna bilder arbetsblad",
+  "tioramar arbetsblad",
+  "räkna med streck arbetsblad",
+  "hundraruta arbetsblad",
+  "jämföra tal arbetsblad",
+  "jämföra mängder",
+  "jämföra mängder arbetsblad",
+  "jämföra storlekar",
+  "jämföra storlekar arbetsblad",
+  "multiplikation med bilder",
+  "multiplikation med bilder arbetsblad",
+  "logiska pussel arbetsblad",
+  "visuell perception arbetsblad",
+  "para ihop bilder arbetsblad",
+  "lägeord",
+  "lägeord arbetsblad",
+  "sortera i kategorier",
+  "sortera i kategorier arbetsblad",
+  "räkna med bilder arbetsblad",
+  "sortera i naturen",
+  "sortera i naturen arbetsblad",
+  "ordningsföljd och livscykler",
+  "ordningsföljd och livscykler arbetsblad",
+  "para ihop i naturen",
+  "para ihop i naturen arbetsblad",
+  "bokstavskunskap arbetsblad",
+  "bygga ord arbetsblad",
+  "bildordförråd",
+  "bildordförråd arbetsblad",
+  "fonologisk medvetenhet arbetsblad"
  ],
  "suggestions": {
   "bokstäver": {
@@ -244,7 +290,7 @@
    ]
   },
   "första ljudet": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "första ljudet",
     "första ljudet arbetsblad",
@@ -332,7 +378,7 @@
    ]
   },
   "klockan": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "klockan",
     "klockan nu",
@@ -347,7 +393,7 @@
    ]
   },
   "mätning": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "mätningsingenjör",
     "mätningsingenjör lön",
@@ -377,7 +423,7 @@
    ]
   },
   "mönster": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "mönsterdjup sommardäck",
     "mönsterås",
@@ -404,6 +450,189 @@
     "finmotorik barn 2 år",
     "finmotorik barn förskola",
     "finmotorik test"
+   ]
+  },
+  "bokstavsljud": {
+   "cls": "skill",
+   "s": [
+    "bokstavsljud",
+    "bokstavsljuden",
+    "bokstavsljud spel",
+    "bokstavsljud fonem",
+    "bokstavsljud förskola",
+    "bokstavsljud bok",
+    "bokstavsljud järn",
+    "bokstavsljud mun",
+    "bokstavsljud elevspel",
+    "bokstavsljud bilder"
+   ]
+  },
+  "ljudning": {
+   "cls": "skill",
+   "s": [
+    "ljudningsmetoden",
+    "ljudning",
+    "ljudningsmetoden phonics",
+    "ljudningsstrategi",
+    "ljudningsmetoden läsning",
+    "ljudning på båt",
+    "ljudning läsa",
+    "ljudning är a och o för att knäcka läskoden",
+    "strukturerad ljudningsmetod",
+    "alfabetet ljudning"
+   ]
+  },
+  "ordbilder": {
+   "cls": "skill",
+   "s": [
+    "ordbilder",
+    "ordbilder media",
+    "ordbilder förskola",
+    "ordbilder åk 1",
+    "ordbilder förskoleklass",
+    "ordbilder att skriva ut",
+    "ordbilder arbetsblad",
+    "ordbilder kartläggning förskoleklass",
+    "ordbilder hitta språket",
+    "ordbilder media ab"
+   ]
+  },
+  "läsförståelse åk 1": {
+   "cls": "skill",
+   "s": [
+    "läsförståelse åk 1",
+    "läsförståelse åk 1 gratis",
+    "läsförståelse åk 1 arbetsblad",
+    "läsförståelse åk 1 3",
+    "läsförståelse åk 1 pdf",
+    "läsning åk 1",
+    "läsförståelse klass 1b",
+    "ordförståelse åk 1",
+    "läsförståelse svenska åk 1 övningar",
+    "läsförståelse svenska åk 1"
+   ]
+  },
+  "skrivstil": {
+   "cls": "skill",
+   "s": [
+    "skrivstil",
+    "skrivstil bokstäver",
+    "skrivstil generator",
+    "skrivstil engelska",
+    "skrivstil alfabetet",
+    "skrivstil typsnitt",
+    "skrivstil r",
+    "skrivstilsbok",
+    "skrivstil s",
+    "skrivstilar"
+   ]
+  },
+  "talraden": {
+   "cls": "skill",
+   "s": [
+    "talraden",
+    "talraden förskoleklass",
+    "talraden 0-20",
+    "talraden film",
+    "talraden 0-100",
+    "talraden arbetsblad",
+    "talraden 1-10",
+    "talraden 0 10",
+    "talraden 0 100 skriva ut",
+    "talraden åk 1"
+   ]
+  },
+  "tiotal och ental": {
+   "cls": "typeName",
+   "s": [
+    "tiotal och ental",
+    "tiotal och ental arbetsblad",
+    "tiotal och ental film",
+    "tiotal och ental åk 1",
+    "tiotal ental hundratal",
+    "vad är tiotal och ental"
+   ]
+  },
+  "subtraktion upp till 20": {
+   "cls": "skill",
+   "s": [
+    "subtraktion upp till 20",
+    "addition och subtraktion upp till 20"
+   ]
+  },
+  "talkamrater": {
+   "cls": "skill",
+   "s": [
+    "talkamrater",
+    "talkamrater arbetsblad",
+    "talkamrater 0-10",
+    "talkamrater 5",
+    "talkamrater 6",
+    "talkamrater 10",
+    "talkamrater elevspel",
+    "talkamrater spel",
+    "talkamrater 0 20",
+    "talkamrater till 6"
+   ]
+  },
+  "positionssystemet": {
+   "cls": "skill",
+   "s": [
+    "positionssystemet",
+    "positionssystemet åk 1",
+    "positionssystemet åk 2",
+    "positionssystemet laborativt material",
+    "positionssystemet arbetsblad",
+    "positionssystemet film",
+    "positionssystemet arbetsblad gratis",
+    "positionssystemet spel",
+    "positionssystemet bildstöd",
+    "positionssystemet skolmagi"
+   ]
+  },
+  "klockan hel och halv": {
+   "cls": "skill",
+   "s": [
+    "klockan hel och halvtimme",
+    "klockan hel och halv",
+    "klockan hel och halvtimme arbetsblad",
+    "träna klockan hel och halv"
+   ]
+  },
+  "symmetri": {
+   "cls": "skill",
+   "s": [
+    "symmetri",
+    "symmetrisk",
+    "symmetrilinje",
+    "symmetriskt diagram som buddhister mediterar över",
+    "symmetrilinjens ekvation",
+    "symmetriskt",
+    "symmetrilinjer",
+    "symmetriska",
+    "symmetriskt diagram buddhister",
+    "symmetrilinjer rektangel"
+   ]
+  },
+  "sortera och klassificera": {
+   "cls": "skill",
+   "s": [
+    "sortera och klassificera i förskolan",
+    "sortera och klassificera"
+   ]
+  },
+  "öga-hand-koordination": {
+   "cls": "skill",
+   "s": [
+    "öga hand koordination",
+    "öga hand koordination övningar",
+    "öga hand koordination förskola",
+    "öga hand koordination bebis",
+    "öga hand koordination betyder",
+    "öga hand koordination svårigheter",
+    "öga hand koordination barn",
+    "öga hand koordination idrott",
+    "hand och öga koordination"
    ]
   },
   "eget arbete arbetsblad": {
@@ -674,18 +903,6 @@
     "fåglar 9 bokstäver",
     "fåglar 8 bokstäver"
    ]
-  },
-  "fåglar 2 matte": {
-   "cls": "cross",
-   "s": []
-  },
-  "fåglar 2 räkna": {
-   "cls": "cross",
-   "s": []
-  },
-  "fåglar 2 bokstäver": {
-   "cls": "cross",
-   "s": []
   },
   "kroppsdelar matte": {
    "cls": "cross",
@@ -1408,87 +1625,51 @@
    "cls": "cross",
    "s": []
   },
-  "djur sv 2 matte": {
+  "djur sv matte": {
    "cls": "cross",
    "s": []
   },
-  "djur sv 2 räkna": {
+  "djur sv räkna": {
    "cls": "cross",
    "s": []
   },
-  "djur sv 2 bokstäver": {
+  "djur sv bokstäver": {
    "cls": "cross",
    "s": []
   },
-  "djur sv 3 matte": {
+  "strand sv matte": {
    "cls": "cross",
    "s": []
   },
-  "djur sv 3 räkna": {
+  "strand sv räkna": {
    "cls": "cross",
    "s": []
   },
-  "djur sv 3 bokstäver": {
+  "strand sv bokstäver": {
    "cls": "cross",
    "s": []
   },
-  "djur sv 4 matte": {
+  "fåglar s&v matte": {
    "cls": "cross",
    "s": []
   },
-  "djur sv 4 räkna": {
+  "fåglar s&v räkna": {
    "cls": "cross",
    "s": []
   },
-  "djur sv 4 bokstäver": {
+  "fåglar s&v bokstäver": {
    "cls": "cross",
    "s": []
   },
-  "djur sv 5 matte": {
+  "jul s/v matte": {
    "cls": "cross",
    "s": []
   },
-  "djur sv 5 räkna": {
+  "jul s/v räkna": {
    "cls": "cross",
    "s": []
   },
-  "djur sv 5 bokstäver": {
-   "cls": "cross",
-   "s": []
-  },
-  "strand sv 2 matte": {
-   "cls": "cross",
-   "s": []
-  },
-  "strand sv 2 räkna": {
-   "cls": "cross",
-   "s": []
-  },
-  "strand sv 2 bokstäver": {
-   "cls": "cross",
-   "s": []
-  },
-  "fåglar s&v 2 matte": {
-   "cls": "cross",
-   "s": []
-  },
-  "fåglar s&v 2 räkna": {
-   "cls": "cross",
-   "s": []
-  },
-  "fåglar s&v 2 bokstäver": {
-   "cls": "cross",
-   "s": []
-  },
-  "jul s/v 2 matte": {
-   "cls": "cross",
-   "s": []
-  },
-  "jul s/v 2 räkna": {
-   "cls": "cross",
-   "s": []
-  },
-  "jul s/v 2 bokstäver": {
+  "jul s/v bokstäver": {
    "cls": "cross",
    "s": []
   },
@@ -1504,148 +1685,1026 @@
    "cls": "cross",
    "s": []
   },
-  "påsk sv 2 matte": {
+  "påsk sv matte": {
    "cls": "cross",
    "s": []
   },
-  "påsk sv 2 räkna": {
+  "påsk sv räkna": {
    "cls": "cross",
    "s": []
   },
-  "påsk sv 2 bokstäver": {
+  "påsk sv bokstäver": {
    "cls": "cross",
    "s": []
   },
-  "mat sv 2 matte": {
+  "mat sv matte": {
    "cls": "cross",
    "s": []
   },
-  "mat sv 2 räkna": {
+  "mat sv räkna": {
    "cls": "cross",
    "s": []
   },
-  "mat sv 2 bokstäver": {
+  "mat sv bokstäver": {
    "cls": "cross",
    "s": []
   },
-  "mat sv 3 matte": {
+  "hem sv matte": {
    "cls": "cross",
    "s": []
   },
-  "mat sv 3 räkna": {
+  "hem sv räkna": {
    "cls": "cross",
    "s": []
   },
-  "mat sv 3 bokstäver": {
+  "hem sv bokstäver": {
    "cls": "cross",
    "s": []
   },
-  "hem sv 2 matte": {
+  "havsliv sv matte": {
    "cls": "cross",
    "s": []
   },
-  "hem sv 2 räkna": {
+  "havsliv sv räkna": {
    "cls": "cross",
    "s": []
   },
-  "hem sv 2 bokstäver": {
+  "havsliv sv bokstäver": {
    "cls": "cross",
    "s": []
   },
-  "havsliv sv 2 matte": {
+  "sport sv matte": {
+   "cls": "cross",
+   "s": [
+    "range rover sport sv matte black",
+    "range rover sport sv matte blue",
+    "range rover sport sv matte red",
+    "range rover sport sv matte",
+    "range rover sport sv matte grey",
+    "range rover sport sv matte green"
+   ]
+  },
+  "sport sv räkna": {
    "cls": "cross",
    "s": []
   },
-  "havsliv sv 2 räkna": {
+  "sport sv bokstäver": {
    "cls": "cross",
    "s": []
   },
-  "havsliv sv 2 bokstäver": {
+  "leksaker sv matte": {
    "cls": "cross",
    "s": []
   },
-  "sport sv 2 matte": {
+  "leksaker sv räkna": {
    "cls": "cross",
    "s": []
   },
-  "sport sv 2 räkna": {
+  "leksaker sv bokstäver": {
    "cls": "cross",
    "s": []
   },
-  "sport sv 2 bokstäver": {
+  "alla hjärtans dag sv matte": {
    "cls": "cross",
    "s": []
   },
-  "leksaker sv 2 matte": {
+  "alla hjärtans dag sv räkna": {
    "cls": "cross",
    "s": []
   },
-  "leksaker sv 2 räkna": {
+  "alla hjärtans dag sv bokstäver": {
    "cls": "cross",
    "s": []
   },
-  "leksaker sv 2 bokstäver": {
+  "grönsaker sv matte": {
    "cls": "cross",
    "s": []
   },
-  "alla hjärtans dag sv 2 matte": {
+  "grönsaker sv räkna": {
    "cls": "cross",
    "s": []
   },
-  "alla hjärtans dag sv 2 räkna": {
+  "grönsaker sv bokstäver": {
    "cls": "cross",
    "s": []
   },
-  "alla hjärtans dag sv 2 bokstäver": {
+  "fordon sv matte": {
    "cls": "cross",
    "s": []
   },
-  "grönsaker sv 2 matte": {
+  "fordon sv räkna": {
    "cls": "cross",
    "s": []
   },
-  "grönsaker sv 2 räkna": {
+  "fordon sv bokstäver": {
    "cls": "cross",
    "s": []
   },
-  "grönsaker sv 2 bokstäver": {
-   "cls": "cross",
+  "addition": {
+   "cls": "typeName",
+   "s": [
+    "addition",
+    "additional",
+    "additionsmetoden",
+    "additional svenska",
+    "addition med bråk",
+    "additionally synonym",
+    "additionals polestar",
+    "additionally svenska",
+    "addition svenska",
+    "addition och subtraktion"
+   ]
+  },
+  "addition arbetsblad": {
+   "cls": "typeName",
+   "s": [
+    "addition arbetsblad",
+    "arbetsblad addition och subtraktion",
+    "arbetsblad addition 0 20",
+    "arbetsblad addition 0 10",
+    "arbetsblad addition uppställning",
+    "arbetsblad addition åk 1",
+    "enkel addition arbetsblad",
+    "upprepad addition arbetsblad",
+    "matematik addition arbetsblad",
+    "addition med tiotalsövergång arbetsblad"
+   ]
+  },
+  "bildsudoku": {
+   "cls": "typeName",
    "s": []
   },
-  "fordon sv 2 matte": {
-   "cls": "cross",
+  "bildsudoku arbetsblad": {
+   "cls": "typeName",
    "s": []
   },
-  "fordon sv 2 räkna": {
-   "cls": "cross",
+  "kryptogram": {
+   "cls": "typeName",
+   "s": [
+    "kryptogram",
+    "kryptogram korsord",
+    "kryptogram synonym",
+    "kryptogram 8 bokstäver",
+    "kryptogam",
+    "kryptogram svenska",
+    "kryptogam korsord",
+    "kryptogram ab",
+    "kryptogamer",
+    "kryptogam synonym"
+   ]
+  },
+  "kryptogram arbetsblad": {
+   "cls": "typeName",
    "s": []
   },
-  "fordon sv 2 bokstäver": {
-   "cls": "cross",
+  "bildväg": {
+   "cls": "typeName",
+   "s": [
+    "bildvägg",
+    "bildvägg 9 bokstäver",
+    "bildvägg korsord 9 bokstäver",
+    "bildvägg tapet"
+   ]
+  },
+  "bildväg arbetsblad": {
+   "cls": "typeName",
    "s": []
   },
-  "fordon sv 3 matte": {
-   "cls": "cross",
+  "subtraktion": {
+   "cls": "typeName",
+   "s": [
+    "subtraktion",
+    "subtraktion uppställning",
+    "subtraktion med bråk",
+    "subtraktion med växling",
+    "subtraktion av bråk",
+    "subtraktion med uppställning",
+    "subtraktionsangiografi",
+    "subtraktion med tiotalsövergång",
+    "subtraktion förskoleklass",
+    "subtraktion skillnad"
+   ]
+  },
+  "subtraktion arbetsblad": {
+   "cls": "typeName",
+   "s": [
+    "subtraktion arbetsblad",
+    "arbetsblad subtraktion uppställning",
+    "arbetsblad subtraktion 0 10",
+    "addition och subtraktion arbetsblad",
+    "subtraktion med växling arbetsblad"
+   ]
+  },
+  "kodaddition": {
+   "cls": "typeName",
    "s": []
   },
-  "fordon sv 3 räkna": {
-   "cls": "cross",
+  "kodaddition arbetsblad": {
+   "cls": "typeName",
    "s": []
   },
-  "fordon sv 3 bokstäver": {
-   "cls": "cross",
+  "mer eller mindre": {
+   "cls": "typeName",
+   "s": [
+    "mer eller mindre tecken",
+    "mer eller mindre",
+    "mer eller mindre spel",
+    "mer eller mindre bredd i grafiken",
+    "mer eller mindre synonym",
+    "mer eller mindre bredd i grafiken korsord",
+    "mer eller mindre berusande korsord",
+    "mer eller mindre symbol",
+    "mer eller mindre taggade",
+    "mer eller mindre regler"
+   ]
+  },
+  "mer eller mindre arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mattepussel": {
+   "cls": "typeName",
+   "s": [
+    "mattepussel",
+    "ko mattepussel"
+   ]
+  },
+  "mattepussel arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "matteblad": {
+   "cls": "typeName",
+   "s": [
+    "matteblad",
+    "matteblad åk 2",
+    "matteblad förskoleklass",
+    "matteblad åk 1",
+    "matteblad förskola",
+    "matteblad åk 3",
+    "matteblad att skriva ut",
+    "matteblad åk 4",
+    "matteblad multiplikation",
+    "matteblad åk 5"
+   ]
+  },
+  "matteblad arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "stor eller liten": {
+   "cls": "typeName",
+   "s": [
+    "stor eller liten bokstav efter kolon",
+    "stor eller liten bokstav månad",
+    "stor eller liten bokstav efter semikolon",
+    "stor eller liten bokstav",
+    "stor eller liten bokstav i punktlista",
+    "stor eller liten sättpotatis",
+    "stor eller liten bokstav efter",
+    "stor eller liten bokstav i mailadress",
+    "stor eller liten kruka till pelargon",
+    "stor eller liten bokstav efter citattecken"
+   ]
+  },
+  "stor eller liten arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "räkna i diagram": {
+   "cls": "typeName",
+   "s": []
+  },
+  "räkna i diagram arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mönstertåget": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mönstertåget arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mönsterblad": {
+   "cls": "typeName",
+   "s": [
+    "mönsterblad föreningen för svensk hemslöjd"
+   ]
+  },
+  "mönsterblad arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bingo": {
+   "cls": "typeName",
+   "s": [
+    "bingolotto",
+    "bingolotto idag",
+    "bingo rimer",
+    "bingo",
+    "bingolotto rätta",
+    "bingolotto programledare",
+    "bingo loco",
+    "bingo online",
+    "bingo uddevalla",
+    "bingo trollhättan"
+   ]
+  },
+  "bingo arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "rutmatchning": {
+   "cls": "typeName",
+   "s": []
+  },
+  "rutmatchning arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "matchning": {
+   "cls": "typeName",
+   "s": [
+    "matchnings app",
+    "matchning",
+    "matchningsprincipen",
+    "matchningar",
+    "matchning synonym",
+    "matchningsprincipen redovisning",
+    "matchning parti",
+    "matchnings app synonym",
+    "matchning från dag 1",
+    "matchning engelska"
+   ]
+  },
+  "matchning arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortera bilder": {
+   "cls": "typeName",
+   "s": [
+    "sortera bilder iphone",
+    "sortera bilder",
+    "sortera bilder med ai",
+    "sortera bilder på datorn",
+    "sortera bilder efter datum iphone",
+    "sortera bilder ipad",
+    "sortera bilder efter storlek iphone",
+    "sortera bilder i album iphone",
+    "sortera bilder samsung",
+    "sortera bilder i mappar"
+   ]
+  },
+  "sortera bilder arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "matcha skuggor": {
+   "cls": "typeName",
+   "s": []
+  },
+  "matcha skuggor arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "alfabetståget": {
+   "cls": "typeName",
+   "s": []
+  },
+  "alfabetståget arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "prepositioner": {
+   "cls": "typeName",
+   "s": [
+    "prepositioner",
+    "prepositioner lista",
+    "prepositioner svenska",
+    "prepositioner engelska",
+    "prepositioner spanska",
+    "prepositioner som styr dativ tyska",
+    "prepositioner tyska",
+    "prepositioner franska",
+    "prepositioner som styr ackusativ och dativ tyska",
+    "prepositioner förskola"
+   ]
+  },
+  "prepositioner arbetsblad": {
+   "cls": "typeName",
+   "s": [
+    "prepositioner arbetsblad",
+    "arbetsblad prepositioner engelska"
+   ]
+  },
+  "gissa ordet": {
+   "cls": "typeName",
+   "s": [
+    "gissa ordet",
+    "gissa ordet spel",
+    "gissa ordet lek",
+    "gissa ordet app",
+    "gissa ordet svenska",
+    "gissa ordet skolplus",
+    "gissa ordet hjälp",
+    "gissa ordet i pannan",
+    "gissa ordet barn",
+    "gissa ordet spel app"
+   ]
+  },
+  "gissa ordet arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bokstavspussel": {
+   "cls": "typeName",
+   "s": [
+    "bokstavspussel",
+    "bokstavspussel trä",
+    "bokstavspussel app",
+    "bokstavspussel att skriva ut",
+    "bokstavspussel lekia",
+    "bokstavspussel djur",
+    "bokstavspussel lena andersson",
+    "bokstavspussel a ö",
+    "bokstavspussel smartare än en femteklassare",
+    "bamse bokstavspussel"
+   ]
+  },
+  "bokstavspussel arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ordleta": {
+   "cls": "typeName",
+   "s": [
+    "ordletare"
+   ]
+  },
+  "ordleta arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "korsord": {
+   "cls": "typeName",
+   "s": [
+    "korsordshjälp",
+    "korsord",
+    "korsordslexikon",
+    "korsord online",
+    "korsord gratis",
+    "korsordshjälp 6 bokstäver",
+    "korsord barn",
+    "korsordstidningar",
+    "korsord 4 bokstäver",
+    "korsord hjälp"
+   ]
+  },
+  "korsord arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "hitta och räkna": {
+   "cls": "typeName",
+   "s": [
+    "titta hitta och räkna med oss"
+   ]
+  },
+  "hitta och räkna arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "hitta föremålen": {
+   "cls": "typeName",
+   "s": []
+  },
+  "hitta föremålen arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "skattjakt": {
+   "cls": "typeName",
+   "s": [
+    "skattjakt barnkalas",
+    "skattjakt",
+    "skattjakt barn",
+    "skattjakt för vuxna",
+    "skattjakten",
+    "skattjakt barnkalas 7 år",
+    "skattjakt barnkalas 5 år",
+    "skattjakten podd",
+    "skattjakt med uppdrag barn gratis",
+    "skattjakt göteborg"
+   ]
+  },
+  "skattjakt arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "saknade bitar": {
+   "cls": "typeName",
+   "s": [
+    "saknade bitar lego",
+    "saknar bitar korsord",
+    "saknar bitar",
+    "saknar bitar 3 bokstäver",
+    "saknar bitar webbkryss",
+    "saknar bitar 3 bokstäver korsord",
+    "saknas bitar i pussel"
+   ]
+  },
+  "saknade bitar arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "vilken passar inte": {
+   "cls": "typeName",
+   "s": [
+    "vilka passar inte vågen med",
+    "vad passar inte bättre än",
+    "vem passar inte i lugg",
+    "vem passar inte stenbocken med",
+    "vem passar inte kräftan med",
+    "vem passar inte vattumannen med",
+    "vem passar inte jungfrun med",
+    "vilken medicin passar inte med grapefrukt",
+    "vilken måltid passar inte för män",
+    "vilken medicin passar inte med magnesium"
+   ]
+  },
+  "vilken passar inte arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "räkna bilder": {
+   "cls": "typeName",
+   "s": [
+    "räkna bilder",
+    "räkna om bilder för tryck",
+    "räkna om i bilder för tryck korsord"
+   ]
+  },
+  "räkna bilder arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tioramar": {
+   "cls": "typeName",
+   "s": [
+    "tioramar",
+    "miramar so high",
+    "miramar 2025",
+    "terramar 2026",
+    "miramar aza manahy",
+    "miramar hold up",
+    "miramar album",
+    "miramar victory parole",
+    "miramar maty aminao",
+    "miramar victory"
+   ]
+  },
+  "tioramar arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "räkna med streck": {
+   "cls": "typeName",
+   "s": [
+    "räkna med streck",
+    "räkna gånger med streck",
+    "räknestreck"
+   ]
+  },
+  "räkna med streck arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "hundraruta": {
+   "cls": "typeName",
+   "s": [
+    "hundraruta",
+    "hundrarutan",
+    "hundraruta skriva ut",
+    "hundraruta tom",
+    "hundraruta multiplikation",
+    "hundraruta skolplus",
+    "hundraruta ncm",
+    "hundraruta gratis",
+    "hundraruta utan siffror",
+    "hundraruta matematik"
+   ]
+  },
+  "hundraruta arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "jämföra tal": {
+   "cls": "typeName",
+   "s": [
+    "jämföra tal",
+    "jämföra tal i bråkform",
+    "compare tall",
+    "compare tallest buildings in the world",
+    "compare talents wow",
+    "compare tall buildings",
+    "compare talent builds wow",
+    "jämföra två tal i excel",
+    "compare tall and short",
+    "compare tally and zoho"
+   ]
+  },
+  "jämföra tal arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "jämföra mängder": {
+   "cls": "typeName",
+   "s": []
+  },
+  "jämföra mängder arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "jämföra storlekar": {
+   "cls": "typeName",
+   "s": []
+  },
+  "jämföra storlekar arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tallinje": {
+   "cls": "typeName",
+   "s": [
+    "tallinje",
+    "tallinjen",
+    "tallinje arbetsblad",
+    "tallinje 0-20",
+    "tallinje 0-100",
+    "tallinjen korsord",
+    "tallinje att skriva ut",
+    "tallinje arbetsblad gratis",
+    "tallinjen åk 3",
+    "tallinjer"
+   ]
+  },
+  "tallinje arbetsblad": {
+   "cls": "typeName",
+   "s": [
+    "tallinje arbetsblad",
+    "tallinje arbetsblad gratis",
+    "tallinje arbetsblad åk 3 gratis",
+    "tallinje arbetsblad åk 3",
+    "tallinjen arbetsblad åk 1",
+    "tallinje 0 100 arbetsblad",
+    "tallinje 0 20 arbetsblad"
+   ]
+  },
+  "tiotal och ental arbetsblad": {
+   "cls": "typeName",
+   "s": [
+    "tiotal och ental arbetsblad"
+   ]
+  },
+  "klockan arbetsblad": {
+   "cls": "typeName",
+   "s": [
+    "klockan arbetsblad",
+    "klockan arbetsblad åk 3",
+    "arbetsblad klockan hel och halv",
+    "klocka arbetsblad",
+    "arbetsblad klockan hel timme",
+    "arbetsblad klockan åk 2",
+    "arbetsblad klockan engelska",
+    "arbetsblad klockan förskoleklass",
+    "arbetsblad klockan åk 4",
+    "arbetsblad klockan gratis"
+   ]
+  },
+  "bråk": {
+   "cls": "typeName",
+   "s": [
+    "bråk korsord",
+    "bråk",
+    "bråk efter vm finalen",
+    "bråk efter slutsignal vm",
+    "bråk vm final",
+    "bråkar med clouseau",
+    "bråk synonym",
+    "bråka",
+    "bråk korsord 5 bokstäver",
+    "bråkar med clouseau korsord"
+   ]
+  },
+  "bråk arbetsblad": {
+   "cls": "typeName",
+   "s": [
+    "bråk arbetsblad",
+    "bråk arbetsblad åk 3",
+    "arbetsblad bråk åk 4",
+    "arbetsblad bråk åk 2",
+    "arbetsblad bråk åk 5",
+    "arbetsblad bråk och procent",
+    "arbetsblad bråk åk 6",
+    "jämföra bråk arbetsblad",
+    "förkorta bråk arbetsblad",
+    "räkna med bråk arbetsblad"
+   ]
+  },
+  "diagram": {
+   "cls": "typeName",
+   "s": [
+    "diagram",
+    "diagram excel",
+    "diagram synonym",
+    "diagrammet",
+    "diagrammatisk",
+    "diagram maker",
+    "diagram korsord",
+    "diagram engelska",
+    "diagrams",
+    "diagram typer"
+   ]
+  },
+  "diagram arbetsblad": {
+   "cls": "typeName",
+   "s": [
+    "diagram arbetsblad",
+    "tabeller och diagram arbetsblad"
+   ]
+  },
+  "multiplikation med bilder": {
+   "cls": "typeName",
+   "s": []
+  },
+  "multiplikation med bilder arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "geometri": {
+   "cls": "typeName",
+   "s": [
+    "geometri",
+    "geometriska former",
+    "geometriska figurer",
+    "geometrisk summa",
+    "geometri korsord",
+    "geometri synonym",
+    "geometrisk talföljd",
+    "geometrisk summa formel",
+    "geometrisk fördelning",
+    "geometry dash"
+   ]
+  },
+  "geometri arbetsblad": {
+   "cls": "typeName",
+   "s": [
+    "geometri arbetsblad",
+    "geometri arbetsblad åk 1",
+    "geografi arbetsblad"
+   ]
+  },
+  "mätning arbetsblad": {
+   "cls": "typeName",
+   "s": [
+    "mätning arbetsblad",
+    "mäta arbetsblad"
+   ]
+  },
+  "logiska pussel": {
+   "cls": "typeName",
+   "s": [
+    "logiska pussel",
+    "logiska pussel barn",
+    "logiska pussel online",
+    "logiska pussel bok"
+   ]
+  },
+  "logiska pussel arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "visuell perception": {
+   "cls": "typeName",
+   "s": [
+    "visuell perception",
+    "visuell perception betyder",
+    "visuell perceptionsstörning",
+    "visuella perceptionssvårigheter",
+    "visuel perceptionsforstyrrelse",
+    "visuel perception træning",
+    "visuel perception dansk"
+   ]
+  },
+  "visuell perception arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "para ihop bilder": {
+   "cls": "typeName",
+   "s": [
+    "para ihop bilder",
+    "para ihop bilder förskolan",
+    "para ihop bilder spel",
+    "slå ihop bilder iphone",
+    "slå ihop bilder",
+    "slå ihop bilder till en pdf",
+    "slå ihop bilder gratis",
+    "slå ihop bilder ai",
+    "slå ihop bilder powerpoint",
+    "para ihop två bilder"
+   ]
+  },
+  "para ihop bilder arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mönster arbetsblad": {
+   "cls": "typeName",
+   "s": [
+    "mönster arbetsblad",
+    "mönster arbetsblad förskoleklass",
+    "mönster arbetsblad åk 1",
+    "arbetsblad mönster förskolan"
+   ]
+  },
+  "lägeord": {
+   "cls": "typeName",
+   "s": []
+  },
+  "lägeord arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortera i kategorier": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortera i kategorier arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "räkna med bilder": {
+   "cls": "typeName",
+   "s": [
+    "räkna bilder"
+   ]
+  },
+  "räkna med bilder arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortera i naturen": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortera i naturen arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ordningsföljd och livscykler": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ordningsföljd och livscykler arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "para ihop i naturen": {
+   "cls": "typeName",
+   "s": []
+  },
+  "para ihop i naturen arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "första ljudet arbetsblad": {
+   "cls": "typeName",
+   "s": [
+    "första ljudet arbetsblad"
+   ]
+  },
+  "bokstavskunskap": {
+   "cls": "typeName",
+   "s": [
+    "bokstavskunskap",
+    "bokstavskunskap legilexi"
+   ]
+  },
+  "bokstavskunskap arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bygga ord": {
+   "cls": "typeName",
+   "s": [
+    "bygga ord",
+    "bygga ordförråd",
+    "bygga ord av bokstäver",
+    "bygga ord med bokstäver",
+    "bygga ord wordfeud",
+    "bygga ord spel",
+    "bygga ordmoln",
+    "bygg ordlista",
+    "bygg ordlista engelska svenska",
+    "bygga lasagne ordning"
+   ]
+  },
+  "bygga ord arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bildordförråd": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bildordförråd arbetsblad": {
+   "cls": "typeName",
+   "s": []
+  },
+  "fonologisk medvetenhet": {
+   "cls": "typeName",
+   "s": [
+    "fonologisk medvetenhet",
+    "fonologisk medvetenhet övningar",
+    "fonologisk medvetenhet i förskolan",
+    "fonologisk medvetenhet dyslexi",
+    "fonologisk medvetenhet trappa",
+    "fonologisk medvetenhet betyder",
+    "fonologisk medvetenhet skolverket",
+    "fonologisk medvetenhet test",
+    "fonologisk medvetenhet engelska",
+    "fonologisk medvetenhet exempel"
+   ]
+  },
+  "fonologisk medvetenhet arbetsblad": {
+   "cls": "typeName",
    "s": []
   }
  },
  "unique": [
+  "addition",
+  "addition arbetsblad",
+  "addition med bråk",
+  "addition med tiotalsövergång arbetsblad",
+  "addition och subtraktion",
+  "addition och subtraktion arbetsblad",
+  "addition och subtraktion upp till 20",
+  "addition svenska",
   "addition up 10",
   "addition up 100",
   "addition upp till 10",
   "addition upp till 100",
+  "additional",
+  "additional svenska",
+  "additionally svenska",
+  "additionally synonym",
+  "additionals polestar",
+  "additionsmetoden",
   "aktiviteter 12 bokstäver",
   "aktiviteter bokstäver förskola",
   "aktiviteter matte",
   "aktiviteter med bokstäver",
+  "alfabetet ljudning",
+  "arbetsblad addition 0 10",
+  "arbetsblad addition 0 20",
+  "arbetsblad addition och subtraktion",
+  "arbetsblad addition uppställning",
+  "arbetsblad addition åk 1",
+  "arbetsblad bråk och procent",
+  "arbetsblad bråk åk 2",
+  "arbetsblad bråk åk 4",
+  "arbetsblad bråk åk 5",
+  "arbetsblad bråk åk 6",
+  "arbetsblad klockan engelska",
+  "arbetsblad klockan förskoleklass",
+  "arbetsblad klockan gratis",
+  "arbetsblad klockan hel och halv",
+  "arbetsblad klockan hel timme",
+  "arbetsblad klockan åk 2",
+  "arbetsblad klockan åk 4",
+  "arbetsblad mönster förskolan",
+  "arbetsblad prepositioner engelska",
+  "arbetsblad subtraktion 0 10",
+  "arbetsblad subtraktion uppställning",
+  "bamse bokstavspussel",
+  "bildvägg",
+  "bildvägg 9 bokstäver",
+  "bildvägg korsord 9 bokstäver",
+  "bildvägg tapet",
+  "bingo",
+  "bingo loco",
+  "bingo online",
+  "bingo rimer",
+  "bingo trollhättan",
+  "bingo uddevalla",
+  "bingolotto",
+  "bingolotto idag",
+  "bingolotto programledare",
+  "bingolotto rätta",
   "blandat 4 bokstäver",
   "blandat 7 bokstäver",
   "blandat om 4 bokstäver",
@@ -1663,6 +2722,27 @@
   "blommor korsord 8 bokstäver",
   "blommor med bokstäver",
   "blommor på alla bokstäver",
+  "bokstavskunskap",
+  "bokstavskunskap legilexi",
+  "bokstavsljud",
+  "bokstavsljud bilder",
+  "bokstavsljud bok",
+  "bokstavsljud elevspel",
+  "bokstavsljud fonem",
+  "bokstavsljud förskola",
+  "bokstavsljud järn",
+  "bokstavsljud mun",
+  "bokstavsljud spel",
+  "bokstavsljuden",
+  "bokstavspussel",
+  "bokstavspussel a ö",
+  "bokstavspussel app",
+  "bokstavspussel att skriva ut",
+  "bokstavspussel djur",
+  "bokstavspussel lekia",
+  "bokstavspussel lena andersson",
+  "bokstavspussel smartare än en femteklassare",
+  "bokstavspussel trä",
   "bokstäver",
   "bokstäver att skriva ut",
   "bokstäver barnrum",
@@ -1675,12 +2755,52 @@
   "bokstäver på engelska",
   "bokstäver teckenspråk",
   "bokstäver till dörr",
+  "bråk",
+  "bråk arbetsblad",
+  "bråk arbetsblad åk 3",
+  "bråk efter slutsignal vm",
+  "bråk efter vm finalen",
+  "bråk korsord",
+  "bråk korsord 5 bokstäver",
+  "bråk synonym",
+  "bråk vm final",
+  "bråka",
+  "bråkar med clouseau",
+  "bråkar med clouseau korsord",
+  "bygg ordlista",
+  "bygg ordlista engelska svenska",
+  "bygga lasagne ordning",
+  "bygga ord",
+  "bygga ord av bokstäver",
+  "bygga ord med bokstäver",
+  "bygga ord spel",
+  "bygga ord wordfeud",
+  "bygga ordförråd",
+  "bygga ordmoln",
   "camping matte",
   "camping matte aufblasbar",
   "camping matte landi",
   "camping matte selbstaufblasend",
   "camping matte test",
   "camping matte vorzelt",
+  "compare talent builds wow",
+  "compare talents wow",
+  "compare tall",
+  "compare tall and short",
+  "compare tall buildings",
+  "compare tallest buildings in the world",
+  "compare tally and zoho",
+  "diagram",
+  "diagram arbetsblad",
+  "diagram engelska",
+  "diagram excel",
+  "diagram korsord",
+  "diagram maker",
+  "diagram synonym",
+  "diagram typer",
+  "diagrammatisk",
+  "diagrammet",
+  "diagrams",
   "digitalt verktyg matte",
   "dinosaurier 10 bokstäver",
   "dinosaurier 11 bokstäver",
@@ -1697,6 +2817,7 @@
   "djur 7 bokstäver korsord",
   "djur bokstäver",
   "djur matte",
+  "enkel addition arbetsblad",
   "finmotorik",
   "finmotorik barn",
   "finmotorik barn 2 år",
@@ -1708,6 +2829,16 @@
   "finmotorik övningar",
   "finmotoriken",
   "firas i juli 4 bokstäver",
+  "fonologisk medvetenhet",
+  "fonologisk medvetenhet betyder",
+  "fonologisk medvetenhet dyslexi",
+  "fonologisk medvetenhet engelska",
+  "fonologisk medvetenhet exempel",
+  "fonologisk medvetenhet i förskolan",
+  "fonologisk medvetenhet skolverket",
+  "fonologisk medvetenhet test",
+  "fonologisk medvetenhet trappa",
+  "fonologisk medvetenhet övningar",
   "fordon 2 bokstäver",
   "fordon 3 bokstäver",
   "fordon 3 bokstäver korsord",
@@ -1733,6 +2864,7 @@
   "fåglar 7 bokstäver",
   "fåglar 8 bokstäver",
   "fåglar 9 bokstäver",
+  "förkorta bråk arbetsblad",
   "första inspelade ljudet",
   "första ljudet",
   "första ljudet arbetsblad",
@@ -1743,6 +2875,17 @@
   "första ljudet spel",
   "första ljudet tärningsbingo",
   "första ljudet wordwall",
+  "geografi arbetsblad",
+  "geometri",
+  "geometri arbetsblad",
+  "geometri arbetsblad åk 1",
+  "geometri korsord",
+  "geometri synonym",
+  "geometrisk fördelning",
+  "geometrisk summa",
+  "geometrisk summa formel",
+  "geometrisk talföljd",
+  "geometriska figurer",
   "geometriska former",
   "geometriska former 2d",
   "geometriska former 3d",
@@ -1753,6 +2896,17 @@
   "geometriska former förskoleklass",
   "geometriska former namn",
   "geometriska former åk 4",
+  "geometry dash",
+  "gissa ordet",
+  "gissa ordet app",
+  "gissa ordet barn",
+  "gissa ordet hjälp",
+  "gissa ordet i pannan",
+  "gissa ordet lek",
+  "gissa ordet skolplus",
+  "gissa ordet spel",
+  "gissa ordet spel app",
+  "gissa ordet svenska",
   "glad påsk bokstäver",
   "glad sommar bokstäver",
   "god jul bokstäver",
@@ -1762,6 +2916,17 @@
   "grönsaker 7 bokstäver korsord",
   "grönsaker 8 bokstäver",
   "grönsaker korsord 8 bokstäver",
+  "hand och öga koordination",
+  "hundraruta",
+  "hundraruta gratis",
+  "hundraruta matematik",
+  "hundraruta multiplikation",
+  "hundraruta ncm",
+  "hundraruta skolplus",
+  "hundraruta skriva ut",
+  "hundraruta tom",
+  "hundraruta utan siffror",
+  "hundrarutan",
   "husdjur 10 bokstäver",
   "husdjur 2 bokstäver",
   "husdjur 3 bokstäver",
@@ -1776,12 +2941,22 @@
   "jul bokstäver",
   "jul matte",
   "jul tre bokstäver",
+  "jämföra bråk arbetsblad",
+  "jämföra tal",
+  "jämföra tal i bråkform",
+  "jämföra två tal i excel",
   "kartläggning förskoleklass stationer",
   "kartläggning förskoleklass svenska som andraspråk",
   "klassrum 5 bokstäver",
   "klassrum 7 bokstäver",
   "klassrum 8 bokstäver",
+  "klocka arbetsblad",
   "klockan",
+  "klockan arbetsblad",
+  "klockan arbetsblad åk 3",
+  "klockan hel och halv",
+  "klockan hel och halvtimme",
+  "klockan hel och halvtimme arbetsblad",
   "klockan i australien",
   "klockan i japan",
   "klockan i los angeles",
@@ -1792,6 +2967,17 @@
   "klockan just nu",
   "klockan nu",
   "kläder 5 bokstäver",
+  "ko mattepussel",
+  "korsord",
+  "korsord 4 bokstäver",
+  "korsord barn",
+  "korsord gratis",
+  "korsord hjälp",
+  "korsord online",
+  "korsordshjälp",
+  "korsordshjälp 6 bokstäver",
+  "korsordslexikon",
+  "korsordstidningar",
   "kroppsdelar 3 bokstäver",
   "kroppsdelar 4 bokstäver",
   "kroppsdelar 4 bokstäver korsord",
@@ -1799,6 +2985,16 @@
   "kroppsdelar 5 bokstäver korsord",
   "kroppsdelar 6 bokstäver",
   "kroppsdelar 7 bokstäver",
+  "kryptogam",
+  "kryptogam korsord",
+  "kryptogam synonym",
+  "kryptogamer",
+  "kryptogram",
+  "kryptogram 8 bokstäver",
+  "kryptogram ab",
+  "kryptogram korsord",
+  "kryptogram svenska",
+  "kryptogram synonym",
   "känslor 6 bokstäver",
   "känslor 7 bokstäver",
   "känslor 9 bokstäver",
@@ -1831,25 +3027,84 @@
   "ljudabsorberande panel",
   "ljudanläggning",
   "ljudanläggning 2 bokstäver",
+  "ljudning",
+  "ljudning läsa",
+  "ljudning på båt",
+  "ljudning är a och o för att knäcka läskoden",
+  "ljudningsmetoden",
+  "ljudningsmetoden läsning",
+  "ljudningsmetoden phonics",
+  "ljudningsstrategi",
+  "logiska pussel",
+  "logiska pussel barn",
+  "logiska pussel bok",
+  "logiska pussel online",
   "läsförståelse",
   "läsförståelse blå",
   "läsförståelse grön",
+  "läsförståelse klass 1b",
   "läsförståelse på engelska",
   "läsförståelse röd",
   "läsförståelse svenska",
+  "läsförståelse svenska åk 1",
+  "läsförståelse svenska åk 1 övningar",
   "läsförståelse åk 1",
+  "läsförståelse åk 1 3",
+  "läsförståelse åk 1 arbetsblad",
   "läsförståelse åk 1 gratis",
+  "läsförståelse åk 1 pdf",
   "läsförståelse åk 2 gratis",
   "läsförståelse åk 3",
+  "läsning åk 1",
   "läxa förskoleklass",
   "man i juli 4 bokstäver",
   "maskinelement övningshäfte",
+  "matchning",
+  "matchning engelska",
+  "matchning från dag 1",
+  "matchning parti",
+  "matchning synonym",
+  "matchningar",
+  "matchnings app",
+  "matchnings app synonym",
+  "matchningsprincipen",
+  "matchningsprincipen redovisning",
+  "matematik addition arbetsblad",
   "matematik stationer förskoleklass",
   "matte aktiviteter for barn",
   "matte aktiviteter på förskolan",
   "matte aktiviteter ute",
   "matte klassrum",
+  "matteblad",
+  "matteblad att skriva ut",
+  "matteblad förskola",
+  "matteblad förskoleklass",
+  "matteblad multiplikation",
+  "matteblad åk 1",
+  "matteblad åk 2",
+  "matteblad åk 3",
+  "matteblad åk 4",
+  "matteblad åk 5",
+  "mattepussel",
+  "mer eller mindre",
+  "mer eller mindre berusande korsord",
+  "mer eller mindre bredd i grafiken",
+  "mer eller mindre bredd i grafiken korsord",
+  "mer eller mindre regler",
+  "mer eller mindre spel",
+  "mer eller mindre symbol",
+  "mer eller mindre synonym",
+  "mer eller mindre taggade",
+  "mer eller mindre tecken",
   "micki leksaker bokstäver",
+  "miramar 2025",
+  "miramar album",
+  "miramar aza manahy",
+  "miramar hold up",
+  "miramar maty aminao",
+  "miramar so high",
+  "miramar victory",
+  "miramar victory parole",
   "musik 3 bokstäver",
   "musik 4 bokstäver",
   "musik bokstäver",
@@ -1861,7 +3116,9 @@
   "musik matte",
   "musik möller 3 bokstäver",
   "musik ornament 5 bokstäver",
+  "mäta arbetsblad",
   "mätning",
+  "mätning arbetsblad",
   "mätning partier",
   "mätningar inför valet 2026",
   "mätningar politik",
@@ -1876,8 +3133,12 @@
   "möbler 7 bokstäver",
   "möbler korsord 5 bokstäver",
   "mönster",
+  "mönster arbetsblad",
+  "mönster arbetsblad förskoleklass",
+  "mönster arbetsblad åk 1",
   "mönster stickad tröja",
   "mönsterbetong",
+  "mönsterblad föreningen för svensk hemslöjd",
   "mönsterdjup nya sommardäck",
   "mönsterdjup sommardäck",
   "mönsterdjup vinterdäck",
@@ -1888,7 +3149,44 @@
   "namnsdag i juli 4 bokstäver",
   "omkastade bokstäver jul",
   "omkastade bokstäver yrken",
+  "ordbilder",
+  "ordbilder arbetsblad",
+  "ordbilder att skriva ut",
+  "ordbilder förskola",
+  "ordbilder förskoleklass",
+  "ordbilder hitta språket",
+  "ordbilder kartläggning förskoleklass",
+  "ordbilder media",
+  "ordbilder media ab",
+  "ordbilder åk 1",
+  "ordförståelse åk 1",
+  "ordletare",
+  "para ihop bilder",
+  "para ihop bilder förskolan",
+  "para ihop bilder spel",
+  "para ihop två bilder",
   "pedagogiska leksaker bokstäver",
+  "positionssystemet",
+  "positionssystemet arbetsblad",
+  "positionssystemet arbetsblad gratis",
+  "positionssystemet bildstöd",
+  "positionssystemet film",
+  "positionssystemet laborativt material",
+  "positionssystemet skolmagi",
+  "positionssystemet spel",
+  "positionssystemet åk 1",
+  "positionssystemet åk 2",
+  "prepositioner",
+  "prepositioner arbetsblad",
+  "prepositioner engelska",
+  "prepositioner franska",
+  "prepositioner förskola",
+  "prepositioner lista",
+  "prepositioner som styr ackusativ och dativ tyska",
+  "prepositioner som styr dativ tyska",
+  "prepositioner spanska",
+  "prepositioner svenska",
+  "prepositioner tyska",
   "påsk 4 bokstäver",
   "påsk 4 bokstäver korsord",
   "påsk 5 bokstäver",
@@ -1896,6 +3194,12 @@
   "påsk färg 5 bokstäver",
   "påsk räkna ut",
   "r övningshäfte",
+  "range rover sport sv matte",
+  "range rover sport sv matte black",
+  "range rover sport sv matte blue",
+  "range rover sport sv matte green",
+  "range rover sport sv matte grey",
+  "range rover sport sv matte red",
   "rimord",
   "rimord 5 bokstäver",
   "rimord förskola",
@@ -1911,6 +3215,7 @@
   "rymden 5 bokstäver korsord",
   "rymden 6 bokstäver",
   "rymden matte",
+  "räkna bilder",
   "räkna blommor",
   "räkna dinosaurier",
   "räkna djur",
@@ -1922,7 +3227,12 @@
   "räkna fåglar 2026",
   "räkna fåglar i sverige",
   "räkna fåglar vid fågelbordet",
+  "räkna gånger med streck",
+  "räkna med bråk arbetsblad",
+  "räkna med streck",
   "räkna musik",
+  "räkna om bilder för tryck",
+  "räkna om i bilder för tryck korsord",
   "räkna till 20",
   "räkna till 20 på arabiska",
   "räkna till 20 på danska",
@@ -1935,6 +3245,14 @@
   "räkna till 20 på tyska",
   "räkna träd",
   "räkna träd per hektar",
+  "räknestreck",
+  "saknade bitar lego",
+  "saknar bitar",
+  "saknar bitar 3 bokstäver",
+  "saknar bitar 3 bokstäver korsord",
+  "saknar bitar korsord",
+  "saknar bitar webbkryss",
+  "saknas bitar i pussel",
   "sist i juli 4 bokstäver",
   "sjukhus 10 bokstäver",
   "sjukhus 2 bokstäver",
@@ -1947,14 +3265,52 @@
   "sjukhus korsord 8 bokstäver",
   "sjukhus stockholm 5 bokstäver",
   "skatt fordon räkna",
+  "skattjakt",
+  "skattjakt barn",
+  "skattjakt barnkalas",
+  "skattjakt barnkalas 5 år",
+  "skattjakt barnkalas 7 år",
+  "skattjakt för vuxna",
+  "skattjakt göteborg",
+  "skattjakt med uppdrag barn gratis",
+  "skattjakten",
+  "skattjakten podd",
   "skogsdjur 4 bokstäver",
   "skogsdjur 4 bokstäver korsord",
   "skogsdjur 6 bokstäver",
   "skolplus tiokamrater",
+  "skrivstil",
+  "skrivstil alfabetet",
+  "skrivstil bokstäver",
+  "skrivstil engelska",
+  "skrivstil generator",
+  "skrivstil r",
+  "skrivstil s",
+  "skrivstil typsnitt",
+  "skrivstilar",
+  "skrivstilsbok",
+  "slå ihop bilder",
+  "slå ihop bilder ai",
+  "slå ihop bilder gratis",
+  "slå ihop bilder iphone",
+  "slå ihop bilder powerpoint",
+  "slå ihop bilder till en pdf",
   "sommar 6 bokstäver",
   "sommar bokstäver",
   "sommar korsord 6 bokstäver",
   "sommar matte",
+  "sortera bilder",
+  "sortera bilder efter datum iphone",
+  "sortera bilder efter storlek iphone",
+  "sortera bilder i album iphone",
+  "sortera bilder i mappar",
+  "sortera bilder ipad",
+  "sortera bilder iphone",
+  "sortera bilder med ai",
+  "sortera bilder på datorn",
+  "sortera bilder samsung",
+  "sortera och klassificera",
+  "sortera och klassificera i förskolan",
   "stationer förskoleklass",
   "stationer idrott förskoleklass",
   "stavelser",
@@ -1967,6 +3323,16 @@
   "stavelser regler",
   "stavelser räknare",
   "stavelser svenska",
+  "stor eller liten bokstav",
+  "stor eller liten bokstav efter",
+  "stor eller liten bokstav efter citattecken",
+  "stor eller liten bokstav efter kolon",
+  "stor eller liten bokstav efter semikolon",
+  "stor eller liten bokstav i mailadress",
+  "stor eller liten bokstav i punktlista",
+  "stor eller liten bokstav månad",
+  "stor eller liten kruka till pelargon",
+  "stor eller liten sättpotatis",
   "strand 4 bokstäver",
   "strand 5 bokstäver",
   "strand ellen 3 bokstäver",
@@ -1980,12 +3346,72 @@
   "strand matte haarspray",
   "strand matte paste",
   "strand matte wax",
+  "strukturerad ljudningsmetod",
+  "subtraktion",
+  "subtraktion arbetsblad",
+  "subtraktion av bråk",
+  "subtraktion förskoleklass",
+  "subtraktion med bråk",
+  "subtraktion med tiotalsövergång",
+  "subtraktion med uppställning",
+  "subtraktion med växling",
+  "subtraktion med växling arbetsblad",
+  "subtraktion skillnad",
+  "subtraktion upp till 20",
+  "subtraktion uppställning",
+  "subtraktionsangiografi",
   "sva arbetsblad",
   "sva förskoleklass",
   "sva undervisning förskoleklass",
   "svenska som andraspråk förskoleklass",
+  "symmetri",
+  "symmetrilinje",
+  "symmetrilinjens ekvation",
+  "symmetrilinjer",
+  "symmetrilinjer rektangel",
+  "symmetrisk",
+  "symmetriska",
+  "symmetriskt",
+  "symmetriskt diagram buddhister",
+  "symmetriskt diagram som buddhister mediterar över",
   "särskola förskoleklass",
+  "tabeller och diagram arbetsblad",
+  "talkamrater",
+  "talkamrater 0 20",
+  "talkamrater 0-10",
+  "talkamrater 10",
+  "talkamrater 5",
+  "talkamrater 6",
+  "talkamrater arbetsblad",
+  "talkamrater elevspel",
   "talkamrater på hög",
+  "talkamrater spel",
+  "talkamrater till 6",
+  "tallinje",
+  "tallinje 0 100 arbetsblad",
+  "tallinje 0 20 arbetsblad",
+  "tallinje 0-100",
+  "tallinje 0-20",
+  "tallinje arbetsblad",
+  "tallinje arbetsblad gratis",
+  "tallinje arbetsblad åk 3",
+  "tallinje arbetsblad åk 3 gratis",
+  "tallinje att skriva ut",
+  "tallinjen",
+  "tallinjen arbetsblad åk 1",
+  "tallinjen korsord",
+  "tallinjen åk 3",
+  "tallinjer",
+  "talraden",
+  "talraden 0 10",
+  "talraden 0 100 skriva ut",
+  "talraden 0-100",
+  "talraden 0-20",
+  "talraden 1-10",
+  "talraden arbetsblad",
+  "talraden film",
+  "talraden förskoleklass",
+  "talraden åk 1",
   "taluppfattning",
   "taluppfattning förskola",
   "taluppfattning förskoleklass",
@@ -1996,6 +3422,7 @@
   "taluppfattning åk 2",
   "taluppfattning åk 3",
   "taluppfattning åk 9",
+  "terramar 2026",
   "thanksgiving matte nails",
   "tillbehör 10 bokstäver",
   "tillbehör 3 bokstäver",
@@ -2012,12 +3439,28 @@
   "tiokamraterna matematik",
   "tiokamraterna sång",
   "tiokamraterna övningar",
+  "tioramar",
+  "tiotal ental hundratal",
+  "tiotal och ental",
+  "tiotal och ental arbetsblad",
+  "tiotal och ental film",
+  "tiotal och ental åk 1",
+  "titta hitta och räkna med oss",
   "träd 2 bokstäver",
   "träd 3 bokstäver",
   "träd 3 bokstäver sal",
   "träd 4 bokstäver",
   "träd 5 bokstäver",
   "träd 8 bokstäver",
+  "träna klockan hel och halv",
+  "upprepad addition arbetsblad",
+  "vad passar inte bättre än",
+  "vad är tiotal och ental",
+  "vem passar inte i lugg",
+  "vem passar inte jungfrun med",
+  "vem passar inte kräftan med",
+  "vem passar inte stenbocken med",
+  "vem passar inte vattumannen med",
   "verkstadshandboken övningshäfte",
   "verktyg 3 bokstäver",
   "verktyg 3 bokstäver korsord",
@@ -2030,9 +3473,20 @@
   "verktyg för att räkna ut vinkel",
   "verktyg korsord 6 bokstäver",
   "verktyg korsord 7 bokstäver",
+  "vilka passar inte vågen med",
+  "vilken medicin passar inte med grapefrukt",
+  "vilken medicin passar inte med magnesium",
+  "vilken måltid passar inte för män",
   "vinter härskare 4 bokstäver",
   "vinter matte",
   "vinter uttryck 3 bokstäver",
+  "visuel perception dansk",
+  "visuel perception træning",
+  "visuel perceptionsforstyrrelse",
+  "visuell perception",
+  "visuell perception betyder",
+  "visuell perceptionsstörning",
+  "visuella perceptionssvårigheter",
   "väder 6 bokstäver",
   "väder fyra bokstäver",
   "väder glosa 3 bokstäver",
@@ -2047,6 +3501,14 @@
   "vår motsats 2 bokstäver",
   "vår planet 6 bokstäver korsord",
   "vår tid 3 bokstäver",
+  "öga hand koordination",
+  "öga hand koordination barn",
+  "öga hand koordination bebis",
+  "öga hand koordination betyder",
+  "öga hand koordination förskola",
+  "öga hand koordination idrott",
+  "öga hand koordination svårigheter",
+  "öga hand koordination övningar",
   "övningshäfte bokstäver",
   "övningshäfte engelska",
   "övningshäfte körkort",
@@ -2055,6 +3517,8 @@
   "övningshäfte svenska"
  ],
  "novel": [
+  "addition och subtraktion upp till 20",
+  "addition svenska",
   "addition up 10",
   "addition up 100",
   "addition upp till 10",
@@ -2063,6 +3527,10 @@
   "aktiviteter bokstäver förskola",
   "aktiviteter matte",
   "aktiviteter med bokstäver",
+  "alfabetet ljudning",
+  "bamse bokstavspussel",
+  "bingo loco",
+  "bingolotto rätta",
   "blandat 4 bokstäver",
   "blandat 7 bokstäver",
   "blandat om 4 bokstäver",
@@ -2080,6 +3548,16 @@
   "blommor korsord 8 bokstäver",
   "blommor med bokstäver",
   "blommor på alla bokstäver",
+  "bokstavsljud",
+  "bokstavsljud bilder",
+  "bokstavsljud bok",
+  "bokstavsljud elevspel",
+  "bokstavsljud fonem",
+  "bokstavsljud förskola",
+  "bokstavsljud järn",
+  "bokstavsljud mun",
+  "bokstavsljud spel",
+  "bokstavsljuden",
   "bokstäver",
   "bokstäver att skriva ut",
   "bokstäver barnrum",
@@ -2092,12 +3570,17 @@
   "bokstäver på engelska",
   "bokstäver teckenspråk",
   "bokstäver till dörr",
+  "bråk efter slutsignal vm",
+  "bråk efter vm finalen",
+  "bråk vm final",
+  "bråka",
   "camping matte",
   "camping matte aufblasbar",
   "camping matte landi",
   "camping matte selbstaufblasend",
   "camping matte test",
   "camping matte vorzelt",
+  "diagram typer",
   "digitalt verktyg matte",
   "dinosaurier 10 bokstäver",
   "dinosaurier 11 bokstäver",
@@ -2150,6 +3633,7 @@
   "fåglar 7 bokstäver",
   "fåglar 8 bokstäver",
   "fåglar 9 bokstäver",
+  "geometrisk fördelning",
   "geometriska former 2d",
   "geometriska former 3d",
   "geometriska former att skriva ut",
@@ -2158,6 +3642,8 @@
   "geometriska former förskoleklass",
   "geometriska former namn",
   "geometriska former åk 4",
+  "gissa ordet i pannan",
+  "gissa ordet spel app",
   "glad påsk bokstäver",
   "glad sommar bokstäver",
   "god jul bokstäver",
@@ -2167,6 +3653,8 @@
   "grönsaker 7 bokstäver korsord",
   "grönsaker 8 bokstäver",
   "grönsaker korsord 8 bokstäver",
+  "hand och öga koordination",
+  "hundraruta matematik",
   "husdjur 10 bokstäver",
   "husdjur 2 bokstäver",
   "husdjur 3 bokstäver",
@@ -2186,7 +3674,11 @@
   "klassrum 5 bokstäver",
   "klassrum 7 bokstäver",
   "klassrum 8 bokstäver",
+  "klockan hel och halv",
+  "klockan hel och halvtimme",
+  "klockan hel och halvtimme arbetsblad",
   "kläder 5 bokstäver",
+  "korsordstidningar",
   "kroppsdelar 3 bokstäver",
   "kroppsdelar 4 bokstäver",
   "kroppsdelar 4 bokstäver korsord",
@@ -2194,6 +3686,10 @@
   "kroppsdelar 5 bokstäver korsord",
   "kroppsdelar 6 bokstäver",
   "kroppsdelar 7 bokstäver",
+  "kryptogam",
+  "kryptogam korsord",
+  "kryptogam synonym",
+  "kryptogamer",
   "känslor 6 bokstäver",
   "känslor 7 bokstäver",
   "känslor 9 bokstäver",
@@ -2226,25 +3722,42 @@
   "ljudabsorberande panel",
   "ljudanläggning",
   "ljudanläggning 2 bokstäver",
+  "ljudning",
+  "ljudning läsa",
+  "ljudning på båt",
+  "ljudning är a och o för att knäcka läskoden",
+  "ljudningsmetoden",
+  "ljudningsmetoden läsning",
+  "ljudningsmetoden phonics",
+  "ljudningsstrategi",
   "läsförståelse",
   "läsförståelse blå",
   "läsförståelse grön",
+  "läsförståelse klass 1b",
   "läsförståelse på engelska",
   "läsförståelse röd",
   "läsförståelse svenska",
+  "läsförståelse svenska åk 1",
   "läsförståelse åk 1",
+  "läsförståelse åk 1 3",
+  "läsförståelse åk 1 arbetsblad",
   "läsförståelse åk 1 gratis",
+  "läsförståelse åk 1 pdf",
   "läsförståelse åk 2 gratis",
   "läsförståelse åk 3",
+  "läsning åk 1",
   "läxa förskoleklass",
   "man i juli 4 bokstäver",
   "maskinelement övningshäfte",
+  "matchning engelska",
+  "matchning parti",
   "matematik stationer förskoleklass",
   "matte aktiviteter for barn",
   "matte aktiviteter på förskolan",
   "matte aktiviteter ute",
   "matte klassrum",
   "micki leksaker bokstäver",
+  "miramar maty aminao",
   "musik 3 bokstäver",
   "musik 4 bokstäver",
   "musik bokstäver",
@@ -2267,7 +3780,28 @@
   "namnsdag i juli 4 bokstäver",
   "omkastade bokstäver jul",
   "omkastade bokstäver yrken",
+  "ordbilder",
+  "ordbilder arbetsblad",
+  "ordbilder att skriva ut",
+  "ordbilder förskola",
+  "ordbilder förskoleklass",
+  "ordbilder hitta språket",
+  "ordbilder kartläggning förskoleklass",
+  "ordbilder media",
+  "ordbilder media ab",
+  "ordbilder åk 1",
+  "ordförståelse åk 1",
   "pedagogiska leksaker bokstäver",
+  "positionssystemet",
+  "positionssystemet arbetsblad",
+  "positionssystemet arbetsblad gratis",
+  "positionssystemet bildstöd",
+  "positionssystemet film",
+  "positionssystemet laborativt material",
+  "positionssystemet skolmagi",
+  "positionssystemet spel",
+  "positionssystemet åk 1",
+  "positionssystemet åk 2",
   "påsk 4 bokstäver",
   "påsk 4 bokstäver korsord",
   "påsk 5 bokstäver",
@@ -2275,6 +3809,12 @@
   "påsk färg 5 bokstäver",
   "påsk räkna ut",
   "r övningshäfte",
+  "range rover sport sv matte",
+  "range rover sport sv matte black",
+  "range rover sport sv matte blue",
+  "range rover sport sv matte green",
+  "range rover sport sv matte grey",
+  "range rover sport sv matte red",
   "rimord",
   "rimord 5 bokstäver",
   "rimord förskola",
@@ -2326,14 +3866,30 @@
   "sjukhus korsord 8 bokstäver",
   "sjukhus stockholm 5 bokstäver",
   "skatt fordon räkna",
+  "skattjakt barnkalas 5 år",
+  "skattjakt göteborg",
+  "skattjakten podd",
   "skogsdjur 4 bokstäver",
   "skogsdjur 4 bokstäver korsord",
   "skogsdjur 6 bokstäver",
   "skolplus tiokamrater",
+  "skrivstil",
+  "skrivstil alfabetet",
+  "skrivstil bokstäver",
+  "skrivstil engelska",
+  "skrivstil generator",
+  "skrivstil r",
+  "skrivstil s",
+  "skrivstil typsnitt",
+  "skrivstilar",
+  "skrivstilsbok",
   "sommar 6 bokstäver",
   "sommar bokstäver",
   "sommar korsord 6 bokstäver",
   "sommar matte",
+  "sortera bilder i mappar",
+  "sortera och klassificera",
+  "sortera och klassificera i förskolan",
   "stationer förskoleklass",
   "stationer idrott förskoleklass",
   "stavelser",
@@ -2346,6 +3902,7 @@
   "stavelser regler",
   "stavelser räknare",
   "stavelser svenska",
+  "stor eller liten bokstav efter citattecken",
   "strand 4 bokstäver",
   "strand 5 bokstäver",
   "strand ellen 3 bokstäver",
@@ -2359,12 +3916,46 @@
   "strand matte haarspray",
   "strand matte paste",
   "strand matte wax",
+  "strukturerad ljudningsmetod",
+  "subtraktion skillnad",
+  "subtraktion upp till 20",
   "sva arbetsblad",
   "sva förskoleklass",
   "sva undervisning förskoleklass",
   "svenska som andraspråk förskoleklass",
+  "symmetri",
+  "symmetrilinje",
+  "symmetrilinjens ekvation",
+  "symmetrilinjer",
+  "symmetrilinjer rektangel",
+  "symmetrisk",
+  "symmetriska",
+  "symmetriskt",
+  "symmetriskt diagram buddhister",
+  "symmetriskt diagram som buddhister mediterar över",
   "särskola förskoleklass",
+  "talkamrater",
+  "talkamrater 0 20",
+  "talkamrater 0-10",
+  "talkamrater 10",
+  "talkamrater 5",
+  "talkamrater 6",
+  "talkamrater arbetsblad",
+  "talkamrater elevspel",
   "talkamrater på hög",
+  "talkamrater spel",
+  "talkamrater till 6",
+  "tallinjer",
+  "talraden",
+  "talraden 0 10",
+  "talraden 0 100 skriva ut",
+  "talraden 0-100",
+  "talraden 0-20",
+  "talraden 1-10",
+  "talraden arbetsblad",
+  "talraden film",
+  "talraden förskoleklass",
+  "talraden åk 1",
   "taluppfattning",
   "taluppfattning förskola",
   "taluppfattning förskoleklass",
@@ -2397,6 +3988,7 @@
   "träd 4 bokstäver",
   "träd 5 bokstäver",
   "träd 8 bokstäver",
+  "träna klockan hel och halv",
   "verkstadshandboken övningshäfte",
   "verktyg 3 bokstäver",
   "verktyg 3 bokstäver korsord",
@@ -2409,9 +4001,11 @@
   "verktyg för att räkna ut vinkel",
   "verktyg korsord 6 bokstäver",
   "verktyg korsord 7 bokstäver",
+  "vilken medicin passar inte med magnesium",
   "vinter härskare 4 bokstäver",
   "vinter matte",
   "vinter uttryck 3 bokstäver",
+  "visuel perception træning",
   "väder 6 bokstäver",
   "väder fyra bokstäver",
   "väder glosa 3 bokstäver",
@@ -2426,12 +4020,19 @@
   "vår motsats 2 bokstäver",
   "vår planet 6 bokstäver korsord",
   "vår tid 3 bokstäver",
+  "öga hand koordination",
+  "öga hand koordination barn",
+  "öga hand koordination bebis",
+  "öga hand koordination betyder",
+  "öga hand koordination förskola",
+  "öga hand koordination idrott",
+  "öga hand koordination svårigheter",
+  "öga hand koordination övningar",
   "övningshäfte bokstäver",
   "övningshäfte engelska",
   "övningshäfte körkort",
   "övningshäfte matematik",
   "övningshäfte skrivstil",
   "övningshäfte svenska"
- ],
- "refilteredAt": "2026-07-20T08:58:53.401Z"
+ ]
 }

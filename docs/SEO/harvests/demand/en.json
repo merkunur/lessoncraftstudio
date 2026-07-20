@@ -4,24 +4,25 @@
   "hl": "en",
   "gl": "us"
  },
- "generatedAt": "2026-07-20T08:46:52.284Z",
+ "generatedAt": "2026-07-20T09:39:09.847Z",
  "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
- "requestCount": 484,
+ "requestCount": 574,
  "seedCounts": {
   "skill": 35,
   "context": 20,
   "audience": 8,
   "enumerated": 72,
   "pack": 4,
-  "cross": 345
+  "cross": 315,
+  "typeName": 120
  },
  "errorCount": 0,
  "errors": [],
  "newVsInventory": {
   "inventoryUnique": 3653,
-  "demandUnique": 2336,
-  "novel": 2298,
-  "novelShare": 0.984
+  "demandUnique": 3243,
+  "novel": 2378,
+  "novelShare": 0.733
  },
  "deadSeeds": [
   "literacy centers worksheets",
@@ -36,10 +37,6 @@
   "at the supermarket alphabet",
   "beach addition",
   "birds addition",
-  "birds 2 math",
-  "birds 2 counting",
-  "birds 2 addition",
-  "birds 2 alphabet",
   "body parts addition",
   "breakfast math",
   "desserts and sweets counting",
@@ -83,101 +80,82 @@
   "weather math",
   "winter addition",
   "zoo animals addition",
-  "animals bw 2 math",
-  "animals bw 2 counting",
-  "animals bw 2 addition",
-  "animals bw 2 letters",
-  "animals bw 2 alphabet",
-  "animals bw 3 math",
-  "animals bw 3 counting",
-  "animals bw 3 addition",
-  "animals bw 3 letters",
-  "animals bw 3 alphabet",
-  "animals bw 4 math",
-  "animals bw 4 counting",
-  "animals bw 4 addition",
-  "animals bw 4 letters",
-  "animals bw 4 alphabet",
-  "animals bw 5 math",
-  "animals bw 5 counting",
-  "animals bw 5 addition",
-  "animals bw 5 letters",
-  "animals bw 5 alphabet",
-  "beach bw 2 math",
-  "beach bw 2 counting",
-  "beach bw 2 addition",
-  "beach bw 2 letters",
-  "beach bw 2 alphabet",
-  "birds bw 2 math",
-  "birds bw 2 counting",
-  "birds bw 2 addition",
-  "birds bw 2 letters",
-  "birds bw 2 alphabet",
-  "christmas b&w 2 math",
-  "christmas b&w 2 counting",
-  "christmas b&w 2 addition",
-  "christmas b&w 2 letters",
-  "christmas b&w 2 alphabet",
+  "animals bw math",
+  "animals bw counting",
+  "animals bw addition",
+  "animals bw letters",
+  "animals bw alphabet",
+  "beach bw math",
+  "beach bw counting",
+  "beach bw addition",
+  "beach bw letters",
+  "beach bw alphabet",
+  "birds bw math",
+  "birds bw counting",
+  "birds bw addition",
+  "birds bw letters",
+  "birds bw alphabet",
+  "christmas b&w math",
+  "christmas b&w counting",
+  "christmas b&w addition",
+  "christmas b&w letters",
+  "christmas b&w alphabet",
   "classroom 2 (b&w) math",
   "classroom 2 (b&w) counting",
   "classroom 2 (b&w) addition",
   "classroom 2 (b&w) letters",
   "classroom 2 (b&w) alphabet",
-  "easter bw 2 math",
-  "easter bw 2 counting",
-  "easter bw 2 addition",
-  "easter bw 2 letters",
-  "easter bw 2 alphabet",
-  "food bw 2 math",
-  "food bw 2 counting",
-  "food bw 2 addition",
-  "food bw 2 letters",
-  "food bw 2 alphabet",
-  "food bw 3 math",
-  "food bw 3 counting",
-  "food bw 3 addition",
-  "food bw 3 letters",
-  "food bw 3 alphabet",
-  "home bw 2 math",
-  "home bw 2 counting",
-  "home bw 2 addition",
-  "home bw 2 letters",
-  "home bw 2 alphabet",
-  "sea life bw 2 math",
-  "sea life bw 2 counting",
-  "sea life bw 2 addition",
-  "sea life bw 2 letters",
-  "sea life bw 2 alphabet",
-  "sports bw 2 math",
-  "sports bw 2 counting",
-  "sports bw 2 addition",
-  "sports bw 2 letters",
-  "sports bw 2 alphabet",
-  "toys bw 2 math",
-  "toys bw 2 counting",
-  "toys bw 2 addition",
-  "toys bw 2 letters",
-  "toys bw 2 alphabet",
-  "valentine bw 2 math",
-  "valentine bw 2 counting",
-  "valentine bw 2 addition",
-  "valentine bw 2 letters",
-  "valentine bw 2 alphabet",
-  "vegetables bw 2 math",
-  "vegetables bw 2 counting",
-  "vegetables bw 2 addition",
-  "vegetables bw 2 letters",
-  "vegetables bw 2 alphabet",
-  "vehicles bw 2 math",
-  "vehicles bw 2 counting",
-  "vehicles bw 2 addition",
-  "vehicles bw 2 letters",
-  "vehicles bw 2 alphabet",
-  "vehicles bw 3 math",
-  "vehicles bw 3 counting",
-  "vehicles bw 3 addition",
-  "vehicles bw 3 letters",
-  "vehicles bw 3 alphabet"
+  "easter bw math",
+  "easter bw counting",
+  "easter bw addition",
+  "easter bw letters",
+  "easter bw alphabet",
+  "food bw math",
+  "food bw counting",
+  "food bw addition",
+  "food bw letters",
+  "food bw alphabet",
+  "home bw math",
+  "home bw counting",
+  "home bw addition",
+  "home bw letters",
+  "home bw alphabet",
+  "sea life bw math",
+  "sea life bw counting",
+  "sea life bw addition",
+  "sea life bw letters",
+  "sea life bw alphabet",
+  "sports bw math",
+  "sports bw counting",
+  "sports bw addition",
+  "sports bw letters",
+  "sports bw alphabet",
+  "toys bw math",
+  "toys bw counting",
+  "toys bw addition",
+  "toys bw letters",
+  "toys bw alphabet",
+  "valentine bw math",
+  "valentine bw counting",
+  "valentine bw addition",
+  "valentine bw letters",
+  "valentine bw alphabet",
+  "vegetables bw math",
+  "vegetables bw counting",
+  "vegetables bw addition",
+  "vegetables bw letters",
+  "vegetables bw alphabet",
+  "vehicles bw math",
+  "vehicles bw counting",
+  "vehicles bw addition",
+  "vehicles bw letters",
+  "vehicles bw alphabet",
+  "picture path worksheets",
+  "picture trail worksheets",
+  "pattern worksheet worksheets",
+  "picture sort worksheets",
+  "science sorting worksheets",
+  "sequencing & life cycles worksheets"
  ],
  "suggestions": {
   "sight words": {
@@ -218,10 +196,10 @@
     "word families in english",
     "word families examples",
     "word families kindergarten",
-    "word families worksheets",
     "word families for grade 1",
     "word families chart",
     "word families pdf",
+    "word families worksheet",
     "word families for grade 2"
    ]
   },
@@ -256,7 +234,7 @@
    ]
   },
   "beginning sounds": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "beginning sounds worksheets",
     "beginning sounds",
@@ -320,9 +298,9 @@
    "s": [
     "letter recognition",
     "letter recognition activities",
-    "letter recognition worksheets",
     "letter recognition games",
     "letter recognition activities for preschoolers",
+    "letter recognition worksheet",
     "letter recognition meaning in hindi",
     "letter recognition age",
     "letter recognition assessment",
@@ -481,7 +459,7 @@
    ]
   },
   "telling time": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "telling time in swedish",
     "telling time",
@@ -496,7 +474,7 @@
    ]
   },
   "measurement": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "measurement",
     "measurement tape",
@@ -541,7 +519,7 @@
    ]
   },
   "patterns": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "patterns",
     "patterns synonym",
@@ -672,7 +650,7 @@
     "hidden objects games free online",
     "hidden objects 247",
     "hidden objects printable",
-    "hidden objects game free download"
+    "hidden objects free online"
    ]
   },
   "missing parts": {
@@ -1030,14 +1008,14 @@
    "s": [
     "speech therapy worksheets",
     "speech therapy worksheets pdf",
-    "speech therapy worksheets pdf free download",
     "speech therapy worksheets for adults pdf",
-    "speech therapy worksheets for kids",
+    "speech therapy worksheets pdf free download",
     "speech therapy worksheets free",
-    "speech therapy worksheets for 5 year olds",
-    "speech therapy worksheets for 4 year olds",
+    "speech therapy worksheets for kids",
     "speech therapy worksheets for 3 year olds",
-    "speech therapy worksheets for adults"
+    "speech therapy worksheets for adults",
+    "speech therapy worksheets for 5 year olds",
+    "speech therapy worksheets for 4 year olds"
    ]
   },
   "speech therapy kindergarten": {
@@ -1315,8 +1293,8 @@
    "s": [
     "letter p worksheets",
     "letter p worksheets for preschool",
-    "letter p worksheets pdf",
     "letter p worksheets for kindergarten",
+    "letter p worksheets pdf",
     "letter p worksheets for kindergarten pdf",
     "letter p worksheets for toddlers",
     "letter p worksheets free",
@@ -1778,16 +1756,16 @@
   "letter a activities": {
    "cls": "enumerated",
    "s": [
-    "letter a activities for preschool",
     "letter a activities",
+    "letter a activities for preschool",
     "letter a activities for toddlers",
     "letter a activities for 3 year olds",
     "letter a activities for kindergarten",
-    "letter a activities printables",
     "letter a activities for 4 year olds",
+    "letter a activities printables",
+    "letter a activities for kids",
     "letter a activities for prek",
-    "letter a activities for 2 year olds",
-    "letter a activities for 1 year olds"
+    "letter a activities for 2 year olds"
    ]
   },
   "letter b activities": {
@@ -2589,28 +2567,6 @@
    "s": [
     "birds alphabet song"
    ]
-  },
-  "birds 2 math": {
-   "cls": "cross",
-   "s": []
-  },
-  "birds 2 counting": {
-   "cls": "cross",
-   "s": []
-  },
-  "birds 2 addition": {
-   "cls": "cross",
-   "s": []
-  },
-  "birds 2 letters": {
-   "cls": "cross",
-   "s": [
-    "band birds 2 5 letters"
-   ]
-  },
-  "birds 2 alphabet": {
-   "cls": "cross",
-   "s": []
   },
   "body parts math": {
    "cls": "cross",
@@ -3520,14 +3476,14 @@
    "s": [
     "music alphabet",
     "music alphabet guitar",
-    "music alphabet book",
     "music alphabet notes",
-    "music alphabet words",
-    "music alphabet letters",
     "music alphabet piano",
     "music alphabet worksheet",
+    "music alphabet letters",
     "music alphabet font",
-    "music alphabet for kids"
+    "music alphabet for kids",
+    "music alphabet in order",
+    "music alphabet book"
    ]
   },
   "occupations math": {
@@ -4405,143 +4361,83 @@
     "alphabet zoo animals get animated"
    ]
   },
-  "animals bw 2 math": {
+  "animals bw math": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 2 counting": {
+  "animals bw counting": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 2 addition": {
+  "animals bw addition": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 2 letters": {
+  "animals bw letters": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 2 alphabet": {
+  "animals bw alphabet": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 3 math": {
+  "beach bw math": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 3 counting": {
+  "beach bw counting": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 3 addition": {
+  "beach bw addition": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 3 letters": {
+  "beach bw letters": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 3 alphabet": {
+  "beach bw alphabet": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 4 math": {
+  "birds bw math": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 4 counting": {
+  "birds bw counting": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 4 addition": {
+  "birds bw addition": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 4 letters": {
+  "birds bw letters": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 4 alphabet": {
+  "birds bw alphabet": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 5 math": {
+  "christmas b&w math": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 5 counting": {
+  "christmas b&w counting": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 5 addition": {
+  "christmas b&w addition": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 5 letters": {
+  "christmas b&w letters": {
    "cls": "cross",
    "s": []
   },
-  "animals bw 5 alphabet": {
-   "cls": "cross",
-   "s": []
-  },
-  "beach bw 2 math": {
-   "cls": "cross",
-   "s": []
-  },
-  "beach bw 2 counting": {
-   "cls": "cross",
-   "s": []
-  },
-  "beach bw 2 addition": {
-   "cls": "cross",
-   "s": []
-  },
-  "beach bw 2 letters": {
-   "cls": "cross",
-   "s": []
-  },
-  "beach bw 2 alphabet": {
-   "cls": "cross",
-   "s": []
-  },
-  "birds bw 2 math": {
-   "cls": "cross",
-   "s": []
-  },
-  "birds bw 2 counting": {
-   "cls": "cross",
-   "s": []
-  },
-  "birds bw 2 addition": {
-   "cls": "cross",
-   "s": []
-  },
-  "birds bw 2 letters": {
-   "cls": "cross",
-   "s": []
-  },
-  "birds bw 2 alphabet": {
-   "cls": "cross",
-   "s": []
-  },
-  "christmas b&w 2 math": {
-   "cls": "cross",
-   "s": []
-  },
-  "christmas b&w 2 counting": {
-   "cls": "cross",
-   "s": []
-  },
-  "christmas b&w 2 addition": {
-   "cls": "cross",
-   "s": []
-  },
-  "christmas b&w 2 letters": {
-   "cls": "cross",
-   "s": []
-  },
-  "christmas b&w 2 alphabet": {
+  "christmas b&w alphabet": {
    "cls": "cross",
    "s": []
   },
@@ -4565,225 +4461,1720 @@
    "cls": "cross",
    "s": []
   },
-  "easter bw 2 math": {
+  "easter bw math": {
    "cls": "cross",
    "s": []
   },
-  "easter bw 2 counting": {
+  "easter bw counting": {
    "cls": "cross",
    "s": []
   },
-  "easter bw 2 addition": {
+  "easter bw addition": {
    "cls": "cross",
    "s": []
   },
-  "easter bw 2 letters": {
+  "easter bw letters": {
    "cls": "cross",
    "s": []
   },
-  "easter bw 2 alphabet": {
+  "easter bw alphabet": {
    "cls": "cross",
    "s": []
   },
-  "food bw 2 math": {
+  "food bw math": {
    "cls": "cross",
    "s": []
   },
-  "food bw 2 counting": {
+  "food bw counting": {
    "cls": "cross",
    "s": []
   },
-  "food bw 2 addition": {
+  "food bw addition": {
    "cls": "cross",
    "s": []
   },
-  "food bw 2 letters": {
+  "food bw letters": {
    "cls": "cross",
    "s": []
   },
-  "food bw 2 alphabet": {
+  "food bw alphabet": {
    "cls": "cross",
    "s": []
   },
-  "food bw 3 math": {
+  "home bw math": {
    "cls": "cross",
    "s": []
   },
-  "food bw 3 counting": {
+  "home bw counting": {
    "cls": "cross",
    "s": []
   },
-  "food bw 3 addition": {
+  "home bw addition": {
    "cls": "cross",
    "s": []
   },
-  "food bw 3 letters": {
+  "home bw letters": {
    "cls": "cross",
    "s": []
   },
-  "food bw 3 alphabet": {
+  "home bw alphabet": {
    "cls": "cross",
    "s": []
   },
-  "home bw 2 math": {
+  "sea life bw math": {
    "cls": "cross",
    "s": []
   },
-  "home bw 2 counting": {
+  "sea life bw counting": {
    "cls": "cross",
    "s": []
   },
-  "home bw 2 addition": {
+  "sea life bw addition": {
    "cls": "cross",
    "s": []
   },
-  "home bw 2 letters": {
+  "sea life bw letters": {
    "cls": "cross",
    "s": []
   },
-  "home bw 2 alphabet": {
+  "sea life bw alphabet": {
    "cls": "cross",
    "s": []
   },
-  "sea life bw 2 math": {
+  "sports bw math": {
    "cls": "cross",
    "s": []
   },
-  "sea life bw 2 counting": {
+  "sports bw counting": {
    "cls": "cross",
    "s": []
   },
-  "sea life bw 2 addition": {
+  "sports bw addition": {
    "cls": "cross",
    "s": []
   },
-  "sea life bw 2 letters": {
+  "sports bw letters": {
    "cls": "cross",
    "s": []
   },
-  "sea life bw 2 alphabet": {
+  "sports bw alphabet": {
    "cls": "cross",
    "s": []
   },
-  "sports bw 2 math": {
+  "toys bw math": {
    "cls": "cross",
    "s": []
   },
-  "sports bw 2 counting": {
+  "toys bw counting": {
    "cls": "cross",
    "s": []
   },
-  "sports bw 2 addition": {
+  "toys bw addition": {
    "cls": "cross",
    "s": []
   },
-  "sports bw 2 letters": {
+  "toys bw letters": {
    "cls": "cross",
    "s": []
   },
-  "sports bw 2 alphabet": {
+  "toys bw alphabet": {
    "cls": "cross",
    "s": []
   },
-  "toys bw 2 math": {
+  "valentine bw math": {
    "cls": "cross",
    "s": []
   },
-  "toys bw 2 counting": {
+  "valentine bw counting": {
    "cls": "cross",
    "s": []
   },
-  "toys bw 2 addition": {
+  "valentine bw addition": {
    "cls": "cross",
    "s": []
   },
-  "toys bw 2 letters": {
+  "valentine bw letters": {
    "cls": "cross",
    "s": []
   },
-  "toys bw 2 alphabet": {
+  "valentine bw alphabet": {
    "cls": "cross",
    "s": []
   },
-  "valentine bw 2 math": {
+  "vegetables bw math": {
    "cls": "cross",
    "s": []
   },
-  "valentine bw 2 counting": {
+  "vegetables bw counting": {
    "cls": "cross",
    "s": []
   },
-  "valentine bw 2 addition": {
+  "vegetables bw addition": {
    "cls": "cross",
    "s": []
   },
-  "valentine bw 2 letters": {
+  "vegetables bw letters": {
    "cls": "cross",
    "s": []
   },
-  "valentine bw 2 alphabet": {
+  "vegetables bw alphabet": {
    "cls": "cross",
    "s": []
   },
-  "vegetables bw 2 math": {
+  "vehicles bw math": {
    "cls": "cross",
    "s": []
   },
-  "vegetables bw 2 counting": {
+  "vehicles bw counting": {
    "cls": "cross",
    "s": []
   },
-  "vegetables bw 2 addition": {
+  "vehicles bw addition": {
    "cls": "cross",
    "s": []
   },
-  "vegetables bw 2 letters": {
+  "vehicles bw letters": {
    "cls": "cross",
    "s": []
   },
-  "vegetables bw 2 alphabet": {
+  "vehicles bw alphabet": {
    "cls": "cross",
    "s": []
   },
-  "vehicles bw 2 math": {
-   "cls": "cross",
+  "addition": {
+   "cls": "typeName",
+   "s": [
+    "additionally synonym",
+    "additional",
+    "addition",
+    "additionsmetoden",
+    "additionally",
+    "additionally svenska",
+    "addition med bråk",
+    "addition and subtraction",
+    "additionsreaktion",
+    "additionals polestar"
+   ]
+  },
+  "addition worksheets": {
+   "cls": "typeName",
+   "s": [
+    "addition worksheets",
+    "addition worksheets for grade 1",
+    "addition worksheets for grade 2",
+    "addition worksheets for kindergarten",
+    "addition worksheets for grade 3",
+    "addition worksheets for grade 1 pdf",
+    "addition worksheets for grade 4",
+    "addition worksheets grade 5",
+    "addition worksheets for kindergarten pdf",
+    "addition worksheets pdf"
+   ]
+  },
+  "picture sudoku": {
+   "cls": "typeName",
+   "s": [
+    "picture sudoku",
+    "picture sudoku for kids",
+    "picture sudoku for kids printable",
+    "picture sudoku app",
+    "picture sudoku online free",
+    "picture sudoku online",
+    "picture sudoku generator",
+    "picture sudoku printable free",
+    "picture sudoku solver",
+    "picture sudoku printable"
+   ]
+  },
+  "picture sudoku worksheets": {
+   "cls": "typeName",
+   "s": [
+    "picture sudoku printable free",
+    "picture sudoku printable",
+    "picture sudoku puzzles",
+    "benefits of sudoku for adults",
+    "sudoku rules and regulations",
+    "sudoku rules for beginners",
+    "ways to play sudoku"
+   ]
+  },
+  "cryptogram": {
+   "cls": "typeName",
+   "s": [
+    "cryptogram",
+    "cryptogram puzzles",
+    "cryptogram solver",
+    "cryptogram answers",
+    "cryptogram letters and numbers answers",
+    "cryptogram game",
+    "cryptogram letters and numbers",
+    "cryptogram solving device",
+    "cryptograms online",
+    "cryptogram meaning"
+   ]
+  },
+  "cryptogram worksheets": {
+   "cls": "typeName",
+   "s": [
+    "cryptogram worksheets",
+    "cryptogram worksheets for kids",
+    "cryptogram worksheets pdf",
+    "cryptogram worksheets free",
+    "cryptogram worksheets printable",
+    "easter cryptogram worksheets",
+    "math cryptogram worksheets",
+    "christmas cryptogram worksheets",
+    "cryptogram puzzle worksheets",
+    "valentine's day cryptogram worksheets"
+   ]
+  },
+  "picture path": {
+   "cls": "typeName",
+   "s": [
+    "picture pattern",
+    "picture path",
+    "picture pathan",
+    "picture patch",
+    "picture pattern worksheet",
+    "picture patch photography",
+    "picture pattern for class 4",
+    "picture pattern for class 1",
+    "picture patti",
+    "picture pattern for class 3"
+   ]
+  },
+  "picture path worksheets": {
+   "cls": "typeName",
    "s": []
   },
-  "vehicles bw 2 counting": {
-   "cls": "cross",
+  "picture trail": {
+   "cls": "typeName",
+   "s": [
+    "picture trailer",
+    "picture trail",
+    "picture trail photos",
+    "picture trail flagstaff",
+    "picture trail running",
+    "picture trail of tears",
+    "picture trailer movie",
+    "picture trail camera",
+    "picture trailer truck",
+    "picture trailer hindi"
+   ]
+  },
+  "picture trail worksheets": {
+   "cls": "typeName",
    "s": []
   },
-  "vehicles bw 2 addition": {
-   "cls": "cross",
+  "subtraction": {
+   "cls": "typeName",
+   "s": [
+    "subtraction",
+    "subtraction worksheets",
+    "subtraction in excel",
+    "subtraction worksheets for grade 1",
+    "subtraction borrowing",
+    "subtraction sums",
+    "subtraction formula in excel",
+    "subtraction sums for class 2",
+    "subtraction sums for class 3",
+    "subtraction meaning in hindi"
+   ]
+  },
+  "subtraction worksheets": {
+   "cls": "typeName",
+   "s": [
+    "subtraction worksheets",
+    "subtraction worksheets for grade 1",
+    "subtraction worksheets for grade 2",
+    "subtraction worksheets for grade 3",
+    "subtraction worksheets for kindergarten",
+    "subtraction worksheets for grade 4",
+    "subtraction worksheets for grade 2 with borrowing",
+    "subtraction worksheets for grade 5",
+    "subtraction worksheets for grade 1 with borrowing",
+    "subtraction worksheets for grade 1 pdf"
+   ]
+  },
+  "code addition": {
+   "cls": "typeName",
+   "s": [
+    "code addition",
+    "code addition excel",
+    "additional code riyadh",
+    "addition code in c",
+    "addition code in python",
+    "additional code jeddah",
+    "additional code dammam",
+    "additional code lto",
+    "additional code makkah",
+    "additional code for driver's license"
+   ]
+  },
+  "code addition worksheets": {
+   "cls": "typeName",
+   "s": [
+    "addition code worksheets",
+    "code math worksheets",
+    "color code addition worksheets",
+    "math code worksheets 2nd grade",
+    "adding numbers to 20 worksheet"
+   ]
+  },
+  "more or less": {
+   "cls": "typeName",
+   "s": [
+    "more or less",
+    "more or less meaning",
+    "more or less game",
+    "more or less symbol",
+    "more or less io",
+    "more or less in spanish",
+    "more or less maddy",
+    "more or less synonym",
+    "more or less meaning in hindi",
+    "more or less sign"
+   ]
+  },
+  "more or less worksheets": {
+   "cls": "typeName",
+   "s": [
+    "more or less worksheets",
+    "more or less worksheets for kindergarten",
+    "more or less worksheets grade 2",
+    "more or less worksheets grade 1",
+    "more or less worksheets pdf",
+    "more or less worksheets preschool",
+    "more or less worksheets for kindergarten pdf",
+    "more or less worksheets for kindergarten pdf free download",
+    "more or less worksheets for nursery",
+    "more or less worksheets grade 3"
+   ]
+  },
+  "math puzzle": {
+   "cls": "typeName",
+   "s": [
+    "math puzzles",
+    "math puzzles for kids",
+    "math puzzle games",
+    "math puzzles with answers",
+    "math puzzles for adults",
+    "math puzzle questions",
+    "math puzzle worksheets",
+    "math puzzles for middle school",
+    "math puzzles for grade 5",
+    "math puzzle for class 4"
+   ]
+  },
+  "math puzzle worksheets": {
+   "cls": "typeName",
+   "s": [
+    "math puzzle worksheets",
+    "math puzzle worksheets pdf",
+    "math puzzle worksheets for grade 1",
+    "math puzzle worksheets for grade 3",
+    "math puzzle worksheets high school pdf",
+    "math puzzle worksheets pdf grade 5",
+    "math puzzle worksheets for grade 6",
+    "math puzzle worksheets for grade 2",
+    "math puzzle worksheets for grade 4",
+    "math puzzle worksheets pdf grade 4"
+   ]
+  },
+  "math worksheet": {
+   "cls": "typeName",
+   "s": [
+    "math worksheets.com",
+    "math worksheets grade 1",
+    "math worksheets grade 2",
+    "math worksheets grade 4",
+    "math worksheets grade 5",
+    "math worksheets grade 3",
+    "math worksheet for class 1",
+    "math worksheet for class 2",
+    "math worksheet for class 3",
+    "math worksheets for kindergarten"
+   ]
+  },
+  "math worksheet worksheets": {
+   "cls": "typeName",
+   "s": [
+    "math exercises worksheets",
+    "math sheets worksheets",
+    "math printables worksheets",
+    "multiplication worksheet math worksheets grade 2",
+    "what is math worksheet",
+    "examples of worksheet"
+   ]
+  },
+  "big or small": {
+   "cls": "typeName",
+   "s": [
+    "big or small",
+    "big or small worksheet",
+    "big or small lirik",
+    "big or small chord",
+    "big or small in german",
+    "big or small picture",
+    "big or small in spanish",
+    "big or small 4d",
+    "big or small object",
+    "big or small number worksheet"
+   ]
+  },
+  "big or small worksheets": {
+   "cls": "typeName",
+   "s": [
+    "big or small worksheets",
+    "big or small worksheets preschool",
+    "big or small worksheets for kindergarten",
+    "bigger or smaller worksheets",
+    "big or small worksheet for nursery",
+    "big or small worksheet pdf",
+    "big or small worksheet for kids",
+    "big or small worksheet pdf free download",
+    "big or small worksheet for grade 1",
+    "big or small worksheet for ukg"
+   ]
+  },
+  "chart count": {
+   "cls": "typeName",
+   "s": [
+    "chart counter",
+    "chart count",
+    "chart country",
+    "chart counting to 100",
+    "chart country songs",
+    "chart countdown music",
+    "chart counting by 2",
+    "chart country music",
+    "chart countable and uncountable nouns",
+    "chart counting 1 to 100"
+   ]
+  },
+  "chart count worksheets": {
+   "cls": "typeName",
+   "s": [
+    "counting chart worksheet",
+    "how to count cells in different worksheets",
+    "how many counting worksheets"
+   ]
+  },
+  "pattern train": {
+   "cls": "typeName",
+   "s": [
+    "pattern train",
+    "pattern train game",
+    "pattern trainers",
+    "pattern train topmarks",
+    "pattern training dogs",
+    "pattern triangle",
+    "pattern training firstborn",
+    "pattern trainer socks",
+    "pattern train game topmarks",
+    "pattern training osu"
+   ]
+  },
+  "pattern train worksheets": {
+   "cls": "typeName",
+   "s": [
+    "pattern train worksheet",
+    "can you see the pattern class 5 worksheets",
+    "how to train pattern recognition"
+   ]
+  },
+  "pattern worksheet": {
+   "cls": "typeName",
+   "s": [
+    "pattern worksheet",
+    "pattern worksheet for class 6",
+    "pattern worksheet for class 2",
+    "pattern worksheet for class 1",
+    "pattern worksheets for kindergarten",
+    "pattern worksheet for class 3",
+    "pattern worksheet for class 4",
+    "pattern worksheets for grade 1",
+    "pattern worksheet for class 5",
+    "pattern worksheets for preschool"
+   ]
+  },
+  "pattern worksheet worksheets": {
+   "cls": "typeName",
    "s": []
   },
-  "vehicles bw 2 letters": {
-   "cls": "cross",
+  "bingo": {
+   "cls": "typeName",
+   "s": [
+    "bingolotto",
+    "bingo rimer",
+    "bingo",
+    "bingolotto rätta",
+    "bingo card generator",
+    "bingo card",
+    "bingo maker",
+    "bingolotto idag",
+    "bingo game",
+    "bingo loco stockholm"
+   ]
+  },
+  "bingo worksheets": {
+   "cls": "typeName",
+   "s": [
+    "bingo worksheets",
+    "bingo worksheets for kids",
+    "bingo dauber worksheets",
+    "bingo examples",
+    "bingo numbers and their meanings",
+    "bingo win examples",
+    "bingo definition"
+   ]
+  },
+  "grid match": {
+   "cls": "typeName",
+   "s": [
+    "grid matcha",
+    "grid matching game",
+    "grid match",
+    "grid matching correction",
+    "grid match the following",
+    "grid matcha bowl",
+    "grid matcha menu",
+    "grid match height",
+    "matchfit grid router guide kit",
+    "matchfit grid router guide"
+   ]
+  },
+  "grid match worksheets": {
+   "cls": "typeName",
+   "s": [
+    "math grid worksheets",
+    "math grid worksheets 3rd grade"
+   ]
+  },
+  "matching": {
+   "cls": "typeName",
+   "s": [
+    "matching set",
+    "matching pfp",
+    "matching sets women",
+    "matching",
+    "matching pyjamas",
+    "matching bracelets",
+    "matching frequency",
+    "matching pfp for couples",
+    "matching tattoos",
+    "matching bracelets for couples"
+   ]
+  },
+  "matching worksheets": {
+   "cls": "typeName",
+   "s": [
+    "matching worksheets",
+    "matching worksheets for kindergarten",
+    "matching worksheets for preschool",
+    "matching worksheets for nursery",
+    "matching worksheets for kindergarten pdf",
+    "matching worksheets for toddlers",
+    "matching worksheets for grade 1",
+    "matching worksheets for kids",
+    "matching worksheets for 3 year olds",
+    "matching worksheets pdf"
+   ]
+  },
+  "picture sort": {
+   "cls": "typeName",
+   "s": [
+    "picture sorting app",
+    "picture sorting activity",
+    "picture sorts",
+    "picture sorter",
+    "picture sorting software",
+    "picture sorter app",
+    "picture sorting game",
+    "picture sorting software free",
+    "picture sorter ai",
+    "picture sorting ai"
+   ]
+  },
+  "picture sort worksheets": {
+   "cls": "typeName",
    "s": []
   },
-  "vehicles bw 2 alphabet": {
-   "cls": "cross",
+  "shadow match": {
+   "cls": "typeName",
+   "s": [
+    "shadow matching",
+    "shadow matching worksheet",
+    "shadow matching activity",
+    "shadow matching game",
+    "shadow matching worksheets for kindergarten",
+    "shadow matching puzzle",
+    "shadow matching for kids",
+    "shadow matching activity for kids",
+    "shadow matching worksheet pdf",
+    "shadow matching cut and paste"
+   ]
+  },
+  "shadow match worksheets": {
+   "cls": "typeName",
+   "s": [
+    "shadow match worksheets",
+    "shadow match worksheets kindergarten",
+    "shadow matching worksheets for preschool",
+    "shadow matching worksheets pdf",
+    "shadow matching worksheet for kids",
+    "shadow matching worksheet for nursery",
+    "shadow matching worksheet body parts",
+    "shadow matching worksheet pdf free download",
+    "shadow matching worksheet black and white",
+    "shadow matching worksheet free"
+   ]
+  },
+  "alphabet train": {
+   "cls": "typeName",
+   "s": [
+    "alphabet train",
+    "alphabet train toy",
+    "alphabet train song",
+    "alphabet train for kids",
+    "alphabet train food train",
+    "alphabet train puzzle",
+    "alphabet train drawing",
+    "alphabet train chart",
+    "alphabet train floor puzzle",
+    "alphabet train vtech"
+   ]
+  },
+  "alphabet train worksheets": {
+   "cls": "typeName",
+   "s": [
+    "alphabet train worksheet"
+   ]
+  },
+  "prepositions": {
+   "cls": "typeName",
+   "s": [
+    "prepositions",
+    "prepositions in swedish",
+    "prepositions in english",
+    "prepositionsfras",
+    "prepositions meaning",
+    "prepositionsobjekt",
+    "prepositions svenska",
+    "prepositions of place",
+    "prepositions examples",
+    "prepositions list"
+   ]
+  },
+  "prepositions worksheets": {
+   "cls": "typeName",
+   "s": [
+    "prepositions worksheets",
+    "prepositions worksheets for grade 3",
+    "prepositions worksheets for grade 1",
+    "prepositions worksheets for grade 2",
+    "prepositions worksheets pdf",
+    "prepositions worksheets grade 5",
+    "prepositions worksheets with answers",
+    "prepositions worksheets for grade 4",
+    "prepositions worksheets for kindergarten",
+    "prepositions worksheets grade 6"
+   ]
+  },
+  "word guess": {
+   "cls": "typeName",
+   "s": [
+    "word guesser",
+    "word guessing game",
+    "word guess",
+    "word guesser solver",
+    "word guessing game online",
+    "word guesser game",
+    "word guess solver",
+    "word guessing game with friends",
+    "word guessing board game",
+    "word guesser 5 letters"
+   ]
+  },
+  "word guess worksheets": {
+   "cls": "typeName",
+   "s": [
+    "word guess worksheet"
+   ]
+  },
+  "word scramble": {
+   "cls": "typeName",
+   "s": [
+    "word scrambler",
+    "word scramble",
+    "word scramble generator",
+    "word scramble solver",
+    "word scramble washington post",
+    "word scramble game",
+    "word scramble help",
+    "word scramble generator free",
+    "word scrambler tool",
+    "word scramble answers"
+   ]
+  },
+  "word scramble worksheets": {
+   "cls": "typeName",
+   "s": [
+    "word scramble worksheets",
+    "word scramble worksheets kindergarten",
+    "word scramble worksheets for kids",
+    "word scramble worksheets for grade 4",
+    "word scramble worksheets pdf",
+    "word scramble worksheets for grade 3",
+    "word scramble worksheets free",
+    "word search worksheets",
+    "word search worksheets for grade 3",
+    "word search worksheets for grade 1"
+   ]
+  },
+  "word search": {
+   "cls": "typeName",
+   "s": [
+    "word search",
+    "word search generator",
+    "word search game",
+    "word search maker",
+    "word search solver",
+    "word searcher",
+    "word search printable",
+    "word search generator free",
+    "word search puzzles",
+    "word search book"
+   ]
+  },
+  "word search worksheets": {
+   "cls": "typeName",
+   "s": [
+    "word search worksheets",
+    "word search worksheets for grade 3",
+    "word search worksheets for grade 1",
+    "word search worksheets for grade 2",
+    "word search worksheets for grade 5",
+    "word search worksheets for grade 4",
+    "word search worksheets for kids",
+    "word search worksheets pdf",
+    "word search worksheets free",
+    "word search worksheets for grade 6"
+   ]
+  },
+  "crossword": {
+   "cls": "typeName",
+   "s": [
+    "crossword",
+    "crosswordle",
+    "crossword puzzles",
+    "crossword solver",
+    "crossword help",
+    "crossword maker",
+    "crossword online",
+    "crossword nyt",
+    "crossword washington post",
+    "crossword mini"
+   ]
+  },
+  "crossword worksheets": {
+   "cls": "typeName",
+   "s": [
+    "crossword worksheets",
+    "crossword worksheets for grade 4"
+   ]
+  },
+  "find and count": {
+   "cls": "typeName",
+   "s": [
+    "find and country",
+    "find and count worksheets",
+    "find and count",
+    "find and count in excel",
+    "find and count duplicates in excel",
+    "find and count formula in excel",
+    "fine and country estate agents",
+    "find and count activity",
+    "find and finding difference",
+    "find and found difference"
+   ]
+  },
+  "find and count worksheets": {
+   "cls": "typeName",
+   "s": [
+    "find and count worksheets",
+    "find and count worksheets for kindergarten",
+    "find and count worksheets pdf",
+    "count how many worksheets"
+   ]
+  },
+  "find objects": {
+   "cls": "typeName",
+   "s": [
+    "find objects game",
+    "find objects",
+    "find objects in picture",
+    "find objects game online",
+    "find objects by type unity",
+    "find objects app",
+    "find objects in excel",
+    "find objects games free",
+    "find objects worksheet",
+    "find objects mod apk"
+   ]
+  },
+  "find objects worksheets": {
+   "cls": "typeName",
+   "s": [
+    "find objects worksheets",
+    "finding objects worksheets pdf",
+    "hidden objects worksheets",
+    "hidden objects worksheets pdf",
+    "hidden objects worksheets for kids",
+    "hidden objects worksheets for adults",
+    "hidden objects worksheets hard",
+    "hidden objects worksheets kindergarten",
+    "hidden objects worksheets pdf free",
+    "hidden objects worksheets for preschoolers"
+   ]
+  },
+  "treasure hunt": {
+   "cls": "typeName",
+   "s": [
+    "treasure hunt",
+    "treasure hunt fh6",
+    "treasure hunt movies",
+    "treasure hunt tft",
+    "treasure hunter",
+    "treasure hunt simulator codes",
+    "treasure hunt game",
+    "treasure hunt mtg",
+    "treasure hunt hot wheels",
+    "treasure hunt dreamlight valley"
+   ]
+  },
+  "treasure hunt worksheets": {
+   "cls": "typeName",
+   "s": [
+    "treasure hunt worksheets",
+    "scavenger hunt worksheets",
+    "scavenger hunt worksheets for kids",
+    "treasure hunt worksheet for kids",
+    "treasure hunt worksheet pdf",
+    "treasure hunt printable",
+    "treasure hunt sheet",
+    "treasure hunt printable free pdf",
+    "treasure hunt printable for kids",
+    "treasure hunt printable clues"
+   ]
+  },
+  "missing pieces": {
+   "cls": "typeName",
+   "s": [
+    "missing pieces lego",
+    "missing pieces",
+    "missing pieces nottingham",
+    "missing pieces in lego set",
+    "missing pieces movie",
+    "missing pieces book",
+    "missing pieces svu",
+    "missing pieces flawed mangoes",
+    "missing pieces nz",
+    "missing pieces escape room"
+   ]
+  },
+  "missing pieces worksheets": {
+   "cls": "typeName",
+   "s": [
+    "missing parts worksheets for kindergarten",
+    "missing parts worksheets",
+    "missing parts worksheets for kindergarten pdf",
+    "missing piece worksheet",
+    "what is lost missing pieces",
+    "when to watch lost missing pieces",
+    "missing piece hours",
+    "missing pieces meaning"
+   ]
+  },
+  "odd one out": {
+   "cls": "typeName",
+   "s": [
+    "odd one out",
+    "odd one out meaning",
+    "odd one out meaning in hindi",
+    "odd one out worksheet",
+    "odd one out meme",
+    "odd one out game",
+    "odd one out boba",
+    "odd one out meaning in urdu",
+    "odd one out examples",
+    "odd one out meaning in tamil"
+   ]
+  },
+  "odd one out worksheets": {
+   "cls": "typeName",
+   "s": [
+    "odd one out worksheets",
+    "odd one out worksheets for kindergarten",
+    "odd one out worksheets with answers",
+    "odd one out worksheets for adults pdf",
+    "odd one out worksheets with answers pdf free download",
+    "odd one out worksheets for kids",
+    "odd one out worksheets for ukg",
+    "odd one out worksheets for grade 5",
+    "odd one out worksheets with answers pdf",
+    "odd one out worksheets for nursery"
+   ]
+  },
+  "counting pictures": {
+   "cls": "typeName",
+   "s": [
+    "counting pictures",
+    "counting pictures for kids",
+    "counting pictures 1-10",
+    "counting pictures worksheets",
+    "counting pictures 1-20",
+    "counting pictures 1 10 worksheets",
+    "counting pictures worksheets 1-20",
+    "counting pictures for kids worksheets",
+    "counting pictures for kindergarten",
+    "counting pictures 1 5"
+   ]
+  },
+  "counting pictures worksheets": {
+   "cls": "typeName",
+   "s": [
+    "counting pictures worksheets",
+    "counting pictures worksheets 1-20",
+    "counting pictures worksheets 1 10",
+    "counting pictures worksheets for grade 1",
+    "counting pictures worksheets pdf",
+    "counting images worksheets",
+    "number counting pictures worksheets",
+    "counting using pictures worksheets",
+    "counting pictures 1 10 worksheets pdf",
+    "skip counting with pictures worksheets"
+   ]
+  },
+  "ten frames": {
+   "cls": "typeName",
+   "s": [
+    "ten frames",
+    "ten frames printable",
+    "ten frames in math",
+    "ten frames worksheets",
+    "ten frames interactive",
+    "ten frames and counters",
+    "ten frames to 20",
+    "ten frames game",
+    "ten frames addition",
+    "ten frames for kindergarten"
+   ]
+  },
+  "ten frames worksheets": {
+   "cls": "typeName",
+   "s": [
+    "ten frames worksheets",
+    "ten frames worksheets for kindergarten",
+    "ten frames worksheets for first grade",
+    "ten frames worksheets grade 1",
+    "ten frames worksheets pdf",
+    "ten frames worksheets grade 2",
+    "ten frames worksheets with answers",
+    "ten frame worksheets 11 20",
+    "ten frame worksheets for kindergarten free",
+    "ten frame worksheets free printables"
+   ]
+  },
+  "tally marks": {
+   "cls": "typeName",
+   "s": [
+    "tally marks",
+    "tally marks worksheet",
+    "tally marks table",
+    "tally marks meaning",
+    "tally marks symbol",
+    "tally marks 1 to 20",
+    "tally marks 1 to 50",
+    "tally marks in maths",
+    "tally marks worksheet for class 3",
+    "tally marks copy and paste"
+   ]
+  },
+  "tally marks worksheets": {
+   "cls": "typeName",
+   "s": [
+    "tally marks worksheets",
+    "tally marks worksheets for grade 1",
+    "tally marks worksheets for grade 2",
+    "tally marks worksheets for kindergarten",
+    "tally marks worksheets for grade 4",
+    "tally marks worksheets for grade 6",
+    "tally marks worksheets for grade 3",
+    "tally marks worksheets for class 5",
+    "tally marks worksheets pdf",
+    "tally marks worksheets for grade 1 pdf"
+   ]
+  },
+  "number charts": {
+   "cls": "typeName",
+   "s": [
+    "number charts",
+    "number charts for kids",
+    "number charts 1-100",
+    "number charts 1-20",
+    "number charts 1-200",
+    "number charts for grade 1",
+    "number charts to 1000",
+    "number charts for grade 2",
+    "number charts 1-10",
+    "number charts 1-50"
+   ]
+  },
+  "number charts worksheets": {
+   "cls": "typeName",
+   "s": [
+    "number chart worksheet",
+    "number chart maths worksheets",
+    "types of numbers worksheet",
+    "largest number worksheet"
+   ]
+  },
+  "comparing numbers": {
+   "cls": "typeName",
+   "s": [
+    "comparing numbers",
+    "comparing numbers worksheets",
+    "comparing numbers worksheets grade 1",
+    "comparing numbers examples",
+    "comparing numbers worksheets grade 3",
+    "comparing numbers worksheets grade 2",
+    "comparing numbers grade 1",
+    "comparing numbers class 1",
+    "comparing numbers worksheets grade 4",
+    "comparing numbers grade 2"
+   ]
+  },
+  "comparing numbers worksheets": {
+   "cls": "typeName",
+   "s": [
+    "comparing numbers worksheets",
+    "comparing numbers worksheets grade 3",
+    "comparing numbers worksheets grade 2",
+    "comparing numbers worksheets grade 1",
+    "comparing numbers worksheets grade 4",
+    "comparing numbers worksheets grade 5",
+    "comparing numbers worksheets for kindergarten",
+    "comparing numbers worksheets grade 6",
+    "comparing numbers worksheets grade 2 with answers",
+    "comparing numbers worksheets grade 3 pdf"
+   ]
+  },
+  "comparing groups": {
+   "cls": "typeName",
+   "s": [
+    "comparing groups applet",
+    "comparing groups",
+    "comparing groups with different sample sizes",
+    "comparing groups of objects",
+    "comparing groups of objects kindergarten",
+    "comparing groups of objects kindergarten worksheets",
+    "comparing groups statistics",
+    "comparing groups worksheet",
+    "comparing groups kindergarten",
+    "comparison groups"
+   ]
+  },
+  "comparing groups worksheets": {
+   "cls": "typeName",
+   "s": [
+    "comparing sets worksheets for grade 1",
+    "comparing sets worksheets for kindergarten",
+    "comparing sets worksheets",
+    "comparing sets worksheets for grade 2",
+    "comparing sets worksheets for preschool",
+    "comparing groups worksheet",
+    "comparing groups kindergarten worksheets",
+    "comparing groups of objects worksheets",
+    "comparing groups of objects kindergarten worksheets"
+   ]
+  },
+  "comparing sizes": {
+   "cls": "typeName",
+   "s": [
+    "comparing sizes",
+    "comparing sizes of countries",
+    "comparing sizes worksheets for kindergarten",
+    "comparing sizes activity box",
+    "comparing sizes worksheet",
+    "comparing sizes of bears",
+    "comparing sizes worksheets for grade 1",
+    "comparing sizes activities for preschoolers",
+    "comparing sizes of countries website",
+    "compare sizes of anything"
+   ]
+  },
+  "comparing sizes worksheets": {
+   "cls": "typeName",
+   "s": [
+    "comparing sizes worksheets for kindergarten",
+    "comparing sizes worksheets for grade 1",
+    "comparing sizes worksheets",
+    "comparing sizes worksheet pre k",
+    "size comparison worksheets for preschoolers"
+   ]
+  },
+  "number lines": {
+   "cls": "typeName",
+   "s": [
+    "number lines",
+    "number lines for kids",
+    "number lines in maths",
+    "number lines worksheet",
+    "number lines with fractions",
+    "number lines to 100",
+    "number lines printable",
+    "number lines for grade 1",
+    "number lines inequalities",
+    "number lines for grade 2"
+   ]
+  },
+  "number lines worksheets": {
+   "cls": "typeName",
+   "s": [
+    "number lines worksheets",
+    "number line worksheets for grade 1",
+    "number line worksheets for grade 2",
+    "number line worksheets grade 3",
+    "number line worksheets for kindergarten",
+    "number line worksheets grade 4",
+    "number line worksheets addition",
+    "number line worksheets grade 5",
+    "number line worksheets pdf",
+    "number line worksheets year 1"
+   ]
+  },
+  "base ten blocks": {
+   "cls": "typeName",
+   "s": [
+    "base ten blocks",
+    "base ten blocks online",
+    "base ten blocks math",
+    "base ten blocks worksheets",
+    "base ten blocks images",
+    "base ten blocks printable",
+    "base ten blocks game",
+    "base ten blocks manipulatives",
+    "base ten blocks worksheets grade 1",
+    "base ten blocks interactive"
+   ]
+  },
+  "base ten blocks worksheets": {
+   "cls": "typeName",
+   "s": [
+    "base ten blocks worksheets",
+    "base ten blocks worksheets grade 1",
+    "base ten blocks worksheets 2nd grade pdf",
+    "base ten blocks worksheets grade 2",
+    "base ten blocks worksheets 3rd grade pdf",
+    "base ten blocks worksheets kindergarten",
+    "base ten blocks worksheets 3rd grade",
+    "base ten blocks worksheets pdf",
+    "base ten blocks worksheets free",
+    "base ten blocks worksheets 4th grade"
+   ]
+  },
+  "telling time worksheets": {
+   "cls": "typeName",
+   "s": [
+    "telling time worksheets",
+    "telling time worksheets grade 3",
+    "telling time worksheets grade 1",
+    "telling time worksheets grade 2",
+    "telling time worksheets grade 3 pdf",
+    "telling time worksheets grade 4",
+    "telling time worksheets for kindergarten",
+    "telling time worksheets pdf",
+    "telling time worksheets grade 5",
+    "telling time worksheets free"
+   ]
+  },
+  "fractions": {
+   "cls": "typeName",
+   "s": [
+    "fractions",
+    "fractions math",
+    "fractions svenska",
+    "fractions calculator",
+    "fractions to decimals",
+    "fractions worksheets",
+    "fractions to percentages",
+    "fractions games",
+    "fractions on a number line",
+    "fractions chart"
+   ]
+  },
+  "fractions worksheets": {
+   "cls": "typeName",
+   "s": [
+    "fractions worksheets",
+    "fractions worksheets grade 3",
+    "fractions worksheets grade 4",
+    "fractions worksheets grade 5",
+    "fractions worksheets grade 7",
+    "fractions worksheets grade 2",
+    "fractions worksheets grade 6",
+    "fractions worksheets pdf",
+    "fractions worksheets grade 4 pdf",
+    "fractions worksheets grade 1"
+   ]
+  },
+  "graphs and data": {
+   "cls": "typeName",
+   "s": [
+    "graphs and data",
+    "graphs and data interpretation",
+    "graphs and data aba",
+    "graphs and data worksheets",
+    "graphs and data analysis",
+    "graphs and data visualization",
+    "graphs and data handling",
+    "graph and data table",
+    "graph and data structure",
+    "graphics and data"
+   ]
+  },
+  "graphs and data worksheets": {
+   "cls": "typeName",
+   "s": [
+    "graphs and data worksheets",
+    "data and graphs worksheets grade 5",
+    "data and graphs worksheets for grade 3",
+    "data tables and graphs worksheets"
+   ]
+  },
+  "arrays and multiplication": {
+   "cls": "typeName",
+   "s": [
+    "arrays and multiplication",
+    "arrays and multiplication worksheets",
+    "arrays and multiplication video",
+    "arrays multiplication and division",
+    "arrays multiplication and division worksheet",
+    "numberblocks arrays and multiplication",
+    "arrays multiplication 3rd grade",
+    "arrays multiplication year 2",
+    "arrays multiplication game",
+    "arrays multiplication anchor chart"
+   ]
+  },
+  "arrays and multiplication worksheets": {
+   "cls": "typeName",
+   "s": [
+    "arrays and multiplication worksheets",
+    "array multiplication worksheets pdf",
+    "arrays math worksheets",
+    "multiplication with example"
+   ]
+  },
+  "geometry": {
+   "cls": "typeName",
+   "s": [
+    "geometry dash",
+    "geometry dash lite",
+    "geometry",
+    "geometry dash download",
+    "geometry –",
+    "geometry dash demon list",
+    "geometry dash online",
+    "geometry dash world",
+    "geometry geeks",
+    "geometry dash subzero"
+   ]
+  },
+  "geometry worksheets": {
+   "cls": "typeName",
+   "s": [
+    "geometry worksheets",
+    "geometry worksheets grade 10",
+    "geometry worksheets pdf",
+    "geometry worksheets grade 5",
+    "geometry worksheets 4th grade",
+    "geometry worksheets grade 3",
+    "geometry worksheets grade 9",
+    "geometry worksheets for grade 2",
+    "geometry worksheets grade 7",
+    "geometry worksheets grade 6"
+   ]
+  },
+  "measurement worksheets": {
+   "cls": "typeName",
+   "s": [
+    "measurement worksheets",
+    "measurement worksheets grade 1 pdf",
+    "measurement worksheets grade 3",
+    "measurement worksheets grade 2 pdf",
+    "measurement worksheets for grade 1",
+    "measurement worksheets for kindergarten",
+    "measurement worksheets grade 3 pdf",
+    "measurement worksheets grade 4",
+    "measurement worksheets for grade 2",
+    "measurement worksheets grade 5"
+   ]
+  },
+  "visual logic": {
+   "cls": "typeName",
+   "s": [
+    "visual logic",
+    "visual logic puzzles",
+    "visual logical reasoning questions",
+    "visual logic puzzles for adults",
+    "visual logic puzzles for kids",
+    "visual logic model",
+    "visual logic test",
+    "visual logic download",
+    "visual logic controller",
+    "visual logic simul8"
+   ]
+  },
+  "visual logic worksheets": {
+   "cls": "typeName",
+   "s": [
+    "visual logic puzzles",
+    "visual logic puzzles for adults",
+    "visual logic puzzles for kids",
+    "visual logic puzzles with answers",
+    "what is visual logic"
+   ]
+  },
+  "visual discrimination": {
+   "cls": "typeName",
+   "s": [
+    "visual discrimination",
+    "visual discrimination worksheets",
+    "visual discrimination activities",
+    "visual discrimination meaning",
+    "visual discrimination worksheets pdf",
+    "visual discrimination skills",
+    "visual discrimination test",
+    "visual discrimination band",
+    "visual discrimination examples",
+    "visual discrimination games"
+   ]
+  },
+  "visual discrimination worksheets": {
+   "cls": "typeName",
+   "s": [
+    "visual discrimination worksheets",
+    "visual discrimination worksheets pdf",
+    "visual discrimination worksheets for kindergarten",
+    "visual discrimination worksheets for adults",
+    "visual discrimination worksheets free",
+    "visual discrimination worksheets pdf free download",
+    "visual discrimination worksheets for grade 1",
+    "visual discrimination worksheets for kids",
+    "visual discrimination worksheets for grade 3",
+    "visual discrimination worksheets pinterest"
+   ]
+  },
+  "visual matching": {
+   "cls": "typeName",
+   "s": [
+    "visual matching",
+    "visual matching worksheets",
+    "visual matching activities",
+    "visual matching game",
+    "visual matching test",
+    "visual matching task",
+    "visual matching skills",
+    "visual matching puzzle",
+    "visual matching psikotes",
+    "visual matching cards"
+   ]
+  },
+  "visual matching worksheets": {
+   "cls": "typeName",
+   "s": [
+    "visual matching worksheets",
+    "matching or matching with",
+    "difference between matching and cross matching"
+   ]
+  },
+  "patterns worksheets": {
+   "cls": "typeName",
+   "s": [
+    "patterns worksheets",
+    "patterns worksheets for kindergarten",
+    "patterns worksheets for grade 1",
+    "patterns worksheets for grade 2",
+    "patterns worksheets for grade 3",
+    "patterns worksheets grade 4",
+    "patterns worksheets grade 6",
+    "patterns worksheets for preschool",
+    "patterns worksheets for kids",
+    "patterns worksheets pdf"
+   ]
+  },
+  "position words": {
+   "cls": "typeName",
+   "s": [
+    "position words",
+    "position words worksheet",
+    "position words for class 1",
+    "position words worksheet for class 1",
+    "position words pictures",
+    "position words for kids",
+    "position words for class 2",
+    "position words in english",
+    "position words worksheet for class 2",
+    "position words worksheet for ukg"
+   ]
+  },
+  "position words worksheets": {
+   "cls": "typeName",
+   "s": [
+    "position words worksheets",
+    "position words worksheets for grade 1",
+    "position words worksheets for kindergarten",
+    "position words worksheets for grade 2",
+    "position word worksheets preschool",
+    "position words worksheet for class 1",
+    "position words worksheet for class 2",
+    "position words worksheet for ukg",
+    "position words worksheet for class 1 with answers",
+    "position words worksheet for class 2 with answers"
+   ]
+  },
+  "sorting and categorizing": {
+   "cls": "typeName",
+   "s": [
+    "sorting and categorizing",
+    "sorting and categorizing activities",
+    "sorting and categorizing worksheets",
+    "sorting and categorizing activities for kindergarten",
+    "sorting and categorizing games",
+    "difference between sorting and categorizing",
+    "this involves sorting and categorizing",
+    "difference between sorting and classifying",
+    "difference between sorting and classification"
+   ]
+  },
+  "sorting and categorizing worksheets": {
+   "cls": "typeName",
+   "s": [
+    "sorting and categorizing worksheets",
+    "sorting and classifying worksheets",
+    "sorting and classifying worksheets grade 1",
+    "sorting and classifying worksheets for kindergarten",
+    "sorting and grouping worksheets",
+    "sorting and grouping worksheets for kindergarten",
+    "sorting categories worksheets",
+    "difference between sorting and classifying"
+   ]
+  },
+  "picture math": {
+   "cls": "typeName",
+   "s": [
+    "picture math",
+    "picture math solver",
+    "picture math puzzles",
+    "picture math ai",
+    "picture math problems",
+    "picture math calculator",
+    "picture mathematics",
+    "picture math app",
+    "picture math worksheets",
+    "picture math problem solver"
+   ]
+  },
+  "picture math worksheets": {
+   "cls": "typeName",
+   "s": [
+    "picture math worksheets",
+    "picture math worksheets for kindergarten",
+    "picture math problems",
+    "picture math problems for kids",
+    "picture math problems with answers",
+    "picture math sheets",
+    "picture math problems worksheets",
+    "mystery picture math worksheets free",
+    "mystery picture math worksheets",
+    "picture math addition worksheets"
+   ]
+  },
+  "science sorting": {
+   "cls": "typeName",
+   "s": [
+    "science sorting materials into groups",
+    "science sorting",
+    "science sorting activities",
+    "science sorting activities for kindergarten",
+    "science sorting materials",
+    "science sorting animals",
+    "science sorting game",
+    "sorting science definition",
+    "computer science sorting algorithms",
+    "computer science sorting"
+   ]
+  },
+  "science sorting worksheets": {
+   "cls": "typeName",
    "s": []
   },
-  "vehicles bw 3 math": {
-   "cls": "cross",
+  "sequencing & life cycles": {
+   "cls": "typeName",
+   "s": [
+    "sequencing life cycles",
+    "sequencing life cycle of butterfly",
+    "sequencing life cycle of a plant",
+    "sequence life cycle of a frog",
+    "what is cycle sequencing"
+   ]
+  },
+  "sequencing & life cycles worksheets": {
+   "cls": "typeName",
    "s": []
   },
-  "vehicles bw 3 counting": {
-   "cls": "cross",
-   "s": []
+  "science matching": {
+   "cls": "typeName",
+   "s": [
+    "science matching game",
+    "science matching worksheets",
+    "science matching",
+    "science matching game online",
+    "science matching activity",
+    "science matching questions",
+    "science matching pfp",
+    "science matching tattoos",
+    "scientific matching of horoscopes",
+    "scientific matching"
+   ]
   },
-  "vehicles bw 3 addition": {
-   "cls": "cross",
-   "s": []
+  "science matching worksheets": {
+   "cls": "typeName",
+   "s": [
+    "science matching worksheets"
+   ]
   },
-  "vehicles bw 3 letters": {
-   "cls": "cross",
-   "s": []
+  "beginning sounds worksheets": {
+   "cls": "typeName",
+   "s": [
+    "beginning sounds worksheets",
+    "beginning sounds worksheets for kindergarten",
+    "beginning sounds worksheets for grade 1",
+    "beginning sounds worksheets free",
+    "beginning sounds worksheets pdf",
+    "beginning sounds worksheets for kindergarten pdf",
+    "beginning sounds worksheets preschool",
+    "beginning sounds worksheets free printable",
+    "beginning sounds worksheets grade 2",
+    "beginning sounds worksheets for nursery"
+   ]
   },
-  "vehicles bw 3 alphabet": {
-   "cls": "cross",
-   "s": []
+  "letter knowledge": {
+   "cls": "typeName",
+   "s": [
+    "letter knowledge",
+    "letter knowledge activities",
+    "letter knowledge example",
+    "letter knowledge definition",
+    "letter knowledge assessment",
+    "letter knowledge is also connected with",
+    "letter knowledge includes",
+    "letter knowledge activities for preschoolers",
+    "knowledge letter sample",
+    "letter sound knowledge"
+   ]
+  },
+  "letter knowledge worksheets": {
+   "cls": "typeName",
+   "s": [
+    "letter knowledge worksheets",
+    "letter recognition worksheets",
+    "letter recognition worksheets pdf",
+    "letter recognition worksheets for kindergarten",
+    "letter recognition worksheets free",
+    "letter recognition worksheets pdf free",
+    "letter recognition worksheets preschool",
+    "letter recognition worksheets for kindergarten pdf",
+    "letter recognition worksheets free printable",
+    "letter recognition worksheets for 3 year olds"
+   ]
+  },
+  "word building": {
+   "cls": "typeName",
+   "s": [
+    "word building",
+    "word building game",
+    "word building activities",
+    "word building worksheets",
+    "word building for class 1",
+    "word building examples",
+    "word building in english",
+    "word building exercises",
+    "word building meaning",
+    "word building game online"
+   ]
+  },
+  "word building worksheets": {
+   "cls": "typeName",
+   "s": [
+    "word building worksheets",
+    "word building worksheets for grade 2",
+    "word building worksheets pdf",
+    "word building worksheets for grade 5",
+    "word building worksheets for grade 4",
+    "word building worksheets for grade 6",
+    "word building worksheets for grade 1",
+    "word building worksheets for grade 3",
+    "word building worksheets for kindergarten",
+    "word building worksheets for ukg"
+   ]
+  },
+  "picture vocabulary": {
+   "cls": "typeName",
+   "s": [
+    "picture vocabulary",
+    "picture vocabulary pdf",
+    "picture vocabulary test",
+    "picture vocabulary for kids",
+    "picture vocabulary cards",
+    "picture vocabulary book",
+    "picture vocabulary book pdf",
+    "picture vocabulary for kids pdf",
+    "picture vocabulary worksheets",
+    "picture vocabulary size test"
+   ]
+  },
+  "picture vocabulary worksheets": {
+   "cls": "typeName",
+   "s": [
+    "picture vocabulary worksheets",
+    "picture vocabulary worksheets pdf"
+   ]
+  },
+  "sounds & syllables": {
+   "cls": "typeName",
+   "s": [
+    "sounds syllables",
+    "sounds syllables in english",
+    "sounds syllables and word stress",
+    "sound syllables examples",
+    "sound syllables words",
+    "sounds in syllables program",
+    "sounds vs syllables",
+    "sounds and syllables spelling scheme",
+    "sounds and syllables the sensible spelling system",
+    "sounds and syllables jason wade"
+   ]
+  },
+  "sounds & syllables worksheets": {
+   "cls": "typeName",
+   "s": [
+    "sounds and syllables worksheets",
+    "sounds in syllables program",
+    "sounds in syllables"
+   ]
   }
  },
  "unique": [
@@ -4864,6 +6255,8 @@
   "activity packs for kids",
   "activity packs for kids wedding",
   "activity packs for toddlers",
+  "adding numbers to 20 worksheet",
+  "addition",
   "addition activities for grade 1",
   "addition activities for grade 2",
   "addition activities for grade 3",
@@ -4871,8 +6264,13 @@
   "addition activities for grade 5",
   "addition activities for kids",
   "addition activities for kindergarten",
+  "addition and subtraction",
   "addition classroom activities",
+  "addition code in c",
+  "addition code in python",
+  "addition code worksheets",
   "addition elle clothing",
+  "addition med bråk",
   "addition music system",
   "addition to 10",
   "addition to 10 colour by number",
@@ -4896,6 +6294,29 @@
   "addition to 20 worksheets with pictures",
   "addition tools for kids",
   "addition toys for kids",
+  "addition worksheets",
+  "addition worksheets for grade 1",
+  "addition worksheets for grade 1 pdf",
+  "addition worksheets for grade 2",
+  "addition worksheets for grade 3",
+  "addition worksheets for grade 4",
+  "addition worksheets for kindergarten",
+  "addition worksheets for kindergarten pdf",
+  "addition worksheets grade 5",
+  "addition worksheets pdf",
+  "additional",
+  "additional code dammam",
+  "additional code for driver's license",
+  "additional code jeddah",
+  "additional code lto",
+  "additional code makkah",
+  "additional code riyadh",
+  "additionally",
+  "additionally svenska",
+  "additionally synonym",
+  "additionals polestar",
+  "additionsmetoden",
+  "additionsreaktion",
   "alphabet accessories for hair",
   "alphabet activities for kindergarten",
   "alphabet activities for preschoolers pdf",
@@ -4928,6 +6349,17 @@
   "alphabet toys for 3 year olds",
   "alphabet toys for kids",
   "alphabet toys for toddlers",
+  "alphabet train",
+  "alphabet train chart",
+  "alphabet train drawing",
+  "alphabet train floor puzzle",
+  "alphabet train food train",
+  "alphabet train for kids",
+  "alphabet train puzzle",
+  "alphabet train song",
+  "alphabet train toy",
+  "alphabet train vtech",
+  "alphabet train worksheet",
   "alphabet vegetables and fruits",
   "alphabet vegetables name",
   "alphabet vehicles for kids",
@@ -4950,6 +6382,17 @@
   "animals letters of the alphabet",
   "animals math",
   "around the house math game",
+  "array multiplication worksheets pdf",
+  "arrays and multiplication",
+  "arrays and multiplication video",
+  "arrays and multiplication worksheets",
+  "arrays math worksheets",
+  "arrays multiplication 3rd grade",
+  "arrays multiplication anchor chart",
+  "arrays multiplication and division",
+  "arrays multiplication and division worksheet",
+  "arrays multiplication game",
+  "arrays multiplication year 2",
   "art sub plans elementary worksheets",
   "autism kindergarten",
   "autism kindergarten classroom",
@@ -5004,7 +6447,24 @@
   "bakery product 3 letters",
   "bakery product 4 letters",
   "bakery scott's addition",
-  "band birds 2 5 letters",
+  "base ten blocks",
+  "base ten blocks game",
+  "base ten blocks images",
+  "base ten blocks interactive",
+  "base ten blocks manipulatives",
+  "base ten blocks math",
+  "base ten blocks online",
+  "base ten blocks printable",
+  "base ten blocks worksheets",
+  "base ten blocks worksheets 2nd grade pdf",
+  "base ten blocks worksheets 3rd grade",
+  "base ten blocks worksheets 3rd grade pdf",
+  "base ten blocks worksheets 4th grade",
+  "base ten blocks worksheets free",
+  "base ten blocks worksheets grade 1",
+  "base ten blocks worksheets grade 2",
+  "base ten blocks worksheets kindergarten",
+  "base ten blocks worksheets pdf",
   "beach 6 letters",
   "beach 8 letters",
   "beach alphabet",
@@ -5040,9 +6500,51 @@
   "beginning sounds worksheets for grade 1",
   "beginning sounds worksheets for kindergarten",
   "beginning sounds worksheets for kindergarten pdf",
+  "beginning sounds worksheets for nursery",
   "beginning sounds worksheets free",
+  "beginning sounds worksheets free printable",
+  "beginning sounds worksheets grade 2",
   "beginning sounds worksheets pdf",
+  "beginning sounds worksheets preschool",
+  "benefits of sudoku for adults",
   "best breakfast alphabet city",
+  "big or small",
+  "big or small 4d",
+  "big or small chord",
+  "big or small in german",
+  "big or small in spanish",
+  "big or small lirik",
+  "big or small number worksheet",
+  "big or small object",
+  "big or small picture",
+  "big or small worksheet",
+  "big or small worksheet for grade 1",
+  "big or small worksheet for kids",
+  "big or small worksheet for nursery",
+  "big or small worksheet for ukg",
+  "big or small worksheet pdf",
+  "big or small worksheet pdf free download",
+  "big or small worksheets",
+  "big or small worksheets for kindergarten",
+  "big or small worksheets preschool",
+  "bigger or smaller worksheets",
+  "bingo",
+  "bingo card",
+  "bingo card generator",
+  "bingo dauber worksheets",
+  "bingo definition",
+  "bingo examples",
+  "bingo game",
+  "bingo loco stockholm",
+  "bingo maker",
+  "bingo numbers and their meanings",
+  "bingo rimer",
+  "bingo win examples",
+  "bingo worksheets",
+  "bingo worksheets for kids",
+  "bingolotto",
+  "bingolotto idag",
+  "bingolotto rätta",
   "birds alphabet song",
   "birds counting",
   "birds letters",
@@ -5117,9 +6619,20 @@
   "camping math preschool",
   "camping math worksheets",
   "camping math worksheets preschool",
+  "can you see the pattern class 5 worksheets",
   "capital letters activities",
   "carb counting vegetables",
   "cbt worksheet packet beck institute",
+  "chart count",
+  "chart countable and uncountable nouns",
+  "chart countdown music",
+  "chart counter",
+  "chart counting 1 to 100",
+  "chart counting by 2",
+  "chart counting to 100",
+  "chart country",
+  "chart country music",
+  "chart country songs",
   "christmas addition",
   "christmas addition and subtraction",
   "christmas addition and subtraction worksheets",
@@ -5147,6 +6660,7 @@
   "christmas counting songs for kids",
   "christmas counting to 100",
   "christmas counting worksheet",
+  "christmas cryptogram worksheets",
   "christmas letters",
   "christmas letters alphabet",
   "christmas letters debbie macomber",
@@ -5192,6 +6706,10 @@
   "clothing letters",
   "clothing math",
   "clothing math activities for preschoolers",
+  "code addition",
+  "code addition excel",
+  "code math worksheets",
+  "color code addition worksheets",
   "colors addition",
   "colors alphabet a to z",
   "colors alphabet dailymotion",
@@ -5204,6 +6722,53 @@
   "colors letters",
   "colors math",
   "colors math blue prince",
+  "compare sizes of anything",
+  "comparing groups",
+  "comparing groups applet",
+  "comparing groups kindergarten",
+  "comparing groups kindergarten worksheets",
+  "comparing groups of objects",
+  "comparing groups of objects kindergarten",
+  "comparing groups of objects kindergarten worksheets",
+  "comparing groups of objects worksheets",
+  "comparing groups statistics",
+  "comparing groups with different sample sizes",
+  "comparing groups worksheet",
+  "comparing numbers",
+  "comparing numbers class 1",
+  "comparing numbers examples",
+  "comparing numbers grade 1",
+  "comparing numbers grade 2",
+  "comparing numbers worksheets",
+  "comparing numbers worksheets for kindergarten",
+  "comparing numbers worksheets grade 1",
+  "comparing numbers worksheets grade 2",
+  "comparing numbers worksheets grade 2 with answers",
+  "comparing numbers worksheets grade 3",
+  "comparing numbers worksheets grade 3 pdf",
+  "comparing numbers worksheets grade 4",
+  "comparing numbers worksheets grade 5",
+  "comparing numbers worksheets grade 6",
+  "comparing sets worksheets",
+  "comparing sets worksheets for grade 1",
+  "comparing sets worksheets for grade 2",
+  "comparing sets worksheets for kindergarten",
+  "comparing sets worksheets for preschool",
+  "comparing sizes",
+  "comparing sizes activities for preschoolers",
+  "comparing sizes activity box",
+  "comparing sizes of bears",
+  "comparing sizes of countries",
+  "comparing sizes of countries website",
+  "comparing sizes worksheet",
+  "comparing sizes worksheet pre k",
+  "comparing sizes worksheets",
+  "comparing sizes worksheets for grade 1",
+  "comparing sizes worksheets for kindergarten",
+  "comparison groups",
+  "computer science sorting",
+  "computer science sorting algorithms",
+  "count how many worksheets",
   "counting accessories",
   "counting activities",
   "counting activities for 2 year olds",
@@ -5218,6 +6783,7 @@
   "counting body parts preschool",
   "counting body parts song",
   "counting body parts worksheet pdf",
+  "counting chart worksheet",
   "counting classroom objects",
   "counting classroom objects worksheet",
   "counting colors book",
@@ -5241,8 +6807,23 @@
   "counting fruits in japanese",
   "counting furniture in japanese",
   "counting hospital days",
+  "counting images worksheets",
   "counting objects around the house",
   "counting pets in japanese",
+  "counting pictures",
+  "counting pictures 1 10 worksheets",
+  "counting pictures 1 10 worksheets pdf",
+  "counting pictures 1 5",
+  "counting pictures 1-10",
+  "counting pictures 1-20",
+  "counting pictures for kids",
+  "counting pictures for kids worksheets",
+  "counting pictures for kindergarten",
+  "counting pictures worksheets",
+  "counting pictures worksheets 1 10",
+  "counting pictures worksheets 1-20",
+  "counting pictures worksheets for grade 1",
+  "counting pictures worksheets pdf",
   "counting to 20",
   "counting to 20 games",
   "counting to 20 in french",
@@ -5269,10 +6850,39 @@
   "counting toys kmart",
   "counting trees in graph theory",
   "counting trees worksheet",
+  "counting using pictures worksheets",
   "counting vegetables and fruits",
   "counting vegetables worksheet math activity",
   "crocs accessories alphabet",
   "crocs accessories letters",
+  "crossword",
+  "crossword help",
+  "crossword maker",
+  "crossword mini",
+  "crossword nyt",
+  "crossword online",
+  "crossword puzzles",
+  "crossword solver",
+  "crossword washington post",
+  "crossword worksheets",
+  "crossword worksheets for grade 4",
+  "crosswordle",
+  "cryptogram",
+  "cryptogram answers",
+  "cryptogram game",
+  "cryptogram letters and numbers",
+  "cryptogram letters and numbers answers",
+  "cryptogram meaning",
+  "cryptogram puzzle worksheets",
+  "cryptogram puzzles",
+  "cryptogram solver",
+  "cryptogram solving device",
+  "cryptogram worksheets",
+  "cryptogram worksheets for kids",
+  "cryptogram worksheets free",
+  "cryptogram worksheets pdf",
+  "cryptogram worksheets printable",
+  "cryptograms online",
   "cvc words",
   "cvc words for grade 1",
   "cvc words for grade 2",
@@ -5283,9 +6893,16 @@
   "cvc words meaning",
   "cvc words with pictures",
   "cvc words worksheets",
+  "data and graphs worksheets for grade 3",
+  "data and graphs worksheets grade 5",
+  "data tables and graphs worksheets",
   "december morning work kindergarten",
   "demonologist hospital letters",
   "desserts and sweets hangman cool math games",
+  "difference between matching and cross matching",
+  "difference between sorting and categorizing",
+  "difference between sorting and classification",
+  "difference between sorting and classifying",
   "digital summer counting the hours",
   "digital summer counting the hours lyrics",
   "dinosaurs alphabet a to z",
@@ -5328,6 +6945,7 @@
   "easter counting to 10",
   "easter counting worksheets",
   "easter counting worksheets for preschoolers",
+  "easter cryptogram worksheets",
   "easter egg letters",
   "easter letters",
   "easter letters alphabet",
@@ -5388,6 +7006,7 @@
   "esl worksheets for kids",
   "esl worksheets free",
   "esl worksheets pdf",
+  "examples of worksheet",
   "fall literacy centers kindergarten",
   "farm animals 9 letters",
   "farm animals addition",
@@ -5409,6 +7028,30 @@
   "farm animals math worksheets for preschoolers",
   "father christmas letters",
   "feelings and emotions alphabet",
+  "find and count",
+  "find and count activity",
+  "find and count duplicates in excel",
+  "find and count formula in excel",
+  "find and count in excel",
+  "find and count worksheets",
+  "find and count worksheets for kindergarten",
+  "find and count worksheets pdf",
+  "find and country",
+  "find and finding difference",
+  "find and found difference",
+  "find objects",
+  "find objects app",
+  "find objects by type unity",
+  "find objects game",
+  "find objects game online",
+  "find objects games free",
+  "find objects in excel",
+  "find objects in picture",
+  "find objects mod apk",
+  "find objects worksheet",
+  "find objects worksheets",
+  "finding objects worksheets pdf",
+  "fine and country estate agents",
   "fine motor",
   "fine motor activities",
   "fine motor activities for toddlers",
@@ -5431,6 +7074,25 @@
   "flowers math worksheet",
   "flowers scott's addition",
   "forming letters activities",
+  "fractions",
+  "fractions calculator",
+  "fractions chart",
+  "fractions games",
+  "fractions math",
+  "fractions on a number line",
+  "fractions svenska",
+  "fractions to decimals",
+  "fractions to percentages",
+  "fractions worksheets",
+  "fractions worksheets grade 1",
+  "fractions worksheets grade 2",
+  "fractions worksheets grade 3",
+  "fractions worksheets grade 4",
+  "fractions worksheets grade 4 pdf",
+  "fractions worksheets grade 5",
+  "fractions worksheets grade 6",
+  "fractions worksheets grade 7",
+  "fractions worksheets pdf",
   "free busy work worksheets",
   "free printable 4th of july math worksheets",
   "fruits 4 letters",
@@ -5472,6 +7134,29 @@
   "furniture letters",
   "furniture store scotts addition",
   "furniture transfer letters",
+  "geometry",
+  "geometry dash",
+  "geometry dash demon list",
+  "geometry dash download",
+  "geometry dash lite",
+  "geometry dash online",
+  "geometry dash subzero",
+  "geometry dash world",
+  "geometry geeks",
+  "geometry worksheets",
+  "geometry worksheets 4th grade",
+  "geometry worksheets for grade 2",
+  "geometry worksheets grade 10",
+  "geometry worksheets grade 3",
+  "geometry worksheets grade 5",
+  "geometry worksheets grade 6",
+  "geometry worksheets grade 7",
+  "geometry worksheets grade 9",
+  "geometry worksheets pdf",
+  "geometry –",
+  "graph and data structure",
+  "graph and data table",
+  "graphics and data",
   "graphing",
   "graphing calculator",
   "graphing calculator desmos",
@@ -5482,6 +7167,21 @@
   "graphing paper",
   "graphing paper printable",
   "graphing software",
+  "graphs and data",
+  "graphs and data aba",
+  "graphs and data analysis",
+  "graphs and data handling",
+  "graphs and data interpretation",
+  "graphs and data visualization",
+  "graphs and data worksheets",
+  "grid match",
+  "grid match height",
+  "grid match the following",
+  "grid matcha",
+  "grid matcha bowl",
+  "grid matcha menu",
+  "grid matching correction",
+  "grid matching game",
   "guy's hospital counting house",
   "hair accessories letters",
   "handwriting practice",
@@ -5502,13 +7202,21 @@
   "hidden objects",
   "hidden objects 247",
   "hidden objects cheat sims 4",
-  "hidden objects game free download",
+  "hidden objects free online",
   "hidden objects game online",
   "hidden objects games",
   "hidden objects games free",
   "hidden objects games free online",
   "hidden objects printable",
   "hidden objects sims 4",
+  "hidden objects worksheets",
+  "hidden objects worksheets for adults",
+  "hidden objects worksheets for kids",
+  "hidden objects worksheets for preschoolers",
+  "hidden objects worksheets hard",
+  "hidden objects worksheets kindergarten",
+  "hidden objects worksheets pdf",
+  "hidden objects worksheets pdf free",
   "homeschool kindergarten",
   "homeschool kindergarten curriculum",
   "homeschool kindergarten curriculum free",
@@ -5543,6 +7251,9 @@
   "hospital math",
   "hospital scan letters",
   "hospital scan letters crossword clue",
+  "how many counting worksheets",
+  "how to count cells in different worksheets",
+  "how to train pattern recognition",
   "human body parts counting",
   "intercostal space counting",
   "jobs and occupations alphabet",
@@ -5568,14 +7279,16 @@
   "kitchen tools 9 letters",
   "kitchen tools alphabet",
   "kitchen tools seven letters",
+  "knowledge letter sample",
   "laguna bakery alphabet cookies",
+  "largest number worksheet",
   "lesson plans kindergarten",
   "lesson plans kindergarten first week of school",
   "letter a activities",
-  "letter a activities for 1 year olds",
   "letter a activities for 2 year olds",
   "letter a activities for 3 year olds",
   "letter a activities for 4 year olds",
+  "letter a activities for kids",
   "letter a activities for kindergarten",
   "letter a activities for prek",
   "letter a activities for preschool",
@@ -5789,6 +7502,15 @@
   "letter k worksheets pdf",
   "letter k worksheets preschool",
   "letter k worksheets tracing",
+  "letter knowledge",
+  "letter knowledge activities",
+  "letter knowledge activities for preschoolers",
+  "letter knowledge assessment",
+  "letter knowledge definition",
+  "letter knowledge example",
+  "letter knowledge includes",
+  "letter knowledge is also connected with",
+  "letter knowledge worksheets",
   "letter l activities",
   "letter l activities for 2 year olds",
   "letter l activities for 3 year olds",
@@ -5937,8 +7659,16 @@
   "letter recognition assessment",
   "letter recognition games",
   "letter recognition meaning in hindi",
+  "letter recognition worksheet",
   "letter recognition worksheets",
+  "letter recognition worksheets for 3 year olds",
   "letter recognition worksheets for kindergarten",
+  "letter recognition worksheets for kindergarten pdf",
+  "letter recognition worksheets free",
+  "letter recognition worksheets free printable",
+  "letter recognition worksheets pdf",
+  "letter recognition worksheets pdf free",
+  "letter recognition worksheets preschool",
   "letter s activities",
   "letter s activities for 2 year olds",
   "letter s activities for kids",
@@ -5959,6 +7689,7 @@
   "letter s worksheets pdf",
   "letter s worksheets pdf free",
   "letter s worksheets printable",
+  "letter sound knowledge",
   "letter t activities",
   "letter t activities for 2 year olds",
   "letter t activities for 3 year olds",
@@ -6118,6 +7849,29 @@
   "london zoo counting animals",
   "love letters bakery",
   "macro counting breakfast ideas",
+  "matchfit grid router guide",
+  "matchfit grid router guide kit",
+  "matching",
+  "matching bracelets",
+  "matching bracelets for couples",
+  "matching frequency",
+  "matching or matching with",
+  "matching pfp",
+  "matching pfp for couples",
+  "matching pyjamas",
+  "matching set",
+  "matching sets women",
+  "matching tattoos",
+  "matching worksheets",
+  "matching worksheets for 3 year olds",
+  "matching worksheets for grade 1",
+  "matching worksheets for kids",
+  "matching worksheets for kindergarten",
+  "matching worksheets for kindergarten pdf",
+  "matching worksheets for nursery",
+  "matching worksheets for preschool",
+  "matching worksheets for toddlers",
+  "matching worksheets pdf",
   "math activities kindergarten",
   "math activities kindergarten number sense",
   "math activities kindergarten worksheets",
@@ -6134,11 +7888,37 @@
   "math centers kindergarten ideas",
   "math centers kindergarten tpt",
   "math centers preschool",
+  "math code worksheets 2nd grade",
   "math colors game",
   "math colors gaming bee",
+  "math cryptogram worksheets",
+  "math exercises worksheets",
+  "math grid worksheets",
+  "math grid worksheets 3rd grade",
   "math learning center worksheets",
   "math occupations",
+  "math printables worksheets",
+  "math puzzle for class 4",
+  "math puzzle games",
+  "math puzzle questions",
+  "math puzzle worksheets",
+  "math puzzle worksheets for grade 1",
+  "math puzzle worksheets for grade 2",
+  "math puzzle worksheets for grade 3",
+  "math puzzle worksheets for grade 4",
+  "math puzzle worksheets for grade 6",
+  "math puzzle worksheets high school pdf",
+  "math puzzle worksheets pdf",
+  "math puzzle worksheets pdf grade 4",
+  "math puzzle worksheets pdf grade 5",
+  "math puzzles",
+  "math puzzles for adults",
+  "math puzzles for grade 5",
+  "math puzzles for kids",
+  "math puzzles for middle school",
+  "math puzzles with answers",
   "math scavenger hunt around the house",
+  "math sheets worksheets",
   "math small group activities kindergarten",
   "math stations kindergarten",
   "math tools online",
@@ -6149,6 +7929,16 @@
   "math toys for kids",
   "math toys for toddlers",
   "math worksheet bundle",
+  "math worksheet for class 1",
+  "math worksheet for class 2",
+  "math worksheet for class 3",
+  "math worksheets for kindergarten",
+  "math worksheets grade 1",
+  "math worksheets grade 2",
+  "math worksheets grade 3",
+  "math worksheets grade 4",
+  "math worksheets grade 5",
+  "math worksheets.com",
   "maths addition toys",
   "measurement",
   "measurement converter",
@@ -6159,6 +7949,16 @@
   "measurement tape",
   "measurement tape online",
   "measurement units",
+  "measurement worksheets",
+  "measurement worksheets for grade 1",
+  "measurement worksheets for grade 2",
+  "measurement worksheets for kindergarten",
+  "measurement worksheets grade 1 pdf",
+  "measurement worksheets grade 2 pdf",
+  "measurement worksheets grade 3",
+  "measurement worksheets grade 3 pdf",
+  "measurement worksheets grade 4",
+  "measurement worksheets grade 5",
   "measurements body",
   "merry christmas letters",
   "merry christmas letters printable",
@@ -6211,8 +8011,44 @@
   "missing parts or accessories meaning in hindi",
   "missing parts ride",
   "missing parts ride 2026",
+  "missing parts worksheets",
+  "missing parts worksheets for kindergarten",
+  "missing parts worksheets for kindergarten pdf",
+  "missing piece hours",
+  "missing piece worksheet",
+  "missing pieces",
+  "missing pieces book",
+  "missing pieces escape room",
+  "missing pieces flawed mangoes",
+  "missing pieces in lego set",
+  "missing pieces lego",
+  "missing pieces meaning",
+  "missing pieces movie",
+  "missing pieces nottingham",
+  "missing pieces nz",
+  "missing pieces svu",
   "money counting accessories",
   "montessori farm animals counting & sorting set",
+  "more or less",
+  "more or less game",
+  "more or less in spanish",
+  "more or less io",
+  "more or less maddy",
+  "more or less meaning",
+  "more or less meaning in hindi",
+  "more or less sign",
+  "more or less symbol",
+  "more or less synonym",
+  "more or less worksheets",
+  "more or less worksheets for kindergarten",
+  "more or less worksheets for kindergarten pdf",
+  "more or less worksheets for kindergarten pdf free download",
+  "more or less worksheets for nursery",
+  "more or less worksheets grade 1",
+  "more or less worksheets grade 2",
+  "more or less worksheets grade 3",
+  "more or less worksheets pdf",
+  "more or less worksheets preschool",
   "morning activities kindergarten",
   "morning busy work kindergarten",
   "morning work for kindergarten beginning of the year",
@@ -6233,6 +8069,8 @@
   "morning work worksheets for 6th grade",
   "morning work worksheets free",
   "morning work worksheets kindergarten",
+  "multiplication with example",
+  "multiplication worksheet math worksheets grade 2",
   "music addition",
   "music addition building iu",
   "music addition in video",
@@ -6243,10 +8081,10 @@
   "music alphabet font",
   "music alphabet for kids",
   "music alphabet guitar",
+  "music alphabet in order",
   "music alphabet letters",
   "music alphabet notes",
   "music alphabet piano",
-  "music alphabet words",
   "music alphabet worksheet",
   "music counting",
   "music counting 1 e and a",
@@ -6278,6 +8116,8 @@
   "music math worksheet pdf",
   "music math worksheets",
   "music math worksheets free",
+  "mystery picture math worksheets",
+  "mystery picture math worksheets free",
   "nhs hospital letters online",
   "no prep art projects kindergarten",
   "no prep esl games kindergarten",
@@ -6496,6 +8336,39 @@
   "number bonds to 20",
   "number bonds to 5",
   "number bonds worksheets",
+  "number chart maths worksheets",
+  "number chart worksheet",
+  "number charts",
+  "number charts 1-10",
+  "number charts 1-100",
+  "number charts 1-20",
+  "number charts 1-200",
+  "number charts 1-50",
+  "number charts for grade 1",
+  "number charts for grade 2",
+  "number charts for kids",
+  "number charts to 1000",
+  "number counting pictures worksheets",
+  "number line worksheets addition",
+  "number line worksheets for grade 1",
+  "number line worksheets for grade 2",
+  "number line worksheets for kindergarten",
+  "number line worksheets grade 3",
+  "number line worksheets grade 4",
+  "number line worksheets grade 5",
+  "number line worksheets pdf",
+  "number line worksheets year 1",
+  "number lines",
+  "number lines for grade 1",
+  "number lines for grade 2",
+  "number lines for kids",
+  "number lines in maths",
+  "number lines inequalities",
+  "number lines printable",
+  "number lines to 100",
+  "number lines with fractions",
+  "number lines worksheet",
+  "number lines worksheets",
   "number recognition",
   "number recognition 1 to 10",
   "number recognition activities",
@@ -6512,6 +8385,7 @@
   "number worksheets 11 20 for preschool",
   "number worksheets 20 30",
   "number worksheets 3 year old",
+  "numberblocks arrays and multiplication",
   "numberblocks cold weather counting",
   "obadiah brown beach counting sheep",
   "occupations 10 letters",
@@ -6527,7 +8401,48 @@
   "occupations with 15 letters",
   "ocean life alphabet",
   "ocean life on display 8 letters",
+  "odd one out",
+  "odd one out boba",
+  "odd one out examples",
+  "odd one out game",
+  "odd one out meaning",
+  "odd one out meaning in hindi",
+  "odd one out meaning in tamil",
+  "odd one out meaning in urdu",
+  "odd one out meme",
+  "odd one out worksheet",
+  "odd one out worksheets",
+  "odd one out worksheets for adults pdf",
+  "odd one out worksheets for grade 5",
+  "odd one out worksheets for kids",
+  "odd one out worksheets for kindergarten",
+  "odd one out worksheets for nursery",
+  "odd one out worksheets for ukg",
+  "odd one out worksheets with answers",
+  "odd one out worksheets with answers pdf",
+  "odd one out worksheets with answers pdf free download",
   "orchard toys addition",
+  "pattern train",
+  "pattern train game",
+  "pattern train game topmarks",
+  "pattern train topmarks",
+  "pattern train worksheet",
+  "pattern trainer socks",
+  "pattern trainers",
+  "pattern training dogs",
+  "pattern training firstborn",
+  "pattern training osu",
+  "pattern triangle",
+  "pattern worksheet",
+  "pattern worksheet for class 1",
+  "pattern worksheet for class 2",
+  "pattern worksheet for class 3",
+  "pattern worksheet for class 4",
+  "pattern worksheet for class 5",
+  "pattern worksheet for class 6",
+  "pattern worksheets for grade 1",
+  "pattern worksheets for kindergarten",
+  "pattern worksheets for preschool",
   "patterns",
   "patterns brighton",
   "patterns for pirates",
@@ -6538,8 +8453,86 @@
   "patterns journal",
   "patterns of fashion",
   "patterns synonym",
+  "patterns worksheets",
+  "patterns worksheets for grade 1",
+  "patterns worksheets for grade 2",
+  "patterns worksheets for grade 3",
+  "patterns worksheets for kids",
+  "patterns worksheets for kindergarten",
+  "patterns worksheets for preschool",
+  "patterns worksheets grade 4",
+  "patterns worksheets grade 6",
+  "patterns worksheets pdf",
   "pets letters to god",
   "pets with 4 letters",
+  "picture math",
+  "picture math addition worksheets",
+  "picture math ai",
+  "picture math app",
+  "picture math calculator",
+  "picture math problem solver",
+  "picture math problems",
+  "picture math problems for kids",
+  "picture math problems with answers",
+  "picture math problems worksheets",
+  "picture math puzzles",
+  "picture math sheets",
+  "picture math solver",
+  "picture math worksheets",
+  "picture math worksheets for kindergarten",
+  "picture mathematics",
+  "picture patch",
+  "picture patch photography",
+  "picture path",
+  "picture pathan",
+  "picture pattern",
+  "picture pattern for class 1",
+  "picture pattern for class 3",
+  "picture pattern for class 4",
+  "picture pattern worksheet",
+  "picture patti",
+  "picture sorter",
+  "picture sorter ai",
+  "picture sorter app",
+  "picture sorting activity",
+  "picture sorting ai",
+  "picture sorting app",
+  "picture sorting game",
+  "picture sorting software",
+  "picture sorting software free",
+  "picture sorts",
+  "picture sudoku",
+  "picture sudoku app",
+  "picture sudoku for kids",
+  "picture sudoku for kids printable",
+  "picture sudoku generator",
+  "picture sudoku online",
+  "picture sudoku online free",
+  "picture sudoku printable",
+  "picture sudoku printable free",
+  "picture sudoku puzzles",
+  "picture sudoku solver",
+  "picture trail",
+  "picture trail camera",
+  "picture trail flagstaff",
+  "picture trail of tears",
+  "picture trail photos",
+  "picture trail running",
+  "picture trailer",
+  "picture trailer hindi",
+  "picture trailer movie",
+  "picture trailer truck",
+  "picture vocabulary",
+  "picture vocabulary book",
+  "picture vocabulary book pdf",
+  "picture vocabulary cards",
+  "picture vocabulary for kids",
+  "picture vocabulary for kids pdf",
+  "picture vocabulary pdf",
+  "picture vocabulary size test",
+  "picture vocabulary test",
+  "picture vocabulary worksheets",
+  "picture vocabulary worksheets pdf",
   "pixel vibes farm animals addition bovine",
   "place value",
   "place value and face value",
@@ -6551,6 +8544,23 @@
   "place value in maths",
   "place value of numbers",
   "place value worksheet",
+  "position word worksheets preschool",
+  "position words",
+  "position words for class 1",
+  "position words for class 2",
+  "position words for kids",
+  "position words in english",
+  "position words pictures",
+  "position words worksheet",
+  "position words worksheet for class 1",
+  "position words worksheet for class 1 with answers",
+  "position words worksheet for class 2",
+  "position words worksheet for class 2 with answers",
+  "position words worksheet for ukg",
+  "position words worksheets",
+  "position words worksheets for grade 1",
+  "position words worksheets for grade 2",
+  "position words worksheets for kindergarten",
   "post office addition",
   "post office alphabet",
   "post office alphabet city",
@@ -6565,6 +8575,26 @@
   "post office letters to santa 2025",
   "post office letters tracking",
   "post office scott's addition",
+  "prepositions",
+  "prepositions examples",
+  "prepositions in english",
+  "prepositions in swedish",
+  "prepositions list",
+  "prepositions meaning",
+  "prepositions of place",
+  "prepositions svenska",
+  "prepositions worksheets",
+  "prepositions worksheets for grade 1",
+  "prepositions worksheets for grade 2",
+  "prepositions worksheets for grade 3",
+  "prepositions worksheets for grade 4",
+  "prepositions worksheets for kindergarten",
+  "prepositions worksheets grade 5",
+  "prepositions worksheets grade 6",
+  "prepositions worksheets pdf",
+  "prepositions worksheets with answers",
+  "prepositionsfras",
+  "prepositionsobjekt",
   "preschool worksheet bundle",
   "printable packer schedule",
   "printable packer schedule 2026",
@@ -6591,7 +8621,26 @@
   "rhyming words meaning",
   "rhyming words meaning in hindi",
   "rhyming words worksheet",
+  "scavenger hunt worksheets",
+  "scavenger hunt worksheets for kids",
   "science busy work worksheets",
+  "science matching",
+  "science matching activity",
+  "science matching game",
+  "science matching game online",
+  "science matching pfp",
+  "science matching questions",
+  "science matching tattoos",
+  "science matching worksheets",
+  "science sorting",
+  "science sorting activities",
+  "science sorting activities for kindergarten",
+  "science sorting animals",
+  "science sorting game",
+  "science sorting materials",
+  "science sorting materials into groups",
+  "scientific matching",
+  "scientific matching of horoscopes",
   "scissor skills",
   "scissor skills activities",
   "scissor skills activity book",
@@ -6612,6 +8661,30 @@
   "secret code math worksheets",
   "secret code math worksheets free",
   "secret code math worksheets pdf",
+  "sequence life cycle of a frog",
+  "sequencing life cycle of a plant",
+  "sequencing life cycle of butterfly",
+  "sequencing life cycles",
+  "shadow match worksheets",
+  "shadow match worksheets kindergarten",
+  "shadow matching",
+  "shadow matching activity",
+  "shadow matching activity for kids",
+  "shadow matching cut and paste",
+  "shadow matching for kids",
+  "shadow matching game",
+  "shadow matching puzzle",
+  "shadow matching worksheet",
+  "shadow matching worksheet black and white",
+  "shadow matching worksheet body parts",
+  "shadow matching worksheet for kids",
+  "shadow matching worksheet for nursery",
+  "shadow matching worksheet free",
+  "shadow matching worksheet pdf",
+  "shadow matching worksheet pdf free download",
+  "shadow matching worksheets for kindergarten",
+  "shadow matching worksheets for preschool",
+  "shadow matching worksheets pdf",
   "shapes 5 letters",
   "shapes 7 letters",
   "shapes 7 letters crossword",
@@ -6651,6 +8724,7 @@
   "sight words list",
   "sight words meaning",
   "silent letters activities",
+  "size comparison worksheets for preschoolers",
   "skip counting",
   "skip counting by 10",
   "skip counting by 2",
@@ -6663,6 +8737,7 @@
   "skip counting classroom display",
   "skip counting classroom games",
   "skip counting tools",
+  "skip counting with pictures worksheets",
   "skip counting worksheets",
   "small group activities for adults",
   "small group activities for kindergarten printable",
@@ -6675,13 +8750,37 @@
   "sorting",
   "sorting algorithms",
   "sorting algorithms time complexity",
+  "sorting and categorizing",
+  "sorting and categorizing activities",
+  "sorting and categorizing activities for kindergarten",
+  "sorting and categorizing games",
+  "sorting and categorizing worksheets",
+  "sorting and classifying worksheets",
+  "sorting and classifying worksheets for kindergarten",
+  "sorting and classifying worksheets grade 1",
+  "sorting and grouping worksheets",
+  "sorting and grouping worksheets for kindergarten",
   "sorting books game",
+  "sorting categories worksheets",
   "sorting game",
   "sorting hat",
   "sorting hat harry potter",
   "sorting hat quiz",
   "sorting library game",
+  "sorting science definition",
   "sorting system minecraft",
+  "sound syllables examples",
+  "sound syllables words",
+  "sounds and syllables jason wade",
+  "sounds and syllables spelling scheme",
+  "sounds and syllables the sensible spelling system",
+  "sounds and syllables worksheets",
+  "sounds in syllables",
+  "sounds in syllables program",
+  "sounds syllables",
+  "sounds syllables and word stress",
+  "sounds syllables in english",
+  "sounds vs syllables",
   "space addition",
   "space addition worksheets",
   "space alphabet",
@@ -6811,6 +8910,14 @@
   "sub plans preschool",
   "submarine for kindergarten",
   "substitute for kindergarten",
+  "subtraction",
+  "subtraction borrowing",
+  "subtraction formula in excel",
+  "subtraction in excel",
+  "subtraction meaning in hindi",
+  "subtraction sums",
+  "subtraction sums for class 2",
+  "subtraction sums for class 3",
   "subtraction to 10",
   "subtraction to 10 games",
   "subtraction to 10 interactive games",
@@ -6821,6 +8928,18 @@
   "subtraction to 10 worksheets",
   "subtraction to 100",
   "subtraction to 100 worksheets",
+  "subtraction worksheets",
+  "subtraction worksheets for grade 1",
+  "subtraction worksheets for grade 1 pdf",
+  "subtraction worksheets for grade 1 with borrowing",
+  "subtraction worksheets for grade 2",
+  "subtraction worksheets for grade 2 with borrowing",
+  "subtraction worksheets for grade 3",
+  "subtraction worksheets for grade 4",
+  "subtraction worksheets for grade 5",
+  "subtraction worksheets for kindergarten",
+  "sudoku rules and regulations",
+  "sudoku rules for beginners",
   "summer addition color by number",
   "summer addition mod",
   "summer addition worksheets",
@@ -6881,6 +9000,26 @@
   "syllables pronunciation",
   "syllables svenska",
   "syllables words",
+  "tally marks",
+  "tally marks 1 to 20",
+  "tally marks 1 to 50",
+  "tally marks copy and paste",
+  "tally marks in maths",
+  "tally marks meaning",
+  "tally marks symbol",
+  "tally marks table",
+  "tally marks worksheet",
+  "tally marks worksheet for class 3",
+  "tally marks worksheets",
+  "tally marks worksheets for class 5",
+  "tally marks worksheets for grade 1",
+  "tally marks worksheets for grade 1 pdf",
+  "tally marks worksheets for grade 2",
+  "tally marks worksheets for grade 3",
+  "tally marks worksheets for grade 4",
+  "tally marks worksheets for grade 6",
+  "tally marks worksheets for kindergarten",
+  "tally marks worksheets pdf",
   "task around the house 5 letters",
   "telling time",
   "telling time for kids",
@@ -6890,8 +9029,34 @@
   "telling time in swedish",
   "telling time on a clock",
   "telling time worksheets",
+  "telling time worksheets for kindergarten",
+  "telling time worksheets free",
+  "telling time worksheets grade 1",
   "telling time worksheets grade 2",
   "telling time worksheets grade 3",
+  "telling time worksheets grade 3 pdf",
+  "telling time worksheets grade 4",
+  "telling time worksheets grade 5",
+  "telling time worksheets pdf",
+  "ten frame worksheets 11 20",
+  "ten frame worksheets for kindergarten free",
+  "ten frame worksheets free printables",
+  "ten frames",
+  "ten frames addition",
+  "ten frames and counters",
+  "ten frames for kindergarten",
+  "ten frames game",
+  "ten frames in math",
+  "ten frames interactive",
+  "ten frames printable",
+  "ten frames to 20",
+  "ten frames worksheets",
+  "ten frames worksheets for first grade",
+  "ten frames worksheets for kindergarten",
+  "ten frames worksheets grade 1",
+  "ten frames worksheets grade 2",
+  "ten frames worksheets pdf",
+  "ten frames worksheets with answers",
   "tens and ones",
   "tens and ones chart",
   "tens and ones example",
@@ -6956,6 +9121,7 @@
   "things that fly 5 letters",
   "things that fly 8 letters",
   "things that fly 8 letters starting with s",
+  "this involves sorting and categorizing",
   "tools 11 letters",
   "tools 3 letters",
   "tools 3 letters crossword clue",
@@ -7005,6 +9171,24 @@
   "tracing numbers 1-5",
   "tracing numbers printable",
   "tracing numbers worksheets",
+  "treasure hunt",
+  "treasure hunt dreamlight valley",
+  "treasure hunt fh6",
+  "treasure hunt game",
+  "treasure hunt hot wheels",
+  "treasure hunt movies",
+  "treasure hunt mtg",
+  "treasure hunt printable",
+  "treasure hunt printable clues",
+  "treasure hunt printable for kids",
+  "treasure hunt printable free pdf",
+  "treasure hunt sheet",
+  "treasure hunt simulator codes",
+  "treasure hunt tft",
+  "treasure hunt worksheet for kids",
+  "treasure hunt worksheet pdf",
+  "treasure hunt worksheets",
+  "treasure hunter",
   "trees 3 letters",
   "trees 4 letters",
   "trees 5 letters",
@@ -7014,6 +9198,8 @@
   "trees 8 letters",
   "trees counting",
   "trees math",
+  "types of numbers worksheet",
+  "valentine's day cryptogram worksheets",
   "vallejo hospital addition",
   "vector space addition",
   "vegetables 4 letters",
@@ -7038,6 +9224,46 @@
   "vehicles counting",
   "vehicles math",
   "view hospital letters online",
+  "visual discrimination",
+  "visual discrimination activities",
+  "visual discrimination band",
+  "visual discrimination examples",
+  "visual discrimination games",
+  "visual discrimination meaning",
+  "visual discrimination skills",
+  "visual discrimination test",
+  "visual discrimination worksheets",
+  "visual discrimination worksheets for adults",
+  "visual discrimination worksheets for grade 1",
+  "visual discrimination worksheets for grade 3",
+  "visual discrimination worksheets for kids",
+  "visual discrimination worksheets for kindergarten",
+  "visual discrimination worksheets free",
+  "visual discrimination worksheets pdf",
+  "visual discrimination worksheets pdf free download",
+  "visual discrimination worksheets pinterest",
+  "visual logic",
+  "visual logic controller",
+  "visual logic download",
+  "visual logic model",
+  "visual logic puzzles",
+  "visual logic puzzles for adults",
+  "visual logic puzzles for kids",
+  "visual logic puzzles with answers",
+  "visual logic simul8",
+  "visual logic test",
+  "visual logical reasoning questions",
+  "visual matching",
+  "visual matching activities",
+  "visual matching cards",
+  "visual matching game",
+  "visual matching psikotes",
+  "visual matching puzzle",
+  "visual matching skills",
+  "visual matching task",
+  "visual matching test",
+  "visual matching worksheets",
+  "ways to play sudoku",
   "weather 4 letters",
   "weather 7 letters",
   "weather 8 letters",
@@ -7049,6 +9275,11 @@
   "weather counting worksheet",
   "weather letters",
   "what does no prep mean",
+  "what is cycle sequencing",
+  "what is lost missing pieces",
+  "what is math worksheet",
+  "what is visual logic",
+  "when to watch lost missing pieces",
   "winter alphabet",
   "winter alphabet a to z",
   "winter alphabet activities",
@@ -7089,6 +9320,25 @@
   "winter math games",
   "winter math worksheets",
   "wonder pets alphabet",
+  "word building",
+  "word building activities",
+  "word building examples",
+  "word building exercises",
+  "word building for class 1",
+  "word building game",
+  "word building game online",
+  "word building in english",
+  "word building meaning",
+  "word building worksheets",
+  "word building worksheets for grade 1",
+  "word building worksheets for grade 2",
+  "word building worksheets for grade 3",
+  "word building worksheets for grade 4",
+  "word building worksheets for grade 5",
+  "word building worksheets for grade 6",
+  "word building worksheets for kindergarten",
+  "word building worksheets for ukg",
+  "word building worksheets pdf",
   "word families",
   "word families chart",
   "word families examples",
@@ -7098,7 +9348,55 @@
   "word families kindergarten",
   "word families list",
   "word families pdf",
-  "word families worksheets",
+  "word families worksheet",
+  "word guess",
+  "word guess solver",
+  "word guess worksheet",
+  "word guesser",
+  "word guesser 5 letters",
+  "word guesser game",
+  "word guesser solver",
+  "word guessing board game",
+  "word guessing game",
+  "word guessing game online",
+  "word guessing game with friends",
+  "word scramble",
+  "word scramble answers",
+  "word scramble game",
+  "word scramble generator",
+  "word scramble generator free",
+  "word scramble help",
+  "word scramble solver",
+  "word scramble washington post",
+  "word scramble worksheets",
+  "word scramble worksheets for grade 3",
+  "word scramble worksheets for grade 4",
+  "word scramble worksheets for kids",
+  "word scramble worksheets free",
+  "word scramble worksheets kindergarten",
+  "word scramble worksheets pdf",
+  "word scrambler",
+  "word scrambler tool",
+  "word search",
+  "word search book",
+  "word search game",
+  "word search generator",
+  "word search generator free",
+  "word search maker",
+  "word search printable",
+  "word search puzzles",
+  "word search solver",
+  "word search worksheets",
+  "word search worksheets for grade 1",
+  "word search worksheets for grade 2",
+  "word search worksheets for grade 3",
+  "word search worksheets for grade 4",
+  "word search worksheets for grade 5",
+  "word search worksheets for grade 6",
+  "word search worksheets for kids",
+  "word search worksheets free",
+  "word search worksheets pdf",
+  "word searcher",
   "worksheet bundle for kids",
   "worksheet bundles",
   "worksheet packet",
@@ -7234,6 +9532,9 @@
   "addition to 20 worksheets with pictures",
   "addition tools for kids",
   "addition toys for kids",
+  "addition worksheets for kindergarten pdf",
+  "additionally svenska",
+  "additionals polestar",
   "alphabet accessories for hair",
   "alphabet activities for kindergarten",
   "alphabet activities for preschoolers pdf",
@@ -7266,6 +9567,7 @@
   "alphabet toys for 3 year olds",
   "alphabet toys for kids",
   "alphabet toys for toddlers",
+  "alphabet train drawing",
   "alphabet vegetables and fruits",
   "alphabet vegetables name",
   "alphabet vehicles for kids",
@@ -7341,7 +9643,7 @@
   "bakery product 3 letters",
   "bakery product 4 letters",
   "bakery scott's addition",
-  "band birds 2 5 letters",
+  "base ten blocks worksheets 4th grade",
   "beach 6 letters",
   "beach 8 letters",
   "beach alphabet",
@@ -7371,6 +9673,11 @@
   "beach volleyball counting",
   "beginning sounds a-z worksheets pdf",
   "best breakfast alphabet city",
+  "big or small object",
+  "big or small picture",
+  "bingo game",
+  "bingo maker",
+  "bingolotto idag",
   "birds alphabet song",
   "birds counting",
   "birds letters",
@@ -7448,6 +9755,7 @@
   "capital letters activities",
   "carb counting vegetables",
   "cbt worksheet packet beck institute",
+  "chart counting 1 to 100",
   "christmas addition",
   "christmas addition and subtraction",
   "christmas addition and subtraction worksheets",
@@ -7532,6 +9840,10 @@
   "colors letters",
   "colors math",
   "colors math blue prince",
+  "comparing numbers worksheets grade 2 with answers",
+  "comparing sizes of countries website",
+  "comparing sizes worksheet",
+  "comparison groups",
   "counting accessories",
   "counting activities",
   "counting activities for 2 year olds",
@@ -7571,6 +9883,7 @@
   "counting hospital days",
   "counting objects around the house",
   "counting pets in japanese",
+  "counting pictures 1 5",
   "counting to 20",
   "counting to 20 games",
   "counting to 20 in french",
@@ -7601,6 +9914,7 @@
   "counting vegetables worksheet math activity",
   "crocs accessories alphabet",
   "crocs accessories letters",
+  "crossword online",
   "cvc words",
   "cvc words for grade 1",
   "cvc words for grade 2",
@@ -7614,6 +9928,7 @@
   "december morning work kindergarten",
   "demonologist hospital letters",
   "desserts and sweets hangman cool math games",
+  "difference between sorting and classification",
   "digital summer counting the hours",
   "digital summer counting the hours lyrics",
   "dinosaurs alphabet a to z",
@@ -7737,6 +10052,12 @@
   "farm animals math worksheets for preschoolers",
   "father christmas letters",
   "feelings and emotions alphabet",
+  "find and count activity",
+  "find and count formula in excel",
+  "find and finding difference",
+  "find and found difference",
+  "find objects games free",
+  "find objects mod apk",
   "fine motor",
   "fine motor activities",
   "fine motor activities for toddlers",
@@ -7759,6 +10080,7 @@
   "flowers math worksheet",
   "flowers scott's addition",
   "forming letters activities",
+  "fractions svenska",
   "free busy work worksheets",
   "free printable 4th of july math worksheets",
   "fruits 4 letters",
@@ -7800,6 +10122,10 @@
   "furniture letters",
   "furniture store scotts addition",
   "furniture transfer letters",
+  "geometry dash subzero",
+  "geometry geeks",
+  "geometry worksheets 4th grade",
+  "geometry worksheets for grade 2",
   "graphing",
   "graphing calculator",
   "graphing calculator desmos",
@@ -7830,7 +10156,7 @@
   "hidden objects",
   "hidden objects 247",
   "hidden objects cheat sims 4",
-  "hidden objects game free download",
+  "hidden objects free online",
   "hidden objects game online",
   "hidden objects games",
   "hidden objects games free",
@@ -7871,6 +10197,7 @@
   "hospital math",
   "hospital scan letters",
   "hospital scan letters crossword clue",
+  "how to count cells in different worksheets",
   "human body parts counting",
   "intercostal space counting",
   "jobs and occupations alphabet",
@@ -7900,10 +10227,10 @@
   "lesson plans kindergarten",
   "lesson plans kindergarten first week of school",
   "letter a activities",
-  "letter a activities for 1 year olds",
   "letter a activities for 2 year olds",
   "letter a activities for 3 year olds",
   "letter a activities for 4 year olds",
+  "letter a activities for kids",
   "letter a activities for kindergarten",
   "letter a activities for prek",
   "letter a activities for preschool",
@@ -8265,6 +10592,7 @@
   "letter recognition assessment",
   "letter recognition games",
   "letter recognition meaning in hindi",
+  "letter recognition worksheet",
   "letter s activities",
   "letter s activities for 2 year olds",
   "letter s activities for kids",
@@ -8444,6 +10772,8 @@
   "london zoo counting animals",
   "love letters bakery",
   "macro counting breakfast ideas",
+  "matching bracelets for couples",
+  "matching worksheets for preschool",
   "math activities kindergarten",
   "math activities kindergarten number sense",
   "math activities kindergarten worksheets",
@@ -8464,7 +10794,10 @@
   "math colors gaming bee",
   "math learning center worksheets",
   "math occupations",
+  "math puzzle for class 4",
+  "math puzzles for grade 5",
   "math scavenger hunt around the house",
+  "math sheets worksheets",
   "math small group activities kindergarten",
   "math stations kindergarten",
   "math tools online",
@@ -8475,9 +10808,13 @@
   "math toys for kids",
   "math toys for toddlers",
   "math worksheet bundle",
+  "math worksheets grade 4",
+  "math worksheets.com",
   "maths addition toys",
   "measurement scale",
   "measurement tape online",
+  "measurement worksheets for grade 1",
+  "measurement worksheets for grade 2",
   "merry christmas letters",
   "merry christmas letters printable",
   "middle sounds",
@@ -8529,8 +10866,12 @@
   "missing parts or accessories meaning in hindi",
   "missing parts ride",
   "missing parts ride 2026",
+  "missing pieces escape room",
+  "missing pieces svu",
   "money counting accessories",
   "montessori farm animals counting & sorting set",
+  "more or less io",
+  "more or less worksheets grade 3",
   "morning activities kindergarten",
   "morning busy work kindergarten",
   "morning work for kindergarten beginning of the year",
@@ -8561,10 +10902,10 @@
   "music alphabet font",
   "music alphabet for kids",
   "music alphabet guitar",
+  "music alphabet in order",
   "music alphabet letters",
   "music alphabet notes",
   "music alphabet piano",
-  "music alphabet words",
   "music alphabet worksheet",
   "music counting",
   "music counting 1 e and a",
@@ -8814,6 +11155,7 @@
   "number bonds to 20",
   "number bonds to 5",
   "number bonds worksheets",
+  "number lines for grade 2",
   "number recognition",
   "number recognition 1 to 10",
   "number recognition activities",
@@ -8845,12 +11187,25 @@
   "occupations with 15 letters",
   "ocean life alphabet",
   "ocean life on display 8 letters",
+  "odd one out meaning in tamil",
+  "odd one out worksheets for nursery",
   "orchard toys addition",
+  "pattern triangle",
   "patterns in mathematics",
   "patterns in the ivy 2",
   "patterns of fashion",
   "pets letters to god",
   "pets with 4 letters",
+  "picture math addition worksheets",
+  "picture pathan",
+  "picture pattern for class 1",
+  "picture pattern for class 3",
+  "picture pattern for class 4",
+  "picture patti",
+  "picture sorter ai",
+  "picture sorting ai",
+  "picture sudoku solver",
+  "picture trailer hindi",
   "pixel vibes farm animals addition bovine",
   "place value",
   "place value and face value",
@@ -8876,6 +11231,8 @@
   "post office letters to santa 2025",
   "post office letters tracking",
   "post office scott's addition",
+  "prepositions in english",
+  "prepositions worksheets grade 6",
   "preschool worksheet bundle",
   "printable packer schedule",
   "printable packer schedule 2026",
@@ -8922,6 +11279,10 @@
   "secret code math worksheet generator",
   "secret code math worksheets",
   "secret code math worksheets free",
+  "sequencing life cycles",
+  "shadow matching cut and paste",
+  "shadow matching puzzle",
+  "shadow matching worksheet free",
   "shapes 5 letters",
   "shapes 7 letters",
   "shapes 7 letters crossword",
@@ -9130,6 +11491,7 @@
   "subtraction to 10 worksheets",
   "subtraction to 100",
   "subtraction to 100 worksheets",
+  "subtraction worksheets for grade 5",
   "summer addition color by number",
   "summer addition mod",
   "summer addition worksheets",
@@ -9190,8 +11552,12 @@
   "syllables pronunciation",
   "syllables svenska",
   "syllables words",
+  "tally marks worksheet for class 3",
   "task around the house 5 letters",
   "telling time in english",
+  "telling time worksheets grade 5",
+  "ten frames addition",
+  "ten frames for kindergarten",
   "tens and ones",
   "tens and ones chart",
   "tens and ones example",
@@ -9305,6 +11671,8 @@
   "tracing numbers 1-5",
   "tracing numbers printable",
   "tracing numbers worksheets",
+  "treasure hunt game",
+  "treasure hunter",
   "trees 3 letters",
   "trees 4 letters",
   "trees 5 letters",
@@ -9338,6 +11706,9 @@
   "vehicles counting",
   "vehicles math",
   "view hospital letters online",
+  "visual discrimination worksheets pinterest",
+  "visual logic controller",
+  "visual logic simul8",
   "weather 4 letters",
   "weather 7 letters",
   "weather 8 letters",
@@ -9389,6 +11760,8 @@
   "winter math games",
   "winter math worksheets",
   "wonder pets alphabet",
+  "word building game",
+  "word building game online",
   "word families",
   "word families chart",
   "word families examples",
@@ -9398,7 +11771,12 @@
   "word families kindergarten",
   "word families list",
   "word families pdf",
-  "word families worksheets",
+  "word families worksheet",
+  "word guesser 5 letters",
+  "word guessing board game",
+  "word scramble answers",
+  "word scramble washington post",
+  "word search generator free",
   "worksheet bundle for kids",
   "worksheet bundles",
   "worksheet packet",
@@ -9423,6 +11801,5 @@
   "zoo animals math activities",
   "zoo animals math worksheets",
   "zoo phonics alphabet animals"
- ],
- "refilteredAt": "2026-07-20T08:58:53.367Z"
+ ]
 }

@@ -4,233 +4,406 @@
   "hl": "fi",
   "gl": "fi"
  },
- "generatedAt": "2026-07-20T08:58:45.594Z",
+ "generatedAt": "2026-07-20T09:59:53.155Z",
  "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
- "requestCount": 229,
+ "requestCount": 462,
  "seedCounts": {
-  "skill": 11,
-  "context": 6,
+  "skill": 22,
+  "context": 8,
   "audience": 4,
   "enumerated": 0,
   "pack": 1,
-  "cross": 207
+  "cross": 309,
+  "typeName": 118
  },
  "errorCount": 0,
  "errors": [],
  "newVsInventory": {
   "inventoryUnique": 461,
-  "demandUnique": 109,
-  "novel": 99,
-  "novelShare": 0.908
+  "demandUnique": 426,
+  "novel": 189,
+  "novelShare": 0.444
  },
  "deadSeeds": [
+  "sanahahmot",
   "luvut 20 asti",
   "yhteenlasku 10 asti",
+  "esiopetuksen tehtävät",
   "läksyt tehtäviä",
   "läksyt esiopetus",
   "pistetyöskentely tehtäviä",
   "pistetyöskentely esiopetus",
   "lisäharjoitus tehtäviä",
   "lisäharjoitus esiopetus",
+  "sijaisen tunti tehtäviä",
+  "sijaisen tunti esiopetus",
   "erityisopetus tehtäviä",
   "erityisopetus esiopetus",
   "heinäkuun 4. matematiikka",
   "heinäkuun 4. laskeminen",
   "heinäkuun 4. kirjaimet",
   "asusteet matematiikka",
+  "asusteetmatematiikka",
   "asusteet laskeminen",
+  "asusteetlaskeminen",
   "asusteet kirjaimet",
+  "asusteetkirjaimet",
   "aktiviteetit matematiikka",
+  "aktiviteetitmatematiikka",
   "aktiviteetit laskeminen",
+  "aktiviteetitlaskeminen",
   "aktiviteetit kirjaimet",
+  "aktiviteetitkirjaimet",
   "eläimet matematiikka",
+  "eläimetmatematiikka",
   "eläimet laskeminen",
+  "eläimetlaskeminen",
   "eläimet kirjaimet",
+  "eläimetkirjaimet",
   "kodin ympärillä matematiikka",
   "kodin ympärillä laskeminen",
   "kodin ympärillä kirjaimet",
   "ruokakaupassa matematiikka",
+  "ruokakaupassamatematiikka",
   "ruokakaupassa laskeminen",
+  "ruokakaupassalaskeminen",
   "ruokakaupassa kirjaimet",
+  "ruokakaupassakirjaimet",
   "leipomo matematiikka",
+  "leipomomatematiikka",
   "leipomo laskeminen",
+  "leipomolaskeminen",
   "leipomo kirjaimet",
+  "leipomokirjaimet",
   "ranta matematiikka",
+  "rantamatematiikka",
   "ranta laskeminen",
+  "rantalaskeminen",
   "ranta kirjaimet",
+  "rantakirjaimet",
   "linnut matematiikka",
+  "linnutmatematiikka",
   "linnut laskeminen",
+  "linnutlaskeminen",
   "linnut kirjaimet",
-  "linnut 2 matematiikka",
-  "linnut 2 laskeminen",
-  "linnut 2 kirjaimet",
+  "linnutkirjaimet",
   "ruumiinosat matematiikka",
+  "ruumiinosatmatematiikka",
   "ruumiinosat laskeminen",
+  "ruumiinosatlaskeminen",
   "ruumiinosat kirjaimet",
+  "ruumiinosatkirjaimet",
   "aamiainen matematiikka",
+  "aamiainenmatematiikka",
   "aamiainen laskeminen",
+  "aamiainenlaskeminen",
   "aamiainen kirjaimet",
+  "aamiainenkirjaimet",
   "leirielämä matematiikka",
+  "leirielämämatematiikka",
   "leirielämä laskeminen",
+  "leirielämälaskeminen",
   "leirielämä kirjaimet",
+  "leirielämäkirjaimet",
+  "joulumatematiikka",
   "joulu laskeminen",
+  "joululaskeminen",
   "joulu kirjaimet",
+  "joulukirjaimet",
   "luokkahuone matematiikka",
+  "luokkahuonematematiikka",
   "luokkahuone laskeminen",
+  "luokkahuonelaskeminen",
   "luokkahuone kirjaimet",
+  "luokkahuonekirjaimet",
   "vaatteet matematiikka",
+  "vaatteetmatematiikka",
   "vaatteet laskeminen",
+  "vaatteetlaskeminen",
   "vaatteet kirjaimet",
+  "vaatteetkirjaimet",
   "värit matematiikka",
+  "väritmatematiikka",
   "värit laskeminen",
+  "väritlaskeminen",
   "värit kirjaimet",
+  "väritkirjaimet",
   "jälkiruoat ja makeiset matematiikka",
   "jälkiruoat ja makeiset laskeminen",
   "jälkiruoat ja makeiset kirjaimet",
   "dinosaurukset matematiikka",
+  "dinosauruksetmatematiikka",
   "dinosaurukset laskeminen",
+  "dinosauruksetlaskeminen",
   "dinosaurukset kirjaimet",
+  "dinosauruksetkirjaimet",
+  "pääsiäinenmatematiikka",
   "pääsiäinen laskeminen",
+  "pääsiäinenlaskeminen",
   "pääsiäinen kirjaimet",
+  "pääsiäinenkirjaimet",
   "tunteet matematiikka",
+  "tunteetmatematiikka",
   "tunteet laskeminen",
+  "tunteetlaskeminen",
   "tunteet kirjaimet",
+  "tunteetkirjaimet",
   "maatilan eläimet matematiikka",
   "maatilan eläimet laskeminen",
   "maatilan eläimet kirjaimet",
   "kukat matematiikka",
+  "kukatmatematiikka",
   "kukat laskeminen",
+  "kukatlaskeminen",
   "kukat kirjaimet",
+  "kukatkirjaimet",
   "metsän eläimet matematiikka",
   "metsän eläimet laskeminen",
   "metsän eläimet kirjaimet",
   "hedelmät matematiikka",
+  "hedelmätmatematiikka",
   "hedelmät laskeminen",
+  "hedelmätlaskeminen",
   "hedelmät kirjaimet",
+  "hedelmätkirjaimet",
   "huonekalut matematiikka",
+  "huonekalutmatematiikka",
   "huonekalut laskeminen",
+  "huonekalutlaskeminen",
   "huonekalut kirjaimet",
+  "huonekalutkirjaimet",
   "sairaala matematiikka",
+  "sairaalamatematiikka",
   "sairaala laskeminen",
+  "sairaalalaskeminen",
   "sairaala kirjaimet",
+  "sairaalakirjaimet",
   "hyönteiset ja ötökät matematiikka",
   "hyönteiset ja ötökät laskeminen",
   "hyönteiset ja ötökät kirjaimet",
   "keittiövälineet matematiikka",
+  "keittiövälineetmatematiikka",
   "keittiövälineet laskeminen",
+  "keittiövälineetlaskeminen",
   "keittiövälineet kirjaimet",
+  "keittiövälineetkirjaimet",
   "sekalaista matematiikka",
+  "sekalaistamatematiikka",
   "sekalaista laskeminen",
+  "sekalaistalaskeminen",
   "sekalaista kirjaimet",
+  "sekalaistakirjaimet",
+  "musiikkimatematiikka",
   "musiikki laskeminen",
+  "musiikkilaskeminen",
+  "musiikkikirjaimet",
+  "ammatitmatematiikka",
   "ammatit laskeminen",
+  "ammatitlaskeminen",
   "ammatit kirjaimet",
+  "ammatitkirjaimet",
   "merielämä matematiikka",
+  "merielämämatematiikka",
   "merielämä laskeminen",
+  "merielämälaskeminen",
   "merielämä kirjaimet",
+  "merielämäkirjaimet",
   "lemmikit matematiikka",
+  "lemmikitmatematiikka",
   "lemmikit laskeminen",
+  "lemmikitlaskeminen",
   "lemmikit kirjaimet",
+  "lemmikitkirjaimet",
   "postitoimisto matematiikka",
+  "postitoimistomatematiikka",
   "postitoimisto laskeminen",
+  "postitoimistolaskeminen",
   "postitoimisto kirjaimet",
+  "postitoimistokirjaimet",
   "matelijat ja sammakkoeläimet matematiikka",
   "matelijat ja sammakkoeläimet laskeminen",
   "matelijat ja sammakkoeläimet kirjaimet",
+  "muodotmatematiikka",
   "muodot laskeminen",
+  "muodotlaskeminen",
   "muodot kirjaimet",
+  "muodotkirjaimet",
+  "avaruusmatematiikka",
   "avaruus laskeminen",
+  "avaruuslaskeminen",
   "avaruus kirjaimet",
+  "avaruuskirjaimet",
+  "kevätmatematiikka",
   "kevät laskeminen",
+  "kevätlaskeminen",
   "kevät kirjaimet",
+  "kevätkirjaimet",
   "kesä matematiikka",
+  "kesämatematiikka",
   "kesä laskeminen",
+  "kesälaskeminen",
   "kesä kirjaimet",
+  "kesäkirjaimet",
   "kiitospäivä matematiikka",
+  "kiitospäivämatematiikka",
   "kiitospäivä laskeminen",
+  "kiitospäivälaskeminen",
   "kiitospäivä kirjaimet",
+  "kiitospäiväkirjaimet",
   "lentävät asiat matematiikka",
   "lentävät asiat laskeminen",
   "lentävät asiat kirjaimet",
   "työkalut matematiikka",
+  "työkalutmatematiikka",
   "työkalut laskeminen",
+  "työkalutlaskeminen",
   "työkalut kirjaimet",
+  "työkalutkirjaimet",
+  "lelutmatematiikka",
   "lelut laskeminen",
+  "lelutlaskeminen",
   "lelut kirjaimet",
+  "lelutkirjaimet",
   "puut matematiikka",
+  "puutmatematiikka",
   "puut laskeminen",
+  "puutlaskeminen",
   "puut kirjaimet",
+  "puutkirjaimet",
   "vihannekset matematiikka",
+  "vihanneksetmatematiikka",
   "vihannekset laskeminen",
+  "vihanneksetlaskeminen",
   "vihannekset kirjaimet",
+  "vihanneksetkirjaimet",
   "ajoneuvot matematiikka",
+  "ajoneuvotmatematiikka",
   "ajoneuvot laskeminen",
+  "ajoneuvotlaskeminen",
   "ajoneuvot kirjaimet",
+  "ajoneuvotkirjaimet",
   "sää matematiikka",
+  "säämatematiikka",
   "sää laskeminen",
+  "säälaskeminen",
   "sää kirjaimet",
+  "sääkirjaimet",
+  "talvimatematiikka",
   "talvi laskeminen",
+  "talvilaskeminen",
   "talvi kirjaimet",
+  "talvikirjaimet",
   "eläintarhan eläimet matematiikka",
   "eläintarhan eläimet laskeminen",
   "eläintarhan eläimet kirjaimet",
-  "eläimet mv 2 matematiikka",
-  "eläimet mv 2 laskeminen",
-  "eläimet mv 2 kirjaimet",
-  "eläimet mv 3 matematiikka",
-  "eläimet mv 3 laskeminen",
-  "eläimet mv 3 kirjaimet",
-  "eläimet mv 4 matematiikka",
-  "eläimet mv 4 laskeminen",
-  "eläimet mv 4 kirjaimet",
-  "eläimet mv 5 matematiikka",
-  "eläimet mv 5 laskeminen",
-  "eläimet mv 5 kirjaimet",
-  "ranta mv 2 matematiikka",
-  "ranta mv 2 laskeminen",
-  "ranta mv 2 kirjaimet",
-  "linnut m&v 2 matematiikka",
-  "linnut m&v 2 laskeminen",
-  "linnut m&v 2 kirjaimet",
-  "joulu m/v 2 matematiikka",
-  "joulu m/v 2 laskeminen",
-  "joulu m/v 2 kirjaimet",
+  "eläimet mv matematiikka",
+  "eläimet mv laskeminen",
+  "eläimet mv kirjaimet",
+  "ranta mv matematiikka",
+  "ranta mv laskeminen",
+  "ranta mv kirjaimet",
+  "linnut m&v matematiikka",
+  "linnut m&v laskeminen",
+  "linnut m&v kirjaimet",
+  "joulu m/v matematiikka",
+  "joulu m/v laskeminen",
+  "joulu m/v kirjaimet",
   "luokkahuone 2 (m/v) matematiikka",
   "luokkahuone 2 (m/v) laskeminen",
   "luokkahuone 2 (m/v) kirjaimet",
-  "pääsiäinen mv 2 matematiikka",
-  "pääsiäinen mv 2 laskeminen",
-  "pääsiäinen mv 2 kirjaimet",
-  "ruoka mv 2 matematiikka",
-  "ruoka mv 2 laskeminen",
-  "ruoka mv 2 kirjaimet",
-  "ruoka mv 3 matematiikka",
-  "ruoka mv 3 laskeminen",
-  "ruoka mv 3 kirjaimet",
-  "koti mv 2 matematiikka",
-  "koti mv 2 laskeminen",
-  "koti mv 2 kirjaimet",
-  "merielämä mv 2 matematiikka",
-  "merielämä mv 2 laskeminen",
-  "merielämä mv 2 kirjaimet",
-  "urheilu mv 2 matematiikka",
-  "urheilu mv 2 laskeminen",
-  "urheilu mv 2 kirjaimet",
-  "lelut mv 2 matematiikka",
-  "lelut mv 2 laskeminen",
-  "lelut mv 2 kirjaimet",
-  "ystävänpäivä mv 2 matematiikka",
-  "ystävänpäivä mv 2 laskeminen",
-  "ystävänpäivä mv 2 kirjaimet",
-  "vihannekset mv 2 matematiikka",
-  "vihannekset mv 2 laskeminen",
-  "vihannekset mv 2 kirjaimet",
-  "ajoneuvot mv 2 matematiikka",
-  "ajoneuvot mv 2 laskeminen",
-  "ajoneuvot mv 2 kirjaimet",
-  "ajoneuvot mv 3 matematiikka",
-  "ajoneuvot mv 3 laskeminen",
-  "ajoneuvot mv 3 kirjaimet"
+  "pääsiäinen mv matematiikka",
+  "pääsiäinen mv laskeminen",
+  "pääsiäinen mv kirjaimet",
+  "ruoka mv matematiikka",
+  "ruoka mv laskeminen",
+  "ruoka mv kirjaimet",
+  "koti mv matematiikka",
+  "koti mv laskeminen",
+  "koti mv kirjaimet",
+  "merielämä mv matematiikka",
+  "merielämä mv laskeminen",
+  "merielämä mv kirjaimet",
+  "urheilu mv matematiikka",
+  "urheilu mv laskeminen",
+  "urheilu mv kirjaimet",
+  "lelut mv matematiikka",
+  "lelut mv laskeminen",
+  "lelut mv kirjaimet",
+  "ystävänpäivä mv matematiikka",
+  "ystävänpäivä mv laskeminen",
+  "ystävänpäivä mv kirjaimet",
+  "vihannekset mv matematiikka",
+  "vihannekset mv laskeminen",
+  "vihannekset mv kirjaimet",
+  "ajoneuvot mv matematiikka",
+  "ajoneuvot mv laskeminen",
+  "ajoneuvot mv kirjaimet",
+  "kuvasudoku tehtäviä",
+  "kryptogrammi tehtäviä",
+  "kuvapolku",
+  "kuvapolku tehtäviä",
+  "koodattu yhteenlasku",
+  "koodattu yhteenlasku tehtäviä",
+  "matematiikkapulma",
+  "matematiikkapulma tehtäviä",
+  "matematiikkatehtävä",
+  "matematiikkatehtävä tehtäviä",
+  "iso vai pieni tehtäviä",
+  "laske kaaviossa",
+  "laske kaaviossa tehtäviä",
+  "kuviojuna",
+  "kuviojuna tehtäviä",
+  "kuviotehtävä",
+  "kuviotehtävä tehtäviä",
+  "ruudukkoyhdistys",
+  "ruudukkoyhdistys tehtäviä",
+  "yhdistäminen tehtäviä",
+  "lajittele kuvat",
+  "lajittele kuvat tehtäviä",
+  "yhdistä varjot",
+  "yhdistä varjot tehtäviä",
+  "aakkosjuna tehtäviä",
+  "arvaa sana tehtäviä",
+  "kirjainsekoitus",
+  "kirjainsekoitus tehtäviä",
+  "etsi ja laske tehtäviä",
+  "etsi esineet tehtäviä",
+  "puuttuvat palat tehtäviä",
+  "kuvien laskeminen",
+  "kuvien laskeminen tehtäviä",
+  "kymmenkehys",
+  "kymmenkehys tehtäviä",
+  "tukkimiehen kirjanpito tehtäviä",
+  "lukutaulu tehtäviä",
+  "lukujen vertailu tehtäviä",
+  "määrien vertailu",
+  "määrien vertailu tehtäviä",
+  "kokojen vertailu tehtäviä",
+  "kymmenet ja ykköset tehtäviä",
+  "kaaviot ja tilastot",
+  "kaaviot ja tilastot tehtäviä",
+  "kertolaskun alkeet",
+  "kertolaskun alkeet tehtäviä",
+  "kuvaparit",
+  "kuvaparit tehtäviä",
+  "kuviojonot",
+  "kuviojonot tehtäviä",
+  "sijaintisanat",
+  "sijaintisanat tehtäviä",
+  "kuvalaskut",
+  "kuvalaskut tehtäviä",
+  "luonnontieteen lajittelu",
+  "luonnontieteen lajittelu tehtäviä",
+  "järjestys ja elämänkierto",
+  "järjestys ja elämänkierto tehtäviä",
+  "luonnontieteen yhdistäminen",
+  "luonnontieteen yhdistäminen tehtäviä",
+  "alkuäänteet tehtäviä",
+  "kirjaintuntemus tehtäviä",
+  "sananrakennus",
+  "sananrakennus tehtäviä",
+  "kuvasanasto tehtäviä",
+  "kielellinen tietoisuus tehtäviä"
  ],
  "suggestions": {
   "tavutetut tehtävät": {
@@ -259,6 +432,33 @@
     "kirjaimet neuloen",
     "kirjaimet sekaisin tehtäviä",
     "kirjaimet kaunolla"
+   ]
+  },
+  "kirjainten tunnistus": {
+   "cls": "skill",
+   "s": [
+    "kirjainten tunnistus"
+   ]
+  },
+  "äänteet": {
+   "cls": "skill",
+   "s": [
+    "äänteet",
+    "äänteet englanniksi",
+    "äänteet ja kirjaimet",
+    "äänteet suomi",
+    "ipa äänteet",
+    "wordwall äänteet",
+    "lingin äänteet",
+    "vauvan äänteet",
+    "soinnilliset äänteet",
+    "nenä äänteet"
+   ]
+  },
+  "äännetietoisuus": {
+   "cls": "skill",
+   "s": [
+    "äännetietoisuus"
    ]
   },
   "tavutus": {
@@ -291,31 +491,71 @@
     "riimitiimi"
    ]
   },
-  "äänteet": {
+  "sanahahmot": {
+   "cls": "skill",
+   "s": []
+  },
+  "alkava lukutaito": {
    "cls": "skill",
    "s": [
-    "äänteet",
-    "äänteet englanniksi",
-    "äänteet ja kirjaimet",
-    "äänteet suomi",
-    "ipa äänteet",
-    "wordwall äänteet",
-    "lingin äänteet",
-    "vauvan äänteet",
-    "soinnilliset äänteet",
-    "nenä äänteet"
+    "alkava lukutaito"
    ]
   },
   "luvut 20 asti": {
    "cls": "skill",
    "s": []
   },
+  "lukujono": {
+   "cls": "skill",
+   "s": [
+    "lukujono",
+    "lukujonot",
+    "lukujonotaidot",
+    "lukujonossa",
+    "lukujono englanniksi",
+    "lukujono tehtäviä",
+    "lukujonon summa",
+    "lukujonossa youtube",
+    "lukujono testi",
+    "lukujono esiopetus"
+   ]
+  },
   "yhteenlasku 10 asti": {
    "cls": "skill",
    "s": []
   },
-  "kellonajat": {
+  "kymmenylitys": {
    "cls": "skill",
+   "s": [
+    "kymmenylitys",
+    "kymmenylitys vähennyslaskussa",
+    "kymmenylitys harjoituksia",
+    "kymmenylitys yhteenlaskussa",
+    "kymmenylitys peli",
+    "kymmenylitys toiminnallisesti",
+    "kymmenylitys tehtäviä",
+    "kymmenylitys englanniksi",
+    "kymmenylitys laskuja",
+    "matematiikka kymmenylitys"
+   ]
+  },
+  "kymmenjärjestelmä": {
+   "cls": "skill",
+   "s": [
+    "kymmenjärjestelmä",
+    "kymmenjärjestelmävälineet",
+    "kymmenjärjestelmä taulukko",
+    "kymmenjärjestelmä harjoituksia",
+    "kymmenjärjestelmän opettaminen",
+    "kymmenjärjestelmä historia",
+    "kymmenjärjestelmä englanniksi",
+    "kymmenjärjestelmä peli",
+    "kymmenjärjestelmä tehtäviä",
+    "kymmenjärjestelmän luvut"
+   ]
+  },
+  "kellonajat": {
+   "cls": "typeName",
    "s": [
     "kellonajat englanniksi",
     "kellonajat",
@@ -344,6 +584,21 @@
     "3d geometriset muodot"
    ]
   },
+  "sarjoittaminen": {
+   "cls": "skill",
+   "s": [
+    "sarjoittaminen",
+    "sarjoittaminen tehtäviä",
+    "sarjoittaminen varhaiskasvatus",
+    "sarjoittaminen toiminnallisesti",
+    "sarjoittaminen esiopetus",
+    "sarjoittaminen eskari",
+    "sarjoittaminen englanniksi",
+    "sarjoittaminen matematiikka",
+    "sarjoittaminen luonnossa",
+    "sarjoittaminen peli"
+   ]
+  },
   "hienomotoriikka": {
    "cls": "skill",
    "s": [
@@ -357,6 +612,35 @@
     "hienomotoriikka testi",
     "hienomotoriikka harjoituksia lapsille",
     "hienomotoriikka harjoituksia aikuisille"
+   ]
+  },
+  "silmä-käsi-koordinaatio": {
+   "cls": "skill",
+   "s": [
+    "silmä käsi koordinaatio",
+    "silmä käsi koordinaatio harjoitus",
+    "silmä käsi koordinaatio lapsi",
+    "silmä käsi koordinaatio testi",
+    "silmä käsi koordinaatio englanniksi"
+   ]
+  },
+  "esiopetuksen tehtävät": {
+   "cls": "skill",
+   "s": []
+  },
+  "alkuopetus": {
+   "cls": "skill",
+   "s": [
+    "alkuopetus",
+    "alkuopetus englanniksi",
+    "alkuopetus käsityö",
+    "alkuopetus englanti",
+    "alkuopetus pätevyys",
+    "alkuopetus juuli",
+    "alkuopetus musiikki",
+    "alkuopetus fontti",
+    "alkuopetus koulutus",
+    "alkuopetus materiaali"
    ]
   },
   "läksyt tehtäviä": {
@@ -380,6 +664,14 @@
    "s": []
   },
   "lisäharjoitus esiopetus": {
+   "cls": "context",
+   "s": []
+  },
+  "sijaisen tunti tehtäviä": {
+   "cls": "context",
+   "s": []
+  },
+  "sijaisen tunti esiopetus": {
    "cls": "context",
    "s": []
   },
@@ -438,7 +730,15 @@
    "cls": "cross",
    "s": []
   },
+  "asusteetmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "asusteet laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "asusteetlaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -446,7 +746,15 @@
    "cls": "cross",
    "s": []
   },
+  "asusteetkirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "aktiviteetit matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "aktiviteetitmatematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -454,7 +762,15 @@
    "cls": "cross",
    "s": []
   },
+  "aktiviteetitlaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "aktiviteetit kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "aktiviteetitkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -462,11 +778,23 @@
    "cls": "cross",
    "s": []
   },
+  "eläimetmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "eläimet laskeminen": {
    "cls": "cross",
    "s": []
   },
+  "eläimetlaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "eläimet kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "eläimetkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -486,7 +814,15 @@
    "cls": "cross",
    "s": []
   },
+  "ruokakaupassamatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "ruokakaupassa laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "ruokakaupassalaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -494,7 +830,15 @@
    "cls": "cross",
    "s": []
   },
+  "ruokakaupassakirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "leipomo matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "leipomomatematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -502,7 +846,15 @@
    "cls": "cross",
    "s": []
   },
+  "leipomolaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "leipomo kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "leipomokirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -510,7 +862,15 @@
    "cls": "cross",
    "s": []
   },
+  "rantamatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "ranta laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "rantalaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -518,7 +878,15 @@
    "cls": "cross",
    "s": []
   },
+  "rantakirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "linnut matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "linnutmatematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -526,19 +894,15 @@
    "cls": "cross",
    "s": []
   },
+  "linnutlaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "linnut kirjaimet": {
    "cls": "cross",
    "s": []
   },
-  "linnut 2 matematiikka": {
-   "cls": "cross",
-   "s": []
-  },
-  "linnut 2 laskeminen": {
-   "cls": "cross",
-   "s": []
-  },
-  "linnut 2 kirjaimet": {
+  "linnutkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -546,7 +910,15 @@
    "cls": "cross",
    "s": []
   },
+  "ruumiinosatmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "ruumiinosat laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "ruumiinosatlaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -554,7 +926,15 @@
    "cls": "cross",
    "s": []
   },
+  "ruumiinosatkirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "aamiainen matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "aamiainenmatematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -562,7 +942,15 @@
    "cls": "cross",
    "s": []
   },
+  "aamiainenlaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "aamiainen kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "aamiainenkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -570,11 +958,23 @@
    "cls": "cross",
    "s": []
   },
+  "leirielämämatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "leirielämä laskeminen": {
    "cls": "cross",
    "s": []
   },
+  "leirielämälaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "leirielämä kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "leirielämäkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -584,7 +984,15 @@
     "joulu matematiikka"
    ]
   },
+  "joulumatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "joulu laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "joululaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -592,7 +1000,15 @@
    "cls": "cross",
    "s": []
   },
+  "joulukirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "luokkahuone matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "luokkahuonematematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -600,7 +1016,15 @@
    "cls": "cross",
    "s": []
   },
+  "luokkahuonelaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "luokkahuone kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "luokkahuonekirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -608,7 +1032,15 @@
    "cls": "cross",
    "s": []
   },
+  "vaatteetmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "vaatteet laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "vaatteetlaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -616,7 +1048,15 @@
    "cls": "cross",
    "s": []
   },
+  "vaatteetkirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "värit matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "väritmatematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -624,7 +1064,15 @@
    "cls": "cross",
    "s": []
   },
+  "väritlaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "värit kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "väritkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -644,11 +1092,23 @@
    "cls": "cross",
    "s": []
   },
+  "dinosauruksetmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "dinosaurukset laskeminen": {
    "cls": "cross",
    "s": []
   },
+  "dinosauruksetlaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "dinosaurukset kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosauruksetkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -658,7 +1118,15 @@
     "pääsiäinen matematiikka"
    ]
   },
+  "pääsiäinenmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "pääsiäinen laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "pääsiäinenlaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -666,7 +1134,15 @@
    "cls": "cross",
    "s": []
   },
+  "pääsiäinenkirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "tunteet matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "tunteetmatematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -674,7 +1150,15 @@
    "cls": "cross",
    "s": []
   },
+  "tunteetlaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "tunteet kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "tunteetkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -694,11 +1178,23 @@
    "cls": "cross",
    "s": []
   },
+  "kukatmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "kukat laskeminen": {
    "cls": "cross",
    "s": []
   },
+  "kukatlaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "kukat kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "kukatkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -718,7 +1214,15 @@
    "cls": "cross",
    "s": []
   },
+  "hedelmätmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "hedelmät laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "hedelmätlaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -726,7 +1230,15 @@
    "cls": "cross",
    "s": []
   },
+  "hedelmätkirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "huonekalut matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "huonekalutmatematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -734,7 +1246,15 @@
    "cls": "cross",
    "s": []
   },
+  "huonekalutlaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "huonekalut kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "huonekalutkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -742,11 +1262,23 @@
    "cls": "cross",
    "s": []
   },
+  "sairaalamatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "sairaala laskeminen": {
    "cls": "cross",
    "s": []
   },
+  "sairaalalaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "sairaala kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "sairaalakirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -766,7 +1298,15 @@
    "cls": "cross",
    "s": []
   },
+  "keittiövälineetmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "keittiövälineet laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "keittiövälineetlaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -774,7 +1314,15 @@
    "cls": "cross",
    "s": []
   },
+  "keittiövälineetkirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "sekalaista matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "sekalaistamatematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -782,7 +1330,15 @@
    "cls": "cross",
    "s": []
   },
+  "sekalaistalaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "sekalaista kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "sekalaistakirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -793,7 +1349,15 @@
     "musiikki ja matematiikka"
    ]
   },
+  "musiikkimatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "musiikki laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "musiikkilaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -803,13 +1367,25 @@
     "musiikki kirjaimet"
    ]
   },
+  "musiikkikirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "ammatit matematiikka": {
    "cls": "cross",
    "s": [
     "matematiikka ammatit"
    ]
   },
+  "ammatitmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "ammatit laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "ammatitlaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -817,7 +1393,15 @@
    "cls": "cross",
    "s": []
   },
+  "ammatitkirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "merielämä matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "merielämämatematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -825,7 +1409,15 @@
    "cls": "cross",
    "s": []
   },
+  "merielämälaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "merielämä kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "merielämäkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -833,7 +1425,15 @@
    "cls": "cross",
    "s": []
   },
+  "lemmikitmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "lemmikit laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "lemmikitlaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -841,7 +1441,15 @@
    "cls": "cross",
    "s": []
   },
+  "lemmikitkirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "postitoimisto matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "postitoimistomatematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -849,7 +1457,15 @@
    "cls": "cross",
    "s": []
   },
+  "postitoimistolaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "postitoimisto kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "postitoimistokirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -871,11 +1487,23 @@
     "matematiikka muodot"
    ]
   },
+  "muodotmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "muodot laskeminen": {
    "cls": "cross",
    "s": []
   },
+  "muodotlaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "muodot kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "muodotkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -885,11 +1513,23 @@
     "avaruus matematiikka"
    ]
   },
+  "avaruusmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "avaruus laskeminen": {
    "cls": "cross",
    "s": []
   },
+  "avaruuslaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "avaruus kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "avaruuskirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -908,7 +1548,15 @@
     "matematiikka kevät 26"
    ]
   },
+  "kevätmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "kevät laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "kevätlaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -916,7 +1564,15 @@
    "cls": "cross",
    "s": []
   },
+  "kevätkirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "kesä matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "kesämatematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -924,7 +1580,15 @@
    "cls": "cross",
    "s": []
   },
+  "kesälaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "kesä kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "kesäkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -932,11 +1596,23 @@
    "cls": "cross",
    "s": []
   },
+  "kiitospäivämatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "kiitospäivä laskeminen": {
    "cls": "cross",
    "s": []
   },
+  "kiitospäivälaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "kiitospäivä kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "kiitospäiväkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -956,11 +1632,23 @@
    "cls": "cross",
    "s": []
   },
+  "työkalutmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "työkalut laskeminen": {
    "cls": "cross",
    "s": []
   },
+  "työkalutlaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "työkalut kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "työkalutkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -970,7 +1658,15 @@
     "matematiikka lelut"
    ]
   },
+  "lelutmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "lelut laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "lelutlaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -978,7 +1674,15 @@
    "cls": "cross",
    "s": []
   },
+  "lelutkirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "puut matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "puutmatematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -986,7 +1690,15 @@
    "cls": "cross",
    "s": []
   },
+  "puutlaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "puut kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "puutkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -994,7 +1706,15 @@
    "cls": "cross",
    "s": []
   },
+  "vihanneksetmatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "vihannekset laskeminen": {
+   "cls": "cross",
+   "s": []
+  },
+  "vihanneksetlaskeminen": {
    "cls": "cross",
    "s": []
   },
@@ -1002,7 +1722,15 @@
    "cls": "cross",
    "s": []
   },
+  "vihanneksetkirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
   "ajoneuvot matematiikka": {
+   "cls": "cross",
+   "s": []
+  },
+  "ajoneuvotmatematiikka": {
    "cls": "cross",
    "s": []
   },
@@ -1010,7 +1738,15 @@
    "cls": "cross",
    "s": []
   },
+  "ajoneuvotlaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "ajoneuvot kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "ajoneuvotkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -1018,11 +1754,23 @@
    "cls": "cross",
    "s": []
   },
+  "säämatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "sää laskeminen": {
    "cls": "cross",
    "s": []
   },
+  "säälaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "sää kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "sääkirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -1032,11 +1780,23 @@
     "lukimat matematiikka talvi"
    ]
   },
+  "talvimatematiikka": {
+   "cls": "cross",
+   "s": []
+  },
   "talvi laskeminen": {
    "cls": "cross",
    "s": []
   },
+  "talvilaskeminen": {
+   "cls": "cross",
+   "s": []
+  },
   "talvi kirjaimet": {
+   "cls": "cross",
+   "s": []
+  },
+  "talvikirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -1052,87 +1812,51 @@
    "cls": "cross",
    "s": []
   },
-  "eläimet mv 2 matematiikka": {
+  "eläimet mv matematiikka": {
    "cls": "cross",
    "s": []
   },
-  "eläimet mv 2 laskeminen": {
+  "eläimet mv laskeminen": {
    "cls": "cross",
    "s": []
   },
-  "eläimet mv 2 kirjaimet": {
+  "eläimet mv kirjaimet": {
    "cls": "cross",
    "s": []
   },
-  "eläimet mv 3 matematiikka": {
+  "ranta mv matematiikka": {
    "cls": "cross",
    "s": []
   },
-  "eläimet mv 3 laskeminen": {
+  "ranta mv laskeminen": {
    "cls": "cross",
    "s": []
   },
-  "eläimet mv 3 kirjaimet": {
+  "ranta mv kirjaimet": {
    "cls": "cross",
    "s": []
   },
-  "eläimet mv 4 matematiikka": {
+  "linnut m&v matematiikka": {
    "cls": "cross",
    "s": []
   },
-  "eläimet mv 4 laskeminen": {
+  "linnut m&v laskeminen": {
    "cls": "cross",
    "s": []
   },
-  "eläimet mv 4 kirjaimet": {
+  "linnut m&v kirjaimet": {
    "cls": "cross",
    "s": []
   },
-  "eläimet mv 5 matematiikka": {
+  "joulu m/v matematiikka": {
    "cls": "cross",
    "s": []
   },
-  "eläimet mv 5 laskeminen": {
+  "joulu m/v laskeminen": {
    "cls": "cross",
    "s": []
   },
-  "eläimet mv 5 kirjaimet": {
-   "cls": "cross",
-   "s": []
-  },
-  "ranta mv 2 matematiikka": {
-   "cls": "cross",
-   "s": []
-  },
-  "ranta mv 2 laskeminen": {
-   "cls": "cross",
-   "s": []
-  },
-  "ranta mv 2 kirjaimet": {
-   "cls": "cross",
-   "s": []
-  },
-  "linnut m&v 2 matematiikka": {
-   "cls": "cross",
-   "s": []
-  },
-  "linnut m&v 2 laskeminen": {
-   "cls": "cross",
-   "s": []
-  },
-  "linnut m&v 2 kirjaimet": {
-   "cls": "cross",
-   "s": []
-  },
-  "joulu m/v 2 matematiikka": {
-   "cls": "cross",
-   "s": []
-  },
-  "joulu m/v 2 laskeminen": {
-   "cls": "cross",
-   "s": []
-  },
-  "joulu m/v 2 kirjaimet": {
+  "joulu m/v kirjaimet": {
    "cls": "cross",
    "s": []
   },
@@ -1148,142 +1872,986 @@
    "cls": "cross",
    "s": []
   },
-  "pääsiäinen mv 2 matematiikka": {
+  "pääsiäinen mv matematiikka": {
    "cls": "cross",
    "s": []
   },
-  "pääsiäinen mv 2 laskeminen": {
+  "pääsiäinen mv laskeminen": {
    "cls": "cross",
    "s": []
   },
-  "pääsiäinen mv 2 kirjaimet": {
+  "pääsiäinen mv kirjaimet": {
    "cls": "cross",
    "s": []
   },
-  "ruoka mv 2 matematiikka": {
+  "ruoka mv matematiikka": {
    "cls": "cross",
    "s": []
   },
-  "ruoka mv 2 laskeminen": {
+  "ruoka mv laskeminen": {
    "cls": "cross",
    "s": []
   },
-  "ruoka mv 2 kirjaimet": {
+  "ruoka mv kirjaimet": {
    "cls": "cross",
    "s": []
   },
-  "ruoka mv 3 matematiikka": {
+  "koti mv matematiikka": {
    "cls": "cross",
    "s": []
   },
-  "ruoka mv 3 laskeminen": {
+  "koti mv laskeminen": {
    "cls": "cross",
    "s": []
   },
-  "ruoka mv 3 kirjaimet": {
+  "koti mv kirjaimet": {
    "cls": "cross",
    "s": []
   },
-  "koti mv 2 matematiikka": {
+  "merielämä mv matematiikka": {
    "cls": "cross",
    "s": []
   },
-  "koti mv 2 laskeminen": {
+  "merielämä mv laskeminen": {
    "cls": "cross",
    "s": []
   },
-  "koti mv 2 kirjaimet": {
+  "merielämä mv kirjaimet": {
    "cls": "cross",
    "s": []
   },
-  "merielämä mv 2 matematiikka": {
+  "urheilu mv matematiikka": {
    "cls": "cross",
    "s": []
   },
-  "merielämä mv 2 laskeminen": {
+  "urheilu mv laskeminen": {
    "cls": "cross",
    "s": []
   },
-  "merielämä mv 2 kirjaimet": {
+  "urheilu mv kirjaimet": {
    "cls": "cross",
    "s": []
   },
-  "urheilu mv 2 matematiikka": {
+  "lelut mv matematiikka": {
    "cls": "cross",
    "s": []
   },
-  "urheilu mv 2 laskeminen": {
+  "lelut mv laskeminen": {
    "cls": "cross",
    "s": []
   },
-  "urheilu mv 2 kirjaimet": {
+  "lelut mv kirjaimet": {
    "cls": "cross",
    "s": []
   },
-  "lelut mv 2 matematiikka": {
+  "ystävänpäivä mv matematiikka": {
    "cls": "cross",
    "s": []
   },
-  "lelut mv 2 laskeminen": {
+  "ystävänpäivä mv laskeminen": {
    "cls": "cross",
    "s": []
   },
-  "lelut mv 2 kirjaimet": {
+  "ystävänpäivä mv kirjaimet": {
    "cls": "cross",
    "s": []
   },
-  "ystävänpäivä mv 2 matematiikka": {
+  "vihannekset mv matematiikka": {
    "cls": "cross",
    "s": []
   },
-  "ystävänpäivä mv 2 laskeminen": {
+  "vihannekset mv laskeminen": {
    "cls": "cross",
    "s": []
   },
-  "ystävänpäivä mv 2 kirjaimet": {
+  "vihannekset mv kirjaimet": {
    "cls": "cross",
    "s": []
   },
-  "vihannekset mv 2 matematiikka": {
+  "ajoneuvot mv matematiikka": {
    "cls": "cross",
    "s": []
   },
-  "vihannekset mv 2 laskeminen": {
+  "ajoneuvot mv laskeminen": {
    "cls": "cross",
    "s": []
   },
-  "vihannekset mv 2 kirjaimet": {
+  "ajoneuvot mv kirjaimet": {
    "cls": "cross",
    "s": []
   },
-  "ajoneuvot mv 2 matematiikka": {
-   "cls": "cross",
+  "yhteenlasku": {
+   "cls": "typeName",
+   "s": [
+    "yhteenlasku",
+    "yhteenlasku englanniksi",
+    "yhteenlasku excel",
+    "yhteenlaskupeli",
+    "yhteenlaskusääntö",
+    "yhteenlasku allekkain",
+    "yhteenlasku tehtäviä",
+    "yhteenlaskuja eskareille",
+    "yhteenlaskuja",
+    "yhteenlaskumenetelmä"
+   ]
+  },
+  "yhteenlasku tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "yhteenlasku tehtäviä",
+    "murtolukujen yhteenlasku tehtäviä",
+    "yhteenlasku allekkain tehtäviä"
+   ]
+  },
+  "kuvasudoku": {
+   "cls": "typeName",
+   "s": [
+    "kuvasudoku",
+    "mikä on kuvasudoku"
+   ]
+  },
+  "kuvasudoku tehtäviä": {
+   "cls": "typeName",
    "s": []
   },
-  "ajoneuvot mv 2 laskeminen": {
-   "cls": "cross",
+  "kryptogrammi": {
+   "cls": "typeName",
+   "s": [
+    "kryptogrammi",
+    "mikä on kryptogrammi"
+   ]
+  },
+  "kryptogrammi tehtäviä": {
+   "cls": "typeName",
    "s": []
   },
-  "ajoneuvot mv 2 kirjaimet": {
-   "cls": "cross",
+  "kuvapolku": {
+   "cls": "typeName",
    "s": []
   },
-  "ajoneuvot mv 3 matematiikka": {
-   "cls": "cross",
+  "kuvapolku tehtäviä": {
+   "cls": "typeName",
    "s": []
   },
-  "ajoneuvot mv 3 laskeminen": {
-   "cls": "cross",
+  "vähennyslasku": {
+   "cls": "typeName",
+   "s": [
+    "vähennyslasku allekkain",
+    "vähennyslasku",
+    "vähennyslasku englanniksi",
+    "vähennyslaskun tulos",
+    "vähennyslasku excel",
+    "vähennyslasku allekkain lainaaminen",
+    "vähennyslasku allekkain tehtäviä",
+    "vähennyslasku allekkain nollan yli lainaaminen",
+    "vähennyslaskun vastaus",
+    "vähennyslasku lainaaminen"
+   ]
+  },
+  "vähennyslasku tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "vähennyslasku tehtäviä",
+    "vähennyslasku allekkain tehtäviä",
+    "yhteen ja vähennyslasku tehtäviä 0 100",
+    "yhteen ja vähennyslasku tehtäviä"
+   ]
+  },
+  "koodattu yhteenlasku": {
+   "cls": "typeName",
    "s": []
   },
-  "ajoneuvot mv 3 kirjaimet": {
-   "cls": "cross",
+  "koodattu yhteenlasku tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "enemmän vai vähemmän": {
+   "cls": "typeName",
+   "s": [
+    "enemmän vai vähemmän",
+    "enemmän vähemmän tehtäviä",
+    "enemmän vähemmän",
+    "enemmän vähemmän yhtä monta",
+    "enemmän vähemmän merkki",
+    "enemmän vähemmän leikki",
+    "enemmän vähemmän harjoituksia",
+    "enemmän vähemmän wordwall",
+    "enemmän vähemmän eskari",
+    "enemmän vähemmän peli"
+   ]
+  },
+  "enemmän vai vähemmän tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "enemmän vähemmän tehtäviä"
+   ]
+  },
+  "matematiikkapulma": {
+   "cls": "typeName",
+   "s": []
+  },
+  "matematiikkapulma tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "matematiikkatehtävä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "matematiikkatehtävä tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "iso vai pieni": {
+   "cls": "typeName",
+   "s": [
+    "iso vai pieni kirjain kaksoispisteen jälkeen",
+    "iso vai pieni alkukirjain",
+    "iso vai pieni klapi",
+    "iso vai pieni alkukirjain tehtävä",
+    "iso vai pieni koulu",
+    "iso vai pieni alkukirjain testi",
+    "iso vai pieni kirjain",
+    "iso vai pieni lusikka",
+    "iso vai pieni kiuaskivi",
+    "iso vai pieni koira"
+   ]
+  },
+  "iso vai pieni tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "laske kaaviossa": {
+   "cls": "typeName",
+   "s": []
+  },
+  "laske kaaviossa tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kuviojuna": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kuviojuna tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kuviotehtävä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kuviotehtävä tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bingo": {
+   "cls": "typeName",
+   "s": [
+    "bingolotto",
+    "bingo",
+    "bingolotto ikväll",
+    "bingo säännöt",
+    "bingolotto mina sidor logga in",
+    "bingoon",
+    "bingo peli",
+    "bingolaput",
+    "bingoal",
+    "bingokone"
+   ]
+  },
+  "bingo tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "bingo tehtäviä"
+   ]
+  },
+  "ruudukkoyhdistys": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ruudukkoyhdistys tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "yhdistäminen": {
+   "cls": "typeName",
+   "s": [
+    "yhdistäminen englanniksi",
+    "yhdistäminen silmukoimalla",
+    "yhdistäminen liekillä",
+    "yhdistäminen virkkaamalla",
+    "yhdistäminen virkkaamalla virkattujen palojen yhdistäminen",
+    "yhdistäminen suljetuksi neuleeksi",
+    "yhdistäminen chromecastiin",
+    "yhdistäminen netflixiin ei onnistu",
+    "yhdistäminen synonyymi",
+    "yhdistäminen pyöröneuleeksi"
+   ]
+  },
+  "yhdistäminen tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "lajittele kuvat": {
+   "cls": "typeName",
+   "s": []
+  },
+  "lajittele kuvat tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "yhdistä varjot": {
+   "cls": "typeName",
+   "s": []
+  },
+  "yhdistä varjot tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "aakkosjuna": {
+   "cls": "typeName",
+   "s": [
+    "lolan aakkosjuna"
+   ]
+  },
+  "aakkosjuna tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "prepositiot": {
+   "cls": "typeName",
+   "s": [
+    "prepositiot englanti",
+    "prepositiot",
+    "prepositiot ruotsi",
+    "prepositiot ruotsiksi",
+    "prepositiot englanniksi",
+    "prepositiot saksa",
+    "prepositiot suomi",
+    "prepositiot espanja",
+    "prepositiot suomen kielessä",
+    "prepositiot englanti wordwall"
+   ]
+  },
+  "prepositiot tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "ruotsi prepositiot tehtäviä"
+   ]
+  },
+  "arvaa sana": {
+   "cls": "typeName",
+   "s": [
+    "arvaa sana",
+    "arvaa sana peli",
+    "arvaa sana kaleva",
+    "arvaa sana kirjaimista",
+    "arvaa sana ilta sanomat",
+    "arvaa sana suomi",
+    "arvaa sana iltalehti",
+    "arvaa sana lautapeli",
+    "arvaa sana ohjelma",
+    "arvaa päivän sana"
+   ]
+  },
+  "arvaa sana tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kirjainsekoitus": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kirjainsekoitus tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sanahaku": {
+   "cls": "typeName",
+   "s": [
+    "sanahaku",
+    "sanahaku lehti",
+    "sanahaku peli",
+    "sanahaku tulostettava",
+    "sanahaku kirjaimilla",
+    "sanahaku tehtävät",
+    "sanahaku kirja",
+    "sanahaku netissä",
+    "sanahaku siili",
+    "sanahaku apu"
+   ]
+  },
+  "sanahaku tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "sanahaku tehtäviä"
+   ]
+  },
+  "ristikko": {
+   "cls": "typeName",
+   "s": [
+    "ristikko",
+    "ristikko ratkojat",
+    "ristikkosanat",
+    "ristikkoavain",
+    "ristikko konala",
+    "ristikko apteekki",
+    "ristikkoperunat",
+    "ristikkolehti",
+    "ristikko apu",
+    "ristikko kiipeily"
+   ]
+  },
+  "ristikko tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "ristikkoarkisto"
+   ]
+  },
+  "etsi ja laske": {
+   "cls": "typeName",
+   "s": [
+    "etsi ja laske",
+    "etsi ja laske kirja",
+    "etsi ja laske liikkuvat menopelit"
+   ]
+  },
+  "etsi ja laske tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "etsi esineet": {
+   "cls": "typeName",
+   "s": [
+    "etsi esineet",
+    "etsi piilotetut esineet",
+    "etsi piilotetut esineet pelit"
+   ]
+  },
+  "etsi esineet tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "aarteenetsintä": {
+   "cls": "typeName",
+   "s": [
+    "aarteenetsintä",
+    "aarteenetsintä vihjeet lapsille",
+    "aarteenetsintä lapsille",
+    "aarteenetsintä vihjeet aikuisille",
+    "aarteenetsintä aikuisille",
+    "aarteenetsintä synttäreille",
+    "aarteenetsintä palkinto",
+    "aarteenetsintä metallinpaljastimella",
+    "aarteenetsintä tehtäviä",
+    "aarteenetsintä ulkona"
+   ]
+  },
+  "aarteenetsintä tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "aarteenetsintä tehtäviä"
+   ]
+  },
+  "puuttuvat palat": {
+   "cls": "typeName",
+   "s": [
+    "lego puuttuvat palat"
+   ]
+  },
+  "puuttuvat palat tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mikä ei kuulu joukkoon": {
+   "cls": "typeName",
+   "s": [
+    "mikä ei kuulu joukkoon",
+    "mikä ei kuulu joukkoon tehtävä",
+    "mikä ei kuulu joukkoon tehtävä lapsille",
+    "mikä ei kuulu joukkoon wordwall",
+    "mikä ei kuulu joukkoon englanniksi",
+    "mikä ei kuulu joukkoon kortit",
+    "mikä ei kuulu joukkoon testi",
+    "mikä ei kuulu joukkoon värinautit",
+    "mikä ei kuulu joukkoon tulostettava",
+    "mikä ei kuulu joukkoon viitottu rakkaus"
+   ]
+  },
+  "mikä ei kuulu joukkoon tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "mikä ei kuulu joukkoon tehtäviä"
+   ]
+  },
+  "kuvien laskeminen": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kuvien laskeminen tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kymmenkehys": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kymmenkehys tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tukkimiehen kirjanpito": {
+   "cls": "typeName",
+   "s": [
+    "tukkimiehen kirjanpito",
+    "tukkimiehen kirjanpito englanniksi",
+    "tukkimiehen kirjanpito in.english",
+    "tukkimiehen kirjanpito historia",
+    "tukkimies kirjanpito",
+    "mikä on tukkimiehen kirjanpito",
+    "mitä tarkoittaa tukkimiehen kirjanpito"
+   ]
+  },
+  "tukkimiehen kirjanpito tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "lukutaulu": {
+   "cls": "typeName",
+   "s": [
+    "lukutaulu",
+    "lukutaulukko",
+    "li lukutaulukko"
+   ]
+  },
+  "lukutaulu tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "lukujen vertailu": {
+   "cls": "typeName",
+   "s": [
+    "lukujen vertailu",
+    "lukujen vertailu prosentteina",
+    "lukujen vertailu excel"
+   ]
+  },
+  "lukujen vertailu tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "määrien vertailu": {
+   "cls": "typeName",
+   "s": []
+  },
+  "määrien vertailu tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kokojen vertailu": {
+   "cls": "typeName",
+   "s": [
+    "maiden kokojen vertailu"
+   ]
+  },
+  "kokojen vertailu tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "lukusuora": {
+   "cls": "typeName",
+   "s": [
+    "lukusuora",
+    "lukusuora 0-20",
+    "lukusuora desimaaliluvut",
+    "lukusuora 0-100",
+    "lukusuora englanniksi",
+    "lukusuora tulostettava",
+    "lukusuora 0 10",
+    "lukusuora tehtäviä",
+    "lukusuoran piirtäminen",
+    "lukusuoran välit"
+   ]
+  },
+  "lukusuora tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "lukusuora tehtäviä"
+   ]
+  },
+  "kymmenet ja ykköset": {
+   "cls": "typeName",
+   "s": [
+    "kymmenet ja ykköset"
+   ]
+  },
+  "kymmenet ja ykköset tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kellonajat tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "kellonajat tehtäviä",
+    "kellonajat tehtäviä lapsille"
+   ]
+  },
+  "murtoluvut": {
+   "cls": "typeName",
+   "s": [
+    "murtoluvut",
+    "murtoluvut prosenteiksi",
+    "murtoluvut desimaaleiksi",
+    "murtoluvut kertolasku",
+    "murtoluvut desimaaliluvuiksi",
+    "murtoluvut jakolasku",
+    "murtoluvut yhteenlasku",
+    "murtoluvut yhtälössä",
+    "murtoluvut peli",
+    "murtoluvut vähennyslasku"
+   ]
+  },
+  "murtoluvut tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "murtoluvut tehtäviä",
+    "murtoluku tehtäviä 3 luokka",
+    "murtoluku tehtäviä 5 lk",
+    "murtoluku tehtäviä 4 lk",
+    "matematiikka murtoluvut tehtäviä"
+   ]
+  },
+  "kaaviot ja tilastot": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kaaviot ja tilastot tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kertolaskun alkeet": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kertolaskun alkeet tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "geometria": {
+   "cls": "typeName",
+   "s": [
+    "geometria",
+    "geometria tehtäviä",
+    "geometria kaavat",
+    "geometria muodot",
+    "geometrian perusteet",
+    "geometria kuviot",
+    "geometria kulmat",
+    "geometria laskut",
+    "geometria englanniksi",
+    "geometria tehtäviä 3 luokka"
+   ]
+  },
+  "geometria tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "geometria tehtäviä",
+    "geometria tehtäviä 3 luokka",
+    "geometria tehtäviä 4 luokka",
+    "geometria tehtäviä 5 luokka",
+    "geometria tehtäviä 6 luokka",
+    "geometria tehtäviä lukio",
+    "geometria tehtäviä 2lk",
+    "matematiikka geometria tehtäviä",
+    "5 luokan geometria tehtäviä",
+    "3 luokan geometria tehtäviä"
+   ]
+  },
+  "mittaaminen": {
+   "cls": "typeName",
+   "s": [
+    "mittaaminen",
+    "mittaaminen englanniksi",
+    "mittaaminen esiopetus",
+    "mittaaminen alakoulu",
+    "mittaaminen eskarit",
+    "mittaaminen 5 luokka",
+    "mittaaminen pdf kuvasta",
+    "mittaaminen tehtäviä",
+    "mittaaminen ilman mittaa"
+   ]
+  },
+  "mittaaminen tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "mittaaminen tehtäviä",
+    "matematiikka mittaaminen tehtäviä",
+    "kulman mittaaminen tehtäviä"
+   ]
+  },
+  "looginen päättely": {
+   "cls": "typeName",
+   "s": [
+    "looginen päättelykyky testi",
+    "looginen päättely",
+    "looginen päättely tehtäviä",
+    "looginen päättelykyky",
+    "looginen päättely tehtäviä amk",
+    "looginen päättely testi",
+    "looginen päättelykyky harjoituksia",
+    "looginen päättely harjoituksia",
+    "looginen päättelykyky testi harjoitus",
+    "looginen päättelytehtävä"
+   ]
+  },
+  "looginen päättely tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "looginen päättely tehtäviä",
+    "looginen päättely tehtäviä amk",
+    "looginen päättely tehtäviä lapsille",
+    "looginen päättely tehtäviä psykologia"
+   ]
+  },
+  "hahmottaminen": {
+   "cls": "typeName",
+   "s": [
+    "hahmottaminen",
+    "hahmottaminen englanniksi",
+    "hahmottaminen tehtäviä",
+    "hahmottaminen pelit",
+    "hahmottaminen varhaiskasvatus",
+    "hahmottaminen tehtäviä lapsille",
+    "hahmottaminen på svenska",
+    "hahmottaminen tarkoittaa",
+    "hahmottaminen synonyymi",
+    "hahmottaminen esiopetus"
+   ]
+  },
+  "hahmottaminen tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "hahmottaminen tehtäviä",
+    "hahmottaminen tehtäviä lapsille",
+    "avaruudellinen hahmottaminen tehtäviä"
+   ]
+  },
+  "kuvaparit": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kuvaparit tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kuviojonot": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kuviojonot tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sijaintisanat": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sijaintisanat tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "lajittelu": {
+   "cls": "typeName",
+   "s": [
+    "lajitteluastia",
+    "lajitteluasema",
+    "lajitteluopas",
+    "lajittelulaatikko",
+    "lajittelu",
+    "lajitteluohjeet",
+    "lajittelukassi",
+    "lajitteluastia prisma",
+    "lajitteluastiat kotiin",
+    "lajittelupiste"
+   ]
+  },
+  "lajittelu tehtäviä": {
+   "cls": "typeName",
+   "s": [
+    "lajittelutehtäviä lapsille"
+   ]
+  },
+  "kuvalaskut": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kuvalaskut tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "luonnontieteen lajittelu": {
+   "cls": "typeName",
+   "s": []
+  },
+  "luonnontieteen lajittelu tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "järjestys ja elämänkierto": {
+   "cls": "typeName",
+   "s": []
+  },
+  "järjestys ja elämänkierto tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "luonnontieteen yhdistäminen": {
+   "cls": "typeName",
+   "s": []
+  },
+  "luonnontieteen yhdistäminen tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "alkuäänteet": {
+   "cls": "typeName",
+   "s": [
+    "alkuäänteet",
+    "alkuäänteet wordwall"
+   ]
+  },
+  "alkuäänteet tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kirjaintuntemus": {
+   "cls": "typeName",
+   "s": [
+    "kirjaintuntemus"
+   ]
+  },
+  "kirjaintuntemus tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sananrakennus": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sananrakennus tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kuvasanasto": {
+   "cls": "typeName",
+   "s": [
+    "kuvasanasto englanniksi",
+    "varhaiskasvatuksen kuvasanasto",
+    "mikä on kuvasanasto"
+   ]
+  },
+  "kuvasanasto tehtäviä": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kielellinen tietoisuus": {
+   "cls": "typeName",
+   "s": [
+    "kielellinen tietoisuus",
+    "kielellinen tietoisuus harjoituksia",
+    "kielellinen tietoisuus varhaiskasvatus",
+    "kielellinen tietoisuus englanniksi",
+    "kielellinen tietoisuus esiopetus",
+    "mitä on kielellinen tietoisuus"
+   ]
+  },
+  "kielellinen tietoisuus tehtäviä": {
+   "cls": "typeName",
    "s": []
   }
  },
  "unique": [
+  "3 luokan geometria tehtäviä",
   "3d geometriset muodot",
+  "5 luokan geometria tehtäviä",
+  "aarteenetsintä",
+  "aarteenetsintä aikuisille",
+  "aarteenetsintä lapsille",
+  "aarteenetsintä metallinpaljastimella",
+  "aarteenetsintä palkinto",
+  "aarteenetsintä synttäreille",
+  "aarteenetsintä tehtäviä",
+  "aarteenetsintä ulkona",
+  "aarteenetsintä vihjeet aikuisille",
+  "aarteenetsintä vihjeet lapsille",
+  "alkava lukutaito",
+  "alkuopetus",
+  "alkuopetus englanniksi",
+  "alkuopetus englanti",
+  "alkuopetus fontti",
+  "alkuopetus juuli",
+  "alkuopetus koulutus",
+  "alkuopetus käsityö",
+  "alkuopetus materiaali",
+  "alkuopetus musiikki",
+  "alkuopetus pätevyys",
+  "alkuäänteet",
+  "alkuäänteet wordwall",
+  "arvaa päivän sana",
+  "arvaa sana",
+  "arvaa sana ilta sanomat",
+  "arvaa sana iltalehti",
+  "arvaa sana kaleva",
+  "arvaa sana kirjaimista",
+  "arvaa sana lautapeli",
+  "arvaa sana ohjelma",
+  "arvaa sana peli",
+  "arvaa sana suomi",
+  "avaruudellinen hahmottaminen tehtäviä",
   "avaruus matematiikka",
+  "bingo",
+  "bingo peli",
+  "bingo säännöt",
+  "bingo tehtäviä",
+  "bingoal",
+  "bingokone",
+  "bingolaput",
+  "bingolotto",
+  "bingolotto ikväll",
+  "bingolotto mina sidor logga in",
+  "bingoon",
+  "enemmän vai vähemmän",
+  "enemmän vähemmän",
+  "enemmän vähemmän eskari",
+  "enemmän vähemmän harjoituksia",
+  "enemmän vähemmän leikki",
+  "enemmän vähemmän merkki",
+  "enemmän vähemmän peli",
+  "enemmän vähemmän tehtäviä",
+  "enemmän vähemmän wordwall",
+  "enemmän vähemmän yhtä monta",
+  "etsi esineet",
+  "etsi ja laske",
+  "etsi ja laske kirja",
+  "etsi ja laske liikkuvat menopelit",
+  "etsi piilotetut esineet",
+  "etsi piilotetut esineet pelit",
+  "geometria",
+  "geometria englanniksi",
+  "geometria kaavat",
+  "geometria kulmat",
+  "geometria kuviot",
+  "geometria laskut",
+  "geometria muodot",
+  "geometria tehtäviä",
+  "geometria tehtäviä 2lk",
+  "geometria tehtäviä 3 luokka",
+  "geometria tehtäviä 4 luokka",
+  "geometria tehtäviä 5 luokka",
+  "geometria tehtäviä 6 luokka",
+  "geometria tehtäviä lukio",
+  "geometrian perusteet",
   "geometriset muodot",
   "geometriset muodot englanniksi",
   "geometriset muodot esiopetus",
@@ -1292,6 +2860,16 @@
   "geometriset muodot nimet suomeksi",
   "geometriset muodot suomeksi",
   "geometriset muodot tehtävä",
+  "hahmottaminen",
+  "hahmottaminen englanniksi",
+  "hahmottaminen esiopetus",
+  "hahmottaminen pelit",
+  "hahmottaminen på svenska",
+  "hahmottaminen synonyymi",
+  "hahmottaminen tarkoittaa",
+  "hahmottaminen tehtäviä",
+  "hahmottaminen tehtäviä lapsille",
+  "hahmottaminen varhaiskasvatus",
   "hienomotoriikka",
   "hienomotoriikka 2v",
   "hienomotoriikka 3v",
@@ -1304,6 +2882,16 @@
   "hienomotoriikka testi",
   "imperfekti s2 tehtäviä",
   "ipa äänteet",
+  "iso vai pieni alkukirjain",
+  "iso vai pieni alkukirjain tehtävä",
+  "iso vai pieni alkukirjain testi",
+  "iso vai pieni kirjain",
+  "iso vai pieni kirjain kaksoispisteen jälkeen",
+  "iso vai pieni kiuaskivi",
+  "iso vai pieni klapi",
+  "iso vai pieni koira",
+  "iso vai pieni koulu",
+  "iso vai pieni lusikka",
   "joulu matematiikka",
   "kellonajat",
   "kellonajat englanniksi",
@@ -1314,8 +2902,15 @@
   "kellonajat s2",
   "kellonajat saksaksi",
   "kellonajat suomeksi",
+  "kellonajat tehtäviä",
+  "kellonajat tehtäviä lapsille",
   "kellonajat wordwall",
   "kevät matematiikka 2025",
+  "kielellinen tietoisuus",
+  "kielellinen tietoisuus englanniksi",
+  "kielellinen tietoisuus esiopetus",
+  "kielellinen tietoisuus harjoituksia",
+  "kielellinen tietoisuus varhaiskasvatus",
   "kirjaimet",
   "kirjaimet englanniksi",
   "kirjaimet kaunolla",
@@ -1326,10 +2921,89 @@
   "kirjaimet sekaisin",
   "kirjaimet sekaisin tehtäviä",
   "kirjaimet viittomakielellä",
+  "kirjainten tunnistus",
+  "kirjaintuntemus",
   "kolmiulotteiset geometriset muodot",
+  "kryptogrammi",
+  "kulman mittaaminen tehtäviä",
+  "kuvasanasto englanniksi",
+  "kuvasudoku",
+  "kymmenet ja ykköset",
+  "kymmenjärjestelmä",
+  "kymmenjärjestelmä englanniksi",
+  "kymmenjärjestelmä harjoituksia",
+  "kymmenjärjestelmä historia",
+  "kymmenjärjestelmä peli",
+  "kymmenjärjestelmä taulukko",
+  "kymmenjärjestelmä tehtäviä",
+  "kymmenjärjestelmän luvut",
+  "kymmenjärjestelmän opettaminen",
+  "kymmenjärjestelmävälineet",
+  "kymmenylitys",
+  "kymmenylitys englanniksi",
+  "kymmenylitys harjoituksia",
+  "kymmenylitys laskuja",
+  "kymmenylitys peli",
+  "kymmenylitys tehtäviä",
+  "kymmenylitys toiminnallisesti",
+  "kymmenylitys vähennyslaskussa",
+  "kymmenylitys yhteenlaskussa",
+  "lajittelu",
+  "lajitteluasema",
+  "lajitteluastia",
+  "lajitteluastia prisma",
+  "lajitteluastiat kotiin",
+  "lajittelukassi",
+  "lajittelulaatikko",
+  "lajitteluohjeet",
+  "lajitteluopas",
+  "lajittelupiste",
+  "lajittelutehtäviä lapsille",
+  "lego puuttuvat palat",
+  "li lukutaulukko",
   "lingin äänteet",
+  "lolan aakkosjuna",
+  "looginen päättely",
+  "looginen päättely harjoituksia",
+  "looginen päättely tehtäviä",
+  "looginen päättely tehtäviä amk",
+  "looginen päättely tehtäviä lapsille",
+  "looginen päättely tehtäviä psykologia",
+  "looginen päättely testi",
+  "looginen päättelykyky",
+  "looginen päättelykyky harjoituksia",
+  "looginen päättelykyky testi",
+  "looginen päättelykyky testi harjoitus",
+  "looginen päättelytehtävä",
   "lukimat matematiikka talvi",
+  "lukujen vertailu",
+  "lukujen vertailu excel",
+  "lukujen vertailu prosentteina",
+  "lukujono",
+  "lukujono englanniksi",
+  "lukujono esiopetus",
+  "lukujono tehtäviä",
+  "lukujono testi",
+  "lukujonon summa",
+  "lukujonossa",
+  "lukujonossa youtube",
+  "lukujonot",
+  "lukujonotaidot",
+  "lukusuora",
+  "lukusuora 0 10",
+  "lukusuora 0-100",
+  "lukusuora 0-20",
+  "lukusuora desimaaliluvut",
+  "lukusuora englanniksi",
+  "lukusuora tehtäviä",
+  "lukusuora tulostettava",
+  "lukusuoran piirtäminen",
+  "lukusuoran välit",
+  "lukutaulu",
+  "lukutaulukko",
+  "maiden kokojen vertailu",
   "matematiikka ammatit",
+  "matematiikka geometria tehtäviä",
   "matematiikka kevät 2020",
   "matematiikka kevät 2021",
   "matematiikka kevät 2022",
@@ -1339,13 +3013,67 @@
   "matematiikka kevät 2026 lyhyt",
   "matematiikka kevät 25",
   "matematiikka kevät 26",
+  "matematiikka kymmenylitys",
   "matematiikka lelut",
+  "matematiikka mittaaminen tehtäviä",
   "matematiikka muodot",
+  "matematiikka murtoluvut tehtäviä",
+  "mikä ei kuulu joukkoon",
+  "mikä ei kuulu joukkoon englanniksi",
+  "mikä ei kuulu joukkoon kortit",
+  "mikä ei kuulu joukkoon tehtäviä",
+  "mikä ei kuulu joukkoon tehtävä",
+  "mikä ei kuulu joukkoon tehtävä lapsille",
+  "mikä ei kuulu joukkoon testi",
+  "mikä ei kuulu joukkoon tulostettava",
+  "mikä ei kuulu joukkoon viitottu rakkaus",
+  "mikä ei kuulu joukkoon värinautit",
+  "mikä ei kuulu joukkoon wordwall",
+  "mikä on kryptogrammi",
+  "mikä on kuvasanasto",
+  "mikä on kuvasudoku",
+  "mikä on tukkimiehen kirjanpito",
+  "mittaaminen",
+  "mittaaminen 5 luokka",
+  "mittaaminen alakoulu",
+  "mittaaminen englanniksi",
+  "mittaaminen esiopetus",
+  "mittaaminen eskarit",
+  "mittaaminen ilman mittaa",
+  "mittaaminen pdf kuvasta",
+  "mittaaminen tehtäviä",
+  "mitä on kielellinen tietoisuus",
+  "mitä tarkoittaa tukkimiehen kirjanpito",
+  "murtoluku tehtäviä 3 luokka",
+  "murtoluku tehtäviä 4 lk",
+  "murtoluku tehtäviä 5 lk",
+  "murtolukujen yhteenlasku tehtäviä",
+  "murtoluvut",
+  "murtoluvut desimaaleiksi",
+  "murtoluvut desimaaliluvuiksi",
+  "murtoluvut jakolasku",
+  "murtoluvut kertolasku",
+  "murtoluvut peli",
+  "murtoluvut prosenteiksi",
+  "murtoluvut tehtäviä",
+  "murtoluvut vähennyslasku",
+  "murtoluvut yhteenlasku",
+  "murtoluvut yhtälössä",
   "musiikki ja matematiikka",
   "musiikki kirjaimet",
   "musiikki matematiikka",
   "nenä äänteet",
   "passiivi tehtäviä s2",
+  "prepositiot",
+  "prepositiot englanniksi",
+  "prepositiot englanti",
+  "prepositiot englanti wordwall",
+  "prepositiot espanja",
+  "prepositiot ruotsi",
+  "prepositiot ruotsiksi",
+  "prepositiot saksa",
+  "prepositiot suomen kielessä",
+  "prepositiot suomi",
   "pääsiäinen matematiikka",
   "riimirenki",
   "riimit",
@@ -1357,6 +3085,18 @@
   "riimittely",
   "riimittelyä",
   "riimitys",
+  "ristikko",
+  "ristikko apteekki",
+  "ristikko apu",
+  "ristikko kiipeily",
+  "ristikko konala",
+  "ristikko ratkojat",
+  "ristikkoarkisto",
+  "ristikkoavain",
+  "ristikkolehti",
+  "ristikkoperunat",
+  "ristikkosanat",
+  "ruotsi prepositiot tehtäviä",
   "s2 esiopetus",
   "s2 materiaali esiopetus",
   "s2 tehtäviä",
@@ -1366,6 +3106,32 @@
   "s2 tehtäviä netissä",
   "s2 tehtäviä varhaiskasvatus",
   "s2 tehtäviä yläkoulu",
+  "sanahaku",
+  "sanahaku apu",
+  "sanahaku kirja",
+  "sanahaku kirjaimilla",
+  "sanahaku lehti",
+  "sanahaku netissä",
+  "sanahaku peli",
+  "sanahaku siili",
+  "sanahaku tehtäviä",
+  "sanahaku tehtävät",
+  "sanahaku tulostettava",
+  "sarjoittaminen",
+  "sarjoittaminen englanniksi",
+  "sarjoittaminen esiopetus",
+  "sarjoittaminen eskari",
+  "sarjoittaminen luonnossa",
+  "sarjoittaminen matematiikka",
+  "sarjoittaminen peli",
+  "sarjoittaminen tehtäviä",
+  "sarjoittaminen toiminnallisesti",
+  "sarjoittaminen varhaiskasvatus",
+  "silmä käsi koordinaatio",
+  "silmä käsi koordinaatio englanniksi",
+  "silmä käsi koordinaatio harjoitus",
+  "silmä käsi koordinaatio lapsi",
+  "silmä käsi koordinaatio testi",
   "soinnilliset äänteet",
   "tavutettu teksti",
   "tavutettu teksti netissä",
@@ -1383,10 +3149,51 @@
   "tehtävävihko aikuisille",
   "tehtävävihko englanniksi",
   "tehtävävihko lapsille",
+  "tukkimiehen kirjanpito",
+  "tukkimiehen kirjanpito englanniksi",
+  "tukkimiehen kirjanpito historia",
+  "tukkimiehen kirjanpito in.english",
+  "tukkimies kirjanpito",
   "tulostettavia s2 tehtäviä",
   "tuuma tehtävävihko",
+  "varhaiskasvatuksen kuvasanasto",
   "vauvan äänteet",
+  "vähennyslasku",
+  "vähennyslasku allekkain",
+  "vähennyslasku allekkain lainaaminen",
+  "vähennyslasku allekkain nollan yli lainaaminen",
+  "vähennyslasku allekkain tehtäviä",
+  "vähennyslasku englanniksi",
+  "vähennyslasku excel",
+  "vähennyslasku lainaaminen",
+  "vähennyslasku tehtäviä",
+  "vähennyslaskun tulos",
+  "vähennyslaskun vastaus",
   "wordwall äänteet",
+  "yhdistäminen chromecastiin",
+  "yhdistäminen englanniksi",
+  "yhdistäminen liekillä",
+  "yhdistäminen netflixiin ei onnistu",
+  "yhdistäminen pyöröneuleeksi",
+  "yhdistäminen silmukoimalla",
+  "yhdistäminen suljetuksi neuleeksi",
+  "yhdistäminen synonyymi",
+  "yhdistäminen virkkaamalla",
+  "yhdistäminen virkkaamalla virkattujen palojen yhdistäminen",
+  "yhteen ja vähennyslasku tehtäviä",
+  "yhteen ja vähennyslasku tehtäviä 0 100",
+  "yhteenlasku",
+  "yhteenlasku allekkain",
+  "yhteenlasku allekkain tehtäviä",
+  "yhteenlasku englanniksi",
+  "yhteenlasku excel",
+  "yhteenlasku tehtäviä",
+  "yhteenlaskuja",
+  "yhteenlaskuja eskareille",
+  "yhteenlaskumenetelmä",
+  "yhteenlaskupeli",
+  "yhteenlaskusääntö",
+  "äännetietoisuus",
   "äänteet",
   "äänteet englanniksi",
   "äänteet ja kirjaimet",
@@ -1394,7 +3201,23 @@
  ],
  "novel": [
   "3d geometriset muodot",
+  "aarteenetsintä ulkona",
+  "alkava lukutaito",
+  "alkuopetus",
+  "alkuopetus englanniksi",
+  "alkuopetus englanti",
+  "alkuopetus fontti",
+  "alkuopetus juuli",
+  "alkuopetus koulutus",
+  "alkuopetus käsityö",
+  "alkuopetus materiaali",
+  "alkuopetus musiikki",
+  "alkuopetus pätevyys",
+  "arvaa sana ohjelma",
   "avaruus matematiikka",
+  "bingoal",
+  "etsi piilotetut esineet",
+  "geometria englanniksi",
   "geometriset muodot",
   "geometriset muodot englanniksi",
   "geometriset muodot esiopetus",
@@ -1403,6 +3226,9 @@
   "geometriset muodot nimet suomeksi",
   "geometriset muodot suomeksi",
   "geometriset muodot tehtävä",
+  "hahmottaminen pelit",
+  "hahmottaminen synonyymi",
+  "hahmottaminen tarkoittaa",
   "hienomotoriikka",
   "hienomotoriikka 2v",
   "hienomotoriikka 3v",
@@ -1415,6 +3241,7 @@
   "hienomotoriikka testi",
   "imperfekti s2 tehtäviä",
   "ipa äänteet",
+  "iso vai pieni koira",
   "joulu matematiikka",
   "kellonajat ranskaksi",
   "kevät matematiikka 2025",
@@ -1428,9 +3255,44 @@
   "kirjaimet sekaisin",
   "kirjaimet sekaisin tehtäviä",
   "kirjaimet viittomakielellä",
+  "kirjainten tunnistus",
   "kolmiulotteiset geometriset muodot",
+  "kymmenjärjestelmä",
+  "kymmenjärjestelmä englanniksi",
+  "kymmenjärjestelmä harjoituksia",
+  "kymmenjärjestelmä historia",
+  "kymmenjärjestelmä peli",
+  "kymmenjärjestelmä taulukko",
+  "kymmenjärjestelmä tehtäviä",
+  "kymmenjärjestelmän luvut",
+  "kymmenjärjestelmän opettaminen",
+  "kymmenjärjestelmävälineet",
+  "kymmenylitys",
+  "kymmenylitys englanniksi",
+  "kymmenylitys harjoituksia",
+  "kymmenylitys laskuja",
+  "kymmenylitys peli",
+  "kymmenylitys tehtäviä",
+  "kymmenylitys toiminnallisesti",
+  "kymmenylitys vähennyslaskussa",
+  "kymmenylitys yhteenlaskussa",
+  "lajitteluastia prisma",
+  "lajittelupiste",
   "lingin äänteet",
+  "looginen päättelykyky testi harjoitus",
+  "looginen päättelytehtävä",
   "lukimat matematiikka talvi",
+  "lukujono",
+  "lukujono englanniksi",
+  "lukujono esiopetus",
+  "lukujono tehtäviä",
+  "lukujono testi",
+  "lukujonon summa",
+  "lukujonossa",
+  "lukujonossa youtube",
+  "lukujonot",
+  "lukujonotaidot",
+  "lukusuora tulostettava",
   "matematiikka ammatit",
   "matematiikka kevät 2020",
   "matematiikka kevät 2021",
@@ -1441,13 +3303,18 @@
   "matematiikka kevät 2026 lyhyt",
   "matematiikka kevät 25",
   "matematiikka kevät 26",
+  "matematiikka kymmenylitys",
   "matematiikka lelut",
   "matematiikka muodot",
+  "mittaaminen ilman mittaa",
+  "mitä tarkoittaa tukkimiehen kirjanpito",
+  "murtoluvut vähennyslasku",
   "musiikki ja matematiikka",
   "musiikki kirjaimet",
   "musiikki matematiikka",
   "nenä äänteet",
   "passiivi tehtäviä s2",
+  "prepositiot englanti wordwall",
   "pääsiäinen matematiikka",
   "riimirenki",
   "riimit",
@@ -1459,6 +3326,9 @@
   "riimittely",
   "riimittelyä",
   "riimitys",
+  "ristikko apu",
+  "ristikko kiipeily",
+  "ristikkoarkisto",
   "s2 esiopetus",
   "s2 materiaali esiopetus",
   "s2 tehtäviä",
@@ -1467,6 +3337,22 @@
   "s2 tehtäviä netissä",
   "s2 tehtäviä varhaiskasvatus",
   "s2 tehtäviä yläkoulu",
+  "sanahaku siili",
+  "sarjoittaminen",
+  "sarjoittaminen englanniksi",
+  "sarjoittaminen esiopetus",
+  "sarjoittaminen eskari",
+  "sarjoittaminen luonnossa",
+  "sarjoittaminen matematiikka",
+  "sarjoittaminen peli",
+  "sarjoittaminen tehtäviä",
+  "sarjoittaminen toiminnallisesti",
+  "sarjoittaminen varhaiskasvatus",
+  "silmä käsi koordinaatio",
+  "silmä käsi koordinaatio englanniksi",
+  "silmä käsi koordinaatio harjoitus",
+  "silmä käsi koordinaatio lapsi",
+  "silmä käsi koordinaatio testi",
   "soinnilliset äänteet",
   "tavutettu teksti",
   "tavutettu teksti netissä",
@@ -1484,14 +3370,24 @@
   "tehtävävihko aikuisille",
   "tehtävävihko englanniksi",
   "tehtävävihko lapsille",
+  "tukkimiehen kirjanpito englanniksi",
+  "tukkimiehen kirjanpito historia",
+  "tukkimiehen kirjanpito in.english",
+  "tukkimies kirjanpito",
   "tulostettavia s2 tehtäviä",
   "tuuma tehtävävihko",
   "vauvan äänteet",
+  "vähennyslaskun vastaus",
   "wordwall äänteet",
+  "yhdistäminen netflixiin ei onnistu",
+  "yhdistäminen pyöröneuleeksi",
+  "yhdistäminen synonyymi",
+  "yhteenlaskuja",
+  "yhteenlaskuja eskareille",
+  "äännetietoisuus",
   "äänteet",
   "äänteet englanniksi",
   "äänteet ja kirjaimet",
   "äänteet suomi"
- ],
- "refilteredAt": "2026-07-20T08:58:53.408Z"
+ ]
 }

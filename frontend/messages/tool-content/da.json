@@ -560,6 +560,28 @@
       "Mønsterjagt: Farv enerne eller tierne, sæt et spørgsmålstegn længere nede i rækken, og lad børnene forudsige tallet — tæl så derhen sammen og se det lande."
     ]
   },
+  "our-day": {
+    "slug": "vores-dag",
+    "name": "Vores dag",
+    "tagline": "Byg dagens program af piktogramkort — og lad solen vise, hvad der sker nu.",
+    "metaTitle": "Visuelt dagsskema med piktogrammer – dagsstruktur for børn",
+    "metaDescription": "Byg dagens program med piktogramkort, og lad solen vise, hvad der sker nu. Forudsigelig dagsstruktur til børnehaveklassen, indskolingen og børnehaven – gratis.",
+    "about": [
+      "Vores dag er et visuelt dagsskema til klassen eller stuen. I bygger dagens program sammen af piktogramkort — samling, madpakketid, frikvarter, idræt — og solen flytter sig fra kort til kort, når I går videre. Sådan kan alle børn se, hvad der sker nu, og hvad der kommer bagefter. Den faste dagsstruktur giver ro og forudsigelighed for hele gruppen — og især for børn, der har brug for at vide, hvad dagen bringer, før den sker. Og når noget bliver anderledes, viser skemaet det tydeligt med et lille, trygt ritual i stedet for, at det bare sker.",
+      "Det vigtigste er gratis: I kan bygge dagen af alle aktivitetskort, flytte solen, bruge ændringskortene og begynde forfra i morgen — uden konto. Med Premium får I mere til hverdagen: klokkeslæt på kortene, som læses højt, sådan som man faktisk siger det — fx at madpakketid er klokken halv 12 — en stemme, der fortæller, hvad der sker nu, faste ugeplaner for hver ugedag og et printvenligt skema til opslagstavlen eller med hjem."
+    ],
+    "howToUse": [
+      "Tryk på kortene i venstre side for at bygge dagens program — det samme kort må gerne bruges flere gange.",
+      "Tryk på Start dagen, og flyt solen videre, hver gang I skifter aktivitet — det må et barn meget gerne gøre.",
+      "Sker der noget nyt? Byt, fjern eller tilføj et kort — skemaet viser tydeligt, hvad der er anderledes i dag, og hvad der var der før.",
+      "Med Premium kan I sætte klokkeslæt på kortene, gemme en fast plan for hver ugedag og udskrive dagens skema."
+    ],
+    "classroomIdeas": [
+      "Gør solen til en klassetjans: dagens solbarn flytter solen og siger med på, hvad der sker nu.",
+      "Når noget aflyses, så brug ændringskortet og lad børnene se, at aktiviteten ikke er væk — den er bare flyttet til en anden dag.",
+      "Gennemgå hele skemaet ved morgensamlingen, og vend tilbage til det lige før hvert skift — det gør overgangene lettere for børn, der har brug for ekstra forudsigelighed."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

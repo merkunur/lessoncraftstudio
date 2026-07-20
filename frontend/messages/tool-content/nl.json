@@ -560,6 +560,28 @@
       "Laat de klas terugtellen vanaf 20 als aftelmoment voor het opruimen — zo oefent de telrij achteruit zich vanzelf."
     ]
   },
+  "our-day": {
+    "slug": "onze-dag",
+    "name": "Onze dag",
+    "tagline": "Digitale dagritmekaarten voor op het digibord: bouw de schooldag met kaartjes en laat de zon meelopen.",
+    "metaTitle": "Digitale dagritmekaarten voor het digibord — Onze dag",
+    "metaDescription": "Gratis digitale dagritmekaarten voor kleuters en groep 3-4: bouw de schooldag met kaartjes, laat de zon meelopen en bespreek veranderingen rustig.",
+    "about": [
+      "Dagritmekaarten hangen in bijna elke kleuterklas — dit is de digitale versie voor op het digibord. Je bouwt de schooldag met herkenbare kaartjes: de inloop, de kring, het tien-uurtje, buitenspelen, gym. Een vriendelijke zon laat zien waar jullie zijn; jij (of een kind) tikt de zon door naar het volgende kaartje en de stem zegt: \"Nu is het tijd voor de kring!\" Is er vandaag iets anders? Met de veranderkaartjes bespreek je dat rustig vooraf, met het label \"eerst: gym\" als geheugensteuntje. Zo zien ook kinderen die nog geen klok kijken in één oogopslag wat er komt.",
+      "Onze dag is gratis te gebruiken: alle kaartjes, de zon en de veranderkaartjes werken meteen, zonder account. Met Premium komen daar de tijden op de kaartjes bij — uitgesproken zoals wij het zeggen: \"De lunch is om half 1\" — plus de voorleesstem, weekplannen die je per dag opslaat en hergebruikt, en een printversie voor op de deur of voor de invaljuf. Wat gratis is, blijft gratis; zo probeer je alles eerst rustig uit met je eigen groep."
+    ],
+    "howToUse": [
+      "Tik links op de kaartjes om de dag van vandaag te bouwen — van de inloop tot naar huis. Versleep of verwijder kaartjes tot het klopt.",
+      "Tik op \"De dag beginnen\": de zon verschijnt bij het eerste kaartje.",
+      "Klaar met een activiteit? Tik op de zon — die schuift een kaartje op en vertelt wat er nu komt.",
+      "Verandert er iets? Gebruik een veranderkaartje om te ruilen of iets weg te halen; het label \"eerst: ...\" laat zien wat er anders is. Met Premium zet je tijden op de kaartjes, sla je weekplannen op en druk je het dagritme af."
+    ],
+    "classroomIdeas": [
+      "Dagopening in de kring: loop elke ochtend samen langs de kaartjes en laat kinderen voorspellen wat er na het tien-uurtje komt — taal én tijdsbesef in één.",
+      "Houvast bij verandering: valt gym uit of komt er een invaljuf? Bespreek het vooraf met een veranderkaartje. Juist kinderen die op structuur leunen, zijn zo veel rustiger.",
+      "Maak er een klassentaak van: de \"zonnekapitein\" van de dag mag de zon doortikken. Met Premium sla je voor elke weekdag een eigen plan op en hangt de afdruk bij de deur — ook handig voor ouders en de opvang."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

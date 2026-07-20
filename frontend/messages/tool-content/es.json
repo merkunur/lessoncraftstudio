@@ -560,6 +560,28 @@
       "Decenas con material concreto: cuenten de 10 en 10 mientras una niña o un niño junta paquetes de diez palitos; la cuadrícula crece al mismo ritmo que los montones."
     ]
   },
+  "our-day": {
+    "slug": "nuestro-dia",
+    "name": "Nuestro día",
+    "tagline": "La agenda visual de toda la jornada: tarjetas ilustradas, un sol que avanza y cambios anunciados sin sorpresas.",
+    "metaTitle": "Agenda visual y horario del día para preescolar | Nuestro día",
+    "metaDescription": "Arma el horario del día con tarjetas ilustradas y un sol que avanza actividad por actividad. Rutinas predecibles para preescolar y primaria baja, gratis.",
+    "about": [
+      "Nuestro día convierte el horario en algo que los niños pueden ver y tocar: una tira de tarjetas ilustradas —la llegada, el círculo de la mañana, el refrigerio, el recreo— y un sol que una persona mueve de tarjeta en tarjeta. Saber qué sigue calma; para los niños con ansiedad o autistas, esa predictibilidad vale oro. Por eso el sol nunca corre solo con el reloj: lo avanza la maestra o el encargado del día, y cuando algo cambia, una tarjeta amable lo anuncia con tiempo, sin sustos.",
+      "Armar el día es gratis y lo será siempre: todas las tarjetas, el sol, los cambios y el modo de pantalla para proyectar toda la jornada. Con Premium se suman las cosas que ahorran tiempo: horas en cada tarjeta con reloj de manecillas y digital, la voz que anuncia cada actividad («La comida, a las doce y media»), planes guardados de lunes a viernes y la versión para imprimir. Si solo necesitas la rutina visual, la versión gratuita está completa."
+    ],
+    "howToUse": [
+      "Toca las tarjetas de la izquierda para armar el día de hoy; puedes repetir las que ocurren varias veces, como el recreo.",
+      "Pulsa «Empezar el día» y proyecta la tira: el sol se queda en la actividad actual.",
+      "Cuando termine una actividad, tú o el encargado del día tocan el sol para pasar a la siguiente.",
+      "¿Cambió el plan? Toca la tarjeta y elige cambiarla, quitarla o agregar otra; la actividad anterior queda visible en pequeño: «antes: la educación física»."
+    ],
+    "classroomIdeas": [
+      "Nombra cada semana a un «encargado del sol»: mover el sol es una comisión rotativa que refuerza la secuencia del día y el sentido de responsabilidad.",
+      "Convierte la tarjeta de cambio en un ritual: reúne al grupo, muestren juntos qué cambió y qué sigue igual. Para quien se angustia con las sorpresas, verlo con anticipación lo cambia todo.",
+      "Con Premium, imprime la tira del día y pégala en la banca de quien la necesite cerca: una mini agenda personal idéntica a la del pizarrón."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

@@ -560,6 +560,28 @@
       "No 2º ano, contem de 25 em 25 até 500 e conversem sobre por que os finais 25, 50, 75 e 00 se repetem — uma ponte natural para as moedas de 25 centavos e os quartos de hora."
     ]
   },
+  "our-day": {
+    "slug": "nosso-dia",
+    "name": "Nosso dia",
+    "tagline": "A rotina do dia em cartões ilustrados: o sol avança, a turma antecipa o que vem e ninguém se perde.",
+    "metaTitle": "Quadro de rotina visual para educação infantil – Nosso dia",
+    "metaDescription": "Monte o quadro de rotina do dia com cartões ilustrados: o sol avança pelas atividades, mudanças viram ritual tranquilo e a turma sabe o que vem agora. Grátis.",
+    "about": [
+      "Toda professora de Educação Infantil sabe: quando a criança enxerga o que vem depois, o dia flui. Nosso dia transforma a rotina em um quadro visual grande e bonito — a acolhida, a roda de conversa, o lanche, o parquinho — com um sol que caminha de cartão em cartão conforme o dia acontece. Essa previsibilidade acalma a turma inteira e é um apoio precioso para crianças ansiosas ou autistas, que se organizam muito melhor quando conseguem antecipar cada momento. É a rotina como a BNCC propõe para a Educação Infantil: tempo estruturado, previsível e acolhedor.",
+      "Montar o dia é gratuito para sempre: todos os cartões, o sol, o ritual de mudança — quando a educação física vira outra coisa, o cartão antigo continua ali, pequeno e legível, porque criança confia em quem avisa. No Premium entram os horários nos cartões, falados do jeito que a gente fala de verdade (\"O almoço começa quando o relógio marca meio-dia e meia\"), a voz que anuncia cada atividade, os planos da semana salvos para cada dia e a impressão da fita da rotina para a mesa da criança."
+    ],
+    "howToUse": [
+      "Toque nos cartões para montar o dia de hoje — a acolhida, a roda de conversa, o lanche, o parquinho — na ordem da sua turma.",
+      "Projete o quadro e toque em \"Começar o dia\": o sol pousa no primeiro cartão e anuncia \"Agora é a acolhida!\".",
+      "Terminou uma atividade? Toque no sol — ou deixe o ajudante do dia tocar — e ele caminha para o próximo cartão, dobrando o anterior com carinho.",
+      "Mudou algo? Use o ritual de mudança: o cartão novo entra e o antigo fica visível, pequenininho — \"antes: a educação física\" — para ninguém ser pego de surpresa."
+    ],
+    "classroomIdeas": [
+      "Crie o cargo de guardião do sol: a criança ajudante da vez é quem avança o sol a cada atividade — uma responsabilidade disputadíssima na rodinha.",
+      "Para crianças autistas ou muito ansiosas, imprima a fita do dia e deixe na mesa da criança que precisa conferir a rotina de pertinho, quantas vezes quiser.",
+      "Quando a rotina mudar de verdade, reúna a turma na roda, mostre o cartão de mudança e conversem sobre o que ficou para outro dia — antecipar mudanças também é cuidado."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

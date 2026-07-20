@@ -560,6 +560,28 @@
       "Räkna baklänges från 20 som nedräkning inför rast eller utflykt — eller ta 25-hoppen till 500 i åk 2 och prata om hundraövergångarna."
     ]
   },
+  "our-day": {
+    "slug": "var-dag",
+    "name": "Vår dag",
+    "tagline": "Ett digitalt bildschema för hela dagen — bygg schemat med kort och låt solen visa var ni är.",
+    "metaTitle": "Bildschema för förskola och skola – digitalt dagsschema",
+    "metaDescription": "Digitalt bildschema för förskola och F–3: bygg dagen med bildkort, flytta solen aktivitet för aktivitet och gör ändringar trygga. Gratis att använda.",
+    "about": [
+      "Ett bildschema på tavlan är vardag i svenska klassrum och förskolor. Inom tydliggörande pedagogik är dagsschemat en av de viktigaste anpassningarna för barn med NPF: när dagen är synlig blir den förutsägbar, och när den är förutsägbar minskar oron. Vår dag gör bildschemat digitalt — ni bygger dagen med illustrerade kort, från samling och fruktstund till rast, idrott och hemgång, och en vänlig sol visar var i dagen ni är. Det är alltid en människa som flyttar solen, aldrig klockan. Och när något ändras står det gamla kortet kvar, litet och läsbart, med etiketten ”förut” — så blir även schemabrytande dagar begripliga.",
+      "Att bygga och använda schemat är gratis, varje dag: alla aktivitetskort, solen, ändringskorten och överraskningskortet ingår utan konto. Premium lägger till det som sparar tid i längden — klockslag på korten som läses upp som ni faktiskt säger dem (”Lunch börjar klockan halv tolv”), uppläst röst när solen flyttas, sparade veckoplaner för måndag till fredag och en utskrift att sätta på bänken eller skicka hem. Inget av det låser den vanliga användningen — tavlan fungerar alltid."
+    ],
+    "howToUse": [
+      "Tryck på korten till vänster för att bygga dagens schema — de lägger sig i ordning på remsan.",
+      "Tryck på Starta dagen. När ni går vidare trycker du eller dagens schemavärd på solen — den vandrar till nästa kort.",
+      "Om något ändras: välj kortet och tryck Byt ut. Det gamla kortet står kvar med ”förut”, så att ändringen syns i stället för att försvinna.",
+      "Med Premium kan du sätta klockslag på korten, spara veckoplaner för varje veckodag och skriva ut dagens schema."
+    ],
+    "classroomIdeas": [
+      "Gör schemavärd till ett klassrumsjobb: dagens värd flyttar solen och säger vad som händer nu — en liten rutin som stärker både trygghet och språk.",
+      "Skriv ut dagens schema som bänkremsa till barn som behöver ett eget schema nära sig — samma bilder som på tavlan, utan extra förberedelse.",
+      "Låt schemat stå framme på projektorn hela dagen. Vid varje samling tittar ni tillbaka tillsammans: vad har vi gjort, och vad kommer nu?"
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

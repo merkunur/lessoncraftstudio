@@ -1,0 +1,584 @@
+{
+ "part": 75,
+ "locale": "es",
+ "classes": [
+  "math-puzzle::mixed"
+ ],
+ "splitOf": {
+  "class": "math-puzzle::mixed",
+  "total": 142,
+  "chunk": 2,
+  "chunks": 2
+ },
+ "count": 71,
+ "pages": [
+  {
+   "slug": "rompecabezas-matematico-mixto-hospital-525d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-hospital-525d"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-insectos-y-bichos-20c1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-insectos-y-bichos-20c1"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-insectos-y-bichos-337f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-insectos-y-bichos-337f"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-insectos-y-bichos-4ec7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-insectos-y-bichos-4ec7"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-invierno-1c7b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-invierno-1c7b"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-invierno-6a14",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-invierno-6a14"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-invierno-7806",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-invierno-7806"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-juguetes-2e7f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-juguetes-2e7f"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-juguetes-7a9a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-juguetes-7a9a"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-juguetes-f2fc",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-juguetes-f2fc"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-mascotas-37fb",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-mascotas-37fb"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-mascotas-4702",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-mascotas-4702"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-mascotas-9735",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-mascotas-9735"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-miscelaneo-54f8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-miscelaneo-54f8"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-miscelaneo-5a7d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-miscelaneo-5a7d"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-miscelaneo-863b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-miscelaneo-863b"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-muebles-321c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-muebles-321c"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-muebles-67c3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-muebles-67c3"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-muebles-cef2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-muebles-cef2"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-musica-5918",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-musica-5918"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-musica-699b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-musica-699b"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-musica-ce10",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-musica-ce10"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-navidad-6c98",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-navidad-6c98"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-navidad-ada1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-navidad-ada1"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-navidad-e51c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-navidad-e51c"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-ocupaciones-6774",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-ocupaciones-6774"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-ocupaciones-c76e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-ocupaciones-c76e"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-ocupaciones-d5e1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-ocupaciones-d5e1"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-oficina-de-correos-2bc3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-oficina-de-correos-2bc3"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-oficina-de-correos-2e5f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-oficina-de-correos-2e5f"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-oficina-de-correos-5864",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-oficina-de-correos-5864"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-panaderia-0697",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-panaderia-0697"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-panaderia-2c9b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-panaderia-2c9b"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-panaderia-e135",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-panaderia-e135"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-partes-del-cuerpo-1ce7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-partes-del-cuerpo-1ce7"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-partes-del-cuerpo-7900",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "body_parts",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-partes-del-cuerpo-7900"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-partes-del-cuerpo-b505",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-partes-del-cuerpo-b505"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-pascua-84d8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-pascua-84d8"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-pascua-9e76",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-pascua-9e76"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-pascua-a2a6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-pascua-a2a6"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-playa-50dc",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-playa-50dc"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-playa-a464",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-playa-a464"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-playa-ad44",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-playa-ad44"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-postres-y-dulces-3a6e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-postres-y-dulces-3a6e"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-postres-y-dulces-ae3b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-postres-y-dulces-ae3b"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-postres-y-dulces-f04b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-postres-y-dulces-f04b"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-primavera-0a2b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "spring",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-primavera-0a2b"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-primavera-e570",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "spring",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-primavera-e570"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-reptiles-y-anfibios-2205",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-reptiles-y-anfibios-2205"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-reptiles-y-anfibios-77a7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-reptiles-y-anfibios-77a7"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-ropa-292d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-ropa-292d"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-ropa-4294",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-ropa-4294"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-ropa-57fd",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-ropa-57fd"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-salon-de-clases-aed0",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-salon-de-clases-aed0"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-salon-de-clases-be25",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-salon-de-clases-be25"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-salon-de-clases-c571",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-salon-de-clases-c571"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-utensilios-de-cocina-8739",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-utensilios-de-cocina-8739"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-utensilios-de-cocina-e4e9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-utensilios-de-cocina-e4e9"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-utensilios-de-cocina-fdc5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-utensilios-de-cocina-fdc5"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-vehiculos-1839",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-vehiculos-1839"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-vehiculos-4eb9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-vehiculos-4eb9"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-vehiculos-5159",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-vehiculos-5159"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-verano-0a92",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-verano-0a92"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-verano-594a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-verano-594a"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-verano-7f61",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-verano-7f61"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-verduras-521b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-verduras-521b"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-verduras-94f2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-verduras-94f2"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-verduras-bcf5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-verduras-bcf5"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-vida-marina-5476",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-vida-marina-5476"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-vida-marina-6380",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-vida-marina-6380"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-vida-marina-af82",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-vida-marina-af82"
+  }
+ ]
+}

@@ -1,0 +1,652 @@
+{
+ "part": 313,
+ "locale": "no",
+ "classes": [
+  "addition::mixed",
+  "math-puzzle::subtraction"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "addisjon-blandet-bakeri-633e",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-bakeri-633e"
+  },
+  {
+   "slug": "addisjon-blandet-blomster-d356",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-blomster-d356"
+  },
+  {
+   "slug": "addisjon-blandet-camping-cffb",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-camping-cffb"
+  },
+  {
+   "slug": "addisjon-blandet-desserter-og-godteri-ae1c",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-desserter-og-godteri-ae1c"
+  },
+  {
+   "slug": "addisjon-blandet-dinosaurer-7294",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-dinosaurer-7294"
+  },
+  {
+   "slug": "addisjon-blandet-dyr-016b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-dyr-016b"
+  },
+  {
+   "slug": "addisjon-blandet-dyrehagedyr-5ab6",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-dyrehagedyr-5ab6"
+  },
+  {
+   "slug": "addisjon-blandet-former-26b4",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-former-26b4"
+  },
+  {
+   "slug": "addisjon-blandet-frokost-d639",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-frokost-d639"
+  },
+  {
+   "slug": "addisjon-blandet-frukter-0a79",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-frukter-0a79"
+  },
+  {
+   "slug": "addisjon-blandet-fugler-2-6b9d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-fugler-2-6b9d"
+  },
+  {
+   "slug": "addisjon-blandet-fugler-fb19",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-fugler-fb19"
+  },
+  {
+   "slug": "addisjon-blandet-gardsdyr-c2fa",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-gardsdyr-c2fa"
+  },
+  {
+   "slug": "addisjon-blandet-gronnsaker-aa6b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-gronnsaker-aa6b"
+  },
+  {
+   "slug": "addisjon-blandet-havliv-2f44",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-havliv-2f44"
+  },
+  {
+   "slug": "addisjon-blandet-i-supermarkedet-3741",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-i-supermarkedet-3741"
+  },
+  {
+   "slug": "addisjon-blandet-insekter-og-kryp-fc5c",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-insekter-og-kryp-fc5c"
+  },
+  {
+   "slug": "addisjon-blandet-jul-b889",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-jul-b889"
+  },
+  {
+   "slug": "addisjon-blandet-kjaeledyr-86ac",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-kjaeledyr-86ac"
+  },
+  {
+   "slug": "addisjon-blandet-kjokkenredskaper-85e6",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-kjokkenredskaper-85e6"
+  },
+  {
+   "slug": "addisjon-blandet-kjoretoy-2afa",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-kjoretoy-2afa"
+  },
+  {
+   "slug": "addisjon-blandet-klaer-cb99",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-klaer-cb99"
+  },
+  {
+   "slug": "addisjon-blandet-klasserom-a204",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-klasserom-a204"
+  },
+  {
+   "slug": "addisjon-blandet-leker-33d7",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-leker-33d7"
+  },
+  {
+   "slug": "addisjon-blandet-mobler-aa8f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-mobler-aa8f"
+  },
+  {
+   "slug": "addisjon-blandet-musikk-7d58",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-musikk-7d58"
+  },
+  {
+   "slug": "addisjon-blandet-paske-4324",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-paske-4324"
+  },
+  {
+   "slug": "addisjon-blandet-postkontor-c53c",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-postkontor-c53c"
+  },
+  {
+   "slug": "addisjon-blandet-reptiler-og-amfibier-94cc",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-reptiler-og-amfibier-94cc"
+  },
+  {
+   "slug": "addisjon-blandet-rundt-i-huset-37f9",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-rundt-i-huset-37f9"
+  },
+  {
+   "slug": "addisjon-blandet-skogsdyr-f941",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-skogsdyr-f941"
+  },
+  {
+   "slug": "addisjon-blandet-strand-d9ac",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-strand-d9ac"
+  },
+  {
+   "slug": "addisjon-blandet-sykehus-0194",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-sykehus-0194"
+  },
+  {
+   "slug": "addisjon-blandet-thanksgiving-e141",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-thanksgiving-e141"
+  },
+  {
+   "slug": "addisjon-blandet-tilbehor-2036",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-tilbehor-2036"
+  },
+  {
+   "slug": "addisjon-blandet-ting-som-flyr-1003",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-ting-som-flyr-1003"
+  },
+  {
+   "slug": "addisjon-blandet-traer-6efc",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-traer-6efc"
+  },
+  {
+   "slug": "addisjon-blandet-verdensrommet-04ae",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-verdensrommet-04ae"
+  },
+  {
+   "slug": "addisjon-blandet-verktoy-fb63",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-verktoy-fb63"
+  },
+  {
+   "slug": "addisjon-blandet-yrker-c22e",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-yrker-c22e"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-bakeri-2f55",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-bakeri-2f55"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-blomster-97f4",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "flowers",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-blomster-97f4"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-camping-5cc3",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-camping-5cc3"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-desserter-og-godteri-6362",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-desserter-og-godteri-6362"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-dinosaurer-fe2e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "dinosaurs",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-dinosaurer-fe2e"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-dyr-4415",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-dyr-4415"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-dyrehagedyr-7868",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-dyrehagedyr-7868"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-former-2ae7",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-former-2ae7"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-frokost-ea02",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "breakfast",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-frokost-ea02"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-frukter-2ac1",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-frukter-2ac1"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-fugler-2-02cd",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-fugler-2-02cd"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-fugler-b209",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-fugler-b209"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-gardsdyr-37ed",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "farm_animals",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-gardsdyr-37ed"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-gronnsaker-668e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vegetables",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-gronnsaker-668e"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-havliv-b261",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "ocean_life",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-havliv-b261"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-i-supermarkedet-d571",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "at_the_supermarket",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-i-supermarkedet-d571"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-insekter-og-kryp-d602",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-insekter-og-kryp-d602"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-jul-d18d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-jul-d18d"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-kjaeledyr-3d6e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-kjaeledyr-3d6e"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-kjokkenredskaper-ca09",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "kitchen_tools",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-kjokkenredskaper-ca09"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-kjoretoy-7d51",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vehicles",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-kjoretoy-7d51"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-klaer-49b9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "clothing",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-klaer-49b9"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-klasserom-0b1f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "classroom",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-klasserom-0b1f"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-leker-bc27",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-leker-bc27"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-mobler-2989",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-mobler-2989"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-musikk-aadb",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "music",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-musikk-aadb"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-paske-49de",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-paske-49de"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-postkontor-3565",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "post_office",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-postkontor-3565"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-reptiler-og-amfibier-0412",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-reptiler-og-amfibier-0412"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-rundt-i-huset-6ec6",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "around_the_house",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-rundt-i-huset-6ec6"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-skogsdyr-d4c8",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "forest_creatures",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-skogsdyr-d4c8"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-strand-62e7",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "beach",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-strand-62e7"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-sykehus-9acd",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-sykehus-9acd"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-thanksgiving-55ba",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-thanksgiving-55ba"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-tilbehor-dc15",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "accessories",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-tilbehor-dc15"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-ting-som-flyr-9ad0",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "things_that_fly",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-ting-som-flyr-9ad0"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-traer-1a13",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-traer-1a13"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-verdensrommet-e864",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "space",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-verdensrommet-e864"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-verktoy-c38f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-verktoy-c38f"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-yrker-e15f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-yrker-e15f"
+  }
+ ]
+}

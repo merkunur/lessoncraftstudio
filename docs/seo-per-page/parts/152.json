@@ -1,0 +1,748 @@
+{
+ "part": 152,
+ "locale": "fr",
+ "classes": [
+  "missing-pieces::two-missing",
+  "pattern-train::aabb"
+ ],
+ "splitOf": null,
+ "count": 92,
+ "pages": [
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-accessoires-15ee",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-accessoires-15ee"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-action-de-grace-5ba2",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "thanksgivinng",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-action-de-grace-5ba2"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-activites-3ec0",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-activites-3ec0"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-animaux-31db",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-animaux-31db"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-animaux-de-compagnie-e63e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "pets",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-animaux-de-compagnie-e63e"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-animaux-de-la-ferme-25a3",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "farm_animals",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-animaux-de-la-ferme-25a3"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-animaux-du-zoo-2e95",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-animaux-du-zoo-2e95"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-arbres-5c54",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tree",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-arbres-5c54"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-au-supermarche-89d0",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-au-supermarche-89d0"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-autour-de-la-maison-979d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-autour-de-la-maison-979d"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-boulangerie-725c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "bakery",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-boulangerie-725c"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-bureau-de-poste-16bf",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "post_office",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-bureau-de-poste-16bf"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-camping-8dd5",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "camping",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-camping-8dd5"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-choses-qui-volent-0e2f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-choses-qui-volent-0e2f"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-creatures-de-la-foret-cc9b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "forest_creatures",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-creatures-de-la-foret-cc9b"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-desserts-et-sucreries-200f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "desserts_and_sweets",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-desserts-et-sucreries-200f"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-dinosaures-a4d9",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "dinosaurs",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-dinosaures-a4d9"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-emotions-c903",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-emotions-c903"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-espace-6bef",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-espace-6bef"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-ete-3c27",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-ete-3c27"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-fleurs-5e55",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "flowers",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-fleurs-5e55"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-fruits-9fb2",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "fruits",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-fruits-9fb2"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-hiver-5a6b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-hiver-5a6b"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-hopital-49ab",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-hopital-49ab"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-insectes-et-bestioles-fddf",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "insects_and_bugs",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-insectes-et-bestioles-fddf"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-jouets-d7af",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-jouets-d7af"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-legumes-6218",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vegetables",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-legumes-6218"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-meteo-92ad",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-meteo-92ad"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-metiers-20a4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-metiers-20a4"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-meubles-54ba",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "furniture",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-meubles-54ba"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-musique-f553",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "music",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-musique-f553"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-noel-85de",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "christmas",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-noel-85de"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-oiseaux-2-a889",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-oiseaux-2-a889"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-oiseaux-f4b9",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-oiseaux-f4b9"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-outils-8834",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tools",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-outils-8834"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-paques-a28a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "easter",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-paques-a28a"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-parties-du-corps-f8d9",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-parties-du-corps-f8d9"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-petit-dejeuner-491f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-petit-dejeuner-491f"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-plage-348d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-plage-348d"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-printemps-2829",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-printemps-2829"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-reptiles-et-amphibiens-dd2f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-reptiles-et-amphibiens-dd2f"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-salle-de-classe-187a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-salle-de-classe-187a"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-ustensiles-de-cuisine-2b14",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "kitchen_tools",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-ustensiles-de-cuisine-2b14"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-vehicules-7b95",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-vehicules-7b95"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-vetements-8fda",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-vetements-8fda"
+  },
+  {
+   "slug": "pieces-manquantes-2-pieces-manquantes-vie-oceanique-7b02",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-2-pieces-manquantes-vie-oceanique-7b02"
+  },
+  {
+   "slug": "train-de-modeles-aabb-accessoires-3d33",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-accessoires-3d33"
+  },
+  {
+   "slug": "train-de-modeles-aabb-action-de-grace-1d08",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "thanksgivinng",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-action-de-grace-1d08"
+  },
+  {
+   "slug": "train-de-modeles-aabb-activites-2c2f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-activites-2c2f"
+  },
+  {
+   "slug": "train-de-modeles-aabb-animaux-de-compagnie-bc6c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "pets",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-animaux-de-compagnie-bc6c"
+  },
+  {
+   "slug": "train-de-modeles-aabb-animaux-de-la-ferme-0951",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "farm_animals",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-animaux-de-la-ferme-0951"
+  },
+  {
+   "slug": "train-de-modeles-aabb-animaux-du-zoo-3dde",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-animaux-du-zoo-3dde"
+  },
+  {
+   "slug": "train-de-modeles-aabb-animaux-f7b3",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-animaux-f7b3"
+  },
+  {
+   "slug": "train-de-modeles-aabb-arbres-58f2",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tree",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-arbres-58f2"
+  },
+  {
+   "slug": "train-de-modeles-aabb-au-supermarche-d76f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-au-supermarche-d76f"
+  },
+  {
+   "slug": "train-de-modeles-aabb-autour-de-la-maison-4993",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-autour-de-la-maison-4993"
+  },
+  {
+   "slug": "train-de-modeles-aabb-boulangerie-dbe0",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "bakery",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-boulangerie-dbe0"
+  },
+  {
+   "slug": "train-de-modeles-aabb-bureau-de-poste-d0e0",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "post_office",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-bureau-de-poste-d0e0"
+  },
+  {
+   "slug": "train-de-modeles-aabb-camping-6016",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "camping",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-camping-6016"
+  },
+  {
+   "slug": "train-de-modeles-aabb-choses-qui-volent-b215",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-choses-qui-volent-b215"
+  },
+  {
+   "slug": "train-de-modeles-aabb-desserts-et-sucreries-50b6",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "desserts_and_sweets",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-desserts-et-sucreries-50b6"
+  },
+  {
+   "slug": "train-de-modeles-aabb-dinosaures-8637",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "dinosaurs",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-dinosaures-8637"
+  },
+  {
+   "slug": "train-de-modeles-aabb-emotions-49c8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-emotions-49c8"
+  },
+  {
+   "slug": "train-de-modeles-aabb-espace-328d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-espace-328d"
+  },
+  {
+   "slug": "train-de-modeles-aabb-ete-7029",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-ete-7029"
+  },
+  {
+   "slug": "train-de-modeles-aabb-fleurs-6823",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "flowers",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-fleurs-6823"
+  },
+  {
+   "slug": "train-de-modeles-aabb-formes-bf68",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "shapes",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-formes-bf68"
+  },
+  {
+   "slug": "train-de-modeles-aabb-fruits-3ce8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "fruits",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-fruits-3ce8"
+  },
+  {
+   "slug": "train-de-modeles-aabb-hiver-9433",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-hiver-9433"
+  },
+  {
+   "slug": "train-de-modeles-aabb-hopital-a41f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-hopital-a41f"
+  },
+  {
+   "slug": "train-de-modeles-aabb-insectes-et-bestioles-a66a",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "insects_and_bugs",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-insectes-et-bestioles-a66a"
+  },
+  {
+   "slug": "train-de-modeles-aabb-jouets-c2fe",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-jouets-c2fe"
+  },
+  {
+   "slug": "train-de-modeles-aabb-legumes-0bcf",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vegetables",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-legumes-0bcf"
+  },
+  {
+   "slug": "train-de-modeles-aabb-meteo-6126",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-meteo-6126"
+  },
+  {
+   "slug": "train-de-modeles-aabb-metiers-a511",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-metiers-a511"
+  },
+  {
+   "slug": "train-de-modeles-aabb-meubles-9b62",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "furniture",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-meubles-9b62"
+  },
+  {
+   "slug": "train-de-modeles-aabb-musique-c0a0",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "music",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-musique-c0a0"
+  },
+  {
+   "slug": "train-de-modeles-aabb-noel-935f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "christmas",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-noel-935f"
+  },
+  {
+   "slug": "train-de-modeles-aabb-oiseaux-2-2f25",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-oiseaux-2-2f25"
+  },
+  {
+   "slug": "train-de-modeles-aabb-oiseaux-a74b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-oiseaux-a74b"
+  },
+  {
+   "slug": "train-de-modeles-aabb-outils-85a6",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tools",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-outils-85a6"
+  },
+  {
+   "slug": "train-de-modeles-aabb-paques-c07d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "easter",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-paques-c07d"
+  },
+  {
+   "slug": "train-de-modeles-aabb-parties-du-corps-e436",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-parties-du-corps-e436"
+  },
+  {
+   "slug": "train-de-modeles-aabb-petit-dejeuner-7913",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-petit-dejeuner-7913"
+  },
+  {
+   "slug": "train-de-modeles-aabb-plage-24cd",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-plage-24cd"
+  },
+  {
+   "slug": "train-de-modeles-aabb-printemps-0383",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-printemps-0383"
+  },
+  {
+   "slug": "train-de-modeles-aabb-reptiles-et-amphibiens-d90d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "reptiles_and_amphibians",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-reptiles-et-amphibiens-d90d"
+  },
+  {
+   "slug": "train-de-modeles-aabb-salle-de-classe-3561",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-salle-de-classe-3561"
+  },
+  {
+   "slug": "train-de-modeles-aabb-ustensiles-de-cuisine-0b06",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "kitchen_tools",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-ustensiles-de-cuisine-0b06"
+  },
+  {
+   "slug": "train-de-modeles-aabb-vehicules-e442",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-vehicules-e442"
+  },
+  {
+   "slug": "train-de-modeles-aabb-vetements-ce56",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-vetements-ce56"
+  },
+  {
+   "slug": "train-de-modeles-aabb-vie-oceanique-962c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-vie-oceanique-962c"
+  }
+ ]
+}

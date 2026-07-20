@@ -1,0 +1,740 @@
+{
+ "part": 242,
+ "locale": "sv",
+ "classes": [
+  "word-scramble::normal",
+  "find-and-count::hidden-object"
+ ],
+ "splitOf": null,
+ "count": 91,
+ "pages": [
+  {
+   "slug": "bokstavspussel-normal-aktiviteter-2e5d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-aktiviteter-2e5d"
+  },
+  {
+   "slug": "bokstavspussel-normal-bageri-7c24",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-bageri-7c24"
+  },
+  {
+   "slug": "bokstavspussel-normal-blommor-f5cd",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-blommor-f5cd"
+  },
+  {
+   "slug": "bokstavspussel-normal-bondgardsdjur-cb92",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-bondgardsdjur-cb92"
+  },
+  {
+   "slug": "bokstavspussel-normal-camping-b260",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-camping-b260"
+  },
+  {
+   "slug": "bokstavspussel-normal-djur-a781",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-djur-a781"
+  },
+  {
+   "slug": "bokstavspussel-normal-djurparksdjur-576d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-djurparksdjur-576d"
+  },
+  {
+   "slug": "bokstavspussel-normal-efterratter-och-godis-3672",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-efterratter-och-godis-3672"
+  },
+  {
+   "slug": "bokstavspussel-normal-faglar-2-0d0c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-faglar-2-0d0c"
+  },
+  {
+   "slug": "bokstavspussel-normal-faglar-49ce",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-faglar-49ce"
+  },
+  {
+   "slug": "bokstavspussel-normal-farger-eede",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-farger-eede"
+  },
+  {
+   "slug": "bokstavspussel-normal-fordon-f801",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-fordon-f801"
+  },
+  {
+   "slug": "bokstavspussel-normal-former-6972",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-former-6972"
+  },
+  {
+   "slug": "bokstavspussel-normal-frukost-7b50",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-frukost-7b50"
+  },
+  {
+   "slug": "bokstavspussel-normal-frukter-a413",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-frukter-a413"
+  },
+  {
+   "slug": "bokstavspussel-normal-gronsaker-eb35",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-gronsaker-eb35"
+  },
+  {
+   "slug": "bokstavspussel-normal-havsliv-de52",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-havsliv-de52"
+  },
+  {
+   "slug": "bokstavspussel-normal-husdjur-21f5",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-husdjur-21f5"
+  },
+  {
+   "slug": "bokstavspussel-normal-i-snabbkopet-9006",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-i-snabbkopet-9006"
+  },
+  {
+   "slug": "bokstavspussel-normal-jul-9ab7",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-jul-9ab7"
+  },
+  {
+   "slug": "bokstavspussel-normal-kanslor-ce8c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-kanslor-ce8c"
+  },
+  {
+   "slug": "bokstavspussel-normal-klader-3ccb",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-klader-3ccb"
+  },
+  {
+   "slug": "bokstavspussel-normal-klassrum-5554",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-klassrum-5554"
+  },
+  {
+   "slug": "bokstavspussel-normal-koksredskap-6cd6",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-koksredskap-6cd6"
+  },
+  {
+   "slug": "bokstavspussel-normal-kroppsdelar-1e48",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-kroppsdelar-1e48"
+  },
+  {
+   "slug": "bokstavspussel-normal-leksaker-1c4e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-leksaker-1c4e"
+  },
+  {
+   "slug": "bokstavspussel-normal-mobler-dc17",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-mobler-dc17"
+  },
+  {
+   "slug": "bokstavspussel-normal-musik-78f3",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-musik-78f3"
+  },
+  {
+   "slug": "bokstavspussel-normal-pask-d90a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-pask-d90a"
+  },
+  {
+   "slug": "bokstavspussel-normal-postkontor-28bd",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-postkontor-28bd"
+  },
+  {
+   "slug": "bokstavspussel-normal-reptiler-och-groddjur-23b1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-reptiler-och-groddjur-23b1"
+  },
+  {
+   "slug": "bokstavspussel-normal-runt-huset-c233",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-runt-huset-c233"
+  },
+  {
+   "slug": "bokstavspussel-normal-rymden-13ad",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-rymden-13ad"
+  },
+  {
+   "slug": "bokstavspussel-normal-saker-som-flyger-587d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-saker-som-flyger-587d"
+  },
+  {
+   "slug": "bokstavspussel-normal-sjukhus-7e85",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-sjukhus-7e85"
+  },
+  {
+   "slug": "bokstavspussel-normal-skogsdjur-d995",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-skogsdjur-d995"
+  },
+  {
+   "slug": "bokstavspussel-normal-sommar-6cfd",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-sommar-6cfd"
+  },
+  {
+   "slug": "bokstavspussel-normal-strand-dcd7",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-strand-dcd7"
+  },
+  {
+   "slug": "bokstavspussel-normal-thanksgiving-e0fb",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-thanksgiving-e0fb"
+  },
+  {
+   "slug": "bokstavspussel-normal-tillbehor-0363",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-tillbehor-0363"
+  },
+  {
+   "slug": "bokstavspussel-normal-trad-4d2e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-trad-4d2e"
+  },
+  {
+   "slug": "bokstavspussel-normal-vader-8e52",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-vader-8e52"
+  },
+  {
+   "slug": "bokstavspussel-normal-var-c228",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-var-c228"
+  },
+  {
+   "slug": "bokstavspussel-normal-verktyg-4954",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-verktyg-4954"
+  },
+  {
+   "slug": "bokstavspussel-normal-vinter-25fc",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-vinter-25fc"
+  },
+  {
+   "slug": "bokstavspussel-normal-yrken-8b1e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-yrken-8b1e"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-aktiviteter-c8b1",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-aktiviteter-c8b1"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-bageri-b77d",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-bageri-b77d"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-blommor-06c5",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-blommor-06c5"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-bondgardsdjur-90f5",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-bondgardsdjur-90f5"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-camping-fa73",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-camping-fa73"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-djur-8877",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-djur-8877"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-djurparksdjur-f2d6",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-djurparksdjur-f2d6"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-efterratter-och-godis-e87f",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-efterratter-och-godis-e87f"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-faglar-2-a06e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-faglar-2-a06e"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-farger-039e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-farger-039e"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-fordon-31f0",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-fordon-31f0"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-former-590c",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-former-590c"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-frukost-daef",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-frukost-daef"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-frukter-f54a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-frukter-f54a"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-gronsaker-965c",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-gronsaker-965c"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-havsliv-aa29",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-havsliv-aa29"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-husdjur-0b4a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-husdjur-0b4a"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-i-snabbkopet-4dc6",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-i-snabbkopet-4dc6"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-insekter-och-kryp-695e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-insekter-och-kryp-695e"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-jul-c281",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-jul-c281"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-kanslor-82d4",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-kanslor-82d4"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-klader-1e28",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-klader-1e28"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-klassrum-dc60",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-klassrum-dc60"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-koksredskap-2e3d",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-koksredskap-2e3d"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-kroppsdelar-bc83",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-kroppsdelar-bc83"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-leksaker-3866",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-leksaker-3866"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-mobler-0842",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-mobler-0842"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-musik-e385",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-musik-e385"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-pask-d215",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-pask-d215"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-postkontor-8915",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-postkontor-8915"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-runt-huset-b57d",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-runt-huset-b57d"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-rymden-122e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-rymden-122e"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-saker-som-flyger-7bb1",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-saker-som-flyger-7bb1"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-sjukhus-6c32",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-sjukhus-6c32"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-skogsdjur-ecfb",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-skogsdjur-ecfb"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-sommar-b67e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-sommar-b67e"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-strand-71f1",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-strand-71f1"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-thanksgiving-6266",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-thanksgiving-6266"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-tillbehor-3a27",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-tillbehor-3a27"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-trad-9543",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-trad-9543"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-vader-4544",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-vader-4544"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-var-d430",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-var-d430"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-verktyg-4a63",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-verktyg-4a63"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-vinter-176a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-vinter-176a"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-yrken-60f0",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-yrken-60f0"
+  }
+ ]
+}

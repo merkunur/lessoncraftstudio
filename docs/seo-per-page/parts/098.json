@@ -1,0 +1,604 @@
+{
+ "part": 98,
+ "locale": "es",
+ "classes": [
+  "bingo::null",
+  "alphabet-train::letter-hint"
+ ],
+ "splitOf": null,
+ "count": 74,
+ "pages": [
+  {
+   "slug": "bingo-accesorios-4f99",
+   "type": "bingo",
+   "mode": null,
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "bingo-accesorios-4f99"
+  },
+  {
+   "slug": "bingo-actividades-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "bingo-actividades-98be"
+  },
+  {
+   "slug": "bingo-alrededor-de-la-casa-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "bingo-alrededor-de-la-casa-98be"
+  },
+  {
+   "slug": "bingo-animales",
+   "type": "bingo",
+   "mode": null,
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "bingo-animales"
+  },
+  {
+   "slug": "bingo-animales-de-granja-646b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "bingo-animales-de-granja-646b"
+  },
+  {
+   "slug": "bingo-animales-del-zoologico-01cd",
+   "type": "bingo",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "bingo-animales-del-zoologico-01cd"
+  },
+  {
+   "slug": "bingo-arboles-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "bingo-arboles-98be"
+  },
+  {
+   "slug": "bingo-aves-2-58fc",
+   "type": "bingo",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "bingo-aves-2-58fc"
+  },
+  {
+   "slug": "bingo-campamento-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "bingo-campamento-98be"
+  },
+  {
+   "slug": "bingo-clima-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "bingo-clima-98be"
+  },
+  {
+   "slug": "bingo-colores-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "bingo-colores-98be"
+  },
+  {
+   "slug": "bingo-cosas-que-vuelan-3368",
+   "type": "bingo",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "bingo-cosas-que-vuelan-3368"
+  },
+  {
+   "slug": "bingo-criaturas-del-bosque-40d8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "bingo-criaturas-del-bosque-40d8"
+  },
+  {
+   "slug": "bingo-desayuno-680f",
+   "type": "bingo",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "bingo-desayuno-680f"
+  },
+  {
+   "slug": "bingo-en-el-supermercado-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "bingo-en-el-supermercado-98be"
+  },
+  {
+   "slug": "bingo-espacio-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "bingo-espacio-98be"
+  },
+  {
+   "slug": "bingo-flores-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "bingo-flores-98be"
+  },
+  {
+   "slug": "bingo-formas-3ede",
+   "type": "bingo",
+   "mode": null,
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "bingo-formas-3ede"
+  },
+  {
+   "slug": "bingo-frutas-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "bingo-frutas-98be"
+  },
+  {
+   "slug": "bingo-hospital-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "bingo-hospital-98be"
+  },
+  {
+   "slug": "bingo-invierno-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "bingo-invierno-98be"
+  },
+  {
+   "slug": "bingo-juguetes-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "bingo-juguetes-98be"
+  },
+  {
+   "slug": "bingo-mascotas-63b2",
+   "type": "bingo",
+   "mode": null,
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "bingo-mascotas-63b2"
+  },
+  {
+   "slug": "bingo-muebles-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "bingo-muebles-98be"
+  },
+  {
+   "slug": "bingo-navidad-89d6",
+   "type": "bingo",
+   "mode": null,
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "bingo-navidad-89d6"
+  },
+  {
+   "slug": "bingo-ocupaciones-6b78",
+   "type": "bingo",
+   "mode": null,
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "bingo-ocupaciones-6b78"
+  },
+  {
+   "slug": "bingo-panaderia-3c41",
+   "type": "bingo",
+   "mode": null,
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "bingo-panaderia-3c41"
+  },
+  {
+   "slug": "bingo-partes-del-cuerpo-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "bingo-partes-del-cuerpo-98be"
+  },
+  {
+   "slug": "bingo-pascua-49e8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "bingo-pascua-49e8"
+  },
+  {
+   "slug": "bingo-playa-09d5",
+   "type": "bingo",
+   "mode": null,
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "bingo-playa-09d5"
+  },
+  {
+   "slug": "bingo-postres-y-dulces-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "bingo-postres-y-dulces-98be"
+  },
+  {
+   "slug": "bingo-primavera-69f3",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "bingo-primavera-69f3"
+  },
+  {
+   "slug": "bingo-ropa-1a48",
+   "type": "bingo",
+   "mode": null,
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "bingo-ropa-1a48"
+  },
+  {
+   "slug": "bingo-salon-de-clases-6032",
+   "type": "bingo",
+   "mode": null,
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "bingo-salon-de-clases-6032"
+  },
+  {
+   "slug": "bingo-utensilios-de-cocina-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "bingo-utensilios-de-cocina-98be"
+  },
+  {
+   "slug": "bingo-vehiculos-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "bingo-vehiculos-98be"
+  },
+  {
+   "slug": "bingo-verano-319c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "bingo-verano-319c"
+  },
+  {
+   "slug": "bingo-verduras-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "bingo-verduras-98be"
+  },
+  {
+   "slug": "bingo-vida-marina-8045",
+   "type": "bingo",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "bingo-vida-marina-8045"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-accesorios-8f0d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-accesorios-8f0d"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-actividades-8d61",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-actividades-8d61"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-alrededor-de-la-casa-a1a4",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-alrededor-de-la-casa-a1a4"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-animales-3f01",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-animales-3f01"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-animales-del-zoologico-6502",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-animales-del-zoologico-6502"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-arboles-b025",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-arboles-b025"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-aves-2-a64e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-aves-2-a64e"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-campamento-6e79",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-campamento-6e79"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-clima-c438",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-clima-c438"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-colores-096f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-colores-096f"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-cosas-que-vuelan-93ae",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-cosas-que-vuelan-93ae"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-criaturas-del-bosque-f867",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-criaturas-del-bosque-f867"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-desayuno-9fc3",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-desayuno-9fc3"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-dinosaurios-25f0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-dinosaurios-25f0"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-en-el-supermercado-2121",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-en-el-supermercado-2121"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-espacio-c5f6",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-espacio-c5f6"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-flores-be9e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-flores-be9e"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-frutas-4c9d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-frutas-4c9d"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-hospital-5946",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-hospital-5946"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-invierno-0bda",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-invierno-0bda"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-juguetes-27cd",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-juguetes-27cd"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-musica-035a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-musica-035a"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-navidad-2bfd",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-navidad-2bfd"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-ocupaciones-2941",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-ocupaciones-2941"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-panaderia-627d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-panaderia-627d"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-partes-del-cuerpo-626e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-partes-del-cuerpo-626e"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-pascua-0db7",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-pascua-0db7"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-playa-63bc",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-playa-63bc"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-primavera-93b0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-primavera-93b0"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-ropa-62e5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-ropa-62e5"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-salon-de-clases-0ed8",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-salon-de-clases-0ed8"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-utensilios-de-cocina-3c70",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-utensilios-de-cocina-3c70"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-vehiculos-4bdd",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-vehiculos-4bdd"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-verano-76ea",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-verano-76ea"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-vida-marina-9e8b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-vida-marina-9e8b"
+  }
+ ]
+}

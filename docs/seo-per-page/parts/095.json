@@ -1,0 +1,756 @@
+{
+ "part": 95,
+ "locale": "es",
+ "classes": [
+  "word-scramble::normal",
+  "subtraction::find-subtrahend"
+ ],
+ "splitOf": null,
+ "count": 93,
+ "pages": [
+  {
+   "slug": "letras-revueltas-normal-4-de-julio-c90f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-4-de-julio-c90f"
+  },
+  {
+   "slug": "letras-revueltas-normal-accesorios-0384",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-accesorios-0384"
+  },
+  {
+   "slug": "letras-revueltas-normal-actividades-1ac2",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-actividades-1ac2"
+  },
+  {
+   "slug": "letras-revueltas-normal-alrededor-de-la-casa-eec9",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-alrededor-de-la-casa-eec9"
+  },
+  {
+   "slug": "letras-revueltas-normal-animales-da20",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-animales-da20"
+  },
+  {
+   "slug": "letras-revueltas-normal-animales-de-granja-3333",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-animales-de-granja-3333"
+  },
+  {
+   "slug": "letras-revueltas-normal-animales-del-zoologico-2a0f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-animales-del-zoologico-2a0f"
+  },
+  {
+   "slug": "letras-revueltas-normal-arboles-91fe",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-arboles-91fe"
+  },
+  {
+   "slug": "letras-revueltas-normal-aves-2-f6ef",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-aves-2-f6ef"
+  },
+  {
+   "slug": "letras-revueltas-normal-aves-489c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-aves-489c"
+  },
+  {
+   "slug": "letras-revueltas-normal-campamento-f672",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-campamento-f672"
+  },
+  {
+   "slug": "letras-revueltas-normal-clima-62bc",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-clima-62bc"
+  },
+  {
+   "slug": "letras-revueltas-normal-colores-d635",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-colores-d635"
+  },
+  {
+   "slug": "letras-revueltas-normal-cosas-que-vuelan-722c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-cosas-que-vuelan-722c"
+  },
+  {
+   "slug": "letras-revueltas-normal-criaturas-del-bosque-ef4b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-criaturas-del-bosque-ef4b"
+  },
+  {
+   "slug": "letras-revueltas-normal-desayuno-5d33",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-desayuno-5d33"
+  },
+  {
+   "slug": "letras-revueltas-normal-dia-de-accion-de-gracias-15a4",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-dia-de-accion-de-gracias-15a4"
+  },
+  {
+   "slug": "letras-revueltas-normal-emociones-f6ac",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-emociones-f6ac"
+  },
+  {
+   "slug": "letras-revueltas-normal-en-el-supermercado-389b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-en-el-supermercado-389b"
+  },
+  {
+   "slug": "letras-revueltas-normal-espacio-7ef0",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-espacio-7ef0"
+  },
+  {
+   "slug": "letras-revueltas-normal-flores-1402",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-flores-1402"
+  },
+  {
+   "slug": "letras-revueltas-normal-formas-274a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-formas-274a"
+  },
+  {
+   "slug": "letras-revueltas-normal-frutas-d953",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-frutas-d953"
+  },
+  {
+   "slug": "letras-revueltas-normal-herramientas-18fb",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-herramientas-18fb"
+  },
+  {
+   "slug": "letras-revueltas-normal-hospital-b4e1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-hospital-b4e1"
+  },
+  {
+   "slug": "letras-revueltas-normal-insectos-y-bichos-1d24",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-insectos-y-bichos-1d24"
+  },
+  {
+   "slug": "letras-revueltas-normal-invierno-509f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-invierno-509f"
+  },
+  {
+   "slug": "letras-revueltas-normal-juguetes-45b8",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-juguetes-45b8"
+  },
+  {
+   "slug": "letras-revueltas-normal-mascotas-96ce",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-mascotas-96ce"
+  },
+  {
+   "slug": "letras-revueltas-normal-miscelaneo-1f8c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-miscelaneo-1f8c"
+  },
+  {
+   "slug": "letras-revueltas-normal-muebles-ca23",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-muebles-ca23"
+  },
+  {
+   "slug": "letras-revueltas-normal-musica-01d1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-musica-01d1"
+  },
+  {
+   "slug": "letras-revueltas-normal-navidad-a8bb",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-navidad-a8bb"
+  },
+  {
+   "slug": "letras-revueltas-normal-ocupaciones-946e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-ocupaciones-946e"
+  },
+  {
+   "slug": "letras-revueltas-normal-oficina-de-correos-026a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-oficina-de-correos-026a"
+  },
+  {
+   "slug": "letras-revueltas-normal-panaderia-c88a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-panaderia-c88a"
+  },
+  {
+   "slug": "letras-revueltas-normal-partes-del-cuerpo-a0f8",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-partes-del-cuerpo-a0f8"
+  },
+  {
+   "slug": "letras-revueltas-normal-pascua-f663",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-pascua-f663"
+  },
+  {
+   "slug": "letras-revueltas-normal-playa-d333",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-playa-d333"
+  },
+  {
+   "slug": "letras-revueltas-normal-postres-y-dulces-a4b1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-postres-y-dulces-a4b1"
+  },
+  {
+   "slug": "letras-revueltas-normal-ropa-ea03",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-ropa-ea03"
+  },
+  {
+   "slug": "letras-revueltas-normal-salon-de-clases-efee",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-salon-de-clases-efee"
+  },
+  {
+   "slug": "letras-revueltas-normal-utensilios-de-cocina-4156",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-utensilios-de-cocina-4156"
+  },
+  {
+   "slug": "letras-revueltas-normal-vehiculos-e9d3",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-vehiculos-e9d3"
+  },
+  {
+   "slug": "letras-revueltas-normal-verano-557c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-verano-557c"
+  },
+  {
+   "slug": "letras-revueltas-normal-verduras-edf1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-verduras-edf1"
+  },
+  {
+   "slug": "letras-revueltas-normal-vida-marina-485f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "letras-revueltas-normal-vida-marina-485f"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-4-de-julio-a64a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-4-de-julio-a64a"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-accesorios-78ba",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-accesorios-78ba"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-actividades-b2c3",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-actividades-b2c3"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-animales-a477",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-animales-a477"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-animales-de-granja-479d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-animales-de-granja-479d"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-animales-del-zoologico-a1d1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-animales-del-zoologico-a1d1"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-arboles-74a1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-arboles-74a1"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-aves-2-4b76",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-aves-2-4b76"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-aves-8d67",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-aves-8d67"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-campamento-b566",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-campamento-b566"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-clima-3d7c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-clima-3d7c"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-colores-ba10",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-colores-ba10"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-cosas-que-vuelan-ae51",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-cosas-que-vuelan-ae51"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-criaturas-del-bosque-dfa9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-criaturas-del-bosque-dfa9"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-desayuno-7e4c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-desayuno-7e4c"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-dia-de-accion-de-gracias-c78e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "thanksgivinng",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-dia-de-accion-de-gracias-c78e"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-dinosaurios-103a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-dinosaurios-103a"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-emociones-5000",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-emociones-5000"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-en-el-supermercado-bb36",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-en-el-supermercado-bb36"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-espacio-225c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-espacio-225c"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-flores-b57d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-flores-b57d"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-formas-eb62",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-formas-eb62"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-frutas-b8ca",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-frutas-b8ca"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-herramientas-bc6b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-herramientas-bc6b"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-hospital-5473",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-hospital-5473"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-insectos-y-bichos-59ce",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-insectos-y-bichos-59ce"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-invierno-f8f3",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-invierno-f8f3"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-juguetes-856a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-juguetes-856a"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-mascotas-60e9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-mascotas-60e9"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-miscelaneo-ac2b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-miscelaneo-ac2b"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-muebles-017c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-muebles-017c"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-musica-f405",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-musica-f405"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-navidad-97ba",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-navidad-97ba"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-ocupaciones-ed0b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-ocupaciones-ed0b"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-oficina-de-correos-65d7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-oficina-de-correos-65d7"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-panaderia-7073",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-panaderia-7073"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-partes-del-cuerpo-373e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-partes-del-cuerpo-373e"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-primavera-7859",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "spring",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-primavera-7859"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-reptiles-y-anfibios-65c0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-reptiles-y-anfibios-65c0"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-ropa-18e7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-ropa-18e7"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-salon-de-clases-60d5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-salon-de-clases-60d5"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-utensilios-de-cocina-71b4",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-utensilios-de-cocina-71b4"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-vehiculos-7751",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-vehiculos-7751"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-verano-189a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-verano-189a"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-verduras-34c0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-verduras-34c0"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-vida-marina-c5e5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-vida-marina-c5e5"
+  }
+ ]
+}

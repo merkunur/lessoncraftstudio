@@ -1,0 +1,780 @@
+{
+ "part": 145,
+ "locale": "fr",
+ "classes": [
+  "sudoku::easy",
+  "sudoku::medium"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "sudoku-illustre-facile-accessoires-f3d2",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-accessoires-f3d2"
+  },
+  {
+   "slug": "sudoku-illustre-facile-action-de-grace-ab0b",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-action-de-grace-ab0b"
+  },
+  {
+   "slug": "sudoku-illustre-facile-activites-0be3",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-activites-0be3"
+  },
+  {
+   "slug": "sudoku-illustre-facile-animaux-9534",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-animaux-9534"
+  },
+  {
+   "slug": "sudoku-illustre-facile-animaux-de-compagnie-e341",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-animaux-de-compagnie-e341"
+  },
+  {
+   "slug": "sudoku-illustre-facile-animaux-de-la-ferme-0b28",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-animaux-de-la-ferme-0b28"
+  },
+  {
+   "slug": "sudoku-illustre-facile-animaux-du-zoo-6632",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-animaux-du-zoo-6632"
+  },
+  {
+   "slug": "sudoku-illustre-facile-arbres-c047",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-arbres-c047"
+  },
+  {
+   "slug": "sudoku-illustre-facile-au-supermarche-169d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-au-supermarche-169d"
+  },
+  {
+   "slug": "sudoku-illustre-facile-autour-de-la-maison-1d82",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-autour-de-la-maison-1d82"
+  },
+  {
+   "slug": "sudoku-illustre-facile-boulangerie-1416",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-boulangerie-1416"
+  },
+  {
+   "slug": "sudoku-illustre-facile-bureau-de-poste-659f",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-bureau-de-poste-659f"
+  },
+  {
+   "slug": "sudoku-illustre-facile-camping-7906",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-camping-7906"
+  },
+  {
+   "slug": "sudoku-illustre-facile-choses-qui-volent-ec2e",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-choses-qui-volent-ec2e"
+  },
+  {
+   "slug": "sudoku-illustre-facile-couleurs-bb63",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-couleurs-bb63"
+  },
+  {
+   "slug": "sudoku-illustre-facile-creatures-de-la-foret-7195",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-creatures-de-la-foret-7195"
+  },
+  {
+   "slug": "sudoku-illustre-facile-desserts-et-sucreries-b15e",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-desserts-et-sucreries-b15e"
+  },
+  {
+   "slug": "sudoku-illustre-facile-dinosaures-7b6d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "dinosaurs",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-dinosaures-7b6d"
+  },
+  {
+   "slug": "sudoku-illustre-facile-emotions-2319",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-emotions-2319"
+  },
+  {
+   "slug": "sudoku-illustre-facile-espace-7e43",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-espace-7e43"
+  },
+  {
+   "slug": "sudoku-illustre-facile-ete-24d3",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-ete-24d3"
+  },
+  {
+   "slug": "sudoku-illustre-facile-fleurs-6d26",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-fleurs-6d26"
+  },
+  {
+   "slug": "sudoku-illustre-facile-formes-314a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-formes-314a"
+  },
+  {
+   "slug": "sudoku-illustre-facile-fruits-6f2a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-fruits-6f2a"
+  },
+  {
+   "slug": "sudoku-illustre-facile-hiver-2479",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-hiver-2479"
+  },
+  {
+   "slug": "sudoku-illustre-facile-hopital-9c61",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-hopital-9c61"
+  },
+  {
+   "slug": "sudoku-illustre-facile-insectes-et-bestioles-a0d7",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-insectes-et-bestioles-a0d7"
+  },
+  {
+   "slug": "sudoku-illustre-facile-jouets-4e52",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-jouets-4e52"
+  },
+  {
+   "slug": "sudoku-illustre-facile-legumes-d77a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-legumes-d77a"
+  },
+  {
+   "slug": "sudoku-illustre-facile-meteo-bd5b",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-meteo-bd5b"
+  },
+  {
+   "slug": "sudoku-illustre-facile-metiers-7998",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-metiers-7998"
+  },
+  {
+   "slug": "sudoku-illustre-facile-meubles-7908",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-meubles-7908"
+  },
+  {
+   "slug": "sudoku-illustre-facile-musique-544e",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "music",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-musique-544e"
+  },
+  {
+   "slug": "sudoku-illustre-facile-noel-e1fa",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-noel-e1fa"
+  },
+  {
+   "slug": "sudoku-illustre-facile-oiseaux-2-3792",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-oiseaux-2-3792"
+  },
+  {
+   "slug": "sudoku-illustre-facile-oiseaux-8330",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-oiseaux-8330"
+  },
+  {
+   "slug": "sudoku-illustre-facile-outils-1ccf",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-outils-1ccf"
+  },
+  {
+   "slug": "sudoku-illustre-facile-paques-91fc",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-paques-91fc"
+  },
+  {
+   "slug": "sudoku-illustre-facile-parties-du-corps-e4f3",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-parties-du-corps-e4f3"
+  },
+  {
+   "slug": "sudoku-illustre-facile-petit-dejeuner-a44e",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-petit-dejeuner-a44e"
+  },
+  {
+   "slug": "sudoku-illustre-facile-plage-a279",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-plage-a279"
+  },
+  {
+   "slug": "sudoku-illustre-facile-printemps-d067",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-printemps-d067"
+  },
+  {
+   "slug": "sudoku-illustre-facile-reptiles-et-amphibiens-8bd9",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-reptiles-et-amphibiens-8bd9"
+  },
+  {
+   "slug": "sudoku-illustre-facile-salle-de-classe-34c3",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-salle-de-classe-34c3"
+  },
+  {
+   "slug": "sudoku-illustre-facile-ustensiles-de-cuisine-4f8f",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-ustensiles-de-cuisine-4f8f"
+  },
+  {
+   "slug": "sudoku-illustre-facile-vehicules-fc61",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-vehicules-fc61"
+  },
+  {
+   "slug": "sudoku-illustre-facile-vetements-243a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-vetements-243a"
+  },
+  {
+   "slug": "sudoku-illustre-facile-vie-oceanique-f2eb",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-vie-oceanique-f2eb"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-accessoires-f8d8",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-accessoires-f8d8"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-action-de-grace-ad28",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-action-de-grace-ad28"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-activites-912e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-activites-912e"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-animaux-a8ef",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-animaux-a8ef"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-animaux-de-compagnie-4d3d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "pets",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-animaux-de-compagnie-4d3d"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-animaux-de-la-ferme-e77d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "farm_animals",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-animaux-de-la-ferme-e77d"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-animaux-du-zoo-09fa",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-animaux-du-zoo-09fa"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-arbres-3610",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tree",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-arbres-3610"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-au-supermarche-f9d9",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-au-supermarche-f9d9"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-autour-de-la-maison-ccc8",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-autour-de-la-maison-ccc8"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-boulangerie-bf66",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "bakery",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-boulangerie-bf66"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-bureau-de-poste-fa47",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "post_office",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-bureau-de-poste-fa47"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-camping-f374",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "camping",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-camping-f374"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-choses-qui-volent-7e87",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-choses-qui-volent-7e87"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-couleurs-e1b8",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-couleurs-e1b8"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-creatures-de-la-foret-3b72",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "forest_creatures",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-creatures-de-la-foret-3b72"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-desserts-et-sucreries-0e04",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-desserts-et-sucreries-0e04"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-dinosaures-150b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-dinosaures-150b"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-emotions-de16",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-emotions-de16"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-espace-888c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-espace-888c"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-ete-08e1",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-ete-08e1"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-fleurs-1d71",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "flowers",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-fleurs-1d71"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-formes-65c6",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "shapes",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-formes-65c6"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-fruits-e52a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "fruits",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-fruits-e52a"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-hiver-7f4a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-hiver-7f4a"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-hopital-ddbc",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-hopital-ddbc"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-insectes-et-bestioles-ba61",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-insectes-et-bestioles-ba61"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-jouets-fff8",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-jouets-fff8"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-legumes-c303",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vegetables",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-legumes-c303"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-meteo-9773",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-meteo-9773"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-metiers-b97d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-metiers-b97d"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-meubles-c1b2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "furniture",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-meubles-c1b2"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-musique-2a00",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "music",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-musique-2a00"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-noel-ed9f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "christmas",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-noel-ed9f"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-oiseaux-2-ec36",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-oiseaux-2-ec36"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-oiseaux-651b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-oiseaux-651b"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-outils-8863",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tools",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-outils-8863"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-paques-7f40",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "easter",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-paques-7f40"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-parties-du-corps-9906",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-parties-du-corps-9906"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-petit-dejeuner-f2ef",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-petit-dejeuner-f2ef"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-plage-a022",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-plage-a022"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-printemps-ebe9",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-printemps-ebe9"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-reptiles-et-amphibiens-05e0",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "reptiles_and_amphibians",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-reptiles-et-amphibiens-05e0"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-salle-de-classe-99d6",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-salle-de-classe-99d6"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-ustensiles-de-cuisine-c25d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-ustensiles-de-cuisine-c25d"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-vehicules-0bc9",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-vehicules-0bc9"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-vetements-624e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-vetements-624e"
+  },
+  {
+   "slug": "sudoku-illustre-moyen-vie-oceanique-9222",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-moyen-vie-oceanique-9222"
+  }
+ ]
+}

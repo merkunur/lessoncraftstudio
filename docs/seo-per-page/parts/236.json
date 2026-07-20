@@ -1,0 +1,772 @@
+{
+ "part": 236,
+ "locale": "sv",
+ "classes": [
+  "treasure-hunt::compass",
+  "find-objects::find-odd"
+ ],
+ "splitOf": null,
+ "count": 95,
+ "pages": [
+  {
+   "slug": "skattjakt-vaderstreck-aktiviteter-4fcd",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-aktiviteter-4fcd"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-bageri-cc0d",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-bageri-cc0d"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-blommor-aca8",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-blommor-aca8"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-bondgardsdjur-aac6",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-bondgardsdjur-aac6"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-camping-af02",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-camping-af02"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-dinosaurier-8c56",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-dinosaurier-8c56"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-djur-f3a5",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-djur-f3a5"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-djurparksdjur-b006",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-djurparksdjur-b006"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-efterratter-och-godis-670f",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-efterratter-och-godis-670f"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-faglar-2-f1f5",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-faglar-2-f1f5"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-faglar-a956",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-faglar-a956"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-farger-1bcf",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-farger-1bcf"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-fordon-6341",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-fordon-6341"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-former-928f",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-former-928f"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-frukost-fd1e",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-frukost-fd1e"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-frukter-8500",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-frukter-8500"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-gronsaker-928a",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-gronsaker-928a"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-havsliv-a5b7",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-havsliv-a5b7"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-husdjur-a339",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-husdjur-a339"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-i-snabbkopet-9b9d",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-i-snabbkopet-9b9d"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-insekter-och-kryp-fb22",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-insekter-och-kryp-fb22"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-jul-b38a",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-jul-b38a"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-kanslor-e899",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-kanslor-e899"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-klader-a95c",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-klader-a95c"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-klassrum-90c5",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-klassrum-90c5"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-koksredskap-87c4",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-koksredskap-87c4"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-kroppsdelar-57d0",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-kroppsdelar-57d0"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-leksaker-a31d",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-leksaker-a31d"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-mobler-cb01",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-mobler-cb01"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-musik-cb0c",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-musik-cb0c"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-pask-403a",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-pask-403a"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-postkontor-4903",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-postkontor-4903"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-reptiler-och-groddjur-b1d3",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-reptiler-och-groddjur-b1d3"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-runt-huset-0353",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-runt-huset-0353"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-rymden-7e86",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-rymden-7e86"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-saker-som-flyger-82f2",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-saker-som-flyger-82f2"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-sjukhus-0480",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-sjukhus-0480"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-skogsdjur-c723",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-skogsdjur-c723"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-sommar-73b4",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-sommar-73b4"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-strand-2aad",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-strand-2aad"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-thanksgiving-a370",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-thanksgiving-a370"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-tillbehor-82d8",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-tillbehor-82d8"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-trad-89e2",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-trad-89e2"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-vader-ba8d",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-vader-ba8d"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-var-ca23",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-var-ca23"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-verktyg-1347",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-verktyg-1347"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-vinter-17d8",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-vinter-17d8"
+  },
+  {
+   "slug": "skattjakt-vaderstreck-yrken-c680",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "skattjakt-vaderstreck-yrken-c680"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-aktiviteter-b604",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-aktiviteter-b604"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-bageri-a4da",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-bageri-a4da"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-blommor-c056",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-blommor-c056"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-bondgardsdjur-dc7f",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-bondgardsdjur-dc7f"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-camping-3f36",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-camping-3f36"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-dinosaurier-2762",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-dinosaurier-2762"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-djur-9626",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-djur-9626"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-djurparksdjur-9532",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-djurparksdjur-9532"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-efterratter-och-godis-4279",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-efterratter-och-godis-4279"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-faglar-2-361b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-faglar-2-361b"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-faglar-f304",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-faglar-f304"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-farger-0531",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-farger-0531"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-fordon-2649",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-fordon-2649"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-former-b352",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-former-b352"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-frukost-25f3",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-frukost-25f3"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-frukter-e328",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-frukter-e328"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-gronsaker-965e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-gronsaker-965e"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-havsliv-0068",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-havsliv-0068"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-husdjur-0b59",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-husdjur-0b59"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-i-snabbkopet-aa71",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-i-snabbkopet-aa71"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-insekter-och-kryp-7537",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-insekter-och-kryp-7537"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-jul-4732",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-jul-4732"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-kanslor-68ad",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-kanslor-68ad"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-klader-4738",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-klader-4738"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-klassrum-80cf",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-klassrum-80cf"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-koksredskap-e952",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-koksredskap-e952"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-kroppsdelar-2e5e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-kroppsdelar-2e5e"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-leksaker-291d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-leksaker-291d"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-mobler-1d54",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-mobler-1d54"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-musik-eb16",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-musik-eb16"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-pask-fb64",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-pask-fb64"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-postkontor-da6c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-postkontor-da6c"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-reptiler-och-groddjur-6b9b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-reptiler-och-groddjur-6b9b"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-rymden-4abe",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-rymden-4abe"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-saker-som-flyger-859e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-saker-som-flyger-859e"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-sjukhus-fddc",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-sjukhus-fddc"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-skogsdjur-54f8",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-skogsdjur-54f8"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-sommar-0431",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-sommar-0431"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-strand-2f75",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-strand-2f75"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-thanksgiving-60d0",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-thanksgiving-60d0"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-tillbehor-6bca",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-tillbehor-6bca"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-trad-5360",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-trad-5360"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-vader-95a0",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-vader-95a0"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-var-cd47",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-var-cd47"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-verktyg-5d39",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-verktyg-5d39"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-vinter-76b9",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-vinter-76b9"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-yrken-4b44",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-yrken-4b44"
+  }
+ ]
+}

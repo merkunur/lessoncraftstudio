@@ -1,0 +1,660 @@
+{
+ "part": 246,
+ "locale": "sv",
+ "classes": [
+  "math-puzzle::addition",
+  "addition::find-addend"
+ ],
+ "splitOf": null,
+ "count": 81,
+ "pages": [
+  {
+   "slug": "mattepussel-addition-bageri-c428",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-bageri-c428"
+  },
+  {
+   "slug": "mattepussel-addition-blandat-3ef6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "miscellaneous",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-blandat-3ef6"
+  },
+  {
+   "slug": "mattepussel-addition-blommor-27e7",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-blommor-27e7"
+  },
+  {
+   "slug": "mattepussel-addition-bondgardsdjur-e1f0",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-bondgardsdjur-e1f0"
+  },
+  {
+   "slug": "mattepussel-addition-camping-a0ee",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-camping-a0ee"
+  },
+  {
+   "slug": "mattepussel-addition-dinosaurier-3eb8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-dinosaurier-3eb8"
+  },
+  {
+   "slug": "mattepussel-addition-djur-d2c8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-djur-d2c8"
+  },
+  {
+   "slug": "mattepussel-addition-djurparksdjur-cd9e",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-djurparksdjur-cd9e"
+  },
+  {
+   "slug": "mattepussel-addition-efterratter-och-godis-5ab2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-efterratter-och-godis-5ab2"
+  },
+  {
+   "slug": "mattepussel-addition-faglar-2-8c02",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-faglar-2-8c02"
+  },
+  {
+   "slug": "mattepussel-addition-faglar-72c1",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-faglar-72c1"
+  },
+  {
+   "slug": "mattepussel-addition-fordon-b536",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-fordon-b536"
+  },
+  {
+   "slug": "mattepussel-addition-former-9c2d",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-former-9c2d"
+  },
+  {
+   "slug": "mattepussel-addition-frukost-f1f5",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-frukost-f1f5"
+  },
+  {
+   "slug": "mattepussel-addition-frukter-0e64",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-frukter-0e64"
+  },
+  {
+   "slug": "mattepussel-addition-gronsaker-773b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-gronsaker-773b"
+  },
+  {
+   "slug": "mattepussel-addition-havsliv-a7ee",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-havsliv-a7ee"
+  },
+  {
+   "slug": "mattepussel-addition-husdjur-4659",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-husdjur-4659"
+  },
+  {
+   "slug": "mattepussel-addition-i-snabbkopet-38e7",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-i-snabbkopet-38e7"
+  },
+  {
+   "slug": "mattepussel-addition-insekter-och-kryp-f6c8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-insekter-och-kryp-f6c8"
+  },
+  {
+   "slug": "mattepussel-addition-jul-ab75",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-jul-ab75"
+  },
+  {
+   "slug": "mattepussel-addition-klader-1584",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-klader-1584"
+  },
+  {
+   "slug": "mattepussel-addition-klassrum-f7f2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-klassrum-f7f2"
+  },
+  {
+   "slug": "mattepussel-addition-koksredskap-d55f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-koksredskap-d55f"
+  },
+  {
+   "slug": "mattepussel-addition-leksaker-25e0",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-leksaker-25e0"
+  },
+  {
+   "slug": "mattepussel-addition-mobler-43c1",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-mobler-43c1"
+  },
+  {
+   "slug": "mattepussel-addition-musik-f6dd",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-musik-f6dd"
+  },
+  {
+   "slug": "mattepussel-addition-pask-0a65",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-pask-0a65"
+  },
+  {
+   "slug": "mattepussel-addition-postkontor-d394",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-postkontor-d394"
+  },
+  {
+   "slug": "mattepussel-addition-reptiler-och-groddjur-fb56",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-reptiler-och-groddjur-fb56"
+  },
+  {
+   "slug": "mattepussel-addition-runt-huset-aed2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-runt-huset-aed2"
+  },
+  {
+   "slug": "mattepussel-addition-rymden-45b8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-rymden-45b8"
+  },
+  {
+   "slug": "mattepussel-addition-saker-som-flyger-91ab",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-saker-som-flyger-91ab"
+  },
+  {
+   "slug": "mattepussel-addition-sjukhus-ba1f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-sjukhus-ba1f"
+  },
+  {
+   "slug": "mattepussel-addition-skogsdjur-a154",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-skogsdjur-a154"
+  },
+  {
+   "slug": "mattepussel-addition-strand-3e5f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-strand-3e5f"
+  },
+  {
+   "slug": "mattepussel-addition-thanksgiving-3eeb",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-thanksgiving-3eeb"
+  },
+  {
+   "slug": "mattepussel-addition-tillbehor-fe9d",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-tillbehor-fe9d"
+  },
+  {
+   "slug": "mattepussel-addition-trad-f443",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-trad-f443"
+  },
+  {
+   "slug": "mattepussel-addition-verktyg-e928",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-verktyg-e928"
+  },
+  {
+   "slug": "mattepussel-addition-yrken-f0f0",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-yrken-f0f0"
+  },
+  {
+   "slug": "addition-hitta-termen-bageri-f3de",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-bageri-f3de"
+  },
+  {
+   "slug": "addition-hitta-termen-blommor-b338",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-blommor-b338"
+  },
+  {
+   "slug": "addition-hitta-termen-bondgardsdjur-0f3f",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-bondgardsdjur-0f3f"
+  },
+  {
+   "slug": "addition-hitta-termen-camping-66d3",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-camping-66d3"
+  },
+  {
+   "slug": "addition-hitta-termen-dinosaurier-900b",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-dinosaurier-900b"
+  },
+  {
+   "slug": "addition-hitta-termen-djur-105b",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-djur-105b"
+  },
+  {
+   "slug": "addition-hitta-termen-djurparksdjur-0974",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-djurparksdjur-0974"
+  },
+  {
+   "slug": "addition-hitta-termen-efterratter-och-godis-81ae",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-efterratter-och-godis-81ae"
+  },
+  {
+   "slug": "addition-hitta-termen-faglar-2-dee0",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-faglar-2-dee0"
+  },
+  {
+   "slug": "addition-hitta-termen-faglar-6367",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-faglar-6367"
+  },
+  {
+   "slug": "addition-hitta-termen-fordon-6de6",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-fordon-6de6"
+  },
+  {
+   "slug": "addition-hitta-termen-former-afe9",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-former-afe9"
+  },
+  {
+   "slug": "addition-hitta-termen-frukost-38d3",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-frukost-38d3"
+  },
+  {
+   "slug": "addition-hitta-termen-frukter-82be",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-frukter-82be"
+  },
+  {
+   "slug": "addition-hitta-termen-gronsaker-a71b",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-gronsaker-a71b"
+  },
+  {
+   "slug": "addition-hitta-termen-havsliv-a5b2",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-havsliv-a5b2"
+  },
+  {
+   "slug": "addition-hitta-termen-husdjur-3b4a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-husdjur-3b4a"
+  },
+  {
+   "slug": "addition-hitta-termen-i-snabbkopet-8662",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-i-snabbkopet-8662"
+  },
+  {
+   "slug": "addition-hitta-termen-insekter-och-kryp-a36a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-insekter-och-kryp-a36a"
+  },
+  {
+   "slug": "addition-hitta-termen-jul-73f6",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-jul-73f6"
+  },
+  {
+   "slug": "addition-hitta-termen-klader-5096",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-klader-5096"
+  },
+  {
+   "slug": "addition-hitta-termen-klassrum-ddc5",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-klassrum-ddc5"
+  },
+  {
+   "slug": "addition-hitta-termen-koksredskap-14ba",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-koksredskap-14ba"
+  },
+  {
+   "slug": "addition-hitta-termen-leksaker-6d66",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-leksaker-6d66"
+  },
+  {
+   "slug": "addition-hitta-termen-mobler-789d",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-mobler-789d"
+  },
+  {
+   "slug": "addition-hitta-termen-musik-cbfd",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-musik-cbfd"
+  },
+  {
+   "slug": "addition-hitta-termen-pask-5377",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-pask-5377"
+  },
+  {
+   "slug": "addition-hitta-termen-postkontor-aba3",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-postkontor-aba3"
+  },
+  {
+   "slug": "addition-hitta-termen-reptiler-och-groddjur-5437",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-reptiler-och-groddjur-5437"
+  },
+  {
+   "slug": "addition-hitta-termen-runt-huset-80ca",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-runt-huset-80ca"
+  },
+  {
+   "slug": "addition-hitta-termen-rymden-676a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-rymden-676a"
+  },
+  {
+   "slug": "addition-hitta-termen-saker-som-flyger-94d6",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-saker-som-flyger-94d6"
+  },
+  {
+   "slug": "addition-hitta-termen-sjukhus-68af",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-sjukhus-68af"
+  },
+  {
+   "slug": "addition-hitta-termen-skogsdjur-e33f",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-skogsdjur-e33f"
+  },
+  {
+   "slug": "addition-hitta-termen-strand-c792",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-strand-c792"
+  },
+  {
+   "slug": "addition-hitta-termen-thanksgiving-df2f",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-thanksgiving-df2f"
+  },
+  {
+   "slug": "addition-hitta-termen-tillbehor-846c",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-tillbehor-846c"
+  },
+  {
+   "slug": "addition-hitta-termen-trad-14a3",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-trad-14a3"
+  },
+  {
+   "slug": "addition-hitta-termen-verktyg-702a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-verktyg-702a"
+  },
+  {
+   "slug": "addition-hitta-termen-yrken-1439",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-yrken-1439"
+  }
+ ]
+}

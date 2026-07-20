@@ -1,0 +1,427 @@
+{
+ "part": 28,
+ "locale": "en",
+ "classes": [
+  "more-less::image-image"
+ ],
+ "splitOf": null,
+ "count": 52,
+ "pages": [
+  {
+   "slug": "more-less-4th-of-july-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "4th_of_july",
+   "level": "preschool",
+   "deck": "more-less-4th-of-july"
+  },
+  {
+   "slug": "more-less-accessories-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "preschool",
+   "deck": "more-less-accessories"
+  },
+  {
+   "slug": "more-less-activities-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "activities",
+   "level": "preschool",
+   "deck": "more-less-activities"
+  },
+  {
+   "slug": "more-less-animals-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "preschool",
+   "deck": "more-less-animals"
+  },
+  {
+   "slug": "more-less-around-the-house-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "preschool",
+   "deck": "more-less-around-the-house"
+  },
+  {
+   "slug": "more-less-at-the-supermarket-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "preschool",
+   "deck": "more-less-at-the-supermarket"
+  },
+  {
+   "slug": "more-less-bakery-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "preschool",
+   "deck": "more-less-bakery"
+  },
+  {
+   "slug": "more-less-beach-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "preschool",
+   "deck": "more-less-beach"
+  },
+  {
+   "slug": "more-less-birds-2-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "preschool",
+   "deck": "more-less-birds-2"
+  },
+  {
+   "slug": "more-less-birds-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "preschool",
+   "deck": "more-less-birds"
+  },
+  {
+   "slug": "more-less-body-parts-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "body_parts",
+   "level": "preschool",
+   "deck": "more-less-body-parts"
+  },
+  {
+   "slug": "more-less-breakfast-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "preschool",
+   "deck": "more-less-breakfast"
+  },
+  {
+   "slug": "more-less-camping-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "preschool",
+   "deck": "more-less-camping"
+  },
+  {
+   "slug": "more-less-christmas-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "preschool",
+   "deck": "more-less-christmas"
+  },
+  {
+   "slug": "more-less-classroom-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "preschool",
+   "deck": "more-less-classroom"
+  },
+  {
+   "slug": "more-less-clothing-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "preschool",
+   "deck": "more-less-clothing"
+  },
+  {
+   "slug": "more-less-colors-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "colors",
+   "level": "preschool",
+   "deck": "more-less-colors"
+  },
+  {
+   "slug": "more-less-desserts-and-sweets-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "preschool",
+   "deck": "more-less-desserts-and-sweets"
+  },
+  {
+   "slug": "more-less-dinosaurs-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "preschool",
+   "deck": "more-less-dinosaurs"
+  },
+  {
+   "slug": "more-less-easter-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "preschool",
+   "deck": "more-less-easter"
+  },
+  {
+   "slug": "more-less-emotions-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "emotions",
+   "level": "preschool",
+   "deck": "more-less-emotions"
+  },
+  {
+   "slug": "more-less-faces-bw-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "faces_bw",
+   "level": "preschool",
+   "deck": "more-less-faces-bw"
+  },
+  {
+   "slug": "more-less-farm-animals-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "preschool",
+   "deck": "more-less-farm-animals"
+  },
+  {
+   "slug": "more-less-flowers-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "preschool",
+   "deck": "more-less-flowers"
+  },
+  {
+   "slug": "more-less-forest-creatures-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "preschool",
+   "deck": "more-less-forest-creatures"
+  },
+  {
+   "slug": "more-less-fruits-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "preschool",
+   "deck": "more-less-fruits"
+  },
+  {
+   "slug": "more-less-furniture-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "preschool",
+   "deck": "more-less-furniture"
+  },
+  {
+   "slug": "more-less-hospital-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "preschool",
+   "deck": "more-less-hospital"
+  },
+  {
+   "slug": "more-less-insects-and-bugs-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "preschool",
+   "deck": "more-less-insects-and-bugs"
+  },
+  {
+   "slug": "more-less-kitchen-tools-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "preschool",
+   "deck": "more-less-kitchen-tools"
+  },
+  {
+   "slug": "more-less-miscellaneous-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "miscellaneous",
+   "level": "preschool",
+   "deck": "more-less-miscellaneous"
+  },
+  {
+   "slug": "more-less-music-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "preschool",
+   "deck": "more-less-music"
+  },
+  {
+   "slug": "more-less-occupations-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "preschool",
+   "deck": "more-less-occupations"
+  },
+  {
+   "slug": "more-less-ocean-life-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "preschool",
+   "deck": "more-less-ocean-life"
+  },
+  {
+   "slug": "more-less-pets-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "preschool",
+   "deck": "more-less-pets"
+  },
+  {
+   "slug": "more-less-post-office-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "preschool",
+   "deck": "more-less-post-office"
+  },
+  {
+   "slug": "more-less-reptiles-and-amphibians-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "preschool",
+   "deck": "more-less-reptiles-and-amphibians"
+  },
+  {
+   "slug": "more-less-shapes-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "preschool",
+   "deck": "more-less-shapes"
+  },
+  {
+   "slug": "more-less-space-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "preschool",
+   "deck": "more-less-space"
+  },
+  {
+   "slug": "more-less-spring-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "spring",
+   "level": "preschool",
+   "deck": "more-less-spring"
+  },
+  {
+   "slug": "more-less-summer-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "summer",
+   "level": "preschool",
+   "deck": "more-less-summer"
+  },
+  {
+   "slug": "more-less-thanksgivinng-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "preschool",
+   "deck": "more-less-thanksgiving"
+  },
+  {
+   "slug": "more-less-things-that-fly-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "preschool",
+   "deck": "more-less-things-that-fly"
+  },
+  {
+   "slug": "more-less-tools-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "preschool",
+   "deck": "more-less-tools"
+  },
+  {
+   "slug": "more-less-toys-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "preschool",
+   "deck": "more-less-toys"
+  },
+  {
+   "slug": "more-less-tree-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "preschool",
+   "deck": "more-less-tree"
+  },
+  {
+   "slug": "more-less-valentine-bw-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "valentine_bw",
+   "level": "preschool",
+   "deck": "more-less-valentine-bw"
+  },
+  {
+   "slug": "more-less-vegetables-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "preschool",
+   "deck": "more-less-vegetables"
+  },
+  {
+   "slug": "more-less-vehicles-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "preschool",
+   "deck": "more-less-vehicles"
+  },
+  {
+   "slug": "more-less-weather-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "weather",
+   "level": "preschool",
+   "deck": "more-less-weather"
+  },
+  {
+   "slug": "more-less-winter-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "winter",
+   "level": "preschool",
+   "deck": "more-less-winter"
+  },
+  {
+   "slug": "more-less-zoo-animals-preschool",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "preschool",
+   "deck": "more-less-zoo-animals"
+  }
+ ]
+}

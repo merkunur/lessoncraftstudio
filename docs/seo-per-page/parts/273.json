@@ -1,0 +1,764 @@
+{
+ "part": 273,
+ "locale": "da",
+ "classes": [
+  "word-scramble::easy",
+  "word-scramble::normal"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "bogstavpuslespil-let-aktiviteter-e353",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-aktiviteter-e353"
+  },
+  {
+   "slug": "bogstavpuslespil-let-bageri-b00a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-bageri-b00a"
+  },
+  {
+   "slug": "bogstavpuslespil-let-blomster-7937",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-blomster-7937"
+  },
+  {
+   "slug": "bogstavpuslespil-let-bondegardsdyr-c078",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-bondegardsdyr-c078"
+  },
+  {
+   "slug": "bogstavpuslespil-let-camping-f7f8",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-camping-f7f8"
+  },
+  {
+   "slug": "bogstavpuslespil-let-desserter-og-slik-aab0",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-desserter-og-slik-aab0"
+  },
+  {
+   "slug": "bogstavpuslespil-let-dyr-7f04",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-dyr-7f04"
+  },
+  {
+   "slug": "bogstavpuslespil-let-erhverv-2c53",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-erhverv-2c53"
+  },
+  {
+   "slug": "bogstavpuslespil-let-farver-c36b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-farver-c36b"
+  },
+  {
+   "slug": "bogstavpuslespil-let-folelser-88e9",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-folelser-88e9"
+  },
+  {
+   "slug": "bogstavpuslespil-let-forar-3f85",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-forar-3f85"
+  },
+  {
+   "slug": "bogstavpuslespil-let-former-2f8f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-former-2f8f"
+  },
+  {
+   "slug": "bogstavpuslespil-let-frugter-fd7b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-frugter-fd7b"
+  },
+  {
+   "slug": "bogstavpuslespil-let-fugle-2-8da5",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-fugle-2-8da5"
+  },
+  {
+   "slug": "bogstavpuslespil-let-fugle-28f7",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-fugle-28f7"
+  },
+  {
+   "slug": "bogstavpuslespil-let-grontsager-3b93",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-grontsager-3b93"
+  },
+  {
+   "slug": "bogstavpuslespil-let-havliv-c757",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-havliv-c757"
+  },
+  {
+   "slug": "bogstavpuslespil-let-hospital-9607",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-hospital-9607"
+  },
+  {
+   "slug": "bogstavpuslespil-let-i-supermarkedet-238d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-i-supermarkedet-238d"
+  },
+  {
+   "slug": "bogstavpuslespil-let-insekter-og-kryb-0251",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-insekter-og-kryb-0251"
+  },
+  {
+   "slug": "bogstavpuslespil-let-jul-ea80",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-jul-ea80"
+  },
+  {
+   "slug": "bogstavpuslespil-let-kaeledyr-15a6",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-kaeledyr-15a6"
+  },
+  {
+   "slug": "bogstavpuslespil-let-klassevaerelse-0421",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-klassevaerelse-0421"
+  },
+  {
+   "slug": "bogstavpuslespil-let-kokkenredskaber-4324",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-kokkenredskaber-4324"
+  },
+  {
+   "slug": "bogstavpuslespil-let-koretojer-085f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-koretojer-085f"
+  },
+  {
+   "slug": "bogstavpuslespil-let-kropsdele-a0d8",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-kropsdele-a0d8"
+  },
+  {
+   "slug": "bogstavpuslespil-let-krybdyr-og-padder-a8a0",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-krybdyr-og-padder-a8a0"
+  },
+  {
+   "slug": "bogstavpuslespil-let-legetoj-b458",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-legetoj-b458"
+  },
+  {
+   "slug": "bogstavpuslespil-let-mobler-0f6d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-mobler-0f6d"
+  },
+  {
+   "slug": "bogstavpuslespil-let-morgenmad-54fd",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-morgenmad-54fd"
+  },
+  {
+   "slug": "bogstavpuslespil-let-musik-00e2",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-musik-00e2"
+  },
+  {
+   "slug": "bogstavpuslespil-let-paske-07bc",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-paske-07bc"
+  },
+  {
+   "slug": "bogstavpuslespil-let-postkontor-b79f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-postkontor-b79f"
+  },
+  {
+   "slug": "bogstavpuslespil-let-rummet-24c6",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-rummet-24c6"
+  },
+  {
+   "slug": "bogstavpuslespil-let-rundt-i-huset-2a87",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-rundt-i-huset-2a87"
+  },
+  {
+   "slug": "bogstavpuslespil-let-skovdyr-ffe3",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-skovdyr-ffe3"
+  },
+  {
+   "slug": "bogstavpuslespil-let-sommer-c8d0",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-sommer-c8d0"
+  },
+  {
+   "slug": "bogstavpuslespil-let-strand-032c",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-strand-032c"
+  },
+  {
+   "slug": "bogstavpuslespil-let-thanksgiving-834d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-thanksgiving-834d"
+  },
+  {
+   "slug": "bogstavpuslespil-let-tilbehor-17ed",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-tilbehor-17ed"
+  },
+  {
+   "slug": "bogstavpuslespil-let-ting-der-flyver-e219",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-ting-der-flyver-e219"
+  },
+  {
+   "slug": "bogstavpuslespil-let-toj-9251",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-toj-9251"
+  },
+  {
+   "slug": "bogstavpuslespil-let-traeer-9d0a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-traeer-9d0a"
+  },
+  {
+   "slug": "bogstavpuslespil-let-vaerktoj-4b38",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-vaerktoj-4b38"
+  },
+  {
+   "slug": "bogstavpuslespil-let-vejr-5433",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-vejr-5433"
+  },
+  {
+   "slug": "bogstavpuslespil-let-vinter-adc3",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-vinter-adc3"
+  },
+  {
+   "slug": "bogstavpuslespil-let-zoodyr-d593",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "bogstavpuslespil-let-zoodyr-d593"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-aktiviteter-f848",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-aktiviteter-f848"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-bageri-da33",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-bageri-da33"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-blomster-e243",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-blomster-e243"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-bondegardsdyr-f3e7",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-bondegardsdyr-f3e7"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-camping-d3c7",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-camping-d3c7"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-desserter-og-slik-a9ee",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-desserter-og-slik-a9ee"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-dyr-265c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-dyr-265c"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-erhverv-59ad",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-erhverv-59ad"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-farver-35e2",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-farver-35e2"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-folelser-9521",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-folelser-9521"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-forar-4794",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-forar-4794"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-former-5e03",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-former-5e03"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-frugter-37b0",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-frugter-37b0"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-fugle-2-3ed1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-fugle-2-3ed1"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-fugle-2a4e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-fugle-2a4e"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-grontsager-d19c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-grontsager-d19c"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-havliv-b8a7",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-havliv-b8a7"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-hospital-ff35",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-hospital-ff35"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-i-supermarkedet-6424",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-i-supermarkedet-6424"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-insekter-og-kryb-ca8d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-insekter-og-kryb-ca8d"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-jul-7f77",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-jul-7f77"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-kaeledyr-dcce",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-kaeledyr-dcce"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-klassevaerelse-8a28",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-klassevaerelse-8a28"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-kokkenredskaber-28d9",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-kokkenredskaber-28d9"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-koretojer-09de",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-koretojer-09de"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-kropsdele-6215",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-kropsdele-6215"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-krybdyr-og-padder-9894",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-krybdyr-og-padder-9894"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-legetoj-cd79",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-legetoj-cd79"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-mobler-1148",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-mobler-1148"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-morgenmad-ea2f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-morgenmad-ea2f"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-musik-6e13",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "music",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-musik-6e13"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-paske-1654",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-paske-1654"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-postkontor-f136",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-postkontor-f136"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-rummet-fc01",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "space",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-rummet-fc01"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-rundt-i-huset-13fa",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-rundt-i-huset-13fa"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-skovdyr-a67b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-skovdyr-a67b"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-sommer-8d0d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-sommer-8d0d"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-strand-d334",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-strand-d334"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-thanksgiving-056e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-thanksgiving-056e"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-tilbehor-ac3b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-tilbehor-ac3b"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-ting-der-flyver-72d1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-ting-der-flyver-72d1"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-toj-8906",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-toj-8906"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-traeer-c48c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-traeer-c48c"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-vaerktoj-2660",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-vaerktoj-2660"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-vejr-b885",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-vejr-b885"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-vinter-45d1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-vinter-45d1"
+  },
+  {
+   "slug": "bogstavpuslespil-normal-zoodyr-8a0b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "2-klasse",
+   "deck": "bogstavpuslespil-normal-zoodyr-8a0b"
+  }
+ ]
+}

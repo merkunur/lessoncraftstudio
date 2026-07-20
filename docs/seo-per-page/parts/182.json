@@ -1,0 +1,748 @@
+{
+ "part": 182,
+ "locale": "it",
+ "classes": [
+  "missing-pieces::two-missing",
+  "word-guess::easy"
+ ],
+ "splitOf": null,
+ "count": 92,
+ "pages": [
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-abbigliamento-5dd6",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-abbigliamento-5dd6"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-accessori-2d81",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-accessori-2d81"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-al-supermercato-d75e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-al-supermercato-d75e"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-alberi-d440",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-alberi-d440"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-animali-0e6e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-animali-0e6e"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-animali-della-fattoria-0d22",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-animali-della-fattoria-0d22"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-animali-dello-zoo-31f2",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-animali-dello-zoo-31f2"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-animali-domestici-5fa2",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-animali-domestici-5fa2"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-attivita-ca3b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-attivita-ca3b"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-attrezzi-1dde",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-attrezzi-1dde"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-aula-6a96",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-aula-6a96"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-campeggio-73f9",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-campeggio-73f9"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-colazione-166e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-colazione-166e"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-cose-che-volano-17a9",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-cose-che-volano-17a9"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-creature-della-foresta-3281",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-creature-della-foresta-3281"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-dinosauri-4c39",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-dinosauri-4c39"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-dolci-e-dolciumi-1518",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-dolci-e-dolciumi-1518"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-emozioni-46a4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-emozioni-46a4"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-estate-62de",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-estate-62de"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-fiori-5c34",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-fiori-5c34"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-frutta-62c7",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-frutta-62c7"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-giocattoli-eda8",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-giocattoli-eda8"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-giorno-del-ringraziamento-74a8",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-giorno-del-ringraziamento-74a8"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-in-giro-per-casa-60e3",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-in-giro-per-casa-60e3"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-insetti-e-scarafaggi-11b8",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-insetti-e-scarafaggi-11b8"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-inverno-5526",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-inverno-5526"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-meteo-de2b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-meteo-de2b"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-mobili-439f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-mobili-439f"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-musica-b3d9",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-musica-b3d9"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-natale-2f39",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-natale-2f39"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-ospedale-30a5",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-ospedale-30a5"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-panetteria-6116",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-panetteria-6116"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-parti-del-corpo-c5d4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-parti-del-corpo-c5d4"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-pasqua-12ee",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-pasqua-12ee"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-primavera-7a6c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-primavera-7a6c"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-professioni-296b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-professioni-296b"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-rettili-e-anfibi-2003",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-rettili-e-anfibi-2003"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-spazio-3ea2",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-spazio-3ea2"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-spiaggia-4970",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-spiaggia-4970"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-uccelli-2-a5ca",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-uccelli-2-a5ca"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-uccelli-fe7e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-uccelli-fe7e"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-ufficio-postale-82b9",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-ufficio-postale-82b9"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-utensili-da-cucina-9457",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-utensili-da-cucina-9457"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-veicoli-0183",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-veicoli-0183"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-verdure-d23c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-verdure-d23c"
+  },
+  {
+   "slug": "pezzi-mancanti-2-pezzi-mancanti-vita-oceanica-48fa",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-2-pezzi-mancanti-vita-oceanica-48fa"
+  },
+  {
+   "slug": "indovina-la-parola-facile-abbigliamento-b32a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-abbigliamento-b32a"
+  },
+  {
+   "slug": "indovina-la-parola-facile-accessori-445a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-accessori-445a"
+  },
+  {
+   "slug": "indovina-la-parola-facile-al-supermercato-b0a7",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-al-supermercato-b0a7"
+  },
+  {
+   "slug": "indovina-la-parola-facile-alberi-b487",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-alberi-b487"
+  },
+  {
+   "slug": "indovina-la-parola-facile-animali-della-fattoria-64f7",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-animali-della-fattoria-64f7"
+  },
+  {
+   "slug": "indovina-la-parola-facile-animali-dello-zoo-099b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-animali-dello-zoo-099b"
+  },
+  {
+   "slug": "indovina-la-parola-facile-animali-domestici-ec5a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-animali-domestici-ec5a"
+  },
+  {
+   "slug": "indovina-la-parola-facile-animali-ecc6",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-animali-ecc6"
+  },
+  {
+   "slug": "indovina-la-parola-facile-attivita-aee7",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-attivita-aee7"
+  },
+  {
+   "slug": "indovina-la-parola-facile-aula-e307",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-aula-e307"
+  },
+  {
+   "slug": "indovina-la-parola-facile-campeggio-b4b1",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-campeggio-b4b1"
+  },
+  {
+   "slug": "indovina-la-parola-facile-colazione-f4d8",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-colazione-f4d8"
+  },
+  {
+   "slug": "indovina-la-parola-facile-colori-111f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-colori-111f"
+  },
+  {
+   "slug": "indovina-la-parola-facile-cose-che-volano-9464",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-cose-che-volano-9464"
+  },
+  {
+   "slug": "indovina-la-parola-facile-creature-della-foresta-6fe1",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-creature-della-foresta-6fe1"
+  },
+  {
+   "slug": "indovina-la-parola-facile-dolci-e-dolciumi-9d76",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-dolci-e-dolciumi-9d76"
+  },
+  {
+   "slug": "indovina-la-parola-facile-emozioni-a5b7",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-emozioni-a5b7"
+  },
+  {
+   "slug": "indovina-la-parola-facile-estate-bbe1",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-estate-bbe1"
+  },
+  {
+   "slug": "indovina-la-parola-facile-fiori-274a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-fiori-274a"
+  },
+  {
+   "slug": "indovina-la-parola-facile-forme-5000",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-forme-5000"
+  },
+  {
+   "slug": "indovina-la-parola-facile-frutta-7a10",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-frutta-7a10"
+  },
+  {
+   "slug": "indovina-la-parola-facile-giocattoli-7ce2",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-giocattoli-7ce2"
+  },
+  {
+   "slug": "indovina-la-parola-facile-giorno-del-ringraziamento-cf98",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-giorno-del-ringraziamento-cf98"
+  },
+  {
+   "slug": "indovina-la-parola-facile-in-giro-per-casa-7415",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-in-giro-per-casa-7415"
+  },
+  {
+   "slug": "indovina-la-parola-facile-insetti-e-scarafaggi-a625",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-insetti-e-scarafaggi-a625"
+  },
+  {
+   "slug": "indovina-la-parola-facile-inverno-579e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-inverno-579e"
+  },
+  {
+   "slug": "indovina-la-parola-facile-meteo-f553",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-meteo-f553"
+  },
+  {
+   "slug": "indovina-la-parola-facile-mobili-e92c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-mobili-e92c"
+  },
+  {
+   "slug": "indovina-la-parola-facile-musica-56c1",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-musica-56c1"
+  },
+  {
+   "slug": "indovina-la-parola-facile-natale-fb9b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-natale-fb9b"
+  },
+  {
+   "slug": "indovina-la-parola-facile-ospedale-6ac1",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-ospedale-6ac1"
+  },
+  {
+   "slug": "indovina-la-parola-facile-panetteria-4d8d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-panetteria-4d8d"
+  },
+  {
+   "slug": "indovina-la-parola-facile-parti-del-corpo-957f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-parti-del-corpo-957f"
+  },
+  {
+   "slug": "indovina-la-parola-facile-pasqua-04c2",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-pasqua-04c2"
+  },
+  {
+   "slug": "indovina-la-parola-facile-primavera-0d78",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-primavera-0d78"
+  },
+  {
+   "slug": "indovina-la-parola-facile-professioni-0b2c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-professioni-0b2c"
+  },
+  {
+   "slug": "indovina-la-parola-facile-rettili-e-anfibi-9376",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-rettili-e-anfibi-9376"
+  },
+  {
+   "slug": "indovina-la-parola-facile-spazio-53a3",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-spazio-53a3"
+  },
+  {
+   "slug": "indovina-la-parola-facile-spiaggia-7e94",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-spiaggia-7e94"
+  },
+  {
+   "slug": "indovina-la-parola-facile-uccelli-2-e372",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-uccelli-2-e372"
+  },
+  {
+   "slug": "indovina-la-parola-facile-uccelli-4bbd",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-uccelli-4bbd"
+  },
+  {
+   "slug": "indovina-la-parola-facile-utensili-da-cucina-7a76",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-utensili-da-cucina-7a76"
+  },
+  {
+   "slug": "indovina-la-parola-facile-varie-357a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-varie-357a"
+  },
+  {
+   "slug": "indovina-la-parola-facile-veicoli-cbb2",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-veicoli-cbb2"
+  },
+  {
+   "slug": "indovina-la-parola-facile-verdure-9a5a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-verdure-9a5a"
+  },
+  {
+   "slug": "indovina-la-parola-facile-vita-oceanica-1124",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-facile-vita-oceanica-1124"
+  }
+ ]
+}

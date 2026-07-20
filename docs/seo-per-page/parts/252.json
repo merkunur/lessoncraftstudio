@@ -1,0 +1,636 @@
+{
+ "part": 252,
+ "locale": "sv",
+ "classes": [
+  "more-less::image-image",
+  "more-less::image-number"
+ ],
+ "splitOf": null,
+ "count": 78,
+ "pages": [
+  {
+   "slug": "mer-mindre-bild-bild-bageri-726a",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-bageri-726a"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-blommor-9a55",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-blommor-9a55"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-bondgardsdjur-1df3",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-bondgardsdjur-1df3"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-camping-62ce",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-camping-62ce"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-dinosaurier-97a8",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-dinosaurier-97a8"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-djur-d347",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-djur-d347"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-djurparksdjur-b35b",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-djurparksdjur-b35b"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-efterratter-och-godis-664b",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-efterratter-och-godis-664b"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-faglar-2-41e3",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-faglar-2-41e3"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-faglar-c9e5",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-faglar-c9e5"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-fordon-ff53",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-fordon-ff53"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-former-7f3e",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-former-7f3e"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-frukost-8555",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-frukost-8555"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-frukter-42ad",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-frukter-42ad"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-gronsaker-1cc0",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-gronsaker-1cc0"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-havsliv-9f58",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-havsliv-9f58"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-husdjur-4257",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-husdjur-4257"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-i-snabbkopet-50a1",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-i-snabbkopet-50a1"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-insekter-och-kryp-160d",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-insekter-och-kryp-160d"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-jul-d812",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-jul-d812"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-klader-817e",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-klader-817e"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-klassrum-bf1a",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-klassrum-bf1a"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-koksredskap-d467",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-koksredskap-d467"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-leksaker-d8a5",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-leksaker-d8a5"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-mobler-ac0f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-mobler-ac0f"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-musik-106b",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-musik-106b"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-pask-839a",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-pask-839a"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-postkontor-f512",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-postkontor-f512"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-runt-huset-39bf",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-runt-huset-39bf"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-rymden-1a72",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-rymden-1a72"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-saker-som-flyger-e0e3",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-saker-som-flyger-e0e3"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-sjukhus-fc91",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-sjukhus-fc91"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-skogsdjur-1915",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-skogsdjur-1915"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-strand-47fc",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-strand-47fc"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-thanksgiving-9f0f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-thanksgiving-9f0f"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-tillbehor-1036",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-tillbehor-1036"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-trad-4202",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-trad-4202"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-verktyg-97a2",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-verktyg-97a2"
+  },
+  {
+   "slug": "mer-mindre-bild-bild-yrken-6a5a",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-bild-yrken-6a5a"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-bageri-a45d",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-bageri-a45d"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-blommor-2f5c",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-blommor-2f5c"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-bondgardsdjur-13f5",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-bondgardsdjur-13f5"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-camping-0d8d",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-camping-0d8d"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-dinosaurier-3470",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-dinosaurier-3470"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-djur-9b40",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-djur-9b40"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-djurparksdjur-df95",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-djurparksdjur-df95"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-efterratter-och-godis-0630",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-efterratter-och-godis-0630"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-faglar-2-7ac8",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-faglar-2-7ac8"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-faglar-9e96",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-faglar-9e96"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-fordon-9c10",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-fordon-9c10"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-former-f7a4",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-former-f7a4"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-frukost-9919",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-frukost-9919"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-frukter-5cba",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-frukter-5cba"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-gronsaker-df83",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-gronsaker-df83"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-havsliv-f20b",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-havsliv-f20b"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-husdjur-ba77",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-husdjur-ba77"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-i-snabbkopet-4484",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-i-snabbkopet-4484"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-insekter-och-kryp-0be2",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-insekter-och-kryp-0be2"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-jul-49bd",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-jul-49bd"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-klader-ca10",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-klader-ca10"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-klassrum-a894",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-klassrum-a894"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-koksredskap-ada5",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-koksredskap-ada5"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-leksaker-5292",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-leksaker-5292"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-mobler-b584",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-mobler-b584"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-musik-df5b",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-musik-df5b"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-pask-ed4c",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-pask-ed4c"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-postkontor-f0b6",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-postkontor-f0b6"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-runt-huset-3763",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-runt-huset-3763"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-rymden-e783",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-rymden-e783"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-saker-som-flyger-4b99",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-saker-som-flyger-4b99"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-sjukhus-47e2",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-sjukhus-47e2"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-skogsdjur-2e93",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-skogsdjur-2e93"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-strand-59eb",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-strand-59eb"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-thanksgiving-9141",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-thanksgiving-9141"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-tillbehor-0bc9",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-tillbehor-0bc9"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-trad-fac5",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-trad-fac5"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-verktyg-a82e",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-verktyg-a82e"
+  },
+  {
+   "slug": "mer-mindre-bild-nummer-yrken-223d",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "mer-mindre-bild-nummer-yrken-223d"
+  }
+ ]
+}

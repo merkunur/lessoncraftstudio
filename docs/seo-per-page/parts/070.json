@@ -1,0 +1,628 @@
+{
+ "part": 70,
+ "locale": "de",
+ "classes": [
+  "subtraction::find-subtrahend",
+  "addition::image-image"
+ ],
+ "splitOf": null,
+ "count": 77,
+ "pages": [
+  {
+   "slug": "subtraktion-subtrahend-finden-accessoires-8969",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-accessoires-8969"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-backerei-b015",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-backerei-b015"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-bauernhoftiere-3a60",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-bauernhoftiere-3a60"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-baume-3f77",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-baume-3f77"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-berufe-113f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-berufe-113f"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-blumen-2cf5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-blumen-2cf5"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-camping-45e5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-camping-45e5"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-desserts-und-sussigkeiten-66eb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-desserts-und-sussigkeiten-66eb"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-dinge-die-fliegen-e6e0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-dinge-die-fliegen-e6e0"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-dinosaurier-c19a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-dinosaurier-c19a"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-erntedankfest-3e34",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-erntedankfest-3e34"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-fahrzeuge-0f7d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-fahrzeuge-0f7d"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-formen-0814",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-formen-0814"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-fruchte-5b09",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-fruchte-5b09"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-fruhstuck-d0ab",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-fruhstuck-d0ab"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-gemuse-433e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-gemuse-433e"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-haustiere-4b20",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-haustiere-4b20"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-im-supermarkt-928f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-im-supermarkt-928f"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-insekten-und-kafer-1a5c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-insekten-und-kafer-1a5c"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-klassenzimmer-b3fb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-klassenzimmer-b3fb"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-kleidung-d3e7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-kleidung-d3e7"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-krankenhaus-ad77",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-krankenhaus-ad77"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-kuchenwerkzeuge-555c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-kuchenwerkzeuge-555c"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-meeresleben-f169",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-meeresleben-f169"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-mobel-fb2f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-mobel-fb2f"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-musik-6df8",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-musik-6df8"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-ostern-74f5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-ostern-74f5"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-postamt-88e3",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-postamt-88e3"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-reptilien-und-amphibien-7ab1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-reptilien-und-amphibien-7ab1"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-rund-ums-haus-0dd1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-rund-ums-haus-0dd1"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-spielzeug-f6c9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-spielzeug-f6c9"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-tiere-806b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-tiere-806b"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-vogel-2-01c2",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-vogel-2-01c2"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-vogel-9777",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-vogel-9777"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-waldtiere-206a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-waldtiere-206a"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-weihnachten-c8ec",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-weihnachten-c8ec"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-weltraum-adde",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-weltraum-adde"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-werkzeuge-7acd",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-werkzeuge-7acd"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-zootiere-fe80",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-zootiere-fe80"
+  },
+  {
+   "slug": "addition-bild-bild-accessoires-5fad",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-accessoires-5fad"
+  },
+  {
+   "slug": "addition-bild-bild-backerei-07c4",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-backerei-07c4"
+  },
+  {
+   "slug": "addition-bild-bild-bauernhoftiere-cbcf",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-bauernhoftiere-cbcf"
+  },
+  {
+   "slug": "addition-bild-bild-baume-96ae",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-baume-96ae"
+  },
+  {
+   "slug": "addition-bild-bild-berufe-e188",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-berufe-e188"
+  },
+  {
+   "slug": "addition-bild-bild-blumen-11fd",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-blumen-11fd"
+  },
+  {
+   "slug": "addition-bild-bild-camping-4032",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-camping-4032"
+  },
+  {
+   "slug": "addition-bild-bild-desserts-und-sussigkeiten-2ac7",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-desserts-und-sussigkeiten-2ac7"
+  },
+  {
+   "slug": "addition-bild-bild-dinge-die-fliegen-88fa",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-dinge-die-fliegen-88fa"
+  },
+  {
+   "slug": "addition-bild-bild-dinosaurier-bb04",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-dinosaurier-bb04"
+  },
+  {
+   "slug": "addition-bild-bild-erntedankfest-cf1e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-erntedankfest-cf1e"
+  },
+  {
+   "slug": "addition-bild-bild-fahrzeuge-fd59",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-fahrzeuge-fd59"
+  },
+  {
+   "slug": "addition-bild-bild-formen-3327",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-formen-3327"
+  },
+  {
+   "slug": "addition-bild-bild-fruchte-e51d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-fruchte-e51d"
+  },
+  {
+   "slug": "addition-bild-bild-fruhstuck-9462",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-fruhstuck-9462"
+  },
+  {
+   "slug": "addition-bild-bild-gemuse-cd61",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-gemuse-cd61"
+  },
+  {
+   "slug": "addition-bild-bild-haustiere-26da",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-haustiere-26da"
+  },
+  {
+   "slug": "addition-bild-bild-im-supermarkt-b819",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-im-supermarkt-b819"
+  },
+  {
+   "slug": "addition-bild-bild-insekten-und-kafer-83c3",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-insekten-und-kafer-83c3"
+  },
+  {
+   "slug": "addition-bild-bild-klassenzimmer-3192",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-klassenzimmer-3192"
+  },
+  {
+   "slug": "addition-bild-bild-kleidung-446e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-kleidung-446e"
+  },
+  {
+   "slug": "addition-bild-bild-krankenhaus-e5d0",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-krankenhaus-e5d0"
+  },
+  {
+   "slug": "addition-bild-bild-kuchenwerkzeuge-3926",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-kuchenwerkzeuge-3926"
+  },
+  {
+   "slug": "addition-bild-bild-meeresleben-d4a9",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-meeresleben-d4a9"
+  },
+  {
+   "slug": "addition-bild-bild-mobel-6864",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-mobel-6864"
+  },
+  {
+   "slug": "addition-bild-bild-musik-f3e8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-musik-f3e8"
+  },
+  {
+   "slug": "addition-bild-bild-ostern-3c8f",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-ostern-3c8f"
+  },
+  {
+   "slug": "addition-bild-bild-postamt-dace",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-postamt-dace"
+  },
+  {
+   "slug": "addition-bild-bild-rund-ums-haus-aff3",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-rund-ums-haus-aff3"
+  },
+  {
+   "slug": "addition-bild-bild-spielzeug-6d52",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-spielzeug-6d52"
+  },
+  {
+   "slug": "addition-bild-bild-strand-9985",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-strand-9985"
+  },
+  {
+   "slug": "addition-bild-bild-tiere",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-tiere"
+  },
+  {
+   "slug": "addition-bild-bild-vogel-6801",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-vogel-6801"
+  },
+  {
+   "slug": "addition-bild-bild-waldtiere-71de",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-waldtiere-71de"
+  },
+  {
+   "slug": "addition-bild-bild-weihnachten-e184",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-weihnachten-e184"
+  },
+  {
+   "slug": "addition-bild-bild-weltraum-af2e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-weltraum-af2e"
+  },
+  {
+   "slug": "addition-bild-bild-werkzeuge-bfe1",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-werkzeuge-bfe1"
+  },
+  {
+   "slug": "addition-bild-bild-zootiere-3bb8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-zootiere-3bb8"
+  }
+ ]
+}

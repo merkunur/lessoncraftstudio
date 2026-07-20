@@ -1,0 +1,584 @@
+{
+ "part": 18,
+ "locale": "en",
+ "classes": [
+  "crossword::null"
+ ],
+ "splitOf": {
+  "class": "crossword::null",
+  "total": 497,
+  "chunk": 4,
+  "chunks": 7
+ },
+ "count": 71,
+ "pages": [
+  {
+   "slug": "french-crossword-post-office-6746",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "french-crossword-post-office-6746"
+  },
+  {
+   "slug": "french-crossword-reptiles-and-amphibians-b059",
+   "type": "crossword",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "french-crossword-reptiles-and-amphibians-b059"
+  },
+  {
+   "slug": "french-crossword-shapes-7bb1",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "french-crossword-shapes-7bb1"
+  },
+  {
+   "slug": "french-crossword-spring-9d0b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "french-crossword-spring-9d0b"
+  },
+  {
+   "slug": "french-crossword-summer-091b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "french-crossword-summer-091b"
+  },
+  {
+   "slug": "french-crossword-thanksgiving-43f6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "french-crossword-thanksgiving-43f6"
+  },
+  {
+   "slug": "french-crossword-things-that-fly-32c7",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "french-crossword-things-that-fly-32c7"
+  },
+  {
+   "slug": "french-crossword-tools-3b1a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "french-crossword-tools-3b1a"
+  },
+  {
+   "slug": "french-crossword-toys-76c3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "french-crossword-toys-76c3"
+  },
+  {
+   "slug": "french-crossword-vegetables-cf0d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "french-crossword-vegetables-cf0d"
+  },
+  {
+   "slug": "french-crossword-vehicles-8150",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "french-crossword-vehicles-8150"
+  },
+  {
+   "slug": "french-crossword-weather-1c7d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "french-crossword-weather-1c7d"
+  },
+  {
+   "slug": "french-crossword-winter-2e9e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "french-crossword-winter-2e9e"
+  },
+  {
+   "slug": "french-crossword-zoo-animals-262b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "french-crossword-zoo-animals-262b"
+  },
+  {
+   "slug": "german-crossword-4th-of-july-c75e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "german-crossword-4th-of-july-c75e"
+  },
+  {
+   "slug": "german-crossword-accessories-8782",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "german-crossword-accessories-8782"
+  },
+  {
+   "slug": "german-crossword-activities-6852",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "german-crossword-activities-6852"
+  },
+  {
+   "slug": "german-crossword-animals-4489",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "german-crossword-animals-4489"
+  },
+  {
+   "slug": "german-crossword-around-the-house-77e9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "german-crossword-around-the-house-77e9"
+  },
+  {
+   "slug": "german-crossword-at-the-supermarket-d1f9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "german-crossword-at-the-supermarket-d1f9"
+  },
+  {
+   "slug": "german-crossword-bakery-0dae",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "german-crossword-bakery-0dae"
+  },
+  {
+   "slug": "german-crossword-beach-f2ad",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "german-crossword-beach-f2ad"
+  },
+  {
+   "slug": "german-crossword-birds-2-4619",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "german-crossword-birds-2-4619"
+  },
+  {
+   "slug": "german-crossword-birds-27d3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "german-crossword-birds-27d3"
+  },
+  {
+   "slug": "german-crossword-body-parts-9ff6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "german-crossword-body-parts-9ff6"
+  },
+  {
+   "slug": "german-crossword-breakfast-26dc",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "german-crossword-breakfast-26dc"
+  },
+  {
+   "slug": "german-crossword-camping-9993",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "german-crossword-camping-9993"
+  },
+  {
+   "slug": "german-crossword-christmas-601d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "german-crossword-christmas-601d"
+  },
+  {
+   "slug": "german-crossword-classroom-027b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "german-crossword-classroom-027b"
+  },
+  {
+   "slug": "german-crossword-clothing-8be3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "german-crossword-clothing-8be3"
+  },
+  {
+   "slug": "german-crossword-colors-7cbf",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "german-crossword-colors-7cbf"
+  },
+  {
+   "slug": "german-crossword-desserts-and-sweets-4ab0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "german-crossword-desserts-and-sweets-4ab0"
+  },
+  {
+   "slug": "german-crossword-easter-fc23",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "german-crossword-easter-fc23"
+  },
+  {
+   "slug": "german-crossword-emotions-513a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "german-crossword-emotions-513a"
+  },
+  {
+   "slug": "german-crossword-farm-animals-5f24",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "german-crossword-farm-animals-5f24"
+  },
+  {
+   "slug": "german-crossword-flowers-64e6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "german-crossword-flowers-64e6"
+  },
+  {
+   "slug": "german-crossword-forest-creatures-b8f1",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "german-crossword-forest-creatures-b8f1"
+  },
+  {
+   "slug": "german-crossword-fruits-3bb9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "german-crossword-fruits-3bb9"
+  },
+  {
+   "slug": "german-crossword-furniture-d333",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "german-crossword-furniture-d333"
+  },
+  {
+   "slug": "german-crossword-hospital-34a5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "german-crossword-hospital-34a5"
+  },
+  {
+   "slug": "german-crossword-insects-and-bugs-0911",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "german-crossword-insects-and-bugs-0911"
+  },
+  {
+   "slug": "german-crossword-kitchen-tools-9dc8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "german-crossword-kitchen-tools-9dc8"
+  },
+  {
+   "slug": "german-crossword-music-72f8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "german-crossword-music-72f8"
+  },
+  {
+   "slug": "german-crossword-occupations-1f45",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "german-crossword-occupations-1f45"
+  },
+  {
+   "slug": "german-crossword-ocean-life-68b5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "german-crossword-ocean-life-68b5"
+  },
+  {
+   "slug": "german-crossword-pets-2982",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "german-crossword-pets-2982"
+  },
+  {
+   "slug": "german-crossword-post-office-bcf6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "german-crossword-post-office-bcf6"
+  },
+  {
+   "slug": "german-crossword-reptiles-and-amphibians-68b6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "german-crossword-reptiles-and-amphibians-68b6"
+  },
+  {
+   "slug": "german-crossword-shapes-6027",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "german-crossword-shapes-6027"
+  },
+  {
+   "slug": "german-crossword-space-4508",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "german-crossword-space-4508"
+  },
+  {
+   "slug": "german-crossword-spring-ae35",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "german-crossword-spring-ae35"
+  },
+  {
+   "slug": "german-crossword-summer-cde3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "german-crossword-summer-cde3"
+  },
+  {
+   "slug": "german-crossword-thanksgiving-fe5c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "german-crossword-thanksgiving-fe5c"
+  },
+  {
+   "slug": "german-crossword-things-that-fly-b82a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "german-crossword-things-that-fly-b82a"
+  },
+  {
+   "slug": "german-crossword-tools-938f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "german-crossword-tools-938f"
+  },
+  {
+   "slug": "german-crossword-toys-919f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "german-crossword-toys-919f"
+  },
+  {
+   "slug": "german-crossword-vegetables-7f82",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "german-crossword-vegetables-7f82"
+  },
+  {
+   "slug": "german-crossword-vehicles-30e5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "german-crossword-vehicles-30e5"
+  },
+  {
+   "slug": "german-crossword-weather-2d6e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "german-crossword-weather-2d6e"
+  },
+  {
+   "slug": "german-crossword-winter-790c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "german-crossword-winter-790c"
+  },
+  {
+   "slug": "german-crossword-zoo-animals-8406",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "german-crossword-zoo-animals-8406"
+  },
+  {
+   "slug": "italian-crossword-4th-of-july-b6a2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "italian-crossword-4th-of-july-b6a2"
+  },
+  {
+   "slug": "italian-crossword-accessories-5f3b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "italian-crossword-accessories-5f3b"
+  },
+  {
+   "slug": "italian-crossword-activities-4f3a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "italian-crossword-activities-4f3a"
+  },
+  {
+   "slug": "italian-crossword-animals-c837",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "italian-crossword-animals-c837"
+  },
+  {
+   "slug": "italian-crossword-around-the-house-9fc7",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "italian-crossword-around-the-house-9fc7"
+  },
+  {
+   "slug": "italian-crossword-at-the-supermarket-0ca9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "italian-crossword-at-the-supermarket-0ca9"
+  },
+  {
+   "slug": "italian-crossword-bakery-615f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "italian-crossword-bakery-615f"
+  },
+  {
+   "slug": "italian-crossword-beach-ca94",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "italian-crossword-beach-ca94"
+  },
+  {
+   "slug": "italian-crossword-birds-2-50aa",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "italian-crossword-birds-2-50aa"
+  },
+  {
+   "slug": "italian-crossword-birds-7c28",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "italian-crossword-birds-7c28"
+  }
+ ]
+}

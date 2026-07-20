@@ -1,0 +1,544 @@
+{
+ "part": 25,
+ "locale": "en",
+ "classes": [
+  "find-and-count::letter-spotting"
+ ],
+ "splitOf": {
+  "class": "find-and-count::letter-spotting",
+  "total": 330,
+  "chunk": 4,
+  "chunks": 5
+ },
+ "count": 66,
+ "pages": [
+  {
+   "slug": "beginning-sounds-clothing-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-10"
+  },
+  {
+   "slug": "beginning-sounds-clothing-o",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-11"
+  },
+  {
+   "slug": "beginning-sounds-clothing-p",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-12"
+  },
+  {
+   "slug": "beginning-sounds-clothing-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-13"
+  },
+  {
+   "slug": "beginning-sounds-clothing-s",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-14"
+  },
+  {
+   "slug": "beginning-sounds-clothing-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-15"
+  },
+  {
+   "slug": "beginning-sounds-clothing-u",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-16"
+  },
+  {
+   "slug": "beginning-sounds-clothing-v",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-17"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-2"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-3"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-i",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-4"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-5"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-6"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-7"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-w",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-8"
+  },
+  {
+   "slug": "beginning-sounds-easter-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter"
+  },
+  {
+   "slug": "beginning-sounds-easter-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter-2"
+  },
+  {
+   "slug": "beginning-sounds-easter-e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter-3"
+  },
+  {
+   "slug": "beginning-sounds-easter-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter-4"
+  },
+  {
+   "slug": "beginning-sounds-easter-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter-5"
+  },
+  {
+   "slug": "beginning-sounds-easter-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter-6"
+  },
+  {
+   "slug": "beginning-sounds-easter-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter-7"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-2"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-3"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-4"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-5"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-h",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-6"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-7"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-o",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-8"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-p",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-9"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-10"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-s",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-11"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-12"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-2"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-3"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-4"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-5"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-6"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-7"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-h",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-8"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-9"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-10"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-o",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-11"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-p",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-12"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-13"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-s",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-14"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-15"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-w",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-16"
+  },
+  {
+   "slug": "beginning-sounds-fruits-a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits"
+  },
+  {
+   "slug": "beginning-sounds-fruits-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-2"
+  },
+  {
+   "slug": "beginning-sounds-fruits-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-3"
+  },
+  {
+   "slug": "beginning-sounds-fruits-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-4"
+  },
+  {
+   "slug": "beginning-sounds-fruits-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-5"
+  },
+  {
+   "slug": "beginning-sounds-fruits-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-6"
+  },
+  {
+   "slug": "beginning-sounds-fruits-k",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-7"
+  },
+  {
+   "slug": "beginning-sounds-fruits-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-8"
+  },
+  {
+   "slug": "beginning-sounds-fruits-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-9"
+  },
+  {
+   "slug": "beginning-sounds-fruits-o",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-10"
+  },
+  {
+   "slug": "beginning-sounds-furniture-a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-furniture"
+  },
+  {
+   "slug": "beginning-sounds-furniture-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-furniture-2"
+  },
+  {
+   "slug": "beginning-sounds-furniture-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-furniture-3"
+  },
+  {
+   "slug": "beginning-sounds-furniture-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-furniture-4"
+  },
+  {
+   "slug": "beginning-sounds-furniture-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-furniture-5"
+  }
+ ]
+}

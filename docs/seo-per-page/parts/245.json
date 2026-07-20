@@ -1,0 +1,668 @@
+{
+ "part": 245,
+ "locale": "sv",
+ "classes": [
+  "big-small::orderAsc",
+  "chart-count::null"
+ ],
+ "splitOf": null,
+ "count": 82,
+ "pages": [
+  {
+   "slug": "stor-liten-stigande-ordning-bageri-25ee",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-bageri-25ee"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-blommor-a384",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-blommor-a384"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-bondgardsdjur-e5fc",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-bondgardsdjur-e5fc"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-camping-09bf",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-camping-09bf"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-dinosaurier-846b",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-dinosaurier-846b"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-djur-fb10",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-djur-fb10"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-djurparksdjur-b2c5",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-djurparksdjur-b2c5"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-efterratter-och-godis-ed12",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-efterratter-och-godis-ed12"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-faglar-2-2f2e",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-faglar-2-2f2e"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-faglar-e39d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-faglar-e39d"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-fordon-6869",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-fordon-6869"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-former-aa93",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-former-aa93"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-frukost-99d0",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-frukost-99d0"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-frukter-9d86",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-frukter-9d86"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-gronsaker-4449",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-gronsaker-4449"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-havsliv-8295",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-havsliv-8295"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-husdjur-f118",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-husdjur-f118"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-i-snabbkopet-9c73",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-i-snabbkopet-9c73"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-insekter-och-kryp-99d4",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-insekter-och-kryp-99d4"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-jul-c9c0",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-jul-c9c0"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-klader-5718",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-klader-5718"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-klassrum-b404",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-klassrum-b404"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-koksredskap-20fb",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-koksredskap-20fb"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-kroppsdelar-660f",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-kroppsdelar-660f"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-leksaker-96d5",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-leksaker-96d5"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-mobler-795d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-mobler-795d"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-musik-75e9",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-musik-75e9"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-pask-ac0c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-pask-ac0c"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-postkontor-5f81",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-postkontor-5f81"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-reptiler-och-groddjur-adc3",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-reptiler-och-groddjur-adc3"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-runt-huset-87c3",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-runt-huset-87c3"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-rymden-9b89",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-rymden-9b89"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-saker-som-flyger-be05",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-saker-som-flyger-be05"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-sjukhus-da8b",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-sjukhus-da8b"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-skogsdjur-6c7c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-skogsdjur-6c7c"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-strand-965d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-strand-965d"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-thanksgiving-07fb",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-thanksgiving-07fb"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-tillbehor-86c2",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-tillbehor-86c2"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-trad-a24f",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-trad-a24f"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-verktyg-aff5",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-verktyg-aff5"
+  },
+  {
+   "slug": "stor-liten-stigande-ordning-yrken-e044",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "stor-liten-stigande-ordning-yrken-e044"
+  },
+  {
+   "slug": "rakna-i-diagram-bageri-4532",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-bageri-4532"
+  },
+  {
+   "slug": "rakna-i-diagram-blommor-56ce",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-blommor-56ce"
+  },
+  {
+   "slug": "rakna-i-diagram-bondgardsdjur-abb4",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-bondgardsdjur-abb4"
+  },
+  {
+   "slug": "rakna-i-diagram-camping-5b9d",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-camping-5b9d"
+  },
+  {
+   "slug": "rakna-i-diagram-dinosaurier-43ad",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-dinosaurier-43ad"
+  },
+  {
+   "slug": "rakna-i-diagram-djur",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-djur"
+  },
+  {
+   "slug": "rakna-i-diagram-djurparksdjur-23d2",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-djurparksdjur-23d2"
+  },
+  {
+   "slug": "rakna-i-diagram-efterratter-och-godis-166f",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-efterratter-och-godis-166f"
+  },
+  {
+   "slug": "rakna-i-diagram-faglar-2-3d5b",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-faglar-2-3d5b"
+  },
+  {
+   "slug": "rakna-i-diagram-faglar-dcbc",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-faglar-dcbc"
+  },
+  {
+   "slug": "rakna-i-diagram-farger-2fa0",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "colors",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-farger-2fa0"
+  },
+  {
+   "slug": "rakna-i-diagram-fordon-121a",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-fordon-121a"
+  },
+  {
+   "slug": "rakna-i-diagram-former-bd2c",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-former-bd2c"
+  },
+  {
+   "slug": "rakna-i-diagram-frukost-2f6f",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-frukost-2f6f"
+  },
+  {
+   "slug": "rakna-i-diagram-frukter-0f34",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-frukter-0f34"
+  },
+  {
+   "slug": "rakna-i-diagram-gronsaker-3bcd",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-gronsaker-3bcd"
+  },
+  {
+   "slug": "rakna-i-diagram-havsliv-eb50",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-havsliv-eb50"
+  },
+  {
+   "slug": "rakna-i-diagram-husdjur-8990",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-husdjur-8990"
+  },
+  {
+   "slug": "rakna-i-diagram-i-snabbkopet-0078",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-i-snabbkopet-0078"
+  },
+  {
+   "slug": "rakna-i-diagram-insekter-och-kryp-25d3",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-insekter-och-kryp-25d3"
+  },
+  {
+   "slug": "rakna-i-diagram-jul-34b2",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-jul-34b2"
+  },
+  {
+   "slug": "rakna-i-diagram-klader-7eea",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-klader-7eea"
+  },
+  {
+   "slug": "rakna-i-diagram-klassrum-dc2d",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-klassrum-dc2d"
+  },
+  {
+   "slug": "rakna-i-diagram-koksredskap-d75b",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-koksredskap-d75b"
+  },
+  {
+   "slug": "rakna-i-diagram-leksaker-025e",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-leksaker-025e"
+  },
+  {
+   "slug": "rakna-i-diagram-mobler-5129",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-mobler-5129"
+  },
+  {
+   "slug": "rakna-i-diagram-musik-8f73",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-musik-8f73"
+  },
+  {
+   "slug": "rakna-i-diagram-pask-b069",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-pask-b069"
+  },
+  {
+   "slug": "rakna-i-diagram-postkontor-f835",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-postkontor-f835"
+  },
+  {
+   "slug": "rakna-i-diagram-reptiler-och-groddjur-60e4",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-reptiler-och-groddjur-60e4"
+  },
+  {
+   "slug": "rakna-i-diagram-runt-huset-d246",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-runt-huset-d246"
+  },
+  {
+   "slug": "rakna-i-diagram-rymden-39e3",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-rymden-39e3"
+  },
+  {
+   "slug": "rakna-i-diagram-saker-som-flyger-d07c",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-saker-som-flyger-d07c"
+  },
+  {
+   "slug": "rakna-i-diagram-sjukhus-5651",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-sjukhus-5651"
+  },
+  {
+   "slug": "rakna-i-diagram-skogsdjur-0ff2",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-skogsdjur-0ff2"
+  },
+  {
+   "slug": "rakna-i-diagram-strand-d835",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-strand-d835"
+  },
+  {
+   "slug": "rakna-i-diagram-thanksgiving-f73c",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-thanksgiving-f73c"
+  },
+  {
+   "slug": "rakna-i-diagram-tillbehor-0bee",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-tillbehor-0bee"
+  },
+  {
+   "slug": "rakna-i-diagram-trad-ad00",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-trad-ad00"
+  },
+  {
+   "slug": "rakna-i-diagram-verktyg-4ea7",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-verktyg-4ea7"
+  },
+  {
+   "slug": "rakna-i-diagram-yrken-ade4",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "rakna-i-diagram-yrken-ade4"
+  }
+ ]
+}

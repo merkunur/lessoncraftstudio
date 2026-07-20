@@ -1,0 +1,676 @@
+{
+ "part": 186,
+ "locale": "it",
+ "classes": [
+  "odd-one-out::cross-theme",
+  "addition::image-image"
+ ],
+ "splitOf": null,
+ "count": 83,
+ "pages": [
+  {
+   "slug": "l-intruso-multi-tema-abbigliamento-62e5",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-abbigliamento-62e5"
+  },
+  {
+   "slug": "l-intruso-multi-tema-accessori-2a94",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-accessori-2a94"
+  },
+  {
+   "slug": "l-intruso-multi-tema-animali-c336",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-animali-c336"
+  },
+  {
+   "slug": "l-intruso-multi-tema-animali-della-fattoria-02a9",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-animali-della-fattoria-02a9"
+  },
+  {
+   "slug": "l-intruso-multi-tema-animali-dello-zoo-e6b6",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-animali-dello-zoo-e6b6"
+  },
+  {
+   "slug": "l-intruso-multi-tema-animali-domestici-8bdb",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-animali-domestici-8bdb"
+  },
+  {
+   "slug": "l-intruso-multi-tema-attivita-1741",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-attivita-1741"
+  },
+  {
+   "slug": "l-intruso-multi-tema-attrezzi-596d",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-attrezzi-596d"
+  },
+  {
+   "slug": "l-intruso-multi-tema-aula-eb5f",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-aula-eb5f"
+  },
+  {
+   "slug": "l-intruso-multi-tema-colazione-72b7",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-colazione-72b7"
+  },
+  {
+   "slug": "l-intruso-multi-tema-dinosauri-57d2",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-dinosauri-57d2"
+  },
+  {
+   "slug": "l-intruso-multi-tema-dolci-e-dolciumi-100e",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-dolci-e-dolciumi-100e"
+  },
+  {
+   "slug": "l-intruso-multi-tema-emozioni-39ec",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-emozioni-39ec"
+  },
+  {
+   "slug": "l-intruso-multi-tema-estate-17ac",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-estate-17ac"
+  },
+  {
+   "slug": "l-intruso-multi-tema-fiori-520b",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-fiori-520b"
+  },
+  {
+   "slug": "l-intruso-multi-tema-forme-84e5",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-forme-84e5"
+  },
+  {
+   "slug": "l-intruso-multi-tema-frutta-28f9",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-frutta-28f9"
+  },
+  {
+   "slug": "l-intruso-multi-tema-giocattoli-ee76",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-giocattoli-ee76"
+  },
+  {
+   "slug": "l-intruso-multi-tema-giorno-del-ringraziamento-3866",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-giorno-del-ringraziamento-3866"
+  },
+  {
+   "slug": "l-intruso-multi-tema-in-giro-per-casa-6ce6",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-in-giro-per-casa-6ce6"
+  },
+  {
+   "slug": "l-intruso-multi-tema-insetti-e-scarafaggi-8f2e",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-insetti-e-scarafaggi-8f2e"
+  },
+  {
+   "slug": "l-intruso-multi-tema-inverno-23f4",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-inverno-23f4"
+  },
+  {
+   "slug": "l-intruso-multi-tema-meteo-ec60",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-meteo-ec60"
+  },
+  {
+   "slug": "l-intruso-multi-tema-mobili-cc17",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-mobili-cc17"
+  },
+  {
+   "slug": "l-intruso-multi-tema-musica-6551",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-musica-6551"
+  },
+  {
+   "slug": "l-intruso-multi-tema-natale-b0e2",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-natale-b0e2"
+  },
+  {
+   "slug": "l-intruso-multi-tema-ospedale-045a",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-ospedale-045a"
+  },
+  {
+   "slug": "l-intruso-multi-tema-panetteria-f382",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-panetteria-f382"
+  },
+  {
+   "slug": "l-intruso-multi-tema-parti-del-corpo-2ef8",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-parti-del-corpo-2ef8"
+  },
+  {
+   "slug": "l-intruso-multi-tema-pasqua-1d37",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-pasqua-1d37"
+  },
+  {
+   "slug": "l-intruso-multi-tema-primavera-9054",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-primavera-9054"
+  },
+  {
+   "slug": "l-intruso-multi-tema-professioni-2971",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-professioni-2971"
+  },
+  {
+   "slug": "l-intruso-multi-tema-rettili-e-anfibi-e485",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-rettili-e-anfibi-e485"
+  },
+  {
+   "slug": "l-intruso-multi-tema-spazio-8054",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-spazio-8054"
+  },
+  {
+   "slug": "l-intruso-multi-tema-spiaggia-9df0",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-spiaggia-9df0"
+  },
+  {
+   "slug": "l-intruso-multi-tema-uccelli-2-d2f0",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-uccelli-2-d2f0"
+  },
+  {
+   "slug": "l-intruso-multi-tema-uccelli-b309",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-uccelli-b309"
+  },
+  {
+   "slug": "l-intruso-multi-tema-ufficio-postale-4a21",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-ufficio-postale-4a21"
+  },
+  {
+   "slug": "l-intruso-multi-tema-utensili-da-cucina-b657",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-utensili-da-cucina-b657"
+  },
+  {
+   "slug": "l-intruso-multi-tema-veicoli-b51d",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-veicoli-b51d"
+  },
+  {
+   "slug": "l-intruso-multi-tema-verdure-75be",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-verdure-75be"
+  },
+  {
+   "slug": "l-intruso-multi-tema-vita-oceanica-ce79",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-vita-oceanica-ce79"
+  },
+  {
+   "slug": "addizione-immagine-immagine-abbigliamento-d8c7",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-abbigliamento-d8c7"
+  },
+  {
+   "slug": "addizione-immagine-immagine-accessori-b739",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-accessori-b739"
+  },
+  {
+   "slug": "addizione-immagine-immagine-al-supermercato-81ae",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-al-supermercato-81ae"
+  },
+  {
+   "slug": "addizione-immagine-immagine-alberi-1377",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-alberi-1377"
+  },
+  {
+   "slug": "addizione-immagine-immagine-animali",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-animali"
+  },
+  {
+   "slug": "addizione-immagine-immagine-animali-della-fattoria-e852",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-animali-della-fattoria-e852"
+  },
+  {
+   "slug": "addizione-immagine-immagine-animali-dello-zoo-0878",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-animali-dello-zoo-0878"
+  },
+  {
+   "slug": "addizione-immagine-immagine-animali-domestici-9625",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-animali-domestici-9625"
+  },
+  {
+   "slug": "addizione-immagine-immagine-attrezzi-76af",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-attrezzi-76af"
+  },
+  {
+   "slug": "addizione-immagine-immagine-aula-2e21",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-aula-2e21"
+  },
+  {
+   "slug": "addizione-immagine-immagine-campeggio-0587",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-campeggio-0587"
+  },
+  {
+   "slug": "addizione-immagine-immagine-colazione-61c0",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-colazione-61c0"
+  },
+  {
+   "slug": "addizione-immagine-immagine-cose-che-volano-26bf",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-cose-che-volano-26bf"
+  },
+  {
+   "slug": "addizione-immagine-immagine-creature-della-foresta-16a2",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-creature-della-foresta-16a2"
+  },
+  {
+   "slug": "addizione-immagine-immagine-dinosauri-ec28",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-dinosauri-ec28"
+  },
+  {
+   "slug": "addizione-immagine-immagine-dolci-e-dolciumi-8aac",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-dolci-e-dolciumi-8aac"
+  },
+  {
+   "slug": "addizione-immagine-immagine-fiori-0d41",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-fiori-0d41"
+  },
+  {
+   "slug": "addizione-immagine-immagine-forme-5289",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-forme-5289"
+  },
+  {
+   "slug": "addizione-immagine-immagine-frutta-c6f4",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-frutta-c6f4"
+  },
+  {
+   "slug": "addizione-immagine-immagine-giocattoli-1663",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-giocattoli-1663"
+  },
+  {
+   "slug": "addizione-immagine-immagine-giorno-del-ringraziamento-b12c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-giorno-del-ringraziamento-b12c"
+  },
+  {
+   "slug": "addizione-immagine-immagine-in-giro-per-casa-26a0",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-in-giro-per-casa-26a0"
+  },
+  {
+   "slug": "addizione-immagine-immagine-insetti-e-scarafaggi-e9b9",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-insetti-e-scarafaggi-e9b9"
+  },
+  {
+   "slug": "addizione-immagine-immagine-mobili-15d7",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-mobili-15d7"
+  },
+  {
+   "slug": "addizione-immagine-immagine-musica-b33e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-musica-b33e"
+  },
+  {
+   "slug": "addizione-immagine-immagine-natale-77ca",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-natale-77ca"
+  },
+  {
+   "slug": "addizione-immagine-immagine-ospedale-40c4",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-ospedale-40c4"
+  },
+  {
+   "slug": "addizione-immagine-immagine-panetteria-d178",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-panetteria-d178"
+  },
+  {
+   "slug": "addizione-immagine-immagine-pasqua-213b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-pasqua-213b"
+  },
+  {
+   "slug": "addizione-immagine-immagine-professioni-37fe",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-professioni-37fe"
+  },
+  {
+   "slug": "addizione-immagine-immagine-rettili-e-anfibi-833f",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-rettili-e-anfibi-833f"
+  },
+  {
+   "slug": "addizione-immagine-immagine-spazio-f191",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-spazio-f191"
+  },
+  {
+   "slug": "addizione-immagine-immagine-spiaggia-db94",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-spiaggia-db94"
+  },
+  {
+   "slug": "addizione-immagine-immagine-uccelli-1e54",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-uccelli-1e54"
+  },
+  {
+   "slug": "addizione-immagine-immagine-uccelli-2-62ab",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-uccelli-2-62ab"
+  },
+  {
+   "slug": "addizione-immagine-immagine-ufficio-postale-dde6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-ufficio-postale-dde6"
+  },
+  {
+   "slug": "addizione-immagine-immagine-utensili-da-cucina-d617",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-utensili-da-cucina-d617"
+  },
+  {
+   "slug": "addizione-immagine-immagine-varie-2ab8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-varie-2ab8"
+  },
+  {
+   "slug": "addizione-immagine-immagine-veicoli-9407",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-veicoli-9407"
+  },
+  {
+   "slug": "addizione-immagine-immagine-verdure-6e0a",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-verdure-6e0a"
+  },
+  {
+   "slug": "addizione-immagine-immagine-vita-oceanica-9e42",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "addizione-immagine-immagine-vita-oceanica-9e42"
+  }
+ ]
+}

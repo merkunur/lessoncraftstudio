@@ -1,0 +1,780 @@
+{
+ "part": 301,
+ "locale": "no",
+ "classes": [
+  "sudoku::easy",
+  "treasure-hunt::cardinal-arrows"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "bildesudoku-lett-aktiviteter-724d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-aktiviteter-724d"
+  },
+  {
+   "slug": "bildesudoku-lett-bakeri-a2f2",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-bakeri-a2f2"
+  },
+  {
+   "slug": "bildesudoku-lett-blomster-a771",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-blomster-a771"
+  },
+  {
+   "slug": "bildesudoku-lett-camping-a4bd",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-camping-a4bd"
+  },
+  {
+   "slug": "bildesudoku-lett-desserter-og-godteri-b8e8",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-desserter-og-godteri-b8e8"
+  },
+  {
+   "slug": "bildesudoku-lett-dinosaurer-b511",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-dinosaurer-b511"
+  },
+  {
+   "slug": "bildesudoku-lett-dyr-5f09",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-dyr-5f09"
+  },
+  {
+   "slug": "bildesudoku-lett-dyrehagedyr-15a3",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-dyrehagedyr-15a3"
+  },
+  {
+   "slug": "bildesudoku-lett-farger-afcc",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-farger-afcc"
+  },
+  {
+   "slug": "bildesudoku-lett-folelser-0c91",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-folelser-0c91"
+  },
+  {
+   "slug": "bildesudoku-lett-former-f4cd",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-former-f4cd"
+  },
+  {
+   "slug": "bildesudoku-lett-frokost-8872",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-frokost-8872"
+  },
+  {
+   "slug": "bildesudoku-lett-frukter-1053",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-frukter-1053"
+  },
+  {
+   "slug": "bildesudoku-lett-fugler-2-3a12",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-fugler-2-3a12"
+  },
+  {
+   "slug": "bildesudoku-lett-fugler-3416",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-fugler-3416"
+  },
+  {
+   "slug": "bildesudoku-lett-gardsdyr-cc94",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-gardsdyr-cc94"
+  },
+  {
+   "slug": "bildesudoku-lett-gronnsaker-58e4",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-gronnsaker-58e4"
+  },
+  {
+   "slug": "bildesudoku-lett-havliv-bfce",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-havliv-bfce"
+  },
+  {
+   "slug": "bildesudoku-lett-i-supermarkedet-6251",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-i-supermarkedet-6251"
+  },
+  {
+   "slug": "bildesudoku-lett-insekter-og-kryp-0160",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-insekter-og-kryp-0160"
+  },
+  {
+   "slug": "bildesudoku-lett-jul-de57",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-jul-de57"
+  },
+  {
+   "slug": "bildesudoku-lett-kjaeledyr-2551",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-kjaeledyr-2551"
+  },
+  {
+   "slug": "bildesudoku-lett-kjokkenredskaper-156c",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-kjokkenredskaper-156c"
+  },
+  {
+   "slug": "bildesudoku-lett-kjoretoy-4941",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-kjoretoy-4941"
+  },
+  {
+   "slug": "bildesudoku-lett-klaer-41c0",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-klaer-41c0"
+  },
+  {
+   "slug": "bildesudoku-lett-klasserom-8bb5",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-klasserom-8bb5"
+  },
+  {
+   "slug": "bildesudoku-lett-kroppsdeler-1729",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-kroppsdeler-1729"
+  },
+  {
+   "slug": "bildesudoku-lett-leker-740e",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-leker-740e"
+  },
+  {
+   "slug": "bildesudoku-lett-mobler-313f",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-mobler-313f"
+  },
+  {
+   "slug": "bildesudoku-lett-musikk-d805",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-musikk-d805"
+  },
+  {
+   "slug": "bildesudoku-lett-paske-981b",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-paske-981b"
+  },
+  {
+   "slug": "bildesudoku-lett-postkontor-72dc",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-postkontor-72dc"
+  },
+  {
+   "slug": "bildesudoku-lett-reptiler-og-amfibier-fac5",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-reptiler-og-amfibier-fac5"
+  },
+  {
+   "slug": "bildesudoku-lett-rundt-i-huset-bf4f",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-rundt-i-huset-bf4f"
+  },
+  {
+   "slug": "bildesudoku-lett-skogsdyr-d2e6",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-skogsdyr-d2e6"
+  },
+  {
+   "slug": "bildesudoku-lett-sommer-8b26",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-sommer-8b26"
+  },
+  {
+   "slug": "bildesudoku-lett-strand-01c3",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-strand-01c3"
+  },
+  {
+   "slug": "bildesudoku-lett-sykehus-f08e",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-sykehus-f08e"
+  },
+  {
+   "slug": "bildesudoku-lett-thanksgiving-041f",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-thanksgiving-041f"
+  },
+  {
+   "slug": "bildesudoku-lett-tilbehor-ce95",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-tilbehor-ce95"
+  },
+  {
+   "slug": "bildesudoku-lett-ting-som-flyr-6d98",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-ting-som-flyr-6d98"
+  },
+  {
+   "slug": "bildesudoku-lett-traer-b871",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-traer-b871"
+  },
+  {
+   "slug": "bildesudoku-lett-vaer-f1bd",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-vaer-f1bd"
+  },
+  {
+   "slug": "bildesudoku-lett-var-088f",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-var-088f"
+  },
+  {
+   "slug": "bildesudoku-lett-verdensrommet-4eeb",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-verdensrommet-4eeb"
+  },
+  {
+   "slug": "bildesudoku-lett-verktoy-9089",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-verktoy-9089"
+  },
+  {
+   "slug": "bildesudoku-lett-vinter-1e38",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-vinter-1e38"
+  },
+  {
+   "slug": "bildesudoku-lett-yrker-c186",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-yrker-c186"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-aktiviteter-78bd",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-aktiviteter-78bd"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-bakeri-1bb5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-bakeri-1bb5"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-blomster-5e10",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-blomster-5e10"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-camping-bb82",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-camping-bb82"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-desserter-og-godteri-d8d2",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-desserter-og-godteri-d8d2"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-dinosaurer-2b74",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-dinosaurer-2b74"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-dyr-8c13",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-dyr-8c13"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-dyrehagedyr-eb98",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-dyrehagedyr-eb98"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-farger-cb5a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-farger-cb5a"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-folelser-455f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-folelser-455f"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-former-68e7",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-former-68e7"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-frokost-2b92",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-frokost-2b92"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-frukter-4c1f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-frukter-4c1f"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-fugler-2-be76",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-fugler-2-be76"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-fugler-430c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-fugler-430c"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-gardsdyr-c747",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-gardsdyr-c747"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-gronnsaker-a143",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-gronnsaker-a143"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-havliv-ce94",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-havliv-ce94"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-i-supermarkedet-a54d",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-i-supermarkedet-a54d"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-insekter-og-kryp-3eb6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-insekter-og-kryp-3eb6"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-jul-fbbe",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-jul-fbbe"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-kjaeledyr-8bfa",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-kjaeledyr-8bfa"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-kjokkenredskaper-955a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-kjokkenredskaper-955a"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-kjoretoy-23b2",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-kjoretoy-23b2"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-klaer-0064",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-klaer-0064"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-klasserom-07ad",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-klasserom-07ad"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-kroppsdeler-68d0",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-kroppsdeler-68d0"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-leker-45a0",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-leker-45a0"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-mobler-97b3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-mobler-97b3"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-musikk-a8b7",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-musikk-a8b7"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-paske-5b08",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-paske-5b08"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-postkontor-9267",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-postkontor-9267"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-reptiler-og-amfibier-f028",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-reptiler-og-amfibier-f028"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-rundt-i-huset-41e8",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-rundt-i-huset-41e8"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-skogsdyr-adcc",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-skogsdyr-adcc"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-sommer-9edd",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-sommer-9edd"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-strand-fbb8",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-strand-fbb8"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-sykehus-59dc",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-sykehus-59dc"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-thanksgiving-c6e3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-thanksgiving-c6e3"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-tilbehor-93b8",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-tilbehor-93b8"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-ting-som-flyr-e11f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-ting-som-flyr-e11f"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-traer-afd0",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-traer-afd0"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-vaer-4041",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-vaer-4041"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-var-c5f1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-var-c5f1"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-verdensrommet-6ba2",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-verdensrommet-6ba2"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-verktoy-e9ee",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-verktoy-e9ee"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-vinter-4154",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-vinter-4154"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-yrker-e0c3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-yrker-e0c3"
+  }
+ ]
+}

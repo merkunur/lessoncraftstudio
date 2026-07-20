@@ -1,0 +1,812 @@
+{
+ "part": 30,
+ "locale": "en",
+ "classes": [
+  "addition::image-number",
+  "addition::mixed"
+ ],
+ "splitOf": null,
+ "count": 100,
+ "pages": [
+  {
+   "slug": "addition-image-number-4th-of-july",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "addition-image-number-4th-of-july"
+  },
+  {
+   "slug": "addition-image-number-accessories",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "addition-image-number-accessories"
+  },
+  {
+   "slug": "addition-image-number-animals",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "addition-image-number-animals"
+  },
+  {
+   "slug": "addition-image-number-around-the-house",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "addition-image-number-around-the-house"
+  },
+  {
+   "slug": "addition-image-number-at-the-supermarket",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "addition-image-number-at-the-supermarket"
+  },
+  {
+   "slug": "addition-image-number-bakery",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "addition-image-number-bakery"
+  },
+  {
+   "slug": "addition-image-number-beach",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "addition-image-number-beach"
+  },
+  {
+   "slug": "addition-image-number-birds",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "kindergarten",
+   "deck": "addition-image-number-birds"
+  },
+  {
+   "slug": "addition-image-number-breakfast",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "kindergarten",
+   "deck": "addition-image-number-breakfast"
+  },
+  {
+   "slug": "addition-image-number-camping",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "kindergarten",
+   "deck": "addition-image-number-camping"
+  },
+  {
+   "slug": "addition-image-number-christmas",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "kindergarten",
+   "deck": "addition-image-number-christmas"
+  },
+  {
+   "slug": "addition-image-number-classroom",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "addition-image-number-classroom"
+  },
+  {
+   "slug": "addition-image-number-clothing",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "addition-image-number-clothing"
+  },
+  {
+   "slug": "addition-image-number-desserts-and-sweets",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "addition-image-number-desserts-and-sweets"
+  },
+  {
+   "slug": "addition-image-number-dinosaurs",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "kindergarten",
+   "deck": "addition-image-number-dinosaurs"
+  },
+  {
+   "slug": "addition-image-number-easter",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "addition-image-number-easter"
+  },
+  {
+   "slug": "addition-image-number-faces-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "faces_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-faces-bw"
+  },
+  {
+   "slug": "addition-image-number-farm-animals",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "addition-image-number-farm-animals"
+  },
+  {
+   "slug": "addition-image-number-flowers",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "kindergarten",
+   "deck": "addition-image-number-flowers"
+  },
+  {
+   "slug": "addition-image-number-forest-creatures",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "addition-image-number-forest-creatures"
+  },
+  {
+   "slug": "addition-image-number-fruits",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "addition-image-number-fruits"
+  },
+  {
+   "slug": "addition-image-number-furniture",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "addition-image-number-furniture"
+  },
+  {
+   "slug": "addition-image-number-hospital",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "kindergarten",
+   "deck": "addition-image-number-hospital"
+  },
+  {
+   "slug": "addition-image-number-household-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "household_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-household-bw"
+  },
+  {
+   "slug": "addition-image-number-insects-and-bugs",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "addition-image-number-insects-and-bugs"
+  },
+  {
+   "slug": "addition-image-number-kitchen-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "kitchen_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-kitchen-bw"
+  },
+  {
+   "slug": "addition-image-number-kitchen-tools",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "addition-image-number-kitchen-tools"
+  },
+  {
+   "slug": "addition-image-number-miscellaneous",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "miscellaneous",
+   "level": "kindergarten",
+   "deck": "addition-image-number-miscellaneous"
+  },
+  {
+   "slug": "addition-image-number-music",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "kindergarten",
+   "deck": "addition-image-number-music"
+  },
+  {
+   "slug": "addition-image-number-nature-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "nature_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-nature-bw"
+  },
+  {
+   "slug": "addition-image-number-objects-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "objects_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-objects-bw"
+  },
+  {
+   "slug": "addition-image-number-occupations",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "addition-image-number-occupations"
+  },
+  {
+   "slug": "addition-image-number-ocean-life",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "kindergarten",
+   "deck": "addition-image-number-ocean-life"
+  },
+  {
+   "slug": "addition-image-number-pets",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "kindergarten",
+   "deck": "addition-image-number-pets"
+  },
+  {
+   "slug": "addition-image-number-post-office",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "kindergarten",
+   "deck": "addition-image-number-post-office"
+  },
+  {
+   "slug": "addition-image-number-reptiles-and-amphibians",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "kindergarten",
+   "deck": "addition-image-number-reptiles-and-amphibians"
+  },
+  {
+   "slug": "addition-image-number-sea-life-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "sea_life_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-sea-life-bw"
+  },
+  {
+   "slug": "addition-image-number-shapes",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "kindergarten",
+   "deck": "addition-image-number-shapes"
+  },
+  {
+   "slug": "addition-image-number-space",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "kindergarten",
+   "deck": "addition-image-number-space"
+  },
+  {
+   "slug": "addition-image-number-sports-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "sports_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-sports-bw"
+  },
+  {
+   "slug": "addition-image-number-thanksgiving",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "kindergarten",
+   "deck": "addition-image-number-thanksgiving"
+  },
+  {
+   "slug": "addition-image-number-things-that-fly",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "kindergarten",
+   "deck": "addition-image-number-things-that-fly"
+  },
+  {
+   "slug": "addition-image-number-tools",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "kindergarten",
+   "deck": "addition-image-number-tools"
+  },
+  {
+   "slug": "addition-image-number-toys",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "addition-image-number-toys"
+  },
+  {
+   "slug": "addition-image-number-travel-and-holiday-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "travel_and_holiday_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-travel-and-holiday-bw"
+  },
+  {
+   "slug": "addition-image-number-tree",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "kindergarten",
+   "deck": "addition-image-number-tree"
+  },
+  {
+   "slug": "addition-image-number-valentine-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "valentine_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-valentine-bw"
+  },
+  {
+   "slug": "addition-image-number-vegetables",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "kindergarten",
+   "deck": "addition-image-number-vegetables"
+  },
+  {
+   "slug": "addition-image-number-vehicles",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "addition-image-number-vehicles"
+  },
+  {
+   "slug": "addition-image-number-zoo-animals",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "kindergarten",
+   "deck": "addition-image-number-zoo-animals"
+  },
+  {
+   "slug": "addition-mixed-4th-of-july",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "addition-mixed-4th-of-july"
+  },
+  {
+   "slug": "addition-mixed-accessories",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "addition-mixed-accessories"
+  },
+  {
+   "slug": "addition-mixed-animals",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "addition-mixed-animals"
+  },
+  {
+   "slug": "addition-mixed-apparel-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "apparel_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-apparel-bw"
+  },
+  {
+   "slug": "addition-mixed-around-the-house",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "addition-mixed-around-the-house"
+  },
+  {
+   "slug": "addition-mixed-at-the-supermarket",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "addition-mixed-at-the-supermarket"
+  },
+  {
+   "slug": "addition-mixed-bakery",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "addition-mixed-bakery"
+  },
+  {
+   "slug": "addition-mixed-beach",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "addition-mixed-beach"
+  },
+  {
+   "slug": "addition-mixed-birds-kindergarten",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "kindergarten",
+   "deck": "addition-mixed-birds"
+  },
+  {
+   "slug": "addition-mixed-breakfast",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "kindergarten",
+   "deck": "addition-mixed-breakfast"
+  },
+  {
+   "slug": "addition-mixed-christmas",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "kindergarten",
+   "deck": "addition-mixed-christmas"
+  },
+  {
+   "slug": "addition-mixed-classroom",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "addition-mixed-classroom"
+  },
+  {
+   "slug": "addition-mixed-clothing",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "addition-mixed-clothing"
+  },
+  {
+   "slug": "addition-mixed-desserts-and-sweets",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "addition-mixed-desserts-and-sweets"
+  },
+  {
+   "slug": "addition-mixed-dinosaurs",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "kindergarten",
+   "deck": "addition-mixed-dinosaurs"
+  },
+  {
+   "slug": "addition-mixed-easter",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "addition-mixed-easter"
+  },
+  {
+   "slug": "addition-mixed-education-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "education_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-education-bw"
+  },
+  {
+   "slug": "addition-mixed-faces-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "faces_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-faces-bw"
+  },
+  {
+   "slug": "addition-mixed-farm-animals",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "addition-mixed-farm-animals"
+  },
+  {
+   "slug": "addition-mixed-farm-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "farm_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-farm-bw"
+  },
+  {
+   "slug": "addition-mixed-flowers",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "kindergarten",
+   "deck": "addition-mixed-flowers"
+  },
+  {
+   "slug": "addition-mixed-forest-creatures",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "addition-mixed-forest-creatures"
+  },
+  {
+   "slug": "addition-mixed-fruits",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "addition-mixed-fruits"
+  },
+  {
+   "slug": "addition-mixed-furniture",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "addition-mixed-furniture"
+  },
+  {
+   "slug": "addition-mixed-home-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "home_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-home-bw"
+  },
+  {
+   "slug": "addition-mixed-hospital",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "kindergarten",
+   "deck": "addition-mixed-hospital"
+  },
+  {
+   "slug": "addition-mixed-household-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "household_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-household-bw"
+  },
+  {
+   "slug": "addition-mixed-insects-and-bugs",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "addition-mixed-insects-and-bugs"
+  },
+  {
+   "slug": "addition-mixed-kitchen-tools",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "addition-mixed-kitchen-tools"
+  },
+  {
+   "slug": "addition-mixed-miscellaneous",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "kindergarten",
+   "deck": "addition-mixed-miscellaneous"
+  },
+  {
+   "slug": "addition-mixed-music",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "kindergarten",
+   "deck": "addition-mixed-music"
+  },
+  {
+   "slug": "addition-mixed-nature-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "nature_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-nature-bw"
+  },
+  {
+   "slug": "addition-mixed-objects-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "objects_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-objects-bw"
+  },
+  {
+   "slug": "addition-mixed-occupations",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "addition-mixed-occupations"
+  },
+  {
+   "slug": "addition-mixed-ocean-life",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "kindergarten",
+   "deck": "addition-mixed-ocean-life"
+  },
+  {
+   "slug": "addition-mixed-pets",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "kindergarten",
+   "deck": "addition-mixed-pets"
+  },
+  {
+   "slug": "addition-mixed-post-office",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "kindergarten",
+   "deck": "addition-mixed-post-office"
+  },
+  {
+   "slug": "addition-mixed-reptiles-and-amphibians",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "kindergarten",
+   "deck": "addition-mixed-reptiles-and-amphibians"
+  },
+  {
+   "slug": "addition-mixed-sea-life-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "sea_life_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-sea-life-bw"
+  },
+  {
+   "slug": "addition-mixed-shapes",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "kindergarten",
+   "deck": "addition-mixed-shapes"
+  },
+  {
+   "slug": "addition-mixed-space",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "kindergarten",
+   "deck": "addition-mixed-space"
+  },
+  {
+   "slug": "addition-mixed-thanksgiving",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "kindergarten",
+   "deck": "addition-mixed-thanksgiving"
+  },
+  {
+   "slug": "addition-mixed-things-that-fly",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "kindergarten",
+   "deck": "addition-mixed-things-that-fly"
+  },
+  {
+   "slug": "addition-mixed-tools",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "kindergarten",
+   "deck": "addition-mixed-tools"
+  },
+  {
+   "slug": "addition-mixed-toys",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "addition-mixed-toys"
+  },
+  {
+   "slug": "addition-mixed-tree",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "kindergarten",
+   "deck": "addition-mixed-tree"
+  },
+  {
+   "slug": "addition-mixed-valentine-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "valentine_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-valentine-bw"
+  },
+  {
+   "slug": "addition-mixed-vegetables",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "kindergarten",
+   "deck": "addition-mixed-vegetables"
+  },
+  {
+   "slug": "addition-mixed-vehicles",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "addition-mixed-vehicles"
+  },
+  {
+   "slug": "addition-mixed-zoo-animals",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "kindergarten",
+   "deck": "addition-mixed-zoo-animals"
+  }
+ ]
+}

@@ -1,0 +1,780 @@
+{
+ "part": 332,
+ "locale": "fi",
+ "classes": [
+  "sudoku::easy",
+  "sudoku::medium"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "kuvasudoku-helppo-aamiainen-bc88",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-aamiainen-bc88"
+  },
+  {
+   "slug": "kuvasudoku-helppo-ajoneuvot-5e97",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-ajoneuvot-5e97"
+  },
+  {
+   "slug": "kuvasudoku-helppo-aktiviteetit-9ea2",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-aktiviteetit-9ea2"
+  },
+  {
+   "slug": "kuvasudoku-helppo-ammatit-e419",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-ammatit-e419"
+  },
+  {
+   "slug": "kuvasudoku-helppo-asusteet-d837",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-asusteet-d837"
+  },
+  {
+   "slug": "kuvasudoku-helppo-avaruus-7401",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-avaruus-7401"
+  },
+  {
+   "slug": "kuvasudoku-helppo-dinosaurukset-dffa",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-dinosaurukset-dffa"
+  },
+  {
+   "slug": "kuvasudoku-helppo-elaimet-8deb",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-elaimet-8deb"
+  },
+  {
+   "slug": "kuvasudoku-helppo-elaintarhan-elaimet-c823",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-elaintarhan-elaimet-c823"
+  },
+  {
+   "slug": "kuvasudoku-helppo-hedelmat-d35a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-hedelmat-d35a"
+  },
+  {
+   "slug": "kuvasudoku-helppo-huonekalut-83de",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-huonekalut-83de"
+  },
+  {
+   "slug": "kuvasudoku-helppo-hyonteiset-ja-otokat-2f7e",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-hyonteiset-ja-otokat-2f7e"
+  },
+  {
+   "slug": "kuvasudoku-helppo-jalkiruoat-ja-makeiset-15de",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-jalkiruoat-ja-makeiset-15de"
+  },
+  {
+   "slug": "kuvasudoku-helppo-joulu-35a5",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-joulu-35a5"
+  },
+  {
+   "slug": "kuvasudoku-helppo-keittiovalineet-1fff",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-keittiovalineet-1fff"
+  },
+  {
+   "slug": "kuvasudoku-helppo-kesa-a80a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-kesa-a80a"
+  },
+  {
+   "slug": "kuvasudoku-helppo-kevat-767d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-kevat-767d"
+  },
+  {
+   "slug": "kuvasudoku-helppo-kiitospaiva-ae53",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-kiitospaiva-ae53"
+  },
+  {
+   "slug": "kuvasudoku-helppo-kodin-ymparilla-8f44",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-kodin-ymparilla-8f44"
+  },
+  {
+   "slug": "kuvasudoku-helppo-kukat-c12c",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-kukat-c12c"
+  },
+  {
+   "slug": "kuvasudoku-helppo-leipomo-ce87",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-leipomo-ce87"
+  },
+  {
+   "slug": "kuvasudoku-helppo-leirielama-06da",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-leirielama-06da"
+  },
+  {
+   "slug": "kuvasudoku-helppo-lelut-89fe",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-lelut-89fe"
+  },
+  {
+   "slug": "kuvasudoku-helppo-lemmikit-1ed0",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-lemmikit-1ed0"
+  },
+  {
+   "slug": "kuvasudoku-helppo-lentavat-asiat-6c56",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-lentavat-asiat-6c56"
+  },
+  {
+   "slug": "kuvasudoku-helppo-linnut-2-0345",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-linnut-2-0345"
+  },
+  {
+   "slug": "kuvasudoku-helppo-linnut-fbe3",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-linnut-fbe3"
+  },
+  {
+   "slug": "kuvasudoku-helppo-luokkahuone-a67d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-luokkahuone-a67d"
+  },
+  {
+   "slug": "kuvasudoku-helppo-maatilan-elaimet-0842",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-maatilan-elaimet-0842"
+  },
+  {
+   "slug": "kuvasudoku-helppo-matelijat-ja-sammakkoelaimet-5b7e",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-matelijat-ja-sammakkoelaimet-5b7e"
+  },
+  {
+   "slug": "kuvasudoku-helppo-merielama-386f",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-merielama-386f"
+  },
+  {
+   "slug": "kuvasudoku-helppo-metsan-elaimet-488d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-metsan-elaimet-488d"
+  },
+  {
+   "slug": "kuvasudoku-helppo-muodot-ea0a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-muodot-ea0a"
+  },
+  {
+   "slug": "kuvasudoku-helppo-musiikki-eb6b",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-musiikki-eb6b"
+  },
+  {
+   "slug": "kuvasudoku-helppo-paasiainen-ae2a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-paasiainen-ae2a"
+  },
+  {
+   "slug": "kuvasudoku-helppo-postitoimisto-ff10",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-postitoimisto-ff10"
+  },
+  {
+   "slug": "kuvasudoku-helppo-puut-161c",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-puut-161c"
+  },
+  {
+   "slug": "kuvasudoku-helppo-ranta-4494",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-ranta-4494"
+  },
+  {
+   "slug": "kuvasudoku-helppo-ruokakaupassa-d534",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-ruokakaupassa-d534"
+  },
+  {
+   "slug": "kuvasudoku-helppo-ruumiinosat-20e9",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-ruumiinosat-20e9"
+  },
+  {
+   "slug": "kuvasudoku-helppo-saa-d290",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-saa-d290"
+  },
+  {
+   "slug": "kuvasudoku-helppo-sairaala-5729",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-sairaala-5729"
+  },
+  {
+   "slug": "kuvasudoku-helppo-talvi-08f9",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-talvi-08f9"
+  },
+  {
+   "slug": "kuvasudoku-helppo-tunteet-0d90",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-tunteet-0d90"
+  },
+  {
+   "slug": "kuvasudoku-helppo-tyokalut-161c",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-tyokalut-161c"
+  },
+  {
+   "slug": "kuvasudoku-helppo-vaatteet-bd16",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-vaatteet-bd16"
+  },
+  {
+   "slug": "kuvasudoku-helppo-varit-ea33",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-varit-ea33"
+  },
+  {
+   "slug": "kuvasudoku-helppo-vihannekset-f605",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-helppo-vihannekset-f605"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-aamiainen-7125",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-aamiainen-7125"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-ajoneuvot-7701",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-ajoneuvot-7701"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-aktiviteetit-7c63",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-aktiviteetit-7c63"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-ammatit-a7f4",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-ammatit-a7f4"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-asusteet-912c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-asusteet-912c"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-avaruus-2b23",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-avaruus-2b23"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-dinosaurukset-b070",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-dinosaurukset-b070"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-elaimet-894b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-elaimet-894b"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-elaintarhan-elaimet-802a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-elaintarhan-elaimet-802a"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-hedelmat-0c07",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-hedelmat-0c07"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-huonekalut-a376",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-huonekalut-a376"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-hyonteiset-ja-otokat-2ec2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-hyonteiset-ja-otokat-2ec2"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-jalkiruoat-ja-makeiset-c486",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-jalkiruoat-ja-makeiset-c486"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-joulu-1543",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-joulu-1543"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-keittiovalineet-486e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-keittiovalineet-486e"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-kesa-7685",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-kesa-7685"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-kevat-e54e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-kevat-e54e"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-kiitospaiva-8495",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-kiitospaiva-8495"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-kodin-ymparilla-f26d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-kodin-ymparilla-f26d"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-kukat-fdb9",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-kukat-fdb9"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-leipomo-f447",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-leipomo-f447"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-leirielama-1f17",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-leirielama-1f17"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-lelut-c75f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-lelut-c75f"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-lemmikit-2804",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-lemmikit-2804"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-lentavat-asiat-831f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-lentavat-asiat-831f"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-linnut-2-f1c3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-linnut-2-f1c3"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-linnut-4f9a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-linnut-4f9a"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-luokkahuone-f716",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-luokkahuone-f716"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-maatilan-elaimet-2759",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-maatilan-elaimet-2759"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-matelijat-ja-sammakkoelaimet-861a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-matelijat-ja-sammakkoelaimet-861a"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-merielama-416e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-merielama-416e"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-metsan-elaimet-932a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-metsan-elaimet-932a"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-muodot-7a33",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-muodot-7a33"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-musiikki-7975",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-musiikki-7975"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-paasiainen-168e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-paasiainen-168e"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-postitoimisto-c105",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-postitoimisto-c105"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-puut-20ec",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-puut-20ec"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-ranta-a017",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-ranta-a017"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-ruokakaupassa-e002",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-ruokakaupassa-e002"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-ruumiinosat-cb4e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-ruumiinosat-cb4e"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-saa-f5c8",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-saa-f5c8"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-sairaala-9317",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-sairaala-9317"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-talvi-c247",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-talvi-c247"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-tunteet-3cbe",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-tunteet-3cbe"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-tyokalut-0e96",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-tyokalut-0e96"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-vaatteet-c166",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-vaatteet-c166"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-varit-6e2e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-varit-6e2e"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-vihannekset-8616",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-vihannekset-8616"
+  }
+ ]
+}

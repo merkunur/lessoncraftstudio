@@ -1,0 +1,596 @@
+{
+ "part": 287,
+ "locale": "da",
+ "classes": [
+  "picture-path::classic-maze",
+  "big-small::findBig"
+ ],
+ "splitOf": null,
+ "count": 73,
+ "pages": [
+  {
+   "slug": "billedvej-klassisk-labyrint-aktiviteter-4d5a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-aktiviteter-4d5a"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-bageri-cc5f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-bageri-cc5f"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-blomster-d8e6",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-blomster-d8e6"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-camping-fd42",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-camping-fd42"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-desserter-og-slik-8a83",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-desserter-og-slik-8a83"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-dinosaurer-6999",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-dinosaurer-6999"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-erhverv-78e1",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-erhverv-78e1"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-farver-00ac",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-farver-00ac"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-folelser-540f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-folelser-540f"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-former-055e",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-former-055e"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-frugter-99d1",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-frugter-99d1"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-grontsager-0fa0",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-grontsager-0fa0"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-hospital-b350",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-hospital-b350"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-i-supermarkedet-4faa",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-i-supermarkedet-4faa"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-jul-5df9",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-jul-5df9"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-klassevaerelse-b471",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-klassevaerelse-b471"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-kokkenredskaber-d787",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-kokkenredskaber-d787"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-koretojer-bf27",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-koretojer-bf27"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-kropsdele-37b5",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-kropsdele-37b5"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-legetoj-c13d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-legetoj-c13d"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-mobler-4781",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-mobler-4781"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-morgenmad-0646",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-morgenmad-0646"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-musik-1849",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-musik-1849"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-paske-1e94",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-paske-1e94"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-postkontor-e439",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-postkontor-e439"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-rummet-0b4b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-rummet-0b4b"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-rundt-i-huset-7768",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-rundt-i-huset-7768"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-sommer-bd3a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-sommer-bd3a"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-strand-5e7c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-strand-5e7c"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-thanksgiving-f2bd",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-thanksgiving-f2bd"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-tilbehor-487a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-tilbehor-487a"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-ting-der-flyver-32b9",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-ting-der-flyver-32b9"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-toj-53d4",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-toj-53d4"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-traeer-be9f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-traeer-be9f"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-vaerktoj-7962",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-vaerktoj-7962"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-vejr-6713",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-vejr-6713"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-vinter-2479",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-vinter-2479"
+  },
+  {
+   "slug": "stor-lille-find-den-store-bageri-09ac",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-bageri-09ac"
+  },
+  {
+   "slug": "stor-lille-find-den-store-blomster-9f33",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-blomster-9f33"
+  },
+  {
+   "slug": "stor-lille-find-den-store-bondegardsdyr-d80c",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-bondegardsdyr-d80c"
+  },
+  {
+   "slug": "stor-lille-find-den-store-camping-7232",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-camping-7232"
+  },
+  {
+   "slug": "stor-lille-find-den-store-desserter-og-slik-ac1a",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-desserter-og-slik-ac1a"
+  },
+  {
+   "slug": "stor-lille-find-den-store-dinosaurer-3eed",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-dinosaurer-3eed"
+  },
+  {
+   "slug": "stor-lille-find-den-store-dyr-c797",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-dyr-c797"
+  },
+  {
+   "slug": "stor-lille-find-den-store-erhverv-7bcd",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-erhverv-7bcd"
+  },
+  {
+   "slug": "stor-lille-find-den-store-former-e9f4",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-former-e9f4"
+  },
+  {
+   "slug": "stor-lille-find-den-store-frugter-7c1f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-frugter-7c1f"
+  },
+  {
+   "slug": "stor-lille-find-den-store-fugle-2-cfef",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-fugle-2-cfef"
+  },
+  {
+   "slug": "stor-lille-find-den-store-grontsager-89b3",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-grontsager-89b3"
+  },
+  {
+   "slug": "stor-lille-find-den-store-havliv-4617",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-havliv-4617"
+  },
+  {
+   "slug": "stor-lille-find-den-store-hospital-a41e",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-hospital-a41e"
+  },
+  {
+   "slug": "stor-lille-find-den-store-i-supermarkedet-59ef",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-i-supermarkedet-59ef"
+  },
+  {
+   "slug": "stor-lille-find-den-store-jul-a458",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-jul-a458"
+  },
+  {
+   "slug": "stor-lille-find-den-store-kaeledyr-35ec",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-kaeledyr-35ec"
+  },
+  {
+   "slug": "stor-lille-find-den-store-klassevaerelse-be3a",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-klassevaerelse-be3a"
+  },
+  {
+   "slug": "stor-lille-find-den-store-kokkenredskaber-6086",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-kokkenredskaber-6086"
+  },
+  {
+   "slug": "stor-lille-find-den-store-koretojer-d928",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-koretojer-d928"
+  },
+  {
+   "slug": "stor-lille-find-den-store-kropsdele-67b3",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-kropsdele-67b3"
+  },
+  {
+   "slug": "stor-lille-find-den-store-legetoj-9ca7",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-legetoj-9ca7"
+  },
+  {
+   "slug": "stor-lille-find-den-store-mobler-729d",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-mobler-729d"
+  },
+  {
+   "slug": "stor-lille-find-den-store-morgenmad-f306",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-morgenmad-f306"
+  },
+  {
+   "slug": "stor-lille-find-den-store-musik-825f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-musik-825f"
+  },
+  {
+   "slug": "stor-lille-find-den-store-paske-70d9",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-paske-70d9"
+  },
+  {
+   "slug": "stor-lille-find-den-store-rummet-d5ca",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-rummet-d5ca"
+  },
+  {
+   "slug": "stor-lille-find-den-store-rundt-i-huset-e7f7",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-rundt-i-huset-e7f7"
+  },
+  {
+   "slug": "stor-lille-find-den-store-skovdyr-f4ef",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-skovdyr-f4ef"
+  },
+  {
+   "slug": "stor-lille-find-den-store-strand-da25",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-strand-da25"
+  },
+  {
+   "slug": "stor-lille-find-den-store-tilbehor-e262",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-tilbehor-e262"
+  },
+  {
+   "slug": "stor-lille-find-den-store-ting-der-flyver-b63f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-ting-der-flyver-b63f"
+  },
+  {
+   "slug": "stor-lille-find-den-store-toj-e604",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-toj-e604"
+  },
+  {
+   "slug": "stor-lille-find-den-store-traeer-ffd1",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-traeer-ffd1"
+  },
+  {
+   "slug": "stor-lille-find-den-store-vaerktoj-9b72",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-vaerktoj-9b72"
+  },
+  {
+   "slug": "stor-lille-find-den-store-zoodyr-e056",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "stor-lille-find-den-store-zoodyr-e056"
+  }
+ ]
+}

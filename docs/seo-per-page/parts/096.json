@@ -1,0 +1,748 @@
+{
+ "part": 96,
+ "locale": "es",
+ "classes": [
+  "treasure-hunt::cardinal-arrows",
+  "word-guess::normal"
+ ],
+ "splitOf": null,
+ "count": 92,
+ "pages": [
+  {
+   "slug": "busqueda-del-tesoro-4-de-julio",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-7671"
+  },
+  {
+   "slug": "busqueda-del-tesoro-accesorios",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f473"
+  },
+  {
+   "slug": "busqueda-del-tesoro-actividades",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-9dd5"
+  },
+  {
+   "slug": "busqueda-del-tesoro-alrededor-de-la-casa",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-22bd"
+  },
+  {
+   "slug": "busqueda-del-tesoro-animales-de-granja",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-90f0"
+  },
+  {
+   "slug": "busqueda-del-tesoro-animales-del-zoologico",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-e61b"
+  },
+  {
+   "slug": "busqueda-del-tesoro-arboles",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-74d0"
+  },
+  {
+   "slug": "busqueda-del-tesoro-aves",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0fac"
+  },
+  {
+   "slug": "busqueda-del-tesoro-campamento",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-8f99"
+  },
+  {
+   "slug": "busqueda-del-tesoro-clima",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-dfa5"
+  },
+  {
+   "slug": "busqueda-del-tesoro-colores",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-2a74"
+  },
+  {
+   "slug": "busqueda-del-tesoro-cosas-que-vuelan",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-ee57"
+  },
+  {
+   "slug": "busqueda-del-tesoro-criaturas-del-bosque",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-29ae"
+  },
+  {
+   "slug": "busqueda-del-tesoro-desayuno",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-1065"
+  },
+  {
+   "slug": "busqueda-del-tesoro-dia-de-accion-de-gracias",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0615"
+  },
+  {
+   "slug": "busqueda-del-tesoro-dinosaurios",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-990f"
+  },
+  {
+   "slug": "busqueda-del-tesoro-emociones",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-c831"
+  },
+  {
+   "slug": "busqueda-del-tesoro-en-el-supermercado",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-d195"
+  },
+  {
+   "slug": "busqueda-del-tesoro-espacio",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-29de"
+  },
+  {
+   "slug": "busqueda-del-tesoro-flores",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-e57c"
+  },
+  {
+   "slug": "busqueda-del-tesoro-formas",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-6e80"
+  },
+  {
+   "slug": "busqueda-del-tesoro-frutas",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-ffd9"
+  },
+  {
+   "slug": "busqueda-del-tesoro-herramientas",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-2d82"
+  },
+  {
+   "slug": "busqueda-del-tesoro-hospital",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-d411"
+  },
+  {
+   "slug": "busqueda-del-tesoro-insectos-y-bichos",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f7eb"
+  },
+  {
+   "slug": "busqueda-del-tesoro-invierno",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-bbac"
+  },
+  {
+   "slug": "busqueda-del-tesoro-juguetes",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0735"
+  },
+  {
+   "slug": "busqueda-del-tesoro-mascotas",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-56b6"
+  },
+  {
+   "slug": "busqueda-del-tesoro-miscelaneo",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-5160"
+  },
+  {
+   "slug": "busqueda-del-tesoro-muebles",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-8bb9"
+  },
+  {
+   "slug": "busqueda-del-tesoro-musica",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f120"
+  },
+  {
+   "slug": "busqueda-del-tesoro-navidad",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-e244"
+  },
+  {
+   "slug": "busqueda-del-tesoro-ocupaciones",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-9336"
+  },
+  {
+   "slug": "busqueda-del-tesoro-oficina-de-correos",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-995d"
+  },
+  {
+   "slug": "busqueda-del-tesoro-partes-del-cuerpo",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-353e"
+  },
+  {
+   "slug": "busqueda-del-tesoro-pascua",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-puntos-cardinales-accesorios-ed71"
+  },
+  {
+   "slug": "busqueda-del-tesoro-playa",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-33b1"
+  },
+  {
+   "slug": "busqueda-del-tesoro-postres-y-dulces",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-73b9"
+  },
+  {
+   "slug": "busqueda-del-tesoro-primavera",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-puntos-cardinales-accesorios-4d46"
+  },
+  {
+   "slug": "busqueda-del-tesoro-ropa",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f15a"
+  },
+  {
+   "slug": "busqueda-del-tesoro-salon-de-clases",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-21b1"
+  },
+  {
+   "slug": "busqueda-del-tesoro-utensilios-de-cocina",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-ab2c"
+  },
+  {
+   "slug": "busqueda-del-tesoro-vehiculos",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f08e"
+  },
+  {
+   "slug": "busqueda-del-tesoro-verano",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-6c6c"
+  },
+  {
+   "slug": "busqueda-del-tesoro-verduras",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-2b5e"
+  },
+  {
+   "slug": "busqueda-del-tesoro-vida-marina",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0ea0"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-4-de-julio-a37e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-4-de-julio-a37e"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-accesorios-77fc",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-accesorios-77fc"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-actividades-2530",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-actividades-2530"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-alrededor-de-la-casa-7a27",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-alrededor-de-la-casa-7a27"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-animales-6e3a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-animales-6e3a"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-animales-de-granja-8e17",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-animales-de-granja-8e17"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-animales-del-zoologico-8e76",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-animales-del-zoologico-8e76"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-arboles-8764",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-arboles-8764"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-aves-2-b4ed",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-aves-2-b4ed"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-aves-98c5",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-aves-98c5"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-campamento-4188",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-campamento-4188"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-clima-f7fe",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-clima-f7fe"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-colores-1be6",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-colores-1be6"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-cosas-que-vuelan-2751",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-cosas-que-vuelan-2751"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-criaturas-del-bosque-3d48",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-criaturas-del-bosque-3d48"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-desayuno-d3df",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-desayuno-d3df"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-dia-de-accion-de-gracias-2c58",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-dia-de-accion-de-gracias-2c58"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-emociones-3b36",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-emociones-3b36"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-en-el-supermercado-d5a3",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-en-el-supermercado-d5a3"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-espacio-c4cb",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-espacio-c4cb"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-flores-c0b8",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-flores-c0b8"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-herramientas-c804",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-herramientas-c804"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-hospital-6001",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-hospital-6001"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-insectos-y-bichos-da29",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-insectos-y-bichos-da29"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-invierno-bcde",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-invierno-bcde"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-juguetes-a81f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-juguetes-a81f"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-mascotas-c69b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-mascotas-c69b"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-miscelaneo-a18e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-miscelaneo-a18e"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-muebles-fbb3",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-muebles-fbb3"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-musica-021c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-musica-021c"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-navidad-234e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-navidad-234e"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-ocupaciones-c6b9",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-ocupaciones-c6b9"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-panaderia-d7d7",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-panaderia-d7d7"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-partes-del-cuerpo-da7c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-partes-del-cuerpo-da7c"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-pascua-8cb4",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-pascua-8cb4"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-playa-2a31",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-playa-2a31"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-postres-y-dulces-9309",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-postres-y-dulces-9309"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-primavera-f5aa",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-primavera-f5aa"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-reptiles-y-anfibios-c34e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-reptiles-y-anfibios-c34e"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-ropa-58aa",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-ropa-58aa"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-salon-de-clases-752a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-salon-de-clases-752a"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-utensilios-de-cocina-bd9e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-utensilios-de-cocina-bd9e"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-vehiculos-cbbc",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-vehiculos-cbbc"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-verano-149b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-verano-149b"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-verduras-7da6",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-verduras-7da6"
+  },
+  {
+   "slug": "adivina-la-palabra-normal-vida-marina-4602",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "adivina-la-palabra-normal-vida-marina-4602"
+  }
+ ]
+}

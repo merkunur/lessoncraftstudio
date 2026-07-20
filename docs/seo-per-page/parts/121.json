@@ -1,0 +1,732 @@
+{
+ "part": 121,
+ "locale": "pt",
+ "classes": [
+  "word-guess::normal",
+  "word-scramble::easy"
+ ],
+ "splitOf": null,
+ "count": 90,
+ "pages": [
+  {
+   "slug": "adivinhe-a-palavra-normal-acampamento-657c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-acampamento-657c"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-acessorios-0a76",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-acessorios-0a76"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-animais-4223",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-animais-4223"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-animais-da-fazenda-3a41",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-animais-da-fazenda-3a41"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-animais-de-estimacao-aa3d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-animais-de-estimacao-aa3d"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-animais-do-zoologico-1acb",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-animais-do-zoologico-1acb"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-atividades-7920",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-atividades-7920"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-brinquedos-a978",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-brinquedos-a978"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-cafe-da-manha-12fd",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-cafe-da-manha-12fd"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-clima-210a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-clima-210a"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-coisas-que-voam-0510",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-coisas-que-voam-0510"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-cores-4ac1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-cores-4ac1"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-criaturas-da-floresta-3f40",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-criaturas-da-floresta-3f40"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-dia-de-acao-de-gracas-5634",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-dia-de-acao-de-gracas-5634"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-emocoes-5242",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-emocoes-5242"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-espaco-a2d7",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-espaco-a2d7"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-ferramentas-c74a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-ferramentas-c74a"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-flores-2b6e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-flores-2b6e"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-formas-5f3d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-formas-5f3d"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-frutas-0c05",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-frutas-0c05"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-hospital-f6d9",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-hospital-f6d9"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-insetos-e-bichos-2578",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-insetos-e-bichos-2578"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-inverno-ef5a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-inverno-ef5a"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-moveis-9aa2",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-moveis-9aa2"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-musica-531c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-musica-531c"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-natal-7e54",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-natal-7e54"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-no-supermercado-af5a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-no-supermercado-af5a"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-padaria-43eb",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-padaria-43eb"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-partes-do-corpo-d543",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-partes-do-corpo-d543"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-pascoa-1e4f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-pascoa-1e4f"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-passaros-2-8843",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-passaros-2-8843"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-passaros-291e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-passaros-291e"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-pela-casa-db12",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-pela-casa-db12"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-praia-6e9f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-praia-6e9f"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-primavera-64a7",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-primavera-64a7"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-profissoes-87da",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-profissoes-87da"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-repteis-e-anfibios-8477",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-repteis-e-anfibios-8477"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-roupas-3cc7",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-roupas-3cc7"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-sala-de-aula-cd69",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-sala-de-aula-cd69"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-sobremesas-e-doces-2259",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-sobremesas-e-doces-2259"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-utensilios-de-cozinha-384e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-utensilios-de-cozinha-384e"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-vegetais-2774",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-vegetais-2774"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-veiculos-0ddd",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-veiculos-0ddd"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-verao-5113",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-verao-5113"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-vida-marinha-81c2",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-vida-marinha-81c2"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-acampamento-1f91",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-acampamento-1f91"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-acessorios-4e1a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-acessorios-4e1a"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-animais-6c34",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-animais-6c34"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-animais-da-fazenda-a1e7",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-animais-da-fazenda-a1e7"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-animais-de-estimacao-9fbf",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-animais-de-estimacao-9fbf"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-animais-do-zoologico-2a2e",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-animais-do-zoologico-2a2e"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-atividades-651c",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-atividades-651c"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-brinquedos-3d11",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-brinquedos-3d11"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-cafe-da-manha-9ed0",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-cafe-da-manha-9ed0"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-clima-48d3",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-clima-48d3"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-coisas-que-voam-0204",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-coisas-que-voam-0204"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-cores-7124",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-cores-7124"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-correios-7ebd",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-correios-7ebd"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-criaturas-da-floresta-b585",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-criaturas-da-floresta-b585"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-dia-de-acao-de-gracas-d741",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-dia-de-acao-de-gracas-d741"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-emocoes-acc7",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-emocoes-acc7"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-espaco-c1a0",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-espaco-c1a0"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-ferramentas-94cc",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-ferramentas-94cc"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-flores-0eba",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-flores-0eba"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-formas-5707",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-formas-5707"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-frutas-ef82",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-frutas-ef82"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-hospital-4c1f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-hospital-4c1f"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-insetos-e-bichos-d6d6",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-insetos-e-bichos-d6d6"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-inverno-f073",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-inverno-f073"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-moveis-b6bd",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-moveis-b6bd"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-musica-8807",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-musica-8807"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-no-supermercado-9cbb",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-no-supermercado-9cbb"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-padaria-377f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-padaria-377f"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-partes-do-corpo-1af8",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-partes-do-corpo-1af8"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-pascoa-9450",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-pascoa-9450"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-passaros-2-d89b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-passaros-2-d89b"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-passaros-7179",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-passaros-7179"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-pela-casa-2798",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-pela-casa-2798"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-praia-f393",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-praia-f393"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-primavera-ca71",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-primavera-ca71"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-profissoes-938d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-profissoes-938d"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-repteis-e-anfibios-0095",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-repteis-e-anfibios-0095"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-roupas-059f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-roupas-059f"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-sala-de-aula-b76d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-sala-de-aula-b76d"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-sobremesas-e-doces-b6f4",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-sobremesas-e-doces-b6f4"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-utensilios-de-cozinha-98e1",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-utensilios-de-cozinha-98e1"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-vegetais-5b03",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-vegetais-5b03"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-veiculos-d71f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-veiculos-d71f"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-verao-2fbd",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-verao-2fbd"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-vida-marinha-a031",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-vida-marinha-a031"
+  }
+ ]
+}

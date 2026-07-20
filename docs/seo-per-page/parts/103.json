@@ -1,0 +1,568 @@
+{
+ "part": 103,
+ "locale": "pt",
+ "classes": [
+  "matching::name"
+ ],
+ "splitOf": {
+  "class": "matching::name",
+  "total": 138,
+  "chunk": 2,
+  "chunks": 2
+ },
+ "count": 69,
+ "pages": [
+  {
+   "slug": "ingles-pareamento-nomes-moveis-f05f",
+   "type": "matching",
+   "mode": "name",
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-moveis-f05f"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-musica-6921",
+   "type": "matching",
+   "mode": "name",
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-musica-6921"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-natal-a9c7",
+   "type": "matching",
+   "mode": "name",
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-natal-a9c7"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-no-supermercado-87c4",
+   "type": "matching",
+   "mode": "name",
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-no-supermercado-87c4"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-padaria-584f",
+   "type": "matching",
+   "mode": "name",
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-padaria-584f"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-partes-do-corpo-9c74",
+   "type": "matching",
+   "mode": "name",
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-partes-do-corpo-9c74"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-pascoa-2ba5",
+   "type": "matching",
+   "mode": "name",
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-pascoa-2ba5"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-passaros-024a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-passaros-024a"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-passaros-2-e0b1",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-passaros-2-e0b1"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-pela-casa-692b",
+   "type": "matching",
+   "mode": "name",
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-pela-casa-692b"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-praia-1a3e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-praia-1a3e"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-primavera-ecc8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-primavera-ecc8"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-profissoes-381d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-profissoes-381d"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-repteis-e-anfibios-889f",
+   "type": "matching",
+   "mode": "name",
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-repteis-e-anfibios-889f"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-roupas-a506",
+   "type": "matching",
+   "mode": "name",
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-roupas-a506"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-sala-de-aula-f596",
+   "type": "matching",
+   "mode": "name",
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-sala-de-aula-f596"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-sobremesas-e-doces-47af",
+   "type": "matching",
+   "mode": "name",
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-sobremesas-e-doces-47af"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-utensilios-de-cozinha-0fb1",
+   "type": "matching",
+   "mode": "name",
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-utensilios-de-cozinha-0fb1"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-vegetais-8993",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-vegetais-8993"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-veiculos-0ca7",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-veiculos-0ca7"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-verao-2b16",
+   "type": "matching",
+   "mode": "name",
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-verao-2b16"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-vida-marinha-3b39",
+   "type": "matching",
+   "mode": "name",
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-vida-marinha-3b39"
+  },
+  {
+   "slug": "pareamento-nomes-0e62",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-0e62"
+  },
+  {
+   "slug": "pareamento-nomes-114a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-114a"
+  },
+  {
+   "slug": "pareamento-nomes-194e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "colors",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-194e"
+  },
+  {
+   "slug": "pareamento-nomes-1aa0",
+   "type": "matching",
+   "mode": "name",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-1aa0"
+  },
+  {
+   "slug": "pareamento-nomes-24fb",
+   "type": "matching",
+   "mode": "name",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-24fb"
+  },
+  {
+   "slug": "pareamento-nomes-2830",
+   "type": "matching",
+   "mode": "name",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-2830"
+  },
+  {
+   "slug": "pareamento-nomes-2b4a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-2b4a"
+  },
+  {
+   "slug": "pareamento-nomes-2bc8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-2bc8"
+  },
+  {
+   "slug": "pareamento-nomes-2c28",
+   "type": "matching",
+   "mode": "name",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-2c28"
+  },
+  {
+   "slug": "pareamento-nomes-4941",
+   "type": "matching",
+   "mode": "name",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-4941"
+  },
+  {
+   "slug": "pareamento-nomes-4e9b",
+   "type": "matching",
+   "mode": "name",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-4e9b"
+  },
+  {
+   "slug": "pareamento-nomes-50b4",
+   "type": "matching",
+   "mode": "name",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-50b4"
+  },
+  {
+   "slug": "pareamento-nomes-5ad1",
+   "type": "matching",
+   "mode": "name",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-5ad1"
+  },
+  {
+   "slug": "pareamento-nomes-5ec2",
+   "type": "matching",
+   "mode": "name",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-5ec2"
+  },
+  {
+   "slug": "pareamento-nomes-62cf",
+   "type": "matching",
+   "mode": "name",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-62cf"
+  },
+  {
+   "slug": "pareamento-nomes-679c",
+   "type": "matching",
+   "mode": "name",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-679c"
+  },
+  {
+   "slug": "pareamento-nomes-6ca5",
+   "type": "matching",
+   "mode": "name",
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-6ca5"
+  },
+  {
+   "slug": "pareamento-nomes-6eb2",
+   "type": "matching",
+   "mode": "name",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-6eb2"
+  },
+  {
+   "slug": "pareamento-nomes-6fb3",
+   "type": "matching",
+   "mode": "name",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-6fb3"
+  },
+  {
+   "slug": "pareamento-nomes-783d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-783d"
+  },
+  {
+   "slug": "pareamento-nomes-7a35",
+   "type": "matching",
+   "mode": "name",
+   "theme": "activities",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-7a35"
+  },
+  {
+   "slug": "pareamento-nomes-7ce9",
+   "type": "matching",
+   "mode": "name",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-7ce9"
+  },
+  {
+   "slug": "pareamento-nomes-7dcb",
+   "type": "matching",
+   "mode": "name",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-7dcb"
+  },
+  {
+   "slug": "pareamento-nomes-8830",
+   "type": "matching",
+   "mode": "name",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-8830"
+  },
+  {
+   "slug": "pareamento-nomes-9188",
+   "type": "matching",
+   "mode": "name",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-9188"
+  },
+  {
+   "slug": "pareamento-nomes-91a7",
+   "type": "matching",
+   "mode": "name",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-91a7"
+  },
+  {
+   "slug": "pareamento-nomes-a3bc",
+   "type": "matching",
+   "mode": "name",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-a3bc"
+  },
+  {
+   "slug": "pareamento-nomes-a6ac",
+   "type": "matching",
+   "mode": "name",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-a6ac"
+  },
+  {
+   "slug": "pareamento-nomes-ac1a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-ac1a"
+  },
+  {
+   "slug": "pareamento-nomes-b058",
+   "type": "matching",
+   "mode": "name",
+   "theme": "summer",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-b058"
+  },
+  {
+   "slug": "pareamento-nomes-b59a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-b59a"
+  },
+  {
+   "slug": "pareamento-nomes-b765",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-b765"
+  },
+  {
+   "slug": "pareamento-nomes-b7d8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-b7d8"
+  },
+  {
+   "slug": "pareamento-nomes-bd20",
+   "type": "matching",
+   "mode": "name",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-bd20"
+  },
+  {
+   "slug": "pareamento-nomes-bd8a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-bd8a"
+  },
+  {
+   "slug": "pareamento-nomes-c281",
+   "type": "matching",
+   "mode": "name",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-c281"
+  },
+  {
+   "slug": "pareamento-nomes-cbb5",
+   "type": "matching",
+   "mode": "name",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-cbb5"
+  },
+  {
+   "slug": "pareamento-nomes-cf18",
+   "type": "matching",
+   "mode": "name",
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-cf18"
+  },
+  {
+   "slug": "pareamento-nomes-d425",
+   "type": "matching",
+   "mode": "name",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-d425"
+  },
+  {
+   "slug": "pareamento-nomes-d48a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "spring",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-d48a"
+  },
+  {
+   "slug": "pareamento-nomes-d77a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-d77a"
+  },
+  {
+   "slug": "pareamento-nomes-d890",
+   "type": "matching",
+   "mode": "name",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-d890"
+  },
+  {
+   "slug": "pareamento-nomes-db74",
+   "type": "matching",
+   "mode": "name",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-db74"
+  },
+  {
+   "slug": "pareamento-nomes-dda2",
+   "type": "matching",
+   "mode": "name",
+   "theme": "emotions",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-dda2"
+  },
+  {
+   "slug": "pareamento-nomes-dff3",
+   "type": "matching",
+   "mode": "name",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-dff3"
+  },
+  {
+   "slug": "pareamento-nomes-e7e8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-e7e8"
+  },
+  {
+   "slug": "pareamento-nomes-fab8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "pareamento-nomes-fab8"
+  }
+ ]
+}

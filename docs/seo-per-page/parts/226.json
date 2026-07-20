@@ -1,0 +1,616 @@
+{
+ "part": 226,
+ "locale": "sv",
+ "classes": [
+  "picture-sort::null"
+ ],
+ "splitOf": {
+  "class": "picture-sort::null",
+  "total": 151,
+  "chunk": 2,
+  "chunks": 2
+ },
+ "count": 75,
+ "pages": [
+  {
+   "slug": "sortera-bilder-easter-vs-animals-a4e7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "easter-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-easter-vs-animals-a4e7"
+  },
+  {
+   "slug": "sortera-bilder-easter-vs-flowers-8a92",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "easter-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-easter-vs-flowers-8a92"
+  },
+  {
+   "slug": "sortera-bilder-easter-vs-tree-be7b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "easter-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-easter-vs-tree-be7b"
+  },
+  {
+   "slug": "sortera-bilder-emotions-vs-animals-ac71",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "emotions-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-emotions-vs-animals-ac71"
+  },
+  {
+   "slug": "sortera-bilder-emotions-vs-flowers-fdb0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "emotions-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-emotions-vs-flowers-fdb0"
+  },
+  {
+   "slug": "sortera-bilder-emotions-vs-tree-4c2c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "emotions-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-emotions-vs-tree-4c2c"
+  },
+  {
+   "slug": "sortera-bilder-farm-animals-vs-tree-493d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-farm-animals-vs-tree-493d"
+  },
+  {
+   "slug": "sortera-bilder-flowers-vs-animals-00dd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-flowers-vs-animals-00dd"
+  },
+  {
+   "slug": "sortera-bilder-flowers-vs-tree-28b8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-flowers-vs-tree-28b8"
+  },
+  {
+   "slug": "sortera-bilder-forest-creatures-vs-flowers-4061",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "forest_creatures-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-forest-creatures-vs-flowers-4061"
+  },
+  {
+   "slug": "sortera-bilder-forest-creatures-vs-tree-c89d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "forest_creatures-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-forest-creatures-vs-tree-c89d"
+  },
+  {
+   "slug": "sortera-bilder-fruits-vs-animals-ebd0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "fruits-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-fruits-vs-animals-ebd0"
+  },
+  {
+   "slug": "sortera-bilder-fruits-vs-flowers-91e0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "fruits-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-fruits-vs-flowers-91e0"
+  },
+  {
+   "slug": "sortera-bilder-fruits-vs-tree-f13d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "fruits-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-fruits-vs-tree-f13d"
+  },
+  {
+   "slug": "sortera-bilder-furniture-vs-animals-bacd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "furniture-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-furniture-vs-animals-bacd"
+  },
+  {
+   "slug": "sortera-bilder-furniture-vs-flowers-d0bf",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "furniture-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-furniture-vs-flowers-d0bf"
+  },
+  {
+   "slug": "sortera-bilder-furniture-vs-tree-0d76",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "furniture-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-furniture-vs-tree-0d76"
+  },
+  {
+   "slug": "sortera-bilder-hospital-vs-animals-9b8f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "hospital-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-hospital-vs-animals-9b8f"
+  },
+  {
+   "slug": "sortera-bilder-hospital-vs-flowers-63b8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "hospital-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-hospital-vs-flowers-63b8"
+  },
+  {
+   "slug": "sortera-bilder-hospital-vs-tree-0611",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "hospital-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-hospital-vs-tree-0611"
+  },
+  {
+   "slug": "sortera-bilder-insects-and-bugs-vs-flowers-24b8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-insects-and-bugs-vs-flowers-24b8"
+  },
+  {
+   "slug": "sortera-bilder-insects-and-bugs-vs-tree-90f2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-insects-and-bugs-vs-tree-90f2"
+  },
+  {
+   "slug": "sortera-bilder-kitchen-tools-vs-animals-2241",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-kitchen-tools-vs-animals-2241"
+  },
+  {
+   "slug": "sortera-bilder-kitchen-tools-vs-flowers-5f33",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-kitchen-tools-vs-flowers-5f33"
+  },
+  {
+   "slug": "sortera-bilder-kitchen-tools-vs-tree-ebd7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-kitchen-tools-vs-tree-ebd7"
+  },
+  {
+   "slug": "sortera-bilder-music-vs-animals-a510",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-music-vs-animals-a510"
+  },
+  {
+   "slug": "sortera-bilder-music-vs-flowers-d4a9",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-music-vs-flowers-d4a9"
+  },
+  {
+   "slug": "sortera-bilder-music-vs-tree-e81c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-music-vs-tree-e81c"
+  },
+  {
+   "slug": "sortera-bilder-occupations-vs-animals-0d8d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-occupations-vs-animals-0d8d"
+  },
+  {
+   "slug": "sortera-bilder-occupations-vs-flowers-c794",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-occupations-vs-flowers-c794"
+  },
+  {
+   "slug": "sortera-bilder-occupations-vs-tree-6630",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-occupations-vs-tree-6630"
+  },
+  {
+   "slug": "sortera-bilder-ocean-life-vs-flowers-5694",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "ocean_life-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-ocean-life-vs-flowers-5694"
+  },
+  {
+   "slug": "sortera-bilder-ocean-life-vs-tree-c5f3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "ocean_life-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-ocean-life-vs-tree-c5f3"
+  },
+  {
+   "slug": "sortera-bilder-pets-vs-flowers-3dd4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "pets-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-pets-vs-flowers-3dd4"
+  },
+  {
+   "slug": "sortera-bilder-pets-vs-tree-67a0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "pets-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-pets-vs-tree-67a0"
+  },
+  {
+   "slug": "sortera-bilder-post-office-vs-animals-6675",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "post_office-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-post-office-vs-animals-6675"
+  },
+  {
+   "slug": "sortera-bilder-post-office-vs-flowers-37e5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "post_office-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-post-office-vs-flowers-37e5"
+  },
+  {
+   "slug": "sortera-bilder-post-office-vs-tree-fcfa",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "post_office-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-post-office-vs-tree-fcfa"
+  },
+  {
+   "slug": "sortera-bilder-reptiles-and-amphibians-vs-flowers-7abd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "reptiles_and_amphibians-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-reptiles-and-amphibians-vs-flowers-7abd"
+  },
+  {
+   "slug": "sortera-bilder-reptiles-and-amphibians-vs-tree-1e80",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "reptiles_and_amphibians-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-reptiles-and-amphibians-vs-tree-1e80"
+  },
+  {
+   "slug": "sortera-bilder-shapes-vs-animals-7008",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "shapes-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-shapes-vs-animals-7008"
+  },
+  {
+   "slug": "sortera-bilder-shapes-vs-flowers-c1f4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "shapes-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-shapes-vs-flowers-c1f4"
+  },
+  {
+   "slug": "sortera-bilder-shapes-vs-tree-6d9f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "shapes-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-shapes-vs-tree-6d9f"
+  },
+  {
+   "slug": "sortera-bilder-space-vs-animals-3978",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "space-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-space-vs-animals-3978"
+  },
+  {
+   "slug": "sortera-bilder-space-vs-flowers-f83d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "space-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-space-vs-flowers-f83d"
+  },
+  {
+   "slug": "sortera-bilder-space-vs-tree-dae8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "space-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-space-vs-tree-dae8"
+  },
+  {
+   "slug": "sortera-bilder-spring-vs-tree-c977",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "spring-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-spring-vs-tree-c977"
+  },
+  {
+   "slug": "sortera-bilder-summer-vs-flowers-6923",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "summer-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-summer-vs-flowers-6923"
+  },
+  {
+   "slug": "sortera-bilder-summer-vs-tree-5dc8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "summer-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-summer-vs-tree-5dc8"
+  },
+  {
+   "slug": "sortera-bilder-thanksgivinng-vs-animals-7dce",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "thanksgivinng-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-thanksgivinng-vs-animals-7dce"
+  },
+  {
+   "slug": "sortera-bilder-thanksgivinng-vs-flowers-2add",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "thanksgivinng-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-thanksgivinng-vs-flowers-2add"
+  },
+  {
+   "slug": "sortera-bilder-thanksgivinng-vs-tree-4fb7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "thanksgivinng-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-thanksgivinng-vs-tree-4fb7"
+  },
+  {
+   "slug": "sortera-bilder-things-that-fly-vs-flowers-2178",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "things_that_fly-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-things-that-fly-vs-flowers-2178"
+  },
+  {
+   "slug": "sortera-bilder-things-that-fly-vs-tree-4007",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "things_that_fly-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-things-that-fly-vs-tree-4007"
+  },
+  {
+   "slug": "sortera-bilder-tools-vs-animals-9b19",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "tools-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-tools-vs-animals-9b19"
+  },
+  {
+   "slug": "sortera-bilder-tools-vs-flowers-cc02",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "tools-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-tools-vs-flowers-cc02"
+  },
+  {
+   "slug": "sortera-bilder-tools-vs-tree-25c3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "tools-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-tools-vs-tree-25c3"
+  },
+  {
+   "slug": "sortera-bilder-toys-vs-animals-c789",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "toys-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-toys-vs-animals-c789"
+  },
+  {
+   "slug": "sortera-bilder-toys-vs-flowers-ab50",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "toys-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-toys-vs-flowers-ab50"
+  },
+  {
+   "slug": "sortera-bilder-toys-vs-tree-d943",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "toys-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-toys-vs-tree-d943"
+  },
+  {
+   "slug": "sortera-bilder-tree-vs-animals-f635",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "tree-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-tree-vs-animals-f635"
+  },
+  {
+   "slug": "sortera-bilder-tree-vs-flowers-133d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "tree-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-tree-vs-flowers-133d"
+  },
+  {
+   "slug": "sortera-bilder-vegetables-vs-animals-2469",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "vegetables-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-vegetables-vs-animals-2469"
+  },
+  {
+   "slug": "sortera-bilder-vegetables-vs-flowers-baa4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "vegetables-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-vegetables-vs-flowers-baa4"
+  },
+  {
+   "slug": "sortera-bilder-vegetables-vs-tree-1dbe",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "vegetables-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-vegetables-vs-tree-1dbe"
+  },
+  {
+   "slug": "sortera-bilder-vehicles-vs-animals-6978",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "vehicles-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-vehicles-vs-animals-6978"
+  },
+  {
+   "slug": "sortera-bilder-vehicles-vs-flowers-f326",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "vehicles-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-vehicles-vs-flowers-f326"
+  },
+  {
+   "slug": "sortera-bilder-vehicles-vs-tree-b0a3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "vehicles-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-vehicles-vs-tree-b0a3"
+  },
+  {
+   "slug": "sortera-bilder-weather-vs-animals-9e0c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "weather-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-weather-vs-animals-9e0c"
+  },
+  {
+   "slug": "sortera-bilder-weather-vs-flowers-1361",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "weather-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-weather-vs-flowers-1361"
+  },
+  {
+   "slug": "sortera-bilder-weather-vs-tree-910e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "weather-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-weather-vs-tree-910e"
+  },
+  {
+   "slug": "sortera-bilder-winter-vs-flowers-bc26",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "winter-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-winter-vs-flowers-bc26"
+  },
+  {
+   "slug": "sortera-bilder-winter-vs-tree-d7d8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "winter-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-winter-vs-tree-d7d8"
+  },
+  {
+   "slug": "sortera-bilder-zoo-animals-vs-flowers-84e2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "zoo_animals-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-zoo-animals-vs-flowers-84e2"
+  },
+  {
+   "slug": "sortera-bilder-zoo-animals-vs-tree-ce64",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "zoo_animals-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-zoo-animals-vs-tree-ce64"
+  }
+ ]
+}

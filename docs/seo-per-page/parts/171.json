@@ -1,0 +1,796 @@
+{
+ "part": 171,
+ "locale": "it",
+ "classes": [
+  "pattern-train::aab",
+  "pattern-train::aabb"
+ ],
+ "splitOf": null,
+ "count": 98,
+ "pages": [
+  {
+   "slug": "treno-dei-modelli-aab-abbigliamento-4ee4",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-abbigliamento-4ee4"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-accessori-3949",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-accessori-3949"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-al-supermercato-117c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-al-supermercato-117c"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-alberi-1296",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-alberi-1296"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-animali-0f49",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-animali-0f49"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-animali-della-fattoria-0f08",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-animali-della-fattoria-0f08"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-animali-dello-zoo-b9e3",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-animali-dello-zoo-b9e3"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-animali-domestici-740d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-animali-domestici-740d"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-attivita-c5a7",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-attivita-c5a7"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-attrezzi-4098",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-attrezzi-4098"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-aula-8003",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-aula-8003"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-campeggio-912b",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-campeggio-912b"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-colazione-7ce0",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-colazione-7ce0"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-colori-0b25",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-colori-0b25"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-cose-che-volano-2009",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-cose-che-volano-2009"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-creature-della-foresta-340c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-creature-della-foresta-340c"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-dinosauri-8816",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-dinosauri-8816"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-dolci-e-dolciumi-55f6",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-dolci-e-dolciumi-55f6"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-emozioni-104c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-emozioni-104c"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-estate-aae9",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-estate-aae9"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-fiori-cd8f",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-fiori-cd8f"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-forme-b4af",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-forme-b4af"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-frutta-36e6",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-frutta-36e6"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-giocattoli-8afe",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-giocattoli-8afe"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-giorno-del-ringraziamento-09f5",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-giorno-del-ringraziamento-09f5"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-in-giro-per-casa-ad5f",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-in-giro-per-casa-ad5f"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-insetti-e-scarafaggi-e8d0",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-insetti-e-scarafaggi-e8d0"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-inverno-608a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-inverno-608a"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-meteo-0435",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-meteo-0435"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-mobili-7109",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-mobili-7109"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-musica-385c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-musica-385c"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-natale-d781",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-natale-d781"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-ospedale-6fa9",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-ospedale-6fa9"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-panetteria-c808",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-panetteria-c808"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-parti-del-corpo-ba37",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-parti-del-corpo-ba37"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-pasqua-600f",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-pasqua-600f"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-primavera-3c19",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-primavera-3c19"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-professioni-2b9d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-professioni-2b9d"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-rettili-e-anfibi-340f",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-rettili-e-anfibi-340f"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-spazio-d92b",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-spazio-d92b"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-spiaggia-ff1a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-spiaggia-ff1a"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-uccelli-2-4b2c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-uccelli-2-4b2c"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-uccelli-e24e",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-uccelli-e24e"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-ufficio-postale-7681",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-ufficio-postale-7681"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-utensili-da-cucina-7a90",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-utensili-da-cucina-7a90"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-varie-a1cc",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "miscellaneous",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-varie-a1cc"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-veicoli-517e",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-veicoli-517e"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-verdure-7b12",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-verdure-7b12"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-vita-oceanica-3bc3",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-vita-oceanica-3bc3"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-abbigliamento-807c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-abbigliamento-807c"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-accessori-d5fe",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-accessori-d5fe"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-al-supermercato-4ced",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-al-supermercato-4ced"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-alberi-a673",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-alberi-a673"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-animali-della-fattoria-657b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-animali-della-fattoria-657b"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-animali-dello-zoo-f391",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-animali-dello-zoo-f391"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-animali-domestici-2b87",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-animali-domestici-2b87"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-animali-e402",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-animali-e402"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-attivita-2ed2",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-attivita-2ed2"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-attrezzi-2f35",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-attrezzi-2f35"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-aula-2597",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-aula-2597"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-campeggio-0164",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-campeggio-0164"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-colazione-a7da",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-colazione-a7da"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-colori-be3a",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-colori-be3a"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-cose-che-volano-0ef3",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-cose-che-volano-0ef3"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-creature-della-foresta-e986",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-creature-della-foresta-e986"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-dinosauri-b5c1",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-dinosauri-b5c1"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-dolci-e-dolciumi-f482",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-dolci-e-dolciumi-f482"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-emozioni-8ff3",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-emozioni-8ff3"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-estate-85f9",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-estate-85f9"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-fiori-7faa",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-fiori-7faa"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-forme-4d35",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-forme-4d35"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-frutta-9938",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-frutta-9938"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-giocattoli-f620",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-giocattoli-f620"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-giorno-del-ringraziamento-83d9",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-giorno-del-ringraziamento-83d9"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-in-giro-per-casa-cbce",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-in-giro-per-casa-cbce"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-insetti-e-scarafaggi-5d48",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-insetti-e-scarafaggi-5d48"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-inverno-c0a7",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-inverno-c0a7"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-meteo-5dc9",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-meteo-5dc9"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-mobili-3bf1",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-mobili-3bf1"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-musica-775e",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-musica-775e"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-natale-a46e",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-natale-a46e"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-ospedale-40f1",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-ospedale-40f1"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-panetteria-4ef7",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-panetteria-4ef7"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-parti-del-corpo-904f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-parti-del-corpo-904f"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-pasqua-13a2",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-pasqua-13a2"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-primavera-3256",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-primavera-3256"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-professioni-e0cf",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-professioni-e0cf"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-rettili-e-anfibi-e0ba",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-rettili-e-anfibi-e0ba"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-spazio-31b9",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-spazio-31b9"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-spiaggia-321c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-spiaggia-321c"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-uccelli-2-ae80",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-uccelli-2-ae80"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-uccelli-86c7",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-uccelli-86c7"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-ufficio-postale-7e40",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-ufficio-postale-7e40"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-utensili-da-cucina-592f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-utensili-da-cucina-592f"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-varie-eca8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "miscellaneous",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-varie-eca8"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-veicoli-e97e",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-veicoli-e97e"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-verdure-2d07",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-verdure-2d07"
+  },
+  {
+   "slug": "treno-dei-modelli-aabb-vita-oceanica-9821",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aabb-vita-oceanica-9821"
+  }
+ ]
+}

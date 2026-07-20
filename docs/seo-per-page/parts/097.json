@@ -1,0 +1,716 @@
+{
+ "part": 97,
+ "locale": "es",
+ "classes": [
+  "subtraction::cross-out",
+  "chart-count::null"
+ ],
+ "splitOf": null,
+ "count": 88,
+ "pages": [
+  {
+   "slug": "resta-tachar-4-de-julio-551b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "resta-tachar-4-de-julio-551b"
+  },
+  {
+   "slug": "resta-tachar-accesorios-a38e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "resta-tachar-accesorios-a38e"
+  },
+  {
+   "slug": "resta-tachar-actividades-204d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "resta-tachar-actividades-204d"
+  },
+  {
+   "slug": "resta-tachar-animales-dec7",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "resta-tachar-animales-dec7"
+  },
+  {
+   "slug": "resta-tachar-arboles-4281",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "resta-tachar-arboles-4281"
+  },
+  {
+   "slug": "resta-tachar-aves-2-4026",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "resta-tachar-aves-2-4026"
+  },
+  {
+   "slug": "resta-tachar-aves-e2e3",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "resta-tachar-aves-e2e3"
+  },
+  {
+   "slug": "resta-tachar-campamento-c259",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "resta-tachar-campamento-c259"
+  },
+  {
+   "slug": "resta-tachar-clima-27ad",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "resta-tachar-clima-27ad"
+  },
+  {
+   "slug": "resta-tachar-colores-d02c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "resta-tachar-colores-d02c"
+  },
+  {
+   "slug": "resta-tachar-cosas-que-vuelan-98b3",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "resta-tachar-cosas-que-vuelan-98b3"
+  },
+  {
+   "slug": "resta-tachar-criaturas-del-bosque-37b0",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "resta-tachar-criaturas-del-bosque-37b0"
+  },
+  {
+   "slug": "resta-tachar-criaturas-del-bosque-8cd4",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "resta-tachar-criaturas-del-bosque-8cd4"
+  },
+  {
+   "slug": "resta-tachar-desayuno-923a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "resta-tachar-desayuno-923a"
+  },
+  {
+   "slug": "resta-tachar-dia-de-accion-de-gracias-c0f5",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "thanksgivinng",
+   "level": "primer-grado",
+   "deck": "resta-tachar-dia-de-accion-de-gracias-c0f5"
+  },
+  {
+   "slug": "resta-tachar-dinosaurios-d619",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "resta-tachar-dinosaurios-d619"
+  },
+  {
+   "slug": "resta-tachar-emociones-7c11",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "resta-tachar-emociones-7c11"
+  },
+  {
+   "slug": "resta-tachar-en-el-supermercado-4ba9",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "resta-tachar-en-el-supermercado-4ba9"
+  },
+  {
+   "slug": "resta-tachar-espacio-cb27",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "resta-tachar-espacio-cb27"
+  },
+  {
+   "slug": "resta-tachar-flores-ca69",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "resta-tachar-flores-ca69"
+  },
+  {
+   "slug": "resta-tachar-formas-c087",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "resta-tachar-formas-c087"
+  },
+  {
+   "slug": "resta-tachar-frutas-0c7c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "resta-tachar-frutas-0c7c"
+  },
+  {
+   "slug": "resta-tachar-herramientas-1813",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "resta-tachar-herramientas-1813"
+  },
+  {
+   "slug": "resta-tachar-hospital-8411",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "resta-tachar-hospital-8411"
+  },
+  {
+   "slug": "resta-tachar-invierno-716d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "resta-tachar-invierno-716d"
+  },
+  {
+   "slug": "resta-tachar-juguetes-009e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "resta-tachar-juguetes-009e"
+  },
+  {
+   "slug": "resta-tachar-mascotas-9ceb",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "resta-tachar-mascotas-9ceb"
+  },
+  {
+   "slug": "resta-tachar-miscelaneo-f89a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "resta-tachar-miscelaneo-f89a"
+  },
+  {
+   "slug": "resta-tachar-muebles-a6d4",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "resta-tachar-muebles-a6d4"
+  },
+  {
+   "slug": "resta-tachar-musica-2adb",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "resta-tachar-musica-2adb"
+  },
+  {
+   "slug": "resta-tachar-navidad-413a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "resta-tachar-navidad-413a"
+  },
+  {
+   "slug": "resta-tachar-ocupaciones-dbf0",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "resta-tachar-ocupaciones-dbf0"
+  },
+  {
+   "slug": "resta-tachar-oficina-de-correos-273b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "resta-tachar-oficina-de-correos-273b"
+  },
+  {
+   "slug": "resta-tachar-panaderia-fd3c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "resta-tachar-panaderia-fd3c"
+  },
+  {
+   "slug": "resta-tachar-partes-del-cuerpo-afc9",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "resta-tachar-partes-del-cuerpo-afc9"
+  },
+  {
+   "slug": "resta-tachar-pascua-7995",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "resta-tachar-pascua-7995"
+  },
+  {
+   "slug": "resta-tachar-playa-d4cc",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "resta-tachar-playa-d4cc"
+  },
+  {
+   "slug": "resta-tachar-postres-y-dulces-103d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "resta-tachar-postres-y-dulces-103d"
+  },
+  {
+   "slug": "resta-tachar-ropa-e18b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "resta-tachar-ropa-e18b"
+  },
+  {
+   "slug": "resta-tachar-salon-de-clases-b09e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "resta-tachar-salon-de-clases-b09e"
+  },
+  {
+   "slug": "resta-tachar-utensilios-de-cocina-d874",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "resta-tachar-utensilios-de-cocina-d874"
+  },
+  {
+   "slug": "resta-tachar-vehiculos-ecbf",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "resta-tachar-vehiculos-ecbf"
+  },
+  {
+   "slug": "resta-tachar-verano-0739",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "resta-tachar-verano-0739"
+  },
+  {
+   "slug": "resta-tachar-verduras-b222",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "resta-tachar-verduras-b222"
+  },
+  {
+   "slug": "resta-tachar-vida-marina-9916",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "resta-tachar-vida-marina-9916"
+  },
+  {
+   "slug": "contar-en-grafico-4-de-julio",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-4-de-julio"
+  },
+  {
+   "slug": "contar-en-grafico-accesorios",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-accesorios"
+  },
+  {
+   "slug": "contar-en-grafico-alrededor-de-la-casa",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-alrededor-de-la-casa"
+  },
+  {
+   "slug": "contar-en-grafico-animales",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-animales"
+  },
+  {
+   "slug": "contar-en-grafico-animales-de-granja",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-animales-de-granja"
+  },
+  {
+   "slug": "contar-en-grafico-animales-del-zoologico",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-animales-del-zoologico"
+  },
+  {
+   "slug": "contar-en-grafico-arboles",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-arboles"
+  },
+  {
+   "slug": "contar-en-grafico-aves",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-aves"
+  },
+  {
+   "slug": "contar-en-grafico-aves-2",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-aves-2"
+  },
+  {
+   "slug": "contar-en-grafico-campamento",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-campamento"
+  },
+  {
+   "slug": "contar-en-grafico-colores",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-colores"
+  },
+  {
+   "slug": "contar-en-grafico-cosas-que-vuelan",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-cosas-que-vuelan"
+  },
+  {
+   "slug": "contar-en-grafico-criaturas-del-bosque",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-criaturas-del-bosque"
+  },
+  {
+   "slug": "contar-en-grafico-desayuno",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-desayuno"
+  },
+  {
+   "slug": "contar-en-grafico-dia-de-accion-de-gracias",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-dia-de-accion-de-gracias"
+  },
+  {
+   "slug": "contar-en-grafico-dinosaurios",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-dinosaurios"
+  },
+  {
+   "slug": "contar-en-grafico-en-el-supermercado",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-en-el-supermercado"
+  },
+  {
+   "slug": "contar-en-grafico-espacio",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-espacio"
+  },
+  {
+   "slug": "contar-en-grafico-flores",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-flores"
+  },
+  {
+   "slug": "contar-en-grafico-formas",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-formas"
+  },
+  {
+   "slug": "contar-en-grafico-frutas",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-frutas"
+  },
+  {
+   "slug": "contar-en-grafico-herramientas",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-herramientas"
+  },
+  {
+   "slug": "contar-en-grafico-hospital",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-hospital"
+  },
+  {
+   "slug": "contar-en-grafico-insectos-y-bichos",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-insectos-y-bichos"
+  },
+  {
+   "slug": "contar-en-grafico-juguetes",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-juguetes"
+  },
+  {
+   "slug": "contar-en-grafico-mascotas",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-mascotas"
+  },
+  {
+   "slug": "contar-en-grafico-miscelaneo",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-miscelaneo"
+  },
+  {
+   "slug": "contar-en-grafico-muebles",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-muebles"
+  },
+  {
+   "slug": "contar-en-grafico-musica",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-musica"
+  },
+  {
+   "slug": "contar-en-grafico-navidad",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-navidad"
+  },
+  {
+   "slug": "contar-en-grafico-ocupaciones",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-ocupaciones"
+  },
+  {
+   "slug": "contar-en-grafico-oficina-de-correos",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-oficina-de-correos"
+  },
+  {
+   "slug": "contar-en-grafico-panaderia",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-panaderia"
+  },
+  {
+   "slug": "contar-en-grafico-pascua",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-pascua"
+  },
+  {
+   "slug": "contar-en-grafico-playa",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-playa"
+  },
+  {
+   "slug": "contar-en-grafico-postres-y-dulces",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-postres-y-dulces"
+  },
+  {
+   "slug": "contar-en-grafico-reptiles-y-anfibios",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-reptiles-y-anfibios"
+  },
+  {
+   "slug": "contar-en-grafico-ropa",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-ropa"
+  },
+  {
+   "slug": "contar-en-grafico-salon-de-clases",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-salon-de-clases"
+  },
+  {
+   "slug": "contar-en-grafico-utensilios-de-cocina",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-utensilios-de-cocina"
+  },
+  {
+   "slug": "contar-en-grafico-vehiculos",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-vehiculos"
+  },
+  {
+   "slug": "contar-en-grafico-verduras",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-verduras"
+  },
+  {
+   "slug": "contar-en-grafico-vida-marina",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-vida-marina"
+  }
+ ]
+}

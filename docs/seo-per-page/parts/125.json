@@ -1,0 +1,676 @@
+{
+ "part": 125,
+ "locale": "pt",
+ "classes": [
+  "sudoku::medium",
+  "addition::find-addend"
+ ],
+ "splitOf": null,
+ "count": 83,
+ "pages": [
+  {
+   "slug": "sudoku-ilustrado-medio-0406",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-0406"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-0423",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-0423"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-0905",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-0905"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-1889",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-1889"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-18fb",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-18fb"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-199e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-199e"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-2750",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-2750"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-2c1e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-2c1e"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-3a68",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-3a68"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-3d22",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-3d22"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-415d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-415d"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-46a8",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-46a8"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-4ca8",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-4ca8"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-5c81",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-5c81"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-5f13",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-5f13"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-6590",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-6590"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-6723",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-6723"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-67ae",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-67ae"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-6a81",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-6a81"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-7fff",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-7fff"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-825e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-825e"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-83a2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-83a2"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-8e04",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-8e04"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-902b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-902b"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-97b5",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-97b5"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-9a0a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-9a0a"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-9c1a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-9c1a"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-a287",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-a287"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-a952",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-a952"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-ae83",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-ae83"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-af08",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-af08"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-afc1",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-afc1"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-b635",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-b635"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-b92a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-b92a"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-b9ea",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-b9ea"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-c593",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-c593"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-e41b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-e41b"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-e704",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-e704"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-ea5e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-ea5e"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-eaa7",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-eaa7"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-f10d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-f10d"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-f637",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-f637"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-acampamento-9bc3",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-acampamento-9bc3"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-acessorios-6b9a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-acessorios-6b9a"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-animais-6165",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-animais-6165"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-animais-da-fazenda-a793",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-animais-da-fazenda-a793"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-animais-de-estimacao-6f94",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-animais-de-estimacao-6f94"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-animais-do-zoologico-6ba9",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-animais-do-zoologico-6ba9"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-arvores-6567",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-arvores-6567"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-brinquedos-6201",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-brinquedos-6201"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-cafe-da-manha-c4aa",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-cafe-da-manha-c4aa"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-coisas-que-voam-764d",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-coisas-que-voam-764d"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-correios-2a80",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-correios-2a80"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-criaturas-da-floresta-99a3",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-criaturas-da-floresta-99a3"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-dia-de-acao-de-gracas-36b1",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-dia-de-acao-de-gracas-36b1"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-dinossauros-61f4",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-dinossauros-61f4"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-diversos-1588",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-diversos-1588"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-espaco-25f0",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-espaco-25f0"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-ferramentas-4828",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-ferramentas-4828"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-flores-ebae",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-flores-ebae"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-formas-464d",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-formas-464d"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-frutas-abf2",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-frutas-abf2"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-hospital-2b69",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-hospital-2b69"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-insetos-e-bichos-3b97",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-insetos-e-bichos-3b97"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-moveis-93c2",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-moveis-93c2"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-musica-d70c",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-musica-d70c"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-natal-26ac",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-natal-26ac"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-no-supermercado-bdd9",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-no-supermercado-bdd9"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-padaria-9eaf",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-padaria-9eaf"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-pascoa-f52e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-pascoa-f52e"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-passaros-2-08f9",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-passaros-2-08f9"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-passaros-9ab5",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-passaros-9ab5"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-pela-casa-6fad",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-pela-casa-6fad"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-praia-d7de",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-praia-d7de"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-profissoes-9fb3",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-profissoes-9fb3"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-repteis-e-anfibios-b877",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-repteis-e-anfibios-b877"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-roupas-8443",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-roupas-8443"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-sala-de-aula-670c",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-sala-de-aula-670c"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-sobremesas-e-doces-c49e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-sobremesas-e-doces-c49e"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-utensilios-de-cozinha-b53e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-utensilios-de-cozinha-b53e"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-vegetais-a0e9",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-vegetais-a0e9"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-veiculos-b606",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-veiculos-b606"
+  },
+  {
+   "slug": "adicao-encontre-o-termo-vida-marinha-0957",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-vida-marinha-0957"
+  }
+ ]
+}

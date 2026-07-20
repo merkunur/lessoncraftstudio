@@ -1,0 +1,747 @@
+{
+ "part": 294,
+ "locale": "no",
+ "classes": [
+  "matching::name"
+ ],
+ "splitOf": null,
+ "count": 92,
+ "pages": [
+  {
+   "slug": "engelsk-matching-navn-4-juli-5869",
+   "type": "matching",
+   "mode": "name",
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-4-juli-5869"
+  },
+  {
+   "slug": "engelsk-matching-navn-aktiviteter-0eae",
+   "type": "matching",
+   "mode": "name",
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-aktiviteter-0eae"
+  },
+  {
+   "slug": "engelsk-matching-navn-bakeri-019a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-bakeri-019a"
+  },
+  {
+   "slug": "engelsk-matching-navn-blomster-43b3",
+   "type": "matching",
+   "mode": "name",
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-blomster-43b3"
+  },
+  {
+   "slug": "engelsk-matching-navn-camping-a900",
+   "type": "matching",
+   "mode": "name",
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-camping-a900"
+  },
+  {
+   "slug": "engelsk-matching-navn-desserter-og-godteri-ee44",
+   "type": "matching",
+   "mode": "name",
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-desserter-og-godteri-ee44"
+  },
+  {
+   "slug": "engelsk-matching-navn-dyr-33a7",
+   "type": "matching",
+   "mode": "name",
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-dyr-33a7"
+  },
+  {
+   "slug": "engelsk-matching-navn-dyrehagedyr-c486",
+   "type": "matching",
+   "mode": "name",
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-dyrehagedyr-c486"
+  },
+  {
+   "slug": "engelsk-matching-navn-farger-33db",
+   "type": "matching",
+   "mode": "name",
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-farger-33db"
+  },
+  {
+   "slug": "engelsk-matching-navn-folelser-4ed4",
+   "type": "matching",
+   "mode": "name",
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-folelser-4ed4"
+  },
+  {
+   "slug": "engelsk-matching-navn-former-4fc2",
+   "type": "matching",
+   "mode": "name",
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-former-4fc2"
+  },
+  {
+   "slug": "engelsk-matching-navn-frokost-3178",
+   "type": "matching",
+   "mode": "name",
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-frokost-3178"
+  },
+  {
+   "slug": "engelsk-matching-navn-frukter-baa2",
+   "type": "matching",
+   "mode": "name",
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-frukter-baa2"
+  },
+  {
+   "slug": "engelsk-matching-navn-fugler-2-bc13",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-fugler-2-bc13"
+  },
+  {
+   "slug": "engelsk-matching-navn-fugler-22d8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-fugler-22d8"
+  },
+  {
+   "slug": "engelsk-matching-navn-gardsdyr-e7be",
+   "type": "matching",
+   "mode": "name",
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-gardsdyr-e7be"
+  },
+  {
+   "slug": "engelsk-matching-navn-gronnsaker-21f8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-gronnsaker-21f8"
+  },
+  {
+   "slug": "engelsk-matching-navn-havliv-7ff4",
+   "type": "matching",
+   "mode": "name",
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-havliv-7ff4"
+  },
+  {
+   "slug": "engelsk-matching-navn-i-supermarkedet-8231",
+   "type": "matching",
+   "mode": "name",
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-i-supermarkedet-8231"
+  },
+  {
+   "slug": "engelsk-matching-navn-insekter-og-kryp-cdad",
+   "type": "matching",
+   "mode": "name",
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-insekter-og-kryp-cdad"
+  },
+  {
+   "slug": "engelsk-matching-navn-jul-cb87",
+   "type": "matching",
+   "mode": "name",
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-jul-cb87"
+  },
+  {
+   "slug": "engelsk-matching-navn-kjaeledyr-2db0",
+   "type": "matching",
+   "mode": "name",
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-kjaeledyr-2db0"
+  },
+  {
+   "slug": "engelsk-matching-navn-kjokkenredskaper-ebdd",
+   "type": "matching",
+   "mode": "name",
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-kjokkenredskaper-ebdd"
+  },
+  {
+   "slug": "engelsk-matching-navn-kjoretoy-f8e3",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-kjoretoy-f8e3"
+  },
+  {
+   "slug": "engelsk-matching-navn-klaer-e6ee",
+   "type": "matching",
+   "mode": "name",
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-klaer-e6ee"
+  },
+  {
+   "slug": "engelsk-matching-navn-klasserom-df82",
+   "type": "matching",
+   "mode": "name",
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-klasserom-df82"
+  },
+  {
+   "slug": "engelsk-matching-navn-kroppsdeler-310a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-kroppsdeler-310a"
+  },
+  {
+   "slug": "engelsk-matching-navn-leker-1a43",
+   "type": "matching",
+   "mode": "name",
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-leker-1a43"
+  },
+  {
+   "slug": "engelsk-matching-navn-mobler-46be",
+   "type": "matching",
+   "mode": "name",
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-mobler-46be"
+  },
+  {
+   "slug": "engelsk-matching-navn-musikk-09a8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-musikk-09a8"
+  },
+  {
+   "slug": "engelsk-matching-navn-paske-0912",
+   "type": "matching",
+   "mode": "name",
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-paske-0912"
+  },
+  {
+   "slug": "engelsk-matching-navn-postkontor-026c",
+   "type": "matching",
+   "mode": "name",
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-postkontor-026c"
+  },
+  {
+   "slug": "engelsk-matching-navn-reptiler-og-amfibier-c78c",
+   "type": "matching",
+   "mode": "name",
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-reptiler-og-amfibier-c78c"
+  },
+  {
+   "slug": "engelsk-matching-navn-rundt-i-huset-3a00",
+   "type": "matching",
+   "mode": "name",
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-rundt-i-huset-3a00"
+  },
+  {
+   "slug": "engelsk-matching-navn-skogsdyr-0b19",
+   "type": "matching",
+   "mode": "name",
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-skogsdyr-0b19"
+  },
+  {
+   "slug": "engelsk-matching-navn-sommer-7f2b",
+   "type": "matching",
+   "mode": "name",
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-sommer-7f2b"
+  },
+  {
+   "slug": "engelsk-matching-navn-strand-ae1f",
+   "type": "matching",
+   "mode": "name",
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-strand-ae1f"
+  },
+  {
+   "slug": "engelsk-matching-navn-sykehus-835d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-sykehus-835d"
+  },
+  {
+   "slug": "engelsk-matching-navn-thanksgiving-362b",
+   "type": "matching",
+   "mode": "name",
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-thanksgiving-362b"
+  },
+  {
+   "slug": "engelsk-matching-navn-tilbehor-d092",
+   "type": "matching",
+   "mode": "name",
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-tilbehor-d092"
+  },
+  {
+   "slug": "engelsk-matching-navn-ting-som-flyr-17b7",
+   "type": "matching",
+   "mode": "name",
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-ting-som-flyr-17b7"
+  },
+  {
+   "slug": "engelsk-matching-navn-vaer-21a7",
+   "type": "matching",
+   "mode": "name",
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-vaer-21a7"
+  },
+  {
+   "slug": "engelsk-matching-navn-var-7d8c",
+   "type": "matching",
+   "mode": "name",
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-var-7d8c"
+  },
+  {
+   "slug": "engelsk-matching-navn-verdensrommet-a707",
+   "type": "matching",
+   "mode": "name",
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-verdensrommet-a707"
+  },
+  {
+   "slug": "engelsk-matching-navn-verktoy-af1c",
+   "type": "matching",
+   "mode": "name",
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-verktoy-af1c"
+  },
+  {
+   "slug": "engelsk-matching-navn-vinter-68e5",
+   "type": "matching",
+   "mode": "name",
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-vinter-68e5"
+  },
+  {
+   "slug": "engelsk-matching-navn-yrker-ae3c",
+   "type": "matching",
+   "mode": "name",
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-yrker-ae3c"
+  },
+  {
+   "slug": "matching-navn-aktiviteter-0366",
+   "type": "matching",
+   "mode": "name",
+   "theme": "activities",
+   "level": "2-trinn",
+   "deck": "matching-navn-aktiviteter-0366"
+  },
+  {
+   "slug": "matching-navn-bakeri-ff7b",
+   "type": "matching",
+   "mode": "name",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "matching-navn-bakeri-ff7b"
+  },
+  {
+   "slug": "matching-navn-blomster-ceb5",
+   "type": "matching",
+   "mode": "name",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "matching-navn-blomster-ceb5"
+  },
+  {
+   "slug": "matching-navn-camping-205a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "matching-navn-camping-205a"
+  },
+  {
+   "slug": "matching-navn-desserter-og-godteri-9499",
+   "type": "matching",
+   "mode": "name",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "matching-navn-desserter-og-godteri-9499"
+  },
+  {
+   "slug": "matching-navn-dyr-252c",
+   "type": "matching",
+   "mode": "name",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "matching-navn-dyr-252c"
+  },
+  {
+   "slug": "matching-navn-dyrehagedyr-0bbe",
+   "type": "matching",
+   "mode": "name",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "matching-navn-dyrehagedyr-0bbe"
+  },
+  {
+   "slug": "matching-navn-farger-ff5e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "colors",
+   "level": "2-trinn",
+   "deck": "matching-navn-farger-ff5e"
+  },
+  {
+   "slug": "matching-navn-folelser-3734",
+   "type": "matching",
+   "mode": "name",
+   "theme": "emotions",
+   "level": "2-trinn",
+   "deck": "matching-navn-folelser-3734"
+  },
+  {
+   "slug": "matching-navn-former-02f8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "matching-navn-former-02f8"
+  },
+  {
+   "slug": "matching-navn-frokost-92b6",
+   "type": "matching",
+   "mode": "name",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "matching-navn-frokost-92b6"
+  },
+  {
+   "slug": "matching-navn-frukter-f3c3",
+   "type": "matching",
+   "mode": "name",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "matching-navn-frukter-f3c3"
+  },
+  {
+   "slug": "matching-navn-fugler-2-3632",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "matching-navn-fugler-2-3632"
+  },
+  {
+   "slug": "matching-navn-fugler-f710",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "matching-navn-fugler-f710"
+  },
+  {
+   "slug": "matching-navn-gardsdyr-b7b4",
+   "type": "matching",
+   "mode": "name",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "matching-navn-gardsdyr-b7b4"
+  },
+  {
+   "slug": "matching-navn-gronnsaker-88a6",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "matching-navn-gronnsaker-88a6"
+  },
+  {
+   "slug": "matching-navn-havliv-ea3c",
+   "type": "matching",
+   "mode": "name",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "matching-navn-havliv-ea3c"
+  },
+  {
+   "slug": "matching-navn-i-supermarkedet-036c",
+   "type": "matching",
+   "mode": "name",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "matching-navn-i-supermarkedet-036c"
+  },
+  {
+   "slug": "matching-navn-insekter-og-kryp-2162",
+   "type": "matching",
+   "mode": "name",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "matching-navn-insekter-og-kryp-2162"
+  },
+  {
+   "slug": "matching-navn-jul-b275",
+   "type": "matching",
+   "mode": "name",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "matching-navn-jul-b275"
+  },
+  {
+   "slug": "matching-navn-kjaeledyr-2cc5",
+   "type": "matching",
+   "mode": "name",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "matching-navn-kjaeledyr-2cc5"
+  },
+  {
+   "slug": "matching-navn-klaer-5c3e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "matching-navn-klaer-5c3e"
+  },
+  {
+   "slug": "matching-navn-klasserom-b655",
+   "type": "matching",
+   "mode": "name",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "matching-navn-klasserom-b655"
+  },
+  {
+   "slug": "matching-navn-kroppsdeler-e713",
+   "type": "matching",
+   "mode": "name",
+   "theme": "body_parts",
+   "level": "2-trinn",
+   "deck": "matching-navn-kroppsdeler-e713"
+  },
+  {
+   "slug": "matching-navn-leker-ee1c",
+   "type": "matching",
+   "mode": "name",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "matching-navn-leker-ee1c"
+  },
+  {
+   "slug": "matching-navn-mobler-cbb3",
+   "type": "matching",
+   "mode": "name",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "matching-navn-mobler-cbb3"
+  },
+  {
+   "slug": "matching-navn-musikk-c83f",
+   "type": "matching",
+   "mode": "name",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "matching-navn-musikk-c83f"
+  },
+  {
+   "slug": "matching-navn-paske-d6e4",
+   "type": "matching",
+   "mode": "name",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "matching-navn-paske-d6e4"
+  },
+  {
+   "slug": "matching-navn-postkontor-d5f3",
+   "type": "matching",
+   "mode": "name",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "matching-navn-postkontor-d5f3"
+  },
+  {
+   "slug": "matching-navn-reptiler-og-amfibier-65e4",
+   "type": "matching",
+   "mode": "name",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "matching-navn-reptiler-og-amfibier-65e4"
+  },
+  {
+   "slug": "matching-navn-rundt-i-huset-be12",
+   "type": "matching",
+   "mode": "name",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "matching-navn-rundt-i-huset-be12"
+  },
+  {
+   "slug": "matching-navn-skogsdyr-2b05",
+   "type": "matching",
+   "mode": "name",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "matching-navn-skogsdyr-2b05"
+  },
+  {
+   "slug": "matching-navn-sommer-14e2",
+   "type": "matching",
+   "mode": "name",
+   "theme": "summer",
+   "level": "2-trinn",
+   "deck": "matching-navn-sommer-14e2"
+  },
+  {
+   "slug": "matching-navn-strand-80df",
+   "type": "matching",
+   "mode": "name",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "matching-navn-strand-80df"
+  },
+  {
+   "slug": "matching-navn-sykehus-e533",
+   "type": "matching",
+   "mode": "name",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "matching-navn-sykehus-e533"
+  },
+  {
+   "slug": "matching-navn-thanksgiving-d3af",
+   "type": "matching",
+   "mode": "name",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "matching-navn-thanksgiving-d3af"
+  },
+  {
+   "slug": "matching-navn-tilbehor-8e18",
+   "type": "matching",
+   "mode": "name",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "matching-navn-tilbehor-8e18"
+  },
+  {
+   "slug": "matching-navn-ting-som-flyr-cd8d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "matching-navn-ting-som-flyr-cd8d"
+  },
+  {
+   "slug": "matching-navn-traer-4fec",
+   "type": "matching",
+   "mode": "name",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "matching-navn-traer-4fec"
+  },
+  {
+   "slug": "matching-navn-vaer-0dc3",
+   "type": "matching",
+   "mode": "name",
+   "theme": "weather",
+   "level": "2-trinn",
+   "deck": "matching-navn-vaer-0dc3"
+  },
+  {
+   "slug": "matching-navn-var-2d39",
+   "type": "matching",
+   "mode": "name",
+   "theme": "spring",
+   "level": "2-trinn",
+   "deck": "matching-navn-var-2d39"
+  },
+  {
+   "slug": "matching-navn-verdensrommet-da4b",
+   "type": "matching",
+   "mode": "name",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "matching-navn-verdensrommet-da4b"
+  },
+  {
+   "slug": "matching-navn-verktoy-81ec",
+   "type": "matching",
+   "mode": "name",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "matching-navn-verktoy-81ec"
+  },
+  {
+   "slug": "matching-navn-vinter-32cb",
+   "type": "matching",
+   "mode": "name",
+   "theme": "winter",
+   "level": "2-trinn",
+   "deck": "matching-navn-vinter-32cb"
+  },
+  {
+   "slug": "matching-navn-yrker-82a5",
+   "type": "matching",
+   "mode": "name",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "matching-navn-yrker-82a5"
+  }
+ ]
+}

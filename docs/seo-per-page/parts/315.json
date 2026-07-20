@@ -1,0 +1,652 @@
+{
+ "part": 315,
+ "locale": "no",
+ "classes": [
+  "more-less::image-number",
+  "subtraction::find-subtrahend"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "mer-mindre-bilde-tall-bakeri-adc7",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-bakeri-adc7"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-blomster-1f6b",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-blomster-1f6b"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-camping-a05f",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-camping-a05f"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-desserter-og-godteri-72af",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-desserter-og-godteri-72af"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-dinosaurer-454e",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-dinosaurer-454e"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-dyr-1611",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-dyr-1611"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-dyrehagedyr-0db0",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-dyrehagedyr-0db0"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-former-013f",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-former-013f"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-frokost-27b1",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-frokost-27b1"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-frukter-1d89",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-frukter-1d89"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-fugler-0c0c",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-fugler-0c0c"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-fugler-2-ce53",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-fugler-2-ce53"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-gardsdyr-0ebf",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-gardsdyr-0ebf"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-gronnsaker-a27f",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-gronnsaker-a27f"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-havliv-2f06",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-havliv-2f06"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-i-supermarkedet-4a55",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-i-supermarkedet-4a55"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-insekter-og-kryp-fb28",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-insekter-og-kryp-fb28"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-jul-1930",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-jul-1930"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-kjaeledyr-9fa3",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-kjaeledyr-9fa3"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-kjokkenredskaper-eca4",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-kjokkenredskaper-eca4"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-kjoretoy-3074",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-kjoretoy-3074"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-klaer-0838",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-klaer-0838"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-klasserom-eab3",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-klasserom-eab3"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-leker-ae35",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-leker-ae35"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-mobler-a67c",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-mobler-a67c"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-musikk-288e",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-musikk-288e"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-paske-26b3",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-paske-26b3"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-postkontor-9f9f",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-postkontor-9f9f"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-reptiler-og-amfibier-63a3",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-reptiler-og-amfibier-63a3"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-rundt-i-huset-1ed2",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-rundt-i-huset-1ed2"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-skogsdyr-d7ad",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-skogsdyr-d7ad"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-strand-639f",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-strand-639f"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-sykehus-5882",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-sykehus-5882"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-thanksgiving-5982",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-thanksgiving-5982"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-tilbehor-0f28",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-tilbehor-0f28"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-ting-som-flyr-6806",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-ting-som-flyr-6806"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-traer-03c8",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-traer-03c8"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-verdensrommet-1480",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-verdensrommet-1480"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-verktoy-55b1",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-verktoy-55b1"
+  },
+  {
+   "slug": "mer-mindre-bilde-tall-yrker-96de",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-tall-yrker-96de"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-bakeri-b073",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-bakeri-b073"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-blomster-b052",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-blomster-b052"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-camping-886d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-camping-886d"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-desserter-og-godteri-99d7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-desserter-og-godteri-99d7"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-dinosaurer-f31e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-dinosaurer-f31e"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-dyr-1359",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-dyr-1359"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-dyrehagedyr-00eb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-dyrehagedyr-00eb"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-former-88b5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-former-88b5"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-frokost-d9d1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-frokost-d9d1"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-frukter-5e41",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-frukter-5e41"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-fugler-2-b067",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-fugler-2-b067"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-fugler-c76a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-fugler-c76a"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-gardsdyr-7c93",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-gardsdyr-7c93"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-gronnsaker-107f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-gronnsaker-107f"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-havliv-01dd",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-havliv-01dd"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-i-supermarkedet-9188",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-i-supermarkedet-9188"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-insekter-og-kryp-0ff2",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-insekter-og-kryp-0ff2"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-jul-1a09",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-jul-1a09"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-kjaeledyr-b156",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-kjaeledyr-b156"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-kjokkenredskaper-9495",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-kjokkenredskaper-9495"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-kjoretoy-981a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-kjoretoy-981a"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-klaer-7c77",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-klaer-7c77"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-klasserom-9a5a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-klasserom-9a5a"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-leker-7f75",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-leker-7f75"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-mobler-05b7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-mobler-05b7"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-musikk-5f3c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-musikk-5f3c"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-paske-2a6e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-paske-2a6e"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-postkontor-5057",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-postkontor-5057"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-reptiler-og-amfibier-2fd4",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-reptiler-og-amfibier-2fd4"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-rundt-i-huset-d4e2",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-rundt-i-huset-d4e2"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-skogsdyr-8c51",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-skogsdyr-8c51"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-strand-3a96",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-strand-3a96"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-sykehus-09f2",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-sykehus-09f2"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-thanksgiving-f0f5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-thanksgiving-f0f5"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-tilbehor-b69e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-tilbehor-b69e"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-ting-som-flyr-ab88",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-ting-som-flyr-ab88"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-traer-53fd",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-traer-53fd"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-verdensrommet-e121",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-verdensrommet-e121"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-verktoy-b96f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-verktoy-b96f"
+  },
+  {
+   "slug": "subtraksjon-finn-subtrahend-yrker-b3fc",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "subtraksjon-finn-subtrahend-yrker-b3fc"
+  }
+ ]
+}

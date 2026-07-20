@@ -1,0 +1,796 @@
+{
+ "part": 89,
+ "locale": "es",
+ "classes": [
+  "subtraction::mixed",
+  "sudoku::null"
+ ],
+ "splitOf": null,
+ "count": 98,
+ "pages": [
+  {
+   "slug": "resta-mixto-4-de-julio-7aac",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "resta-mixto-4-de-julio-7aac"
+  },
+  {
+   "slug": "resta-mixto-accesorios-e60e",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "resta-mixto-accesorios-e60e"
+  },
+  {
+   "slug": "resta-mixto-actividades-980c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "resta-mixto-actividades-980c"
+  },
+  {
+   "slug": "resta-mixto-alrededor-de-la-casa-b987",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "primer-grado",
+   "deck": "resta-mixto-alrededor-de-la-casa-b987"
+  },
+  {
+   "slug": "resta-mixto-animales-d918",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "resta-mixto-animales-d918"
+  },
+  {
+   "slug": "resta-mixto-animales-de-granja-6899",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "resta-mixto-animales-de-granja-6899"
+  },
+  {
+   "slug": "resta-mixto-animales-del-zoologico-4ce4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "resta-mixto-animales-del-zoologico-4ce4"
+  },
+  {
+   "slug": "resta-mixto-arboles-edb9",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "resta-mixto-arboles-edb9"
+  },
+  {
+   "slug": "resta-mixto-aves-2-b317",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "resta-mixto-aves-2-b317"
+  },
+  {
+   "slug": "resta-mixto-aves-f010",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "resta-mixto-aves-f010"
+  },
+  {
+   "slug": "resta-mixto-campamento-d5a2",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "resta-mixto-campamento-d5a2"
+  },
+  {
+   "slug": "resta-mixto-clima-2da2",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "resta-mixto-clima-2da2"
+  },
+  {
+   "slug": "resta-mixto-colores-c01b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "resta-mixto-colores-c01b"
+  },
+  {
+   "slug": "resta-mixto-cosas-que-vuelan-b8f4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "resta-mixto-cosas-que-vuelan-b8f4"
+  },
+  {
+   "slug": "resta-mixto-criaturas-del-bosque-4aee",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "resta-mixto-criaturas-del-bosque-4aee"
+  },
+  {
+   "slug": "resta-mixto-desayuno-971a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "resta-mixto-desayuno-971a"
+  },
+  {
+   "slug": "resta-mixto-dia-de-accion-de-gracias-ff3b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "primer-grado",
+   "deck": "resta-mixto-dia-de-accion-de-gracias-ff3b"
+  },
+  {
+   "slug": "resta-mixto-dinosaurios-fef4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "resta-mixto-dinosaurios-fef4"
+  },
+  {
+   "slug": "resta-mixto-emociones-a2a8",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "resta-mixto-emociones-a2a8"
+  },
+  {
+   "slug": "resta-mixto-en-el-supermercado-a6a5",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "resta-mixto-en-el-supermercado-a6a5"
+  },
+  {
+   "slug": "resta-mixto-espacio-856c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "resta-mixto-espacio-856c"
+  },
+  {
+   "slug": "resta-mixto-flores-64e3",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "resta-mixto-flores-64e3"
+  },
+  {
+   "slug": "resta-mixto-formas-ff4b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "resta-mixto-formas-ff4b"
+  },
+  {
+   "slug": "resta-mixto-frutas-7ac7",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "resta-mixto-frutas-7ac7"
+  },
+  {
+   "slug": "resta-mixto-herramientas-e491",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "resta-mixto-herramientas-e491"
+  },
+  {
+   "slug": "resta-mixto-hospital-eff1",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "resta-mixto-hospital-eff1"
+  },
+  {
+   "slug": "resta-mixto-insectos-y-bichos-c70f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "resta-mixto-insectos-y-bichos-c70f"
+  },
+  {
+   "slug": "resta-mixto-invierno-80c2",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "resta-mixto-invierno-80c2"
+  },
+  {
+   "slug": "resta-mixto-juguetes-6888",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "resta-mixto-juguetes-6888"
+  },
+  {
+   "slug": "resta-mixto-mascotas-8b22",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "resta-mixto-mascotas-8b22"
+  },
+  {
+   "slug": "resta-mixto-miscelaneo-6523",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "resta-mixto-miscelaneo-6523"
+  },
+  {
+   "slug": "resta-mixto-muebles-91d1",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "resta-mixto-muebles-91d1"
+  },
+  {
+   "slug": "resta-mixto-musica-6279",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "resta-mixto-musica-6279"
+  },
+  {
+   "slug": "resta-mixto-navidad-bdf1",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "resta-mixto-navidad-bdf1"
+  },
+  {
+   "slug": "resta-mixto-ocupaciones-c63c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "resta-mixto-ocupaciones-c63c"
+  },
+  {
+   "slug": "resta-mixto-panaderia-f206",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "resta-mixto-panaderia-f206"
+  },
+  {
+   "slug": "resta-mixto-partes-del-cuerpo-0c18",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "resta-mixto-partes-del-cuerpo-0c18"
+  },
+  {
+   "slug": "resta-mixto-pascua-974a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "resta-mixto-pascua-974a"
+  },
+  {
+   "slug": "resta-mixto-playa-0bfd",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "resta-mixto-playa-0bfd"
+  },
+  {
+   "slug": "resta-mixto-postres-y-dulces-8952",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "resta-mixto-postres-y-dulces-8952"
+  },
+  {
+   "slug": "resta-mixto-primavera-1d35",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "spring",
+   "level": "primer-grado",
+   "deck": "resta-mixto-primavera-1d35"
+  },
+  {
+   "slug": "resta-mixto-reptiles-y-anfibios-36cc",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "resta-mixto-reptiles-y-anfibios-36cc"
+  },
+  {
+   "slug": "resta-mixto-ropa-9a09",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "resta-mixto-ropa-9a09"
+  },
+  {
+   "slug": "resta-mixto-salon-de-clases-2869",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "resta-mixto-salon-de-clases-2869"
+  },
+  {
+   "slug": "resta-mixto-utensilios-de-cocina-77a6",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "resta-mixto-utensilios-de-cocina-77a6"
+  },
+  {
+   "slug": "resta-mixto-vehiculos-4173",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "resta-mixto-vehiculos-4173"
+  },
+  {
+   "slug": "resta-mixto-verano-c837",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "resta-mixto-verano-c837"
+  },
+  {
+   "slug": "resta-mixto-verduras-0baf",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "resta-mixto-verduras-0baf"
+  },
+  {
+   "slug": "resta-mixto-vida-marina-1507",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "resta-mixto-vida-marina-1507"
+  },
+  {
+   "slug": "sudoku-de-imagenes",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes"
+  },
+  {
+   "slug": "sudoku-de-imagenes-4-de-julio-68ac",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-4-de-julio-68ac"
+  },
+  {
+   "slug": "sudoku-de-imagenes-accesorios-dc30",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-accesorios-dc30"
+  },
+  {
+   "slug": "sudoku-de-imagenes-actividades-080b",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-actividades-080b"
+  },
+  {
+   "slug": "sudoku-de-imagenes-animales-98c1",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-animales-98c1"
+  },
+  {
+   "slug": "sudoku-de-imagenes-animales-de-granja-e8f1",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-animales-de-granja-e8f1"
+  },
+  {
+   "slug": "sudoku-de-imagenes-animales-del-zoologico-5c37",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-animales-del-zoologico-5c37"
+  },
+  {
+   "slug": "sudoku-de-imagenes-arboles-02e6",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-arboles-02e6"
+  },
+  {
+   "slug": "sudoku-de-imagenes-aves-2-63b6",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-aves-2-63b6"
+  },
+  {
+   "slug": "sudoku-de-imagenes-aves-3ef8",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-aves-3ef8"
+  },
+  {
+   "slug": "sudoku-de-imagenes-campamento-088a",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-campamento-088a"
+  },
+  {
+   "slug": "sudoku-de-imagenes-clima-235f",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-clima-235f"
+  },
+  {
+   "slug": "sudoku-de-imagenes-colores-fcb0",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-colores-fcb0"
+  },
+  {
+   "slug": "sudoku-de-imagenes-cosas-que-vuelan-011c",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-cosas-que-vuelan-011c"
+  },
+  {
+   "slug": "sudoku-de-imagenes-criaturas-del-bosque-6395",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-criaturas-del-bosque-6395"
+  },
+  {
+   "slug": "sudoku-de-imagenes-desayuno-e589",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-desayuno-e589"
+  },
+  {
+   "slug": "sudoku-de-imagenes-dia-de-accion-de-gracias-acff",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-dia-de-accion-de-gracias-acff"
+  },
+  {
+   "slug": "sudoku-de-imagenes-dinosaurios-f547",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-dinosaurios-f547"
+  },
+  {
+   "slug": "sudoku-de-imagenes-emociones-4e56",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-emociones-4e56"
+  },
+  {
+   "slug": "sudoku-de-imagenes-en-el-supermercado-84c9",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-en-el-supermercado-84c9"
+  },
+  {
+   "slug": "sudoku-de-imagenes-espacio-d357",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-espacio-d357"
+  },
+  {
+   "slug": "sudoku-de-imagenes-flores-d76d",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-flores-d76d"
+  },
+  {
+   "slug": "sudoku-de-imagenes-formas-36a8",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-formas-36a8"
+  },
+  {
+   "slug": "sudoku-de-imagenes-frutas-029b",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-frutas-029b"
+  },
+  {
+   "slug": "sudoku-de-imagenes-herramientas-25d6",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-herramientas-25d6"
+  },
+  {
+   "slug": "sudoku-de-imagenes-hospital-d802",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-hospital-d802"
+  },
+  {
+   "slug": "sudoku-de-imagenes-insectos-y-bichos-1fb9",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-insectos-y-bichos-1fb9"
+  },
+  {
+   "slug": "sudoku-de-imagenes-invierno-8539",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-invierno-8539"
+  },
+  {
+   "slug": "sudoku-de-imagenes-juguetes-58ed",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-juguetes-58ed"
+  },
+  {
+   "slug": "sudoku-de-imagenes-mascotas-d530",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-mascotas-d530"
+  },
+  {
+   "slug": "sudoku-de-imagenes-miscelaneo-4a83",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-miscelaneo-4a83"
+  },
+  {
+   "slug": "sudoku-de-imagenes-muebles-79dd",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-muebles-79dd"
+  },
+  {
+   "slug": "sudoku-de-imagenes-musica-7650",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-musica-7650"
+  },
+  {
+   "slug": "sudoku-de-imagenes-navidad-74e1",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-navidad-74e1"
+  },
+  {
+   "slug": "sudoku-de-imagenes-ocupaciones-d817",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-ocupaciones-d817"
+  },
+  {
+   "slug": "sudoku-de-imagenes-oficina-de-correos-1b43",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-oficina-de-correos-1b43"
+  },
+  {
+   "slug": "sudoku-de-imagenes-panaderia-e6b6",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-panaderia-e6b6"
+  },
+  {
+   "slug": "sudoku-de-imagenes-partes-del-cuerpo-16f4",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-partes-del-cuerpo-16f4"
+  },
+  {
+   "slug": "sudoku-de-imagenes-pascua-752f",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-pascua-752f"
+  },
+  {
+   "slug": "sudoku-de-imagenes-playa-47d6",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-playa-47d6"
+  },
+  {
+   "slug": "sudoku-de-imagenes-postres-y-dulces-4efe",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-postres-y-dulces-4efe"
+  },
+  {
+   "slug": "sudoku-de-imagenes-primavera-78a0",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-primavera-78a0"
+  },
+  {
+   "slug": "sudoku-de-imagenes-reptiles-y-anfibios-439c",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-reptiles-y-anfibios-439c"
+  },
+  {
+   "slug": "sudoku-de-imagenes-ropa-7139",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-ropa-7139"
+  },
+  {
+   "slug": "sudoku-de-imagenes-salon-de-clases-4b67",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-salon-de-clases-4b67"
+  },
+  {
+   "slug": "sudoku-de-imagenes-utensilios-de-cocina-7928",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-utensilios-de-cocina-7928"
+  },
+  {
+   "slug": "sudoku-de-imagenes-vehiculos-ad6c",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-vehiculos-ad6c"
+  },
+  {
+   "slug": "sudoku-de-imagenes-verano-1ad7",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-verano-1ad7"
+  },
+  {
+   "slug": "sudoku-de-imagenes-vida-marina-a4cc",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-vida-marina-a4cc"
+  }
+ ]
+}

@@ -1,0 +1,764 @@
+{
+ "part": 178,
+ "locale": "it",
+ "classes": [
+  "code-addition::secret-word",
+  "odd-one-out::same-theme"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "addizione-codificata-parola-segreta-abbigliamento-9ac2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "clothing",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-abbigliamento-9ac2"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-accessori-ef05",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "accessories",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-accessori-ef05"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-al-supermercato-4ad1",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "at_the_supermarket",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-al-supermercato-4ad1"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-alberi-54d7",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tree",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-alberi-54d7"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-animali-5d73",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "animals",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-animali-5d73"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-animali-della-fattoria-a60b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "farm_animals",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-animali-della-fattoria-a60b"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-animali-dello-zoo-4a33",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "zoo_animals",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-animali-dello-zoo-4a33"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-animali-domestici-2342",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "pets",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-animali-domestici-2342"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-attivita-a287",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "activities",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-attivita-a287"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-attrezzi-ab82",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tools",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-attrezzi-ab82"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-aula-be6c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "classroom",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-aula-be6c"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-campeggio-cbe3",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "camping",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-campeggio-cbe3"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-colazione-0697",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "breakfast",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-colazione-0697"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-colori-c5a7",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "colors",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-colori-c5a7"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-cose-che-volano-b359",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "things_that_fly",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-cose-che-volano-b359"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-creature-della-foresta-67ee",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "forest_creatures",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-creature-della-foresta-67ee"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-dinosauri-2ea6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "dinosaurs",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-dinosauri-2ea6"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-dolci-e-dolciumi-1fef",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "desserts_and_sweets",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-dolci-e-dolciumi-1fef"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-emozioni-3b0c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "emotions",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-emozioni-3b0c"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-estate-7e6d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "summer",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-estate-7e6d"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-fiori-3593",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "flowers",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-fiori-3593"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-forme-a194",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "shapes",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-forme-a194"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-frutta-6561",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "fruits",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-frutta-6561"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-giocattoli-29b9",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "toys",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-giocattoli-29b9"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-giorno-del-ringraziamento-9d77",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "thanksgivinng",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-giorno-del-ringraziamento-9d77"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-in-giro-per-casa-f475",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "around_the_house",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-in-giro-per-casa-f475"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-insetti-e-scarafaggi-26c2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "insects_and_bugs",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-insetti-e-scarafaggi-26c2"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-inverno-b245",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "winter",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-inverno-b245"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-meteo-0764",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "weather",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-meteo-0764"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-mobili-da45",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "furniture",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-mobili-da45"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-musica-acdd",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "music",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-musica-acdd"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-natale-2fe3",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "christmas",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-natale-2fe3"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-ospedale-611e",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "hospital",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-ospedale-611e"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-panetteria-c14f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "bakery",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-panetteria-c14f"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-parti-del-corpo-85c5",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "body_parts",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-parti-del-corpo-85c5"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-pasqua-a471",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "easter",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-pasqua-a471"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-primavera-58a1",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "spring",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-primavera-58a1"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-professioni-bc01",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "occupations",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-professioni-bc01"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-rettili-e-anfibi-4b49",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-rettili-e-anfibi-4b49"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-spazio-345b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "space",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-spazio-345b"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-spiaggia-c178",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "beach",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-spiaggia-c178"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-uccelli-1f2a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-uccelli-1f2a"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-ufficio-postale-ace9",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "post_office",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-ufficio-postale-ace9"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-utensili-da-cucina-583f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "kitchen_tools",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-utensili-da-cucina-583f"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-veicoli-0979",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vehicles",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-veicoli-0979"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-verdure-1a17",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vegetables",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-verdure-1a17"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-vita-oceanica-0a93",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "ocean_life",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-vita-oceanica-0a93"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-abbigliamento-8b5f",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-abbigliamento-8b5f"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-accessori-f5c4",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-accessori-f5c4"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-al-supermercato-64c9",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-al-supermercato-64c9"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-alberi-4c38",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-alberi-4c38"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-animali",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-animali"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-animali-della-fattoria-2f39",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-animali-della-fattoria-2f39"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-animali-dello-zoo-dfad",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-animali-dello-zoo-dfad"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-animali-domestici-67a6",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-animali-domestici-67a6"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-attivita-6217",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-attivita-6217"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-attrezzi-b05b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-attrezzi-b05b"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-aula-9c8f",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-aula-9c8f"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-campeggio-fda2",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-campeggio-fda2"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-colazione-69da",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-colazione-69da"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-colori-68c7",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-colori-68c7"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-cose-che-volano-5656",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-cose-che-volano-5656"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-creature-della-foresta-56e4",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-creature-della-foresta-56e4"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-dinosauri-ba82",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-dinosauri-ba82"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-dolci-e-dolciumi-9f91",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-dolci-e-dolciumi-9f91"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-emozioni-bd74",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-emozioni-bd74"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-estate-e96f",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-estate-e96f"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-fiori-187b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-fiori-187b"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-forme-7321",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-forme-7321"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-frutta-123c",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-frutta-123c"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-giocattoli-9122",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-giocattoli-9122"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-giorno-del-ringraziamento-1f9b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-giorno-del-ringraziamento-1f9b"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-in-giro-per-casa-3163",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-in-giro-per-casa-3163"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-insetti-e-scarafaggi-6446",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-insetti-e-scarafaggi-6446"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-inverno-9955",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-inverno-9955"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-meteo-dd19",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-meteo-dd19"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-mobili-cee7",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-mobili-cee7"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-musica-71ff",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-musica-71ff"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-natale-3eb6",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-natale-3eb6"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-ospedale-e30d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-ospedale-e30d"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-panetteria-0d7a",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-panetteria-0d7a"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-parti-del-corpo-5010",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-parti-del-corpo-5010"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-pasqua-9ca1",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-pasqua-9ca1"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-primavera-db00",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-primavera-db00"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-professioni-eccc",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-professioni-eccc"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-rettili-e-anfibi-215f",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-rettili-e-anfibi-215f"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-spazio-e6dd",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-spazio-e6dd"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-spiaggia-f47d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-spiaggia-f47d"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-uccelli-2-c143",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-uccelli-2-c143"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-uccelli-f652",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-uccelli-f652"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-ufficio-postale-92e5",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-ufficio-postale-92e5"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-utensili-da-cucina-042d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-utensili-da-cucina-042d"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-veicoli-8f9d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-veicoli-8f9d"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-verdure-82c7",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-verdure-82c7"
+  }
+ ]
+}

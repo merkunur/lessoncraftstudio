@@ -1,0 +1,748 @@
+{
+ "part": 308,
+ "locale": "no",
+ "classes": [
+  "missing-pieces::two-missing",
+  "shadow-match::make-whole"
+ ],
+ "splitOf": null,
+ "count": 92,
+ "pages": [
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-aktiviteter-63b7",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-aktiviteter-63b7"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-bakeri-765c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-bakeri-765c"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-blomster-bf7d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-blomster-bf7d"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-camping-1461",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-camping-1461"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-desserter-og-godteri-46e4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-desserter-og-godteri-46e4"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-dinosaurer-bf9c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-dinosaurer-bf9c"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-dyr-f67e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-dyr-f67e"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-dyrehagedyr-e31f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-dyrehagedyr-e31f"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-folelser-fa22",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-folelser-fa22"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-frokost-f0ca",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-frokost-f0ca"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-frukter-2be6",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-frukter-2be6"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-fugler-2-e044",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-fugler-2-e044"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-fugler-6252",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-fugler-6252"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-gardsdyr-3d6c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-gardsdyr-3d6c"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-gronnsaker-6def",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-gronnsaker-6def"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-havliv-e46f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-havliv-e46f"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-i-supermarkedet-5337",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-i-supermarkedet-5337"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-insekter-og-kryp-0701",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-insekter-og-kryp-0701"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-jul-61a6",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-jul-61a6"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-kjaeledyr-870e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-kjaeledyr-870e"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-kjokkenredskaper-800f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-kjokkenredskaper-800f"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-kjoretoy-9b10",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-kjoretoy-9b10"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-klaer-fdf3",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-klaer-fdf3"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-klasserom-fec8",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-klasserom-fec8"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-kroppsdeler-8c39",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-kroppsdeler-8c39"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-leker-ef6b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-leker-ef6b"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-mobler-0501",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-mobler-0501"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-musikk-f94f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-musikk-f94f"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-paske-a4c1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-paske-a4c1"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-postkontor-1205",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-postkontor-1205"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-reptiler-og-amfibier-031c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-reptiler-og-amfibier-031c"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-rundt-i-huset-b5aa",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-rundt-i-huset-b5aa"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-skogsdyr-dbdd",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-skogsdyr-dbdd"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-sommer-1593",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-sommer-1593"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-strand-86da",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-strand-86da"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-sykehus-46b5",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-sykehus-46b5"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-thanksgiving-b7c1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-thanksgiving-b7c1"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-tilbehor-d7c1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-tilbehor-d7c1"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-ting-som-flyr-d4fa",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-ting-som-flyr-d4fa"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-traer-5e6c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-traer-5e6c"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-vaer-e38b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-vaer-e38b"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-var-a6d4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-var-a6d4"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-verdensrommet-fe70",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-verdensrommet-fe70"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-verktoy-965a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-verktoy-965a"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-vinter-caf7",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-vinter-caf7"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-yrker-83c4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-yrker-83c4"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-aktiviteter-4274",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-aktiviteter-4274"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-bakeri-78a7",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-bakeri-78a7"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-blomster-2ef2",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-blomster-2ef2"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-camping-2417",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-camping-2417"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-desserter-og-godteri-87e9",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-desserter-og-godteri-87e9"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-dinosaurer-547f",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-dinosaurer-547f"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-dyr-8ff7",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-dyr-8ff7"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-dyrehagedyr-068d",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-dyrehagedyr-068d"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-folelser-553e",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-folelser-553e"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-frokost-09fc",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-frokost-09fc"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-frukter-fb35",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-frukter-fb35"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-fugler-2-9ca3",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-fugler-2-9ca3"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-fugler-f6f5",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-fugler-f6f5"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-gardsdyr-208d",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-gardsdyr-208d"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-gronnsaker-9086",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-gronnsaker-9086"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-havliv-550b",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-havliv-550b"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-i-supermarkedet-25f4",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-i-supermarkedet-25f4"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-insekter-og-kryp-d7c5",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-insekter-og-kryp-d7c5"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-jul-45cf",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-jul-45cf"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-kjaeledyr-c18f",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-kjaeledyr-c18f"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-kjokkenredskaper-9584",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-kjokkenredskaper-9584"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-kjoretoy-bc0c",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-kjoretoy-bc0c"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-klaer-0510",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-klaer-0510"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-klasserom-7450",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-klasserom-7450"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-kroppsdeler-22c8",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-kroppsdeler-22c8"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-leker-baea",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-leker-baea"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-mobler-0b41",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-mobler-0b41"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-musikk-1d18",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-musikk-1d18"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-paske-5cd9",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-paske-5cd9"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-postkontor-2510",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-postkontor-2510"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-reptiler-og-amfibier-9fdc",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-reptiler-og-amfibier-9fdc"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-rundt-i-huset-fbe3",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-rundt-i-huset-fbe3"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-skogsdyr-9241",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-skogsdyr-9241"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-sommer-ab28",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-sommer-ab28"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-strand-2806",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-strand-2806"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-sykehus-1dd0",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-sykehus-1dd0"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-thanksgiving-9d58",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-thanksgiving-9d58"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-tilbehor-4f14",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-tilbehor-4f14"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-ting-som-flyr-9e8f",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-ting-som-flyr-9e8f"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-traer-d650",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-traer-d650"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-vaer-6acb",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-vaer-6acb"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-var-68c2",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-var-68c2"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-verdensrommet-911a",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-verdensrommet-911a"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-verktoy-6638",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-verktoy-6638"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-vinter-593f",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-vinter-593f"
+  },
+  {
+   "slug": "match-skygger-gjor-hel-yrker-8301",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "match-skygger-gjor-hel-yrker-8301"
+  }
+ ]
+}

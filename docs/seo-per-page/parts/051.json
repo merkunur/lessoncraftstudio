@@ -1,0 +1,788 @@
+{
+ "part": 51,
+ "locale": "de",
+ "classes": [
+  "math-worksheet::three-symbols-add-sub",
+  "code-addition::null"
+ ],
+ "splitOf": null,
+ "count": 97,
+ "pages": [
+  {
+   "slug": "mathe-arbeitsblatt-4-juli",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "4th_of_july",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-4-juli-2755"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-accessoires",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "accessories",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-accessoires-c8e2"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-aktivitaten",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "activities",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-aktivitaten-92d3"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-backerei",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "bakery",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-backerei-f0e2"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-bauernhoftiere",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-bauernhoftiere-795f"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-baume",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tree",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-baume-e5ab"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-berufe",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "occupations",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-berufe-4522"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-blumen",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "flowers",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-blumen-10c8"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-camping",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "camping",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-camping-23aa"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-desserts-und-sussigkeiten",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "desserts_and_sweets",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-desserts-und-sussigkeiten-78e4"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-dinge-die-fliegen",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-dinge-die-fliegen-971e"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-dinosaurier",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-dinosaurier-09a8"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-emotionen",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "emotions",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-emotionen-b36c"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-erntedankfest",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "thanksgivinng",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-erntedankfest-e728"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-fahrzeuge",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-fahrzeuge-4504"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-farben",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "colors",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-farben-6972"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-formen",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "shapes",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-formen-42c0"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-fruchte",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "fruits",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-fruchte-6340"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-fruhling",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "spring",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-fruhling-ddc9"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-fruhstuck",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-fruhstuck-f125"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-gemuse",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-gemuse-aa26"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-haustiere",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "pets",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-haustiere-272f"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-im-supermarkt",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-im-supermarkt-f400"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-insekten-und-kafer",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-insekten-und-kafer-95bd"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-klassenzimmer",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "classroom",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-klassenzimmer-ec21"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-kleidung",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "clothing",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-kleidung-3d7a"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-korperteile",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-korperteile-6afc"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-krankenhaus",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "hospital",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-krankenhaus-f9bc"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-kuchenwerkzeuge",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-kuchenwerkzeuge-0d69"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-meeresleben",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-meeresleben-1eea"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-mobel",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "furniture",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-mobel-4d03"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-musik",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "music",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-musik-06b5"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-ostern",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "easter",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-ostern-7e8a"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-postamt",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "post_office",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-postamt-5b7c"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-reptilien-und-amphibien",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-reptilien-und-amphibien-78a1"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-rund-ums-haus",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-rund-ums-haus-15ca"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-sommer",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "summer",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-sommer-25cd"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-spielzeug",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "toys",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-spielzeug-f7cc"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-strand",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "beach",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-strand-a062"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-tiere",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "animals",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-tiere-a051"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-vogel",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-vogel-060d"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-vogel-2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-vogel-2-9180"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-waldtiere",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-waldtiere-ce88"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-weihnachten",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "christmas",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-weihnachten-16ac"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-weltraum",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "space",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-weltraum-195d"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-werkzeuge",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tools",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-werkzeuge-7df3"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-wetter",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "weather",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-wetter-0411"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-winter",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "winter",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-winter-5f20"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-zootiere",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-zootiere-af84"
+  },
+  {
+   "slug": "code-addition-accessoires-9e6c",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "accessories",
+   "level": "2-klasse",
+   "deck": "code-addition-accessoires-9e6c"
+  },
+  {
+   "slug": "code-addition-aktivitaten-1846",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "activities",
+   "level": "2-klasse",
+   "deck": "code-addition-aktivitaten-1846"
+  },
+  {
+   "slug": "code-addition-backerei-1eec",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "bakery",
+   "level": "2-klasse",
+   "deck": "code-addition-backerei-1eec"
+  },
+  {
+   "slug": "code-addition-bauernhoftiere-8966",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "2-klasse",
+   "deck": "code-addition-bauernhoftiere-8966"
+  },
+  {
+   "slug": "code-addition-baume-6959",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tree",
+   "level": "2-klasse",
+   "deck": "code-addition-baume-6959"
+  },
+  {
+   "slug": "code-addition-berufe-0e15",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "occupations",
+   "level": "2-klasse",
+   "deck": "code-addition-berufe-0e15"
+  },
+  {
+   "slug": "code-addition-blumen-c711",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "flowers",
+   "level": "2-klasse",
+   "deck": "code-addition-blumen-c711"
+  },
+  {
+   "slug": "code-addition-camping-143e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "camping",
+   "level": "2-klasse",
+   "deck": "code-addition-camping-143e"
+  },
+  {
+   "slug": "code-addition-desserts-und-sussigkeiten-6869",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "2-klasse",
+   "deck": "code-addition-desserts-und-sussigkeiten-6869"
+  },
+  {
+   "slug": "code-addition-dinge-die-fliegen-f25d",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "2-klasse",
+   "deck": "code-addition-dinge-die-fliegen-f25d"
+  },
+  {
+   "slug": "code-addition-dinosaurier-e0d4",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "2-klasse",
+   "deck": "code-addition-dinosaurier-e0d4"
+  },
+  {
+   "slug": "code-addition-emotionen-5b33",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "emotions",
+   "level": "2-klasse",
+   "deck": "code-addition-emotionen-5b33"
+  },
+  {
+   "slug": "code-addition-erntedankfest-e28e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "2-klasse",
+   "deck": "code-addition-erntedankfest-e28e"
+  },
+  {
+   "slug": "code-addition-fahrzeuge-a564",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "2-klasse",
+   "deck": "code-addition-fahrzeuge-a564"
+  },
+  {
+   "slug": "code-addition-farben-be61",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "colors",
+   "level": "2-klasse",
+   "deck": "code-addition-farben-be61"
+  },
+  {
+   "slug": "code-addition-formen-8f81",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "shapes",
+   "level": "2-klasse",
+   "deck": "code-addition-formen-8f81"
+  },
+  {
+   "slug": "code-addition-fruchte-259a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "fruits",
+   "level": "2-klasse",
+   "deck": "code-addition-fruchte-259a"
+  },
+  {
+   "slug": "code-addition-fruhling-66b9",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "spring",
+   "level": "2-klasse",
+   "deck": "code-addition-fruhling-66b9"
+  },
+  {
+   "slug": "code-addition-fruhstuck-fe6d",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "2-klasse",
+   "deck": "code-addition-fruhstuck-fe6d"
+  },
+  {
+   "slug": "code-addition-gemuse-c16a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "2-klasse",
+   "deck": "code-addition-gemuse-c16a"
+  },
+  {
+   "slug": "code-addition-haustiere-7b99",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "pets",
+   "level": "2-klasse",
+   "deck": "code-addition-haustiere-7b99"
+  },
+  {
+   "slug": "code-addition-im-supermarkt-369f",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "2-klasse",
+   "deck": "code-addition-im-supermarkt-369f"
+  },
+  {
+   "slug": "code-addition-insekten-und-kafer-1eba",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "2-klasse",
+   "deck": "code-addition-insekten-und-kafer-1eba"
+  },
+  {
+   "slug": "code-addition-klassenzimmer-bd2b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "classroom",
+   "level": "2-klasse",
+   "deck": "code-addition-klassenzimmer-bd2b"
+  },
+  {
+   "slug": "code-addition-kleidung-9451",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "clothing",
+   "level": "2-klasse",
+   "deck": "code-addition-kleidung-9451"
+  },
+  {
+   "slug": "code-addition-korperteile-6b9b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "2-klasse",
+   "deck": "code-addition-korperteile-6b9b"
+  },
+  {
+   "slug": "code-addition-krankenhaus-4b84",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "hospital",
+   "level": "2-klasse",
+   "deck": "code-addition-krankenhaus-4b84"
+  },
+  {
+   "slug": "code-addition-kuchenwerkzeuge-cd90",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "2-klasse",
+   "deck": "code-addition-kuchenwerkzeuge-cd90"
+  },
+  {
+   "slug": "code-addition-meeresleben-ae36",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "2-klasse",
+   "deck": "code-addition-meeresleben-ae36"
+  },
+  {
+   "slug": "code-addition-mobel-97df",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "furniture",
+   "level": "2-klasse",
+   "deck": "code-addition-mobel-97df"
+  },
+  {
+   "slug": "code-addition-musik-174f",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "music",
+   "level": "2-klasse",
+   "deck": "code-addition-musik-174f"
+  },
+  {
+   "slug": "code-addition-ostern-45ff",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "easter",
+   "level": "2-klasse",
+   "deck": "code-addition-ostern-45ff"
+  },
+  {
+   "slug": "code-addition-postamt-cba6",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "post_office",
+   "level": "2-klasse",
+   "deck": "code-addition-postamt-cba6"
+  },
+  {
+   "slug": "code-addition-reptilien-und-amphibien-d01b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "2-klasse",
+   "deck": "code-addition-reptilien-und-amphibien-d01b"
+  },
+  {
+   "slug": "code-addition-rund-ums-haus-bb29",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "2-klasse",
+   "deck": "code-addition-rund-ums-haus-bb29"
+  },
+  {
+   "slug": "code-addition-sommer-c483",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "summer",
+   "level": "2-klasse",
+   "deck": "code-addition-sommer-c483"
+  },
+  {
+   "slug": "code-addition-spielzeug-93c1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "toys",
+   "level": "2-klasse",
+   "deck": "code-addition-spielzeug-93c1"
+  },
+  {
+   "slug": "code-addition-strand-bd70",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "beach",
+   "level": "2-klasse",
+   "deck": "code-addition-strand-bd70"
+  },
+  {
+   "slug": "code-addition-tiere-402f",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "animals",
+   "level": "2-klasse",
+   "deck": "code-addition-tiere-402f"
+  },
+  {
+   "slug": "code-addition-vogel-2-e280",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "2-klasse",
+   "deck": "code-addition-vogel-2-e280"
+  },
+  {
+   "slug": "code-addition-vogel-464d",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds",
+   "level": "2-klasse",
+   "deck": "code-addition-vogel-464d"
+  },
+  {
+   "slug": "code-addition-waldtiere-04a6",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "2-klasse",
+   "deck": "code-addition-waldtiere-04a6"
+  },
+  {
+   "slug": "code-addition-weihnachten-49cc",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "christmas",
+   "level": "2-klasse",
+   "deck": "code-addition-weihnachten-49cc"
+  },
+  {
+   "slug": "code-addition-weltraum-c678",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "space",
+   "level": "2-klasse",
+   "deck": "code-addition-weltraum-c678"
+  },
+  {
+   "slug": "code-addition-werkzeuge-2b07",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tools",
+   "level": "2-klasse",
+   "deck": "code-addition-werkzeuge-2b07"
+  },
+  {
+   "slug": "code-addition-wetter-1aba",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "weather",
+   "level": "2-klasse",
+   "deck": "code-addition-wetter-1aba"
+  },
+  {
+   "slug": "code-addition-winter-2115",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "winter",
+   "level": "2-klasse",
+   "deck": "code-addition-winter-2115"
+  },
+  {
+   "slug": "code-addition-zootiere-11af",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "2-klasse",
+   "deck": "code-addition-zootiere-11af"
+  }
+ ]
+}

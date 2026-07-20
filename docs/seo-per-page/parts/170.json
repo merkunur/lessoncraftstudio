@@ -1,0 +1,796 @@
+{
+ "part": 170,
+ "locale": "it",
+ "classes": [
+  "code-addition::null",
+  "math-worksheet::two-symbols-add-sub"
+ ],
+ "splitOf": null,
+ "count": 98,
+ "pages": [
+  {
+   "slug": "addizione-codificata-abbigliamento-3fe2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "clothing",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-abbigliamento-3fe2"
+  },
+  {
+   "slug": "addizione-codificata-accessori-08ff",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "accessories",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-accessori-08ff"
+  },
+  {
+   "slug": "addizione-codificata-al-supermercato-275b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-al-supermercato-275b"
+  },
+  {
+   "slug": "addizione-codificata-alberi-a91b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tree",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-alberi-a91b"
+  },
+  {
+   "slug": "addizione-codificata-animali-15ab",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "animals",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-animali-15ab"
+  },
+  {
+   "slug": "addizione-codificata-animali-della-fattoria-328e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-animali-della-fattoria-328e"
+  },
+  {
+   "slug": "addizione-codificata-animali-dello-zoo-6a5e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-animali-dello-zoo-6a5e"
+  },
+  {
+   "slug": "addizione-codificata-animali-domestici-305d",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "pets",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-animali-domestici-305d"
+  },
+  {
+   "slug": "addizione-codificata-attivita-383a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "activities",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-attivita-383a"
+  },
+  {
+   "slug": "addizione-codificata-attrezzi-ccc0",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tools",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-attrezzi-ccc0"
+  },
+  {
+   "slug": "addizione-codificata-aula-b79a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "classroom",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-aula-b79a"
+  },
+  {
+   "slug": "addizione-codificata-campeggio-51a6",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "camping",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-campeggio-51a6"
+  },
+  {
+   "slug": "addizione-codificata-colazione-fa98",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-colazione-fa98"
+  },
+  {
+   "slug": "addizione-codificata-colori-981e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "colors",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-colori-981e"
+  },
+  {
+   "slug": "addizione-codificata-cose-che-volano-43ed",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-cose-che-volano-43ed"
+  },
+  {
+   "slug": "addizione-codificata-creature-della-foresta-9b4a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-creature-della-foresta-9b4a"
+  },
+  {
+   "slug": "addizione-codificata-dinosauri-0d67",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-dinosauri-0d67"
+  },
+  {
+   "slug": "addizione-codificata-dolci-e-dolciumi-b03c",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-dolci-e-dolciumi-b03c"
+  },
+  {
+   "slug": "addizione-codificata-emozioni-9134",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "emotions",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-emozioni-9134"
+  },
+  {
+   "slug": "addizione-codificata-estate-477b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "summer",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-estate-477b"
+  },
+  {
+   "slug": "addizione-codificata-fiori-1644",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "flowers",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-fiori-1644"
+  },
+  {
+   "slug": "addizione-codificata-forme-4e83",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "shapes",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-forme-4e83"
+  },
+  {
+   "slug": "addizione-codificata-frutta-02ce",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "fruits",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-frutta-02ce"
+  },
+  {
+   "slug": "addizione-codificata-giocattoli-cfcd",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "toys",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-giocattoli-cfcd"
+  },
+  {
+   "slug": "addizione-codificata-giorno-del-ringraziamento-0e0b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-giorno-del-ringraziamento-0e0b"
+  },
+  {
+   "slug": "addizione-codificata-in-giro-per-casa-2f9d",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-in-giro-per-casa-2f9d"
+  },
+  {
+   "slug": "addizione-codificata-insetti-e-scarafaggi-634f",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-insetti-e-scarafaggi-634f"
+  },
+  {
+   "slug": "addizione-codificata-inverno-12a0",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "winter",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-inverno-12a0"
+  },
+  {
+   "slug": "addizione-codificata-meteo-b727",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "weather",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-meteo-b727"
+  },
+  {
+   "slug": "addizione-codificata-mobili-b28e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "furniture",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-mobili-b28e"
+  },
+  {
+   "slug": "addizione-codificata-musica-b519",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "music",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-musica-b519"
+  },
+  {
+   "slug": "addizione-codificata-natale-aa34",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "christmas",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-natale-aa34"
+  },
+  {
+   "slug": "addizione-codificata-ospedale-ee52",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "hospital",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-ospedale-ee52"
+  },
+  {
+   "slug": "addizione-codificata-panetteria-1712",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "bakery",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-panetteria-1712"
+  },
+  {
+   "slug": "addizione-codificata-parti-del-corpo-1702",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parti-del-corpo-1702"
+  },
+  {
+   "slug": "addizione-codificata-pasqua-4d58",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "easter",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-pasqua-4d58"
+  },
+  {
+   "slug": "addizione-codificata-primavera-e89b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "spring",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-primavera-e89b"
+  },
+  {
+   "slug": "addizione-codificata-professioni-8f1a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "occupations",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-professioni-8f1a"
+  },
+  {
+   "slug": "addizione-codificata-rettili-e-anfibi-3225",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-rettili-e-anfibi-3225"
+  },
+  {
+   "slug": "addizione-codificata-spazio-cfdf",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "space",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-spazio-cfdf"
+  },
+  {
+   "slug": "addizione-codificata-spiaggia-af0e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "beach",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-spiaggia-af0e"
+  },
+  {
+   "slug": "addizione-codificata-uccelli-2-f8fd",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-uccelli-2-f8fd"
+  },
+  {
+   "slug": "addizione-codificata-uccelli-3753",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-uccelli-3753"
+  },
+  {
+   "slug": "addizione-codificata-ufficio-postale-a466",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "post_office",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-ufficio-postale-a466"
+  },
+  {
+   "slug": "addizione-codificata-utensili-da-cucina-3373",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-utensili-da-cucina-3373"
+  },
+  {
+   "slug": "addizione-codificata-varie-17c0",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-varie-17c0"
+  },
+  {
+   "slug": "addizione-codificata-veicoli-e584",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-veicoli-e584"
+  },
+  {
+   "slug": "addizione-codificata-verdure-319c",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-verdure-319c"
+  },
+  {
+   "slug": "addizione-codificata-vita-oceanica-4718",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-vita-oceanica-4718"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-abbigliamento-6555",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "clothing",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-abbigliamento-6555"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-accessori-09a6",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-accessori-09a6"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-al-supermercato-9908",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-al-supermercato-9908"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-alberi-8c9a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-alberi-8c9a"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-animali-38b9",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-animali-38b9"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-animali-della-fattoria-9e98",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-animali-della-fattoria-9e98"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-animali-dello-zoo-350d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-animali-dello-zoo-350d"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-animali-domestici-7d0f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-animali-domestici-7d0f"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-attivita-7c24",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "activities",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-attivita-7c24"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-attrezzi-0b2d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "tools",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-attrezzi-0b2d"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-aula-4456",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "classroom",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-aula-4456"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-campeggio-1508",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-campeggio-1508"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-colazione-a97b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-colazione-a97b"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-colori-ec08",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "colors",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-colori-ec08"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-cose-che-volano-0fa4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-cose-che-volano-0fa4"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-creature-della-foresta-725c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-creature-della-foresta-725c"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-dinosauri-bff8",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-dinosauri-bff8"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-dolci-e-dolciumi-d27c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-dolci-e-dolciumi-d27c"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-emozioni-9779",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "emotions",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-emozioni-9779"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-estate-a35c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "summer",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-estate-a35c"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-fiori-6391",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-fiori-6391"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-forme-a143",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "shapes",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-forme-a143"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-frutta-3297",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-frutta-3297"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-giocattoli-f8df",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-giocattoli-f8df"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-giorno-del-ringraziamento-a4ea",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-giorno-del-ringraziamento-a4ea"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-in-giro-per-casa-6f4f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-in-giro-per-casa-6f4f"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-insetti-e-scarafaggi-86cb",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-insetti-e-scarafaggi-86cb"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-inverno-8a7c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "winter",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-inverno-8a7c"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-meteo-51e0",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "weather",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-meteo-51e0"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-mobili-9d67",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-mobili-9d67"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-musica-2392",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-musica-2392"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-natale-ce9d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-natale-ce9d"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-ospedale-705c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-ospedale-705c"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-panetteria-fde9",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "bakery",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-panetteria-fde9"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-parti-del-corpo-2fbb",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-parti-del-corpo-2fbb"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-pasqua-6e83",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-pasqua-6e83"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-primavera-edcc",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "spring",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-primavera-edcc"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-professioni-735a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-professioni-735a"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-rettili-e-anfibi-20b2",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-rettili-e-anfibi-20b2"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-spazio-baed",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-spazio-baed"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-spiaggia-afdf",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-spiaggia-afdf"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-uccelli-2-f2fa",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-uccelli-2-f2fa"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-uccelli-8ae7",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-uccelli-8ae7"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-ufficio-postale-2490",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "post_office",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-ufficio-postale-2490"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-utensili-da-cucina-05e4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-utensili-da-cucina-05e4"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-varie-89f4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-varie-89f4"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-veicoli-5975",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-veicoli-5975"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-verdure-3bf7",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-verdure-3bf7"
+  },
+  {
+   "slug": "scheda-di-matematica-2-simboli-add-sott-vita-oceanica-50cc",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-vita-oceanica-50cc"
+  }
+ ]
+}

@@ -1,0 +1,636 @@
+{
+ "part": 318,
+ "locale": "no",
+ "classes": [
+  "picture-path::classic-maze",
+  "subtraction::cross-out"
+ ],
+ "splitOf": null,
+ "count": 78,
+ "pages": [
+  {
+   "slug": "bildevei-klassisk-labyrint-aktiviteter-3b70",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-aktiviteter-3b70"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-bakeri-2f2d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-bakeri-2f2d"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-blomster-10a3",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-blomster-10a3"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-camping-921b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-camping-921b"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-desserter-og-godteri-1b82",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-desserter-og-godteri-1b82"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-dinosaurer-47f1",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-dinosaurer-47f1"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-farger-6d6d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-farger-6d6d"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-folelser-556c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-folelser-556c"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-former-51ed",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-former-51ed"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-frokost-b739",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-frokost-b739"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-frukter-9449",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-frukter-9449"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-gronnsaker-1d7c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-gronnsaker-1d7c"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-i-supermarkedet-1c18",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-i-supermarkedet-1c18"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-insekter-og-kryp-3586",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-insekter-og-kryp-3586"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-jul-503e",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-jul-503e"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-kjokkenredskaper-28c2",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-kjokkenredskaper-28c2"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-kjoretoy-5d49",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-kjoretoy-5d49"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-klaer-aed5",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-klaer-aed5"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-klasserom-eb84",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-klasserom-eb84"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-kroppsdeler-02ba",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-kroppsdeler-02ba"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-leker-221d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-leker-221d"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-mobler-1d4c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-mobler-1d4c"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-musikk-969d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-musikk-969d"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-paske-7057",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-paske-7057"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-postkontor-419d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-postkontor-419d"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-rundt-i-huset-02f4",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-rundt-i-huset-02f4"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-sommer-b56c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-sommer-b56c"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-strand-809f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-strand-809f"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-sykehus-eba1",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-sykehus-eba1"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-thanksgiving-7a50",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-thanksgiving-7a50"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-tilbehor-2ed5",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-tilbehor-2ed5"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-ting-som-flyr-facf",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-ting-som-flyr-facf"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-traer-5c7d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-traer-5c7d"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-vaer-9755",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-vaer-9755"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-var-404c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-var-404c"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-verdensrommet-f1a0",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-verdensrommet-f1a0"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-verktoy-4bbd",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-verktoy-4bbd"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-vinter-7c4f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-vinter-7c4f"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-yrker-9615",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-yrker-9615"
+  },
+  {
+   "slug": "subtraksjon-strek-over-bakeri-0389",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-bakeri-0389"
+  },
+  {
+   "slug": "subtraksjon-strek-over-blomster-10e1",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-blomster-10e1"
+  },
+  {
+   "slug": "subtraksjon-strek-over-camping-35de",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-camping-35de"
+  },
+  {
+   "slug": "subtraksjon-strek-over-desserter-og-godteri-4194",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-desserter-og-godteri-4194"
+  },
+  {
+   "slug": "subtraksjon-strek-over-dinosaurer-f6c8",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-dinosaurer-f6c8"
+  },
+  {
+   "slug": "subtraksjon-strek-over-dyr-407b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-dyr-407b"
+  },
+  {
+   "slug": "subtraksjon-strek-over-former-ecd2",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-former-ecd2"
+  },
+  {
+   "slug": "subtraksjon-strek-over-frokost-28ea",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-frokost-28ea"
+  },
+  {
+   "slug": "subtraksjon-strek-over-frukter-d4ad",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-frukter-d4ad"
+  },
+  {
+   "slug": "subtraksjon-strek-over-fugler-2-efe1",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-fugler-2-efe1"
+  },
+  {
+   "slug": "subtraksjon-strek-over-fugler-eceb",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-fugler-eceb"
+  },
+  {
+   "slug": "subtraksjon-strek-over-gardsdyr-2466",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-gardsdyr-2466"
+  },
+  {
+   "slug": "subtraksjon-strek-over-gronnsaker-39ec",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-gronnsaker-39ec"
+  },
+  {
+   "slug": "subtraksjon-strek-over-havliv-5d5c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-havliv-5d5c"
+  },
+  {
+   "slug": "subtraksjon-strek-over-i-supermarkedet-110f",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-i-supermarkedet-110f"
+  },
+  {
+   "slug": "subtraksjon-strek-over-insekter-og-kryp-57c5",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-insekter-og-kryp-57c5"
+  },
+  {
+   "slug": "subtraksjon-strek-over-jul-7de2",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-jul-7de2"
+  },
+  {
+   "slug": "subtraksjon-strek-over-kjaeledyr-2908",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-kjaeledyr-2908"
+  },
+  {
+   "slug": "subtraksjon-strek-over-kjokkenredskaper-9fdf",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-kjokkenredskaper-9fdf"
+  },
+  {
+   "slug": "subtraksjon-strek-over-kjoretoy-5b01",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-kjoretoy-5b01"
+  },
+  {
+   "slug": "subtraksjon-strek-over-klaer-835a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-klaer-835a"
+  },
+  {
+   "slug": "subtraksjon-strek-over-klasserom-d817",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-klasserom-d817"
+  },
+  {
+   "slug": "subtraksjon-strek-over-leker-83c9",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-leker-83c9"
+  },
+  {
+   "slug": "subtraksjon-strek-over-mobler-edb0",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-mobler-edb0"
+  },
+  {
+   "slug": "subtraksjon-strek-over-musikk-ce22",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-musikk-ce22"
+  },
+  {
+   "slug": "subtraksjon-strek-over-paske-2e5f",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-paske-2e5f"
+  },
+  {
+   "slug": "subtraksjon-strek-over-postkontor-9369",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-postkontor-9369"
+  },
+  {
+   "slug": "subtraksjon-strek-over-reptiler-og-amfibier-7e77",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-reptiler-og-amfibier-7e77"
+  },
+  {
+   "slug": "subtraksjon-strek-over-rundt-i-huset-ba6c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-rundt-i-huset-ba6c"
+  },
+  {
+   "slug": "subtraksjon-strek-over-skogsdyr-65af",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-skogsdyr-65af"
+  },
+  {
+   "slug": "subtraksjon-strek-over-strand-9df6",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-strand-9df6"
+  },
+  {
+   "slug": "subtraksjon-strek-over-sykehus-5b60",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-sykehus-5b60"
+  },
+  {
+   "slug": "subtraksjon-strek-over-thanksgiving-a708",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-thanksgiving-a708"
+  },
+  {
+   "slug": "subtraksjon-strek-over-tilbehor-4bf9",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-tilbehor-4bf9"
+  },
+  {
+   "slug": "subtraksjon-strek-over-ting-som-flyr-b5c9",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-ting-som-flyr-b5c9"
+  },
+  {
+   "slug": "subtraksjon-strek-over-traer-1a43",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-traer-1a43"
+  },
+  {
+   "slug": "subtraksjon-strek-over-verdensrommet-3e0e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-verdensrommet-3e0e"
+  },
+  {
+   "slug": "subtraksjon-strek-over-verktoy-ab62",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-verktoy-ab62"
+  },
+  {
+   "slug": "subtraksjon-strek-over-yrker-ad83",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-yrker-ad83"
+  }
+ ]
+}

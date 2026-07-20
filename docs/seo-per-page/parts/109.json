@@ -1,0 +1,796 @@
+{
+ "part": 109,
+ "locale": "pt",
+ "classes": [
+  "math-worksheet::three-symbols-add-sub",
+  "math-worksheet::two-symbols-add-sub"
+ ],
+ "splitOf": null,
+ "count": 98,
+ "pages": [
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-acampamento-9a06",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-acampamento-9a06"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-acessorios-3271",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-acessorios-3271"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-animais-0c86",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "animals",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-animais-0c86"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-animais-da-fazenda-c026",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-animais-da-fazenda-c026"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-animais-de-estimacao-eda4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "pets",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-animais-de-estimacao-eda4"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-animais-do-zoologico-bea7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-animais-do-zoologico-bea7"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-arvores-6a60",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tree",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-arvores-6a60"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-atividades-61f8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "activities",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-atividades-61f8"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-brinquedos-1ab5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-brinquedos-1ab5"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-cafe-da-manha-5489",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-cafe-da-manha-5489"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-clima-23b4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-clima-23b4"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-coisas-que-voam-be4d",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-coisas-que-voam-be4d"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-cores-2baf",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "colors",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-cores-2baf"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-correios-8486",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-correios-8486"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-criaturas-da-floresta-341c",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-criaturas-da-floresta-341c"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-dia-de-acao-de-gracas-1c7b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-dia-de-acao-de-gracas-1c7b"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-dinossauros-78b6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-dinossauros-78b6"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-diversos-5252",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-diversos-5252"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-emocoes-aae4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "emotions",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-emocoes-aae4"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-espaco-4cea",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-espaco-4cea"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-ferramentas-ed1e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-ferramentas-ed1e"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-flores-1a03",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-flores-1a03"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-formas-e1db",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "shapes",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-formas-e1db"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-frutas-cf24",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-frutas-cf24"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-hospital-ee5f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-hospital-ee5f"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-insetos-e-bichos-6037",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-insetos-e-bichos-6037"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-inverno-0b5f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-inverno-0b5f"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-moveis-1a30",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-moveis-1a30"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-musica-550c",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-musica-550c"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-natal-a491",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-natal-a491"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-no-supermercado-fbb9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-no-supermercado-fbb9"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-padaria-1aa6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-padaria-1aa6"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-partes-do-corpo-e92f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-partes-do-corpo-e92f"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-pascoa-e7e6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-pascoa-e7e6"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-passaros-2-0b3c",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-passaros-2-0b3c"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-passaros-4c09",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-passaros-4c09"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-pela-casa-eb0f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-pela-casa-eb0f"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-praia-1731",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-praia-1731"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-primavera-d02b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "spring",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-primavera-d02b"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-profissoes-3a75",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-profissoes-3a75"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-repteis-e-anfibios-f3f4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-repteis-e-anfibios-f3f4"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-roupas-ba66",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "clothing",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-roupas-ba66"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-sala-de-aula-36e4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-sala-de-aula-36e4"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-sobremesas-e-doces-e259",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "desserts_and_sweets",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-sobremesas-e-doces-e259"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-utensilios-de-cozinha-50a8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-utensilios-de-cozinha-50a8"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-vegetais-5977",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-vegetais-5977"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-veiculos-d4ce",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-veiculos-d4ce"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-verao-75c8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "summer",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-verao-75c8"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-vida-marinha-e9cb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-vida-marinha-e9cb"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-acampamento-9807",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-acampamento-9807"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-acessorios-5fdc",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-acessorios-5fdc"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-animais-2be1",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-animais-2be1"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-animais-da-fazenda-e49a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-animais-da-fazenda-e49a"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-animais-de-estimacao-d5a4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-animais-de-estimacao-d5a4"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-animais-do-zoologico-fec5",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-animais-do-zoologico-fec5"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-arvores-88f7",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-arvores-88f7"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-atividades-055e",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "activities",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-atividades-055e"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-brinquedos-916c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-brinquedos-916c"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-cafe-da-manha-c663",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-cafe-da-manha-c663"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-clima-3575",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-clima-3575"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-coisas-que-voam-a704",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-coisas-que-voam-a704"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-cores-f71d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "colors",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-cores-f71d"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-correios-7db7",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-correios-7db7"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-criaturas-da-floresta-9e83",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-criaturas-da-floresta-9e83"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-dia-de-acao-de-gracas-58b6",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-dia-de-acao-de-gracas-58b6"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-dinossauros-447b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-dinossauros-447b"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-diversos-b237",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-diversos-b237"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-emocoes-2aae",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "emotions",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-emocoes-2aae"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-espaco-c2d6",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-espaco-c2d6"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-ferramentas-cd6b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-ferramentas-cd6b"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-flores-72e1",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-flores-72e1"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-formas-8c6c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-formas-8c6c"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-frutas-8075",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-frutas-8075"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-hospital-2eaf",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-hospital-2eaf"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-insetos-e-bichos-65d6",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-insetos-e-bichos-65d6"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-inverno-7ee9",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-inverno-7ee9"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-moveis-1d0d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-moveis-1d0d"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-musica-a16b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-musica-a16b"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-natal-c1ec",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-natal-c1ec"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-no-supermercado-e0cf",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-no-supermercado-e0cf"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-padaria-c7b6",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-padaria-c7b6"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-partes-do-corpo-f946",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-partes-do-corpo-f946"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-pascoa-7ffe",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-pascoa-7ffe"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-passaros-146f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-passaros-146f"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-passaros-2-4ada",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-passaros-2-4ada"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-pela-casa-c22f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-pela-casa-c22f"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-praia-69d3",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-praia-69d3"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-primavera-7339",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "spring",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-primavera-7339"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-profissoes-2b65",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-profissoes-2b65"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-repteis-e-anfibios-b406",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-repteis-e-anfibios-b406"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-roupas-255c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-roupas-255c"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-sala-de-aula-0960",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-sala-de-aula-0960"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-sobremesas-e-doces-8c7c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-sobremesas-e-doces-8c7c"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-utensilios-de-cozinha-a40c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-utensilios-de-cozinha-a40c"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-vegetais-0731",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-vegetais-0731"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-veiculos-c3db",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-veiculos-c3db"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-verao-c149",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "summer",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-verao-c149"
+  },
+  {
+   "slug": "atividade-de-matematica-2-simbolos-soma-sub-vida-marinha-ac78",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-2-simbolos-soma-sub-vida-marinha-ac78"
+  }
+ ]
+}

@@ -1,0 +1,772 @@
+{
+ "part": 55,
+ "locale": "de",
+ "classes": [
+  "word-scramble::easy",
+  "code-addition::secret-word"
+ ],
+ "splitOf": null,
+ "count": 95,
+ "pages": [
+  {
+   "slug": "buchstabensalat-4-juli",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "4th_of_july",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-4-juli-13e1"
+  },
+  {
+   "slug": "buchstabensalat-accessoires",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-accessoires-8ee3"
+  },
+  {
+   "slug": "buchstabensalat-aktivitaten",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-aktivitaten-daa3"
+  },
+  {
+   "slug": "buchstabensalat-backerei",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-backerei-cd9e"
+  },
+  {
+   "slug": "buchstabensalat-bauernhoftiere",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-bauernhoftiere-e682"
+  },
+  {
+   "slug": "buchstabensalat-baume",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-baume-5d24"
+  },
+  {
+   "slug": "buchstabensalat-berufe",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-berufe-6763"
+  },
+  {
+   "slug": "buchstabensalat-blumen",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-blumen-66b8"
+  },
+  {
+   "slug": "buchstabensalat-camping",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-camping-e717"
+  },
+  {
+   "slug": "buchstabensalat-desserts-und-sussigkeiten",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-desserts-und-sussigkeiten-f91e"
+  },
+  {
+   "slug": "buchstabensalat-dinge-die-fliegen",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-dinge-die-fliegen-95ea"
+  },
+  {
+   "slug": "buchstabensalat-emotionen",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-emotionen-d786"
+  },
+  {
+   "slug": "buchstabensalat-erntedankfest",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-erntedankfest-1b36"
+  },
+  {
+   "slug": "buchstabensalat-fahrzeuge",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-fahrzeuge-0b0d"
+  },
+  {
+   "slug": "buchstabensalat-farben",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-farben-f54e"
+  },
+  {
+   "slug": "buchstabensalat-formen",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-formen-fcbc"
+  },
+  {
+   "slug": "buchstabensalat-fruchte",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-fruchte-92c6"
+  },
+  {
+   "slug": "buchstabensalat-fruhling",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-fruhling-d2ce"
+  },
+  {
+   "slug": "buchstabensalat-fruhstuck",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-fruhstuck-56da"
+  },
+  {
+   "slug": "buchstabensalat-gemuse",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-gemuse-2a35"
+  },
+  {
+   "slug": "buchstabensalat-haustiere",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-haustiere-b10a"
+  },
+  {
+   "slug": "buchstabensalat-im-supermarkt",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-im-supermarkt-a5ec"
+  },
+  {
+   "slug": "buchstabensalat-insekten-und-kafer",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-insekten-und-kafer-ca46"
+  },
+  {
+   "slug": "buchstabensalat-klassenzimmer",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-klassenzimmer-06d5"
+  },
+  {
+   "slug": "buchstabensalat-kleidung",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-kleidung-a5d4"
+  },
+  {
+   "slug": "buchstabensalat-korperteile",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-korperteile-b870"
+  },
+  {
+   "slug": "buchstabensalat-krankenhaus",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-krankenhaus-54cd"
+  },
+  {
+   "slug": "buchstabensalat-kuchenwerkzeuge",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-kuchenwerkzeuge-5203"
+  },
+  {
+   "slug": "buchstabensalat-meeresleben",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-meeresleben-5e14"
+  },
+  {
+   "slug": "buchstabensalat-mobel",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-mobel-2c06"
+  },
+  {
+   "slug": "buchstabensalat-musik",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-musik-047c"
+  },
+  {
+   "slug": "buchstabensalat-ostern",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-ostern-fdb9"
+  },
+  {
+   "slug": "buchstabensalat-postamt",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-postamt-639c"
+  },
+  {
+   "slug": "buchstabensalat-reptilien-und-amphibien",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-reptilien-und-amphibien-2aa9"
+  },
+  {
+   "slug": "buchstabensalat-rund-ums-haus",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-rund-ums-haus-43d6"
+  },
+  {
+   "slug": "buchstabensalat-sommer",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-sommer-9086"
+  },
+  {
+   "slug": "buchstabensalat-spielzeug",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-spielzeug-e480"
+  },
+  {
+   "slug": "buchstabensalat-strand",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-strand-54c0"
+  },
+  {
+   "slug": "buchstabensalat-tiere",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-tiere-cba6"
+  },
+  {
+   "slug": "buchstabensalat-vogel",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-vogel-6217"
+  },
+  {
+   "slug": "buchstabensalat-vogel-2",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-vogel-2-8621"
+  },
+  {
+   "slug": "buchstabensalat-waldtiere",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-waldtiere-a857"
+  },
+  {
+   "slug": "buchstabensalat-weihnachten",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-weihnachten-ad2f"
+  },
+  {
+   "slug": "buchstabensalat-weltraum",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-weltraum-47c6"
+  },
+  {
+   "slug": "buchstabensalat-werkzeuge",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-werkzeuge-7995"
+  },
+  {
+   "slug": "buchstabensalat-wetter",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-wetter-c82a"
+  },
+  {
+   "slug": "buchstabensalat-winter",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-winter-b1ff"
+  },
+  {
+   "slug": "buchstabensalat-zootiere",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-zootiere-1678"
+  },
+  {
+   "slug": "code-addition-geheimwort-accessoires-8303",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "accessories",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-accessoires-8303"
+  },
+  {
+   "slug": "code-addition-geheimwort-aktivitaten-90ef",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "activities",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-aktivitaten-90ef"
+  },
+  {
+   "slug": "code-addition-geheimwort-backerei-15a4",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "bakery",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-backerei-15a4"
+  },
+  {
+   "slug": "code-addition-geheimwort-bauernhoftiere-2788",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "farm_animals",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-bauernhoftiere-2788"
+  },
+  {
+   "slug": "code-addition-geheimwort-baume-afed",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tree",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-baume-afed"
+  },
+  {
+   "slug": "code-addition-geheimwort-berufe-e3f6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "occupations",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-berufe-e3f6"
+  },
+  {
+   "slug": "code-addition-geheimwort-blumen-3f09",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "flowers",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-blumen-3f09"
+  },
+  {
+   "slug": "code-addition-geheimwort-camping-4ab1",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "camping",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-camping-4ab1"
+  },
+  {
+   "slug": "code-addition-geheimwort-desserts-und-sussigkeiten-a784",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "desserts_and_sweets",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-desserts-und-sussigkeiten-a784"
+  },
+  {
+   "slug": "code-addition-geheimwort-dinge-die-fliegen-827a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "things_that_fly",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-dinge-die-fliegen-827a"
+  },
+  {
+   "slug": "code-addition-geheimwort-dinosaurier-c6cf",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "dinosaurs",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-dinosaurier-c6cf"
+  },
+  {
+   "slug": "code-addition-geheimwort-emotionen-2d2f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "emotions",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-emotionen-2d2f"
+  },
+  {
+   "slug": "code-addition-geheimwort-erntedankfest-597b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "thanksgivinng",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-erntedankfest-597b"
+  },
+  {
+   "slug": "code-addition-geheimwort-fahrzeuge-0bdb",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vehicles",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-fahrzeuge-0bdb"
+  },
+  {
+   "slug": "code-addition-geheimwort-farben-5a93",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "colors",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-farben-5a93"
+  },
+  {
+   "slug": "code-addition-geheimwort-formen-bc0f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "shapes",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-formen-bc0f"
+  },
+  {
+   "slug": "code-addition-geheimwort-fruchte-2cd9",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "fruits",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-fruchte-2cd9"
+  },
+  {
+   "slug": "code-addition-geheimwort-fruhling-f833",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "spring",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-fruhling-f833"
+  },
+  {
+   "slug": "code-addition-geheimwort-fruhstuck-33a2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "breakfast",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-fruhstuck-33a2"
+  },
+  {
+   "slug": "code-addition-geheimwort-gemuse-2df6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vegetables",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-gemuse-2df6"
+  },
+  {
+   "slug": "code-addition-geheimwort-haustiere-90c0",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "pets",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-haustiere-90c0"
+  },
+  {
+   "slug": "code-addition-geheimwort-im-supermarkt-762d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "at_the_supermarket",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-im-supermarkt-762d"
+  },
+  {
+   "slug": "code-addition-geheimwort-insekten-und-kafer-89e4",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "insects_and_bugs",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-insekten-und-kafer-89e4"
+  },
+  {
+   "slug": "code-addition-geheimwort-klassenzimmer-40d4",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "classroom",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-klassenzimmer-40d4"
+  },
+  {
+   "slug": "code-addition-geheimwort-kleidung-eed0",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "clothing",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-kleidung-eed0"
+  },
+  {
+   "slug": "code-addition-geheimwort-korperteile-83e7",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "body_parts",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-korperteile-83e7"
+  },
+  {
+   "slug": "code-addition-geheimwort-krankenhaus-4f27",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "hospital",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-krankenhaus-4f27"
+  },
+  {
+   "slug": "code-addition-geheimwort-kuchenwerkzeuge-9005",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "kitchen_tools",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-kuchenwerkzeuge-9005"
+  },
+  {
+   "slug": "code-addition-geheimwort-meeresleben-b8d6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "ocean_life",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-meeresleben-b8d6"
+  },
+  {
+   "slug": "code-addition-geheimwort-musik-a3f4",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "music",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-musik-a3f4"
+  },
+  {
+   "slug": "code-addition-geheimwort-ostern-2985",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "easter",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-ostern-2985"
+  },
+  {
+   "slug": "code-addition-geheimwort-postamt-fb1a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "post_office",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-postamt-fb1a"
+  },
+  {
+   "slug": "code-addition-geheimwort-reptilien-und-amphibien-f179",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-reptilien-und-amphibien-f179"
+  },
+  {
+   "slug": "code-addition-geheimwort-rund-ums-haus-4c4f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "around_the_house",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-rund-ums-haus-4c4f"
+  },
+  {
+   "slug": "code-addition-geheimwort-sommer-c94c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "summer",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-sommer-c94c"
+  },
+  {
+   "slug": "code-addition-geheimwort-spielzeug-b53d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "toys",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-spielzeug-b53d"
+  },
+  {
+   "slug": "code-addition-geheimwort-strand-2e63",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "beach",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-strand-2e63"
+  },
+  {
+   "slug": "code-addition-geheimwort-tiere-b428",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "animals",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-tiere-b428"
+  },
+  {
+   "slug": "code-addition-geheimwort-vogel-2-a6ba",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds_2",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-vogel-2-a6ba"
+  },
+  {
+   "slug": "code-addition-geheimwort-vogel-b5c6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-vogel-b5c6"
+  },
+  {
+   "slug": "code-addition-geheimwort-waldtiere-1b38",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "forest_creatures",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-waldtiere-1b38"
+  },
+  {
+   "slug": "code-addition-geheimwort-weihnachten-d591",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "christmas",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-weihnachten-d591"
+  },
+  {
+   "slug": "code-addition-geheimwort-weltraum-2479",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "space",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-weltraum-2479"
+  },
+  {
+   "slug": "code-addition-geheimwort-werkzeuge-bd96",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tools",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-werkzeuge-bd96"
+  },
+  {
+   "slug": "code-addition-geheimwort-wetter-5a3c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "weather",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-wetter-5a3c"
+  },
+  {
+   "slug": "code-addition-geheimwort-winter-e6bc",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "winter",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-winter-e6bc"
+  },
+  {
+   "slug": "code-addition-geheimwort-zootiere-475b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "zoo_animals",
+   "level": "2-klasse",
+   "deck": "code-addition-geheimwort-zootiere-475b"
+  }
+ ]
+}

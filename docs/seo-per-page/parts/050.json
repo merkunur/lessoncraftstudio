@@ -1,0 +1,739 @@
+{
+ "part": 50,
+ "locale": "de",
+ "classes": [
+  "crossword::null"
+ ],
+ "splitOf": null,
+ "count": 91,
+ "pages": [
+  {
+   "slug": "englisch-kreuzwortraetsel-4-juli-cc4a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-4-juli-cc4a"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-accessoires-9b98",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-accessoires-9b98"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-aktivitaten-293e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-aktivitaten-293e"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-backerei-5be0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-backerei-5be0"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-bauernhoftiere-ca8e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-bauernhoftiere-ca8e"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-berufe-959c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-berufe-959c"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-blumen-77b8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-blumen-77b8"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-camping-ed1b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-camping-ed1b"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-desserts-und-sussigkeiten-d2b6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-desserts-und-sussigkeiten-d2b6"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-dinge-die-fliegen-2b0f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-dinge-die-fliegen-2b0f"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-emotionen-be4b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-emotionen-be4b"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-erntedankfest-548f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-erntedankfest-548f"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-fahrzeuge-e1ef",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-fahrzeuge-e1ef"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-farben-4730",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-farben-4730"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-formen-a758",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-formen-a758"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-fruchte-d7c3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-fruchte-d7c3"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-fruhling-bf15",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-fruhling-bf15"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-fruhstuck-42c7",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-fruhstuck-42c7"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-gemuse-6bb9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-gemuse-6bb9"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-haustiere-7256",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-haustiere-7256"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-im-supermarkt-f075",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-im-supermarkt-f075"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-insekten-und-kafer-4030",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-insekten-und-kafer-4030"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-klassenzimmer-1f23",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-klassenzimmer-1f23"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-kleidung-b16a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-kleidung-b16a"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-korperteile-8f33",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-korperteile-8f33"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-krankenhaus-4e02",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-krankenhaus-4e02"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-kuchenwerkzeuge-1264",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-kuchenwerkzeuge-1264"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-meeresleben-4dc0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-meeresleben-4dc0"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-mobel-9a7f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-mobel-9a7f"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-musik-3230",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-musik-3230"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-ostern-d0c8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-ostern-d0c8"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-postamt-2257",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-postamt-2257"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-rund-ums-haus-ba8a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-rund-ums-haus-ba8a"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-sommer-26ec",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-sommer-26ec"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-spielzeug-d539",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-spielzeug-d539"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-strand-b738",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-strand-b738"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-tiere-3207",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-tiere-3207"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-vogel-07b3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-vogel-07b3"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-vogel-2-162c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-vogel-2-162c"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-waldtiere-611b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-waldtiere-611b"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-weihnachten-0315",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-weihnachten-0315"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-weltraum-1473",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-weltraum-1473"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-werkzeuge-9ca1",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-werkzeuge-9ca1"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-wetter-7eef",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-wetter-7eef"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-winter-6370",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-winter-6370"
+  },
+  {
+   "slug": "englisch-kreuzwortraetsel-zootiere-af70",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "englisch-kreuzwortraetsel-zootiere-af70"
+  },
+  {
+   "slug": "kreuzwortraetsel-accessoires-2245",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-accessoires-2245"
+  },
+  {
+   "slug": "kreuzwortraetsel-aktivitaten-3099",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-aktivitaten-3099"
+  },
+  {
+   "slug": "kreuzwortraetsel-backerei-d5b6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-backerei-d5b6"
+  },
+  {
+   "slug": "kreuzwortraetsel-bauernhoftiere-0ca9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-bauernhoftiere-0ca9"
+  },
+  {
+   "slug": "kreuzwortraetsel-berufe-a3aa",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-berufe-a3aa"
+  },
+  {
+   "slug": "kreuzwortraetsel-blumen-724f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-blumen-724f"
+  },
+  {
+   "slug": "kreuzwortraetsel-camping-cd65",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-camping-cd65"
+  },
+  {
+   "slug": "kreuzwortraetsel-desserts-und-sussigkeiten-9bdf",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-desserts-und-sussigkeiten-9bdf"
+  },
+  {
+   "slug": "kreuzwortraetsel-dinge-die-fliegen-1413",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-dinge-die-fliegen-1413"
+  },
+  {
+   "slug": "kreuzwortraetsel-emotionen-0ec4",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-emotionen-0ec4"
+  },
+  {
+   "slug": "kreuzwortraetsel-erntedankfest-8473",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-erntedankfest-8473"
+  },
+  {
+   "slug": "kreuzwortraetsel-fahrzeuge-b033",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-fahrzeuge-b033"
+  },
+  {
+   "slug": "kreuzwortraetsel-farben-e526",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-farben-e526"
+  },
+  {
+   "slug": "kreuzwortraetsel-formen-4573",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-formen-4573"
+  },
+  {
+   "slug": "kreuzwortraetsel-fruchte-dedd",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-fruchte-dedd"
+  },
+  {
+   "slug": "kreuzwortraetsel-fruhling-a545",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-fruhling-a545"
+  },
+  {
+   "slug": "kreuzwortraetsel-fruhstuck-0765",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-fruhstuck-0765"
+  },
+  {
+   "slug": "kreuzwortraetsel-gemuse-ff67",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-gemuse-ff67"
+  },
+  {
+   "slug": "kreuzwortraetsel-haustiere-82ff",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-haustiere-82ff"
+  },
+  {
+   "slug": "kreuzwortraetsel-im-supermarkt-321b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-im-supermarkt-321b"
+  },
+  {
+   "slug": "kreuzwortraetsel-insekten-und-kafer-1ad7",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-insekten-und-kafer-1ad7"
+  },
+  {
+   "slug": "kreuzwortraetsel-klassenzimmer-9b33",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-klassenzimmer-9b33"
+  },
+  {
+   "slug": "kreuzwortraetsel-kleidung-02d3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-kleidung-02d3"
+  },
+  {
+   "slug": "kreuzwortraetsel-korperteile-ee02",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-korperteile-ee02"
+  },
+  {
+   "slug": "kreuzwortraetsel-krankenhaus-96cd",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-krankenhaus-96cd"
+  },
+  {
+   "slug": "kreuzwortraetsel-kuchenwerkzeuge-3a01",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-kuchenwerkzeuge-3a01"
+  },
+  {
+   "slug": "kreuzwortraetsel-meeresleben-c394",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-meeresleben-c394"
+  },
+  {
+   "slug": "kreuzwortraetsel-mobel-ea85",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-mobel-ea85"
+  },
+  {
+   "slug": "kreuzwortraetsel-musik-346f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-musik-346f"
+  },
+  {
+   "slug": "kreuzwortraetsel-ostern-a998",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-ostern-a998"
+  },
+  {
+   "slug": "kreuzwortraetsel-postamt-ee97",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-postamt-ee97"
+  },
+  {
+   "slug": "kreuzwortraetsel-rund-ums-haus-d1d4",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-rund-ums-haus-d1d4"
+  },
+  {
+   "slug": "kreuzwortraetsel-sommer-07e3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-sommer-07e3"
+  },
+  {
+   "slug": "kreuzwortraetsel-spielzeug-e043",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-spielzeug-e043"
+  },
+  {
+   "slug": "kreuzwortraetsel-strand-fa41",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-strand-fa41"
+  },
+  {
+   "slug": "kreuzwortraetsel-tiere-8fda",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-tiere-8fda"
+  },
+  {
+   "slug": "kreuzwortraetsel-vogel-2-ee46",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-vogel-2-ee46"
+  },
+  {
+   "slug": "kreuzwortraetsel-vogel-f6a2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-vogel-f6a2"
+  },
+  {
+   "slug": "kreuzwortraetsel-waldtiere-77f7",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-waldtiere-77f7"
+  },
+  {
+   "slug": "kreuzwortraetsel-weihnachten-39f5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-weihnachten-39f5"
+  },
+  {
+   "slug": "kreuzwortraetsel-weltraum-2d35",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-weltraum-2d35"
+  },
+  {
+   "slug": "kreuzwortraetsel-werkzeuge-9866",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-werkzeuge-9866"
+  },
+  {
+   "slug": "kreuzwortraetsel-wetter-c7b2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-wetter-c7b2"
+  },
+  {
+   "slug": "kreuzwortraetsel-winter-e8aa",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-winter-e8aa"
+  },
+  {
+   "slug": "kreuzwortraetsel-zootiere-6a95",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "2-klasse",
+   "deck": "kreuzwortraetsel-zootiere-6a95"
+  }
+ ]
+}

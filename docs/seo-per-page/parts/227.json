@@ -1,0 +1,771 @@
+{
+ "part": 227,
+ "locale": "sv",
+ "classes": [
+  "wordsearch::null"
+ ],
+ "splitOf": null,
+ "count": 95,
+ "pages": [
+  {
+   "slug": "engelska-ordleta-4-juli-6376",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-4-juli-6376"
+  },
+  {
+   "slug": "engelska-ordleta-aktiviteter-0f53",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-aktiviteter-0f53"
+  },
+  {
+   "slug": "engelska-ordleta-bageri-6f2a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-bageri-6f2a"
+  },
+  {
+   "slug": "engelska-ordleta-blommor-d1a2",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-blommor-d1a2"
+  },
+  {
+   "slug": "engelska-ordleta-bondgardsdjur-8248",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-bondgardsdjur-8248"
+  },
+  {
+   "slug": "engelska-ordleta-camping-ca78",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-camping-ca78"
+  },
+  {
+   "slug": "engelska-ordleta-djur-5216",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-djur-5216"
+  },
+  {
+   "slug": "engelska-ordleta-djurparksdjur-96b0",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-djurparksdjur-96b0"
+  },
+  {
+   "slug": "engelska-ordleta-efterratter-och-godis-47b9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-efterratter-och-godis-47b9"
+  },
+  {
+   "slug": "engelska-ordleta-faglar-2-28d8",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-faglar-2-28d8"
+  },
+  {
+   "slug": "engelska-ordleta-faglar-ed34",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-faglar-ed34"
+  },
+  {
+   "slug": "engelska-ordleta-farger-8205",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-farger-8205"
+  },
+  {
+   "slug": "engelska-ordleta-fordon-eb51",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-fordon-eb51"
+  },
+  {
+   "slug": "engelska-ordleta-former-2476",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-former-2476"
+  },
+  {
+   "slug": "engelska-ordleta-frukost-25b9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-frukost-25b9"
+  },
+  {
+   "slug": "engelska-ordleta-frukter-85f4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-frukter-85f4"
+  },
+  {
+   "slug": "engelska-ordleta-gronsaker-3585",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-gronsaker-3585"
+  },
+  {
+   "slug": "engelska-ordleta-havsliv-9e62",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-havsliv-9e62"
+  },
+  {
+   "slug": "engelska-ordleta-husdjur-c562",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-husdjur-c562"
+  },
+  {
+   "slug": "engelska-ordleta-i-snabbkopet-0550",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-i-snabbkopet-0550"
+  },
+  {
+   "slug": "engelska-ordleta-insekter-och-kryp-c139",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-insekter-och-kryp-c139"
+  },
+  {
+   "slug": "engelska-ordleta-jul-3ca3",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-jul-3ca3"
+  },
+  {
+   "slug": "engelska-ordleta-kanslor-308d",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-kanslor-308d"
+  },
+  {
+   "slug": "engelska-ordleta-klader-b0c3",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-klader-b0c3"
+  },
+  {
+   "slug": "engelska-ordleta-klassrum-f2f4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-klassrum-f2f4"
+  },
+  {
+   "slug": "engelska-ordleta-koksredskap-0f17",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-koksredskap-0f17"
+  },
+  {
+   "slug": "engelska-ordleta-kroppsdelar-3fe0",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-kroppsdelar-3fe0"
+  },
+  {
+   "slug": "engelska-ordleta-leksaker-329e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-leksaker-329e"
+  },
+  {
+   "slug": "engelska-ordleta-mobler-cb9a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-mobler-cb9a"
+  },
+  {
+   "slug": "engelska-ordleta-musik-0ecc",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-musik-0ecc"
+  },
+  {
+   "slug": "engelska-ordleta-pask-7677",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-pask-7677"
+  },
+  {
+   "slug": "engelska-ordleta-postkontor-259f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-postkontor-259f"
+  },
+  {
+   "slug": "engelska-ordleta-reptiler-och-groddjur-6862",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-reptiler-och-groddjur-6862"
+  },
+  {
+   "slug": "engelska-ordleta-runt-huset-913f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-runt-huset-913f"
+  },
+  {
+   "slug": "engelska-ordleta-rymden-6cd0",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-rymden-6cd0"
+  },
+  {
+   "slug": "engelska-ordleta-saker-som-flyger-247a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-saker-som-flyger-247a"
+  },
+  {
+   "slug": "engelska-ordleta-sjukhus-a8bb",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-sjukhus-a8bb"
+  },
+  {
+   "slug": "engelska-ordleta-skogsdjur-9a33",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-skogsdjur-9a33"
+  },
+  {
+   "slug": "engelska-ordleta-sommar-4706",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-sommar-4706"
+  },
+  {
+   "slug": "engelska-ordleta-strand-6ea0",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-strand-6ea0"
+  },
+  {
+   "slug": "engelska-ordleta-thanksgiving-fe93",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-thanksgiving-fe93"
+  },
+  {
+   "slug": "engelska-ordleta-tillbehor-b34d",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-tillbehor-b34d"
+  },
+  {
+   "slug": "engelska-ordleta-trad-3e0d",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tree",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-trad-3e0d"
+  },
+  {
+   "slug": "engelska-ordleta-vader-d639",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-vader-d639"
+  },
+  {
+   "slug": "engelska-ordleta-var-d3de",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-var-d3de"
+  },
+  {
+   "slug": "engelska-ordleta-verktyg-e275",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-verktyg-e275"
+  },
+  {
+   "slug": "engelska-ordleta-vinter-2975",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-vinter-2975"
+  },
+  {
+   "slug": "engelska-ordleta-yrken-1030",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "engelska-ordleta-yrken-1030"
+  },
+  {
+   "slug": "ordleta-aktiviteter-eff1",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "activities",
+   "level": "ak-1",
+   "deck": "ordleta-aktiviteter-eff1"
+  },
+  {
+   "slug": "ordleta-bageri-6a65",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "ordleta-bageri-6a65"
+  },
+  {
+   "slug": "ordleta-blommor-cf8f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "ordleta-blommor-cf8f"
+  },
+  {
+   "slug": "ordleta-bondgardsdjur-c697",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "ordleta-bondgardsdjur-c697"
+  },
+  {
+   "slug": "ordleta-camping-5d13",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "ordleta-camping-5d13"
+  },
+  {
+   "slug": "ordleta-djur-3206",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "ordleta-djur-3206"
+  },
+  {
+   "slug": "ordleta-djurparksdjur-74ff",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "ordleta-djurparksdjur-74ff"
+  },
+  {
+   "slug": "ordleta-efterratter-och-godis-bb79",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "ordleta-efterratter-och-godis-bb79"
+  },
+  {
+   "slug": "ordleta-faglar-2-177f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "ordleta-faglar-2-177f"
+  },
+  {
+   "slug": "ordleta-faglar-f2fb",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "ordleta-faglar-f2fb"
+  },
+  {
+   "slug": "ordleta-farger-7894",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "ak-1",
+   "deck": "ordleta-farger-7894"
+  },
+  {
+   "slug": "ordleta-fordon-d9a1",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "ordleta-fordon-d9a1"
+  },
+  {
+   "slug": "ordleta-former-04dc",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "ordleta-former-04dc"
+  },
+  {
+   "slug": "ordleta-frukost-8441",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "ordleta-frukost-8441"
+  },
+  {
+   "slug": "ordleta-frukter-40e9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "ordleta-frukter-40e9"
+  },
+  {
+   "slug": "ordleta-gronsaker-dbf6",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "ordleta-gronsaker-dbf6"
+  },
+  {
+   "slug": "ordleta-havsliv-6ebf",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "ordleta-havsliv-6ebf"
+  },
+  {
+   "slug": "ordleta-husdjur-8f1e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "ordleta-husdjur-8f1e"
+  },
+  {
+   "slug": "ordleta-i-snabbkopet-e73f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "ordleta-i-snabbkopet-e73f"
+  },
+  {
+   "slug": "ordleta-insekter-och-kryp-efdf",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "ordleta-insekter-och-kryp-efdf"
+  },
+  {
+   "slug": "ordleta-jul-edc6",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "ordleta-jul-edc6"
+  },
+  {
+   "slug": "ordleta-kanslor-65b0",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "ak-1",
+   "deck": "ordleta-kanslor-65b0"
+  },
+  {
+   "slug": "ordleta-klader-b5a9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "ordleta-klader-b5a9"
+  },
+  {
+   "slug": "ordleta-klassrum-bb76",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "ordleta-klassrum-bb76"
+  },
+  {
+   "slug": "ordleta-koksredskap-653f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "ordleta-koksredskap-653f"
+  },
+  {
+   "slug": "ordleta-kroppsdelar-492c",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "ak-1",
+   "deck": "ordleta-kroppsdelar-492c"
+  },
+  {
+   "slug": "ordleta-leksaker-c86e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "ordleta-leksaker-c86e"
+  },
+  {
+   "slug": "ordleta-mobler-2775",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "ordleta-mobler-2775"
+  },
+  {
+   "slug": "ordleta-musik-5caf",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "ordleta-musik-5caf"
+  },
+  {
+   "slug": "ordleta-pask-73de",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "ordleta-pask-73de"
+  },
+  {
+   "slug": "ordleta-postkontor-5003",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "ordleta-postkontor-5003"
+  },
+  {
+   "slug": "ordleta-reptiler-och-groddjur-1100",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "ordleta-reptiler-och-groddjur-1100"
+  },
+  {
+   "slug": "ordleta-runt-huset-38e2",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "ordleta-runt-huset-38e2"
+  },
+  {
+   "slug": "ordleta-rymden-e373",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "ordleta-rymden-e373"
+  },
+  {
+   "slug": "ordleta-saker-som-flyger-7735",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "ordleta-saker-som-flyger-7735"
+  },
+  {
+   "slug": "ordleta-sjukhus-cf7b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "ordleta-sjukhus-cf7b"
+  },
+  {
+   "slug": "ordleta-skogsdjur-3df4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "ordleta-skogsdjur-3df4"
+  },
+  {
+   "slug": "ordleta-sommar-eedd",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "summer",
+   "level": "ak-1",
+   "deck": "ordleta-sommar-eedd"
+  },
+  {
+   "slug": "ordleta-strand-d122",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "ordleta-strand-d122"
+  },
+  {
+   "slug": "ordleta-thanksgiving-7ed9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "ordleta-thanksgiving-7ed9"
+  },
+  {
+   "slug": "ordleta-tillbehor-621b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "ordleta-tillbehor-621b"
+  },
+  {
+   "slug": "ordleta-trad-ebaf",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "ordleta-trad-ebaf"
+  },
+  {
+   "slug": "ordleta-vader-8581",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "weather",
+   "level": "ak-1",
+   "deck": "ordleta-vader-8581"
+  },
+  {
+   "slug": "ordleta-var-cb27",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "spring",
+   "level": "ak-1",
+   "deck": "ordleta-var-cb27"
+  },
+  {
+   "slug": "ordleta-verktyg-4412",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "ordleta-verktyg-4412"
+  },
+  {
+   "slug": "ordleta-vinter-13ea",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "winter",
+   "level": "ak-1",
+   "deck": "ordleta-vinter-13ea"
+  },
+  {
+   "slug": "ordleta-yrken-c88a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "ordleta-yrken-c88a"
+  }
+ ]
+}

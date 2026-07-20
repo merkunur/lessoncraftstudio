@@ -1,0 +1,748 @@
+{
+ "part": 62,
+ "locale": "de",
+ "classes": [
+  "pattern-train::aabb",
+  "prepositions::multiplechoice"
+ ],
+ "splitOf": null,
+ "count": 92,
+ "pages": [
+  {
+   "slug": "muster-zug-aabb-accessoires-0d4e",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-accessoires-0d4e"
+  },
+  {
+   "slug": "muster-zug-aabb-aktivitaten-615c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-aktivitaten-615c"
+  },
+  {
+   "slug": "muster-zug-aabb-backerei-1155",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-backerei-1155"
+  },
+  {
+   "slug": "muster-zug-aabb-bauernhoftiere-be1d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-bauernhoftiere-be1d"
+  },
+  {
+   "slug": "muster-zug-aabb-baume-0c39",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-baume-0c39"
+  },
+  {
+   "slug": "muster-zug-aabb-berufe-837b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-berufe-837b"
+  },
+  {
+   "slug": "muster-zug-aabb-blumen-1c5d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-blumen-1c5d"
+  },
+  {
+   "slug": "muster-zug-aabb-camping-afba",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-camping-afba"
+  },
+  {
+   "slug": "muster-zug-aabb-desserts-und-sussigkeiten-81c4",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-desserts-und-sussigkeiten-81c4"
+  },
+  {
+   "slug": "muster-zug-aabb-dinge-die-fliegen-56dc",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-dinge-die-fliegen-56dc"
+  },
+  {
+   "slug": "muster-zug-aabb-dinosaurier-7131",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-dinosaurier-7131"
+  },
+  {
+   "slug": "muster-zug-aabb-emotionen-1d36",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-emotionen-1d36"
+  },
+  {
+   "slug": "muster-zug-aabb-erntedankfest-68a2",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-erntedankfest-68a2"
+  },
+  {
+   "slug": "muster-zug-aabb-fahrzeuge-63f1",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-fahrzeuge-63f1"
+  },
+  {
+   "slug": "muster-zug-aabb-farben-7f0d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-farben-7f0d"
+  },
+  {
+   "slug": "muster-zug-aabb-formen-f7bf",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-formen-f7bf"
+  },
+  {
+   "slug": "muster-zug-aabb-fruchte-5e2a",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-fruchte-5e2a"
+  },
+  {
+   "slug": "muster-zug-aabb-fruhling-16d5",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-fruhling-16d5"
+  },
+  {
+   "slug": "muster-zug-aabb-fruhstuck-bed0",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-fruhstuck-bed0"
+  },
+  {
+   "slug": "muster-zug-aabb-gemuse-d862",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-gemuse-d862"
+  },
+  {
+   "slug": "muster-zug-aabb-haustiere-b50b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-haustiere-b50b"
+  },
+  {
+   "slug": "muster-zug-aabb-im-supermarkt-93ca",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-im-supermarkt-93ca"
+  },
+  {
+   "slug": "muster-zug-aabb-insekten-und-kafer-f952",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-insekten-und-kafer-f952"
+  },
+  {
+   "slug": "muster-zug-aabb-klassenzimmer-0b1b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-klassenzimmer-0b1b"
+  },
+  {
+   "slug": "muster-zug-aabb-kleidung-a1a6",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-kleidung-a1a6"
+  },
+  {
+   "slug": "muster-zug-aabb-korperteile-ef88",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-korperteile-ef88"
+  },
+  {
+   "slug": "muster-zug-aabb-krankenhaus-82a1",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-krankenhaus-82a1"
+  },
+  {
+   "slug": "muster-zug-aabb-kuchenwerkzeuge-61a2",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-kuchenwerkzeuge-61a2"
+  },
+  {
+   "slug": "muster-zug-aabb-meeresleben-ff1f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-meeresleben-ff1f"
+  },
+  {
+   "slug": "muster-zug-aabb-mobel-24bd",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-mobel-24bd"
+  },
+  {
+   "slug": "muster-zug-aabb-musik-ec06",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-musik-ec06"
+  },
+  {
+   "slug": "muster-zug-aabb-ostern-2eb1",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-ostern-2eb1"
+  },
+  {
+   "slug": "muster-zug-aabb-postamt-e7f7",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-postamt-e7f7"
+  },
+  {
+   "slug": "muster-zug-aabb-reptilien-und-amphibien-369f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "reptiles_and_amphibians",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-reptilien-und-amphibien-369f"
+  },
+  {
+   "slug": "muster-zug-aabb-rund-ums-haus-d5f4",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-rund-ums-haus-d5f4"
+  },
+  {
+   "slug": "muster-zug-aabb-sommer-c41c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-sommer-c41c"
+  },
+  {
+   "slug": "muster-zug-aabb-spielzeug-a0dc",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-spielzeug-a0dc"
+  },
+  {
+   "slug": "muster-zug-aabb-strand-4b90",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-strand-4b90"
+  },
+  {
+   "slug": "muster-zug-aabb-tiere-dc24",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-tiere-dc24"
+  },
+  {
+   "slug": "muster-zug-aabb-vogel-2-515b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-vogel-2-515b"
+  },
+  {
+   "slug": "muster-zug-aabb-vogel-210b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-vogel-210b"
+  },
+  {
+   "slug": "muster-zug-aabb-waldtiere-32be",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-waldtiere-32be"
+  },
+  {
+   "slug": "muster-zug-aabb-weltraum-a872",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-weltraum-a872"
+  },
+  {
+   "slug": "muster-zug-aabb-werkzeuge-8bc1",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-werkzeuge-8bc1"
+  },
+  {
+   "slug": "muster-zug-aabb-wetter-4eef",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-wetter-4eef"
+  },
+  {
+   "slug": "muster-zug-aabb-zootiere-8421",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "muster-zug-aabb-zootiere-8421"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-accessoires-b798",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-accessoires-b798"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-aktivitaten-b58d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-aktivitaten-b58d"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-backerei-2f86",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-backerei-2f86"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-bauernhoftiere-00d4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-bauernhoftiere-00d4"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-baume-f35b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-baume-f35b"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-berufe-0f98",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-berufe-0f98"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-blumen-f9ab",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-blumen-f9ab"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-camping-120e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-camping-120e"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-desserts-und-sussigkeiten-fd38",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-desserts-und-sussigkeiten-fd38"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-dinge-die-fliegen-12d2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-dinge-die-fliegen-12d2"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-dinosaurier-f308",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-dinosaurier-f308"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-emotionen-ebc9",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-emotionen-ebc9"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-erntedankfest-007c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-erntedankfest-007c"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-fahrzeuge-7701",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-fahrzeuge-7701"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-farben-865d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-farben-865d"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-formen-b958",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-formen-b958"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-fruchte-64f3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-fruchte-64f3"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-fruhling-c147",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-fruhling-c147"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-fruhstuck-0875",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-fruhstuck-0875"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-gemuse-79b7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-gemuse-79b7"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-haustiere-52d8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-haustiere-52d8"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-im-supermarkt-c7f6",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-im-supermarkt-c7f6"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-klassenzimmer-c5ce",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-klassenzimmer-c5ce"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-kleidung-683a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-kleidung-683a"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-korperteile-ebe7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-korperteile-ebe7"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-krankenhaus-ab6b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-krankenhaus-ab6b"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-kuchenwerkzeuge-6c35",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-kuchenwerkzeuge-6c35"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-meeresleben-6469",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-meeresleben-6469"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-mobel-7743",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-mobel-7743"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-musik-eac8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-musik-eac8"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-ostern-0b36",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-ostern-0b36"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-postamt-8be9",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-postamt-8be9"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-rund-ums-haus-b127",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-rund-ums-haus-b127"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-sommer-9474",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-sommer-9474"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-spielzeug-70d2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-spielzeug-70d2"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-strand-069a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-strand-069a"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-tiere-666e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-tiere-666e"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-vogel-1552",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-vogel-1552"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-vogel-2-3c1f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-vogel-2-3c1f"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-waldtiere-bc25",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-waldtiere-bc25"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-weihnachten-06fa",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-weihnachten-06fa"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-weltraum-979b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-weltraum-979b"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-werkzeuge-25bd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-werkzeuge-25bd"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-wetter-db3c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-wetter-db3c"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-winter-bf94",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-winter-bf94"
+  },
+  {
+   "slug": "praepositionen-multiple-choice-zootiere-e8e5",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "praepositionen-multiple-choice-zootiere-e8e5"
+  }
+ ]
+}

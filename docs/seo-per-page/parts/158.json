@@ -1,0 +1,660 @@
+{
+ "part": 158,
+ "locale": "fr",
+ "classes": [
+  "math-puzzle::addition",
+  "addition::find-addend"
+ ],
+ "splitOf": null,
+ "count": 81,
+ "pages": [
+  {
+   "slug": "puzzle-mathematique-addition-accessoires-cf6e",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "accessories",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-accessoires-cf6e"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-action-de-grace-2742",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "thanksgivinng",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-action-de-grace-2742"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-animaux-de-compagnie-d9b3",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-animaux-de-compagnie-d9b3"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-animaux-de-la-ferme-1b7b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "farm_animals",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-animaux-de-la-ferme-1b7b"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-animaux-du-zoo-520c",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-animaux-du-zoo-520c"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-animaux-ed4b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-animaux-ed4b"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-arbres-fba6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-arbres-fba6"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-au-supermarche-49a8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "at_the_supermarket",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-au-supermarche-49a8"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-autour-de-la-maison-27a4",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "around_the_house",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-autour-de-la-maison-27a4"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-boulangerie-23b8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "bakery",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-boulangerie-23b8"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-bureau-de-poste-8748",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "post_office",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-bureau-de-poste-8748"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-camping-b89c",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "camping",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-camping-b89c"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-choses-qui-volent-d1c1",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "things_that_fly",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-choses-qui-volent-d1c1"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-creatures-de-la-foret-3584",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "forest_creatures",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-creatures-de-la-foret-3584"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-desserts-et-sucreries-6637",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "desserts_and_sweets",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-desserts-et-sucreries-6637"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-dinosaures-71a2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "dinosaurs",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-dinosaures-71a2"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-divers-4c05",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "miscellaneous",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-divers-4c05"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-espace-f2c0",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "space",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-espace-f2c0"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-fleurs-87ba",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "flowers",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-fleurs-87ba"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-formes-98d6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-formes-98d6"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-fruits-afe2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "fruits",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-fruits-afe2"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-hopital-e116",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "hospital",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-hopital-e116"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-insectes-et-bestioles-3662",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-insectes-et-bestioles-3662"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-jouets-329a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "toys",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-jouets-329a"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-legumes-36d8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vegetables",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-legumes-36d8"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-metiers-8fb8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-metiers-8fb8"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-meubles-9be3",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "furniture",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-meubles-9be3"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-musique-4b6b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "music",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-musique-4b6b"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-noel-ed3c",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-noel-ed3c"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-oiseaux-2-b5f7",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds_2",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-oiseaux-2-b5f7"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-oiseaux-8096",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-oiseaux-8096"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-outils-e23f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tools",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-outils-e23f"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-paques-406a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "easter",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-paques-406a"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-petit-dejeuner-b942",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "breakfast",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-petit-dejeuner-b942"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-plage-8167",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "beach",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-plage-8167"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-reptiles-et-amphibiens-b14c",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "reptiles_and_amphibians",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-reptiles-et-amphibiens-b14c"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-salle-de-classe-fe3a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "classroom",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-salle-de-classe-fe3a"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-ustensiles-de-cuisine-1321",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-ustensiles-de-cuisine-1321"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-vehicules-0a9d",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vehicles",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-vehicules-0a9d"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-vetements-1b10",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "clothing",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-vetements-1b10"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-vie-oceanique-780d",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "ocean_life",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-vie-oceanique-780d"
+  },
+  {
+   "slug": "addition-trouve-le-terme-accessoires-2a6c",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "accessories",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-accessoires-2a6c"
+  },
+  {
+   "slug": "addition-trouve-le-terme-action-de-grace-ffc7",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "thanksgivinng",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-action-de-grace-ffc7"
+  },
+  {
+   "slug": "addition-trouve-le-terme-animaux-1c6a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-animaux-1c6a"
+  },
+  {
+   "slug": "addition-trouve-le-terme-animaux-de-compagnie-d75e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-animaux-de-compagnie-d75e"
+  },
+  {
+   "slug": "addition-trouve-le-terme-animaux-de-la-ferme-b1fa",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "farm_animals",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-animaux-de-la-ferme-b1fa"
+  },
+  {
+   "slug": "addition-trouve-le-terme-animaux-du-zoo-da5d",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-animaux-du-zoo-da5d"
+  },
+  {
+   "slug": "addition-trouve-le-terme-arbres-ed90",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-arbres-ed90"
+  },
+  {
+   "slug": "addition-trouve-le-terme-au-supermarche-046b",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "at_the_supermarket",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-au-supermarche-046b"
+  },
+  {
+   "slug": "addition-trouve-le-terme-autour-de-la-maison-2d10",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "around_the_house",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-autour-de-la-maison-2d10"
+  },
+  {
+   "slug": "addition-trouve-le-terme-boulangerie-5f60",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "bakery",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-boulangerie-5f60"
+  },
+  {
+   "slug": "addition-trouve-le-terme-bureau-de-poste-b38c",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "post_office",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-bureau-de-poste-b38c"
+  },
+  {
+   "slug": "addition-trouve-le-terme-camping-ac2a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "camping",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-camping-ac2a"
+  },
+  {
+   "slug": "addition-trouve-le-terme-choses-qui-volent-a53c",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "things_that_fly",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-choses-qui-volent-a53c"
+  },
+  {
+   "slug": "addition-trouve-le-terme-creatures-de-la-foret-224d",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "forest_creatures",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-creatures-de-la-foret-224d"
+  },
+  {
+   "slug": "addition-trouve-le-terme-desserts-et-sucreries-2df0",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "desserts_and_sweets",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-desserts-et-sucreries-2df0"
+  },
+  {
+   "slug": "addition-trouve-le-terme-dinosaures-7353",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "dinosaurs",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-dinosaures-7353"
+  },
+  {
+   "slug": "addition-trouve-le-terme-espace-0aaf",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "space",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-espace-0aaf"
+  },
+  {
+   "slug": "addition-trouve-le-terme-fleurs-8f18",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "flowers",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-fleurs-8f18"
+  },
+  {
+   "slug": "addition-trouve-le-terme-formes-30c4",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-formes-30c4"
+  },
+  {
+   "slug": "addition-trouve-le-terme-fruits-8ae2",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "fruits",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-fruits-8ae2"
+  },
+  {
+   "slug": "addition-trouve-le-terme-hopital-bc42",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "hospital",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-hopital-bc42"
+  },
+  {
+   "slug": "addition-trouve-le-terme-insectes-et-bestioles-a491",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-insectes-et-bestioles-a491"
+  },
+  {
+   "slug": "addition-trouve-le-terme-jouets-87b1",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "toys",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-jouets-87b1"
+  },
+  {
+   "slug": "addition-trouve-le-terme-legumes-8cb7",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vegetables",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-legumes-8cb7"
+  },
+  {
+   "slug": "addition-trouve-le-terme-metiers-628f",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-metiers-628f"
+  },
+  {
+   "slug": "addition-trouve-le-terme-meubles-ac76",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "furniture",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-meubles-ac76"
+  },
+  {
+   "slug": "addition-trouve-le-terme-musique-5295",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "music",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-musique-5295"
+  },
+  {
+   "slug": "addition-trouve-le-terme-noel-34e5",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-noel-34e5"
+  },
+  {
+   "slug": "addition-trouve-le-terme-oiseaux-2-6845",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds_2",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-oiseaux-2-6845"
+  },
+  {
+   "slug": "addition-trouve-le-terme-oiseaux-8345",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-oiseaux-8345"
+  },
+  {
+   "slug": "addition-trouve-le-terme-outils-b403",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tools",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-outils-b403"
+  },
+  {
+   "slug": "addition-trouve-le-terme-paques-4378",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "easter",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-paques-4378"
+  },
+  {
+   "slug": "addition-trouve-le-terme-petit-dejeuner-ce18",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "breakfast",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-petit-dejeuner-ce18"
+  },
+  {
+   "slug": "addition-trouve-le-terme-plage-c3af",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "beach",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-plage-c3af"
+  },
+  {
+   "slug": "addition-trouve-le-terme-reptiles-et-amphibiens-3175",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "reptiles_and_amphibians",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-reptiles-et-amphibiens-3175"
+  },
+  {
+   "slug": "addition-trouve-le-terme-salle-de-classe-9b91",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "classroom",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-salle-de-classe-9b91"
+  },
+  {
+   "slug": "addition-trouve-le-terme-ustensiles-de-cuisine-9c2d",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-ustensiles-de-cuisine-9c2d"
+  },
+  {
+   "slug": "addition-trouve-le-terme-vehicules-5e23",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vehicles",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-vehicules-5e23"
+  },
+  {
+   "slug": "addition-trouve-le-terme-vetements-56d2",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "clothing",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-vetements-56d2"
+  },
+  {
+   "slug": "addition-trouve-le-terme-vie-oceanique-9b92",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "ocean_life",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-vie-oceanique-9b92"
+  }
+ ]
+}

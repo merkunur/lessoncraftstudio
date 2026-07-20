@@ -1,0 +1,544 @@
+{
+ "part": 105,
+ "locale": "pt",
+ "classes": [
+  "crossword::null"
+ ],
+ "splitOf": {
+  "class": "crossword::null",
+  "total": 133,
+  "chunk": 2,
+  "chunks": 2
+ },
+ "count": 66,
+ "pages": [
+  {
+   "slug": "ingles-palavras-cruzadas-natal-26ef",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-natal-26ef"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-no-supermercado-4b57",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-no-supermercado-4b57"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-padaria-f60f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-padaria-f60f"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-partes-do-corpo-0473",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-partes-do-corpo-0473"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-pascoa-9307",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-pascoa-9307"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-passaros-2-867f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-passaros-2-867f"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-passaros-7147",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-passaros-7147"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-pela-casa-a4b6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-pela-casa-a4b6"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-praia-5a6e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-praia-5a6e"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-primavera-ac70",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-primavera-ac70"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-profissoes-102e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-profissoes-102e"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-repteis-e-anfibios-f20a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-repteis-e-anfibios-f20a"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-roupas-c26a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-roupas-c26a"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-sala-de-aula-385a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-sala-de-aula-385a"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-sobremesas-e-doces-5b4a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-sobremesas-e-doces-5b4a"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-utensilios-de-cozinha-458c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-utensilios-de-cozinha-458c"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-vegetais-ff79",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-vegetais-ff79"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-veiculos-a8ca",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-veiculos-a8ca"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-verao-fb69",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-verao-fb69"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-vida-marinha-359a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-vida-marinha-359a"
+  },
+  {
+   "slug": "palavras-cruzadas",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas"
+  },
+  {
+   "slug": "palavras-cruzadas-025f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-025f"
+  },
+  {
+   "slug": "palavras-cruzadas-093d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-093d"
+  },
+  {
+   "slug": "palavras-cruzadas-0a68",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-0a68"
+  },
+  {
+   "slug": "palavras-cruzadas-0c8e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-0c8e"
+  },
+  {
+   "slug": "palavras-cruzadas-1030",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-1030"
+  },
+  {
+   "slug": "palavras-cruzadas-1169",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-1169"
+  },
+  {
+   "slug": "palavras-cruzadas-121d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-121d"
+  },
+  {
+   "slug": "palavras-cruzadas-1839",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-1839"
+  },
+  {
+   "slug": "palavras-cruzadas-1914",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-1914"
+  },
+  {
+   "slug": "palavras-cruzadas-28ad",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-28ad"
+  },
+  {
+   "slug": "palavras-cruzadas-2f49",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-2f49"
+  },
+  {
+   "slug": "palavras-cruzadas-3069",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-3069"
+  },
+  {
+   "slug": "palavras-cruzadas-3d14",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-3d14"
+  },
+  {
+   "slug": "palavras-cruzadas-42cf",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-42cf"
+  },
+  {
+   "slug": "palavras-cruzadas-4a91",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-4a91"
+  },
+  {
+   "slug": "palavras-cruzadas-4ddc",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-4ddc"
+  },
+  {
+   "slug": "palavras-cruzadas-4e95",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-4e95"
+  },
+  {
+   "slug": "palavras-cruzadas-5308",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-5308"
+  },
+  {
+   "slug": "palavras-cruzadas-6015",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-6015"
+  },
+  {
+   "slug": "palavras-cruzadas-673b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-673b"
+  },
+  {
+   "slug": "palavras-cruzadas-673e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-673e"
+  },
+  {
+   "slug": "palavras-cruzadas-72b2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-72b2"
+  },
+  {
+   "slug": "palavras-cruzadas-7819",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-7819"
+  },
+  {
+   "slug": "palavras-cruzadas-7bab",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-7bab"
+  },
+  {
+   "slug": "palavras-cruzadas-7dd5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-7dd5"
+  },
+  {
+   "slug": "palavras-cruzadas-8072",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-8072"
+  },
+  {
+   "slug": "palavras-cruzadas-819b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-819b"
+  },
+  {
+   "slug": "palavras-cruzadas-8e4b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-8e4b"
+  },
+  {
+   "slug": "palavras-cruzadas-950d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-950d"
+  },
+  {
+   "slug": "palavras-cruzadas-a3ff",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-a3ff"
+  },
+  {
+   "slug": "palavras-cruzadas-aa3b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-aa3b"
+  },
+  {
+   "slug": "palavras-cruzadas-b2fd",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-b2fd"
+  },
+  {
+   "slug": "palavras-cruzadas-ba19",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-ba19"
+  },
+  {
+   "slug": "palavras-cruzadas-bacf",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-bacf"
+  },
+  {
+   "slug": "palavras-cruzadas-bda5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-bda5"
+  },
+  {
+   "slug": "palavras-cruzadas-d024",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-d024"
+  },
+  {
+   "slug": "palavras-cruzadas-d798",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-d798"
+  },
+  {
+   "slug": "palavras-cruzadas-d960",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-d960"
+  },
+  {
+   "slug": "palavras-cruzadas-d989",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-d989"
+  },
+  {
+   "slug": "palavras-cruzadas-deb5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-deb5"
+  },
+  {
+   "slug": "palavras-cruzadas-ea6a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-ea6a"
+  },
+  {
+   "slug": "palavras-cruzadas-ead7",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-ead7"
+  },
+  {
+   "slug": "palavras-cruzadas-f126",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-f126"
+  },
+  {
+   "slug": "palavras-cruzadas-f876",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-f876"
+  },
+  {
+   "slug": "palavras-cruzadas-ffa0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "2o-ano",
+   "deck": "palavras-cruzadas-ffa0"
+  }
+ ]
+}

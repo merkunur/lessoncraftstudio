@@ -1,0 +1,780 @@
+{
+ "part": 90,
+ "locale": "es",
+ "classes": [
+  "addition::image-image",
+  "find-objects::find-odd"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "suma-imagen-imagen-4-de-julio-6902",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-4-de-julio-6902"
+  },
+  {
+   "slug": "suma-imagen-imagen-accesorios-23f7",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-accesorios-23f7"
+  },
+  {
+   "slug": "suma-imagen-imagen-actividades-5ce5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-actividades-5ce5"
+  },
+  {
+   "slug": "suma-imagen-imagen-alrededor-de-la-casa-7129",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-alrededor-de-la-casa-7129"
+  },
+  {
+   "slug": "suma-imagen-imagen-animales-33bf",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-animales-33bf"
+  },
+  {
+   "slug": "suma-imagen-imagen-animales-de-granja-2d13",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-animales-de-granja-2d13"
+  },
+  {
+   "slug": "suma-imagen-imagen-animales-del-zoologico-6dc3",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-animales-del-zoologico-6dc3"
+  },
+  {
+   "slug": "suma-imagen-imagen-arboles-38f5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-arboles-38f5"
+  },
+  {
+   "slug": "suma-imagen-imagen-aves-2-5103",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-aves-2-5103"
+  },
+  {
+   "slug": "suma-imagen-imagen-aves-7400",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-aves-7400"
+  },
+  {
+   "slug": "suma-imagen-imagen-campamento-0fb8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-campamento-0fb8"
+  },
+  {
+   "slug": "suma-imagen-imagen-clima-4333",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-clima-4333"
+  },
+  {
+   "slug": "suma-imagen-imagen-colores-838d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-colores-838d"
+  },
+  {
+   "slug": "suma-imagen-imagen-cosas-que-vuelan-c386",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-cosas-que-vuelan-c386"
+  },
+  {
+   "slug": "suma-imagen-imagen-criaturas-del-bosque-7663",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-criaturas-del-bosque-7663"
+  },
+  {
+   "slug": "suma-imagen-imagen-desayuno-6fad",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-desayuno-6fad"
+  },
+  {
+   "slug": "suma-imagen-imagen-emociones-6b16",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-emociones-6b16"
+  },
+  {
+   "slug": "suma-imagen-imagen-en-el-supermercado-76da",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-en-el-supermercado-76da"
+  },
+  {
+   "slug": "suma-imagen-imagen-espacio-1577",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-espacio-1577"
+  },
+  {
+   "slug": "suma-imagen-imagen-flores-f4ff",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-flores-f4ff"
+  },
+  {
+   "slug": "suma-imagen-imagen-formas-1586",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-formas-1586"
+  },
+  {
+   "slug": "suma-imagen-imagen-frutas-487f",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-frutas-487f"
+  },
+  {
+   "slug": "suma-imagen-imagen-herramientas-a68f",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-herramientas-a68f"
+  },
+  {
+   "slug": "suma-imagen-imagen-hospital-cca5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-hospital-cca5"
+  },
+  {
+   "slug": "suma-imagen-imagen-insectos-y-bichos-9620",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-insectos-y-bichos-9620"
+  },
+  {
+   "slug": "suma-imagen-imagen-invierno-8e1d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-invierno-8e1d"
+  },
+  {
+   "slug": "suma-imagen-imagen-juguetes-96ae",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-juguetes-96ae"
+  },
+  {
+   "slug": "suma-imagen-imagen-mascotas-8389",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-mascotas-8389"
+  },
+  {
+   "slug": "suma-imagen-imagen-miscelaneo-b635",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-miscelaneo-b635"
+  },
+  {
+   "slug": "suma-imagen-imagen-muebles-f868",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-muebles-f868"
+  },
+  {
+   "slug": "suma-imagen-imagen-musica-67a6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-musica-67a6"
+  },
+  {
+   "slug": "suma-imagen-imagen-navidad-e97e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-navidad-e97e"
+  },
+  {
+   "slug": "suma-imagen-imagen-ocupaciones-16d9",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-ocupaciones-16d9"
+  },
+  {
+   "slug": "suma-imagen-imagen-oficina-de-correos-8a03",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-oficina-de-correos-8a03"
+  },
+  {
+   "slug": "suma-imagen-imagen-panaderia-af64",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-panaderia-af64"
+  },
+  {
+   "slug": "suma-imagen-imagen-partes-del-cuerpo-194a",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-partes-del-cuerpo-194a"
+  },
+  {
+   "slug": "suma-imagen-imagen-pascua-ecda",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-pascua-ecda"
+  },
+  {
+   "slug": "suma-imagen-imagen-playa-3b5c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-playa-3b5c"
+  },
+  {
+   "slug": "suma-imagen-imagen-postres-y-dulces-c11c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-postres-y-dulces-c11c"
+  },
+  {
+   "slug": "suma-imagen-imagen-primavera-bb03",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "spring",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-primavera-bb03"
+  },
+  {
+   "slug": "suma-imagen-imagen-reptiles-y-anfibios-0ba5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-reptiles-y-anfibios-0ba5"
+  },
+  {
+   "slug": "suma-imagen-imagen-ropa-c05e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-ropa-c05e"
+  },
+  {
+   "slug": "suma-imagen-imagen-salon-de-clases-3e9c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-salon-de-clases-3e9c"
+  },
+  {
+   "slug": "suma-imagen-imagen-utensilios-de-cocina-5f74",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-utensilios-de-cocina-5f74"
+  },
+  {
+   "slug": "suma-imagen-imagen-vehiculos-b3e8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-vehiculos-b3e8"
+  },
+  {
+   "slug": "suma-imagen-imagen-verano-29be",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-verano-29be"
+  },
+  {
+   "slug": "suma-imagen-imagen-verduras-73f6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-verduras-73f6"
+  },
+  {
+   "slug": "suma-imagen-imagen-vida-marina-09cf",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-vida-marina-09cf"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-accesorios-e6a5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-accesorios-e6a5"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-actividades-0b48",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-actividades-0b48"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-alrededor-de-la-casa-16ec",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-alrededor-de-la-casa-16ec"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-animales-6dc4",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-animales-6dc4"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-animales-de-granja-14f8",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-animales-de-granja-14f8"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-animales-del-zoologico-0071",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-animales-del-zoologico-0071"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-arboles-f911",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-arboles-f911"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-aves-2-b696",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-aves-2-b696"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-aves-6616",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-aves-6616"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-campamento-1c18",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-campamento-1c18"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-clima-8b26",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-clima-8b26"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-colores-9b2b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-colores-9b2b"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-cosas-que-vuelan-cba5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-cosas-que-vuelan-cba5"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-criaturas-del-bosque-d2d3",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-criaturas-del-bosque-d2d3"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-desayuno-c2f2",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-desayuno-c2f2"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-dia-de-accion-de-gracias-6420",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-dia-de-accion-de-gracias-6420"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-dinosaurios-2bec",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-dinosaurios-2bec"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-emociones-9787",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-emociones-9787"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-en-el-supermercado-398c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-en-el-supermercado-398c"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-espacio-6b8a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-espacio-6b8a"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-flores-4c19",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-flores-4c19"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-formas-aa52",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-formas-aa52"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-frutas-8cf4",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-frutas-8cf4"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-herramientas-648e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-herramientas-648e"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-hospital-7ffe",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-hospital-7ffe"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-insectos-y-bichos-1423",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-insectos-y-bichos-1423"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-invierno-4867",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-invierno-4867"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-juguetes-96d3",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-juguetes-96d3"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-mascotas-ca74",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-mascotas-ca74"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-muebles-847c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-muebles-847c"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-musica-290e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-musica-290e"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-navidad-3002",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-navidad-3002"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-ocupaciones-d554",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-ocupaciones-d554"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-oficina-de-correos-f15a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-oficina-de-correos-f15a"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-panaderia-1247",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-panaderia-1247"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-partes-del-cuerpo-143c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-partes-del-cuerpo-143c"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-pascua-66f4",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-pascua-66f4"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-playa-2c34",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-playa-2c34"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-postres-y-dulces-3519",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-postres-y-dulces-3519"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-primavera-f64f",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-primavera-f64f"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-reptiles-y-anfibios-3b59",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-reptiles-y-anfibios-3b59"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-ropa-062a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-ropa-062a"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-salon-de-clases-8852",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-salon-de-clases-8852"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-utensilios-de-cocina-d868",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-utensilios-de-cocina-d868"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-vehiculos-2e5e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-vehiculos-2e5e"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-verano-63c8",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-verano-63c8"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-verduras-1bda",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-verduras-1bda"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-vida-marina-0ee0",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-vida-marina-0ee0"
+  }
+ ]
+}

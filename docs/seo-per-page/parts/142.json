@@ -1,0 +1,780 @@
+{
+ "part": 142,
+ "locale": "fr",
+ "classes": [
+  "find-objects::find-odd",
+  "math-worksheet::three-symbols-add-sub"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-accessoires-8deb",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-accessoires-8deb"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-action-de-grace-6b1d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "thanksgivinng",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-action-de-grace-6b1d"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-activites-c34c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-activites-c34c"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-animaux-1ff1",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-animaux-1ff1"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-animaux-de-compagnie-c172",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "pets",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-animaux-de-compagnie-c172"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-animaux-de-la-ferme-bd04",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "farm_animals",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-animaux-de-la-ferme-bd04"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-animaux-du-zoo-8b66",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-animaux-du-zoo-8b66"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-arbres-d057",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tree",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-arbres-d057"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-au-supermarche-21ed",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-au-supermarche-21ed"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-autour-de-la-maison-879a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-autour-de-la-maison-879a"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-boulangerie-d7c6",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "bakery",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-boulangerie-d7c6"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-bureau-de-poste-a7d5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "post_office",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-bureau-de-poste-a7d5"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-camping-3468",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "camping",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-camping-3468"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-choses-qui-volent-5aa7",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-choses-qui-volent-5aa7"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-couleurs-0ddb",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-couleurs-0ddb"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-creatures-de-la-foret-c15c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "forest_creatures",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-creatures-de-la-foret-c15c"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-desserts-et-sucreries-ba8e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "desserts_and_sweets",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-desserts-et-sucreries-ba8e"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-dinosaures-75c5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "dinosaurs",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-dinosaures-75c5"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-emotions-9cb9",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-emotions-9cb9"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-espace-5a33",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-espace-5a33"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-ete-a99b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-ete-a99b"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-fleurs-8559",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "flowers",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-fleurs-8559"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-formes-982d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "shapes",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-formes-982d"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-fruits-f74d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "fruits",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-fruits-f74d"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-hiver-ffb5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-hiver-ffb5"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-hopital-46f6",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-hopital-46f6"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-insectes-et-bestioles-a489",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "insects_and_bugs",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-insectes-et-bestioles-a489"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-jouets-088b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-jouets-088b"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-legumes-e962",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vegetables",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-legumes-e962"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-meteo-5ba8",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-meteo-5ba8"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-metiers-7f42",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-metiers-7f42"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-meubles-984f",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "furniture",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-meubles-984f"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-musique-3ae0",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "music",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-musique-3ae0"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-noel-07b2",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "christmas",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-noel-07b2"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-oiseaux-0a98",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-oiseaux-0a98"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-oiseaux-2-c8ea",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-oiseaux-2-c8ea"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-outils-a762",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tools",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-outils-a762"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-paques-71a2",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "easter",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-paques-71a2"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-parties-du-corps-5412",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-parties-du-corps-5412"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-petit-dejeuner-9212",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-petit-dejeuner-9212"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-plage-642a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-plage-642a"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-printemps-7700",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-printemps-7700"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-reptiles-et-amphibiens-064e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "reptiles_and_amphibians",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-reptiles-et-amphibiens-064e"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-salle-de-classe-057c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-salle-de-classe-057c"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-ustensiles-de-cuisine-8e8b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "kitchen_tools",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-ustensiles-de-cuisine-8e8b"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-vehicules-0aba",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-vehicules-0aba"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-vetements-b8c3",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-vetements-b8c3"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-vie-oceanique-54c6",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-vie-oceanique-54c6"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-accessoires-d3f9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "accessories",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-accessoires-d3f9"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-action-de-grace-baf1",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "thanksgivinng",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-action-de-grace-baf1"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-activites-34c1",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "activities",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-activites-34c1"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-animaux-b57d",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-animaux-b57d"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-animaux-de-compagnie-7899",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-animaux-de-compagnie-7899"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-animaux-de-la-ferme-a66c",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-animaux-de-la-ferme-a66c"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-animaux-du-zoo-dc29",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-animaux-du-zoo-dc29"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-arbres-715b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tree",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-arbres-715b"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-au-supermarche-710a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-au-supermarche-710a"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-autour-de-la-maison-102e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-autour-de-la-maison-102e"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-boulangerie-3d34",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "bakery",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-boulangerie-3d34"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-bureau-de-poste-1a25",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "post_office",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-bureau-de-poste-1a25"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-camping-1eef",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "camping",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-camping-1eef"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-choses-qui-volent-45d4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-choses-qui-volent-45d4"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-couleurs-44ff",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "colors",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-couleurs-44ff"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-creatures-de-la-foret-f349",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-creatures-de-la-foret-f349"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-desserts-et-sucreries-e4c2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "desserts_and_sweets",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-desserts-et-sucreries-e4c2"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-dinosaures-9de6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-dinosaures-9de6"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-emotions-7d7f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "emotions",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-emotions-7d7f"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-espace-9b58",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "space",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-espace-9b58"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-ete-e38a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "summer",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-ete-e38a"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-fleurs-3ae5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "flowers",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-fleurs-3ae5"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-formes-26e2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-formes-26e2"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-fruits-2c08",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "fruits",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-fruits-2c08"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-hiver-61de",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "winter",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-hiver-61de"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-hopital-e694",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "hospital",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-hopital-e694"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-insectes-et-bestioles-407e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-insectes-et-bestioles-407e"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-jouets-273e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "toys",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-jouets-273e"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-legumes-9a98",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-legumes-9a98"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-meteo-bcad",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "weather",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-meteo-bcad"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-metiers-e20e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-metiers-e20e"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-meubles-ddd3",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "furniture",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-meubles-ddd3"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-musique-b163",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "music",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-musique-b163"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-noel-b75b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "christmas",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-noel-b75b"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-oiseaux-2-5d48",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-oiseaux-2-5d48"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-oiseaux-53f1",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-oiseaux-53f1"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-outils-52d3",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tools",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-outils-52d3"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-paques-5921",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "easter",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-paques-5921"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-parties-du-corps-9ee0",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-parties-du-corps-9ee0"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-petit-dejeuner-f2d7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-petit-dejeuner-f2d7"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-plage-5c7a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "beach",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-plage-5c7a"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-printemps-06eb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "spring",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-printemps-06eb"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-reptiles-et-amphibiens-d7f9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-reptiles-et-amphibiens-d7f9"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-salle-de-classe-e15e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "classroom",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-salle-de-classe-e15e"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-ustensiles-de-cuisine-1b84",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-ustensiles-de-cuisine-1b84"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-vehicules-a1e2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-vehicules-a1e2"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-vetements-4bc3",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "clothing",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-vetements-4bc3"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-vie-oceanique-8f78",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-vie-oceanique-8f78"
+  }
+ ]
+}

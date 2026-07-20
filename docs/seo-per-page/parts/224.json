@@ -1,0 +1,811 @@
+{
+ "part": 224,
+ "locale": "nl",
+ "classes": [
+  "big-small::findBig",
+  "picture-path::classic-maze",
+  "odd-one-out::cross-theme",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute",
+  "word-guess::null"
+ ],
+ "splitOf": null,
+ "count": 97,
+ "pages": [
+  {
+   "slug": "groot-klein-vind-de-grote-accessoires-21b4",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-accessoires-21b4"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-bakkerij-8e30",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-bakkerij-8e30"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-beroepen-f42f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-beroepen-f42f"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-bloemen-b7c2",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-bloemen-b7c2"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-boerderijdieren-1faa",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "farm_animals",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-boerderijdieren-1faa"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-bomen-6e31",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-bomen-6e31"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-boswezens-6c62",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "forest_creatures",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-boswezens-6c62"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-desserts-en-snoep-07ba",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-desserts-en-snoep-07ba"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-dieren-23b3",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-dieren-23b3"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-dierentuindieren-8ea2",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-dierentuindieren-8ea2"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-dingen-die-vliegen-75f0",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "things_that_fly",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-dingen-die-vliegen-75f0"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-dinosaurussen-41a7",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-dinosaurussen-41a7"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-fruit-6ca8",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-fruit-6ca8"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-gereedschap-304f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-gereedschap-304f"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-groenten-bb13",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-groenten-bb13"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-huisdieren-eb44",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-huisdieren-eb44"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-in-de-supermarkt-27e2",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-in-de-supermarkt-27e2"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-kamperen-16a3",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-kamperen-16a3"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-kerstmis-5edf",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-kerstmis-5edf"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-keukengerei-4cf4",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-keukengerei-4cf4"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-klaslokaal-0d2a",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-klaslokaal-0d2a"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-kleding-db0f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-kleding-db0f"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-lichaamsdelen-5ad8",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-lichaamsdelen-5ad8"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-meubels-e666",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-meubels-e666"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-muziek-fc16",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-muziek-fc16"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-oceaanleven-0273",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-oceaanleven-0273"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-ontbijt-c86c",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-ontbijt-c86c"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-pasen-1c24",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-pasen-1c24"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-rond-het-huis-8b74",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-rond-het-huis-8b74"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-ruimte-9821",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-ruimte-9821"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-speelgoed-41dc",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-speelgoed-41dc"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-strand-19bc",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-strand-19bc"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-voertuigen-bb2b",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-voertuigen-bb2b"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-vogels-2-a0d9",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-vogels-2-a0d9"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-vormen-018c",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-vormen-018c"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-ziekenhuis-d8c6",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-ziekenhuis-d8c6"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-accessoires-dded",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-accessoires-dded"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-activiteiten-ceb8",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "activities",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-activiteiten-ceb8"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-bakkerij-a619",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-bakkerij-a619"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-beroepen-a19b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-beroepen-a19b"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-bloemen-904d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-bloemen-904d"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-bomen-302b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-bomen-302b"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-desserts-en-snoep-6d9a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-desserts-en-snoep-6d9a"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-dinosaurussen-cd30",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-dinosaurussen-cd30"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-fruit-74ce",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-fruit-74ce"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-gereedschap-25e6",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-gereedschap-25e6"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-groenten-459e",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-groenten-459e"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-in-de-supermarkt-858a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-in-de-supermarkt-858a"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-kamperen-4cef",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-kamperen-4cef"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-kerstmis-2257",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-kerstmis-2257"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-keukengerei-0f70",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-keukengerei-0f70"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-klaslokaal-c2cc",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-klaslokaal-c2cc"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-kleding-c1fa",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-kleding-c1fa"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-lente-c789",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-lente-c789"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-lichaamsdelen-29df",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-lichaamsdelen-29df"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-meubels-1220",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-meubels-1220"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-muziek-9c11",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-muziek-9c11"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-oceaanleven-d2ba",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-oceaanleven-d2ba"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-ontbijt-f5ae",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-ontbijt-f5ae"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-pasen-8e6d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-pasen-8e6d"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-postkantoor-bb68",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-postkantoor-bb68"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-rond-het-huis-3084",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-rond-het-huis-3084"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-ruimte-f1b6",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-ruimte-f1b6"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-speelgoed-f361",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-speelgoed-f361"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-strand-0163",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-strand-0163"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-thanksgiving-eb72",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-thanksgiving-eb72"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-voertuigen-d669",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-voertuigen-d669"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-vormen-1a7e",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-vormen-1a7e"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-weer-1243",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-weer-1243"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-winter-090a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-winter-090a"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-ziekenhuis-4dcf",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-ziekenhuis-4dcf"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-zomer-7b8b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-zomer-7b8b"
+  },
+  {
+   "slug": "welke-hoort-niet-thuis-themaoverstijgend-bloemen-ccde",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "welke-hoort-niet-thuis-themaoverstijgend-bloemen-ccde"
+  },
+  {
+   "slug": "welke-hoort-niet-thuis-themaoverstijgend-bomen-e9d4",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "welke-hoort-niet-thuis-themaoverstijgend-bomen-e9d4"
+  },
+  {
+   "slug": "welke-hoort-niet-thuis-themaoverstijgend-dieren-bc32",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "welke-hoort-niet-thuis-themaoverstijgend-dieren-bc32"
+  },
+  {
+   "slug": "keersommen-met-roosters-groep-4",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "keersommen-fruit-g2210"
+  },
+  {
+   "slug": "tafels-groep-5",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "keersommen-g3313"
+  },
+  {
+   "slug": "breuken-groep-5",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "breuken-g3315"
+  },
+  {
+   "slug": "gelijke-delen-groep-4",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "breuken-g2228"
+  },
+  {
+   "slug": "vormen-kleuters",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "kleuters",
+   "deck": "meetkunde-k075"
+  },
+  {
+   "slug": "meetkunde-groep-5",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "meetkunde-g3337"
+  },
+  {
+   "slug": "meetkunde-groep-4",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "meetkunde-g2241"
+  },
+  {
+   "slug": "grafieken-groep-4",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "grafieken-lezen-fruit-g2237"
+  },
+  {
+   "slug": "grafieken-lezen-groep-3",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "groep-3",
+   "deck": "grafieken-lezen-fruit-g1141"
+  },
+  {
+   "slug": "grafieken-met-schaal-groep-5",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "grafieken-lezen-fruit-g3332"
+  },
+  {
+   "slug": "zwaar-of-licht-kleuters",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "kleuters",
+   "deck": "meten-fruit-k038"
+  },
+  {
+   "slug": "lengte-meten-groep-3",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
+   "level": "groep-3",
+   "deck": "meten-fruit-g1140"
+  },
+  {
+   "slug": "meten-met-liniaal-groep-4",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "meten-vormen-g2235"
+  },
+  {
+   "slug": "temperatuur-en-inhoud-groep-5",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "meten-g3345"
+  },
+  {
+   "slug": "honderdveld-groep-3",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "groep-3",
+   "deck": "honderdveld-g1130"
+  },
+  {
+   "slug": "getalpatronen-groep-5",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "honderdveld-g3328"
+  },
+  {
+   "slug": "getallen-invullen-kleuters",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "kleuters",
+   "deck": "honderdveld-k021"
+  },
+  {
+   "slug": "sprongen-tellen-groep-4",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "honderdveld-g2218"
+  },
+  {
+   "slug": "klokkijken-groep-3",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "groep-3",
+   "deck": "klokkijken-g1148"
+  },
+  {
+   "slug": "klokkijken-groep-4",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "klokkijken-g2249"
+  },
+  {
+   "slug": "klokkijken-groep-5",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "klokkijken-g3344"
+  },
+  {
+   "slug": "woord-raden-dieren",
+   "type": "word-guess",
+   "mode": null,
+   "theme": "animals",
+   "level": "groep-3",
+   "deck": "woord-raden-dieren"
+  }
+ ]
+}

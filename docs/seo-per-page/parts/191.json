@@ -1,0 +1,652 @@
+{
+ "part": 191,
+ "locale": "it",
+ "classes": [
+  "math-puzzle::mixed",
+  "math-puzzle::subtraction"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "puzzle-matematico-misto-abbigliamento-0850",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-abbigliamento-0850"
+  },
+  {
+   "slug": "puzzle-matematico-misto-accessori-baff",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-accessori-baff"
+  },
+  {
+   "slug": "puzzle-matematico-misto-al-supermercato-94ba",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-al-supermercato-94ba"
+  },
+  {
+   "slug": "puzzle-matematico-misto-alberi-1941",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-alberi-1941"
+  },
+  {
+   "slug": "puzzle-matematico-misto-animali-107f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-animali-107f"
+  },
+  {
+   "slug": "puzzle-matematico-misto-animali-della-fattoria-b4f7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-animali-della-fattoria-b4f7"
+  },
+  {
+   "slug": "puzzle-matematico-misto-animali-dello-zoo-b335",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-animali-dello-zoo-b335"
+  },
+  {
+   "slug": "puzzle-matematico-misto-animali-domestici-49ba",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-animali-domestici-49ba"
+  },
+  {
+   "slug": "puzzle-matematico-misto-attrezzi-7629",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-attrezzi-7629"
+  },
+  {
+   "slug": "puzzle-matematico-misto-aula-db84",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-aula-db84"
+  },
+  {
+   "slug": "puzzle-matematico-misto-campeggio-a4a8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-campeggio-a4a8"
+  },
+  {
+   "slug": "puzzle-matematico-misto-colazione-623f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-colazione-623f"
+  },
+  {
+   "slug": "puzzle-matematico-misto-cose-che-volano-fbcf",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-cose-che-volano-fbcf"
+  },
+  {
+   "slug": "puzzle-matematico-misto-creature-della-foresta-5809",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-creature-della-foresta-5809"
+  },
+  {
+   "slug": "puzzle-matematico-misto-dinosauri-4469",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-dinosauri-4469"
+  },
+  {
+   "slug": "puzzle-matematico-misto-dolci-e-dolciumi-a4b4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-dolci-e-dolciumi-a4b4"
+  },
+  {
+   "slug": "puzzle-matematico-misto-fiori-c135",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-fiori-c135"
+  },
+  {
+   "slug": "puzzle-matematico-misto-frutta-6b81",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-frutta-6b81"
+  },
+  {
+   "slug": "puzzle-matematico-misto-giocattoli-ce76",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-giocattoli-ce76"
+  },
+  {
+   "slug": "puzzle-matematico-misto-giorno-del-ringraziamento-df8d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-giorno-del-ringraziamento-df8d"
+  },
+  {
+   "slug": "puzzle-matematico-misto-in-giro-per-casa-f241",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-in-giro-per-casa-f241"
+  },
+  {
+   "slug": "puzzle-matematico-misto-insetti-e-scarafaggi-049e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-insetti-e-scarafaggi-049e"
+  },
+  {
+   "slug": "puzzle-matematico-misto-mobili-ff64",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-mobili-ff64"
+  },
+  {
+   "slug": "puzzle-matematico-misto-musica-178f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-musica-178f"
+  },
+  {
+   "slug": "puzzle-matematico-misto-natale-463e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-natale-463e"
+  },
+  {
+   "slug": "puzzle-matematico-misto-ospedale-0aeb",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-ospedale-0aeb"
+  },
+  {
+   "slug": "puzzle-matematico-misto-panetteria-a47e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-panetteria-a47e"
+  },
+  {
+   "slug": "puzzle-matematico-misto-pasqua-52eb",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-pasqua-52eb"
+  },
+  {
+   "slug": "puzzle-matematico-misto-professioni-b54e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-professioni-b54e"
+  },
+  {
+   "slug": "puzzle-matematico-misto-rettili-e-anfibi-1750",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-rettili-e-anfibi-1750"
+  },
+  {
+   "slug": "puzzle-matematico-misto-spazio-e8a3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-spazio-e8a3"
+  },
+  {
+   "slug": "puzzle-matematico-misto-spiaggia-dfc3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-spiaggia-dfc3"
+  },
+  {
+   "slug": "puzzle-matematico-misto-uccelli-2-50c0",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-uccelli-2-50c0"
+  },
+  {
+   "slug": "puzzle-matematico-misto-uccelli-d468",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-uccelli-d468"
+  },
+  {
+   "slug": "puzzle-matematico-misto-ufficio-postale-b76e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-ufficio-postale-b76e"
+  },
+  {
+   "slug": "puzzle-matematico-misto-utensili-da-cucina-ca10",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-utensili-da-cucina-ca10"
+  },
+  {
+   "slug": "puzzle-matematico-misto-varie-ee21",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-varie-ee21"
+  },
+  {
+   "slug": "puzzle-matematico-misto-veicoli-5dfc",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-misto-veicoli-5dfc"
+  },
+  {
+   "slug": "puzzle-matematico-misto-verdure-2e3c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-verdure-2e3c"
+  },
+  {
+   "slug": "puzzle-matematico-misto-vita-oceanica-0ba9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-vita-oceanica-0ba9"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-abbigliamento-0cb2",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "clothing",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-abbigliamento-0cb2"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-accessori-36c2",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "accessories",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-accessori-36c2"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-al-supermercato-7d21",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "at_the_supermarket",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-al-supermercato-7d21"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-alberi-8fef",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tree",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-alberi-8fef"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-animali-c4d5",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "animals",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-animali-c4d5"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-animali-della-fattoria-411d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "farm_animals",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-animali-della-fattoria-411d"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-animali-dello-zoo-4dda",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "zoo_animals",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-animali-dello-zoo-4dda"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-animali-domestici-47be",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-animali-domestici-47be"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-attrezzi-dd9a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tools",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-attrezzi-dd9a"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-aula-efa7",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "classroom",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-aula-efa7"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-campeggio-9aec",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "camping",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-campeggio-9aec"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-colazione-c503",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-colazione-c503"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-cose-che-volano-9c01",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "things_that_fly",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-cose-che-volano-9c01"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-creature-della-foresta-6ed9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-creature-della-foresta-6ed9"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-dinosauri-5377",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "dinosaurs",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-dinosauri-5377"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-dolci-e-dolciumi-19b3",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "desserts_and_sweets",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-dolci-e-dolciumi-19b3"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-fiori-e287",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-fiori-e287"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-frutta-09fe",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-frutta-09fe"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-giocattoli-cb5a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "toys",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-giocattoli-cb5a"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-giorno-del-ringraziamento-df9c",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-giorno-del-ringraziamento-df9c"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-in-giro-per-casa-150b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-in-giro-per-casa-150b"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-insetti-e-scarafaggi-1988",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-insetti-e-scarafaggi-1988"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-mobili-4914",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "furniture",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-mobili-4914"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-musica-adce",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-musica-adce"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-natale-ba4d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-natale-ba4d"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-ospedale-b924",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-ospedale-b924"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-panetteria-8f51",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "bakery",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-panetteria-8f51"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-pasqua-b4c7",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "easter",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-pasqua-b4c7"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-professioni-5151",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-professioni-5151"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-rettili-e-anfibi-d7cd",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-rettili-e-anfibi-d7cd"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-spazio-5b50",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "space",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-spazio-5b50"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-spiaggia-b92d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-spiaggia-b92d"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-uccelli-2-d714",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-uccelli-2-d714"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-uccelli-f84b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-uccelli-f84b"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-ufficio-postale-7a40",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "post_office",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-ufficio-postale-7a40"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-utensili-da-cucina-f945",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-utensili-da-cucina-f945"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-varie-216e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "miscellaneous",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-varie-216e"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-veicoli-a81b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-sottrazione-veicoli-a81b"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-verdure-eb1b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vegetables",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-verdure-eb1b"
+  },
+  {
+   "slug": "puzzle-matematico-sottrazione-vita-oceanica-7972",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "ocean_life",
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-vita-oceanica-7972"
+  }
+ ]
+}

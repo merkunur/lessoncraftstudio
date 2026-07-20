@@ -1,0 +1,636 @@
+{
+ "part": 316,
+ "locale": "no",
+ "classes": [
+  "addition::image-image",
+  "bingo::null"
+ ],
+ "splitOf": null,
+ "count": 78,
+ "pages": [
+  {
+   "slug": "addisjon-bilde-bilde-bakeri-c687",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-bakeri-c687"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-blomster-8498",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-blomster-8498"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-camping-d959",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-camping-d959"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-desserter-og-godteri-d8c0",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-desserter-og-godteri-d8c0"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-dinosaurer-cf1a",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-dinosaurer-cf1a"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-dyr-45a8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-dyr-45a8"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-dyrehagedyr-cb9a",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-dyrehagedyr-cb9a"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-former-fa9d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-former-fa9d"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-frokost-f5ee",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-frokost-f5ee"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-frukter-2a19",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-frukter-2a19"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-fugler-2-91a6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-fugler-2-91a6"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-fugler-80c6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-fugler-80c6"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-gronnsaker-ebd8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-gronnsaker-ebd8"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-havliv-7ab0",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-havliv-7ab0"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-i-supermarkedet-ec61",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-i-supermarkedet-ec61"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-insekter-og-kryp-3d0f",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-insekter-og-kryp-3d0f"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-jul-c915",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-jul-c915"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-kjaeledyr-bdca",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-kjaeledyr-bdca"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-kjokkenredskaper-d05b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-kjokkenredskaper-d05b"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-kjoretoy-368e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-kjoretoy-368e"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-klaer-351b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-klaer-351b"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-klasserom-9d7c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-klasserom-9d7c"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-leker-6160",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-leker-6160"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-mobler-c490",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-mobler-c490"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-musikk-f3cf",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-musikk-f3cf"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-paske-c7de",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-paske-c7de"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-postkontor-12c1",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-postkontor-12c1"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-reptiler-og-amfibier-2a82",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-reptiler-og-amfibier-2a82"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-rundt-i-huset-f447",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-rundt-i-huset-f447"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-skogsdyr-e26c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-skogsdyr-e26c"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-strand-0662",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-strand-0662"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-sykehus-db72",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-sykehus-db72"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-thanksgiving-233c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-thanksgiving-233c"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-tilbehor-ce0e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-tilbehor-ce0e"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-ting-som-flyr-256e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-ting-som-flyr-256e"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-traer-0a34",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-traer-0a34"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-verdensrommet-3b34",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-verdensrommet-3b34"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-verktoy-5f61",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-verktoy-5f61"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-yrker-957b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-yrker-957b"
+  },
+  {
+   "slug": "bingo-aktiviteter-99ac",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "bingo-aktiviteter-99ac"
+  },
+  {
+   "slug": "bingo-bakeri-bd4d",
+   "type": "bingo",
+   "mode": null,
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "bingo-bakeri-bd4d"
+  },
+  {
+   "slug": "bingo-blomster-24e7",
+   "type": "bingo",
+   "mode": null,
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "bingo-blomster-24e7"
+  },
+  {
+   "slug": "bingo-camping-46a9",
+   "type": "bingo",
+   "mode": null,
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "bingo-camping-46a9"
+  },
+  {
+   "slug": "bingo-desserter-og-godteri-9e5c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "bingo-desserter-og-godteri-9e5c"
+  },
+  {
+   "slug": "bingo-dyr-a113",
+   "type": "bingo",
+   "mode": null,
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "bingo-dyr-a113"
+  },
+  {
+   "slug": "bingo-dyrehagedyr-d912",
+   "type": "bingo",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "bingo-dyrehagedyr-d912"
+  },
+  {
+   "slug": "bingo-farger-8dd8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "bingo-farger-8dd8"
+  },
+  {
+   "slug": "bingo-former-4f11",
+   "type": "bingo",
+   "mode": null,
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "bingo-former-4f11"
+  },
+  {
+   "slug": "bingo-frokost-68ac",
+   "type": "bingo",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "bingo-frokost-68ac"
+  },
+  {
+   "slug": "bingo-frukter-2c3a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "bingo-frukter-2c3a"
+  },
+  {
+   "slug": "bingo-fugler-2-9694",
+   "type": "bingo",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "bingo-fugler-2-9694"
+  },
+  {
+   "slug": "bingo-gardsdyr-6c9b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "bingo-gardsdyr-6c9b"
+  },
+  {
+   "slug": "bingo-gronnsaker-47fb",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "bingo-gronnsaker-47fb"
+  },
+  {
+   "slug": "bingo-havliv-6a08",
+   "type": "bingo",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "bingo-havliv-6a08"
+  },
+  {
+   "slug": "bingo-i-supermarkedet-f7c7",
+   "type": "bingo",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "bingo-i-supermarkedet-f7c7"
+  },
+  {
+   "slug": "bingo-jul-4fc2",
+   "type": "bingo",
+   "mode": null,
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "bingo-jul-4fc2"
+  },
+  {
+   "slug": "bingo-kjaeledyr-78b5",
+   "type": "bingo",
+   "mode": null,
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "bingo-kjaeledyr-78b5"
+  },
+  {
+   "slug": "bingo-kjokkenredskaper-4221",
+   "type": "bingo",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "bingo-kjokkenredskaper-4221"
+  },
+  {
+   "slug": "bingo-kjoretoy-32f3",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "bingo-kjoretoy-32f3"
+  },
+  {
+   "slug": "bingo-klaer-5b3d",
+   "type": "bingo",
+   "mode": null,
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "bingo-klaer-5b3d"
+  },
+  {
+   "slug": "bingo-klasserom-3e98",
+   "type": "bingo",
+   "mode": null,
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "bingo-klasserom-3e98"
+  },
+  {
+   "slug": "bingo-kroppsdeler-eee7",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "bingo-kroppsdeler-eee7"
+  },
+  {
+   "slug": "bingo-leker-160f",
+   "type": "bingo",
+   "mode": null,
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "bingo-leker-160f"
+  },
+  {
+   "slug": "bingo-mobler-23ed",
+   "type": "bingo",
+   "mode": null,
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "bingo-mobler-23ed"
+  },
+  {
+   "slug": "bingo-paske-7346",
+   "type": "bingo",
+   "mode": null,
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "bingo-paske-7346"
+  },
+  {
+   "slug": "bingo-rundt-i-huset-a67e",
+   "type": "bingo",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "bingo-rundt-i-huset-a67e"
+  },
+  {
+   "slug": "bingo-skogsdyr-2786",
+   "type": "bingo",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "bingo-skogsdyr-2786"
+  },
+  {
+   "slug": "bingo-sommer-918f",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "bingo-sommer-918f"
+  },
+  {
+   "slug": "bingo-strand-e807",
+   "type": "bingo",
+   "mode": null,
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "bingo-strand-e807"
+  },
+  {
+   "slug": "bingo-sykehus-5bb2",
+   "type": "bingo",
+   "mode": null,
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "bingo-sykehus-5bb2"
+  },
+  {
+   "slug": "bingo-tilbehor-4088",
+   "type": "bingo",
+   "mode": null,
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "bingo-tilbehor-4088"
+  },
+  {
+   "slug": "bingo-ting-som-flyr-a6f2",
+   "type": "bingo",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "bingo-ting-som-flyr-a6f2"
+  },
+  {
+   "slug": "bingo-traer-a51b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "bingo-traer-a51b"
+  },
+  {
+   "slug": "bingo-vaer-f37c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "bingo-vaer-f37c"
+  },
+  {
+   "slug": "bingo-var-ab91",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "bingo-var-ab91"
+  },
+  {
+   "slug": "bingo-verdensrommet-913d",
+   "type": "bingo",
+   "mode": null,
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "bingo-verdensrommet-913d"
+  },
+  {
+   "slug": "bingo-vinter-902c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "bingo-vinter-902c"
+  },
+  {
+   "slug": "bingo-yrker-7b52",
+   "type": "bingo",
+   "mode": null,
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "bingo-yrker-7b52"
+  }
+ ]
+}

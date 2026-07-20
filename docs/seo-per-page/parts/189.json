@@ -1,0 +1,668 @@
+{
+ "part": 189,
+ "locale": "it",
+ "classes": [
+  "subtraction::find-subtrahend",
+  "subtraction::image-number"
+ ],
+ "splitOf": null,
+ "count": 82,
+ "pages": [
+  {
+   "slug": "sottrazione-trova-il-sottraendo-abbigliamento-75a5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "clothing",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-abbigliamento-75a5"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-accessori-3f5a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-accessori-3f5a"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-al-supermercato-669c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-al-supermercato-669c"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-alberi-ad11",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-alberi-ad11"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-animali-7031",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-animali-7031"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-animali-della-fattoria-206c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "farm_animals",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-animali-della-fattoria-206c"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-animali-dello-zoo-effa",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-animali-dello-zoo-effa"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-animali-domestici-9075",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-animali-domestici-9075"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-attrezzi-cee1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tools",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-attrezzi-cee1"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-aula-3a38",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "classroom",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-aula-3a38"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-campeggio-59a9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-campeggio-59a9"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-colazione-dd20",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-colazione-dd20"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-cose-che-volano-4a15",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "things_that_fly",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-cose-che-volano-4a15"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-creature-della-foresta-3f05",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-creature-della-foresta-3f05"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-dinosauri-366f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "dinosaurs",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-dinosauri-366f"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-dolci-e-dolciumi-e630",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-dolci-e-dolciumi-e630"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-fiori-4507",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-fiori-4507"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-forme-f715",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "shapes",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-forme-f715"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-frutta-e19f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-frutta-e19f"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-giocattoli-0dbe",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-giocattoli-0dbe"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-giorno-del-ringraziamento-8cdf",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-giorno-del-ringraziamento-8cdf"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-in-giro-per-casa-d236",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-in-giro-per-casa-d236"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-insetti-e-scarafaggi-1607",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-insetti-e-scarafaggi-1607"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-mobili-9256",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-mobili-9256"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-musica-7986",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-musica-7986"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-natale-b538",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-natale-b538"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-ospedale-3556",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-ospedale-3556"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-panetteria-c190",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "bakery",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-panetteria-c190"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-pasqua-12bb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-pasqua-12bb"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-professioni-37a0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-professioni-37a0"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-rettili-e-anfibi-1627",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-rettili-e-anfibi-1627"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-spazio-11e9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-spazio-11e9"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-spiaggia-c052",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-spiaggia-c052"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-uccelli-2-4ca7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-uccelli-2-4ca7"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-uccelli-69e9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-uccelli-69e9"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-ufficio-postale-87b8",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "post_office",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-ufficio-postale-87b8"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-utensili-da-cucina-c6c5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-utensili-da-cucina-c6c5"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-varie-85a0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-varie-85a0"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-veicoli-ab23",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-veicoli-ab23"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-verdure-eba1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vegetables",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-verdure-eba1"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-vita-oceanica-079e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-vita-oceanica-079e"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-abbigliamento-4ea7",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-abbigliamento-4ea7"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-accessori-7010",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-accessori-7010"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-al-supermercato-24c5",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-al-supermercato-24c5"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-alberi-02bd",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-alberi-02bd"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-animali-634f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-animali-634f"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-animali-della-fattoria-853c",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-animali-della-fattoria-853c"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-animali-dello-zoo-04e7",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-animali-dello-zoo-04e7"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-animali-domestici-902b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-animali-domestici-902b"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-attrezzi-629a",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-attrezzi-629a"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-aula-7b67",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-aula-7b67"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-campeggio-c6e1",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-campeggio-c6e1"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-colazione-e6be",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-colazione-e6be"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-cose-che-volano-2dbc",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-cose-che-volano-2dbc"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-creature-della-foresta-1d4c",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-creature-della-foresta-1d4c"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-dinosauri-86e9",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-dinosauri-86e9"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-dolci-e-dolciumi-4a4d",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-dolci-e-dolciumi-4a4d"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-fiori-374c",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-fiori-374c"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-forme-35bf",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-forme-35bf"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-frutta-aca0",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-frutta-aca0"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-giocattoli-e5c1",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-giocattoli-e5c1"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-giorno-del-ringraziamento-fd52",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-giorno-del-ringraziamento-fd52"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-in-giro-per-casa-4ccc",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-in-giro-per-casa-4ccc"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-insetti-e-scarafaggi-88bd",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-insetti-e-scarafaggi-88bd"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-mobili-d7ac",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-mobili-d7ac"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-musica-45a1",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-musica-45a1"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-natale-56f2",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-natale-56f2"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-ospedale-a4a5",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-ospedale-a4a5"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-panetteria-6c3a",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-panetteria-6c3a"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-pasqua-1c8b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-pasqua-1c8b"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-professioni-37b8",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-professioni-37b8"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-rettili-e-anfibi-14f1",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-rettili-e-anfibi-14f1"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-spazio-5f83",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-spazio-5f83"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-spiaggia-d4ed",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-spiaggia-d4ed"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-uccelli-2-4930",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-uccelli-2-4930"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-uccelli-6c4e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-uccelli-6c4e"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-ufficio-postale-c7ee",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-ufficio-postale-c7ee"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-utensili-da-cucina-d44f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-utensili-da-cucina-d44f"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-varie-806f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-varie-806f"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-veicoli-5a6c",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-veicoli-5a6c"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-verdure-4718",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-verdure-4718"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-vita-oceanica-0299",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-vita-oceanica-0299"
+  }
+ ]
+}

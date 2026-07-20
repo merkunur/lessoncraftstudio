@@ -1,0 +1,772 @@
+{
+ "part": 39,
+ "locale": "en",
+ "classes": [
+  "treasure-hunt::cardinal-arrows",
+  "code-addition::null"
+ ],
+ "splitOf": null,
+ "count": 95,
+ "pages": [
+  {
+   "slug": "treasure-hunt-4th-of-july",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-001"
+  },
+  {
+   "slug": "treasure-hunt-accessories",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-002"
+  },
+  {
+   "slug": "treasure-hunt-activities",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-003"
+  },
+  {
+   "slug": "treasure-hunt-animals",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-004"
+  },
+  {
+   "slug": "treasure-hunt-at-the-supermarket",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-006"
+  },
+  {
+   "slug": "treasure-hunt-bakery",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-007"
+  },
+  {
+   "slug": "treasure-hunt-beach",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-040"
+  },
+  {
+   "slug": "treasure-hunt-birds",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-010"
+  },
+  {
+   "slug": "treasure-hunt-body-parts",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-011"
+  },
+  {
+   "slug": "treasure-hunt-breakfast",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "breakfast",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-012"
+  },
+  {
+   "slug": "treasure-hunt-camping",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "camping",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-013"
+  },
+  {
+   "slug": "treasure-hunt-christmas",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "christmas",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-014"
+  },
+  {
+   "slug": "treasure-hunt-classroom",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-015"
+  },
+  {
+   "slug": "treasure-hunt-clothing",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-016"
+  },
+  {
+   "slug": "treasure-hunt-colors",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "colors",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-017"
+  },
+  {
+   "slug": "treasure-hunt-desserts-and-sweets",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-018"
+  },
+  {
+   "slug": "treasure-hunt-dinosaurs",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "dinosaurs",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-019"
+  },
+  {
+   "slug": "treasure-hunt-easter",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-039"
+  },
+  {
+   "slug": "treasure-hunt-emotions",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "emotions",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-021"
+  },
+  {
+   "slug": "treasure-hunt-farm-animals",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-022"
+  },
+  {
+   "slug": "treasure-hunt-flowers",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "flowers",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-023"
+  },
+  {
+   "slug": "treasure-hunt-forest-creatures",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-050"
+  },
+  {
+   "slug": "treasure-hunt-fruits",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-025"
+  },
+  {
+   "slug": "treasure-hunt-furniture",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-005"
+  },
+  {
+   "slug": "treasure-hunt-hospital",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "hospital",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-027"
+  },
+  {
+   "slug": "treasure-hunt-insects-and-bugs",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-024"
+  },
+  {
+   "slug": "treasure-hunt-kitchen-tools",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-029"
+  },
+  {
+   "slug": "treasure-hunt-miscellaneous",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "miscellaneous",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-006"
+  },
+  {
+   "slug": "treasure-hunt-music",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "music",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-031"
+  },
+  {
+   "slug": "treasure-hunt-occupations",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-032"
+  },
+  {
+   "slug": "treasure-hunt-ocean-life",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "ocean_life",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-033"
+  },
+  {
+   "slug": "treasure-hunt-pets",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "pets",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-034"
+  },
+  {
+   "slug": "treasure-hunt-post-office",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "post_office",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-035"
+  },
+  {
+   "slug": "treasure-hunt-reptiles-and-amphibians",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "reptiles_and_amphibians",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-036"
+  },
+  {
+   "slug": "treasure-hunt-shapes",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "shapes",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-037"
+  },
+  {
+   "slug": "treasure-hunt-space",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "space",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-038"
+  },
+  {
+   "slug": "treasure-hunt-spring",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "spring",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-020"
+  },
+  {
+   "slug": "treasure-hunt-summer",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "summer",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-040"
+  },
+  {
+   "slug": "treasure-hunt-thanksgiving",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "thanksgivinng",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-030"
+  },
+  {
+   "slug": "treasure-hunt-things-that-fly",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "things_that_fly",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-042"
+  },
+  {
+   "slug": "treasure-hunt-tools",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tools",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-043"
+  },
+  {
+   "slug": "treasure-hunt-toys",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-044"
+  },
+  {
+   "slug": "treasure-hunt-trees",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tree",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-045"
+  },
+  {
+   "slug": "treasure-hunt-vegetables",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vegetables",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-046"
+  },
+  {
+   "slug": "treasure-hunt-vehicles",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-047"
+  },
+  {
+   "slug": "treasure-hunt-weather",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "weather",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-4th-of-july-048"
+  },
+  {
+   "slug": "treasure-hunt-winter",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "winter",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-046"
+  },
+  {
+   "slug": "treasure-hunt-zoo-animals",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "zoo_animals",
+   "level": "kindergarten",
+   "deck": "treasure-hunt-compass-4th-of-july-004"
+  },
+  {
+   "slug": "code-addition-4th-of-july-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "grade-2",
+   "deck": "code-addition-4th-of-july"
+  },
+  {
+   "slug": "code-addition-accessories-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "accessories",
+   "level": "grade-1",
+   "deck": "code-addition-accessories"
+  },
+  {
+   "slug": "code-addition-activities-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "activities",
+   "level": "grade-2",
+   "deck": "code-addition-activities"
+  },
+  {
+   "slug": "code-addition-animals-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "animals",
+   "level": "grade-1",
+   "deck": "code-addition-animals"
+  },
+  {
+   "slug": "code-addition-around-the-house-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "grade-2",
+   "deck": "code-addition-around-the-house"
+  },
+  {
+   "slug": "code-addition-at-the-supermarket-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "grade-1",
+   "deck": "code-addition-at-the-supermarket"
+  },
+  {
+   "slug": "code-addition-bakery-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "bakery",
+   "level": "grade-1",
+   "deck": "code-addition-bakery"
+  },
+  {
+   "slug": "code-addition-beach-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "beach",
+   "level": "grade-1",
+   "deck": "code-addition-beach"
+  },
+  {
+   "slug": "code-addition-birds-2-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "grade-1",
+   "deck": "code-addition-birds-2"
+  },
+  {
+   "slug": "code-addition-birds-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds",
+   "level": "grade-2",
+   "deck": "code-addition-birds"
+  },
+  {
+   "slug": "code-addition-breakfast-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "grade-1",
+   "deck": "code-addition-breakfast"
+  },
+  {
+   "slug": "code-addition-camping-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "camping",
+   "level": "grade-2",
+   "deck": "code-addition-camping"
+  },
+  {
+   "slug": "code-addition-christmas-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "christmas",
+   "level": "grade-1",
+   "deck": "code-addition-christmas"
+  },
+  {
+   "slug": "code-addition-classroom-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "classroom",
+   "level": "grade-1",
+   "deck": "code-addition-classroom"
+  },
+  {
+   "slug": "code-addition-clothing-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "clothing",
+   "level": "grade-1",
+   "deck": "code-addition-clothing"
+  },
+  {
+   "slug": "code-addition-colors-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "colors",
+   "level": "grade-2",
+   "deck": "code-addition-colors"
+  },
+  {
+   "slug": "code-addition-desserts-and-sweets-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "grade-1",
+   "deck": "code-addition-desserts-and-sweets"
+  },
+  {
+   "slug": "code-addition-dinosaurs-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "grade-1",
+   "deck": "code-addition-dinosaurs"
+  },
+  {
+   "slug": "code-addition-easter-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "easter",
+   "level": "grade-2",
+   "deck": "code-addition-easter"
+  },
+  {
+   "slug": "code-addition-faces-bw-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "faces_bw",
+   "level": "grade-1",
+   "deck": "code-addition-faces-bw"
+  },
+  {
+   "slug": "code-addition-farm-animals-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "grade-2",
+   "deck": "code-addition-farm-animals"
+  },
+  {
+   "slug": "code-addition-flowers-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "flowers",
+   "level": "grade-2",
+   "deck": "code-addition-flowers"
+  },
+  {
+   "slug": "code-addition-forest-creatures",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "grade-1",
+   "deck": "code-addition-forest-creatures"
+  },
+  {
+   "slug": "code-addition-fruits-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "fruits",
+   "level": "grade-1",
+   "deck": "code-addition-fruits"
+  },
+  {
+   "slug": "code-addition-furniture-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "furniture",
+   "level": "grade-1",
+   "deck": "code-addition-furniture"
+  },
+  {
+   "slug": "code-addition-hospital-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "hospital",
+   "level": "grade-2",
+   "deck": "code-addition-hospital"
+  },
+  {
+   "slug": "code-addition-insects-and-bugs-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "grade-1",
+   "deck": "code-addition-insects-and-bugs"
+  },
+  {
+   "slug": "code-addition-kitchen-tools-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "grade-1",
+   "deck": "code-addition-kitchen-tools"
+  },
+  {
+   "slug": "code-addition-miscellaneous-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "grade-1",
+   "deck": "code-addition-miscellaneous"
+  },
+  {
+   "slug": "code-addition-music-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "music",
+   "level": "grade-2",
+   "deck": "code-addition-music"
+  },
+  {
+   "slug": "code-addition-occupations-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "occupations",
+   "level": "grade-2",
+   "deck": "code-addition-occupations"
+  },
+  {
+   "slug": "code-addition-ocean-life-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "grade-1",
+   "deck": "code-addition-ocean-life"
+  },
+  {
+   "slug": "code-addition-pets-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "pets",
+   "level": "grade-2",
+   "deck": "code-addition-pets"
+  },
+  {
+   "slug": "code-addition-post-office-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "post_office",
+   "level": "grade-1",
+   "deck": "code-addition-post-office"
+  },
+  {
+   "slug": "code-addition-reptiles-and-amphibians-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "grade-1",
+   "deck": "code-addition-reptiles-and-amphibians"
+  },
+  {
+   "slug": "code-addition-shapes-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "shapes",
+   "level": "grade-1",
+   "deck": "code-addition-shapes"
+  },
+  {
+   "slug": "code-addition-space-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "space",
+   "level": "grade-1",
+   "deck": "code-addition-space"
+  },
+  {
+   "slug": "code-addition-summer-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "summer",
+   "level": "grade-2",
+   "deck": "code-addition-summer"
+  },
+  {
+   "slug": "code-addition-thanksgivinng-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "grade-1",
+   "deck": "code-addition-thanksgiving"
+  },
+  {
+   "slug": "code-addition-things-that-fly-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "grade-2",
+   "deck": "code-addition-things-that-fly"
+  },
+  {
+   "slug": "code-addition-tools-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tools",
+   "level": "grade-2",
+   "deck": "code-addition-tools"
+  },
+  {
+   "slug": "code-addition-toys-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "toys",
+   "level": "grade-1",
+   "deck": "code-addition-toys"
+  },
+  {
+   "slug": "code-addition-tree-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tree",
+   "level": "grade-2",
+   "deck": "code-addition-tree"
+  },
+  {
+   "slug": "code-addition-valentine-bw-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "valentine_bw",
+   "level": "grade-1",
+   "deck": "code-addition-valentine-bw"
+  },
+  {
+   "slug": "code-addition-vegetables-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "grade-2",
+   "deck": "code-addition-vegetables"
+  },
+  {
+   "slug": "code-addition-vehicles-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "grade-1",
+   "deck": "code-addition-vehicles"
+  },
+  {
+   "slug": "code-addition-zoo-animals-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "grade-1",
+   "deck": "code-addition-zoo-animals"
+  }
+ ]
+}

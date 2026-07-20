@@ -1,0 +1,636 @@
+{
+ "part": 319,
+ "locale": "no",
+ "classes": [
+  "subtraction::image-number",
+  "subtraction::mixed"
+ ],
+ "splitOf": null,
+ "count": 78,
+ "pages": [
+  {
+   "slug": "subtraksjon-bilde-tall-bakeri-58ca",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-bakeri-58ca"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-blomster-d188",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-blomster-d188"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-camping-6d6b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-camping-6d6b"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-desserter-og-godteri-9f33",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-desserter-og-godteri-9f33"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-dinosaurer-a3d9",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-dinosaurer-a3d9"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-dyr-0fbe",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-dyr-0fbe"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-dyrehagedyr-29bb",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-dyrehagedyr-29bb"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-former-4e65",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-former-4e65"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-frokost-031d",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-frokost-031d"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-fugler-2-921b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-fugler-2-921b"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-fugler-7107",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-fugler-7107"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-gardsdyr-e7f8",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-gardsdyr-e7f8"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-gronnsaker-4bea",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-gronnsaker-4bea"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-havliv-6f97",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-havliv-6f97"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-i-supermarkedet-ca1b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-i-supermarkedet-ca1b"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-insekter-og-kryp-9734",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-insekter-og-kryp-9734"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-jul-deef",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-jul-deef"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-kjaeledyr-2bf7",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-kjaeledyr-2bf7"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-kjokkenredskaper-9c3b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-kjokkenredskaper-9c3b"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-kjoretoy-45e1",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-kjoretoy-45e1"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-klaer-def5",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-klaer-def5"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-klasserom-63e7",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-klasserom-63e7"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-leker-6057",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-leker-6057"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-mobler-5ce8",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-mobler-5ce8"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-musikk-5fb7",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-musikk-5fb7"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-paske-8589",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-paske-8589"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-postkontor-3057",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-postkontor-3057"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-reptiler-og-amfibier-d319",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-reptiler-og-amfibier-d319"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-rundt-i-huset-a869",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-rundt-i-huset-a869"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-skogsdyr-37c3",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-skogsdyr-37c3"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-strand-ff10",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-strand-ff10"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-sykehus-fb1e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-sykehus-fb1e"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-thanksgiving-b6ad",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-thanksgiving-b6ad"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-tilbehor-7701",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-tilbehor-7701"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-ting-som-flyr-b345",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-ting-som-flyr-b345"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-traer-99d0",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-traer-99d0"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-verdensrommet-ac1a",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-verdensrommet-ac1a"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-verktoy-6510",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-verktoy-6510"
+  },
+  {
+   "slug": "subtraksjon-bilde-tall-yrker-8e08",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-yrker-8e08"
+  },
+  {
+   "slug": "subtraksjon-blandet-bakeri-eb05",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-bakeri-eb05"
+  },
+  {
+   "slug": "subtraksjon-blandet-blomster-240f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-blomster-240f"
+  },
+  {
+   "slug": "subtraksjon-blandet-camping-73e8",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-camping-73e8"
+  },
+  {
+   "slug": "subtraksjon-blandet-desserter-og-godteri-70bf",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-desserter-og-godteri-70bf"
+  },
+  {
+   "slug": "subtraksjon-blandet-dinosaurer-018c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-dinosaurer-018c"
+  },
+  {
+   "slug": "subtraksjon-blandet-dyr-d22c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-dyr-d22c"
+  },
+  {
+   "slug": "subtraksjon-blandet-dyrehagedyr-e230",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-dyrehagedyr-e230"
+  },
+  {
+   "slug": "subtraksjon-blandet-former-28d7",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-former-28d7"
+  },
+  {
+   "slug": "subtraksjon-blandet-frokost-412f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-frokost-412f"
+  },
+  {
+   "slug": "subtraksjon-blandet-frukter-66ca",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-frukter-66ca"
+  },
+  {
+   "slug": "subtraksjon-blandet-fugler-2-103d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-fugler-2-103d"
+  },
+  {
+   "slug": "subtraksjon-blandet-fugler-4565",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-fugler-4565"
+  },
+  {
+   "slug": "subtraksjon-blandet-gardsdyr-1c47",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-gardsdyr-1c47"
+  },
+  {
+   "slug": "subtraksjon-blandet-gronnsaker-2d0d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-gronnsaker-2d0d"
+  },
+  {
+   "slug": "subtraksjon-blandet-havliv-3647",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-havliv-3647"
+  },
+  {
+   "slug": "subtraksjon-blandet-i-supermarkedet-a95b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-i-supermarkedet-a95b"
+  },
+  {
+   "slug": "subtraksjon-blandet-insekter-og-kryp-0239",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-insekter-og-kryp-0239"
+  },
+  {
+   "slug": "subtraksjon-blandet-jul-62d3",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-jul-62d3"
+  },
+  {
+   "slug": "subtraksjon-blandet-kjaeledyr-7761",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-kjaeledyr-7761"
+  },
+  {
+   "slug": "subtraksjon-blandet-kjokkenredskaper-9514",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-kjokkenredskaper-9514"
+  },
+  {
+   "slug": "subtraksjon-blandet-kjoretoy-2dbc",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-kjoretoy-2dbc"
+  },
+  {
+   "slug": "subtraksjon-blandet-klaer-9db4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-klaer-9db4"
+  },
+  {
+   "slug": "subtraksjon-blandet-klasserom-bf63",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-klasserom-bf63"
+  },
+  {
+   "slug": "subtraksjon-blandet-leker-9e22",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-leker-9e22"
+  },
+  {
+   "slug": "subtraksjon-blandet-mobler-129b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-mobler-129b"
+  },
+  {
+   "slug": "subtraksjon-blandet-musikk-dd15",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-musikk-dd15"
+  },
+  {
+   "slug": "subtraksjon-blandet-paske-05bf",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-paske-05bf"
+  },
+  {
+   "slug": "subtraksjon-blandet-postkontor-e09b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-postkontor-e09b"
+  },
+  {
+   "slug": "subtraksjon-blandet-reptiler-og-amfibier-a85b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-reptiler-og-amfibier-a85b"
+  },
+  {
+   "slug": "subtraksjon-blandet-rundt-i-huset-19ab",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-rundt-i-huset-19ab"
+  },
+  {
+   "slug": "subtraksjon-blandet-skogsdyr-ae93",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-skogsdyr-ae93"
+  },
+  {
+   "slug": "subtraksjon-blandet-strand-285c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-strand-285c"
+  },
+  {
+   "slug": "subtraksjon-blandet-sykehus-557f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-sykehus-557f"
+  },
+  {
+   "slug": "subtraksjon-blandet-thanksgiving-9633",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-thanksgiving-9633"
+  },
+  {
+   "slug": "subtraksjon-blandet-tilbehor-f584",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-tilbehor-f584"
+  },
+  {
+   "slug": "subtraksjon-blandet-traer-5439",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-traer-5439"
+  },
+  {
+   "slug": "subtraksjon-blandet-verdensrommet-ffeb",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-verdensrommet-ffeb"
+  },
+  {
+   "slug": "subtraksjon-blandet-verktoy-ff96",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-verktoy-ff96"
+  },
+  {
+   "slug": "subtraksjon-blandet-yrker-c8e6",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-yrker-c8e6"
+  }
+ ]
+}

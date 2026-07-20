@@ -1,0 +1,650 @@
+{
+ "part": 48,
+ "locale": "en",
+ "classes": [
+  "alphabet-train::null",
+  "bingo::null",
+  "addition::find-addend",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute"
+ ],
+ "splitOf": null,
+ "count": 77,
+ "pages": [
+  {
+   "slug": "alphabet-train-4th-of-july",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "preschool",
+   "deck": "alphabet-train-4th-of-july"
+  },
+  {
+   "slug": "alphabet-train-accessories",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "preschool",
+   "deck": "alphabet-train-accessories"
+  },
+  {
+   "slug": "alphabet-train-activities",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "preschool",
+   "deck": "alphabet-train-activities"
+  },
+  {
+   "slug": "alphabet-train-animals-preschool",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "preschool",
+   "deck": "alphabet-train"
+  },
+  {
+   "slug": "alphabet-train-around-the-house",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "preschool",
+   "deck": "alphabet-train-around-the-house"
+  },
+  {
+   "slug": "alphabet-train-at-the-supermarket",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "preschool",
+   "deck": "alphabet-train-at-the-supermarket"
+  },
+  {
+   "slug": "alphabet-train-beach",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "preschool",
+   "deck": "alphabet-train-beach"
+  },
+  {
+   "slug": "alphabet-train-body-parts",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "preschool",
+   "deck": "alphabet-train-body-parts"
+  },
+  {
+   "slug": "alphabet-train-breakfast",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "preschool",
+   "deck": "alphabet-train-breakfast"
+  },
+  {
+   "slug": "alphabet-train-camping",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "preschool",
+   "deck": "alphabet-train-camping"
+  },
+  {
+   "slug": "alphabet-train-christmas",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "preschool",
+   "deck": "alphabet-train-christmas"
+  },
+  {
+   "slug": "alphabet-train-classroom",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "preschool",
+   "deck": "alphabet-train-classroom"
+  },
+  {
+   "slug": "alphabet-train-clothing",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "preschool",
+   "deck": "alphabet-train-clothing"
+  },
+  {
+   "slug": "alphabet-train-colors",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "preschool",
+   "deck": "alphabet-train-colors"
+  },
+  {
+   "slug": "alphabet-train-desserts-and-sweets",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "preschool",
+   "deck": "alphabet-train-desserts-and-sweets"
+  },
+  {
+   "slug": "alphabet-train-farm-animals",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "preschool",
+   "deck": "alphabet-train-farm-animals"
+  },
+  {
+   "slug": "alphabet-train-forest-creatures",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "preschool",
+   "deck": "alphabet-train-forest-creatures"
+  },
+  {
+   "slug": "alphabet-train-fruits",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "preschool",
+   "deck": "alphabet-train-fruits"
+  },
+  {
+   "slug": "alphabet-train-furniture",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "furniture",
+   "level": "preschool",
+   "deck": "alphabet-train-furniture"
+  },
+  {
+   "slug": "alphabet-train-hospital",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "preschool",
+   "deck": "alphabet-train-hospital"
+  },
+  {
+   "slug": "alphabet-train-household-bw",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "household_bw",
+   "level": "preschool",
+   "deck": "alphabet-train-household-bw"
+  },
+  {
+   "slug": "alphabet-train-kitchen-tools",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "preschool",
+   "deck": "alphabet-train-kitchen-tools"
+  },
+  {
+   "slug": "alphabet-train-music",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "music",
+   "level": "preschool",
+   "deck": "alphabet-train-music"
+  },
+  {
+   "slug": "alphabet-train-nature-bw",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "nature_bw",
+   "level": "preschool",
+   "deck": "alphabet-train-nature-bw"
+  },
+  {
+   "slug": "alphabet-train-objects-bw",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "objects_bw",
+   "level": "preschool",
+   "deck": "alphabet-train-objects-bw"
+  },
+  {
+   "slug": "alphabet-train-occupations",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "preschool",
+   "deck": "alphabet-train-occupations"
+  },
+  {
+   "slug": "alphabet-train-ocean-life",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "preschool",
+   "deck": "alphabet-train-ocean-life"
+  },
+  {
+   "slug": "alphabet-train-pets",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "preschool",
+   "deck": "alphabet-train-pets"
+  },
+  {
+   "slug": "alphabet-train-spring",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "preschool",
+   "deck": "alphabet-train-spring"
+  },
+  {
+   "slug": "alphabet-train-summer",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "preschool",
+   "deck": "alphabet-train-summer"
+  },
+  {
+   "slug": "alphabet-train-things-that-fly",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "preschool",
+   "deck": "alphabet-train-things-that-fly"
+  },
+  {
+   "slug": "alphabet-train-tools",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "preschool",
+   "deck": "alphabet-train-tools"
+  },
+  {
+   "slug": "alphabet-train-toys",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "preschool",
+   "deck": "alphabet-train-toys"
+  },
+  {
+   "slug": "alphabet-train-vegetables",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "preschool",
+   "deck": "alphabet-train-vegetables"
+  },
+  {
+   "slug": "alphabet-train-vehicles",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "preschool",
+   "deck": "alphabet-train-vehicles"
+  },
+  {
+   "slug": "alphabet-train-winter",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "preschool",
+   "deck": "alphabet-train-winter"
+  },
+  {
+   "slug": "alphabet-train-zoo-animals",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "preschool",
+   "deck": "alphabet-train-zoo-animals"
+  },
+  {
+   "slug": "bingo-accessories-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "bingo-accessories"
+  },
+  {
+   "slug": "bingo-activities-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "bingo-activities"
+  },
+  {
+   "slug": "bingo-animals-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "bingo"
+  },
+  {
+   "slug": "bingo-around-the-house-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "bingo-around-the-house"
+  },
+  {
+   "slug": "bingo-at-the-supermarket",
+   "type": "bingo",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "bingo-at-the-supermarket"
+  },
+  {
+   "slug": "bingo-beach-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "bingo-beach"
+  },
+  {
+   "slug": "bingo-body-parts-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "bingo-body-parts"
+  },
+  {
+   "slug": "bingo-camping-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "camping",
+   "level": "kindergarten",
+   "deck": "bingo-camping"
+  },
+  {
+   "slug": "bingo-classroom-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "bingo-classroom"
+  },
+  {
+   "slug": "bingo-clothing-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "bingo-clothing"
+  },
+  {
+   "slug": "bingo-forest-creatures-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "bingo-forest-creatures"
+  },
+  {
+   "slug": "bingo-kitchen-tools-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "bingo-kitchen-tools"
+  },
+  {
+   "slug": "bingo-occupations-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "bingo-occupations"
+  },
+  {
+   "slug": "bingo-spring-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "kindergarten",
+   "deck": "bingo-spring"
+  },
+  {
+   "slug": "bingo-summer-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "kindergarten",
+   "deck": "bingo-summer"
+  },
+  {
+   "slug": "bingo-toys-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "bingo-toys"
+  },
+  {
+   "slug": "bingo-vehicles-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "bingo-vehicles"
+  },
+  {
+   "slug": "bingo-zoo-animals",
+   "type": "bingo",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "kindergarten",
+   "deck": "bingo-zoo-animals"
+  },
+  {
+   "slug": "addition-find-addend-animals",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "addition-find-addend-animals"
+  },
+  {
+   "slug": "arrays-multiplication-grade-2",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "grade-2",
+   "deck": "arrays-multiplication-toys-g2212"
+  },
+  {
+   "slug": "arrays-multiplication-grade-3",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "grade-3",
+   "deck": "arrays-multiplication-g3313"
+  },
+  {
+   "slug": "fractions-grade-3",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "grade-3",
+   "deck": "fractions-g3315"
+  },
+  {
+   "slug": "fractions-grade-2",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "grade-2",
+   "deck": "fractions-g2228"
+  },
+  {
+   "slug": "geometry-kindergarten",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "kindergarten",
+   "deck": "geometry-k075"
+  },
+  {
+   "slug": "geometry-grade-3",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "grade-3",
+   "deck": "geometry-g3337"
+  },
+  {
+   "slug": "geometry-grade-2",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "grade-2",
+   "deck": "geometry-g2241"
+  },
+  {
+   "slug": "graphing-data-grade-2",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "grade-2",
+   "deck": "graphing-data-toys-g2239"
+  },
+  {
+   "slug": "graphing-data-grade-1",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "grade-1",
+   "deck": "graphing-data-toys-g1142"
+  },
+  {
+   "slug": "graphing-data-grade-3",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "grade-3",
+   "deck": "graphing-data-toys-g3333"
+  },
+  {
+   "slug": "measurement-kindergarten",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "kindergarten",
+   "deck": "measurement-fruits-k038"
+  },
+  {
+   "slug": "measurement-grade-1",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
+   "level": "grade-1",
+   "deck": "measurement-fruits-g1140"
+  },
+  {
+   "slug": "measurement-grade-2",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "grade-2",
+   "deck": "measurement-toys-g2235"
+  },
+  {
+   "slug": "measurement-grade-3",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "grade-3",
+   "deck": "measurement-g3345"
+  },
+  {
+   "slug": "number-charts-grade-1",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "grade-1",
+   "deck": "number-charts-g1130"
+  },
+  {
+   "slug": "number-charts-grade-3",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "grade-3",
+   "deck": "number-charts-g3328"
+  },
+  {
+   "slug": "number-charts-kindergarten",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "kindergarten",
+   "deck": "number-charts-k021"
+  },
+  {
+   "slug": "number-charts-grade-2",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "grade-2",
+   "deck": "number-charts-g2218"
+  },
+  {
+   "slug": "telling-time-grade-1",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "grade-1",
+   "deck": "telling-time-g1148"
+  },
+  {
+   "slug": "telling-time-grade-2",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "grade-2",
+   "deck": "telling-time-g2249"
+  },
+  {
+   "slug": "telling-time-grade-3",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "grade-3",
+   "deck": "telling-time-g3344"
+  }
+ ]
+}

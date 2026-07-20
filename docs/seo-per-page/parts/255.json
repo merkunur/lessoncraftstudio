@@ -1,0 +1,489 @@
+{
+ "part": 255,
+ "locale": "sv",
+ "classes": [
+  "picture-path::classic-maze",
+  "odd-one-out::cross-theme",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute"
+ ],
+ "splitOf": null,
+ "count": 57,
+ "pages": [
+  {
+   "slug": "bildvag-klassisk-labyrint-aktiviteter-49f3",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-aktiviteter-49f3"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-bageri-4006",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-bageri-4006"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-blommor-1808",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-blommor-1808"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-camping-465c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-camping-465c"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-efterratter-och-godis-8db7",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-efterratter-och-godis-8db7"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-fordon-57bb",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-fordon-57bb"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-frukost-6507",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-frukost-6507"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-frukter-1c9f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-frukter-1c9f"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-gronsaker-e607",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-gronsaker-e607"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-i-snabbkopet-de84",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-i-snabbkopet-de84"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-jul-a393",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-jul-a393"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-klader-c7c9",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-klader-c7c9"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-klassrum-ab17",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-klassrum-ab17"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-koksredskap-d23a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-koksredskap-d23a"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-kroppsdelar-c316",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-kroppsdelar-c316"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-leksaker-b12a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-leksaker-b12a"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-mobler-93ad",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-mobler-93ad"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-musik-ed47",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-musik-ed47"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-pask-8642",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-pask-8642"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-postkontor-fd59",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-postkontor-fd59"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-runt-huset-da31",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-runt-huset-da31"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-rymden-71ee",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-rymden-71ee"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-saker-som-flyger-6ed1",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-saker-som-flyger-6ed1"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-sjukhus-45c0",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-sjukhus-45c0"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-sommar-1ac3",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-sommar-1ac3"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-strand-790d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-strand-790d"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-thanksgiving-96d8",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-thanksgiving-96d8"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-tillbehor-d5cc",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-tillbehor-d5cc"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-trad-3eb1",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-trad-3eb1"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-vader-6d38",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-vader-6d38"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-var-dc10",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-var-dc10"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-verktyg-91a7",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-verktyg-91a7"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-vinter-ea0f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-vinter-ea0f"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-yrken-ed1f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-yrken-ed1f"
+  },
+  {
+   "slug": "vilken-passar-inte-tvartema-bageri-d297",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-tvartema-bageri-d297"
+  },
+  {
+   "slug": "vilken-passar-inte-tvartema-djur-78ef",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-tvartema-djur-78ef"
+  },
+  {
+   "slug": "rader-och-kolumner-lika-grupper-ak-2",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "multiplikation-bilder-djur-g2209"
+  },
+  {
+   "slug": "multiplikationstabellen-rader-kolumner-ak-3",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "multiplikation-bilder-g3313"
+  },
+  {
+   "slug": "brak-tallinjen-ak-3",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "brak-g3315"
+  },
+  {
+   "slug": "brak-lika-delar-ak-2",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "brak-g2228"
+  },
+  {
+   "slug": "geometri-former-forskola",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "forskola",
+   "deck": "geometri-k075"
+  },
+  {
+   "slug": "geometri-omkrets-area-ak-3",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "geometri-g3337"
+  },
+  {
+   "slug": "geometri-kroppar-ak-2",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "geometri-g2241"
+  },
+  {
+   "slug": "diagram-ak-2",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "diagram-djur-g2237"
+  },
+  {
+   "slug": "diagram-ak-1",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "ak-1",
+   "deck": "diagram-djur-g1144"
+  },
+  {
+   "slug": "diagram-ak-3",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "diagram-djur-g3335"
+  },
+  {
+   "slug": "jamfora-vikt-tung-eller-latt-forskola",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "forskola",
+   "deck": "matning-djur-k038"
+  },
+  {
+   "slug": "mata-langd-med-enheter-ak-1",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
+   "level": "ak-1",
+   "deck": "matning-djur-g1139"
+  },
+  {
+   "slug": "mata-med-linjal-jamfora-langder-ak-2",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "matning-fordon-g2236"
+  },
+  {
+   "slug": "temperatur-och-volym-jamfora-ak-3",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "matning-g3345"
+  },
+  {
+   "slug": "hundraruta-ak-1",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "ak-1",
+   "deck": "hundraruta-g1130"
+  },
+  {
+   "slug": "talfoljder-ak-3",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "hundraruta-g3328"
+  },
+  {
+   "slug": "tal-som-saknas-forskola",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "forskola",
+   "deck": "hundraruta-k021"
+  },
+  {
+   "slug": "hundraruta-ak-2",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "hundraruta-g2218"
+  },
+  {
+   "slug": "klockan-arbetsblad-ak-1",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "ak-1",
+   "deck": "klockan-g1148"
+  },
+  {
+   "slug": "klockan-fem-minuter-ak-2",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "klockan-g2249"
+  },
+  {
+   "slug": "klockan-tidsskillnad-ak-3",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "klockan-g3344"
+  }
+ ]
+}

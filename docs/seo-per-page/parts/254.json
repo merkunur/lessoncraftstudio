@@ -1,0 +1,580 @@
+{
+ "part": 254,
+ "locale": "sv",
+ "classes": [
+  "big-small::findBig",
+  "alphabet-train::null"
+ ],
+ "splitOf": null,
+ "count": 71,
+ "pages": [
+  {
+   "slug": "stor-liten-hitta-den-stora-bageri-9813",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-bageri-9813"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-blommor-765c",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-blommor-765c"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-bondgardsdjur-f9de",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-bondgardsdjur-f9de"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-camping-7e68",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-camping-7e68"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-dinosaurier-b899",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-dinosaurier-b899"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-djur-0969",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-djur-0969"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-djurparksdjur-7472",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-djurparksdjur-7472"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-efterratter-och-godis-3435",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-efterratter-och-godis-3435"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-faglar-2-2604",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-faglar-2-2604"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-faglar-c607",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-faglar-c607"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-fordon-14cd",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-fordon-14cd"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-former-230a",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-former-230a"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-frukost-4869",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-frukost-4869"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-frukter-626f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-frukter-626f"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-gronsaker-3c93",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-gronsaker-3c93"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-havsliv-0750",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-havsliv-0750"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-husdjur-0c52",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-husdjur-0c52"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-i-snabbkopet-b54a",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-i-snabbkopet-b54a"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-jul-6629",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-jul-6629"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-klader-618a",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-klader-618a"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-klassrum-49c6",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-klassrum-49c6"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-koksredskap-f937",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-koksredskap-f937"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-kroppsdelar-9a67",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-kroppsdelar-9a67"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-leksaker-f549",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-leksaker-f549"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-mobler-c87f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-mobler-c87f"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-musik-8978",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-musik-8978"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-pask-cee9",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-pask-cee9"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-runt-huset-1a6b",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-runt-huset-1a6b"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-rymden-450d",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-rymden-450d"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-saker-som-flyger-c08e",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-saker-som-flyger-c08e"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-sjukhus-05e5",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-sjukhus-05e5"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-skogsdjur-6461",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-skogsdjur-6461"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-strand-1b6b",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-strand-1b6b"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-tillbehor-a1c7",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-tillbehor-a1c7"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-trad-9659",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-trad-9659"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-verktyg-99ef",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-verktyg-99ef"
+  },
+  {
+   "slug": "stor-liten-hitta-den-stora-yrken-48a4",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "stor-liten-hitta-den-stora-yrken-48a4"
+  },
+  {
+   "slug": "alfabetstaget-aktiviteter-6a95",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "alfabetstaget-aktiviteter-6a95"
+  },
+  {
+   "slug": "alfabetstaget-bondgardsdjur-81a1",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "alfabetstaget-bondgardsdjur-81a1"
+  },
+  {
+   "slug": "alfabetstaget-camping-3282",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "alfabetstaget-camping-3282"
+  },
+  {
+   "slug": "alfabetstaget-djur",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "alfabetstaget-djur"
+  },
+  {
+   "slug": "alfabetstaget-djurparksdjur-053a",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "alfabetstaget-djurparksdjur-053a"
+  },
+  {
+   "slug": "alfabetstaget-fordon-4ec7",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "alfabetstaget-fordon-4ec7"
+  },
+  {
+   "slug": "alfabetstaget-former-bf83",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "alfabetstaget-former-bf83"
+  },
+  {
+   "slug": "alfabetstaget-frukost-95e1",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "alfabetstaget-frukost-95e1"
+  },
+  {
+   "slug": "alfabetstaget-frukter-dac7",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "alfabetstaget-frukter-dac7"
+  },
+  {
+   "slug": "alfabetstaget-gronsaker-32ce",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "alfabetstaget-gronsaker-32ce"
+  },
+  {
+   "slug": "alfabetstaget-havsliv-6be9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "alfabetstaget-havsliv-6be9"
+  },
+  {
+   "slug": "alfabetstaget-husdjur-0984",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "alfabetstaget-husdjur-0984"
+  },
+  {
+   "slug": "alfabetstaget-i-snabbkopet-c935",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "alfabetstaget-i-snabbkopet-c935"
+  },
+  {
+   "slug": "alfabetstaget-jul-2e81",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "alfabetstaget-jul-2e81"
+  },
+  {
+   "slug": "alfabetstaget-kanslor-b74b",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "alfabetstaget-kanslor-b74b"
+  },
+  {
+   "slug": "alfabetstaget-klader-2852",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "alfabetstaget-klader-2852"
+  },
+  {
+   "slug": "alfabetstaget-klassrum-ead5",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "alfabetstaget-klassrum-ead5"
+  },
+  {
+   "slug": "alfabetstaget-koksredskap-bb7d",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "alfabetstaget-koksredskap-bb7d"
+  },
+  {
+   "slug": "alfabetstaget-kroppsdelar-d1b2",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "alfabetstaget-kroppsdelar-d1b2"
+  },
+  {
+   "slug": "alfabetstaget-leksaker-8109",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "alfabetstaget-leksaker-8109"
+  },
+  {
+   "slug": "alfabetstaget-musik-a436",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "music",
+   "level": "forskola",
+   "deck": "alfabetstaget-musik-a436"
+  },
+  {
+   "slug": "alfabetstaget-pask-ba52",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "alfabetstaget-pask-ba52"
+  },
+  {
+   "slug": "alfabetstaget-runt-huset-7ad3",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "alfabetstaget-runt-huset-7ad3"
+  },
+  {
+   "slug": "alfabetstaget-rymden-0510",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "space",
+   "level": "forskola",
+   "deck": "alfabetstaget-rymden-0510"
+  },
+  {
+   "slug": "alfabetstaget-saker-som-flyger-b833",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "alfabetstaget-saker-som-flyger-b833"
+  },
+  {
+   "slug": "alfabetstaget-sjukhus-b0ec",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "alfabetstaget-sjukhus-b0ec"
+  },
+  {
+   "slug": "alfabetstaget-skogsdjur-3f93",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "alfabetstaget-skogsdjur-3f93"
+  },
+  {
+   "slug": "alfabetstaget-sommar-1917",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "alfabetstaget-sommar-1917"
+  },
+  {
+   "slug": "alfabetstaget-strand-1a78",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "alfabetstaget-strand-1a78"
+  },
+  {
+   "slug": "alfabetstaget-thanksgiving-47f8",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "alfabetstaget-thanksgiving-47f8"
+  },
+  {
+   "slug": "alfabetstaget-tillbehor-b64e",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "alfabetstaget-tillbehor-b64e"
+  },
+  {
+   "slug": "alfabetstaget-vader-6519",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "alfabetstaget-vader-6519"
+  },
+  {
+   "slug": "alfabetstaget-var-dbc8",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "alfabetstaget-var-dbc8"
+  },
+  {
+   "slug": "alfabetstaget-yrken-a007",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "alfabetstaget-yrken-a007"
+  }
+ ]
+}

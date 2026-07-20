@@ -1,0 +1,780 @@
+{
+ "part": 299,
+ "locale": "no",
+ "classes": [
+  "pattern-train::null",
+  "pattern-worksheet::null"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "monstertoget-aktiviteter-9a7d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "monstertoget-aktiviteter-9a7d"
+  },
+  {
+   "slug": "monstertoget-bakeri-86be",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "monstertoget-bakeri-86be"
+  },
+  {
+   "slug": "monstertoget-blomster-9222",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "monstertoget-blomster-9222"
+  },
+  {
+   "slug": "monstertoget-camping-3ae3",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "monstertoget-camping-3ae3"
+  },
+  {
+   "slug": "monstertoget-desserter-og-godteri-a680",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "monstertoget-desserter-og-godteri-a680"
+  },
+  {
+   "slug": "monstertoget-dinosaurer-46ab",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "monstertoget-dinosaurer-46ab"
+  },
+  {
+   "slug": "monstertoget-dyr-9869",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "monstertoget-dyr-9869"
+  },
+  {
+   "slug": "monstertoget-dyrehagedyr-c1c7",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "monstertoget-dyrehagedyr-c1c7"
+  },
+  {
+   "slug": "monstertoget-farger-dfa8",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "monstertoget-farger-dfa8"
+  },
+  {
+   "slug": "monstertoget-folelser-b3ab",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "monstertoget-folelser-b3ab"
+  },
+  {
+   "slug": "monstertoget-former-41f3",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "monstertoget-former-41f3"
+  },
+  {
+   "slug": "monstertoget-frokost-5be3",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "monstertoget-frokost-5be3"
+  },
+  {
+   "slug": "monstertoget-frukter-5a3d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "monstertoget-frukter-5a3d"
+  },
+  {
+   "slug": "monstertoget-fugler-2-7df7",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "monstertoget-fugler-2-7df7"
+  },
+  {
+   "slug": "monstertoget-fugler-49cd",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "monstertoget-fugler-49cd"
+  },
+  {
+   "slug": "monstertoget-gardsdyr-210f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "monstertoget-gardsdyr-210f"
+  },
+  {
+   "slug": "monstertoget-gronnsaker-f5bd",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "monstertoget-gronnsaker-f5bd"
+  },
+  {
+   "slug": "monstertoget-havliv-f1f1",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "monstertoget-havliv-f1f1"
+  },
+  {
+   "slug": "monstertoget-i-supermarkedet-c261",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "monstertoget-i-supermarkedet-c261"
+  },
+  {
+   "slug": "monstertoget-insekter-og-kryp-4ca5",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "monstertoget-insekter-og-kryp-4ca5"
+  },
+  {
+   "slug": "monstertoget-jul-467b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "monstertoget-jul-467b"
+  },
+  {
+   "slug": "monstertoget-kjaeledyr-93d0",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "monstertoget-kjaeledyr-93d0"
+  },
+  {
+   "slug": "monstertoget-kjokkenredskaper-593b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "monstertoget-kjokkenredskaper-593b"
+  },
+  {
+   "slug": "monstertoget-kjoretoy-870f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "monstertoget-kjoretoy-870f"
+  },
+  {
+   "slug": "monstertoget-klaer-91cc",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "monstertoget-klaer-91cc"
+  },
+  {
+   "slug": "monstertoget-klasserom-0a11",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "monstertoget-klasserom-0a11"
+  },
+  {
+   "slug": "monstertoget-kroppsdeler-7e0d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "monstertoget-kroppsdeler-7e0d"
+  },
+  {
+   "slug": "monstertoget-leker-15a8",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "monstertoget-leker-15a8"
+  },
+  {
+   "slug": "monstertoget-mobler-7426",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "monstertoget-mobler-7426"
+  },
+  {
+   "slug": "monstertoget-musikk-a5b2",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "monstertoget-musikk-a5b2"
+  },
+  {
+   "slug": "monstertoget-paske-ccc7",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "monstertoget-paske-ccc7"
+  },
+  {
+   "slug": "monstertoget-postkontor-0e6b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "monstertoget-postkontor-0e6b"
+  },
+  {
+   "slug": "monstertoget-reptiler-og-amfibier-c3d1",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "monstertoget-reptiler-og-amfibier-c3d1"
+  },
+  {
+   "slug": "monstertoget-rundt-i-huset-ed6e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "monstertoget-rundt-i-huset-ed6e"
+  },
+  {
+   "slug": "monstertoget-skogsdyr-a5fd",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "monstertoget-skogsdyr-a5fd"
+  },
+  {
+   "slug": "monstertoget-sommer-360b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "monstertoget-sommer-360b"
+  },
+  {
+   "slug": "monstertoget-strand-a526",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "monstertoget-strand-a526"
+  },
+  {
+   "slug": "monstertoget-sykehus-0930",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "monstertoget-sykehus-0930"
+  },
+  {
+   "slug": "monstertoget-thanksgiving-3254",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "monstertoget-thanksgiving-3254"
+  },
+  {
+   "slug": "monstertoget-tilbehor-cc25",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "monstertoget-tilbehor-cc25"
+  },
+  {
+   "slug": "monstertoget-ting-som-flyr-cd0e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "monstertoget-ting-som-flyr-cd0e"
+  },
+  {
+   "slug": "monstertoget-traer-ce31",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "monstertoget-traer-ce31"
+  },
+  {
+   "slug": "monstertoget-vaer-f7d0",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "monstertoget-vaer-f7d0"
+  },
+  {
+   "slug": "monstertoget-var-18c6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "monstertoget-var-18c6"
+  },
+  {
+   "slug": "monstertoget-verdensrommet-df69",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "monstertoget-verdensrommet-df69"
+  },
+  {
+   "slug": "monstertoget-verktoy-bb95",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "monstertoget-verktoy-bb95"
+  },
+  {
+   "slug": "monstertoget-vinter-374c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "monstertoget-vinter-374c"
+  },
+  {
+   "slug": "monstertoget-yrker-54f3",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "monstertoget-yrker-54f3"
+  },
+  {
+   "slug": "monsterark-aktiviteter-25a5",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "monsterark-aktiviteter-25a5"
+  },
+  {
+   "slug": "monsterark-bakeri-1b75",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "monsterark-bakeri-1b75"
+  },
+  {
+   "slug": "monsterark-blomster-d611",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "monsterark-blomster-d611"
+  },
+  {
+   "slug": "monsterark-camping-452d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "monsterark-camping-452d"
+  },
+  {
+   "slug": "monsterark-desserter-og-godteri-82ef",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "monsterark-desserter-og-godteri-82ef"
+  },
+  {
+   "slug": "monsterark-dinosaurer-8574",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "monsterark-dinosaurer-8574"
+  },
+  {
+   "slug": "monsterark-dyr-5e1d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "monsterark-dyr-5e1d"
+  },
+  {
+   "slug": "monsterark-dyrehagedyr-7041",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "monsterark-dyrehagedyr-7041"
+  },
+  {
+   "slug": "monsterark-farger-c569",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "monsterark-farger-c569"
+  },
+  {
+   "slug": "monsterark-folelser-9e4a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "monsterark-folelser-9e4a"
+  },
+  {
+   "slug": "monsterark-former-8ec8",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "monsterark-former-8ec8"
+  },
+  {
+   "slug": "monsterark-frokost-2d92",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "monsterark-frokost-2d92"
+  },
+  {
+   "slug": "monsterark-frukter-cdd2",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "monsterark-frukter-cdd2"
+  },
+  {
+   "slug": "monsterark-fugler-2-f72e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "monsterark-fugler-2-f72e"
+  },
+  {
+   "slug": "monsterark-fugler-3720",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "monsterark-fugler-3720"
+  },
+  {
+   "slug": "monsterark-gardsdyr-075b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "monsterark-gardsdyr-075b"
+  },
+  {
+   "slug": "monsterark-gronnsaker-78c7",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "monsterark-gronnsaker-78c7"
+  },
+  {
+   "slug": "monsterark-havliv-942d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "monsterark-havliv-942d"
+  },
+  {
+   "slug": "monsterark-i-supermarkedet-68f3",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "monsterark-i-supermarkedet-68f3"
+  },
+  {
+   "slug": "monsterark-insekter-og-kryp-2f25",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "monsterark-insekter-og-kryp-2f25"
+  },
+  {
+   "slug": "monsterark-jul-1e8b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "monsterark-jul-1e8b"
+  },
+  {
+   "slug": "monsterark-kjaeledyr-ffa9",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "monsterark-kjaeledyr-ffa9"
+  },
+  {
+   "slug": "monsterark-kjokkenredskaper-4c5d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "monsterark-kjokkenredskaper-4c5d"
+  },
+  {
+   "slug": "monsterark-kjoretoy-ee43",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "monsterark-kjoretoy-ee43"
+  },
+  {
+   "slug": "monsterark-klaer-9282",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "monsterark-klaer-9282"
+  },
+  {
+   "slug": "monsterark-klasserom-07cb",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "monsterark-klasserom-07cb"
+  },
+  {
+   "slug": "monsterark-kroppsdeler-76e3",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "monsterark-kroppsdeler-76e3"
+  },
+  {
+   "slug": "monsterark-leker-7089",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "monsterark-leker-7089"
+  },
+  {
+   "slug": "monsterark-mobler-3a5a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "monsterark-mobler-3a5a"
+  },
+  {
+   "slug": "monsterark-musikk-123c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "monsterark-musikk-123c"
+  },
+  {
+   "slug": "monsterark-paske-cbe7",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "monsterark-paske-cbe7"
+  },
+  {
+   "slug": "monsterark-postkontor-c9f2",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "monsterark-postkontor-c9f2"
+  },
+  {
+   "slug": "monsterark-reptiler-og-amfibier-e909",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "monsterark-reptiler-og-amfibier-e909"
+  },
+  {
+   "slug": "monsterark-rundt-i-huset-13ee",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "monsterark-rundt-i-huset-13ee"
+  },
+  {
+   "slug": "monsterark-skogsdyr-7471",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "monsterark-skogsdyr-7471"
+  },
+  {
+   "slug": "monsterark-sommer-84cb",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "monsterark-sommer-84cb"
+  },
+  {
+   "slug": "monsterark-strand-ca54",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "monsterark-strand-ca54"
+  },
+  {
+   "slug": "monsterark-sykehus-0551",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "monsterark-sykehus-0551"
+  },
+  {
+   "slug": "monsterark-thanksgiving-7e0a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "monsterark-thanksgiving-7e0a"
+  },
+  {
+   "slug": "monsterark-tilbehor-573c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "monsterark-tilbehor-573c"
+  },
+  {
+   "slug": "monsterark-ting-som-flyr-bd47",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "monsterark-ting-som-flyr-bd47"
+  },
+  {
+   "slug": "monsterark-traer-14a1",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "monsterark-traer-14a1"
+  },
+  {
+   "slug": "monsterark-vaer-57cb",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "monsterark-vaer-57cb"
+  },
+  {
+   "slug": "monsterark-var-189e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "monsterark-var-189e"
+  },
+  {
+   "slug": "monsterark-verdensrommet-27d5",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "monsterark-verdensrommet-27d5"
+  },
+  {
+   "slug": "monsterark-verktoy-1fd4",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "monsterark-verktoy-1fd4"
+  },
+  {
+   "slug": "monsterark-vinter-5080",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "monsterark-vinter-5080"
+  },
+  {
+   "slug": "monsterark-yrker-f801",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "monsterark-yrker-f801"
+  }
+ ]
+}

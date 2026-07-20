@@ -1,0 +1,652 @@
+{
+ "part": 219,
+ "locale": "nl",
+ "classes": [
+  "more-less::image-number",
+  "subtraction::cross-out"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "meer-minder-beeld-getal-accessoires-9b30",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-accessoires-9b30"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-bakkerij-616e",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-bakkerij-616e"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-beroepen-3e36",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-beroepen-3e36"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-bloemen-2b08",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-bloemen-2b08"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-boerderijdieren-c1d8",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-boerderijdieren-c1d8"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-bomen-bbe5",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-bomen-bbe5"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-boswezens-a61d",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-boswezens-a61d"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-desserts-en-snoep-c136",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-desserts-en-snoep-c136"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-dieren-467d",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-dieren-467d"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-dierentuindieren-ca0b",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-dierentuindieren-ca0b"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-dingen-die-vliegen-1009",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-dingen-die-vliegen-1009"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-dinosaurussen-40c3",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-dinosaurussen-40c3"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-fruit-5c35",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-fruit-5c35"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-gereedschap-df04",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-gereedschap-df04"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-groenten-f154",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-groenten-f154"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-huisdieren-e922",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-huisdieren-e922"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-in-de-supermarkt-1ce1",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-in-de-supermarkt-1ce1"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-insecten-en-beestjes-5fcd",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-insecten-en-beestjes-5fcd"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-kamperen-36c7",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-kamperen-36c7"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-kerstmis-7c85",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-kerstmis-7c85"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-keukengerei-69fe",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-keukengerei-69fe"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-klaslokaal-f908",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-klaslokaal-f908"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-kleding-58e3",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-kleding-58e3"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-meubels-ca0f",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-meubels-ca0f"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-muziek-0187",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-muziek-0187"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-oceaanleven-63ab",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-oceaanleven-63ab"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-ontbijt-12f3",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-ontbijt-12f3"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-pasen-fabf",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-pasen-fabf"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-postkantoor-5502",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-postkantoor-5502"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-reptielen-en-amfibieen-9eff",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-reptielen-en-amfibieen-9eff"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-rond-het-huis-b99b",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-rond-het-huis-b99b"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-ruimte-c2de",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-ruimte-c2de"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-speelgoed-2072",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-speelgoed-2072"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-strand-2cc8",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-strand-2cc8"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-thanksgiving-8338",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-thanksgiving-8338"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-voertuigen-5bb5",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-voertuigen-5bb5"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-vogels-146a",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-vogels-146a"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-vogels-2-8ee9",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-vogels-2-8ee9"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-vormen-25b3",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-vormen-25b3"
+  },
+  {
+   "slug": "meer-minder-beeld-getal-ziekenhuis-5484",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "meer-minder-beeld-getal-ziekenhuis-5484"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-accessoires-3c61",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "accessories",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-accessoires-3c61"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-bakkerij-ba9a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "bakery",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-bakkerij-ba9a"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-beroepen-232b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "occupations",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-beroepen-232b"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-bloemen-b4b0",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "flowers",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-bloemen-b4b0"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-boerderijdieren-707e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "farm_animals",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-boerderijdieren-707e"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-bomen-93c8",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-bomen-93c8"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-boswezens-5573",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "forest_creatures",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-boswezens-5573"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-desserts-en-snoep-7652",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "desserts_and_sweets",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-desserts-en-snoep-7652"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-dieren",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "animals",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-dieren"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-dierentuindieren-7c9d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "zoo_animals",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-dierentuindieren-7c9d"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-dingen-die-vliegen-984d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "things_that_fly",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-dingen-die-vliegen-984d"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-dinosaurussen-c517",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "dinosaurs",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-dinosaurussen-c517"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-fruit-adb4",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "fruits",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-fruit-adb4"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-gereedschap-9697",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tools",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-gereedschap-9697"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-groenten-4b3d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vegetables",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-groenten-4b3d"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-huisdieren-3974",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "pets",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-huisdieren-3974"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-in-de-supermarkt-fc8d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "at_the_supermarket",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-in-de-supermarkt-fc8d"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-insecten-en-beestjes-824d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "insects_and_bugs",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-insecten-en-beestjes-824d"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-kamperen-e814",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "camping",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-kamperen-e814"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-kerstmis-dfcf",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "christmas",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-kerstmis-dfcf"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-keukengerei-939e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "kitchen_tools",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-keukengerei-939e"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-klaslokaal-c7ed",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "classroom",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-klaslokaal-c7ed"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-kleding-4d4b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "clothing",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-kleding-4d4b"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-meubels-b257",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "furniture",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-meubels-b257"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-muziek-029a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "music",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-muziek-029a"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-oceaanleven-6ca4",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "ocean_life",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-oceaanleven-6ca4"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-ontbijt-de04",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "breakfast",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-ontbijt-de04"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-pasen-4e81",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "easter",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-pasen-4e81"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-postkantoor-ba99",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "post_office",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-postkantoor-ba99"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-reptielen-en-amfibieen-b271",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-reptielen-en-amfibieen-b271"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-rond-het-huis-ca36",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "around_the_house",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-rond-het-huis-ca36"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-ruimte-a427",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "space",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-ruimte-a427"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-speelgoed-0c41",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "toys",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-speelgoed-0c41"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-strand-941f",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "beach",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-strand-941f"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-thanksgiving-748b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "thanksgivinng",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-thanksgiving-748b"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-voertuigen-6fef",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vehicles",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-voertuigen-6fef"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-vogels-2-1e52",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds_2",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-vogels-2-1e52"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-vogels-856b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-vogels-856b"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-vormen-217d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "shapes",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-vormen-217d"
+  },
+  {
+   "slug": "aftrekken-doorstrepen-ziekenhuis-1297",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "hospital",
+   "level": "groep-3",
+   "deck": "aftrekken-doorstrepen-ziekenhuis-1297"
+  }
+ ]
+}

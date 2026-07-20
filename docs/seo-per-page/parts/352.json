@@ -1,0 +1,815 @@
+{
+ "part": 352,
+ "locale": "fi",
+ "classes": [
+  "big-small::findBig",
+  "alphabet-train::letter-hint",
+  "alphabet-train::null",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide"
+ ],
+ "splitOf": null,
+ "count": 100,
+ "pages": [
+  {
+   "slug": "iso-pieni-etsi-iso-aamiainen-ed13",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-aamiainen-ed13"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-ajoneuvot-6069",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-ajoneuvot-6069"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-ammatit-414b",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-ammatit-414b"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-asusteet-2e02",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-asusteet-2e02"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-avaruus-e0c2",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-avaruus-e0c2"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-dinosaurukset-f5ab",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-dinosaurukset-f5ab"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-elaimet-ec06",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-elaimet-ec06"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-elaintarhan-elaimet-445a",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-elaintarhan-elaimet-445a"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-hedelmat-e809",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-hedelmat-e809"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-huonekalut-9069",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-huonekalut-9069"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-jalkiruoat-ja-makeiset-d88d",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-jalkiruoat-ja-makeiset-d88d"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-joulu-5f06",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-joulu-5f06"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-keittiovalineet-b7de",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-keittiovalineet-b7de"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-kodin-ymparilla-33c3",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-kodin-ymparilla-33c3"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-kukat-becb",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-kukat-becb"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-leipomo-16de",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-leipomo-16de"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-leirielama-4fd5",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-leirielama-4fd5"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-lelut-242f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-lelut-242f"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-lemmikit-6ba1",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-lemmikit-6ba1"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-lentavat-asiat-3fc7",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-lentavat-asiat-3fc7"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-linnut-2-e4c5",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-linnut-2-e4c5"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-luokkahuone-afef",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-luokkahuone-afef"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-maatilan-elaimet-c685",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-maatilan-elaimet-c685"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-merielama-f445",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-merielama-f445"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-metsan-elaimet-9ede",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-metsan-elaimet-9ede"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-muodot-8841",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-muodot-8841"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-musiikki-db1a",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-musiikki-db1a"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-paasiainen-192b",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-paasiainen-192b"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-puut-f50c",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-puut-f50c"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-ranta-1a31",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-ranta-1a31"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-ruokakaupassa-21b6",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-ruokakaupassa-21b6"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-ruumiinosat-4346",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-ruumiinosat-4346"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-sairaala-726b",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-sairaala-726b"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-tyokalut-6dda",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-tyokalut-6dda"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-vaatteet-44a3",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-vaatteet-44a3"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-vihannekset-a6ce",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-vihannekset-a6ce"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-aamiainen-7efe",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-aamiainen-7efe"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-ajoneuvot-b908",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-ajoneuvot-b908"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-aktiviteetit-a79d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-aktiviteetit-a79d"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-ammatit-a77c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-ammatit-a77c"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-asusteet-1b68",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-asusteet-1b68"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-avaruus-d7a1",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-avaruus-d7a1"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-dinosaurukset-2784",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-dinosaurukset-2784"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-elaimet-e076",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-elaimet-e076"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-elaintarhan-elaimet-686f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-elaintarhan-elaimet-686f"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-hedelmat-5a56",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-hedelmat-5a56"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-heinakuun-4-ce1b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "4th_of_july",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-heinakuun-4-ce1b"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-huonekalut-7772",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-huonekalut-7772"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-joulu-7d94",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-joulu-7d94"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-keittiovalineet-e135",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-keittiovalineet-e135"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-kesa-d998",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-kesa-d998"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-kodin-ymparilla-dc98",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-kodin-ymparilla-dc98"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-kukat-54ed",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-kukat-54ed"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-leipomo-7cbc",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-leipomo-7cbc"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-leirielama-5fdc",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-leirielama-5fdc"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-lelut-a6ca",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-lelut-a6ca"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-lemmikit-7880",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-lemmikit-7880"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-lentavat-asiat-3f59",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-lentavat-asiat-3f59"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-linnut-2-c378",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-linnut-2-c378"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-luokkahuone-5d3c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-luokkahuone-5d3c"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-merielama-882a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-merielama-882a"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-puut-7f83",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-puut-7f83"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-ranta-b400",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-ranta-b400"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-ruokakaupassa-91c4",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-ruokakaupassa-91c4"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-ruumiinosat-ca98",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-ruumiinosat-ca98"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-talvi-23b0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-talvi-23b0"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-tunteet-8964",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-tunteet-8964"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-vaatteet-24ad",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-vaatteet-24ad"
+  },
+  {
+   "slug": "aakkosjuna-kirjainvihje-varit-f91e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kirjainvihje-varit-f91e"
+  },
+  {
+   "slug": "aakkosjuna-aamiainen-6fee",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-aamiainen-6fee"
+  },
+  {
+   "slug": "aakkosjuna-ajoneuvot-f4af",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-ajoneuvot-f4af"
+  },
+  {
+   "slug": "aakkosjuna-aktiviteetit-cdb3",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-aktiviteetit-cdb3"
+  },
+  {
+   "slug": "aakkosjuna-ammatit-e573",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-ammatit-e573"
+  },
+  {
+   "slug": "aakkosjuna-asusteet-3ec9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-asusteet-3ec9"
+  },
+  {
+   "slug": "aakkosjuna-avaruus-2a98",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-avaruus-2a98"
+  },
+  {
+   "slug": "aakkosjuna-elaimet",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-elaimet"
+  },
+  {
+   "slug": "aakkosjuna-elaintarhan-elaimet-f46b",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-elaintarhan-elaimet-f46b"
+  },
+  {
+   "slug": "aakkosjuna-hedelmat-8a31",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-hedelmat-8a31"
+  },
+  {
+   "slug": "aakkosjuna-huonekalut-5add",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-huonekalut-5add"
+  },
+  {
+   "slug": "aakkosjuna-joulu-8b63",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-joulu-8b63"
+  },
+  {
+   "slug": "aakkosjuna-keittiovalineet-f8df",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-keittiovalineet-f8df"
+  },
+  {
+   "slug": "aakkosjuna-kesa-7b57",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kesa-7b57"
+  },
+  {
+   "slug": "aakkosjuna-kodin-ymparilla-c94e",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kodin-ymparilla-c94e"
+  },
+  {
+   "slug": "aakkosjuna-kukat-d25f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-kukat-d25f"
+  },
+  {
+   "slug": "aakkosjuna-leipomo-bae0",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-leipomo-bae0"
+  },
+  {
+   "slug": "aakkosjuna-leirielama-5181",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-leirielama-5181"
+  },
+  {
+   "slug": "aakkosjuna-lelut-953c",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-lelut-953c"
+  },
+  {
+   "slug": "aakkosjuna-lemmikit-d6cd",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-lemmikit-d6cd"
+  },
+  {
+   "slug": "aakkosjuna-lentavat-asiat-53d8",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-lentavat-asiat-53d8"
+  },
+  {
+   "slug": "aakkosjuna-linnut-2-e349",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-linnut-2-e349"
+  },
+  {
+   "slug": "aakkosjuna-luokkahuone-08dd",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-luokkahuone-08dd"
+  },
+  {
+   "slug": "aakkosjuna-merielama-1c42",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-merielama-1c42"
+  },
+  {
+   "slug": "aakkosjuna-ranta-bdd1",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-ranta-bdd1"
+  },
+  {
+   "slug": "aakkosjuna-ruokakaupassa-4740",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-ruokakaupassa-4740"
+  },
+  {
+   "slug": "aakkosjuna-ruumiinosat-98b1",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-ruumiinosat-98b1"
+  },
+  {
+   "slug": "aakkosjuna-tunteet-aa70",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-tunteet-aa70"
+  },
+  {
+   "slug": "aakkosjuna-vaatteet-e7c6",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-vaatteet-e7c6"
+  },
+  {
+   "slug": "aakkosjuna-varit-05dc",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "aakkosjuna-varit-05dc"
+  },
+  {
+   "slug": "rivit-ja-sarakkeet-2-luokka",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "2-luokka",
+   "deck": "kertolaskun-alkeet-lelut-g2212"
+  },
+  {
+   "slug": "kertotaulu-rivit-sarakkeet-3-luokka",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "3-luokka",
+   "deck": "kertolaskun-alkeet-g3313"
+  }
+ ]
+}

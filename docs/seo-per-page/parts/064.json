@@ -1,0 +1,692 @@
+{
+ "part": 64,
+ "locale": "de",
+ "classes": [
+  "matching::letter",
+  "addition::image-number"
+ ],
+ "splitOf": null,
+ "count": 85,
+ "pages": [
+  {
+   "slug": "zuordnung-buchstaben-accessoires-e173",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-accessoires-e173"
+  },
+  {
+   "slug": "zuordnung-buchstaben-aktivitaten-f211",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "activities",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-aktivitaten-f211"
+  },
+  {
+   "slug": "zuordnung-buchstaben-backerei-ad9b",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-backerei-ad9b"
+  },
+  {
+   "slug": "zuordnung-buchstaben-bauernhoftiere-b6d6",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-bauernhoftiere-b6d6"
+  },
+  {
+   "slug": "zuordnung-buchstaben-berufe-ad67",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-berufe-ad67"
+  },
+  {
+   "slug": "zuordnung-buchstaben-camping-6717",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-camping-6717"
+  },
+  {
+   "slug": "zuordnung-buchstaben-desserts-und-sussigkeiten-d966",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-desserts-und-sussigkeiten-d966"
+  },
+  {
+   "slug": "zuordnung-buchstaben-dinge-die-fliegen-db06",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-dinge-die-fliegen-db06"
+  },
+  {
+   "slug": "zuordnung-buchstaben-emotionen-f949",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "emotions",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-emotionen-f949"
+  },
+  {
+   "slug": "zuordnung-buchstaben-erntedankfest-4d60",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-erntedankfest-4d60"
+  },
+  {
+   "slug": "zuordnung-buchstaben-fahrzeuge-a63f",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-fahrzeuge-a63f"
+  },
+  {
+   "slug": "zuordnung-buchstaben-farben-8496",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-farben-8496"
+  },
+  {
+   "slug": "zuordnung-buchstaben-formen-bebe",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-formen-bebe"
+  },
+  {
+   "slug": "zuordnung-buchstaben-fruchte-6a45",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-fruchte-6a45"
+  },
+  {
+   "slug": "zuordnung-buchstaben-fruhling-b9c0",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "spring",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-fruhling-b9c0"
+  },
+  {
+   "slug": "zuordnung-buchstaben-fruhstuck-1415",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-fruhstuck-1415"
+  },
+  {
+   "slug": "zuordnung-buchstaben-gemuse-01a1",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-gemuse-01a1"
+  },
+  {
+   "slug": "zuordnung-buchstaben-haustiere-c6d3",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-haustiere-c6d3"
+  },
+  {
+   "slug": "zuordnung-buchstaben-im-supermarkt-3649",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-im-supermarkt-3649"
+  },
+  {
+   "slug": "zuordnung-buchstaben-insekten-und-kafer-ec03",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-insekten-und-kafer-ec03"
+  },
+  {
+   "slug": "zuordnung-buchstaben-klassenzimmer-d29b",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-klassenzimmer-d29b"
+  },
+  {
+   "slug": "zuordnung-buchstaben-kleidung-6da7",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-kleidung-6da7"
+  },
+  {
+   "slug": "zuordnung-buchstaben-korperteile-cb93",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-korperteile-cb93"
+  },
+  {
+   "slug": "zuordnung-buchstaben-krankenhaus-7d44",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-krankenhaus-7d44"
+  },
+  {
+   "slug": "zuordnung-buchstaben-kuchenwerkzeuge-50fa",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-kuchenwerkzeuge-50fa"
+  },
+  {
+   "slug": "zuordnung-buchstaben-meeresleben-bb34",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-meeresleben-bb34"
+  },
+  {
+   "slug": "zuordnung-buchstaben-mobel-defc",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-mobel-defc"
+  },
+  {
+   "slug": "zuordnung-buchstaben-musik-84f3",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-musik-84f3"
+  },
+  {
+   "slug": "zuordnung-buchstaben-ostern-666c",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-ostern-666c"
+  },
+  {
+   "slug": "zuordnung-buchstaben-postamt-14ee",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-postamt-14ee"
+  },
+  {
+   "slug": "zuordnung-buchstaben-rund-ums-haus-e1d1",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-rund-ums-haus-e1d1"
+  },
+  {
+   "slug": "zuordnung-buchstaben-sommer-1ee9",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "summer",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-sommer-1ee9"
+  },
+  {
+   "slug": "zuordnung-buchstaben-spielzeug-3a6a",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-spielzeug-3a6a"
+  },
+  {
+   "slug": "zuordnung-buchstaben-strand-8c02",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-strand-8c02"
+  },
+  {
+   "slug": "zuordnung-buchstaben-tiere-aa36",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-tiere-aa36"
+  },
+  {
+   "slug": "zuordnung-buchstaben-vogel-06a8",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-vogel-06a8"
+  },
+  {
+   "slug": "zuordnung-buchstaben-vogel-2-7810",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-vogel-2-7810"
+  },
+  {
+   "slug": "zuordnung-buchstaben-waldtiere-3a07",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-waldtiere-3a07"
+  },
+  {
+   "slug": "zuordnung-buchstaben-weihnachten-a966",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-weihnachten-a966"
+  },
+  {
+   "slug": "zuordnung-buchstaben-weltraum-cfa3",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-weltraum-cfa3"
+  },
+  {
+   "slug": "zuordnung-buchstaben-werkzeuge-2021",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-werkzeuge-2021"
+  },
+  {
+   "slug": "zuordnung-buchstaben-wetter-2705",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-wetter-2705"
+  },
+  {
+   "slug": "zuordnung-buchstaben-winter-8a91",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-winter-8a91"
+  },
+  {
+   "slug": "zuordnung-buchstaben-zootiere-8d5b",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-zootiere-8d5b"
+  },
+  {
+   "slug": "addition-bild-zahl-accessoires-bec3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-accessoires-bec3"
+  },
+  {
+   "slug": "addition-bild-zahl-backerei-3aa9",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-backerei-3aa9"
+  },
+  {
+   "slug": "addition-bild-zahl-bauernhoftiere-f029",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-bauernhoftiere-f029"
+  },
+  {
+   "slug": "addition-bild-zahl-baume-69b6",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-baume-69b6"
+  },
+  {
+   "slug": "addition-bild-zahl-berufe-d876",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-berufe-d876"
+  },
+  {
+   "slug": "addition-bild-zahl-blumen-cb07",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-blumen-cb07"
+  },
+  {
+   "slug": "addition-bild-zahl-camping-a14a",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-camping-a14a"
+  },
+  {
+   "slug": "addition-bild-zahl-desserts-und-sussigkeiten-145e",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-desserts-und-sussigkeiten-145e"
+  },
+  {
+   "slug": "addition-bild-zahl-dinge-die-fliegen-0062",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-dinge-die-fliegen-0062"
+  },
+  {
+   "slug": "addition-bild-zahl-dinosaurier-214b",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-dinosaurier-214b"
+  },
+  {
+   "slug": "addition-bild-zahl-erntedankfest-6267",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-erntedankfest-6267"
+  },
+  {
+   "slug": "addition-bild-zahl-fahrzeuge-f670",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-fahrzeuge-f670"
+  },
+  {
+   "slug": "addition-bild-zahl-formen-0fe3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-formen-0fe3"
+  },
+  {
+   "slug": "addition-bild-zahl-fruchte-d6fa",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-fruchte-d6fa"
+  },
+  {
+   "slug": "addition-bild-zahl-fruhstuck-f2e3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-fruhstuck-f2e3"
+  },
+  {
+   "slug": "addition-bild-zahl-gemuse-24db",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-gemuse-24db"
+  },
+  {
+   "slug": "addition-bild-zahl-haustiere-7610",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-haustiere-7610"
+  },
+  {
+   "slug": "addition-bild-zahl-im-supermarkt-0327",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-im-supermarkt-0327"
+  },
+  {
+   "slug": "addition-bild-zahl-insekten-und-kafer-e821",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-insekten-und-kafer-e821"
+  },
+  {
+   "slug": "addition-bild-zahl-klassenzimmer-c60b",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-klassenzimmer-c60b"
+  },
+  {
+   "slug": "addition-bild-zahl-kleidung-b845",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-kleidung-b845"
+  },
+  {
+   "slug": "addition-bild-zahl-krankenhaus-c89f",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-krankenhaus-c89f"
+  },
+  {
+   "slug": "addition-bild-zahl-kuchenwerkzeuge-90cb",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-kuchenwerkzeuge-90cb"
+  },
+  {
+   "slug": "addition-bild-zahl-meeresleben-2175",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-meeresleben-2175"
+  },
+  {
+   "slug": "addition-bild-zahl-mobel-6e35",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-mobel-6e35"
+  },
+  {
+   "slug": "addition-bild-zahl-musik-23f2",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-musik-23f2"
+  },
+  {
+   "slug": "addition-bild-zahl-ostern-8217",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-ostern-8217"
+  },
+  {
+   "slug": "addition-bild-zahl-postamt-5ba3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-postamt-5ba3"
+  },
+  {
+   "slug": "addition-bild-zahl-reptilien-und-amphibien-4236",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-reptilien-und-amphibien-4236"
+  },
+  {
+   "slug": "addition-bild-zahl-rund-ums-haus-8517",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-rund-ums-haus-8517"
+  },
+  {
+   "slug": "addition-bild-zahl-spielzeug-6abe",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-spielzeug-6abe"
+  },
+  {
+   "slug": "addition-bild-zahl-strand-08e7",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-strand-08e7"
+  },
+  {
+   "slug": "addition-bild-zahl-tiere-716a",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-tiere-716a"
+  },
+  {
+   "slug": "addition-bild-zahl-verschiedenes-dff6",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "miscellaneous",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-verschiedenes-dff6"
+  },
+  {
+   "slug": "addition-bild-zahl-vogel-2-684f",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-vogel-2-684f"
+  },
+  {
+   "slug": "addition-bild-zahl-vogel-3c06",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-vogel-3c06"
+  },
+  {
+   "slug": "addition-bild-zahl-waldtiere-261c",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-waldtiere-261c"
+  },
+  {
+   "slug": "addition-bild-zahl-weihnachten-7579",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-weihnachten-7579"
+  },
+  {
+   "slug": "addition-bild-zahl-weltraum-2146",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-weltraum-2146"
+  },
+  {
+   "slug": "addition-bild-zahl-werkzeuge-f50b",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-werkzeuge-f50b"
+  },
+  {
+   "slug": "addition-bild-zahl-zootiere-0797",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "addition-bild-zahl-zootiere-0797"
+  }
+ ]
+}

@@ -1,0 +1,652 @@
+{
+ "part": 67,
+ "locale": "de",
+ "classes": [
+  "math-puzzle::mixed",
+  "more-less::image-image"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "mathe-raetsel-gemischt-accessoires-328f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-accessoires-328f"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-backerei-d899",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-backerei-d899"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-bauernhoftiere-c4c4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-bauernhoftiere-c4c4"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-baume-fdd7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-baume-fdd7"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-berufe-1843",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-berufe-1843"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-blumen-9c5f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-blumen-9c5f"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-camping-8b7b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-camping-8b7b"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-desserts-und-sussigkeiten-308e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-desserts-und-sussigkeiten-308e"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-dinge-die-fliegen-b140",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-dinge-die-fliegen-b140"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-dinosaurier-a839",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-dinosaurier-a839"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-erntedankfest-9daf",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-erntedankfest-9daf"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-fahrzeuge-925a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-fahrzeuge-925a"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-formen-7fe3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-formen-7fe3"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-fruchte-b879",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-fruchte-b879"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-gemuse-90f0",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-gemuse-90f0"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-haustiere-8a7d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-haustiere-8a7d"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-im-supermarkt-a28f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-im-supermarkt-a28f"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-insekten-und-kafer-23d8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-insekten-und-kafer-23d8"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-klassenzimmer-17dc",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-klassenzimmer-17dc"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-kleidung-be32",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-kleidung-be32"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-krankenhaus-5ff1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-krankenhaus-5ff1"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-kuchenwerkzeuge-f90d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-kuchenwerkzeuge-f90d"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-meeresleben-490a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-meeresleben-490a"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-mobel-abc5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-mobel-abc5"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-musik-2b78",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-musik-2b78"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-ostern-5522",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-ostern-5522"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-postamt-0dcb",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-postamt-0dcb"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-reptilien-und-amphibien-8ec8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-reptilien-und-amphibien-8ec8"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-rund-ums-haus-a75a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-rund-ums-haus-a75a"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-spielzeug-4a3c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-spielzeug-4a3c"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-strand-09b4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-strand-09b4"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-tiere",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-tiere"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-verschiedenes-13c2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-verschiedenes-13c2"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-vogel-2-ff8c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-vogel-2-ff8c"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-vogel-c1c9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-vogel-c1c9"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-waldtiere-a98b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-waldtiere-a98b"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-weihnachten-c9a8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-weihnachten-c9a8"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-weltraum-a47a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-weltraum-a47a"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-werkzeuge-a081",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-werkzeuge-a081"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-zootiere-f72b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-zootiere-f72b"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-accessoires-547c",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-accessoires-547c"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-backerei-1e3f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-backerei-1e3f"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-bauernhoftiere-59e2",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-bauernhoftiere-59e2"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-baume-1427",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-baume-1427"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-berufe-f4b7",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-berufe-f4b7"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-blumen-419c",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-blumen-419c"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-camping-546f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-camping-546f"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-desserts-und-sussigkeiten-fd68",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-desserts-und-sussigkeiten-fd68"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-dinge-die-fliegen-a120",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-dinge-die-fliegen-a120"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-dinosaurier-aa10",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-dinosaurier-aa10"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-erntedankfest-1021",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-erntedankfest-1021"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-fahrzeuge-257b",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-fahrzeuge-257b"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-formen-96a4",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-formen-96a4"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-fruchte-e201",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-fruchte-e201"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-fruhstuck-ce57",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-fruhstuck-ce57"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-gemuse-48a0",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-gemuse-48a0"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-haustiere-334f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-haustiere-334f"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-im-supermarkt-9fd7",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-im-supermarkt-9fd7"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-insekten-und-kafer-6fab",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-insekten-und-kafer-6fab"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-klassenzimmer-5d3c",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-klassenzimmer-5d3c"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-kleidung-2d6f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-kleidung-2d6f"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-krankenhaus-4a39",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-krankenhaus-4a39"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-kuchenwerkzeuge-cc2a",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-kuchenwerkzeuge-cc2a"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-meeresleben-955d",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-meeresleben-955d"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-mobel-b9f8",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-mobel-b9f8"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-musik-06c9",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-musik-06c9"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-ostern-970c",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-ostern-970c"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-postamt-95e5",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-postamt-95e5"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-reptilien-und-amphibien-f42b",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-reptilien-und-amphibien-f42b"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-rund-ums-haus-d077",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-rund-ums-haus-d077"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-spielzeug-cff5",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-spielzeug-cff5"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-strand-39de",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-strand-39de"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-tiere-ea81",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-tiere-ea81"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-vogel-2-196a",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-vogel-2-196a"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-vogel-b83e",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-vogel-b83e"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-waldtiere-50a4",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-waldtiere-50a4"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-weihnachten-db92",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-weihnachten-db92"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-weltraum-f17a",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-weltraum-f17a"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-werkzeuge-4834",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-werkzeuge-4834"
+  },
+  {
+   "slug": "mehr-weniger-bild-bild-zootiere-9e26",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "mehr-weniger-bild-bild-zootiere-9e26"
+  }
+ ]
+}

@@ -1,0 +1,748 @@
+{
+ "part": 183,
+ "locale": "it",
+ "classes": [
+  "word-scramble::easy",
+  "word-scramble::normal"
+ ],
+ "splitOf": null,
+ "count": 92,
+ "pages": [
+  {
+   "slug": "anagrammi-facile-abbigliamento-8188",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-abbigliamento-8188"
+  },
+  {
+   "slug": "anagrammi-facile-accessori-8191",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-accessori-8191"
+  },
+  {
+   "slug": "anagrammi-facile-al-supermercato-6a9b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-al-supermercato-6a9b"
+  },
+  {
+   "slug": "anagrammi-facile-alberi-19f3",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-alberi-19f3"
+  },
+  {
+   "slug": "anagrammi-facile-animali-6948",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-animali-6948"
+  },
+  {
+   "slug": "anagrammi-facile-animali-della-fattoria-6b30",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-animali-della-fattoria-6b30"
+  },
+  {
+   "slug": "anagrammi-facile-animali-dello-zoo-311f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-animali-dello-zoo-311f"
+  },
+  {
+   "slug": "anagrammi-facile-animali-domestici-464a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-animali-domestici-464a"
+  },
+  {
+   "slug": "anagrammi-facile-attivita-6f91",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-attivita-6f91"
+  },
+  {
+   "slug": "anagrammi-facile-aula-b05d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-aula-b05d"
+  },
+  {
+   "slug": "anagrammi-facile-campeggio-abb7",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-campeggio-abb7"
+  },
+  {
+   "slug": "anagrammi-facile-colazione-09be",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-colazione-09be"
+  },
+  {
+   "slug": "anagrammi-facile-colori-1dbb",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-colori-1dbb"
+  },
+  {
+   "slug": "anagrammi-facile-cose-che-volano-d442",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-cose-che-volano-d442"
+  },
+  {
+   "slug": "anagrammi-facile-creature-della-foresta-8e13",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-creature-della-foresta-8e13"
+  },
+  {
+   "slug": "anagrammi-facile-dolci-e-dolciumi-8ac0",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-dolci-e-dolciumi-8ac0"
+  },
+  {
+   "slug": "anagrammi-facile-emozioni-dd70",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-emozioni-dd70"
+  },
+  {
+   "slug": "anagrammi-facile-estate-bd8d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-estate-bd8d"
+  },
+  {
+   "slug": "anagrammi-facile-fiori-6985",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-fiori-6985"
+  },
+  {
+   "slug": "anagrammi-facile-forme-8c1a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-forme-8c1a"
+  },
+  {
+   "slug": "anagrammi-facile-frutta-f124",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-frutta-f124"
+  },
+  {
+   "slug": "anagrammi-facile-giocattoli-73b5",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-giocattoli-73b5"
+  },
+  {
+   "slug": "anagrammi-facile-giorno-del-ringraziamento-8f8c",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-giorno-del-ringraziamento-8f8c"
+  },
+  {
+   "slug": "anagrammi-facile-in-giro-per-casa-a34e",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-in-giro-per-casa-a34e"
+  },
+  {
+   "slug": "anagrammi-facile-insetti-e-scarafaggi-dd9f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-insetti-e-scarafaggi-dd9f"
+  },
+  {
+   "slug": "anagrammi-facile-inverno-ac64",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-inverno-ac64"
+  },
+  {
+   "slug": "anagrammi-facile-meteo-b230",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-meteo-b230"
+  },
+  {
+   "slug": "anagrammi-facile-mobili-64e3",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-mobili-64e3"
+  },
+  {
+   "slug": "anagrammi-facile-musica-490d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-musica-490d"
+  },
+  {
+   "slug": "anagrammi-facile-natale-69ea",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-natale-69ea"
+  },
+  {
+   "slug": "anagrammi-facile-ospedale-fe75",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-ospedale-fe75"
+  },
+  {
+   "slug": "anagrammi-facile-panetteria-def3",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-panetteria-def3"
+  },
+  {
+   "slug": "anagrammi-facile-parti-del-corpo-869c",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-parti-del-corpo-869c"
+  },
+  {
+   "slug": "anagrammi-facile-pasqua-1b30",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-pasqua-1b30"
+  },
+  {
+   "slug": "anagrammi-facile-primavera-69da",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-primavera-69da"
+  },
+  {
+   "slug": "anagrammi-facile-professioni-2bfd",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-professioni-2bfd"
+  },
+  {
+   "slug": "anagrammi-facile-rettili-e-anfibi-b8fc",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-rettili-e-anfibi-b8fc"
+  },
+  {
+   "slug": "anagrammi-facile-spazio-fa5b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-spazio-fa5b"
+  },
+  {
+   "slug": "anagrammi-facile-spiaggia-5ae7",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-spiaggia-5ae7"
+  },
+  {
+   "slug": "anagrammi-facile-uccelli-0124",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-uccelli-0124"
+  },
+  {
+   "slug": "anagrammi-facile-uccelli-2-66ec",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-uccelli-2-66ec"
+  },
+  {
+   "slug": "anagrammi-facile-utensili-da-cucina-09e7",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-utensili-da-cucina-09e7"
+  },
+  {
+   "slug": "anagrammi-facile-varie-24bc",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-varie-24bc"
+  },
+  {
+   "slug": "anagrammi-facile-veicoli-c5ab",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-veicoli-c5ab"
+  },
+  {
+   "slug": "anagrammi-facile-verdure-47c8",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-verdure-47c8"
+  },
+  {
+   "slug": "anagrammi-facile-vita-oceanica-b821",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "anagrammi-facile-vita-oceanica-b821"
+  },
+  {
+   "slug": "anagrammi-normale-abbigliamento-6c57",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-abbigliamento-6c57"
+  },
+  {
+   "slug": "anagrammi-normale-accessori-6d82",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-accessori-6d82"
+  },
+  {
+   "slug": "anagrammi-normale-al-supermercato-f8e1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-al-supermercato-f8e1"
+  },
+  {
+   "slug": "anagrammi-normale-alberi-a314",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-alberi-a314"
+  },
+  {
+   "slug": "anagrammi-normale-animali-5b88",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-animali-5b88"
+  },
+  {
+   "slug": "anagrammi-normale-animali-della-fattoria-b7c1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-animali-della-fattoria-b7c1"
+  },
+  {
+   "slug": "anagrammi-normale-animali-dello-zoo-7fa7",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-animali-dello-zoo-7fa7"
+  },
+  {
+   "slug": "anagrammi-normale-animali-domestici-ba3c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-animali-domestici-ba3c"
+  },
+  {
+   "slug": "anagrammi-normale-attivita-c629",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-attivita-c629"
+  },
+  {
+   "slug": "anagrammi-normale-aula-dffa",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-aula-dffa"
+  },
+  {
+   "slug": "anagrammi-normale-campeggio-011e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-campeggio-011e"
+  },
+  {
+   "slug": "anagrammi-normale-colazione-1fba",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-colazione-1fba"
+  },
+  {
+   "slug": "anagrammi-normale-colori-3f29",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-colori-3f29"
+  },
+  {
+   "slug": "anagrammi-normale-cose-che-volano-385f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-cose-che-volano-385f"
+  },
+  {
+   "slug": "anagrammi-normale-creature-della-foresta-267f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-creature-della-foresta-267f"
+  },
+  {
+   "slug": "anagrammi-normale-dolci-e-dolciumi-00d6",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-dolci-e-dolciumi-00d6"
+  },
+  {
+   "slug": "anagrammi-normale-emozioni-e834",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-emozioni-e834"
+  },
+  {
+   "slug": "anagrammi-normale-estate-c8e6",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-estate-c8e6"
+  },
+  {
+   "slug": "anagrammi-normale-fiori-7c15",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-fiori-7c15"
+  },
+  {
+   "slug": "anagrammi-normale-forme-f754",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-forme-f754"
+  },
+  {
+   "slug": "anagrammi-normale-frutta-df74",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-frutta-df74"
+  },
+  {
+   "slug": "anagrammi-normale-giocattoli-1bb6",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-giocattoli-1bb6"
+  },
+  {
+   "slug": "anagrammi-normale-giorno-del-ringraziamento-d386",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-giorno-del-ringraziamento-d386"
+  },
+  {
+   "slug": "anagrammi-normale-in-giro-per-casa-97cd",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-in-giro-per-casa-97cd"
+  },
+  {
+   "slug": "anagrammi-normale-insetti-e-scarafaggi-e282",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-insetti-e-scarafaggi-e282"
+  },
+  {
+   "slug": "anagrammi-normale-inverno-585e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-inverno-585e"
+  },
+  {
+   "slug": "anagrammi-normale-meteo-495a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-meteo-495a"
+  },
+  {
+   "slug": "anagrammi-normale-mobili-5519",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-mobili-5519"
+  },
+  {
+   "slug": "anagrammi-normale-musica-d2a0",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-musica-d2a0"
+  },
+  {
+   "slug": "anagrammi-normale-natale-45c5",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-natale-45c5"
+  },
+  {
+   "slug": "anagrammi-normale-ospedale-6bb5",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-ospedale-6bb5"
+  },
+  {
+   "slug": "anagrammi-normale-panetteria-00f4",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-panetteria-00f4"
+  },
+  {
+   "slug": "anagrammi-normale-parti-del-corpo-7710",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-parti-del-corpo-7710"
+  },
+  {
+   "slug": "anagrammi-normale-pasqua-cf6c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-pasqua-cf6c"
+  },
+  {
+   "slug": "anagrammi-normale-primavera-a85b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-primavera-a85b"
+  },
+  {
+   "slug": "anagrammi-normale-professioni-8e31",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-professioni-8e31"
+  },
+  {
+   "slug": "anagrammi-normale-rettili-e-anfibi-fe11",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-rettili-e-anfibi-fe11"
+  },
+  {
+   "slug": "anagrammi-normale-spazio-a507",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-spazio-a507"
+  },
+  {
+   "slug": "anagrammi-normale-spiaggia-b471",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-spiaggia-b471"
+  },
+  {
+   "slug": "anagrammi-normale-uccelli-2-f2d1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-uccelli-2-f2d1"
+  },
+  {
+   "slug": "anagrammi-normale-uccelli-4662",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-uccelli-4662"
+  },
+  {
+   "slug": "anagrammi-normale-utensili-da-cucina-bfb7",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-utensili-da-cucina-bfb7"
+  },
+  {
+   "slug": "anagrammi-normale-varie-b086",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-varie-b086"
+  },
+  {
+   "slug": "anagrammi-normale-veicoli-e1a9",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-veicoli-e1a9"
+  },
+  {
+   "slug": "anagrammi-normale-verdure-5b20",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-verdure-5b20"
+  },
+  {
+   "slug": "anagrammi-normale-vita-oceanica-0842",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "anagrammi-normale-vita-oceanica-0842"
+  }
+ ]
+}

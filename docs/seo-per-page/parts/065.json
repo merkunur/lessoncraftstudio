@@ -1,0 +1,668 @@
+{
+ "part": 65,
+ "locale": "de",
+ "classes": [
+  "alphabet-train::letter-hint",
+  "big-small::orderAsc"
+ ],
+ "splitOf": null,
+ "count": 82,
+ "pages": [
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-accessoires-8499",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-accessoires-8499"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-aktivitaten-b4d1",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-aktivitaten-b4d1"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-bauernhoftiere-52e0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-bauernhoftiere-52e0"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-baume-826c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-baume-826c"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-berufe-de40",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-berufe-de40"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-blumen-077d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-blumen-077d"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-camping-005f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-camping-005f"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-desserts-und-sussigkeiten-138f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-desserts-und-sussigkeiten-138f"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-dinge-die-fliegen-1af0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-dinge-die-fliegen-1af0"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-dinosaurier-fef7",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-dinosaurier-fef7"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-emotionen-5270",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-emotionen-5270"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-erntedankfest-8b6e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-erntedankfest-8b6e"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-fahrzeuge-59b9",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-fahrzeuge-59b9"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-farben-9cdd",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-farben-9cdd"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-formen-1b80",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-formen-1b80"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-fruchte-9998",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-fruchte-9998"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-fruhling-b1a5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-fruhling-b1a5"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-fruhstuck-9c8c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-fruhstuck-9c8c"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-gemuse-25d7",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-gemuse-25d7"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-haustiere-272c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-haustiere-272c"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-im-supermarkt-56b1",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-im-supermarkt-56b1"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-klassenzimmer-d66e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-klassenzimmer-d66e"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-kleidung-b583",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-kleidung-b583"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-korperteile-ae39",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-korperteile-ae39"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-krankenhaus-223d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-krankenhaus-223d"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-kuchenwerkzeuge-c9ff",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-kuchenwerkzeuge-c9ff"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-meeresleben-4d83",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-meeresleben-4d83"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-musik-6fba",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-musik-6fba"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-ostern-459a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-ostern-459a"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-rund-ums-haus-16ce",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-rund-ums-haus-16ce"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-sommer-5d92",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-sommer-5d92"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-spielzeug-b336",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-spielzeug-b336"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-strand-0343",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-strand-0343"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-tiere-d196",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-tiere-d196"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-vogel-2-62ae",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-vogel-2-62ae"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-waldtiere-8d45",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-waldtiere-8d45"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-weihnachten-d4a0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-weihnachten-d4a0"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-weltraum-94e2",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-weltraum-94e2"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-werkzeuge-d332",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-werkzeuge-d332"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-winter-4f7b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-winter-4f7b"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-zootiere-0406",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-zootiere-0406"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-accessoires-5d6d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-accessoires-5d6d"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-backerei-9a3b",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-backerei-9a3b"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-bauernhoftiere-3718",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-bauernhoftiere-3718"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-baume-9808",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-baume-9808"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-berufe-a7d6",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-berufe-a7d6"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-blumen-ee46",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-blumen-ee46"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-camping-a78c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-camping-a78c"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-desserts-und-sussigkeiten-313e",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-desserts-und-sussigkeiten-313e"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-dinge-die-fliegen-ef19",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-dinge-die-fliegen-ef19"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-dinosaurier-d77b",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-dinosaurier-d77b"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-erntedankfest-6351",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-erntedankfest-6351"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-fahrzeuge-dc51",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-fahrzeuge-dc51"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-formen-d247",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-formen-d247"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-fruchte-1790",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-fruchte-1790"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-fruhstuck-046f",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-fruhstuck-046f"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-gemuse-8938",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-gemuse-8938"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-haustiere-eb45",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-haustiere-eb45"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-im-supermarkt-2fdb",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-im-supermarkt-2fdb"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-insekten-und-kafer-11d9",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-insekten-und-kafer-11d9"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-klassenzimmer-a877",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-klassenzimmer-a877"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-kleidung-80d7",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-kleidung-80d7"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-korperteile-6729",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-korperteile-6729"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-krankenhaus-f831",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-krankenhaus-f831"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-kuchenwerkzeuge-c68f",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-kuchenwerkzeuge-c68f"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-meeresleben-cd62",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-meeresleben-cd62"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-mobel-d63c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-mobel-d63c"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-musik-ff1d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-musik-ff1d"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-ostern-5503",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-ostern-5503"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-postamt-03c2",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-postamt-03c2"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-reptilien-und-amphibien-bc42",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "reptiles_and_amphibians",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-reptilien-und-amphibien-bc42"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-rund-ums-haus-2e2b",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-rund-ums-haus-2e2b"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-spielzeug-6aa7",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-spielzeug-6aa7"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-strand-8eef",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-strand-8eef"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-tiere-9e4e",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-tiere-9e4e"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-vogel-2-012d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-vogel-2-012d"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-vogel-df47",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-vogel-df47"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-waldtiere-8ff3",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-waldtiere-8ff3"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-weihnachten-e93e",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-weihnachten-e93e"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-weltraum-fcc1",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-weltraum-fcc1"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-werkzeuge-bdcc",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-werkzeuge-bdcc"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-zootiere-4f33",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-zootiere-4f33"
+  }
+ ]
+}

@@ -1,0 +1,764 @@
+{
+ "part": 179,
+ "locale": "it",
+ "classes": [
+  "treasure-hunt::cardinal-arrows",
+  "treasure-hunt::compass"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-abbigliamento-35b1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-abbigliamento-35b1"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-accessori-e13e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-accessori-e13e"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-al-supermercato-e869",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-al-supermercato-e869"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-alberi-d1a9",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-alberi-d1a9"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-animali",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-animali"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-animali-della-fattoria-144c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-animali-della-fattoria-144c"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-animali-dello-zoo-ee25",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-animali-dello-zoo-ee25"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-animali-domestici-244d",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-animali-domestici-244d"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-attivita-78d1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-attivita-78d1"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-attrezzi-e36a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-attrezzi-e36a"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-aula-b847",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-aula-b847"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-campeggio-4cdb",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-campeggio-4cdb"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-colazione-8cc8",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-colazione-8cc8"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-colori-88f5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-colori-88f5"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-cose-che-volano-962c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-cose-che-volano-962c"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-creature-della-foresta-8380",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-creature-della-foresta-8380"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-dinosauri-0907",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-dinosauri-0907"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-dolci-e-dolciumi-34ca",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-dolci-e-dolciumi-34ca"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-emozioni-267b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-emozioni-267b"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-estate-faa6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-estate-faa6"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-fiori-3b2e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-fiori-3b2e"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-forme-4a8e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-forme-4a8e"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-frutta-5bd1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-frutta-5bd1"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-giocattoli-eb90",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-giocattoli-eb90"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-giorno-del-ringraziamento-f243",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-giorno-del-ringraziamento-f243"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-in-giro-per-casa-ea2b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-in-giro-per-casa-ea2b"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-insetti-e-scarafaggi-9c2e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-insetti-e-scarafaggi-9c2e"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-inverno-df3a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-inverno-df3a"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-meteo-4e62",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-meteo-4e62"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-mobili-e966",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-mobili-e966"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-musica-67b7",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-musica-67b7"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-natale-1fad",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-natale-1fad"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-ospedale-d664",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-ospedale-d664"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-panetteria-44d9",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-panetteria-44d9"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-parti-del-corpo-078a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-parti-del-corpo-078a"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-pasqua-765b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-pasqua-765b"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-primavera-412a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-primavera-412a"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-professioni-3675",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-professioni-3675"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-spazio-7391",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-spazio-7391"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-spiaggia-f378",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-spiaggia-f378"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-uccelli-2-89f0",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-uccelli-2-89f0"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-uccelli-521f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-uccelli-521f"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-ufficio-postale-6007",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-ufficio-postale-6007"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-utensili-da-cucina-4d36",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-utensili-da-cucina-4d36"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-veicoli-1734",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-veicoli-1734"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-verdure-f8f2",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-verdure-f8f2"
+  },
+  {
+   "slug": "caccia-al-tesoro-su-giu-sinistra-destra-vita-oceanica-9e6f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-su-giu-sinistra-destra-vita-oceanica-9e6f"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-abbigliamento-8551",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-abbigliamento-8551"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-accessori-9abc",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-accessori-9abc"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-al-supermercato-9d84",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-al-supermercato-9d84"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-alberi-1c8a",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-alberi-1c8a"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-animali-della-fattoria-469f",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-animali-della-fattoria-469f"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-animali-dello-zoo-ab03",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-animali-dello-zoo-ab03"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-animali-domestici-d23d",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-animali-domestici-d23d"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-animali-e8c8",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-animali-e8c8"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-attivita-7bd2",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-attivita-7bd2"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-attrezzi-0f8f",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-attrezzi-0f8f"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-aula-d824",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-aula-d824"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-campeggio-1be7",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-campeggio-1be7"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-colazione-ecc8",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-colazione-ecc8"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-colori-e14a",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-colori-e14a"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-cose-che-volano-f973",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-cose-che-volano-f973"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-creature-della-foresta-1fe8",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-creature-della-foresta-1fe8"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-dinosauri-917c",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-dinosauri-917c"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-dolci-e-dolciumi-bf06",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-dolci-e-dolciumi-bf06"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-emozioni-555d",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-emozioni-555d"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-estate-504b",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-estate-504b"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-fiori-de51",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-fiori-de51"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-forme-3e03",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-forme-3e03"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-frutta-ab06",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-frutta-ab06"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-giocattoli-dd82",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-giocattoli-dd82"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-giorno-del-ringraziamento-4856",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-giorno-del-ringraziamento-4856"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-in-giro-per-casa-f061",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-in-giro-per-casa-f061"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-insetti-e-scarafaggi-9e7b",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-insetti-e-scarafaggi-9e7b"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-inverno-00bc",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-inverno-00bc"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-meteo-7718",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-meteo-7718"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-mobili-1618",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-mobili-1618"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-musica-1af0",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-musica-1af0"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-natale-8c88",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-natale-8c88"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-ospedale-f782",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-ospedale-f782"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-panetteria-7db1",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-panetteria-7db1"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-parti-del-corpo-9279",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-parti-del-corpo-9279"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-pasqua-2e27",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-pasqua-2e27"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-primavera-d728",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-primavera-d728"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-professioni-dec9",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-professioni-dec9"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-spazio-781c",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-spazio-781c"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-spiaggia-0bd9",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-spiaggia-0bd9"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-uccelli-2-86f0",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-uccelli-2-86f0"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-uccelli-db02",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-uccelli-db02"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-ufficio-postale-8c86",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-ufficio-postale-8c86"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-utensili-da-cucina-e30d",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-utensili-da-cucina-e30d"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-veicoli-7d9f",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-veicoli-7d9f"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-verdure-8e5e",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-verdure-8e5e"
+  },
+  {
+   "slug": "caccia-al-tesoro-punti-cardinali-vita-oceanica-238c",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "caccia-al-tesoro-punti-cardinali-vita-oceanica-238c"
+  }
+ ]
+}

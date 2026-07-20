@@ -1,0 +1,780 @@
+{
+ "part": 37,
+ "locale": "en",
+ "classes": [
+  "missing-pieces::one-missing",
+  "pattern-worksheet::null"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "missing-pieces-4th-of-july-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "missing-pieces-4th-of-july"
+  },
+  {
+   "slug": "missing-pieces-accessories-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "missing-pieces-accessories"
+  },
+  {
+   "slug": "missing-pieces-activities-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "missing-pieces-activities"
+  },
+  {
+   "slug": "missing-pieces-animals-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "missing-pieces"
+  },
+  {
+   "slug": "missing-pieces-around-the-house-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "missing-pieces-around-the-house"
+  },
+  {
+   "slug": "missing-pieces-at-the-supermarket-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "missing-pieces-at-the-supermarket"
+  },
+  {
+   "slug": "missing-pieces-bakery-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "missing-pieces-bakery"
+  },
+  {
+   "slug": "missing-pieces-beach-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "missing-pieces-beach"
+  },
+  {
+   "slug": "missing-pieces-birds-2-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "birds_2",
+   "level": "kindergarten",
+   "deck": "missing-pieces-birds-2"
+  },
+  {
+   "slug": "missing-pieces-birds-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "birds",
+   "level": "kindergarten",
+   "deck": "missing-pieces-birds"
+  },
+  {
+   "slug": "missing-pieces-body-parts-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "missing-pieces-body-parts"
+  },
+  {
+   "slug": "missing-pieces-breakfast-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "breakfast",
+   "level": "kindergarten",
+   "deck": "missing-pieces-breakfast"
+  },
+  {
+   "slug": "missing-pieces-camping-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "camping",
+   "level": "kindergarten",
+   "deck": "missing-pieces-camping"
+  },
+  {
+   "slug": "missing-pieces-christmas-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "christmas",
+   "level": "kindergarten",
+   "deck": "missing-pieces-christmas"
+  },
+  {
+   "slug": "missing-pieces-classroom-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "missing-pieces-classroom"
+  },
+  {
+   "slug": "missing-pieces-clothing-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "missing-pieces-clothing"
+  },
+  {
+   "slug": "missing-pieces-desserts-and-sweets-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "missing-pieces-desserts-and-sweets"
+  },
+  {
+   "slug": "missing-pieces-dinosaurs-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "dinosaurs",
+   "level": "kindergarten",
+   "deck": "missing-pieces-dinosaurs"
+  },
+  {
+   "slug": "missing-pieces-easter-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "missing-pieces-easter"
+  },
+  {
+   "slug": "missing-pieces-emotions-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "emotions",
+   "level": "kindergarten",
+   "deck": "missing-pieces-emotions"
+  },
+  {
+   "slug": "missing-pieces-farm-animals-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "missing-pieces-farm-animals"
+  },
+  {
+   "slug": "missing-pieces-flowers-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "flowers",
+   "level": "kindergarten",
+   "deck": "missing-pieces-flowers"
+  },
+  {
+   "slug": "missing-pieces-forest-creatures-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "missing-pieces-forest-creatures"
+  },
+  {
+   "slug": "missing-pieces-fruits-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "missing-pieces-fruits"
+  },
+  {
+   "slug": "missing-pieces-furniture-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "missing-pieces-furniture"
+  },
+  {
+   "slug": "missing-pieces-hospital-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "hospital",
+   "level": "kindergarten",
+   "deck": "missing-pieces-hospital"
+  },
+  {
+   "slug": "missing-pieces-insects-and-bugs-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "missing-pieces-insects-and-bugs"
+  },
+  {
+   "slug": "missing-pieces-kitchen-tools-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "missing-pieces-kitchen-tools"
+  },
+  {
+   "slug": "missing-pieces-miscellaneous-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "miscellaneous",
+   "level": "kindergarten",
+   "deck": "missing-pieces-miscellaneous"
+  },
+  {
+   "slug": "missing-pieces-music-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "music",
+   "level": "kindergarten",
+   "deck": "missing-pieces-music"
+  },
+  {
+   "slug": "missing-pieces-occupations-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "missing-pieces-occupations"
+  },
+  {
+   "slug": "missing-pieces-ocean-life-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "ocean_life",
+   "level": "kindergarten",
+   "deck": "missing-pieces-ocean-life"
+  },
+  {
+   "slug": "missing-pieces-pets-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "pets",
+   "level": "kindergarten",
+   "deck": "missing-pieces-pets"
+  },
+  {
+   "slug": "missing-pieces-post-office-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "post_office",
+   "level": "kindergarten",
+   "deck": "missing-pieces-post-office"
+  },
+  {
+   "slug": "missing-pieces-reptiles-and-amphibians-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "kindergarten",
+   "deck": "missing-pieces-reptiles-and-amphibians"
+  },
+  {
+   "slug": "missing-pieces-space-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "space",
+   "level": "kindergarten",
+   "deck": "missing-pieces-space"
+  },
+  {
+   "slug": "missing-pieces-spring-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "spring",
+   "level": "kindergarten",
+   "deck": "missing-pieces-spring"
+  },
+  {
+   "slug": "missing-pieces-summer-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "summer",
+   "level": "kindergarten",
+   "deck": "missing-pieces-summer"
+  },
+  {
+   "slug": "missing-pieces-thanksgivinng-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "thanksgivinng",
+   "level": "kindergarten",
+   "deck": "missing-pieces-thanksgiving"
+  },
+  {
+   "slug": "missing-pieces-things-that-fly-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "things_that_fly",
+   "level": "kindergarten",
+   "deck": "missing-pieces-things-that-fly"
+  },
+  {
+   "slug": "missing-pieces-tools-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "tools",
+   "level": "kindergarten",
+   "deck": "missing-pieces-tools"
+  },
+  {
+   "slug": "missing-pieces-toys-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "missing-pieces-toys"
+  },
+  {
+   "slug": "missing-pieces-tree-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "tree",
+   "level": "kindergarten",
+   "deck": "missing-pieces-tree"
+  },
+  {
+   "slug": "missing-pieces-vegetables-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "vegetables",
+   "level": "kindergarten",
+   "deck": "missing-pieces-vegetables"
+  },
+  {
+   "slug": "missing-pieces-vehicles-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "missing-pieces-vehicles"
+  },
+  {
+   "slug": "missing-pieces-weather-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "weather",
+   "level": "kindergarten",
+   "deck": "missing-pieces-weather"
+  },
+  {
+   "slug": "missing-pieces-winter-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "winter",
+   "level": "kindergarten",
+   "deck": "missing-pieces-winter"
+  },
+  {
+   "slug": "missing-pieces-zoo-animals-kindergarten",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "zoo_animals",
+   "level": "kindergarten",
+   "deck": "missing-pieces-zoo-animals"
+  },
+  {
+   "slug": "pattern-worksheet-4th-of-july",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-4th-of-july"
+  },
+  {
+   "slug": "pattern-worksheet-accessories",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-accessories"
+  },
+  {
+   "slug": "pattern-worksheet-activities",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-activities"
+  },
+  {
+   "slug": "pattern-worksheet-around-the-house",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-around-the-house"
+  },
+  {
+   "slug": "pattern-worksheet-at-the-supermarket",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-at-the-supermarket"
+  },
+  {
+   "slug": "pattern-worksheet-bakery",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-bakery"
+  },
+  {
+   "slug": "pattern-worksheet-beach",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-beach"
+  },
+  {
+   "slug": "pattern-worksheet-birds",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-birds"
+  },
+  {
+   "slug": "pattern-worksheet-birds-2",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-birds-2"
+  },
+  {
+   "slug": "pattern-worksheet-body-parts",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-body-parts"
+  },
+  {
+   "slug": "pattern-worksheet-breakfast",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-breakfast"
+  },
+  {
+   "slug": "pattern-worksheet-camping",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "camping",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-camping"
+  },
+  {
+   "slug": "pattern-worksheet-christmas",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "christmas",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-christmas"
+  },
+  {
+   "slug": "pattern-worksheet-classroom",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-classroom"
+  },
+  {
+   "slug": "pattern-worksheet-clothing",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-clothing"
+  },
+  {
+   "slug": "pattern-worksheet-colors",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "colors",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-colors"
+  },
+  {
+   "slug": "pattern-worksheet-desserts-and-sweets",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-desserts-and-sweets"
+  },
+  {
+   "slug": "pattern-worksheet-dinosaurs",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-dinosaurs"
+  },
+  {
+   "slug": "pattern-worksheet-easter",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-easter"
+  },
+  {
+   "slug": "pattern-worksheet-emotions",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "emotions",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-emotions"
+  },
+  {
+   "slug": "pattern-worksheet-farm-animals",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-farm-animals"
+  },
+  {
+   "slug": "pattern-worksheet-flowers",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "flowers",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-flowers"
+  },
+  {
+   "slug": "pattern-worksheet-forest-creatures",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-forest-creatures"
+  },
+  {
+   "slug": "pattern-worksheet-fruits",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-fruits"
+  },
+  {
+   "slug": "pattern-worksheet-furniture",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-furniture"
+  },
+  {
+   "slug": "pattern-worksheet-hospital",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "hospital",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-hospital"
+  },
+  {
+   "slug": "pattern-worksheet-insects-and-bugs",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-insects-and-bugs"
+  },
+  {
+   "slug": "pattern-worksheet-kitchen-tools",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-kitchen-tools"
+  },
+  {
+   "slug": "pattern-worksheet-miscellaneous",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-miscellaneous"
+  },
+  {
+   "slug": "pattern-worksheet-music",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "music",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-music"
+  },
+  {
+   "slug": "pattern-worksheet-occupations",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-occupations"
+  },
+  {
+   "slug": "pattern-worksheet-ocean-life",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-ocean-life"
+  },
+  {
+   "slug": "pattern-worksheet-pets",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "pets",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-pets"
+  },
+  {
+   "slug": "pattern-worksheet-post-office",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "post_office",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-post-office"
+  },
+  {
+   "slug": "pattern-worksheet-reptiles-and-amphibians",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-reptiles-and-amphibians"
+  },
+  {
+   "slug": "pattern-worksheet-shapes",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "shapes",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-shapes"
+  },
+  {
+   "slug": "pattern-worksheet-space",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "space",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-space"
+  },
+  {
+   "slug": "pattern-worksheet-summer",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "summer",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-summer"
+  },
+  {
+   "slug": "pattern-worksheet-thanksgiving",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-thanksgiving"
+  },
+  {
+   "slug": "pattern-worksheet-things-that-fly",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-things-that-fly"
+  },
+  {
+   "slug": "pattern-worksheet-tools",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tools",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-tools"
+  },
+  {
+   "slug": "pattern-worksheet-toys",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-toys"
+  },
+  {
+   "slug": "pattern-worksheet-tree",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tree",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-tree"
+  },
+  {
+   "slug": "pattern-worksheet-vegetables",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-vegetables"
+  },
+  {
+   "slug": "pattern-worksheet-vehicles",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-vehicles"
+  },
+  {
+   "slug": "pattern-worksheet-weather",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "weather",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-weather"
+  },
+  {
+   "slug": "pattern-worksheet-winter",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "winter",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-winter"
+  },
+  {
+   "slug": "pattern-worksheet-zoo-animals",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "kindergarten",
+   "deck": "pattern-worksheet-zoo-animals"
+  }
+ ]
+}

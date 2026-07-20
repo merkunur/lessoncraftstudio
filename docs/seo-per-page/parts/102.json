@@ -1,0 +1,568 @@
+{
+ "part": 102,
+ "locale": "pt",
+ "classes": [
+  "matching::name"
+ ],
+ "splitOf": {
+  "class": "matching::name",
+  "total": 138,
+  "chunk": 1,
+  "chunks": 2
+ },
+ "count": 69,
+ "pages": [
+  {
+   "slug": "espanhol-pareamento-nomes-acampamento-b21d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-acampamento-b21d"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-acessorios-8a7f",
+   "type": "matching",
+   "mode": "name",
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-acessorios-8a7f"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-animais-c27d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-animais-c27d"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-animais-da-fazenda-cf9a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-animais-da-fazenda-cf9a"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-animais-de-estimacao-9277",
+   "type": "matching",
+   "mode": "name",
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-animais-de-estimacao-9277"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-animais-do-zoologico-f139",
+   "type": "matching",
+   "mode": "name",
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-animais-do-zoologico-f139"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-atividades-1bb8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-atividades-1bb8"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-brinquedos-53c4",
+   "type": "matching",
+   "mode": "name",
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-brinquedos-53c4"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-cafe-da-manha-06e5",
+   "type": "matching",
+   "mode": "name",
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-cafe-da-manha-06e5"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-clima-4580",
+   "type": "matching",
+   "mode": "name",
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-clima-4580"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-coisas-que-voam-2c3d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-coisas-que-voam-2c3d"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-correios-196e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-correios-196e"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-criaturas-da-floresta-b5d0",
+   "type": "matching",
+   "mode": "name",
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-criaturas-da-floresta-b5d0"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-dia-de-acao-de-gracas-6cd8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-dia-de-acao-de-gracas-6cd8"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-emocoes-2e60",
+   "type": "matching",
+   "mode": "name",
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-emocoes-2e60"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-espaco-6f67",
+   "type": "matching",
+   "mode": "name",
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-espaco-6f67"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-ferramentas-ba0e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-ferramentas-ba0e"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-flores-957a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-flores-957a"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-formas-1bbe",
+   "type": "matching",
+   "mode": "name",
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-formas-1bbe"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-frutas-ad5b",
+   "type": "matching",
+   "mode": "name",
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-frutas-ad5b"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-hospital-cf00",
+   "type": "matching",
+   "mode": "name",
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-hospital-cf00"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-insetos-e-bichos-9d12",
+   "type": "matching",
+   "mode": "name",
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-insetos-e-bichos-9d12"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-inverno-4809",
+   "type": "matching",
+   "mode": "name",
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-inverno-4809"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-moveis-bb68",
+   "type": "matching",
+   "mode": "name",
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-moveis-bb68"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-musica-dda0",
+   "type": "matching",
+   "mode": "name",
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-musica-dda0"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-natal-e40f",
+   "type": "matching",
+   "mode": "name",
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-natal-e40f"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-no-supermercado-b1f8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-no-supermercado-b1f8"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-padaria-203e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-padaria-203e"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-partes-do-corpo-026e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-partes-do-corpo-026e"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-pascoa-0c91",
+   "type": "matching",
+   "mode": "name",
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-pascoa-0c91"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-passaros-2-928b",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-passaros-2-928b"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-passaros-edac",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-passaros-edac"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-pela-casa-fc6d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-pela-casa-fc6d"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-praia-90ad",
+   "type": "matching",
+   "mode": "name",
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-praia-90ad"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-primavera-ee03",
+   "type": "matching",
+   "mode": "name",
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-primavera-ee03"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-profissoes-8218",
+   "type": "matching",
+   "mode": "name",
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-profissoes-8218"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-repteis-e-anfibios-0d3d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-repteis-e-anfibios-0d3d"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-roupas-4461",
+   "type": "matching",
+   "mode": "name",
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-roupas-4461"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-sala-de-aula-ba97",
+   "type": "matching",
+   "mode": "name",
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-sala-de-aula-ba97"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-sobremesas-e-doces-f6d1",
+   "type": "matching",
+   "mode": "name",
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-sobremesas-e-doces-f6d1"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-utensilios-de-cozinha-7eba",
+   "type": "matching",
+   "mode": "name",
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-utensilios-de-cozinha-7eba"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-vegetais-5944",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-vegetais-5944"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-veiculos-4825",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-veiculos-4825"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-verao-4950",
+   "type": "matching",
+   "mode": "name",
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-verao-4950"
+  },
+  {
+   "slug": "espanhol-pareamento-nomes-vida-marinha-1590",
+   "type": "matching",
+   "mode": "name",
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "espanhol-pareamento-nomes-vida-marinha-1590"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-acampamento-09e6",
+   "type": "matching",
+   "mode": "name",
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-acampamento-09e6"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-acessorios-8e37",
+   "type": "matching",
+   "mode": "name",
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-acessorios-8e37"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-animais-1087",
+   "type": "matching",
+   "mode": "name",
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-animais-1087"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-animais-da-fazenda-1bf5",
+   "type": "matching",
+   "mode": "name",
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-animais-da-fazenda-1bf5"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-animais-de-estimacao-e11e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-animais-de-estimacao-e11e"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-animais-do-zoologico-c83e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-animais-do-zoologico-c83e"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-atividades-4f0d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-atividades-4f0d"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-brinquedos-c068",
+   "type": "matching",
+   "mode": "name",
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-brinquedos-c068"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-cafe-da-manha-1188",
+   "type": "matching",
+   "mode": "name",
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-cafe-da-manha-1188"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-clima-e664",
+   "type": "matching",
+   "mode": "name",
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-clima-e664"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-coisas-que-voam-36e6",
+   "type": "matching",
+   "mode": "name",
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-coisas-que-voam-36e6"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-cores-9299",
+   "type": "matching",
+   "mode": "name",
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-cores-9299"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-correios-a98e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-correios-a98e"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-criaturas-da-floresta-fc20",
+   "type": "matching",
+   "mode": "name",
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-criaturas-da-floresta-fc20"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-dia-de-acao-de-gracas-d44c",
+   "type": "matching",
+   "mode": "name",
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-dia-de-acao-de-gracas-d44c"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-emocoes-9dc1",
+   "type": "matching",
+   "mode": "name",
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-emocoes-9dc1"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-espaco-876a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-espaco-876a"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-ferramentas-f1c0",
+   "type": "matching",
+   "mode": "name",
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-ferramentas-f1c0"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-flores-6336",
+   "type": "matching",
+   "mode": "name",
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-flores-6336"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-formas-0c34",
+   "type": "matching",
+   "mode": "name",
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-formas-0c34"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-frutas-5214",
+   "type": "matching",
+   "mode": "name",
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-frutas-5214"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-hospital-d1e6",
+   "type": "matching",
+   "mode": "name",
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-hospital-d1e6"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-insetos-e-bichos-582b",
+   "type": "matching",
+   "mode": "name",
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-insetos-e-bichos-582b"
+  },
+  {
+   "slug": "ingles-pareamento-nomes-inverno-8bf2",
+   "type": "matching",
+   "mode": "name",
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "ingles-pareamento-nomes-inverno-8bf2"
+  }
+ ]
+}

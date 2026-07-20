@@ -1,0 +1,780 @@
+{
+ "part": 265,
+ "locale": "da",
+ "classes": [
+  "pattern-train::null",
+  "pattern-worksheet::null"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "monstertoget-aktiviteter-9657",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aktiviteter-9657"
+  },
+  {
+   "slug": "monstertoget-bageri-b3a3",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-bageri-b3a3"
+  },
+  {
+   "slug": "monstertoget-blomster-ebcc",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-blomster-ebcc"
+  },
+  {
+   "slug": "monstertoget-bondegardsdyr-1dd1",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-bondegardsdyr-1dd1"
+  },
+  {
+   "slug": "monstertoget-camping-14b2",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-camping-14b2"
+  },
+  {
+   "slug": "monstertoget-desserter-og-slik-2a2a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-desserter-og-slik-2a2a"
+  },
+  {
+   "slug": "monstertoget-dinosaurer-d998",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-dinosaurer-d998"
+  },
+  {
+   "slug": "monstertoget-dyr-91cc",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-dyr-91cc"
+  },
+  {
+   "slug": "monstertoget-erhverv-d133",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-erhverv-d133"
+  },
+  {
+   "slug": "monstertoget-farver-a580",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-farver-a580"
+  },
+  {
+   "slug": "monstertoget-folelser-a9b3",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-folelser-a9b3"
+  },
+  {
+   "slug": "monstertoget-forar-da60",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-forar-da60"
+  },
+  {
+   "slug": "monstertoget-former-d8ea",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-former-d8ea"
+  },
+  {
+   "slug": "monstertoget-frugter-fdff",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-frugter-fdff"
+  },
+  {
+   "slug": "monstertoget-fugle-2-8386",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-fugle-2-8386"
+  },
+  {
+   "slug": "monstertoget-fugle-f901",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-fugle-f901"
+  },
+  {
+   "slug": "monstertoget-grontsager-83f1",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-grontsager-83f1"
+  },
+  {
+   "slug": "monstertoget-havliv-5330",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-havliv-5330"
+  },
+  {
+   "slug": "monstertoget-hospital-bddb",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-hospital-bddb"
+  },
+  {
+   "slug": "monstertoget-i-supermarkedet-2d80",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-i-supermarkedet-2d80"
+  },
+  {
+   "slug": "monstertoget-insekter-og-kryb-75a0",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-insekter-og-kryb-75a0"
+  },
+  {
+   "slug": "monstertoget-jul-4266",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-jul-4266"
+  },
+  {
+   "slug": "monstertoget-kaeledyr-dec9",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-kaeledyr-dec9"
+  },
+  {
+   "slug": "monstertoget-klassevaerelse-2581",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-klassevaerelse-2581"
+  },
+  {
+   "slug": "monstertoget-kokkenredskaber-de5b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-kokkenredskaber-de5b"
+  },
+  {
+   "slug": "monstertoget-koretojer-4fb6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-koretojer-4fb6"
+  },
+  {
+   "slug": "monstertoget-kropsdele-b670",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-kropsdele-b670"
+  },
+  {
+   "slug": "monstertoget-krybdyr-og-padder-4ad1",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-krybdyr-og-padder-4ad1"
+  },
+  {
+   "slug": "monstertoget-legetoj-f9c7",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-legetoj-f9c7"
+  },
+  {
+   "slug": "monstertoget-mobler-90e6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-mobler-90e6"
+  },
+  {
+   "slug": "monstertoget-morgenmad-925d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-morgenmad-925d"
+  },
+  {
+   "slug": "monstertoget-musik-283a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-musik-283a"
+  },
+  {
+   "slug": "monstertoget-paske-e443",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-paske-e443"
+  },
+  {
+   "slug": "monstertoget-postkontor-5338",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-postkontor-5338"
+  },
+  {
+   "slug": "monstertoget-rummet-1810",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-rummet-1810"
+  },
+  {
+   "slug": "monstertoget-rundt-i-huset-9c13",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-rundt-i-huset-9c13"
+  },
+  {
+   "slug": "monstertoget-skovdyr-abc6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-skovdyr-abc6"
+  },
+  {
+   "slug": "monstertoget-sommer-9c1f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-sommer-9c1f"
+  },
+  {
+   "slug": "monstertoget-strand-33f8",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-strand-33f8"
+  },
+  {
+   "slug": "monstertoget-thanksgiving-dc94",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-thanksgiving-dc94"
+  },
+  {
+   "slug": "monstertoget-tilbehor-0b60",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-tilbehor-0b60"
+  },
+  {
+   "slug": "monstertoget-ting-der-flyver-3203",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-ting-der-flyver-3203"
+  },
+  {
+   "slug": "monstertoget-toj-1bc1",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-toj-1bc1"
+  },
+  {
+   "slug": "monstertoget-traeer-7c81",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-traeer-7c81"
+  },
+  {
+   "slug": "monstertoget-vaerktoj-ff38",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-vaerktoj-ff38"
+  },
+  {
+   "slug": "monstertoget-vejr-bd2a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-vejr-bd2a"
+  },
+  {
+   "slug": "monstertoget-vinter-b7ff",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-vinter-b7ff"
+  },
+  {
+   "slug": "monstertoget-zoodyr-a7ac",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-zoodyr-a7ac"
+  },
+  {
+   "slug": "monsterark-aktiviteter-c30b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-aktiviteter-c30b"
+  },
+  {
+   "slug": "monsterark-bageri-ebf3",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-bageri-ebf3"
+  },
+  {
+   "slug": "monsterark-blomster-b43a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-blomster-b43a"
+  },
+  {
+   "slug": "monsterark-bondegardsdyr-dd89",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-bondegardsdyr-dd89"
+  },
+  {
+   "slug": "monsterark-camping-b380",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-camping-b380"
+  },
+  {
+   "slug": "monsterark-desserter-og-slik-7acd",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-desserter-og-slik-7acd"
+  },
+  {
+   "slug": "monsterark-dinosaurer-5a35",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-dinosaurer-5a35"
+  },
+  {
+   "slug": "monsterark-dyr-3e98",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-dyr-3e98"
+  },
+  {
+   "slug": "monsterark-erhverv-6a7e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-erhverv-6a7e"
+  },
+  {
+   "slug": "monsterark-farver-631e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-farver-631e"
+  },
+  {
+   "slug": "monsterark-folelser-22a3",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-folelser-22a3"
+  },
+  {
+   "slug": "monsterark-forar-4f50",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-forar-4f50"
+  },
+  {
+   "slug": "monsterark-former-150f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-former-150f"
+  },
+  {
+   "slug": "monsterark-frugter-afbf",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-frugter-afbf"
+  },
+  {
+   "slug": "monsterark-fugle-2-b186",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-fugle-2-b186"
+  },
+  {
+   "slug": "monsterark-fugle-c5aa",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-fugle-c5aa"
+  },
+  {
+   "slug": "monsterark-grontsager-e093",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-grontsager-e093"
+  },
+  {
+   "slug": "monsterark-havliv-0f9a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-havliv-0f9a"
+  },
+  {
+   "slug": "monsterark-hospital-872e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-hospital-872e"
+  },
+  {
+   "slug": "monsterark-i-supermarkedet-ad27",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-i-supermarkedet-ad27"
+  },
+  {
+   "slug": "monsterark-insekter-og-kryb-a29f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-insekter-og-kryb-a29f"
+  },
+  {
+   "slug": "monsterark-jul-304b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-jul-304b"
+  },
+  {
+   "slug": "monsterark-kaeledyr-bb6b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-kaeledyr-bb6b"
+  },
+  {
+   "slug": "monsterark-klassevaerelse-77ce",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-klassevaerelse-77ce"
+  },
+  {
+   "slug": "monsterark-kokkenredskaber-3937",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-kokkenredskaber-3937"
+  },
+  {
+   "slug": "monsterark-koretojer-ee64",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-koretojer-ee64"
+  },
+  {
+   "slug": "monsterark-kropsdele-c84c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-kropsdele-c84c"
+  },
+  {
+   "slug": "monsterark-krybdyr-og-padder-2c74",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-krybdyr-og-padder-2c74"
+  },
+  {
+   "slug": "monsterark-legetoj-1b24",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-legetoj-1b24"
+  },
+  {
+   "slug": "monsterark-mobler-4221",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-mobler-4221"
+  },
+  {
+   "slug": "monsterark-morgenmad-6c0b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-morgenmad-6c0b"
+  },
+  {
+   "slug": "monsterark-musik-06f7",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-musik-06f7"
+  },
+  {
+   "slug": "monsterark-paske-b03d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-paske-b03d"
+  },
+  {
+   "slug": "monsterark-postkontor-9f31",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-postkontor-9f31"
+  },
+  {
+   "slug": "monsterark-rummet-5d0f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-rummet-5d0f"
+  },
+  {
+   "slug": "monsterark-rundt-i-huset-65b6",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-rundt-i-huset-65b6"
+  },
+  {
+   "slug": "monsterark-skovdyr-b287",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-skovdyr-b287"
+  },
+  {
+   "slug": "monsterark-sommer-242e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-sommer-242e"
+  },
+  {
+   "slug": "monsterark-strand-f730",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-strand-f730"
+  },
+  {
+   "slug": "monsterark-thanksgiving-7e33",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-thanksgiving-7e33"
+  },
+  {
+   "slug": "monsterark-tilbehor-b67d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-tilbehor-b67d"
+  },
+  {
+   "slug": "monsterark-ting-der-flyver-d0be",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-ting-der-flyver-d0be"
+  },
+  {
+   "slug": "monsterark-toj-c1c8",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-toj-c1c8"
+  },
+  {
+   "slug": "monsterark-traeer-d322",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-traeer-d322"
+  },
+  {
+   "slug": "monsterark-vaerktoj-4500",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-vaerktoj-4500"
+  },
+  {
+   "slug": "monsterark-vejr-0311",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-vejr-0311"
+  },
+  {
+   "slug": "monsterark-vinter-d3c0",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-vinter-d3c0"
+  },
+  {
+   "slug": "monsterark-zoodyr-d375",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "monsterark-zoodyr-d375"
+  }
+ ]
+}

@@ -1,0 +1,764 @@
+{
+ "part": 93,
+ "locale": "es",
+ "classes": [
+  "grid-match::null",
+  "pattern-train::aab"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "empareja-en-cuadricula-4-de-julio-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-4-de-julio-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-accesorios-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-accesorios-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-actividades-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-actividades-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-animales",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-animales"
+  },
+  {
+   "slug": "empareja-en-cuadricula-animales-de-granja-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-animales-de-granja-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-animales-del-zoologico-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-animales-del-zoologico-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-arboles-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-arboles-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-aves-2-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-aves-2-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-aves-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-aves-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-campamento-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-campamento-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-clima-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-clima-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-cosas-que-vuelan-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-cosas-que-vuelan-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-desayuno-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-desayuno-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-dia-de-accion-de-gracias-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-dia-de-accion-de-gracias-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-dinosaurios-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-dinosaurios-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-emociones-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-emociones-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-en-el-supermercado-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-en-el-supermercado-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-espacio-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-espacio-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-flores-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-flores-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-formas-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-formas-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-frutas-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-frutas-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-herramientas-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-herramientas-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-hospital-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-hospital-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-insectos-y-bichos-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-insectos-y-bichos-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-invierno-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-invierno-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-juguetes-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-juguetes-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-mascotas-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-mascotas-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-miscelaneo-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-miscelaneo-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-muebles-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-muebles-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-musica-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-musica-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-navidad-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-navidad-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-ocupaciones-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-ocupaciones-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-oficina-de-correos-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-oficina-de-correos-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-panaderia-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-panaderia-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-partes-del-cuerpo-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-partes-del-cuerpo-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-pascua-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-pascua-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-playa-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-playa-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-postres-y-dulces-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-postres-y-dulces-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-primavera-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-primavera-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-reptiles-y-anfibios-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-reptiles-y-anfibios-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-ropa-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-ropa-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-salon-de-clases-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-salon-de-clases-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-utensilios-de-cocina-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-utensilios-de-cocina-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-vehiculos-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-vehiculos-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-verano-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-verano-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-verduras-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-verduras-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-vida-marina-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-vida-marina-98be"
+  },
+  {
+   "slug": "tren-de-patrones-aab-4-de-julio-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-4-de-julio-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-accesorios-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-accesorios-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-actividades-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-actividades-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-alrededor-de-la-casa-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-alrededor-de-la-casa-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-animales-de-granja-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-animales-de-granja-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-animales-del-zoologico-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-animales-del-zoologico-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-animales-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-animales-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-arboles-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-arboles-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-aves-2-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-aves-2-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-aves-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-aves-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-campamento-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-campamento-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-clima-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-clima-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-colores-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-colores-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-cosas-que-vuelan-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-cosas-que-vuelan-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-desayuno-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-desayuno-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-dia-de-accion-de-gracias-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-dia-de-accion-de-gracias-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-dinosaurios-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-dinosaurios-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-emociones-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-emociones-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-en-el-supermercado-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-en-el-supermercado-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-flores-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-flores-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-formas-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-formas-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-frutas-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-frutas-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-herramientas-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-herramientas-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-hospital-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-hospital-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-insectos-y-bichos-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-insectos-y-bichos-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-invierno-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-invierno-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-juguetes-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-juguetes-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-mascotas-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-mascotas-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-muebles-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-muebles-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-musica-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-musica-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-navidad-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-navidad-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-ocupaciones-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-ocupaciones-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-oficina-de-correos-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-oficina-de-correos-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-panaderia-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-panaderia-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-partes-del-cuerpo-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-partes-del-cuerpo-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-pascua-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-pascua-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-playa-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-playa-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-postres-y-dulces-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-postres-y-dulces-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-primavera-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-primavera-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-reptiles-y-anfibios-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-reptiles-y-anfibios-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-ropa-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-ropa-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-salon-de-clases-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-salon-de-clases-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-utensilios-de-cocina-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-utensilios-de-cocina-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-vehiculos-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-vehiculos-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-verano-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-verano-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-verduras-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-verduras-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aab-vida-marina-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aab-vida-marina-fe63"
+  }
+ ]
+}

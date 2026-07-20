@@ -1,0 +1,506 @@
+{
+ "part": 288,
+ "locale": "da",
+ "classes": [
+  "alphabet-train::null",
+  "odd-one-out::cross-theme",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute",
+  "word-guess::null"
+ ],
+ "splitOf": null,
+ "count": 59,
+ "pages": [
+  {
+   "slug": "alfabettoget-aktiviteter-2084",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-aktiviteter-2084"
+  },
+  {
+   "slug": "alfabettoget-bageri-c2fb",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-bageri-c2fb"
+  },
+  {
+   "slug": "alfabettoget-bondegardsdyr-acf6",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-bondegardsdyr-acf6"
+  },
+  {
+   "slug": "alfabettoget-camping-11b0",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-camping-11b0"
+  },
+  {
+   "slug": "alfabettoget-desserter-og-slik-9145",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-desserter-og-slik-9145"
+  },
+  {
+   "slug": "alfabettoget-dyr",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-dyr"
+  },
+  {
+   "slug": "alfabettoget-erhverv-1bce",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-erhverv-1bce"
+  },
+  {
+   "slug": "alfabettoget-farver-7d11",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-farver-7d11"
+  },
+  {
+   "slug": "alfabettoget-forar-4b5a",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-forar-4b5a"
+  },
+  {
+   "slug": "alfabettoget-frugter-70f5",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-frugter-70f5"
+  },
+  {
+   "slug": "alfabettoget-fugle-2-e10f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-fugle-2-e10f"
+  },
+  {
+   "slug": "alfabettoget-grontsager-0ec8",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-grontsager-0ec8"
+  },
+  {
+   "slug": "alfabettoget-havliv-15bc",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-havliv-15bc"
+  },
+  {
+   "slug": "alfabettoget-hospital-450e",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-hospital-450e"
+  },
+  {
+   "slug": "alfabettoget-i-supermarkedet-58d4",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-i-supermarkedet-58d4"
+  },
+  {
+   "slug": "alfabettoget-jul-06ea",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-jul-06ea"
+  },
+  {
+   "slug": "alfabettoget-kaeledyr-1e46",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-kaeledyr-1e46"
+  },
+  {
+   "slug": "alfabettoget-klassevaerelse-fbb1",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-klassevaerelse-fbb1"
+  },
+  {
+   "slug": "alfabettoget-kokkenredskaber-e065",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-kokkenredskaber-e065"
+  },
+  {
+   "slug": "alfabettoget-koretojer-48e8",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-koretojer-48e8"
+  },
+  {
+   "slug": "alfabettoget-kropsdele-5b12",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-kropsdele-5b12"
+  },
+  {
+   "slug": "alfabettoget-legetoj-715d",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-legetoj-715d"
+  },
+  {
+   "slug": "alfabettoget-morgenmad-c1f9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-morgenmad-c1f9"
+  },
+  {
+   "slug": "alfabettoget-paske-b33e",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-paske-b33e"
+  },
+  {
+   "slug": "alfabettoget-rummet-d9a4",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-rummet-d9a4"
+  },
+  {
+   "slug": "alfabettoget-rundt-i-huset-4f6c",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-rundt-i-huset-4f6c"
+  },
+  {
+   "slug": "alfabettoget-skovdyr-5161",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-skovdyr-5161"
+  },
+  {
+   "slug": "alfabettoget-sommer-7d5f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-sommer-7d5f"
+  },
+  {
+   "slug": "alfabettoget-strand-358f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-strand-358f"
+  },
+  {
+   "slug": "alfabettoget-thanksgiving-2b82",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-thanksgiving-2b82"
+  },
+  {
+   "slug": "alfabettoget-tilbehor-7545",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-tilbehor-7545"
+  },
+  {
+   "slug": "alfabettoget-ting-der-flyver-505e",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-ting-der-flyver-505e"
+  },
+  {
+   "slug": "alfabettoget-toj-a050",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-toj-a050"
+  },
+  {
+   "slug": "alfabettoget-zoodyr-9571",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-zoodyr-9571"
+  },
+  {
+   "slug": "hvilken-passer-ikke-pa-tvaers-af-temaer-bageri-ba46",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-pa-tvaers-af-temaer-bageri-ba46"
+  },
+  {
+   "slug": "hvilken-passer-ikke-pa-tvaers-af-temaer-blomster-1901",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-pa-tvaers-af-temaer-blomster-1901"
+  },
+  {
+   "slug": "hvilken-passer-ikke-pa-tvaers-af-temaer-dyr-bded",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-pa-tvaers-af-temaer-dyr-bded"
+  },
+  {
+   "slug": "raekker-og-soejler-2-klasse",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "gange-tabel-dyr-g2209"
+  },
+  {
+   "slug": "gangetabel-3-klasse",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "gange-tabel-g3313"
+  },
+  {
+   "slug": "broeker-tallinje-3-klasse",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "broeker-g3315"
+  },
+  {
+   "slug": "broeker-lige-dele-2-klasse",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "broeker-g2228"
+  },
+  {
+   "slug": "geometri-former-boernehaveklasse",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "boernehaveklasse",
+   "deck": "geometri-k075"
+  },
+  {
+   "slug": "geometri-omkreds-areal-3-klasse",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "geometri-g3337"
+  },
+  {
+   "slug": "geometri-rumlige-figurer-2-klasse",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "geometri-g2241"
+  },
+  {
+   "slug": "diagrammer-2-klasse",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "diagrammer-dyr-g2237"
+  },
+  {
+   "slug": "diagrammer-1-klasse",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "diagrammer-dyr-g1144"
+  },
+  {
+   "slug": "diagrammer-3-klasse",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "diagrammer-dyr-g3335"
+  },
+  {
+   "slug": "maaling-tung-eller-let-boernehaveklasse",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "boernehaveklasse",
+   "deck": "maaling-dyr-k038"
+  },
+  {
+   "slug": "maale-laengde-med-enheder-1-klasse",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "maaling-dyr-g1139"
+  },
+  {
+   "slug": "maale-med-lineal-2-klasse",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "maaling-former-g2235"
+  },
+  {
+   "slug": "temperatur-og-rumfang-3-klasse",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "maaling-g3345"
+  },
+  {
+   "slug": "hundredfelt-1-klasse",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "hundredfelt-g1130"
+  },
+  {
+   "slug": "talfoelger-3-klasse",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "hundredfelt-g3328"
+  },
+  {
+   "slug": "tal-der-mangler-boernehaveklasse",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "boernehaveklasse",
+   "deck": "hundredfelt-k021"
+  },
+  {
+   "slug": "talfoelger-2-klasse",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "hundredfelt-g2218"
+  },
+  {
+   "slug": "klokken-arbejdsark-1-klasse",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "klokken-g1148"
+  },
+  {
+   "slug": "klokken-fem-minutter-2-klasse",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "klokken-g2249"
+  },
+  {
+   "slug": "klokken-paa-minuttet-3-klasse",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "klokken-g3344"
+  },
+  {
+   "slug": "gaet-ordet-dyr",
+   "type": "word-guess",
+   "mode": null,
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-dyr"
+  }
+ ]
+}

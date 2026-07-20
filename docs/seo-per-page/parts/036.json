@@ -1,0 +1,796 @@
+{
+ "part": 36,
+ "locale": "en",
+ "classes": [
+  "pattern-train::null",
+  "subtraction::cross-out"
+ ],
+ "splitOf": null,
+ "count": 98,
+ "pages": [
+  {
+   "slug": "pattern-train-4th-of-july",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "pattern-train-4th-of-july"
+  },
+  {
+   "slug": "pattern-train-accessories",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "pattern-train-accessories"
+  },
+  {
+   "slug": "pattern-train-activities",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "pattern-train-activities"
+  },
+  {
+   "slug": "pattern-train-animals",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "pattern-train-animals"
+  },
+  {
+   "slug": "pattern-train-around-the-house",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "pattern-train-around-the-house"
+  },
+  {
+   "slug": "pattern-train-at-the-supermarket",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "pattern-train-at-the-supermarket"
+  },
+  {
+   "slug": "pattern-train-bakery",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "pattern-train-bakery"
+  },
+  {
+   "slug": "pattern-train-birds",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds",
+   "level": "kindergarten",
+   "deck": "pattern-train-birds"
+  },
+  {
+   "slug": "pattern-train-birds-2",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "kindergarten",
+   "deck": "pattern-train-birds-2"
+  },
+  {
+   "slug": "pattern-train-body-parts",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "pattern-train-body-parts"
+  },
+  {
+   "slug": "pattern-train-breakfast",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "kindergarten",
+   "deck": "pattern-train-breakfast"
+  },
+  {
+   "slug": "pattern-train-camping",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "kindergarten",
+   "deck": "pattern-train-camping"
+  },
+  {
+   "slug": "pattern-train-christmas",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "kindergarten",
+   "deck": "pattern-train-christmas"
+  },
+  {
+   "slug": "pattern-train-classroom",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "pattern-train-classroom"
+  },
+  {
+   "slug": "pattern-train-clothing",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "pattern-train-clothing"
+  },
+  {
+   "slug": "pattern-train-colors",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "kindergarten",
+   "deck": "pattern-train-colors"
+  },
+  {
+   "slug": "pattern-train-desserts-and-sweets",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "pattern-train-desserts-and-sweets"
+  },
+  {
+   "slug": "pattern-train-dinosaurs",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "kindergarten",
+   "deck": "pattern-train-dinosaurs"
+  },
+  {
+   "slug": "pattern-train-easter",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "pattern-train-easter"
+  },
+  {
+   "slug": "pattern-train-emotions",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "kindergarten",
+   "deck": "pattern-train-emotions"
+  },
+  {
+   "slug": "pattern-train-farm-animals",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "pattern-train-farm-animals"
+  },
+  {
+   "slug": "pattern-train-flowers",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "flowers",
+   "level": "kindergarten",
+   "deck": "pattern-train-flowers"
+  },
+  {
+   "slug": "pattern-train-forest-creatures",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "pattern-train-forest-creatures"
+  },
+  {
+   "slug": "pattern-train-fruits",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "pattern-train-fruits"
+  },
+  {
+   "slug": "pattern-train-furniture",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "pattern-train-furniture"
+  },
+  {
+   "slug": "pattern-train-hospital",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "kindergarten",
+   "deck": "pattern-train-hospital"
+  },
+  {
+   "slug": "pattern-train-insects-and-bugs",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "pattern-train-insects-and-bugs"
+  },
+  {
+   "slug": "pattern-train-kitchen-tools",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "pattern-train-kitchen-tools"
+  },
+  {
+   "slug": "pattern-train-miscellaneous",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "kindergarten",
+   "deck": "pattern-train-miscellaneous"
+  },
+  {
+   "slug": "pattern-train-music",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "music",
+   "level": "kindergarten",
+   "deck": "pattern-train-music"
+  },
+  {
+   "slug": "pattern-train-occupations",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "pattern-train-occupations"
+  },
+  {
+   "slug": "pattern-train-ocean-life",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "kindergarten",
+   "deck": "pattern-train-ocean-life"
+  },
+  {
+   "slug": "pattern-train-pets",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "kindergarten",
+   "deck": "pattern-train-pets"
+  },
+  {
+   "slug": "pattern-train-post-office",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "post_office",
+   "level": "kindergarten",
+   "deck": "pattern-train-post-office"
+  },
+  {
+   "slug": "pattern-train-reptiles-and-amphibians",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "kindergarten",
+   "deck": "pattern-train-reptiles-and-amphibians"
+  },
+  {
+   "slug": "pattern-train-shapes",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "shapes",
+   "level": "kindergarten",
+   "deck": "pattern-train-shapes"
+  },
+  {
+   "slug": "pattern-train-space",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "space",
+   "level": "kindergarten",
+   "deck": "pattern-train-space"
+  },
+  {
+   "slug": "pattern-train-spring",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "kindergarten",
+   "deck": "pattern-train-spring"
+  },
+  {
+   "slug": "pattern-train-summer",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "kindergarten",
+   "deck": "pattern-train-summer"
+  },
+  {
+   "slug": "pattern-train-thanksgiving",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "kindergarten",
+   "deck": "pattern-train-thanksgiving"
+  },
+  {
+   "slug": "pattern-train-things-that-fly",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "kindergarten",
+   "deck": "pattern-train-things-that-fly"
+  },
+  {
+   "slug": "pattern-train-tools",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "kindergarten",
+   "deck": "pattern-train-tools"
+  },
+  {
+   "slug": "pattern-train-toys",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "pattern-train-toys"
+  },
+  {
+   "slug": "pattern-train-tree",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tree",
+   "level": "kindergarten",
+   "deck": "pattern-train-tree"
+  },
+  {
+   "slug": "pattern-train-vegetables",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "kindergarten",
+   "deck": "pattern-train-vegetables"
+  },
+  {
+   "slug": "pattern-train-vehicles",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "pattern-train-vehicles"
+  },
+  {
+   "slug": "pattern-train-weather",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "kindergarten",
+   "deck": "pattern-train-weather"
+  },
+  {
+   "slug": "pattern-train-winter",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "kindergarten",
+   "deck": "pattern-train-winter"
+  },
+  {
+   "slug": "pattern-train-zoo-animals",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "kindergarten",
+   "deck": "pattern-train-zoo-animals"
+  },
+  {
+   "slug": "subtraction-cross-out-4th-of-july",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-4th-of-july"
+  },
+  {
+   "slug": "subtraction-cross-out-accessories",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-accessories"
+  },
+  {
+   "slug": "subtraction-cross-out-animals-kindergarten",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out"
+  },
+  {
+   "slug": "subtraction-cross-out-around-the-house",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-around-the-house"
+  },
+  {
+   "slug": "subtraction-cross-out-at-the-supermarket",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-at-the-supermarket"
+  },
+  {
+   "slug": "subtraction-cross-out-bakery",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-bakery"
+  },
+  {
+   "slug": "subtraction-cross-out-beach",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-beach"
+  },
+  {
+   "slug": "subtraction-cross-out-birds",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-birds"
+  },
+  {
+   "slug": "subtraction-cross-out-birds-2",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds_2",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-birds-2"
+  },
+  {
+   "slug": "subtraction-cross-out-breakfast",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "breakfast",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-breakfast"
+  },
+  {
+   "slug": "subtraction-cross-out-camping",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "camping",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-camping"
+  },
+  {
+   "slug": "subtraction-cross-out-christmas",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "christmas",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-christmas"
+  },
+  {
+   "slug": "subtraction-cross-out-classroom",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-classroom"
+  },
+  {
+   "slug": "subtraction-cross-out-clothing",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-clothing"
+  },
+  {
+   "slug": "subtraction-cross-out-desserts-and-sweets",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-desserts-and-sweets"
+  },
+  {
+   "slug": "subtraction-cross-out-dinosaurs",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "dinosaurs",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-dinosaurs"
+  },
+  {
+   "slug": "subtraction-cross-out-easter",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-easter"
+  },
+  {
+   "slug": "subtraction-cross-out-faces-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "faces_bw",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-faces-bw"
+  },
+  {
+   "slug": "subtraction-cross-out-farm-animals",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-farm-animals"
+  },
+  {
+   "slug": "subtraction-cross-out-flowers",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "flowers",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-flowers"
+  },
+  {
+   "slug": "subtraction-cross-out-forest-creatures",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-forest-creatures"
+  },
+  {
+   "slug": "subtraction-cross-out-fruits",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-fruits"
+  },
+  {
+   "slug": "subtraction-cross-out-furniture",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-furniture"
+  },
+  {
+   "slug": "subtraction-cross-out-home-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "home_bw",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-home-bw"
+  },
+  {
+   "slug": "subtraction-cross-out-hospital",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "hospital",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-hospital"
+  },
+  {
+   "slug": "subtraction-cross-out-household-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "household_bw",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-household-bw"
+  },
+  {
+   "slug": "subtraction-cross-out-insects-and-bugs",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-insects-and-bugs"
+  },
+  {
+   "slug": "subtraction-cross-out-kitchen-tools",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-kitchen-tools"
+  },
+  {
+   "slug": "subtraction-cross-out-miscellaneous",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "miscellaneous",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-miscellaneous"
+  },
+  {
+   "slug": "subtraction-cross-out-music",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "music",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-music"
+  },
+  {
+   "slug": "subtraction-cross-out-nature-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "nature_bw",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-nature-bw"
+  },
+  {
+   "slug": "subtraction-cross-out-objects-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "objects_bw",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-objects-bw"
+  },
+  {
+   "slug": "subtraction-cross-out-occupations",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-occupations"
+  },
+  {
+   "slug": "subtraction-cross-out-ocean-life",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "ocean_life",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-ocean-life"
+  },
+  {
+   "slug": "subtraction-cross-out-pets",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "pets",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-pets"
+  },
+  {
+   "slug": "subtraction-cross-out-post-office",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "post_office",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-post-office"
+  },
+  {
+   "slug": "subtraction-cross-out-reptiles-and-amphibians",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "reptiles_and_amphibians",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-reptiles-and-amphibians"
+  },
+  {
+   "slug": "subtraction-cross-out-shapes",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "shapes",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-shapes"
+  },
+  {
+   "slug": "subtraction-cross-out-space",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "space",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-space"
+  },
+  {
+   "slug": "subtraction-cross-out-sports-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "sports_bw",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-sports-bw"
+  },
+  {
+   "slug": "subtraction-cross-out-thanksgiving",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "thanksgivinng",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-thanksgiving"
+  },
+  {
+   "slug": "subtraction-cross-out-things-that-fly",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "things_that_fly",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-things-that-fly"
+  },
+  {
+   "slug": "subtraction-cross-out-tools",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tools",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-tools"
+  },
+  {
+   "slug": "subtraction-cross-out-toys",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-toys"
+  },
+  {
+   "slug": "subtraction-cross-out-tree",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tree",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-tree"
+  },
+  {
+   "slug": "subtraction-cross-out-valentine-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "valentine_bw",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-valentine-bw"
+  },
+  {
+   "slug": "subtraction-cross-out-vegetables",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vegetables",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-vegetables"
+  },
+  {
+   "slug": "subtraction-cross-out-vehicles",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-vehicles"
+  },
+  {
+   "slug": "subtraction-cross-out-zoo-animals",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "zoo_animals",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-zoo-animals"
+  }
+ ]
+}

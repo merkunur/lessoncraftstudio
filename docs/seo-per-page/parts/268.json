@@ -1,0 +1,780 @@
+{
+ "part": 268,
+ "locale": "da",
+ "classes": [
+  "sudoku::medium",
+  "treasure-hunt::cardinal-arrows"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "billedsudoku-mellem-aktiviteter-b7dd",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-aktiviteter-b7dd"
+  },
+  {
+   "slug": "billedsudoku-mellem-bageri-6293",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-bageri-6293"
+  },
+  {
+   "slug": "billedsudoku-mellem-blomster-8987",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-blomster-8987"
+  },
+  {
+   "slug": "billedsudoku-mellem-bondegardsdyr-8564",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-bondegardsdyr-8564"
+  },
+  {
+   "slug": "billedsudoku-mellem-camping-9bbf",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-camping-9bbf"
+  },
+  {
+   "slug": "billedsudoku-mellem-desserter-og-slik-8fe2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-desserter-og-slik-8fe2"
+  },
+  {
+   "slug": "billedsudoku-mellem-dinosaurer-ab3c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-dinosaurer-ab3c"
+  },
+  {
+   "slug": "billedsudoku-mellem-dyr-3141",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-dyr-3141"
+  },
+  {
+   "slug": "billedsudoku-mellem-erhverv-7383",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-erhverv-7383"
+  },
+  {
+   "slug": "billedsudoku-mellem-farver-cbd3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-farver-cbd3"
+  },
+  {
+   "slug": "billedsudoku-mellem-folelser-a62c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-folelser-a62c"
+  },
+  {
+   "slug": "billedsudoku-mellem-forar-7f7b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-forar-7f7b"
+  },
+  {
+   "slug": "billedsudoku-mellem-former-5ba7",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-former-5ba7"
+  },
+  {
+   "slug": "billedsudoku-mellem-frugter-0302",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-frugter-0302"
+  },
+  {
+   "slug": "billedsudoku-mellem-fugle-2-1751",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-fugle-2-1751"
+  },
+  {
+   "slug": "billedsudoku-mellem-fugle-56ae",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-fugle-56ae"
+  },
+  {
+   "slug": "billedsudoku-mellem-grontsager-4483",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-grontsager-4483"
+  },
+  {
+   "slug": "billedsudoku-mellem-havliv-8d8c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-havliv-8d8c"
+  },
+  {
+   "slug": "billedsudoku-mellem-hospital-4d18",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-hospital-4d18"
+  },
+  {
+   "slug": "billedsudoku-mellem-i-supermarkedet-48ef",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-i-supermarkedet-48ef"
+  },
+  {
+   "slug": "billedsudoku-mellem-insekter-og-kryb-420b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-insekter-og-kryb-420b"
+  },
+  {
+   "slug": "billedsudoku-mellem-jul-2e15",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-jul-2e15"
+  },
+  {
+   "slug": "billedsudoku-mellem-kaeledyr-dfec",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-kaeledyr-dfec"
+  },
+  {
+   "slug": "billedsudoku-mellem-klassevaerelse-2af0",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-klassevaerelse-2af0"
+  },
+  {
+   "slug": "billedsudoku-mellem-kokkenredskaber-06e3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-kokkenredskaber-06e3"
+  },
+  {
+   "slug": "billedsudoku-mellem-koretojer-efb2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-koretojer-efb2"
+  },
+  {
+   "slug": "billedsudoku-mellem-kropsdele-2993",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-kropsdele-2993"
+  },
+  {
+   "slug": "billedsudoku-mellem-krybdyr-og-padder-88fd",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-krybdyr-og-padder-88fd"
+  },
+  {
+   "slug": "billedsudoku-mellem-legetoj-8217",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-legetoj-8217"
+  },
+  {
+   "slug": "billedsudoku-mellem-mobler-e668",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-mobler-e668"
+  },
+  {
+   "slug": "billedsudoku-mellem-morgenmad-39f4",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-morgenmad-39f4"
+  },
+  {
+   "slug": "billedsudoku-mellem-musik-66f5",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-musik-66f5"
+  },
+  {
+   "slug": "billedsudoku-mellem-paske-8249",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-paske-8249"
+  },
+  {
+   "slug": "billedsudoku-mellem-postkontor-45c4",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-postkontor-45c4"
+  },
+  {
+   "slug": "billedsudoku-mellem-rummet-444b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-rummet-444b"
+  },
+  {
+   "slug": "billedsudoku-mellem-rundt-i-huset-f146",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-rundt-i-huset-f146"
+  },
+  {
+   "slug": "billedsudoku-mellem-skovdyr-4627",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-skovdyr-4627"
+  },
+  {
+   "slug": "billedsudoku-mellem-sommer-e02a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-sommer-e02a"
+  },
+  {
+   "slug": "billedsudoku-mellem-strand-a9c5",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-strand-a9c5"
+  },
+  {
+   "slug": "billedsudoku-mellem-thanksgiving-3379",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-thanksgiving-3379"
+  },
+  {
+   "slug": "billedsudoku-mellem-tilbehor-8c28",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-tilbehor-8c28"
+  },
+  {
+   "slug": "billedsudoku-mellem-ting-der-flyver-d0b0",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-ting-der-flyver-d0b0"
+  },
+  {
+   "slug": "billedsudoku-mellem-toj-aaaf",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-toj-aaaf"
+  },
+  {
+   "slug": "billedsudoku-mellem-traeer-941f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-traeer-941f"
+  },
+  {
+   "slug": "billedsudoku-mellem-vaerktoj-da4a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-vaerktoj-da4a"
+  },
+  {
+   "slug": "billedsudoku-mellem-vejr-1e4e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-vejr-1e4e"
+  },
+  {
+   "slug": "billedsudoku-mellem-vinter-c5f6",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-vinter-c5f6"
+  },
+  {
+   "slug": "billedsudoku-mellem-zoodyr-4179",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-zoodyr-4179"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-aktiviteter-6497",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-aktiviteter-6497"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-bageri-02de",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-bageri-02de"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-blomster-e8c1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-blomster-e8c1"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-bondegardsdyr-8e53",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-bondegardsdyr-8e53"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-camping-6ffc",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-camping-6ffc"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-desserter-og-slik-17a1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-desserter-og-slik-17a1"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-dinosaurer-0a25",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-dinosaurer-0a25"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-dyr",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-dyr"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-erhverv-cf43",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-erhverv-cf43"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-farver-c2e5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-farver-c2e5"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-folelser-9f96",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-folelser-9f96"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-forar-a68a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-forar-a68a"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-former-ac20",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-former-ac20"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-frugter-e697",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-frugter-e697"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-fugle-2-3ba9",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-fugle-2-3ba9"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-fugle-f8ec",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-fugle-f8ec"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-grontsager-f451",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-grontsager-f451"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-havliv-5506",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-havliv-5506"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-hospital-9836",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-hospital-9836"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-i-supermarkedet-8d44",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-i-supermarkedet-8d44"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-insekter-og-kryb-ec11",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-insekter-og-kryb-ec11"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-jul-3f41",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-jul-3f41"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-kaeledyr-c57f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-kaeledyr-c57f"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-klassevaerelse-33c6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-klassevaerelse-33c6"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-kokkenredskaber-20af",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-kokkenredskaber-20af"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-koretojer-af1c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-koretojer-af1c"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-kropsdele-b2a7",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-kropsdele-b2a7"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-krybdyr-og-padder-8155",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-krybdyr-og-padder-8155"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-legetoj-d234",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-legetoj-d234"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-mobler-8379",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-mobler-8379"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-morgenmad-d057",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-morgenmad-d057"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-musik-00de",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-musik-00de"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-paske-1675",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-paske-1675"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-postkontor-62cf",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-postkontor-62cf"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-rummet-59b5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-rummet-59b5"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-rundt-i-huset-be55",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-rundt-i-huset-be55"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-skovdyr-7cd8",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-skovdyr-7cd8"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-sommer-6740",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-sommer-6740"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-strand-aa1b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-strand-aa1b"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-thanksgiving-011e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-thanksgiving-011e"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-tilbehor-53a8",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-tilbehor-53a8"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-ting-der-flyver-56c9",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-ting-der-flyver-56c9"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-toj-392c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-toj-392c"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-traeer-2b34",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-traeer-2b34"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-vaerktoj-9ced",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-vaerktoj-9ced"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-vejr-add6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-vejr-add6"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-vinter-826f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-vinter-826f"
+  },
+  {
+   "slug": "skattejagt-op-ned-venstre-hojre-zoodyr-66b5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-op-ned-venstre-hojre-zoodyr-66b5"
+  }
+ ]
+}

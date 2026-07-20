@@ -214,3 +214,6 @@ frontend/.studio-stories/
 # Demand-match reports: regenerable from harvests + landing JSON (18MB), see
 # scripts/seo-landing/match-demand.js. Evidence lives in docs/SEO/harvests/.
 docs/audit-results/demand-match/
+
+# 19MB of regenerable deck facts (extract-deck-facts.py re-creates in ~3 min)
+docs/seo-per-page/deck-facts/

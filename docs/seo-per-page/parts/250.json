@@ -1,0 +1,644 @@
+{
+ "part": 250,
+ "locale": "sv",
+ "classes": [
+  "subtraction::mixed",
+  "alphabet-train::letter-hint"
+ ],
+ "splitOf": null,
+ "count": 79,
+ "pages": [
+  {
+   "slug": "subtraktion-blandat-bageri-c677",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-bageri-c677"
+  },
+  {
+   "slug": "subtraktion-blandat-blommor-d9db",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-blommor-d9db"
+  },
+  {
+   "slug": "subtraktion-blandat-bondgardsdjur-bdbe",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-bondgardsdjur-bdbe"
+  },
+  {
+   "slug": "subtraktion-blandat-camping-3bf0",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-camping-3bf0"
+  },
+  {
+   "slug": "subtraktion-blandat-dinosaurier-c1a7",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-dinosaurier-c1a7"
+  },
+  {
+   "slug": "subtraktion-blandat-djur-ced3",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-djur-ced3"
+  },
+  {
+   "slug": "subtraktion-blandat-djurparksdjur-7b1a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-djurparksdjur-7b1a"
+  },
+  {
+   "slug": "subtraktion-blandat-efterratter-och-godis-2800",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-efterratter-och-godis-2800"
+  },
+  {
+   "slug": "subtraktion-blandat-faglar-2-eebc",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-faglar-2-eebc"
+  },
+  {
+   "slug": "subtraktion-blandat-faglar-21e9",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-faglar-21e9"
+  },
+  {
+   "slug": "subtraktion-blandat-fordon-9178",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-fordon-9178"
+  },
+  {
+   "slug": "subtraktion-blandat-former-1a9d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-former-1a9d"
+  },
+  {
+   "slug": "subtraktion-blandat-frukost-a582",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-frukost-a582"
+  },
+  {
+   "slug": "subtraktion-blandat-frukter-8710",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-frukter-8710"
+  },
+  {
+   "slug": "subtraktion-blandat-gronsaker-aec9",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-gronsaker-aec9"
+  },
+  {
+   "slug": "subtraktion-blandat-havsliv-30d4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-havsliv-30d4"
+  },
+  {
+   "slug": "subtraktion-blandat-husdjur-f281",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-husdjur-f281"
+  },
+  {
+   "slug": "subtraktion-blandat-i-snabbkopet-112a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-i-snabbkopet-112a"
+  },
+  {
+   "slug": "subtraktion-blandat-insekter-och-kryp-225f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-insekter-och-kryp-225f"
+  },
+  {
+   "slug": "subtraktion-blandat-jul-b1df",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-jul-b1df"
+  },
+  {
+   "slug": "subtraktion-blandat-klader-9479",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-klader-9479"
+  },
+  {
+   "slug": "subtraktion-blandat-klassrum-a53e",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-klassrum-a53e"
+  },
+  {
+   "slug": "subtraktion-blandat-koksredskap-9f6b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-koksredskap-9f6b"
+  },
+  {
+   "slug": "subtraktion-blandat-leksaker-4dbf",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-leksaker-4dbf"
+  },
+  {
+   "slug": "subtraktion-blandat-mobler-bfa1",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-mobler-bfa1"
+  },
+  {
+   "slug": "subtraktion-blandat-musik-cea9",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-musik-cea9"
+  },
+  {
+   "slug": "subtraktion-blandat-pask-9117",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-pask-9117"
+  },
+  {
+   "slug": "subtraktion-blandat-postkontor-9747",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-postkontor-9747"
+  },
+  {
+   "slug": "subtraktion-blandat-reptiler-och-groddjur-95a9",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-reptiler-och-groddjur-95a9"
+  },
+  {
+   "slug": "subtraktion-blandat-runt-huset-6b53",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-runt-huset-6b53"
+  },
+  {
+   "slug": "subtraktion-blandat-rymden-73f3",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-rymden-73f3"
+  },
+  {
+   "slug": "subtraktion-blandat-saker-som-flyger-97bc",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-saker-som-flyger-97bc"
+  },
+  {
+   "slug": "subtraktion-blandat-sjukhus-4eac",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-sjukhus-4eac"
+  },
+  {
+   "slug": "subtraktion-blandat-skogsdjur-8304",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-skogsdjur-8304"
+  },
+  {
+   "slug": "subtraktion-blandat-strand-e3b5",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-strand-e3b5"
+  },
+  {
+   "slug": "subtraktion-blandat-thanksgiving-e4ad",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-thanksgiving-e4ad"
+  },
+  {
+   "slug": "subtraktion-blandat-tillbehor-b1b3",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-tillbehor-b1b3"
+  },
+  {
+   "slug": "subtraktion-blandat-trad-503f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-trad-503f"
+  },
+  {
+   "slug": "subtraktion-blandat-verktyg-465c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-verktyg-465c"
+  },
+  {
+   "slug": "subtraktion-blandat-yrken-02a3",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-yrken-02a3"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-4-juli-b0e8",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "4th_of_july",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-4-juli-b0e8"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-aktiviteter-8d6b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-aktiviteter-8d6b"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-blommor-479c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-blommor-479c"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-bondgardsdjur-3725",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-bondgardsdjur-3725"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-camping-0e35",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-camping-0e35"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-dinosaurier-b921",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-dinosaurier-b921"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-djur-fcd7",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-djur-fcd7"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-djurparksdjur-0b87",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-djurparksdjur-0b87"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-faglar-2-1c81",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-faglar-2-1c81"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-fordon-c69f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-fordon-c69f"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-former-bcee",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-former-bcee"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-frukost-fc2d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-frukost-fc2d"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-frukter-2225",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-frukter-2225"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-gronsaker-ccf1",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-gronsaker-ccf1"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-havsliv-4d60",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-havsliv-4d60"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-husdjur-54b5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-husdjur-54b5"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-i-snabbkopet-c2b4",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-i-snabbkopet-c2b4"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-jul-aeb6",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-jul-aeb6"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-kanslor-152d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-kanslor-152d"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-klader-bab3",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-klader-bab3"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-klassrum-f8e3",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-klassrum-f8e3"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-koksredskap-2d5b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-koksredskap-2d5b"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-kroppsdelar-f08a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-kroppsdelar-f08a"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-leksaker-d641",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-leksaker-d641"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-musik-fbd5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-musik-fbd5"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-pask-278b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-pask-278b"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-runt-huset-4fa6",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-runt-huset-4fa6"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-rymden-4953",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-rymden-4953"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-saker-som-flyger-ed57",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-saker-som-flyger-ed57"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-sjukhus-750d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-sjukhus-750d"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-skogsdjur-936c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-skogsdjur-936c"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-sommar-0041",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-sommar-0041"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-strand-3128",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-strand-3128"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-thanksgiving-2bf9",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-thanksgiving-2bf9"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-tillbehor-83af",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-tillbehor-83af"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-trad-92c0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-trad-92c0"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-vader-8f1d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-vader-8f1d"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-var-119d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-var-119d"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-yrken-4317",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-yrken-4317"
+  }
+ ]
+}

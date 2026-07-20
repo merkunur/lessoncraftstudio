@@ -1,0 +1,652 @@
+{
+ "part": 160,
+ "locale": "fr",
+ "classes": [
+  "addition::mixed",
+  "math-puzzle::mixed"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "addition-mixte-accessoires-a4ce",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "cp",
+   "deck": "addition-mixte-accessoires-a4ce"
+  },
+  {
+   "slug": "addition-mixte-action-de-grace-ed68",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "cp",
+   "deck": "addition-mixte-action-de-grace-ed68"
+  },
+  {
+   "slug": "addition-mixte-animaux-a961",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "addition-mixte-animaux-a961"
+  },
+  {
+   "slug": "addition-mixte-animaux-de-compagnie-4bad",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "addition-mixte-animaux-de-compagnie-4bad"
+  },
+  {
+   "slug": "addition-mixte-animaux-de-la-ferme-6f2a",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "cp",
+   "deck": "addition-mixte-animaux-de-la-ferme-6f2a"
+  },
+  {
+   "slug": "addition-mixte-animaux-du-zoo-f93d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "addition-mixte-animaux-du-zoo-f93d"
+  },
+  {
+   "slug": "addition-mixte-arbres-3243",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "addition-mixte-arbres-3243"
+  },
+  {
+   "slug": "addition-mixte-au-supermarche-fa6e",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "cp",
+   "deck": "addition-mixte-au-supermarche-fa6e"
+  },
+  {
+   "slug": "addition-mixte-autour-de-la-maison-0986",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "cp",
+   "deck": "addition-mixte-autour-de-la-maison-0986"
+  },
+  {
+   "slug": "addition-mixte-boulangerie-5dd0",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "cp",
+   "deck": "addition-mixte-boulangerie-5dd0"
+  },
+  {
+   "slug": "addition-mixte-bureau-de-poste-6ea9",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "cp",
+   "deck": "addition-mixte-bureau-de-poste-6ea9"
+  },
+  {
+   "slug": "addition-mixte-camping-b540",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "cp",
+   "deck": "addition-mixte-camping-b540"
+  },
+  {
+   "slug": "addition-mixte-choses-qui-volent-7345",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "cp",
+   "deck": "addition-mixte-choses-qui-volent-7345"
+  },
+  {
+   "slug": "addition-mixte-creatures-de-la-foret-bae1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "cp",
+   "deck": "addition-mixte-creatures-de-la-foret-bae1"
+  },
+  {
+   "slug": "addition-mixte-desserts-et-sucreries-79ff",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "cp",
+   "deck": "addition-mixte-desserts-et-sucreries-79ff"
+  },
+  {
+   "slug": "addition-mixte-dinosaures-a80c",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "cp",
+   "deck": "addition-mixte-dinosaures-a80c"
+  },
+  {
+   "slug": "addition-mixte-espace-fa64",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "cp",
+   "deck": "addition-mixte-espace-fa64"
+  },
+  {
+   "slug": "addition-mixte-fleurs-984f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "cp",
+   "deck": "addition-mixte-fleurs-984f"
+  },
+  {
+   "slug": "addition-mixte-formes-550f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "addition-mixte-formes-550f"
+  },
+  {
+   "slug": "addition-mixte-fruits-b3aa",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "cp",
+   "deck": "addition-mixte-fruits-b3aa"
+  },
+  {
+   "slug": "addition-mixte-hopital-8f36",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "cp",
+   "deck": "addition-mixte-hopital-8f36"
+  },
+  {
+   "slug": "addition-mixte-insectes-et-bestioles-e2a8",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "addition-mixte-insectes-et-bestioles-e2a8"
+  },
+  {
+   "slug": "addition-mixte-jouets-4698",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "cp",
+   "deck": "addition-mixte-jouets-4698"
+  },
+  {
+   "slug": "addition-mixte-legumes-37b8",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "cp",
+   "deck": "addition-mixte-legumes-37b8"
+  },
+  {
+   "slug": "addition-mixte-metiers-08e0",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "addition-mixte-metiers-08e0"
+  },
+  {
+   "slug": "addition-mixte-meubles-e394",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "cp",
+   "deck": "addition-mixte-meubles-e394"
+  },
+  {
+   "slug": "addition-mixte-musique-27da",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "cp",
+   "deck": "addition-mixte-musique-27da"
+  },
+  {
+   "slug": "addition-mixte-noel-d925",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "addition-mixte-noel-d925"
+  },
+  {
+   "slug": "addition-mixte-oiseaux-2-ba4d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "cp",
+   "deck": "addition-mixte-oiseaux-2-ba4d"
+  },
+  {
+   "slug": "addition-mixte-oiseaux-4069",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "addition-mixte-oiseaux-4069"
+  },
+  {
+   "slug": "addition-mixte-outils-8081",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "cp",
+   "deck": "addition-mixte-outils-8081"
+  },
+  {
+   "slug": "addition-mixte-paques-cfa6",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "cp",
+   "deck": "addition-mixte-paques-cfa6"
+  },
+  {
+   "slug": "addition-mixte-petit-dejeuner-1174",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "cp",
+   "deck": "addition-mixte-petit-dejeuner-1174"
+  },
+  {
+   "slug": "addition-mixte-plage-f5ec",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "cp",
+   "deck": "addition-mixte-plage-f5ec"
+  },
+  {
+   "slug": "addition-mixte-reptiles-et-amphibiens-17c9",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "cp",
+   "deck": "addition-mixte-reptiles-et-amphibiens-17c9"
+  },
+  {
+   "slug": "addition-mixte-salle-de-classe-b3ef",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "cp",
+   "deck": "addition-mixte-salle-de-classe-b3ef"
+  },
+  {
+   "slug": "addition-mixte-ustensiles-de-cuisine-373e",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "addition-mixte-ustensiles-de-cuisine-373e"
+  },
+  {
+   "slug": "addition-mixte-vehicules-6d40",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "cp",
+   "deck": "addition-mixte-vehicules-6d40"
+  },
+  {
+   "slug": "addition-mixte-vetements-b606",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "cp",
+   "deck": "addition-mixte-vetements-b606"
+  },
+  {
+   "slug": "addition-mixte-vie-oceanique-cb32",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "cp",
+   "deck": "addition-mixte-vie-oceanique-cb32"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-accessoires-0a3d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-accessoires-0a3d"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-action-de-grace-2fd6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-action-de-grace-2fd6"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-animaux",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-animaux"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-animaux-de-compagnie-27be",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-animaux-de-compagnie-27be"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-animaux-de-la-ferme-e8ce",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-animaux-de-la-ferme-e8ce"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-animaux-du-zoo-090c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-animaux-du-zoo-090c"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-arbres-29ad",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-arbres-29ad"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-au-supermarche-9bc1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-au-supermarche-9bc1"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-autour-de-la-maison-e9be",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-autour-de-la-maison-e9be"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-boulangerie-166d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-boulangerie-166d"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-bureau-de-poste-f580",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-bureau-de-poste-f580"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-camping-e485",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-camping-e485"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-choses-qui-volent-713f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-choses-qui-volent-713f"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-creatures-de-la-foret-dddb",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-creatures-de-la-foret-dddb"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-desserts-et-sucreries-fc4e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-desserts-et-sucreries-fc4e"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-dinosaures-3ba5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-dinosaures-3ba5"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-divers-d24c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-divers-d24c"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-espace-e85e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-espace-e85e"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-fleurs-c6d4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-fleurs-c6d4"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-formes-0968",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-formes-0968"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-fruits-945e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-fruits-945e"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-insectes-et-bestioles-e9ec",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-insectes-et-bestioles-e9ec"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-jouets-ed18",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-jouets-ed18"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-legumes-d074",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-legumes-d074"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-metiers-d774",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-metiers-d774"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-meubles-1dc9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-meubles-1dc9"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-musique-6db2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-musique-6db2"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-noel-89bc",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-noel-89bc"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-oiseaux-2-3a5d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-oiseaux-2-3a5d"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-oiseaux-81a2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-oiseaux-81a2"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-outils-6599",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-outils-6599"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-paques-8395",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-paques-8395"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-petit-dejeuner-9552",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-petit-dejeuner-9552"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-plage-6e65",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-plage-6e65"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-reptiles-et-amphibiens-313c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-reptiles-et-amphibiens-313c"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-salle-de-classe-f878",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-salle-de-classe-f878"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-ustensiles-de-cuisine-9306",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-ustensiles-de-cuisine-9306"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-vehicules-22f8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-vehicules-22f8"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-vetements-7810",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-vetements-7810"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-vie-oceanique-558a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-vie-oceanique-558a"
+  }
+ ]
+}

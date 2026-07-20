@@ -1,0 +1,544 @@
+{
+ "part": 23,
+ "locale": "en",
+ "classes": [
+  "find-and-count::letter-spotting"
+ ],
+ "splitOf": {
+  "class": "find-and-count::letter-spotting",
+  "total": 330,
+  "chunk": 2,
+  "chunks": 5
+ },
+ "count": 66,
+ "pages": [
+  {
+   "slug": "beginning-sounds-around-the-house-i",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-8"
+  },
+  {
+   "slug": "beginning-sounds-around-the-house-k",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-9"
+  },
+  {
+   "slug": "beginning-sounds-around-the-house-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-10"
+  },
+  {
+   "slug": "beginning-sounds-around-the-house-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-11"
+  },
+  {
+   "slug": "beginning-sounds-around-the-house-n",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-12"
+  },
+  {
+   "slug": "beginning-sounds-around-the-house-o",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-13"
+  },
+  {
+   "slug": "beginning-sounds-around-the-house-p",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-14"
+  },
+  {
+   "slug": "beginning-sounds-around-the-house-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-15"
+  },
+  {
+   "slug": "beginning-sounds-around-the-house-s",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-16"
+  },
+  {
+   "slug": "beginning-sounds-around-the-house-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-17"
+  },
+  {
+   "slug": "beginning-sounds-around-the-house-v",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-18"
+  },
+  {
+   "slug": "beginning-sounds-around-the-house-w",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-19"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-2"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-3"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-4"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-5"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-6"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-7"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-h",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-8"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-i",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-9"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-j",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-10"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-k",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-11"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-12"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-13"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-o",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-14"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-p",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-15"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-16"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-s",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-17"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-18"
+  },
+  {
+   "slug": "beginning-sounds-at-the-supermarket-w",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-at-the-supermarket-19"
+  },
+  {
+   "slug": "beginning-sounds-bakery-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-bakery"
+  },
+  {
+   "slug": "beginning-sounds-bakery-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-bakery-2"
+  },
+  {
+   "slug": "beginning-sounds-bakery-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-bakery-3"
+  },
+  {
+   "slug": "beginning-sounds-bakery-e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-bakery-4"
+  },
+  {
+   "slug": "beginning-sounds-bakery-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-bakery-5"
+  },
+  {
+   "slug": "beginning-sounds-bakery-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-bakery-6"
+  },
+  {
+   "slug": "beginning-sounds-bakery-p",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-bakery-7"
+  },
+  {
+   "slug": "beginning-sounds-bakery-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-bakery-8"
+  },
+  {
+   "slug": "beginning-sounds-bakery-w",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-bakery-9"
+  },
+  {
+   "slug": "beginning-sounds-beach-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach"
+  },
+  {
+   "slug": "beginning-sounds-beach-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-3"
+  },
+  {
+   "slug": "beginning-sounds-beach-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-4"
+  },
+  {
+   "slug": "beginning-sounds-beach-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-5"
+  },
+  {
+   "slug": "beginning-sounds-beach-h",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-6"
+  },
+  {
+   "slug": "beginning-sounds-beach-i",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-7"
+  },
+  {
+   "slug": "beginning-sounds-beach-j",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-8"
+  },
+  {
+   "slug": "beginning-sounds-beach-k",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-9"
+  },
+  {
+   "slug": "beginning-sounds-beach-n",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-10"
+  },
+  {
+   "slug": "beginning-sounds-beach-p",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-11"
+  },
+  {
+   "slug": "beginning-sounds-beach-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-12"
+  },
+  {
+   "slug": "beginning-sounds-beach-s",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-13"
+  },
+  {
+   "slug": "beginning-sounds-beach-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-14"
+  },
+  {
+   "slug": "beginning-sounds-beach-u",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-15"
+  },
+  {
+   "slug": "beginning-sounds-beach-w",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-beach-16"
+  },
+  {
+   "slug": "beginning-sounds-body-parts-a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-body-parts"
+  },
+  {
+   "slug": "beginning-sounds-body-parts-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-body-parts-2"
+  },
+  {
+   "slug": "beginning-sounds-body-parts-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-body-parts-3"
+  },
+  {
+   "slug": "beginning-sounds-body-parts-e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-body-parts-4"
+  },
+  {
+   "slug": "beginning-sounds-body-parts-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-body-parts-5"
+  },
+  {
+   "slug": "beginning-sounds-body-parts-h",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-body-parts-6"
+  },
+  {
+   "slug": "beginning-sounds-body-parts-k",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-body-parts-7"
+  },
+  {
+   "slug": "beginning-sounds-body-parts-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-body-parts-8"
+  },
+  {
+   "slug": "beginning-sounds-body-parts-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-body-parts-9"
+  },
+  {
+   "slug": "beginning-sounds-body-parts-n",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-body-parts-10"
+  },
+  {
+   "slug": "beginning-sounds-body-parts-s",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-body-parts-11"
+  }
+ ]
+}

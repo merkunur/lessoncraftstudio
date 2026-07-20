@@ -1,0 +1,764 @@
+{
+ "part": 118,
+ "locale": "pt",
+ "classes": [
+  "shadow-match::make-whole",
+  "word-guess::easy"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "pareamento-de-sombras-complete-acampamento-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-acampamento-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-acessorios-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-acessorios-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-animais-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-animais-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-animais-da-fazenda-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "farm_animals",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-animais-da-fazenda-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-animais-de-estimacao-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-animais-de-estimacao-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-animais-do-zoologico-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-animais-do-zoologico-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-arvores-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-arvores-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-atividades-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-atividades-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-brinquedos-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-brinquedos-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-cafe-da-manha-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-cafe-da-manha-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-clima-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-clima-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-coisas-que-voam-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-coisas-que-voam-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-correios-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-correios-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-criaturas-da-floresta-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-criaturas-da-floresta-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-dia-de-acao-de-gracas-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-dia-de-acao-de-gracas-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-dinossauros-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-dinossauros-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-diversos-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-diversos-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-emocoes-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-emocoes-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-espaco-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-espaco-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-ferramentas-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-ferramentas-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-flores-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-flores-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-frutas-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-frutas-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-hospital-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-hospital-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-insetos-e-bichos-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-insetos-e-bichos-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-inverno-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-inverno-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-moveis-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-moveis-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-musica-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-musica-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-natal-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-natal-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-no-supermercado-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-no-supermercado-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-padaria-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-padaria-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-partes-do-corpo-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-partes-do-corpo-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-pascoa-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-pascoa-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-passaros-2-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-passaros-2-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-passaros-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-passaros-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-pela-casa-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-pela-casa-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-praia-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-praia-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-primavera-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-primavera-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-profissoes-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-profissoes-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-repteis-e-anfibios-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-repteis-e-anfibios-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-roupas-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-roupas-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-sala-de-aula-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-sala-de-aula-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-sobremesas-e-doces-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-sobremesas-e-doces-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-utensilios-de-cozinha-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-utensilios-de-cozinha-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-vegetais-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-vegetais-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-veiculos-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-veiculos-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-verao-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-verao-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-vida-marinha-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-vida-marinha-5d83"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-acampamento-423a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-acampamento-423a"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-acessorios-280e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-acessorios-280e"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-animais-aaf6",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-animais-aaf6"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-animais-da-fazenda-0e67",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-animais-da-fazenda-0e67"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-animais-de-estimacao-d427",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-animais-de-estimacao-d427"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-animais-do-zoologico-dfb6",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-animais-do-zoologico-dfb6"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-arvores-f068",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-arvores-f068"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-atividades-6476",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-atividades-6476"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-brinquedos-4aef",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-brinquedos-4aef"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-cafe-da-manha-7196",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-cafe-da-manha-7196"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-clima-7d3f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-clima-7d3f"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-coisas-que-voam-bc9f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-coisas-que-voam-bc9f"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-cores-b4d6",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-cores-b4d6"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-criaturas-da-floresta-aa42",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-criaturas-da-floresta-aa42"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-dia-de-acao-de-gracas-fa36",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-dia-de-acao-de-gracas-fa36"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-diversos-e182",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-diversos-e182"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-emocoes-d024",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-emocoes-d024"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-espaco-4874",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-espaco-4874"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-ferramentas-a168",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-ferramentas-a168"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-flores-0aa9",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-flores-0aa9"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-formas-cf5b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-formas-cf5b"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-frutas-dee3",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-frutas-dee3"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-hospital-aee3",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-hospital-aee3"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-insetos-e-bichos-e2e7",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-insetos-e-bichos-e2e7"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-inverno-bd07",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-inverno-bd07"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-moveis-f6b4",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-moveis-f6b4"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-musica-f54b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-musica-f54b"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-natal-62bb",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-natal-62bb"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-no-supermercado-1e39",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-no-supermercado-1e39"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-padaria-de0c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-padaria-de0c"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-partes-do-corpo-3a1f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-partes-do-corpo-3a1f"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-pascoa-bdb3",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-pascoa-bdb3"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-passaros-2-62e4",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-passaros-2-62e4"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-passaros-de22",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-passaros-de22"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-pela-casa-0a4c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-pela-casa-0a4c"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-praia-9d3e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-praia-9d3e"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-primavera-b931",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-primavera-b931"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-profissoes-1ef9",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-profissoes-1ef9"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-repteis-e-anfibios-9d11",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-repteis-e-anfibios-9d11"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-roupas-4ed2",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-roupas-4ed2"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-sala-de-aula-6a74",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-sala-de-aula-6a74"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-sobremesas-e-doces-de6c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-sobremesas-e-doces-de6c"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-utensilios-de-cozinha-326c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-utensilios-de-cozinha-326c"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-vegetais-a49c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-vegetais-a49c"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-veiculos-bf96",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-veiculos-bf96"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-verao-7f93",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-verao-7f93"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-vida-marinha-5a42",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-vida-marinha-5a42"
+  }
+ ]
+}

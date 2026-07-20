@@ -1,0 +1,652 @@
+{
+ "part": 346,
+ "locale": "fi",
+ "classes": [
+  "chart-count::null",
+  "math-puzzle::addition"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "laske-kaaviossa-aamiainen-2ff7",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-aamiainen-2ff7"
+  },
+  {
+   "slug": "laske-kaaviossa-ajoneuvot-4098",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-ajoneuvot-4098"
+  },
+  {
+   "slug": "laske-kaaviossa-ammatit-60ce",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "occupations",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-ammatit-60ce"
+  },
+  {
+   "slug": "laske-kaaviossa-asusteet-0353",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "accessories",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-asusteet-0353"
+  },
+  {
+   "slug": "laske-kaaviossa-avaruus-5576",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "space",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-avaruus-5576"
+  },
+  {
+   "slug": "laske-kaaviossa-dinosaurukset-5b9b",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-dinosaurukset-5b9b"
+  },
+  {
+   "slug": "laske-kaaviossa-elaimet",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "animals",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-elaimet"
+  },
+  {
+   "slug": "laske-kaaviossa-elaintarhan-elaimet-463b",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-elaintarhan-elaimet-463b"
+  },
+  {
+   "slug": "laske-kaaviossa-hedelmat-6fa1",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "fruits",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-hedelmat-6fa1"
+  },
+  {
+   "slug": "laske-kaaviossa-huonekalut-2100",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "furniture",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-huonekalut-2100"
+  },
+  {
+   "slug": "laske-kaaviossa-hyonteiset-ja-otokat-ae68",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-hyonteiset-ja-otokat-ae68"
+  },
+  {
+   "slug": "laske-kaaviossa-jalkiruoat-ja-makeiset-9f85",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-jalkiruoat-ja-makeiset-9f85"
+  },
+  {
+   "slug": "laske-kaaviossa-joulu-f4ad",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "christmas",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-joulu-f4ad"
+  },
+  {
+   "slug": "laske-kaaviossa-keittiovalineet-ac95",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-keittiovalineet-ac95"
+  },
+  {
+   "slug": "laske-kaaviossa-kiitospaiva-42e4",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-kiitospaiva-42e4"
+  },
+  {
+   "slug": "laske-kaaviossa-kodin-ymparilla-1ff3",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-kodin-ymparilla-1ff3"
+  },
+  {
+   "slug": "laske-kaaviossa-kukat-d4dc",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "flowers",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-kukat-d4dc"
+  },
+  {
+   "slug": "laske-kaaviossa-leipomo-336e",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "bakery",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-leipomo-336e"
+  },
+  {
+   "slug": "laske-kaaviossa-leirielama-3d07",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "camping",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-leirielama-3d07"
+  },
+  {
+   "slug": "laske-kaaviossa-lelut-5e9b",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "toys",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-lelut-5e9b"
+  },
+  {
+   "slug": "laske-kaaviossa-lemmikit-76c8",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "pets",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-lemmikit-76c8"
+  },
+  {
+   "slug": "laske-kaaviossa-lentavat-asiat-c370",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-lentavat-asiat-c370"
+  },
+  {
+   "slug": "laske-kaaviossa-linnut-2-22b9",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-linnut-2-22b9"
+  },
+  {
+   "slug": "laske-kaaviossa-luokkahuone-2b1e",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "classroom",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-luokkahuone-2b1e"
+  },
+  {
+   "slug": "laske-kaaviossa-maatilan-elaimet-11c9",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-maatilan-elaimet-11c9"
+  },
+  {
+   "slug": "laske-kaaviossa-matelijat-ja-sammakkoelaimet-4c71",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-matelijat-ja-sammakkoelaimet-4c71"
+  },
+  {
+   "slug": "laske-kaaviossa-merielama-85b4",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-merielama-85b4"
+  },
+  {
+   "slug": "laske-kaaviossa-metsan-elaimet-eaa2",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-metsan-elaimet-eaa2"
+  },
+  {
+   "slug": "laske-kaaviossa-muodot-2362",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "shapes",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-muodot-2362"
+  },
+  {
+   "slug": "laske-kaaviossa-musiikki-5e8f",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "music",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-musiikki-5e8f"
+  },
+  {
+   "slug": "laske-kaaviossa-paasiainen-ead3",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "easter",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-paasiainen-ead3"
+  },
+  {
+   "slug": "laske-kaaviossa-postitoimisto-bfb7",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "post_office",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-postitoimisto-bfb7"
+  },
+  {
+   "slug": "laske-kaaviossa-puut-0c8b",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "tree",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-puut-0c8b"
+  },
+  {
+   "slug": "laske-kaaviossa-ranta-64c3",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "beach",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-ranta-64c3"
+  },
+  {
+   "slug": "laske-kaaviossa-ruokakaupassa-dccb",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-ruokakaupassa-dccb"
+  },
+  {
+   "slug": "laske-kaaviossa-sairaala-d75f",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "hospital",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-sairaala-d75f"
+  },
+  {
+   "slug": "laske-kaaviossa-tyokalut-074e",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "tools",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-tyokalut-074e"
+  },
+  {
+   "slug": "laske-kaaviossa-vaatteet-e10b",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "clothing",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-vaatteet-e10b"
+  },
+  {
+   "slug": "laske-kaaviossa-varit-8475",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "colors",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-varit-8475"
+  },
+  {
+   "slug": "laske-kaaviossa-vihannekset-1a7c",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "1-luokka",
+   "deck": "laske-kaaviossa-vihannekset-1a7c"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-aamiainen-7530",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "breakfast",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-aamiainen-7530"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-ajoneuvot-54f4",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vehicles",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-ajoneuvot-54f4"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-ammatit-6828",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "occupations",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-ammatit-6828"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-asusteet-d7cc",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "accessories",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-asusteet-d7cc"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-avaruus-1586",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "space",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-avaruus-1586"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-dinosaurukset-5124",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "dinosaurs",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-dinosaurukset-5124"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-elaimet-8de5",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "animals",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-elaimet-8de5"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-elaintarhan-elaimet-a87a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "zoo_animals",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-elaintarhan-elaimet-a87a"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-hedelmat-48bd",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "fruits",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-hedelmat-48bd"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-huonekalut-9c22",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "furniture",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-huonekalut-9c22"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-hyonteiset-ja-otokat-ef2a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "insects_and_bugs",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-hyonteiset-ja-otokat-ef2a"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-jalkiruoat-ja-makeiset-e28b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "desserts_and_sweets",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-jalkiruoat-ja-makeiset-e28b"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-joulu-f041",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "christmas",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-joulu-f041"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-keittiovalineet-79d4",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "kitchen_tools",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-keittiovalineet-79d4"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-kiitospaiva-d45a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "thanksgivinng",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-kiitospaiva-d45a"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-kodin-ymparilla-67b5",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "around_the_house",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-kodin-ymparilla-67b5"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-kukat-9d25",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "flowers",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-kukat-9d25"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-leipomo-19c3",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "bakery",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-leipomo-19c3"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-leirielama-6c41",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "camping",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-leirielama-6c41"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-lelut-4801",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "toys",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-lelut-4801"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-lemmikit-2f35",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "pets",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-lemmikit-2f35"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-lentavat-asiat-1282",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "things_that_fly",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-lentavat-asiat-1282"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-linnut-2-3aec",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds_2",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-linnut-2-3aec"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-linnut-9cfc",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-linnut-9cfc"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-luokkahuone-27f8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "classroom",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-luokkahuone-27f8"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-maatilan-elaimet-a962",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "farm_animals",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-maatilan-elaimet-a962"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-matelijat-ja-sammakkoelaimet-65de",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-matelijat-ja-sammakkoelaimet-65de"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-merielama-43ea",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "ocean_life",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-merielama-43ea"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-metsan-elaimet-2a54",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "forest_creatures",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-metsan-elaimet-2a54"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-muodot-c182",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "shapes",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-muodot-c182"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-musiikki-55ac",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "music",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-musiikki-55ac"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-paasiainen-16c8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "easter",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-paasiainen-16c8"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-postitoimisto-975d",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "post_office",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-postitoimisto-975d"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-puut-3266",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tree",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-puut-3266"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-ranta-0060",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "beach",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-ranta-0060"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-ruokakaupassa-70b5",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "at_the_supermarket",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-ruokakaupassa-70b5"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-sairaala-ac40",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "hospital",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-sairaala-ac40"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-tyokalut-fc88",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tools",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-tyokalut-fc88"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-vaatteet-7b56",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "clothing",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-vaatteet-7b56"
+  },
+  {
+   "slug": "matematiikkapulma-yhteenlasku-vihannekset-f68a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vegetables",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-vihannekset-f68a"
+  }
+ ]
+}

@@ -1,0 +1,805 @@
+{
+ "part": 134,
+ "locale": "pt",
+ "classes": [
+  "sudoku::hard",
+  "alphabet-train::letter-hint",
+  "alphabet-train::null"
+ ],
+ "splitOf": null,
+ "count": 99,
+ "pages": [
+  {
+   "slug": "sudoku-ilustrado-dificil-0290",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-0290"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-05c3",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-05c3"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-1b3a",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-1b3a"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-2db8",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-2db8"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-3096",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-3096"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-414d",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-414d"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-43d9",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-43d9"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-4441",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-4441"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-466d",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-466d"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-5419",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-5419"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-5853",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-5853"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-590b",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-590b"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-5ebb",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-5ebb"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-62ed",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-62ed"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-7748",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-7748"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-77f7",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-77f7"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-7fc1",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-7fc1"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-845e",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-845e"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-9251",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-9251"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-96f6",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-96f6"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-979a",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-979a"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-9e05",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-9e05"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-a118",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-a118"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-a268",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-a268"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-a93e",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-a93e"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-b2c3",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-b2c3"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-b39b",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-b39b"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-bc60",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-bc60"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-bdba",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-bdba"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-c2d3",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-c2d3"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-c4e8",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-c4e8"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-cc16",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-cc16"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-d3b0",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-d3b0"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-d413",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-d413"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-d4a3",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-d4a3"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-dc0b",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-dc0b"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-e456",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-e456"
+  },
+  {
+   "slug": "sudoku-ilustrado-dificil-feca",
+   "type": "sudoku",
+   "mode": "hard",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-dificil-feca"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-acampamento-e290",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-acampamento-e290"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-acessorios-e89e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-acessorios-e89e"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-animais-1868",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-animais-1868"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-animais-do-zoologico-7290",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-animais-do-zoologico-7290"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-arvores-d22c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-arvores-d22c"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-atividades-3748",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-atividades-3748"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-brinquedos-52fd",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-brinquedos-52fd"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-cafe-da-manha-3ed3",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-cafe-da-manha-3ed3"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-clima-f0f9",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-clima-f0f9"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-coisas-que-voam-21c2",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-coisas-que-voam-21c2"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-criaturas-da-floresta-9a1b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-criaturas-da-floresta-9a1b"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-dinossauros-f5ff",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-dinossauros-f5ff"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-espaco-c4c1",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-espaco-c4c1"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-ferramentas-06f9",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-ferramentas-06f9"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-flores-a518",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-flores-a518"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-frutas-4703",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-frutas-4703"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-hospital-3e30",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-hospital-3e30"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-inverno-9e55",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-inverno-9e55"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-natal-36c8",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-natal-36c8"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-no-supermercado-d30e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-no-supermercado-d30e"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-partes-do-corpo-392f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-partes-do-corpo-392f"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-pascoa-c72f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-pascoa-c72f"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-pela-casa-40fe",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-pela-casa-40fe"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-praia-04b0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-praia-04b0"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-primavera-adad",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-primavera-adad"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-profissoes-bd36",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-profissoes-bd36"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-roupas-7ab3",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-roupas-7ab3"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-sala-de-aula-a1c3",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-sala-de-aula-a1c3"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-utensilios-de-cozinha-15aa",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-utensilios-de-cozinha-15aa"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-veiculos-7587",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-veiculos-7587"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-verao-125c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-verao-125c"
+  },
+  {
+   "slug": "trem-do-alfabeto-dica-de-letra-vida-marinha-89f3",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-dica-de-letra-vida-marinha-89f3"
+  },
+  {
+   "slug": "trem-do-alfabeto-acampamento-4355",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-acampamento-4355"
+  },
+  {
+   "slug": "trem-do-alfabeto-acessorios-7204",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-acessorios-7204"
+  },
+  {
+   "slug": "trem-do-alfabeto-animais",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-animais"
+  },
+  {
+   "slug": "trem-do-alfabeto-animais-do-zoologico-fddc",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-animais-do-zoologico-fddc"
+  },
+  {
+   "slug": "trem-do-alfabeto-atividades-4c7e",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-atividades-4c7e"
+  },
+  {
+   "slug": "trem-do-alfabeto-brinquedos-a466",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-brinquedos-a466"
+  },
+  {
+   "slug": "trem-do-alfabeto-cafe-da-manha-1906",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-cafe-da-manha-1906"
+  },
+  {
+   "slug": "trem-do-alfabeto-clima-bbaf",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-clima-bbaf"
+  },
+  {
+   "slug": "trem-do-alfabeto-coisas-que-voam-548c",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-coisas-que-voam-548c"
+  },
+  {
+   "slug": "trem-do-alfabeto-criaturas-da-floresta-a712",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-criaturas-da-floresta-a712"
+  },
+  {
+   "slug": "trem-do-alfabeto-espaco-3517",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-espaco-3517"
+  },
+  {
+   "slug": "trem-do-alfabeto-ferramentas-e160",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-ferramentas-e160"
+  },
+  {
+   "slug": "trem-do-alfabeto-frutas-09b9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-frutas-09b9"
+  },
+  {
+   "slug": "trem-do-alfabeto-hospital-4942",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-hospital-4942"
+  },
+  {
+   "slug": "trem-do-alfabeto-inverno-d677",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-inverno-d677"
+  },
+  {
+   "slug": "trem-do-alfabeto-natal-b7d4",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-natal-b7d4"
+  },
+  {
+   "slug": "trem-do-alfabeto-no-supermercado-9163",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-no-supermercado-9163"
+  },
+  {
+   "slug": "trem-do-alfabeto-partes-do-corpo-68db",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-partes-do-corpo-68db"
+  },
+  {
+   "slug": "trem-do-alfabeto-pascoa-80fc",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-pascoa-80fc"
+  },
+  {
+   "slug": "trem-do-alfabeto-pela-casa-53d3",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-pela-casa-53d3"
+  },
+  {
+   "slug": "trem-do-alfabeto-praia-b134",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-praia-b134"
+  },
+  {
+   "slug": "trem-do-alfabeto-primavera-30ad",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-primavera-30ad"
+  },
+  {
+   "slug": "trem-do-alfabeto-profissoes-96a1",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-profissoes-96a1"
+  },
+  {
+   "slug": "trem-do-alfabeto-roupas-f325",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-roupas-f325"
+  },
+  {
+   "slug": "trem-do-alfabeto-sala-de-aula-e03d",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-sala-de-aula-e03d"
+  },
+  {
+   "slug": "trem-do-alfabeto-utensilios-de-cozinha-37d3",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-utensilios-de-cozinha-37d3"
+  },
+  {
+   "slug": "trem-do-alfabeto-veiculos-7a59",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-veiculos-7a59"
+  },
+  {
+   "slug": "trem-do-alfabeto-verao-bfa5",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-verao-bfa5"
+  },
+  {
+   "slug": "trem-do-alfabeto-vida-marinha-6c1d",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "trem-do-alfabeto-vida-marinha-6c1d"
+  }
+ ]
+}

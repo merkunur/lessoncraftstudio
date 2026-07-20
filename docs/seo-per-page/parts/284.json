@@ -1,0 +1,636 @@
+{
+ "part": 284,
+ "locale": "da",
+ "classes": [
+  "more-less::image-number",
+  "subtraction::find-subtrahend"
+ ],
+ "splitOf": null,
+ "count": 78,
+ "pages": [
+  {
+   "slug": "mere-mindre-billede-tal-bageri-d6f6",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-bageri-d6f6"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-blomster-47f6",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-blomster-47f6"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-bondegardsdyr-f375",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-bondegardsdyr-f375"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-camping-9682",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-camping-9682"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-dinosaurer-8abe",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-dinosaurer-8abe"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-dyr-7cbb",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-dyr-7cbb"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-erhverv-5e7a",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-erhverv-5e7a"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-former-09e1",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-former-09e1"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-frugter-d0c7",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-frugter-d0c7"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-fugle-17a0",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-fugle-17a0"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-fugle-2-e8ba",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-fugle-2-e8ba"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-grontsager-8d33",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-grontsager-8d33"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-havliv-9ab3",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-havliv-9ab3"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-hospital-e8bb",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-hospital-e8bb"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-i-supermarkedet-1620",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-i-supermarkedet-1620"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-insekter-og-kryb-505a",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-insekter-og-kryb-505a"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-jul-fe5b",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-jul-fe5b"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-kaeledyr-0dcc",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-kaeledyr-0dcc"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-klassevaerelse-acff",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-klassevaerelse-acff"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-kokkenredskaber-9a59",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-kokkenredskaber-9a59"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-koretojer-60c9",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-koretojer-60c9"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-krybdyr-og-padder-8f26",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-krybdyr-og-padder-8f26"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-legetoj-c59b",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-legetoj-c59b"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-mobler-3f69",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-mobler-3f69"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-morgenmad-43de",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-morgenmad-43de"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-musik-f3d5",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-musik-f3d5"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-paske-9765",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-paske-9765"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-postkontor-c503",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-postkontor-c503"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-rummet-f011",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-rummet-f011"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-rundt-i-huset-4ae6",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-rundt-i-huset-4ae6"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-skovdyr-fabc",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-skovdyr-fabc"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-strand-47d0",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-strand-47d0"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-thanksgiving-70aa",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-thanksgiving-70aa"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-tilbehor-b32c",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-tilbehor-b32c"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-ting-der-flyver-ebfb",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-ting-der-flyver-ebfb"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-toj-3bd0",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-toj-3bd0"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-traeer-7702",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-traeer-7702"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-vaerktoj-dc17",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-vaerktoj-dc17"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-zoodyr-1073",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-zoodyr-1073"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-bageri-8b6e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-bageri-8b6e"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-blomster-4f9d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-blomster-4f9d"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-bondegardsdyr-b734",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-bondegardsdyr-b734"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-camping-c654",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-camping-c654"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-dinosaurer-a1c8",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-dinosaurer-a1c8"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-dyr-5ac7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-dyr-5ac7"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-erhverv-488f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-erhverv-488f"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-former-c1bc",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-former-c1bc"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-frugter-ec85",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-frugter-ec85"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-fugle-2-14f1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-fugle-2-14f1"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-fugle-cb27",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-fugle-cb27"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-grontsager-4e5e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-grontsager-4e5e"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-havliv-7819",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-havliv-7819"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-hospital-490e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-hospital-490e"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-i-supermarkedet-ba7f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-i-supermarkedet-ba7f"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-insekter-og-kryb-089b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-insekter-og-kryb-089b"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-jul-cad9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-jul-cad9"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-kaeledyr-362d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-kaeledyr-362d"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-klassevaerelse-91f9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-klassevaerelse-91f9"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-kokkenredskaber-52a3",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-kokkenredskaber-52a3"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-koretojer-2809",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-koretojer-2809"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-krybdyr-og-padder-9a2f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-krybdyr-og-padder-9a2f"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-legetoj-b325",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-legetoj-b325"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-mobler-b552",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-mobler-b552"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-morgenmad-fd6b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-morgenmad-fd6b"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-musik-774d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-musik-774d"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-paske-0728",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-paske-0728"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-postkontor-33ff",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-postkontor-33ff"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-rummet-7792",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-rummet-7792"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-rundt-i-huset-ed05",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-rundt-i-huset-ed05"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-skovdyr-cd70",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-skovdyr-cd70"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-strand-0e01",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-strand-0e01"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-thanksgiving-97bc",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-thanksgiving-97bc"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-tilbehor-c3b3",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-tilbehor-c3b3"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-ting-der-flyver-e6a6",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-ting-der-flyver-e6a6"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-toj-016f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-toj-016f"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-traeer-e8fe",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-traeer-e8fe"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-vaerktoj-f09c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-vaerktoj-f09c"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-zoodyr-98fb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-find-subtrahend-zoodyr-98fb"
+  }
+ ]
+}

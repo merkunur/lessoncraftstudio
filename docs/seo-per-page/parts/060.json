@@ -1,0 +1,756 @@
+{
+ "part": 60,
+ "locale": "de",
+ "classes": [
+  "word-guess::normal",
+  "find-objects::find-odd"
+ ],
+ "splitOf": null,
+ "count": 93,
+ "pages": [
+  {
+   "slug": "wort-raten-normal-accessoires-874b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-accessoires-874b"
+  },
+  {
+   "slug": "wort-raten-normal-aktivitaten-f161",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-aktivitaten-f161"
+  },
+  {
+   "slug": "wort-raten-normal-backerei-c4fe",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-backerei-c4fe"
+  },
+  {
+   "slug": "wort-raten-normal-bauernhoftiere-226e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-bauernhoftiere-226e"
+  },
+  {
+   "slug": "wort-raten-normal-baume-59a1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-baume-59a1"
+  },
+  {
+   "slug": "wort-raten-normal-berufe-1f22",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-berufe-1f22"
+  },
+  {
+   "slug": "wort-raten-normal-blumen-799f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-blumen-799f"
+  },
+  {
+   "slug": "wort-raten-normal-camping-25b8",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-camping-25b8"
+  },
+  {
+   "slug": "wort-raten-normal-desserts-und-sussigkeiten-d5b8",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-desserts-und-sussigkeiten-d5b8"
+  },
+  {
+   "slug": "wort-raten-normal-dinge-die-fliegen-c09e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-dinge-die-fliegen-c09e"
+  },
+  {
+   "slug": "wort-raten-normal-emotionen-4932",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-emotionen-4932"
+  },
+  {
+   "slug": "wort-raten-normal-erntedankfest-da05",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-erntedankfest-da05"
+  },
+  {
+   "slug": "wort-raten-normal-fahrzeuge-0f17",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-fahrzeuge-0f17"
+  },
+  {
+   "slug": "wort-raten-normal-farben-2200",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-farben-2200"
+  },
+  {
+   "slug": "wort-raten-normal-formen-00bc",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-formen-00bc"
+  },
+  {
+   "slug": "wort-raten-normal-fruchte-0fb6",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-fruchte-0fb6"
+  },
+  {
+   "slug": "wort-raten-normal-fruhling-483f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-fruhling-483f"
+  },
+  {
+   "slug": "wort-raten-normal-fruhstuck-ebaf",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-fruhstuck-ebaf"
+  },
+  {
+   "slug": "wort-raten-normal-gemuse-f059",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-gemuse-f059"
+  },
+  {
+   "slug": "wort-raten-normal-haustiere-bf0a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-haustiere-bf0a"
+  },
+  {
+   "slug": "wort-raten-normal-im-supermarkt-880e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-im-supermarkt-880e"
+  },
+  {
+   "slug": "wort-raten-normal-insekten-und-kafer-58ff",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-insekten-und-kafer-58ff"
+  },
+  {
+   "slug": "wort-raten-normal-klassenzimmer-ab55",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-klassenzimmer-ab55"
+  },
+  {
+   "slug": "wort-raten-normal-kleidung-df5c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-kleidung-df5c"
+  },
+  {
+   "slug": "wort-raten-normal-korperteile-5d9f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-korperteile-5d9f"
+  },
+  {
+   "slug": "wort-raten-normal-krankenhaus-9237",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-krankenhaus-9237"
+  },
+  {
+   "slug": "wort-raten-normal-kuchenwerkzeuge-7491",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-kuchenwerkzeuge-7491"
+  },
+  {
+   "slug": "wort-raten-normal-meeresleben-d899",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-meeresleben-d899"
+  },
+  {
+   "slug": "wort-raten-normal-mobel-f9f4",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-mobel-f9f4"
+  },
+  {
+   "slug": "wort-raten-normal-musik-cc9a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-musik-cc9a"
+  },
+  {
+   "slug": "wort-raten-normal-ostern-312e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-ostern-312e"
+  },
+  {
+   "slug": "wort-raten-normal-postamt-ece9",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-postamt-ece9"
+  },
+  {
+   "slug": "wort-raten-normal-reptilien-und-amphibien-6a5e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-reptilien-und-amphibien-6a5e"
+  },
+  {
+   "slug": "wort-raten-normal-rund-ums-haus-a5d0",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-rund-ums-haus-a5d0"
+  },
+  {
+   "slug": "wort-raten-normal-sommer-3f8b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-sommer-3f8b"
+  },
+  {
+   "slug": "wort-raten-normal-spielzeug-9070",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-spielzeug-9070"
+  },
+  {
+   "slug": "wort-raten-normal-strand-396e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-strand-396e"
+  },
+  {
+   "slug": "wort-raten-normal-tiere-99d4",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-tiere-99d4"
+  },
+  {
+   "slug": "wort-raten-normal-vogel-2-823f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-vogel-2-823f"
+  },
+  {
+   "slug": "wort-raten-normal-vogel-7e25",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-vogel-7e25"
+  },
+  {
+   "slug": "wort-raten-normal-waldtiere-426f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-waldtiere-426f"
+  },
+  {
+   "slug": "wort-raten-normal-weihnachten-acb4",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-weihnachten-acb4"
+  },
+  {
+   "slug": "wort-raten-normal-weltraum-1798",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-weltraum-1798"
+  },
+  {
+   "slug": "wort-raten-normal-werkzeuge-965f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-werkzeuge-965f"
+  },
+  {
+   "slug": "wort-raten-normal-wetter-7cc5",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-wetter-7cc5"
+  },
+  {
+   "slug": "wort-raten-normal-winter-5a00",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-winter-5a00"
+  },
+  {
+   "slug": "wort-raten-normal-zootiere-bae5",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-zootiere-bae5"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-accessoires-8cbc",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-accessoires-8cbc"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-aktivitaten-3bcd",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-aktivitaten-3bcd"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-backerei-55bb",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-backerei-55bb"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-bauernhoftiere-9218",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-bauernhoftiere-9218"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-baume-d862",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-baume-d862"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-berufe-58f4",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-berufe-58f4"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-blumen-b2c4",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-blumen-b2c4"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-camping-a63b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-camping-a63b"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-desserts-und-sussigkeiten-717e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-desserts-und-sussigkeiten-717e"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-dinge-die-fliegen-1502",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-dinge-die-fliegen-1502"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-dinosaurier-d81f",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-dinosaurier-d81f"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-emotionen-8cbe",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-emotionen-8cbe"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-erntedankfest-c53a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-erntedankfest-c53a"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-fahrzeuge-f274",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-fahrzeuge-f274"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-farben-d6a8",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-farben-d6a8"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-formen-ffa7",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-formen-ffa7"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-fruchte-ca84",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-fruchte-ca84"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-fruhling-55e5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-fruhling-55e5"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-fruhstuck-d1a5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-fruhstuck-d1a5"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-gemuse-947b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-gemuse-947b"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-haustiere-f6ba",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-haustiere-f6ba"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-im-supermarkt-8bbd",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-im-supermarkt-8bbd"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-insekten-und-kafer-ffad",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-insekten-und-kafer-ffad"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-klassenzimmer-132a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-klassenzimmer-132a"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-kleidung-481f",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-kleidung-481f"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-korperteile-51ed",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-korperteile-51ed"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-krankenhaus-d12b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-krankenhaus-d12b"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-kuchenwerkzeuge-d5aa",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-kuchenwerkzeuge-d5aa"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-meeresleben-03a2",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-meeresleben-03a2"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-mobel-f6a6",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-mobel-f6a6"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-musik-f05a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-musik-f05a"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-ostern-f7a2",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-ostern-f7a2"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-postamt-8b97",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-postamt-8b97"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-rund-ums-haus-b391",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-rund-ums-haus-b391"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-sommer-455e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-sommer-455e"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-spielzeug-8f02",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-spielzeug-8f02"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-strand-08b8",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-strand-08b8"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-tiere-f1df",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-tiere-f1df"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-vogel-2-1c47",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-vogel-2-1c47"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-waldtiere-cc5c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-waldtiere-cc5c"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-weihnachten-d32d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-weihnachten-d32d"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-weltraum-2701",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-weltraum-2701"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-werkzeuge-7f81",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-werkzeuge-7f81"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-wetter-8636",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-wetter-8636"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-winter-78c2",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-winter-78c2"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-zootiere-ad8d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-zootiere-ad8d"
+  }
+ ]
+}

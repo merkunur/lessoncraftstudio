@@ -1,0 +1,464 @@
+{
+ "part": 73,
+ "locale": "de",
+ "classes": [
+  "find-and-count::letter-spotting",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute"
+ ],
+ "splitOf": null,
+ "count": 54,
+ "pages": [
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-aktivitaten-51d6",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-aktivitaten-51d6"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-backerei-056c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-backerei-056c"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-bauernhoftiere-01fc",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-bauernhoftiere-01fc"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-berufe-3e6b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-berufe-3e6b"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-camping-068f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-camping-068f"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-desserts-und-sussigkeiten-d0ba",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-desserts-und-sussigkeiten-d0ba"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-dinge-die-fliegen-5deb",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-dinge-die-fliegen-5deb"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-erntedankfest-d4ae",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-erntedankfest-d4ae"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-fahrzeuge-b444",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-fahrzeuge-b444"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-fruchte-513d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-fruchte-513d"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-fruhstuck-04c8",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-fruhstuck-04c8"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-gemuse-9ee2",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-gemuse-9ee2"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-haustiere-12da",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-haustiere-12da"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-im-supermarkt-24fe",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-im-supermarkt-24fe"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-klassenzimmer-6b2b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-klassenzimmer-6b2b"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-kleidung-1d54",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-kleidung-1d54"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-korperteile-9fc1",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-korperteile-9fc1"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-krankenhaus-9908",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-krankenhaus-9908"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-kuchenwerkzeuge-b412",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-kuchenwerkzeuge-b412"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-meeresleben-52ca",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-meeresleben-52ca"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-mobel-bd02",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-mobel-bd02"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-musik-6b06",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-musik-6b06"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-ostern-564d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-ostern-564d"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-postamt-8552",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-postamt-8552"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-rund-ums-haus-3fbf",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-rund-ums-haus-3fbf"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-spielzeug-2dc3",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-spielzeug-2dc3"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-strand-1657",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-strand-1657"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-tiere",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-tiere"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-vogel-2-1d0f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-vogel-2-1d0f"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-waldtiere-6e6d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-waldtiere-6e6d"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-weltraum-754b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-weltraum-754b"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-werkzeuge-5fa6",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-werkzeuge-5fa6"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-zootiere-1bb9",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-zootiere-1bb9"
+  },
+  {
+   "slug": "malfeld-einmaleins-klasse-2",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "einmaleins-tiere-g2209"
+  },
+  {
+   "slug": "einmaleins-malnehmen-teilen-klasse-3",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "einmaleins-g3313"
+  },
+  {
+   "slug": "brueche-klasse-3-zahlenstrahl",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "brueche-g3315"
+  },
+  {
+   "slug": "bruchteile-klasse-2-anteile",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "brueche-g2228"
+  },
+  {
+   "slug": "formen-vorschule-seiten-ecken",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "vorschule",
+   "deck": "geometrie-k075"
+  },
+  {
+   "slug": "geometrie-klasse-3-vierecke-umfang",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "geometrie-g3337"
+  },
+  {
+   "slug": "geometrie-klasse-2-koerper-symmetrie",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "geometrie-g2241"
+  },
+  {
+   "slug": "diagramme-klasse-2",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "diagramme-tiere-g2237"
+  },
+  {
+   "slug": "diagramme-klasse-1",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "diagramme-tiere-g1144"
+  },
+  {
+   "slug": "diagramme-klasse-3",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "diagramme-tiere-g3335"
+  },
+  {
+   "slug": "gewicht-vergleichen-vorschule",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "vorschule",
+   "deck": "messen-tiere-k038"
+  },
+  {
+   "slug": "laenge-messen-klasse-1",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "messen-tiere-g1139"
+  },
+  {
+   "slug": "laenge-messen-lineal-klasse-2",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "messen-formen-g2235"
+  },
+  {
+   "slug": "temperatur-volumen-klasse-3",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "messen-g3345"
+  },
+  {
+   "slug": "hundertertafel-klasse-1",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "hundertertafel-g1130"
+  },
+  {
+   "slug": "zahlenmuster-klasse-3",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "hundertertafel-g3328"
+  },
+  {
+   "slug": "zahlenfolgen-vorschule",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "vorschule",
+   "deck": "hundertertafel-k021"
+  },
+  {
+   "slug": "zahlenfolgen-klasse-2",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "hundertertafel-g2218"
+  },
+  {
+   "slug": "uhrzeit-klasse-1-uhr-lesen",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "uhrzeit-g1148"
+  },
+  {
+   "slug": "uhrzeit-klasse-2-fuenf-minuten",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "uhrzeit-g2249"
+  },
+  {
+   "slug": "uhrzeit-klasse-3-zeitspannen",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "uhrzeit-g3344"
+  }
+ ]
+}

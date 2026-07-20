@@ -1,0 +1,780 @@
+{
+ "part": 262,
+ "locale": "da",
+ "classes": [
+  "code-addition::null",
+  "code-addition::secret-word"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "kodeaddition-aktiviteter-b8d7",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "activities",
+   "level": "1-klasse",
+   "deck": "kodeaddition-aktiviteter-b8d7"
+  },
+  {
+   "slug": "kodeaddition-bageri-9afb",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "kodeaddition-bageri-9afb"
+  },
+  {
+   "slug": "kodeaddition-blomster-d063",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "kodeaddition-blomster-d063"
+  },
+  {
+   "slug": "kodeaddition-bondegardsdyr-c006",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "kodeaddition-bondegardsdyr-c006"
+  },
+  {
+   "slug": "kodeaddition-camping-c832",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "camping",
+   "level": "2-klasse",
+   "deck": "kodeaddition-camping-c832"
+  },
+  {
+   "slug": "kodeaddition-desserter-og-slik-67a0",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "kodeaddition-desserter-og-slik-67a0"
+  },
+  {
+   "slug": "kodeaddition-dinosaurer-8081",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "kodeaddition-dinosaurer-8081"
+  },
+  {
+   "slug": "kodeaddition-dyr-b029",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "animals",
+   "level": "2-klasse",
+   "deck": "kodeaddition-dyr-b029"
+  },
+  {
+   "slug": "kodeaddition-erhverv-132c",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "kodeaddition-erhverv-132c"
+  },
+  {
+   "slug": "kodeaddition-farver-3b72",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "colors",
+   "level": "2-klasse",
+   "deck": "kodeaddition-farver-3b72"
+  },
+  {
+   "slug": "kodeaddition-folelser-c5d3",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "emotions",
+   "level": "1-klasse",
+   "deck": "kodeaddition-folelser-c5d3"
+  },
+  {
+   "slug": "kodeaddition-forar-ab3e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "spring",
+   "level": "2-klasse",
+   "deck": "kodeaddition-forar-ab3e"
+  },
+  {
+   "slug": "kodeaddition-former-fcac",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "kodeaddition-former-fcac"
+  },
+  {
+   "slug": "kodeaddition-frugter-522c",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "kodeaddition-frugter-522c"
+  },
+  {
+   "slug": "kodeaddition-fugle-2-bdf9",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "kodeaddition-fugle-2-bdf9"
+  },
+  {
+   "slug": "kodeaddition-fugle-edcc",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "kodeaddition-fugle-edcc"
+  },
+  {
+   "slug": "kodeaddition-grontsager-d4dd",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "2-klasse",
+   "deck": "kodeaddition-grontsager-d4dd"
+  },
+  {
+   "slug": "kodeaddition-havliv-59bb",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "kodeaddition-havliv-59bb"
+  },
+  {
+   "slug": "kodeaddition-hospital-0fca",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "hospital",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hospital-0fca"
+  },
+  {
+   "slug": "kodeaddition-i-supermarkedet-2cb8",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "2-klasse",
+   "deck": "kodeaddition-i-supermarkedet-2cb8"
+  },
+  {
+   "slug": "kodeaddition-insekter-og-kryb-30b6",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "kodeaddition-insekter-og-kryb-30b6"
+  },
+  {
+   "slug": "kodeaddition-jul-be23",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "christmas",
+   "level": "2-klasse",
+   "deck": "kodeaddition-jul-be23"
+  },
+  {
+   "slug": "kodeaddition-kaeledyr-8846",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "pets",
+   "level": "2-klasse",
+   "deck": "kodeaddition-kaeledyr-8846"
+  },
+  {
+   "slug": "kodeaddition-klassevaerelse-76d1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "kodeaddition-klassevaerelse-76d1"
+  },
+  {
+   "slug": "kodeaddition-kokkenredskaber-c92e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "kodeaddition-kokkenredskaber-c92e"
+  },
+  {
+   "slug": "kodeaddition-koretojer-d4fe",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "kodeaddition-koretojer-d4fe"
+  },
+  {
+   "slug": "kodeaddition-kropsdele-8a53",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "kodeaddition-kropsdele-8a53"
+  },
+  {
+   "slug": "kodeaddition-krybdyr-og-padder-de2f",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "kodeaddition-krybdyr-og-padder-de2f"
+  },
+  {
+   "slug": "kodeaddition-legetoj-fb88",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "toys",
+   "level": "2-klasse",
+   "deck": "kodeaddition-legetoj-fb88"
+  },
+  {
+   "slug": "kodeaddition-mobler-cdc4",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "furniture",
+   "level": "2-klasse",
+   "deck": "kodeaddition-mobler-cdc4"
+  },
+  {
+   "slug": "kodeaddition-morgenmad-8c7b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "2-klasse",
+   "deck": "kodeaddition-morgenmad-8c7b"
+  },
+  {
+   "slug": "kodeaddition-musik-998b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "music",
+   "level": "2-klasse",
+   "deck": "kodeaddition-musik-998b"
+  },
+  {
+   "slug": "kodeaddition-paske-0b6a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "easter",
+   "level": "2-klasse",
+   "deck": "kodeaddition-paske-0b6a"
+  },
+  {
+   "slug": "kodeaddition-postkontor-11e0",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "kodeaddition-postkontor-11e0"
+  },
+  {
+   "slug": "kodeaddition-rummet-ce42",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "space",
+   "level": "2-klasse",
+   "deck": "kodeaddition-rummet-ce42"
+  },
+  {
+   "slug": "kodeaddition-rundt-i-huset-94d3",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "2-klasse",
+   "deck": "kodeaddition-rundt-i-huset-94d3"
+  },
+  {
+   "slug": "kodeaddition-skovdyr-558a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "2-klasse",
+   "deck": "kodeaddition-skovdyr-558a"
+  },
+  {
+   "slug": "kodeaddition-sommer-1faa",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "summer",
+   "level": "2-klasse",
+   "deck": "kodeaddition-sommer-1faa"
+  },
+  {
+   "slug": "kodeaddition-strand-2909",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "kodeaddition-strand-2909"
+  },
+  {
+   "slug": "kodeaddition-thanksgiving-b01f",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "2-klasse",
+   "deck": "kodeaddition-thanksgiving-b01f"
+  },
+  {
+   "slug": "kodeaddition-tilbehor-5db5",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "accessories",
+   "level": "2-klasse",
+   "deck": "kodeaddition-tilbehor-5db5"
+  },
+  {
+   "slug": "kodeaddition-ting-der-flyver-b650",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "2-klasse",
+   "deck": "kodeaddition-ting-der-flyver-b650"
+  },
+  {
+   "slug": "kodeaddition-toj-650d",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "clothing",
+   "level": "2-klasse",
+   "deck": "kodeaddition-toj-650d"
+  },
+  {
+   "slug": "kodeaddition-traeer-918d",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tree",
+   "level": "2-klasse",
+   "deck": "kodeaddition-traeer-918d"
+  },
+  {
+   "slug": "kodeaddition-vaerktoj-50bc",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "kodeaddition-vaerktoj-50bc"
+  },
+  {
+   "slug": "kodeaddition-vejr-8672",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "kodeaddition-vejr-8672"
+  },
+  {
+   "slug": "kodeaddition-vinter-fa5e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "kodeaddition-vinter-fa5e"
+  },
+  {
+   "slug": "kodeaddition-zoodyr-d76b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "2-klasse",
+   "deck": "kodeaddition-zoodyr-d76b"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-aktiviteter-fdd2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "activities",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-aktiviteter-fdd2"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-bageri-706c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "bakery",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-bageri-706c"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-blomster-c5df",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "flowers",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-blomster-c5df"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-bondegardsdyr-5947",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "farm_animals",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-bondegardsdyr-5947"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-camping-f213",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "camping",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-camping-f213"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-desserter-og-slik-e372",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-desserter-og-slik-e372"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-dinosaurer-cb43",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "dinosaurs",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-dinosaurer-cb43"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-dyr-064a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "animals",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-dyr-064a"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-erhverv-502c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "occupations",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-erhverv-502c"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-farver-3d71",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-farver-3d71"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-folelser-bb82",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "emotions",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-folelser-bb82"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-forar-787f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "spring",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-forar-787f"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-former-3c34",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "shapes",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-former-3c34"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-frugter-02e7",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-frugter-02e7"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-fugle-2-5420",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-fugle-2-5420"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-fugle-d59d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-fugle-d59d"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-grontsager-7c6a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vegetables",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-grontsager-7c6a"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-havliv-9842",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "ocean_life",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-havliv-9842"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-hospital-8ae6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "hospital",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-hospital-8ae6"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-i-supermarkedet-b8a1",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "at_the_supermarket",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-i-supermarkedet-b8a1"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-insekter-og-kryb-b9ef",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-insekter-og-kryb-b9ef"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-jul-4d0c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "christmas",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-jul-4d0c"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-kaeledyr-f5b2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "pets",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-kaeledyr-f5b2"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-klassevaerelse-e9af",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-klassevaerelse-e9af"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-kokkenredskaber-54b9",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "kitchen_tools",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-kokkenredskaber-54b9"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-koretojer-d5c5",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vehicles",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-koretojer-d5c5"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-kropsdele-0803",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-kropsdele-0803"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-krybdyr-og-padder-ef73",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-krybdyr-og-padder-ef73"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-legetoj-cb3d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "toys",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-legetoj-cb3d"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-mobler-aaea",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "furniture",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-mobler-aaea"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-morgenmad-acfd",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "breakfast",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-morgenmad-acfd"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-musik-44bb",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "music",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-musik-44bb"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-paske-039d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "easter",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-paske-039d"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-postkontor-a25d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "post_office",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-postkontor-a25d"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-rummet-336a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-rummet-336a"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-rundt-i-huset-3d21",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-rundt-i-huset-3d21"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-skovdyr-3478",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-skovdyr-3478"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-sommer-99cc",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "summer",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-sommer-99cc"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-strand-55cc",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-strand-55cc"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-thanksgiving-62d7",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-thanksgiving-62d7"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-tilbehor-feda",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "accessories",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-tilbehor-feda"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-ting-der-flyver-cd31",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "things_that_fly",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-ting-der-flyver-cd31"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-toj-3fb8",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "clothing",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-toj-3fb8"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-traeer-ff26",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tree",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-traeer-ff26"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-vaerktoj-2325",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tools",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-vaerktoj-2325"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-vejr-6263",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "weather",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-vejr-6263"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-vinter-3a76",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "winter",
+   "level": "2-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-vinter-3a76"
+  },
+  {
+   "slug": "kodeaddition-hemmeligt-ord-zoodyr-4a6b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "kodeaddition-hemmeligt-ord-zoodyr-4a6b"
+  }
+ ]
+}

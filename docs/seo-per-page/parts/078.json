@@ -1,0 +1,584 @@
+{
+ "part": 78,
+ "locale": "es",
+ "classes": [
+  "wordsearch::null"
+ ],
+ "splitOf": {
+  "class": "wordsearch::null",
+  "total": 141,
+  "chunk": 1,
+  "chunks": 2
+ },
+ "count": 71,
+ "pages": [
+  {
+   "slug": "ingles-sopa-de-letras-4-de-julio-add3",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-4-de-julio-add3"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-accesorios-95ad",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-accesorios-95ad"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-actividades-3778",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-actividades-3778"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-alrededor-de-la-casa-d176",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-alrededor-de-la-casa-d176"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-animales-a8dd",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-animales-a8dd"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-animales-de-granja-197f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-animales-de-granja-197f"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-animales-del-zoologico-7d22",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-animales-del-zoologico-7d22"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-arboles-c670",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tree",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-arboles-c670"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-aves-1154",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-aves-1154"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-aves-2-db11",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-aves-2-db11"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-campamento-267f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-campamento-267f"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-clima-1980",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-clima-1980"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-colores-3ac9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-colores-3ac9"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-cosas-que-vuelan-f867",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-cosas-que-vuelan-f867"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-criaturas-del-bosque-2608",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-criaturas-del-bosque-2608"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-desayuno-d208",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-desayuno-d208"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-dia-de-accion-de-gracias-c342",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-dia-de-accion-de-gracias-c342"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-emociones-925e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-emociones-925e"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-en-el-supermercado-1323",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-en-el-supermercado-1323"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-espacio-9dd4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-espacio-9dd4"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-flores-bc40",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-flores-bc40"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-formas-b5a7",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-formas-b5a7"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-frutas-eb05",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-frutas-eb05"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-herramientas-b67f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-herramientas-b67f"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-hospital-8f10",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-hospital-8f10"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-insectos-y-bichos-9106",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-insectos-y-bichos-9106"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-invierno-06ee",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-invierno-06ee"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-juguetes-573c",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-juguetes-573c"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-mascotas-3c76",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-mascotas-3c76"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-muebles-8e49",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-muebles-8e49"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-musica-158e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-musica-158e"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-navidad-5775",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-navidad-5775"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-ocupaciones-68ef",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-ocupaciones-68ef"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-oficina-de-correos-2e0d",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-oficina-de-correos-2e0d"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-panaderia-6bdc",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-panaderia-6bdc"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-partes-del-cuerpo-1406",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-partes-del-cuerpo-1406"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-pascua-98ee",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-pascua-98ee"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-playa-a408",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-playa-a408"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-postres-y-dulces-c67a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-postres-y-dulces-c67a"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-ropa-10b1",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-ropa-10b1"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-salon-de-clases-7a0f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-salon-de-clases-7a0f"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-utensilios-de-cocina-a976",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-utensilios-de-cocina-a976"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-vehiculos-67c9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-vehiculos-67c9"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-verano-0946",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-verano-0946"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-verduras-773e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-verduras-773e"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-vida-marina-d426",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-vida-marina-d426"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-4-de-julio-b11b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-4-de-julio-b11b"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-accesorios-7391",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-accesorios-7391"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-actividades-51ac",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-actividades-51ac"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-alrededor-de-la-casa-91a4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-alrededor-de-la-casa-91a4"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-animales-74a7",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-animales-74a7"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-animales-de-granja-b118",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-animales-de-granja-b118"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-animales-del-zoologico-d8eb",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-animales-del-zoologico-d8eb"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-arboles-25ac",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tree",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-arboles-25ac"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-aves-2-5ab7",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-aves-2-5ab7"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-aves-2b29",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-aves-2b29"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-campamento-378f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-campamento-378f"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-clima-732f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-clima-732f"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-colores-2bcd",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-colores-2bcd"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-cosas-que-vuelan-89a6",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-cosas-que-vuelan-89a6"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-criaturas-del-bosque-9f9a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-criaturas-del-bosque-9f9a"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-desayuno-9ead",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-desayuno-9ead"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-dia-de-accion-de-gracias-cf8a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-dia-de-accion-de-gracias-cf8a"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-emociones-e35a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-emociones-e35a"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-en-el-supermercado-1873",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-en-el-supermercado-1873"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-espacio-a29c",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-espacio-a29c"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-flores-926b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-flores-926b"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-formas-e57d",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-formas-e57d"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-frutas-3b29",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-frutas-3b29"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-herramientas-3b92",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-herramientas-3b92"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-hospital-d045",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-hospital-d045"
+  }
+ ]
+}

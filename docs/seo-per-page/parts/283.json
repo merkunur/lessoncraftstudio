@@ -1,0 +1,636 @@
+{
+ "part": 283,
+ "locale": "da",
+ "classes": [
+  "addition::image-number",
+  "math-puzzle::mixed"
+ ],
+ "splitOf": null,
+ "count": 78,
+ "pages": [
+  {
+   "slug": "addition-billede-tal-bageri-65d8",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-bageri-65d8"
+  },
+  {
+   "slug": "addition-billede-tal-blomster-a291",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-blomster-a291"
+  },
+  {
+   "slug": "addition-billede-tal-bondegardsdyr-d2e5",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-bondegardsdyr-d2e5"
+  },
+  {
+   "slug": "addition-billede-tal-camping-5c7f",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-camping-5c7f"
+  },
+  {
+   "slug": "addition-billede-tal-dinosaurer-7284",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-dinosaurer-7284"
+  },
+  {
+   "slug": "addition-billede-tal-dyr-ce70",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-dyr-ce70"
+  },
+  {
+   "slug": "addition-billede-tal-erhverv-cb9f",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-erhverv-cb9f"
+  },
+  {
+   "slug": "addition-billede-tal-former-f738",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-former-f738"
+  },
+  {
+   "slug": "addition-billede-tal-frugter-1fdb",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-frugter-1fdb"
+  },
+  {
+   "slug": "addition-billede-tal-fugle-2-e6a8",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-fugle-2-e6a8"
+  },
+  {
+   "slug": "addition-billede-tal-fugle-7f60",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-fugle-7f60"
+  },
+  {
+   "slug": "addition-billede-tal-grontsager-7ad4",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-grontsager-7ad4"
+  },
+  {
+   "slug": "addition-billede-tal-havliv-2563",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-havliv-2563"
+  },
+  {
+   "slug": "addition-billede-tal-hospital-b96b",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-hospital-b96b"
+  },
+  {
+   "slug": "addition-billede-tal-i-supermarkedet-ae6e",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-i-supermarkedet-ae6e"
+  },
+  {
+   "slug": "addition-billede-tal-insekter-og-kryb-5c74",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-insekter-og-kryb-5c74"
+  },
+  {
+   "slug": "addition-billede-tal-jul-2fb8",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-jul-2fb8"
+  },
+  {
+   "slug": "addition-billede-tal-kaeledyr-6a80",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-kaeledyr-6a80"
+  },
+  {
+   "slug": "addition-billede-tal-klassevaerelse-a3fa",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-klassevaerelse-a3fa"
+  },
+  {
+   "slug": "addition-billede-tal-kokkenredskaber-3cce",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-kokkenredskaber-3cce"
+  },
+  {
+   "slug": "addition-billede-tal-koretojer-2fc0",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-koretojer-2fc0"
+  },
+  {
+   "slug": "addition-billede-tal-krybdyr-og-padder-ec8d",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-krybdyr-og-padder-ec8d"
+  },
+  {
+   "slug": "addition-billede-tal-legetoj-21f1",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-legetoj-21f1"
+  },
+  {
+   "slug": "addition-billede-tal-mobler-4235",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-mobler-4235"
+  },
+  {
+   "slug": "addition-billede-tal-morgenmad-690c",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-morgenmad-690c"
+  },
+  {
+   "slug": "addition-billede-tal-musik-1479",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-musik-1479"
+  },
+  {
+   "slug": "addition-billede-tal-paske-9854",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-paske-9854"
+  },
+  {
+   "slug": "addition-billede-tal-postkontor-8fa6",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-postkontor-8fa6"
+  },
+  {
+   "slug": "addition-billede-tal-rummet-8a50",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-rummet-8a50"
+  },
+  {
+   "slug": "addition-billede-tal-rundt-i-huset-a29e",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-rundt-i-huset-a29e"
+  },
+  {
+   "slug": "addition-billede-tal-skovdyr-ace0",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-skovdyr-ace0"
+  },
+  {
+   "slug": "addition-billede-tal-strand-8558",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-strand-8558"
+  },
+  {
+   "slug": "addition-billede-tal-thanksgiving-60cf",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-thanksgiving-60cf"
+  },
+  {
+   "slug": "addition-billede-tal-tilbehor-5a7d",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-tilbehor-5a7d"
+  },
+  {
+   "slug": "addition-billede-tal-ting-der-flyver-f141",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-ting-der-flyver-f141"
+  },
+  {
+   "slug": "addition-billede-tal-toj-47fe",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-toj-47fe"
+  },
+  {
+   "slug": "addition-billede-tal-traeer-c8ac",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-traeer-c8ac"
+  },
+  {
+   "slug": "addition-billede-tal-vaerktoj-8f33",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-vaerktoj-8f33"
+  },
+  {
+   "slug": "addition-billede-tal-zoodyr-a8b1",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-zoodyr-a8b1"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-bageri-6c6f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-bageri-6c6f"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-blomster-71e1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-blomster-71e1"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-bondegardsdyr-b009",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-bondegardsdyr-b009"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-camping-0603",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-camping-0603"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-dinosaurer-bbf7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-dinosaurer-bbf7"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-dyr",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-dyr"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-erhverv-a753",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-erhverv-a753"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-former-cc92",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-former-cc92"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-frugter-4691",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-frugter-4691"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-fugle-2-51a7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-fugle-2-51a7"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-fugle-a521",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-fugle-a521"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-grontsager-ab0b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-grontsager-ab0b"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-havliv-71de",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-havliv-71de"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-hospital-5bda",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-hospital-5bda"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-i-supermarkedet-e812",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-i-supermarkedet-e812"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-insekter-og-kryb-27b2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-insekter-og-kryb-27b2"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-jul-da65",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-jul-da65"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-kaeledyr-1c29",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-kaeledyr-1c29"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-klassevaerelse-b3fd",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-klassevaerelse-b3fd"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-kokkenredskaber-296f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-kokkenredskaber-296f"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-koretojer-181d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-koretojer-181d"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-krybdyr-og-padder-9d3d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-krybdyr-og-padder-9d3d"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-legetoj-5c17",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-legetoj-5c17"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-mobler-4bde",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-mobler-4bde"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-morgenmad-a4cf",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-morgenmad-a4cf"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-musik-5320",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-musik-5320"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-paske-43b4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-paske-43b4"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-postkontor-c4ee",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-postkontor-c4ee"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-rummet-c46a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-rummet-c46a"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-rundt-i-huset-22b3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-rundt-i-huset-22b3"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-skovdyr-1969",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-skovdyr-1969"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-strand-1e1f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-strand-1e1f"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-thanksgiving-666d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-thanksgiving-666d"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-tilbehor-fedf",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-tilbehor-fedf"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-ting-der-flyver-2e78",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-ting-der-flyver-2e78"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-toj-b379",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-toj-b379"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-traeer-2dac",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-traeer-2dac"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-vaerktoj-fd5d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-vaerktoj-fd5d"
+  },
+  {
+   "slug": "matematikpuslespil-blandet-zoodyr-3041",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-blandet-zoodyr-3041"
+  }
+ ]
+}

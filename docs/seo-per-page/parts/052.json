@@ -1,0 +1,780 @@
+{
+ "part": 52,
+ "locale": "de",
+ "classes": [
+  "pattern-train::aab",
+  "pattern-train::abb"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "muster-zug-aab-accessoires-0a14",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-accessoires-0a14"
+  },
+  {
+   "slug": "muster-zug-aab-aktivitaten-8803",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-aktivitaten-8803"
+  },
+  {
+   "slug": "muster-zug-aab-backerei-345e",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-backerei-345e"
+  },
+  {
+   "slug": "muster-zug-aab-bauernhoftiere-0d3a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-bauernhoftiere-0d3a"
+  },
+  {
+   "slug": "muster-zug-aab-baume-3881",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-baume-3881"
+  },
+  {
+   "slug": "muster-zug-aab-berufe-c9be",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-berufe-c9be"
+  },
+  {
+   "slug": "muster-zug-aab-blumen-ab86",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-blumen-ab86"
+  },
+  {
+   "slug": "muster-zug-aab-camping-5462",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-camping-5462"
+  },
+  {
+   "slug": "muster-zug-aab-desserts-und-sussigkeiten-66cc",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-desserts-und-sussigkeiten-66cc"
+  },
+  {
+   "slug": "muster-zug-aab-dinge-die-fliegen-d8c2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-dinge-die-fliegen-d8c2"
+  },
+  {
+   "slug": "muster-zug-aab-dinosaurier-9f02",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-dinosaurier-9f02"
+  },
+  {
+   "slug": "muster-zug-aab-emotionen-c1d8",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-emotionen-c1d8"
+  },
+  {
+   "slug": "muster-zug-aab-erntedankfest-226c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-erntedankfest-226c"
+  },
+  {
+   "slug": "muster-zug-aab-fahrzeuge-ec0e",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-fahrzeuge-ec0e"
+  },
+  {
+   "slug": "muster-zug-aab-farben-365a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-farben-365a"
+  },
+  {
+   "slug": "muster-zug-aab-formen-c41b",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-formen-c41b"
+  },
+  {
+   "slug": "muster-zug-aab-fruchte-e5dc",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-fruchte-e5dc"
+  },
+  {
+   "slug": "muster-zug-aab-fruhling-1c34",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-fruhling-1c34"
+  },
+  {
+   "slug": "muster-zug-aab-fruhstuck-55c2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-fruhstuck-55c2"
+  },
+  {
+   "slug": "muster-zug-aab-gemuse-1dbd",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-gemuse-1dbd"
+  },
+  {
+   "slug": "muster-zug-aab-haustiere-09bd",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-haustiere-09bd"
+  },
+  {
+   "slug": "muster-zug-aab-im-supermarkt-1bf2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-im-supermarkt-1bf2"
+  },
+  {
+   "slug": "muster-zug-aab-insekten-und-kafer-c98c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-insekten-und-kafer-c98c"
+  },
+  {
+   "slug": "muster-zug-aab-klassenzimmer-9e40",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-klassenzimmer-9e40"
+  },
+  {
+   "slug": "muster-zug-aab-kleidung-53e5",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-kleidung-53e5"
+  },
+  {
+   "slug": "muster-zug-aab-korperteile-931a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-korperteile-931a"
+  },
+  {
+   "slug": "muster-zug-aab-krankenhaus-b63e",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-krankenhaus-b63e"
+  },
+  {
+   "slug": "muster-zug-aab-kuchenwerkzeuge-cc4e",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-kuchenwerkzeuge-cc4e"
+  },
+  {
+   "slug": "muster-zug-aab-meeresleben-6dc1",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-meeresleben-6dc1"
+  },
+  {
+   "slug": "muster-zug-aab-mobel-ab22",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-mobel-ab22"
+  },
+  {
+   "slug": "muster-zug-aab-musik-04a5",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-musik-04a5"
+  },
+  {
+   "slug": "muster-zug-aab-ostern-d737",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-ostern-d737"
+  },
+  {
+   "slug": "muster-zug-aab-postamt-0607",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-postamt-0607"
+  },
+  {
+   "slug": "muster-zug-aab-reptilien-und-amphibien-026d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "reptiles_and_amphibians",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-reptilien-und-amphibien-026d"
+  },
+  {
+   "slug": "muster-zug-aab-rund-ums-haus-7b2d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-rund-ums-haus-7b2d"
+  },
+  {
+   "slug": "muster-zug-aab-sommer-6940",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-sommer-6940"
+  },
+  {
+   "slug": "muster-zug-aab-spielzeug-53f0",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-spielzeug-53f0"
+  },
+  {
+   "slug": "muster-zug-aab-strand-b0d0",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-strand-b0d0"
+  },
+  {
+   "slug": "muster-zug-aab-tiere-2a6c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-tiere-2a6c"
+  },
+  {
+   "slug": "muster-zug-aab-vogel-0a59",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-vogel-0a59"
+  },
+  {
+   "slug": "muster-zug-aab-vogel-2-7a79",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-vogel-2-7a79"
+  },
+  {
+   "slug": "muster-zug-aab-waldtiere-8def",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-waldtiere-8def"
+  },
+  {
+   "slug": "muster-zug-aab-weihnachten-5bb6",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-weihnachten-5bb6"
+  },
+  {
+   "slug": "muster-zug-aab-weltraum-228a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-weltraum-228a"
+  },
+  {
+   "slug": "muster-zug-aab-werkzeuge-290d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-werkzeuge-290d"
+  },
+  {
+   "slug": "muster-zug-aab-wetter-3c92",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-wetter-3c92"
+  },
+  {
+   "slug": "muster-zug-aab-winter-2527",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-winter-2527"
+  },
+  {
+   "slug": "muster-zug-aab-zootiere-56f7",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-zootiere-56f7"
+  },
+  {
+   "slug": "muster-zug-abb-accessoires-8e4d",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-accessoires-8e4d"
+  },
+  {
+   "slug": "muster-zug-abb-aktivitaten-02cb",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-aktivitaten-02cb"
+  },
+  {
+   "slug": "muster-zug-abb-backerei-e319",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-backerei-e319"
+  },
+  {
+   "slug": "muster-zug-abb-bauernhoftiere-abe7",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-bauernhoftiere-abe7"
+  },
+  {
+   "slug": "muster-zug-abb-baume-4fcf",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-baume-4fcf"
+  },
+  {
+   "slug": "muster-zug-abb-berufe-1b4c",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-berufe-1b4c"
+  },
+  {
+   "slug": "muster-zug-abb-blumen-8407",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-blumen-8407"
+  },
+  {
+   "slug": "muster-zug-abb-camping-2694",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-camping-2694"
+  },
+  {
+   "slug": "muster-zug-abb-desserts-und-sussigkeiten-b53d",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-desserts-und-sussigkeiten-b53d"
+  },
+  {
+   "slug": "muster-zug-abb-dinge-die-fliegen-ce3b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-dinge-die-fliegen-ce3b"
+  },
+  {
+   "slug": "muster-zug-abb-dinosaurier-7f6e",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-dinosaurier-7f6e"
+  },
+  {
+   "slug": "muster-zug-abb-emotionen-5e51",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-emotionen-5e51"
+  },
+  {
+   "slug": "muster-zug-abb-erntedankfest-25f3",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-erntedankfest-25f3"
+  },
+  {
+   "slug": "muster-zug-abb-fahrzeuge-eea9",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-fahrzeuge-eea9"
+  },
+  {
+   "slug": "muster-zug-abb-farben-1d6c",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-farben-1d6c"
+  },
+  {
+   "slug": "muster-zug-abb-formen-5d40",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-formen-5d40"
+  },
+  {
+   "slug": "muster-zug-abb-fruchte-df8c",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-fruchte-df8c"
+  },
+  {
+   "slug": "muster-zug-abb-fruhling-4c3b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-fruhling-4c3b"
+  },
+  {
+   "slug": "muster-zug-abb-fruhstuck-306d",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-fruhstuck-306d"
+  },
+  {
+   "slug": "muster-zug-abb-gemuse-6984",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-gemuse-6984"
+  },
+  {
+   "slug": "muster-zug-abb-haustiere-fa8b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-haustiere-fa8b"
+  },
+  {
+   "slug": "muster-zug-abb-im-supermarkt-345b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-im-supermarkt-345b"
+  },
+  {
+   "slug": "muster-zug-abb-insekten-und-kafer-982c",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-insekten-und-kafer-982c"
+  },
+  {
+   "slug": "muster-zug-abb-klassenzimmer-f7bf",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-klassenzimmer-f7bf"
+  },
+  {
+   "slug": "muster-zug-abb-kleidung-77db",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-kleidung-77db"
+  },
+  {
+   "slug": "muster-zug-abb-korperteile-d7f0",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-korperteile-d7f0"
+  },
+  {
+   "slug": "muster-zug-abb-krankenhaus-f65e",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-krankenhaus-f65e"
+  },
+  {
+   "slug": "muster-zug-abb-kuchenwerkzeuge-74ab",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-kuchenwerkzeuge-74ab"
+  },
+  {
+   "slug": "muster-zug-abb-meeresleben-e73c",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-meeresleben-e73c"
+  },
+  {
+   "slug": "muster-zug-abb-mobel-c819",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-mobel-c819"
+  },
+  {
+   "slug": "muster-zug-abb-musik-5d20",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-musik-5d20"
+  },
+  {
+   "slug": "muster-zug-abb-ostern-310f",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-ostern-310f"
+  },
+  {
+   "slug": "muster-zug-abb-postamt-ed59",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-postamt-ed59"
+  },
+  {
+   "slug": "muster-zug-abb-reptilien-und-amphibien-7a1f",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "reptiles_and_amphibians",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-reptilien-und-amphibien-7a1f"
+  },
+  {
+   "slug": "muster-zug-abb-rund-ums-haus-ec09",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-rund-ums-haus-ec09"
+  },
+  {
+   "slug": "muster-zug-abb-sommer-806d",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-sommer-806d"
+  },
+  {
+   "slug": "muster-zug-abb-spielzeug-0a52",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-spielzeug-0a52"
+  },
+  {
+   "slug": "muster-zug-abb-strand-1bea",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-strand-1bea"
+  },
+  {
+   "slug": "muster-zug-abb-tiere-978f",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-tiere-978f"
+  },
+  {
+   "slug": "muster-zug-abb-vogel-2-e34b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-vogel-2-e34b"
+  },
+  {
+   "slug": "muster-zug-abb-vogel-c9f1",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-vogel-c9f1"
+  },
+  {
+   "slug": "muster-zug-abb-waldtiere-7018",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-waldtiere-7018"
+  },
+  {
+   "slug": "muster-zug-abb-weihnachten-fe32",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-weihnachten-fe32"
+  },
+  {
+   "slug": "muster-zug-abb-weltraum-ef3f",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-weltraum-ef3f"
+  },
+  {
+   "slug": "muster-zug-abb-werkzeuge-2b54",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-werkzeuge-2b54"
+  },
+  {
+   "slug": "muster-zug-abb-wetter-951f",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-wetter-951f"
+  },
+  {
+   "slug": "muster-zug-abb-winter-9e95",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-winter-9e95"
+  },
+  {
+   "slug": "muster-zug-abb-zootiere-8328",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-zootiere-8328"
+  }
+ ]
+}

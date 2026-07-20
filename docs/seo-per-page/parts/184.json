@@ -1,0 +1,724 @@
+{
+ "part": 184,
+ "locale": "it",
+ "classes": [
+  "shadow-match::find-shadow",
+  "word-guess::normal"
+ ],
+ "splitOf": null,
+ "count": 89,
+ "pages": [
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-abbigliamento-a025",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-abbigliamento-a025"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-accessori-6247",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-accessori-6247"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-al-supermercato-43c1",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-al-supermercato-43c1"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-alberi-4d55",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-alberi-4d55"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-animali",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-animali"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-animali-della-fattoria-92e4",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-animali-della-fattoria-92e4"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-animali-dello-zoo-25e3",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-animali-dello-zoo-25e3"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-animali-domestici-3a8a",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-animali-domestici-3a8a"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-attivita-d1d3",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-attivita-d1d3"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-attrezzi-f010",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-attrezzi-f010"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-aula-0975",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-aula-0975"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-campeggio-5bfc",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-campeggio-5bfc"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-colazione-df6b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-colazione-df6b"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-cose-che-volano-5a14",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-cose-che-volano-5a14"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-creature-della-foresta-c373",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-creature-della-foresta-c373"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-dinosauri-e3d2",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-dinosauri-e3d2"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-dolci-e-dolciumi-b83e",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-dolci-e-dolciumi-b83e"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-estate-7f55",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-estate-7f55"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-fiori-6707",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-fiori-6707"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-frutta-0855",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-frutta-0855"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-giocattoli-c3d9",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-giocattoli-c3d9"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-giorno-del-ringraziamento-1a0d",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-giorno-del-ringraziamento-1a0d"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-in-giro-per-casa-eb18",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-in-giro-per-casa-eb18"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-insetti-e-scarafaggi-3cc7",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-insetti-e-scarafaggi-3cc7"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-inverno-093e",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-inverno-093e"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-meteo-968e",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-meteo-968e"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-mobili-7cf7",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-mobili-7cf7"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-musica-ca82",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-musica-ca82"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-natale-acfa",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-natale-acfa"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-ospedale-a4e9",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-ospedale-a4e9"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-panetteria-456a",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-panetteria-456a"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-parti-del-corpo-9183",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-parti-del-corpo-9183"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-pasqua-e851",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-pasqua-e851"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-primavera-1941",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-primavera-1941"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-professioni-2c07",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-professioni-2c07"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-rettili-e-anfibi-0a51",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-rettili-e-anfibi-0a51"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-spazio-e039",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-spazio-e039"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-spiaggia-c25e",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-spiaggia-c25e"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-uccelli-2-fb34",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-uccelli-2-fb34"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-uccelli-9e8a",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-uccelli-9e8a"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-ufficio-postale-faaa",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-ufficio-postale-faaa"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-utensili-da-cucina-53c8",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-utensili-da-cucina-53c8"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-veicoli-0cc3",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-veicoli-0cc3"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-verdure-f3d6",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-verdure-f3d6"
+  },
+  {
+   "slug": "abbina-le-ombre-abbina-l-ombra-vita-oceanica-4345",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "abbina-le-ombre-abbina-l-ombra-vita-oceanica-4345"
+  },
+  {
+   "slug": "indovina-la-parola-normale-abbigliamento-e8ce",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-abbigliamento-e8ce"
+  },
+  {
+   "slug": "indovina-la-parola-normale-accessori-bd1e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-accessori-bd1e"
+  },
+  {
+   "slug": "indovina-la-parola-normale-al-supermercato-6ccc",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-al-supermercato-6ccc"
+  },
+  {
+   "slug": "indovina-la-parola-normale-alberi-9fcb",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-alberi-9fcb"
+  },
+  {
+   "slug": "indovina-la-parola-normale-animali-15fd",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-animali-15fd"
+  },
+  {
+   "slug": "indovina-la-parola-normale-animali-della-fattoria-88f4",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-animali-della-fattoria-88f4"
+  },
+  {
+   "slug": "indovina-la-parola-normale-animali-dello-zoo-b617",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-animali-dello-zoo-b617"
+  },
+  {
+   "slug": "indovina-la-parola-normale-animali-domestici-1cb2",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-animali-domestici-1cb2"
+  },
+  {
+   "slug": "indovina-la-parola-normale-attivita-7c30",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-attivita-7c30"
+  },
+  {
+   "slug": "indovina-la-parola-normale-aula-25ed",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-aula-25ed"
+  },
+  {
+   "slug": "indovina-la-parola-normale-campeggio-cb0a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-campeggio-cb0a"
+  },
+  {
+   "slug": "indovina-la-parola-normale-colazione-f2af",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-colazione-f2af"
+  },
+  {
+   "slug": "indovina-la-parola-normale-colori-5ac5",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-colori-5ac5"
+  },
+  {
+   "slug": "indovina-la-parola-normale-cose-che-volano-fe8e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-cose-che-volano-fe8e"
+  },
+  {
+   "slug": "indovina-la-parola-normale-creature-della-foresta-2801",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-creature-della-foresta-2801"
+  },
+  {
+   "slug": "indovina-la-parola-normale-dolci-e-dolciumi-9373",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-dolci-e-dolciumi-9373"
+  },
+  {
+   "slug": "indovina-la-parola-normale-emozioni-4a73",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-emozioni-4a73"
+  },
+  {
+   "slug": "indovina-la-parola-normale-estate-e3eb",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-estate-e3eb"
+  },
+  {
+   "slug": "indovina-la-parola-normale-fiori-524b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-fiori-524b"
+  },
+  {
+   "slug": "indovina-la-parola-normale-forme-1b9c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-forme-1b9c"
+  },
+  {
+   "slug": "indovina-la-parola-normale-frutta-eea5",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-frutta-eea5"
+  },
+  {
+   "slug": "indovina-la-parola-normale-giocattoli-b925",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-giocattoli-b925"
+  },
+  {
+   "slug": "indovina-la-parola-normale-giorno-del-ringraziamento-e147",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-giorno-del-ringraziamento-e147"
+  },
+  {
+   "slug": "indovina-la-parola-normale-in-giro-per-casa-67ad",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-in-giro-per-casa-67ad"
+  },
+  {
+   "slug": "indovina-la-parola-normale-insetti-e-scarafaggi-07fe",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-insetti-e-scarafaggi-07fe"
+  },
+  {
+   "slug": "indovina-la-parola-normale-inverno-05af",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-inverno-05af"
+  },
+  {
+   "slug": "indovina-la-parola-normale-meteo-dff0",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-meteo-dff0"
+  },
+  {
+   "slug": "indovina-la-parola-normale-mobili-c4ec",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-mobili-c4ec"
+  },
+  {
+   "slug": "indovina-la-parola-normale-musica-64ba",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-musica-64ba"
+  },
+  {
+   "slug": "indovina-la-parola-normale-natale-9e67",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-natale-9e67"
+  },
+  {
+   "slug": "indovina-la-parola-normale-panetteria-5503",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-panetteria-5503"
+  },
+  {
+   "slug": "indovina-la-parola-normale-parti-del-corpo-107e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-parti-del-corpo-107e"
+  },
+  {
+   "slug": "indovina-la-parola-normale-pasqua-ea02",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-pasqua-ea02"
+  },
+  {
+   "slug": "indovina-la-parola-normale-primavera-ff28",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-primavera-ff28"
+  },
+  {
+   "slug": "indovina-la-parola-normale-professioni-20c9",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-professioni-20c9"
+  },
+  {
+   "slug": "indovina-la-parola-normale-rettili-e-anfibi-57d0",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-rettili-e-anfibi-57d0"
+  },
+  {
+   "slug": "indovina-la-parola-normale-spazio-132e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-spazio-132e"
+  },
+  {
+   "slug": "indovina-la-parola-normale-spiaggia-ea79",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-spiaggia-ea79"
+  },
+  {
+   "slug": "indovina-la-parola-normale-uccelli-2-3670",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-uccelli-2-3670"
+  },
+  {
+   "slug": "indovina-la-parola-normale-uccelli-e831",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-uccelli-e831"
+  },
+  {
+   "slug": "indovina-la-parola-normale-utensili-da-cucina-2c8f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-utensili-da-cucina-2c8f"
+  },
+  {
+   "slug": "indovina-la-parola-normale-veicoli-a6f0",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-veicoli-a6f0"
+  },
+  {
+   "slug": "indovina-la-parola-normale-verdure-9a90",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-verdure-9a90"
+  },
+  {
+   "slug": "indovina-la-parola-normale-vita-oceanica-4937",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "indovina-la-parola-normale-vita-oceanica-4937"
+  }
+ ]
+}

@@ -1,0 +1,780 @@
+{
+ "part": 331,
+ "locale": "fi",
+ "classes": [
+  "pattern-train::null",
+  "picture-path::choose-path"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "kuviojuna-aamiainen-009f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "kuviojuna-aamiainen-009f"
+  },
+  {
+   "slug": "kuviojuna-ajoneuvot-94b6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "kuviojuna-ajoneuvot-94b6"
+  },
+  {
+   "slug": "kuviojuna-aktiviteetit-39dc",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "kuviojuna-aktiviteetit-39dc"
+  },
+  {
+   "slug": "kuviojuna-ammatit-71aa",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "kuviojuna-ammatit-71aa"
+  },
+  {
+   "slug": "kuviojuna-asusteet-9fe4",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "kuviojuna-asusteet-9fe4"
+  },
+  {
+   "slug": "kuviojuna-avaruus-a15c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "kuviojuna-avaruus-a15c"
+  },
+  {
+   "slug": "kuviojuna-dinosaurukset-bc0a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "kuviojuna-dinosaurukset-bc0a"
+  },
+  {
+   "slug": "kuviojuna-elaimet-759b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "kuviojuna-elaimet-759b"
+  },
+  {
+   "slug": "kuviojuna-elaintarhan-elaimet-7613",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "kuviojuna-elaintarhan-elaimet-7613"
+  },
+  {
+   "slug": "kuviojuna-hedelmat-39f5",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "kuviojuna-hedelmat-39f5"
+  },
+  {
+   "slug": "kuviojuna-huonekalut-60f8",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "kuviojuna-huonekalut-60f8"
+  },
+  {
+   "slug": "kuviojuna-hyonteiset-ja-otokat-006e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "kuviojuna-hyonteiset-ja-otokat-006e"
+  },
+  {
+   "slug": "kuviojuna-jalkiruoat-ja-makeiset-28aa",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "kuviojuna-jalkiruoat-ja-makeiset-28aa"
+  },
+  {
+   "slug": "kuviojuna-joulu-7a9d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "kuviojuna-joulu-7a9d"
+  },
+  {
+   "slug": "kuviojuna-keittiovalineet-5171",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "kuviojuna-keittiovalineet-5171"
+  },
+  {
+   "slug": "kuviojuna-kesa-ae3e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "kuviojuna-kesa-ae3e"
+  },
+  {
+   "slug": "kuviojuna-kevat-0418",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "kuviojuna-kevat-0418"
+  },
+  {
+   "slug": "kuviojuna-kiitospaiva-cba0",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "kuviojuna-kiitospaiva-cba0"
+  },
+  {
+   "slug": "kuviojuna-kodin-ymparilla-c989",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "kuviojuna-kodin-ymparilla-c989"
+  },
+  {
+   "slug": "kuviojuna-kukat-f1e7",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "kuviojuna-kukat-f1e7"
+  },
+  {
+   "slug": "kuviojuna-leipomo-de1b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "kuviojuna-leipomo-de1b"
+  },
+  {
+   "slug": "kuviojuna-leirielama-6e4a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "kuviojuna-leirielama-6e4a"
+  },
+  {
+   "slug": "kuviojuna-lelut-4df9",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "kuviojuna-lelut-4df9"
+  },
+  {
+   "slug": "kuviojuna-lemmikit-f8a8",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "kuviojuna-lemmikit-f8a8"
+  },
+  {
+   "slug": "kuviojuna-lentavat-asiat-9f2c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "kuviojuna-lentavat-asiat-9f2c"
+  },
+  {
+   "slug": "kuviojuna-linnut-2-3889",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "kuviojuna-linnut-2-3889"
+  },
+  {
+   "slug": "kuviojuna-linnut-2074",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds",
+   "level": "esikoulu",
+   "deck": "kuviojuna-linnut-2074"
+  },
+  {
+   "slug": "kuviojuna-luokkahuone-01ae",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "kuviojuna-luokkahuone-01ae"
+  },
+  {
+   "slug": "kuviojuna-maatilan-elaimet-1a2e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "kuviojuna-maatilan-elaimet-1a2e"
+  },
+  {
+   "slug": "kuviojuna-matelijat-ja-sammakkoelaimet-215a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "kuviojuna-matelijat-ja-sammakkoelaimet-215a"
+  },
+  {
+   "slug": "kuviojuna-merielama-da63",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "kuviojuna-merielama-da63"
+  },
+  {
+   "slug": "kuviojuna-metsan-elaimet-728e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "kuviojuna-metsan-elaimet-728e"
+  },
+  {
+   "slug": "kuviojuna-muodot-a968",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "kuviojuna-muodot-a968"
+  },
+  {
+   "slug": "kuviojuna-musiikki-a92c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "kuviojuna-musiikki-a92c"
+  },
+  {
+   "slug": "kuviojuna-paasiainen-1f13",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "kuviojuna-paasiainen-1f13"
+  },
+  {
+   "slug": "kuviojuna-postitoimisto-ffaf",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "kuviojuna-postitoimisto-ffaf"
+  },
+  {
+   "slug": "kuviojuna-puut-66c2",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "kuviojuna-puut-66c2"
+  },
+  {
+   "slug": "kuviojuna-ranta-e378",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "kuviojuna-ranta-e378"
+  },
+  {
+   "slug": "kuviojuna-ruokakaupassa-8993",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "kuviojuna-ruokakaupassa-8993"
+  },
+  {
+   "slug": "kuviojuna-ruumiinosat-d9d6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "kuviojuna-ruumiinosat-d9d6"
+  },
+  {
+   "slug": "kuviojuna-saa-a80e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "kuviojuna-saa-a80e"
+  },
+  {
+   "slug": "kuviojuna-sairaala-5a41",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "kuviojuna-sairaala-5a41"
+  },
+  {
+   "slug": "kuviojuna-talvi-8d5a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "kuviojuna-talvi-8d5a"
+  },
+  {
+   "slug": "kuviojuna-tunteet-06f5",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "kuviojuna-tunteet-06f5"
+  },
+  {
+   "slug": "kuviojuna-tyokalut-b762",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "kuviojuna-tyokalut-b762"
+  },
+  {
+   "slug": "kuviojuna-vaatteet-a6ae",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "kuviojuna-vaatteet-a6ae"
+  },
+  {
+   "slug": "kuviojuna-varit-bbcc",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "kuviojuna-varit-bbcc"
+  },
+  {
+   "slug": "kuviojuna-vihannekset-bee4",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "kuviojuna-vihannekset-bee4"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-aamiainen-516d",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-aamiainen-516d"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-ajoneuvot-d899",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-ajoneuvot-d899"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-aktiviteetit-2c3b",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-aktiviteetit-2c3b"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-ammatit-2868",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-ammatit-2868"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-asusteet-d383",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-asusteet-d383"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-avaruus-5a14",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-avaruus-5a14"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-dinosaurukset-59a7",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-dinosaurukset-59a7"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-elaimet-2ed3",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-elaimet-2ed3"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-elaintarhan-elaimet-a65c",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-elaintarhan-elaimet-a65c"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-hedelmat-48cd",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-hedelmat-48cd"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-huonekalut-2249",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-huonekalut-2249"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-hyonteiset-ja-otokat-ec22",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-hyonteiset-ja-otokat-ec22"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-jalkiruoat-ja-makeiset-0ce9",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-jalkiruoat-ja-makeiset-0ce9"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-joulu-67c4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-joulu-67c4"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-keittiovalineet-f9ac",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-keittiovalineet-f9ac"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-kesa-0d71",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-kesa-0d71"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-kevat-fd10",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-kevat-fd10"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-kiitospaiva-6841",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-kiitospaiva-6841"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-kodin-ymparilla-ff51",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-kodin-ymparilla-ff51"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-kukat-0c08",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-kukat-0c08"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-leipomo-15a3",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-leipomo-15a3"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-leirielama-ca98",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-leirielama-ca98"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-lelut-8aa7",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-lelut-8aa7"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-lemmikit-e483",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-lemmikit-e483"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-lentavat-asiat-b611",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-lentavat-asiat-b611"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-linnut-2-431e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-linnut-2-431e"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-linnut-ec44",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "birds",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-linnut-ec44"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-luokkahuone-3d59",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-luokkahuone-3d59"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-maatilan-elaimet-7023",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-maatilan-elaimet-7023"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-matelijat-ja-sammakkoelaimet-b5aa",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-matelijat-ja-sammakkoelaimet-b5aa"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-merielama-560c",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-merielama-560c"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-metsan-elaimet-8629",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-metsan-elaimet-8629"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-muodot-b541",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-muodot-b541"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-musiikki-8413",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-musiikki-8413"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-paasiainen-547f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-paasiainen-547f"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-postitoimisto-0089",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-postitoimisto-0089"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-puut-c847",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-puut-c847"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-ranta-5136",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-ranta-5136"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-ruokakaupassa-cb40",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-ruokakaupassa-cb40"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-ruumiinosat-9b24",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-ruumiinosat-9b24"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-saa-79bd",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-saa-79bd"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-sairaala-8f4a",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-sairaala-8f4a"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-talvi-db84",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-talvi-db84"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-tunteet-07d2",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-tunteet-07d2"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-tyokalut-f29e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-tyokalut-f29e"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-vaatteet-0445",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-vaatteet-0445"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-varit-5328",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-varit-5328"
+  },
+  {
+   "slug": "kuvapolku-valitse-oikea-polku-vihannekset-ae9f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "kuvapolku-valitse-oikea-polku-vihannekset-ae9f"
+  }
+ ]
+}

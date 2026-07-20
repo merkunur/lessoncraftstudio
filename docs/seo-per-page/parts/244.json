@@ -1,0 +1,708 @@
+{
+ "part": 244,
+ "locale": "sv",
+ "classes": [
+  "shadow-match::find-shadow",
+  "find-and-count::letter-spotting"
+ ],
+ "splitOf": null,
+ "count": 87,
+ "pages": [
+  {
+   "slug": "matcha-skuggor-para-skuggan-aktiviteter-9daf",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-aktiviteter-9daf"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-bageri-3ad7",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-bageri-3ad7"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-blommor-9c57",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-blommor-9c57"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-bondgardsdjur-8738",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-bondgardsdjur-8738"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-camping-8215",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-camping-8215"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-dinosaurier-b116",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-dinosaurier-b116"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-djur",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-djur"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-djurparksdjur-88a4",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-djurparksdjur-88a4"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-efterratter-och-godis-1370",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-efterratter-och-godis-1370"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-faglar-03b9",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-faglar-03b9"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-faglar-2-d113",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-faglar-2-d113"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-fordon-8db6",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-fordon-8db6"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-frukost-9d73",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-frukost-9d73"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-gronsaker-df2b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-gronsaker-df2b"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-havsliv-916b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-havsliv-916b"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-husdjur-215d",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-husdjur-215d"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-i-snabbkopet-76dc",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-i-snabbkopet-76dc"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-insekter-och-kryp-b85d",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-insekter-och-kryp-b85d"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-jul-9ed7",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-jul-9ed7"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-klader-6cda",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-klader-6cda"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-klassrum-3ca2",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-klassrum-3ca2"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-koksredskap-5775",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-koksredskap-5775"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-kroppsdelar-1078",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-kroppsdelar-1078"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-leksaker-5962",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-leksaker-5962"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-mobler-617f",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-mobler-617f"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-musik-a814",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-musik-a814"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-pask-0ca4",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-pask-0ca4"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-postkontor-7926",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-postkontor-7926"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-reptiler-och-groddjur-2969",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-reptiler-och-groddjur-2969"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-runt-huset-a7c1",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-runt-huset-a7c1"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-rymden-ce86",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-rymden-ce86"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-saker-som-flyger-8420",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-saker-som-flyger-8420"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-sjukhus-d215",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-sjukhus-d215"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-skogsdjur-622b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-skogsdjur-622b"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-sommar-ca19",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-sommar-ca19"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-strand-ab32",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-strand-ab32"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-thanksgiving-9249",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-thanksgiving-9249"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-tillbehor-416e",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-tillbehor-416e"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-trad-3a73",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-trad-3a73"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-vader-245b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-vader-245b"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-var-1f35",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-var-1f35"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-verktyg-7acc",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-verktyg-7acc"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-vinter-ad06",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-vinter-ad06"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-yrken-978b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-yrken-978b"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-aktiviteter-78e6",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-aktiviteter-78e6"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-bageri-855e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-bageri-855e"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-bondgardsdjur-afd1",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-bondgardsdjur-afd1"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-camping-f546",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-camping-f546"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-djur",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-djur"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-djurparksdjur-6d61",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-djurparksdjur-6d61"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-efterratter-och-godis-7718",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-efterratter-och-godis-7718"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-faglar-2-64fa",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-faglar-2-64fa"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-farger-23f0",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-farger-23f0"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-fordon-35f8",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-fordon-35f8"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-former-6341",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-former-6341"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-frukost-afcf",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-frukost-afcf"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-frukter-25af",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-frukter-25af"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-gronsaker-ca3c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-gronsaker-ca3c"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-havsliv-b234",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-havsliv-b234"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-husdjur-7d22",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-husdjur-7d22"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-i-snabbkopet-1a4e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-i-snabbkopet-1a4e"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-insekter-och-kryp-db35",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-insekter-och-kryp-db35"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-jul-2845",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-jul-2845"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-kanslor-e462",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-kanslor-e462"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-klader-9fa7",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-klader-9fa7"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-klassrum-b82b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-klassrum-b82b"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-koksredskap-409e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-koksredskap-409e"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-kroppsdelar-2465",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-kroppsdelar-2465"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-leksaker-7f0b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-leksaker-7f0b"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-mobler-c773",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-mobler-c773"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-musik-5443",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-musik-5443"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-pask-3a07",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-pask-3a07"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-postkontor-0afb",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-postkontor-0afb"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-runt-huset-33c8",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-runt-huset-33c8"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-rymden-9ad3",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-rymden-9ad3"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-saker-som-flyger-1f31",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-saker-som-flyger-1f31"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-sjukhus-597a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-sjukhus-597a"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-skogsdjur-29c5",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-skogsdjur-29c5"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-sommar-0c70",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-sommar-0c70"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-strand-a822",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-strand-a822"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-thanksgiving-39d4",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-thanksgiving-39d4"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-tillbehor-725e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-tillbehor-725e"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-vader-2828",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-vader-2828"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-var-b4a3",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-var-b4a3"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-verktyg-2929",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-verktyg-2929"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-vinter-ce8f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-vinter-ce8f"
+  },
+  {
+   "slug": "hitta-och-rakna-hitta-bokstaver-yrken-4663",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-hitta-bokstaver-yrken-4663"
+  }
+ ]
+}

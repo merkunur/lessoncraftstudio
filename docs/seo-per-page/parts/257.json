@@ -1,0 +1,584 @@
+{
+ "part": 257,
+ "locale": "da",
+ "classes": [
+  "picture-sort::null"
+ ],
+ "splitOf": {
+  "class": "picture-sort::null",
+  "total": 211,
+  "chunk": 2,
+  "chunks": 3
+ },
+ "count": 71,
+ "pages": [
+  {
+   "slug": "sorter-billeder-colors-vs-dinosaurs-e45d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "colors-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-colors-vs-dinosaurs-e45d"
+  },
+  {
+   "slug": "sorter-billeder-colors-vs-flowers-4859",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "colors-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-colors-vs-flowers-4859"
+  },
+  {
+   "slug": "sorter-billeder-colors-vs-vehicles-be14",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "colors-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-colors-vs-vehicles-be14"
+  },
+  {
+   "slug": "sorter-billeder-desserts-and-sweets-vs-flowers-7bd9",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "desserts_and_sweets-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-desserts-and-sweets-vs-flowers-7bd9"
+  },
+  {
+   "slug": "sorter-billeder-dinosaurs-vs-bakery-f40a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "dinosaurs-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-dinosaurs-vs-bakery-f40a"
+  },
+  {
+   "slug": "sorter-billeder-dinosaurs-vs-flowers-4f87",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "dinosaurs-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-dinosaurs-vs-flowers-4f87"
+  },
+  {
+   "slug": "sorter-billeder-dinosaurs-vs-vehicles-3ca5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "dinosaurs-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-dinosaurs-vs-vehicles-3ca5"
+  },
+  {
+   "slug": "sorter-billeder-easter-vs-bakery-c753",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "easter-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-easter-vs-bakery-c753"
+  },
+  {
+   "slug": "sorter-billeder-easter-vs-dinosaurs-10de",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "easter-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-easter-vs-dinosaurs-10de"
+  },
+  {
+   "slug": "sorter-billeder-easter-vs-vehicles-eb2c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "easter-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-easter-vs-vehicles-eb2c"
+  },
+  {
+   "slug": "sorter-billeder-emotions-vs-animals-2017",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "emotions-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-emotions-vs-animals-2017"
+  },
+  {
+   "slug": "sorter-billeder-emotions-vs-bakery-9402",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "emotions-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-emotions-vs-bakery-9402"
+  },
+  {
+   "slug": "sorter-billeder-emotions-vs-dinosaurs-17f0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "emotions-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-emotions-vs-dinosaurs-17f0"
+  },
+  {
+   "slug": "sorter-billeder-emotions-vs-flowers-66e2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "emotions-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-emotions-vs-flowers-66e2"
+  },
+  {
+   "slug": "sorter-billeder-emotions-vs-vehicles-93ad",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "emotions-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-emotions-vs-vehicles-93ad"
+  },
+  {
+   "slug": "sorter-billeder-farm-animals-vs-dinosaurs-73a7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-farm-animals-vs-dinosaurs-73a7"
+  },
+  {
+   "slug": "sorter-billeder-farm-animals-vs-flowers-66a2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-farm-animals-vs-flowers-66a2"
+  },
+  {
+   "slug": "sorter-billeder-farm-animals-vs-vehicles-ed0f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-farm-animals-vs-vehicles-ed0f"
+  },
+  {
+   "slug": "sorter-billeder-flowers-vs-animals-50ad",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-flowers-vs-animals-50ad"
+  },
+  {
+   "slug": "sorter-billeder-flowers-vs-bakery-48ee",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-flowers-vs-bakery-48ee"
+  },
+  {
+   "slug": "sorter-billeder-flowers-vs-dinosaurs-65e0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-flowers-vs-dinosaurs-65e0"
+  },
+  {
+   "slug": "sorter-billeder-flowers-vs-vehicles-bb6a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-flowers-vs-vehicles-bb6a"
+  },
+  {
+   "slug": "sorter-billeder-forest-creatures-vs-bakery-486e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "forest_creatures-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-forest-creatures-vs-bakery-486e"
+  },
+  {
+   "slug": "sorter-billeder-forest-creatures-vs-flowers-329e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "forest_creatures-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-forest-creatures-vs-flowers-329e"
+  },
+  {
+   "slug": "sorter-billeder-forest-creatures-vs-vehicles-ad4e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "forest_creatures-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-forest-creatures-vs-vehicles-ad4e"
+  },
+  {
+   "slug": "sorter-billeder-fruits-vs-animals-2029",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "fruits-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-fruits-vs-animals-2029"
+  },
+  {
+   "slug": "sorter-billeder-fruits-vs-bakery-e5ac",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "fruits-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-fruits-vs-bakery-e5ac"
+  },
+  {
+   "slug": "sorter-billeder-fruits-vs-dinosaurs-b6c5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "fruits-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-fruits-vs-dinosaurs-b6c5"
+  },
+  {
+   "slug": "sorter-billeder-fruits-vs-flowers-04a4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "fruits-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-fruits-vs-flowers-04a4"
+  },
+  {
+   "slug": "sorter-billeder-fruits-vs-vehicles-5c74",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "fruits-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-fruits-vs-vehicles-5c74"
+  },
+  {
+   "slug": "sorter-billeder-furniture-vs-animals-33ce",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "furniture-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-furniture-vs-animals-33ce"
+  },
+  {
+   "slug": "sorter-billeder-furniture-vs-bakery-aa98",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "furniture-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-furniture-vs-bakery-aa98"
+  },
+  {
+   "slug": "sorter-billeder-furniture-vs-dinosaurs-a2d3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "furniture-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-furniture-vs-dinosaurs-a2d3"
+  },
+  {
+   "slug": "sorter-billeder-furniture-vs-flowers-fea6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "furniture-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-furniture-vs-flowers-fea6"
+  },
+  {
+   "slug": "sorter-billeder-furniture-vs-vehicles-e692",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "furniture-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-furniture-vs-vehicles-e692"
+  },
+  {
+   "slug": "sorter-billeder-hospital-vs-animals-f06b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "hospital-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-hospital-vs-animals-f06b"
+  },
+  {
+   "slug": "sorter-billeder-hospital-vs-bakery-d6dd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "hospital-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-hospital-vs-bakery-d6dd"
+  },
+  {
+   "slug": "sorter-billeder-hospital-vs-dinosaurs-6206",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "hospital-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-hospital-vs-dinosaurs-6206"
+  },
+  {
+   "slug": "sorter-billeder-hospital-vs-flowers-ab41",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "hospital-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-hospital-vs-flowers-ab41"
+  },
+  {
+   "slug": "sorter-billeder-hospital-vs-vehicles-faea",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "hospital-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-hospital-vs-vehicles-faea"
+  },
+  {
+   "slug": "sorter-billeder-insects-and-bugs-vs-bakery-134e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-insects-and-bugs-vs-bakery-134e"
+  },
+  {
+   "slug": "sorter-billeder-insects-and-bugs-vs-dinosaurs-f3ce",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-insects-and-bugs-vs-dinosaurs-f3ce"
+  },
+  {
+   "slug": "sorter-billeder-insects-and-bugs-vs-flowers-7555",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-insects-and-bugs-vs-flowers-7555"
+  },
+  {
+   "slug": "sorter-billeder-insects-and-bugs-vs-vehicles-f3e6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-insects-and-bugs-vs-vehicles-f3e6"
+  },
+  {
+   "slug": "sorter-billeder-kitchen-tools-vs-animals-d731",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-kitchen-tools-vs-animals-d731"
+  },
+  {
+   "slug": "sorter-billeder-kitchen-tools-vs-bakery-e2fa",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-kitchen-tools-vs-bakery-e2fa"
+  },
+  {
+   "slug": "sorter-billeder-kitchen-tools-vs-dinosaurs-5ea8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-kitchen-tools-vs-dinosaurs-5ea8"
+  },
+  {
+   "slug": "sorter-billeder-kitchen-tools-vs-flowers-8975",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-kitchen-tools-vs-flowers-8975"
+  },
+  {
+   "slug": "sorter-billeder-music-vs-animals-4f4c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-music-vs-animals-4f4c"
+  },
+  {
+   "slug": "sorter-billeder-music-vs-bakery-a74c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-music-vs-bakery-a74c"
+  },
+  {
+   "slug": "sorter-billeder-music-vs-dinosaurs-46a8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-music-vs-dinosaurs-46a8"
+  },
+  {
+   "slug": "sorter-billeder-music-vs-flowers-4eac",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-music-vs-flowers-4eac"
+  },
+  {
+   "slug": "sorter-billeder-music-vs-vehicles-477d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-music-vs-vehicles-477d"
+  },
+  {
+   "slug": "sorter-billeder-occupations-vs-animals-fc6c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-occupations-vs-animals-fc6c"
+  },
+  {
+   "slug": "sorter-billeder-occupations-vs-bakery-297c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-occupations-vs-bakery-297c"
+  },
+  {
+   "slug": "sorter-billeder-occupations-vs-dinosaurs-caea",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-occupations-vs-dinosaurs-caea"
+  },
+  {
+   "slug": "sorter-billeder-occupations-vs-flowers-a84b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-occupations-vs-flowers-a84b"
+  },
+  {
+   "slug": "sorter-billeder-occupations-vs-vehicles-84cf",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-occupations-vs-vehicles-84cf"
+  },
+  {
+   "slug": "sorter-billeder-ocean-life-vs-bakery-4d49",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "ocean_life-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-ocean-life-vs-bakery-4d49"
+  },
+  {
+   "slug": "sorter-billeder-ocean-life-vs-dinosaurs-f34d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "ocean_life-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-ocean-life-vs-dinosaurs-f34d"
+  },
+  {
+   "slug": "sorter-billeder-ocean-life-vs-flowers-eb48",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "ocean_life-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-ocean-life-vs-flowers-eb48"
+  },
+  {
+   "slug": "sorter-billeder-ocean-life-vs-vehicles-9b2e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "ocean_life-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-ocean-life-vs-vehicles-9b2e"
+  },
+  {
+   "slug": "sorter-billeder-pets-vs-bakery-1eee",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "pets-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-pets-vs-bakery-1eee"
+  },
+  {
+   "slug": "sorter-billeder-pets-vs-dinosaurs-e31f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "pets-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-pets-vs-dinosaurs-e31f"
+  },
+  {
+   "slug": "sorter-billeder-pets-vs-flowers-c3c2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "pets-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-pets-vs-flowers-c3c2"
+  },
+  {
+   "slug": "sorter-billeder-pets-vs-vehicles-6300",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "pets-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-pets-vs-vehicles-6300"
+  },
+  {
+   "slug": "sorter-billeder-post-office-vs-animals-e521",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "post_office-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-post-office-vs-animals-e521"
+  },
+  {
+   "slug": "sorter-billeder-post-office-vs-bakery-a64c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "post_office-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-post-office-vs-bakery-a64c"
+  },
+  {
+   "slug": "sorter-billeder-post-office-vs-dinosaurs-5f34",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "post_office-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-post-office-vs-dinosaurs-5f34"
+  },
+  {
+   "slug": "sorter-billeder-post-office-vs-flowers-0459",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "post_office-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-post-office-vs-flowers-0459"
+  },
+  {
+   "slug": "sorter-billeder-post-office-vs-vehicles-63c7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "post_office-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-post-office-vs-vehicles-63c7"
+  }
+ ]
+}

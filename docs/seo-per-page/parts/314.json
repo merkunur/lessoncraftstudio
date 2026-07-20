@@ -1,0 +1,652 @@
+{
+ "part": 314,
+ "locale": "no",
+ "classes": [
+  "more-less::check-cross",
+  "more-less::image-image"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-bakeri-0941",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-bakeri-0941"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-blomster-7092",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-blomster-7092"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-camping-28bf",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-camping-28bf"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-desserter-og-godteri-8c02",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-desserter-og-godteri-8c02"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-dinosaurer-4d8f",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-dinosaurer-4d8f"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-dyr-1248",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-dyr-1248"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-dyrehagedyr-d18f",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-dyrehagedyr-d18f"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-former-5fa6",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-former-5fa6"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-frokost-44e1",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-frokost-44e1"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-frukter-33f2",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-frukter-33f2"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-fugler-2-5e64",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-fugler-2-5e64"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-fugler-5da3",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-fugler-5da3"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-gardsdyr-2da9",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-gardsdyr-2da9"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-gronnsaker-0078",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-gronnsaker-0078"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-havliv-76ea",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-havliv-76ea"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-i-supermarkedet-5422",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-i-supermarkedet-5422"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-insekter-og-kryp-a263",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-insekter-og-kryp-a263"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-jul-ba0c",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-jul-ba0c"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-kjaeledyr-f80a",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-kjaeledyr-f80a"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-kjokkenredskaper-ace2",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-kjokkenredskaper-ace2"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-kjoretoy-55f5",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-kjoretoy-55f5"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-klaer-7c7f",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-klaer-7c7f"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-klasserom-fd5b",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-klasserom-fd5b"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-leker-297d",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-leker-297d"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-mobler-faca",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-mobler-faca"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-musikk-3032",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-musikk-3032"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-paske-16b5",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-paske-16b5"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-postkontor-fad5",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-postkontor-fad5"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-reptiler-og-amfibier-0563",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-reptiler-og-amfibier-0563"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-rundt-i-huset-4a2d",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-rundt-i-huset-4a2d"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-skogsdyr-eea9",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-skogsdyr-eea9"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-strand-45de",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-strand-45de"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-sykehus-033b",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-sykehus-033b"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-thanksgiving-f7aa",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-thanksgiving-f7aa"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-tilbehor-bd64",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-tilbehor-bd64"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-ting-som-flyr-d1c9",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-ting-som-flyr-d1c9"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-traer-83e5",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-traer-83e5"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-verdensrommet-3745",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-verdensrommet-3745"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-verktoy-27dd",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-verktoy-27dd"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-yrker-8c5e",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-yrker-8c5e"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-bakeri-3818",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-bakeri-3818"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-blomster-bc24",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-blomster-bc24"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-camping-b968",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-camping-b968"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-desserter-og-godteri-31f5",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-desserter-og-godteri-31f5"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-dinosaurer-8f53",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-dinosaurer-8f53"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-dyr-0094",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-dyr-0094"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-dyrehagedyr-faf2",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-dyrehagedyr-faf2"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-former-ae6b",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-former-ae6b"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-frokost-e30f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-frokost-e30f"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-frukter-0424",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-frukter-0424"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-fugler-2-9bc9",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-fugler-2-9bc9"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-fugler-3fcd",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-fugler-3fcd"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-gardsdyr-68b6",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-gardsdyr-68b6"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-gronnsaker-5798",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-gronnsaker-5798"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-havliv-356c",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-havliv-356c"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-i-supermarkedet-5a29",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-i-supermarkedet-5a29"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-insekter-og-kryp-eda9",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-insekter-og-kryp-eda9"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-jul-0c68",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-jul-0c68"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-kjaeledyr-c74e",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-kjaeledyr-c74e"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-kjokkenredskaper-faeb",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-kjokkenredskaper-faeb"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-kjoretoy-cfdd",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-kjoretoy-cfdd"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-klaer-f593",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-klaer-f593"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-klasserom-8775",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-klasserom-8775"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-leker-1d70",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-leker-1d70"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-mobler-00d3",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-mobler-00d3"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-musikk-1e54",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-musikk-1e54"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-paske-f52f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-paske-f52f"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-postkontor-ad24",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-postkontor-ad24"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-reptiler-og-amfibier-8e8e",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-reptiler-og-amfibier-8e8e"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-rundt-i-huset-f3b8",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-rundt-i-huset-f3b8"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-skogsdyr-9d75",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-skogsdyr-9d75"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-strand-de7e",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-strand-de7e"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-sykehus-d3d0",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-sykehus-d3d0"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-thanksgiving-d679",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-thanksgiving-d679"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-tilbehor-be78",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-tilbehor-be78"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-ting-som-flyr-c310",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-ting-som-flyr-c310"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-traer-1e8a",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-traer-1e8a"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-verdensrommet-92c9",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-verdensrommet-92c9"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-verktoy-c5e6",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-verktoy-c5e6"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-yrker-e3a4",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-yrker-e3a4"
+  }
+ ]
+}

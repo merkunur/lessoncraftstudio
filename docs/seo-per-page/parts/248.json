@@ -1,0 +1,652 @@
+{
+ "part": 248,
+ "locale": "sv",
+ "classes": [
+  "addition::mixed",
+  "math-puzzle::mixed"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "addition-blandat-bageri-901c",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "addition-blandat-bageri-901c"
+  },
+  {
+   "slug": "addition-blandat-blommor-a8db",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "addition-blandat-blommor-a8db"
+  },
+  {
+   "slug": "addition-blandat-bondgardsdjur-92f9",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "addition-blandat-bondgardsdjur-92f9"
+  },
+  {
+   "slug": "addition-blandat-camping-f4c8",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "addition-blandat-camping-f4c8"
+  },
+  {
+   "slug": "addition-blandat-dinosaurier-faf0",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "addition-blandat-dinosaurier-faf0"
+  },
+  {
+   "slug": "addition-blandat-djur-ce20",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "addition-blandat-djur-ce20"
+  },
+  {
+   "slug": "addition-blandat-djurparksdjur-98bf",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "addition-blandat-djurparksdjur-98bf"
+  },
+  {
+   "slug": "addition-blandat-efterratter-och-godis-f48a",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "addition-blandat-efterratter-och-godis-f48a"
+  },
+  {
+   "slug": "addition-blandat-faglar-2-f6e9",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "addition-blandat-faglar-2-f6e9"
+  },
+  {
+   "slug": "addition-blandat-faglar-3abc",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "addition-blandat-faglar-3abc"
+  },
+  {
+   "slug": "addition-blandat-fordon-2821",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "addition-blandat-fordon-2821"
+  },
+  {
+   "slug": "addition-blandat-former-c711",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "addition-blandat-former-c711"
+  },
+  {
+   "slug": "addition-blandat-frukost-92bb",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "addition-blandat-frukost-92bb"
+  },
+  {
+   "slug": "addition-blandat-frukter-9779",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "addition-blandat-frukter-9779"
+  },
+  {
+   "slug": "addition-blandat-gronsaker-dda9",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "addition-blandat-gronsaker-dda9"
+  },
+  {
+   "slug": "addition-blandat-havsliv-a46e",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "addition-blandat-havsliv-a46e"
+  },
+  {
+   "slug": "addition-blandat-husdjur-ab7f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "addition-blandat-husdjur-ab7f"
+  },
+  {
+   "slug": "addition-blandat-i-snabbkopet-1a8f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "addition-blandat-i-snabbkopet-1a8f"
+  },
+  {
+   "slug": "addition-blandat-insekter-och-kryp-e13a",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "addition-blandat-insekter-och-kryp-e13a"
+  },
+  {
+   "slug": "addition-blandat-jul-451f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "addition-blandat-jul-451f"
+  },
+  {
+   "slug": "addition-blandat-klader-6c68",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "addition-blandat-klader-6c68"
+  },
+  {
+   "slug": "addition-blandat-klassrum-eacf",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "addition-blandat-klassrum-eacf"
+  },
+  {
+   "slug": "addition-blandat-koksredskap-7ea9",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "addition-blandat-koksredskap-7ea9"
+  },
+  {
+   "slug": "addition-blandat-leksaker-0706",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "addition-blandat-leksaker-0706"
+  },
+  {
+   "slug": "addition-blandat-mobler-3327",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "addition-blandat-mobler-3327"
+  },
+  {
+   "slug": "addition-blandat-musik-8fc3",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "addition-blandat-musik-8fc3"
+  },
+  {
+   "slug": "addition-blandat-pask-0c39",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "addition-blandat-pask-0c39"
+  },
+  {
+   "slug": "addition-blandat-postkontor-811b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "addition-blandat-postkontor-811b"
+  },
+  {
+   "slug": "addition-blandat-reptiler-och-groddjur-8f47",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "addition-blandat-reptiler-och-groddjur-8f47"
+  },
+  {
+   "slug": "addition-blandat-runt-huset-d348",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "addition-blandat-runt-huset-d348"
+  },
+  {
+   "slug": "addition-blandat-rymden-175b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "addition-blandat-rymden-175b"
+  },
+  {
+   "slug": "addition-blandat-saker-som-flyger-7dd6",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "addition-blandat-saker-som-flyger-7dd6"
+  },
+  {
+   "slug": "addition-blandat-sjukhus-8ef1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "addition-blandat-sjukhus-8ef1"
+  },
+  {
+   "slug": "addition-blandat-skogsdjur-d0a5",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "addition-blandat-skogsdjur-d0a5"
+  },
+  {
+   "slug": "addition-blandat-strand-abe2",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "addition-blandat-strand-abe2"
+  },
+  {
+   "slug": "addition-blandat-thanksgiving-b66b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "addition-blandat-thanksgiving-b66b"
+  },
+  {
+   "slug": "addition-blandat-tillbehor-3144",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "addition-blandat-tillbehor-3144"
+  },
+  {
+   "slug": "addition-blandat-trad-f1da",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "addition-blandat-trad-f1da"
+  },
+  {
+   "slug": "addition-blandat-verktyg-5337",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "addition-blandat-verktyg-5337"
+  },
+  {
+   "slug": "addition-blandat-yrken-fd5b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "addition-blandat-yrken-fd5b"
+  },
+  {
+   "slug": "mattepussel-blandat-bageri-0ff1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-bageri-0ff1"
+  },
+  {
+   "slug": "mattepussel-blandat-blommor-1bd3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-blommor-1bd3"
+  },
+  {
+   "slug": "mattepussel-blandat-bondgardsdjur-1bdb",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-bondgardsdjur-1bdb"
+  },
+  {
+   "slug": "mattepussel-blandat-camping-cb89",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-camping-cb89"
+  },
+  {
+   "slug": "mattepussel-blandat-dinosaurier-5ebe",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-dinosaurier-5ebe"
+  },
+  {
+   "slug": "mattepussel-blandat-djur",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-djur"
+  },
+  {
+   "slug": "mattepussel-blandat-djurparksdjur-8dc2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-djurparksdjur-8dc2"
+  },
+  {
+   "slug": "mattepussel-blandat-efterratter-och-godis-1425",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-efterratter-och-godis-1425"
+  },
+  {
+   "slug": "mattepussel-blandat-faglar-2-2bc0",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-faglar-2-2bc0"
+  },
+  {
+   "slug": "mattepussel-blandat-faglar-fb9e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-faglar-fb9e"
+  },
+  {
+   "slug": "mattepussel-blandat-fordon-4fb3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-fordon-4fb3"
+  },
+  {
+   "slug": "mattepussel-blandat-former-e7ab",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-former-e7ab"
+  },
+  {
+   "slug": "mattepussel-blandat-frukost-796e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-frukost-796e"
+  },
+  {
+   "slug": "mattepussel-blandat-frukter-fe87",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-frukter-fe87"
+  },
+  {
+   "slug": "mattepussel-blandat-gronsaker-4bc9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-gronsaker-4bc9"
+  },
+  {
+   "slug": "mattepussel-blandat-havsliv-8e60",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-havsliv-8e60"
+  },
+  {
+   "slug": "mattepussel-blandat-husdjur-5da3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-husdjur-5da3"
+  },
+  {
+   "slug": "mattepussel-blandat-i-snabbkopet-f67b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-i-snabbkopet-f67b"
+  },
+  {
+   "slug": "mattepussel-blandat-insekter-och-kryp-d368",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-insekter-och-kryp-d368"
+  },
+  {
+   "slug": "mattepussel-blandat-jul-e98f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-jul-e98f"
+  },
+  {
+   "slug": "mattepussel-blandat-klader-030f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-klader-030f"
+  },
+  {
+   "slug": "mattepussel-blandat-klassrum-2968",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-klassrum-2968"
+  },
+  {
+   "slug": "mattepussel-blandat-koksredskap-3111",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-koksredskap-3111"
+  },
+  {
+   "slug": "mattepussel-blandat-leksaker-2243",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-leksaker-2243"
+  },
+  {
+   "slug": "mattepussel-blandat-mobler-6c5e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-mobler-6c5e"
+  },
+  {
+   "slug": "mattepussel-blandat-musik-0cc9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-musik-0cc9"
+  },
+  {
+   "slug": "mattepussel-blandat-pask-8bf7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-pask-8bf7"
+  },
+  {
+   "slug": "mattepussel-blandat-postkontor-ce99",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-postkontor-ce99"
+  },
+  {
+   "slug": "mattepussel-blandat-reptiler-och-groddjur-095f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-reptiler-och-groddjur-095f"
+  },
+  {
+   "slug": "mattepussel-blandat-runt-huset-8fe7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-runt-huset-8fe7"
+  },
+  {
+   "slug": "mattepussel-blandat-rymden-c5c2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-rymden-c5c2"
+  },
+  {
+   "slug": "mattepussel-blandat-saker-som-flyger-b16b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-saker-som-flyger-b16b"
+  },
+  {
+   "slug": "mattepussel-blandat-sjukhus-c0d8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-sjukhus-c0d8"
+  },
+  {
+   "slug": "mattepussel-blandat-skogsdjur-6d11",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-skogsdjur-6d11"
+  },
+  {
+   "slug": "mattepussel-blandat-strand-5701",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-strand-5701"
+  },
+  {
+   "slug": "mattepussel-blandat-thanksgiving-af13",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-thanksgiving-af13"
+  },
+  {
+   "slug": "mattepussel-blandat-tillbehor-9fa9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-tillbehor-9fa9"
+  },
+  {
+   "slug": "mattepussel-blandat-trad-622b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-trad-622b"
+  },
+  {
+   "slug": "mattepussel-blandat-verktyg-0c2c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-verktyg-0c2c"
+  },
+  {
+   "slug": "mattepussel-blandat-yrken-164d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-yrken-164d"
+  }
+ ]
+}

@@ -1,0 +1,780 @@
+{
+ "part": 231,
+ "locale": "sv",
+ "classes": [
+  "pattern-train::aab",
+  "pattern-train::aabb"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "monstertaget-aab-aktiviteter-9acd",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "monstertaget-aab-aktiviteter-9acd"
+  },
+  {
+   "slug": "monstertaget-aab-bageri-9211",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "monstertaget-aab-bageri-9211"
+  },
+  {
+   "slug": "monstertaget-aab-blommor-f230",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "monstertaget-aab-blommor-f230"
+  },
+  {
+   "slug": "monstertaget-aab-bondgardsdjur-6df2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "monstertaget-aab-bondgardsdjur-6df2"
+  },
+  {
+   "slug": "monstertaget-aab-camping-71fb",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "monstertaget-aab-camping-71fb"
+  },
+  {
+   "slug": "monstertaget-aab-dinosaurier-2b76",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "monstertaget-aab-dinosaurier-2b76"
+  },
+  {
+   "slug": "monstertaget-aab-djur-d5c7",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "monstertaget-aab-djur-d5c7"
+  },
+  {
+   "slug": "monstertaget-aab-djurparksdjur-84fd",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "monstertaget-aab-djurparksdjur-84fd"
+  },
+  {
+   "slug": "monstertaget-aab-efterratter-och-godis-2bce",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "monstertaget-aab-efterratter-och-godis-2bce"
+  },
+  {
+   "slug": "monstertaget-aab-faglar-2-8ad2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "monstertaget-aab-faglar-2-8ad2"
+  },
+  {
+   "slug": "monstertaget-aab-faglar-427d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "monstertaget-aab-faglar-427d"
+  },
+  {
+   "slug": "monstertaget-aab-farger-3c8b",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "monstertaget-aab-farger-3c8b"
+  },
+  {
+   "slug": "monstertaget-aab-fordon-8cb2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "monstertaget-aab-fordon-8cb2"
+  },
+  {
+   "slug": "monstertaget-aab-former-ef59",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "monstertaget-aab-former-ef59"
+  },
+  {
+   "slug": "monstertaget-aab-frukost-b0bf",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "monstertaget-aab-frukost-b0bf"
+  },
+  {
+   "slug": "monstertaget-aab-frukter-dc9b",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "monstertaget-aab-frukter-dc9b"
+  },
+  {
+   "slug": "monstertaget-aab-gronsaker-aeee",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "monstertaget-aab-gronsaker-aeee"
+  },
+  {
+   "slug": "monstertaget-aab-havsliv-4637",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "monstertaget-aab-havsliv-4637"
+  },
+  {
+   "slug": "monstertaget-aab-husdjur-744b",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "monstertaget-aab-husdjur-744b"
+  },
+  {
+   "slug": "monstertaget-aab-i-snabbkopet-563e",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "monstertaget-aab-i-snabbkopet-563e"
+  },
+  {
+   "slug": "monstertaget-aab-insekter-och-kryp-e0d2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "monstertaget-aab-insekter-och-kryp-e0d2"
+  },
+  {
+   "slug": "monstertaget-aab-jul-8695",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "monstertaget-aab-jul-8695"
+  },
+  {
+   "slug": "monstertaget-aab-kanslor-4193",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "monstertaget-aab-kanslor-4193"
+  },
+  {
+   "slug": "monstertaget-aab-klader-6606",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "monstertaget-aab-klader-6606"
+  },
+  {
+   "slug": "monstertaget-aab-klassrum-a9a2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "monstertaget-aab-klassrum-a9a2"
+  },
+  {
+   "slug": "monstertaget-aab-koksredskap-35cb",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "monstertaget-aab-koksredskap-35cb"
+  },
+  {
+   "slug": "monstertaget-aab-kroppsdelar-eebb",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "monstertaget-aab-kroppsdelar-eebb"
+  },
+  {
+   "slug": "monstertaget-aab-leksaker-761f",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "monstertaget-aab-leksaker-761f"
+  },
+  {
+   "slug": "monstertaget-aab-mobler-4e9b",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "monstertaget-aab-mobler-4e9b"
+  },
+  {
+   "slug": "monstertaget-aab-musik-0390",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "monstertaget-aab-musik-0390"
+  },
+  {
+   "slug": "monstertaget-aab-pask-6100",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "monstertaget-aab-pask-6100"
+  },
+  {
+   "slug": "monstertaget-aab-postkontor-772d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "monstertaget-aab-postkontor-772d"
+  },
+  {
+   "slug": "monstertaget-aab-reptiler-och-groddjur-dcf1",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "monstertaget-aab-reptiler-och-groddjur-dcf1"
+  },
+  {
+   "slug": "monstertaget-aab-runt-huset-da3e",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "monstertaget-aab-runt-huset-da3e"
+  },
+  {
+   "slug": "monstertaget-aab-rymden-3c88",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "monstertaget-aab-rymden-3c88"
+  },
+  {
+   "slug": "monstertaget-aab-saker-som-flyger-db73",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "monstertaget-aab-saker-som-flyger-db73"
+  },
+  {
+   "slug": "monstertaget-aab-sjukhus-3ef6",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "monstertaget-aab-sjukhus-3ef6"
+  },
+  {
+   "slug": "monstertaget-aab-skogsdjur-2b52",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "monstertaget-aab-skogsdjur-2b52"
+  },
+  {
+   "slug": "monstertaget-aab-sommar-dd37",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "monstertaget-aab-sommar-dd37"
+  },
+  {
+   "slug": "monstertaget-aab-strand-7e6d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "monstertaget-aab-strand-7e6d"
+  },
+  {
+   "slug": "monstertaget-aab-thanksgiving-174d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "monstertaget-aab-thanksgiving-174d"
+  },
+  {
+   "slug": "monstertaget-aab-tillbehor-cb9c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "monstertaget-aab-tillbehor-cb9c"
+  },
+  {
+   "slug": "monstertaget-aab-trad-0bd5",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "monstertaget-aab-trad-0bd5"
+  },
+  {
+   "slug": "monstertaget-aab-vader-a65c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "monstertaget-aab-vader-a65c"
+  },
+  {
+   "slug": "monstertaget-aab-var-8a55",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "monstertaget-aab-var-8a55"
+  },
+  {
+   "slug": "monstertaget-aab-verktyg-d9bf",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "monstertaget-aab-verktyg-d9bf"
+  },
+  {
+   "slug": "monstertaget-aab-vinter-a764",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "monstertaget-aab-vinter-a764"
+  },
+  {
+   "slug": "monstertaget-aab-yrken-fb5f",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "monstertaget-aab-yrken-fb5f"
+  },
+  {
+   "slug": "monstertaget-aabb-aktiviteter-6e37",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-aktiviteter-6e37"
+  },
+  {
+   "slug": "monstertaget-aabb-bageri-180c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-bageri-180c"
+  },
+  {
+   "slug": "monstertaget-aabb-blommor-85cd",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-blommor-85cd"
+  },
+  {
+   "slug": "monstertaget-aabb-bondgardsdjur-5db8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-bondgardsdjur-5db8"
+  },
+  {
+   "slug": "monstertaget-aabb-camping-e298",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-camping-e298"
+  },
+  {
+   "slug": "monstertaget-aabb-dinosaurier-70f5",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-dinosaurier-70f5"
+  },
+  {
+   "slug": "monstertaget-aabb-djur-4c35",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-djur-4c35"
+  },
+  {
+   "slug": "monstertaget-aabb-djurparksdjur-10cb",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-djurparksdjur-10cb"
+  },
+  {
+   "slug": "monstertaget-aabb-efterratter-och-godis-e583",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-efterratter-och-godis-e583"
+  },
+  {
+   "slug": "monstertaget-aabb-faglar-2-d7ee",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-faglar-2-d7ee"
+  },
+  {
+   "slug": "monstertaget-aabb-faglar-859e",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-faglar-859e"
+  },
+  {
+   "slug": "monstertaget-aabb-farger-7766",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-farger-7766"
+  },
+  {
+   "slug": "monstertaget-aabb-fordon-adef",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-fordon-adef"
+  },
+  {
+   "slug": "monstertaget-aabb-former-4845",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-former-4845"
+  },
+  {
+   "slug": "monstertaget-aabb-frukost-82b9",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-frukost-82b9"
+  },
+  {
+   "slug": "monstertaget-aabb-frukter-9c51",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-frukter-9c51"
+  },
+  {
+   "slug": "monstertaget-aabb-gronsaker-783c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-gronsaker-783c"
+  },
+  {
+   "slug": "monstertaget-aabb-havsliv-7408",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-havsliv-7408"
+  },
+  {
+   "slug": "monstertaget-aabb-husdjur-6dc2",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-husdjur-6dc2"
+  },
+  {
+   "slug": "monstertaget-aabb-i-snabbkopet-98b5",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-i-snabbkopet-98b5"
+  },
+  {
+   "slug": "monstertaget-aabb-insekter-och-kryp-822d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-insekter-och-kryp-822d"
+  },
+  {
+   "slug": "monstertaget-aabb-jul-be29",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-jul-be29"
+  },
+  {
+   "slug": "monstertaget-aabb-kanslor-b9b7",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-kanslor-b9b7"
+  },
+  {
+   "slug": "monstertaget-aabb-klader-5c51",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-klader-5c51"
+  },
+  {
+   "slug": "monstertaget-aabb-klassrum-3db4",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-klassrum-3db4"
+  },
+  {
+   "slug": "monstertaget-aabb-koksredskap-f39d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-koksredskap-f39d"
+  },
+  {
+   "slug": "monstertaget-aabb-kroppsdelar-239e",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-kroppsdelar-239e"
+  },
+  {
+   "slug": "monstertaget-aabb-leksaker-08b5",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-leksaker-08b5"
+  },
+  {
+   "slug": "monstertaget-aabb-mobler-0d4d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-mobler-0d4d"
+  },
+  {
+   "slug": "monstertaget-aabb-musik-8bba",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-musik-8bba"
+  },
+  {
+   "slug": "monstertaget-aabb-pask-cb4d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-pask-cb4d"
+  },
+  {
+   "slug": "monstertaget-aabb-postkontor-c455",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-postkontor-c455"
+  },
+  {
+   "slug": "monstertaget-aabb-reptiler-och-groddjur-a8d9",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-reptiler-och-groddjur-a8d9"
+  },
+  {
+   "slug": "monstertaget-aabb-runt-huset-846f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-runt-huset-846f"
+  },
+  {
+   "slug": "monstertaget-aabb-rymden-a6ab",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-rymden-a6ab"
+  },
+  {
+   "slug": "monstertaget-aabb-saker-som-flyger-9315",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-saker-som-flyger-9315"
+  },
+  {
+   "slug": "monstertaget-aabb-sjukhus-b73d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-sjukhus-b73d"
+  },
+  {
+   "slug": "monstertaget-aabb-skogsdjur-048f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-skogsdjur-048f"
+  },
+  {
+   "slug": "monstertaget-aabb-sommar-ba77",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-sommar-ba77"
+  },
+  {
+   "slug": "monstertaget-aabb-strand-1749",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-strand-1749"
+  },
+  {
+   "slug": "monstertaget-aabb-thanksgiving-f381",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-thanksgiving-f381"
+  },
+  {
+   "slug": "monstertaget-aabb-tillbehor-bac8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-tillbehor-bac8"
+  },
+  {
+   "slug": "monstertaget-aabb-trad-e2c3",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-trad-e2c3"
+  },
+  {
+   "slug": "monstertaget-aabb-vader-c593",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-vader-c593"
+  },
+  {
+   "slug": "monstertaget-aabb-var-d03b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-var-d03b"
+  },
+  {
+   "slug": "monstertaget-aabb-verktyg-5ea4",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-verktyg-5ea4"
+  },
+  {
+   "slug": "monstertaget-aabb-vinter-29de",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-vinter-29de"
+  },
+  {
+   "slug": "monstertaget-aabb-yrken-79d8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "monstertaget-aabb-yrken-79d8"
+  }
+ ]
+}

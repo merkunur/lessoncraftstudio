@@ -1,0 +1,673 @@
+{
+ "part": 194,
+ "locale": "it",
+ "classes": [
+  "alphabet-train::letter-hint",
+  "alphabet-train::null",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-abbigliamento-bc20",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-abbigliamento-bc20"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-accessori-ea2b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-accessori-ea2b"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-al-supermercato-9d14",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-al-supermercato-9d14"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-alberi-16a6",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-alberi-16a6"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-animali-2d0d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-animali-2d0d"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-animali-dello-zoo-87a4",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-animali-dello-zoo-87a4"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-attivita-90e3",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-attivita-90e3"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-aula-65bd",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-aula-65bd"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-campeggio-7500",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-campeggio-7500"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-colazione-7944",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-colazione-7944"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-colori-3482",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-colori-3482"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-cose-che-volano-722b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-cose-che-volano-722b"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-creature-della-foresta-a917",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-creature-della-foresta-a917"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-dinosauri-ccbc",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-dinosauri-ccbc"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-dolci-e-dolciumi-0dd6",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-dolci-e-dolciumi-0dd6"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-estate-b3c1",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-estate-b3c1"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-fiori-baac",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-fiori-baac"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-giocattoli-f0a5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-giocattoli-f0a5"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-in-giro-per-casa-947a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-in-giro-per-casa-947a"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-inverno-d87d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-inverno-d87d"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-meteo-1df2",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-meteo-1df2"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-natale-f672",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-natale-f672"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-ospedale-738c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-ospedale-738c"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-parti-del-corpo-618a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-parti-del-corpo-618a"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-primavera-28f0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-primavera-28f0"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-professioni-e397",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-professioni-e397"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-spazio-eae5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-spazio-eae5"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-spiaggia-8b05",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-spiaggia-8b05"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-uccelli-2-29b1",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-uccelli-2-29b1"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-veicoli-4b41",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-veicoli-4b41"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-vita-oceanica-56f2",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-vita-oceanica-56f2"
+  },
+  {
+   "slug": "treno-dell-alfabeto-abbigliamento-cf38",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-abbigliamento-cf38"
+  },
+  {
+   "slug": "treno-dell-alfabeto-accessori-7a6b",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-accessori-7a6b"
+  },
+  {
+   "slug": "treno-dell-alfabeto-al-supermercato-b280",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-al-supermercato-b280"
+  },
+  {
+   "slug": "treno-dell-alfabeto-alberi-c56b",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-alberi-c56b"
+  },
+  {
+   "slug": "treno-dell-alfabeto-animali-a6c4",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-animali-a6c4"
+  },
+  {
+   "slug": "treno-dell-alfabeto-animali-dello-zoo-da33",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-animali-dello-zoo-da33"
+  },
+  {
+   "slug": "treno-dell-alfabeto-aula-8a92",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-aula-8a92"
+  },
+  {
+   "slug": "treno-dell-alfabeto-campeggio-0a3c",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-campeggio-0a3c"
+  },
+  {
+   "slug": "treno-dell-alfabeto-colazione-06e9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-colazione-06e9"
+  },
+  {
+   "slug": "treno-dell-alfabeto-colori-5a2f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-colori-5a2f"
+  },
+  {
+   "slug": "treno-dell-alfabeto-cose-che-volano-dc23",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-cose-che-volano-dc23"
+  },
+  {
+   "slug": "treno-dell-alfabeto-creature-della-foresta-6316",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-creature-della-foresta-6316"
+  },
+  {
+   "slug": "treno-dell-alfabeto-dolci-e-dolciumi-c7d9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-dolci-e-dolciumi-c7d9"
+  },
+  {
+   "slug": "treno-dell-alfabeto-estate-fc6c",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-estate-fc6c"
+  },
+  {
+   "slug": "treno-dell-alfabeto-giocattoli-3c5f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-giocattoli-3c5f"
+  },
+  {
+   "slug": "treno-dell-alfabeto-in-giro-per-casa-ae82",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-in-giro-per-casa-ae82"
+  },
+  {
+   "slug": "treno-dell-alfabeto-inverno-6ed9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-inverno-6ed9"
+  },
+  {
+   "slug": "treno-dell-alfabeto-meteo-9851",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-meteo-9851"
+  },
+  {
+   "slug": "treno-dell-alfabeto-natale-2cfe",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-natale-2cfe"
+  },
+  {
+   "slug": "treno-dell-alfabeto-ospedale-6ed5",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-ospedale-6ed5"
+  },
+  {
+   "slug": "treno-dell-alfabeto-parti-del-corpo-c7c6",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-parti-del-corpo-c7c6"
+  },
+  {
+   "slug": "treno-dell-alfabeto-primavera-1d22",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-primavera-1d22"
+  },
+  {
+   "slug": "treno-dell-alfabeto-professioni-a466",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-professioni-a466"
+  },
+  {
+   "slug": "treno-dell-alfabeto-spazio-3d5e",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-spazio-3d5e"
+  },
+  {
+   "slug": "treno-dell-alfabeto-spiaggia-e482",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-spiaggia-e482"
+  },
+  {
+   "slug": "treno-dell-alfabeto-uccelli-2-6da9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-uccelli-2-6da9"
+  },
+  {
+   "slug": "treno-dell-alfabeto-veicoli-e9e9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-veicoli-e9e9"
+  },
+  {
+   "slug": "treno-dell-alfabeto-vita-oceanica-8762",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-vita-oceanica-8762"
+  },
+  {
+   "slug": "schede-schieramenti-moltiplicazione-classe-seconda",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "classe-seconda",
+   "deck": "schieramenti-moltiplicazione-forme-g2209"
+  },
+  {
+   "slug": "schede-tabelline-classe-terza",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "classe-terza",
+   "deck": "schieramenti-moltiplicazione-g3313"
+  },
+  {
+   "slug": "frazioni-classe-terza",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "classe-terza",
+   "deck": "frazioni-g3315"
+  },
+  {
+   "slug": "frazioni-parti-uguali-classe-seconda",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "classe-seconda",
+   "deck": "frazioni-g2228"
+  },
+  {
+   "slug": "forme-geometriche-infanzia-lati-angoli",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "infanzia",
+   "deck": "forme-geometriche-k075"
+  },
+  {
+   "slug": "geometria-classe-terza-perimetro-area",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "classe-terza",
+   "deck": "forme-geometriche-g3337"
+  },
+  {
+   "slug": "geometria-solidi-classe-seconda",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "classe-seconda",
+   "deck": "forme-geometriche-g2241"
+  },
+  {
+   "slug": "grafici-classe-seconda",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "classe-seconda",
+   "deck": "grafici-e-dati-forme-g2240"
+  },
+  {
+   "slug": "grafici-classe-prima",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "classe-prima",
+   "deck": "grafici-e-dati-forme-g1143"
+  },
+  {
+   "slug": "grafici-in-scala-classe-terza",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "classe-terza",
+   "deck": "grafici-e-dati-forme-g3334"
+  },
+  {
+   "slug": "schede-pesante-leggero-infanzia",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "infanzia",
+   "deck": "misurazione-frutta-k038"
+  },
+  {
+   "slug": "schede-misurare-lunghezze-classe-prima",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
+   "level": "classe-prima",
+   "deck": "misurazione-forme-g1139"
+  },
+  {
+   "slug": "schede-misurare-righello-classe-seconda",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "classe-seconda",
+   "deck": "misurazione-forme-g2235"
+  },
+  {
+   "slug": "schede-temperatura-volume-classe-terza",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "classe-terza",
+   "deck": "misurazione-g3345"
+  },
+  {
+   "slug": "tabella-dei-numeri-classe-prima",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "classe-prima",
+   "deck": "tabella-dei-numeri-g1130"
+  },
+  {
+   "slug": "successioni-numeriche-classe-terza",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "classe-terza",
+   "deck": "tabella-dei-numeri-g3328"
+  },
+  {
+   "slug": "tabella-dei-numeri-infanzia",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "infanzia",
+   "deck": "tabella-dei-numeri-k021"
+  },
+  {
+   "slug": "tabella-dei-numeri-classe-seconda",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "classe-seconda",
+   "deck": "tabella-dei-numeri-g2218"
+  },
+  {
+   "slug": "leggere-l-ora-classe-prima",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "classe-prima",
+   "deck": "leggere-l-orologio-g1148"
+  },
+  {
+   "slug": "leggere-l-ora-classe-seconda",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "classe-seconda",
+   "deck": "leggere-l-orologio-g2249"
+  },
+  {
+   "slug": "leggere-l-ora-classe-terza",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "classe-terza",
+   "deck": "leggere-l-orologio-g3344"
+  }
+ ]
+}

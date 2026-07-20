@@ -1,0 +1,780 @@
+{
+ "part": 233,
+ "locale": "sv",
+ "classes": [
+  "pattern-train::null",
+  "pattern-worksheet::null"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "monstertaget-aktiviteter-5c8e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "monstertaget-aktiviteter-5c8e"
+  },
+  {
+   "slug": "monstertaget-bageri-b254",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "monstertaget-bageri-b254"
+  },
+  {
+   "slug": "monstertaget-blommor-7dcd",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "monstertaget-blommor-7dcd"
+  },
+  {
+   "slug": "monstertaget-bondgardsdjur-91a4",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "monstertaget-bondgardsdjur-91a4"
+  },
+  {
+   "slug": "monstertaget-camping-e856",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "monstertaget-camping-e856"
+  },
+  {
+   "slug": "monstertaget-dinosaurier-4061",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "monstertaget-dinosaurier-4061"
+  },
+  {
+   "slug": "monstertaget-djur-26f0",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "monstertaget-djur-26f0"
+  },
+  {
+   "slug": "monstertaget-djurparksdjur-89ec",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "monstertaget-djurparksdjur-89ec"
+  },
+  {
+   "slug": "monstertaget-efterratter-och-godis-3ba1",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "monstertaget-efterratter-och-godis-3ba1"
+  },
+  {
+   "slug": "monstertaget-faglar-2-6a88",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "monstertaget-faglar-2-6a88"
+  },
+  {
+   "slug": "monstertaget-faglar-f5db",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "monstertaget-faglar-f5db"
+  },
+  {
+   "slug": "monstertaget-farger-5c25",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "monstertaget-farger-5c25"
+  },
+  {
+   "slug": "monstertaget-fordon-601f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "monstertaget-fordon-601f"
+  },
+  {
+   "slug": "monstertaget-former-61ea",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "monstertaget-former-61ea"
+  },
+  {
+   "slug": "monstertaget-frukost-bf2c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "monstertaget-frukost-bf2c"
+  },
+  {
+   "slug": "monstertaget-frukter-14d5",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "monstertaget-frukter-14d5"
+  },
+  {
+   "slug": "monstertaget-gronsaker-4c19",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "monstertaget-gronsaker-4c19"
+  },
+  {
+   "slug": "monstertaget-havsliv-0548",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "monstertaget-havsliv-0548"
+  },
+  {
+   "slug": "monstertaget-husdjur-0c8d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "monstertaget-husdjur-0c8d"
+  },
+  {
+   "slug": "monstertaget-i-snabbkopet-7446",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "monstertaget-i-snabbkopet-7446"
+  },
+  {
+   "slug": "monstertaget-insekter-och-kryp-d92e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "monstertaget-insekter-och-kryp-d92e"
+  },
+  {
+   "slug": "monstertaget-jul-b13b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "monstertaget-jul-b13b"
+  },
+  {
+   "slug": "monstertaget-kanslor-6f05",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "monstertaget-kanslor-6f05"
+  },
+  {
+   "slug": "monstertaget-klader-6e2f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "monstertaget-klader-6e2f"
+  },
+  {
+   "slug": "monstertaget-klassrum-2a0c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "monstertaget-klassrum-2a0c"
+  },
+  {
+   "slug": "monstertaget-koksredskap-ddf1",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "monstertaget-koksredskap-ddf1"
+  },
+  {
+   "slug": "monstertaget-kroppsdelar-4bc3",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "monstertaget-kroppsdelar-4bc3"
+  },
+  {
+   "slug": "monstertaget-leksaker-0d6d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "monstertaget-leksaker-0d6d"
+  },
+  {
+   "slug": "monstertaget-mobler-bd5a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "monstertaget-mobler-bd5a"
+  },
+  {
+   "slug": "monstertaget-musik-3801",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "music",
+   "level": "forskola",
+   "deck": "monstertaget-musik-3801"
+  },
+  {
+   "slug": "monstertaget-pask-2bcc",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "monstertaget-pask-2bcc"
+  },
+  {
+   "slug": "monstertaget-postkontor-f1ac",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "monstertaget-postkontor-f1ac"
+  },
+  {
+   "slug": "monstertaget-reptiler-och-groddjur-b013",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "monstertaget-reptiler-och-groddjur-b013"
+  },
+  {
+   "slug": "monstertaget-runt-huset-17da",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "monstertaget-runt-huset-17da"
+  },
+  {
+   "slug": "monstertaget-rymden-fd38",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "space",
+   "level": "forskola",
+   "deck": "monstertaget-rymden-fd38"
+  },
+  {
+   "slug": "monstertaget-saker-som-flyger-81a1",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "monstertaget-saker-som-flyger-81a1"
+  },
+  {
+   "slug": "monstertaget-sjukhus-475c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "monstertaget-sjukhus-475c"
+  },
+  {
+   "slug": "monstertaget-skogsdjur-2072",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "monstertaget-skogsdjur-2072"
+  },
+  {
+   "slug": "monstertaget-sommar-6333",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "monstertaget-sommar-6333"
+  },
+  {
+   "slug": "monstertaget-strand-055c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "monstertaget-strand-055c"
+  },
+  {
+   "slug": "monstertaget-thanksgiving-1003",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "monstertaget-thanksgiving-1003"
+  },
+  {
+   "slug": "monstertaget-tillbehor-ae66",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "monstertaget-tillbehor-ae66"
+  },
+  {
+   "slug": "monstertaget-trad-5acb",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "monstertaget-trad-5acb"
+  },
+  {
+   "slug": "monstertaget-vader-1a51",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "monstertaget-vader-1a51"
+  },
+  {
+   "slug": "monstertaget-var-6882",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "monstertaget-var-6882"
+  },
+  {
+   "slug": "monstertaget-verktyg-4b9a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "monstertaget-verktyg-4b9a"
+  },
+  {
+   "slug": "monstertaget-vinter-695d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "monstertaget-vinter-695d"
+  },
+  {
+   "slug": "monstertaget-yrken-f3cb",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "monstertaget-yrken-f3cb"
+  },
+  {
+   "slug": "monsterblad-aktiviteter-8c26",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "monsterblad-aktiviteter-8c26"
+  },
+  {
+   "slug": "monsterblad-bageri-eefd",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "monsterblad-bageri-eefd"
+  },
+  {
+   "slug": "monsterblad-blommor-3ea1",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "monsterblad-blommor-3ea1"
+  },
+  {
+   "slug": "monsterblad-bondgardsdjur-9586",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "monsterblad-bondgardsdjur-9586"
+  },
+  {
+   "slug": "monsterblad-camping-de5e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "monsterblad-camping-de5e"
+  },
+  {
+   "slug": "monsterblad-dinosaurier-32de",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "monsterblad-dinosaurier-32de"
+  },
+  {
+   "slug": "monsterblad-djur-145b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "monsterblad-djur-145b"
+  },
+  {
+   "slug": "monsterblad-djurparksdjur-bacb",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "monsterblad-djurparksdjur-bacb"
+  },
+  {
+   "slug": "monsterblad-efterratter-och-godis-8649",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "monsterblad-efterratter-och-godis-8649"
+  },
+  {
+   "slug": "monsterblad-faglar-2-9d80",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "monsterblad-faglar-2-9d80"
+  },
+  {
+   "slug": "monsterblad-faglar-6f96",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "monsterblad-faglar-6f96"
+  },
+  {
+   "slug": "monsterblad-farger-5712",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "monsterblad-farger-5712"
+  },
+  {
+   "slug": "monsterblad-fordon-5d2e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "monsterblad-fordon-5d2e"
+  },
+  {
+   "slug": "monsterblad-former-1b1c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "monsterblad-former-1b1c"
+  },
+  {
+   "slug": "monsterblad-frukost-5160",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "monsterblad-frukost-5160"
+  },
+  {
+   "slug": "monsterblad-frukter-50e5",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "monsterblad-frukter-50e5"
+  },
+  {
+   "slug": "monsterblad-gronsaker-9135",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "monsterblad-gronsaker-9135"
+  },
+  {
+   "slug": "monsterblad-havsliv-a903",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "monsterblad-havsliv-a903"
+  },
+  {
+   "slug": "monsterblad-husdjur-428d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "monsterblad-husdjur-428d"
+  },
+  {
+   "slug": "monsterblad-i-snabbkopet-5c2e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "monsterblad-i-snabbkopet-5c2e"
+  },
+  {
+   "slug": "monsterblad-insekter-och-kryp-8392",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "monsterblad-insekter-och-kryp-8392"
+  },
+  {
+   "slug": "monsterblad-jul-f95a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "monsterblad-jul-f95a"
+  },
+  {
+   "slug": "monsterblad-kanslor-66bc",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "monsterblad-kanslor-66bc"
+  },
+  {
+   "slug": "monsterblad-klader-d108",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "monsterblad-klader-d108"
+  },
+  {
+   "slug": "monsterblad-klassrum-6309",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "monsterblad-klassrum-6309"
+  },
+  {
+   "slug": "monsterblad-koksredskap-0e71",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "monsterblad-koksredskap-0e71"
+  },
+  {
+   "slug": "monsterblad-kroppsdelar-7b30",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "monsterblad-kroppsdelar-7b30"
+  },
+  {
+   "slug": "monsterblad-leksaker-70b7",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "monsterblad-leksaker-70b7"
+  },
+  {
+   "slug": "monsterblad-mobler-90e6",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "monsterblad-mobler-90e6"
+  },
+  {
+   "slug": "monsterblad-musik-64f4",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "music",
+   "level": "forskola",
+   "deck": "monsterblad-musik-64f4"
+  },
+  {
+   "slug": "monsterblad-pask-f4ff",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "monsterblad-pask-f4ff"
+  },
+  {
+   "slug": "monsterblad-postkontor-2807",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "monsterblad-postkontor-2807"
+  },
+  {
+   "slug": "monsterblad-reptiler-och-groddjur-cecc",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "monsterblad-reptiler-och-groddjur-cecc"
+  },
+  {
+   "slug": "monsterblad-runt-huset-ae1d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "monsterblad-runt-huset-ae1d"
+  },
+  {
+   "slug": "monsterblad-rymden-5b81",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "space",
+   "level": "forskola",
+   "deck": "monsterblad-rymden-5b81"
+  },
+  {
+   "slug": "monsterblad-saker-som-flyger-1d79",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "monsterblad-saker-som-flyger-1d79"
+  },
+  {
+   "slug": "monsterblad-sjukhus-bfce",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "monsterblad-sjukhus-bfce"
+  },
+  {
+   "slug": "monsterblad-skogsdjur-6915",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "monsterblad-skogsdjur-6915"
+  },
+  {
+   "slug": "monsterblad-sommar-ce15",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "monsterblad-sommar-ce15"
+  },
+  {
+   "slug": "monsterblad-strand-853e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "monsterblad-strand-853e"
+  },
+  {
+   "slug": "monsterblad-thanksgiving-2478",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "monsterblad-thanksgiving-2478"
+  },
+  {
+   "slug": "monsterblad-tillbehor-5f8a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "monsterblad-tillbehor-5f8a"
+  },
+  {
+   "slug": "monsterblad-trad-92cd",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "monsterblad-trad-92cd"
+  },
+  {
+   "slug": "monsterblad-vader-c4a9",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "monsterblad-vader-c4a9"
+  },
+  {
+   "slug": "monsterblad-var-d54c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "monsterblad-var-d54c"
+  },
+  {
+   "slug": "monsterblad-verktyg-d7ae",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "monsterblad-verktyg-d7ae"
+  },
+  {
+   "slug": "monsterblad-vinter-54e6",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "monsterblad-vinter-54e6"
+  },
+  {
+   "slug": "monsterblad-yrken-a137",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "monsterblad-yrken-a137"
+  }
+ ]
+}

@@ -1,0 +1,796 @@
+{
+ "part": 88,
+ "locale": "es",
+ "classes": [
+  "pattern-train::aabb",
+  "pattern-worksheet::null"
+ ],
+ "splitOf": null,
+ "count": 98,
+ "pages": [
+  {
+   "slug": "tren-de-patrones-aabb-4-de-julio-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-4-de-julio-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-accesorios-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-accesorios-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-actividades-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-actividades-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-alrededor-de-la-casa-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-alrededor-de-la-casa-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-animales-de-granja-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-animales-de-granja-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-animales-del-zoologico-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-animales-del-zoologico-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-animales-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-animales-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-arboles-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-arboles-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-aves-2-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-aves-2-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-aves-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-aves-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-campamento-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-campamento-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-clima-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-clima-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-colores-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-colores-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-cosas-que-vuelan-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-cosas-que-vuelan-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-desayuno-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-desayuno-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-dia-de-accion-de-gracias-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-dia-de-accion-de-gracias-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-dinosaurios-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-dinosaurios-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-emociones-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-emociones-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-en-el-supermercado-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-en-el-supermercado-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-espacio-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-espacio-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-flores-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-flores-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-formas-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-formas-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-frutas-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-frutas-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-herramientas-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-herramientas-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-hospital-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-hospital-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-insectos-y-bichos-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-insectos-y-bichos-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-invierno-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-invierno-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-juguetes-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-juguetes-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-mascotas-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-mascotas-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-miscelaneo-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-miscelaneo-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-muebles-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-muebles-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-musica-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-musica-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-navidad-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-navidad-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-ocupaciones-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-ocupaciones-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-oficina-de-correos-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-oficina-de-correos-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-panaderia-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-panaderia-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-partes-del-cuerpo-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-partes-del-cuerpo-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-pascua-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-pascua-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-playa-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-playa-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-postres-y-dulces-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-postres-y-dulces-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-primavera-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-primavera-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-reptiles-y-anfibios-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-reptiles-y-anfibios-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-ropa-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-ropa-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-salon-de-clases-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-salon-de-clases-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-utensilios-de-cocina-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-utensilios-de-cocina-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-vehiculos-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-vehiculos-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-verano-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-verano-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-verduras-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-verduras-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-aabb-vida-marina-fe63",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-aabb-vida-marina-fe63"
+  },
+  {
+   "slug": "ficha-de-patrones",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones"
+  },
+  {
+   "slug": "ficha-de-patrones-4-de-julio-1587",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-4-de-julio-1587"
+  },
+  {
+   "slug": "ficha-de-patrones-accesorios-fd73",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-accesorios-fd73"
+  },
+  {
+   "slug": "ficha-de-patrones-actividades-6c66",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-actividades-6c66"
+  },
+  {
+   "slug": "ficha-de-patrones-alrededor-de-la-casa-1adb",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-alrededor-de-la-casa-1adb"
+  },
+  {
+   "slug": "ficha-de-patrones-animales-de-granja-178d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-animales-de-granja-178d"
+  },
+  {
+   "slug": "ficha-de-patrones-animales-del-zoologico-f116",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-animales-del-zoologico-f116"
+  },
+  {
+   "slug": "ficha-de-patrones-arboles-9775",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-arboles-9775"
+  },
+  {
+   "slug": "ficha-de-patrones-aves-2-aab9",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-aves-2-aab9"
+  },
+  {
+   "slug": "ficha-de-patrones-aves-5a08",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-aves-5a08"
+  },
+  {
+   "slug": "ficha-de-patrones-campamento-9abb",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-campamento-9abb"
+  },
+  {
+   "slug": "ficha-de-patrones-clima-10dd",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-clima-10dd"
+  },
+  {
+   "slug": "ficha-de-patrones-colores-c2dc",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-colores-c2dc"
+  },
+  {
+   "slug": "ficha-de-patrones-cosas-que-vuelan-111f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-cosas-que-vuelan-111f"
+  },
+  {
+   "slug": "ficha-de-patrones-criaturas-del-bosque-02f1",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-criaturas-del-bosque-02f1"
+  },
+  {
+   "slug": "ficha-de-patrones-desayuno-b46c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-desayuno-b46c"
+  },
+  {
+   "slug": "ficha-de-patrones-dia-de-accion-de-gracias-2042",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-dia-de-accion-de-gracias-2042"
+  },
+  {
+   "slug": "ficha-de-patrones-dinosaurios-2569",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-dinosaurios-2569"
+  },
+  {
+   "slug": "ficha-de-patrones-emociones-c879",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-emociones-c879"
+  },
+  {
+   "slug": "ficha-de-patrones-en-el-supermercado-5ed2",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-en-el-supermercado-5ed2"
+  },
+  {
+   "slug": "ficha-de-patrones-espacio-853f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-espacio-853f"
+  },
+  {
+   "slug": "ficha-de-patrones-flores-7540",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-flores-7540"
+  },
+  {
+   "slug": "ficha-de-patrones-formas-7e6e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-formas-7e6e"
+  },
+  {
+   "slug": "ficha-de-patrones-frutas-b64c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-frutas-b64c"
+  },
+  {
+   "slug": "ficha-de-patrones-herramientas-fb72",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-herramientas-fb72"
+  },
+  {
+   "slug": "ficha-de-patrones-hospital-e595",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-hospital-e595"
+  },
+  {
+   "slug": "ficha-de-patrones-insectos-y-bichos-2639",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-insectos-y-bichos-2639"
+  },
+  {
+   "slug": "ficha-de-patrones-invierno-bb26",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-invierno-bb26"
+  },
+  {
+   "slug": "ficha-de-patrones-juguetes-7917",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-juguetes-7917"
+  },
+  {
+   "slug": "ficha-de-patrones-mascotas-19ed",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-mascotas-19ed"
+  },
+  {
+   "slug": "ficha-de-patrones-miscelaneo-4d57",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-miscelaneo-4d57"
+  },
+  {
+   "slug": "ficha-de-patrones-muebles-2739",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-muebles-2739"
+  },
+  {
+   "slug": "ficha-de-patrones-musica-2f9e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-musica-2f9e"
+  },
+  {
+   "slug": "ficha-de-patrones-navidad-002a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-navidad-002a"
+  },
+  {
+   "slug": "ficha-de-patrones-ocupaciones-e770",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-ocupaciones-e770"
+  },
+  {
+   "slug": "ficha-de-patrones-oficina-de-correos-b7f3",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-oficina-de-correos-b7f3"
+  },
+  {
+   "slug": "ficha-de-patrones-panaderia-7161",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-panaderia-7161"
+  },
+  {
+   "slug": "ficha-de-patrones-partes-del-cuerpo-4c88",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-partes-del-cuerpo-4c88"
+  },
+  {
+   "slug": "ficha-de-patrones-pascua-53b4",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-pascua-53b4"
+  },
+  {
+   "slug": "ficha-de-patrones-playa-6f62",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-playa-6f62"
+  },
+  {
+   "slug": "ficha-de-patrones-postres-y-dulces-542e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-postres-y-dulces-542e"
+  },
+  {
+   "slug": "ficha-de-patrones-primavera-4db2",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-primavera-4db2"
+  },
+  {
+   "slug": "ficha-de-patrones-reptiles-y-anfibios-820f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-reptiles-y-anfibios-820f"
+  },
+  {
+   "slug": "ficha-de-patrones-ropa-68c4",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-ropa-68c4"
+  },
+  {
+   "slug": "ficha-de-patrones-salon-de-clases-6267",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-salon-de-clases-6267"
+  },
+  {
+   "slug": "ficha-de-patrones-utensilios-de-cocina-1230",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-utensilios-de-cocina-1230"
+  },
+  {
+   "slug": "ficha-de-patrones-vehiculos-7522",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-vehiculos-7522"
+  },
+  {
+   "slug": "ficha-de-patrones-verano-1463",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-verano-1463"
+  },
+  {
+   "slug": "ficha-de-patrones-verduras-98df",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-verduras-98df"
+  }
+ ]
+}

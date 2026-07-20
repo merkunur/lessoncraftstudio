@@ -1,0 +1,780 @@
+{
+ "part": 266,
+ "locale": "da",
+ "classes": [
+  "picture-path::choose-path",
+  "prepositions::fillin"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-aktiviteter-0f15",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-aktiviteter-0f15"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-bageri-c57f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-bageri-c57f"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-blomster-bf92",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-blomster-bf92"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-bondegardsdyr-40c3",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-bondegardsdyr-40c3"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-camping-6c3e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-camping-6c3e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-desserter-og-slik-542e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-desserter-og-slik-542e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-dinosaurer-c67e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-dinosaurer-c67e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-dyr-2995",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-dyr-2995"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-erhverv-2362",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-erhverv-2362"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-farver-97ad",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-farver-97ad"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-folelser-087d",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-folelser-087d"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-forar-b799",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-forar-b799"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-former-240d",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-former-240d"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-frugter-740f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-frugter-740f"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-fugle-2-c055",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-fugle-2-c055"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-fugle-250c",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-fugle-250c"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-grontsager-d78e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-grontsager-d78e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-havliv-81a4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-havliv-81a4"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-hospital-7b96",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-hospital-7b96"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-i-supermarkedet-b6d8",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-i-supermarkedet-b6d8"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-insekter-og-kryb-c5c7",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-insekter-og-kryb-c5c7"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-jul-3956",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-jul-3956"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-kaeledyr-29dd",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-kaeledyr-29dd"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-klassevaerelse-0b15",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-klassevaerelse-0b15"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-kokkenredskaber-844e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-kokkenredskaber-844e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-koretojer-2ae8",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-koretojer-2ae8"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-kropsdele-1391",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-kropsdele-1391"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-krybdyr-og-padder-9f94",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-krybdyr-og-padder-9f94"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-legetoj-a3fe",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-legetoj-a3fe"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-mobler-42ff",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-mobler-42ff"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-morgenmad-b411",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-morgenmad-b411"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-musik-0cdf",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-musik-0cdf"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-paske-3e6e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-paske-3e6e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-postkontor-f4c3",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-postkontor-f4c3"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-rummet-3026",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-rummet-3026"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-rundt-i-huset-b774",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-rundt-i-huset-b774"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-skovdyr-b085",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-skovdyr-b085"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-sommer-891f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-sommer-891f"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-strand-3b51",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-strand-3b51"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-thanksgiving-90a5",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-thanksgiving-90a5"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-tilbehor-adce",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-tilbehor-adce"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-ting-der-flyver-9e10",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-ting-der-flyver-9e10"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-toj-d99f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-toj-d99f"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-traeer-6e25",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-traeer-6e25"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-vaerktoj-9fb2",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-vaerktoj-9fb2"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-vejr-deb9",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-vejr-deb9"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-vinter-ef0e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-vinter-ef0e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-zoodyr-eea4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-zoodyr-eea4"
+  },
+  {
+   "slug": "praepositioner-udfyld-aktiviteter-b24a",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "activities",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-aktiviteter-b24a"
+  },
+  {
+   "slug": "praepositioner-udfyld-bageri-ad15",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "bakery",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-bageri-ad15"
+  },
+  {
+   "slug": "praepositioner-udfyld-blomster-db4c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "flowers",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-blomster-db4c"
+  },
+  {
+   "slug": "praepositioner-udfyld-bondegardsdyr-4dcc",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "farm_animals",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-bondegardsdyr-4dcc"
+  },
+  {
+   "slug": "praepositioner-udfyld-camping-bb0d",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "camping",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-camping-bb0d"
+  },
+  {
+   "slug": "praepositioner-udfyld-desserter-og-slik-e21d",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "desserts_and_sweets",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-desserter-og-slik-e21d"
+  },
+  {
+   "slug": "praepositioner-udfyld-dinosaurer-6845",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "dinosaurs",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-dinosaurer-6845"
+  },
+  {
+   "slug": "praepositioner-udfyld-dyr-8f9f",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "animals",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-dyr-8f9f"
+  },
+  {
+   "slug": "praepositioner-udfyld-erhverv-017a",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "occupations",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-erhverv-017a"
+  },
+  {
+   "slug": "praepositioner-udfyld-farver-345d",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "colors",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-farver-345d"
+  },
+  {
+   "slug": "praepositioner-udfyld-folelser-997e",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "emotions",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-folelser-997e"
+  },
+  {
+   "slug": "praepositioner-udfyld-forar-4095",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "spring",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-forar-4095"
+  },
+  {
+   "slug": "praepositioner-udfyld-former-a125",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "shapes",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-former-a125"
+  },
+  {
+   "slug": "praepositioner-udfyld-frugter-ae62",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "fruits",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-frugter-ae62"
+  },
+  {
+   "slug": "praepositioner-udfyld-fugle-2-2d6c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "birds_2",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-fugle-2-2d6c"
+  },
+  {
+   "slug": "praepositioner-udfyld-fugle-256f",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "birds",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-fugle-256f"
+  },
+  {
+   "slug": "praepositioner-udfyld-grontsager-0877",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "vegetables",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-grontsager-0877"
+  },
+  {
+   "slug": "praepositioner-udfyld-havliv-116c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "ocean_life",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-havliv-116c"
+  },
+  {
+   "slug": "praepositioner-udfyld-hospital-cc48",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "hospital",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-hospital-cc48"
+  },
+  {
+   "slug": "praepositioner-udfyld-i-supermarkedet-2f41",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "at_the_supermarket",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-i-supermarkedet-2f41"
+  },
+  {
+   "slug": "praepositioner-udfyld-insekter-og-kryb-77da",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "insects_and_bugs",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-insekter-og-kryb-77da"
+  },
+  {
+   "slug": "praepositioner-udfyld-jul-b8e2",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "christmas",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-jul-b8e2"
+  },
+  {
+   "slug": "praepositioner-udfyld-kaeledyr-e87c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "pets",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-kaeledyr-e87c"
+  },
+  {
+   "slug": "praepositioner-udfyld-klassevaerelse-a07a",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "classroom",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-klassevaerelse-a07a"
+  },
+  {
+   "slug": "praepositioner-udfyld-kokkenredskaber-9423",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "kitchen_tools",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-kokkenredskaber-9423"
+  },
+  {
+   "slug": "praepositioner-udfyld-koretojer-6af6",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "vehicles",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-koretojer-6af6"
+  },
+  {
+   "slug": "praepositioner-udfyld-kropsdele-93ad",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "body_parts",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-kropsdele-93ad"
+  },
+  {
+   "slug": "praepositioner-udfyld-krybdyr-og-padder-46fe",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-krybdyr-og-padder-46fe"
+  },
+  {
+   "slug": "praepositioner-udfyld-legetoj-20bf",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "toys",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-legetoj-20bf"
+  },
+  {
+   "slug": "praepositioner-udfyld-mobler-8f33",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "furniture",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-mobler-8f33"
+  },
+  {
+   "slug": "praepositioner-udfyld-morgenmad-41e3",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "breakfast",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-morgenmad-41e3"
+  },
+  {
+   "slug": "praepositioner-udfyld-musik-cf73",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "music",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-musik-cf73"
+  },
+  {
+   "slug": "praepositioner-udfyld-paske-e74a",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "easter",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-paske-e74a"
+  },
+  {
+   "slug": "praepositioner-udfyld-postkontor-9fb7",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "post_office",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-postkontor-9fb7"
+  },
+  {
+   "slug": "praepositioner-udfyld-rummet-e18d",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "space",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-rummet-e18d"
+  },
+  {
+   "slug": "praepositioner-udfyld-rundt-i-huset-93d5",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "around_the_house",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-rundt-i-huset-93d5"
+  },
+  {
+   "slug": "praepositioner-udfyld-skovdyr-642e",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "forest_creatures",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-skovdyr-642e"
+  },
+  {
+   "slug": "praepositioner-udfyld-sommer-5305",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "summer",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-sommer-5305"
+  },
+  {
+   "slug": "praepositioner-udfyld-strand-f1a5",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "beach",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-strand-f1a5"
+  },
+  {
+   "slug": "praepositioner-udfyld-thanksgiving-6ad2",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "thanksgivinng",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-thanksgiving-6ad2"
+  },
+  {
+   "slug": "praepositioner-udfyld-tilbehor-6ce5",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "accessories",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-tilbehor-6ce5"
+  },
+  {
+   "slug": "praepositioner-udfyld-ting-der-flyver-38e4",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "things_that_fly",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-ting-der-flyver-38e4"
+  },
+  {
+   "slug": "praepositioner-udfyld-toj-f3d8",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "clothing",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-toj-f3d8"
+  },
+  {
+   "slug": "praepositioner-udfyld-traeer-d637",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "tree",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-traeer-d637"
+  },
+  {
+   "slug": "praepositioner-udfyld-vaerktoj-ae14",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "tools",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-vaerktoj-ae14"
+  },
+  {
+   "slug": "praepositioner-udfyld-vejr-5073",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "weather",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-vejr-5073"
+  },
+  {
+   "slug": "praepositioner-udfyld-vinter-4a7f",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "winter",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-vinter-4a7f"
+  },
+  {
+   "slug": "praepositioner-udfyld-zoodyr-2160",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "zoo_animals",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-zoodyr-2160"
+  }
+ ]
+}

@@ -1,0 +1,596 @@
+{
+ "part": 193,
+ "locale": "it",
+ "classes": [
+  "math-puzzle::addition",
+  "big-small::findBig"
+ ],
+ "splitOf": null,
+ "count": 73,
+ "pages": [
+  {
+   "slug": "puzzle-matematico-addizione-abbigliamento-c886",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "clothing",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-abbigliamento-c886"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-accessori-d3ef",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-accessori-d3ef"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-al-supermercato-35c7",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-al-supermercato-35c7"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-alberi-dc1e",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-alberi-dc1e"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-animali-539f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-animali-539f"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-animali-della-fattoria-bc9f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "farm_animals",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-animali-della-fattoria-bc9f"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-animali-dello-zoo-05f6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-animali-dello-zoo-05f6"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-animali-domestici-199c",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-animali-domestici-199c"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-attrezzi-5daa",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tools",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-attrezzi-5daa"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-aula-4f8b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "classroom",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-aula-4f8b"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-campeggio-eb61",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-campeggio-eb61"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-colazione-9187",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-colazione-9187"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-cose-che-volano-afe3",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "things_that_fly",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-cose-che-volano-afe3"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-creature-della-foresta-1972",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-creature-della-foresta-1972"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-dinosauri-9bd9",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "dinosaurs",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-dinosauri-9bd9"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-dolci-e-dolciumi-0d1b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-dolci-e-dolciumi-0d1b"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-fiori-5e48",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-fiori-5e48"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-frutta-408a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-frutta-408a"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-giocattoli-7ca8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-giocattoli-7ca8"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-in-giro-per-casa-78c1",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-in-giro-per-casa-78c1"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-insetti-e-scarafaggi-dfa4",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-insetti-e-scarafaggi-dfa4"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-mobili-aadb",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-mobili-aadb"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-musica-5f50",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-musica-5f50"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-natale-f576",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-natale-f576"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-ospedale-f4cd",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-ospedale-f4cd"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-panetteria-76c8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "bakery",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-panetteria-76c8"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-pasqua-f577",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-pasqua-f577"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-professioni-98a1",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-professioni-98a1"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-rettili-e-anfibi-2275",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-rettili-e-anfibi-2275"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-spazio-2d56",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-spazio-2d56"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-spiaggia-45d6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-spiaggia-45d6"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-uccelli-2-2ce0",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-uccelli-2-2ce0"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-uccelli-319b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-uccelli-319b"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-varie-2ab6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-varie-2ab6"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-veicoli-20cf",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-veicoli-20cf"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-verdure-6196",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vegetables",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-verdure-6196"
+  },
+  {
+   "slug": "puzzle-matematico-addizione-vita-oceanica-31f3",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "puzzle-matematico-addizione-vita-oceanica-31f3"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-abbigliamento-987b",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-abbigliamento-987b"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-accessori-17be",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-accessori-17be"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-al-supermercato-1780",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-al-supermercato-1780"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-alberi-0d26",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-alberi-0d26"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-animali-d54d",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-animali-d54d"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-animali-della-fattoria-d14f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-animali-della-fattoria-d14f"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-animali-dello-zoo-d95e",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-animali-dello-zoo-d95e"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-animali-domestici-671e",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-animali-domestici-671e"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-attrezzi-9c3e",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-attrezzi-9c3e"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-aula-e22d",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-aula-e22d"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-campeggio-ba49",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-campeggio-ba49"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-colazione-e5ac",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-colazione-e5ac"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-cose-che-volano-9a66",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-cose-che-volano-9a66"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-creature-della-foresta-ba80",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-creature-della-foresta-ba80"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-dinosauri-5c10",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-dinosauri-5c10"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-dolci-e-dolciumi-7e35",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-dolci-e-dolciumi-7e35"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-fiori-c90e",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-fiori-c90e"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-forme-8fef",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-forme-8fef"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-frutta-ff14",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-frutta-ff14"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-giocattoli-9177",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-giocattoli-9177"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-in-giro-per-casa-5fd1",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-in-giro-per-casa-5fd1"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-mobili-57fc",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-mobili-57fc"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-musica-25c3",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-musica-25c3"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-natale-7a54",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-natale-7a54"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-ospedale-682c",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-ospedale-682c"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-panetteria-0f55",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-panetteria-0f55"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-parti-del-corpo-0f8b",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-parti-del-corpo-0f8b"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-pasqua-4721",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-pasqua-4721"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-professioni-4cf2",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-professioni-4cf2"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-spazio-adc5",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-spazio-adc5"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-spiaggia-7cc4",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-spiaggia-7cc4"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-uccelli-2-1230",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-uccelli-2-1230"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-utensili-da-cucina-fb35",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-utensili-da-cucina-fb35"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-veicoli-e6ca",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-veicoli-e6ca"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-verdure-09e6",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-verdure-09e6"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-vita-oceanica-0a09",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-vita-oceanica-0a09"
+  }
+ ]
+}

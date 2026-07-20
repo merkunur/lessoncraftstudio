@@ -1,0 +1,780 @@
+{
+ "part": 300,
+ "locale": "no",
+ "classes": [
+  "picture-path::choose-path",
+  "prepositions::multiplechoice"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "bildevei-velg-riktig-vei-aktiviteter-c2d5",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-aktiviteter-c2d5"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-bakeri-666f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-bakeri-666f"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-blomster-69ee",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-blomster-69ee"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-camping-bcab",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-camping-bcab"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-desserter-og-godteri-20e7",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-desserter-og-godteri-20e7"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-dinosaurer-9950",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-dinosaurer-9950"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-dyr-d5b1",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-dyr-d5b1"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-dyrehagedyr-9333",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-dyrehagedyr-9333"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-farger-41ba",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-farger-41ba"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-folelser-0542",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-folelser-0542"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-former-481e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-former-481e"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-frokost-7773",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-frokost-7773"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-frukter-9d9d",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-frukter-9d9d"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-fugler-2-136f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-fugler-2-136f"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-fugler-5ee4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-fugler-5ee4"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-gardsdyr-8da7",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-gardsdyr-8da7"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-gronnsaker-7164",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-gronnsaker-7164"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-havliv-08d2",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-havliv-08d2"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-i-supermarkedet-b033",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-i-supermarkedet-b033"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-insekter-og-kryp-0fcc",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-insekter-og-kryp-0fcc"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-jul-7dfc",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-jul-7dfc"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-kjaeledyr-f456",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-kjaeledyr-f456"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-kjokkenredskaper-36c8",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-kjokkenredskaper-36c8"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-kjoretoy-8ae4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-kjoretoy-8ae4"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-klaer-aae9",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-klaer-aae9"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-klasserom-6a84",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-klasserom-6a84"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-kroppsdeler-02df",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-kroppsdeler-02df"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-leker-1a7d",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-leker-1a7d"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-mobler-a432",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-mobler-a432"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-musikk-90bf",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-musikk-90bf"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-paske-6df3",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-paske-6df3"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-postkontor-0192",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-postkontor-0192"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-reptiler-og-amfibier-8883",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-reptiler-og-amfibier-8883"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-rundt-i-huset-1425",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-rundt-i-huset-1425"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-skogsdyr-daf6",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-skogsdyr-daf6"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-sommer-2732",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-sommer-2732"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-strand-163e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-strand-163e"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-sykehus-1bcc",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-sykehus-1bcc"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-thanksgiving-6ae0",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-thanksgiving-6ae0"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-tilbehor-e927",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-tilbehor-e927"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-ting-som-flyr-42d4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-ting-som-flyr-42d4"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-traer-6963",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-traer-6963"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-vaer-aa32",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-vaer-aa32"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-var-2e7b",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-var-2e7b"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-verdensrommet-ac65",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-verdensrommet-ac65"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-verktoy-c0a0",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-verktoy-c0a0"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-vinter-f23c",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-vinter-f23c"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-yrker-0944",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-yrker-0944"
+  },
+  {
+   "slug": "preposisjoner-flervalg-aktiviteter-4dc9",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "activities",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-aktiviteter-4dc9"
+  },
+  {
+   "slug": "preposisjoner-flervalg-bakeri-af9f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-bakeri-af9f"
+  },
+  {
+   "slug": "preposisjoner-flervalg-blomster-872f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-blomster-872f"
+  },
+  {
+   "slug": "preposisjoner-flervalg-camping-788f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-camping-788f"
+  },
+  {
+   "slug": "preposisjoner-flervalg-desserter-og-godteri-9ee7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-desserter-og-godteri-9ee7"
+  },
+  {
+   "slug": "preposisjoner-flervalg-dinosaurer-6b1b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-dinosaurer-6b1b"
+  },
+  {
+   "slug": "preposisjoner-flervalg-dyr-3d27",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-dyr-3d27"
+  },
+  {
+   "slug": "preposisjoner-flervalg-dyrehagedyr-4a6c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-dyrehagedyr-4a6c"
+  },
+  {
+   "slug": "preposisjoner-flervalg-farger-1352",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "colors",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-farger-1352"
+  },
+  {
+   "slug": "preposisjoner-flervalg-folelser-778e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "emotions",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-folelser-778e"
+  },
+  {
+   "slug": "preposisjoner-flervalg-former-a7fc",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-former-a7fc"
+  },
+  {
+   "slug": "preposisjoner-flervalg-frokost-adc5",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-frokost-adc5"
+  },
+  {
+   "slug": "preposisjoner-flervalg-frukter-cc98",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-frukter-cc98"
+  },
+  {
+   "slug": "preposisjoner-flervalg-fugler-2-1cf7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-fugler-2-1cf7"
+  },
+  {
+   "slug": "preposisjoner-flervalg-fugler-3578",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-fugler-3578"
+  },
+  {
+   "slug": "preposisjoner-flervalg-gardsdyr-875f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-gardsdyr-875f"
+  },
+  {
+   "slug": "preposisjoner-flervalg-gronnsaker-00bf",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-gronnsaker-00bf"
+  },
+  {
+   "slug": "preposisjoner-flervalg-havliv-c628",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-havliv-c628"
+  },
+  {
+   "slug": "preposisjoner-flervalg-i-supermarkedet-daa4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-i-supermarkedet-daa4"
+  },
+  {
+   "slug": "preposisjoner-flervalg-insekter-og-kryp-5766",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-insekter-og-kryp-5766"
+  },
+  {
+   "slug": "preposisjoner-flervalg-jul-0109",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-jul-0109"
+  },
+  {
+   "slug": "preposisjoner-flervalg-kjaeledyr-d6b8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-kjaeledyr-d6b8"
+  },
+  {
+   "slug": "preposisjoner-flervalg-kjokkenredskaper-457d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-kjokkenredskaper-457d"
+  },
+  {
+   "slug": "preposisjoner-flervalg-kjoretoy-0ae7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-kjoretoy-0ae7"
+  },
+  {
+   "slug": "preposisjoner-flervalg-klaer-edef",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-klaer-edef"
+  },
+  {
+   "slug": "preposisjoner-flervalg-klasserom-9e12",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-klasserom-9e12"
+  },
+  {
+   "slug": "preposisjoner-flervalg-kroppsdeler-136f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "body_parts",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-kroppsdeler-136f"
+  },
+  {
+   "slug": "preposisjoner-flervalg-leker-24d2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-leker-24d2"
+  },
+  {
+   "slug": "preposisjoner-flervalg-mobler-2c18",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-mobler-2c18"
+  },
+  {
+   "slug": "preposisjoner-flervalg-musikk-dd5d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-musikk-dd5d"
+  },
+  {
+   "slug": "preposisjoner-flervalg-paske-1d6e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-paske-1d6e"
+  },
+  {
+   "slug": "preposisjoner-flervalg-postkontor-808e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-postkontor-808e"
+  },
+  {
+   "slug": "preposisjoner-flervalg-reptiler-og-amfibier-0ca5",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-reptiler-og-amfibier-0ca5"
+  },
+  {
+   "slug": "preposisjoner-flervalg-rundt-i-huset-db47",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-rundt-i-huset-db47"
+  },
+  {
+   "slug": "preposisjoner-flervalg-skogsdyr-99d8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-skogsdyr-99d8"
+  },
+  {
+   "slug": "preposisjoner-flervalg-sommer-b5a7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "summer",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-sommer-b5a7"
+  },
+  {
+   "slug": "preposisjoner-flervalg-strand-0375",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-strand-0375"
+  },
+  {
+   "slug": "preposisjoner-flervalg-sykehus-c8ea",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-sykehus-c8ea"
+  },
+  {
+   "slug": "preposisjoner-flervalg-thanksgiving-a45d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-thanksgiving-a45d"
+  },
+  {
+   "slug": "preposisjoner-flervalg-tilbehor-a1ce",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-tilbehor-a1ce"
+  },
+  {
+   "slug": "preposisjoner-flervalg-ting-som-flyr-3cef",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-ting-som-flyr-3cef"
+  },
+  {
+   "slug": "preposisjoner-flervalg-traer-2539",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-traer-2539"
+  },
+  {
+   "slug": "preposisjoner-flervalg-vaer-6ac6",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "weather",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-vaer-6ac6"
+  },
+  {
+   "slug": "preposisjoner-flervalg-var-3596",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "spring",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-var-3596"
+  },
+  {
+   "slug": "preposisjoner-flervalg-verdensrommet-bc34",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-verdensrommet-bc34"
+  },
+  {
+   "slug": "preposisjoner-flervalg-verktoy-43d7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-verktoy-43d7"
+  },
+  {
+   "slug": "preposisjoner-flervalg-vinter-cbc9",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "winter",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-vinter-cbc9"
+  },
+  {
+   "slug": "preposisjoner-flervalg-yrker-caaa",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-yrker-caaa"
+  }
+ ]
+}

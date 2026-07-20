@@ -1,0 +1,812 @@
+{
+ "part": 82,
+ "locale": "es",
+ "classes": [
+  "addition::find-addend",
+  "addition::image-number"
+ ],
+ "splitOf": null,
+ "count": 100,
+ "pages": [
+  {
+   "slug": "suma-buscar-sumando-4-de-julio-16c6",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-4-de-julio-16c6"
+  },
+  {
+   "slug": "suma-buscar-sumando-accesorios-156c",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-accesorios-156c"
+  },
+  {
+   "slug": "suma-buscar-sumando-actividades-bd59",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-actividades-bd59"
+  },
+  {
+   "slug": "suma-buscar-sumando-alrededor-de-la-casa-745e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "around_the_house",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-alrededor-de-la-casa-745e"
+  },
+  {
+   "slug": "suma-buscar-sumando-animales-0178",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-animales-0178"
+  },
+  {
+   "slug": "suma-buscar-sumando-animales-de-granja-c37f",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-animales-de-granja-c37f"
+  },
+  {
+   "slug": "suma-buscar-sumando-animales-del-zoologico-fd60",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-animales-del-zoologico-fd60"
+  },
+  {
+   "slug": "suma-buscar-sumando-arboles-2b3c",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-arboles-2b3c"
+  },
+  {
+   "slug": "suma-buscar-sumando-aves-2-057a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-aves-2-057a"
+  },
+  {
+   "slug": "suma-buscar-sumando-aves-71f4",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-aves-71f4"
+  },
+  {
+   "slug": "suma-buscar-sumando-campamento-fded",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-campamento-fded"
+  },
+  {
+   "slug": "suma-buscar-sumando-clima-35a7",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-clima-35a7"
+  },
+  {
+   "slug": "suma-buscar-sumando-colores-2e39",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-colores-2e39"
+  },
+  {
+   "slug": "suma-buscar-sumando-cosas-que-vuelan-1236",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-cosas-que-vuelan-1236"
+  },
+  {
+   "slug": "suma-buscar-sumando-criaturas-del-bosque-07a2",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-criaturas-del-bosque-07a2"
+  },
+  {
+   "slug": "suma-buscar-sumando-desayuno-38b3",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-desayuno-38b3"
+  },
+  {
+   "slug": "suma-buscar-sumando-dia-de-accion-de-gracias-b94e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "thanksgivinng",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-dia-de-accion-de-gracias-b94e"
+  },
+  {
+   "slug": "suma-buscar-sumando-dinosaurios-167a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-dinosaurios-167a"
+  },
+  {
+   "slug": "suma-buscar-sumando-emociones-eb1b",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-emociones-eb1b"
+  },
+  {
+   "slug": "suma-buscar-sumando-en-el-supermercado-870c",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-en-el-supermercado-870c"
+  },
+  {
+   "slug": "suma-buscar-sumando-espacio-02f9",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-espacio-02f9"
+  },
+  {
+   "slug": "suma-buscar-sumando-flores-be00",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-flores-be00"
+  },
+  {
+   "slug": "suma-buscar-sumando-formas-4169",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-formas-4169"
+  },
+  {
+   "slug": "suma-buscar-sumando-frutas-e4ca",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-frutas-e4ca"
+  },
+  {
+   "slug": "suma-buscar-sumando-herramientas-496e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-herramientas-496e"
+  },
+  {
+   "slug": "suma-buscar-sumando-hospital-b6fb",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-hospital-b6fb"
+  },
+  {
+   "slug": "suma-buscar-sumando-insectos-y-bichos-f59a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-insectos-y-bichos-f59a"
+  },
+  {
+   "slug": "suma-buscar-sumando-invierno-91ad",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-invierno-91ad"
+  },
+  {
+   "slug": "suma-buscar-sumando-juguetes-2e3e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-juguetes-2e3e"
+  },
+  {
+   "slug": "suma-buscar-sumando-mascotas-7003",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-mascotas-7003"
+  },
+  {
+   "slug": "suma-buscar-sumando-miscelaneo-8941",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-miscelaneo-8941"
+  },
+  {
+   "slug": "suma-buscar-sumando-muebles-9a21",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-muebles-9a21"
+  },
+  {
+   "slug": "suma-buscar-sumando-musica-aca6",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-musica-aca6"
+  },
+  {
+   "slug": "suma-buscar-sumando-navidad-cdd5",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-navidad-cdd5"
+  },
+  {
+   "slug": "suma-buscar-sumando-ocupaciones-5f9c",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-ocupaciones-5f9c"
+  },
+  {
+   "slug": "suma-buscar-sumando-oficina-de-correos-6064",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-oficina-de-correos-6064"
+  },
+  {
+   "slug": "suma-buscar-sumando-panaderia-d21d",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-panaderia-d21d"
+  },
+  {
+   "slug": "suma-buscar-sumando-partes-del-cuerpo-07ee",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-partes-del-cuerpo-07ee"
+  },
+  {
+   "slug": "suma-buscar-sumando-pascua-7269",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-pascua-7269"
+  },
+  {
+   "slug": "suma-buscar-sumando-playa-5472",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-playa-5472"
+  },
+  {
+   "slug": "suma-buscar-sumando-postres-y-dulces-6344",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-postres-y-dulces-6344"
+  },
+  {
+   "slug": "suma-buscar-sumando-primavera-f0b8",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "spring",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-primavera-f0b8"
+  },
+  {
+   "slug": "suma-buscar-sumando-reptiles-y-anfibios-eaa9",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-reptiles-y-anfibios-eaa9"
+  },
+  {
+   "slug": "suma-buscar-sumando-ropa-098f",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-ropa-098f"
+  },
+  {
+   "slug": "suma-buscar-sumando-salon-de-clases-d7e0",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-salon-de-clases-d7e0"
+  },
+  {
+   "slug": "suma-buscar-sumando-utensilios-de-cocina-d44c",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-utensilios-de-cocina-d44c"
+  },
+  {
+   "slug": "suma-buscar-sumando-vehiculos-c068",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-vehiculos-c068"
+  },
+  {
+   "slug": "suma-buscar-sumando-verano-271f",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-verano-271f"
+  },
+  {
+   "slug": "suma-buscar-sumando-verduras-dcfb",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-verduras-dcfb"
+  },
+  {
+   "slug": "suma-buscar-sumando-vida-marina-dbcd",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-vida-marina-dbcd"
+  },
+  {
+   "slug": "suma-imagen-numero-4-de-julio-7fca",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-4-de-julio-7fca"
+  },
+  {
+   "slug": "suma-imagen-numero-accesorios-f7de",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-accesorios-f7de"
+  },
+  {
+   "slug": "suma-imagen-numero-actividades-0324",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-actividades-0324"
+  },
+  {
+   "slug": "suma-imagen-numero-alrededor-de-la-casa-5be4",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-alrededor-de-la-casa-5be4"
+  },
+  {
+   "slug": "suma-imagen-numero-animales-a9ea",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-animales-a9ea"
+  },
+  {
+   "slug": "suma-imagen-numero-animales-de-granja-0aa2",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-animales-de-granja-0aa2"
+  },
+  {
+   "slug": "suma-imagen-numero-animales-del-zoologico-db13",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-animales-del-zoologico-db13"
+  },
+  {
+   "slug": "suma-imagen-numero-arboles-b4c8",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-arboles-b4c8"
+  },
+  {
+   "slug": "suma-imagen-numero-aves-2-7954",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-aves-2-7954"
+  },
+  {
+   "slug": "suma-imagen-numero-aves-e13e",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-aves-e13e"
+  },
+  {
+   "slug": "suma-imagen-numero-campamento-d27d",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-campamento-d27d"
+  },
+  {
+   "slug": "suma-imagen-numero-clima-abfd",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-clima-abfd"
+  },
+  {
+   "slug": "suma-imagen-numero-colores-a0cf",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-colores-a0cf"
+  },
+  {
+   "slug": "suma-imagen-numero-cosas-que-vuelan-de11",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-cosas-que-vuelan-de11"
+  },
+  {
+   "slug": "suma-imagen-numero-criaturas-del-bosque-b93e",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-criaturas-del-bosque-b93e"
+  },
+  {
+   "slug": "suma-imagen-numero-desayuno-fb21",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-desayuno-fb21"
+  },
+  {
+   "slug": "suma-imagen-numero-dia-de-accion-de-gracias-9583",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-dia-de-accion-de-gracias-9583"
+  },
+  {
+   "slug": "suma-imagen-numero-dinosaurios-fab1",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-dinosaurios-fab1"
+  },
+  {
+   "slug": "suma-imagen-numero-emociones-8174",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-emociones-8174"
+  },
+  {
+   "slug": "suma-imagen-numero-en-el-supermercado-77e1",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-en-el-supermercado-77e1"
+  },
+  {
+   "slug": "suma-imagen-numero-espacio-1495",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-espacio-1495"
+  },
+  {
+   "slug": "suma-imagen-numero-flores-c746",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-flores-c746"
+  },
+  {
+   "slug": "suma-imagen-numero-formas-25bb",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-formas-25bb"
+  },
+  {
+   "slug": "suma-imagen-numero-frutas-db89",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-frutas-db89"
+  },
+  {
+   "slug": "suma-imagen-numero-herramientas-be48",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-herramientas-be48"
+  },
+  {
+   "slug": "suma-imagen-numero-hospital-adf0",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-hospital-adf0"
+  },
+  {
+   "slug": "suma-imagen-numero-insectos-y-bichos-c16e",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-insectos-y-bichos-c16e"
+  },
+  {
+   "slug": "suma-imagen-numero-invierno-abcf",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-invierno-abcf"
+  },
+  {
+   "slug": "suma-imagen-numero-juguetes-c21d",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-juguetes-c21d"
+  },
+  {
+   "slug": "suma-imagen-numero-mascotas-36d4",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-mascotas-36d4"
+  },
+  {
+   "slug": "suma-imagen-numero-miscelaneo-bb02",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-miscelaneo-bb02"
+  },
+  {
+   "slug": "suma-imagen-numero-muebles-60e3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-muebles-60e3"
+  },
+  {
+   "slug": "suma-imagen-numero-musica-f62d",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-musica-f62d"
+  },
+  {
+   "slug": "suma-imagen-numero-navidad-ceb8",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-navidad-ceb8"
+  },
+  {
+   "slug": "suma-imagen-numero-ocupaciones-afbf",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-ocupaciones-afbf"
+  },
+  {
+   "slug": "suma-imagen-numero-oficina-de-correos-66a3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-oficina-de-correos-66a3"
+  },
+  {
+   "slug": "suma-imagen-numero-panaderia-26fb",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-panaderia-26fb"
+  },
+  {
+   "slug": "suma-imagen-numero-partes-del-cuerpo-c2d6",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-partes-del-cuerpo-c2d6"
+  },
+  {
+   "slug": "suma-imagen-numero-pascua-1a61",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-pascua-1a61"
+  },
+  {
+   "slug": "suma-imagen-numero-playa-e77a",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-playa-e77a"
+  },
+  {
+   "slug": "suma-imagen-numero-postres-y-dulces-c116",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-postres-y-dulces-c116"
+  },
+  {
+   "slug": "suma-imagen-numero-primavera-f377",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "spring",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-primavera-f377"
+  },
+  {
+   "slug": "suma-imagen-numero-reptiles-y-anfibios-4e12",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-reptiles-y-anfibios-4e12"
+  },
+  {
+   "slug": "suma-imagen-numero-ropa-57f6",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-ropa-57f6"
+  },
+  {
+   "slug": "suma-imagen-numero-salon-de-clases-b46d",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-salon-de-clases-b46d"
+  },
+  {
+   "slug": "suma-imagen-numero-utensilios-de-cocina-4022",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-utensilios-de-cocina-4022"
+  },
+  {
+   "slug": "suma-imagen-numero-vehiculos-c8b9",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-vehiculos-c8b9"
+  },
+  {
+   "slug": "suma-imagen-numero-verano-2656",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-verano-2656"
+  },
+  {
+   "slug": "suma-imagen-numero-verduras-64fc",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-verduras-64fc"
+  },
+  {
+   "slug": "suma-imagen-numero-vida-marina-b680",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-vida-marina-b680"
+  }
+ ]
+}

@@ -1,0 +1,584 @@
+{
+ "part": 21,
+ "locale": "en",
+ "classes": [
+  "crossword::null"
+ ],
+ "splitOf": {
+  "class": "crossword::null",
+  "total": 497,
+  "chunk": 7,
+  "chunks": 7
+ },
+ "count": 71,
+ "pages": [
+  {
+   "slug": "spanish-crossword-emotions-8a89",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-emotions-8a89"
+  },
+  {
+   "slug": "spanish-crossword-farm-animals-7742",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-farm-animals-7742"
+  },
+  {
+   "slug": "spanish-crossword-flowers-ea7e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-flowers-ea7e"
+  },
+  {
+   "slug": "spanish-crossword-forest-creatures-d6e0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-forest-creatures-d6e0"
+  },
+  {
+   "slug": "spanish-crossword-fruits-0caa",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-fruits-0caa"
+  },
+  {
+   "slug": "spanish-crossword-furniture-520d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-furniture-520d"
+  },
+  {
+   "slug": "spanish-crossword-hospital-2c17",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-hospital-2c17"
+  },
+  {
+   "slug": "spanish-crossword-insects-and-bugs-5d82",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-insects-and-bugs-5d82"
+  },
+  {
+   "slug": "spanish-crossword-kitchen-tools-7d19",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-kitchen-tools-7d19"
+  },
+  {
+   "slug": "spanish-crossword-music-eff7",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-music-eff7"
+  },
+  {
+   "slug": "spanish-crossword-occupations-7274",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-occupations-7274"
+  },
+  {
+   "slug": "spanish-crossword-ocean-life-1861",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-ocean-life-1861"
+  },
+  {
+   "slug": "spanish-crossword-pets-56d0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-pets-56d0"
+  },
+  {
+   "slug": "spanish-crossword-post-office-0b97",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-post-office-0b97"
+  },
+  {
+   "slug": "spanish-crossword-shapes-2011",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-shapes-2011"
+  },
+  {
+   "slug": "spanish-crossword-space-281d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-space-281d"
+  },
+  {
+   "slug": "spanish-crossword-spring-7168",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-spring-7168"
+  },
+  {
+   "slug": "spanish-crossword-summer-0289",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-summer-0289"
+  },
+  {
+   "slug": "spanish-crossword-thanksgiving-405a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-thanksgiving-405a"
+  },
+  {
+   "slug": "spanish-crossword-things-that-fly-0c50",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-things-that-fly-0c50"
+  },
+  {
+   "slug": "spanish-crossword-tools-4cf3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-tools-4cf3"
+  },
+  {
+   "slug": "spanish-crossword-toys-2d4c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-toys-2d4c"
+  },
+  {
+   "slug": "spanish-crossword-vegetables-1bb4",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-vegetables-1bb4"
+  },
+  {
+   "slug": "spanish-crossword-vehicles-b131",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-vehicles-b131"
+  },
+  {
+   "slug": "spanish-crossword-weather-051b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-weather-051b"
+  },
+  {
+   "slug": "spanish-crossword-winter-d450",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-winter-d450"
+  },
+  {
+   "slug": "spanish-crossword-zoo-animals-0029",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-zoo-animals-0029"
+  },
+  {
+   "slug": "swedish-crossword-4th-of-july-e1b5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-4th-of-july-e1b5"
+  },
+  {
+   "slug": "swedish-crossword-accessories-e568",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-accessories-e568"
+  },
+  {
+   "slug": "swedish-crossword-activities-b64c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-activities-b64c"
+  },
+  {
+   "slug": "swedish-crossword-animals-ebb5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-animals-ebb5"
+  },
+  {
+   "slug": "swedish-crossword-around-the-house-a887",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-around-the-house-a887"
+  },
+  {
+   "slug": "swedish-crossword-at-the-supermarket-c22e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-at-the-supermarket-c22e"
+  },
+  {
+   "slug": "swedish-crossword-bakery-db4f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-bakery-db4f"
+  },
+  {
+   "slug": "swedish-crossword-beach-8faf",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-beach-8faf"
+  },
+  {
+   "slug": "swedish-crossword-birds-2-5c9a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-birds-2-5c9a"
+  },
+  {
+   "slug": "swedish-crossword-body-parts-cba8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-body-parts-cba8"
+  },
+  {
+   "slug": "swedish-crossword-breakfast-bf4a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-breakfast-bf4a"
+  },
+  {
+   "slug": "swedish-crossword-camping-93b8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-camping-93b8"
+  },
+  {
+   "slug": "swedish-crossword-christmas-b90f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-christmas-b90f"
+  },
+  {
+   "slug": "swedish-crossword-classroom-d588",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-classroom-d588"
+  },
+  {
+   "slug": "swedish-crossword-clothing-fb3a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-clothing-fb3a"
+  },
+  {
+   "slug": "swedish-crossword-colors-4d7f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-colors-4d7f"
+  },
+  {
+   "slug": "swedish-crossword-desserts-and-sweets-72e3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-desserts-and-sweets-72e3"
+  },
+  {
+   "slug": "swedish-crossword-easter-dccb",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-easter-dccb"
+  },
+  {
+   "slug": "swedish-crossword-emotions-66b0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-emotions-66b0"
+  },
+  {
+   "slug": "swedish-crossword-farm-animals-9c8e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-farm-animals-9c8e"
+  },
+  {
+   "slug": "swedish-crossword-flowers-c587",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-flowers-c587"
+  },
+  {
+   "slug": "swedish-crossword-forest-creatures-f4ab",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-forest-creatures-f4ab"
+  },
+  {
+   "slug": "swedish-crossword-fruits-0a10",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-fruits-0a10"
+  },
+  {
+   "slug": "swedish-crossword-furniture-44f2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-furniture-44f2"
+  },
+  {
+   "slug": "swedish-crossword-hospital-741c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-hospital-741c"
+  },
+  {
+   "slug": "swedish-crossword-insects-and-bugs-8fca",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-insects-and-bugs-8fca"
+  },
+  {
+   "slug": "swedish-crossword-kitchen-tools-1383",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-kitchen-tools-1383"
+  },
+  {
+   "slug": "swedish-crossword-music-5471",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-music-5471"
+  },
+  {
+   "slug": "swedish-crossword-occupations-f4d5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-occupations-f4d5"
+  },
+  {
+   "slug": "swedish-crossword-ocean-life-67f2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-ocean-life-67f2"
+  },
+  {
+   "slug": "swedish-crossword-pets-11fe",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-pets-11fe"
+  },
+  {
+   "slug": "swedish-crossword-post-office-b030",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-post-office-b030"
+  },
+  {
+   "slug": "swedish-crossword-shapes-de04",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-shapes-de04"
+  },
+  {
+   "slug": "swedish-crossword-space-b1b6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-space-b1b6"
+  },
+  {
+   "slug": "swedish-crossword-spring-3193",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-spring-3193"
+  },
+  {
+   "slug": "swedish-crossword-summer-b988",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-summer-b988"
+  },
+  {
+   "slug": "swedish-crossword-thanksgiving-f84a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-thanksgiving-f84a"
+  },
+  {
+   "slug": "swedish-crossword-things-that-fly-9060",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-things-that-fly-9060"
+  },
+  {
+   "slug": "swedish-crossword-tools-422f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-tools-422f"
+  },
+  {
+   "slug": "swedish-crossword-toys-ecc0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-toys-ecc0"
+  },
+  {
+   "slug": "swedish-crossword-vegetables-a520",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-vegetables-a520"
+  },
+  {
+   "slug": "swedish-crossword-vehicles-935d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-vehicles-935d"
+  },
+  {
+   "slug": "swedish-crossword-winter-ca3e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-winter-ca3e"
+  },
+  {
+   "slug": "swedish-crossword-zoo-animals-5d64",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "swedish-crossword-zoo-animals-5d64"
+  }
+ ]
+}

@@ -1,0 +1,652 @@
+{
+ "part": 162,
+ "locale": "fr",
+ "classes": [
+  "more-less::image-number",
+  "subtraction::cross-out"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "plus-ou-moins-image-nombre-accessoires-8293",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-accessoires-8293"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-action-de-grace-f190",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-action-de-grace-f190"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-animaux-bd6d",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-animaux-bd6d"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-animaux-de-compagnie-c908",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-animaux-de-compagnie-c908"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-animaux-de-la-ferme-a9d8",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-animaux-de-la-ferme-a9d8"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-animaux-du-zoo-1520",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-animaux-du-zoo-1520"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-arbres-9b14",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-arbres-9b14"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-au-supermarche-65e4",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-au-supermarche-65e4"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-autour-de-la-maison-59e0",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-autour-de-la-maison-59e0"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-boulangerie-2092",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-boulangerie-2092"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-bureau-de-poste-89d7",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-bureau-de-poste-89d7"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-camping-ced8",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-camping-ced8"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-choses-qui-volent-8812",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-choses-qui-volent-8812"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-creatures-de-la-foret-ad54",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-creatures-de-la-foret-ad54"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-desserts-et-sucreries-5c99",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-desserts-et-sucreries-5c99"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-dinosaures-e42d",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-dinosaures-e42d"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-espace-8ac6",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-espace-8ac6"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-fleurs-959b",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-fleurs-959b"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-formes-1a74",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-formes-1a74"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-fruits-4773",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-fruits-4773"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-hopital-e380",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-hopital-e380"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-insectes-et-bestioles-2566",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-insectes-et-bestioles-2566"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-jouets-009a",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-jouets-009a"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-legumes-bf91",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-legumes-bf91"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-metiers-a3bb",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-metiers-a3bb"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-meubles-7aaa",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-meubles-7aaa"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-musique-90c2",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-musique-90c2"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-noel-b92e",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-noel-b92e"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-oiseaux-0ff4",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-oiseaux-0ff4"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-oiseaux-2-f0ba",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-oiseaux-2-f0ba"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-outils-eaa6",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-outils-eaa6"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-paques-203f",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-paques-203f"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-petit-dejeuner-767c",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-petit-dejeuner-767c"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-plage-d056",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-plage-d056"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-reptiles-et-amphibiens-fecf",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-reptiles-et-amphibiens-fecf"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-salle-de-classe-6b4d",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-salle-de-classe-6b4d"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-ustensiles-de-cuisine-e0f4",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-ustensiles-de-cuisine-e0f4"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-vehicules-6120",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-vehicules-6120"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-vetements-c581",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-vetements-c581"
+  },
+  {
+   "slug": "plus-ou-moins-image-nombre-vie-oceanique-75d8",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-nombre-vie-oceanique-75d8"
+  },
+  {
+   "slug": "soustraction-barrer-accessoires-3669",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "accessories",
+   "level": "cp",
+   "deck": "soustraction-barrer-accessoires-3669"
+  },
+  {
+   "slug": "soustraction-barrer-action-de-grace-a070",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "thanksgivinng",
+   "level": "cp",
+   "deck": "soustraction-barrer-action-de-grace-a070"
+  },
+  {
+   "slug": "soustraction-barrer-animaux",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "soustraction-barrer-animaux"
+  },
+  {
+   "slug": "soustraction-barrer-animaux-de-compagnie-6909",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "soustraction-barrer-animaux-de-compagnie-6909"
+  },
+  {
+   "slug": "soustraction-barrer-animaux-de-la-ferme-8b91",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "farm_animals",
+   "level": "cp",
+   "deck": "soustraction-barrer-animaux-de-la-ferme-8b91"
+  },
+  {
+   "slug": "soustraction-barrer-animaux-du-zoo-9a32",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "soustraction-barrer-animaux-du-zoo-9a32"
+  },
+  {
+   "slug": "soustraction-barrer-arbres-7193",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "soustraction-barrer-arbres-7193"
+  },
+  {
+   "slug": "soustraction-barrer-au-supermarche-513b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "at_the_supermarket",
+   "level": "cp",
+   "deck": "soustraction-barrer-au-supermarche-513b"
+  },
+  {
+   "slug": "soustraction-barrer-autour-de-la-maison-d3c3",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "around_the_house",
+   "level": "cp",
+   "deck": "soustraction-barrer-autour-de-la-maison-d3c3"
+  },
+  {
+   "slug": "soustraction-barrer-boulangerie-a1bb",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "bakery",
+   "level": "cp",
+   "deck": "soustraction-barrer-boulangerie-a1bb"
+  },
+  {
+   "slug": "soustraction-barrer-bureau-de-poste-96b2",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "post_office",
+   "level": "cp",
+   "deck": "soustraction-barrer-bureau-de-poste-96b2"
+  },
+  {
+   "slug": "soustraction-barrer-camping-fcec",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "camping",
+   "level": "cp",
+   "deck": "soustraction-barrer-camping-fcec"
+  },
+  {
+   "slug": "soustraction-barrer-choses-qui-volent-c00d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "things_that_fly",
+   "level": "cp",
+   "deck": "soustraction-barrer-choses-qui-volent-c00d"
+  },
+  {
+   "slug": "soustraction-barrer-creatures-de-la-foret-4eca",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "forest_creatures",
+   "level": "cp",
+   "deck": "soustraction-barrer-creatures-de-la-foret-4eca"
+  },
+  {
+   "slug": "soustraction-barrer-desserts-et-sucreries-9721",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "desserts_and_sweets",
+   "level": "cp",
+   "deck": "soustraction-barrer-desserts-et-sucreries-9721"
+  },
+  {
+   "slug": "soustraction-barrer-dinosaures-dbeb",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "dinosaurs",
+   "level": "cp",
+   "deck": "soustraction-barrer-dinosaures-dbeb"
+  },
+  {
+   "slug": "soustraction-barrer-espace-3e32",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "space",
+   "level": "cp",
+   "deck": "soustraction-barrer-espace-3e32"
+  },
+  {
+   "slug": "soustraction-barrer-fleurs-ba18",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "flowers",
+   "level": "cp",
+   "deck": "soustraction-barrer-fleurs-ba18"
+  },
+  {
+   "slug": "soustraction-barrer-formes-096a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "soustraction-barrer-formes-096a"
+  },
+  {
+   "slug": "soustraction-barrer-fruits-3ff9",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "fruits",
+   "level": "cp",
+   "deck": "soustraction-barrer-fruits-3ff9"
+  },
+  {
+   "slug": "soustraction-barrer-hopital-f617",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "hospital",
+   "level": "cp",
+   "deck": "soustraction-barrer-hopital-f617"
+  },
+  {
+   "slug": "soustraction-barrer-insectes-et-bestioles-aae1",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "soustraction-barrer-insectes-et-bestioles-aae1"
+  },
+  {
+   "slug": "soustraction-barrer-jouets-3638",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "toys",
+   "level": "cp",
+   "deck": "soustraction-barrer-jouets-3638"
+  },
+  {
+   "slug": "soustraction-barrer-legumes-16f3",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vegetables",
+   "level": "cp",
+   "deck": "soustraction-barrer-legumes-16f3"
+  },
+  {
+   "slug": "soustraction-barrer-metiers-76de",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "soustraction-barrer-metiers-76de"
+  },
+  {
+   "slug": "soustraction-barrer-meubles-fb95",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "furniture",
+   "level": "cp",
+   "deck": "soustraction-barrer-meubles-fb95"
+  },
+  {
+   "slug": "soustraction-barrer-musique-c401",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "music",
+   "level": "cp",
+   "deck": "soustraction-barrer-musique-c401"
+  },
+  {
+   "slug": "soustraction-barrer-noel-8ec4",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "soustraction-barrer-noel-8ec4"
+  },
+  {
+   "slug": "soustraction-barrer-oiseaux-2-c805",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds_2",
+   "level": "cp",
+   "deck": "soustraction-barrer-oiseaux-2-c805"
+  },
+  {
+   "slug": "soustraction-barrer-oiseaux-dd5b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "soustraction-barrer-oiseaux-dd5b"
+  },
+  {
+   "slug": "soustraction-barrer-outils-a2d5",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tools",
+   "level": "cp",
+   "deck": "soustraction-barrer-outils-a2d5"
+  },
+  {
+   "slug": "soustraction-barrer-paques-5989",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "easter",
+   "level": "cp",
+   "deck": "soustraction-barrer-paques-5989"
+  },
+  {
+   "slug": "soustraction-barrer-petit-dejeuner-3474",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "breakfast",
+   "level": "cp",
+   "deck": "soustraction-barrer-petit-dejeuner-3474"
+  },
+  {
+   "slug": "soustraction-barrer-plage-694e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "beach",
+   "level": "cp",
+   "deck": "soustraction-barrer-plage-694e"
+  },
+  {
+   "slug": "soustraction-barrer-reptiles-et-amphibiens-54b5",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "reptiles_and_amphibians",
+   "level": "cp",
+   "deck": "soustraction-barrer-reptiles-et-amphibiens-54b5"
+  },
+  {
+   "slug": "soustraction-barrer-salle-de-classe-b5dd",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "classroom",
+   "level": "cp",
+   "deck": "soustraction-barrer-salle-de-classe-b5dd"
+  },
+  {
+   "slug": "soustraction-barrer-ustensiles-de-cuisine-ac97",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "soustraction-barrer-ustensiles-de-cuisine-ac97"
+  },
+  {
+   "slug": "soustraction-barrer-vehicules-ea07",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vehicles",
+   "level": "cp",
+   "deck": "soustraction-barrer-vehicules-ea07"
+  },
+  {
+   "slug": "soustraction-barrer-vetements-b4c8",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "clothing",
+   "level": "cp",
+   "deck": "soustraction-barrer-vetements-b4c8"
+  },
+  {
+   "slug": "soustraction-barrer-vie-oceanique-a631",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "ocean_life",
+   "level": "cp",
+   "deck": "soustraction-barrer-vie-oceanique-a631"
+  }
+ ]
+}

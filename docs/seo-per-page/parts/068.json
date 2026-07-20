@@ -1,0 +1,652 @@
+{
+ "part": 68,
+ "locale": "de",
+ "classes": [
+  "subtraction::image-number",
+  "subtraction::mixed"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "subtraktion-bild-zahl-accessoires-44f4",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-accessoires-44f4"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-backerei-4ee2",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-backerei-4ee2"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-bauernhoftiere-5265",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-bauernhoftiere-5265"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-baume-eac5",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-baume-eac5"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-berufe-59a7",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-berufe-59a7"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-blumen-088d",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-blumen-088d"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-camping-71da",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-camping-71da"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-desserts-und-sussigkeiten-6808",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-desserts-und-sussigkeiten-6808"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-dinge-die-fliegen-d920",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-dinge-die-fliegen-d920"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-dinosaurier-714b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-dinosaurier-714b"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-erntedankfest-5c26",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-erntedankfest-5c26"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-fahrzeuge-f659",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-fahrzeuge-f659"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-formen-ef1f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-formen-ef1f"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-fruchte-c0d5",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-fruchte-c0d5"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-fruhstuck-6397",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-fruhstuck-6397"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-gemuse-5916",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-gemuse-5916"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-haustiere-d25a",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-haustiere-d25a"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-im-supermarkt-4472",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-im-supermarkt-4472"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-insekten-und-kafer-0a63",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-insekten-und-kafer-0a63"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-klassenzimmer-3a1e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-klassenzimmer-3a1e"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-kleidung-c812",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-kleidung-c812"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-krankenhaus-f75c",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-krankenhaus-f75c"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-kuchenwerkzeuge-c4d7",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-kuchenwerkzeuge-c4d7"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-meeresleben-9b65",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-meeresleben-9b65"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-mobel-fc35",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-mobel-fc35"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-musik-b2e1",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-musik-b2e1"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-ostern-5e02",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-ostern-5e02"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-postamt-ce71",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-postamt-ce71"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-reptilien-und-amphibien-105a",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-reptilien-und-amphibien-105a"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-rund-ums-haus-f122",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-rund-ums-haus-f122"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-spielzeug-d879",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-spielzeug-d879"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-strand-1129",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-strand-1129"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-tiere-0b42",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-tiere-0b42"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-vogel-2-72e5",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-vogel-2-72e5"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-vogel-80c9",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-vogel-80c9"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-waldtiere-f08e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-waldtiere-f08e"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-weihnachten-fc81",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-weihnachten-fc81"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-weltraum-fd85",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-weltraum-fd85"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-werkzeuge-0fc3",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-werkzeuge-0fc3"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-zootiere-30c2",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-zootiere-30c2"
+  },
+  {
+   "slug": "subtraktion-gemischt-accessoires-7401",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-accessoires-7401"
+  },
+  {
+   "slug": "subtraktion-gemischt-backerei-79ac",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-backerei-79ac"
+  },
+  {
+   "slug": "subtraktion-gemischt-bauernhoftiere-90bd",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-bauernhoftiere-90bd"
+  },
+  {
+   "slug": "subtraktion-gemischt-baume-f3db",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-baume-f3db"
+  },
+  {
+   "slug": "subtraktion-gemischt-berufe-5a8a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-berufe-5a8a"
+  },
+  {
+   "slug": "subtraktion-gemischt-blumen-d92c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-blumen-d92c"
+  },
+  {
+   "slug": "subtraktion-gemischt-camping-dff7",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-camping-dff7"
+  },
+  {
+   "slug": "subtraktion-gemischt-desserts-und-sussigkeiten-bc86",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-desserts-und-sussigkeiten-bc86"
+  },
+  {
+   "slug": "subtraktion-gemischt-dinge-die-fliegen-c318",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-dinge-die-fliegen-c318"
+  },
+  {
+   "slug": "subtraktion-gemischt-dinosaurier-a102",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-dinosaurier-a102"
+  },
+  {
+   "slug": "subtraktion-gemischt-erntedankfest-8d7d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-erntedankfest-8d7d"
+  },
+  {
+   "slug": "subtraktion-gemischt-fahrzeuge-0669",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-fahrzeuge-0669"
+  },
+  {
+   "slug": "subtraktion-gemischt-formen-d7e5",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-formen-d7e5"
+  },
+  {
+   "slug": "subtraktion-gemischt-fruchte-7770",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-fruchte-7770"
+  },
+  {
+   "slug": "subtraktion-gemischt-fruhstuck-fee5",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-fruhstuck-fee5"
+  },
+  {
+   "slug": "subtraktion-gemischt-gemuse-030c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-gemuse-030c"
+  },
+  {
+   "slug": "subtraktion-gemischt-haustiere-589d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-haustiere-589d"
+  },
+  {
+   "slug": "subtraktion-gemischt-im-supermarkt-acd7",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-im-supermarkt-acd7"
+  },
+  {
+   "slug": "subtraktion-gemischt-insekten-und-kafer-e7fd",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-insekten-und-kafer-e7fd"
+  },
+  {
+   "slug": "subtraktion-gemischt-klassenzimmer-53f6",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-klassenzimmer-53f6"
+  },
+  {
+   "slug": "subtraktion-gemischt-kleidung-51e2",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-kleidung-51e2"
+  },
+  {
+   "slug": "subtraktion-gemischt-krankenhaus-7413",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-krankenhaus-7413"
+  },
+  {
+   "slug": "subtraktion-gemischt-kuchenwerkzeuge-7ed1",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-kuchenwerkzeuge-7ed1"
+  },
+  {
+   "slug": "subtraktion-gemischt-meeresleben-d605",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-meeresleben-d605"
+  },
+  {
+   "slug": "subtraktion-gemischt-mobel-43be",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-mobel-43be"
+  },
+  {
+   "slug": "subtraktion-gemischt-musik-d3a5",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-musik-d3a5"
+  },
+  {
+   "slug": "subtraktion-gemischt-ostern-77cd",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-ostern-77cd"
+  },
+  {
+   "slug": "subtraktion-gemischt-postamt-b3f1",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-postamt-b3f1"
+  },
+  {
+   "slug": "subtraktion-gemischt-reptilien-und-amphibien-fed4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-reptilien-und-amphibien-fed4"
+  },
+  {
+   "slug": "subtraktion-gemischt-rund-ums-haus-54dd",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-rund-ums-haus-54dd"
+  },
+  {
+   "slug": "subtraktion-gemischt-spielzeug-9a99",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-spielzeug-9a99"
+  },
+  {
+   "slug": "subtraktion-gemischt-strand-d611",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-strand-d611"
+  },
+  {
+   "slug": "subtraktion-gemischt-tiere-d30a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-tiere-d30a"
+  },
+  {
+   "slug": "subtraktion-gemischt-vogel-193d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-vogel-193d"
+  },
+  {
+   "slug": "subtraktion-gemischt-vogel-2-aec0",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-vogel-2-aec0"
+  },
+  {
+   "slug": "subtraktion-gemischt-waldtiere-c0ec",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-waldtiere-c0ec"
+  },
+  {
+   "slug": "subtraktion-gemischt-weihnachten-7188",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-weihnachten-7188"
+  },
+  {
+   "slug": "subtraktion-gemischt-weltraum-937e",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-weltraum-937e"
+  },
+  {
+   "slug": "subtraktion-gemischt-werkzeuge-0c4d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-werkzeuge-0c4d"
+  },
+  {
+   "slug": "subtraktion-gemischt-zootiere-c973",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-zootiere-c973"
+  }
+ ]
+}

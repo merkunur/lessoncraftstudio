@@ -310,7 +310,25 @@ function run(locale, opts) {
     groups.get(k).push(l);
   }
 
-  const claimed = new Set();        // corpus-wide within this locale
+  /* Claim by QUERY, not by string.
+   *
+   * Claiming raw strings let "Printable Mazes for 5 Year Olds" and "Printable
+   * Mazes for 5 Year Olds Pdf" go to two different pages, and "Subtraction
+   * Worksheets for Grade 2" and "Subtraction Printable Worksheets for Grade 2"
+   * to two more. Autocomplete returns one query in many surface forms; those
+   * pages then compete with each other exactly as before.
+   *
+   * My own gate caught this — the first defect this session that reading the
+   * output did not reveal, because at a glance the strings do look different.
+   *
+   * Strip the words every title carries and sort what remains: that signature is
+   * the query. 4,660 bank strings reduce to 2,698 real queries, which is the
+   * true capacity and is smaller than the page count. Better to know.
+   */
+  const GATE = require('./gate-template-fingerprint.js');
+  const querySig = (q) => GATE.querySignature(q, locale);
+
+  const claimed = new Set();        // corpus-wide within this locale, keyed by QUERY
   const assignments = [];
   const groupAngleCount = new Map();
 
@@ -325,7 +343,7 @@ function run(locale, opts) {
       let best = null; let bestScore = -1e9;
 
       for (const p of phrases) {
-        if (claimed.has(p.q)) continue;
+        if (claimed.has(querySig(p.q))) continue;
         if (!wearable(p.claims, attrs)) continue;
         let score = 0;
         // a phrase that names THIS page's own theme or level is longer-tail
@@ -341,7 +359,7 @@ function run(locale, opts) {
       }
 
       if (best) {
-        claimed.add(best.q);
+        claimed.add(querySig(best.q));
         angleUse.set(best.group, (angleUse.get(best.group) || 0) + 1);
         assignments.push({ slug: page.slug, phrase: best.q, angle: best.group, composed: false });
       } else {

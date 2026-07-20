@@ -246,6 +246,66 @@ function claimsOf(phrase, m) {
   return { levels, themes, langs, foreign, subjects, artefacts, derived: (m && m.derived) || {} };
 }
 
+/* EVERY CONTENT WORD MUST BE EXPLAINED BY THE PAGE.
+ *
+ * Seven times a phrase carried a concept my "things we do not make" lists did
+ * not model — posters, masks, stickers, flashcards, memory games, sub plans,
+ * classroom rules, cut-and-glue. That set is unbounded, so the list was always
+ * one entry short and the eighth escape was guaranteed.
+ *
+ * Inverted here: a word survives only if THIS PAGE accounts for it — its level,
+ * its theme, its worksheet type or mode, its target language — or it is one of
+ * the neutral words every printable title carries. Anything else is a claim
+ * nothing on the page supports, whatever it happens to be, with no foresight
+ * required about what junk exists.
+ *
+ * The head-noun idea alone was not enough: "helping hands worksheet for kids"
+ * has a perfectly good head noun, and the modifiers carried the lie.
+ */
+const NEUTRAL = new Set([
+  'free', 'printable', 'printables', 'print', 'printing', 'pdf', 'download', 'downloadable',
+  'online', 'worksheet', 'worksheets', 'sheet', 'sheets', 'activity', 'activities',
+  'page', 'pages', 'exercise', 'exercises', 'practice', 'practise', 'game', 'games',
+  'puzzle', 'puzzles', 'fun', 'easy', 'simple', 'quick', 'best', 'great', 'good',
+  'for', 'the', 'a', 'an', 'and', 'or', 'to', 'with', 'of', 'in', 'on', 'at', 'by',
+  'kids', 'kid', 'children', 'child', 'students', 'student', 'toddlers', 'toddler',
+  'preschoolers', 'preschooler', 'kindergarteners', 'beginners', 'beginner',
+  'little', 'ones', 'young', 'early', 'years', 'year', 'old', 'olds', 'age', 'ages',
+  'home', 'homeschool', 'homeschooling', 'classroom', 'class', 'school', 'teacher',
+  'teachers', 'parents', 'learning', 'learn', 'teaching', 'teach', 'education',
+  'educational', 'set', 'pack', 'bundle', 'collection', 'no', 'prep',
+]);
+
+function pageVocabulary(l, m, tax) {
+  const c = l.coordinate || {};
+  const v = new Set();
+  const add = (s) => { for (const w of norm(s).split(' ')) if (w) v.add(w); };
+  for (const w of (LEVEL_WORDS[c.level] || [])) add(w);
+  add(String(c.level || '').replace(/-/g, ' '));
+  for (const part of String(c.theme || '').split('-vs-')) {
+    const n = m.themeName.get(part);
+    if (n) add(n);
+    add(part.replace(/_/g, ' '));
+  }
+  const te = ((tax['exercise-type'] || {})[c.type] || {}).name;
+  if (te) add(te.en || '');
+  add(String(c.type || '').replace(/-/g, ' '));
+  add(String(c.mode || '').replace(/-/g, ' '));
+  const lm = /^([a-z]+)-/.exec(l.slug);
+  if (lm && LANGUAGES.includes(lm[1])) add(lm[1]);
+  return v;
+}
+
+function unexplainedWords(phrase, vocab) {
+  const out = [];
+  for (const w of norm(phrase).split(' ')) {
+    if (!w || NEUTRAL.has(w) || /^\d+$/.test(w)) continue;
+    if (vocab.has(w)) continue;
+    out.push(w);
+  }
+  return out;
+}
+
 function pageAttrs(l, m) {
   const c = l.coordinate || {};
   const themes = new Set();
@@ -328,6 +388,9 @@ function run(locale, opts) {
   const GATE = require('./gate-template-fingerprint.js');
   const querySig = (q) => GATE.querySignature(q, locale);
 
+  const TAXA = JSON.parse(fs.readFileSync(
+    path.join(ROOT, 'frontend', 'config', 'topics-taxonomy.json'), 'utf8')).axes || {};
+
   const claimed = new Set();        // corpus-wide within this locale, keyed by QUERY
   const assignments = [];
   const groupAngleCount = new Map();
@@ -342,9 +405,12 @@ function run(locale, opts) {
       const attrs = pageAttrs(page, m);
       let best = null; let bestScore = -1e9;
 
+      const vocab = pageVocabulary(page, m, TAXA);
       for (const p of phrases) {
         if (claimed.has(querySig(p.q))) continue;
         if (!wearable(p.claims, attrs)) continue;
+        // every content word must be accounted for by THIS page
+        if (unexplainedWords(p.q, vocab).length) continue;
         let score = 0;
         // a phrase that names THIS page's own theme or level is longer-tail
         if (p.claims.themes.size) score += 40;
@@ -400,4 +466,4 @@ if (require.main === module) {
   run(locale, { write: a.includes('--write') });
 }
 
-module.exports = { run, claimsOf, wearable, buildMatchers, LEVEL_WORDS };
+module.exports = { run, claimsOf, wearable, buildMatchers, LEVEL_WORDS, pageVocabulary, unexplainedWords, NEUTRAL };

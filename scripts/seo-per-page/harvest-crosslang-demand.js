@@ -39,6 +39,29 @@ const PATTERNS = [
   '{L} for beginners kids', 'kids {L} flashcards printable',
 ];
 
+/* Not every real query is a query THIS page can answer.
+ *
+ * The raw harvest carried 17 app/video/song queries ("learn german for kids
+ * app", "french songs for beginners kids") and, for the thinner languages, a
+ * majority of informational ones ("how to learn norwegian", "is norwegian an
+ * easy language to learn"). A printable worksheet titled after an app query is a
+ * false promise, and someone asking whether Norwegian is hard does not want a
+ * PDF. Both would send a visitor who bounces, which teaches Google the page is a
+ * poor answer — the opposite of the point.
+ */
+const WRONG_INTENT = new RegExp([
+  'duolingo', 'babbel', 'rosetta', 'busuu', 'memrise', 'preply', 'italki',
+  '\\bapps?\\b', 'youtube', 'netflix', '\\bmovies?\\b', '\\bsongs?\\b', '\\bcartoons?\\b',
+  'reddit', 'amazon', 'udemy', 'coursera', '\\bcourse\\b', '\\bclasses\\b', 'tutor',
+  // informational, not "give me a printable"
+  '^how ', '^is ', '^why ', '^what ', '^can ', '^should ', '^which ',
+  'easiest way', 'how long', 'hard to learn', 'easy language',
+].join('|'), 'i');
+
+function keepQuery(q) {
+  return !WRONG_INTENT.test(q);
+}
+
 function suggest(q, delayMs) {
   const url = 'https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q='
     + encodeURIComponent(q);
@@ -58,6 +81,20 @@ function suggest(q, delayMs) {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 (async () => {
+  if (process.argv.includes('--refilter')) {
+    const cur = JSON.parse(fs.readFileSync(OUT, 'utf8'));
+    let before = 0; let after = 0;
+    for (const lang of Object.keys(cur.byLang)) {
+      before += cur.byLang[lang].length;
+      cur.byLang[lang] = cur.byLang[lang].filter(keepQuery);
+      after += cur.byLang[lang].length;
+    }
+    cur.total = after;
+    fs.writeFileSync(OUT, JSON.stringify(cur, null, 1));
+    console.log(`refiltered: ${before} -> ${after} queries (${before - after} wrong-intent removed)`);
+    for (const lang of Object.keys(cur.byLang)) console.log(`  ${lang.padEnd(11)} ${cur.byLang[lang].length}`);
+    return;
+  }
   const delay = Number((process.argv.find((a) => a.startsWith('--delay=')) || '').split('=')[1] || 220);
   const byLang = {};
   let total = 0;
@@ -71,6 +108,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
         // keep only suggestions that actually name this language — Google drifts
         // ("learn finnish for kids" returns french suggestions)
         if (!q.includes(lang)) continue;
+        if (!keepQuery(q)) continue;
         found.add(q);
       }
       await sleep(delay);

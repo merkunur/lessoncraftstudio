@@ -1,6 +1,6 @@
 {
  "locale": "da",
- "generatedAt": "2026-07-20T11:43:09.075Z",
+ "generatedAt": "2026-07-20T12:05:56.046Z",
  "corpusSize": 1185,
  "note": "Real harvested queries per exercise type. Seeds are native to this locale — taxonomy name, engine TYPE_MAP ops, topic-override copy, native-verified leads. Never translated.",
  "pools": {
@@ -42,9 +42,7 @@
     "Billedsudoku",
     "Sudoku for børn med billeder"
    ],
-   "framings": [
-    "sudoku opgaver til print"
-   ]
+   "framings": []
   },
   "cryptogram": {
    "seeds": [
@@ -98,10 +96,7 @@
     "subtraktion 1. klasse arbeitsblätter",
     "rechenstrategien subtraktion 1 klasse",
     "subtraktion mit zehnerübergang 2 klasse",
-    "minus opgaver til print",
-    "plus og minus opgaver til print",
-    "subtraktion opgaver",
-    "plus og minus opgaver"
+    "subtraktion opgaver"
    ]
   },
   "code-addition": {
@@ -138,33 +133,7 @@
    ],
    "framings": [
     "sjove matematikopgaver 1 klasse",
-    "sjove matematikopgaver 2 klasse",
-    "matematikopgaver 1 klasse gratis",
-    "matematikopgaver 2 klasse gratis",
-    "matematikopgaver 0. klasse",
-    "matematikopgaver 1. klasse",
-    "matematikopgaver 2. klasse",
-    "sjove opgaver til 0 klasse",
-    "sjove opgaver til 1 klasse",
-    "sjove opgaver til 2 klasse",
-    "sjove danskopgaver 2 klasse",
-    "sjove dansk opgaver 1 klasse",
-    "sjove dansk opgaver 2 klasse",
-    "sjove danskopgaver 1. klasse",
-    "matematikopgaver 0 klasse print",
-    "matematikopgaver 1 klasse print",
-    "matematikopgaver 2 klasse print",
-    "matematikopgaver 1 klasse online",
-    "sjove matematik opgaver 0 klasse",
-    "sjove matematik opgaver 1 klasse",
-    "sjove matematik opgaver 2 klasse",
-    "matematikopgaver online 2. klasse",
-    "blandede matematikopgaver 1 klasse",
-    "blandede matematikopgaver 2 klasse",
-    "minus opgaver til print",
-    "sjove opgaver til print",
-    "plus og minus opgaver til print",
-    "plus og minus opgaver"
+    "sjove matematikopgaver 2 klasse"
    ]
   },
   "math-worksheet": {
@@ -283,23 +252,7 @@
     "Mønstertoget – fortsæt mønsteret (PDF)",
     "Mønstre"
    ],
-   "framings": [
-    "mønstre 0 klasse",
-    "mønstre 1 klasse",
-    "reprint mønsterark",
-    "gratis mønstre",
-    "gratis mønstre dame",
-    "gratis mønstre barbie",
-    "gratis mønstre børnetøj",
-    "gratis mønstre selfmade",
-    "gratis mønstre på tasker",
-    "gratis mønstre til dukketøj",
-    "gratis mønstre til baby born",
-    "gratis mønstre til hama perler",
-    "gratis mønstre til perleplader",
-    "mønstre opgaver",
-    "mønstre opgaver matematik"
-   ]
+   "framings": []
   },
   "pattern-worksheet": {
    "seeds": [
@@ -309,21 +262,7 @@
     "Mønsterark – fortsæt rækken (PDF)"
    ],
    "framings": [
-    "mønstre 0 klasse",
-    "mønstre 1 klasse",
-    "reprint mønsterark",
-    "gratis mønstre",
-    "gratis mønstre dame",
-    "gratis mønstre barbie",
-    "gratis mønstre børnetøj",
-    "gratis mønstre selfmade",
-    "gratis mønstre på tasker",
-    "gratis mønstre til dukketøj",
-    "gratis mønstre til baby born",
-    "gratis mønstre til hama perler",
-    "gratis mønstre til perleplader",
-    "mønstre opgaver",
-    "mønstre opgaver matematik"
+    "reprint mønsterark"
    ]
   },
   "bingo": {
@@ -380,17 +319,7 @@
     "Forbind billeder: hvad hører sammen?",
     "Forbind billeder – matchopgaver (PDF)"
    ],
-   "framings": [
-    "forlyd 0 klasse",
-    "forlyd opgaver 0 klasse",
-    "opgaver 0 klasse bogstaver",
-    "bogstaver til print",
-    "forlyd opgaver",
-    "bogstavlyde opgaver",
-    "bogstavlyde for børn",
-    "bogstavkendskab opgaver",
-    "forlydsopgaver"
-   ]
+   "framings": []
   },
   "picture-sort": {
    "seeds": [
@@ -419,10 +348,7 @@
     "Alfabettoget – øv alfabetet (PDF)",
     "Alfabet opgaver"
    ],
-   "framings": [
-    "opgaver 0 klasse bogstaver",
-    "bogstaver til print"
-   ]
+   "framings": []
   },
   "prepositions": {
    "seeds": [
@@ -443,13 +369,7 @@
     "Gæt ordet: bogstav for bogstav til løsningen",
     "Gæt ordet – billedgåder for børn"
    ],
-   "framings": [
-    "opgaver 0 klasse bogstaver",
-    "bogstaver til print",
-    "bogstavlyde opgaver",
-    "bogstavlyde for børn",
-    "bogstavkendskab opgaver"
-   ]
+   "framings": []
   },
   "word-scramble": {
    "seeds": [
@@ -458,10 +378,7 @@
     "Bogstavpuslespil: sæt bogstaverne i rækkefølge",
     "Bogstavpuslespil – stav ordet (PDF)"
    ],
-   "framings": [
-    "opgaver 0 klasse bogstaver",
-    "bogstaver til print"
-   ]
+   "framings": []
   },
   "wordsearch": {
    "seeds": [
@@ -510,13 +427,7 @@
     "Find og tæl: kig, find og tæl motiverne",
     "Find og tæl – tælleopgaver (PDF)"
    ],
-   "framings": [
-    "opgaver 0 klasse bogstaver",
-    "bogstaver til print",
-    "bogstavlyde opgaver",
-    "bogstavlyde for børn",
-    "bogstavkendskab opgaver"
-   ]
+   "framings": []
   },
   "find-objects": {
    "seeds": [
@@ -608,9 +519,7 @@
     "Hundredfelt: øvelser i talrummet op til 100",
     "Hundredfelt – taltavle til print (PDF)"
    ],
-   "framings": [
-    "finmotorik øvelser"
-   ]
+   "framings": []
   },
   "comparing-numbers": {
    "seeds": [
@@ -664,8 +573,7 @@
     "Tiere og enere – opgaver til print"
    ],
    "framings": [
-    "tiere og enere opgaver",
-    "læs og forstå opgaver til print"
+    "tiere og enere opgaver"
    ]
   },
   "telling-time": {
@@ -715,9 +623,7 @@
     "Første gange: gangestykker med rækker",
     "Gange med rækker – første gangestykker"
    ],
-   "framings": [
-    "gange opgaver til print"
-   ]
+   "framings": []
   },
   "geometry": {
    "seeds": [
@@ -727,10 +633,7 @@
    ],
    "framings": [
     "geometriske former børn",
-    "former og figurer opgaver",
-    "geometri opgaver til print",
-    "former opgaver",
-    "geometri og måling opgaver"
+    "former og figurer opgaver"
    ]
   },
   "measurement": {
@@ -821,11 +724,7 @@
     "Regn med billeder: første plus og minus",
     "Regn med billeder – plus og minus (PDF)"
    ],
-   "framings": [
-    "minus opgaver til print",
-    "plus og minus opgaver til print",
-    "plus og minus opgaver"
-   ]
+   "framings": []
   },
   "science-sort": {
    "seeds": [
@@ -871,11 +770,7 @@
     "Bogstavkendskab – kend bogstaverne (PDF)"
    ],
    "framings": [
-    "opgaver 0 klasse bogstaver",
-    "bogstaver til print",
-    "bogstavkendskab opgaver",
-    "bogstavlyde opgaver",
-    "bogstavlyde for børn"
+    "bogstavkendskab opgaver"
    ]
   },
   "word-building": {
@@ -884,13 +779,7 @@
     "Byg ord: læg bogstaver til hele ord",
     "Byg ord af bogstaver – opgaver (PDF)"
    ],
-   "framings": [
-    "opgaver 0 klasse bogstaver",
-    "bogstaver til print",
-    "bogstavlyde opgaver",
-    "bogstavlyde for børn",
-    "bogstavkendskab opgaver"
-   ]
+   "framings": []
   },
   "picture-vocabulary": {
    "seeds": [
@@ -912,9 +801,7 @@
    "framings": [
     "sproglig opmærksomhed 0 klasse",
     "sproglig opmærksomhed i børnehaveklassen",
-    "stavelser indskoling",
-    "sproglig opmærksomhed opgaver",
-    "stavelser opgaver"
+    "sproglig opmærksomhed opgaver"
    ]
   }
  }

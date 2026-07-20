@@ -1,6 +1,6 @@
 {
  "locale": "sv",
- "generatedAt": "2026-07-20T11:43:09.002Z",
+ "generatedAt": "2026-07-20T12:05:55.839Z",
  "corpusSize": 1592,
  "note": "Real harvested queries per exercise type. Seeds are native to this locale — taxonomy name, engine TYPE_MAP ops, topic-override copy, native-verified leads. Never translated.",
  "pools": {
@@ -13,8 +13,6 @@
    "framings": [
     "addition med bråk",
     "arbetsblad addition åk 1",
-    "slå ihop bilder till en pdf",
-    "slå ihop bilder gratis",
     "addition förskola",
     "addition arbetsblad",
     "addition.i förskolan",
@@ -22,7 +20,6 @@
     "arbetsblad addition 0 10",
     "arbetsblad addition 0 20",
     "enkel addition arbetsblad",
-    "para ihop bilder förskolan",
     "enkel addition förskoleklass",
     "räkna addition förskoleklass",
     "upprepad addition arbetsblad",
@@ -39,11 +36,7 @@
     "Bildsudoku: sudoku med bilder för barn",
     "Bildsudoku för barn – skriva ut (PDF)"
    ],
-   "framings": [
-    "slå ihop bilder till en pdf",
-    "slå ihop bilder gratis",
-    "para ihop bilder förskolan"
-   ]
+   "framings": []
   },
   "cryptogram": {
    "seeds": [
@@ -78,12 +71,9 @@
     "subtraktion av bråk",
     "subtraktion med bråk",
     "subtraktion övningar åk 1",
-    "slå ihop bilder till en pdf",
-    "slå ihop bilder gratis",
     "subtraktion förskola",
     "subtraktion arbetsblad",
     "subtraktion förskoleklass",
-    "para ihop bilder förskolan",
     "arbetsblad subtraktion 0 10",
     "subtraktion med växling arbetsblad",
     "addition och subtraktion arbetsblad",
@@ -99,10 +89,7 @@
     "Kodaddition: lös den hemliga koden",
     "Räkna med symboler – hemlig kod (PDF)"
    ],
-   "framings": [
-    "räkna med bråk arbetsblad",
-    "räkna addition förskoleklass"
-   ]
+   "framings": []
   },
   "more-less": {
    "seeds": [
@@ -111,16 +98,7 @@
     "Fler eller färre? Jämför antal med bilder",
     "Fler eller färre? Jämföra mängder (PDF)"
    ],
-   "framings": [
-    "jämföra bråk arbetsblad",
-    "slå ihop bilder till en pdf",
-    "slå ihop bilder gratis",
-    "arbetsblad fler färre",
-    "jämföra storlek förskola",
-    "stor eller liten förskola",
-    "para ihop bilder förskolan",
-    "arbetsblad större än mindre än"
-   ]
+   "framings": []
   },
   "math-puzzle": {
    "seeds": [
@@ -132,35 +110,7 @@
     "Mattepussel för barn – med facit (PDF)",
     "Mattegåta"
    ],
-   "framings": [
-    "addition med bråk",
-    "subtraktion av bråk",
-    "subtraktion med bråk",
-    "arbetsblad addition åk 1",
-    "subtraktion övningar åk 1",
-    "addition och subtraktion arbetsblad",
-    "addition och subtraktion förskoleklass",
-    "addition förskola",
-    "addition arbetsblad",
-    "addition.i förskolan",
-    "subtraktion förskola",
-    "addition förskoleklass",
-    "subtraktion arbetsblad",
-    "arbetsblad addition 0 10",
-    "arbetsblad addition 0 20",
-    "enkel addition arbetsblad",
-    "subtraktion förskoleklass",
-    "arbetsblad subtraktion 0 10",
-    "enkel addition förskoleklass",
-    "matematik z arbetsblad facit",
-    "räkna addition förskoleklass",
-    "upprepad addition arbetsblad",
-    "matematik addition arbetsblad",
-    "arbetsblad addition uppställning",
-    "subtraktion med växling arbetsblad",
-    "arbetsblad subtraktion uppställning",
-    "addition med tiotalsövergång arbetsblad"
-   ]
+   "framings": []
   },
   "math-worksheet": {
    "seeds": [
@@ -169,20 +119,9 @@
     "Blandade matteuppgifter – arbetsblad (PDF)"
    ],
    "framings": [
-    "matteuppgifter åk 1 skriva ut",
-    "matteuppgifter åk 2 skriva ut",
-    "matteuppgifter åk 1 att skriva ut",
-    "matteuppgifter åk 1 gratis",
-    "matteuppgifter åk 1",
-    "matteuppgifter åk 2",
-    "blandat språk 6 bokstäver",
-    "matteuppgifter åk 1 gymnasiet",
     "matteblad att skriva ut",
     "matteblad förskola",
-    "matteblad förskoleklass",
-    "matteuppgifter förskola",
-    "matteuppgifter årskurs 1",
-    "matteuppgifter förskoleklass"
+    "matteblad förskoleklass"
    ]
   },
   "big-small": {
@@ -195,10 +134,6 @@
    ],
    "framings": [
     "jämföra storlek förskola",
-    "bråk efter vm finalen",
-    "jämföra bråk arbetsblad",
-    "bråk efter slutsignal vm",
-    "efter förskoleklassen korsord",
     "stor eller liten förskola"
    ]
   },
@@ -209,17 +144,7 @@
     "Räkna och fyll i: enkla diagram för barn",
     "Räkna och fyll i diagram (PDF)"
    ],
-   "framings": [
-    "räkna med bråk arbetsblad",
-    "diagram gratis",
-    "skapa diagram gratis",
-    "diagram förskola",
-    "arbetsblad diagram",
-    "diagram förskoleklass",
-    "arbetsblad enkla ekvationer",
-    "räkna addition förskoleklass",
-    "tabeller och diagram arbetsblad"
-   ]
+   "framings": []
   },
   "pattern-train": {
    "seeds": [
@@ -233,41 +158,7 @@
     "Fortsätt mönstret med mönstertåget (PDF)",
     "Fortsätt mönstret"
    ],
-   "framings": [
-    "mönster arbetsblad åk 1",
-    "mönster gratis",
-    "mönster gratis sy",
-    "mönster gratis baby",
-    "mönster gratis barn",
-    "mönster gratis mössa",
-    "mönster gratis virka",
-    "mönster gratis vantar",
-    "mönster gratis stickning",
-    "mönster gratis raggsockor",
-    "mönster gratis torgvantar",
-    "mönster förskola",
-    "mönster arbetsblad",
-    "lego mönster förskola",
-    "mönster förskoleklass",
-    "tema mönster förskola",
-    "följa mönster förskola",
-    "skapa mönster förskola",
-    "träna mönster förskolan",
-    "mandala mönster förskola",
-    "projekt mönster förskola",
-    "aktivitet mönster förskola",
-    "måla mönster förskoleklass",
-    "mönster förskoleklass film",
-    "mönster matematik förskola",
-    "följa mönster förskoleklass",
-    "arbetsblad mönster förskolan",
-    "mönster övning förskoleklass",
-    "mönster stencil förskoleklass",
-    "mönster matematik förskoleklass",
-    "mönster uppgifter förskoleklass",
-    "arbetsblad mönster förskoleklass",
-    "kartläggning mönster förskoleklass"
-   ]
+   "framings": []
   },
   "pattern-worksheet": {
    "seeds": [
@@ -276,41 +167,7 @@
     "Mönsterblad: fortsätt rader och följder",
     "Mönsterblad – fortsätt raden (PDF)"
    ],
-   "framings": [
-    "mönster arbetsblad åk 1",
-    "mönster gratis",
-    "mönster gratis sy",
-    "mönster gratis baby",
-    "mönster gratis barn",
-    "mönster gratis mössa",
-    "mönster gratis virka",
-    "mönster gratis vantar",
-    "mönster gratis stickning",
-    "mönster gratis raggsockor",
-    "mönster gratis torgvantar",
-    "mönster förskola",
-    "mönster arbetsblad",
-    "lego mönster förskola",
-    "mönster förskoleklass",
-    "tema mönster förskola",
-    "följa mönster förskola",
-    "skapa mönster förskola",
-    "träna mönster förskolan",
-    "mandala mönster förskola",
-    "projekt mönster förskola",
-    "aktivitet mönster förskola",
-    "måla mönster förskoleklass",
-    "mönster förskoleklass film",
-    "mönster matematik förskola",
-    "följa mönster förskoleklass",
-    "arbetsblad mönster förskolan",
-    "mönster övning förskoleklass",
-    "mönster stencil förskoleklass",
-    "mönster matematik förskoleklass",
-    "mönster uppgifter förskoleklass",
-    "arbetsblad mönster förskoleklass",
-    "kartläggning mönster förskoleklass"
-   ]
+   "framings": []
   },
   "bingo": {
    "seeds": [
@@ -343,11 +200,7 @@
     "Rutmatchning: sätt bilden på rätt plats",
     "Rutmatchning – bild i rätt ruta (PDF)"
    ],
-   "framings": [
-    "slå ihop bilder till en pdf",
-    "slå ihop bilder gratis",
-    "para ihop bilder förskolan"
-   ]
+   "framings": []
   },
   "matching": {
    "seeds": [
@@ -358,33 +211,7 @@
     "Para ihop – matcha bilder som hör ihop (PDF)"
    ],
    "framings": [
-    "bokstäver teckenspråk",
-    "bråk korsord 5 bokstäver",
-    "blandat språk 6 bokstäver",
-    "bokstäver att skriva ut",
-    "slå ihop bilder till en pdf",
-    "matcha gratis",
-    "matcha gratis testen",
-    "goodnews matcha gratis",
-    "slå ihop bilder gratis",
-    "arbetsblad öva skriva bokstäver skriv ut gratis",
-    "bokstäver barnrum",
-    "bokstäver klassrum",
-    "arbetsblad bokstäver",
-    "klassrum 5 bokstäver",
-    "klassrum 7 bokstäver",
-    "klassrum 8 bokstäver",
-    "övningsblad bokstäver",
-    "övningshäfte bokstäver",
-    "leksaker bokstäver barn",
-    "klass korsord 2 bokstäver",
-    "arbetsblad sammansatta ord",
-    "para ihop bilder förskolan",
-    "arbetsblad bokstäver förskola",
-    "aktiviteter bokstäver förskola",
-    "i förskolan korsord 8 bokstäver",
-    "arbetsblad öva skriva bokstäver skriv ut",
-    "skolplus arbetsblad öva skriva bokstäver skriv ut"
+    "arbetsblad sammansatta ord"
    ]
   },
   "picture-sort": {
@@ -396,14 +223,8 @@
     "Sortera och klassificera"
    ],
    "framings": [
-    "bråk efter vm finalen",
-    "bråk efter slutsignal vm",
-    "efter förskoleklassen korsord",
     "sortera och klassificera",
-    "slå ihop bilder till en pdf",
-    "sortera och klassificera i förskolan",
-    "slå ihop bilder gratis",
-    "para ihop bilder förskolan"
+    "sortera och klassificera i förskolan"
    ]
   },
   "shadow-match": {
@@ -414,14 +235,7 @@
     "Matcha skuggor: vilken skugga hör till bilden?",
     "Matcha skuggor – arbetsblad gratis (PDF)"
    ],
-   "framings": [
-    "slå ihop bilder till en pdf",
-    "matcha gratis",
-    "matcha gratis testen",
-    "goodnews matcha gratis",
-    "slå ihop bilder gratis",
-    "para ihop bilder förskolan"
-   ]
+   "framings": []
   },
   "alphabet-train": {
    "seeds": [
@@ -432,29 +246,7 @@
     "Alfabetisk ordning"
    ],
    "framings": [
-    "arbetsblad alfabetisk ordning",
-    "bokstäver teckenspråk",
-    "bråk korsord 5 bokstäver",
-    "blandat språk 6 bokstäver",
-    "arbetsblad alfabetet",
-    "bokstäver att skriva ut",
-    "arbetsblad öva skriva bokstäver skriv ut gratis",
-    "bokstäver barnrum",
-    "bokstäver klassrum",
-    "arbetsblad bokstäver",
-    "klassrum 5 bokstäver",
-    "klassrum 7 bokstäver",
-    "klassrum 8 bokstäver",
-    "övningsblad bokstäver",
-    "arbetsblad ordningstal",
-    "övningshäfte bokstäver",
-    "leksaker bokstäver barn",
-    "klass korsord 2 bokstäver",
-    "arbetsblad bokstäver förskola",
-    "aktiviteter bokstäver förskola",
-    "i förskolan korsord 8 bokstäver",
-    "arbetsblad öva skriva bokstäver skriv ut",
-    "skolplus arbetsblad öva skriva bokstäver skriv ut"
+    "arbetsblad alfabetisk ordning"
    ]
   },
   "prepositions": {
@@ -464,19 +256,11 @@
     "Prepositioner och lägesord – förskola (PDF)"
    ],
    "framings": [
-    "slå ihop bilder till en pdf",
     "lägesord prepositioner förskola",
-    "slå ihop bilder gratis",
-    "lägesord förskola",
-    "arbetsblad lägesord",
     "prepositioner förskola",
-    "lägesord förskola syfte",
     "arbetsblad prepositioner",
-    "para ihop bilder förskolan",
-    "lägesord förskola aktivitet",
     "prepositioner förskoleklass",
     "träna prepositioner förskola",
-    "sva undervisning förskoleklass",
     "prepositioner matematik förskola",
     "arbetsblad prepositioner engelska"
    ]
@@ -489,36 +273,7 @@
     "Gissa ordet – bokstavsgåtor för barn (PDF)"
    ],
    "framings": [
-    "bokstäver teckenspråk",
-    "bråk korsord 5 bokstäver",
-    "blandat språk 6 bokstäver",
-    "gissa ordet barn",
-    "bokstäver att skriva ut",
-    "bokstavspussel att skriva ut",
-    "arbetsblad öva skriva bokstäver skriv ut gratis",
-    "bokstäver barnrum",
-    "bokstäver klassrum",
-    "arbetsblad bokstäver",
-    "klassrum 5 bokstäver",
-    "klassrum 7 bokstäver",
-    "klassrum 8 bokstäver",
-    "bokstavsljud förskola",
-    "övningsblad bokstäver",
-    "arbetsblad bokstaven c",
-    "arbetsblad bokstaven i",
-    "arbetsblad bokstaven j",
-    "arbetsblad bokstaven ä",
-    "arbetsblad bokstaven ö",
-    "bokstaven y arbetsblad",
-    "övningshäfte bokstäver",
-    "leksaker bokstäver barn",
-    "klass korsord 2 bokstäver",
-    "arbetsblad bokstäver förskola",
-    "aktiviteter bokstäver förskola",
-    "i förskolan korsord 8 bokstäver",
-    "arbetsblad öva skriva bokstäver skriv ut",
-    "bokstavspussel smartare än en femteklassare",
-    "skolplus arbetsblad öva skriva bokstäver skriv ut"
+    "gissa ordet barn"
    ]
   },
   "word-scramble": {
@@ -529,28 +284,8 @@
     "Bokstavspussel att skriva ut – gratis (PDF)"
    ],
    "framings": [
-    "bokstäver teckenspråk",
-    "bråk korsord 5 bokstäver",
-    "blandat språk 6 bokstäver",
-    "bokstäver att skriva ut",
     "bokstavspussel att skriva ut",
-    "arbetsblad öva skriva bokstäver skriv ut gratis",
-    "bokstäver barnrum",
-    "bokstäver klassrum",
-    "arbetsblad bokstäver",
-    "klassrum 5 bokstäver",
-    "klassrum 7 bokstäver",
-    "klassrum 8 bokstäver",
-    "övningsblad bokstäver",
-    "övningshäfte bokstäver",
-    "leksaker bokstäver barn",
-    "klass korsord 2 bokstäver",
-    "arbetsblad bokstäver förskola",
-    "aktiviteter bokstäver förskola",
-    "i förskolan korsord 8 bokstäver",
-    "arbetsblad öva skriva bokstäver skriv ut",
-    "bokstavspussel smartare än en femteklassare",
-    "skolplus arbetsblad öva skriva bokstäver skriv ut"
+    "bokstavspussel smartare än en femteklassare"
    ]
   },
   "wordsearch": {
@@ -601,19 +336,7 @@
     "Hitta och räkna: vimmelbilder att räkna",
     "Hitta och räkna – förskoleblad (PDF)"
    ],
-   "framings": [
-    "räkna med bråk arbetsblad",
-    "bokstavspussel att skriva ut",
-    "bokstavsljud förskola",
-    "arbetsblad bokstaven c",
-    "arbetsblad bokstaven i",
-    "arbetsblad bokstaven j",
-    "arbetsblad bokstaven ä",
-    "arbetsblad bokstaven ö",
-    "bokstaven y arbetsblad",
-    "räkna addition förskoleklass",
-    "bokstavspussel smartare än en femteklassare"
-   ]
+   "framings": []
   },
   "find-objects": {
    "seeds": [
@@ -623,11 +346,7 @@
     "Hitta föremålen: leta upp sakerna i bilden",
     "Hitta föremålen – leta i bilden (PDF)"
    ],
-   "framings": [
-    "slå ihop bilder till en pdf",
-    "slå ihop bilder gratis",
-    "para ihop bilder förskolan"
-   ]
+   "framings": []
   },
   "treasure-hunt": {
    "seeds": [
@@ -656,13 +375,7 @@
     "skattjakt skogen förskola",
     "skattjakt inomhus förskola",
     "skattjakt med uppdrag barn",
-    "skattjakt utomhus förskola",
-    "bingo gratis online",
-    "schema gratis online",
-    "korsord gratis online",
-    "geometri online gratis",
-    "geometry gratis online",
-    "flowchart gratis online"
+    "skattjakt utomhus förskola"
    ]
   },
   "missing-pieces": {
@@ -681,11 +394,7 @@
     "Vilken passar inte in? Logik med bilder",
     "Vilken passar inte? Arbetsblad (PDF)"
    ],
-   "framings": [
-    "slå ihop bilder till en pdf",
-    "slå ihop bilder gratis",
-    "para ihop bilder förskolan"
-   ]
+   "framings": []
   },
   "counting-pictures": {
    "seeds": [
@@ -693,13 +402,7 @@
     "Räkna bilder: räkna motiv och antal",
     "Räkna bilder – lär dig räkna (PDF)"
    ],
-   "framings": [
-    "räkna med bråk arbetsblad",
-    "slå ihop bilder till en pdf",
-    "slå ihop bilder gratis",
-    "para ihop bilder förskolan",
-    "räkna addition förskoleklass"
-   ]
+   "framings": []
   },
   "counting-frames": {
    "seeds": [
@@ -707,10 +410,7 @@
     "Tioramar: se mängder i tioramen",
     "Tioramar och tiokompisar (PDF)"
    ],
-   "framings": [
-    "tiokompisar arbetsblad gratis",
-    "arbetsblad tiokompisar"
-   ]
+   "framings": []
   },
   "tally-counting": {
    "seeds": [
@@ -718,11 +418,7 @@
     "Räkna med streck: räkna och notera",
     "Räkna med streck – stapelräkning (PDF)"
    ],
-   "framings": [
-    "räkna med bråk arbetsblad",
-    "arbetsblad noter",
-    "räkna addition förskoleklass"
-   ]
+   "framings": []
   },
   "number-charts": {
    "seeds": [
@@ -731,46 +427,9 @@
     "Hundraruta att skriva ut – övningar (PDF)"
    ],
    "framings": [
-    "läsförståelse svenska övningar pdf åk 1",
-    "läsförståelse svenska övningar pdf åk 2",
-    "svenska övningar åk 1",
-    "svenska övningar åk 2",
-    "tallinjen övningar åk 1",
-    "subtraktion övningar åk 1",
     "hundraruta att skriva ut gratis",
-    "läsförståelse svenska åk 1 övningar",
-    "läsförståelse svenska övningar åk 2",
     "hundraruta skriva ut",
-    "matematik förskoleklass övningar pdf",
-    "hundraruta gratis",
-    "r övningshäfte",
-    "övningsblad hockey",
-    "finmotorik övningar",
-    "övningsblad klockan",
-    "övningsblad siffror",
-    "övningshäfte körkort",
-    "övningshäfte svenska",
-    "övningsblad bokstäver",
-    "övningsblad lettering",
-    "övningsblad matematik",
-    "övningsblad skrivstil",
-    "övningshäfte engelska",
-    "tiokamraterna övningar",
-    "övningsblad ekvationer",
-    "övningshäfte bokstäver",
-    "övningshäfte matematik",
-    "övningshäfte skrivstil",
-    "matte årskurs 2 övningar",
-    "maskinelement övningshäfte",
-    "övningsblad multiplikation",
-    "matematik årskurs 1 övningar",
-    "mönster övning förskoleklass",
-    "svenska övningar förskoleklass",
-    "öga hand koordination övningar",
-    "fonologisk medvetenhet övningar",
-    "verkstadshandboken övningshäfte",
-    "matematik förskoleklass övningar",
-    "övningsblad multiplikationstabellen"
+    "hundraruta gratis"
    ]
   },
   "comparing-numbers": {
@@ -791,12 +450,7 @@
     "Jämföra mängder: var finns fler, var färre?",
     "Jämföra mängder – fler eller färre (PDF)"
    ],
-   "framings": [
-    "jämföra bråk arbetsblad",
-    "arbetsblad fler färre",
-    "jämföra storlek förskola",
-    "stor eller liten förskola"
-   ]
+   "framings": []
   },
   "comparing-sizes": {
    "seeds": [
@@ -805,7 +459,6 @@
     "Jämföra storlekar – störst och minst (PDF)"
    ],
    "framings": [
-    "jämföra bråk arbetsblad",
     "jämföra storlek förskola"
    ]
   },
@@ -817,56 +470,20 @@
    ],
    "framings": [
     "tallinjen övningar åk 1",
-    "läsförståelse svenska övningar pdf åk 1",
-    "läsförståelse svenska övningar pdf åk 2",
     "tallinje arbetsblad åk 3 gratis",
-    "svenska övningar åk 1",
-    "svenska övningar åk 2",
     "tallinje arbetsblad åk 3",
-    "subtraktion övningar åk 1",
     "tallinjen arbetsblad åk 1",
-    "läsförståelse svenska åk 1 övningar",
-    "läsförståelse svenska övningar åk 2",
     "tallinje att skriva ut",
-    "matematik förskoleklass övningar pdf",
     "tallinje gratis",
     "tallinje 0 20 gratis",
     "tallinje 0 100 gratis",
     "tallinje arbetsblad gratis",
-    "r övningshäfte",
     "tallinje förskola",
-    "övningsblad hockey",
-    "finmotorik övningar",
     "tallinje arbetsblad",
-    "övningsblad klockan",
-    "övningsblad siffror",
     "arbetsblad tallinjen",
-    "övningshäfte körkort",
-    "övningshäfte svenska",
-    "övningsblad bokstäver",
-    "övningsblad lettering",
-    "övningsblad matematik",
-    "övningsblad skrivstil",
-    "övningshäfte engelska",
     "tallinje förskoleklass",
-    "tiokamraterna övningar",
-    "övningsblad ekvationer",
-    "övningshäfte bokstäver",
-    "övningshäfte matematik",
-    "övningshäfte skrivstil",
-    "matte årskurs 2 övningar",
     "tallinje 0 20 arbetsblad",
-    "tallinje 0 100 arbetsblad",
-    "maskinelement övningshäfte",
-    "övningsblad multiplikation",
-    "matematik årskurs 1 övningar",
-    "mönster övning förskoleklass",
-    "svenska övningar förskoleklass",
-    "öga hand koordination övningar",
-    "fonologisk medvetenhet övningar",
-    "verkstadshandboken övningshäfte",
-    "matematik förskoleklass övningar",
-    "övningsblad multiplikationstabellen"
+    "tallinje 0 100 arbetsblad"
    ]
   },
   "base-ten": {
@@ -876,45 +493,7 @@
     "Tiotal och ental – övningar (PDF)"
    ],
    "framings": [
-    "läsförståelse svenska övningar pdf åk 1",
-    "läsförståelse svenska övningar pdf åk 2",
-    "svenska övningar åk 1",
-    "svenska övningar åk 2",
-    "tallinjen övningar åk 1",
-    "subtraktion övningar åk 1",
-    "läsförståelse svenska åk 1 övningar",
-    "läsförståelse svenska övningar åk 2",
-    "arbetsblad tiotal och ental",
-    "matematik förskoleklass övningar pdf",
-    "r övningshäfte",
-    "övningsblad hockey",
-    "finmotorik övningar",
-    "övningsblad klockan",
-    "övningsblad siffror",
-    "övningshäfte körkort",
-    "övningshäfte svenska",
-    "övningsblad bokstäver",
-    "övningsblad lettering",
-    "övningsblad matematik",
-    "övningsblad skrivstil",
-    "övningshäfte engelska",
-    "tiokamraterna övningar",
-    "övningsblad ekvationer",
-    "övningshäfte bokstäver",
-    "övningshäfte matematik",
-    "övningshäfte skrivstil",
-    "matte årskurs 2 övningar",
-    "maskinelement övningshäfte",
-    "övningsblad multiplikation",
-    "matematik årskurs 1 övningar",
-    "mönster övning förskoleklass",
-    "svenska övningar förskoleklass",
-    "öga hand koordination övningar",
-    "fonologisk medvetenhet övningar",
-    "verkstadshandboken övningshäfte",
-    "matematik förskoleklass övningar",
-    "övningsblad multiplikationstabellen",
-    "addition med tiotalsövergång arbetsblad"
+    "arbetsblad tiotal och ental"
    ]
   },
   "telling-time": {
@@ -961,11 +540,7 @@
     "Första bråken: hel, halva, fjärdedel",
     "Enkla bråk – halva och fjärdedel (PDF)"
    ],
-   "framings": [
-    "arbetsblad första ljudet",
-    "arbetsblad enkla ekvationer",
-    "första ljudet förskoleklass"
-   ]
+   "framings": []
   },
   "graphing-data": {
    "seeds": [
@@ -988,18 +563,7 @@
     "Första multiplikationen: gånger med bilder",
     "Första multiplikationen – med bilder (PDF)"
    ],
-   "framings": [
-    "arbetsblad multiplikation",
-    "övningsblad multiplikation",
-    "slå ihop bilder till en pdf",
-    "övningsblad multiplikationstabellen",
-    "arbetsblad uppställning multiplikation",
-    "slå ihop bilder gratis",
-    "arbetsblad gångertabell",
-    "arbetsblad första ljudet",
-    "para ihop bilder förskolan",
-    "första ljudet förskoleklass"
-   ]
+   "framings": []
   },
   "geometry": {
    "seeds": [
@@ -1023,11 +587,9 @@
     "crediti geometri gratis",
     "webinar geometri gratis",
     "deontologia geometri gratis",
-    "former arbetsblad",
     "geometri förskola",
     "arbetsblad geometri",
     "geometri förskoleklass",
-    "vattnets former arbetsblad",
     "arbetsblad geometriska objekt"
    ]
   },
@@ -1038,16 +600,11 @@
     "Mätning och mäta längd – arbetsblad (PDF)"
    ],
    "framings": [
-    "jämföra bråk arbetsblad",
-    "arbetsblad längd",
     "mätning förskola",
     "mätning arbetsblad",
     "mätning på förskolan",
     "mätning förskoleklass",
-    "tema mätning förskola",
-    "arbetsblad längdenheter",
-    "jämföra storlek förskola",
-    "arbetsblad längd förskoleklass"
+    "tema mätning förskola"
    ]
   },
   "visual-logic": {
@@ -1057,8 +614,7 @@
     "Logiska pussel för barn – gratis (PDF)"
    ],
    "framings": [
-    "logiska pussel barn",
-    "arbetsblad kombinatorik"
+    "logiska pussel barn"
    ]
   },
   "visual-discrimination": {
@@ -1067,13 +623,7 @@
     "Visuell perception: träna ögat för detaljer",
     "Visuell perception – arbetsblad gratis (PDF)"
    ],
-   "framings": [
-    "träna klockan gratis",
-    "träna mönster förskolan",
-    "träna matte förskoleklass",
-    "träna klockan förskoleklass",
-    "träna prepositioner förskola"
-   ]
+   "framings": []
   },
   "visual-matching": {
    "seeds": [
@@ -1135,59 +685,7 @@
     "Lägesord: över, under, bredvid, framför",
     "Lägesord i matematik – över, under (PDF)"
    ],
-   "framings": [
-    "arbetsblad matematik åk 1 gratis",
-    "arbetsblad matematik åk 1",
-    "arbetsblad matematik åk 2",
-    "arbetsblad matematik åk 3",
-    "arbetsblad matematik åk 4",
-    "arbetsblad matematik åk 5",
-    "matematik förskola skriva ut",
-    "arbetsblad att skriva ut matematik",
-    "matematik förskoleklass övningar pdf",
-    "arbetsblad att skriva ut matematik förskola",
-    "arbetsblad att skriva ut matematik förskoleklass",
-    "gratis arbetsblad matematik",
-    "lägesord förskola",
-    "matematik förskola",
-    "arbetsblad lägesord",
-    "arbetsblad matematik",
-    "övningsblad matematik",
-    "arbetsblad matematik x",
-    "arbetsblad matematik y",
-    "arbetsblad matematik z",
-    "matematik förskola bok",
-    "övningshäfte matematik",
-    "lägesord förskola syfte",
-    "matematik förskoleklass",
-    "arbetsblad matematik xyz",
-    "matematik bingo förskola",
-    "arbetsblad 41 matematik y",
-    "arbetsblad 60 matematik z",
-    "matematik y arbetsblad 82",
-    "matematik y arbetsblad 83",
-    "matematik förskolan 1 3 år",
-    "mönster matematik förskola",
-    "lägesord förskola aktivitet",
-    "matematik förskola material",
-    "matematik förskola aktivitet",
-    "matematik förskoleklass film",
-    "matematik z arbetsblad facit",
-    "matematik årskurs 1 övningar",
-    "arbetsblad matematik förskola",
-    "matematik addition arbetsblad",
-    "matematik förskola yngre barn",
-    "matematikboken xyz arbetsblad",
-    "matematik förskolan skolverket",
-    "sva undervisning förskoleklass",
-    "lägesord prepositioner förskola",
-    "mönster matematik förskoleklass",
-    "matematik förskoleklass övningar",
-    "prepositioner matematik förskola",
-    "matematik stationer förskoleklass",
-    "arbetsblad matematik förskoleklass",
-    "matematik förskoleklass skolverket"
-   ]
+   "framings": []
   },
   "sorting-categories": {
    "seeds": [
@@ -1195,20 +693,7 @@
     "Sortera i kategorier: dela in i grupper",
     "Sortera i kategorier – övningsblad (PDF)"
    ],
-   "framings": [
-    "övningsblad hockey",
-    "övningsblad klockan",
-    "övningsblad siffror",
-    "övningsblad bokstäver",
-    "övningsblad lettering",
-    "övningsblad matematik",
-    "övningsblad skrivstil",
-    "övningsblad ekvationer",
-    "sortera och klassificera",
-    "övningsblad multiplikation",
-    "övningsblad multiplikationstabellen",
-    "sortera och klassificera i förskolan"
-   ]
+   "framings": []
   },
   "picture-arithmetic": {
    "seeds": [
@@ -1216,16 +701,7 @@
     "Räkna med bilder: första plus och minus",
     "Räkna med bilder – plus och minus (PDF)"
    ],
-   "framings": [
-    "räkna med bråk arbetsblad",
-    "slå ihop bilder till en pdf",
-    "minus gratis",
-    "slå ihop bilder gratis",
-    "arbetsblad första ljudet",
-    "para ihop bilder förskolan",
-    "första ljudet förskoleklass",
-    "räkna addition förskoleklass"
-   ]
+   "framings": []
   },
   "science-sort": {
    "seeds": [
@@ -1233,10 +709,7 @@
     "Sortera i naturen: ordna och upptäck",
     "NO/SO: sortera i naturen – arbetsblad (PDF)"
    ],
-   "framings": [
-    "sortera och klassificera",
-    "sortera och klassificera i förskolan"
-   ]
+   "framings": []
   },
   "science-sequence": {
    "seeds": [
@@ -1244,9 +717,7 @@
     "Livscykler: ordna naturens ordningsföljder",
     "Livscykler och ordningsföljd – arbetsblad (PDF)"
    ],
-   "framings": [
-    "arbetsblad fjärilens livscykel"
-   ]
+   "framings": []
   },
   "science-match": {
    "seeds": [
@@ -1254,9 +725,7 @@
     "Para ihop i naturen: vad hör samman?",
     "NO/SO: para ihop i naturen – arbetsblad (PDF)"
    ],
-   "framings": [
-    "arbetsblad sammansatta ord"
-   ]
+   "framings": []
   },
   "beginning-sounds": {
    "seeds": [
@@ -1266,8 +735,7 @@
    ],
    "framings": [
     "arbetsblad första ljudet",
-    "första ljudet förskoleklass",
-    "arbetsblad j ljudet"
+    "första ljudet förskoleklass"
    ]
   },
   "letter-knowledge": {
@@ -1276,29 +744,7 @@
     "Bokstavskunskap: känn igen och skilj bokstäver",
     "Känna igen bokstäver – arbetsblad (PDF)"
    ],
-   "framings": [
-    "bokstäver teckenspråk",
-    "bråk korsord 5 bokstäver",
-    "blandat språk 6 bokstäver",
-    "bokstäver att skriva ut",
-    "skiljetecken arbetsblad gratis",
-    "arbetsblad öva skriva bokstäver skriv ut gratis",
-    "bokstäver barnrum",
-    "bokstäver klassrum",
-    "arbetsblad bokstäver",
-    "klassrum 5 bokstäver",
-    "klassrum 7 bokstäver",
-    "klassrum 8 bokstäver",
-    "övningsblad bokstäver",
-    "övningshäfte bokstäver",
-    "leksaker bokstäver barn",
-    "klass korsord 2 bokstäver",
-    "arbetsblad bokstäver förskola",
-    "aktiviteter bokstäver förskola",
-    "i förskolan korsord 8 bokstäver",
-    "arbetsblad öva skriva bokstäver skriv ut",
-    "skolplus arbetsblad öva skriva bokstäver skriv ut"
-   ]
+   "framings": []
   },
   "word-building": {
    "seeds": [
@@ -1306,28 +752,7 @@
     "Bygga ord: lägg ord av bokstäver",
     "Bygga ord av bokstäver – arbetsblad (PDF)"
    ],
-   "framings": [
-    "bokstäver teckenspråk",
-    "bråk korsord 5 bokstäver",
-    "blandat språk 6 bokstäver",
-    "bokstäver att skriva ut",
-    "arbetsblad öva skriva bokstäver skriv ut gratis",
-    "bokstäver barnrum",
-    "bokstäver klassrum",
-    "arbetsblad bokstäver",
-    "klassrum 5 bokstäver",
-    "klassrum 7 bokstäver",
-    "klassrum 8 bokstäver",
-    "övningsblad bokstäver",
-    "övningshäfte bokstäver",
-    "leksaker bokstäver barn",
-    "klass korsord 2 bokstäver",
-    "arbetsblad bokstäver förskola",
-    "aktiviteter bokstäver förskola",
-    "i förskolan korsord 8 bokstäver",
-    "arbetsblad öva skriva bokstäver skriv ut",
-    "skolplus arbetsblad öva skriva bokstäver skriv ut"
-   ]
+   "framings": []
   },
   "picture-vocabulary": {
    "seeds": [
@@ -1335,12 +760,7 @@
     "Bildordförråd: se ordet och lär dig det",
     "Ordförråd med bilder – gratis som PDF"
    ],
-   "framings": [
-    "slå ihop bilder till en pdf",
-    "slå ihop bilder gratis",
-    "gissa ordet barn",
-    "para ihop bilder förskolan"
-   ]
+   "framings": []
   },
   "phonological-awareness": {
    "seeds": [
@@ -1351,8 +771,7 @@
    "framings": [
     "fonologisk medvetenhet förskola",
     "fonologisk medvetenhet övningar",
-    "fonologisk medvetenhet i förskolan",
-    "stavelser förskoleklass"
+    "fonologisk medvetenhet i förskolan"
    ]
   }
  }

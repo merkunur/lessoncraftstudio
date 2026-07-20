@@ -524,6 +524,110 @@ function letterEligible(framing, coordinate) {
   return !!pageLetter && m[1].toLowerCase() === pageLetter;
 }
 
+/**
+ * A season or holiday is an exclusive term in exactly the way a letter is: a
+ * 4th-of-July word search titled "word search 1st grade spring" promises the
+ * wrong worksheet. 285 en framings name one, against 9 seasonal themes.
+ *
+ * Per-locale, NOT one shared pattern: Swedish/Danish/Norwegian `jul` is
+ * Christmas but would match English "july", and `v\u00e5r` is both Swedish spring and
+ * the word "our". Where a term is ambiguous the entry stays conservative \u2014
+ * over-excluding merely makes a page pick a different framing, while
+ * under-excluding ships a false promise.
+ */
+const SEASON_TERMS = {
+  en: { christmas: /\b(?:christmas|xmas)\b/i, easter: /\beaster\b/i, spring: /\bspring\b/i, summer: /\bsummer\b/i, winter: /\bwinter\b/i, autumn: /\b(?:autumn|fall)\b/i, thanksgiving: /\bthanksgiving\b/i, valentine: /\bvalentine/i, july4: /\b(?:4th of july|fourth of july|independence day)\b/i, halloween: /\bhalloween\b/i },
+  de: { christmas: /\b(?:weihnacht|advent)/i, easter: /\boster/i, spring: /\b(?:fr\u00fchling|fruehling|fr\u00fchjahr)/i, summer: /\bsommer/i, winter: /\bwinter/i, autumn: /\bherbst/i, valentine: /\bvalentins/i, halloween: /\bhalloween\b/i },
+  es: { christmas: /\bnavide?[\u00f1n]?/i, easter: /\bpascua/i, spring: /\bprimavera\b/i, summer: /\bverano\b/i, winter: /\binvierno\b/i, autumn: /\boto[\u00f1n]o\b/i, valentine: /\b(?:san valent[\u00edi]n|enamorados)\b/i, halloween: /\bhalloween\b/i },
+  pt: { christmas: /\bnatal\b/i, easter: /\bp[\u00e1a]scoa\b/i, spring: /\bprimavera\b/i, summer: /\bver[\u00e3a]o\b/i, winter: /\binverno\b/i, autumn: /\boutono\b/i, valentine: /\bnamorados\b/i, halloween: /\bhalloween\b/i },
+  it: { christmas: /\bnatal[ei]\b/i, easter: /\bpasqua\b/i, spring: /\bprimavera\b/i, summer: /\bestate\b/i, winter: /\binverno\b/i, autumn: /\bautunno\b/i, valentine: /\bsan valentino\b/i, halloween: /\bhalloween\b/i },
+  fr: { christmas: /\bno[\u00ebe]l\b/i, easter: /\bp[\u00e2a]ques\b/i, spring: /\bprintemps\b/i, summer: /\b[\u00e9e]t[\u00e9e]\b/i, winter: /\bhiver\b/i, autumn: /\bautomne\b/i, valentine: /\bvalentin\b/i, halloween: /\bhalloween\b/i },
+  nl: { christmas: /\b(?:kerst|sinterklaas)/i, easter: /\bpasen\b/i, spring: /\b(?:lente|voorjaar)\b/i, summer: /\bzomer/i, winter: /\bwinter/i, autumn: /\bherfst/i, valentine: /\bvalentijn/i, halloween: /\bhalloween\b/i },
+  sv: { christmas: /\bjul(?:en|ens|pyssel|kalender)?\b/i, easter: /\bp[\u00e5a]sk/i, spring: /\bv[\u00e5a]r(?:tecken|en)\b/i, summer: /\bsommar/i, winter: /\bvinter/i, autumn: /\bh[\u00f6o]st/i, valentine: /\balla hj[\u00e4a]rtans\b/i, halloween: /\bhalloween\b/i },
+  da: { christmas: /\bjul(?:en|ens|ekalender)?\b/i, easter: /\bp[\u00e5a]ske/i, spring: /\bfor[\u00e5a]r/i, summer: /\bsommer/i, winter: /\bvinter/i, autumn: /\befter[\u00e5a]r/i, valentine: /\bvalentins?\b/i, halloween: /\bhalloween\b/i },
+  no: { christmas: /\bjul(?:en|ens|ekalender)?\b/i, easter: /\bp[\u00e5a]ske/i, spring: /\bv[\u00e5a]ren\b/i, summer: /\bsommer/i, winter: /\bvinter/i, autumn: /\bh[\u00f8o]st/i, valentine: /\bvalentins?\b/i, halloween: /\bhalloween\b/i },
+  fi: { christmas: /\bjoulu/i, easter: /\bp[\u00e4\u00e4]?[\u00e4a]si[\u00e4a]inen|\bp[\u00e4\u00e4]si[\u00e4a]is/i, spring: /\bkev[\u00e4a][\u00e4t]/i, summer: /\bkes[\u00e4a]\b|\bkes[\u00e4a]n\b/i, winter: /\btalvi/i, autumn: /\bsyksy/i, valentine: /\byst[\u00e4a]v[\u00e4a]np[\u00e4a]iv[\u00e4a]/i, halloween: /\bhalloween\b/i },
+};
+
+/** A page's own season, from its theme. `valentine_bw` is still Valentine's. */
+function themeSeason(coordinate) {
+  const raw = String((coordinate && coordinate.theme) || '').toLowerCase().replace(/_bw$/, '');
+  if (!raw) return null;
+  if (/4th_of_july|independence/.test(raw)) return 'july4';
+  for (const k of ['christmas', 'easter', 'spring', 'summer', 'winter', 'autumn', 'thanksgiving', 'valentine', 'halloween']) {
+    if (raw.includes(k)) return k;
+  }
+  return null;
+}
+
+/**
+ * A framing naming an exclusive term \u2014 a letter, a season, a holiday \u2014 is
+ * eligible only for the page that actually has it. Applied before scoring at
+ * both selection sites AND at the exhausted-pool fallback, which is where the
+ * wrong-letter framings leaked through last time.
+ */
+const GRADE_CEILING = { preschool: 10, kindergarten: 10, 'grade-1': 20, 'grade-2': 100 };
+const NAMES_RANGE = /\b(?:to|within|up\s+to|bis|hasta|fino\s+a|tot|till|til|opp\s+til|asti|jusqu)\s+(\d{1,3})\b/i;
+
+/**
+ * A number range is exclusive too. 140 Kindergarten addition pages were handed
+ * "adding numbers to 20" — above K's ≤10 ceiling, which §22.1 makes load-bearing
+ * for exactly this reason. Under-claiming is fine (a Grade 1 page may say "to
+ * 10"); over-claiming promises arithmetic the sheet does not contain.
+ */
+function rangeEligible(framing, coordinate) {
+  const m = NAMES_RANGE.exec(framing);
+  if (!m) return true;
+  const ceil = GRADE_CEILING[(coordinate && coordinate.level) || ''];
+  return !ceil || Number(m[1]) <= ceil;
+}
+
+/**
+ * A grade named in the framing must be the page's OWN grade. 433 en, 659 de and
+ * 296 es pages held a framing for a different year — "buchstabensalat vorschule"
+ * on a 1. Klasse page. Keyed to each locale's real level keys (see the
+ * `coordinate.level` values), because the school ladders do not correspond:
+ * German Kindergarten is Vorschule, Spanish kínder is preescolar.
+ */
+const GRADE_TERMS = {
+  en: { preschool: /\b(?:pre-?k|pre-?school)\b/i, kindergarten: /\bkinder(?:garten)?\b/i, 'grade-1': /\b(?:1st|first) grade\b|\bgrade 1\b/i, 'grade-2': /\b(?:2nd|second) grade\b|\bgrade 2\b/i, 'grade-3': /\b(?:3rd|third) grade\b|\bgrade 3\b/i },
+  de: { vorschule: /\bvorschul|\bkindergarten\b|\bkita\b/i, '1-klasse': /\b1\.?\s*klasse\b|\berste klasse\b/i, '2-klasse': /\b2\.?\s*klasse\b|\bzweite klasse\b/i, '3-klasse': /\b3\.?\s*klasse\b|\bdritte klasse\b/i },
+  es: { preescolar: /\bpreescolar\b|\binfantil\b|\bkinder\w*\b|\bpre-?escolar\b/i, 'primer-grado': /\bprimer\w*\s+grado\b|\b1\w*\s+grado\b|\bprimero de primaria\b/i, 'segundo-grado': /\bsegundo grado\b|\b2\w*\s+grado\b/i, 'tercer-grado': /\btercer\w*\s+grado\b|\b3\w*\s+grado\b/i },
+  pt: { 'educacao-infantil': /\beduca[çc][ãa]o infantil\b|\bpr[ée]-?escolar\b/i, '1o-ano': /\b1[ºo]?\s*ano\b|\bprimeiro ano\b/i, '2o-ano': /\b2[ºo]?\s*ano\b|\bsegundo ano\b/i, '3o-ano': /\b3[ºo]?\s*ano\b|\bterceiro ano\b/i },
+  it: { infanzia: /\binfanzia\b|\bmaterna\b/i, 'classe-prima': /\bprima elementare\b|\bclasse prima\b|\b1[ªa] elementare\b/i, 'classe-seconda': /\bseconda elementare\b|\bclasse seconda\b/i, 'classe-terza': /\bterza elementare\b|\bclasse terza\b/i },
+  fr: { maternelle: /\bmaternelle\b|\bgrande section\b/i, cp: /\bcp\b/i, ce1: /\bce1\b/i, ce2: /\bce2\b/i },
+  nl: { kleuters: /\bkleuter/i, 'groep-3': /\bgroep 3\b/i, 'groep-4': /\bgroep 4\b/i, 'groep-5': /\bgroep 5\b/i },
+  sv: { forskola: /\bf[öo]rskol/i, 'ak-1': /\b[åa]k\s*1\b|\b[åa]rskurs 1\b/i, 'ak-2': /\b[åa]k\s*2\b|\b[åa]rskurs 2\b/i, 'ak-3': /\b[åa]k\s*3\b|\b[åa]rskurs 3\b/i },
+  da: { boernehaveklasse: /\bb[øo]rnehav|\b0\.?\s*klasse\b/i, '1-klasse': /\b1\.?\s*klasse\b/i, '2-klasse': /\b2\.?\s*klasse\b/i, '3-klasse': /\b3\.?\s*klasse\b/i },
+  no: { '1-trinn': /\b1\.?\s*trinn\b/i, '2-trinn': /\b2\.?\s*trinn\b/i, '3-trinn': /\b3\.?\s*trinn\b/i, '4-trinn': /\b4\.?\s*trinn\b/i },
+  fi: { esikoulu: /\besikoul/i, '1-luokka': /\b1\.?\s*luok/i, '2-luokka': /\b2\.?\s*luok/i, '3-luokka': /\b3\.?\s*luok/i },
+};
+
+function gradeEligible(framing, coordinate, locale) {
+  const level = (coordinate && coordinate.level) || '';
+  // cross-language decks carry no grade claim of their own
+  if (!level || level === 'language-beginner') return true;
+  const terms = GRADE_TERMS[locale];
+  if (!terms) return true;
+  for (const key of Object.keys(terms)) {
+    if (terms[key].test(framing) && key !== level) return false;
+  }
+  return true;
+}
+
+function exclusiveTermEligible(framing, coordinate, locale) {
+  if (!letterEligible(framing, coordinate)) return false;
+  if (!rangeEligible(framing, coordinate)) return false;
+  if (!gradeEligible(framing, coordinate, locale)) return false;
+  const terms = SEASON_TERMS[locale];
+  if (!terms) return true;
+  const pageSeason = themeSeason(coordinate);
+  for (const key of Object.keys(terms)) {
+    if (terms[key].test(framing) && key !== pageSeason) return false;
+  }
+  return true;
+}
+
 function buildFramingAssignment(locale, landings, pools, engine) {
   const out = new Map();
   if (!pools) return out;
@@ -548,7 +652,7 @@ function buildFramingAssignment(locale, landings, pools, engine) {
       const c0 = page.coordinate || {};
       const otherWords = c0.mode ? distinctive.get(c0.type + '::__others__::' + c0.mode) : null;
       const purposeOk = (q) => {
-        if (!letterEligible(q, c0)) return false;
+        if (!exclusiveTermEligible(q, c0, locale)) return false;
         if (otherWords && otherWords.size) {
           const lq = q.toLowerCase();
           for (const w of otherWords) if (lq.includes(w)) return false;
@@ -556,7 +660,7 @@ function buildFramingAssignment(locale, landings, pools, engine) {
         return true;
       };
       const eligible = pool.filter(purposeOk);
-      const candidates = eligible.length ? eligible : pool.filter((q) => letterEligible(q, c0));
+      const candidates = eligible.length ? eligible : pool.filter((q) => exclusiveTermEligible(q, c0, locale));
       let best = null, bestScore = -Infinity;
       for (const q of candidates) {
         if (claimed.has(q)) continue;
@@ -943,5 +1047,5 @@ function buildMeta({ l, S, descriptor, theme, level, factBits, metaDifferentiato
 
 module.exports = {
   SURFACE, NATIVE_LEAD, EDGE_STOPWORDS, TITLE_SOFT_CAP, META_MIN, META_MAX,
-  loadOverrides, loadEngine, loadCorpus, taxonomyName, loadFramingPools, buildFramingAssignment, buildModeDistinctiveWords, letterEligible, corpusHas, corpusHasCompound, demandLeadForType, composeOne, chromeTokens, engineOp, opVariesByMode, themeDisplayFor, BW_LABEL, buildLeadMap, assertEngineAdapters, engineQual, engineRange,
+  loadOverrides, loadEngine, loadCorpus, taxonomyName, loadFramingPools, buildFramingAssignment, buildModeDistinctiveWords, letterEligible, exclusiveTermEligible, themeSeason, corpusHas, corpusHasCompound, demandLeadForType, composeOne, chromeTokens, engineOp, opVariesByMode, themeDisplayFor, BW_LABEL, buildLeadMap, assertEngineAdapters, engineQual, engineRange,
 };

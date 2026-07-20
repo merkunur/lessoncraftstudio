@@ -188,6 +188,100 @@ L.es = {
   list: function (a) { return a.length > 1 ? a.slice(0, -1).join(', ') + ' y ' + a[a.length - 1] : a[0]; },
 };
 
+/* ----------------------------------------------------------------- Italian */
+L.it = {
+  headings: ['Che cosa allena questa scheda', 'Come usarla in classe'],
+  modes: {
+    'addition/image-number': "Sei calcoli: il bambino conta una collezione illustrata, aggiunge il numero scritto accanto e annota la somma.",
+    'addition/image-image': 'Sei calcoli: il bambino conta le due collezioni illustrate, le somma e scrive il risultato nella casella.',
+    'addition/find-addend': "Sei calcoli: un addendo manca e il bambino cerca il numero che completa l'uguaglianza, contando le immagini.",
+    'addition/mixed': 'Sei calcoli di addizione presentati in modi diversi: collezioni illustrate, numeri scritti e addendi da trovare.',
+    'subtraction/image-number': 'Sei calcoli: il bambino conta la collezione illustrata, toglie il numero scritto accanto e annota la differenza.',
+    'subtraction/cross-out': 'Sei calcoli: il bambino cancella con una crocetta le immagini indicate e conta quante ne restano.',
+    'subtraction/find-subtrahend': 'Sei calcoli: il bambino individua il numero da togliere perché la sottrazione arrivi al risultato indicato.',
+    'subtraction/mixed': 'Sei calcoli di sottrazione presentati in modi diversi: immagini da cancellare, numeri scritti e termini da trovare.',
+  },
+  range: 'Tutti i numeri e tutti i risultati restano entro il dieci.',
+  mixedNote: "Qui varia solo la presentazione: l'operazione resta la stessa in tutti e sei i calcoli.",
+  bridgeNote: "Una quantità è illustrata, l'altra è un numero scritto: si passa dal contare tutto al contare avanti.",
+  check: 'Le soluzioni sono in un PDF a parte; la versione interattiva nel browser verifica subito ogni risposta.',
+  objects: function (list) { return 'Le immagini di questa scheda mostrano ' + list + '.'; },
+  uses: [
+    'In un angolo di matematica, lascia alcune copie a disposizione per chi vuole esercitarsi da solo.',
+    'Come esercitazione dopo la spiegazione o come compito breve a casa, una scheda per volta.',
+    "A coppie: un bambino conta ad alta voce, l'altro scrive, poi si scambiano i ruoli.",
+    'Per chi finisce prima: una scheda pronta che si affronta in autonomia senza nuove spiegazioni.',
+    "In caso di supplenza, un'attività stampabile subito, comprensibile anche a chi non conosce la classe.",
+  ],
+  chips: { add: 'Addizione con immagini', sub: 'Sottrazione con immagini', range: 'Numeri entro il 10' },
+  list: function (a) { return a.length > 1 ? a.slice(0, -1).join(', ') + ' e ' + a[a.length - 1] : a[0]; },
+};
+
+/* ------------------------------------------------- Portuguese (Brazilian) */
+/* The child-facing instructions this was authored against are European Portuguese
+ * (`em falta`, `risca`, `escreve as tuas respostas`) while the site is pt-BR canonical
+ * per §6. The reviewer was shown the discrepancy and wrote Brazilian; the product-side
+ * instruction text is a separate defect, recorded not silently mirrored. */
+L.pt = {
+  headings: ['O que esta atividade trabalha', 'Como usar na sala'],
+  modes: {
+    'addition/image-number': 'Seis adições em que uma coleção aparece ilustrada e a outra parcela vem como número escrito para somar.',
+    'addition/image-image': 'Seis adições com duas coleções ilustradas: o aluno conta cada grupo, soma as duas quantidades e escreve o total.',
+    'addition/find-addend': 'Seis adições com uma parcela faltando: o aluno descobre o número que completa a igualdade e o escreve.',
+    'addition/mixed': 'Seis adições que alternam entre as apresentações ilustradas, o número escrito e a parcela faltando na mesma atividade.',
+    'subtraction/image-number': 'Seis subtrações em que a quantidade inicial aparece ilustrada e o valor a retirar vem como número escrito.',
+    'subtraction/cross-out': 'Seis subtrações com uma coleção ilustrada: o aluno risca a quantidade indicada e conta as imagens que sobraram.',
+    'subtraction/find-subtrahend': 'Seis subtrações com o número a retirar faltando: o aluno descobre quanto foi tirado e escreve o valor.',
+    'subtraction/mixed': 'Seis subtrações que alternam entre riscar as imagens, subtrair um número escrito e descobrir o valor que falta.',
+  },
+  range: 'Todos os números e todos os resultados ficam entre 0 e 10.',
+  mixedNote: 'Nas atividades mistas varia apenas a apresentação: todas as contas mantêm a mesma operação.',
+  bridgeNote: 'Uma coleção ilustrada e uma quantidade escrita levam o aluno de contar tudo a contar a partir dela.',
+  check: 'A folha impressa não corrige; o gabarito é um PDF à parte e a versão interativa confere as respostas.',
+  objects: function (list) { return 'As imagens desta atividade mostram ' + list + '.'; },
+  uses: [
+    'Deixe algumas cópias no cantinho de matemática para o plano de trabalho semanal dos alunos.',
+    'Use uma folha na fase de exercícios da aula ou envie como tarefa de casa curta.',
+    'Em duplas, um aluno resolve três contas e o colega resolve as outras três, depois comparam.',
+    'Quem termina a atividade principal antes dos colegas pode seguir sozinho com mais uma folha.',
+    'Em aula de substituição, a atividade funciona sem preparo: basta imprimir e distribuir para a turma.',
+  ],
+  chips: { add: 'Adição com imagens', sub: 'Subtração com imagens', range: 'Números até 10' },
+  list: function (a) { return a.length > 1 ? a.slice(0, -1).join(', ') + ' e ' + a[a.length - 1] : a[0]; },
+};
+
+/* ----------------------------------------------------------------- Swedish */
+/* [NSR-FLAG] per §17.5.1. The Nordic +1-year spine (§22.5) is why the first use sentence
+ * names förskoleklass rather than åk 1: Swedish åk 1 is seven, so within-10 content sits a
+ * year below where an English Grade 1 tag would put it. Stated as placement advice. */
+L.sv = {
+  headings: ['Det här tränar bladet', 'Så använder du bladet i klassrummet'],
+  modes: {
+    'addition/image-number': 'Sex uppgifter där eleven räknar den avbildade mängden, lägger till det skrivna talet och skriver summan.',
+    'addition/image-image': 'Sex uppgifter där eleven räknar båda de avbildade mängderna, lägger ihop dem och skriver summan på raden.',
+    'addition/find-addend': 'Sex uppgifter där en term saknas och eleven skriver in det tal som gör additionen fullständig.',
+    'addition/mixed': 'Sex additionsuppgifter där presentationen växlar mellan avbildade mängder, skrivna tal och en saknad term inom samma blad.',
+    'subtraction/image-number': 'Sex uppgifter där eleven räknar den avbildade mängden, drar av det skrivna talet och skriver differensen.',
+    'subtraction/cross-out': 'Sex uppgifter där eleven stryker över det angivna antalet bilder, räknar de kvarvarande och skriver differensen.',
+    'subtraction/find-subtrahend': 'Sex uppgifter där ett tal saknas och eleven skriver in det tal som gör subtraktionen fullständig.',
+    'subtraction/mixed': 'Sex subtraktionsuppgifter där presentationen växlar mellan bilder att stryka över, skrivna tal och ett saknat tal.',
+  },
+  range: 'Alla tal och alla svar på bladet ligger inom talområdet 0–10.',
+  mixedNote: 'Blandningen gäller presentationen, inte räknesättet: alla sex uppgifter på bladet tillhör fortfarande samma räknesätt.',
+  bridgeNote: 'En mängd är avbildad, den andra ett skrivet tal: steget från att räkna alla till att räkna vidare.',
+  check: 'Papperet ger ingen återkoppling: facit finns som separat PDF, och webbversionen kontrollerar varje svar medan eleven arbetar.',
+  objects: function (list) { return 'På det här bladet räknar eleven följande motiv: ' + list + '.'; },
+  uses: [
+    'Talområdet passar förskoleklass och tidiga åk 1, till exempel som veckans återkommande uppgift i mattestationen.',
+    'Skicka med bladet som kort hemuppgift när eleverna behöver hålla räknandet levande mellan lektionerna.',
+    'Låt två elever lösa varsin uppgift i taget och sedan berätta för varandra hur de tänkte.',
+    'Ha några utskrivna blad i en mapp för elever som blir klara före de andra.',
+    'Bladet fungerar utan genomgång och går därför att lämna till en vikarie tillsammans med dagens planering.',
+  ],
+  chips: { add: 'Addition inom 10', sub: 'Subtraktion inom 10', range: 'Talområde 0–10' },
+  list: function (a) { return a.length > 1 ? a.slice(0, -1).join(', ') + ' och ' + a[a.length - 1] : a[0]; },
+};
+
 /* ------------------------------------------------------------------ build */
 
 function digits(ordinal, radices) {

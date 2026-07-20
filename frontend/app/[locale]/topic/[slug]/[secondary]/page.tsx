@@ -20,6 +20,7 @@ import {
   countDecksForIntersection,
   fetchDecksForTopicWithFilters,
   fetchDecksForSubjectLevel,
+  fetchLeadDeckForSubjectLevel,
   countDecksForSubjectLevel,
   latestDeckUpdateForSubjectLevel,
   getExerciseModeCountsForType,
@@ -29,6 +30,7 @@ import {
   TOPIC_PAGE_SIZE,
   TopicSortKey,
 } from '@/lib/topic-decks';
+import { topicOgImage, ogImageFromLeadDeck } from '@/lib/seo/topic-og-image';
 import {
   resolveSubjectGrade,
   subjectHubTitle,
@@ -60,7 +62,7 @@ import EmptyDecksState from '@/components/catalog/EmptyDecksState';
 import Pagination from '@/components/catalog/Pagination';
 import { buildFilterUrl } from '@/components/catalog/filterUrl';
 import DeckGridClient, { TopicDeckCardData } from '../DeckGridClient';
-import { buildDeckRichAlt } from '@/lib/deck-seo';
+import { buildDeckThumbAlt } from '@/lib/seo/deck-vocab';
 
 // Arc 6b — searchParams validation. Reused per the [slug]/page.tsx pattern;
 // duplicated here rather than imported because the route files are siblings
@@ -469,6 +471,13 @@ async function subjectHubMetadata(
   if (enHref) hreflangAlternates['x-default'] = enHref;
 
   const indexable = count >= MIN_INDEXABLE_SUBJECT_HUB_DECKS;
+  // Per-hub social image from this hub's own first deck (see topicOgImage).
+  const sgAltT = await getTranslations({ locale, namespace: 'seo.ogImageAlt' });
+  const ogImage = ogImageFromLeadDeck(
+    await fetchLeadDeckForSubjectLevel(subjectKey, levelKey, locale),
+    locale,
+    (key, p) => sgAltT(key as never, p as never),
+  );
   return {
     title,
     description,
@@ -477,9 +486,9 @@ async function subjectHubMetadata(
     openGraph: {
       title, description, type: 'website', url: canonical, siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
-      images: [{ url: `${CANONICAL_HOST}/og-homepage.png`, width: 1200, height: 630, type: 'image/png', alt: 'LessonCraftStudio — K-3 worksheets in 11 languages' }],
+      images: [ogImage],
     },
-    twitter: { card: 'summary_large_image', title, description, images: [`${CANONICAL_HOST}/og-homepage.png`] },
+    twitter: { card: 'summary_large_image', title, description, images: [ogImage.url] },
   };
 }
 
@@ -585,6 +594,14 @@ export async function generateMetadata({
   // key — no code change. Single SoT mirrored by sitemap shard 2.
   const intersectionAuthored = !!(intersectionMeta || intersectionProse);
 
+  // Per-hub social image from the first deck of this intersection (see topicOgImage).
+  const ixAltT = await getTranslations({ locale, namespace: 'seo.ogImageAlt' });
+  const ogImage = await topicOgImage(
+    [{ axis: axis1, axisKey: axisKey1 }, { axis: axis2, axisKey: axisKey2 }],
+    locale,
+    (key, p) => ixAltT(key as never, p as never),
+  );
+
   return {
     title: pageTitle,
     description,
@@ -600,21 +617,13 @@ export async function generateMetadata({
       url: canonical,
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
-      images: [
-        {
-          url: `${CANONICAL_HOST}/og-homepage.png`,
-          width: 1200,
-          height: 630,
-          type: 'image/png',
-          alt: 'LessonCraftStudio — K-3 worksheets in 11 languages',
-        },
-      ],
+      images: [ogImage],
     },
     twitter: {
       card: 'summary_large_image',
       title: pageTitle,
       description,
-      images: [`${CANONICAL_HOST}/og-homepage.png`],
+      images: [ogImage.url],
     },
   };
 }
@@ -685,6 +694,7 @@ async function renderSubjectGradeHub(
 
   const t = await getTranslations({ locale, namespace: 'topicPage' });
   const tDeckAlt = await getTranslations({ locale, namespace: 'seo.deckCardAlt' });
+  const tMainAlt = await getTranslations({ locale, namespace: 'seo.worksheetMainAlt' });
   const tBreadcrumb = await getTranslations({ locale, namespace: 'topicPage.breadcrumb' });
 
   const h1 = subjectHubH1(locale, subjectKey, levelKey);
@@ -807,9 +817,10 @@ async function renderSubjectGradeHub(
                 slug: deck.slug,
                 language: deck.language,
                 title,
-                richAlt: buildDeckRichAlt(
-                  { exerciseType: deck.exerciseType, subjectTags: deck.subjectTags, ageRange: deck.ageRange, title },
+                richAlt: buildDeckThumbAlt(
+                  { slug: deck.slug, exerciseType: deck.exerciseType, subjectTags: deck.subjectTags, ageRange: deck.ageRange, title },
                   locale,
+                  (key, p) => tMainAlt(key as never, p as never),
                   (key, p) => tDeckAlt(key, p),
                 ),
                 href: deckLinkFor(deck),
@@ -884,6 +895,7 @@ export default async function IntersectionPage({
 
   const t = await getTranslations({ locale, namespace: 'topicPage' });
   const tDeckAlt = await getTranslations({ locale, namespace: 'seo.deckCardAlt' });
+  const tMainAlt = await getTranslations({ locale, namespace: 'seo.worksheetMainAlt' });
   const name1 = getAxisName(axis1, axisKey1, locale) ?? params.slug;
   const name2 = getAxisName(axis2, axisKey2, locale) ?? params.secondary;
   const compositeName = `${name1} · ${name2}`;
@@ -1122,14 +1134,16 @@ export default async function IntersectionPage({
                     slug: deck.slug,
                     language: deck.language,
                     title,
-                    richAlt: buildDeckRichAlt(
+                    richAlt: buildDeckThumbAlt(
                       {
+                        slug: deck.slug,
                         exerciseType: deck.exerciseType,
                         subjectTags: deck.subjectTags,
                         ageRange: deck.ageRange,
                         title,
                       },
                       locale,
+                      (key, params) => tMainAlt(key as never, params as never),
                       (key, params) => tDeckAlt(key, params),
                     ),
                     href: deckLinkFor(deck),

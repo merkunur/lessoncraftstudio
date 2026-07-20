@@ -171,8 +171,7 @@ function run(locale, only) {
    * strip the chrome words that every title carries and compare what is left.
    * An identical remainder means one of the two pages cannot win.
    */
-  const titleChrome = new Set([...chromeTokens(locale), 'word', 'words', 'search',
-    'free', 'printable', 'pdf', 'worksheet', 'worksheets', 'kids', 'children']);
+  const titleChrome = titleChromeFor(locale);
   const contentSets = [];
   for (const [k, list] of byClass) {
     for (const l of list) {
@@ -257,4 +256,19 @@ if (require.main === module) {
   process.exitCode = bad ? 1 : 0;
 }
 
-module.exports = { skeleton, run, SKELETON_FAIL };
+/* ONE definition of "same query", exported so the fitter optimises against the
+ * exact measure the gate applies. They disagreed once — the fitter's chrome list
+ * lacked kids/children/grade — so it produced titles it believed distinct and
+ * the gate correctly called them duplicates. A metric and the thing being
+ * measured must not each keep their own private notion of the goal. */
+function titleChromeFor(locale) {
+  return new Set([...chromeTokens(locale), 'word', 'words', 'search',
+    'free', 'printable', 'printables', 'pdf', 'worksheet', 'worksheets',
+    'kids', 'children', 'print', 'printing', 'download', 'online', 'sheet', 'sheets']);
+}
+function querySignature(title, locale) {
+  const chrome = titleChromeFor(locale);
+  return [...new Set(toks(title || '').filter((w) => !chrome.has(w)))].sort().join(' ');
+}
+
+module.exports = { skeleton, run, SKELETON_FAIL, querySignature, titleChromeFor };

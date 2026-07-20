@@ -661,16 +661,33 @@ function composeOne(l, row, ctx) {
   const nouns = (l.slotTokens || []).filter((t) => t && !/^[a-z-]+$/.test(t) || /[A-ZÅÄÖÆØ]/.test(t));
   const factBits = [];
   if (nouns.length >= 3) factBits.push(nouns.slice(0, 4).join(', '));
-  const meta = buildMeta({ l, S, descriptor, theme, level, factBits });
+  // The meta must carry the SAME differentiators as the title. Using only
+  // descriptor/theme/level left the letter out, so beginning-sounds letter E and
+  // letter O for one theme produced byte-identical metas — the gate scored that
+  // pair 1.000. Anything that separates two pages in the title has to separate
+  // them here too.
+  const metaDifferentiators = [
+    letter ? `${letter}` : null,
+    range || null,
+    qual || null,
+    modeLabel && !modeRedundant ? modeLabel : null,
+  ].filter(Boolean);
+  const meta = buildMeta({ l, S, descriptor, theme, level, factBits, metaDifferentiators, ordinal });
 
   return { title, metaDescription: meta, usedLead: !!lead, demoted };
 }
 
-function buildMeta({ l, S, descriptor, theme, level, factBits }) {
+function buildMeta({ l, S, descriptor, theme, level, factBits, metaDifferentiators = [], ordinal = null }) {
   // Prefer real page facts; fall back to the first sentence of p1, which is
   // already unique per page — the §22.4 pass overwrote exactly that field, and
   // render-landing-html.js still prefers it when metaDescription is absent.
-  const opener = [descriptor || S.worksheet, theme, level].filter(Boolean).join(' – ');
+  const opener = [
+    descriptor || S.worksheet,
+    ...metaDifferentiators,
+    theme,
+    level,
+    ordinal && ordinal > 1 ? `(${ordinal})` : null,
+  ].filter(Boolean).join(' – ');
   let m = opener;
   if (factBits.length) m += `. ${factBits.join('; ')}`;
   // Keep adding whole sentences from p1 until the 120-char floor is cleared.

@@ -144,7 +144,30 @@ console.log('  max cross-class slot-normalized Jaccard: '+xmax.toFixed(3)+'  ['+
 const PREFIX_LEN = 50;
 const META_MIN = 120, META_MAX = 170;
 
-function fieldGrams(p, key) { return grams(String(p[key] || ''), N); }
+/* The shared words() tokenizer is /[a-z0-9]+/ for every locale except fi, which
+ * was widened to \p{L} in an earlier pass while deliberately leaving the other
+ * ten "byte-identical" for comparability with the locked calibration. That means
+ * it DISCARDS every diacritic outside fi — å æ ø ä ö é è ç ñ ã ü ß — and words
+ * that differ only in an accent collapse onto each other.
+ *
+ * Measured consequence, no: "Bildebingo – Vår" (spring) and "Bildebingo – Vær"
+ * (weather) are two different themes, and the gate scored them 1.000 IDENTICAL,
+ * because both tokenize to ["bildebingo","v","r"]. It mis-measures in both
+ * directions — inventing collisions between distinct accented words, and
+ * fragmenting real ones so genuine similarity is under-reported.
+ *
+ * §4.E therefore always tokenizes Unicode-aware. The prose sections above are
+ * left on the locked tokenizer so their numbers stay comparable to the 2026-06-06
+ * calibration — but they are measuring 9 of 11 locales through the same flaw, and
+ * that is worth fixing deliberately rather than silently here.
+ */
+function uWords(s) { return (String(s || '').toLowerCase().match(/[\p{L}\p{N}]+/gu) || []); }
+function uGrams(s, n) {
+  const w = uWords(s); const g = new Set();
+  for (let i = 0; i + n <= w.length; i++) g.add(w.slice(i, i + n).join(' '));
+  return g;
+}
+function fieldGrams(p, key) { return uGrams(String(p[key] || ''), N); }
 function pairStatsPre(gs, subset) {
   let max = 0, sum = 0, cnt = 0, over80 = 0, over65 = 0, maxPair = '';
   for (let i = 0; i < gs.length; i++) for (let j = i + 1; j < gs.length; j++) {

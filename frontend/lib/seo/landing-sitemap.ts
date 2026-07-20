@@ -48,7 +48,7 @@ function shardOf(key: string, partCount: number): number {
  */
 export async function landingShardXml(partIndex: number, partCount: number): Promise<NextResponse> {
   try {
-    const { getLandingLocales, getAllLandings, getSiblingLandingsByCoordinate, deckAssets, getLandingAugment } = await import(
+    const { getLandingLocales, getAllLandings, getSiblingLandingsByCoordinate, deckAssets, getLandingAugment, landingContentMtimeMs } = await import(
       '@/lib/seo/landing-content'
     );
     const { buildHreflangAlternates } = await import('@/lib/seo/hreflang');
@@ -58,6 +58,11 @@ export async function landingShardXml(partIndex: number, partCount: number): Pro
 
     for (const locale of landingLocales) {
       const augment = getLandingAugment(locale);
+      /* When this locale's landing copy last changed. Preferred over the deck's generation
+       * date below: `lastmod` means when the URL's content changed, and these pages had their
+       * titles and meta descriptions re-keyed long after the worksheets were made. */
+      const contentMs = landingContentMtimeMs(locale);
+      const contentIso = contentMs ? new Date(contentMs).toISOString() : '';
       for (const l of getAllLandings(locale)) {
         // Partition: each landing lands in exactly one shard (stable hash).
         if (shardOf(`${locale}/${l.slug}`, partCount) !== partIndex) continue;
@@ -90,6 +95,10 @@ export async function landingShardXml(partIndex: number, partCount: number): Pro
             // on-page updated line + JSON-LD dateModified); omitted when the
             // augment file is absent.
             (() => {
+              /* The landing copy's own mtime first; the deck's generation date only as a
+               * fallback for a locale whose file cannot be read. Omitted when neither is
+               * known, which is the original behaviour. */
+              if (contentIso) return `  <lastmod>${contentIso}</lastmod>`;
               const cd = augment?.[l.slug]?.contentDate;
               return cd && /^\d{4}-\d{2}-\d{2}$/.test(cd) ? `  <lastmod>${cd}</lastmod>` : '';
             })(),

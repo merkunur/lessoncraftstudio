@@ -1,0 +1,3408 @@
+{
+ "locale": "it",
+ "market": {
+  "hl": "it",
+  "gl": "it"
+ },
+ "generatedAt": "2026-07-20T08:53:42.813Z",
+ "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
+ "requestCount": 327,
+ "seedCounts": {
+  "skill": 14,
+  "context": 6,
+  "audience": 4,
+  "enumerated": 26,
+  "pack": 1,
+  "cross": 276
+ },
+ "errorCount": 0,
+ "errors": [],
+ "newVsInventory": {
+  "inventoryUnique": 1625,
+  "demandUnique": 583,
+  "novel": 572,
+  "novelShare": 0.981
+ },
+ "deadSeeds": [
+  "recupero schede didattiche",
+  "recupero prima elementare",
+  "lettera j schede",
+  "lettera k schede",
+  "lettera w schede",
+  "lettera x schede",
+  "lettera y schede",
+  "4 luglio matematica",
+  "4 luglio contare",
+  "4 luglio addizioni",
+  "4 luglio lettere",
+  "accessori contare",
+  "accessori addizioni",
+  "animali addizioni",
+  "in giro per casa matematica",
+  "in giro per casa contare",
+  "in giro per casa addizioni",
+  "in giro per casa lettere",
+  "al supermercato contare",
+  "al supermercato addizioni",
+  "al supermercato lettere",
+  "panetteria matematica",
+  "panetteria contare",
+  "panetteria addizioni",
+  "panetteria lettere",
+  "spiaggia matematica",
+  "spiaggia contare",
+  "spiaggia addizioni",
+  "uccelli matematica",
+  "uccelli contare",
+  "uccelli addizioni",
+  "uccelli 2 matematica",
+  "uccelli 2 contare",
+  "uccelli 2 addizioni",
+  "uccelli 2 lettere",
+  "parti del corpo matematica",
+  "parti del corpo contare",
+  "parti del corpo addizioni",
+  "colazione matematica",
+  "colazione contare",
+  "colazione addizioni",
+  "colazione lettere",
+  "campeggio matematica",
+  "campeggio contare",
+  "campeggio addizioni",
+  "campeggio lettere",
+  "natale contare",
+  "aula contare",
+  "aula addizioni",
+  "abbigliamento matematica",
+  "abbigliamento contare",
+  "abbigliamento addizioni",
+  "abbigliamento lettere",
+  "dolci e dolciumi matematica",
+  "dolci e dolciumi contare",
+  "dolci e dolciumi addizioni",
+  "dolci e dolciumi lettere",
+  "dinosauri contare",
+  "dinosauri addizioni",
+  "emozioni contare",
+  "emozioni addizioni",
+  "animali della fattoria matematica",
+  "animali della fattoria contare",
+  "animali della fattoria addizioni",
+  "animali della fattoria lettere",
+  "fiori contare",
+  "fiori addizioni",
+  "creature della foresta matematica",
+  "creature della foresta contare",
+  "creature della foresta addizioni",
+  "creature della foresta lettere",
+  "frutta matematica",
+  "frutta contare",
+  "frutta addizioni",
+  "mobili matematica",
+  "mobili contare",
+  "mobili addizioni",
+  "ospedale matematica",
+  "ospedale contare",
+  "ospedale addizioni",
+  "insetti e scarafaggi matematica",
+  "insetti e scarafaggi contare",
+  "insetti e scarafaggi addizioni",
+  "insetti e scarafaggi lettere",
+  "utensili da cucina matematica",
+  "utensili da cucina contare",
+  "utensili da cucina addizioni",
+  "utensili da cucina lettere",
+  "varie matematica",
+  "varie contare",
+  "varie addizioni",
+  "musica contare",
+  "musica addizioni",
+  "professioni contare",
+  "professioni addizioni",
+  "professioni lettere",
+  "vita oceanica matematica",
+  "vita oceanica contare",
+  "vita oceanica addizioni",
+  "vita oceanica lettere",
+  "animali domestici matematica",
+  "animali domestici contare",
+  "animali domestici addizioni",
+  "animali domestici lettere",
+  "ufficio postale matematica",
+  "ufficio postale contare",
+  "ufficio postale addizioni",
+  "rettili e anfibi matematica",
+  "rettili e anfibi contare",
+  "rettili e anfibi addizioni",
+  "rettili e anfibi lettere",
+  "forme contare",
+  "forme addizioni",
+  "spazio contare",
+  "spazio addizioni",
+  "primavera contare",
+  "primavera addizioni",
+  "estate contare",
+  "estate addizioni",
+  "giorno del ringraziamento matematica",
+  "giorno del ringraziamento contare",
+  "giorno del ringraziamento addizioni",
+  "giorno del ringraziamento lettere",
+  "cose che volano matematica",
+  "cose che volano contare",
+  "cose che volano addizioni",
+  "cose che volano lettere",
+  "attrezzi contare",
+  "attrezzi addizioni",
+  "giocattoli contare",
+  "giocattoli addizioni",
+  "alberi contare",
+  "alberi addizioni",
+  "verdure matematica",
+  "verdure contare",
+  "verdure addizioni",
+  "veicoli matematica",
+  "veicoli contare",
+  "veicoli addizioni",
+  "meteo contare",
+  "meteo addizioni",
+  "inverno contare",
+  "inverno addizioni",
+  "animali dello zoo matematica",
+  "animali dello zoo contare",
+  "animali dello zoo addizioni",
+  "animali dello zoo lettere",
+  "animali bn 2 matematica",
+  "animali bn 2 contare",
+  "animali bn 2 addizioni",
+  "animali bn 2 lettere",
+  "animali bn 3 matematica",
+  "animali bn 3 contare",
+  "animali bn 3 addizioni",
+  "animali bn 3 lettere",
+  "animali bn 4 matematica",
+  "animali bn 4 contare",
+  "animali bn 4 addizioni",
+  "animali bn 4 lettere",
+  "animali bn 5 matematica",
+  "animali bn 5 contare",
+  "animali bn 5 addizioni",
+  "animali bn 5 lettere",
+  "spiaggia bn 2 matematica",
+  "spiaggia bn 2 contare",
+  "spiaggia bn 2 addizioni",
+  "spiaggia bn 2 lettere",
+  "uccelli b&n 2 matematica",
+  "uccelli b&n 2 contare",
+  "uccelli b&n 2 addizioni",
+  "uccelli b&n 2 lettere",
+  "natale b&n 2 matematica",
+  "natale b&n 2 contare",
+  "natale b&n 2 addizioni",
+  "natale b&n 2 lettere",
+  "aula 2 (b/n) matematica",
+  "aula 2 (b/n) contare",
+  "aula 2 (b/n) addizioni",
+  "aula 2 (b/n) lettere",
+  "pasqua bn 2 matematica",
+  "pasqua bn 2 contare",
+  "pasqua bn 2 addizioni",
+  "pasqua bn 2 lettere",
+  "cibo bn 2 matematica",
+  "cibo bn 2 contare",
+  "cibo bn 2 addizioni",
+  "cibo bn 2 lettere",
+  "cibo bn 3 matematica",
+  "cibo bn 3 contare",
+  "cibo bn 3 addizioni",
+  "cibo bn 3 lettere",
+  "casa bn 2 matematica",
+  "casa bn 2 contare",
+  "casa bn 2 addizioni",
+  "casa bn 2 lettere",
+  "vita marina bn 2 matematica",
+  "vita marina bn 2 contare",
+  "vita marina bn 2 addizioni",
+  "vita marina bn 2 lettere",
+  "sport bn 2 matematica",
+  "sport bn 2 contare",
+  "sport bn 2 addizioni",
+  "sport bn 2 lettere",
+  "giocattoli bn 2 matematica",
+  "giocattoli bn 2 contare",
+  "giocattoli bn 2 addizioni",
+  "giocattoli bn 2 lettere",
+  "san valentino bn 2 matematica",
+  "san valentino bn 2 contare",
+  "san valentino bn 2 addizioni",
+  "san valentino bn 2 lettere",
+  "verdure bn 2 matematica",
+  "verdure bn 2 contare",
+  "verdure bn 2 addizioni",
+  "verdure bn 2 lettere",
+  "veicoli bn 2 matematica",
+  "veicoli bn 2 contare",
+  "veicoli bn 2 addizioni",
+  "veicoli bn 2 lettere",
+  "veicoli bn 3 matematica",
+  "veicoli bn 3 contare",
+  "veicoli bn 3 addizioni",
+  "veicoli bn 3 lettere"
+ ],
+ "suggestions": {
+  "suoni difficili": {
+   "cls": "skill",
+   "s": [
+    "suoni difficili classe prima",
+    "suoni difficili",
+    "suoni difficili classe seconda",
+    "suoni difficili prima elementare",
+    "suoni difficili wordwall",
+    "suoni difficili schede didattiche",
+    "suoni difficili in italiano",
+    "suoni difficili scuola primaria",
+    "suoni difficili schede",
+    "suoni difficili sostegno"
+   ]
+  },
+  "gn gli": {
+   "cls": "skill",
+   "s": [
+    "gn gli",
+    "gn gli wordwall",
+    "gn gliwice",
+    "gn glister junior high school",
+    "g n glister school",
+    "gn e gli",
+    "gn ni gli li",
+    "esercizi gn gli",
+    "dettato gn gli",
+    "gn o gli"
+   ]
+  },
+  "sce sci": {
+   "cls": "skill",
+   "s": [
+    "sce sci classe prima",
+    "sce sci",
+    "sce scie regola",
+    "sce sci wordwall",
+    "sce sci sche schi",
+    "sce sci scia scio sciu",
+    "sce sci scia scio sciu classe prima",
+    "sce sci maestra ilaria",
+    "sce sci scuola primaria",
+    "sce sci schede didattiche"
+   ]
+  },
+  "cia cio ciu": {
+   "cls": "skill",
+   "s": [
+    "cia cio ciu classe prima",
+    "cia cio ciu",
+    "cia cio ciu gia gio giu classe prima",
+    "cia cio ciu classe prima regola",
+    "cia cio ciu gia gio giu",
+    "cia cio ciu wordwall",
+    "cia cio ciu parole",
+    "cia cio ciu schede didattiche",
+    "cia cio ciu maestra ilaria",
+    "cia cio ciu scuola primaria"
+   ]
+  },
+  "que qui quo": {
+   "cls": "skill",
+   "s": [
+    "que qui quoi",
+    "que qui quoi dont où",
+    "que qui quoi quand",
+    "que qui quoi french",
+    "que qui quod",
+    "que qui quo",
+    "que qui quo qua",
+    "que qui quo qu",
+    "que qui quoi comment",
+    "qui que quod latino"
+   ]
+  },
+  "corsivo": {
+   "cls": "skill",
+   "s": [
+    "corsivo",
+    "corsivo su whatsapp",
+    "corsivo maiuscolo",
+    "corsivo russo",
+    "corsivo in inglese",
+    "corsivo minuscolo",
+    "corsivo scrittura",
+    "corsivo font",
+    "corsivo italiano",
+    "corsivo facebook"
+   ]
+  },
+  "stampatello": {
+   "cls": "skill",
+   "s": [
+    "stampatello",
+    "stampatello minuscolo",
+    "stampatello maiuscolo",
+    "stampatello prati",
+    "stampatello in inglese",
+    "stampatello corsivo",
+    "stampatello scrittura",
+    "stampatello via candia",
+    "stampatello corsivo e",
+    "stampatello minuscolo in inglese"
+   ]
+  },
+  "pregrafismo": {
+   "cls": "skill",
+   "s": [
+    "pregrafismo",
+    "pregrafismo 5 anni",
+    "pregrafismo scuola infanzia",
+    "pregrafismo da stampare",
+    "pregrafismo primavera",
+    "pregrafismo 4 anni",
+    "pregrafismo primavera 5 anni",
+    "pregrafismo primavera scuola infanzia",
+    "pregrafismo numeri",
+    "pregrafismo estate"
+   ]
+  },
+  "sillabe": {
+   "cls": "skill",
+   "s": [
+    "sillabe",
+    "sillabe quali sono",
+    "sillabe cosa sono",
+    "sillabe acqua",
+    "sillabe da stampare",
+    "sillabe wordwall",
+    "sillabe in inglese",
+    "sillabe casa editrice",
+    "sillabe da stampare pdf",
+    "sillabe piane"
+   ]
+  },
+  "prelettura": {
+   "cls": "skill",
+   "s": [
+    "prelettura",
+    "prelettura schede",
+    "prelettura prescrittura precalcolo",
+    "prelettura e prescrittura scuola dell infanzia",
+    "prelettura significato",
+    "prelettura e prescrittura",
+    "prelettura infanzia",
+    "prelettura prescrittura precalcolo raffaello",
+    "prelettura come si scrive",
+    "prefattura o pre-lettura"
+   ]
+  },
+  "addizioni entro il 10": {
+   "cls": "skill",
+   "s": [
+    "addizioni entro il 10",
+    "addizioni entro il 10 classe prima",
+    "addizioni entro il 10 wordwall",
+    "addizioni entro il 10 con immagini",
+    "addizioni entro il 10 da colorare",
+    "addizioni entro il 100",
+    "addizioni entro il 1000",
+    "addizioni entro il 100 senza cambio",
+    "addizioni entro il 10 classe prima wordwall",
+    "addizioni entro il 10 schede"
+   ]
+  },
+  "numeri fino a 20": {
+   "cls": "skill",
+   "s": [
+    "numeri fino a 20 in inglese",
+    "numeri fino a 20",
+    "numeri fino a 20 wordwall",
+    "numeri fino a 20 da stampare",
+    "numeri fino a 20 da stampare e plastificare",
+    "numeri fino a 20 in francese",
+    "numeri fino a 20 classe prima",
+    "numeri fino a 20 in spagnolo",
+    "numeri fino a 20 in tedesco",
+    "numeri fino a 200"
+   ]
+  },
+  "orologio": {
+   "cls": "skill",
+   "s": [
+    "orologio",
+    "orologio astronomico lund",
+    "orologio uomo",
+    "orologio donna",
+    "orologio swatch",
+    "orologio da parete",
+    "orologio cartier donna",
+    "orologio maserati uomo",
+    "orologio online",
+    "orologio cartier"
+   ]
+  },
+  "forme geometriche": {
+   "cls": "skill",
+   "s": [
+    "forme geometriche",
+    "forme geometriche nomi",
+    "forme geometriche in inglese",
+    "forme geometriche per bambini",
+    "forme geometriche 3d",
+    "forme geometriche da colorare pdf",
+    "forme geometriche da stampare e ritagliare",
+    "forme geometriche scuola infanzia",
+    "forme geometriche solide",
+    "forme geometriche da colorare"
+   ]
+  },
+  "compiti schede didattiche": {
+   "cls": "context",
+   "s": [
+    "schede didattiche compiti per le vacanze di natale classe prima",
+    "schede didattiche compiti per le vacanze di natale classe seconda"
+   ]
+  },
+  "compiti prima elementare": {
+   "cls": "context",
+   "s": [
+    "compiti prima elementare",
+    "compiti prima elementare pdf",
+    "compiti prima elementare italiano",
+    "compiti prima elementare da stampare",
+    "compiti prima elementare matematica",
+    "compiti prima elementare forum",
+    "compiti prima elementare da stampare italiano",
+    "compiti vacanze prima elementare pdf",
+    "compiti vacanze prima elementare matematica pdf",
+    "compiti vacanze prima elementare da stampare"
+   ]
+  },
+  "laboratorio schede didattiche": {
+   "cls": "context",
+   "s": [
+    "laboratorio autismo schede didattiche",
+    "schede didattiche laboratorio linguistico infanzia"
+   ]
+  },
+  "laboratorio prima elementare": {
+   "cls": "context",
+   "s": [
+    "laboratorio prima elementare",
+    "laboratorio arte prima elementare",
+    "laboratorio matematica prima elementare",
+    "laboratorio scienze prima elementare",
+    "laboratorio italiano prima elementare",
+    "laboratorio di lettura prima elementare"
+   ]
+  },
+  "recupero schede didattiche": {
+   "cls": "context",
+   "s": []
+  },
+  "recupero prima elementare": {
+   "cls": "context",
+   "s": []
+  },
+  "dsa schede didattiche": {
+   "cls": "audience",
+   "s": [
+    "dsa schede didattiche",
+    "schede didattiche dsa da stampare",
+    "schede didattiche dsa scuola primaria"
+   ]
+  },
+  "dsa prima elementare": {
+   "cls": "audience",
+   "s": [
+    "dsa prima elementare",
+    "screening dsa prima elementare",
+    "test dsa prima elementare",
+    "dettato dsa prima elementare",
+    "schede dsa prima elementare",
+    "segnali dsa prima elementare",
+    "valutazione dsa prima elementare",
+    "diagnosi dsa prima elementare",
+    "sintomi dsa prima elementare",
+    "schede dsa italiano prima elementare"
+   ]
+  },
+  "italiano l2 schede didattiche": {
+   "cls": "audience",
+   "s": [
+    "italiano l2 schede didattiche",
+    "italiano l2 schede didattiche scuola primaria",
+    "italiano l2 alfabetizzazione stranieri schede didattiche",
+    "schede didattiche italiano l2 adulti",
+    "schede didattiche italiano l2 per bambini",
+    "schede didattiche italiano l2 pdf"
+   ]
+  },
+  "italiano l2 prima elementare": {
+   "cls": "audience",
+   "s": [
+    "italiano l2 prima elementare"
+   ]
+  },
+  "lettera a schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera a schede didattiche",
+    "lettera a schede",
+    "la lettera a schede didattiche scuola primaria"
+   ]
+  },
+  "lettera b schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera b schede didattiche",
+    "lettera b schede scuola primaria",
+    "lettera b schede",
+    "schede lettera b prima elementare",
+    "schede lettera b classe prima"
+   ]
+  },
+  "lettera c schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera c schede didattiche",
+    "lettera c schede",
+    "schede lettera c classe prima"
+   ]
+  },
+  "lettera d schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera d schede didattiche",
+    "lettera d schede",
+    "schede lettera d prima elementare"
+   ]
+  },
+  "lettera e schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera e schede didattiche",
+    "lettera e schede",
+    "schede lettera e prima elementare"
+   ]
+  },
+  "lettera f schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera f schede",
+    "lettera f schede didattiche fa fe fi fo fu",
+    "lettera f schede didattiche",
+    "schede lettera f classe prima"
+   ]
+  },
+  "lettera g schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera g schede didattiche",
+    "lettera g schede",
+    "schede lettera g classe prima"
+   ]
+  },
+  "lettera h schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera h schede didattiche",
+    "lettera h schede",
+    "schede lettera h classe prima"
+   ]
+  },
+  "lettera i schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera i schede didattiche",
+    "lettera i schede"
+   ]
+  },
+  "lettera j schede": {
+   "cls": "enumerated",
+   "s": []
+  },
+  "lettera k schede": {
+   "cls": "enumerated",
+   "s": []
+  },
+  "lettera l schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera l schede didattiche",
+    "lettera l schede",
+    "schede lettera l classe prima",
+    "schede lettera l prima elementare",
+    "schede lettera l fantavolando"
+   ]
+  },
+  "lettera m schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera m schede didattiche",
+    "lettera m schede",
+    "la lettera m schede da stampare",
+    "schede lettera m classe prima",
+    "schede lettera m scuola primaria",
+    "schede lettera m prima elementare"
+   ]
+  },
+  "lettera n schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera n schede didattiche",
+    "lettera n schede",
+    "schede lettera n classe prima"
+   ]
+  },
+  "lettera o schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera o schede didattiche",
+    "lettera o schede",
+    "schede lettera o classe prima"
+   ]
+  },
+  "lettera p schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera p schede didattiche",
+    "lettera p schede",
+    "schede lettera p classe prima",
+    "schede lettera p prima elementare"
+   ]
+  },
+  "lettera q schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera q schede didattiche",
+    "lettera q schede",
+    "schede lettera q classe prima",
+    "schede lettera q scuola primaria"
+   ]
+  },
+  "lettera r schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera r schede",
+    "lettera r schede didattiche",
+    "schede lettera r classe prima"
+   ]
+  },
+  "lettera s schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera s schede didattiche",
+    "lettera s schede",
+    "schede lettera s classe prima",
+    "schede lettera s prima elementare"
+   ]
+  },
+  "lettera t schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera t schede didattiche",
+    "lettera t schede",
+    "schede lettera t classe prima",
+    "schede lettera t da stampare"
+   ]
+  },
+  "lettera u schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera u schede",
+    "lettera u schede didattiche",
+    "schede lettera u prima elementare"
+   ]
+  },
+  "lettera v schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera v schede didattiche",
+    "lettera v schede",
+    "schede lettera v classe prima",
+    "schede lettera v prima elementare"
+   ]
+  },
+  "lettera w schede": {
+   "cls": "enumerated",
+   "s": []
+  },
+  "lettera x schede": {
+   "cls": "enumerated",
+   "s": []
+  },
+  "lettera y schede": {
+   "cls": "enumerated",
+   "s": []
+  },
+  "lettera z schede": {
+   "cls": "enumerated",
+   "s": [
+    "lettera z schede didattiche",
+    "lettera z schede",
+    "schede lettera z classe prima"
+   ]
+  },
+  "quaderno operativo": {
+   "cls": "pack",
+   "s": [
+    "quaderno operativo matematica classe terza pdf",
+    "quaderno operativo matematica classe quarta pdf",
+    "quaderno operativo matematica classe seconda pdf",
+    "quaderno operativo matematica classe prima pdf",
+    "quaderno operativo matematica",
+    "quaderno operativo",
+    "quaderno operativo italiano 3 raffaello pdf",
+    "quaderno operativo matematica 3 pdf gratis",
+    "quaderno operativo matematica 5 raffaello pdf gratis",
+    "quaderno operativo italiano"
+   ]
+  },
+  "4 luglio matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "4 luglio contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "4 luglio addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "4 luglio lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "accessori matematica": {
+   "cls": "cross",
+   "s": [
+    "accessori matematica"
+   ]
+  },
+  "accessori contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "accessori addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "accessori lettere": {
+   "cls": "cross",
+   "s": [
+    "accessori crocs lettere"
+   ]
+  },
+  "attività matematica": {
+   "cls": "cross",
+   "s": [
+    "attività matematica classe prima",
+    "attività matematica classe seconda",
+    "attività matematica ultimi giorni di scuola",
+    "attività matematica prima elementare",
+    "attività matematica autismo",
+    "attività matematica",
+    "attività matematica scuola infanzia",
+    "attività matematica classe terza",
+    "attività matematica classe seconda ultimo giorno di scuola",
+    "attività matematica seconda elementare"
+   ]
+  },
+  "attività contare": {
+   "cls": "cross",
+   "s": [
+    "attività per contare classe prima",
+    "attività per contare"
+   ]
+  },
+  "attività addizioni": {
+   "cls": "cross",
+   "s": [
+    "attività addizioni classe prima",
+    "attività addizioni"
+   ]
+  },
+  "attività lettere": {
+   "cls": "cross",
+   "s": [
+    "attività lettere straniere classe prima",
+    "attività lettere ponte classe prima",
+    "attività lettere scuola infanzia",
+    "attività lettere autismo",
+    "attività lettere ponte",
+    "attività lettere",
+    "attività lettere straniere",
+    "attività lettere classe prima",
+    "attività sulle lettere dell alfabeto",
+    "altre attività lettere unige"
+   ]
+  },
+  "animali matematica": {
+   "cls": "cross",
+   "s": [
+    "animali e matematica",
+    "wordwall matematica animali"
+   ]
+  },
+  "animali contare": {
+   "cls": "cross",
+   "s": [
+    "animali che sanno contare"
+   ]
+  },
+  "animali addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali lettere": {
+   "cls": "cross",
+   "s": [
+    "animali lettere alfabeto",
+    "animali lettere",
+    "lettere animali da colorare",
+    "animali 4 lettere",
+    "animali 5 lettere",
+    "animali 6 lettere",
+    "animali con lettere doppie",
+    "animali 3 lettere",
+    "animali 8 lettere",
+    "animali con lettere"
+   ]
+  },
+  "in giro per casa matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "in giro per casa contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "in giro per casa addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "in giro per casa lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "al supermercato matematica": {
+   "cls": "cross",
+   "s": [
+    "matematica al supermercato"
+   ]
+  },
+  "al supermercato contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "al supermercato addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "al supermercato lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "panetteria matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "panetteria contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "panetteria addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "panetteria lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "spiaggia matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "spiaggia contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "spiaggia addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "spiaggia lettere": {
+   "cls": "cross",
+   "s": [
+    "spiaggia 4 lettere",
+    "spiaggia sabbiosa 7 lettere"
+   ]
+  },
+  "uccelli matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "uccelli contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "uccelli addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "uccelli lettere": {
+   "cls": "cross",
+   "s": [
+    "uccelli 3 lettere",
+    "uccelli 6 lettere",
+    "uccelli 5 lettere",
+    "uccelli 7 lettere",
+    "uccelli pescatori 4 lettere",
+    "uccelli bianchi 5 lettere",
+    "uccelli brasiliani 3 lettere",
+    "uccelli acquatici 6 lettere",
+    "uccelli marini 4 lettere",
+    "uccelli commestibili 7 lettere"
+   ]
+  },
+  "uccelli 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "uccelli 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "uccelli 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "uccelli 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "parti del corpo matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "parti del corpo contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "parti del corpo addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "parti del corpo lettere": {
+   "cls": "cross",
+   "s": [
+    "parti del corpo 4 lettere",
+    "parti del corpo con tre lettere",
+    "parti del corpo con 5 lettere",
+    "parti del corpo con 6 lettere",
+    "parti del corpo con tutte le lettere"
+   ]
+  },
+  "colazione matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "colazione contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "colazione addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "colazione lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "campeggio matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "campeggio contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "campeggio addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "campeggio lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "natale matematica": {
+   "cls": "cross",
+   "s": [
+    "natale matematica",
+    "natale matematica classe prima",
+    "natale matematica classe seconda",
+    "natale matematica classe quinta",
+    "natale matematica classe terza",
+    "natale matematica scuola primaria",
+    "natale matematica classe quarta",
+    "natale matematica quarta",
+    "matematica natale scuola media",
+    "matematica natale prima"
+   ]
+  },
+  "natale contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "natale addizioni": {
+   "cls": "cross",
+   "s": [
+    "addizioni natale classe prima",
+    "addizioni natale"
+   ]
+  },
+  "natale lettere": {
+   "cls": "cross",
+   "s": [
+    "natale lettere",
+    "natale lettere natalizie",
+    "lettere natale da stampare",
+    "lettere natale tolkien",
+    "lettere natale da colorare",
+    "lettere natale fidanzato",
+    "lettere natale punto croce",
+    "lettere natale amore",
+    "mercatini natale lettere",
+    "babbo natale lettere"
+   ]
+  },
+  "aula matematica": {
+   "cls": "cross",
+   "s": [
+    "aula matematica",
+    "aula matematica sapienza",
+    "aula matematica 1 bully",
+    "aula matematica particular",
+    "aula matematica 4 bully",
+    "aula matematica 5 bully",
+    "aula matematica basica",
+    "aula matematica para concurso",
+    "aula matematica financeira",
+    "aula matematica 2 bully"
+   ]
+  },
+  "aula contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "aula addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "aula lettere": {
+   "cls": "cross",
+   "s": [
+    "aula lettere zanichelli",
+    "aula lettere",
+    "aula lettere sapienza",
+    "aula magna lettere unich",
+    "aula studio lettere sapienza",
+    "aula magna lettere sapienza",
+    "aula iv lettere e filosofia sapienza",
+    "aula geografia lettere sapienza",
+    "aula v lettere e filosofia sapienza",
+    "aula chabod lettere sapienza"
+   ]
+  },
+  "abbigliamento matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "abbigliamento contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "abbigliamento addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "abbigliamento lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "colori matematica": {
+   "cls": "cross",
+   "s": [
+    "colori matematica",
+    "colori matematica azzurro",
+    "colori matematica blu",
+    "colori matematica verde",
+    "colori matematica 4",
+    "matematica colori 2",
+    "colori della matematica",
+    "colori della matematica 3",
+    "colori della matematica 5",
+    "colori della matematica edizione azzurra"
+   ]
+  },
+  "colori contare": {
+   "cls": "cross",
+   "s": [
+    "contare colori excel"
+   ]
+  },
+  "colori addizioni": {
+   "cls": "cross",
+   "s": [
+    "addizioni colori"
+   ]
+  },
+  "colori lettere": {
+   "cls": "cross",
+   "s": [
+    "colori lettere alfabeto",
+    "colori lettere",
+    "colori lettere montessori",
+    "lettere colori matlab",
+    "lettere colori diamanti",
+    "colori laurea lettere",
+    "colori e lettere fili elettrici",
+    "colori con lettere doppie",
+    "colori 5 lettere",
+    "colori con lettere alfabeto"
+   ]
+  },
+  "dolci e dolciumi matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "dolci e dolciumi contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "dolci e dolciumi addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "dolci e dolciumi lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosauri matematica": {
+   "cls": "cross",
+   "s": [
+    "dinosauri matematica",
+    "dinosauri e matematica",
+    "copertina matematica dinosauri",
+    "schede matematica dinosauri"
+   ]
+  },
+  "dinosauri contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosauri addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosauri lettere": {
+   "cls": "cross",
+   "s": [
+    "lettere dinosauri"
+   ]
+  },
+  "pasqua matematica": {
+   "cls": "cross",
+   "s": [
+    "pasqua matematica",
+    "pasqua matematica classe prima",
+    "pasqua matematica classe seconda",
+    "pasqua matematica classe terza",
+    "pasqua matematica classe quarta",
+    "matematica pasqua classe quinta",
+    "matematica pasqua prima elementare",
+    "matematica pasqua prima",
+    "fantavolando pasqua matematica",
+    "compiti pasqua matematica classe prima"
+   ]
+  },
+  "pasqua contare": {
+   "cls": "cross",
+   "s": [
+    "come contare pasqua"
+   ]
+  },
+  "pasqua addizioni": {
+   "cls": "cross",
+   "s": [
+    "addizioni pasqua"
+   ]
+  },
+  "pasqua lettere": {
+   "cls": "cross",
+   "s": [
+    "lettere pasqua",
+    "uovo di pasqua lettere dall italia prezzo",
+    "uovo di pasqua lettere dall italia",
+    "uova di pasqua lettere d italia",
+    "uovo di pasqua lettere dall italia md"
+   ]
+  },
+  "emozioni matematica": {
+   "cls": "cross",
+   "s": [
+    "emozioni matematica",
+    "emozioni matematica maestra marta",
+    "emozioni in matematica nicoletta grasso",
+    "emozioni e matematica scuola primaria",
+    "emozioni in matematica tabelline",
+    "emozioni e matematica",
+    "emozioni in matematica facebook",
+    "emozioni in matematica classe prima",
+    "emozioni di matematica"
+   ]
+  },
+  "emozioni contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "emozioni addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "emozioni lettere": {
+   "cls": "cross",
+   "s": [
+    "emozioni con le lettere dell alfabeto",
+    "banca delle emozioni lettere dell alfabeto",
+    "banca delle emozioni lettere"
+   ]
+  },
+  "animali della fattoria matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali della fattoria contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali della fattoria addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali della fattoria lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "fiori matematica": {
+   "cls": "cross",
+   "s": [
+    "fiori matematica",
+    "fiori e matematica",
+    "insieme di fiori matematica"
+   ]
+  },
+  "fiori contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "fiori addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "fiori lettere": {
+   "cls": "cross",
+   "s": [
+    "fiori lettere",
+    "fiori con lettere alfabeto",
+    "fiori 5 lettere",
+    "fiori 4 lettere",
+    "fiori 8 lettere",
+    "fiori con lettere",
+    "fiori 7 lettere",
+    "fiori per lettere",
+    "garofalo fiori lettere",
+    "fiori 6 lettere"
+   ]
+  },
+  "creature della foresta matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "creature della foresta contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "creature della foresta addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "creature della foresta lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "frutta matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "frutta contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "frutta addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "frutta lettere": {
+   "cls": "cross",
+   "s": [
+    "frutta lettere alfabeto",
+    "frutta lettere",
+    "frutta 7 lettere",
+    "frutta 5 lettere",
+    "frutta 4 lettere",
+    "frutta 6 lettere",
+    "frutta 7 lettere cruciverba",
+    "frutta con lettere doppie",
+    "frutta con lettere",
+    "frutta con lettere g"
+   ]
+  },
+  "mobili matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "mobili contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "mobili addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "mobili lettere": {
+   "cls": "cross",
+   "s": [
+    "lettere mobili",
+    "lettere mobili montessori",
+    "lettere mobili da stampare",
+    "lettere mobili control",
+    "lettere mobili corsivo"
+   ]
+  },
+  "ospedale matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "ospedale contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "ospedale addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "ospedale lettere": {
+   "cls": "cross",
+   "s": [
+    "lettere ospedale"
+   ]
+  },
+  "insetti e scarafaggi matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "insetti e scarafaggi contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "insetti e scarafaggi addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "insetti e scarafaggi lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "utensili da cucina matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "utensili da cucina contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "utensili da cucina addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "utensili da cucina lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "varie matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "varie contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "varie addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "varie lettere": {
+   "cls": "cross",
+   "s": [
+    "varie lettere",
+    "pronunciare le varie lettere imparando a leggere"
+   ]
+  },
+  "musica matematica": {
+   "cls": "cross",
+   "s": [
+    "musica matematica",
+    "musica matematica peninha",
+    "musica matematica restart",
+    "musica matematica zeca baleiro",
+    "musica matematica mc pedrinho",
+    "musica matematica letra",
+    "musica matematica infantil"
+   ]
+  },
+  "musica contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "musica addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "musica lettere": {
+   "cls": "cross",
+   "s": [
+    "musica lettere",
+    "lettere musica e spettacolo sapienza",
+    "lettere musica e spettacolo unige",
+    "lettere musica e spettacolo",
+    "lettere musica e spettacolo genova",
+    "lettere musica e spettacolo sbocchi",
+    "lettere musica e spettacolo magistrale",
+    "lettere musica e spettacolo sbocchi lavorativi",
+    "note musica lettere",
+    "musica calma 7 lettere"
+   ]
+  },
+  "professioni matematica": {
+   "cls": "cross",
+   "s": [
+    "matematica professioni sanitarie",
+    "matematica professioni sanitarie pdf",
+    "matematica professioni",
+    "quiz matematica professioni sanitarie",
+    "test matematica professioni sanitarie",
+    "esercizi matematica professioni sanitarie",
+    "argomenti matematica professioni sanitarie",
+    "formulario matematica professioni sanitarie",
+    "appunti matematica professioni sanitarie"
+   ]
+  },
+  "professioni contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "professioni addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "professioni lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "vita oceanica matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "vita oceanica contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "vita oceanica addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "vita oceanica lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali domestici matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali domestici contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali domestici addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali domestici lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "ufficio postale matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "ufficio postale contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "ufficio postale addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "ufficio postale lettere": {
+   "cls": "cross",
+   "s": [
+    "ufficio postale lettere",
+    "ufficio postale lettere napoli"
+   ]
+  },
+  "rettili e anfibi matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "rettili e anfibi contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "rettili e anfibi addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "rettili e anfibi lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "forme matematica": {
+   "cls": "cross",
+   "s": [
+    "forme matematica",
+    "matematica forme indeterminate",
+    "matematica forme geometriche",
+    "forme di matematica",
+    "wordwall matematica forme geometriche",
+    "limiti matematica forme indeterminate",
+    "forme di indecisione matematica",
+    "wordwall matematica forme",
+    "fisa matematica forme geometrice",
+    "activitate matematica forme geometrice"
+   ]
+  },
+  "forme contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "forme addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "forme lettere": {
+   "cls": "cross",
+   "s": [
+    "forme lettere alfabeto",
+    "forme lettere",
+    "forme lettere biscotti",
+    "lettere forme geometriche",
+    "forme per lettere",
+    "forme con lettere",
+    "forme geometriche 7 lettere",
+    "forme per biscotti lettere",
+    "forme per scrivere lettere"
+   ]
+  },
+  "spazio matematica": {
+   "cls": "cross",
+   "s": [
+    "spazio matematica",
+    "matematica spazio e figure",
+    "spazio invalsi matematica 3",
+    "spazio completo matematica",
+    "spazio vettoriale matematica",
+    "spazio invalsi matematica",
+    "spazio tempo matematica",
+    "spazio chiuso matematica",
+    "spazio polacco matematica",
+    "spazio invalsi matematica raffaello"
+   ]
+  },
+  "spazio contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "spazio addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "spazio lettere": {
+   "cls": "cross",
+   "s": [
+    "spazio lettere",
+    "spazio lettere word",
+    "spazio tra lettere word",
+    "spazio tra lettere",
+    "spazio tra lettere come si chiama",
+    "spazio 5 lettere",
+    "spazio cancella lettere",
+    "spazio tra lettere css",
+    "aumentare spazio lettere word",
+    "spazio tra lettere in inglese"
+   ]
+  },
+  "primavera matematica": {
+   "cls": "cross",
+   "s": [
+    "primavera matematica classe prima",
+    "primavera matematica",
+    "primavera matematica 2026",
+    "primavera matematica madrid",
+    "matematica primavera classe seconda",
+    "schede matematica primavera"
+   ]
+  },
+  "primavera contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "primavera addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "primavera lettere": {
+   "cls": "cross",
+   "s": [
+    "lettere primavera da stampare",
+    "lettere primavera da colorare",
+    "lettere primavera"
+   ]
+  },
+  "estate matematica": {
+   "cls": "cross",
+   "s": [
+    "estate matematica",
+    "matematica estate classe prima",
+    "matematica estate classe seconda",
+    "matematica estate seconda media",
+    "matematica estate classe terza",
+    "gira estate matematica 4",
+    "gira estate matematica 3",
+    "gira estate matematica",
+    "gira estate matematica 2",
+    "libro estate matematica"
+   ]
+  },
+  "estate contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "estate addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "estate lettere": {
+   "cls": "cross",
+   "s": [
+    "lettere estate da colorare",
+    "lettere estate"
+   ]
+  },
+  "giorno del ringraziamento matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "giorno del ringraziamento contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "giorno del ringraziamento addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "giorno del ringraziamento lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "cose che volano matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "cose che volano contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "cose che volano addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "cose che volano lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "attrezzi matematica": {
+   "cls": "cross",
+   "s": [
+    "attrezzi per matematica"
+   ]
+  },
+  "attrezzi contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "attrezzi addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "attrezzi lettere": {
+   "cls": "cross",
+   "s": [
+    "attrezzi agricoli 6 lettere"
+   ]
+  },
+  "giocattoli matematica": {
+   "cls": "cross",
+   "s": [
+    "giocattoli di matematica"
+   ]
+  },
+  "giocattoli contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "giocattoli addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "giocattoli lettere": {
+   "cls": "cross",
+   "s": [
+    "giocattoli lettere",
+    "giocattoli con lettere doppie",
+    "robot lettere giocattoli"
+   ]
+  },
+  "alberi matematica": {
+   "cls": "cross",
+   "s": [
+    "alberi matematica",
+    "alberi e matematica",
+    "festa degli alberi matematica",
+    "giornata degli alberi matematica"
+   ]
+  },
+  "alberi contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "alberi addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "alberi lettere": {
+   "cls": "cross",
+   "s": [
+    "alberi 4 lettere",
+    "alberi sempreverdi 5 lettere",
+    "alberi con 5 lettere",
+    "alberi egiziani 8 lettere",
+    "alberi con 6 lettere",
+    "alberi sempreverdi 4 lettere",
+    "alberi sempreverdi 8 lettere",
+    "alberi resinosi 6 lettere",
+    "alberi canadesi 5 lettere",
+    "alberi con 7 lettere"
+   ]
+  },
+  "verdure matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "verdure contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "verdure addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "verdure lettere": {
+   "cls": "cross",
+   "s": [
+    "verdure con doppie lettere",
+    "verdure con 4 lettere",
+    "verdure con 5 lettere"
+   ]
+  },
+  "veicoli matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "veicoli contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "veicoli addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "veicoli lettere": {
+   "cls": "cross",
+   "s": [
+    "classificazione veicoli lettere",
+    "veicoli con 5 lettere"
+   ]
+  },
+  "meteo matematica": {
+   "cls": "cross",
+   "s": [
+    "meteo matematica"
+   ]
+  },
+  "meteo contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "meteo addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "meteo lettere": {
+   "cls": "cross",
+   "s": [
+    "meteo lettere",
+    "meteo lettere domani",
+    "meteo lettere oggi",
+    "meteo lettere napoli",
+    "meteo lettere na",
+    "meteo lettere 3b",
+    "meteo lettere domenica",
+    "meteo lettere 15 giorni",
+    "meteo lettere sabato",
+    "meteo lettere ora"
+   ]
+  },
+  "inverno matematica": {
+   "cls": "cross",
+   "s": [
+    "matematica inverno",
+    "matematica inverno classe prima",
+    "schede matematica inverno",
+    "curso de inverno matematica",
+    "escola de inverno matematica"
+   ]
+  },
+  "inverno contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "inverno addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "inverno lettere": {
+   "cls": "cross",
+   "s": [
+    "lettere inverno da stampare",
+    "lettere inverno da colorare",
+    "lettere inverno"
+   ]
+  },
+  "animali dello zoo matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali dello zoo contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali dello zoo addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali dello zoo lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 3 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 3 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 3 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 3 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 4 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 4 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 4 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 4 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 5 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 5 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 5 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "animali bn 5 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "spiaggia bn 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "spiaggia bn 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "spiaggia bn 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "spiaggia bn 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "uccelli b&n 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "uccelli b&n 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "uccelli b&n 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "uccelli b&n 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "natale b&n 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "natale b&n 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "natale b&n 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "natale b&n 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "aula 2 (b/n) matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "aula 2 (b/n) contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "aula 2 (b/n) addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "aula 2 (b/n) lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "pasqua bn 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "pasqua bn 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "pasqua bn 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "pasqua bn 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "cibo bn 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "cibo bn 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "cibo bn 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "cibo bn 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "cibo bn 3 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "cibo bn 3 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "cibo bn 3 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "cibo bn 3 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "casa bn 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "casa bn 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "casa bn 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "casa bn 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "vita marina bn 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "vita marina bn 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "vita marina bn 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "vita marina bn 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport bn 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport bn 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport bn 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "sport bn 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "giocattoli bn 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "giocattoli bn 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "giocattoli bn 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "giocattoli bn 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "san valentino bn 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "san valentino bn 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "san valentino bn 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "san valentino bn 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "verdure bn 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "verdure bn 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "verdure bn 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "verdure bn 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "veicoli bn 2 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "veicoli bn 2 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "veicoli bn 2 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "veicoli bn 2 lettere": {
+   "cls": "cross",
+   "s": []
+  },
+  "veicoli bn 3 matematica": {
+   "cls": "cross",
+   "s": []
+  },
+  "veicoli bn 3 contare": {
+   "cls": "cross",
+   "s": []
+  },
+  "veicoli bn 3 addizioni": {
+   "cls": "cross",
+   "s": []
+  },
+  "veicoli bn 3 lettere": {
+   "cls": "cross",
+   "s": []
+  }
+ },
+ "unique": [
+  "accessori crocs lettere",
+  "accessori matematica",
+  "activitate matematica forme geometrice",
+  "addizioni colori",
+  "addizioni entro il 10",
+  "addizioni entro il 10 classe prima",
+  "addizioni entro il 10 classe prima wordwall",
+  "addizioni entro il 10 con immagini",
+  "addizioni entro il 10 da colorare",
+  "addizioni entro il 10 schede",
+  "addizioni entro il 10 wordwall",
+  "addizioni entro il 100",
+  "addizioni entro il 100 senza cambio",
+  "addizioni entro il 1000",
+  "addizioni natale",
+  "addizioni natale classe prima",
+  "addizioni pasqua",
+  "alberi 4 lettere",
+  "alberi canadesi 5 lettere",
+  "alberi con 5 lettere",
+  "alberi con 6 lettere",
+  "alberi con 7 lettere",
+  "alberi e matematica",
+  "alberi egiziani 8 lettere",
+  "alberi matematica",
+  "alberi resinosi 6 lettere",
+  "alberi sempreverdi 4 lettere",
+  "alberi sempreverdi 5 lettere",
+  "alberi sempreverdi 8 lettere",
+  "altre attività lettere unige",
+  "animali 3 lettere",
+  "animali 4 lettere",
+  "animali 5 lettere",
+  "animali 6 lettere",
+  "animali 8 lettere",
+  "animali che sanno contare",
+  "animali con lettere",
+  "animali con lettere doppie",
+  "animali e matematica",
+  "animali lettere",
+  "animali lettere alfabeto",
+  "appunti matematica professioni sanitarie",
+  "argomenti matematica professioni sanitarie",
+  "attività addizioni",
+  "attività addizioni classe prima",
+  "attività lettere",
+  "attività lettere autismo",
+  "attività lettere classe prima",
+  "attività lettere ponte",
+  "attività lettere ponte classe prima",
+  "attività lettere scuola infanzia",
+  "attività lettere straniere",
+  "attività lettere straniere classe prima",
+  "attività matematica",
+  "attività matematica autismo",
+  "attività matematica classe prima",
+  "attività matematica classe seconda",
+  "attività matematica classe seconda ultimo giorno di scuola",
+  "attività matematica classe terza",
+  "attività matematica prima elementare",
+  "attività matematica scuola infanzia",
+  "attività matematica seconda elementare",
+  "attività matematica ultimi giorni di scuola",
+  "attività per contare",
+  "attività per contare classe prima",
+  "attività sulle lettere dell alfabeto",
+  "attrezzi agricoli 6 lettere",
+  "attrezzi per matematica",
+  "aula chabod lettere sapienza",
+  "aula geografia lettere sapienza",
+  "aula iv lettere e filosofia sapienza",
+  "aula lettere",
+  "aula lettere sapienza",
+  "aula lettere zanichelli",
+  "aula magna lettere sapienza",
+  "aula magna lettere unich",
+  "aula matematica",
+  "aula matematica 1 bully",
+  "aula matematica 2 bully",
+  "aula matematica 4 bully",
+  "aula matematica 5 bully",
+  "aula matematica basica",
+  "aula matematica financeira",
+  "aula matematica para concurso",
+  "aula matematica particular",
+  "aula matematica sapienza",
+  "aula studio lettere sapienza",
+  "aula v lettere e filosofia sapienza",
+  "aumentare spazio lettere word",
+  "babbo natale lettere",
+  "banca delle emozioni lettere",
+  "banca delle emozioni lettere dell alfabeto",
+  "cia cio ciu",
+  "cia cio ciu classe prima",
+  "cia cio ciu classe prima regola",
+  "cia cio ciu gia gio giu",
+  "cia cio ciu gia gio giu classe prima",
+  "cia cio ciu maestra ilaria",
+  "cia cio ciu parole",
+  "cia cio ciu schede didattiche",
+  "cia cio ciu scuola primaria",
+  "cia cio ciu wordwall",
+  "classificazione veicoli lettere",
+  "colori 5 lettere",
+  "colori con lettere alfabeto",
+  "colori con lettere doppie",
+  "colori della matematica",
+  "colori della matematica 3",
+  "colori della matematica 5",
+  "colori della matematica edizione azzurra",
+  "colori e lettere fili elettrici",
+  "colori laurea lettere",
+  "colori lettere",
+  "colori lettere alfabeto",
+  "colori lettere montessori",
+  "colori matematica",
+  "colori matematica 4",
+  "colori matematica azzurro",
+  "colori matematica blu",
+  "colori matematica verde",
+  "come contare pasqua",
+  "compiti pasqua matematica classe prima",
+  "compiti prima elementare",
+  "compiti prima elementare da stampare",
+  "compiti prima elementare da stampare italiano",
+  "compiti prima elementare forum",
+  "compiti prima elementare italiano",
+  "compiti prima elementare matematica",
+  "compiti prima elementare pdf",
+  "compiti vacanze prima elementare da stampare",
+  "compiti vacanze prima elementare matematica pdf",
+  "compiti vacanze prima elementare pdf",
+  "contare colori excel",
+  "copertina matematica dinosauri",
+  "corsivo",
+  "corsivo facebook",
+  "corsivo font",
+  "corsivo in inglese",
+  "corsivo italiano",
+  "corsivo maiuscolo",
+  "corsivo minuscolo",
+  "corsivo russo",
+  "corsivo scrittura",
+  "corsivo su whatsapp",
+  "curso de inverno matematica",
+  "dettato dsa prima elementare",
+  "dettato gn gli",
+  "diagnosi dsa prima elementare",
+  "dinosauri e matematica",
+  "dinosauri matematica",
+  "dsa prima elementare",
+  "dsa schede didattiche",
+  "emozioni con le lettere dell alfabeto",
+  "emozioni di matematica",
+  "emozioni e matematica",
+  "emozioni e matematica scuola primaria",
+  "emozioni in matematica classe prima",
+  "emozioni in matematica facebook",
+  "emozioni in matematica nicoletta grasso",
+  "emozioni in matematica tabelline",
+  "emozioni matematica",
+  "emozioni matematica maestra marta",
+  "escola de inverno matematica",
+  "esercizi gn gli",
+  "esercizi matematica professioni sanitarie",
+  "estate matematica",
+  "fantavolando pasqua matematica",
+  "festa degli alberi matematica",
+  "fiori 4 lettere",
+  "fiori 5 lettere",
+  "fiori 6 lettere",
+  "fiori 7 lettere",
+  "fiori 8 lettere",
+  "fiori con lettere",
+  "fiori con lettere alfabeto",
+  "fiori e matematica",
+  "fiori lettere",
+  "fiori matematica",
+  "fiori per lettere",
+  "fisa matematica forme geometrice",
+  "forme con lettere",
+  "forme di indecisione matematica",
+  "forme di matematica",
+  "forme geometriche",
+  "forme geometriche 3d",
+  "forme geometriche 7 lettere",
+  "forme geometriche da colorare",
+  "forme geometriche da colorare pdf",
+  "forme geometriche da stampare e ritagliare",
+  "forme geometriche in inglese",
+  "forme geometriche nomi",
+  "forme geometriche per bambini",
+  "forme geometriche scuola infanzia",
+  "forme geometriche solide",
+  "forme lettere",
+  "forme lettere alfabeto",
+  "forme lettere biscotti",
+  "forme matematica",
+  "forme per biscotti lettere",
+  "forme per lettere",
+  "forme per scrivere lettere",
+  "formulario matematica professioni sanitarie",
+  "frutta 4 lettere",
+  "frutta 5 lettere",
+  "frutta 6 lettere",
+  "frutta 7 lettere",
+  "frutta 7 lettere cruciverba",
+  "frutta con lettere",
+  "frutta con lettere doppie",
+  "frutta con lettere g",
+  "frutta lettere",
+  "frutta lettere alfabeto",
+  "g n glister school",
+  "garofalo fiori lettere",
+  "giocattoli con lettere doppie",
+  "giocattoli di matematica",
+  "giocattoli lettere",
+  "giornata degli alberi matematica",
+  "gira estate matematica",
+  "gira estate matematica 2",
+  "gira estate matematica 3",
+  "gira estate matematica 4",
+  "gn e gli",
+  "gn gli",
+  "gn gli wordwall",
+  "gn glister junior high school",
+  "gn gliwice",
+  "gn ni gli li",
+  "gn o gli",
+  "insieme di fiori matematica",
+  "italiano l2 alfabetizzazione stranieri schede didattiche",
+  "italiano l2 prima elementare",
+  "italiano l2 schede didattiche",
+  "italiano l2 schede didattiche scuola primaria",
+  "la lettera a schede didattiche scuola primaria",
+  "la lettera m schede da stampare",
+  "laboratorio arte prima elementare",
+  "laboratorio autismo schede didattiche",
+  "laboratorio di lettura prima elementare",
+  "laboratorio italiano prima elementare",
+  "laboratorio matematica prima elementare",
+  "laboratorio prima elementare",
+  "laboratorio scienze prima elementare",
+  "lettera a schede",
+  "lettera a schede didattiche",
+  "lettera b schede",
+  "lettera b schede didattiche",
+  "lettera b schede scuola primaria",
+  "lettera c schede",
+  "lettera c schede didattiche",
+  "lettera d schede",
+  "lettera d schede didattiche",
+  "lettera e schede",
+  "lettera e schede didattiche",
+  "lettera f schede",
+  "lettera f schede didattiche",
+  "lettera f schede didattiche fa fe fi fo fu",
+  "lettera g schede",
+  "lettera g schede didattiche",
+  "lettera h schede",
+  "lettera h schede didattiche",
+  "lettera i schede",
+  "lettera i schede didattiche",
+  "lettera l schede",
+  "lettera l schede didattiche",
+  "lettera m schede",
+  "lettera m schede didattiche",
+  "lettera n schede",
+  "lettera n schede didattiche",
+  "lettera o schede",
+  "lettera o schede didattiche",
+  "lettera p schede",
+  "lettera p schede didattiche",
+  "lettera q schede",
+  "lettera q schede didattiche",
+  "lettera r schede",
+  "lettera r schede didattiche",
+  "lettera s schede",
+  "lettera s schede didattiche",
+  "lettera t schede",
+  "lettera t schede didattiche",
+  "lettera u schede",
+  "lettera u schede didattiche",
+  "lettera v schede",
+  "lettera v schede didattiche",
+  "lettera z schede",
+  "lettera z schede didattiche",
+  "lettere animali da colorare",
+  "lettere colori diamanti",
+  "lettere colori matlab",
+  "lettere dinosauri",
+  "lettere estate",
+  "lettere estate da colorare",
+  "lettere forme geometriche",
+  "lettere inverno",
+  "lettere inverno da colorare",
+  "lettere inverno da stampare",
+  "lettere mobili",
+  "lettere mobili control",
+  "lettere mobili corsivo",
+  "lettere mobili da stampare",
+  "lettere mobili montessori",
+  "lettere musica e spettacolo",
+  "lettere musica e spettacolo genova",
+  "lettere musica e spettacolo magistrale",
+  "lettere musica e spettacolo sapienza",
+  "lettere musica e spettacolo sbocchi",
+  "lettere musica e spettacolo sbocchi lavorativi",
+  "lettere musica e spettacolo unige",
+  "lettere natale amore",
+  "lettere natale da colorare",
+  "lettere natale da stampare",
+  "lettere natale fidanzato",
+  "lettere natale punto croce",
+  "lettere natale tolkien",
+  "lettere ospedale",
+  "lettere pasqua",
+  "lettere primavera",
+  "lettere primavera da colorare",
+  "lettere primavera da stampare",
+  "libro estate matematica",
+  "limiti matematica forme indeterminate",
+  "matematica al supermercato",
+  "matematica colori 2",
+  "matematica estate classe prima",
+  "matematica estate classe seconda",
+  "matematica estate classe terza",
+  "matematica estate seconda media",
+  "matematica forme geometriche",
+  "matematica forme indeterminate",
+  "matematica inverno",
+  "matematica inverno classe prima",
+  "matematica natale prima",
+  "matematica natale scuola media",
+  "matematica pasqua classe quinta",
+  "matematica pasqua prima",
+  "matematica pasqua prima elementare",
+  "matematica primavera classe seconda",
+  "matematica professioni",
+  "matematica professioni sanitarie",
+  "matematica professioni sanitarie pdf",
+  "matematica spazio e figure",
+  "mercatini natale lettere",
+  "meteo lettere",
+  "meteo lettere 15 giorni",
+  "meteo lettere 3b",
+  "meteo lettere domani",
+  "meteo lettere domenica",
+  "meteo lettere na",
+  "meteo lettere napoli",
+  "meteo lettere oggi",
+  "meteo lettere ora",
+  "meteo lettere sabato",
+  "meteo matematica",
+  "musica calma 7 lettere",
+  "musica lettere",
+  "musica matematica",
+  "musica matematica infantil",
+  "musica matematica letra",
+  "musica matematica mc pedrinho",
+  "musica matematica peninha",
+  "musica matematica restart",
+  "musica matematica zeca baleiro",
+  "natale lettere",
+  "natale lettere natalizie",
+  "natale matematica",
+  "natale matematica classe prima",
+  "natale matematica classe quarta",
+  "natale matematica classe quinta",
+  "natale matematica classe seconda",
+  "natale matematica classe terza",
+  "natale matematica quarta",
+  "natale matematica scuola primaria",
+  "note musica lettere",
+  "numeri fino a 20",
+  "numeri fino a 20 classe prima",
+  "numeri fino a 20 da stampare",
+  "numeri fino a 20 da stampare e plastificare",
+  "numeri fino a 20 in francese",
+  "numeri fino a 20 in inglese",
+  "numeri fino a 20 in spagnolo",
+  "numeri fino a 20 in tedesco",
+  "numeri fino a 20 wordwall",
+  "numeri fino a 200",
+  "orologio",
+  "orologio astronomico lund",
+  "orologio cartier",
+  "orologio cartier donna",
+  "orologio da parete",
+  "orologio donna",
+  "orologio maserati uomo",
+  "orologio online",
+  "orologio swatch",
+  "orologio uomo",
+  "parti del corpo 4 lettere",
+  "parti del corpo con 5 lettere",
+  "parti del corpo con 6 lettere",
+  "parti del corpo con tre lettere",
+  "parti del corpo con tutte le lettere",
+  "pasqua matematica",
+  "pasqua matematica classe prima",
+  "pasqua matematica classe quarta",
+  "pasqua matematica classe seconda",
+  "pasqua matematica classe terza",
+  "prefattura o pre-lettura",
+  "pregrafismo",
+  "pregrafismo 4 anni",
+  "pregrafismo 5 anni",
+  "pregrafismo da stampare",
+  "pregrafismo estate",
+  "pregrafismo numeri",
+  "pregrafismo primavera",
+  "pregrafismo primavera 5 anni",
+  "pregrafismo primavera scuola infanzia",
+  "pregrafismo scuola infanzia",
+  "prelettura",
+  "prelettura come si scrive",
+  "prelettura e prescrittura",
+  "prelettura e prescrittura scuola dell infanzia",
+  "prelettura infanzia",
+  "prelettura prescrittura precalcolo",
+  "prelettura prescrittura precalcolo raffaello",
+  "prelettura schede",
+  "prelettura significato",
+  "primavera matematica",
+  "primavera matematica 2026",
+  "primavera matematica classe prima",
+  "primavera matematica madrid",
+  "pronunciare le varie lettere imparando a leggere",
+  "quaderno operativo",
+  "quaderno operativo italiano",
+  "quaderno operativo italiano 3 raffaello pdf",
+  "quaderno operativo matematica",
+  "quaderno operativo matematica 3 pdf gratis",
+  "quaderno operativo matematica 5 raffaello pdf gratis",
+  "quaderno operativo matematica classe prima pdf",
+  "quaderno operativo matematica classe quarta pdf",
+  "quaderno operativo matematica classe seconda pdf",
+  "quaderno operativo matematica classe terza pdf",
+  "que qui quo",
+  "que qui quo qu",
+  "que qui quo qua",
+  "que qui quod",
+  "que qui quoi",
+  "que qui quoi comment",
+  "que qui quoi dont où",
+  "que qui quoi french",
+  "que qui quoi quand",
+  "qui que quod latino",
+  "quiz matematica professioni sanitarie",
+  "robot lettere giocattoli",
+  "sce sci",
+  "sce sci classe prima",
+  "sce sci maestra ilaria",
+  "sce sci sche schi",
+  "sce sci schede didattiche",
+  "sce sci scia scio sciu",
+  "sce sci scia scio sciu classe prima",
+  "sce sci scuola primaria",
+  "sce sci wordwall",
+  "sce scie regola",
+  "schede didattiche compiti per le vacanze di natale classe prima",
+  "schede didattiche compiti per le vacanze di natale classe seconda",
+  "schede didattiche dsa da stampare",
+  "schede didattiche dsa scuola primaria",
+  "schede didattiche italiano l2 adulti",
+  "schede didattiche italiano l2 pdf",
+  "schede didattiche italiano l2 per bambini",
+  "schede didattiche laboratorio linguistico infanzia",
+  "schede dsa italiano prima elementare",
+  "schede dsa prima elementare",
+  "schede lettera b classe prima",
+  "schede lettera b prima elementare",
+  "schede lettera c classe prima",
+  "schede lettera d prima elementare",
+  "schede lettera e prima elementare",
+  "schede lettera f classe prima",
+  "schede lettera g classe prima",
+  "schede lettera h classe prima",
+  "schede lettera l classe prima",
+  "schede lettera l fantavolando",
+  "schede lettera l prima elementare",
+  "schede lettera m classe prima",
+  "schede lettera m prima elementare",
+  "schede lettera m scuola primaria",
+  "schede lettera n classe prima",
+  "schede lettera o classe prima",
+  "schede lettera p classe prima",
+  "schede lettera p prima elementare",
+  "schede lettera q classe prima",
+  "schede lettera q scuola primaria",
+  "schede lettera r classe prima",
+  "schede lettera s classe prima",
+  "schede lettera s prima elementare",
+  "schede lettera t classe prima",
+  "schede lettera t da stampare",
+  "schede lettera u prima elementare",
+  "schede lettera v classe prima",
+  "schede lettera v prima elementare",
+  "schede lettera z classe prima",
+  "schede matematica dinosauri",
+  "schede matematica inverno",
+  "schede matematica primavera",
+  "screening dsa prima elementare",
+  "segnali dsa prima elementare",
+  "sillabe",
+  "sillabe acqua",
+  "sillabe casa editrice",
+  "sillabe cosa sono",
+  "sillabe da stampare",
+  "sillabe da stampare pdf",
+  "sillabe in inglese",
+  "sillabe piane",
+  "sillabe quali sono",
+  "sillabe wordwall",
+  "sintomi dsa prima elementare",
+  "spazio 5 lettere",
+  "spazio cancella lettere",
+  "spazio chiuso matematica",
+  "spazio completo matematica",
+  "spazio invalsi matematica",
+  "spazio invalsi matematica 3",
+  "spazio invalsi matematica raffaello",
+  "spazio lettere",
+  "spazio lettere word",
+  "spazio matematica",
+  "spazio polacco matematica",
+  "spazio tempo matematica",
+  "spazio tra lettere",
+  "spazio tra lettere come si chiama",
+  "spazio tra lettere css",
+  "spazio tra lettere in inglese",
+  "spazio tra lettere word",
+  "spazio vettoriale matematica",
+  "spiaggia 4 lettere",
+  "spiaggia sabbiosa 7 lettere",
+  "stampatello",
+  "stampatello corsivo",
+  "stampatello corsivo e",
+  "stampatello in inglese",
+  "stampatello maiuscolo",
+  "stampatello minuscolo",
+  "stampatello minuscolo in inglese",
+  "stampatello prati",
+  "stampatello scrittura",
+  "stampatello via candia",
+  "suoni difficili",
+  "suoni difficili classe prima",
+  "suoni difficili classe seconda",
+  "suoni difficili in italiano",
+  "suoni difficili prima elementare",
+  "suoni difficili schede",
+  "suoni difficili schede didattiche",
+  "suoni difficili scuola primaria",
+  "suoni difficili sostegno",
+  "suoni difficili wordwall",
+  "test dsa prima elementare",
+  "test matematica professioni sanitarie",
+  "uccelli 3 lettere",
+  "uccelli 5 lettere",
+  "uccelli 6 lettere",
+  "uccelli 7 lettere",
+  "uccelli acquatici 6 lettere",
+  "uccelli bianchi 5 lettere",
+  "uccelli brasiliani 3 lettere",
+  "uccelli commestibili 7 lettere",
+  "uccelli marini 4 lettere",
+  "uccelli pescatori 4 lettere",
+  "ufficio postale lettere",
+  "ufficio postale lettere napoli",
+  "uova di pasqua lettere d italia",
+  "uovo di pasqua lettere dall italia",
+  "uovo di pasqua lettere dall italia md",
+  "uovo di pasqua lettere dall italia prezzo",
+  "valutazione dsa prima elementare",
+  "varie lettere",
+  "veicoli con 5 lettere",
+  "verdure con 4 lettere",
+  "verdure con 5 lettere",
+  "verdure con doppie lettere",
+  "wordwall matematica animali",
+  "wordwall matematica forme",
+  "wordwall matematica forme geometriche"
+ ],
+ "novel": [
+  "accessori crocs lettere",
+  "accessori matematica",
+  "activitate matematica forme geometrice",
+  "addizioni colori",
+  "addizioni entro il 10",
+  "addizioni entro il 10 classe prima",
+  "addizioni entro il 10 classe prima wordwall",
+  "addizioni entro il 10 con immagini",
+  "addizioni entro il 10 da colorare",
+  "addizioni entro il 10 schede",
+  "addizioni entro il 10 wordwall",
+  "addizioni entro il 100",
+  "addizioni entro il 100 senza cambio",
+  "addizioni entro il 1000",
+  "addizioni natale",
+  "addizioni natale classe prima",
+  "addizioni pasqua",
+  "alberi 4 lettere",
+  "alberi canadesi 5 lettere",
+  "alberi con 5 lettere",
+  "alberi con 6 lettere",
+  "alberi con 7 lettere",
+  "alberi e matematica",
+  "alberi egiziani 8 lettere",
+  "alberi matematica",
+  "alberi resinosi 6 lettere",
+  "alberi sempreverdi 4 lettere",
+  "alberi sempreverdi 5 lettere",
+  "alberi sempreverdi 8 lettere",
+  "altre attività lettere unige",
+  "animali 3 lettere",
+  "animali 4 lettere",
+  "animali 5 lettere",
+  "animali 6 lettere",
+  "animali 8 lettere",
+  "animali che sanno contare",
+  "animali con lettere",
+  "animali con lettere doppie",
+  "animali e matematica",
+  "animali lettere",
+  "animali lettere alfabeto",
+  "appunti matematica professioni sanitarie",
+  "argomenti matematica professioni sanitarie",
+  "attività addizioni",
+  "attività addizioni classe prima",
+  "attività lettere",
+  "attività lettere autismo",
+  "attività lettere classe prima",
+  "attività lettere ponte",
+  "attività lettere ponte classe prima",
+  "attività lettere scuola infanzia",
+  "attività lettere straniere",
+  "attività lettere straniere classe prima",
+  "attività matematica",
+  "attività matematica autismo",
+  "attività matematica classe prima",
+  "attività matematica classe seconda",
+  "attività matematica classe seconda ultimo giorno di scuola",
+  "attività matematica classe terza",
+  "attività matematica prima elementare",
+  "attività matematica scuola infanzia",
+  "attività matematica seconda elementare",
+  "attività matematica ultimi giorni di scuola",
+  "attività per contare",
+  "attività per contare classe prima",
+  "attività sulle lettere dell alfabeto",
+  "attrezzi agricoli 6 lettere",
+  "attrezzi per matematica",
+  "aula chabod lettere sapienza",
+  "aula geografia lettere sapienza",
+  "aula iv lettere e filosofia sapienza",
+  "aula lettere",
+  "aula lettere sapienza",
+  "aula lettere zanichelli",
+  "aula magna lettere sapienza",
+  "aula magna lettere unich",
+  "aula matematica",
+  "aula matematica 1 bully",
+  "aula matematica 2 bully",
+  "aula matematica 4 bully",
+  "aula matematica 5 bully",
+  "aula matematica basica",
+  "aula matematica financeira",
+  "aula matematica para concurso",
+  "aula matematica particular",
+  "aula matematica sapienza",
+  "aula studio lettere sapienza",
+  "aula v lettere e filosofia sapienza",
+  "aumentare spazio lettere word",
+  "babbo natale lettere",
+  "banca delle emozioni lettere",
+  "banca delle emozioni lettere dell alfabeto",
+  "cia cio ciu",
+  "cia cio ciu classe prima",
+  "cia cio ciu classe prima regola",
+  "cia cio ciu gia gio giu",
+  "cia cio ciu gia gio giu classe prima",
+  "cia cio ciu maestra ilaria",
+  "cia cio ciu parole",
+  "cia cio ciu schede didattiche",
+  "cia cio ciu scuola primaria",
+  "cia cio ciu wordwall",
+  "classificazione veicoli lettere",
+  "colori 5 lettere",
+  "colori con lettere alfabeto",
+  "colori con lettere doppie",
+  "colori della matematica",
+  "colori della matematica 3",
+  "colori della matematica 5",
+  "colori della matematica edizione azzurra",
+  "colori e lettere fili elettrici",
+  "colori laurea lettere",
+  "colori lettere",
+  "colori lettere alfabeto",
+  "colori lettere montessori",
+  "colori matematica",
+  "colori matematica 4",
+  "colori matematica azzurro",
+  "colori matematica blu",
+  "colori matematica verde",
+  "come contare pasqua",
+  "compiti pasqua matematica classe prima",
+  "compiti prima elementare",
+  "compiti prima elementare da stampare",
+  "compiti prima elementare da stampare italiano",
+  "compiti prima elementare forum",
+  "compiti prima elementare italiano",
+  "compiti prima elementare matematica",
+  "compiti prima elementare pdf",
+  "compiti vacanze prima elementare da stampare",
+  "compiti vacanze prima elementare matematica pdf",
+  "compiti vacanze prima elementare pdf",
+  "contare colori excel",
+  "copertina matematica dinosauri",
+  "corsivo",
+  "corsivo facebook",
+  "corsivo font",
+  "corsivo in inglese",
+  "corsivo italiano",
+  "corsivo maiuscolo",
+  "corsivo minuscolo",
+  "corsivo russo",
+  "corsivo scrittura",
+  "corsivo su whatsapp",
+  "curso de inverno matematica",
+  "dettato dsa prima elementare",
+  "dettato gn gli",
+  "diagnosi dsa prima elementare",
+  "dinosauri e matematica",
+  "dinosauri matematica",
+  "dsa prima elementare",
+  "dsa schede didattiche",
+  "emozioni con le lettere dell alfabeto",
+  "emozioni di matematica",
+  "emozioni e matematica",
+  "emozioni e matematica scuola primaria",
+  "emozioni in matematica classe prima",
+  "emozioni in matematica facebook",
+  "emozioni in matematica nicoletta grasso",
+  "emozioni in matematica tabelline",
+  "emozioni matematica",
+  "emozioni matematica maestra marta",
+  "escola de inverno matematica",
+  "esercizi gn gli",
+  "esercizi matematica professioni sanitarie",
+  "estate matematica",
+  "fantavolando pasqua matematica",
+  "festa degli alberi matematica",
+  "fiori 4 lettere",
+  "fiori 5 lettere",
+  "fiori 6 lettere",
+  "fiori 7 lettere",
+  "fiori 8 lettere",
+  "fiori con lettere",
+  "fiori con lettere alfabeto",
+  "fiori e matematica",
+  "fiori lettere",
+  "fiori matematica",
+  "fiori per lettere",
+  "fisa matematica forme geometrice",
+  "forme con lettere",
+  "forme di indecisione matematica",
+  "forme di matematica",
+  "forme geometriche 7 lettere",
+  "forme lettere",
+  "forme lettere alfabeto",
+  "forme lettere biscotti",
+  "forme matematica",
+  "forme per biscotti lettere",
+  "forme per lettere",
+  "forme per scrivere lettere",
+  "formulario matematica professioni sanitarie",
+  "frutta 4 lettere",
+  "frutta 5 lettere",
+  "frutta 6 lettere",
+  "frutta 7 lettere",
+  "frutta 7 lettere cruciverba",
+  "frutta con lettere",
+  "frutta con lettere doppie",
+  "frutta con lettere g",
+  "frutta lettere",
+  "frutta lettere alfabeto",
+  "g n glister school",
+  "garofalo fiori lettere",
+  "giocattoli con lettere doppie",
+  "giocattoli di matematica",
+  "giocattoli lettere",
+  "giornata degli alberi matematica",
+  "gira estate matematica",
+  "gira estate matematica 2",
+  "gira estate matematica 3",
+  "gira estate matematica 4",
+  "gn e gli",
+  "gn gli",
+  "gn gli wordwall",
+  "gn glister junior high school",
+  "gn gliwice",
+  "gn ni gli li",
+  "gn o gli",
+  "insieme di fiori matematica",
+  "italiano l2 alfabetizzazione stranieri schede didattiche",
+  "italiano l2 prima elementare",
+  "italiano l2 schede didattiche",
+  "italiano l2 schede didattiche scuola primaria",
+  "la lettera a schede didattiche scuola primaria",
+  "la lettera m schede da stampare",
+  "laboratorio arte prima elementare",
+  "laboratorio autismo schede didattiche",
+  "laboratorio di lettura prima elementare",
+  "laboratorio italiano prima elementare",
+  "laboratorio matematica prima elementare",
+  "laboratorio prima elementare",
+  "laboratorio scienze prima elementare",
+  "lettera a schede",
+  "lettera a schede didattiche",
+  "lettera b schede",
+  "lettera b schede didattiche",
+  "lettera b schede scuola primaria",
+  "lettera c schede",
+  "lettera c schede didattiche",
+  "lettera d schede",
+  "lettera d schede didattiche",
+  "lettera e schede",
+  "lettera e schede didattiche",
+  "lettera f schede",
+  "lettera f schede didattiche",
+  "lettera f schede didattiche fa fe fi fo fu",
+  "lettera g schede",
+  "lettera g schede didattiche",
+  "lettera h schede",
+  "lettera h schede didattiche",
+  "lettera i schede",
+  "lettera i schede didattiche",
+  "lettera l schede",
+  "lettera l schede didattiche",
+  "lettera m schede",
+  "lettera m schede didattiche",
+  "lettera n schede",
+  "lettera n schede didattiche",
+  "lettera o schede",
+  "lettera o schede didattiche",
+  "lettera p schede",
+  "lettera p schede didattiche",
+  "lettera q schede",
+  "lettera q schede didattiche",
+  "lettera r schede",
+  "lettera r schede didattiche",
+  "lettera s schede",
+  "lettera s schede didattiche",
+  "lettera t schede",
+  "lettera t schede didattiche",
+  "lettera u schede",
+  "lettera u schede didattiche",
+  "lettera v schede",
+  "lettera v schede didattiche",
+  "lettera z schede",
+  "lettera z schede didattiche",
+  "lettere animali da colorare",
+  "lettere colori diamanti",
+  "lettere colori matlab",
+  "lettere dinosauri",
+  "lettere estate",
+  "lettere estate da colorare",
+  "lettere forme geometriche",
+  "lettere inverno",
+  "lettere inverno da colorare",
+  "lettere inverno da stampare",
+  "lettere mobili",
+  "lettere mobili control",
+  "lettere mobili corsivo",
+  "lettere mobili da stampare",
+  "lettere mobili montessori",
+  "lettere musica e spettacolo",
+  "lettere musica e spettacolo genova",
+  "lettere musica e spettacolo magistrale",
+  "lettere musica e spettacolo sapienza",
+  "lettere musica e spettacolo sbocchi",
+  "lettere musica e spettacolo sbocchi lavorativi",
+  "lettere musica e spettacolo unige",
+  "lettere natale amore",
+  "lettere natale da colorare",
+  "lettere natale da stampare",
+  "lettere natale fidanzato",
+  "lettere natale punto croce",
+  "lettere natale tolkien",
+  "lettere ospedale",
+  "lettere pasqua",
+  "lettere primavera",
+  "lettere primavera da colorare",
+  "lettere primavera da stampare",
+  "libro estate matematica",
+  "limiti matematica forme indeterminate",
+  "matematica al supermercato",
+  "matematica colori 2",
+  "matematica estate classe prima",
+  "matematica estate classe seconda",
+  "matematica estate classe terza",
+  "matematica estate seconda media",
+  "matematica forme geometriche",
+  "matematica forme indeterminate",
+  "matematica inverno",
+  "matematica inverno classe prima",
+  "matematica natale prima",
+  "matematica natale scuola media",
+  "matematica pasqua classe quinta",
+  "matematica pasqua prima",
+  "matematica pasqua prima elementare",
+  "matematica primavera classe seconda",
+  "matematica professioni",
+  "matematica professioni sanitarie",
+  "matematica professioni sanitarie pdf",
+  "matematica spazio e figure",
+  "mercatini natale lettere",
+  "meteo lettere",
+  "meteo lettere 15 giorni",
+  "meteo lettere 3b",
+  "meteo lettere domani",
+  "meteo lettere domenica",
+  "meteo lettere na",
+  "meteo lettere napoli",
+  "meteo lettere oggi",
+  "meteo lettere ora",
+  "meteo lettere sabato",
+  "meteo matematica",
+  "musica calma 7 lettere",
+  "musica lettere",
+  "musica matematica",
+  "musica matematica infantil",
+  "musica matematica letra",
+  "musica matematica mc pedrinho",
+  "musica matematica peninha",
+  "musica matematica restart",
+  "musica matematica zeca baleiro",
+  "natale lettere",
+  "natale lettere natalizie",
+  "natale matematica",
+  "natale matematica classe prima",
+  "natale matematica classe quarta",
+  "natale matematica classe quinta",
+  "natale matematica classe seconda",
+  "natale matematica classe terza",
+  "natale matematica quarta",
+  "natale matematica scuola primaria",
+  "note musica lettere",
+  "numeri fino a 20",
+  "numeri fino a 20 classe prima",
+  "numeri fino a 20 da stampare",
+  "numeri fino a 20 da stampare e plastificare",
+  "numeri fino a 20 in francese",
+  "numeri fino a 20 in inglese",
+  "numeri fino a 20 in spagnolo",
+  "numeri fino a 20 in tedesco",
+  "numeri fino a 20 wordwall",
+  "numeri fino a 200",
+  "orologio",
+  "orologio astronomico lund",
+  "orologio cartier",
+  "orologio cartier donna",
+  "orologio da parete",
+  "orologio donna",
+  "orologio maserati uomo",
+  "orologio online",
+  "orologio swatch",
+  "orologio uomo",
+  "parti del corpo 4 lettere",
+  "parti del corpo con 5 lettere",
+  "parti del corpo con 6 lettere",
+  "parti del corpo con tre lettere",
+  "parti del corpo con tutte le lettere",
+  "pasqua matematica",
+  "pasqua matematica classe prima",
+  "pasqua matematica classe quarta",
+  "pasqua matematica classe seconda",
+  "pasqua matematica classe terza",
+  "prefattura o pre-lettura",
+  "pregrafismo",
+  "pregrafismo 4 anni",
+  "pregrafismo 5 anni",
+  "pregrafismo da stampare",
+  "pregrafismo estate",
+  "pregrafismo numeri",
+  "pregrafismo primavera",
+  "pregrafismo primavera 5 anni",
+  "pregrafismo primavera scuola infanzia",
+  "pregrafismo scuola infanzia",
+  "prelettura",
+  "prelettura come si scrive",
+  "prelettura e prescrittura",
+  "prelettura e prescrittura scuola dell infanzia",
+  "prelettura infanzia",
+  "prelettura prescrittura precalcolo",
+  "prelettura prescrittura precalcolo raffaello",
+  "prelettura schede",
+  "prelettura significato",
+  "primavera matematica",
+  "primavera matematica 2026",
+  "primavera matematica classe prima",
+  "primavera matematica madrid",
+  "pronunciare le varie lettere imparando a leggere",
+  "quaderno operativo",
+  "quaderno operativo italiano",
+  "quaderno operativo italiano 3 raffaello pdf",
+  "quaderno operativo matematica",
+  "quaderno operativo matematica 3 pdf gratis",
+  "quaderno operativo matematica 5 raffaello pdf gratis",
+  "quaderno operativo matematica classe prima pdf",
+  "quaderno operativo matematica classe quarta pdf",
+  "quaderno operativo matematica classe seconda pdf",
+  "quaderno operativo matematica classe terza pdf",
+  "que qui quo",
+  "que qui quo qu",
+  "que qui quo qua",
+  "que qui quod",
+  "que qui quoi",
+  "que qui quoi comment",
+  "que qui quoi dont où",
+  "que qui quoi french",
+  "que qui quoi quand",
+  "qui que quod latino",
+  "quiz matematica professioni sanitarie",
+  "robot lettere giocattoli",
+  "sce sci",
+  "sce sci classe prima",
+  "sce sci maestra ilaria",
+  "sce sci sche schi",
+  "sce sci schede didattiche",
+  "sce sci scia scio sciu",
+  "sce sci scia scio sciu classe prima",
+  "sce sci scuola primaria",
+  "sce sci wordwall",
+  "sce scie regola",
+  "schede didattiche compiti per le vacanze di natale classe prima",
+  "schede didattiche compiti per le vacanze di natale classe seconda",
+  "schede didattiche dsa da stampare",
+  "schede didattiche dsa scuola primaria",
+  "schede didattiche italiano l2 adulti",
+  "schede didattiche italiano l2 pdf",
+  "schede didattiche italiano l2 per bambini",
+  "schede dsa italiano prima elementare",
+  "schede dsa prima elementare",
+  "schede lettera b classe prima",
+  "schede lettera b prima elementare",
+  "schede lettera c classe prima",
+  "schede lettera d prima elementare",
+  "schede lettera e prima elementare",
+  "schede lettera f classe prima",
+  "schede lettera g classe prima",
+  "schede lettera h classe prima",
+  "schede lettera l classe prima",
+  "schede lettera l fantavolando",
+  "schede lettera l prima elementare",
+  "schede lettera m classe prima",
+  "schede lettera m prima elementare",
+  "schede lettera m scuola primaria",
+  "schede lettera n classe prima",
+  "schede lettera o classe prima",
+  "schede lettera p classe prima",
+  "schede lettera p prima elementare",
+  "schede lettera q classe prima",
+  "schede lettera q scuola primaria",
+  "schede lettera r classe prima",
+  "schede lettera s classe prima",
+  "schede lettera s prima elementare",
+  "schede lettera t classe prima",
+  "schede lettera t da stampare",
+  "schede lettera u prima elementare",
+  "schede lettera v classe prima",
+  "schede lettera v prima elementare",
+  "schede lettera z classe prima",
+  "schede matematica dinosauri",
+  "schede matematica inverno",
+  "schede matematica primavera",
+  "screening dsa prima elementare",
+  "segnali dsa prima elementare",
+  "sillabe",
+  "sillabe acqua",
+  "sillabe casa editrice",
+  "sillabe cosa sono",
+  "sillabe da stampare",
+  "sillabe da stampare pdf",
+  "sillabe in inglese",
+  "sillabe piane",
+  "sillabe quali sono",
+  "sillabe wordwall",
+  "sintomi dsa prima elementare",
+  "spazio 5 lettere",
+  "spazio cancella lettere",
+  "spazio chiuso matematica",
+  "spazio completo matematica",
+  "spazio invalsi matematica",
+  "spazio invalsi matematica 3",
+  "spazio invalsi matematica raffaello",
+  "spazio lettere",
+  "spazio lettere word",
+  "spazio matematica",
+  "spazio polacco matematica",
+  "spazio tempo matematica",
+  "spazio tra lettere",
+  "spazio tra lettere come si chiama",
+  "spazio tra lettere css",
+  "spazio tra lettere in inglese",
+  "spazio tra lettere word",
+  "spazio vettoriale matematica",
+  "spiaggia 4 lettere",
+  "spiaggia sabbiosa 7 lettere",
+  "stampatello",
+  "stampatello corsivo",
+  "stampatello corsivo e",
+  "stampatello in inglese",
+  "stampatello maiuscolo",
+  "stampatello minuscolo",
+  "stampatello minuscolo in inglese",
+  "stampatello prati",
+  "stampatello scrittura",
+  "stampatello via candia",
+  "suoni difficili",
+  "suoni difficili classe prima",
+  "suoni difficili classe seconda",
+  "suoni difficili in italiano",
+  "suoni difficili prima elementare",
+  "suoni difficili schede",
+  "suoni difficili schede didattiche",
+  "suoni difficili scuola primaria",
+  "suoni difficili sostegno",
+  "suoni difficili wordwall",
+  "test dsa prima elementare",
+  "test matematica professioni sanitarie",
+  "uccelli 3 lettere",
+  "uccelli 5 lettere",
+  "uccelli 6 lettere",
+  "uccelli 7 lettere",
+  "uccelli acquatici 6 lettere",
+  "uccelli bianchi 5 lettere",
+  "uccelli brasiliani 3 lettere",
+  "uccelli commestibili 7 lettere",
+  "uccelli marini 4 lettere",
+  "uccelli pescatori 4 lettere",
+  "ufficio postale lettere",
+  "ufficio postale lettere napoli",
+  "uova di pasqua lettere d italia",
+  "uovo di pasqua lettere dall italia",
+  "uovo di pasqua lettere dall italia md",
+  "uovo di pasqua lettere dall italia prezzo",
+  "valutazione dsa prima elementare",
+  "varie lettere",
+  "veicoli con 5 lettere",
+  "verdure con 4 lettere",
+  "verdure con 5 lettere",
+  "verdure con doppie lettere",
+  "wordwall matematica animali",
+  "wordwall matematica forme",
+  "wordwall matematica forme geometriche"
+ ],
+ "refilteredAt": "2026-07-20T08:58:53.393Z"
+}

@@ -1,0 +1,4461 @@
+{
+ "locale": "pt",
+ "market": {
+  "hl": "pt",
+  "gl": "br"
+ },
+ "generatedAt": "2026-07-20T08:52:25.553Z",
+ "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
+ "requestCount": 325,
+ "seedCounts": {
+  "skill": 14,
+  "context": 6,
+  "audience": 2,
+  "enumerated": 26,
+  "pack": 1,
+  "cross": 276
+ },
+ "errorCount": 0,
+ "errors": [],
+ "newVsInventory": {
+  "inventoryUnique": 1946,
+  "demandUnique": 937,
+  "novel": 927,
+  "novelShare": 0.989
+ },
+ "deadSeeds": [
+  "4 de julho matemática",
+  "4 de julho adição",
+  "4 de julho letras",
+  "acessórios adição",
+  "pela casa matemática",
+  "pela casa contar",
+  "pela casa adição",
+  "pela casa letras",
+  "no supermercado contar",
+  "no supermercado adição",
+  "no supermercado letras",
+  "padaria matemática",
+  "padaria contar",
+  "padaria adição",
+  "praia matemática",
+  "praia contar",
+  "pássaros matemática",
+  "pássaros contar",
+  "pássaros adição",
+  "pássaros letras",
+  "pássaros 2 matemática",
+  "pássaros 2 contar",
+  "pássaros 2 adição",
+  "pássaros 2 letras",
+  "partes do corpo matemática",
+  "partes do corpo contar",
+  "partes do corpo adição",
+  "café da manhã matemática",
+  "café da manhã contar",
+  "café da manhã adição",
+  "acampamento contar",
+  "acampamento adição",
+  "roupas adição",
+  "cores adição",
+  "sobremesas e doces matemática",
+  "sobremesas e doces contar",
+  "sobremesas e doces adição",
+  "sobremesas e doces letras",
+  "dinossauros matemática",
+  "dinossauros contar",
+  "dinossauros adição",
+  "páscoa contar",
+  "páscoa adição",
+  "emoções matemática",
+  "emoções contar",
+  "emoções adição",
+  "animais da fazenda matemática",
+  "animais da fazenda contar",
+  "animais da fazenda adição",
+  "animais da fazenda letras",
+  "flores adição",
+  "criaturas da floresta matemática",
+  "criaturas da floresta contar",
+  "criaturas da floresta adição",
+  "criaturas da floresta letras",
+  "móveis matemática",
+  "móveis contar",
+  "móveis adição",
+  "hospital adição",
+  "insetos e bichos matemática",
+  "insetos e bichos contar",
+  "insetos e bichos adição",
+  "insetos e bichos letras",
+  "utensílios de cozinha matemática",
+  "utensílios de cozinha contar",
+  "utensílios de cozinha adição",
+  "diversos matemática",
+  "diversos contar",
+  "diversos adição",
+  "profissões contar",
+  "profissões adição",
+  "vida marinha matemática",
+  "vida marinha contar",
+  "vida marinha adição",
+  "vida marinha letras",
+  "animais de estimação matemática",
+  "animais de estimação contar",
+  "animais de estimação adição",
+  "correios contar",
+  "correios adição",
+  "répteis e anfíbios matemática",
+  "répteis e anfíbios contar",
+  "répteis e anfíbios adição",
+  "répteis e anfíbios letras",
+  "espaço adição",
+  "verão contar",
+  "verão adição",
+  "dia de ação de graças matemática",
+  "dia de ação de graças contar",
+  "dia de ação de graças adição",
+  "dia de ação de graças letras",
+  "coisas que voam matemática",
+  "coisas que voam contar",
+  "coisas que voam adição",
+  "coisas que voam letras",
+  "ferramentas contar",
+  "ferramentas adição",
+  "brinquedos adição",
+  "árvores matemática",
+  "árvores contar",
+  "árvores adição",
+  "árvores letras",
+  "vegetais matemática",
+  "vegetais contar",
+  "vegetais adição",
+  "veículos matemática",
+  "veículos contar",
+  "veículos adição",
+  "clima contar",
+  "clima adição",
+  "inverno contar",
+  "inverno adição",
+  "animais do zoológico matemática",
+  "animais do zoológico contar",
+  "animais do zoológico adição",
+  "animais do zoológico letras",
+  "animais pb 2 matemática",
+  "animais pb 2 contar",
+  "animais pb 2 adição",
+  "animais pb 2 letras",
+  "animais pb 3 matemática",
+  "animais pb 3 contar",
+  "animais pb 3 adição",
+  "animais pb 3 letras",
+  "animais pb 4 matemática",
+  "animais pb 4 contar",
+  "animais pb 4 adição",
+  "animais pb 4 letras",
+  "animais pb 5 matemática",
+  "animais pb 5 contar",
+  "animais pb 5 adição",
+  "animais pb 5 letras",
+  "praia pb 2 matemática",
+  "praia pb 2 contar",
+  "praia pb 2 adição",
+  "praia pb 2 letras",
+  "pássaros p&b 2 matemática",
+  "pássaros p&b 2 contar",
+  "pássaros p&b 2 adição",
+  "pássaros p&b 2 letras",
+  "natal p&b 2 matemática",
+  "natal p&b 2 contar",
+  "natal p&b 2 adição",
+  "natal p&b 2 letras",
+  "sala de aula 2 (p&b) matemática",
+  "sala de aula 2 (p&b) contar",
+  "sala de aula 2 (p&b) adição",
+  "sala de aula 2 (p&b) letras",
+  "páscoa pb 2 matemática",
+  "páscoa pb 2 contar",
+  "páscoa pb 2 adição",
+  "páscoa pb 2 letras",
+  "comida pb 2 matemática",
+  "comida pb 2 contar",
+  "comida pb 2 adição",
+  "comida pb 2 letras",
+  "comida pb 3 matemática",
+  "comida pb 3 contar",
+  "comida pb 3 adição",
+  "comida pb 3 letras",
+  "casa pb 2 matemática",
+  "casa pb 2 contar",
+  "casa pb 2 adição",
+  "casa pb 2 letras",
+  "vida marinha pb 2 matemática",
+  "vida marinha pb 2 contar",
+  "vida marinha pb 2 adição",
+  "vida marinha pb 2 letras",
+  "esportes pb 2 matemática",
+  "esportes pb 2 contar",
+  "esportes pb 2 adição",
+  "esportes pb 2 letras",
+  "brinquedos pb 2 matemática",
+  "brinquedos pb 2 contar",
+  "brinquedos pb 2 adição",
+  "brinquedos pb 2 letras",
+  "dia dos namorados pb 2 matemática",
+  "dia dos namorados pb 2 contar",
+  "dia dos namorados pb 2 adição",
+  "dia dos namorados pb 2 letras",
+  "vegetais pb 2 matemática",
+  "vegetais pb 2 contar",
+  "vegetais pb 2 adição",
+  "vegetais pb 2 letras",
+  "veículos pb 2 matemática",
+  "veículos pb 2 contar",
+  "veículos pb 2 adição",
+  "veículos pb 2 letras",
+  "veículos pb 3 matemática",
+  "veículos pb 3 contar",
+  "veículos pb 3 adição",
+  "veículos pb 3 letras"
+ ],
+ "suggestions": {
+  "pré-silábico": {
+   "cls": "skill",
+   "s": [
+    "pré-silábico",
+    "pré-silábico silábico silábico-alfabético e alfabético",
+    "pré-silábico 2",
+    "pré-silábico exemplo",
+    "pré-silábico sem valor sonoro",
+    "pré-silábico com valor sonoro",
+    "pré-silábico 1",
+    "pré-silábico silábico alfabético",
+    "pré-silábico silábico",
+    "pré-silábico sem valor"
+   ]
+  },
+  "silábico": {
+   "cls": "skill",
+   "s": [
+    "silábico alfabético",
+    "silábico com valor sonoro",
+    "silábico sem valor sonoro",
+    "silábico",
+    "silábico alfabético exemplos",
+    "silábico com valor",
+    "silábico com valor sonoro exemplo",
+    "silábico sem valor",
+    "silábico alfabético com valor sonoro",
+    "silábico pré silábico"
+   ]
+  },
+  "silábico-alfabético": {
+   "cls": "skill",
+   "s": [
+    "silábico-alfabético",
+    "silábico-alfabético exemplos",
+    "silábico-alfabético com valor sonoro",
+    "silábico-alfabético para imprimir",
+    "silábico alfabético sem valor sonoro",
+    "silábico alfabético significado",
+    "silábico alfabético atividade",
+    "silábico alfabético com valor sonoro exemplo",
+    "silábico alfabético com valor",
+    "silábico alfabético tem hífen"
+   ]
+  },
+  "alfabético": {
+   "cls": "skill",
+   "s": [
+    "alfabeto",
+    "alfabeto sueco",
+    "alfabético",
+    "alfabético ortográfico",
+    "alfabético exemplos",
+    "alfabéticos",
+    "alfabeto completo",
+    "alfabético inicial",
+    "alfabético silábico",
+    "alfabético com valor sonoro"
+   ]
+  },
+  "psicogênese": {
+   "cls": "skill",
+   "s": [
+    "psicogênese da língua escrita",
+    "psicogênese",
+    "psicogênese da língua escrita pdf",
+    "psicogênese da escrita",
+    "psicogênese significado",
+    "psicogênese da língua escrita emília ferreiro e ana teberosky",
+    "psicogênese da língua escrita emília ferreiro e ana teberosky pdf",
+    "psicogênese da língua escrita emilia ferreiro pdf",
+    "psicogênese da língua escrita resumo",
+    "psicogênese da pessoa completa"
+   ]
+  },
+  "sondagem de escrita": {
+   "cls": "skill",
+   "s": [
+    "sondagem de escrita",
+    "sondagem de escrita 1 ano",
+    "sondagem de escrita 2 ano",
+    "sondagem de escrita 3 ano",
+    "sondagem de escrita 4 ano",
+    "sondagem de escrita para o 5o ano",
+    "sondagem de escrita festa junina",
+    "sondagem de escrita educação infantil",
+    "sondagem de escrita emília ferreiro",
+    "sondagem de escrita animais"
+   ]
+  },
+  "alfabetização": {
+   "cls": "skill",
+   "s": [
+    "alfabetização",
+    "alfabetização e letramento",
+    "alfabetização atividades",
+    "alfabetização infantil",
+    "alfabetização 1 ano",
+    "alfabetização e letramento na educação infantil",
+    "alfabetização de adultos",
+    "alfabetização matemática",
+    "alfabetização wordwall",
+    "alfabetização e letramento atividades"
+   ]
+  },
+  "sílabas": {
+   "cls": "skill",
+   "s": [
+    "sílabas",
+    "sílabas complexas",
+    "sílabas tônicas",
+    "sílabas complexas para imprimir",
+    "sílabas simples",
+    "sílabas canonicas",
+    "sílabas não canônicas",
+    "sílabas simples para imprimir",
+    "sílabas palavras",
+    "sílabas para imprimir"
+   ]
+  },
+  "consciência fonológica": {
+   "cls": "skill",
+   "s": [
+    "consciência fonológica",
+    "consciência fonológica atividades",
+    "consciência fonológica educação infantil",
+    "consciência fonológica na alfabetização",
+    "consciência fonológica em crianças pequenas",
+    "consciência fonológica na educação infantil e no ciclo de alfabetização",
+    "consciência fonológica wordwall",
+    "consciência fonológica exemplos",
+    "consciência fonológica e fonêmica",
+    "consciência fonológica pdf"
+   ]
+  },
+  "adição até 10": {
+   "cls": "skill",
+   "s": [
+    "adição até 10",
+    "adição até 100",
+    "adição ate 10 wordwall",
+    "adição até 1000",
+    "atividade adição até 10",
+    "wordwall adição até 100",
+    "adição simples até 10",
+    "digipuzzle adição ate 10",
+    "jogo adição até 10",
+    "adição e subtração até 10"
+   ]
+  },
+  "numerais até 20": {
+   "cls": "skill",
+   "s": [
+    "numerais até 20",
+    "numerais até 200",
+    "numerais até 20 para imprimir",
+    "numerais até 20 atividades",
+    "numerais até 20 em inglês",
+    "numerais ate 20 educação infantil",
+    "numerais ate 200 para imprimir",
+    "numerais até 2000",
+    "numerais até 20 por extenso",
+    "numerais ate 200 atividade"
+   ]
+  },
+  "traçado": {
+   "cls": "skill",
+   "s": [
+    "traçado",
+    "traçador",
+    "traçador quimico",
+    "traçador makita",
+    "traçador de altura",
+    "traçado hospitalar",
+    "traçados",
+    "traçado bar",
+    "traçado construções e serviços ltda",
+    "traçador de madeira"
+   ]
+  },
+  "horas": {
+   "cls": "skill",
+   "s": [
+    "horas iguais",
+    "horas",
+    "horas do jogo do brasil",
+    "horas iguais significado",
+    "horas invertidas",
+    "horas agora",
+    "horas iguais 1111",
+    "horas trabalhadas",
+    "horas complementares",
+    "horas com segundos"
+   ]
+  },
+  "formas geométricas": {
+   "cls": "skill",
+   "s": [
+    "formas geométricas",
+    "formas geométricas nomes",
+    "formas geométricas espaciais",
+    "formas geométricas planas",
+    "formas geométricas educação infantil",
+    "formas geométricas 3d",
+    "formas geométricas para imprimir",
+    "formas geométricas básicas",
+    "formas geométricas da bandeira do brasil",
+    "formas geométricas em inglês"
+   ]
+  },
+  "tarefa de casa atividades": {
+   "cls": "context",
+   "s": [
+    "tarefa de casa atividades",
+    "atividades para tarefa de casa educação infantil",
+    "atividades de tarefa de casa 3 ano",
+    "atividades de tarefa de casa 2 ano",
+    "atividades para tarefa de casa",
+    "atividades de tarefa de casa 1 ano",
+    "atividades de tarefa de casa 4 ano"
+   ]
+  },
+  "tarefa de casa educação infantil": {
+   "cls": "context",
+   "s": [
+    "tarefa de casa educação infantil",
+    "tarefa de casa educação infantil 5 anos",
+    "tarefa de casa educação infantil 4 anos",
+    "tarefa de casa educação infantil 3 anos",
+    "atividade tarefa de casa educação infantil",
+    "bilhete tarefa de casa educação infantil",
+    "recado tarefa de casa educação infantil",
+    "capa para tarefa de casa educação infantil",
+    "orientações para tarefa de casa educação infantil",
+    "objetivo da tarefa de casa na educação infantil"
+   ]
+  },
+  "reforço atividades": {
+   "cls": "context",
+   "s": [
+    "reforço atividades 5 ano portugues",
+    "reforço atividades de portugues 4 ano",
+    "reforço atividades",
+    "reforço atividades 5 ano",
+    "reforço atividades de matematica 4 ano",
+    "reforço atividades de alfabetização 3 ano",
+    "reforço atividades de alfabetização 2 ano",
+    "reforço atividades de matemática 5 ano com respostas",
+    "reforço atividades 3 ano português",
+    "reforço atividades de lingua portuguesa 3 ano"
+   ]
+  },
+  "reforço educação infantil": {
+   "cls": "context",
+   "s": [
+    "reforço educação infantil",
+    "reforço escolar educação infantil",
+    "reforço positivo educação infantil",
+    "atividade reforço educação infantil",
+    "apostila reforço educação infantil",
+    "aula de reforço educação infantil",
+    "reforço negativo na educação infantil",
+    "caderno de reforço educação infantil",
+    "oficina de reforço educação infantil",
+    "projeto reforço escolar educação infantil"
+   ]
+  },
+  "sondagem atividades": {
+   "cls": "context",
+   "s": [
+    "sondagem atividades",
+    "sondagem atividades volta as aulas 2 ano",
+    "sondagem atividades volta as aulas 3 ano",
+    "atividades sondagem 1 ano",
+    "atividades sondagem 2 ano",
+    "atividades sondagem 3 ano",
+    "atividades sondagem educação infantil",
+    "atividades sondagem 4 ano",
+    "atividades sondagem 5 ano",
+    "atividades sondagem alfabetização"
+   ]
+  },
+  "sondagem educação infantil": {
+   "cls": "context",
+   "s": [
+    "sondagem educação infantil",
+    "sondagem educação infantil 5 anos",
+    "sondagem educação infantil pdf",
+    "sondagem educação infantil 4 anos",
+    "sondagem educação infantil 3 anos",
+    "sondagem educação infantil 5 anos pdf",
+    "sondagem educação infantil bncc",
+    "sondagem educação infantil 2 anos",
+    "sondagem educação infantil para imprimir",
+    "sondagem educação infantil 5 anos matemática"
+   ]
+  },
+  "educação especial atividades": {
+   "cls": "audience",
+   "s": [
+    "educação especial atividades adaptadas",
+    "educação especial atividades",
+    "educação especial atividades adaptadas para alunos com autismo para imprimir",
+    "educação especial atividades de coordenação motora fina",
+    "educação especial atividades para imprimir",
+    "educação especial atividades adaptadas de matemática",
+    "eja educação especial atividades",
+    "educação especial adaptadas atividades de matemática para alunos com autismo para imprimir",
+    "educação especial e inclusiva atividades",
+    "semana da educação especial atividades"
+   ]
+  },
+  "educação especial educação infantil": {
+   "cls": "audience",
+   "s": [
+    "educação especial educação infantil",
+    "educação especial e educação infantil faveni",
+    "educação especial na educação infantil pdf",
+    "atividade educação especial educação infantil",
+    "educação especial e educação infantil pós faveni",
+    "educação especial e educação infantil com ênfase em tgd",
+    "educação especial inclusiva na educação infantil",
+    "sobre educação especial na educação infantil",
+    "projeto educação especial na educação infantil",
+    "pei educação especial pronto educação infantil"
+   ]
+  },
+  "letra a atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra a atividades",
+    "letra a atividades educação infantil",
+    "letra a atividades 1 ano",
+    "letra a atividades de alfabetização",
+    "letra a atividades para imprimir",
+    "letra a atividades maternal",
+    "letra a atividades ludicas",
+    "letra a cursiva atividades",
+    "a letra b atividades",
+    "a letra l atividades"
+   ]
+  },
+  "letra b atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra b atividades",
+    "letra b atividades educação infantil",
+    "letra b atividades 1 ano",
+    "letra b atividades de alfabetização",
+    "letra b atividades infantil",
+    "letra b atividades para imprimir",
+    "letra b atividades cursiva",
+    "letra b atividades ludicas",
+    "letra b atividades maternal",
+    "familia silabica letra b atividades"
+   ]
+  },
+  "letra c atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra c atividades",
+    "letra c atividades de alfabetização",
+    "letra c atividades educação infantil",
+    "letra c atividades 1 ano",
+    "letra c atividades 2 ano",
+    "letra c atividades ludicas",
+    "letra c cursiva atividades",
+    "sons da letra c atividades",
+    "familia silabica letra c atividades",
+    "família da letra c atividades"
+   ]
+  },
+  "letra d atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra d atividades",
+    "letra d atividades educação infantil",
+    "letra d atividades 1 ano",
+    "letra d atividades de alfabetização",
+    "letra d atividades 2 ano",
+    "letra d cursiva atividades",
+    "familia silabica letra d atividades",
+    "atividades letra d educação infantil ideia criativa",
+    "atividades letra d israela kotona",
+    "atividades letra d educação infantil 5 anos"
+   ]
+  },
+  "letra e atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra e atividades",
+    "letra e atividades educação infantil",
+    "letra e atividades 1 ano",
+    "letra e atividades maternal",
+    "letra e atividades para imprimir",
+    "letra e fonema atividades",
+    "letra e cursiva atividades",
+    "fonema e letra atividades 6 ano"
+   ]
+  },
+  "letra f atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra f atividades",
+    "letra f atividades 1 ano",
+    "letra f atividades educação infantil",
+    "letra f atividades de alfabetização",
+    "letra f atividades 2 ano",
+    "letra f cursiva atividades",
+    "familia silabica letra f atividades",
+    "letra f para imprimir atividades",
+    "atividades letra f educação infantil para imprimir",
+    "atividades letra f metodo fonico"
+   ]
+  },
+  "letra g atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra g atividades",
+    "letra g atividades 1 ano",
+    "letra g atividades educaçao infantil",
+    "letra g atividades alfabetização",
+    "letra g atividades 2 ano",
+    "letra g cursiva atividades",
+    "familia silabica letra g atividades",
+    "familia da letra g atividades",
+    "atividades letra g pdf",
+    "atividades letra g educação infantil 5 anos"
+   ]
+  },
+  "letra h atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra h atividades",
+    "letra h atividades educação infantil",
+    "letra h atividades 1 ano",
+    "letra h atividades 2 ano",
+    "letra h atividades alfabetização",
+    "letra h atividades 3 ano",
+    "letra h atividades 4 ano",
+    "letra h cursiva atividades",
+    "ortografia letra h atividades",
+    "atividades letra h educação infantil para imprimir"
+   ]
+  },
+  "letra i atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra i atividades",
+    "letra i atividades 1 ano",
+    "letra i atividades educação infantil",
+    "letra i atividades alfabetização",
+    "letra i atividades para imprimir",
+    "letra i atividades maternal",
+    "letra i atividades ludicas",
+    "letra i cursiva atividades"
+   ]
+  },
+  "letra j atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra j atividades",
+    "letra j atividades 1 ano",
+    "letra j atividades educação infantil",
+    "letra j atividades alfabetização",
+    "letra j atividades para imprimir",
+    "letra j cursiva atividades",
+    "atividades letra j educação infantil para imprimir",
+    "atividades letra j 2 ano",
+    "atividades letra j israela kotona",
+    "atividades letra j 1 ano fundamental"
+   ]
+  },
+  "letra k atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra k atividades",
+    "letra k atividades educação infantil",
+    "letra k atividades 1 ano",
+    "letra k cursiva atividades",
+    "atividades letra k educação infantil para imprimir",
+    "atividades letra k alfabetização",
+    "atividades letra k 1 ano fundamental",
+    "atividades letra k israela kotona",
+    "atividades letra k familia silabica",
+    "atividades letra k 2 ano"
+   ]
+  },
+  "letra l atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra l atividades",
+    "letra l atividades 1 ano",
+    "letra l atividades de alfabetização",
+    "letra l atividades educação infantil",
+    "letra l atividades 2 ano",
+    "letra l atividades cursiva",
+    "atividades letra l israela kotona",
+    "atividades letra l 1 ano fundamental",
+    "atividades letra l educação infantil 5 anos",
+    "atividades letra l educação infantil para imprimir"
+   ]
+  },
+  "letra m atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra m atividades",
+    "letra m atividades de alfabetização",
+    "letra m atividades 1 ano",
+    "letra m atividades educação infantil",
+    "letra m atividades cursiva",
+    "letra m para imprimir atividades",
+    "atividades letra m 2 ano",
+    "atividades letra m educação infantil para imprimir",
+    "atividades letra m israela kotona",
+    "atividades letra m educação infantil 5 anos"
+   ]
+  },
+  "letra n atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra n atividades",
+    "letra n atividades 1 ano",
+    "letra n atividades alfabetização",
+    "letra n atividades educação infantil",
+    "letra n atividades 2 ano",
+    "letra n cursiva atividades",
+    "letra n para imprimir atividades",
+    "atividades letra n israela kotona",
+    "atividades letra n educação infantil 5 anos",
+    "atividades letra n 1 ano fundamental"
+   ]
+  },
+  "letra o atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra o atividades educação infantil",
+    "letra o atividades",
+    "letra o atividades 1 ano",
+    "letra o cursiva atividades"
+   ]
+  },
+  "letra p atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra p atividades",
+    "letra p atividades 1 ano",
+    "letra p atividades alfabetização",
+    "letra p atividades educação infantil",
+    "letra p atividades para imprimir",
+    "letra p cursiva atividades",
+    "atividades letra p 2 ano",
+    "atividades letra p educação infantil para imprimir",
+    "atividades letra p israela kotona",
+    "atividades letra p 1 ano fundamental"
+   ]
+  },
+  "letra q atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra q atividades",
+    "letra q atividades educação infantil",
+    "letra q atividades 1 ano",
+    "letra q atividades alfabetização",
+    "letra q cursiva atividades",
+    "atividades letra q educação infantil para imprimir",
+    "atividades letra q 2 ano",
+    "atividades letra q 1 ano fundamental",
+    "atividades letra q israela kotona",
+    "atividades letra q cursiva educação infantil"
+   ]
+  },
+  "letra r atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra r atividades",
+    "letra r atividades 1 ano",
+    "letra r atividades de alfabetização",
+    "letra r atividades educação infantil",
+    "letra r atividades 2 ano",
+    "letra r cursiva atividades",
+    "letra r entre vogais atividades 2 ano",
+    "sons da letra r atividades",
+    "atividades letra r pdf",
+    "atividades letra r educação infantil para imprimir"
+   ]
+  },
+  "letra s atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra s atividades",
+    "letra s atividades 1 ano",
+    "letra s atividades alfabetização",
+    "letra s atividades educação infantil",
+    "letra s cursiva atividades",
+    "sons da letra s atividades",
+    "emprego da letra s atividades",
+    "letra s para imprimir atividades",
+    "som da letra s atividades",
+    "atividades letra s 2 ano"
+   ]
+  },
+  "letra t atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra t atividades",
+    "letra t atividades 1 ano",
+    "letra t atividades educação infantil",
+    "letra t atividades alfabetização",
+    "letra t atividades 2 ano",
+    "letra t cursiva atividades",
+    "atividades letra t israela kotona",
+    "atividades letra t educação infantil para imprimir",
+    "atividades letra t cursiva educação infantil",
+    "atividades letra t para imprimir"
+   ]
+  },
+  "letra u atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra u atividades",
+    "letra u atividades educação infantil",
+    "letra u atividades 1 ano",
+    "letra u atividades para imprimir",
+    "atividades letra u educação infantil para imprimir",
+    "atividades letra u maternal",
+    "atividades letra u alfabetização",
+    "atividades letra u cursiva",
+    "atividades letra u maternal 2",
+    "atividades letra u pontilhado"
+   ]
+  },
+  "letra v atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra v atividades",
+    "letra v atividades 1 ano",
+    "letra v atividades alfabetização",
+    "letra v atividades educação infantil",
+    "letra v cursiva atividades",
+    "sons da letra v atividades",
+    "atividades letra v 2 ano",
+    "atividades letra v israela kotona",
+    "atividades letra v educação infantil para imprimir",
+    "atividades letra v familia silabica"
+   ]
+  },
+  "letra w atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra w atividades",
+    "letra w atividades educação infantil",
+    "letra w atividades 1 ano",
+    "atividades letra w alfabetização",
+    "atividades letra w familia silabica",
+    "atividades letra w cursiva",
+    "atividades letra w 2 ano",
+    "atividades letra w israela kotona"
+   ]
+  },
+  "letra x atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra x atividades",
+    "letra x atividades alfabetização",
+    "letra x atividades 1 ano",
+    "letra x atividades educação infantil",
+    "letra x atividades 5 ano",
+    "letra x atividades 2 ano",
+    "sons da letra x atividades",
+    "atividades letra x cursiva",
+    "atividades letra x israela kotona",
+    "atividades letra x cursiva educação infantil"
+   ]
+  },
+  "letra y atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra y atividades",
+    "letra y atividades educação infantil",
+    "letra y atividades 1 ano",
+    "letra y cursiva atividades",
+    "atividades letra y alfabetização",
+    "atividades letra y israela kotona"
+   ]
+  },
+  "letra z atividades": {
+   "cls": "enumerated",
+   "s": [
+    "letra z atividades",
+    "letra z atividades 1 ano",
+    "letra z atividades educação infantil",
+    "letra z atividades de alfabetização",
+    "letra z cursiva atividades",
+    "emprego da letra z atividades",
+    "atividades letra z 2 ano",
+    "atividades letra z 3 ano",
+    "atividades letra z israela kotona",
+    "atividades letra z educação infantil para imprimir"
+   ]
+  },
+  "apostila": {
+   "cls": "pack",
+   "s": [
+    "apostila",
+    "apostilamento de haia",
+    "apostilamento",
+    "apostila de alfabetização",
+    "apostila encceja 2026",
+    "apostila enem",
+    "apostilas",
+    "apostila de alfabetização pdf",
+    "apostila inss 2026",
+    "apostila auto escola 2026 pdf grátis"
+   ]
+  },
+  "4 de julho matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "4 de julho contar": {
+   "cls": "cross",
+   "s": [
+    "4 de julho contar dias",
+    "4 de julho de 2024 contar dias",
+    "contar dias 4 de julho 2025",
+    "contar dias 4 de julho ate hoje",
+    "contar dias 4 de julho 2023",
+    "contar dias ate 4 de julho",
+    "contar dias 4 de julho de 2022",
+    "contar dias desde 4 de julho",
+    "contar dias 4 de julho de 2026"
+   ]
+  },
+  "4 de julho adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "4 de julho letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "acessórios matemática": {
+   "cls": "cross",
+   "s": [
+    "acessórios de matemática"
+   ]
+  },
+  "acessórios contar": {
+   "cls": "cross",
+   "s": [
+    "acessórios para contar histórias"
+   ]
+  },
+  "acessórios adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "acessórios letras": {
+   "cls": "cross",
+   "s": [
+    "acessórios para crocs letras",
+    "acessórios com 11 letras",
+    "acessórios com 8 letras",
+    "acessórios com sete letras",
+    "acessórios cabeça 5 letras",
+    "acessórios com 6 letras",
+    "acessórios com 5 letras"
+   ]
+  },
+  "atividades matemática": {
+   "cls": "cross",
+   "s": [
+    "atividades matemática 2 ano",
+    "atividades matemática 1 ano",
+    "atividades matemática 3 ano",
+    "atividades matemática 4 ano",
+    "atividades matemática 5 ano",
+    "atividades matemática",
+    "atividades matemática 1 ano fundamental",
+    "atividades matemática 6 ano",
+    "atividades matemática 2 ano fundamental"
+   ]
+  },
+  "atividades contar": {
+   "cls": "cross",
+   "s": [
+    "atividades contar e registrar",
+    "atividades contar medir ordenar e codificar 4 ano",
+    "atividades contar medir ordenar e codificar 2 ano",
+    "atividades contar medir ordenar e codificar 3 ano",
+    "atividades contar",
+    "atividades contar quantidades",
+    "atividades contar silabas",
+    "atividades contar de 10 em 10",
+    "atividades contar de 2 em 2",
+    "atividades contar 1 ano"
+   ]
+  },
+  "atividades adição": {
+   "cls": "cross",
+   "s": [
+    "atividades adição e subtração 3 ano",
+    "atividades adição 1 ano",
+    "atividades adição e subtração 2 ano",
+    "atividades adição e subtração 1 ano",
+    "atividades adição e subtração de números inteiros 7 ano",
+    "atividades adição e subtração de frações com denominadores diferentes",
+    "atividades adição 2 ano",
+    "atividades adição e subtração",
+    "atividades adição e subtração 4 ano",
+    "atividades adição"
+   ]
+  },
+  "atividades letras": {
+   "cls": "cross",
+   "s": [
+    "atividades letras cursivas",
+    "atividades letras do alfabeto",
+    "atividades letras",
+    "atividades letras e numeros",
+    "atividades letras educação infantil",
+    "atividades letras e fonemas 3 ano",
+    "atividades letras do alfabeto educação infantil",
+    "atividades letras e numeros educação infantil",
+    "atividades letras e fonemas",
+    "atividades letras maiusculas e minusculas"
+   ]
+  },
+  "animais matemática": {
+   "cls": "cross",
+   "s": [
+    "animais matemática",
+    "atividade matemática animais",
+    "animais relacionados a matemática"
+   ]
+  },
+  "animais contar": {
+   "cls": "cross",
+   "s": [
+    "contar animais ate 10 coquinhos",
+    "contar animais ja virou normal",
+    "animais sabem contar",
+    "animais para contar",
+    "atividade contar animais",
+    "como contar animais em japones",
+    "contar animais"
+   ]
+  },
+  "animais adição": {
+   "cls": "cross",
+   "s": [
+    "animais fantasticos adição e subtração"
+   ]
+  },
+  "animais letras": {
+   "cls": "cross",
+   "s": [
+    "animais letras",
+    "animais letras do alfabeto",
+    "animais letras d",
+    "letras animais 3d",
+    "animais 4 letras",
+    "animais 5 letras",
+    "animais 6 letras",
+    "animais 7 letras",
+    "animais com letras c"
+   ]
+  },
+  "pela casa matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "pela casa contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "pela casa adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "pela casa letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "no supermercado matemática": {
+   "cls": "cross",
+   "s": [
+    "matemática no supermercado"
+   ]
+  },
+  "no supermercado contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "no supermercado adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "no supermercado letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "padaria matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "padaria contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "padaria adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "padaria letras": {
+   "cls": "cross",
+   "s": [
+    "letras padaria",
+    "padaria cafe com letras"
+   ]
+  },
+  "praia matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "praia contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "praia adição": {
+   "cls": "cross",
+   "s": [
+    "praia da adição"
+   ]
+  },
+  "praia letras": {
+   "cls": "cross",
+   "s": [
+    "praia letras",
+    "praia 5 letras",
+    "nossa praia letras",
+    "praia com 5 letras",
+    "estagio letras praia grande",
+    "praia com 4 letras",
+    "praia com 8 letras",
+    "praia do rosa letras",
+    "praia com 7 letras",
+    "praia do futuro letras"
+   ]
+  },
+  "pássaros matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "pássaros contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "pássaros adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "pássaros letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "pássaros 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "pássaros 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "pássaros 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "pássaros 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "partes do corpo matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "partes do corpo contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "partes do corpo adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "partes do corpo letras": {
+   "cls": "cross",
+   "s": [
+    "partes do corpo humano letras",
+    "partes do corpo com letras",
+    "partes do corpo com 5 letras",
+    "partes do corpo com 4 letras",
+    "partes do corpo com 6 letras",
+    "partes do corpo com 3 letras",
+    "partes do corpo com 7 letras",
+    "partes do corpo com 9 letras",
+    "partes do corpo com 8 letras",
+    "partes do corpo com duas letras"
+   ]
+  },
+  "café da manhã matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "café da manhã contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "café da manhã adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "café da manhã letras": {
+   "cls": "cross",
+   "s": [
+    "roberto carlos café da manhã letras",
+    "café da manhã com sete letras",
+    "alimento popular no café da manhã 8 letras"
+   ]
+  },
+  "acampamento matemática": {
+   "cls": "cross",
+   "s": [
+    "acampamento de matemática"
+   ]
+  },
+  "acampamento contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "acampamento adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "acampamento letras": {
+   "cls": "cross",
+   "s": [
+    "acampamento 5 letras",
+    "acampamento militar 7 letras",
+    "acampamento tem quantas letras"
+   ]
+  },
+  "natal matemática": {
+   "cls": "cross",
+   "s": [
+    "natal matemática",
+    "matemática natal 3 ano",
+    "matemática natal 2 ano",
+    "matemática natal 1 ano",
+    "feliz natal matemática",
+    "atividade natal matemática",
+    "atividade natal matemática 1 ano",
+    "atividade matemática natal educação infantil",
+    "árvore de natal matemática",
+    "atividade matemática natal 2 ano"
+   ]
+  },
+  "natal contar": {
+   "cls": "cross",
+   "s": [
+    "natal contar dias",
+    "pode contar natal e ano novo como férias"
+   ]
+  },
+  "natal adição": {
+   "cls": "cross",
+   "s": [
+    "adição natal",
+    "atividade adição natal"
+   ]
+  },
+  "natal letras": {
+   "cls": "cross",
+   "s": [
+    "natal letras",
+    "letras natal para imprimir",
+    "letras natal todo dia",
+    "letras natal canva",
+    "letras natal png",
+    "letras natal rn",
+    "letras natal tempo de alegria",
+    "feliz natal letras",
+    "feliz natal letras para imprimir",
+    "feliz natal letras bonitas"
+   ]
+  },
+  "sala de aula matemática": {
+   "cls": "cross",
+   "s": [
+    "sala de aula matemática",
+    "tudo sala de aula matemática",
+    "tudo sala de aula matemática 5 ano",
+    "tudo sala de aula matemática 3 ano",
+    "tudo sala de aula matemática 4 ano",
+    "tudo sala de aula matemática 6 ano"
+   ]
+  },
+  "sala de aula contar": {
+   "cls": "cross",
+   "s": [
+    "tudo sala de aula viver para contar"
+   ]
+  },
+  "sala de aula adição": {
+   "cls": "cross",
+   "s": [
+    "tudo sala de aula adição e subtração 4 ano",
+    "tudo sala de aula adição e subtração 2 ano",
+    "tudo sala de aula adição e subtração 1 ano",
+    "tudo sala de aula adição e subtração",
+    "tudo sala de aula adição e subtração 3 ano",
+    "tudo sala de aula adição e subtração 5 ano",
+    "tudo sala de aula adição",
+    "tudo sala de aula adição e subtração 6 ano",
+    "tudo sala de aula adição 2 ano",
+    "tudo sala de aula adição 1 ano"
+   ]
+  },
+  "sala de aula letras": {
+   "cls": "cross",
+   "s": [
+    "tudo sala de aula letras e fonemas",
+    "tudo sala de aula letras do alfabeto",
+    "tudo sala de aula letras cursivas",
+    "tudo sala de aula letras maiusculas e minusculas",
+    "tudo sala de aula letras",
+    "letras para sala de aula",
+    "objeto de sala de aula com 12 letras",
+    "letras para decorar sala de aula"
+   ]
+  },
+  "roupas matemática": {
+   "cls": "cross",
+   "s": [
+    "roupas de matemática"
+   ]
+  },
+  "roupas contar": {
+   "cls": "cross",
+   "s": [
+    "roupas para contar historia infantil"
+   ]
+  },
+  "roupas adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "roupas letras": {
+   "cls": "cross",
+   "s": [
+    "roupas letras",
+    "roupas com letras do alfabeto",
+    "tamanhos de roupas letras",
+    "roupas com 6 letras",
+    "roupas com 5 letras",
+    "roupas com 7 letras",
+    "aplique para roupas letras",
+    "roupas brancas 5 letras",
+    "tamanho de roupas letras e numeros"
+   ]
+  },
+  "cores matemática": {
+   "cls": "cross",
+   "s": [
+    "cores matemática",
+    "cores para matemática",
+    "jogo das cores matemática",
+    "atividade matemática cores",
+    "sequência de cores matemática",
+    "monstro das cores matemática"
+   ]
+  },
+  "cores contar": {
+   "cls": "cross",
+   "s": [
+    "contar cores excel",
+    "contar cores",
+    "contar cores excel formatação condicional",
+    "contar cores google sheets",
+    "contar cores no excel sem vba",
+    "função contar cores excel",
+    "como contar cores no google planilhas",
+    "como contar cores na planilha de excel",
+    "excel contar cores celulas",
+    "função contar cores"
+   ]
+  },
+  "cores adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "cores letras": {
+   "cls": "cross",
+   "s": [
+    "cores letras",
+    "cores letras minecraft",
+    "cores letras do alfabeto",
+    "cores letras ff",
+    "cores letras whatsapp",
+    "cores letras mta",
+    "letras cores diferentes",
+    "letras cores do vento",
+    "cores das letras da bandeira do brasil",
+    "cores das letras do google"
+   ]
+  },
+  "sobremesas e doces matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "sobremesas e doces contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "sobremesas e doces adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "sobremesas e doces letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinossauros matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinossauros contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinossauros adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinossauros letras": {
+   "cls": "cross",
+   "s": [
+    "dinossauros letras",
+    "dinossauros com as letras do alfabeto",
+    "dinossauros vale das letras"
+   ]
+  },
+  "páscoa matemática": {
+   "cls": "cross",
+   "s": [
+    "páscoa matemática",
+    "atividade páscoa matemática 3 ano",
+    "atividade páscoa matemática",
+    "atividades páscoa matemática educação infantil",
+    "atividade matemática páscoa 4 ano"
+   ]
+  },
+  "páscoa contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "páscoa adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "páscoa letras": {
+   "cls": "cross",
+   "s": [
+    "feliz páscoa letras para imprimir",
+    "louvores de páscoa letras",
+    "hinos de páscoa letras"
+   ]
+  },
+  "emoções matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "emoções contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "emoções adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "emoções letras": {
+   "cls": "cross",
+   "s": [
+    "emoções letras",
+    "letras emoções roberto carlos",
+    "letras razões e emoções",
+    "emoções com as letras do alfabeto",
+    "emoções com 8 letras",
+    "emoções com 10 letras",
+    "emoções com 5 letras",
+    "emoções com 7 letras",
+    "emoções com 4 letras",
+    "emoções com 3 letras"
+   ]
+  },
+  "animais da fazenda matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais da fazenda contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais da fazenda adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais da fazenda letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "flores matemática": {
+   "cls": "cross",
+   "s": [
+    "flores matemática"
+   ]
+  },
+  "flores contar": {
+   "cls": "cross",
+   "s": [
+    "contar flores",
+    "flores para contar",
+    "flores para contar y colorear"
+   ]
+  },
+  "flores adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "flores letras": {
+   "cls": "cross",
+   "s": [
+    "flores letras",
+    "flores letras bonitas",
+    "flores letras para decorar",
+    "flores letras latin mafia",
+    "flores letras xavi",
+    "flores babi letras",
+    "letras flores em vida",
+    "letras flores para imprimir",
+    "letras flores titas",
+    "letras flores png"
+   ]
+  },
+  "criaturas da floresta matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "criaturas da floresta contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "criaturas da floresta adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "criaturas da floresta letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "frutas matemática": {
+   "cls": "cross",
+   "s": [
+    "desafio das frutas matemática",
+    "sequência de frutas matemática",
+    "conjunto de frutas matemática",
+    "atividade matemática frutas",
+    "wordwall matemática frutas"
+   ]
+  },
+  "frutas contar": {
+   "cls": "cross",
+   "s": [
+    "frutas contar",
+    "atividade contar frutas",
+    "contar frutas para niños",
+    "contar frutas wordwall",
+    "frutas para contar",
+    "contar frutas y verduras",
+    "frutas para contar del 1 al 10",
+    "frutas para contar y colorear",
+    "frutas para contar del 1 al 20"
+   ]
+  },
+  "frutas adição": {
+   "cls": "cross",
+   "s": [
+    "frutas sem adição de açúcar",
+    "frutas secas tem adição de açúcar",
+    "frutas cristalizadas tem adição de açúcar",
+    "frutas secas sem adição de açúcar",
+    "frutas liofilizadas tem adição de açúcar",
+    "frutas desidratadas sem adição de açúcar"
+   ]
+  },
+  "frutas letras": {
+   "cls": "cross",
+   "s": [
+    "frutas letras",
+    "frutas letras do alfabeto",
+    "frutas letras p",
+    "frutas letras d",
+    "frutas letras c",
+    "frutas letras b",
+    "frutas letras j",
+    "frutas letras m",
+    "frutas letras n",
+    "frutas letras l"
+   ]
+  },
+  "móveis matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "móveis contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "móveis adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "móveis letras": {
+   "cls": "cross",
+   "s": [
+    "letras móveis para imprimir",
+    "letras móveis para imprimir e recortar",
+    "letras móveis para alfabetização"
+   ]
+  },
+  "hospital matemática": {
+   "cls": "cross",
+   "s": [
+    "hospital matemática",
+    "l'hospital matemática"
+   ]
+  },
+  "hospital contar": {
+   "cls": "cross",
+   "s": [
+    "hospital contar"
+   ]
+  },
+  "hospital adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "hospital letras": {
+   "cls": "cross",
+   "s": [
+    "hospital letras e fonemas",
+    "hospital letras",
+    "hospital letras para imprimir",
+    "meu hospital letras",
+    "hospital quantas letras e quantos fonemas",
+    "hospital das letras pdf",
+    "hospital das letras francisco manuel de melo",
+    "hospital com 10 letras",
+    "hospital tem quantas letras",
+    "hospital psiquiátrico 9 letras"
+   ]
+  },
+  "insetos e bichos matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "insetos e bichos contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "insetos e bichos adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "insetos e bichos letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "utensílios de cozinha matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "utensílios de cozinha contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "utensílios de cozinha adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "utensílios de cozinha letras": {
+   "cls": "cross",
+   "s": [
+    "utensílios de cozinha com 13 letras",
+    "utensílios de cozinha com 7 letras",
+    "utensílios de cozinha com 5 letras",
+    "utensílios de cozinha com 6 letras",
+    "utensílios de cozinha com 10 letras",
+    "utensílios de cozinha com 8 letras"
+   ]
+  },
+  "diversos matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "diversos contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "diversos adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "diversos letras": {
+   "cls": "cross",
+   "s": [
+    "diversos tipos de letras",
+    "diversos modelos de letras"
+   ]
+  },
+  "música matemática": {
+   "cls": "cross",
+   "s": [
+    "música matemática",
+    "música matemática infantil",
+    "música matemática de deus",
+    "música matemática peninha",
+    "música matemática não é bicho papão",
+    "música matemática da vida",
+    "música matemática do amor",
+    "música matemática letra",
+    "música matemática restart"
+   ]
+  },
+  "música contar": {
+   "cls": "cross",
+   "s": [
+    "música contar pra quê",
+    "música contar pra que ninguém precisa entender",
+    "música contar as estrelas",
+    "música contar pra quê henrique e juliano"
+   ]
+  },
+  "música adição": {
+   "cls": "cross",
+   "s": [
+    "música da adição infantil",
+    "música para trabalhar adição",
+    "música para ensinar adição"
+   ]
+  },
+  "música letras": {
+   "cls": "cross",
+   "s": [
+    "música letras",
+    "música letras douradas",
+    "música letras do alfabeto",
+    "música letras em inglês"
+   ]
+  },
+  "profissões matemática": {
+   "cls": "cross",
+   "s": [
+    "profissões matemática",
+    "profissões matemática e suas tecnologias",
+    "matemática profissões do futuro",
+    "profissões sem matemática",
+    "profissões na matemática financeira",
+    "profissões que envolvem matemática",
+    "profissões que usam matemática indiretamente",
+    "lógico matemática profissões",
+    "profissões que usam matemática no dia a dia"
+   ]
+  },
+  "profissões contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "profissões adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "profissões letras": {
+   "cls": "cross",
+   "s": [
+    "profissões letras",
+    "profissões com letras do alfabeto",
+    "profissões para letras",
+    "profissões 7 letras",
+    "profissões 8 letras",
+    "profissões 10 letras",
+    "profissões todas letras alfabeto",
+    "profissões com 6 letras",
+    "profissões com 22 letras"
+   ]
+  },
+  "vida marinha matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marinha contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marinha adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marinha letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais de estimação matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais de estimação contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais de estimação adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais de estimação letras": {
+   "cls": "cross",
+   "s": [
+    "animais de estimação com quatro letras"
+   ]
+  },
+  "correios matemática": {
+   "cls": "cross",
+   "s": [
+    "matemática correios"
+   ]
+  },
+  "correios contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "correios adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "correios letras": {
+   "cls": "cross",
+   "s": [
+    "correios letras",
+    "rastreamento correios letras",
+    "significado letras correios",
+    "postal dos correios letras"
+   ]
+  },
+  "répteis e anfíbios matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "répteis e anfíbios contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "répteis e anfíbios adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "répteis e anfíbios letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "formas matemática": {
+   "cls": "cross",
+   "s": [
+    "matemática formas geométricas",
+    "matemática formas geométricas 5 ano",
+    "matemática formas geométricas 6 ano",
+    "matemática formas geométricas 1 ano",
+    "formas modulares matemática",
+    "formas descritivas matemática",
+    "atividade matemática formas geométricas",
+    "wordwall matemática formas geometricas",
+    "formas de contagem matemática"
+   ]
+  },
+  "formas contar": {
+   "cls": "cross",
+   "s": [
+    "contar formas geometricas",
+    "formas de contar o tempo",
+    "formas de contar gravidez",
+    "formas de contar histórias",
+    "formas de contar para a familia que esta gravida",
+    "formas de contar gravidez para familia",
+    "formas de contar o tempo na história",
+    "formas de contar histórias na educação infantil",
+    "formas de contar o tempo 5 ano",
+    "formas de contar que esta gravida para o marido"
+   ]
+  },
+  "formas adição": {
+   "cls": "cross",
+   "s": [
+    "formas de adição",
+    "formas de fazer adição"
+   ]
+  },
+  "formas letras": {
+   "cls": "cross",
+   "s": [
+    "formas letras",
+    "formas letras alfabeto",
+    "formas letras diferentes",
+    "formas letras para imprimir",
+    "formas letras instagram",
+    "formas letras cursivas",
+    "formas letras eva",
+    "formas letras tatuagem",
+    "formas letras tattoo",
+    "formas letras e numeros"
+   ]
+  },
+  "espaço matemática": {
+   "cls": "cross",
+   "s": [
+    "espaço matemática",
+    "matemática espaço e forma",
+    "matemática espaço amostral",
+    "espaço da matemática educação infantil",
+    "localização no espaço matemática",
+    "noção de espaço matemática",
+    "espaço e forma matemática pdf",
+    "novo espaço matemática b 10o ano pdf",
+    "novo espaço matemática a 12o ano pdf parte 2",
+    "novo espaço matemática a 10o ano pdf"
+   ]
+  },
+  "espaço contar": {
+   "cls": "cross",
+   "s": [
+    "contar espaço entre datas",
+    "contar espaço",
+    "contar espaço de tempo",
+    "contar espaço em branco excel",
+    "como contar espaço intercostal"
+   ]
+  },
+  "espaço adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "espaço letras": {
+   "cls": "cross",
+   "s": [
+    "espaço letras",
+    "letras espaço invisível",
+    "letras espaço kids",
+    "espaço entre letras word",
+    "espaço apagando letras",
+    "espaço entre letras",
+    "espaço educar letras pontilhadas",
+    "espaço invisível letras diferentes",
+    "espaço entre letras css",
+    "espaço 5 letras"
+   ]
+  },
+  "primavera matemática": {
+   "cls": "cross",
+   "s": [
+    "primavera matemática",
+    "atividades primavera matemática",
+    "atividade matemática primavera educação infantil",
+    "concurso matemática primavera"
+   ]
+  },
+  "primavera contar": {
+   "cls": "cross",
+   "s": [
+    "contar primavera cokitos"
+   ]
+  },
+  "primavera adição": {
+   "cls": "cross",
+   "s": [
+    "coquinhos adição primavera"
+   ]
+  },
+  "primavera letras": {
+   "cls": "cross",
+   "s": [
+    "primavera letras",
+    "primavera letras coloridas",
+    "primavera letras para imprimir",
+    "primavera letras bonitas",
+    "letras primavera para colorir",
+    "primavera letras decoradas",
+    "primavera letras grandes",
+    "letras primavera tim maia",
+    "letras primavera iir",
+    "letras primavera canva"
+   ]
+  },
+  "verão matemática": {
+   "cls": "cross",
+   "s": [
+    "verão matemática 2026",
+    "verão matemática ufmg 2026",
+    "verão matemática unicamp",
+    "verão matemática ufba",
+    "verão matemática ufpe"
+   ]
+  },
+  "verão contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "verão adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "verão letras": {
+   "cls": "cross",
+   "s": [
+    "letras chuva de verão",
+    "letras verão para colorir",
+    "letras verão para imprimir",
+    "sopa letras verão"
+   ]
+  },
+  "dia de ação de graças matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "dia de ação de graças contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "dia de ação de graças adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "dia de ação de graças letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "coisas que voam matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "coisas que voam contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "coisas que voam adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "coisas que voam letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "ferramentas matemática": {
+   "cls": "cross",
+   "s": [
+    "ferramentas para ensinar matemática",
+    "ferramentas digitais para matemática"
+   ]
+  },
+  "ferramentas contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "ferramentas adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "ferramentas letras": {
+   "cls": "cross",
+   "s": [
+    "ferramentas letras",
+    "ferramentas com 5 letras",
+    "ferramentas com 7 letras",
+    "ferramentas com 6 letras",
+    "ferramentas com 12 letras"
+   ]
+  },
+  "brinquedos matemática": {
+   "cls": "cross",
+   "s": [
+    "brinquedos matemática",
+    "brinquedos de matemática reciclável",
+    "brinquedos de matemática para fazer",
+    "brinquedos educativos matemática",
+    "brinquedos para matemática",
+    "brinquedos de matemática para fazer em casa",
+    "brinquedos para aprender matemática",
+    "brinquedos para ensinar matemática",
+    "brinquedos que envolvem matemática"
+   ]
+  },
+  "brinquedos contar": {
+   "cls": "cross",
+   "s": [
+    "contar brinquedos",
+    "brinquedos para contar"
+   ]
+  },
+  "brinquedos adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "brinquedos letras": {
+   "cls": "cross",
+   "s": [
+    "brinquedos letras",
+    "brinquedos letras alfabeto",
+    "brinquedos letras e numeros",
+    "brinquedos educativos letras e numeros",
+    "brinquedos educativos letras",
+    "brinquedos 5 letras",
+    "brinquedos pedagogicos letras",
+    "brinquedos com letras 4 anos",
+    "brinquedos com letras 3 anos",
+    "brinquedos 4 letras"
+   ]
+  },
+  "árvores matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "árvores contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "árvores adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "árvores letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "vegetais matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "vegetais contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "vegetais adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "vegetais letras": {
+   "cls": "cross",
+   "s": [
+    "vegetais com 4 letras",
+    "vegetais com 6 letras",
+    "vegetais com 8 letras",
+    "vegetais com 9 letras",
+    "vegetais com 7 letras",
+    "vegetais com as letras do alfabeto",
+    "vegetais com 5 letras"
+   ]
+  },
+  "veículos matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "veículos contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "veículos adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "veículos letras": {
+   "cls": "cross",
+   "s": [
+    "placas veículos letras estados",
+    "veículos com seis letras"
+   ]
+  },
+  "clima matemática": {
+   "cls": "cross",
+   "s": [
+    "clima matemática"
+   ]
+  },
+  "clima contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "clima adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "clima letras": {
+   "cls": "cross",
+   "s": [
+    "clima letras",
+    "clima letras bonitas",
+    "clima letras tolima",
+    "clima letras hoy",
+    "clima letras ec",
+    "letras clima de rodeio",
+    "letras clima perfeito noite enluarada",
+    "clima cinco letras",
+    "clima 4 letras",
+    "clima com mais letras em ingles"
+   ]
+  },
+  "inverno matemática": {
+   "cls": "cross",
+   "s": [
+    "curso de inverno matemática",
+    "curso de inverno matemática 2026",
+    "curso de inverno matemática 2025"
+   ]
+  },
+  "inverno contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "inverno adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "inverno letras": {
+   "cls": "cross",
+   "s": [
+    "inverno letras",
+    "inverno letras para colorir",
+    "inverno.com 6 letras",
+    "letras inverno para imprimir",
+    "letras inverno colorir",
+    "letras inverno pedro abrunhosa",
+    "letras inverno para pintar"
+   ]
+  },
+  "animais do zoológico matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais do zoológico contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais do zoológico adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais do zoológico letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 3 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 3 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 3 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 3 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 4 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 4 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 4 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 4 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 5 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 5 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 5 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "animais pb 5 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "praia pb 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "praia pb 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "praia pb 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "praia pb 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "pássaros p&b 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "pássaros p&b 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "pássaros p&b 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "pássaros p&b 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "natal p&b 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "natal p&b 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "natal p&b 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "natal p&b 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "sala de aula 2 (p&b) matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "sala de aula 2 (p&b) contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "sala de aula 2 (p&b) adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "sala de aula 2 (p&b) letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "páscoa pb 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "páscoa pb 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "páscoa pb 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "páscoa pb 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida pb 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida pb 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida pb 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida pb 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida pb 3 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida pb 3 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida pb 3 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "comida pb 3 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "casa pb 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "casa pb 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "casa pb 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "casa pb 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marinha pb 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marinha pb 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marinha pb 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "vida marinha pb 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "esportes pb 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "esportes pb 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "esportes pb 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "esportes pb 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "brinquedos pb 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "brinquedos pb 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "brinquedos pb 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "brinquedos pb 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "dia dos namorados pb 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "dia dos namorados pb 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "dia dos namorados pb 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "dia dos namorados pb 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "vegetais pb 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "vegetais pb 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "vegetais pb 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "vegetais pb 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "veículos pb 2 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "veículos pb 2 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "veículos pb 2 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "veículos pb 2 letras": {
+   "cls": "cross",
+   "s": []
+  },
+  "veículos pb 3 matemática": {
+   "cls": "cross",
+   "s": []
+  },
+  "veículos pb 3 contar": {
+   "cls": "cross",
+   "s": []
+  },
+  "veículos pb 3 adição": {
+   "cls": "cross",
+   "s": []
+  },
+  "veículos pb 3 letras": {
+   "cls": "cross",
+   "s": []
+  }
+ },
+ "unique": [
+  "4 de julho contar dias",
+  "4 de julho de 2024 contar dias",
+  "a letra b atividades",
+  "a letra l atividades",
+  "acampamento 5 letras",
+  "acampamento de matemática",
+  "acampamento militar 7 letras",
+  "acampamento tem quantas letras",
+  "acessórios cabeça 5 letras",
+  "acessórios com 11 letras",
+  "acessórios com 5 letras",
+  "acessórios com 6 letras",
+  "acessórios com 8 letras",
+  "acessórios com sete letras",
+  "acessórios de matemática",
+  "acessórios para contar histórias",
+  "acessórios para crocs letras",
+  "adição ate 10 wordwall",
+  "adição até 10",
+  "adição até 100",
+  "adição até 1000",
+  "adição e subtração até 10",
+  "adição natal",
+  "adição simples até 10",
+  "alfabetização",
+  "alfabetização 1 ano",
+  "alfabetização atividades",
+  "alfabetização de adultos",
+  "alfabetização e letramento",
+  "alfabetização e letramento atividades",
+  "alfabetização e letramento na educação infantil",
+  "alfabetização infantil",
+  "alfabetização matemática",
+  "alfabetização wordwall",
+  "alfabeto",
+  "alfabeto completo",
+  "alfabeto sueco",
+  "alfabético",
+  "alfabético com valor sonoro",
+  "alfabético exemplos",
+  "alfabético inicial",
+  "alfabético ortográfico",
+  "alfabético silábico",
+  "alfabéticos",
+  "alimento popular no café da manhã 8 letras",
+  "animais 4 letras",
+  "animais 5 letras",
+  "animais 6 letras",
+  "animais 7 letras",
+  "animais com letras c",
+  "animais de estimação com quatro letras",
+  "animais fantasticos adição e subtração",
+  "animais letras",
+  "animais letras d",
+  "animais letras do alfabeto",
+  "animais matemática",
+  "animais para contar",
+  "animais relacionados a matemática",
+  "animais sabem contar",
+  "aplique para roupas letras",
+  "apostila",
+  "apostila auto escola 2026 pdf grátis",
+  "apostila de alfabetização",
+  "apostila de alfabetização pdf",
+  "apostila encceja 2026",
+  "apostila enem",
+  "apostila inss 2026",
+  "apostila reforço educação infantil",
+  "apostilamento",
+  "apostilamento de haia",
+  "apostilas",
+  "atividade adição até 10",
+  "atividade adição natal",
+  "atividade contar animais",
+  "atividade contar frutas",
+  "atividade educação especial educação infantil",
+  "atividade matemática animais",
+  "atividade matemática cores",
+  "atividade matemática formas geométricas",
+  "atividade matemática frutas",
+  "atividade matemática natal 2 ano",
+  "atividade matemática natal educação infantil",
+  "atividade matemática primavera educação infantil",
+  "atividade matemática páscoa 4 ano",
+  "atividade natal matemática",
+  "atividade natal matemática 1 ano",
+  "atividade páscoa matemática",
+  "atividade páscoa matemática 3 ano",
+  "atividade reforço educação infantil",
+  "atividade tarefa de casa educação infantil",
+  "atividades adição",
+  "atividades adição 1 ano",
+  "atividades adição 2 ano",
+  "atividades adição e subtração",
+  "atividades adição e subtração 1 ano",
+  "atividades adição e subtração 2 ano",
+  "atividades adição e subtração 3 ano",
+  "atividades adição e subtração 4 ano",
+  "atividades adição e subtração de frações com denominadores diferentes",
+  "atividades adição e subtração de números inteiros 7 ano",
+  "atividades contar",
+  "atividades contar 1 ano",
+  "atividades contar de 10 em 10",
+  "atividades contar de 2 em 2",
+  "atividades contar e registrar",
+  "atividades contar medir ordenar e codificar 2 ano",
+  "atividades contar medir ordenar e codificar 3 ano",
+  "atividades contar medir ordenar e codificar 4 ano",
+  "atividades contar quantidades",
+  "atividades contar silabas",
+  "atividades de tarefa de casa 1 ano",
+  "atividades de tarefa de casa 2 ano",
+  "atividades de tarefa de casa 3 ano",
+  "atividades de tarefa de casa 4 ano",
+  "atividades letra d educação infantil 5 anos",
+  "atividades letra d educação infantil ideia criativa",
+  "atividades letra d israela kotona",
+  "atividades letra f educação infantil para imprimir",
+  "atividades letra f metodo fonico",
+  "atividades letra g educação infantil 5 anos",
+  "atividades letra g pdf",
+  "atividades letra h educação infantil para imprimir",
+  "atividades letra j 1 ano fundamental",
+  "atividades letra j 2 ano",
+  "atividades letra j educação infantil para imprimir",
+  "atividades letra j israela kotona",
+  "atividades letra k 1 ano fundamental",
+  "atividades letra k 2 ano",
+  "atividades letra k alfabetização",
+  "atividades letra k educação infantil para imprimir",
+  "atividades letra k familia silabica",
+  "atividades letra k israela kotona",
+  "atividades letra l 1 ano fundamental",
+  "atividades letra l educação infantil 5 anos",
+  "atividades letra l educação infantil para imprimir",
+  "atividades letra l israela kotona",
+  "atividades letra m 2 ano",
+  "atividades letra m educação infantil 5 anos",
+  "atividades letra m educação infantil para imprimir",
+  "atividades letra m israela kotona",
+  "atividades letra n 1 ano fundamental",
+  "atividades letra n educação infantil 5 anos",
+  "atividades letra n israela kotona",
+  "atividades letra p 1 ano fundamental",
+  "atividades letra p 2 ano",
+  "atividades letra p educação infantil para imprimir",
+  "atividades letra p israela kotona",
+  "atividades letra q 1 ano fundamental",
+  "atividades letra q 2 ano",
+  "atividades letra q cursiva educação infantil",
+  "atividades letra q educação infantil para imprimir",
+  "atividades letra q israela kotona",
+  "atividades letra r educação infantil para imprimir",
+  "atividades letra r pdf",
+  "atividades letra s 2 ano",
+  "atividades letra t cursiva educação infantil",
+  "atividades letra t educação infantil para imprimir",
+  "atividades letra t israela kotona",
+  "atividades letra t para imprimir",
+  "atividades letra u alfabetização",
+  "atividades letra u cursiva",
+  "atividades letra u educação infantil para imprimir",
+  "atividades letra u maternal",
+  "atividades letra u maternal 2",
+  "atividades letra u pontilhado",
+  "atividades letra v 2 ano",
+  "atividades letra v educação infantil para imprimir",
+  "atividades letra v familia silabica",
+  "atividades letra v israela kotona",
+  "atividades letra w 2 ano",
+  "atividades letra w alfabetização",
+  "atividades letra w cursiva",
+  "atividades letra w familia silabica",
+  "atividades letra w israela kotona",
+  "atividades letra x cursiva",
+  "atividades letra x cursiva educação infantil",
+  "atividades letra x israela kotona",
+  "atividades letra y alfabetização",
+  "atividades letra y israela kotona",
+  "atividades letra z 2 ano",
+  "atividades letra z 3 ano",
+  "atividades letra z educação infantil para imprimir",
+  "atividades letra z israela kotona",
+  "atividades letras",
+  "atividades letras cursivas",
+  "atividades letras do alfabeto",
+  "atividades letras do alfabeto educação infantil",
+  "atividades letras e fonemas",
+  "atividades letras e fonemas 3 ano",
+  "atividades letras e numeros",
+  "atividades letras e numeros educação infantil",
+  "atividades letras educação infantil",
+  "atividades letras maiusculas e minusculas",
+  "atividades matemática",
+  "atividades matemática 1 ano",
+  "atividades matemática 1 ano fundamental",
+  "atividades matemática 2 ano",
+  "atividades matemática 2 ano fundamental",
+  "atividades matemática 3 ano",
+  "atividades matemática 4 ano",
+  "atividades matemática 5 ano",
+  "atividades matemática 6 ano",
+  "atividades para tarefa de casa",
+  "atividades para tarefa de casa educação infantil",
+  "atividades primavera matemática",
+  "atividades páscoa matemática educação infantil",
+  "atividades sondagem 1 ano",
+  "atividades sondagem 2 ano",
+  "atividades sondagem 3 ano",
+  "atividades sondagem 4 ano",
+  "atividades sondagem 5 ano",
+  "atividades sondagem alfabetização",
+  "atividades sondagem educação infantil",
+  "aula de reforço educação infantil",
+  "bilhete tarefa de casa educação infantil",
+  "brinquedos 4 letras",
+  "brinquedos 5 letras",
+  "brinquedos com letras 3 anos",
+  "brinquedos com letras 4 anos",
+  "brinquedos de matemática para fazer",
+  "brinquedos de matemática para fazer em casa",
+  "brinquedos de matemática reciclável",
+  "brinquedos educativos letras",
+  "brinquedos educativos letras e numeros",
+  "brinquedos educativos matemática",
+  "brinquedos letras",
+  "brinquedos letras alfabeto",
+  "brinquedos letras e numeros",
+  "brinquedos matemática",
+  "brinquedos para aprender matemática",
+  "brinquedos para contar",
+  "brinquedos para ensinar matemática",
+  "brinquedos para matemática",
+  "brinquedos pedagogicos letras",
+  "brinquedos que envolvem matemática",
+  "caderno de reforço educação infantil",
+  "café da manhã com sete letras",
+  "capa para tarefa de casa educação infantil",
+  "clima 4 letras",
+  "clima cinco letras",
+  "clima com mais letras em ingles",
+  "clima letras",
+  "clima letras bonitas",
+  "clima letras ec",
+  "clima letras hoy",
+  "clima letras tolima",
+  "clima matemática",
+  "como contar animais em japones",
+  "como contar cores na planilha de excel",
+  "como contar cores no google planilhas",
+  "como contar espaço intercostal",
+  "concurso matemática primavera",
+  "conjunto de frutas matemática",
+  "consciência fonológica",
+  "consciência fonológica atividades",
+  "consciência fonológica e fonêmica",
+  "consciência fonológica educação infantil",
+  "consciência fonológica em crianças pequenas",
+  "consciência fonológica exemplos",
+  "consciência fonológica na alfabetização",
+  "consciência fonológica na educação infantil e no ciclo de alfabetização",
+  "consciência fonológica pdf",
+  "consciência fonológica wordwall",
+  "contar animais",
+  "contar animais ate 10 coquinhos",
+  "contar animais ja virou normal",
+  "contar brinquedos",
+  "contar cores",
+  "contar cores excel",
+  "contar cores excel formatação condicional",
+  "contar cores google sheets",
+  "contar cores no excel sem vba",
+  "contar dias 4 de julho 2023",
+  "contar dias 4 de julho 2025",
+  "contar dias 4 de julho ate hoje",
+  "contar dias 4 de julho de 2022",
+  "contar dias 4 de julho de 2026",
+  "contar dias ate 4 de julho",
+  "contar dias desde 4 de julho",
+  "contar espaço",
+  "contar espaço de tempo",
+  "contar espaço em branco excel",
+  "contar espaço entre datas",
+  "contar flores",
+  "contar formas geometricas",
+  "contar frutas para niños",
+  "contar frutas wordwall",
+  "contar frutas y verduras",
+  "contar primavera cokitos",
+  "coquinhos adição primavera",
+  "cores das letras da bandeira do brasil",
+  "cores das letras do google",
+  "cores letras",
+  "cores letras do alfabeto",
+  "cores letras ff",
+  "cores letras minecraft",
+  "cores letras mta",
+  "cores letras whatsapp",
+  "cores matemática",
+  "cores para matemática",
+  "correios letras",
+  "curso de inverno matemática",
+  "curso de inverno matemática 2025",
+  "curso de inverno matemática 2026",
+  "desafio das frutas matemática",
+  "digipuzzle adição ate 10",
+  "dinossauros com as letras do alfabeto",
+  "dinossauros letras",
+  "dinossauros vale das letras",
+  "diversos modelos de letras",
+  "diversos tipos de letras",
+  "educação especial adaptadas atividades de matemática para alunos com autismo para imprimir",
+  "educação especial atividades",
+  "educação especial atividades adaptadas",
+  "educação especial atividades adaptadas de matemática",
+  "educação especial atividades adaptadas para alunos com autismo para imprimir",
+  "educação especial atividades de coordenação motora fina",
+  "educação especial atividades para imprimir",
+  "educação especial e educação infantil com ênfase em tgd",
+  "educação especial e educação infantil faveni",
+  "educação especial e educação infantil pós faveni",
+  "educação especial e inclusiva atividades",
+  "educação especial educação infantil",
+  "educação especial inclusiva na educação infantil",
+  "educação especial na educação infantil pdf",
+  "eja educação especial atividades",
+  "emoções com 10 letras",
+  "emoções com 3 letras",
+  "emoções com 4 letras",
+  "emoções com 5 letras",
+  "emoções com 7 letras",
+  "emoções com 8 letras",
+  "emoções com as letras do alfabeto",
+  "emoções letras",
+  "emprego da letra s atividades",
+  "emprego da letra z atividades",
+  "espaço 5 letras",
+  "espaço apagando letras",
+  "espaço da matemática educação infantil",
+  "espaço e forma matemática pdf",
+  "espaço educar letras pontilhadas",
+  "espaço entre letras",
+  "espaço entre letras css",
+  "espaço entre letras word",
+  "espaço invisível letras diferentes",
+  "espaço letras",
+  "espaço matemática",
+  "estagio letras praia grande",
+  "excel contar cores celulas",
+  "familia da letra g atividades",
+  "familia silabica letra b atividades",
+  "familia silabica letra c atividades",
+  "familia silabica letra d atividades",
+  "familia silabica letra f atividades",
+  "familia silabica letra g atividades",
+  "família da letra c atividades",
+  "feliz natal letras",
+  "feliz natal letras bonitas",
+  "feliz natal letras para imprimir",
+  "feliz natal matemática",
+  "feliz páscoa letras para imprimir",
+  "ferramentas com 12 letras",
+  "ferramentas com 5 letras",
+  "ferramentas com 6 letras",
+  "ferramentas com 7 letras",
+  "ferramentas digitais para matemática",
+  "ferramentas letras",
+  "ferramentas para ensinar matemática",
+  "flores babi letras",
+  "flores letras",
+  "flores letras bonitas",
+  "flores letras latin mafia",
+  "flores letras para decorar",
+  "flores letras xavi",
+  "flores matemática",
+  "flores para contar",
+  "flores para contar y colorear",
+  "fonema e letra atividades 6 ano",
+  "formas de adição",
+  "formas de contagem matemática",
+  "formas de contar gravidez",
+  "formas de contar gravidez para familia",
+  "formas de contar histórias",
+  "formas de contar histórias na educação infantil",
+  "formas de contar o tempo",
+  "formas de contar o tempo 5 ano",
+  "formas de contar o tempo na história",
+  "formas de contar para a familia que esta gravida",
+  "formas de contar que esta gravida para o marido",
+  "formas de fazer adição",
+  "formas descritivas matemática",
+  "formas geométricas",
+  "formas geométricas 3d",
+  "formas geométricas básicas",
+  "formas geométricas da bandeira do brasil",
+  "formas geométricas educação infantil",
+  "formas geométricas em inglês",
+  "formas geométricas espaciais",
+  "formas geométricas nomes",
+  "formas geométricas para imprimir",
+  "formas geométricas planas",
+  "formas letras",
+  "formas letras alfabeto",
+  "formas letras cursivas",
+  "formas letras diferentes",
+  "formas letras e numeros",
+  "formas letras eva",
+  "formas letras instagram",
+  "formas letras para imprimir",
+  "formas letras tattoo",
+  "formas letras tatuagem",
+  "formas modulares matemática",
+  "frutas contar",
+  "frutas cristalizadas tem adição de açúcar",
+  "frutas desidratadas sem adição de açúcar",
+  "frutas letras",
+  "frutas letras b",
+  "frutas letras c",
+  "frutas letras d",
+  "frutas letras do alfabeto",
+  "frutas letras j",
+  "frutas letras l",
+  "frutas letras m",
+  "frutas letras n",
+  "frutas letras p",
+  "frutas liofilizadas tem adição de açúcar",
+  "frutas para contar",
+  "frutas para contar del 1 al 10",
+  "frutas para contar del 1 al 20",
+  "frutas para contar y colorear",
+  "frutas secas sem adição de açúcar",
+  "frutas secas tem adição de açúcar",
+  "frutas sem adição de açúcar",
+  "função contar cores",
+  "função contar cores excel",
+  "hinos de páscoa letras",
+  "horas",
+  "horas agora",
+  "horas com segundos",
+  "horas complementares",
+  "horas do jogo do brasil",
+  "horas iguais",
+  "horas iguais 1111",
+  "horas iguais significado",
+  "horas invertidas",
+  "horas trabalhadas",
+  "hospital com 10 letras",
+  "hospital contar",
+  "hospital das letras francisco manuel de melo",
+  "hospital das letras pdf",
+  "hospital letras",
+  "hospital letras e fonemas",
+  "hospital letras para imprimir",
+  "hospital matemática",
+  "hospital psiquiátrico 9 letras",
+  "hospital quantas letras e quantos fonemas",
+  "hospital tem quantas letras",
+  "inverno letras",
+  "inverno letras para colorir",
+  "inverno.com 6 letras",
+  "jogo adição até 10",
+  "jogo das cores matemática",
+  "l'hospital matemática",
+  "letra a atividades",
+  "letra a atividades 1 ano",
+  "letra a atividades de alfabetização",
+  "letra a atividades educação infantil",
+  "letra a atividades ludicas",
+  "letra a atividades maternal",
+  "letra a atividades para imprimir",
+  "letra a cursiva atividades",
+  "letra b atividades",
+  "letra b atividades 1 ano",
+  "letra b atividades cursiva",
+  "letra b atividades de alfabetização",
+  "letra b atividades educação infantil",
+  "letra b atividades infantil",
+  "letra b atividades ludicas",
+  "letra b atividades maternal",
+  "letra b atividades para imprimir",
+  "letra c atividades",
+  "letra c atividades 1 ano",
+  "letra c atividades 2 ano",
+  "letra c atividades de alfabetização",
+  "letra c atividades educação infantil",
+  "letra c atividades ludicas",
+  "letra c cursiva atividades",
+  "letra d atividades",
+  "letra d atividades 1 ano",
+  "letra d atividades 2 ano",
+  "letra d atividades de alfabetização",
+  "letra d atividades educação infantil",
+  "letra d cursiva atividades",
+  "letra e atividades",
+  "letra e atividades 1 ano",
+  "letra e atividades educação infantil",
+  "letra e atividades maternal",
+  "letra e atividades para imprimir",
+  "letra e cursiva atividades",
+  "letra e fonema atividades",
+  "letra f atividades",
+  "letra f atividades 1 ano",
+  "letra f atividades 2 ano",
+  "letra f atividades de alfabetização",
+  "letra f atividades educação infantil",
+  "letra f cursiva atividades",
+  "letra f para imprimir atividades",
+  "letra g atividades",
+  "letra g atividades 1 ano",
+  "letra g atividades 2 ano",
+  "letra g atividades alfabetização",
+  "letra g atividades educaçao infantil",
+  "letra g cursiva atividades",
+  "letra h atividades",
+  "letra h atividades 1 ano",
+  "letra h atividades 2 ano",
+  "letra h atividades 3 ano",
+  "letra h atividades 4 ano",
+  "letra h atividades alfabetização",
+  "letra h atividades educação infantil",
+  "letra h cursiva atividades",
+  "letra i atividades",
+  "letra i atividades 1 ano",
+  "letra i atividades alfabetização",
+  "letra i atividades educação infantil",
+  "letra i atividades ludicas",
+  "letra i atividades maternal",
+  "letra i atividades para imprimir",
+  "letra i cursiva atividades",
+  "letra j atividades",
+  "letra j atividades 1 ano",
+  "letra j atividades alfabetização",
+  "letra j atividades educação infantil",
+  "letra j atividades para imprimir",
+  "letra j cursiva atividades",
+  "letra k atividades",
+  "letra k atividades 1 ano",
+  "letra k atividades educação infantil",
+  "letra k cursiva atividades",
+  "letra l atividades",
+  "letra l atividades 1 ano",
+  "letra l atividades 2 ano",
+  "letra l atividades cursiva",
+  "letra l atividades de alfabetização",
+  "letra l atividades educação infantil",
+  "letra m atividades",
+  "letra m atividades 1 ano",
+  "letra m atividades cursiva",
+  "letra m atividades de alfabetização",
+  "letra m atividades educação infantil",
+  "letra m para imprimir atividades",
+  "letra n atividades",
+  "letra n atividades 1 ano",
+  "letra n atividades 2 ano",
+  "letra n atividades alfabetização",
+  "letra n atividades educação infantil",
+  "letra n cursiva atividades",
+  "letra n para imprimir atividades",
+  "letra o atividades",
+  "letra o atividades 1 ano",
+  "letra o atividades educação infantil",
+  "letra o cursiva atividades",
+  "letra p atividades",
+  "letra p atividades 1 ano",
+  "letra p atividades alfabetização",
+  "letra p atividades educação infantil",
+  "letra p atividades para imprimir",
+  "letra p cursiva atividades",
+  "letra q atividades",
+  "letra q atividades 1 ano",
+  "letra q atividades alfabetização",
+  "letra q atividades educação infantil",
+  "letra q cursiva atividades",
+  "letra r atividades",
+  "letra r atividades 1 ano",
+  "letra r atividades 2 ano",
+  "letra r atividades de alfabetização",
+  "letra r atividades educação infantil",
+  "letra r cursiva atividades",
+  "letra r entre vogais atividades 2 ano",
+  "letra s atividades",
+  "letra s atividades 1 ano",
+  "letra s atividades alfabetização",
+  "letra s atividades educação infantil",
+  "letra s cursiva atividades",
+  "letra s para imprimir atividades",
+  "letra t atividades",
+  "letra t atividades 1 ano",
+  "letra t atividades 2 ano",
+  "letra t atividades alfabetização",
+  "letra t atividades educação infantil",
+  "letra t cursiva atividades",
+  "letra u atividades",
+  "letra u atividades 1 ano",
+  "letra u atividades educação infantil",
+  "letra u atividades para imprimir",
+  "letra v atividades",
+  "letra v atividades 1 ano",
+  "letra v atividades alfabetização",
+  "letra v atividades educação infantil",
+  "letra v cursiva atividades",
+  "letra w atividades",
+  "letra w atividades 1 ano",
+  "letra w atividades educação infantil",
+  "letra x atividades",
+  "letra x atividades 1 ano",
+  "letra x atividades 2 ano",
+  "letra x atividades 5 ano",
+  "letra x atividades alfabetização",
+  "letra x atividades educação infantil",
+  "letra y atividades",
+  "letra y atividades 1 ano",
+  "letra y atividades educação infantil",
+  "letra y cursiva atividades",
+  "letra z atividades",
+  "letra z atividades 1 ano",
+  "letra z atividades de alfabetização",
+  "letra z atividades educação infantil",
+  "letra z cursiva atividades",
+  "letras animais 3d",
+  "letras chuva de verão",
+  "letras clima de rodeio",
+  "letras clima perfeito noite enluarada",
+  "letras cores diferentes",
+  "letras cores do vento",
+  "letras emoções roberto carlos",
+  "letras espaço invisível",
+  "letras espaço kids",
+  "letras flores em vida",
+  "letras flores para imprimir",
+  "letras flores png",
+  "letras flores titas",
+  "letras inverno colorir",
+  "letras inverno para imprimir",
+  "letras inverno para pintar",
+  "letras inverno pedro abrunhosa",
+  "letras móveis para alfabetização",
+  "letras móveis para imprimir",
+  "letras móveis para imprimir e recortar",
+  "letras natal canva",
+  "letras natal para imprimir",
+  "letras natal png",
+  "letras natal rn",
+  "letras natal tempo de alegria",
+  "letras natal todo dia",
+  "letras padaria",
+  "letras para decorar sala de aula",
+  "letras para sala de aula",
+  "letras primavera canva",
+  "letras primavera iir",
+  "letras primavera para colorir",
+  "letras primavera tim maia",
+  "letras razões e emoções",
+  "letras verão para colorir",
+  "letras verão para imprimir",
+  "localização no espaço matemática",
+  "louvores de páscoa letras",
+  "lógico matemática profissões",
+  "matemática correios",
+  "matemática espaço amostral",
+  "matemática espaço e forma",
+  "matemática formas geométricas",
+  "matemática formas geométricas 1 ano",
+  "matemática formas geométricas 5 ano",
+  "matemática formas geométricas 6 ano",
+  "matemática natal 1 ano",
+  "matemática natal 2 ano",
+  "matemática natal 3 ano",
+  "matemática no supermercado",
+  "matemática profissões do futuro",
+  "meu hospital letras",
+  "monstro das cores matemática",
+  "música contar as estrelas",
+  "música contar pra que ninguém precisa entender",
+  "música contar pra quê",
+  "música contar pra quê henrique e juliano",
+  "música da adição infantil",
+  "música letras",
+  "música letras do alfabeto",
+  "música letras douradas",
+  "música letras em inglês",
+  "música matemática",
+  "música matemática da vida",
+  "música matemática de deus",
+  "música matemática do amor",
+  "música matemática infantil",
+  "música matemática letra",
+  "música matemática não é bicho papão",
+  "música matemática peninha",
+  "música matemática restart",
+  "música para ensinar adição",
+  "música para trabalhar adição",
+  "natal contar dias",
+  "natal letras",
+  "natal matemática",
+  "nossa praia letras",
+  "novo espaço matemática a 10o ano pdf",
+  "novo espaço matemática a 12o ano pdf parte 2",
+  "novo espaço matemática b 10o ano pdf",
+  "noção de espaço matemática",
+  "numerais ate 20 educação infantil",
+  "numerais ate 200 atividade",
+  "numerais ate 200 para imprimir",
+  "numerais até 20",
+  "numerais até 20 atividades",
+  "numerais até 20 em inglês",
+  "numerais até 20 para imprimir",
+  "numerais até 20 por extenso",
+  "numerais até 200",
+  "numerais até 2000",
+  "objetivo da tarefa de casa na educação infantil",
+  "objeto de sala de aula com 12 letras",
+  "oficina de reforço educação infantil",
+  "orientações para tarefa de casa educação infantil",
+  "ortografia letra h atividades",
+  "padaria cafe com letras",
+  "partes do corpo com 3 letras",
+  "partes do corpo com 4 letras",
+  "partes do corpo com 5 letras",
+  "partes do corpo com 6 letras",
+  "partes do corpo com 7 letras",
+  "partes do corpo com 8 letras",
+  "partes do corpo com 9 letras",
+  "partes do corpo com duas letras",
+  "partes do corpo com letras",
+  "partes do corpo humano letras",
+  "pei educação especial pronto educação infantil",
+  "placas veículos letras estados",
+  "pode contar natal e ano novo como férias",
+  "postal dos correios letras",
+  "praia 5 letras",
+  "praia com 4 letras",
+  "praia com 5 letras",
+  "praia com 7 letras",
+  "praia com 8 letras",
+  "praia da adição",
+  "praia do futuro letras",
+  "praia do rosa letras",
+  "praia letras",
+  "primavera letras",
+  "primavera letras bonitas",
+  "primavera letras coloridas",
+  "primavera letras decoradas",
+  "primavera letras grandes",
+  "primavera letras para imprimir",
+  "primavera matemática",
+  "profissões 10 letras",
+  "profissões 7 letras",
+  "profissões 8 letras",
+  "profissões com 22 letras",
+  "profissões com 6 letras",
+  "profissões com letras do alfabeto",
+  "profissões letras",
+  "profissões matemática",
+  "profissões matemática e suas tecnologias",
+  "profissões na matemática financeira",
+  "profissões para letras",
+  "profissões que envolvem matemática",
+  "profissões que usam matemática indiretamente",
+  "profissões que usam matemática no dia a dia",
+  "profissões sem matemática",
+  "profissões todas letras alfabeto",
+  "projeto educação especial na educação infantil",
+  "projeto reforço escolar educação infantil",
+  "pré-silábico",
+  "pré-silábico 1",
+  "pré-silábico 2",
+  "pré-silábico com valor sonoro",
+  "pré-silábico exemplo",
+  "pré-silábico sem valor",
+  "pré-silábico sem valor sonoro",
+  "pré-silábico silábico",
+  "pré-silábico silábico alfabético",
+  "pré-silábico silábico silábico-alfabético e alfabético",
+  "psicogênese",
+  "psicogênese da escrita",
+  "psicogênese da língua escrita",
+  "psicogênese da língua escrita emilia ferreiro pdf",
+  "psicogênese da língua escrita emília ferreiro e ana teberosky",
+  "psicogênese da língua escrita emília ferreiro e ana teberosky pdf",
+  "psicogênese da língua escrita pdf",
+  "psicogênese da língua escrita resumo",
+  "psicogênese da pessoa completa",
+  "psicogênese significado",
+  "páscoa matemática",
+  "rastreamento correios letras",
+  "recado tarefa de casa educação infantil",
+  "reforço atividades",
+  "reforço atividades 3 ano português",
+  "reforço atividades 5 ano",
+  "reforço atividades 5 ano portugues",
+  "reforço atividades de alfabetização 2 ano",
+  "reforço atividades de alfabetização 3 ano",
+  "reforço atividades de lingua portuguesa 3 ano",
+  "reforço atividades de matematica 4 ano",
+  "reforço atividades de matemática 5 ano com respostas",
+  "reforço atividades de portugues 4 ano",
+  "reforço educação infantil",
+  "reforço escolar educação infantil",
+  "reforço negativo na educação infantil",
+  "reforço positivo educação infantil",
+  "roberto carlos café da manhã letras",
+  "roupas brancas 5 letras",
+  "roupas com 5 letras",
+  "roupas com 6 letras",
+  "roupas com 7 letras",
+  "roupas com letras do alfabeto",
+  "roupas de matemática",
+  "roupas letras",
+  "roupas para contar historia infantil",
+  "sala de aula matemática",
+  "semana da educação especial atividades",
+  "sequência de cores matemática",
+  "sequência de frutas matemática",
+  "significado letras correios",
+  "silábico",
+  "silábico alfabético",
+  "silábico alfabético atividade",
+  "silábico alfabético com valor",
+  "silábico alfabético com valor sonoro",
+  "silábico alfabético com valor sonoro exemplo",
+  "silábico alfabético exemplos",
+  "silábico alfabético sem valor sonoro",
+  "silábico alfabético significado",
+  "silábico alfabético tem hífen",
+  "silábico com valor",
+  "silábico com valor sonoro",
+  "silábico com valor sonoro exemplo",
+  "silábico pré silábico",
+  "silábico sem valor",
+  "silábico sem valor sonoro",
+  "silábico-alfabético",
+  "silábico-alfabético com valor sonoro",
+  "silábico-alfabético exemplos",
+  "silábico-alfabético para imprimir",
+  "sobre educação especial na educação infantil",
+  "som da letra s atividades",
+  "sondagem atividades",
+  "sondagem atividades volta as aulas 2 ano",
+  "sondagem atividades volta as aulas 3 ano",
+  "sondagem de escrita",
+  "sondagem de escrita 1 ano",
+  "sondagem de escrita 2 ano",
+  "sondagem de escrita 3 ano",
+  "sondagem de escrita 4 ano",
+  "sondagem de escrita animais",
+  "sondagem de escrita educação infantil",
+  "sondagem de escrita emília ferreiro",
+  "sondagem de escrita festa junina",
+  "sondagem de escrita para o 5o ano",
+  "sondagem educação infantil",
+  "sondagem educação infantil 2 anos",
+  "sondagem educação infantil 3 anos",
+  "sondagem educação infantil 4 anos",
+  "sondagem educação infantil 5 anos",
+  "sondagem educação infantil 5 anos matemática",
+  "sondagem educação infantil 5 anos pdf",
+  "sondagem educação infantil bncc",
+  "sondagem educação infantil para imprimir",
+  "sondagem educação infantil pdf",
+  "sons da letra c atividades",
+  "sons da letra r atividades",
+  "sons da letra s atividades",
+  "sons da letra v atividades",
+  "sons da letra x atividades",
+  "sopa letras verão",
+  "sílabas",
+  "sílabas canonicas",
+  "sílabas complexas",
+  "sílabas complexas para imprimir",
+  "sílabas não canônicas",
+  "sílabas palavras",
+  "sílabas para imprimir",
+  "sílabas simples",
+  "sílabas simples para imprimir",
+  "sílabas tônicas",
+  "tamanho de roupas letras e numeros",
+  "tamanhos de roupas letras",
+  "tarefa de casa atividades",
+  "tarefa de casa educação infantil",
+  "tarefa de casa educação infantil 3 anos",
+  "tarefa de casa educação infantil 4 anos",
+  "tarefa de casa educação infantil 5 anos",
+  "traçado",
+  "traçado bar",
+  "traçado construções e serviços ltda",
+  "traçado hospitalar",
+  "traçador",
+  "traçador de altura",
+  "traçador de madeira",
+  "traçador makita",
+  "traçador quimico",
+  "traçados",
+  "tudo sala de aula adição",
+  "tudo sala de aula adição 1 ano",
+  "tudo sala de aula adição 2 ano",
+  "tudo sala de aula adição e subtração",
+  "tudo sala de aula adição e subtração 1 ano",
+  "tudo sala de aula adição e subtração 2 ano",
+  "tudo sala de aula adição e subtração 3 ano",
+  "tudo sala de aula adição e subtração 4 ano",
+  "tudo sala de aula adição e subtração 5 ano",
+  "tudo sala de aula adição e subtração 6 ano",
+  "tudo sala de aula letras",
+  "tudo sala de aula letras cursivas",
+  "tudo sala de aula letras do alfabeto",
+  "tudo sala de aula letras e fonemas",
+  "tudo sala de aula letras maiusculas e minusculas",
+  "tudo sala de aula matemática",
+  "tudo sala de aula matemática 3 ano",
+  "tudo sala de aula matemática 4 ano",
+  "tudo sala de aula matemática 5 ano",
+  "tudo sala de aula matemática 6 ano",
+  "tudo sala de aula viver para contar",
+  "utensílios de cozinha com 10 letras",
+  "utensílios de cozinha com 13 letras",
+  "utensílios de cozinha com 5 letras",
+  "utensílios de cozinha com 6 letras",
+  "utensílios de cozinha com 7 letras",
+  "utensílios de cozinha com 8 letras",
+  "vegetais com 4 letras",
+  "vegetais com 5 letras",
+  "vegetais com 6 letras",
+  "vegetais com 7 letras",
+  "vegetais com 8 letras",
+  "vegetais com 9 letras",
+  "vegetais com as letras do alfabeto",
+  "verão matemática 2026",
+  "verão matemática ufba",
+  "verão matemática ufmg 2026",
+  "verão matemática ufpe",
+  "verão matemática unicamp",
+  "veículos com seis letras",
+  "wordwall adição até 100",
+  "wordwall matemática formas geometricas",
+  "wordwall matemática frutas",
+  "árvore de natal matemática"
+ ],
+ "novel": [
+  "4 de julho contar dias",
+  "4 de julho de 2024 contar dias",
+  "a letra b atividades",
+  "a letra l atividades",
+  "acampamento 5 letras",
+  "acampamento de matemática",
+  "acampamento militar 7 letras",
+  "acampamento tem quantas letras",
+  "acessórios cabeça 5 letras",
+  "acessórios com 11 letras",
+  "acessórios com 5 letras",
+  "acessórios com 6 letras",
+  "acessórios com 8 letras",
+  "acessórios com sete letras",
+  "acessórios de matemática",
+  "acessórios para contar histórias",
+  "acessórios para crocs letras",
+  "adição ate 10 wordwall",
+  "adição até 10",
+  "adição até 100",
+  "adição até 1000",
+  "adição e subtração até 10",
+  "adição natal",
+  "adição simples até 10",
+  "alfabetização",
+  "alfabetização 1 ano",
+  "alfabetização atividades",
+  "alfabetização de adultos",
+  "alfabetização e letramento",
+  "alfabetização e letramento atividades",
+  "alfabetização e letramento na educação infantil",
+  "alfabetização infantil",
+  "alfabetização matemática",
+  "alfabetização wordwall",
+  "alfabeto",
+  "alfabeto completo",
+  "alfabeto sueco",
+  "alfabético",
+  "alfabético com valor sonoro",
+  "alfabético exemplos",
+  "alfabético inicial",
+  "alfabético ortográfico",
+  "alfabético silábico",
+  "alfabéticos",
+  "alimento popular no café da manhã 8 letras",
+  "animais 4 letras",
+  "animais 5 letras",
+  "animais 6 letras",
+  "animais 7 letras",
+  "animais com letras c",
+  "animais de estimação com quatro letras",
+  "animais fantasticos adição e subtração",
+  "animais letras",
+  "animais letras d",
+  "animais letras do alfabeto",
+  "animais matemática",
+  "animais para contar",
+  "animais relacionados a matemática",
+  "animais sabem contar",
+  "aplique para roupas letras",
+  "apostila",
+  "apostila auto escola 2026 pdf grátis",
+  "apostila de alfabetização",
+  "apostila de alfabetização pdf",
+  "apostila encceja 2026",
+  "apostila enem",
+  "apostila inss 2026",
+  "apostila reforço educação infantil",
+  "apostilamento",
+  "apostilamento de haia",
+  "apostilas",
+  "atividade adição até 10",
+  "atividade adição natal",
+  "atividade contar animais",
+  "atividade contar frutas",
+  "atividade educação especial educação infantil",
+  "atividade matemática animais",
+  "atividade matemática cores",
+  "atividade matemática formas geométricas",
+  "atividade matemática frutas",
+  "atividade matemática natal 2 ano",
+  "atividade matemática natal educação infantil",
+  "atividade matemática primavera educação infantil",
+  "atividade matemática páscoa 4 ano",
+  "atividade natal matemática",
+  "atividade natal matemática 1 ano",
+  "atividade páscoa matemática",
+  "atividade páscoa matemática 3 ano",
+  "atividade reforço educação infantil",
+  "atividade tarefa de casa educação infantil",
+  "atividades adição",
+  "atividades adição 1 ano",
+  "atividades adição 2 ano",
+  "atividades adição e subtração",
+  "atividades adição e subtração 1 ano",
+  "atividades adição e subtração 2 ano",
+  "atividades adição e subtração 3 ano",
+  "atividades adição e subtração 4 ano",
+  "atividades adição e subtração de frações com denominadores diferentes",
+  "atividades adição e subtração de números inteiros 7 ano",
+  "atividades contar",
+  "atividades contar 1 ano",
+  "atividades contar de 10 em 10",
+  "atividades contar de 2 em 2",
+  "atividades contar e registrar",
+  "atividades contar medir ordenar e codificar 2 ano",
+  "atividades contar medir ordenar e codificar 3 ano",
+  "atividades contar medir ordenar e codificar 4 ano",
+  "atividades contar quantidades",
+  "atividades contar silabas",
+  "atividades de tarefa de casa 1 ano",
+  "atividades de tarefa de casa 2 ano",
+  "atividades de tarefa de casa 3 ano",
+  "atividades de tarefa de casa 4 ano",
+  "atividades letra d educação infantil 5 anos",
+  "atividades letra d educação infantil ideia criativa",
+  "atividades letra d israela kotona",
+  "atividades letra f educação infantil para imprimir",
+  "atividades letra f metodo fonico",
+  "atividades letra g educação infantil 5 anos",
+  "atividades letra g pdf",
+  "atividades letra h educação infantil para imprimir",
+  "atividades letra j 1 ano fundamental",
+  "atividades letra j 2 ano",
+  "atividades letra j educação infantil para imprimir",
+  "atividades letra j israela kotona",
+  "atividades letra k 1 ano fundamental",
+  "atividades letra k 2 ano",
+  "atividades letra k alfabetização",
+  "atividades letra k educação infantil para imprimir",
+  "atividades letra k familia silabica",
+  "atividades letra k israela kotona",
+  "atividades letra l 1 ano fundamental",
+  "atividades letra l educação infantil 5 anos",
+  "atividades letra l educação infantil para imprimir",
+  "atividades letra l israela kotona",
+  "atividades letra m 2 ano",
+  "atividades letra m educação infantil 5 anos",
+  "atividades letra m educação infantil para imprimir",
+  "atividades letra m israela kotona",
+  "atividades letra n 1 ano fundamental",
+  "atividades letra n educação infantil 5 anos",
+  "atividades letra n israela kotona",
+  "atividades letra p 1 ano fundamental",
+  "atividades letra p 2 ano",
+  "atividades letra p educação infantil para imprimir",
+  "atividades letra p israela kotona",
+  "atividades letra q 1 ano fundamental",
+  "atividades letra q 2 ano",
+  "atividades letra q cursiva educação infantil",
+  "atividades letra q educação infantil para imprimir",
+  "atividades letra q israela kotona",
+  "atividades letra r educação infantil para imprimir",
+  "atividades letra r pdf",
+  "atividades letra s 2 ano",
+  "atividades letra t cursiva educação infantil",
+  "atividades letra t educação infantil para imprimir",
+  "atividades letra t israela kotona",
+  "atividades letra t para imprimir",
+  "atividades letra u alfabetização",
+  "atividades letra u cursiva",
+  "atividades letra u educação infantil para imprimir",
+  "atividades letra u maternal",
+  "atividades letra u maternal 2",
+  "atividades letra u pontilhado",
+  "atividades letra v 2 ano",
+  "atividades letra v educação infantil para imprimir",
+  "atividades letra v familia silabica",
+  "atividades letra v israela kotona",
+  "atividades letra w 2 ano",
+  "atividades letra w alfabetização",
+  "atividades letra w cursiva",
+  "atividades letra w familia silabica",
+  "atividades letra w israela kotona",
+  "atividades letra x cursiva",
+  "atividades letra x cursiva educação infantil",
+  "atividades letra x israela kotona",
+  "atividades letra y alfabetização",
+  "atividades letra y israela kotona",
+  "atividades letra z 2 ano",
+  "atividades letra z 3 ano",
+  "atividades letra z educação infantil para imprimir",
+  "atividades letra z israela kotona",
+  "atividades letras",
+  "atividades letras cursivas",
+  "atividades letras do alfabeto",
+  "atividades letras do alfabeto educação infantil",
+  "atividades letras e fonemas",
+  "atividades letras e fonemas 3 ano",
+  "atividades letras e numeros",
+  "atividades letras e numeros educação infantil",
+  "atividades letras educação infantil",
+  "atividades letras maiusculas e minusculas",
+  "atividades matemática",
+  "atividades matemática 1 ano",
+  "atividades matemática 1 ano fundamental",
+  "atividades matemática 2 ano",
+  "atividades matemática 2 ano fundamental",
+  "atividades matemática 3 ano",
+  "atividades matemática 4 ano",
+  "atividades matemática 5 ano",
+  "atividades matemática 6 ano",
+  "atividades para tarefa de casa",
+  "atividades para tarefa de casa educação infantil",
+  "atividades primavera matemática",
+  "atividades páscoa matemática educação infantil",
+  "atividades sondagem 1 ano",
+  "atividades sondagem 2 ano",
+  "atividades sondagem 3 ano",
+  "atividades sondagem 4 ano",
+  "atividades sondagem 5 ano",
+  "atividades sondagem alfabetização",
+  "atividades sondagem educação infantil",
+  "aula de reforço educação infantil",
+  "bilhete tarefa de casa educação infantil",
+  "brinquedos 4 letras",
+  "brinquedos 5 letras",
+  "brinquedos com letras 3 anos",
+  "brinquedos com letras 4 anos",
+  "brinquedos de matemática para fazer",
+  "brinquedos de matemática para fazer em casa",
+  "brinquedos de matemática reciclável",
+  "brinquedos educativos letras",
+  "brinquedos educativos letras e numeros",
+  "brinquedos educativos matemática",
+  "brinquedos letras",
+  "brinquedos letras alfabeto",
+  "brinquedos letras e numeros",
+  "brinquedos matemática",
+  "brinquedos para aprender matemática",
+  "brinquedos para contar",
+  "brinquedos para ensinar matemática",
+  "brinquedos para matemática",
+  "brinquedos pedagogicos letras",
+  "brinquedos que envolvem matemática",
+  "caderno de reforço educação infantil",
+  "café da manhã com sete letras",
+  "capa para tarefa de casa educação infantil",
+  "clima 4 letras",
+  "clima cinco letras",
+  "clima com mais letras em ingles",
+  "clima letras",
+  "clima letras bonitas",
+  "clima letras ec",
+  "clima letras hoy",
+  "clima letras tolima",
+  "clima matemática",
+  "como contar animais em japones",
+  "como contar cores na planilha de excel",
+  "como contar cores no google planilhas",
+  "como contar espaço intercostal",
+  "concurso matemática primavera",
+  "conjunto de frutas matemática",
+  "contar animais",
+  "contar animais ate 10 coquinhos",
+  "contar animais ja virou normal",
+  "contar brinquedos",
+  "contar cores",
+  "contar cores excel",
+  "contar cores excel formatação condicional",
+  "contar cores google sheets",
+  "contar cores no excel sem vba",
+  "contar dias 4 de julho 2023",
+  "contar dias 4 de julho 2025",
+  "contar dias 4 de julho ate hoje",
+  "contar dias 4 de julho de 2022",
+  "contar dias 4 de julho de 2026",
+  "contar dias ate 4 de julho",
+  "contar dias desde 4 de julho",
+  "contar espaço",
+  "contar espaço de tempo",
+  "contar espaço em branco excel",
+  "contar espaço entre datas",
+  "contar flores",
+  "contar formas geometricas",
+  "contar frutas para niños",
+  "contar frutas wordwall",
+  "contar frutas y verduras",
+  "contar primavera cokitos",
+  "coquinhos adição primavera",
+  "cores das letras da bandeira do brasil",
+  "cores das letras do google",
+  "cores letras",
+  "cores letras do alfabeto",
+  "cores letras ff",
+  "cores letras minecraft",
+  "cores letras mta",
+  "cores letras whatsapp",
+  "cores matemática",
+  "cores para matemática",
+  "correios letras",
+  "curso de inverno matemática",
+  "curso de inverno matemática 2025",
+  "curso de inverno matemática 2026",
+  "desafio das frutas matemática",
+  "digipuzzle adição ate 10",
+  "dinossauros com as letras do alfabeto",
+  "dinossauros letras",
+  "dinossauros vale das letras",
+  "diversos modelos de letras",
+  "diversos tipos de letras",
+  "educação especial adaptadas atividades de matemática para alunos com autismo para imprimir",
+  "educação especial atividades",
+  "educação especial atividades adaptadas",
+  "educação especial atividades adaptadas de matemática",
+  "educação especial atividades adaptadas para alunos com autismo para imprimir",
+  "educação especial atividades de coordenação motora fina",
+  "educação especial atividades para imprimir",
+  "educação especial e educação infantil com ênfase em tgd",
+  "educação especial e educação infantil faveni",
+  "educação especial e educação infantil pós faveni",
+  "educação especial e inclusiva atividades",
+  "educação especial educação infantil",
+  "educação especial inclusiva na educação infantil",
+  "educação especial na educação infantil pdf",
+  "eja educação especial atividades",
+  "emoções com 10 letras",
+  "emoções com 3 letras",
+  "emoções com 4 letras",
+  "emoções com 5 letras",
+  "emoções com 7 letras",
+  "emoções com 8 letras",
+  "emoções com as letras do alfabeto",
+  "emoções letras",
+  "emprego da letra s atividades",
+  "emprego da letra z atividades",
+  "espaço 5 letras",
+  "espaço apagando letras",
+  "espaço da matemática educação infantil",
+  "espaço e forma matemática pdf",
+  "espaço educar letras pontilhadas",
+  "espaço entre letras",
+  "espaço entre letras css",
+  "espaço entre letras word",
+  "espaço invisível letras diferentes",
+  "espaço letras",
+  "espaço matemática",
+  "estagio letras praia grande",
+  "excel contar cores celulas",
+  "familia da letra g atividades",
+  "familia silabica letra b atividades",
+  "familia silabica letra c atividades",
+  "familia silabica letra d atividades",
+  "familia silabica letra f atividades",
+  "familia silabica letra g atividades",
+  "família da letra c atividades",
+  "feliz natal letras",
+  "feliz natal letras bonitas",
+  "feliz natal letras para imprimir",
+  "feliz natal matemática",
+  "feliz páscoa letras para imprimir",
+  "ferramentas com 12 letras",
+  "ferramentas com 5 letras",
+  "ferramentas com 6 letras",
+  "ferramentas com 7 letras",
+  "ferramentas digitais para matemática",
+  "ferramentas letras",
+  "ferramentas para ensinar matemática",
+  "flores babi letras",
+  "flores letras",
+  "flores letras bonitas",
+  "flores letras latin mafia",
+  "flores letras para decorar",
+  "flores letras xavi",
+  "flores matemática",
+  "flores para contar",
+  "flores para contar y colorear",
+  "fonema e letra atividades 6 ano",
+  "formas de adição",
+  "formas de contagem matemática",
+  "formas de contar gravidez",
+  "formas de contar gravidez para familia",
+  "formas de contar histórias",
+  "formas de contar histórias na educação infantil",
+  "formas de contar o tempo",
+  "formas de contar o tempo 5 ano",
+  "formas de contar o tempo na história",
+  "formas de contar para a familia que esta gravida",
+  "formas de contar que esta gravida para o marido",
+  "formas de fazer adição",
+  "formas descritivas matemática",
+  "formas geométricas",
+  "formas geométricas 3d",
+  "formas geométricas básicas",
+  "formas geométricas da bandeira do brasil",
+  "formas geométricas educação infantil",
+  "formas geométricas em inglês",
+  "formas geométricas espaciais",
+  "formas geométricas nomes",
+  "formas geométricas para imprimir",
+  "formas geométricas planas",
+  "formas letras",
+  "formas letras alfabeto",
+  "formas letras cursivas",
+  "formas letras diferentes",
+  "formas letras e numeros",
+  "formas letras eva",
+  "formas letras instagram",
+  "formas letras para imprimir",
+  "formas letras tattoo",
+  "formas letras tatuagem",
+  "formas modulares matemática",
+  "frutas contar",
+  "frutas cristalizadas tem adição de açúcar",
+  "frutas desidratadas sem adição de açúcar",
+  "frutas letras",
+  "frutas letras b",
+  "frutas letras c",
+  "frutas letras d",
+  "frutas letras do alfabeto",
+  "frutas letras j",
+  "frutas letras l",
+  "frutas letras m",
+  "frutas letras n",
+  "frutas letras p",
+  "frutas liofilizadas tem adição de açúcar",
+  "frutas para contar",
+  "frutas para contar del 1 al 10",
+  "frutas para contar del 1 al 20",
+  "frutas para contar y colorear",
+  "frutas secas sem adição de açúcar",
+  "frutas secas tem adição de açúcar",
+  "frutas sem adição de açúcar",
+  "função contar cores",
+  "função contar cores excel",
+  "hinos de páscoa letras",
+  "horas",
+  "horas agora",
+  "horas com segundos",
+  "horas complementares",
+  "horas do jogo do brasil",
+  "horas iguais",
+  "horas iguais 1111",
+  "horas iguais significado",
+  "horas invertidas",
+  "horas trabalhadas",
+  "hospital com 10 letras",
+  "hospital contar",
+  "hospital das letras francisco manuel de melo",
+  "hospital das letras pdf",
+  "hospital letras",
+  "hospital letras e fonemas",
+  "hospital letras para imprimir",
+  "hospital matemática",
+  "hospital psiquiátrico 9 letras",
+  "hospital quantas letras e quantos fonemas",
+  "hospital tem quantas letras",
+  "inverno letras",
+  "inverno letras para colorir",
+  "inverno.com 6 letras",
+  "jogo adição até 10",
+  "jogo das cores matemática",
+  "l'hospital matemática",
+  "letra a atividades",
+  "letra a atividades 1 ano",
+  "letra a atividades de alfabetização",
+  "letra a atividades educação infantil",
+  "letra a atividades ludicas",
+  "letra a atividades maternal",
+  "letra a atividades para imprimir",
+  "letra a cursiva atividades",
+  "letra b atividades",
+  "letra b atividades 1 ano",
+  "letra b atividades cursiva",
+  "letra b atividades de alfabetização",
+  "letra b atividades educação infantil",
+  "letra b atividades infantil",
+  "letra b atividades ludicas",
+  "letra b atividades maternal",
+  "letra b atividades para imprimir",
+  "letra c atividades",
+  "letra c atividades 1 ano",
+  "letra c atividades 2 ano",
+  "letra c atividades de alfabetização",
+  "letra c atividades educação infantil",
+  "letra c atividades ludicas",
+  "letra c cursiva atividades",
+  "letra d atividades",
+  "letra d atividades 1 ano",
+  "letra d atividades 2 ano",
+  "letra d atividades de alfabetização",
+  "letra d atividades educação infantil",
+  "letra d cursiva atividades",
+  "letra e atividades",
+  "letra e atividades 1 ano",
+  "letra e atividades educação infantil",
+  "letra e atividades maternal",
+  "letra e atividades para imprimir",
+  "letra e cursiva atividades",
+  "letra e fonema atividades",
+  "letra f atividades",
+  "letra f atividades 1 ano",
+  "letra f atividades 2 ano",
+  "letra f atividades de alfabetização",
+  "letra f atividades educação infantil",
+  "letra f cursiva atividades",
+  "letra f para imprimir atividades",
+  "letra g atividades",
+  "letra g atividades 1 ano",
+  "letra g atividades 2 ano",
+  "letra g atividades alfabetização",
+  "letra g atividades educaçao infantil",
+  "letra g cursiva atividades",
+  "letra h atividades",
+  "letra h atividades 1 ano",
+  "letra h atividades 2 ano",
+  "letra h atividades 3 ano",
+  "letra h atividades 4 ano",
+  "letra h atividades alfabetização",
+  "letra h atividades educação infantil",
+  "letra h cursiva atividades",
+  "letra i atividades",
+  "letra i atividades 1 ano",
+  "letra i atividades alfabetização",
+  "letra i atividades educação infantil",
+  "letra i atividades ludicas",
+  "letra i atividades maternal",
+  "letra i atividades para imprimir",
+  "letra i cursiva atividades",
+  "letra j atividades",
+  "letra j atividades 1 ano",
+  "letra j atividades alfabetização",
+  "letra j atividades educação infantil",
+  "letra j atividades para imprimir",
+  "letra j cursiva atividades",
+  "letra k atividades",
+  "letra k atividades 1 ano",
+  "letra k atividades educação infantil",
+  "letra k cursiva atividades",
+  "letra l atividades",
+  "letra l atividades 1 ano",
+  "letra l atividades 2 ano",
+  "letra l atividades cursiva",
+  "letra l atividades de alfabetização",
+  "letra l atividades educação infantil",
+  "letra m atividades",
+  "letra m atividades 1 ano",
+  "letra m atividades cursiva",
+  "letra m atividades de alfabetização",
+  "letra m atividades educação infantil",
+  "letra m para imprimir atividades",
+  "letra n atividades",
+  "letra n atividades 1 ano",
+  "letra n atividades 2 ano",
+  "letra n atividades alfabetização",
+  "letra n atividades educação infantil",
+  "letra n cursiva atividades",
+  "letra n para imprimir atividades",
+  "letra o atividades",
+  "letra o atividades 1 ano",
+  "letra o atividades educação infantil",
+  "letra o cursiva atividades",
+  "letra p atividades",
+  "letra p atividades 1 ano",
+  "letra p atividades alfabetização",
+  "letra p atividades educação infantil",
+  "letra p atividades para imprimir",
+  "letra p cursiva atividades",
+  "letra q atividades",
+  "letra q atividades 1 ano",
+  "letra q atividades alfabetização",
+  "letra q atividades educação infantil",
+  "letra q cursiva atividades",
+  "letra r atividades",
+  "letra r atividades 1 ano",
+  "letra r atividades 2 ano",
+  "letra r atividades de alfabetização",
+  "letra r atividades educação infantil",
+  "letra r cursiva atividades",
+  "letra r entre vogais atividades 2 ano",
+  "letra s atividades",
+  "letra s atividades 1 ano",
+  "letra s atividades alfabetização",
+  "letra s atividades educação infantil",
+  "letra s cursiva atividades",
+  "letra s para imprimir atividades",
+  "letra t atividades",
+  "letra t atividades 1 ano",
+  "letra t atividades 2 ano",
+  "letra t atividades alfabetização",
+  "letra t atividades educação infantil",
+  "letra t cursiva atividades",
+  "letra u atividades",
+  "letra u atividades 1 ano",
+  "letra u atividades educação infantil",
+  "letra u atividades para imprimir",
+  "letra v atividades",
+  "letra v atividades 1 ano",
+  "letra v atividades alfabetização",
+  "letra v atividades educação infantil",
+  "letra v cursiva atividades",
+  "letra w atividades",
+  "letra w atividades 1 ano",
+  "letra w atividades educação infantil",
+  "letra x atividades",
+  "letra x atividades 1 ano",
+  "letra x atividades 2 ano",
+  "letra x atividades 5 ano",
+  "letra x atividades alfabetização",
+  "letra x atividades educação infantil",
+  "letra y atividades",
+  "letra y atividades 1 ano",
+  "letra y atividades educação infantil",
+  "letra y cursiva atividades",
+  "letra z atividades",
+  "letra z atividades 1 ano",
+  "letra z atividades de alfabetização",
+  "letra z atividades educação infantil",
+  "letra z cursiva atividades",
+  "letras animais 3d",
+  "letras chuva de verão",
+  "letras clima de rodeio",
+  "letras clima perfeito noite enluarada",
+  "letras cores diferentes",
+  "letras cores do vento",
+  "letras emoções roberto carlos",
+  "letras espaço invisível",
+  "letras espaço kids",
+  "letras flores em vida",
+  "letras flores para imprimir",
+  "letras flores png",
+  "letras flores titas",
+  "letras inverno colorir",
+  "letras inverno para imprimir",
+  "letras inverno para pintar",
+  "letras inverno pedro abrunhosa",
+  "letras móveis para alfabetização",
+  "letras móveis para imprimir",
+  "letras móveis para imprimir e recortar",
+  "letras natal canva",
+  "letras natal para imprimir",
+  "letras natal png",
+  "letras natal rn",
+  "letras natal tempo de alegria",
+  "letras natal todo dia",
+  "letras padaria",
+  "letras para decorar sala de aula",
+  "letras para sala de aula",
+  "letras primavera canva",
+  "letras primavera iir",
+  "letras primavera para colorir",
+  "letras primavera tim maia",
+  "letras razões e emoções",
+  "letras verão para colorir",
+  "letras verão para imprimir",
+  "localização no espaço matemática",
+  "louvores de páscoa letras",
+  "lógico matemática profissões",
+  "matemática correios",
+  "matemática espaço amostral",
+  "matemática espaço e forma",
+  "matemática formas geométricas",
+  "matemática formas geométricas 1 ano",
+  "matemática formas geométricas 5 ano",
+  "matemática formas geométricas 6 ano",
+  "matemática natal 1 ano",
+  "matemática natal 2 ano",
+  "matemática natal 3 ano",
+  "matemática no supermercado",
+  "matemática profissões do futuro",
+  "meu hospital letras",
+  "monstro das cores matemática",
+  "música contar as estrelas",
+  "música contar pra que ninguém precisa entender",
+  "música contar pra quê",
+  "música contar pra quê henrique e juliano",
+  "música da adição infantil",
+  "música letras",
+  "música letras do alfabeto",
+  "música letras douradas",
+  "música letras em inglês",
+  "música matemática",
+  "música matemática da vida",
+  "música matemática de deus",
+  "música matemática do amor",
+  "música matemática infantil",
+  "música matemática letra",
+  "música matemática não é bicho papão",
+  "música matemática peninha",
+  "música matemática restart",
+  "música para ensinar adição",
+  "música para trabalhar adição",
+  "natal contar dias",
+  "natal letras",
+  "natal matemática",
+  "nossa praia letras",
+  "novo espaço matemática a 10o ano pdf",
+  "novo espaço matemática a 12o ano pdf parte 2",
+  "novo espaço matemática b 10o ano pdf",
+  "noção de espaço matemática",
+  "numerais ate 20 educação infantil",
+  "numerais ate 200 atividade",
+  "numerais ate 200 para imprimir",
+  "numerais até 20",
+  "numerais até 20 atividades",
+  "numerais até 20 em inglês",
+  "numerais até 20 para imprimir",
+  "numerais até 20 por extenso",
+  "numerais até 200",
+  "numerais até 2000",
+  "objetivo da tarefa de casa na educação infantil",
+  "objeto de sala de aula com 12 letras",
+  "oficina de reforço educação infantil",
+  "orientações para tarefa de casa educação infantil",
+  "ortografia letra h atividades",
+  "padaria cafe com letras",
+  "partes do corpo com 3 letras",
+  "partes do corpo com 4 letras",
+  "partes do corpo com 5 letras",
+  "partes do corpo com 6 letras",
+  "partes do corpo com 7 letras",
+  "partes do corpo com 8 letras",
+  "partes do corpo com 9 letras",
+  "partes do corpo com duas letras",
+  "partes do corpo com letras",
+  "partes do corpo humano letras",
+  "pei educação especial pronto educação infantil",
+  "placas veículos letras estados",
+  "pode contar natal e ano novo como férias",
+  "postal dos correios letras",
+  "praia 5 letras",
+  "praia com 4 letras",
+  "praia com 5 letras",
+  "praia com 7 letras",
+  "praia com 8 letras",
+  "praia da adição",
+  "praia do futuro letras",
+  "praia do rosa letras",
+  "praia letras",
+  "primavera letras",
+  "primavera letras bonitas",
+  "primavera letras coloridas",
+  "primavera letras decoradas",
+  "primavera letras grandes",
+  "primavera letras para imprimir",
+  "primavera matemática",
+  "profissões 10 letras",
+  "profissões 7 letras",
+  "profissões 8 letras",
+  "profissões com 22 letras",
+  "profissões com 6 letras",
+  "profissões com letras do alfabeto",
+  "profissões letras",
+  "profissões matemática",
+  "profissões matemática e suas tecnologias",
+  "profissões na matemática financeira",
+  "profissões para letras",
+  "profissões que envolvem matemática",
+  "profissões que usam matemática indiretamente",
+  "profissões que usam matemática no dia a dia",
+  "profissões sem matemática",
+  "profissões todas letras alfabeto",
+  "projeto educação especial na educação infantil",
+  "projeto reforço escolar educação infantil",
+  "pré-silábico",
+  "pré-silábico 1",
+  "pré-silábico 2",
+  "pré-silábico com valor sonoro",
+  "pré-silábico exemplo",
+  "pré-silábico sem valor",
+  "pré-silábico sem valor sonoro",
+  "pré-silábico silábico",
+  "pré-silábico silábico alfabético",
+  "pré-silábico silábico silábico-alfabético e alfabético",
+  "psicogênese",
+  "psicogênese da escrita",
+  "psicogênese da língua escrita",
+  "psicogênese da língua escrita emilia ferreiro pdf",
+  "psicogênese da língua escrita emília ferreiro e ana teberosky",
+  "psicogênese da língua escrita emília ferreiro e ana teberosky pdf",
+  "psicogênese da língua escrita pdf",
+  "psicogênese da língua escrita resumo",
+  "psicogênese da pessoa completa",
+  "psicogênese significado",
+  "páscoa matemática",
+  "rastreamento correios letras",
+  "recado tarefa de casa educação infantil",
+  "reforço atividades",
+  "reforço atividades 3 ano português",
+  "reforço atividades 5 ano",
+  "reforço atividades 5 ano portugues",
+  "reforço atividades de alfabetização 2 ano",
+  "reforço atividades de alfabetização 3 ano",
+  "reforço atividades de lingua portuguesa 3 ano",
+  "reforço atividades de matematica 4 ano",
+  "reforço atividades de matemática 5 ano com respostas",
+  "reforço atividades de portugues 4 ano",
+  "reforço educação infantil",
+  "reforço escolar educação infantil",
+  "reforço negativo na educação infantil",
+  "reforço positivo educação infantil",
+  "roberto carlos café da manhã letras",
+  "roupas brancas 5 letras",
+  "roupas com 5 letras",
+  "roupas com 6 letras",
+  "roupas com 7 letras",
+  "roupas com letras do alfabeto",
+  "roupas de matemática",
+  "roupas letras",
+  "roupas para contar historia infantil",
+  "sala de aula matemática",
+  "semana da educação especial atividades",
+  "sequência de cores matemática",
+  "sequência de frutas matemática",
+  "significado letras correios",
+  "silábico",
+  "silábico alfabético",
+  "silábico alfabético atividade",
+  "silábico alfabético com valor",
+  "silábico alfabético com valor sonoro",
+  "silábico alfabético com valor sonoro exemplo",
+  "silábico alfabético exemplos",
+  "silábico alfabético sem valor sonoro",
+  "silábico alfabético significado",
+  "silábico alfabético tem hífen",
+  "silábico com valor",
+  "silábico com valor sonoro",
+  "silábico com valor sonoro exemplo",
+  "silábico pré silábico",
+  "silábico sem valor",
+  "silábico sem valor sonoro",
+  "silábico-alfabético",
+  "silábico-alfabético com valor sonoro",
+  "silábico-alfabético exemplos",
+  "silábico-alfabético para imprimir",
+  "sobre educação especial na educação infantil",
+  "som da letra s atividades",
+  "sondagem atividades",
+  "sondagem atividades volta as aulas 2 ano",
+  "sondagem atividades volta as aulas 3 ano",
+  "sondagem de escrita",
+  "sondagem de escrita 1 ano",
+  "sondagem de escrita 2 ano",
+  "sondagem de escrita 3 ano",
+  "sondagem de escrita 4 ano",
+  "sondagem de escrita animais",
+  "sondagem de escrita educação infantil",
+  "sondagem de escrita emília ferreiro",
+  "sondagem de escrita festa junina",
+  "sondagem de escrita para o 5o ano",
+  "sondagem educação infantil",
+  "sondagem educação infantil 2 anos",
+  "sondagem educação infantil 3 anos",
+  "sondagem educação infantil 4 anos",
+  "sondagem educação infantil 5 anos",
+  "sondagem educação infantil 5 anos matemática",
+  "sondagem educação infantil 5 anos pdf",
+  "sondagem educação infantil bncc",
+  "sondagem educação infantil para imprimir",
+  "sondagem educação infantil pdf",
+  "sons da letra c atividades",
+  "sons da letra r atividades",
+  "sons da letra s atividades",
+  "sons da letra v atividades",
+  "sons da letra x atividades",
+  "sopa letras verão",
+  "sílabas",
+  "sílabas canonicas",
+  "sílabas complexas",
+  "sílabas complexas para imprimir",
+  "sílabas não canônicas",
+  "sílabas palavras",
+  "sílabas para imprimir",
+  "sílabas simples",
+  "sílabas simples para imprimir",
+  "sílabas tônicas",
+  "tamanho de roupas letras e numeros",
+  "tamanhos de roupas letras",
+  "tarefa de casa atividades",
+  "tarefa de casa educação infantil",
+  "tarefa de casa educação infantil 3 anos",
+  "tarefa de casa educação infantil 4 anos",
+  "tarefa de casa educação infantil 5 anos",
+  "traçado",
+  "traçado bar",
+  "traçado construções e serviços ltda",
+  "traçado hospitalar",
+  "traçador",
+  "traçador de altura",
+  "traçador de madeira",
+  "traçador makita",
+  "traçador quimico",
+  "traçados",
+  "tudo sala de aula adição",
+  "tudo sala de aula adição 1 ano",
+  "tudo sala de aula adição 2 ano",
+  "tudo sala de aula adição e subtração",
+  "tudo sala de aula adição e subtração 1 ano",
+  "tudo sala de aula adição e subtração 2 ano",
+  "tudo sala de aula adição e subtração 3 ano",
+  "tudo sala de aula adição e subtração 4 ano",
+  "tudo sala de aula adição e subtração 5 ano",
+  "tudo sala de aula adição e subtração 6 ano",
+  "tudo sala de aula letras",
+  "tudo sala de aula letras cursivas",
+  "tudo sala de aula letras do alfabeto",
+  "tudo sala de aula letras e fonemas",
+  "tudo sala de aula letras maiusculas e minusculas",
+  "tudo sala de aula matemática",
+  "tudo sala de aula matemática 3 ano",
+  "tudo sala de aula matemática 4 ano",
+  "tudo sala de aula matemática 5 ano",
+  "tudo sala de aula matemática 6 ano",
+  "tudo sala de aula viver para contar",
+  "utensílios de cozinha com 10 letras",
+  "utensílios de cozinha com 13 letras",
+  "utensílios de cozinha com 5 letras",
+  "utensílios de cozinha com 6 letras",
+  "utensílios de cozinha com 7 letras",
+  "utensílios de cozinha com 8 letras",
+  "vegetais com 4 letras",
+  "vegetais com 5 letras",
+  "vegetais com 6 letras",
+  "vegetais com 7 letras",
+  "vegetais com 8 letras",
+  "vegetais com 9 letras",
+  "vegetais com as letras do alfabeto",
+  "verão matemática 2026",
+  "verão matemática ufba",
+  "verão matemática ufmg 2026",
+  "verão matemática ufpe",
+  "verão matemática unicamp",
+  "veículos com seis letras",
+  "wordwall adição até 100",
+  "wordwall matemática formas geometricas",
+  "wordwall matemática frutas",
+  "árvore de natal matemática"
+ ],
+ "refilteredAt": "2026-07-20T08:58:53.390Z"
+}

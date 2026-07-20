@@ -1,6 +1,6 @@
 {
  "locale": "fi",
- "generatedAt": "2026-07-20T11:43:09.208Z",
+ "generatedAt": "2026-07-20T12:05:56.433Z",
  "corpusSize": 650,
  "note": "Real harvested queries per exercise type. Seeds are native to this locale — taxonomy name, engine TYPE_MAP ops, topic-override copy, native-verified leads. Never translated.",
  "pools": {
@@ -12,8 +12,6 @@
     "Yhteenlaskutehtäviä lapsille – tulosta ilmaiseksi"
    ],
    "framings": [
-    "pdf yhdistäminen ilmaiseksi",
-    "ilmaiset tulostettavat tehtävät",
     "yhteenlasku tehtäviä",
     "yhteenlasku allekkain tehtäviä",
     "murtolukujen yhteenlasku tehtäviä"
@@ -42,9 +40,7 @@
     "Kuvapolku: löydä oikea reitti ruudukossa",
     "Labyrintit ja kuvapolut – tehtäviä lapsille (PDF)"
    ],
-   "framings": [
-    "labyrintti tehtäviä lapsille"
-   ]
+   "framings": []
   },
   "picture-trail": {
    "seeds": [
@@ -74,11 +70,7 @@
     "Kuvakoodilaskut: ratko symbolit ja laske",
     "Kuvakoodilaskut lapsille – laske ja ratko (PDF)"
    ],
-   "framings": [
-    "yhteenlasku tehtäviä",
-    "yhteenlasku allekkain tehtäviä",
-    "murtolukujen yhteenlasku tehtäviä"
-   ]
+   "framings": []
   },
   "more-less": {
    "seeds": [
@@ -90,8 +82,7 @@
    "framings": [
     "enemmän vähemmän eskari",
     "enemmän vähemmän tehtäviä",
-    "enemmän vähemmän harjoituksia",
-    "vertailu tehtäviä lapsille"
+    "enemmän vähemmän harjoituksia"
    ]
   },
   "math-puzzle": {
@@ -105,28 +96,12 @@
    ],
    "framings": [
     "matematiikka 1 luokka tehtäviä",
-    "looginen päättelytehtävä",
-    "yhteenlasku tehtäviä",
-    "vähennyslasku tehtäviä",
-    "looginen päättely eskari",
-    "looginen päättely tehtäviä",
     "eskari matematiikka tehtäviä",
-    "looginen päättely harjoituksia",
-    "looginen päättely tehtäviä amk",
     "matematiikka tehtäviä lapsille",
-    "yhteenlasku allekkain tehtäviä",
     "matematiikka geometria tehtäviä",
     "alkuopetus matematiikka tehtäviä",
     "matematiikka murtoluvut tehtäviä",
-    "vähennyslasku allekkain tehtäviä",
-    "yhteen ja vähennyslasku tehtäviä",
-    "matematiikka mittaaminen tehtäviä",
-    "murtolukujen yhteenlasku tehtäviä",
-    "looginen päättelykyky harjoituksia",
-    "looginen päättely tehtäviä lapsille",
-    "looginen päättely tehtäviä psykologia",
-    "looginen päättelykyky testi harjoitus",
-    "yhteen ja vähennyslasku tehtäviä 0 100"
+    "matematiikka mittaaminen tehtäviä"
    ]
   },
   "math-worksheet": {
@@ -135,26 +110,7 @@
     "Sekalaiset matematiikan tehtävät lapsille",
     "Sekalaisia matematiikan tehtäviä lapsille (PDF)"
    ],
-   "framings": [
-    "tulostettavia matematiikan tehtäviä 1 luokkalaisille",
-    "tulostettavia matematiikan tehtäviä 2 luokkalaisille",
-    "matematiikka 1 luokka tehtäviä",
-    "matematiikan tehtäviä 1 luokkalaisille",
-    "matematiikan tehtäviä 2 luokkalaisille",
-    "matematiikan tehtäviä 1 2 luokkalaisille",
-    "sanallisia matematiikan tehtäviä 2 luokka",
-    "tulostettavat matematiikan tehtävät",
-    "matematiikan tehtävät",
-    "eskari matematiikka tehtäviä",
-    "matematiikan tehtäviä netissä",
-    "matematiikka tehtäviä lapsille",
-    "matematiikka geometria tehtäviä",
-    "alkuopetus matematiikka tehtäviä",
-    "matematiikan tehtävä englanniksi",
-    "matematiikka murtoluvut tehtäviä",
-    "matematiikka mittaaminen tehtäviä",
-    "lukimat matematiikan tehtävät esiopetus"
-   ]
+   "framings": []
   },
   "big-small": {
    "seeds": [
@@ -166,7 +122,6 @@
    ],
    "framings": [
     "tehtäviä pienille lapsille",
-    "vertailu tehtäviä lapsille",
     "iso vai pieni alkukirjain tehtävä"
    ]
   },
@@ -222,15 +177,7 @@
     "Ruudukkoyhdistys: sijoita kuva oikeaan ruutuun",
     "Ruudukkotehtäviä lapsille – hahmottaminen (PDF)"
    ],
-   "framings": [
-    "hahmottaminen eskari",
-    "hahmottaminen tehtäviä",
-    "hahmottaminen esiopetus",
-    "eskarimatikka hahmottaminen",
-    "hahmottaminen tehtäviä lapsille",
-    "hahmottamisen tehtäviä lapsille",
-    "avaruudellinen hahmottaminen tehtäviä"
-   ]
+   "framings": []
   },
   "matching": {
    "seeds": [
@@ -241,19 +188,7 @@
     "Yhdistä kuvat pareiksi – tehtäviä lapsille (PDF)"
    ],
    "framings": [
-    "pdf yhdistäminen ilmaiseksi",
-    "mikä ei kuulu joukkoon tulostettava",
-    "yhteenlasku tehtäviä",
-    "kirjain tehtäviä lapsille",
-    "kirjaimet sekaisin tehtäviä",
-    "kirjanpito tehtäviä netissä",
-    "mikä ei kuulu joukkoon tehtävä",
-    "yhteenlasku allekkain tehtäviä",
-    "mikä ei kuulu joukkoon tehtäviä",
-    "yhteen ja vähennyslasku tehtäviä",
-    "murtolukujen yhteenlasku tehtäviä",
-    "yhteen ja vähennyslasku tehtäviä 0 100",
-    "mikä ei kuulu joukkoon tehtävä lapsille"
+    "pdf yhdistäminen ilmaiseksi"
    ]
   },
   "picture-sort": {
@@ -266,15 +201,6 @@
    ],
    "framings": [
     "lajittelutehtäviä lapsille",
-    "mikä ei kuulu joukkoon tulostettava",
-    "yhteenlasku tehtäviä",
-    "mikä ei kuulu joukkoon tehtävä",
-    "yhteenlasku allekkain tehtäviä",
-    "mikä ei kuulu joukkoon tehtäviä",
-    "yhteen ja vähennyslasku tehtäviä",
-    "murtolukujen yhteenlasku tehtäviä",
-    "yhteen ja vähennyslasku tehtäviä 0 100",
-    "mikä ei kuulu joukkoon tehtävä lapsille",
     "lajittelutehtäviä"
    ]
   },
@@ -286,13 +212,7 @@
     "Varjojen yhdistäminen: mikä varjo kuuluu kuvaan?",
     "Varjotehtäviä lapsille – yhdistä kuva ja varjo (PDF)"
    ],
-   "framings": [
-    "pdf yhdistäminen ilmaiseksi",
-    "mikä ei kuulu joukkoon tulostettava",
-    "mikä ei kuulu joukkoon tehtävä",
-    "mikä ei kuulu joukkoon tehtäviä",
-    "mikä ei kuulu joukkoon tehtävä lapsille"
-   ]
+   "framings": []
   },
   "alphabet-train": {
    "seeds": [
@@ -300,9 +220,7 @@
     "Aakkosjuna: aakkoset oikeaan järjestykseen",
     "Aakkostehtäviä lapsille – aakkoset järjestykseen (PDF)"
    ],
-   "framings": [
-    "aakkoset tehtäviä lapsille"
-   ]
+   "framings": []
   },
   "prepositions": {
    "seeds": [
@@ -321,11 +239,7 @@
     "Arvaa sana: kirjain kerrallaan kohti ratkaisua",
     "Arvaa sana – kirjainpulmia lapsille (PDF)"
    ],
-   "framings": [
-    "kirjain tehtäviä lapsille",
-    "kirjaimet sekaisin tehtäviä",
-    "kirjanpito tehtäviä netissä"
-   ]
+   "framings": []
   },
   "word-scramble": {
    "seeds": [
@@ -333,10 +247,7 @@
     "Kirjainsekoitus: järjestä kirjaimet sanaksi",
     "Sekoitetut kirjaimet – järjestä sanaksi (PDF)"
    ],
-   "framings": [
-    "kirjain tehtäviä lapsille",
-    "kirjaimet sekaisin tehtäviä"
-   ]
+   "framings": []
   },
   "wordsearch": {
    "seeds": [
@@ -369,11 +280,7 @@
     "Etsi ja laske: löydä kuvat ja laske määrä",
     "Etsi ja laske – tehtäviä lapsille (PDF)"
    ],
-   "framings": [
-    "kirjain tehtäviä lapsille",
-    "kirjaimet sekaisin tehtäviä",
-    "kirjanpito tehtäviä netissä"
-   ]
+   "framings": []
   },
   "find-objects": {
    "seeds": [
@@ -421,16 +328,7 @@
     "mikä ei kuulu joukkoon tulostettava",
     "mikä ei kuulu joukkoon tehtävä",
     "mikä ei kuulu joukkoon tehtäviä",
-    "mikä ei kuulu joukkoon tehtävä lapsille",
-    "looginen päättely eskari",
-    "looginen päättelytehtävä",
-    "looginen päättely tehtäviä",
-    "looginen päättely harjoituksia",
-    "looginen päättely tehtäviä amk",
-    "looginen päättelykyky harjoituksia",
-    "looginen päättely tehtäviä lapsille",
-    "looginen päättely tehtäviä psykologia",
-    "looginen päättelykyky testi harjoitus"
+    "mikä ei kuulu joukkoon tehtävä lapsille"
    ]
   },
   "counting-pictures": {
@@ -439,9 +337,7 @@
     "Laske kuvat: lukumäärän harjoittelua",
     "Laske kuvat – lukumäärätehtäviä lapsille (PDF)"
    ],
-   "framings": [
-    "lukumäärä tehtäviä lapsille"
-   ]
+   "framings": []
   },
   "counting-frames": {
    "seeds": [
@@ -449,16 +345,7 @@
     "Kymmenkehys: hahmota lukumäärät kehyksessä",
     "Kymmenkehys – lukumäärän hahmottaminen (PDF)"
    ],
-   "framings": [
-    "hahmottaminen eskari",
-    "hahmottaminen tehtäviä",
-    "hahmottaminen esiopetus",
-    "eskarimatikka hahmottaminen",
-    "hahmottaminen tehtäviä lapsille",
-    "hahmottamisen tehtäviä lapsille",
-    "avaruudellinen hahmottaminen tehtäviä",
-    "lukumäärä tehtäviä lapsille"
-   ]
+   "framings": []
   },
   "tally-counting": {
    "seeds": [
@@ -466,9 +353,7 @@
     "Tukkimiehen kirjanpito: laske viivoilla",
     "Tukkimiehen kirjanpito – laske ja merkitse (PDF)"
    ],
-   "framings": [
-    "kirjanpito tehtäviä netissä"
-   ]
+   "framings": []
   },
   "number-charts": {
    "seeds": [
@@ -476,18 +361,7 @@
     "Lukutaulu: harjoituksia lukualueella 100",
     "Lukutaulu ja satataulu – tehtäviä (PDF)"
    ],
-   "framings": [
-    "tavutus harjoituksia",
-    "kymmenylitys harjoituksia",
-    "hienomotoriikka harjoituksia",
-    "enemmän vähemmän harjoituksia",
-    "kymmenjärjestelmä harjoituksia",
-    "looginen päättely harjoituksia",
-    "looginen päättelykyky harjoituksia",
-    "kielellinen tietoisuus harjoituksia",
-    "hienomotoriikka harjoituksia lapsille",
-    "hienomotoriikka harjoituksia aikuisille"
-   ]
+   "framings": []
   },
   "comparing-numbers": {
    "seeds": [
@@ -495,12 +369,7 @@
     "Lukujen vertailu merkeillä <, > ja =",
     "Lukujen vertailu: suurempi, pienempi, yhtä suuri (PDF)"
    ],
-   "framings": [
-    "lukujono tehtäviä",
-    "lukujono esiopetus",
-    "lukujono tehtäviä lapsille",
-    "vertailu tehtäviä lapsille"
-   ]
+   "framings": []
   },
   "comparing-groups": {
    "seeds": [
@@ -511,8 +380,7 @@
    "framings": [
     "enemmän vähemmän eskari",
     "enemmän vähemmän tehtäviä",
-    "enemmän vähemmän harjoituksia",
-    "vertailu tehtäviä lapsille"
+    "enemmän vähemmän harjoituksia"
    ]
   },
   "comparing-sizes": {
@@ -521,11 +389,7 @@
     "Kokojen vertailu: löydä suurin ja pienin",
     "Kokojen vertailu – järjestä koon mukaan (PDF)"
    ],
-   "framings": [
-    "tehtäviä pienille lapsille",
-    "vertailu tehtäviä lapsille",
-    "iso vai pieni alkukirjain tehtävä"
-   ]
+   "framings": []
   },
   "number-lines": {
    "seeds": [
@@ -544,12 +408,7 @@
     "Paikka-arvo: kymmenet ja ykköset",
     "Kymmenet ja ykköset – paikka-arvo (PDF)"
    ],
-   "framings": [
-    "kymmenylitys tehtäviä",
-    "kymmenylitys harjoituksia",
-    "kymmenjärjestelmä tehtäviä",
-    "kymmenjärjestelmä harjoituksia"
-   ]
+   "framings": []
   },
   "telling-time": {
    "seeds": [
@@ -561,8 +420,7 @@
     "kellonajat eskari",
     "kellonajat tehtäviä",
     "kellonajat esiopetus",
-    "kellonajat tehtäviä lapsille",
-    "kello tehtäviä lapsille"
+    "kellonajat tehtäviä lapsille"
    ]
   },
   "fractions": {
@@ -611,12 +469,10 @@
     "geometriset muodot tehtävä",
     "geometriset muodot lapsille",
     "geometriset muodot esiopetus",
-    "muodot tehtäviä",
     "geometria tehtäviä",
     "geometria esiopetus",
     "geometria tehtäviä 2lk",
     "geometria tehtäviä lukio",
-    "muodot tehtäviä lapsille",
     "3 luokan geometria tehtäviä",
     "5 luokan geometria tehtäviä",
     "matematiikka geometria tehtäviä"
@@ -636,8 +492,7 @@
     "mittaaminen esiopetus",
     "kulman mittaaminen tehtäviä",
     "painon mittaaminen esiopetus",
-    "matematiikka mittaaminen tehtäviä",
-    "vertailu tehtäviä lapsille"
+    "matematiikka mittaaminen tehtäviä"
    ]
   },
   "visual-logic": {
@@ -650,7 +505,6 @@
     "looginen päättely eskari",
     "looginen päättelytehtävä",
     "looginen päättely tehtäviä",
-    "pdf yhdistäminen ilmaiseksi",
     "looginen päättely harjoituksia",
     "looginen päättely tehtäviä amk",
     "looginen päättelykyky harjoituksia",
@@ -667,22 +521,12 @@
    ],
    "framings": [
     "hahmottaminen eskari",
-    "tavutus harjoituksia",
     "hahmottaminen tehtäviä",
     "hahmottaminen esiopetus",
-    "kymmenylitys harjoituksia",
     "eskarimatikka hahmottaminen",
-    "hienomotoriikka harjoituksia",
-    "enemmän vähemmän harjoituksia",
-    "kymmenjärjestelmä harjoituksia",
-    "looginen päättely harjoituksia",
     "hahmottaminen tehtäviä lapsille",
     "hahmottamisen tehtäviä lapsille",
-    "looginen päättelykyky harjoituksia",
-    "kielellinen tietoisuus harjoituksia",
-    "avaruudellinen hahmottaminen tehtäviä",
-    "hienomotoriikka harjoituksia lapsille",
-    "hienomotoriikka harjoituksia aikuisille"
+    "avaruudellinen hahmottaminen tehtäviä"
    ]
   },
   "visual-matching": {
@@ -691,9 +535,7 @@
     "Kuvaparit: löydä samanlaiset kuvat",
     "Kuvaparit – yhdistä samanlaiset kuvat (PDF)"
    ],
-   "framings": [
-    "pdf yhdistäminen ilmaiseksi"
-   ]
+   "framings": []
   },
   "patterns": {
    "seeds": [
@@ -709,26 +551,7 @@
     "Sijainti- ja suuntakäsitteet matematiikassa",
     "Sijainti- ja suuntakäsitteet – tehtäviä (PDF)"
    ],
-   "framings": [
-    "tulostettavia matematiikan tehtäviä 1 luokkalaisille",
-    "tulostettavia matematiikan tehtäviä 2 luokkalaisille",
-    "matematiikka 1 luokka tehtäviä",
-    "matematiikan tehtäviä 1 luokkalaisille",
-    "matematiikan tehtäviä 2 luokkalaisille",
-    "matematiikan tehtäviä 1 2 luokkalaisille",
-    "sanallisia matematiikan tehtäviä 2 luokka",
-    "tulostettavat matematiikan tehtävät",
-    "matematiikan tehtävät",
-    "eskari matematiikka tehtäviä",
-    "matematiikan tehtäviä netissä",
-    "matematiikka tehtäviä lapsille",
-    "matematiikka geometria tehtäviä",
-    "alkuopetus matematiikka tehtäviä",
-    "matematiikan tehtävä englanniksi",
-    "matematiikka murtoluvut tehtäviä",
-    "matematiikka mittaaminen tehtäviä",
-    "lukimat matematiikan tehtävät esiopetus"
-   ]
+   "framings": []
   },
   "sorting-categories": {
    "seeds": [
@@ -755,14 +578,7 @@
     "Ympäristöoppi: lajittele ja tutki luontoa",
     "Ympäristöoppi: lajittele ja yhdistä (PDF)"
    ],
-   "framings": [
-    "ympäristöoppi 1 luokka tehtäviä",
-    "pdf yhdistäminen ilmaiseksi",
-    "luonto tehtäviä lapsille",
-    "lajittelutehtäviä lapsille",
-    "luontopolku tehtäviä lapsille",
-    "lajittelutehtäviä"
-   ]
+   "framings": []
   },
   "science-sequence": {
    "seeds": [
@@ -770,9 +586,7 @@
     "Elämänkierto: järjestä luonnon vaiheet",
     "Järjestys ja elämänkierto – tehtäviä (PDF)"
    ],
-   "framings": [
-    "tehtäviä luonnossa lapsille"
-   ]
+   "framings": []
   },
   "science-match": {
    "seeds": [
@@ -780,11 +594,7 @@
     "Ympäristötieto: yhdistä kuva ja käsite",
     "Ympäristöoppi: yhdistä kuvat ja käsitteet (PDF)"
    ],
-   "framings": [
-    "pdf yhdistäminen ilmaiseksi",
-    "ympäristöoppi 1 luokka tehtäviä",
-    "käsite tehtäviä lapsille"
-   ]
+   "framings": []
   },
   "beginning-sounds": {
    "seeds": [
@@ -800,10 +610,7 @@
     "Kirjaintuntemus: tunnista ja erottele kirjaimet",
     "Kirjaintuntemus – tunnista kirjaimet (PDF)"
    ],
-   "framings": [
-    "kirjain tehtäviä lapsille",
-    "kirjaimet sekaisin tehtäviä"
-   ]
+   "framings": []
   },
   "word-building": {
    "seeds": [
@@ -811,11 +618,7 @@
     "Sananrakennus: rakenna sana kirjain kerrallaan",
     "Sananrakennus – rakenna sana kirjaimista (PDF)"
    ],
-   "framings": [
-    "kirjain tehtäviä lapsille",
-    "kirjaimet sekaisin tehtäviä",
-    "kirjanpito tehtäviä netissä"
-   ]
+   "framings": []
   },
   "picture-vocabulary": {
    "seeds": [
@@ -833,11 +636,7 @@
    ],
    "framings": [
     "kielellinen tietoisuus esiopetus",
-    "kielellinen tietoisuus harjoituksia",
-    "tavutus tehtäviä",
-    "tavutetut tehtävät",
-    "tavutus harjoituksia",
-    "kielellisiä tehtäviä lapsille"
+    "kielellinen tietoisuus harjoituksia"
    ]
   }
  }

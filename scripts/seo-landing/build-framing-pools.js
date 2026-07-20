@@ -51,6 +51,11 @@ const JUNK = new RegExp([
   'floor puzzle', 'wooden', '\\btoy\\b', '\\btoys\\b', 'youtube', '\\bgame apk\\b',
   'kryssord', 'kreuzwortr', 'crossword clue', 'cruciverba soluzioni',
 
+  // STATIONERY, not a worksheet skill. "graphing paper printable" is blank grid
+  // paper; it was assigned to picture-graph pages, which teach reading a graph.
+  'graph(?:ing)? paper', 'grid paper', 'papier millim', 'rutat papper', 'ruutupaperi',
+  'millimeterpapier', 'papel cuadriculado', 'carta millimetrata',
+
   // COMPETITOR BRANDS. Observed: "wordwall beginning sounds kindergarten" was
   // assigned to one of our pages. Putting a rival's brand in our title chases a
   // navigational query we cannot win and advertises them on our own page.
@@ -288,6 +293,40 @@ function nativeSeeds(type, locale, engine, overrides, mode) {
   return [...out];
 }
 
+/** A stem appearing in this many of the locale's types names no worksheet. */
+const GENERIC_DF = 3;
+
+/** Below this a pool cannot differentiate its pages, so widen the admission. */
+const POOL_FLOOR = 12;
+
+/**
+ * A query joins the pool only on a stem DISTINCTIVE to this type. Where a type
+ * owns no distinctive stem at all — pattern-worksheet, patterns and
+ * science-match in en, whose whole vocabulary is shared with siblings — require
+ * two stems to CO-OCCUR instead. Still far tighter than the single generic stem
+ * that admitted every maths query to code-addition, and it keeps those three
+ * pools populated rather than emptying them.
+ */
+function admits(qt, phraseStems, distinctive, floor) {
+  const hit = (st) => qt.some((w) => w.startsWith(st));
+  for (const ps of phraseStems) {
+    if (!ps.length) continue;
+    // Widened mode drops the distinctive requirement, so it must NOT also accept
+    // a lone generic stem: `Picture Maze` reduces to [pictur] (maze is too short
+    // to stem) and admitted "picture matching worksheets" onto a maze page.
+    if (ps.length < (floor || 1)) continue;
+    // A multiword concept must arrive whole. "color by number" carries the
+    // stems [color, number]; matching `color` alone admitted "colors worksheets
+    // for grade 1" — a colour-recognition query — onto a colour-by-number
+    // addition sheet. Single-stem phrases keep single-stem admission.
+    const present = ps.filter(hit);
+    if (present.length < Math.min(2, ps.length)) continue;
+    if (!distinctive) return true;
+    if (present.some((st) => distinctive.has(st))) return true;
+  }
+  return false;
+}
+
 function scoreFraming(q, seedStems, locale) {
   let s = 0;
   const qt = toks(q);
@@ -327,6 +366,13 @@ function buildLocale(locale, opts) {
   const chrome = C.chromeTokens(locale);
   const chromeStems = buildChromeStems(chrome);
 
+  // Vocabulary already verified dead or wrong-market for this locale must never
+  // enter a pool. The corpus is raw autocomplete, so it happily contains it: one
+  // it framing carried "con soluzioni" (someone wanting the ANSWERS to a
+  // published crossword), which the writer's fail-closed guard then rejected.
+  const never = ((C.SURFACE && C.SURFACE[locale]) || {}).NEVER || [];
+  const isDead = (q) => never.some((d) => q.includes(String(d).toLowerCase()));
+
   // Which (type, mode) pairs actually exist in this locale's landings, so a pool
   // is only split where real pages need it.
   const modesByType = new Map();
@@ -350,6 +396,25 @@ function buildLocale(locale, opts) {
   }
   const seenKey = new Set();
 
+  // A stem shared by many types identifies no worksheet in particular. "Secret
+  // Code Math" seeds `math`, "Treasure Hunt Puzzles" seeds `puzzle`, "Word
+  // Scramble" seeds `word` — and because admission took ANY single shared stem,
+  // every maths query entered code-addition and every sight-word query entered
+  // word-scramble, giving a direction-following sheet the title "math puzzles
+  // kindergarten". So measure each stem's document frequency across this
+  // locale's own types and let only DISTINCTIVE stems admit; generic ones keep
+  // contributing to the score. Same principle as buildModeDistinctiveWords: a
+  // word shared with siblings identifies nothing.
+  //
+  // Computed over ALL types, never the --type filter, so one type's pool cannot
+  // change depending on which types were built alongside it.
+  const stemDF = new Map();
+  for (const type of types) {
+    const s = new Set(nativeSeeds(type, locale, engine, overrides, null)
+      .flatMap((x) => stems(x, chrome, chromeStems)));
+    for (const st of s) stemDF.set(st, (stemDF.get(st) || 0) + 1);
+  }
+
   const pools = {};
   for (const { key, type, mode } of work) {
     if (seenKey.has(key)) continue;
@@ -357,18 +422,50 @@ function buildLocale(locale, opts) {
     const seeds = nativeSeeds(type, locale, engine, overrides, mode);
     const seedStems = [...new Set(seeds.flatMap((x) => stems(x, chrome, chromeStems)))];
     if (!seedStems.length) { pools[key] = { seeds, framings: [] }; continue; }
+    const distinctive = new Set(seedStems.filter((st) => (stemDF.get(st) || 0) < GENERIC_DF));
+    // A type's OWN name is its identity even where the stem is common across the
+    // catalogue. `additi` appears in four types' seeds, so DF calls it generic —
+    // yet "addition worksheets kindergarten pdf" is exactly the query the
+    // addition pages should hold, and DF alone demoted them to "adding 2nd
+    // grade". Name stems are distinctive for the type that is named by them.
+    //
+    // Only a SINGLE-stem name promotes, though. "Addition" is that one concept,
+    // so `additi` identifies it. "Picture Trail" is not identified by `pictur`
+    // alone — promoting it re-admitted "picture matching worksheets" onto a maze
+    // page. A multiword name identifies its type only as a WHOLE, which the
+    // phrase co-occurrence rule below already enforces.
+    const ownName = ((TAXONOMY.axes['exercise-type'][type] || {}).name || {})[locale];
+    const nameStems = stems(ownName || '', chrome, chromeStems);
+    if (nameStems.length === 1) distinctive.add(nameStems[0]);
+    // Stems grouped BY SEED PHRASE, so a multiword concept can be required whole.
+    const phraseStems = seeds.map((x) => [...new Set(stems(x, chrome, chromeStems))]).filter((a) => a.length);
 
-    const scored = [];
-    for (const q of corpus) {
-      if (JUNK.test(q)) continue;
-      if (!edu.test(q)) continue;
-      // Informational intent, not "give me a worksheet". Observed in the first
-      // assignment: "letter recognition preschool benefits" was handed to a
-      // worksheet page. Someone asking why a skill matters does not want a PDF.
-      if (INFORMATIONAL.test(q)) continue;
-      const qt = toks(q);
-      if (!seedStems.some((st) => qt.some((w) => w.startsWith(st)))) continue;
-      scored.push({ q, score: scoreFraming(q, seedStems, locale) });
+    const scan = (admit) => {
+      const acc = [];
+      for (const q of corpus) {
+        if (JUNK.test(q)) continue;
+        if (isDead(q)) continue;
+        if (!edu.test(q)) continue;
+        // Informational intent, not "give me a worksheet". Observed in the first
+        // assignment: "letter recognition preschool benefits" was handed to a
+        // worksheet page. Someone asking why a skill matters does not want a PDF.
+        if (INFORMATIONAL.test(q)) continue;
+        const qt = toks(q);
+        if (!admit(qt)) continue;
+        acc.push({ q, score: scoreFraming(q, seedStems, locale) });
+      }
+      return acc;
+    };
+
+    // Prefer distinctive-stem admission. But a type can own a distinctive stem
+    // that no real query contains (a rare truncation), which emptied `matching`
+    // — 559 pages — on the first run. So when the strict pass comes back too
+    // thin, fall back to requiring two stems to CO-OCCUR, which still excludes
+    // the single-generic-stem matches that caused the wrong titles.
+    let scored = distinctive.size ? scan((qt) => admits(qt, phraseStems, distinctive)) : [];
+    if (scored.length < POOL_FLOOR) {
+      const wider = scan((qt) => admits(qt, phraseStems, null, 2));
+      if (wider.length > scored.length) scored = wider;
     }
     scored.sort((a, b) => b.score - a.score || a.q.length - b.q.length || (a.q < b.q ? -1 : 1));
 

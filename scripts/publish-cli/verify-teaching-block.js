@@ -223,10 +223,19 @@ function checkOne(slug, block, f, fails) {
      * pictured "Sechseck", and "Flip" with "Flip Flops" — 228 false failures. It was also
      * trying to catch something the generator cannot do, since the copy only ever draws from
      * depictedNouns. Comparing the two lists is exact and cannot be fooled by prose. */
+    /* Normalise the trailing filename number on BOTH sides, per §20.5. The image library
+     * names the second postman picture in a theme `Cartero 2`, and the copy strips that,
+     * because no Spanish teacher would write it. Comparing raw labels against stripped ones
+     * reported 41 correct blocks across five locales as naming an object that is not on the
+     * sheet — the copy was right and the measure was wrong.
+     *
+     * The strip also collapses `Dress 4` and `Dress 2` to one `Dress`, which is what a reader
+     * wants: the sheet shows two dresses, not two different garments. */
+    var strip = function (n) { return String(n).replace(/\s+\d+$/, '').toLowerCase(); };
     var pictured = {};
-    (f.depictedNouns || []).forEach(function (n) { pictured[String(n).toLowerCase()] = true; });
+    (f.depictedNouns || []).forEach(function (n) { pictured[strip(n)] = true; });
     (block.namedObjects || []).forEach(function (n) {
-      if (!pictured[String(n).toLowerCase()]) {
+      if (!pictured[strip(n)]) {
         add('objects', 'names ' + n + ' which is not pictured on this sheet');
       } else if (text.indexOf(n) === -1) {
         add('objects', 'records ' + n + ' as named but it does not appear in the text');

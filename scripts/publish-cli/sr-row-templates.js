@@ -23,6 +23,9 @@
 
 /* ------------------------------------------------------- source patterns (en) */
 var en = {
+  srPicturesLabel: 'Pictures',
+  srRowPictureSort: 'Picture {n}: {name}. Decide which group it belongs to.',
+  srWordLength: 'The word has {k} letters.',
   srWorksheetQuestions: 'Worksheet questions',
   /* These three exist in NO translations file — the apps only ever had the hardcoded English
    * literal, so nine locales were never even a fallback away from correct. Captured from the
@@ -66,6 +69,9 @@ var en = {
 
 /* ------------------------------------------------------------------- Dutch */
 var nl = {
+  srPicturesLabel: 'Afbeeldingen',
+  srRowPictureSort: 'Afbeelding {n}: {name}. Bepaal bij welke groep het hoort.',
+  srWordLength: 'Het woord heeft {k} letters.',
   srExerciseMathWorksheet: 'Vraag {n}: zoek uit hoeveel elke afbeelding waard is met behulp van deze vergelijkingen: {equations}.',
   srExerciseWordGuess: 'Vraag {n}: spel het woord bij de afbeelding. Sommige letters zijn al ingevuld.',
   srExerciseWordScramble: 'Vraag {n}: vorm met deze letters het woord bij de afbeelding: {letters}.',
@@ -108,6 +114,9 @@ var nl = {
 /* No placeholder ever follows de/du/de la — the elision hazard (d'ovale, d'étoile) is avoided
  * outright. Size adjectives agree with the fixed feminine `image`, never with an inserted noun. */
 var fr = {
+  srPicturesLabel: 'Images',
+  srRowPictureSort: 'Image {n} : {name}. Décide à quel groupe elle appartient.',
+  srWordLength: 'Le mot a {k} lettres.',
   srExerciseMathWorksheet: "Question {n} : Trouve la valeur de chaque image à l'aide de ces équations : {equations}.",
   srExerciseWordGuess: "Question {n} : écris le mot correspondant à l'image. Certaines lettres sont déjà inscrites.",
   srExerciseWordScramble: "Question {n} : remets les lettres dans l'ordre pour écrire le mot correspondant à l'image : {letters}.",
@@ -148,6 +157,9 @@ var fr = {
 
 /* ----------------------------------------------------------------- Spanish */
 var es = {
+  srPicturesLabel: 'Imágenes',
+  srRowPictureSort: 'Imagen {n}: {name}. Decide a qué grupo pertenece.',
+  srWordLength: 'La palabra tiene {k} letras.',
   srExerciseMathWorksheet: 'Pregunta {n}: Averigua cuánto vale cada imagen usando estas ecuaciones: {equations}.',
   srExerciseWordGuess: 'Pregunta {n}: Escribe la palabra de la imagen. Algunas letras ya están puestas.',
   srExerciseWordScramble: 'Pregunta {n}: Ordena las letras para escribir la palabra de la imagen: {letters}.',
@@ -190,6 +202,9 @@ var es = {
 /* Article allomorphy (il/lo/la/l') and preposition fusion (di+il→del) are both unknowable at
  * runtime, so every inserted noun sits after a colon or in a comma apposition. */
 var it = {
+  srPicturesLabel: 'Immagini',
+  srRowPictureSort: 'Immagine {n}: {name}. Decidi a quale gruppo appartiene.',
+  srWordLength: 'La parola ha {k} lettere.',
   srExerciseMathWorksheet: 'Domanda {n}: scopri quanto vale ogni immagine usando queste equazioni: {equations}.',
   srExerciseWordGuess: "Domanda {n}: scrivi la parola dell'immagine. Alcune lettere sono già inserite.",
   srExerciseWordScramble: "Domanda {n}: rimetti in ordine le lettere per scrivere la parola dell'immagine: {letters}.",
@@ -230,6 +245,9 @@ var it = {
 
 /* ----------------------------------------------- Portuguese (Brazilian) */
 var pt = {
+  srPicturesLabel: 'Imagens',
+  srRowPictureSort: 'Imagem {n}: {name}. Decida a qual grupo pertence.',
+  srWordLength: 'A palavra tem {k} letras.',
   srExerciseMathWorksheet: 'Questão {n}: Descubra quanto vale cada imagem usando estas equações: {equations}.',
   srExerciseWordGuess: 'Questão {n}: Escreva a palavra da imagem. Algumas letras já estão preenchidas.',
   srExerciseWordScramble: 'Questão {n}: Coloque as letras na ordem certa para escrever a palavra da imagem: {letters}.',
@@ -270,6 +288,9 @@ var pt = {
 
 /* ----------------------------------------------------------------- Swedish */
 var sv = {
+  srPicturesLabel: 'Bilder',
+  srRowPictureSort: 'Bild {n}: {name}. Bestäm vilken grupp den hör till.',
+  srWordLength: 'Ordet har {k} bokstäver.',
   srExerciseMathWorksheet: 'Uppgift {n}: Ta reda på vad varje bild är värd med hjälp av dessa ekvationer: {equations}.',
   srExerciseWordGuess: 'Uppgift {n}: Skriv ordet som bilden visar. Några bokstäver är redan ifyllda.',
   srExerciseWordScramble: 'Uppgift {n}: Lägg bokstäverna i rätt ordning så att de bildar ordet som bilden visar: {letters}.',
@@ -312,6 +333,9 @@ var sv = {
 /* Anaphora is anchored to a KNOWN-gender word — `billedet` (neuter), `halvdel` (common) —
  * never to the inserted noun, so `det`/`den` are always right. */
 var da = {
+  srPicturesLabel: 'Billeder',
+  srRowPictureSort: 'Billede {n}: {name}. Bestem hvilken gruppe det hører til.',
+  srWordLength: 'Ordet har {k} bogstaver.',
   srExerciseMathWorksheet: 'Spørgsmål {n}: Find ud af, hvad hvert billede er værd, ved hjælp af disse ligninger: {equations}.',
   srExerciseWordGuess: 'Spørgsmål {n}: Stav ordet, der passer til billedet. Nogle bogstaver er allerede sat ind.',
   srExerciseWordScramble: 'Spørgsmål {n}: Sæt bogstaverne i den rigtige rækkefølge, så de danner ordet, der passer til billedet: {letters}.',
@@ -354,6 +378,9 @@ var da = {
 /* The hardest locale and the reason the brief exists: an uninflectable nominative noun cannot
  * sit in a case-governed slot, so every one of them follows a colon. */
 var fi = {
+  srPicturesLabel: 'Kuvat',
+  srRowPictureSort: 'Kuva {n}: {name}. Päätä, mihin ryhmään se kuuluu.',
+  srWordLength: 'Sanassa on {k} kirjainta.',
   srExerciseMathWorksheet: 'Tehtävä {n}: Päättele kunkin kuvan arvo näistä yhtälöistä: {equations}.',
   srExerciseWordGuess: 'Tehtävä {n}: Kirjoita kuvaan sopiva sana. Osa kirjaimista on jo valmiina.',
   srExerciseWordScramble: 'Tehtävä {n}: Järjestä kirjaimet niin, että niistä muodostuu kuvaan sopiva sana: {letters}.',
@@ -396,6 +423,9 @@ var fi = {
 /* Deliberately not a Swedish calque — `regnestykke` for a maths item, `vogn` not `vagn`, and
  * the demonstrative always attaches to `bildet`/`biten`, never to the inserted noun. */
 var no = {
+  srPicturesLabel: 'Bilder',
+  srRowPictureSort: 'Bilde {n}: {name}. Bestem hvilken gruppe det hører til.',
+  srWordLength: 'Ordet har {k} bokstaver.',
   srExerciseMathWorksheet: 'Spørsmål {n}: Finn ut hva hvert bilde er verdt ved hjelp av disse likningene: {equations}.',
   srExerciseWordGuess: 'Spørsmål {n}: Skriv ordet som passer til bildet. Noen bokstaver er allerede fylt inn.',
   srExerciseWordScramble: 'Spørsmål {n}: Sett bokstavene i riktig rekkefølge så de danner ordet som passer til bildet: {letters}.',
@@ -432,6 +462,17 @@ var no = {
   srExerciseShadowMatchShadow: 'Spørsmål {n}: Finn skyggen som hører til dette bildet: {item}. Trekk strek mellom dem.',
   srExerciseSubtraction: 'Regnestykke {n}: {operandA} minus {operandB} er lik tom rute.',
   srExerciseSubtractionFindSubtrahend: 'Regnestykke {n}: {operandA} minus tom rute er lik {result}.',
+};
+
+
+/* ------------------------------------------------------------------ German */
+/* German needs no row TRANSLATIONS — its decks shipped with German rows — but its pages carry
+ * the same repeated generic sentences as everyone else's, so it needs the row-CONTENT strings. */
+var de = {
+  srWorksheetQuestions: 'Arbeitsblatt-Fragen',
+  srPicturesLabel: 'Bilder',
+  srRowPictureSort: 'Bild {n}: {name}. Entscheide, zu welcher Gruppe es gehört.',
+  srWordLength: 'Das Wort hat {k} Buchstaben.',
 };
 
 /* ------------------------------------------------------------ shape words */
@@ -499,7 +540,7 @@ function shapeWord(englishToken, locale) {
 }
 
 module.exports = {
-  en: en, nl: nl, fr: fr, es: es, it: it, pt: pt, sv: sv, da: da, no: no, fi: fi,
+  en: en, de: de, nl: nl, fr: fr, es: es, it: it, pt: pt, sv: sv, da: da, no: no, fi: fi,
   shapeWord: shapeWord,
   arithmeticWords: arithmeticWords,
 };

@@ -35,6 +35,8 @@
 var fs = require('fs');
 var path = require('path');
 var T = require('./sr-row-templates.js');
+var C = require('./sr-row-content.js');
+var V = require('./teaching-vocab.js');
 
 var DECKS_ROOT = '/var/www/lcs-media/decks';
 
@@ -147,6 +149,65 @@ function encode(s) {
  * Rewrite the sr block of one deck.html.
  * Returns { changed, html, rows } — `rows` is how many lines were translated.
  */
+/**
+ * Replace the whole row list with rows that name what is in each exercise.
+ *
+ * Separate from the translation path because it rebuilds rather than rewrites: the existing
+ * row is kept as the sentence stem and the per-deck facts are appended to it, so the wording a
+ * native practitioner authored survives and only the missing content is added.
+ *
+ * ALL-OR-NOTHING. `enrichedRows` returns null whenever a deck's data does not support every
+ * row, and then nothing is touched — a page with three informative rows and two generic ones
+ * would read worse than a page with five generic ones.
+ */
+function enrichSrBlock(html, locale, manifest, bundle) {
+  var start = html.indexOf('<section class="lcs-sr" aria-label="');
+
+  /* picture-sort has NO section at all — not an empty one, none — so for that type the whole
+   * block is created. It goes immediately before the outbound-link sections, which is where
+   * every other type's already sits, so the reading order is the same everywhere: the
+   * worksheet, then what is in it, then where to go next. */
+  if (start === -1) {
+    var rowsNew = C.enrichedRows(manifest.exercise_type, manifest, locale, [], bundle);
+    var label = (T[locale] && T[locale].srWorksheetQuestions) || null;
+    if (!rowsNew || !rowsNew.length || !label) return { changed: false, rows: 0 };
+    var anchors = ['<aside class="lcs-end-deck"', '<section class="lcs-deckend-suggestions"', '</body>'];
+    var at = -1;
+    for (var ai = 0; ai < anchors.length && at === -1; ai++) at = html.indexOf(anchors[ai]);
+    if (at === -1) return { changed: false, rows: 0 };
+    var block = '<section class="lcs-sr" aria-label="' + encode(label) + '"><ol>'
+      + rowsNew.map(function (r) { return '<li>' + encode(r) + '</li>'; }).join('')
+      + '</ol></section>\n  ';
+    return { changed: true, html: html.slice(0, at) + block + html.slice(at), rows: rowsNew.length };
+  }
+
+  var end = html.indexOf('</section>', start);
+  if (end === -1) return { changed: false, rows: 0 };
+
+  var seg = html.slice(start, end);
+  var base = (seg.match(/<li>([^<]*)<\/li>/g) || []).map(function (li) {
+    return decode(li.replace(/<\/?li>/g, ''));
+  });
+
+  var rows = C.enrichedRows(manifest.exercise_type, manifest, locale, base, bundle);
+  if (!rows || !rows.length) return { changed: false, rows: 0 };
+
+  var list = '<ol>' + rows.map(function (r) { return '<li>' + encode(r) + '</li>'; }).join('') + '</ol>';
+
+  /* picture-sort emits no <ol> at all today, so its list is CREATED rather than replaced. The
+   * presence test has to come first: replacing a pattern that is not there is a no-op, and an
+   * earlier version then compared the unchanged string to itself and reported every
+   * picture-sort deck as already done. */
+  var next = seg.indexOf('<ol>') === -1
+    ? seg + list
+    : seg.replace(/<ol>[\s\S]*?<\/ol>/, list);
+
+  /* Idempotency without a marker: a deck whose rows already carry their content rebuilds to
+   * exactly the same bytes, so nothing is written. */
+  if (next === seg) return { changed: false, rows: 0 };
+  return { changed: true, html: html.slice(0, start) + next + html.slice(end), rows: rows.length };
+}
+
 function rewriteSrBlock(html, locale) {
   var start = html.indexOf('<section class="lcs-sr" aria-label="');
   if (start === -1) return { changed: false, rows: 0 };
@@ -198,7 +259,20 @@ function processLocale(locale, opts) {
 
     var html;
     try { html = fs.readFileSync(p, 'utf8'); } catch (e) { stat.failed++; return; }
-    var r = rewriteSrBlock(html, locale);
+
+    var r;
+    if (opts.enrich) {
+      var manifest;
+      try { manifest = JSON.parse(fs.readFileSync(path.join(deckDir, 'manifest.json'), 'utf8')); }
+      catch (e) { stat.untouched++; return; }
+      if (C.TYPES.indexOf(manifest.exercise_type) === -1) { stat.untouched++; return; }
+      // Only big-small needs the bundle; parsing it for the others would read a megabyte of
+      // base64 per deck for nothing.
+      var bundle = manifest.exercise_type === 'big-small' ? V.readDeckBundle(html) : null;
+      r = enrichSrBlock(html, locale, manifest, bundle);
+    } else {
+      r = rewriteSrBlock(html, locale);
+    }
     if (!r.changed) { stat.untouched++; return; }
     stat.changed++;
     stat.rows += r.rows;
@@ -217,12 +291,17 @@ function main() {
     return h ? h.split('=').slice(1).join('=') : d;
   }
   var dryRun = argv.indexOf('--confirm') === -1;
-  var locales = arg('locales', 'nl,fr,es,it,pt,sv,da,no,fi').split(',').filter(Boolean);
+  var enrich = argv.indexOf('--enrich') !== -1;
+  /* Enrichment covers ELEVEN locales: the duplication it fixes was measured on English
+   * pages, and German has the same repeated rows as everyone else. Translation covers nine —
+   * en and de were never wrong. */
+  var DEFAULT = enrich ? 'en,de,nl,fr,es,it,pt,sv,da,no,fi' : 'nl,fr,es,it,pt,sv,da,no,fi';
+  var locales = arg('locales', DEFAULT).split(',').filter(Boolean);
 
-  console.log((dryRun ? '[DRY RUN] ' : '') + 'sr-row translation');
+  console.log((dryRun ? '[DRY RUN] ' : '') + (enrich ? 'sr-row enrichment' : 'sr-row translation'));
   var total = 0, totalRows = 0;
   locales.forEach(function (L) {
-    var s = processLocale(L, { dryRun: dryRun });
+    var s = processLocale(L, { dryRun: dryRun, enrich: enrich });
     if (s.error) { console.log('  ' + L + ': ' + s.error); return; }
     console.log('  ' + L + '  decks ' + s.decks + '   rewritten ' + s.changed
       + '   rows ' + s.rows + '   already localised ' + s.untouched
@@ -234,4 +313,7 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { translateRow: translateRow, rewriteSrBlock: rewriteSrBlock, templateToRegex: templateToRegex };
+module.exports = {
+  translateRow: translateRow, rewriteSrBlock: rewriteSrBlock,
+  enrichSrBlock: enrichSrBlock, templateToRegex: templateToRegex,
+};

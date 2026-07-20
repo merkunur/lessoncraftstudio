@@ -282,6 +282,108 @@ L.sv = {
   list: function (a) { return a.length > 1 ? a.slice(0, -1).join(', ') + ' och ' + a[a.length - 1] : a[0]; },
 };
 
+/* ------------------------------------------------------------------ Danish */
+/* [NSR-FLAG] per §17.5.1. Danish 1. klasse is SEVEN, like Swedish åk 1 and unlike Norwegian
+ * 1. trinn — so within-10 content sits a year below the tag here too. `regnestykke` is the
+ * task noun: Swedish `uppgift` looks like Danish `opgave`, but `opgave` means the whole
+ * sheet, so the cognate is a false friend (ruled during the math-puzzle work). */
+L.da = {
+  headings: ['Hvad arket træner', 'Sådan bruger du arket i klassen'],
+  modes: {
+    'addition/image-number': 'Seks regnestykker, hvor den ene mængde er afbildet og den anden står som tal, så eleven tæller videre fra det viste antal.',
+    'addition/image-image': 'Seks regnestykker med to afbildede mængder i hvert: eleven tæller begge grupper, lægger dem sammen og skriver summen på linjen.',
+    'addition/find-addend': 'Seks regnestykker med et tomt felt i additionen: eleven finder det tal, der mangler, for at regnestykket går op.',
+    'addition/mixed': 'Seks regnestykker, der blander de tre additionsformer på samme ark, så eleven skifter fremgangsmåde fra regnestykke til regnestykke.',
+    // The reviewer's clause `uden at kunne strege noget ud` was dropped: it is a claim about
+    // what the sheet does NOT afford, which nothing in the manifest establishes.
+    'subtraction/image-number': 'Seks regnestykker med en afbildet mængde, som eleven trækker et skrevet tal fra og noterer differencen.',
+    'subtraction/cross-out': 'Seks regnestykker, hvor eleven streger det angivne antal billeder ud, tæller de tilbageværende og noterer differencen.',
+    'subtraction/find-subtrahend': 'Seks regnestykker, hvor differencen er kendt, og eleven finder det tal, der skal trækkes fra, for at det passer.',
+    'subtraction/mixed': 'Seks regnestykker, der veksler mellem subtraktionens tre præsentationsformer, så eleven først må aflæse formen og derefter vælge fremgangsmåde.',
+  },
+  range: 'Alle tal og alle svar ligger inden for 10, altså i talområdet 0-10.',
+  mixedNote: 'Blandet henviser til præsentationsformen; alle seks regnestykker på arket er stadig den samme regneart.',
+  bridgeNote: 'Den ene mængde er afbildet, den anden et tal, så eleven tæller videre i stedet for at tælle alt.',
+  check: 'Arket giver ikke selv tilbagemelding; facit følger som separat PDF, og webversionen retter hvert svar undervejs.',
+  objects: function (list) { return 'Arket illustrerer regnestykkerne med: ' + list + '.'; },
+  uses: [
+    'Læg arket ind som station i matematikværkstedet, hvor eleverne arbejder videre uden at du skal introducere noget nyt.',
+    'Brug det i træningsfasen efter en fælles gennemgang, eller send det med hjem som kort lektie i ugens tema.',
+    'Lad to elever sidde sammen om ét ark og skiftes til at forklare, hvordan de kom frem til hvert svar.',
+    'Hav et lille sæt liggende til elever, der bliver færdige før tid og skal arbejde selvstændigt videre.',
+    'Print et klassesæt til mappen, så en vikar kan sætte timen i gang uden forberedelse eller materialekendskab.',
+  ],
+  chips: { add: 'Addition med billeder', sub: 'Subtraktion med billeder', range: 'Talområdet 0-10' },
+  list: function (a) { return a.length > 1 ? a.slice(0, -1).join(', ') + ' og ' + a[a.length - 1] : a[0]; },
+};
+
+/* --------------------------------------------------------- Norwegian (bokmål) */
+/* [NSR-FLAG] per §17.5.1. Norwegian 1. trinn is SIX — school starts a year earlier than in
+ * Sweden and Denmark — so within-10 content is CORRECTLY placed at 1. trinn here, and the
+ * copy must not repeat the Swedish/Danish "sits a year below the tag" framing. */
+L.no = {
+  headings: ['Hva arket trener', 'Slik bruker du arket'],
+  modes: {
+    'addition/image-number': 'Seks regnestykker der eleven teller den ene bildemengden, legger til det skrevne tallet og skriver summen på linjen.',
+    'addition/image-image': 'Seks regnestykker der eleven teller begge bildemengdene, legger dem sammen og skriver summen på linjen ved siden av.',
+    'addition/find-addend': 'Seks regnestykker der det ene leddet mangler, og eleven finner tallet som gjør summen riktig.',
+    'addition/mixed': 'Seks regnestykker der presentasjonen veksler mellom bilder, tall og manglende ledd, slik at eleven må lese hvert regnestykke.',
+    'subtraction/image-number': 'Seks regnestykker der eleven teller bildemengden, trekker fra det skrevne tallet og skriver differansen på linjen.',
+    'subtraction/cross-out': 'Seks regnestykker der eleven stryker ut så mange bilder som skal trekkes fra, og teller dem som står igjen.',
+    'subtraction/find-subtrahend': 'Seks regnestykker der tallet som skal trekkes fra mangler, og eleven finner hvor mange som er tatt bort.',
+    'subtraction/mixed': 'Seks regnestykker der presentasjonen veksler mellom utstryking, tall og manglende ledd, slik at eleven må lese hvert regnestykke.',
+  },
+  range: 'Alle tall og alle svar holder seg innenfor tallområdet 0–10.',
+  mixedNote: 'På et blandet ark veksler presentasjonen, mens regnearten er den samme i alle seks regnestykkene.',
+  bridgeNote: 'Én mengde er avbildet, den andre står som tall, og eleven går fra opptelling til å telle videre.',
+  check: 'Papirarket gir ingen tilbakemelding; fasit følger som egen PDF, og nettversjonen kontrollerer hvert svar mens eleven arbeider.',
+  objects: function (list) { return 'Regnestykkene er illustrert med ' + list + '.'; },
+  uses: [
+    'Legg arket inn som fast post på matematikkstasjonen eller på ukeplanen, slik at elevene finner det igjen.',
+    'Bruk det i øvingsfasen etter en felles innføring, eller send det med hjem som kort lekse.',
+    'La to elever løse hvert sitt ark side om side og sammenligne framgangsmåte etterpå.',
+    'Ha noen eksemplarer liggende til elever som blir tidlig ferdige og trenger noe å arbeide videre med.',
+    'Arket krever ingen forberedelser, og fungerer derfor i en vikartime der oppgaven må forklares raskt.',
+  ],
+  chips: { add: 'Addisjon med bilder', sub: 'Subtraksjon med bilder', range: 'Tallområdet 0–10' },
+  list: function (a) { return a.length > 1 ? a.slice(0, -1).join(', ') + ' og ' + a[a.length - 1] : a[0]; },
+};
+
+/* ----------------------------------------------------------------- Finnish */
+/* [NSR-FLAG] per §17.5.1. Finnish inflects, so no numeral or name may be dropped into a
+ * governed slot: `10 asti` would need the illative (`kymmeneen asti`), and leaving the digit
+ * uninflected is visibly careless. The frame is nominative and invariant — `lukualueella
+ * 0–10` — which is correct for every number. The objects sentence ends in a colon for the
+ * same reason: the noun list arrives in the nominative and must not be forced into a case.
+ * Both rules were established during the math-puzzle fan-out. */
+L.fi = {
+  headings: ['Mitä sivulla harjoitellaan', 'Näin käytät sivua luokassa'],
+  modes: {
+    'addition/image-number': 'Kuusi laskua, joissa toinen määrä on kuvattu ja toinen kirjoitettu luku; oppilas laskee kuvat ja jatkaa siitä eteenpäin.',
+    'addition/image-image': 'Sivulla on kuusi laskua, joissa oppilas laskee molemmat kuvatut joukot ja kirjoittaa niiden yhteismäärän.',
+    'addition/find-addend': 'Kuusi laskua, joista puuttuu toinen yhteenlaskettava; oppilas päättelee annetusta summasta puuttuvan luvun ja täydentää laskun.',
+    'addition/mixed': 'Kuusi laskua, joissa esitystavat vaihtelevat sivun sisällä: kuvattuja joukkoja, kirjoitettuja lukuja ja puuttuvia yhteenlaskettavia.',
+    'subtraction/image-number': 'Kuusi laskua, joissa vähenevä määrä on kuvattu ja vähentäjä kirjoitettu luku; oppilas laskee kuvat ja vähentää.',
+    'subtraction/cross-out': 'Kuusi laskua, joissa oppilas yliviivaa kuvatusta joukosta vähennettävän määrän ja laskee, montako esinettä jää jäljelle.',
+    'subtraction/find-subtrahend': 'Kuusi laskua, joista puuttuu vähentäjä; oppilas päättelee annetusta erotuksesta puuttuvan luvun ja täydentää laskun.',
+    'subtraction/mixed': 'Kuusi laskua, joiden esitystapa vaihtuu tehtävästä toiseen: yliviivattavia kuvia, kirjoitettuja lukuja ja puuttuvia vähentäjiä.',
+  },
+  range: 'Kaikki laskujen luvut ja vastaukset pysyvät lukualueella 0–10.',
+  mixedNote: 'Sekatyyppisyys tarkoittaa tällä sivulla esitystavan vaihtelua; itse laskutoimitus pysyy samana kaikissa kuudessa tehtävässä.',
+  bridgeNote: 'Toinen määrä on kuvattu ja toinen kirjoitettu luku, mikä siirtää oppilaan kaikkien laskemisesta eteenpäin laskemiseen.',
+  check: 'Paperi ei anna palautetta: vastaukset ovat erillisenä PDF-sivuna, ja selainversio tarkistaa jokaisen vastauksen työskentelyn aikana.',
+  objects: function (list) { return 'Tehtävissä toistuvat seuraavat kuvat: ' + list + '.'; },
+  uses: [
+    'Sijoita sivu matematiikkapisteelle tai viikkosuunnitelmaan, josta oppilas ottaa sen omaan tahtiinsa.',
+    'Anna sivu harjoitusvaiheeseen yhteisen opetustuokion jälkeen tai kotiin viikon aiheen kertaamiseksi.',
+    'Työskennelkää pareittain niin, että oppilaat vuorottelevat laskuissa ja perustelevat ratkaisunsa toisilleen ääneen.',
+    'Pidä muutama kopio valmiina niille oppilaille, jotka saavat oman työnsä valmiiksi muita aiemmin.',
+    'Jätä sivu sijaisen kansioon: ohje on lyhyt, eikä tunti vaadi ennakkovalmisteluja.',
+  ],
+  chips: { add: 'Yhteenlasku', sub: 'Vähennyslasku', range: 'Lukualue 0–10' },
+  list: function (a) { return a.length > 1 ? a.slice(0, -1).join(', ') + ' ja ' + a[a.length - 1] : a[0]; },
+};
+
 /* ------------------------------------------------------------------ build */
 
 function digits(ordinal, radices) {

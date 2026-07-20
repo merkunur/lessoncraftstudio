@@ -342,4 +342,8 @@ function main() {
   }
 }
 
-main();
+// Guarded so compose-title-meta.js can require() this module for its native
+// vocabulary WITHOUT executing the CLI (which writes the locale JSON).
+if (require.main === module) main();
+
+module.exports = { BIS_BY_STANDARD, DE_JSON, GRADE_LABEL, META_CAP, META_FLAVOR, NUMERIC_TYPES, REPO_ROOT, TAXONOMY, TITLE_CAP, TYPE_MAP, bisRange, buildMeta, buildTitle, cap, gradeLabel, loadTaxonomyThemes, themeDisplay };

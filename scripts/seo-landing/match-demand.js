@@ -128,20 +128,28 @@ function loadCorpus(locale) {
 }
 
 /**
- * Build the tokens that MUST appear in a query for it to describe this page,
- * plus the tokens that merely boost it.
+ * Descriptors this page can HONESTLY be described by, ranked by how much demand
+ * each carries.
  *
- *  required — the exercise type (or its re-key). Without it the query is about
- *             something else entirely.
- *  boost    — theme, level, mode, letter, target language. These are the Tier-A
- *             differentiators; the more of them a query carries, the more
- *             specifically it belongs to THIS page rather than a sibling.
+ * There is no rule that a title must contain our internal name for the mechanic.
+ * That was an invented constraint and it actively hurt: it forced dead calques
+ * like nl "Patroontrein", fr "Train De Modèles" and da "Mønstertoget" into the
+ * one field that decides whether a page is ever seen. A word nobody searches
+ * earns its place in a title only if nothing better is available — and usually
+ * something better IS available, because every page also has a theme, a level, a
+ * set of real pictured nouns and a format, all of which people do search.
+ *
+ * So the type name is a CANDIDATE, not a requirement. If the corpus has never
+ * seen it, it is dropped from the target and the page is described by what
+ * remains. Being less specific but visible beats being precise and invisible.
  */
 function pageTerms(l, locale) {
   const c = l.coordinate || {};
-  const required = new Set(toks(searchTerm('exercise-type', c.type, locale)));
+  const typeTerm = searchTerm('exercise-type', c.type, locale);
+  const required = new Set(toks(typeTerm));
   const boost = new Set();
   const parts = {};
+  parts.typeCandidate = typeTerm;
 
   if (c.theme) {
     const t = searchTerm('theme', c.theme, locale);
@@ -223,32 +231,51 @@ function findCovering(tokens, corpus) {
 function resolveTarget(terms, corpus) {
   const typeToks = [...terms.required];
   const themeToks = terms.parts.theme ? toks(terms.parts.theme) : [];
-  const levelToks = terms.parts.level ? toks(terms.parts.level) : [];
+  const modeToks = terms.parts.mode ? toks(terms.parts.mode) : [];
 
   const combo = themeToks.length ? findCovering([...themeToks, ...typeToks], corpus) : null;
   const themeOnly = themeToks.length ? findCovering(themeToks, corpus) : null;
   const typeOnly = findCovering(typeToks, corpus);
+  // The mode often names the SKILL in searchable words even when our name for the
+  // mechanic does not ("splitsen", "tellen", "spiegelen"). It is a legitimate
+  // stand-in when the type name is dead.
+  const modeOnly = modeToks.length ? findCovering(modeToks, corpus) : null;
+
+  // A type name the corpus has never seen does not go in the title. Drop it and
+  // describe the page with what people do search.
+  const typeIsDead = !typeOnly;
+  if (typeIsDead) terms.parts.typeDropped = terms.parts.typeCandidate;
 
   let evidence = 'unverified';
   if (combo) evidence = 'combination';
   else if (themeOnly && typeOnly) evidence = 'component';
   else if (typeOnly) evidence = 'type-only';
+  else if (themeOnly && modeOnly) evidence = 'theme+skill';
+  else if (themeOnly) evidence = 'theme-only';
 
   // The composed target, ordered by how strongly each axis splits the SERP:
   // the Tier-A differentiator leads, then the exercise type, then the remaining
   // qualifiers. EVERY distinguishing coordinate component must appear, or two
   // sibling pages collapse onto the same target and we have changed nothing.
-  const type = [...terms.required].join(' ');
+  // A dead type name is DEMOTED, not deleted. Deleting it outright collapsed
+  // sibling pages that differed only by type onto one target (48 collisions over
+  // 134 nl pages). Moving it to the tail keeps the head of the title made of
+  // words people search, while the trailing word still tells the pages apart —
+  // and a trailing word costs nothing, because the head is what gets read and
+  // what survives truncation.
+  const typeLead = typeIsDead ? '' : [...terms.required].join(' ');
+  const typeTail = typeIsDead ? [...terms.required].join(' ') : '';
   let composed;
   if (terms.parts.target) {
     // Cross-language decks: the target language is a different market entirely.
-    composed = [`learn ${terms.parts.target}`, type, terms.parts.theme].filter(Boolean).join(' ');
+    composed = [`learn ${terms.parts.target}`, typeLead, terms.parts.theme, typeTail]
+      .filter(Boolean).join(' ');
   } else if (terms.parts.letter) {
     // Enumerated instances: confirmed SERP-splitting in en/de/nl (not sv/da/no/fi).
-    composed = [`letter ${terms.parts.letter}`, type, terms.parts.theme, terms.parts.level]
+    composed = [`letter ${terms.parts.letter}`, typeLead, terms.parts.theme, terms.parts.level, typeTail]
       .filter(Boolean).join(' ');
   } else {
-    composed = [terms.parts.theme, type, terms.parts.mode, terms.parts.level]
+    composed = [terms.parts.theme, typeLead, terms.parts.mode, terms.parts.level, typeTail]
       .filter(Boolean).join(' ');
   }
   composed = composed.replace(/\s+/g, ' ').trim();
@@ -310,6 +337,7 @@ function matchLocale(locale, opts) {
       evidence: t.evidence,
       target: t.composed,
       variantOrdinal: ordinal,
+      typeDropped: terms.parts.typeDropped || null,
       comboQuery: t.comboQuery,
       themeQuery: t.themeQuery,
       typeQuery: t.typeQuery,

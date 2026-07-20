@@ -62,14 +62,53 @@ function checkOne(slug, block, f, fails) {
     }
   });
 
-  /* C. counted claims must match the measurement */
-  var counted = text.match(/(\d+) der neun Aufgaben/);
-  if (counted) {
-    var n = parseInt(counted[1], 10);
+  /* C. counted claims must match the measurement — in EVERY locale.
+   *
+   * These patterns were German-only, so a Dutch or English block could have miscounted and
+   * still passed: the gate would simply never have looked. A locale-shaped assertion that
+   * silently does nothing on other locales is worse than no assertion, because it reports
+   * PASS. Each locale's counting phrase is listed explicitly; adding a locale means adding
+   * its phrase here. */
+  var COUNT_PATTERNS = [
+    /(\d+) der neun Aufgaben/,          // de
+    /(\d+) of (?:9|nine) problems cross/, // en
+    /(\d+) van de negen sommen/,        // nl
+  ];
+  COUNT_PATTERNS.forEach(function (re) {
+    var m = text.match(re);
+    if (!m) return;
+    var n = parseInt(m[1], 10);
     if (n !== f.regrouping.crossesTen) {
       add('count', 'claims ' + n + ' of nine cross the ten; measured ' + f.regrouping.crossesTen);
     }
-  }
+  });
+
+  /* C2. English and Dutch range claims — only where the phrase predicates THE SHEET.
+   *
+   * A looser version matched any "within 20" / "t/m 20" and reported 65 false failures. Both
+   * came from clauses about the CHILD's prior competence, not the sheet:
+   *   en  "...suits children already secure within 20."
+   *   nl  "...bij kinderen die de sommen t/m 20 al vlot maken."
+   * Those sentences are true and necessary — they are the honest level advice for a deck whose
+   * numbers exceed the band. So the assertion has to name the sheet-predicating forms rather
+   * than hunt for a number near a preposition. */
+  var SHEET_RANGE = [
+    /(?:all|stays?|stay) within (\d+)/gi,            // en: "all within 18", "stays within 18"
+    /[Nn]umbers (?:to|up to) (\d+)/g,                // en: "Numbers to 18"
+    /sommen t\/m (\d+)/g,                            // nl: "sommen t/m 20"
+    /blijven t\/m (\d+)/g,                           // nl: "De sommen blijven t/m 20"
+    /getallen (?:tot|lopen tot) (\d+)/gi,            // nl: "getallen tot 24"
+  ];
+  SHEET_RANGE.forEach(function (re) {
+    var m;
+    var rx = new RegExp(re.source, re.flags.indexOf('g') === -1 ? re.flags + 'g' : re.flags);
+    while ((m = rx.exec(text)) !== null) {
+      var n = parseInt(m[1], 10);
+      // 10 is always legitimate: every deck's answers top out at 10.
+      if (n === 10 || n === max || n === band) continue;
+      add('range', 'claims "' + m[0] + '" but the largest number is ' + max);
+    }
+  });
 
   /* D. the crossing claim must match reality in both directions */
   var c = f.regrouping.crossesTen;

@@ -136,6 +136,18 @@ function measureRegrouping(ops) {
       subs++;
       // landing exactly on a ten (12 - 2 = 10) is the mirror of Zehnerergänzung
       if (o.solution !== null && o.solution % 10 === 0 && o.solution !== 0) makesTen++;
+      // SUBTRACTING FROM EXACTLY TEN IS NOT A CROSSING.
+      //
+      // 10 - 7 starts ON the ten and decomposes it — the precursor skill every practitioner
+      // in this project named as the EASIER one (Zerlegung der 10 / splitsingen van 10 /
+      // tiervenner). It is not Zehnerübergang. The units test alone called it one, because
+      // 10 % 10 = 0 is below any subtrahend's units.
+      //
+      // 20 - 13 is different and IS a crossing: you break a ten you actually hold.
+      //
+      // Shipped before this fix: 472 operations across 390 live decks were counted as
+      // crossings that are not, so those pages claimed a difficulty the sheet does not have.
+      else if (o.a === 10) makesTen++;
       else if ((o.a % 10) < (o.b % 10)) crossesTen++;
       else insideTen++;
     }
@@ -229,6 +241,9 @@ function pickTenExample(ops) {
       if (u === 10 && !making) making = o.text;
     } else if (o.operator === '-') {
       if (o.solution !== null && o.solution % 10 === 0 && o.solution !== 0 && !making) making = o.text;
+      // must mirror measureRegrouping exactly: 10 - 7 decomposes the ten, it does not cross it,
+      // so it can never be quoted as the crossing example
+      else if (o.a === 10) { if (!making) making = o.text; }
       else if ((o.a % 10) < (o.b % 10) && !crossing) crossing = o.text;
     }
   }

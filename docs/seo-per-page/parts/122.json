@@ -2,699 +2,739 @@
  "part": 122,
  "locale": "pt",
  "classes": [
-  "find-and-count::letter-spotting",
-  "treasure-hunt::compass"
+  "word-scramble::normal",
+  "word-scramble::easy"
  ],
  "splitOf": null,
- "count": 86,
+ "count": 91,
  "pages": [
   {
-   "slug": "encontre-e-conte-procurar-letras-acampamento-3ec5",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "letras-embaralhadas-normal-acampamento-c519",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-acampamento-3ec5"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-acampamento-c519"
   },
   {
-   "slug": "encontre-e-conte-procurar-letras-acessorios-aaf8",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "letras-embaralhadas-normal-acessorios-b18a",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-acessorios-aaf8"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-acessorios-b18a"
   },
   {
-   "slug": "encontre-e-conte-procurar-letras-animais",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "letras-embaralhadas-normal-animais-1eab",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-animais"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-animais-1eab"
   },
   {
-   "slug": "encontre-e-conte-procurar-letras-animais-da-fazenda-23d0",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "letras-embaralhadas-normal-animais-da-fazenda-6380",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "farm_animals",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-animais-da-fazenda-23d0"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-animais-da-fazenda-6380"
   },
   {
-   "slug": "encontre-e-conte-procurar-letras-animais-de-estimacao-5bfa",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "letras-embaralhadas-normal-animais-de-estimacao-a096",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-animais-de-estimacao-5bfa"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-animais-de-estimacao-a096"
   },
   {
-   "slug": "encontre-e-conte-procurar-letras-animais-do-zoologico-256e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "letras-embaralhadas-normal-animais-do-zoologico-bcdc",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-animais-do-zoologico-256e"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-animais-do-zoologico-bcdc"
   },
   {
-   "slug": "encontre-e-conte-procurar-letras-atividades-c3ae",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "letras-embaralhadas-normal-atividades-a700",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-atividades-c3ae"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-atividades-a700"
   },
   {
-   "slug": "encontre-e-conte-procurar-letras-brinquedos-ab87",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "letras-embaralhadas-normal-brinquedos-5e9b",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-brinquedos-ab87"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-brinquedos-5e9b"
   },
   {
-   "slug": "encontre-e-conte-procurar-letras-cafe-da-manha-a158",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "letras-embaralhadas-normal-cafe-da-manha-0268",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-cafe-da-manha-a158"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-cafe-da-manha-0268"
   },
   {
-   "slug": "encontre-e-conte-procurar-letras-clima-38a8",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "letras-embaralhadas-normal-clima-3ad3",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-clima-38a8"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-clima-3ad3"
   },
   {
-   "slug": "encontre-e-conte-procurar-letras-coisas-que-voam-4579",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "letras-embaralhadas-normal-coisas-que-voam-6a7a",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-coisas-que-voam-4579"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-coisas-que-voam-6a7a"
   },
   {
-   "slug": "encontre-e-conte-procurar-letras-correios-ebc2",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-correios-ebc2"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-criaturas-da-floresta-63de",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-criaturas-da-floresta-63de"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-dia-de-acao-de-gracas-477f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-dia-de-acao-de-gracas-477f"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-emocoes-f05c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-emocoes-f05c"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-espaco-738e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-espaco-738e"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-ferramentas-9da2",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-ferramentas-9da2"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-formas-7a73",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-formas-7a73"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-frutas-3e21",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-frutas-3e21"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-hospital-aade",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-hospital-aade"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-insetos-e-bichos-04fe",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-insetos-e-bichos-04fe"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-inverno-7449",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-inverno-7449"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-moveis-9ad6",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-moveis-9ad6"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-musica-eab6",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-musica-eab6"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-natal-bf32",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-natal-bf32"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-no-supermercado-c20c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-no-supermercado-c20c"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-padaria-a3a2",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-padaria-a3a2"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-partes-do-corpo-6f36",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-partes-do-corpo-6f36"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-pascoa-6eff",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-pascoa-6eff"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-passaros-2-9ba9",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-passaros-2-9ba9"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-pela-casa-0cf4",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-pela-casa-0cf4"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-praia-ef71",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-praia-ef71"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-primavera-ba20",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-primavera-ba20"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-profissoes-3f17",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-profissoes-3f17"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-repteis-e-anfibios-5da8",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-repteis-e-anfibios-5da8"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-roupas-1847",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-roupas-1847"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-sala-de-aula-d108",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-sala-de-aula-d108"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-sobremesas-e-doces-728d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-sobremesas-e-doces-728d"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-utensilios-de-cozinha-1ece",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-utensilios-de-cozinha-1ece"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-vegetais-70dd",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-vegetais-70dd"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-veiculos-4af7",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-veiculos-4af7"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-verao-962b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-verao-962b"
-  },
-  {
-   "slug": "encontre-e-conte-procurar-letras-vida-marinha-067d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-procurar-letras-vida-marinha-067d"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-021b",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-021b"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0775",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0775"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0e58",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0e58"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0e66",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0e66"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-1bd8",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "farm_animals",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-1bd8"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-1fc1",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-1fc1"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-2248",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-2248"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-259b",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-259b"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-2d65",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-2d65"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-37c4",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-37c4"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-387e",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-387e"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-38cf",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-38cf"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-4090",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-4090"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-4ab0",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-4ab0"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-59f1",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-59f1"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-6408",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-6408"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-6d5f",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-6d5f"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7584",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7584"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7f5b",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7f5b"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7fc6",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7fc6"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-8293",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-8293"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-8858",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-8858"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-95b5",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-95b5"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-a4c3",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-a4c3"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-a517",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-a517"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-b6e5",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-b6e5"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-b91e",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "letras-embaralhadas-normal-cores-472c",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-b91e"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-cores-472c"
   },
   {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-ba90",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-ba90"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-bbda",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-bbda"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-be94",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-be94"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-bf74",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-bf74"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-c60d",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-c60d"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-cb3f",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "letras-embaralhadas-normal-correios-876c",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-cb3f"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-correios-876c"
   },
   {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d5f7",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d5f7"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d60f",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d60f"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d824",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d824"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d957",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d957"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-da63",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-da63"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-dac0",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-dac0"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-e38e",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-e38e"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-e831",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-e831"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-fe69",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-fe69"
-  },
-  {
-   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-ff94",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "letras-embaralhadas-normal-criaturas-da-floresta-19c0",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-ff94"
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-criaturas-da-floresta-19c0"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-dia-de-acao-de-gracas-855b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-dia-de-acao-de-gracas-855b"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-emocoes-000b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-emocoes-000b"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-espaco-b2db",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-espaco-b2db"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-ferramentas-4f23",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-ferramentas-4f23"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-flores-2b6d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-flores-2b6d"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-formas-c02e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-formas-c02e"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-frutas-ab87",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-frutas-ab87"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-hospital-7370",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-hospital-7370"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-insetos-e-bichos-b2ae",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-insetos-e-bichos-b2ae"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-inverno-a95f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-inverno-a95f"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-moveis-7bd4",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-moveis-7bd4"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-musica-bf2c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-musica-bf2c"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-natal-6984",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-natal-6984"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-no-supermercado-9e8f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-no-supermercado-9e8f"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-padaria-50ff",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-padaria-50ff"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-partes-do-corpo-cba1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-partes-do-corpo-cba1"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-pascoa-c406",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-pascoa-c406"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-passaros-2-66b3",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-passaros-2-66b3"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-passaros-3a6a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-passaros-3a6a"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-pela-casa-ad31",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-pela-casa-ad31"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-praia-7131",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-praia-7131"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-primavera-1b5c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-primavera-1b5c"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-profissoes-6279",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-profissoes-6279"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-repteis-e-anfibios-de62",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-repteis-e-anfibios-de62"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-roupas-4db7",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-roupas-4db7"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-sala-de-aula-b6f9",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-sala-de-aula-b6f9"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-sobremesas-e-doces-a75f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-sobremesas-e-doces-a75f"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-utensilios-de-cozinha-5541",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-utensilios-de-cozinha-5541"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-vegetais-045f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-vegetais-045f"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-veiculos-df70",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-veiculos-df70"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-verao-9eff",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-verao-9eff"
+  },
+  {
+   "slug": "letras-embaralhadas-normal-vida-marinha-319e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-normal-vida-marinha-319e"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-acampamento-1f91",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-acampamento-1f91"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-acessorios-4e1a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-acessorios-4e1a"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-animais-6c34",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-animais-6c34"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-animais-da-fazenda-a1e7",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-animais-da-fazenda-a1e7"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-animais-de-estimacao-9fbf",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-animais-de-estimacao-9fbf"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-animais-do-zoologico-2a2e",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-animais-do-zoologico-2a2e"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-atividades-651c",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-atividades-651c"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-brinquedos-3d11",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-brinquedos-3d11"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-cafe-da-manha-9ed0",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-cafe-da-manha-9ed0"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-clima-48d3",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-clima-48d3"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-coisas-que-voam-0204",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-coisas-que-voam-0204"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-cores-7124",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-cores-7124"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-correios-7ebd",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-correios-7ebd"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-criaturas-da-floresta-b585",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-criaturas-da-floresta-b585"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-dia-de-acao-de-gracas-d741",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-dia-de-acao-de-gracas-d741"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-emocoes-acc7",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-emocoes-acc7"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-espaco-c1a0",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-espaco-c1a0"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-ferramentas-94cc",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-ferramentas-94cc"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-flores-0eba",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-flores-0eba"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-formas-5707",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-formas-5707"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-frutas-ef82",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-frutas-ef82"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-hospital-4c1f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-hospital-4c1f"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-insetos-e-bichos-d6d6",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-insetos-e-bichos-d6d6"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-inverno-f073",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-inverno-f073"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-moveis-b6bd",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-moveis-b6bd"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-musica-8807",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-musica-8807"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-no-supermercado-9cbb",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-no-supermercado-9cbb"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-padaria-377f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-padaria-377f"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-partes-do-corpo-1af8",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-partes-do-corpo-1af8"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-pascoa-9450",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-pascoa-9450"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-passaros-2-d89b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-passaros-2-d89b"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-passaros-7179",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-passaros-7179"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-pela-casa-2798",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-pela-casa-2798"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-praia-f393",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-praia-f393"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-primavera-ca71",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-primavera-ca71"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-profissoes-938d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-profissoes-938d"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-repteis-e-anfibios-0095",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-repteis-e-anfibios-0095"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-roupas-059f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-roupas-059f"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-sala-de-aula-b76d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-sala-de-aula-b76d"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-sobremesas-e-doces-b6f4",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-sobremesas-e-doces-b6f4"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-utensilios-de-cozinha-98e1",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-utensilios-de-cozinha-98e1"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-vegetais-5b03",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-vegetais-5b03"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-veiculos-d71f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-veiculos-d71f"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-verao-2fbd",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-verao-2fbd"
+  },
+  {
+   "slug": "letras-embaralhadas-facil-vida-marinha-a031",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "letras-embaralhadas-facil-vida-marinha-a031"
   }
  ]
 }

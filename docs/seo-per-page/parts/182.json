@@ -2,747 +2,795 @@
  "part": 182,
  "locale": "it",
  "classes": [
-  "missing-pieces::two-missing",
-  "word-guess::easy"
+  "pattern-train::abc",
+  "pattern-train::null"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 98,
  "pages": [
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-abbigliamento-5dd6",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-abbigliamento-5897",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "clothing",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-abbigliamento-5dd6"
+   "deck": "treno-dei-modelli-abc-abbigliamento-5897"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-accessori-2d81",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-accessori-1556",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "accessories",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-accessori-2d81"
+   "deck": "treno-dei-modelli-abc-accessori-1556"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-al-supermercato-d75e",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-al-supermercato-cb09",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "at_the_supermarket",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-al-supermercato-d75e"
+   "deck": "treno-dei-modelli-abc-al-supermercato-cb09"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-alberi-d440",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-alberi-e470",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "tree",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-alberi-d440"
+   "deck": "treno-dei-modelli-abc-alberi-e470"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-animali-0e6e",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-animali-c0e5",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "animals",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-animali-0e6e"
+   "deck": "treno-dei-modelli-abc-animali-c0e5"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-animali-della-fattoria-0d22",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-animali-della-fattoria-a2fe",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "farm_animals",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-animali-della-fattoria-0d22"
+   "deck": "treno-dei-modelli-abc-animali-della-fattoria-a2fe"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-animali-dello-zoo-31f2",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-animali-dello-zoo-fc81",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "zoo_animals",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-animali-dello-zoo-31f2"
+   "deck": "treno-dei-modelli-abc-animali-dello-zoo-fc81"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-animali-domestici-5fa2",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-animali-domestici-22cf",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "pets",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-animali-domestici-5fa2"
+   "deck": "treno-dei-modelli-abc-animali-domestici-22cf"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-attivita-ca3b",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-attivita-9932",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "activities",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-attivita-ca3b"
+   "deck": "treno-dei-modelli-abc-attivita-9932"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-attrezzi-1dde",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-attrezzi-423a",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "tools",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-attrezzi-1dde"
+   "deck": "treno-dei-modelli-abc-attrezzi-423a"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-aula-6a96",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-aula-20cb",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "classroom",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-aula-6a96"
+   "deck": "treno-dei-modelli-abc-aula-20cb"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-campeggio-73f9",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-campeggio-fce4",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "camping",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-campeggio-73f9"
+   "deck": "treno-dei-modelli-abc-campeggio-fce4"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-colazione-166e",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-colazione-f503",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "breakfast",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-colazione-166e"
+   "deck": "treno-dei-modelli-abc-colazione-f503"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-cose-che-volano-17a9",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-colori-7382",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-abc-colori-7382"
+  },
+  {
+   "slug": "treno-dei-modelli-abc-cose-che-volano-a8a0",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "things_that_fly",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-cose-che-volano-17a9"
+   "deck": "treno-dei-modelli-abc-cose-che-volano-a8a0"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-creature-della-foresta-3281",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-creature-della-foresta-7336",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "forest_creatures",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-creature-della-foresta-3281"
+   "deck": "treno-dei-modelli-abc-creature-della-foresta-7336"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-dinosauri-4c39",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-dinosauri-6adf",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "dinosaurs",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-dinosauri-4c39"
+   "deck": "treno-dei-modelli-abc-dinosauri-6adf"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-dolci-e-dolciumi-1518",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-dolci-e-dolciumi-b059",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "desserts_and_sweets",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-dolci-e-dolciumi-1518"
+   "deck": "treno-dei-modelli-abc-dolci-e-dolciumi-b059"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-emozioni-46a4",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-emozioni-0ae3",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "emotions",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-emozioni-46a4"
+   "deck": "treno-dei-modelli-abc-emozioni-0ae3"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-estate-62de",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-estate-2cd1",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "summer",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-estate-62de"
+   "deck": "treno-dei-modelli-abc-estate-2cd1"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-fiori-5c34",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-fiori-2a0f",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "flowers",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-fiori-5c34"
+   "deck": "treno-dei-modelli-abc-fiori-2a0f"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-frutta-62c7",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-forme-e384",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-abc-forme-e384"
+  },
+  {
+   "slug": "treno-dei-modelli-abc-frutta-a814",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "fruits",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-frutta-62c7"
+   "deck": "treno-dei-modelli-abc-frutta-a814"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-giocattoli-eda8",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-giocattoli-e08c",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "toys",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-giocattoli-eda8"
+   "deck": "treno-dei-modelli-abc-giocattoli-e08c"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-giorno-del-ringraziamento-74a8",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-giorno-del-ringraziamento-62ed",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "thanksgivinng",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-giorno-del-ringraziamento-74a8"
+   "deck": "treno-dei-modelli-abc-giorno-del-ringraziamento-62ed"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-in-giro-per-casa-60e3",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-in-giro-per-casa-a256",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "around_the_house",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-in-giro-per-casa-60e3"
+   "deck": "treno-dei-modelli-abc-in-giro-per-casa-a256"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-insetti-e-scarafaggi-11b8",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-insetti-e-scarafaggi-a634",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "insects_and_bugs",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-insetti-e-scarafaggi-11b8"
+   "deck": "treno-dei-modelli-abc-insetti-e-scarafaggi-a634"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-inverno-5526",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-inverno-69e0",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "winter",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-inverno-5526"
+   "deck": "treno-dei-modelli-abc-inverno-69e0"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-meteo-de2b",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-meteo-46ca",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "weather",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-meteo-de2b"
+   "deck": "treno-dei-modelli-abc-meteo-46ca"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-mobili-439f",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-mobili-352b",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "furniture",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-mobili-439f"
+   "deck": "treno-dei-modelli-abc-mobili-352b"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-musica-b3d9",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-musica-9566",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "music",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-musica-b3d9"
+   "deck": "treno-dei-modelli-abc-musica-9566"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-natale-2f39",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-natale-7cb1",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "christmas",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-natale-2f39"
+   "deck": "treno-dei-modelli-abc-natale-7cb1"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-ospedale-30a5",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-ospedale-c065",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "hospital",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-ospedale-30a5"
+   "deck": "treno-dei-modelli-abc-ospedale-c065"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-panetteria-6116",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-panetteria-f321",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "bakery",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-panetteria-6116"
+   "deck": "treno-dei-modelli-abc-panetteria-f321"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-parti-del-corpo-c5d4",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-parti-del-corpo-54f8",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "body_parts",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-parti-del-corpo-c5d4"
+   "deck": "treno-dei-modelli-abc-parti-del-corpo-54f8"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-pasqua-12ee",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-pasqua-15aa",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "easter",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-pasqua-12ee"
+   "deck": "treno-dei-modelli-abc-pasqua-15aa"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-primavera-7a6c",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-primavera-521a",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "spring",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-primavera-7a6c"
+   "deck": "treno-dei-modelli-abc-primavera-521a"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-professioni-296b",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-professioni-e52a",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "occupations",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-professioni-296b"
+   "deck": "treno-dei-modelli-abc-professioni-e52a"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-rettili-e-anfibi-2003",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-rettili-e-anfibi-a546",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "reptiles_and_amphibians",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-rettili-e-anfibi-2003"
+   "deck": "treno-dei-modelli-abc-rettili-e-anfibi-a546"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-spazio-3ea2",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-spazio-87f4",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "space",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-spazio-3ea2"
+   "deck": "treno-dei-modelli-abc-spazio-87f4"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-spiaggia-4970",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-spiaggia-795c",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "beach",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-spiaggia-4970"
+   "deck": "treno-dei-modelli-abc-spiaggia-795c"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-uccelli-2-a5ca",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "birds_2",
-   "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-uccelli-2-a5ca"
-  },
-  {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-uccelli-fe7e",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-uccelli-1384",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "birds",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-uccelli-fe7e"
+   "deck": "treno-dei-modelli-abc-uccelli-1384"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-ufficio-postale-82b9",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-uccelli-2-0a85",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-abc-uccelli-2-0a85"
+  },
+  {
+   "slug": "treno-dei-modelli-abc-ufficio-postale-1784",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "post_office",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-ufficio-postale-82b9"
+   "deck": "treno-dei-modelli-abc-ufficio-postale-1784"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-utensili-da-cucina-9457",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "treno-dei-modelli-abc-utensili-da-cucina-45a1",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "kitchen_tools",
    "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-utensili-da-cucina-9457"
+   "deck": "treno-dei-modelli-abc-utensili-da-cucina-45a1"
   },
   {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-veicoli-0183",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "vehicles",
-   "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-veicoli-0183"
-  },
-  {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-verdure-d23c",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "vegetables",
-   "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-verdure-d23c"
-  },
-  {
-   "slug": "pezzi-mancanti-2-pezzi-mancanti-vita-oceanica-48fa",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "ocean_life",
-   "level": "infanzia",
-   "deck": "pezzi-mancanti-2-pezzi-mancanti-vita-oceanica-48fa"
-  },
-  {
-   "slug": "indovina-la-parola-facile-abbigliamento-b32a",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "clothing",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-abbigliamento-b32a"
-  },
-  {
-   "slug": "indovina-la-parola-facile-accessori-445a",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "accessories",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-accessori-445a"
-  },
-  {
-   "slug": "indovina-la-parola-facile-al-supermercato-b0a7",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "at_the_supermarket",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-al-supermercato-b0a7"
-  },
-  {
-   "slug": "indovina-la-parola-facile-alberi-b487",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "tree",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-alberi-b487"
-  },
-  {
-   "slug": "indovina-la-parola-facile-animali-della-fattoria-64f7",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "farm_animals",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-animali-della-fattoria-64f7"
-  },
-  {
-   "slug": "indovina-la-parola-facile-animali-dello-zoo-099b",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "zoo_animals",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-animali-dello-zoo-099b"
-  },
-  {
-   "slug": "indovina-la-parola-facile-animali-domestici-ec5a",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "pets",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-animali-domestici-ec5a"
-  },
-  {
-   "slug": "indovina-la-parola-facile-animali-ecc6",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "animals",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-animali-ecc6"
-  },
-  {
-   "slug": "indovina-la-parola-facile-attivita-aee7",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "activities",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-attivita-aee7"
-  },
-  {
-   "slug": "indovina-la-parola-facile-aula-e307",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "classroom",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-aula-e307"
-  },
-  {
-   "slug": "indovina-la-parola-facile-campeggio-b4b1",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "camping",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-campeggio-b4b1"
-  },
-  {
-   "slug": "indovina-la-parola-facile-colazione-f4d8",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "breakfast",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-colazione-f4d8"
-  },
-  {
-   "slug": "indovina-la-parola-facile-colori-111f",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "colors",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-colori-111f"
-  },
-  {
-   "slug": "indovina-la-parola-facile-cose-che-volano-9464",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "things_that_fly",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-cose-che-volano-9464"
-  },
-  {
-   "slug": "indovina-la-parola-facile-creature-della-foresta-6fe1",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "forest_creatures",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-creature-della-foresta-6fe1"
-  },
-  {
-   "slug": "indovina-la-parola-facile-dolci-e-dolciumi-9d76",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "desserts_and_sweets",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-dolci-e-dolciumi-9d76"
-  },
-  {
-   "slug": "indovina-la-parola-facile-emozioni-a5b7",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "emotions",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-emozioni-a5b7"
-  },
-  {
-   "slug": "indovina-la-parola-facile-estate-bbe1",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "summer",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-estate-bbe1"
-  },
-  {
-   "slug": "indovina-la-parola-facile-fiori-274a",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "flowers",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-fiori-274a"
-  },
-  {
-   "slug": "indovina-la-parola-facile-forme-5000",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "shapes",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-forme-5000"
-  },
-  {
-   "slug": "indovina-la-parola-facile-frutta-7a10",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "fruits",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-frutta-7a10"
-  },
-  {
-   "slug": "indovina-la-parola-facile-giocattoli-7ce2",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "toys",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-giocattoli-7ce2"
-  },
-  {
-   "slug": "indovina-la-parola-facile-giorno-del-ringraziamento-cf98",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "thanksgivinng",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-giorno-del-ringraziamento-cf98"
-  },
-  {
-   "slug": "indovina-la-parola-facile-in-giro-per-casa-7415",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "around_the_house",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-in-giro-per-casa-7415"
-  },
-  {
-   "slug": "indovina-la-parola-facile-insetti-e-scarafaggi-a625",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "insects_and_bugs",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-insetti-e-scarafaggi-a625"
-  },
-  {
-   "slug": "indovina-la-parola-facile-inverno-579e",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "winter",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-inverno-579e"
-  },
-  {
-   "slug": "indovina-la-parola-facile-meteo-f553",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "weather",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-meteo-f553"
-  },
-  {
-   "slug": "indovina-la-parola-facile-mobili-e92c",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "furniture",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-mobili-e92c"
-  },
-  {
-   "slug": "indovina-la-parola-facile-musica-56c1",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "music",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-musica-56c1"
-  },
-  {
-   "slug": "indovina-la-parola-facile-natale-fb9b",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "christmas",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-natale-fb9b"
-  },
-  {
-   "slug": "indovina-la-parola-facile-ospedale-6ac1",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "hospital",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-ospedale-6ac1"
-  },
-  {
-   "slug": "indovina-la-parola-facile-panetteria-4d8d",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "bakery",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-panetteria-4d8d"
-  },
-  {
-   "slug": "indovina-la-parola-facile-parti-del-corpo-957f",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "body_parts",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-parti-del-corpo-957f"
-  },
-  {
-   "slug": "indovina-la-parola-facile-pasqua-04c2",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "easter",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-pasqua-04c2"
-  },
-  {
-   "slug": "indovina-la-parola-facile-primavera-0d78",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "spring",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-primavera-0d78"
-  },
-  {
-   "slug": "indovina-la-parola-facile-professioni-0b2c",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "occupations",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-professioni-0b2c"
-  },
-  {
-   "slug": "indovina-la-parola-facile-rettili-e-anfibi-9376",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "reptiles_and_amphibians",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-rettili-e-anfibi-9376"
-  },
-  {
-   "slug": "indovina-la-parola-facile-spazio-53a3",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "space",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-spazio-53a3"
-  },
-  {
-   "slug": "indovina-la-parola-facile-spiaggia-7e94",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "beach",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-spiaggia-7e94"
-  },
-  {
-   "slug": "indovina-la-parola-facile-uccelli-2-e372",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "birds_2",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-uccelli-2-e372"
-  },
-  {
-   "slug": "indovina-la-parola-facile-uccelli-4bbd",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "birds",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-uccelli-4bbd"
-  },
-  {
-   "slug": "indovina-la-parola-facile-utensili-da-cucina-7a76",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "kitchen_tools",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-utensili-da-cucina-7a76"
-  },
-  {
-   "slug": "indovina-la-parola-facile-varie-357a",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "treno-dei-modelli-abc-varie-c9a6",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "miscellaneous",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-varie-357a"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-abc-varie-c9a6"
   },
   {
-   "slug": "indovina-la-parola-facile-veicoli-cbb2",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "treno-dei-modelli-abc-veicoli-9dd0",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "vehicles",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-veicoli-cbb2"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-abc-veicoli-9dd0"
   },
   {
-   "slug": "indovina-la-parola-facile-verdure-9a5a",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "treno-dei-modelli-abc-verdure-5f30",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "vegetables",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-verdure-9a5a"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-abc-verdure-5f30"
   },
   {
-   "slug": "indovina-la-parola-facile-vita-oceanica-1124",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "treno-dei-modelli-abc-vita-oceanica-e034",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "ocean_life",
-   "level": "classe-prima",
-   "deck": "indovina-la-parola-facile-vita-oceanica-1124"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-abc-vita-oceanica-e034"
+  },
+  {
+   "slug": "treno-dei-modelli-abbigliamento-0682",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-abbigliamento-0682"
+  },
+  {
+   "slug": "treno-dei-modelli-accessori-e4cc",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-accessori-e4cc"
+  },
+  {
+   "slug": "treno-dei-modelli-al-supermercato-cf7c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-al-supermercato-cf7c"
+  },
+  {
+   "slug": "treno-dei-modelli-alberi-a307",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-alberi-a307"
+  },
+  {
+   "slug": "treno-dei-modelli-animali-della-fattoria-8b9b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-animali-della-fattoria-8b9b"
+  },
+  {
+   "slug": "treno-dei-modelli-animali-dello-zoo-2d67",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-animali-dello-zoo-2d67"
+  },
+  {
+   "slug": "treno-dei-modelli-animali-domestici-686b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-animali-domestici-686b"
+  },
+  {
+   "slug": "treno-dei-modelli-animali-ffd0",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-animali-ffd0"
+  },
+  {
+   "slug": "treno-dei-modelli-attivita-3029",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-attivita-3029"
+  },
+  {
+   "slug": "treno-dei-modelli-attrezzi-12a1",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-attrezzi-12a1"
+  },
+  {
+   "slug": "treno-dei-modelli-aula-bc00",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aula-bc00"
+  },
+  {
+   "slug": "treno-dei-modelli-campeggio-84fb",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-campeggio-84fb"
+  },
+  {
+   "slug": "treno-dei-modelli-colazione-f085",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-colazione-f085"
+  },
+  {
+   "slug": "treno-dei-modelli-colori-275d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-colori-275d"
+  },
+  {
+   "slug": "treno-dei-modelli-cose-che-volano-cabb",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-cose-che-volano-cabb"
+  },
+  {
+   "slug": "treno-dei-modelli-creature-della-foresta-4ead",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-creature-della-foresta-4ead"
+  },
+  {
+   "slug": "treno-dei-modelli-dinosauri-a0b4",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-dinosauri-a0b4"
+  },
+  {
+   "slug": "treno-dei-modelli-dolci-e-dolciumi-2c9c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-dolci-e-dolciumi-2c9c"
+  },
+  {
+   "slug": "treno-dei-modelli-emozioni-1a21",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-emozioni-1a21"
+  },
+  {
+   "slug": "treno-dei-modelli-estate-3a24",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-estate-3a24"
+  },
+  {
+   "slug": "treno-dei-modelli-fiori-d68d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-fiori-d68d"
+  },
+  {
+   "slug": "treno-dei-modelli-forme-f10a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-forme-f10a"
+  },
+  {
+   "slug": "treno-dei-modelli-frutta-166f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-frutta-166f"
+  },
+  {
+   "slug": "treno-dei-modelli-giocattoli-201c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-giocattoli-201c"
+  },
+  {
+   "slug": "treno-dei-modelli-giorno-del-ringraziamento-3b05",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-giorno-del-ringraziamento-3b05"
+  },
+  {
+   "slug": "treno-dei-modelli-in-giro-per-casa-0eb9",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-in-giro-per-casa-0eb9"
+  },
+  {
+   "slug": "treno-dei-modelli-insetti-e-scarafaggi-5571",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-insetti-e-scarafaggi-5571"
+  },
+  {
+   "slug": "treno-dei-modelli-inverno-9427",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-inverno-9427"
+  },
+  {
+   "slug": "treno-dei-modelli-meteo-7e9c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-meteo-7e9c"
+  },
+  {
+   "slug": "treno-dei-modelli-mobili-a630",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-mobili-a630"
+  },
+  {
+   "slug": "treno-dei-modelli-musica-dd6a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-musica-dd6a"
+  },
+  {
+   "slug": "treno-dei-modelli-natale-cd78",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-natale-cd78"
+  },
+  {
+   "slug": "treno-dei-modelli-ospedale-ee78",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-ospedale-ee78"
+  },
+  {
+   "slug": "treno-dei-modelli-panetteria-ea77",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-panetteria-ea77"
+  },
+  {
+   "slug": "treno-dei-modelli-parti-del-corpo-0e5e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-parti-del-corpo-0e5e"
+  },
+  {
+   "slug": "treno-dei-modelli-pasqua-58f9",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-pasqua-58f9"
+  },
+  {
+   "slug": "treno-dei-modelli-primavera-b76a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-primavera-b76a"
+  },
+  {
+   "slug": "treno-dei-modelli-professioni-19d9",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-professioni-19d9"
+  },
+  {
+   "slug": "treno-dei-modelli-rettili-e-anfibi-ee93",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-rettili-e-anfibi-ee93"
+  },
+  {
+   "slug": "treno-dei-modelli-spazio-151b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-spazio-151b"
+  },
+  {
+   "slug": "treno-dei-modelli-spiaggia-9615",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-spiaggia-9615"
+  },
+  {
+   "slug": "treno-dei-modelli-uccelli-2-5732",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-uccelli-2-5732"
+  },
+  {
+   "slug": "treno-dei-modelli-uccelli-da4d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-uccelli-da4d"
+  },
+  {
+   "slug": "treno-dei-modelli-ufficio-postale-b583",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-ufficio-postale-b583"
+  },
+  {
+   "slug": "treno-dei-modelli-utensili-da-cucina-1ff1",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-utensili-da-cucina-1ff1"
+  },
+  {
+   "slug": "treno-dei-modelli-varie-5b8d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-varie-5b8d"
+  },
+  {
+   "slug": "treno-dei-modelli-veicoli-e9e8",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-veicoli-e9e8"
+  },
+  {
+   "slug": "treno-dei-modelli-verdure-b597",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-verdure-b597"
+  },
+  {
+   "slug": "treno-dei-modelli-vita-oceanica-7803",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-vita-oceanica-7803"
   }
  ]
 }

@@ -2,579 +2,771 @@
  "part": 254,
  "locale": "sv",
  "classes": [
-  "big-small::findBig",
-  "alphabet-train::null"
+  "sudoku::medium",
+  "find-objects::find-odd"
  ],
  "splitOf": null,
- "count": 71,
+ "count": 95,
  "pages": [
   {
-   "slug": "stor-liten-hitta-den-stora-bageri-9813",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "bakery",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-bageri-9813"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-blommor-765c",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "flowers",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-blommor-765c"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-bondgardsdjur-f9de",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-bondgardsdjur-f9de"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-camping-7e68",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "camping",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-camping-7e68"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-dinosaurier-b899",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-dinosaurier-b899"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-djur-0969",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "animals",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-djur-0969"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-djurparksdjur-7472",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-djurparksdjur-7472"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-efterratter-och-godis-3435",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-efterratter-och-godis-3435"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-faglar-2-2604",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "birds_2",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-faglar-2-2604"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-faglar-c607",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "birds",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-faglar-c607"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-fordon-14cd",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "vehicles",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-fordon-14cd"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-former-230a",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "shapes",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-former-230a"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-frukost-4869",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "breakfast",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-frukost-4869"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-frukter-626f",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "fruits",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-frukter-626f"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-gronsaker-3c93",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "vegetables",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-gronsaker-3c93"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-havsliv-0750",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-havsliv-0750"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-husdjur-0c52",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "pets",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-husdjur-0c52"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-i-snabbkopet-b54a",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-i-snabbkopet-b54a"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-jul-6629",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "christmas",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-jul-6629"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-klader-618a",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "clothing",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-klader-618a"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-klassrum-49c6",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "classroom",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-klassrum-49c6"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-koksredskap-f937",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-koksredskap-f937"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-kroppsdelar-9a67",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-kroppsdelar-9a67"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-leksaker-f549",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "toys",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-leksaker-f549"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-mobler-c87f",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "furniture",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-mobler-c87f"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-musik-8978",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "music",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-musik-8978"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-pask-cee9",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "easter",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-pask-cee9"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-runt-huset-1a6b",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-runt-huset-1a6b"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-rymden-450d",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "space",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-rymden-450d"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-saker-som-flyger-c08e",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-saker-som-flyger-c08e"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-sjukhus-05e5",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "hospital",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-sjukhus-05e5"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-skogsdjur-6461",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-skogsdjur-6461"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-strand-1b6b",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "beach",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-strand-1b6b"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-tillbehor-a1c7",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "accessories",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-tillbehor-a1c7"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-trad-9659",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "tree",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-trad-9659"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-verktyg-99ef",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "tools",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-verktyg-99ef"
-  },
-  {
-   "slug": "stor-liten-hitta-den-stora-yrken-48a4",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "occupations",
-   "level": "forskola",
-   "deck": "stor-liten-hitta-den-stora-yrken-48a4"
-  },
-  {
-   "slug": "alfabetstaget-aktiviteter-6a95",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-aktiviteter-7fd9",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "activities",
    "level": "forskola",
-   "deck": "alfabetstaget-aktiviteter-6a95"
+   "deck": "bildsudoku-medel-aktiviteter-7fd9"
   },
   {
-   "slug": "alfabetstaget-bondgardsdjur-81a1",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-bageri-02ca",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-bageri-02ca"
+  },
+  {
+   "slug": "bildsudoku-medel-blommor-0d56",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-blommor-0d56"
+  },
+  {
+   "slug": "bildsudoku-medel-bondgardsdjur-e593",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "farm_animals",
    "level": "forskola",
-   "deck": "alfabetstaget-bondgardsdjur-81a1"
+   "deck": "bildsudoku-medel-bondgardsdjur-e593"
   },
   {
-   "slug": "alfabetstaget-camping-3282",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-camping-7c95",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "camping",
    "level": "forskola",
-   "deck": "alfabetstaget-camping-3282"
+   "deck": "bildsudoku-medel-camping-7c95"
   },
   {
-   "slug": "alfabetstaget-djur",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-dinosaurier-1ccf",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-dinosaurier-1ccf"
+  },
+  {
+   "slug": "bildsudoku-medel-djur-0074",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "animals",
    "level": "forskola",
-   "deck": "alfabetstaget-djur"
+   "deck": "bildsudoku-medel-djur-0074"
   },
   {
-   "slug": "alfabetstaget-djurparksdjur-053a",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-djurparksdjur-ca0d",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "zoo_animals",
    "level": "forskola",
-   "deck": "alfabetstaget-djurparksdjur-053a"
+   "deck": "bildsudoku-medel-djurparksdjur-ca0d"
   },
   {
-   "slug": "alfabetstaget-fordon-4ec7",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-efterratter-och-godis-4833",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-efterratter-och-godis-4833"
+  },
+  {
+   "slug": "bildsudoku-medel-faglar-2-44a6",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-faglar-2-44a6"
+  },
+  {
+   "slug": "bildsudoku-medel-faglar-9df5",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-faglar-9df5"
+  },
+  {
+   "slug": "bildsudoku-medel-farger-41c3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-farger-41c3"
+  },
+  {
+   "slug": "bildsudoku-medel-fordon-48c3",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "vehicles",
    "level": "forskola",
-   "deck": "alfabetstaget-fordon-4ec7"
+   "deck": "bildsudoku-medel-fordon-48c3"
   },
   {
-   "slug": "alfabetstaget-former-bf83",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-former-3094",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "shapes",
    "level": "forskola",
-   "deck": "alfabetstaget-former-bf83"
+   "deck": "bildsudoku-medel-former-3094"
   },
   {
-   "slug": "alfabetstaget-frukost-95e1",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-frukost-2e83",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "breakfast",
    "level": "forskola",
-   "deck": "alfabetstaget-frukost-95e1"
+   "deck": "bildsudoku-medel-frukost-2e83"
   },
   {
-   "slug": "alfabetstaget-frukter-dac7",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-frukter-5769",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "fruits",
    "level": "forskola",
-   "deck": "alfabetstaget-frukter-dac7"
+   "deck": "bildsudoku-medel-frukter-5769"
   },
   {
-   "slug": "alfabetstaget-gronsaker-32ce",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-gronsaker-f5e9",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "vegetables",
    "level": "forskola",
-   "deck": "alfabetstaget-gronsaker-32ce"
+   "deck": "bildsudoku-medel-gronsaker-f5e9"
   },
   {
-   "slug": "alfabetstaget-havsliv-6be9",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-havsliv-0db1",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "ocean_life",
    "level": "forskola",
-   "deck": "alfabetstaget-havsliv-6be9"
+   "deck": "bildsudoku-medel-havsliv-0db1"
   },
   {
-   "slug": "alfabetstaget-husdjur-0984",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-husdjur-e575",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "pets",
    "level": "forskola",
-   "deck": "alfabetstaget-husdjur-0984"
+   "deck": "bildsudoku-medel-husdjur-e575"
   },
   {
-   "slug": "alfabetstaget-i-snabbkopet-c935",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-i-snabbkopet-232d",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "at_the_supermarket",
    "level": "forskola",
-   "deck": "alfabetstaget-i-snabbkopet-c935"
+   "deck": "bildsudoku-medel-i-snabbkopet-232d"
   },
   {
-   "slug": "alfabetstaget-jul-2e81",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-insekter-och-kryp-ecb1",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-insekter-och-kryp-ecb1"
+  },
+  {
+   "slug": "bildsudoku-medel-jul-f3c2",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "christmas",
    "level": "forskola",
-   "deck": "alfabetstaget-jul-2e81"
+   "deck": "bildsudoku-medel-jul-f3c2"
   },
   {
-   "slug": "alfabetstaget-kanslor-b74b",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-kanslor-ae87",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "emotions",
    "level": "forskola",
-   "deck": "alfabetstaget-kanslor-b74b"
+   "deck": "bildsudoku-medel-kanslor-ae87"
   },
   {
-   "slug": "alfabetstaget-klader-2852",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-klader-d83c",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "clothing",
    "level": "forskola",
-   "deck": "alfabetstaget-klader-2852"
+   "deck": "bildsudoku-medel-klader-d83c"
   },
   {
-   "slug": "alfabetstaget-klassrum-ead5",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-klassrum-708d",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "classroom",
    "level": "forskola",
-   "deck": "alfabetstaget-klassrum-ead5"
+   "deck": "bildsudoku-medel-klassrum-708d"
   },
   {
-   "slug": "alfabetstaget-koksredskap-bb7d",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-koksredskap-0ef8",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "kitchen_tools",
    "level": "forskola",
-   "deck": "alfabetstaget-koksredskap-bb7d"
+   "deck": "bildsudoku-medel-koksredskap-0ef8"
   },
   {
-   "slug": "alfabetstaget-kroppsdelar-d1b2",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-kroppsdelar-9212",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "body_parts",
    "level": "forskola",
-   "deck": "alfabetstaget-kroppsdelar-d1b2"
+   "deck": "bildsudoku-medel-kroppsdelar-9212"
   },
   {
-   "slug": "alfabetstaget-leksaker-8109",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-leksaker-91a4",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "toys",
    "level": "forskola",
-   "deck": "alfabetstaget-leksaker-8109"
+   "deck": "bildsudoku-medel-leksaker-91a4"
   },
   {
-   "slug": "alfabetstaget-musik-a436",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-mobler-9405",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-mobler-9405"
+  },
+  {
+   "slug": "bildsudoku-medel-musik-2050",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "music",
    "level": "forskola",
-   "deck": "alfabetstaget-musik-a436"
+   "deck": "bildsudoku-medel-musik-2050"
   },
   {
-   "slug": "alfabetstaget-pask-ba52",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-pask-7c07",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "easter",
    "level": "forskola",
-   "deck": "alfabetstaget-pask-ba52"
+   "deck": "bildsudoku-medel-pask-7c07"
   },
   {
-   "slug": "alfabetstaget-runt-huset-7ad3",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-postkontor-536c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-postkontor-536c"
+  },
+  {
+   "slug": "bildsudoku-medel-reptiler-och-groddjur-1ee1",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-reptiler-och-groddjur-1ee1"
+  },
+  {
+   "slug": "bildsudoku-medel-runt-huset-c30c",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "around_the_house",
    "level": "forskola",
-   "deck": "alfabetstaget-runt-huset-7ad3"
+   "deck": "bildsudoku-medel-runt-huset-c30c"
   },
   {
-   "slug": "alfabetstaget-rymden-0510",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-rymden-4a79",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "space",
    "level": "forskola",
-   "deck": "alfabetstaget-rymden-0510"
+   "deck": "bildsudoku-medel-rymden-4a79"
   },
   {
-   "slug": "alfabetstaget-saker-som-flyger-b833",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-saker-som-flyger-563f",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "things_that_fly",
    "level": "forskola",
-   "deck": "alfabetstaget-saker-som-flyger-b833"
+   "deck": "bildsudoku-medel-saker-som-flyger-563f"
   },
   {
-   "slug": "alfabetstaget-sjukhus-b0ec",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-sjukhus-1a87",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "hospital",
    "level": "forskola",
-   "deck": "alfabetstaget-sjukhus-b0ec"
+   "deck": "bildsudoku-medel-sjukhus-1a87"
   },
   {
-   "slug": "alfabetstaget-skogsdjur-3f93",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-skogsdjur-2cb0",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "forest_creatures",
    "level": "forskola",
-   "deck": "alfabetstaget-skogsdjur-3f93"
+   "deck": "bildsudoku-medel-skogsdjur-2cb0"
   },
   {
-   "slug": "alfabetstaget-sommar-1917",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-sommar-bfac",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "summer",
    "level": "forskola",
-   "deck": "alfabetstaget-sommar-1917"
+   "deck": "bildsudoku-medel-sommar-bfac"
   },
   {
-   "slug": "alfabetstaget-strand-1a78",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-strand-760a",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "beach",
    "level": "forskola",
-   "deck": "alfabetstaget-strand-1a78"
+   "deck": "bildsudoku-medel-strand-760a"
   },
   {
-   "slug": "alfabetstaget-thanksgiving-47f8",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-thanksgiving-72f2",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "thanksgivinng",
    "level": "forskola",
-   "deck": "alfabetstaget-thanksgiving-47f8"
+   "deck": "bildsudoku-medel-thanksgiving-72f2"
   },
   {
-   "slug": "alfabetstaget-tillbehor-b64e",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-tillbehor-8ae0",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "accessories",
    "level": "forskola",
-   "deck": "alfabetstaget-tillbehor-b64e"
+   "deck": "bildsudoku-medel-tillbehor-8ae0"
   },
   {
-   "slug": "alfabetstaget-vader-6519",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-trad-c575",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-trad-c575"
+  },
+  {
+   "slug": "bildsudoku-medel-vader-d041",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "weather",
    "level": "forskola",
-   "deck": "alfabetstaget-vader-6519"
+   "deck": "bildsudoku-medel-vader-d041"
   },
   {
-   "slug": "alfabetstaget-var-dbc8",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-var-c2a5",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "spring",
    "level": "forskola",
-   "deck": "alfabetstaget-var-dbc8"
+   "deck": "bildsudoku-medel-var-c2a5"
   },
   {
-   "slug": "alfabetstaget-yrken-a007",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "bildsudoku-medel-verktyg-5a5a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-verktyg-5a5a"
+  },
+  {
+   "slug": "bildsudoku-medel-vinter-0b16",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "bildsudoku-medel-vinter-0b16"
+  },
+  {
+   "slug": "bildsudoku-medel-yrken-217e",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "occupations",
    "level": "forskola",
-   "deck": "alfabetstaget-yrken-a007"
+   "deck": "bildsudoku-medel-yrken-217e"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-aktiviteter-b604",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-aktiviteter-b604"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-bageri-a4da",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-bageri-a4da"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-blommor-c056",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-blommor-c056"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-bondgardsdjur-dc7f",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-bondgardsdjur-dc7f"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-camping-3f36",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-camping-3f36"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-dinosaurier-2762",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-dinosaurier-2762"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-djur-9626",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-djur-9626"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-djurparksdjur-9532",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-djurparksdjur-9532"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-efterratter-och-godis-4279",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-efterratter-och-godis-4279"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-faglar-2-361b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-faglar-2-361b"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-faglar-f304",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-faglar-f304"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-farger-0531",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-farger-0531"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-fordon-2649",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-fordon-2649"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-former-b352",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-former-b352"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-frukost-25f3",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-frukost-25f3"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-frukter-e328",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-frukter-e328"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-gronsaker-965e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-gronsaker-965e"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-havsliv-0068",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-havsliv-0068"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-husdjur-0b59",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-husdjur-0b59"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-i-snabbkopet-aa71",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-i-snabbkopet-aa71"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-insekter-och-kryp-7537",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-insekter-och-kryp-7537"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-jul-4732",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-jul-4732"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-kanslor-68ad",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-kanslor-68ad"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-klader-4738",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-klader-4738"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-klassrum-80cf",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-klassrum-80cf"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-koksredskap-e952",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-koksredskap-e952"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-kroppsdelar-2e5e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-kroppsdelar-2e5e"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-leksaker-291d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-leksaker-291d"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-mobler-1d54",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-mobler-1d54"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-musik-eb16",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-musik-eb16"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-pask-fb64",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-pask-fb64"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-postkontor-da6c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-postkontor-da6c"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-reptiler-och-groddjur-6b9b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-reptiler-och-groddjur-6b9b"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-rymden-4abe",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-rymden-4abe"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-saker-som-flyger-859e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-saker-som-flyger-859e"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-sjukhus-fddc",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-sjukhus-fddc"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-skogsdjur-54f8",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-skogsdjur-54f8"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-sommar-0431",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-sommar-0431"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-strand-2f75",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-strand-2f75"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-thanksgiving-60d0",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-thanksgiving-60d0"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-tillbehor-6bca",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-tillbehor-6bca"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-trad-5360",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-trad-5360"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-vader-95a0",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-vader-95a0"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-var-cd47",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-var-cd47"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-verktyg-5d39",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-verktyg-5d39"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-vinter-76b9",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-vinter-76b9"
+  },
+  {
+   "slug": "hitta-foremalen-hitta-den-udda-yrken-4b44",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "hitta-foremalen-hitta-den-udda-yrken-4b44"
   }
  ]
 }

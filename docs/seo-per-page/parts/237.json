@@ -2,763 +2,643 @@
  "part": 237,
  "locale": "sv",
  "classes": [
-  "find-objects::i-spy",
-  "missing-pieces::one-missing"
+  "subtraction::mixed",
+  "subtraction::image-number"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 79,
  "pages": [
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-aktiviteter-5587",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "activities",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-aktiviteter-5587"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-bageri-a984",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-bageri-c677",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-bageri-a984"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-bageri-c677"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-blommor-38ea",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-blommor-d9db",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-blommor-38ea"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-blommor-d9db"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-bondgardsdjur-70ea",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-bondgardsdjur-bdbe",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-bondgardsdjur-70ea"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-bondgardsdjur-bdbe"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-camping-fe7e",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-camping-3bf0",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-camping-fe7e"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-camping-3bf0"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-dinosaurier-d660",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-dinosaurier-c1a7",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-dinosaurier-d660"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-dinosaurier-c1a7"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-djur-978e",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-djur-ced3",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "animals",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-djur-978e"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-djur-ced3"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-djurparksdjur-f6b6",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-djurparksdjur-7b1a",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-djurparksdjur-f6b6"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-djurparksdjur-7b1a"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-efterratter-och-godis-30b9",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-efterratter-och-godis-2800",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-efterratter-och-godis-30b9"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-efterratter-och-godis-2800"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-faglar-164f",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "birds",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-faglar-164f"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-faglar-2-409a",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-faglar-2-eebc",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "birds_2",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-faglar-2-409a"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-faglar-2-eebc"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-farger-8320",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "colors",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-farger-8320"
+   "slug": "subtraktion-blandat-faglar-21e9",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-faglar-21e9"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-fordon-9c5c",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-fordon-9178",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-fordon-9c5c"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-fordon-9178"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-former-a4fd",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-former-1a9d",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-former-a4fd"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-former-1a9d"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-frukost-e06a",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-frukost-a582",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "breakfast",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-frukost-e06a"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-frukost-a582"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-frukter-dc96",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-frukter-8710",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-frukter-dc96"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-frukter-8710"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-gronsaker-3792",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-gronsaker-aec9",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-gronsaker-3792"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-gronsaker-aec9"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-havsliv-194d",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-havsliv-30d4",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-havsliv-194d"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-havsliv-30d4"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-husdjur-d3d9",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-husdjur-f281",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "pets",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-husdjur-d3d9"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-husdjur-f281"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-i-snabbkopet-8791",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-i-snabbkopet-112a",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-i-snabbkopet-8791"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-i-snabbkopet-112a"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-insekter-och-kryp-fd43",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-insekter-och-kryp-225f",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-insekter-och-kryp-fd43"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-insekter-och-kryp-225f"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-jul-2667",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-jul-b1df",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-jul-2667"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-jul-b1df"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-kanslor-e09d",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "emotions",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-kanslor-e09d"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-klader-03e0",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-klader-9479",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "clothing",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-klader-03e0"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-klader-9479"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-klassrum-b1ac",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-klassrum-a53e",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-klassrum-b1ac"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-klassrum-a53e"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-koksredskap-4ea4",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-koksredskap-9f6b",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-koksredskap-4ea4"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-koksredskap-9f6b"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-kroppsdelar-7bf9",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-kroppsdelar-7bf9"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-leksaker-6bf5",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-leksaker-4dbf",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-leksaker-6bf5"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-leksaker-4dbf"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-mobler-a0ce",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-mobler-bfa1",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "furniture",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-mobler-a0ce"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-mobler-bfa1"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-musik-a649",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-musik-cea9",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "music",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-musik-a649"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-musik-cea9"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-pask-238e",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-pask-9117",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-pask-238e"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-pask-9117"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-postkontor-d47d",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-postkontor-9747",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-postkontor-d47d"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-postkontor-9747"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-reptiler-och-groddjur-0463",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "subtraktion-blandat-reptiler-och-groddjur-95a9",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-reptiler-och-groddjur-0463"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-reptiler-och-groddjur-95a9"
   },
   {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-rymden-007e",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "space",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-rymden-007e"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-saker-som-flyger-bbba",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-saker-som-flyger-bbba"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-sjukhus-2299",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "hospital",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-sjukhus-2299"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-skogsdjur-d2f8",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-skogsdjur-d2f8"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-sommar-caef",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "summer",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-sommar-caef"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-strand-c295",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "beach",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-strand-c295"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-thanksgiving-7334",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-thanksgiving-7334"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-tillbehor-16ad",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "accessories",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-tillbehor-16ad"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-trad-d24d",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "tree",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-trad-d24d"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-vader-e54d",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "weather",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-vader-e54d"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-var-a67c",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "spring",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-var-a67c"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-verktyg-776b",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "tools",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-verktyg-776b"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-vinter-f85f",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "winter",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-vinter-f85f"
-  },
-  {
-   "slug": "hitta-foremalen-jag-ser-jag-ser-yrken-c3c0",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "occupations",
-   "level": "forskola",
-   "deck": "hitta-foremalen-jag-ser-jag-ser-yrken-c3c0"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-aktiviteter-2e91",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "activities",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-aktiviteter-2e91"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-bageri-fdb8",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "bakery",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-bageri-fdb8"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-blandat-6cfc",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "miscellaneous",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-blandat-6cfc"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-blommor-dde6",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "flowers",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-blommor-dde6"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-bondgardsdjur-ba25",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-bondgardsdjur-ba25"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-camping-fb62",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "camping",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-camping-fb62"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-dinosaurier-cf07",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-dinosaurier-cf07"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-djur",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "animals",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-djur"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-djurparksdjur-07af",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-djurparksdjur-07af"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-efterratter-och-godis-bbcf",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-efterratter-och-godis-bbcf"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-faglar-2-30ca",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "birds_2",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-faglar-2-30ca"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-faglar-fe23",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "birds",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-faglar-fe23"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-fordon-b18d",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "vehicles",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-fordon-b18d"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-frukost-45e8",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "breakfast",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-frukost-45e8"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-frukter-525d",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "fruits",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-frukter-525d"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-gronsaker-9e37",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "vegetables",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-gronsaker-9e37"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-havsliv-d68d",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-havsliv-d68d"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-husdjur-6420",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "pets",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-husdjur-6420"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-i-snabbkopet-438c",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-i-snabbkopet-438c"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-insekter-och-kryp-b72e",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-insekter-och-kryp-b72e"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-jul-7753",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "christmas",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-jul-7753"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-kanslor-800a",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "emotions",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-kanslor-800a"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-klader-50c7",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "clothing",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-klader-50c7"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-klassrum-cf26",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "classroom",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-klassrum-cf26"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-koksredskap-45a2",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-koksredskap-45a2"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-kroppsdelar-e5bd",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-kroppsdelar-e5bd"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-leksaker-1ec6",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "toys",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-leksaker-1ec6"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-mobler-2728",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "furniture",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-mobler-2728"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-musik-1bcc",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "music",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-musik-1bcc"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-pask-6b35",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "easter",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-pask-6b35"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-postkontor-af64",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "post_office",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-postkontor-af64"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-reptiler-och-groddjur-84eb",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "reptiles_and_amphibians",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-reptiler-och-groddjur-84eb"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-runt-huset-2e66",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "subtraktion-blandat-runt-huset-6b53",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-runt-huset-2e66"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-runt-huset-6b53"
   },
   {
-   "slug": "saknade-bitar-1-saknad-bit-rymden-1772",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "subtraktion-blandat-rymden-73f3",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "space",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-rymden-1772"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-rymden-73f3"
   },
   {
-   "slug": "saknade-bitar-1-saknad-bit-saker-som-flyger-d0cb",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "subtraktion-blandat-saker-som-flyger-97bc",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-saker-som-flyger-d0cb"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-saker-som-flyger-97bc"
   },
   {
-   "slug": "saknade-bitar-1-saknad-bit-sjukhus-6af1",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "subtraktion-blandat-sjukhus-4eac",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-sjukhus-6af1"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-sjukhus-4eac"
   },
   {
-   "slug": "saknade-bitar-1-saknad-bit-skogsdjur-d557",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "subtraktion-blandat-skogsdjur-8304",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-skogsdjur-d557"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-skogsdjur-8304"
   },
   {
-   "slug": "saknade-bitar-1-saknad-bit-sommar-55b4",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "summer",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-sommar-55b4"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-strand-f18f",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "subtraktion-blandat-strand-e3b5",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-strand-f18f"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-strand-e3b5"
   },
   {
-   "slug": "saknade-bitar-1-saknad-bit-thanksgiving-237e",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "subtraktion-blandat-thanksgiving-e4ad",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-thanksgiving-237e"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-thanksgiving-e4ad"
   },
   {
-   "slug": "saknade-bitar-1-saknad-bit-tillbehor-7fda",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "subtraktion-blandat-tillbehor-b1b3",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "accessories",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-tillbehor-7fda"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-tillbehor-b1b3"
   },
   {
-   "slug": "saknade-bitar-1-saknad-bit-trad-97b7",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "subtraktion-blandat-trad-503f",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "tree",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-trad-97b7"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-trad-503f"
   },
   {
-   "slug": "saknade-bitar-1-saknad-bit-vader-649e",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "weather",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-vader-649e"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-var-d828",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "spring",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-var-d828"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-verktyg-3aba",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "subtraktion-blandat-verktyg-465c",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-verktyg-3aba"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-verktyg-465c"
   },
   {
-   "slug": "saknade-bitar-1-saknad-bit-vinter-f2cd",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "winter",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-vinter-f2cd"
-  },
-  {
-   "slug": "saknade-bitar-1-saknad-bit-yrken-ef6b",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "subtraktion-blandat-yrken-02a3",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "occupations",
-   "level": "forskola",
-   "deck": "saknade-bitar-1-saknad-bit-yrken-ef6b"
+   "level": "ak-1",
+   "deck": "subtraktion-blandat-yrken-02a3"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-bageri-92d9",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-bageri-92d9"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-blommor-2486",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-blommor-2486"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-bondgardsdjur-5fb6",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-bondgardsdjur-5fb6"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-camping-5acc",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-camping-5acc"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-dinosaurier-40a3",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-dinosaurier-40a3"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-djur-e7dd",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-djur-e7dd"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-djurparksdjur-922c",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-djurparksdjur-922c"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-efterratter-och-godis-9a49",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-efterratter-och-godis-9a49"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-faglar-0224",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-faglar-0224"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-faglar-2-4159",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-faglar-2-4159"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-fordon-abf6",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-fordon-abf6"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-former-098d",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-former-098d"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-frukost-9003",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-frukost-9003"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-frukter-c9ea",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-frukter-c9ea"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-gronsaker-3f34",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-gronsaker-3f34"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-havsliv-55e2",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-havsliv-55e2"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-husdjur-556c",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-husdjur-556c"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-i-snabbkopet-2a4b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-i-snabbkopet-2a4b"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-insekter-och-kryp-1298",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-insekter-och-kryp-1298"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-jul-668b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-jul-668b"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-klader-6b06",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-klader-6b06"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-klassrum-e3a8",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-klassrum-e3a8"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-koksredskap-f732",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-koksredskap-f732"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-leksaker-f8f4",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-leksaker-f8f4"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-musik-5a15",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-musik-5a15"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-pask-0a0b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-pask-0a0b"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-postkontor-223e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-postkontor-223e"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-reptiler-och-groddjur-37f1",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-reptiler-och-groddjur-37f1"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-runt-huset-58d2",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-runt-huset-58d2"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-rymden-6c44",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-rymden-6c44"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-saker-som-flyger-8fe3",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-saker-som-flyger-8fe3"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-sjukhus-5851",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-sjukhus-5851"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-skogsdjur-b840",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-skogsdjur-b840"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-strand-a1dc",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-strand-a1dc"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-thanksgiving-406e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-thanksgiving-406e"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-tillbehor-17a8",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-tillbehor-17a8"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-trad-3015",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-trad-3015"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-verktyg-c791",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-verktyg-c791"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-yrken-9f21",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-yrken-9f21"
   }
  ]
 }

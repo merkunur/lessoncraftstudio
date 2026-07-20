@@ -1,496 +1,748 @@
 {
  "part": 290,
- "locale": "no",
+ "locale": "da",
  "classes": [
-  "picture-sort::null"
+  "find-objects::i-spy",
+  "missing-pieces::two-missing"
  ],
- "splitOf": {
-  "class": "picture-sort::null",
-  "total": 180,
-  "chunk": 2,
-  "chunks": 3
- },
- "count": 60,
+ "splitOf": null,
+ "count": 92,
  "pages": [
   {
-   "slug": "sorter-bilder-clothing-vs-animals-bac5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-animals",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-clothing-vs-animals-bac5"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-aktiviteter-06ad",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-aktiviteter-06ad"
   },
   {
-   "slug": "sorter-bilder-clothing-vs-bakery-811b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-clothing-vs-bakery-811b"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-bageri-8283",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-bageri-8283"
   },
   {
-   "slug": "sorter-bilder-clothing-vs-flowers-5b2e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-flowers",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-clothing-vs-flowers-5b2e"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-blomster-35a2",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-blomster-35a2"
   },
   {
-   "slug": "sorter-bilder-colors-vs-animals-679a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-animals",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-colors-vs-animals-679a"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-bondegardsdyr-8aed",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-bondegardsdyr-8aed"
   },
   {
-   "slug": "sorter-bilder-colors-vs-bakery-8b01",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-colors-vs-bakery-8b01"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-camping-6fc0",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-camping-6fc0"
   },
   {
-   "slug": "sorter-bilder-colors-vs-dinosaurs-31d2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-dinosaurs",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-colors-vs-dinosaurs-31d2"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-desserter-og-slik-35a8",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-desserter-og-slik-35a8"
   },
   {
-   "slug": "sorter-bilder-colors-vs-flowers-129b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-flowers",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-colors-vs-flowers-129b"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-dinosaurer-c91e",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-dinosaurer-c91e"
   },
   {
-   "slug": "sorter-bilder-colors-vs-vehicles-6e75",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-vehicles",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-colors-vs-vehicles-6e75"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-dyr-d7cc",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-dyr-d7cc"
   },
   {
-   "slug": "sorter-bilder-desserts-and-sweets-vs-animals-4cc6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "desserts_and_sweets-vs-animals",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-desserts-and-sweets-vs-animals-4cc6"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-erhverv-0638",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-erhverv-0638"
   },
   {
-   "slug": "sorter-bilder-desserts-and-sweets-vs-dinosaurs-f8a3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "desserts_and_sweets-vs-dinosaurs",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-desserts-and-sweets-vs-dinosaurs-f8a3"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-farver-3296",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-farver-3296"
   },
   {
-   "slug": "sorter-bilder-desserts-and-sweets-vs-flowers-21f2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "desserts_and_sweets-vs-flowers",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-desserts-and-sweets-vs-flowers-21f2"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-folelser-bf53",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-folelser-bf53"
   },
   {
-   "slug": "sorter-bilder-desserts-and-sweets-vs-tree-0889",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "desserts_and_sweets-vs-tree",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-desserts-and-sweets-vs-tree-0889"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-forar-349b",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-forar-349b"
   },
   {
-   "slug": "sorter-bilder-desserts-and-sweets-vs-vehicles-2cdf",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "desserts_and_sweets-vs-vehicles",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-desserts-and-sweets-vs-vehicles-2cdf"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-former-aff9",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-former-aff9"
   },
   {
-   "slug": "sorter-bilder-dinosaurs-vs-animals-8862",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "dinosaurs-vs-animals",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-dinosaurs-vs-animals-8862"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-frugter-5e82",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-frugter-5e82"
   },
   {
-   "slug": "sorter-bilder-dinosaurs-vs-bakery-e599",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "dinosaurs-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-dinosaurs-vs-bakery-e599"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-fugle-2-cf2f",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-fugle-2-cf2f"
   },
   {
-   "slug": "sorter-bilder-dinosaurs-vs-flowers-86dc",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "dinosaurs-vs-flowers",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-dinosaurs-vs-flowers-86dc"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-grontsager-ed23",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-grontsager-ed23"
   },
   {
-   "slug": "sorter-bilder-dinosaurs-vs-tree-4391",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "dinosaurs-vs-tree",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-dinosaurs-vs-tree-4391"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-havliv-1733",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-havliv-1733"
   },
   {
-   "slug": "sorter-bilder-dinosaurs-vs-vehicles-434b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "dinosaurs-vs-vehicles",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-dinosaurs-vs-vehicles-434b"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-hospital-6f2a",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-hospital-6f2a"
   },
   {
-   "slug": "sorter-bilder-easter-vs-animals-d02d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "easter-vs-animals",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-easter-vs-animals-d02d"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-i-supermarkedet-a19e",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-i-supermarkedet-a19e"
   },
   {
-   "slug": "sorter-bilder-easter-vs-bakery-ec42",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "easter-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-easter-vs-bakery-ec42"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-insekter-og-kryb-078d",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-insekter-og-kryb-078d"
   },
   {
-   "slug": "sorter-bilder-emotions-vs-animals-5f27",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "emotions-vs-animals",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-emotions-vs-animals-5f27"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-jul-1b92",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-jul-1b92"
   },
   {
-   "slug": "sorter-bilder-emotions-vs-bakery-2ac8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "emotions-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-emotions-vs-bakery-2ac8"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-kaeledyr-2b5d",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-kaeledyr-2b5d"
   },
   {
-   "slug": "sorter-bilder-emotions-vs-dinosaurs-8210",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "emotions-vs-dinosaurs",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-emotions-vs-dinosaurs-8210"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-klassevaerelse-1499",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-klassevaerelse-1499"
   },
   {
-   "slug": "sorter-bilder-emotions-vs-flowers-eeef",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "emotions-vs-flowers",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-emotions-vs-flowers-eeef"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-kokkenredskaber-18b5",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-kokkenredskaber-18b5"
   },
   {
-   "slug": "sorter-bilder-farm-animals-vs-bakery-43c8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "farm_animals-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-farm-animals-vs-bakery-43c8"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-koretojer-f2c6",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-koretojer-f2c6"
   },
   {
-   "slug": "sorter-bilder-farm-animals-vs-dinosaurs-9305",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "farm_animals-vs-dinosaurs",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-farm-animals-vs-dinosaurs-9305"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-kropsdele-e8fb",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-kropsdele-e8fb"
   },
   {
-   "slug": "sorter-bilder-farm-animals-vs-flowers-fa62",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "farm_animals-vs-flowers",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-farm-animals-vs-flowers-fa62"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-krybdyr-og-padder-ef93",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-krybdyr-og-padder-ef93"
   },
   {
-   "slug": "sorter-bilder-farm-animals-vs-tree-9549",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "farm_animals-vs-tree",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-farm-animals-vs-tree-9549"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-legetoj-924a",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-legetoj-924a"
   },
   {
-   "slug": "sorter-bilder-farm-animals-vs-vehicles-e000",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "farm_animals-vs-vehicles",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-farm-animals-vs-vehicles-e000"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-mobler-ab8c",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-mobler-ab8c"
   },
   {
-   "slug": "sorter-bilder-flowers-vs-animals-75ff",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-animals",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-flowers-vs-animals-75ff"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-morgenmad-0c51",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-morgenmad-0c51"
   },
   {
-   "slug": "sorter-bilder-flowers-vs-bakery-4fd1",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-flowers-vs-bakery-4fd1"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-musik-0f8b",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-musik-0f8b"
   },
   {
-   "slug": "sorter-bilder-flowers-vs-dinosaurs-155c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-dinosaurs",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-flowers-vs-dinosaurs-155c"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-paske-2bcf",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-paske-2bcf"
   },
   {
-   "slug": "sorter-bilder-flowers-vs-tree-d375",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-tree",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-flowers-vs-tree-d375"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-postkontor-fbd8",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-postkontor-fbd8"
   },
   {
-   "slug": "sorter-bilder-flowers-vs-vehicles-9b77",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-vehicles",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-flowers-vs-vehicles-9b77"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-rummet-9f3d",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-rummet-9f3d"
   },
   {
-   "slug": "sorter-bilder-forest-creatures-vs-bakery-f716",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "forest_creatures-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-forest-creatures-vs-bakery-f716"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-skovdyr-c0b0",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-skovdyr-c0b0"
   },
   {
-   "slug": "sorter-bilder-forest-creatures-vs-flowers-d294",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "forest_creatures-vs-flowers",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-forest-creatures-vs-flowers-d294"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-sommer-cf0f",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-sommer-cf0f"
   },
   {
-   "slug": "sorter-bilder-fruits-vs-animals-74e6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-animals",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-fruits-vs-animals-74e6"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-strand-8ee2",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-strand-8ee2"
   },
   {
-   "slug": "sorter-bilder-fruits-vs-dinosaurs-d3dd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-dinosaurs",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-fruits-vs-dinosaurs-d3dd"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-thanksgiving-55e5",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-thanksgiving-55e5"
   },
   {
-   "slug": "sorter-bilder-fruits-vs-flowers-95b4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-flowers",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-fruits-vs-flowers-95b4"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-tilbehor-0dc9",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-tilbehor-0dc9"
   },
   {
-   "slug": "sorter-bilder-fruits-vs-tree-aeef",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-tree",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-fruits-vs-tree-aeef"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-ting-der-flyver-1371",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-ting-der-flyver-1371"
   },
   {
-   "slug": "sorter-bilder-fruits-vs-vehicles-6458",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-vehicles",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-fruits-vs-vehicles-6458"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-toj-7a95",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-toj-7a95"
   },
   {
-   "slug": "sorter-bilder-furniture-vs-animals-d13b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "furniture-vs-animals",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-furniture-vs-animals-d13b"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-traeer-6e3e",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-traeer-6e3e"
   },
   {
-   "slug": "sorter-bilder-furniture-vs-bakery-762a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "furniture-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-furniture-vs-bakery-762a"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-vaerktoj-fc34",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-vaerktoj-fc34"
   },
   {
-   "slug": "sorter-bilder-furniture-vs-flowers-490a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "furniture-vs-flowers",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-furniture-vs-flowers-490a"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-vejr-ab0d",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-vejr-ab0d"
   },
   {
-   "slug": "sorter-bilder-hospital-vs-animals-3113",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "hospital-vs-animals",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-hospital-vs-animals-3113"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-vinter-0dc7",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-vinter-0dc7"
   },
   {
-   "slug": "sorter-bilder-hospital-vs-bakery-6eb6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "hospital-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-hospital-vs-bakery-6eb6"
+   "slug": "find-genstandene-jeg-ser-jeg-ser-zoodyr-3b0b",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "find-genstandene-jeg-ser-jeg-ser-zoodyr-3b0b"
   },
   {
-   "slug": "sorter-bilder-hospital-vs-flowers-c2d5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "hospital-vs-flowers",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-hospital-vs-flowers-c2d5"
+   "slug": "manglende-brikker-2-manglende-brikker-aktiviteter-8884",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-aktiviteter-8884"
   },
   {
-   "slug": "sorter-bilder-insects-and-bugs-vs-bakery-3328",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "insects_and_bugs-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-insects-and-bugs-vs-bakery-3328"
+   "slug": "manglende-brikker-2-manglende-brikker-bageri-ba2f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-bageri-ba2f"
   },
   {
-   "slug": "sorter-bilder-insects-and-bugs-vs-dinosaurs-5f21",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "insects_and_bugs-vs-dinosaurs",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-insects-and-bugs-vs-dinosaurs-5f21"
+   "slug": "manglende-brikker-2-manglende-brikker-blomster-c24c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-blomster-c24c"
   },
   {
-   "slug": "sorter-bilder-insects-and-bugs-vs-flowers-026f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "insects_and_bugs-vs-flowers",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-insects-and-bugs-vs-flowers-026f"
+   "slug": "manglende-brikker-2-manglende-brikker-bondegardsdyr-af5f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-bondegardsdyr-af5f"
   },
   {
-   "slug": "sorter-bilder-insects-and-bugs-vs-tree-4b23",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "insects_and_bugs-vs-tree",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-insects-and-bugs-vs-tree-4b23"
+   "slug": "manglende-brikker-2-manglende-brikker-camping-ccb4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-camping-ccb4"
   },
   {
-   "slug": "sorter-bilder-insects-and-bugs-vs-vehicles-7e51",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "insects_and_bugs-vs-vehicles",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-insects-and-bugs-vs-vehicles-7e51"
+   "slug": "manglende-brikker-2-manglende-brikker-desserter-og-slik-052f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-desserter-og-slik-052f"
   },
   {
-   "slug": "sorter-bilder-kitchen-tools-vs-animals-a553",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "kitchen_tools-vs-animals",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-kitchen-tools-vs-animals-a553"
+   "slug": "manglende-brikker-2-manglende-brikker-dinosaurer-e30b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-dinosaurer-e30b"
   },
   {
-   "slug": "sorter-bilder-kitchen-tools-vs-bakery-9544",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "kitchen_tools-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-kitchen-tools-vs-bakery-9544"
+   "slug": "manglende-brikker-2-manglende-brikker-dyr-4307",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-dyr-4307"
   },
   {
-   "slug": "sorter-bilder-kitchen-tools-vs-tree-5295",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "kitchen_tools-vs-tree",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-kitchen-tools-vs-tree-5295"
+   "slug": "manglende-brikker-2-manglende-brikker-erhverv-d5e2",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-erhverv-d5e2"
   },
   {
-   "slug": "sorter-bilder-music-vs-animals-f9c2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "music-vs-animals",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-music-vs-animals-f9c2"
+   "slug": "manglende-brikker-2-manglende-brikker-folelser-d7d0",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-folelser-d7d0"
   },
   {
-   "slug": "sorter-bilder-music-vs-bakery-ca00",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "music-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-music-vs-bakery-ca00"
+   "slug": "manglende-brikker-2-manglende-brikker-forar-0954",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-forar-0954"
   },
   {
-   "slug": "sorter-bilder-music-vs-flowers-489f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "music-vs-flowers",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-music-vs-flowers-489f"
+   "slug": "manglende-brikker-2-manglende-brikker-frugter-b7e7",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-frugter-b7e7"
   },
   {
-   "slug": "sorter-bilder-occupations-vs-bakery-049a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "occupations-vs-bakery",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-occupations-vs-bakery-049a"
+   "slug": "manglende-brikker-2-manglende-brikker-fugle-2-92d6",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-fugle-2-92d6"
   },
   {
-   "slug": "sorter-bilder-occupations-vs-flowers-3f55",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "occupations-vs-flowers",
-   "level": "1-trinn",
-   "deck": "sorter-bilder-occupations-vs-flowers-3f55"
+   "slug": "manglende-brikker-2-manglende-brikker-fugle-3b29",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-fugle-3b29"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-grontsager-1ab0",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-grontsager-1ab0"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-havliv-6fcc",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-havliv-6fcc"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-hospital-57ae",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-hospital-57ae"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-i-supermarkedet-27a6",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-i-supermarkedet-27a6"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-insekter-og-kryb-255b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-insekter-og-kryb-255b"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-jul-49a1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-jul-49a1"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-kaeledyr-8028",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-kaeledyr-8028"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-klassevaerelse-6527",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-klassevaerelse-6527"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-kokkenredskaber-b6ff",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-kokkenredskaber-b6ff"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-koretojer-a0b2",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-koretojer-a0b2"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-kropsdele-e9df",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-kropsdele-e9df"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-krybdyr-og-padder-9fa6",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-krybdyr-og-padder-9fa6"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-legetoj-0f69",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-legetoj-0f69"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-mobler-2940",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-mobler-2940"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-morgenmad-4f05",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-morgenmad-4f05"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-musik-6962",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-musik-6962"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-paske-c778",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-paske-c778"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-postkontor-3876",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-postkontor-3876"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-rummet-f710",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-rummet-f710"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-rundt-i-huset-01a1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-rundt-i-huset-01a1"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-skovdyr-f527",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-skovdyr-f527"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-sommer-000c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-sommer-000c"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-strand-d5b8",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-strand-d5b8"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-thanksgiving-aaf6",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-thanksgiving-aaf6"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-tilbehor-ad10",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-tilbehor-ad10"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-ting-der-flyver-2fd7",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-ting-der-flyver-2fd7"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-toj-0e2a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-toj-0e2a"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-traeer-bbc0",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-traeer-bbc0"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-vaerktoj-81f7",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-vaerktoj-81f7"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-vejr-014a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-vejr-014a"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-vinter-9ce4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-vinter-9ce4"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-zoodyr-7c81",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-2-manglende-brikker-zoodyr-7c81"
   }
  ]
 }

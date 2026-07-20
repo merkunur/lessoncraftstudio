@@ -2,667 +2,459 @@
  "part": 157,
  "locale": "fr",
  "classes": [
-  "big-small::findBig",
-  "chart-count::null"
+  "word-scramble::easy",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature"
  ],
  "splitOf": null,
- "count": 82,
+ "count": 55,
  "pages": [
   {
-   "slug": "grand-petit-trouve-le-grand-accessoires-2c95",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "accessories",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-accessoires-2c95"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-action-de-grace-5111",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-action-de-grace-5111"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-animaux-98b6",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "animals",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-animaux-98b6"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-animaux-de-compagnie-d13f",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "pets",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-animaux-de-compagnie-d13f"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-animaux-de-la-ferme-ac96",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-animaux-de-la-ferme-ac96"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-animaux-du-zoo-72c0",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-animaux-du-zoo-72c0"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-arbres-2bfa",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "tree",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-arbres-2bfa"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-au-supermarche-60f3",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-au-supermarche-60f3"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-autour-de-la-maison-cc1e",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-autour-de-la-maison-cc1e"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-boulangerie-7c77",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "bakery",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-boulangerie-7c77"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-bureau-de-poste-4277",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "post_office",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-bureau-de-poste-4277"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-camping-0fcf",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "camping",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-camping-0fcf"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-choses-qui-volent-3df2",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-choses-qui-volent-3df2"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-creatures-de-la-foret-a88b",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "forest_creatures",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-creatures-de-la-foret-a88b"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-desserts-et-sucreries-3d8a",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-desserts-et-sucreries-3d8a"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-dinosaures-5558",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "dinosaurs",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-dinosaures-5558"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-espace-63ae",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "space",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-espace-63ae"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-fleurs-b355",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "flowers",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-fleurs-b355"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-formes-606d",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "shapes",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-formes-606d"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-fruits-9ed4",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "fruits",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-fruits-9ed4"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-hopital-5dad",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "hospital",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-hopital-5dad"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-insectes-et-bestioles-c400",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "insects_and_bugs",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-insectes-et-bestioles-c400"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-jouets-23c4",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "toys",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-jouets-23c4"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-legumes-2ed8",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "vegetables",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-legumes-2ed8"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-metiers-d8f7",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "occupations",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-metiers-d8f7"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-meubles-dc84",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "furniture",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-meubles-dc84"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-musique-e5a0",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "music",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-musique-e5a0"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-noel-d122",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "christmas",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-noel-d122"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-oiseaux-2-e8a4",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-oiseaux-2-e8a4"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-oiseaux-536b",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "birds",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-oiseaux-536b"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-outils-9f9d",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "tools",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-outils-9f9d"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-paques-e29e",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "easter",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-paques-e29e"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-parties-du-corps-65c7",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-parties-du-corps-65c7"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-petit-dejeuner-10ff",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "breakfast",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-petit-dejeuner-10ff"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-plage-287b",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "beach",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-plage-287b"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-reptiles-et-amphibiens-aad1",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-reptiles-et-amphibiens-aad1"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-salle-de-classe-96ed",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "classroom",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-salle-de-classe-96ed"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-ustensiles-de-cuisine-513d",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "kitchen_tools",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-ustensiles-de-cuisine-513d"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-vehicules-c7ba",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-vehicules-c7ba"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-vetements-db6d",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "clothing",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-vetements-db6d"
-  },
-  {
-   "slug": "grand-petit-trouve-le-grand-vie-oceanique-67ea",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "grand-petit-trouve-le-grand-vie-oceanique-67ea"
-  },
-  {
-   "slug": "comptage-graphique-accessoires-0cba",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-accessoires-a4b8",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "accessories",
    "level": "cp",
-   "deck": "comptage-graphique-accessoires-0cba"
+   "deck": "lettres-melangees-facile-accessoires-a4b8"
   },
   {
-   "slug": "comptage-graphique-action-de-grace-404d",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-action-de-grace-8792",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "thanksgivinng",
    "level": "cp",
-   "deck": "comptage-graphique-action-de-grace-404d"
+   "deck": "lettres-melangees-facile-action-de-grace-8792"
   },
   {
-   "slug": "comptage-graphique-animaux-de-compagnie-287a",
-   "type": "chart-count",
-   "mode": null,
-   "theme": "pets",
+   "slug": "lettres-melangees-facile-activites-ff4f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "activities",
    "level": "cp",
-   "deck": "comptage-graphique-animaux-de-compagnie-287a"
+   "deck": "lettres-melangees-facile-activites-ff4f"
   },
   {
-   "slug": "comptage-graphique-animaux-de-la-ferme-a0c1",
-   "type": "chart-count",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "cp",
-   "deck": "comptage-graphique-animaux-de-la-ferme-a0c1"
-  },
-  {
-   "slug": "comptage-graphique-animaux-du-zoo-e1e4",
-   "type": "chart-count",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "cp",
-   "deck": "comptage-graphique-animaux-du-zoo-e1e4"
-  },
-  {
-   "slug": "comptage-graphique-animaux-ea5c",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-animaux-14b4",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "animals",
    "level": "cp",
-   "deck": "comptage-graphique-animaux-ea5c"
+   "deck": "lettres-melangees-facile-animaux-14b4"
   },
   {
-   "slug": "comptage-graphique-arbres-3840",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-animaux-de-compagnie-3c95",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-animaux-de-compagnie-3c95"
+  },
+  {
+   "slug": "lettres-melangees-facile-animaux-de-la-ferme-bb61",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-animaux-de-la-ferme-bb61"
+  },
+  {
+   "slug": "lettres-melangees-facile-animaux-du-zoo-c536",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-animaux-du-zoo-c536"
+  },
+  {
+   "slug": "lettres-melangees-facile-arbres-a4a1",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "tree",
    "level": "cp",
-   "deck": "comptage-graphique-arbres-3840"
+   "deck": "lettres-melangees-facile-arbres-a4a1"
   },
   {
-   "slug": "comptage-graphique-au-supermarche-0380",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-au-supermarche-0e34",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "at_the_supermarket",
    "level": "cp",
-   "deck": "comptage-graphique-au-supermarche-0380"
+   "deck": "lettres-melangees-facile-au-supermarche-0e34"
   },
   {
-   "slug": "comptage-graphique-autour-de-la-maison-d21c",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-autour-de-la-maison-5327",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "around_the_house",
    "level": "cp",
-   "deck": "comptage-graphique-autour-de-la-maison-d21c"
+   "deck": "lettres-melangees-facile-autour-de-la-maison-5327"
   },
   {
-   "slug": "comptage-graphique-boulangerie-bb42",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-boulangerie-c4db",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "bakery",
    "level": "cp",
-   "deck": "comptage-graphique-boulangerie-bb42"
+   "deck": "lettres-melangees-facile-boulangerie-c4db"
   },
   {
-   "slug": "comptage-graphique-bureau-de-poste-1540",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-bureau-de-poste-4b7f",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "post_office",
    "level": "cp",
-   "deck": "comptage-graphique-bureau-de-poste-1540"
+   "deck": "lettres-melangees-facile-bureau-de-poste-4b7f"
   },
   {
-   "slug": "comptage-graphique-camping-6b4a",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-camping-7b06",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "camping",
    "level": "cp",
-   "deck": "comptage-graphique-camping-6b4a"
+   "deck": "lettres-melangees-facile-camping-7b06"
   },
   {
-   "slug": "comptage-graphique-choses-qui-volent-0a8f",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-choses-qui-volent-22a8",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "things_that_fly",
    "level": "cp",
-   "deck": "comptage-graphique-choses-qui-volent-0a8f"
+   "deck": "lettres-melangees-facile-choses-qui-volent-22a8"
   },
   {
-   "slug": "comptage-graphique-couleurs-e4a8",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-couleurs-4a59",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "colors",
    "level": "cp",
-   "deck": "comptage-graphique-couleurs-e4a8"
+   "deck": "lettres-melangees-facile-couleurs-4a59"
   },
   {
-   "slug": "comptage-graphique-creatures-de-la-foret-da2a",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-creatures-de-la-foret-d670",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "forest_creatures",
    "level": "cp",
-   "deck": "comptage-graphique-creatures-de-la-foret-da2a"
+   "deck": "lettres-melangees-facile-creatures-de-la-foret-d670"
   },
   {
-   "slug": "comptage-graphique-desserts-et-sucreries-73b8",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-desserts-et-sucreries-5ead",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "desserts_and_sweets",
    "level": "cp",
-   "deck": "comptage-graphique-desserts-et-sucreries-73b8"
+   "deck": "lettres-melangees-facile-desserts-et-sucreries-5ead"
   },
   {
-   "slug": "comptage-graphique-dinosaures-6875",
-   "type": "chart-count",
-   "mode": null,
-   "theme": "dinosaurs",
+   "slug": "lettres-melangees-facile-emotions-bc2b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "emotions",
    "level": "cp",
-   "deck": "comptage-graphique-dinosaures-6875"
+   "deck": "lettres-melangees-facile-emotions-bc2b"
   },
   {
-   "slug": "comptage-graphique-espace-b042",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-espace-af2d",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "space",
    "level": "cp",
-   "deck": "comptage-graphique-espace-b042"
+   "deck": "lettres-melangees-facile-espace-af2d"
   },
   {
-   "slug": "comptage-graphique-fleurs-ae39",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-ete-d785",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-ete-d785"
+  },
+  {
+   "slug": "lettres-melangees-facile-fleurs-0299",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "flowers",
    "level": "cp",
-   "deck": "comptage-graphique-fleurs-ae39"
+   "deck": "lettres-melangees-facile-fleurs-0299"
   },
   {
-   "slug": "comptage-graphique-formes-ecaf",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-formes-e8db",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "shapes",
    "level": "cp",
-   "deck": "comptage-graphique-formes-ecaf"
+   "deck": "lettres-melangees-facile-formes-e8db"
   },
   {
-   "slug": "comptage-graphique-fruits-e6ae",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-fruits-85bf",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "fruits",
    "level": "cp",
-   "deck": "comptage-graphique-fruits-e6ae"
+   "deck": "lettres-melangees-facile-fruits-85bf"
   },
   {
-   "slug": "comptage-graphique-hopital-7cd9",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-hiver-629b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-hiver-629b"
+  },
+  {
+   "slug": "lettres-melangees-facile-hopital-f202",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "hospital",
    "level": "cp",
-   "deck": "comptage-graphique-hopital-7cd9"
+   "deck": "lettres-melangees-facile-hopital-f202"
   },
   {
-   "slug": "comptage-graphique-insectes-et-bestioles-dedb",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-insectes-et-bestioles-191b",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "insects_and_bugs",
    "level": "cp",
-   "deck": "comptage-graphique-insectes-et-bestioles-dedb"
+   "deck": "lettres-melangees-facile-insectes-et-bestioles-191b"
   },
   {
-   "slug": "comptage-graphique-jouets-3368",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-jouets-d5b1",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "toys",
    "level": "cp",
-   "deck": "comptage-graphique-jouets-3368"
+   "deck": "lettres-melangees-facile-jouets-d5b1"
   },
   {
-   "slug": "comptage-graphique-legumes-2d25",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-legumes-298a",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "vegetables",
    "level": "cp",
-   "deck": "comptage-graphique-legumes-2d25"
+   "deck": "lettres-melangees-facile-legumes-298a"
   },
   {
-   "slug": "comptage-graphique-metiers-7f94",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-meteo-d0a1",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-meteo-d0a1"
+  },
+  {
+   "slug": "lettres-melangees-facile-metiers-0d3e",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "occupations",
    "level": "cp",
-   "deck": "comptage-graphique-metiers-7f94"
+   "deck": "lettres-melangees-facile-metiers-0d3e"
   },
   {
-   "slug": "comptage-graphique-meubles-8c5e",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-meubles-5a46",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "furniture",
    "level": "cp",
-   "deck": "comptage-graphique-meubles-8c5e"
+   "deck": "lettres-melangees-facile-meubles-5a46"
   },
   {
-   "slug": "comptage-graphique-musique-ff1a",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-musique-54c0",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "music",
    "level": "cp",
-   "deck": "comptage-graphique-musique-ff1a"
+   "deck": "lettres-melangees-facile-musique-54c0"
   },
   {
-   "slug": "comptage-graphique-noel-1f5a",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-noel-e2f6",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "christmas",
    "level": "cp",
-   "deck": "comptage-graphique-noel-1f5a"
+   "deck": "lettres-melangees-facile-noel-e2f6"
   },
   {
-   "slug": "comptage-graphique-oiseaux-2-d5e7",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-oiseaux-2-d285",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "birds_2",
    "level": "cp",
-   "deck": "comptage-graphique-oiseaux-2-d5e7"
+   "deck": "lettres-melangees-facile-oiseaux-2-d285"
   },
   {
-   "slug": "comptage-graphique-oiseaux-8fff",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-oiseaux-83b0",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "birds",
    "level": "cp",
-   "deck": "comptage-graphique-oiseaux-8fff"
+   "deck": "lettres-melangees-facile-oiseaux-83b0"
   },
   {
-   "slug": "comptage-graphique-outils-7cef",
-   "type": "chart-count",
-   "mode": null,
-   "theme": "tools",
-   "level": "cp",
-   "deck": "comptage-graphique-outils-7cef"
-  },
-  {
-   "slug": "comptage-graphique-paques-3fe5",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-paques-15b0",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "easter",
    "level": "cp",
-   "deck": "comptage-graphique-paques-3fe5"
+   "deck": "lettres-melangees-facile-paques-15b0"
   },
   {
-   "slug": "comptage-graphique-petit-dejeuner-3618",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-parties-du-corps-0338",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-parties-du-corps-0338"
+  },
+  {
+   "slug": "lettres-melangees-facile-petit-dejeuner-e4f8",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "breakfast",
    "level": "cp",
-   "deck": "comptage-graphique-petit-dejeuner-3618"
+   "deck": "lettres-melangees-facile-petit-dejeuner-e4f8"
   },
   {
-   "slug": "comptage-graphique-plage-6342",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-plage-658f",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "beach",
    "level": "cp",
-   "deck": "comptage-graphique-plage-6342"
+   "deck": "lettres-melangees-facile-plage-658f"
   },
   {
-   "slug": "comptage-graphique-reptiles-et-amphibiens-f7a0",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-printemps-c570",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-printemps-c570"
+  },
+  {
+   "slug": "lettres-melangees-facile-reptiles-et-amphibiens-69c0",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "reptiles_and_amphibians",
    "level": "cp",
-   "deck": "comptage-graphique-reptiles-et-amphibiens-f7a0"
+   "deck": "lettres-melangees-facile-reptiles-et-amphibiens-69c0"
   },
   {
-   "slug": "comptage-graphique-salle-de-classe-597b",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-salle-de-classe-d07c",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "classroom",
    "level": "cp",
-   "deck": "comptage-graphique-salle-de-classe-597b"
+   "deck": "lettres-melangees-facile-salle-de-classe-d07c"
   },
   {
-   "slug": "comptage-graphique-ustensiles-de-cuisine-17dd",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-ustensiles-de-cuisine-d2d2",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "kitchen_tools",
    "level": "cp",
-   "deck": "comptage-graphique-ustensiles-de-cuisine-17dd"
+   "deck": "lettres-melangees-facile-ustensiles-de-cuisine-d2d2"
   },
   {
-   "slug": "comptage-graphique-vehicules-d0ef",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-vehicules-4ade",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "vehicles",
    "level": "cp",
-   "deck": "comptage-graphique-vehicules-d0ef"
+   "deck": "lettres-melangees-facile-vehicules-4ade"
   },
   {
-   "slug": "comptage-graphique-vetements-d177",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-vetements-4353",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "clothing",
    "level": "cp",
-   "deck": "comptage-graphique-vetements-d177"
+   "deck": "lettres-melangees-facile-vetements-4353"
   },
   {
-   "slug": "comptage-graphique-vie-oceanique-02ad",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "lettres-melangees-facile-vie-oceanique-e772",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "ocean_life",
    "level": "cp",
-   "deck": "comptage-graphique-vie-oceanique-02ad"
+   "deck": "lettres-melangees-facile-vie-oceanique-e772"
+  },
+  {
+   "slug": "geometrie-figures-maternelle",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "maternelle",
+   "deck": "geometrie-k075"
+  },
+  {
+   "slug": "geometrie-ce2",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "ce2",
+   "deck": "geometrie-g3337"
+  },
+  {
+   "slug": "geometrie-solides-ce1",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "ce1",
+   "deck": "geometrie-g2241"
+  },
+  {
+   "slug": "fractions-ce2",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "ce2",
+   "deck": "fractions-g3315"
+  },
+  {
+   "slug": "fractions-parts-egales-ce1",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "ce1",
+   "deck": "fractions-g2228"
+  },
+  {
+   "slug": "comparer-la-masse-maternelle-lourd-ou-leger",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "maternelle",
+   "deck": "mesures-fruits-k038"
+  },
+  {
+   "slug": "mesurer-les-longueurs-cp-cubes",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
+   "level": "cp",
+   "deck": "mesures-formes-g1139"
+  },
+  {
+   "slug": "mesurer-comparer-longueurs-ce1-regle",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "ce1",
+   "deck": "mesures-formes-g2235"
+  },
+  {
+   "slug": "temperature-volume-ce2-chaud-froid",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "ce2",
+   "deck": "mesures-g3345"
   }
  ]
 }

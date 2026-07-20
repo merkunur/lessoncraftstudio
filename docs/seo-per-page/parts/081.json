@@ -2,559 +2,583 @@
  "part": 81,
  "locale": "es",
  "classes": [
-  "crossword::null"
+  "math-puzzle::mixed"
  ],
  "splitOf": {
-  "class": "crossword::null",
-  "total": 137,
-  "chunk": 2,
+  "class": "math-puzzle::mixed",
+  "total": 142,
+  "chunk": 1,
   "chunks": 2
  },
- "count": 68,
+ "count": 71,
  "pages": [
   {
-   "slug": "ingles-crucigrama-hospital-62a9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-hospital-62a9"
-  },
-  {
-   "slug": "ingles-crucigrama-insectos-y-bichos-e10b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-insectos-y-bichos-e10b"
-  },
-  {
-   "slug": "ingles-crucigrama-invierno-e482",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-invierno-e482"
-  },
-  {
-   "slug": "ingles-crucigrama-juguetes-7306",
-   "type": "crossword",
-   "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-juguetes-7306"
-  },
-  {
-   "slug": "ingles-crucigrama-mascotas-26ff",
-   "type": "crossword",
-   "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-mascotas-26ff"
-  },
-  {
-   "slug": "ingles-crucigrama-muebles-8f96",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-muebles-8f96"
-  },
-  {
-   "slug": "ingles-crucigrama-musica-c7bc",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-musica-c7bc"
-  },
-  {
-   "slug": "ingles-crucigrama-navidad-721f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-navidad-721f"
-  },
-  {
-   "slug": "ingles-crucigrama-ocupaciones-951c",
-   "type": "crossword",
-   "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-ocupaciones-951c"
-  },
-  {
-   "slug": "ingles-crucigrama-oficina-de-correos-7316",
-   "type": "crossword",
-   "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-oficina-de-correos-7316"
-  },
-  {
-   "slug": "ingles-crucigrama-panaderia-b1b2",
-   "type": "crossword",
-   "mode": null,
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-panaderia-b1b2"
-  },
-  {
-   "slug": "ingles-crucigrama-partes-del-cuerpo-0f8f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-partes-del-cuerpo-0f8f"
-  },
-  {
-   "slug": "ingles-crucigrama-pascua-9306",
-   "type": "crossword",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-pascua-9306"
-  },
-  {
-   "slug": "ingles-crucigrama-playa-ddc2",
-   "type": "crossword",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-playa-ddc2"
-  },
-  {
-   "slug": "ingles-crucigrama-postres-y-dulces-6a92",
-   "type": "crossword",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-postres-y-dulces-6a92"
-  },
-  {
-   "slug": "ingles-crucigrama-primavera-bb51",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-primavera-bb51"
-  },
-  {
-   "slug": "ingles-crucigrama-reptiles-y-anfibios-2207",
-   "type": "crossword",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-reptiles-y-anfibios-2207"
-  },
-  {
-   "slug": "ingles-crucigrama-ropa-da8b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-ropa-da8b"
-  },
-  {
-   "slug": "ingles-crucigrama-salon-de-clases-8ded",
-   "type": "crossword",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-salon-de-clases-8ded"
-  },
-  {
-   "slug": "ingles-crucigrama-utensilios-de-cocina-f7c9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-utensilios-de-cocina-f7c9"
-  },
-  {
-   "slug": "ingles-crucigrama-vehiculos-d208",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-vehiculos-d208"
-  },
-  {
-   "slug": "ingles-crucigrama-verano-f5c5",
-   "type": "crossword",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-verano-f5c5"
-  },
-  {
-   "slug": "ingles-crucigrama-verduras-abfc",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-verduras-abfc"
-  },
-  {
-   "slug": "ingles-crucigrama-vida-marina-b0a6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "ingles-crucigrama-vida-marina-b0a6"
-  },
-  {
-   "slug": "portugues-crucigrama-4-de-julio-c03d",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-4-de-julio-108f",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-4-de-julio-c03d"
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-4-de-julio-108f"
   },
   {
-   "slug": "portugues-crucigrama-accesorios-a836",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-4-de-julio-6de5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "4th_of_july",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-4-de-julio-6de5"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-4-de-julio-f46c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "4th_of_july",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-4-de-julio-f46c"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-accesorios-06b2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-accesorios-a836"
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-accesorios-06b2"
   },
   {
-   "slug": "portugues-crucigrama-actividades-2acf",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-accesorios-3689",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-accesorios-3689"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-accesorios-c424",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-accesorios-c424"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-actividades-0805",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "activities",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-actividades-2acf"
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-actividades-0805"
   },
   {
-   "slug": "portugues-crucigrama-alrededor-de-la-casa-a167",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-actividades-3af9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-actividades-3af9"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-actividades-e42d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-actividades-e42d"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-alrededor-de-la-casa-0254",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-alrededor-de-la-casa-a167"
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-alrededor-de-la-casa-0254"
   },
   {
-   "slug": "portugues-crucigrama-animales-791b",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-alrededor-de-la-casa-7906",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-alrededor-de-la-casa-7906"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-alrededor-de-la-casa-b571",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-alrededor-de-la-casa-b571"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-animales-350d",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "animals",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-animales-791b"
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-animales-350d"
   },
   {
-   "slug": "portugues-crucigrama-animales-de-granja-2c61",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-animales-36bd",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-animales-36bd"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-animales-7d10",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-animales-7d10"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-animales-de-granja-37d7",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-animales-de-granja-2c61"
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-animales-de-granja-37d7"
   },
   {
-   "slug": "portugues-crucigrama-animales-del-zoologico-ed55",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-animales-de-granja-75d6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-animales-de-granja-75d6"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-animales-de-granja-8740",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-animales-de-granja-8740"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-animales-del-zoologico-5eb4",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-animales-del-zoologico-ed55"
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-animales-del-zoologico-5eb4"
   },
   {
-   "slug": "portugues-crucigrama-aves-2-aec4",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-aves-2-aec4"
+   "slug": "rompecabezas-matematico-mixto-animales-del-zoologico-dec2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-animales-del-zoologico-dec2"
   },
   {
-   "slug": "portugues-crucigrama-aves-8170",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-animales-del-zoologico-deca",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-animales-del-zoologico-deca"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-arboles-5d10",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-arboles-5d10"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-arboles-a611",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-arboles-a611"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-arboles-c9f6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-arboles-c9f6"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-aves-0a6e",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "birds",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-aves-8170"
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-aves-0a6e"
   },
   {
-   "slug": "portugues-crucigrama-campamento-e4af",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-aves-2-a4eb",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-aves-2-a4eb"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-aves-2-c6c0",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-aves-2-c6c0"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-aves-2-f942",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-aves-2-f942"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-aves-2db5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-aves-2db5"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-aves-3810",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-aves-3810"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-campamento-677c",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-campamento-e4af"
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-campamento-677c"
   },
   {
-   "slug": "portugues-crucigrama-clima-cda7",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-campamento-8ce6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-campamento-8ce6"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-campamento-c420",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-campamento-c420"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-clima-9818",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "weather",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-clima-cda7"
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-clima-9818"
   },
   {
-   "slug": "portugues-crucigrama-cosas-que-vuelan-835e",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-clima-a656",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "weather",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-clima-a656"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-clima-f356",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "weather",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-clima-f356"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-cosas-que-vuelan-544d",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-cosas-que-vuelan-835e"
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-cosas-que-vuelan-544d"
   },
   {
-   "slug": "portugues-crucigrama-criaturas-del-bosque-9339",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-cosas-que-vuelan-8e27",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-cosas-que-vuelan-8e27"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-cosas-que-vuelan-a367",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-cosas-que-vuelan-a367"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-criaturas-del-bosque-78dc",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-criaturas-del-bosque-9339"
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-criaturas-del-bosque-78dc"
   },
   {
-   "slug": "portugues-crucigrama-dia-de-accion-de-gracias-81a6",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-criaturas-del-bosque-b0ad",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-criaturas-del-bosque-b0ad"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-criaturas-del-bosque-de97",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-criaturas-del-bosque-de97"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-desayuno-96de",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-desayuno-96de"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-desayuno-c0b4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-desayuno-c0b4"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-dia-de-accion-de-gracias-7fff",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-dia-de-accion-de-gracias-81a6"
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-dia-de-accion-de-gracias-7fff"
   },
   {
-   "slug": "portugues-crucigrama-emociones-5410",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-dinosaurios-171f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-dinosaurios-171f"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-dinosaurios-2200",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-dinosaurios-2200"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-dinosaurios-777e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-dinosaurios-777e"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-emociones-1423",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-emociones-5410"
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-emociones-1423"
   },
   {
-   "slug": "portugues-crucigrama-en-el-supermercado-20b7",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-emociones-53c7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-emociones-53c7"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-emociones-76ca",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "emotions",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-emociones-76ca"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-en-el-supermercado-7730",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-en-el-supermercado-20b7"
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-en-el-supermercado-7730"
   },
   {
-   "slug": "portugues-crucigrama-espacio-9f63",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-en-el-supermercado-b374",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-en-el-supermercado-b374"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-en-el-supermercado-c382",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-en-el-supermercado-c382"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-espacio-2ba3",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "space",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-espacio-9f63"
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-espacio-2ba3"
   },
   {
-   "slug": "portugues-crucigrama-flores-f3a0",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-espacio-68e4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-espacio-68e4"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-espacio-d8e7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-espacio-d8e7"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-flores-1c8f",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-flores-f3a0"
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-flores-1c8f"
   },
   {
-   "slug": "portugues-crucigrama-formas-005d",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-flores-5e00",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-flores-5e00"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-flores-f0cd",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-flores-f0cd"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-formas-6a58",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-formas-005d"
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-formas-6a58"
   },
   {
-   "slug": "portugues-crucigrama-frutas-a929",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-formas-856f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-formas-856f"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-formas-91bf",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-formas-91bf"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-frutas-27bf",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-frutas-a929"
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-frutas-27bf"
   },
   {
-   "slug": "portugues-crucigrama-herramientas-2a9e",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-frutas-ab9a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-frutas-ab9a"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-frutas-e060",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-frutas-e060"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-herramientas-7823",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-herramientas-2a9e"
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-herramientas-7823"
   },
   {
-   "slug": "portugues-crucigrama-hospital-ed91",
-   "type": "crossword",
-   "mode": null,
+   "slug": "rompecabezas-matematico-mixto-herramientas-800f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-herramientas-800f"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-herramientas-83ea",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-herramientas-83ea"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-hospital-1a67",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-hospital-ed91"
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-hospital-1a67"
   },
   {
-   "slug": "portugues-crucigrama-insectos-y-bichos-5178",
-   "type": "crossword",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-insectos-y-bichos-5178"
-  },
-  {
-   "slug": "portugues-crucigrama-invierno-394e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-invierno-394e"
-  },
-  {
-   "slug": "portugues-crucigrama-juguetes-99d2",
-   "type": "crossword",
-   "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-juguetes-99d2"
-  },
-  {
-   "slug": "portugues-crucigrama-mascotas-c7ea",
-   "type": "crossword",
-   "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-mascotas-c7ea"
-  },
-  {
-   "slug": "portugues-crucigrama-muebles-7728",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-muebles-7728"
-  },
-  {
-   "slug": "portugues-crucigrama-musica-2fc1",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-musica-2fc1"
-  },
-  {
-   "slug": "portugues-crucigrama-navidad-f1a8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-navidad-f1a8"
-  },
-  {
-   "slug": "portugues-crucigrama-ocupaciones-e2e4",
-   "type": "crossword",
-   "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-ocupaciones-e2e4"
-  },
-  {
-   "slug": "portugues-crucigrama-oficina-de-correos-8f51",
-   "type": "crossword",
-   "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-oficina-de-correos-8f51"
-  },
-  {
-   "slug": "portugues-crucigrama-panaderia-111c",
-   "type": "crossword",
-   "mode": null,
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-panaderia-111c"
-  },
-  {
-   "slug": "portugues-crucigrama-partes-del-cuerpo-b559",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-partes-del-cuerpo-b559"
-  },
-  {
-   "slug": "portugues-crucigrama-pascua-15de",
-   "type": "crossword",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-pascua-15de"
-  },
-  {
-   "slug": "portugues-crucigrama-playa-e49e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-playa-e49e"
-  },
-  {
-   "slug": "portugues-crucigrama-postres-y-dulces-eb38",
-   "type": "crossword",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-postres-y-dulces-eb38"
-  },
-  {
-   "slug": "portugues-crucigrama-primavera-f8d7",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-primavera-f8d7"
-  },
-  {
-   "slug": "portugues-crucigrama-ropa-67da",
-   "type": "crossword",
-   "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-ropa-67da"
-  },
-  {
-   "slug": "portugues-crucigrama-salon-de-clases-8d92",
-   "type": "crossword",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-salon-de-clases-8d92"
-  },
-  {
-   "slug": "portugues-crucigrama-utensilios-de-cocina-d41b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-utensilios-de-cocina-d41b"
-  },
-  {
-   "slug": "portugues-crucigrama-vehiculos-1626",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-vehiculos-1626"
-  },
-  {
-   "slug": "portugues-crucigrama-verano-4698",
-   "type": "crossword",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-verano-4698"
-  },
-  {
-   "slug": "portugues-crucigrama-verduras-7171",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-verduras-7171"
-  },
-  {
-   "slug": "portugues-crucigrama-vida-marina-63f0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "portugues-crucigrama-vida-marina-63f0"
+   "slug": "rompecabezas-matematico-mixto-hospital-2753",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-hospital-2753"
   }
  ]
 }

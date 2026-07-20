@@ -2,659 +2,779 @@
  "part": 158,
  "locale": "fr",
  "classes": [
-  "math-puzzle::addition",
-  "addition::find-addend"
+  "find-objects::find-odd",
+  "picture-path::choose-path"
  ],
  "splitOf": null,
- "count": 81,
+ "count": 96,
  "pages": [
   {
-   "slug": "puzzle-mathematique-addition-accessoires-cf6e",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-accessoires-8deb",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "accessories",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-accessoires-cf6e"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-accessoires-8deb"
   },
   {
-   "slug": "puzzle-mathematique-addition-action-de-grace-2742",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-action-de-grace-6b1d",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "thanksgivinng",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-action-de-grace-2742"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-action-de-grace-6b1d"
   },
   {
-   "slug": "puzzle-mathematique-addition-animaux-de-compagnie-d9b3",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "pets",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-animaux-de-compagnie-d9b3"
+   "slug": "trouve-les-objets-trouve-l-intrus-activites-c34c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-activites-c34c"
   },
   {
-   "slug": "puzzle-mathematique-addition-animaux-de-la-ferme-1b7b",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "farm_animals",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-animaux-de-la-ferme-1b7b"
-  },
-  {
-   "slug": "puzzle-mathematique-addition-animaux-du-zoo-520c",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "zoo_animals",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-animaux-du-zoo-520c"
-  },
-  {
-   "slug": "puzzle-mathematique-addition-animaux-ed4b",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-animaux-1ff1",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "animals",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-animaux-ed4b"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-animaux-1ff1"
   },
   {
-   "slug": "puzzle-mathematique-addition-arbres-fba6",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-animaux-de-compagnie-c172",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "pets",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-animaux-de-compagnie-c172"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-animaux-de-la-ferme-bd04",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "farm_animals",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-animaux-de-la-ferme-bd04"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-animaux-du-zoo-8b66",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-animaux-du-zoo-8b66"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-arbres-d057",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "tree",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-arbres-fba6"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-arbres-d057"
   },
   {
-   "slug": "puzzle-mathematique-addition-au-supermarche-49a8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-au-supermarche-21ed",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "at_the_supermarket",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-au-supermarche-49a8"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-au-supermarche-21ed"
   },
   {
-   "slug": "puzzle-mathematique-addition-autour-de-la-maison-27a4",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-autour-de-la-maison-879a",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "around_the_house",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-autour-de-la-maison-27a4"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-autour-de-la-maison-879a"
   },
   {
-   "slug": "puzzle-mathematique-addition-boulangerie-23b8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-boulangerie-d7c6",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "bakery",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-boulangerie-23b8"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-boulangerie-d7c6"
   },
   {
-   "slug": "puzzle-mathematique-addition-bureau-de-poste-8748",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-bureau-de-poste-a7d5",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "post_office",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-bureau-de-poste-8748"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-bureau-de-poste-a7d5"
   },
   {
-   "slug": "puzzle-mathematique-addition-camping-b89c",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-camping-3468",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "camping",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-camping-b89c"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-camping-3468"
   },
   {
-   "slug": "puzzle-mathematique-addition-choses-qui-volent-d1c1",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-choses-qui-volent-5aa7",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "things_that_fly",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-choses-qui-volent-d1c1"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-choses-qui-volent-5aa7"
   },
   {
-   "slug": "puzzle-mathematique-addition-creatures-de-la-foret-3584",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-couleurs-0ddb",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-couleurs-0ddb"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-creatures-de-la-foret-c15c",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "forest_creatures",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-creatures-de-la-foret-3584"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-creatures-de-la-foret-c15c"
   },
   {
-   "slug": "puzzle-mathematique-addition-desserts-et-sucreries-6637",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-desserts-et-sucreries-ba8e",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "desserts_and_sweets",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-desserts-et-sucreries-6637"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-desserts-et-sucreries-ba8e"
   },
   {
-   "slug": "puzzle-mathematique-addition-dinosaures-71a2",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-dinosaures-75c5",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "dinosaurs",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-dinosaures-71a2"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-dinosaures-75c5"
   },
   {
-   "slug": "puzzle-mathematique-addition-divers-4c05",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "miscellaneous",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-divers-4c05"
+   "slug": "trouve-les-objets-trouve-l-intrus-emotions-9cb9",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-emotions-9cb9"
   },
   {
-   "slug": "puzzle-mathematique-addition-espace-f2c0",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-espace-5a33",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "space",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-espace-f2c0"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-espace-5a33"
   },
   {
-   "slug": "puzzle-mathematique-addition-fleurs-87ba",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-ete-a99b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-ete-a99b"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-fleurs-8559",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "flowers",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-fleurs-87ba"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-fleurs-8559"
   },
   {
-   "slug": "puzzle-mathematique-addition-formes-98d6",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-formes-982d",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "shapes",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-formes-98d6"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-formes-982d"
   },
   {
-   "slug": "puzzle-mathematique-addition-fruits-afe2",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-fruits-f74d",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "fruits",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-fruits-afe2"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-fruits-f74d"
   },
   {
-   "slug": "puzzle-mathematique-addition-hopital-e116",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-hiver-ffb5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-hiver-ffb5"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-hopital-46f6",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "hospital",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-hopital-e116"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-hopital-46f6"
   },
   {
-   "slug": "puzzle-mathematique-addition-insectes-et-bestioles-3662",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-insectes-et-bestioles-a489",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "insects_and_bugs",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-insectes-et-bestioles-3662"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-insectes-et-bestioles-a489"
   },
   {
-   "slug": "puzzle-mathematique-addition-jouets-329a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-jouets-088b",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "toys",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-jouets-329a"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-jouets-088b"
   },
   {
-   "slug": "puzzle-mathematique-addition-legumes-36d8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-legumes-e962",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "vegetables",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-legumes-36d8"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-legumes-e962"
   },
   {
-   "slug": "puzzle-mathematique-addition-metiers-8fb8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-meteo-5ba8",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-meteo-5ba8"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-metiers-7f42",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "occupations",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-metiers-8fb8"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-metiers-7f42"
   },
   {
-   "slug": "puzzle-mathematique-addition-meubles-9be3",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-meubles-984f",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "furniture",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-meubles-9be3"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-meubles-984f"
   },
   {
-   "slug": "puzzle-mathematique-addition-musique-4b6b",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-musique-3ae0",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "music",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-musique-4b6b"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-musique-3ae0"
   },
   {
-   "slug": "puzzle-mathematique-addition-noel-ed3c",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-noel-07b2",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "christmas",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-noel-ed3c"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-noel-07b2"
   },
   {
-   "slug": "puzzle-mathematique-addition-oiseaux-2-b5f7",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "birds_2",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-oiseaux-2-b5f7"
-  },
-  {
-   "slug": "puzzle-mathematique-addition-oiseaux-8096",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-oiseaux-0a98",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "birds",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-oiseaux-8096"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-oiseaux-0a98"
   },
   {
-   "slug": "puzzle-mathematique-addition-outils-e23f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-oiseaux-2-c8ea",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-oiseaux-2-c8ea"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-outils-a762",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "tools",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-outils-e23f"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-outils-a762"
   },
   {
-   "slug": "puzzle-mathematique-addition-paques-406a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-paques-71a2",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "easter",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-paques-406a"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-paques-71a2"
   },
   {
-   "slug": "puzzle-mathematique-addition-petit-dejeuner-b942",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-parties-du-corps-5412",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-parties-du-corps-5412"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-petit-dejeuner-9212",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "breakfast",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-petit-dejeuner-b942"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-petit-dejeuner-9212"
   },
   {
-   "slug": "puzzle-mathematique-addition-plage-8167",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-plage-642a",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "beach",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-plage-8167"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-plage-642a"
   },
   {
-   "slug": "puzzle-mathematique-addition-reptiles-et-amphibiens-b14c",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-printemps-7700",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-printemps-7700"
+  },
+  {
+   "slug": "trouve-les-objets-trouve-l-intrus-reptiles-et-amphibiens-064e",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "reptiles_and_amphibians",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-reptiles-et-amphibiens-b14c"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-reptiles-et-amphibiens-064e"
   },
   {
-   "slug": "puzzle-mathematique-addition-salle-de-classe-fe3a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-salle-de-classe-057c",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "classroom",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-salle-de-classe-fe3a"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-salle-de-classe-057c"
   },
   {
-   "slug": "puzzle-mathematique-addition-ustensiles-de-cuisine-1321",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-ustensiles-de-cuisine-8e8b",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "kitchen_tools",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-ustensiles-de-cuisine-1321"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-ustensiles-de-cuisine-8e8b"
   },
   {
-   "slug": "puzzle-mathematique-addition-vehicules-0a9d",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-vehicules-0aba",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "vehicles",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-vehicules-0a9d"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-vehicules-0aba"
   },
   {
-   "slug": "puzzle-mathematique-addition-vetements-1b10",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-vetements-b8c3",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "clothing",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-vetements-1b10"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-vetements-b8c3"
   },
   {
-   "slug": "puzzle-mathematique-addition-vie-oceanique-780d",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "trouve-les-objets-trouve-l-intrus-vie-oceanique-54c6",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "ocean_life",
-   "level": "cp",
-   "deck": "puzzle-mathematique-addition-vie-oceanique-780d"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-trouve-l-intrus-vie-oceanique-54c6"
   },
   {
-   "slug": "addition-trouve-le-terme-accessoires-2a6c",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-accessoires-cef5",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "accessories",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-accessoires-2a6c"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-accessoires-cef5"
   },
   {
-   "slug": "addition-trouve-le-terme-action-de-grace-ffc7",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-action-de-grace-15aa",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "thanksgivinng",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-action-de-grace-ffc7"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-action-de-grace-15aa"
   },
   {
-   "slug": "addition-trouve-le-terme-animaux-1c6a",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-activites-85b0",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-activites-85b0"
+  },
+  {
+   "slug": "parcours-illustre-choisis-le-bon-chemin-animaux-1077",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "animals",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-animaux-1c6a"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-animaux-1077"
   },
   {
-   "slug": "addition-trouve-le-terme-animaux-de-compagnie-d75e",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-animaux-de-compagnie-b08a",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "pets",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-animaux-de-compagnie-d75e"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-animaux-de-compagnie-b08a"
   },
   {
-   "slug": "addition-trouve-le-terme-animaux-de-la-ferme-b1fa",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-animaux-de-la-ferme-5521",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "farm_animals",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-animaux-de-la-ferme-b1fa"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-animaux-de-la-ferme-5521"
   },
   {
-   "slug": "addition-trouve-le-terme-animaux-du-zoo-da5d",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-animaux-du-zoo-3fef",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "zoo_animals",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-animaux-du-zoo-da5d"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-animaux-du-zoo-3fef"
   },
   {
-   "slug": "addition-trouve-le-terme-arbres-ed90",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-arbres-6fd8",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "tree",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-arbres-ed90"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-arbres-6fd8"
   },
   {
-   "slug": "addition-trouve-le-terme-au-supermarche-046b",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-au-supermarche-3431",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "at_the_supermarket",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-au-supermarche-046b"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-au-supermarche-3431"
   },
   {
-   "slug": "addition-trouve-le-terme-autour-de-la-maison-2d10",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-autour-de-la-maison-5325",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "around_the_house",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-autour-de-la-maison-2d10"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-autour-de-la-maison-5325"
   },
   {
-   "slug": "addition-trouve-le-terme-boulangerie-5f60",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-boulangerie-dfea",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "bakery",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-boulangerie-5f60"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-boulangerie-dfea"
   },
   {
-   "slug": "addition-trouve-le-terme-bureau-de-poste-b38c",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-bureau-de-poste-19bb",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "post_office",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-bureau-de-poste-b38c"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-bureau-de-poste-19bb"
   },
   {
-   "slug": "addition-trouve-le-terme-camping-ac2a",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-camping-ca30",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "camping",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-camping-ac2a"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-camping-ca30"
   },
   {
-   "slug": "addition-trouve-le-terme-choses-qui-volent-a53c",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-choses-qui-volent-a5c3",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "things_that_fly",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-choses-qui-volent-a53c"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-choses-qui-volent-a5c3"
   },
   {
-   "slug": "addition-trouve-le-terme-creatures-de-la-foret-224d",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-couleurs-52ec",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-couleurs-52ec"
+  },
+  {
+   "slug": "parcours-illustre-choisis-le-bon-chemin-creatures-de-la-foret-d528",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "forest_creatures",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-creatures-de-la-foret-224d"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-creatures-de-la-foret-d528"
   },
   {
-   "slug": "addition-trouve-le-terme-desserts-et-sucreries-2df0",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-desserts-et-sucreries-11eb",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "desserts_and_sweets",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-desserts-et-sucreries-2df0"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-desserts-et-sucreries-11eb"
   },
   {
-   "slug": "addition-trouve-le-terme-dinosaures-7353",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-dinosaures-bb1a",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "dinosaurs",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-dinosaures-7353"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-dinosaures-bb1a"
   },
   {
-   "slug": "addition-trouve-le-terme-espace-0aaf",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-emotions-c6be",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-emotions-c6be"
+  },
+  {
+   "slug": "parcours-illustre-choisis-le-bon-chemin-espace-325a",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "space",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-espace-0aaf"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-espace-325a"
   },
   {
-   "slug": "addition-trouve-le-terme-fleurs-8f18",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-ete-62d2",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-ete-62d2"
+  },
+  {
+   "slug": "parcours-illustre-choisis-le-bon-chemin-fleurs-2dbf",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "flowers",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-fleurs-8f18"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-fleurs-2dbf"
   },
   {
-   "slug": "addition-trouve-le-terme-formes-30c4",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-formes-6b39",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "shapes",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-formes-30c4"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-formes-6b39"
   },
   {
-   "slug": "addition-trouve-le-terme-fruits-8ae2",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-fruits-39e9",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "fruits",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-fruits-8ae2"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-fruits-39e9"
   },
   {
-   "slug": "addition-trouve-le-terme-hopital-bc42",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-hiver-401a",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-hiver-401a"
+  },
+  {
+   "slug": "parcours-illustre-choisis-le-bon-chemin-hopital-7552",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "hospital",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-hopital-bc42"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-hopital-7552"
   },
   {
-   "slug": "addition-trouve-le-terme-insectes-et-bestioles-a491",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-insectes-et-bestioles-9dac",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "insects_and_bugs",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-insectes-et-bestioles-a491"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-insectes-et-bestioles-9dac"
   },
   {
-   "slug": "addition-trouve-le-terme-jouets-87b1",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-jouets-da7c",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "toys",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-jouets-87b1"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-jouets-da7c"
   },
   {
-   "slug": "addition-trouve-le-terme-legumes-8cb7",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-legumes-dfa7",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "vegetables",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-legumes-8cb7"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-legumes-dfa7"
   },
   {
-   "slug": "addition-trouve-le-terme-metiers-628f",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-meteo-2d81",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-meteo-2d81"
+  },
+  {
+   "slug": "parcours-illustre-choisis-le-bon-chemin-metiers-a1a8",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "occupations",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-metiers-628f"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-metiers-a1a8"
   },
   {
-   "slug": "addition-trouve-le-terme-meubles-ac76",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-meubles-ad37",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "furniture",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-meubles-ac76"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-meubles-ad37"
   },
   {
-   "slug": "addition-trouve-le-terme-musique-5295",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-musique-7c0a",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "music",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-musique-5295"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-musique-7c0a"
   },
   {
-   "slug": "addition-trouve-le-terme-noel-34e5",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-noel-c6d9",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "christmas",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-noel-34e5"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-noel-c6d9"
   },
   {
-   "slug": "addition-trouve-le-terme-oiseaux-2-6845",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-oiseaux-2-e3d8",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "birds_2",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-oiseaux-2-6845"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-oiseaux-2-e3d8"
   },
   {
-   "slug": "addition-trouve-le-terme-oiseaux-8345",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-oiseaux-9761",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "birds",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-oiseaux-8345"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-oiseaux-9761"
   },
   {
-   "slug": "addition-trouve-le-terme-outils-b403",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-outils-cc07",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "tools",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-outils-b403"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-outils-cc07"
   },
   {
-   "slug": "addition-trouve-le-terme-paques-4378",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-paques-9fc5",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "easter",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-paques-4378"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-paques-9fc5"
   },
   {
-   "slug": "addition-trouve-le-terme-petit-dejeuner-ce18",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-parties-du-corps-c44d",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-parties-du-corps-c44d"
+  },
+  {
+   "slug": "parcours-illustre-choisis-le-bon-chemin-petit-dejeuner-7b6f",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "breakfast",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-petit-dejeuner-ce18"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-petit-dejeuner-7b6f"
   },
   {
-   "slug": "addition-trouve-le-terme-plage-c3af",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-plage-4a56",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "beach",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-plage-c3af"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-plage-4a56"
   },
   {
-   "slug": "addition-trouve-le-terme-reptiles-et-amphibiens-3175",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-printemps-2a88",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-printemps-2a88"
+  },
+  {
+   "slug": "parcours-illustre-choisis-le-bon-chemin-reptiles-et-amphibiens-063d",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "reptiles_and_amphibians",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-reptiles-et-amphibiens-3175"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-reptiles-et-amphibiens-063d"
   },
   {
-   "slug": "addition-trouve-le-terme-salle-de-classe-9b91",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-salle-de-classe-cdb5",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "classroom",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-salle-de-classe-9b91"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-salle-de-classe-cdb5"
   },
   {
-   "slug": "addition-trouve-le-terme-ustensiles-de-cuisine-9c2d",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-ustensiles-de-cuisine-5f3e",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "kitchen_tools",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-ustensiles-de-cuisine-9c2d"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-ustensiles-de-cuisine-5f3e"
   },
   {
-   "slug": "addition-trouve-le-terme-vehicules-5e23",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-vehicules-1b1f",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "vehicles",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-vehicules-5e23"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-vehicules-1b1f"
   },
   {
-   "slug": "addition-trouve-le-terme-vetements-56d2",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-vetements-a154",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "clothing",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-vetements-56d2"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-vetements-a154"
   },
   {
-   "slug": "addition-trouve-le-terme-vie-oceanique-9b92",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-vie-oceanique-93e1",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "ocean_life",
-   "level": "cp",
-   "deck": "addition-trouve-le-terme-vie-oceanique-9b92"
+   "level": "maternelle",
+   "deck": "parcours-illustre-choisis-le-bon-chemin-vie-oceanique-93e1"
   }
  ]
 }

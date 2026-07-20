@@ -2,779 +2,667 @@
  "part": 177,
  "locale": "it",
  "classes": [
-  "sudoku::easy",
-  "sudoku::medium"
+  "subtraction::cross-out",
+  "subtraction::find-subtrahend"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 82,
  "pages": [
   {
-   "slug": "sudoku-illustrato-facile-abbigliamento-fc4a",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-abbigliamento-459d",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "clothing",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-abbigliamento-fc4a"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-abbigliamento-459d"
   },
   {
-   "slug": "sudoku-illustrato-facile-accessori-4aac",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-accessori-8ac9",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "accessories",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-accessori-4aac"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-accessori-8ac9"
   },
   {
-   "slug": "sudoku-illustrato-facile-al-supermercato-f089",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-al-supermercato-8888",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "at_the_supermarket",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-al-supermercato-f089"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-al-supermercato-8888"
   },
   {
-   "slug": "sudoku-illustrato-facile-alberi-1235",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-alberi-d90e",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tree",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-alberi-1235"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-alberi-d90e"
   },
   {
-   "slug": "sudoku-illustrato-facile-animali-7118",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-animali",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "animals",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-animali-7118"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-animali"
   },
   {
-   "slug": "sudoku-illustrato-facile-animali-della-fattoria-d012",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-animali-della-fattoria-3487",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "farm_animals",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-animali-della-fattoria-d012"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-animali-della-fattoria-3487"
   },
   {
-   "slug": "sudoku-illustrato-facile-animali-dello-zoo-eb5c",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-animali-dello-zoo-6f7e",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "zoo_animals",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-animali-dello-zoo-eb5c"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-animali-dello-zoo-6f7e"
   },
   {
-   "slug": "sudoku-illustrato-facile-animali-domestici-a0dc",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-animali-domestici-e0d2",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "pets",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-animali-domestici-a0dc"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-animali-domestici-e0d2"
   },
   {
-   "slug": "sudoku-illustrato-facile-attivita-6b07",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "activities",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-attivita-6b07"
-  },
-  {
-   "slug": "sudoku-illustrato-facile-attrezzi-5efc",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-attrezzi-39bf",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tools",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-attrezzi-5efc"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-attrezzi-39bf"
   },
   {
-   "slug": "sudoku-illustrato-facile-aula-9d1d",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-aula-2a0c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "classroom",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-aula-9d1d"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-aula-2a0c"
   },
   {
-   "slug": "sudoku-illustrato-facile-campeggio-d735",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-campeggio-b51e",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "camping",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-campeggio-d735"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-campeggio-b51e"
   },
   {
-   "slug": "sudoku-illustrato-facile-colazione-518f",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-colazione-784b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "breakfast",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-colazione-518f"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-colazione-784b"
   },
   {
-   "slug": "sudoku-illustrato-facile-colori-cb61",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "colors",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-colori-cb61"
-  },
-  {
-   "slug": "sudoku-illustrato-facile-cose-che-volano-6ec9",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-cose-che-volano-2903",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "things_that_fly",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-cose-che-volano-6ec9"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-cose-che-volano-2903"
   },
   {
-   "slug": "sudoku-illustrato-facile-creature-della-foresta-2a5e",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-creature-della-foresta-d78f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "forest_creatures",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-creature-della-foresta-2a5e"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-creature-della-foresta-d78f"
   },
   {
-   "slug": "sudoku-illustrato-facile-dinosauri-6069",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-dinosauri-877d",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "dinosaurs",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-dinosauri-6069"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-dinosauri-877d"
   },
   {
-   "slug": "sudoku-illustrato-facile-dolci-e-dolciumi-2292",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-dolci-e-dolciumi-d9d0",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "desserts_and_sweets",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-dolci-e-dolciumi-2292"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-dolci-e-dolciumi-d9d0"
   },
   {
-   "slug": "sudoku-illustrato-facile-emozioni-e03f",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "emotions",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-emozioni-e03f"
-  },
-  {
-   "slug": "sudoku-illustrato-facile-estate-75c4",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "summer",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-estate-75c4"
-  },
-  {
-   "slug": "sudoku-illustrato-facile-fiori-3376",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-fiori-bd40",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "flowers",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-fiori-3376"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-fiori-bd40"
   },
   {
-   "slug": "sudoku-illustrato-facile-forme-7e13",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-forme-b9cd",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "shapes",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-forme-7e13"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-forme-b9cd"
   },
   {
-   "slug": "sudoku-illustrato-facile-frutta-4c6f",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-frutta-4431",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "fruits",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-frutta-4c6f"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-frutta-4431"
   },
   {
-   "slug": "sudoku-illustrato-facile-giocattoli-cb72",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-giocattoli-225c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "toys",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-giocattoli-cb72"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-giocattoli-225c"
   },
   {
-   "slug": "sudoku-illustrato-facile-giorno-del-ringraziamento-4160",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-giorno-del-ringraziamento-2afd",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "thanksgivinng",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-giorno-del-ringraziamento-4160"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-giorno-del-ringraziamento-2afd"
   },
   {
-   "slug": "sudoku-illustrato-facile-in-giro-per-casa-fb03",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-in-giro-per-casa-2fc5",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "around_the_house",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-in-giro-per-casa-fb03"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-in-giro-per-casa-2fc5"
   },
   {
-   "slug": "sudoku-illustrato-facile-insetti-e-scarafaggi-d75b",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-insetti-e-scarafaggi-7915",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "insects_and_bugs",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-insetti-e-scarafaggi-d75b"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-insetti-e-scarafaggi-7915"
   },
   {
-   "slug": "sudoku-illustrato-facile-inverno-88aa",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "winter",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-inverno-88aa"
-  },
-  {
-   "slug": "sudoku-illustrato-facile-meteo-b0b4",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "weather",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-meteo-b0b4"
-  },
-  {
-   "slug": "sudoku-illustrato-facile-mobili-fdd4",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-mobili-3f4d",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "furniture",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-mobili-fdd4"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-mobili-3f4d"
   },
   {
-   "slug": "sudoku-illustrato-facile-musica-6552",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-musica-b469",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "music",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-musica-6552"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-musica-b469"
   },
   {
-   "slug": "sudoku-illustrato-facile-natale-37a9",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-natale-3b92",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "christmas",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-natale-37a9"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-natale-3b92"
   },
   {
-   "slug": "sudoku-illustrato-facile-ospedale-66a0",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-ospedale-51a7",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "hospital",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-ospedale-66a0"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-ospedale-51a7"
   },
   {
-   "slug": "sudoku-illustrato-facile-panetteria-cdce",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-panetteria-9e53",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "bakery",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-panetteria-cdce"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-panetteria-9e53"
   },
   {
-   "slug": "sudoku-illustrato-facile-parti-del-corpo-5c51",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "body_parts",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-parti-del-corpo-5c51"
-  },
-  {
-   "slug": "sudoku-illustrato-facile-pasqua-f8d8",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-pasqua-f0f9",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "easter",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-pasqua-f8d8"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-pasqua-f0f9"
   },
   {
-   "slug": "sudoku-illustrato-facile-primavera-443e",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "spring",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-primavera-443e"
-  },
-  {
-   "slug": "sudoku-illustrato-facile-professioni-3bba",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-professioni-9d6f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "occupations",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-professioni-3bba"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-professioni-9d6f"
   },
   {
-   "slug": "sudoku-illustrato-facile-rettili-e-anfibi-84c4",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-rettili-e-anfibi-78c5",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "reptiles_and_amphibians",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-rettili-e-anfibi-84c4"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-rettili-e-anfibi-78c5"
   },
   {
-   "slug": "sudoku-illustrato-facile-spazio-294a",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-spazio-ae94",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "space",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-spazio-294a"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-spazio-ae94"
   },
   {
-   "slug": "sudoku-illustrato-facile-spiaggia-aa4a",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-spiaggia-9e24",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "beach",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-spiaggia-aa4a"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-spiaggia-9e24"
   },
   {
-   "slug": "sudoku-illustrato-facile-uccelli-2-36dd",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-uccelli-2-c3a9",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds_2",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-uccelli-2-36dd"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-uccelli-2-c3a9"
   },
   {
-   "slug": "sudoku-illustrato-facile-uccelli-faf7",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-uccelli-2c87",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-uccelli-faf7"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-uccelli-2c87"
   },
   {
-   "slug": "sudoku-illustrato-facile-ufficio-postale-a837",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-ufficio-postale-5ad1",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "post_office",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-ufficio-postale-a837"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-ufficio-postale-5ad1"
   },
   {
-   "slug": "sudoku-illustrato-facile-utensili-da-cucina-5512",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-utensili-da-cucina-fe9e",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "kitchen_tools",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-utensili-da-cucina-5512"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-utensili-da-cucina-fe9e"
   },
   {
-   "slug": "sudoku-illustrato-facile-veicoli-7472",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-varie-7279",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-varie-7279"
+  },
+  {
+   "slug": "sottrazione-barrare-veicoli-4bf5",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vehicles",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-veicoli-7472"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-veicoli-4bf5"
   },
   {
-   "slug": "sudoku-illustrato-facile-verdure-9219",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-verdure-9b8f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vegetables",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-verdure-9219"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-verdure-9b8f"
   },
   {
-   "slug": "sudoku-illustrato-facile-vita-oceanica-9840",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "sottrazione-barrare-vita-oceanica-2252",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "ocean_life",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-facile-vita-oceanica-9840"
+   "level": "classe-prima",
+   "deck": "sottrazione-barrare-vita-oceanica-2252"
   },
   {
-   "slug": "sudoku-illustrato-medio-abbigliamento-82cf",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-abbigliamento-75a5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "clothing",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-abbigliamento-82cf"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-abbigliamento-75a5"
   },
   {
-   "slug": "sudoku-illustrato-medio-accessori-ff3b",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-accessori-3f5a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "accessories",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-accessori-ff3b"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-accessori-3f5a"
   },
   {
-   "slug": "sudoku-illustrato-medio-al-supermercato-6d92",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-al-supermercato-669c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "at_the_supermarket",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-al-supermercato-6d92"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-al-supermercato-669c"
   },
   {
-   "slug": "sudoku-illustrato-medio-alberi-a1ba",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-alberi-ad11",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "tree",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-alberi-a1ba"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-alberi-ad11"
   },
   {
-   "slug": "sudoku-illustrato-medio-animali-d5f3",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-animali-7031",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "animals",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-animali-d5f3"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-animali-7031"
   },
   {
-   "slug": "sudoku-illustrato-medio-animali-della-fattoria-cb08",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-animali-della-fattoria-206c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "farm_animals",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-animali-della-fattoria-cb08"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-animali-della-fattoria-206c"
   },
   {
-   "slug": "sudoku-illustrato-medio-animali-dello-zoo-fcca",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-animali-dello-zoo-effa",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "zoo_animals",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-animali-dello-zoo-fcca"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-animali-dello-zoo-effa"
   },
   {
-   "slug": "sudoku-illustrato-medio-animali-domestici-f782",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-animali-domestici-9075",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "pets",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-animali-domestici-f782"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-animali-domestici-9075"
   },
   {
-   "slug": "sudoku-illustrato-medio-attivita-1c5f",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "activities",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-attivita-1c5f"
-  },
-  {
-   "slug": "sudoku-illustrato-medio-attrezzi-66a0",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-attrezzi-cee1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "tools",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-attrezzi-66a0"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-attrezzi-cee1"
   },
   {
-   "slug": "sudoku-illustrato-medio-aula-65c4",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-aula-3a38",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "classroom",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-aula-65c4"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-aula-3a38"
   },
   {
-   "slug": "sudoku-illustrato-medio-campeggio-ac68",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-campeggio-59a9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "camping",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-campeggio-ac68"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-campeggio-59a9"
   },
   {
-   "slug": "sudoku-illustrato-medio-colazione-f990",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-colazione-dd20",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "breakfast",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-colazione-f990"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-colazione-dd20"
   },
   {
-   "slug": "sudoku-illustrato-medio-colori-3189",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "colors",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-colori-3189"
-  },
-  {
-   "slug": "sudoku-illustrato-medio-cose-che-volano-5ddc",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-cose-che-volano-4a15",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "things_that_fly",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-cose-che-volano-5ddc"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-cose-che-volano-4a15"
   },
   {
-   "slug": "sudoku-illustrato-medio-creature-della-foresta-2f24",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-creature-della-foresta-3f05",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "forest_creatures",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-creature-della-foresta-2f24"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-creature-della-foresta-3f05"
   },
   {
-   "slug": "sudoku-illustrato-medio-dinosauri-ab86",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-dinosauri-366f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "dinosaurs",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-dinosauri-ab86"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-dinosauri-366f"
   },
   {
-   "slug": "sudoku-illustrato-medio-dolci-e-dolciumi-ba3b",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-dolci-e-dolciumi-e630",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "desserts_and_sweets",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-dolci-e-dolciumi-ba3b"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-dolci-e-dolciumi-e630"
   },
   {
-   "slug": "sudoku-illustrato-medio-emozioni-8d10",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "emotions",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-emozioni-8d10"
-  },
-  {
-   "slug": "sudoku-illustrato-medio-estate-4a55",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "summer",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-estate-4a55"
-  },
-  {
-   "slug": "sudoku-illustrato-medio-fiori-83b7",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-fiori-4507",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "flowers",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-fiori-83b7"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-fiori-4507"
   },
   {
-   "slug": "sudoku-illustrato-medio-forme-caee",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-forme-f715",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "shapes",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-forme-caee"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-forme-f715"
   },
   {
-   "slug": "sudoku-illustrato-medio-frutta-c3db",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-frutta-e19f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "fruits",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-frutta-c3db"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-frutta-e19f"
   },
   {
-   "slug": "sudoku-illustrato-medio-giocattoli-37e1",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-giocattoli-0dbe",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "toys",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-giocattoli-37e1"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-giocattoli-0dbe"
   },
   {
-   "slug": "sudoku-illustrato-medio-giorno-del-ringraziamento-767e",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-giorno-del-ringraziamento-8cdf",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "thanksgivinng",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-giorno-del-ringraziamento-767e"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-giorno-del-ringraziamento-8cdf"
   },
   {
-   "slug": "sudoku-illustrato-medio-in-giro-per-casa-8fe5",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-in-giro-per-casa-d236",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "around_the_house",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-in-giro-per-casa-8fe5"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-in-giro-per-casa-d236"
   },
   {
-   "slug": "sudoku-illustrato-medio-insetti-e-scarafaggi-28bc",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-insetti-e-scarafaggi-1607",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "insects_and_bugs",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-insetti-e-scarafaggi-28bc"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-insetti-e-scarafaggi-1607"
   },
   {
-   "slug": "sudoku-illustrato-medio-inverno-5392",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "winter",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-inverno-5392"
-  },
-  {
-   "slug": "sudoku-illustrato-medio-meteo-a3fd",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "weather",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-meteo-a3fd"
-  },
-  {
-   "slug": "sudoku-illustrato-medio-mobili-5481",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-mobili-9256",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "furniture",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-mobili-5481"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-mobili-9256"
   },
   {
-   "slug": "sudoku-illustrato-medio-musica-1ed9",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-musica-7986",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "music",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-musica-1ed9"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-musica-7986"
   },
   {
-   "slug": "sudoku-illustrato-medio-natale-369e",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-natale-b538",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "christmas",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-natale-369e"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-natale-b538"
   },
   {
-   "slug": "sudoku-illustrato-medio-ospedale-a63b",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-ospedale-3556",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "hospital",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-ospedale-a63b"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-ospedale-3556"
   },
   {
-   "slug": "sudoku-illustrato-medio-panetteria-c6a7",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-panetteria-c190",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "bakery",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-panetteria-c6a7"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-panetteria-c190"
   },
   {
-   "slug": "sudoku-illustrato-medio-parti-del-corpo-fc4b",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "body_parts",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-parti-del-corpo-fc4b"
-  },
-  {
-   "slug": "sudoku-illustrato-medio-pasqua-16f2",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-pasqua-12bb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "easter",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-pasqua-16f2"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-pasqua-12bb"
   },
   {
-   "slug": "sudoku-illustrato-medio-primavera-aad5",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "spring",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-primavera-aad5"
-  },
-  {
-   "slug": "sudoku-illustrato-medio-professioni-17da",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-professioni-37a0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "occupations",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-professioni-17da"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-professioni-37a0"
   },
   {
-   "slug": "sudoku-illustrato-medio-rettili-e-anfibi-02b4",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-rettili-e-anfibi-1627",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "reptiles_and_amphibians",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-rettili-e-anfibi-02b4"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-rettili-e-anfibi-1627"
   },
   {
-   "slug": "sudoku-illustrato-medio-spazio-8c7d",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-spazio-11e9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "space",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-spazio-8c7d"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-spazio-11e9"
   },
   {
-   "slug": "sudoku-illustrato-medio-spiaggia-0a81",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-spiaggia-c052",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "beach",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-spiaggia-0a81"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-spiaggia-c052"
   },
   {
-   "slug": "sudoku-illustrato-medio-uccelli-2-f86a",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-uccelli-2-4ca7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds_2",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-uccelli-2-f86a"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-uccelli-2-4ca7"
   },
   {
-   "slug": "sudoku-illustrato-medio-uccelli-61cc",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-uccelli-69e9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-uccelli-61cc"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-uccelli-69e9"
   },
   {
-   "slug": "sudoku-illustrato-medio-ufficio-postale-9995",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-ufficio-postale-87b8",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "post_office",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-ufficio-postale-9995"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-ufficio-postale-87b8"
   },
   {
-   "slug": "sudoku-illustrato-medio-utensili-da-cucina-8472",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-utensili-da-cucina-c6c5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "kitchen_tools",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-utensili-da-cucina-8472"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-utensili-da-cucina-c6c5"
   },
   {
-   "slug": "sudoku-illustrato-medio-veicoli-7a65",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-varie-85a0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-varie-85a0"
+  },
+  {
+   "slug": "sottrazione-trova-il-sottraendo-veicoli-ab23",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vehicles",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-veicoli-7a65"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-veicoli-ab23"
   },
   {
-   "slug": "sudoku-illustrato-medio-verdure-3cf7",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-verdure-eba1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vegetables",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-verdure-3cf7"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-verdure-eba1"
   },
   {
-   "slug": "sudoku-illustrato-medio-vita-oceanica-8b0a",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "sottrazione-trova-il-sottraendo-vita-oceanica-079e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "ocean_life",
-   "level": "infanzia",
-   "deck": "sudoku-illustrato-medio-vita-oceanica-8b0a"
+   "level": "classe-prima",
+   "deck": "sottrazione-trova-il-sottraendo-vita-oceanica-079e"
   }
  ]
 }

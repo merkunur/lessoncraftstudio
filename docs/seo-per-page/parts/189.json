@@ -2,667 +2,654 @@
  "part": 189,
  "locale": "it",
  "classes": [
-  "subtraction::find-subtrahend",
-  "subtraction::image-number"
+  "math-puzzle::subtraction",
+  "math-puzzle::addition",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes"
  ],
  "splitOf": null,
- "count": 82,
+ "count": 80,
  "pages": [
   {
-   "slug": "sottrazione-trova-il-sottraendo-abbigliamento-75a5",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-abbigliamento-0cb2",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "clothing",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-abbigliamento-75a5"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-abbigliamento-0cb2"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-accessori-3f5a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-accessori-36c2",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "accessories",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-accessori-3f5a"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-accessori-36c2"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-al-supermercato-669c",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-al-supermercato-7d21",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "at_the_supermarket",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-al-supermercato-669c"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-al-supermercato-7d21"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-alberi-ad11",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-alberi-8fef",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "tree",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-alberi-ad11"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-alberi-8fef"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-animali-7031",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-animali-c4d5",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "animals",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-animali-7031"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-animali-c4d5"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-animali-della-fattoria-206c",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-animali-della-fattoria-411d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "farm_animals",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-animali-della-fattoria-206c"
+   "deck": "puzzle-matematico-sottrazione-animali-della-fattoria-411d"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-animali-dello-zoo-effa",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-animali-dello-zoo-4dda",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "zoo_animals",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-animali-dello-zoo-effa"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-animali-dello-zoo-4dda"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-animali-domestici-9075",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-animali-domestici-47be",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "pets",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-animali-domestici-9075"
+   "deck": "puzzle-matematico-sottrazione-animali-domestici-47be"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-attrezzi-cee1",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-attrezzi-dd9a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "tools",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-attrezzi-cee1"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-attrezzi-dd9a"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-aula-3a38",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-aula-efa7",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "classroom",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-aula-3a38"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-aula-efa7"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-campeggio-59a9",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-campeggio-9aec",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "camping",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-campeggio-59a9"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-campeggio-9aec"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-colazione-dd20",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-colazione-c503",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "breakfast",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-colazione-dd20"
+   "deck": "puzzle-matematico-sottrazione-colazione-c503"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-cose-che-volano-4a15",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-cose-che-volano-9c01",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "things_that_fly",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-cose-che-volano-4a15"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-cose-che-volano-9c01"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-creature-della-foresta-3f05",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-creature-della-foresta-6ed9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "forest_creatures",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-creature-della-foresta-3f05"
+   "deck": "puzzle-matematico-sottrazione-creature-della-foresta-6ed9"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-dinosauri-366f",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-dinosauri-5377",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "dinosaurs",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-dinosauri-366f"
+   "deck": "puzzle-matematico-sottrazione-dinosauri-5377"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-dolci-e-dolciumi-e630",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-dolci-e-dolciumi-19b3",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "desserts_and_sweets",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-dolci-e-dolciumi-e630"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-dolci-e-dolciumi-19b3"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-fiori-4507",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-fiori-e287",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "flowers",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-fiori-4507"
+   "deck": "puzzle-matematico-sottrazione-fiori-e287"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-forme-f715",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "shapes",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-forme-f715"
-  },
-  {
-   "slug": "sottrazione-trova-il-sottraendo-frutta-e19f",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-frutta-09fe",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "fruits",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-frutta-e19f"
+   "deck": "puzzle-matematico-sottrazione-frutta-09fe"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-giocattoli-0dbe",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-giocattoli-cb5a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "toys",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-giocattoli-0dbe"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-giocattoli-cb5a"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-giorno-del-ringraziamento-8cdf",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-giorno-del-ringraziamento-df9c",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "thanksgivinng",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-giorno-del-ringraziamento-8cdf"
+   "deck": "puzzle-matematico-sottrazione-giorno-del-ringraziamento-df9c"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-in-giro-per-casa-d236",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-in-giro-per-casa-150b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "around_the_house",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-in-giro-per-casa-d236"
+   "deck": "puzzle-matematico-sottrazione-in-giro-per-casa-150b"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-insetti-e-scarafaggi-1607",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-insetti-e-scarafaggi-1988",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "insects_and_bugs",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-insetti-e-scarafaggi-1607"
+   "deck": "puzzle-matematico-sottrazione-insetti-e-scarafaggi-1988"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-mobili-9256",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-mobili-4914",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "furniture",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-mobili-9256"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-mobili-4914"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-musica-7986",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-musica-adce",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "music",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-musica-7986"
+   "deck": "puzzle-matematico-sottrazione-musica-adce"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-natale-b538",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-natale-ba4d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "christmas",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-natale-b538"
+   "deck": "puzzle-matematico-sottrazione-natale-ba4d"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-ospedale-3556",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-ospedale-b924",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "hospital",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-ospedale-3556"
+   "deck": "puzzle-matematico-sottrazione-ospedale-b924"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-panetteria-c190",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-panetteria-8f51",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "bakery",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-panetteria-c190"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-panetteria-8f51"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-pasqua-12bb",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-pasqua-b4c7",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "easter",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-pasqua-12bb"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-pasqua-b4c7"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-professioni-37a0",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-professioni-5151",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "occupations",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-professioni-37a0"
+   "deck": "puzzle-matematico-sottrazione-professioni-5151"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-rettili-e-anfibi-1627",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-rettili-e-anfibi-d7cd",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "reptiles_and_amphibians",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-rettili-e-anfibi-1627"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-rettili-e-anfibi-d7cd"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-spazio-11e9",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-spazio-5b50",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "space",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-spazio-11e9"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-spazio-5b50"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-spiaggia-c052",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-spiaggia-b92d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "beach",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-spiaggia-c052"
+   "deck": "puzzle-matematico-sottrazione-spiaggia-b92d"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-uccelli-2-4ca7",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-uccelli-2-d714",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "birds_2",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-uccelli-2-4ca7"
+   "deck": "puzzle-matematico-sottrazione-uccelli-2-d714"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-uccelli-69e9",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-uccelli-f84b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "birds",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-uccelli-69e9"
+   "deck": "puzzle-matematico-sottrazione-uccelli-f84b"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-ufficio-postale-87b8",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-ufficio-postale-7a40",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "post_office",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-ufficio-postale-87b8"
+   "deck": "puzzle-matematico-sottrazione-ufficio-postale-7a40"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-utensili-da-cucina-c6c5",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-utensili-da-cucina-f945",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "kitchen_tools",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-utensili-da-cucina-c6c5"
+   "deck": "puzzle-matematico-sottrazione-utensili-da-cucina-f945"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-varie-85a0",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-varie-216e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "miscellaneous",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-varie-85a0"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-varie-216e"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-veicoli-ab23",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-veicoli-a81b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "vehicles",
    "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-veicoli-ab23"
+   "deck": "puzzle-matematico-sottrazione-veicoli-a81b"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-verdure-eba1",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-verdure-eb1b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "vegetables",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-verdure-eba1"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-verdure-eb1b"
   },
   {
-   "slug": "sottrazione-trova-il-sottraendo-vita-oceanica-079e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "puzzle-matematico-sottrazione-vita-oceanica-7972",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "ocean_life",
-   "level": "classe-prima",
-   "deck": "sottrazione-trova-il-sottraendo-vita-oceanica-079e"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-sottrazione-vita-oceanica-7972"
   },
   {
-   "slug": "sottrazione-immagine-numero-abbigliamento-4ea7",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-abbigliamento-c886",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "clothing",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-abbigliamento-4ea7"
+   "deck": "puzzle-matematico-addizione-abbigliamento-c886"
   },
   {
-   "slug": "sottrazione-immagine-numero-accessori-7010",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-accessori-d3ef",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "accessories",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-accessori-7010"
+   "deck": "puzzle-matematico-addizione-accessori-d3ef"
   },
   {
-   "slug": "sottrazione-immagine-numero-al-supermercato-24c5",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-al-supermercato-35c7",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "at_the_supermarket",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-al-supermercato-24c5"
+   "deck": "puzzle-matematico-addizione-al-supermercato-35c7"
   },
   {
-   "slug": "sottrazione-immagine-numero-alberi-02bd",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-alberi-dc1e",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "tree",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-alberi-02bd"
+   "deck": "puzzle-matematico-addizione-alberi-dc1e"
   },
   {
-   "slug": "sottrazione-immagine-numero-animali-634f",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-animali-539f",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "animals",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-animali-634f"
+   "deck": "puzzle-matematico-addizione-animali-539f"
   },
   {
-   "slug": "sottrazione-immagine-numero-animali-della-fattoria-853c",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-animali-della-fattoria-bc9f",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "farm_animals",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-animali-della-fattoria-853c"
+   "deck": "puzzle-matematico-addizione-animali-della-fattoria-bc9f"
   },
   {
-   "slug": "sottrazione-immagine-numero-animali-dello-zoo-04e7",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-animali-dello-zoo-05f6",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "zoo_animals",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-animali-dello-zoo-04e7"
+   "deck": "puzzle-matematico-addizione-animali-dello-zoo-05f6"
   },
   {
-   "slug": "sottrazione-immagine-numero-animali-domestici-902b",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-animali-domestici-199c",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "pets",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-animali-domestici-902b"
+   "deck": "puzzle-matematico-addizione-animali-domestici-199c"
   },
   {
-   "slug": "sottrazione-immagine-numero-attrezzi-629a",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-attrezzi-5daa",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "tools",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-attrezzi-629a"
+   "deck": "puzzle-matematico-addizione-attrezzi-5daa"
   },
   {
-   "slug": "sottrazione-immagine-numero-aula-7b67",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-aula-4f8b",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "classroom",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-aula-7b67"
+   "deck": "puzzle-matematico-addizione-aula-4f8b"
   },
   {
-   "slug": "sottrazione-immagine-numero-campeggio-c6e1",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-campeggio-eb61",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "camping",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-campeggio-c6e1"
+   "deck": "puzzle-matematico-addizione-campeggio-eb61"
   },
   {
-   "slug": "sottrazione-immagine-numero-colazione-e6be",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-colazione-9187",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "breakfast",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-colazione-e6be"
+   "deck": "puzzle-matematico-addizione-colazione-9187"
   },
   {
-   "slug": "sottrazione-immagine-numero-cose-che-volano-2dbc",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-cose-che-volano-afe3",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "things_that_fly",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-cose-che-volano-2dbc"
+   "deck": "puzzle-matematico-addizione-cose-che-volano-afe3"
   },
   {
-   "slug": "sottrazione-immagine-numero-creature-della-foresta-1d4c",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-creature-della-foresta-1972",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "forest_creatures",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-creature-della-foresta-1d4c"
+   "deck": "puzzle-matematico-addizione-creature-della-foresta-1972"
   },
   {
-   "slug": "sottrazione-immagine-numero-dinosauri-86e9",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-dinosauri-9bd9",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "dinosaurs",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-dinosauri-86e9"
+   "deck": "puzzle-matematico-addizione-dinosauri-9bd9"
   },
   {
-   "slug": "sottrazione-immagine-numero-dolci-e-dolciumi-4a4d",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-dolci-e-dolciumi-0d1b",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "desserts_and_sweets",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-dolci-e-dolciumi-4a4d"
+   "deck": "puzzle-matematico-addizione-dolci-e-dolciumi-0d1b"
   },
   {
-   "slug": "sottrazione-immagine-numero-fiori-374c",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-fiori-5e48",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "flowers",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-fiori-374c"
+   "deck": "puzzle-matematico-addizione-fiori-5e48"
   },
   {
-   "slug": "sottrazione-immagine-numero-forme-35bf",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "shapes",
-   "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-forme-35bf"
-  },
-  {
-   "slug": "sottrazione-immagine-numero-frutta-aca0",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-frutta-408a",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "fruits",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-frutta-aca0"
+   "deck": "puzzle-matematico-addizione-frutta-408a"
   },
   {
-   "slug": "sottrazione-immagine-numero-giocattoli-e5c1",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-giocattoli-7ca8",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "toys",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-giocattoli-e5c1"
+   "deck": "puzzle-matematico-addizione-giocattoli-7ca8"
   },
   {
-   "slug": "sottrazione-immagine-numero-giorno-del-ringraziamento-fd52",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "thanksgivinng",
-   "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-giorno-del-ringraziamento-fd52"
-  },
-  {
-   "slug": "sottrazione-immagine-numero-in-giro-per-casa-4ccc",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-in-giro-per-casa-78c1",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "around_the_house",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-in-giro-per-casa-4ccc"
+   "deck": "puzzle-matematico-addizione-in-giro-per-casa-78c1"
   },
   {
-   "slug": "sottrazione-immagine-numero-insetti-e-scarafaggi-88bd",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-insetti-e-scarafaggi-dfa4",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "insects_and_bugs",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-insetti-e-scarafaggi-88bd"
+   "deck": "puzzle-matematico-addizione-insetti-e-scarafaggi-dfa4"
   },
   {
-   "slug": "sottrazione-immagine-numero-mobili-d7ac",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-mobili-aadb",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "furniture",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-mobili-d7ac"
+   "deck": "puzzle-matematico-addizione-mobili-aadb"
   },
   {
-   "slug": "sottrazione-immagine-numero-musica-45a1",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-musica-5f50",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "music",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-musica-45a1"
+   "deck": "puzzle-matematico-addizione-musica-5f50"
   },
   {
-   "slug": "sottrazione-immagine-numero-natale-56f2",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-natale-f576",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "christmas",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-natale-56f2"
+   "deck": "puzzle-matematico-addizione-natale-f576"
   },
   {
-   "slug": "sottrazione-immagine-numero-ospedale-a4a5",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-ospedale-f4cd",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "hospital",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-ospedale-a4a5"
+   "deck": "puzzle-matematico-addizione-ospedale-f4cd"
   },
   {
-   "slug": "sottrazione-immagine-numero-panetteria-6c3a",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-panetteria-76c8",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "bakery",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-panetteria-6c3a"
+   "deck": "puzzle-matematico-addizione-panetteria-76c8"
   },
   {
-   "slug": "sottrazione-immagine-numero-pasqua-1c8b",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-pasqua-f577",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "easter",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-pasqua-1c8b"
+   "deck": "puzzle-matematico-addizione-pasqua-f577"
   },
   {
-   "slug": "sottrazione-immagine-numero-professioni-37b8",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-professioni-98a1",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "occupations",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-professioni-37b8"
+   "deck": "puzzle-matematico-addizione-professioni-98a1"
   },
   {
-   "slug": "sottrazione-immagine-numero-rettili-e-anfibi-14f1",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-rettili-e-anfibi-2275",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "reptiles_and_amphibians",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-rettili-e-anfibi-14f1"
+   "deck": "puzzle-matematico-addizione-rettili-e-anfibi-2275"
   },
   {
-   "slug": "sottrazione-immagine-numero-spazio-5f83",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-spazio-2d56",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "space",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-spazio-5f83"
+   "deck": "puzzle-matematico-addizione-spazio-2d56"
   },
   {
-   "slug": "sottrazione-immagine-numero-spiaggia-d4ed",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-spiaggia-45d6",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "beach",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-spiaggia-d4ed"
+   "deck": "puzzle-matematico-addizione-spiaggia-45d6"
   },
   {
-   "slug": "sottrazione-immagine-numero-uccelli-2-4930",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-uccelli-2-2ce0",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "birds_2",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-uccelli-2-4930"
+   "deck": "puzzle-matematico-addizione-uccelli-2-2ce0"
   },
   {
-   "slug": "sottrazione-immagine-numero-uccelli-6c4e",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-uccelli-319b",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "birds",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-uccelli-6c4e"
+   "deck": "puzzle-matematico-addizione-uccelli-319b"
   },
   {
-   "slug": "sottrazione-immagine-numero-ufficio-postale-c7ee",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "post_office",
-   "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-ufficio-postale-c7ee"
-  },
-  {
-   "slug": "sottrazione-immagine-numero-utensili-da-cucina-d44f",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "kitchen_tools",
-   "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-utensili-da-cucina-d44f"
-  },
-  {
-   "slug": "sottrazione-immagine-numero-varie-806f",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-varie-2ab6",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "miscellaneous",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-varie-806f"
+   "deck": "puzzle-matematico-addizione-varie-2ab6"
   },
   {
-   "slug": "sottrazione-immagine-numero-veicoli-5a6c",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-veicoli-20cf",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "vehicles",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-veicoli-5a6c"
+   "deck": "puzzle-matematico-addizione-veicoli-20cf"
   },
   {
-   "slug": "sottrazione-immagine-numero-verdure-4718",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-verdure-6196",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "vegetables",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-verdure-4718"
+   "deck": "puzzle-matematico-addizione-verdure-6196"
   },
   {
-   "slug": "sottrazione-immagine-numero-vita-oceanica-0299",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "puzzle-matematico-addizione-vita-oceanica-31f3",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "ocean_life",
    "level": "classe-prima",
-   "deck": "sottrazione-immagine-numero-vita-oceanica-0299"
+   "deck": "puzzle-matematico-addizione-vita-oceanica-31f3"
+  },
+  {
+   "slug": "forme-geometriche-infanzia-lati-angoli",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "infanzia",
+   "deck": "forme-geometriche-k075"
+  },
+  {
+   "slug": "geometria-classe-terza-perimetro-area",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "classe-terza",
+   "deck": "forme-geometriche-g3337"
+  },
+  {
+   "slug": "geometria-solidi-classe-seconda",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "classe-seconda",
+   "deck": "forme-geometriche-g2241"
   }
  ]
 }

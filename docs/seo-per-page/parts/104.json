@@ -2,551 +2,583 @@
  "part": 104,
  "locale": "pt",
  "classes": [
-  "crossword::null"
+  "wordsearch::null"
  ],
  "splitOf": {
-  "class": "crossword::null",
-  "total": 133,
+  "class": "wordsearch::null",
+  "total": 142,
   "chunk": 1,
   "chunks": 2
  },
- "count": 67,
+ "count": 71,
  "pages": [
   {
-   "slug": "espanhol-palavras-cruzadas-acampamento-2822",
-   "type": "crossword",
+   "slug": "caca-palavras-acampamento-17c6",
+   "type": "wordsearch",
    "mode": null,
    "theme": "camping",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-acampamento-2822"
+   "level": "1o-ano",
+   "deck": "caca-palavras-acampamento-17c6"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-acessorios-395d",
-   "type": "crossword",
+   "slug": "caca-palavras-acessorios-23ba",
+   "type": "wordsearch",
    "mode": null,
    "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-acessorios-395d"
+   "level": "1o-ano",
+   "deck": "caca-palavras-acessorios-23ba"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-animais-b3f4",
-   "type": "crossword",
+   "slug": "caca-palavras-animais-b5d5",
+   "type": "wordsearch",
    "mode": null,
    "theme": "animals",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-animais-b3f4"
+   "level": "1o-ano",
+   "deck": "caca-palavras-animais-b5d5"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-animais-da-fazenda-9631",
-   "type": "crossword",
+   "slug": "caca-palavras-animais-da-fazenda-60e2",
+   "type": "wordsearch",
    "mode": null,
    "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-animais-da-fazenda-9631"
+   "level": "1o-ano",
+   "deck": "caca-palavras-animais-da-fazenda-60e2"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-animais-do-zoologico-afcf",
-   "type": "crossword",
+   "slug": "caca-palavras-animais-de-estimacao-96fe",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "caca-palavras-animais-de-estimacao-96fe"
+  },
+  {
+   "slug": "caca-palavras-animais-do-zoologico-8aa1",
+   "type": "wordsearch",
    "mode": null,
    "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-animais-do-zoologico-afcf"
+   "level": "1o-ano",
+   "deck": "caca-palavras-animais-do-zoologico-8aa1"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-atividades-425c",
-   "type": "crossword",
+   "slug": "caca-palavras-arvores-c8ff",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "caca-palavras-arvores-c8ff"
+  },
+  {
+   "slug": "caca-palavras-atividades-6bff",
+   "type": "wordsearch",
    "mode": null,
    "theme": "activities",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-atividades-425c"
+   "level": "1o-ano",
+   "deck": "caca-palavras-atividades-6bff"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-brinquedos-aae0",
-   "type": "crossword",
+   "slug": "caca-palavras-brinquedos-aecf",
+   "type": "wordsearch",
    "mode": null,
    "theme": "toys",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-brinquedos-aae0"
+   "level": "1o-ano",
+   "deck": "caca-palavras-brinquedos-aecf"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-cafe-da-manha-3fd9",
-   "type": "crossword",
+   "slug": "caca-palavras-cafe-da-manha-8dd4",
+   "type": "wordsearch",
    "mode": null,
    "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-cafe-da-manha-3fd9"
+   "level": "1o-ano",
+   "deck": "caca-palavras-cafe-da-manha-8dd4"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-clima-e86b",
-   "type": "crossword",
+   "slug": "caca-palavras-clima-9459",
+   "type": "wordsearch",
    "mode": null,
    "theme": "weather",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-clima-e86b"
+   "level": "1o-ano",
+   "deck": "caca-palavras-clima-9459"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-coisas-que-voam-ff64",
-   "type": "crossword",
+   "slug": "caca-palavras-coisas-que-voam-c95e",
+   "type": "wordsearch",
    "mode": null,
    "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-coisas-que-voam-ff64"
+   "level": "1o-ano",
+   "deck": "caca-palavras-coisas-que-voam-c95e"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-cores-c916",
-   "type": "crossword",
+   "slug": "caca-palavras-cores-a352",
+   "type": "wordsearch",
    "mode": null,
    "theme": "colors",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-cores-c916"
+   "level": "1o-ano",
+   "deck": "caca-palavras-cores-a352"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-correios-3ba7",
-   "type": "crossword",
+   "slug": "caca-palavras-correios-6530",
+   "type": "wordsearch",
    "mode": null,
    "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-correios-3ba7"
+   "level": "1o-ano",
+   "deck": "caca-palavras-correios-6530"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-criaturas-da-floresta-58b1",
-   "type": "crossword",
+   "slug": "caca-palavras-criaturas-da-floresta-47a1",
+   "type": "wordsearch",
    "mode": null,
    "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-criaturas-da-floresta-58b1"
+   "level": "1o-ano",
+   "deck": "caca-palavras-criaturas-da-floresta-47a1"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-dia-de-acao-de-gracas-a044",
-   "type": "crossword",
+   "slug": "caca-palavras-dia-de-acao-de-gracas-31e9",
+   "type": "wordsearch",
    "mode": null,
    "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-dia-de-acao-de-gracas-a044"
+   "level": "1o-ano",
+   "deck": "caca-palavras-dia-de-acao-de-gracas-31e9"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-emocoes-0ecf",
-   "type": "crossword",
+   "slug": "caca-palavras-dinossauros-4714",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "caca-palavras-dinossauros-4714"
+  },
+  {
+   "slug": "caca-palavras-diversos-400b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "caca-palavras-diversos-400b"
+  },
+  {
+   "slug": "caca-palavras-emocoes-1dc1",
+   "type": "wordsearch",
    "mode": null,
    "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-emocoes-0ecf"
+   "level": "1o-ano",
+   "deck": "caca-palavras-emocoes-1dc1"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-espaco-79d5",
-   "type": "crossword",
+   "slug": "caca-palavras-espaco-350f",
+   "type": "wordsearch",
    "mode": null,
    "theme": "space",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-espaco-79d5"
+   "level": "1o-ano",
+   "deck": "caca-palavras-espaco-350f"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-ferramentas-86c3",
-   "type": "crossword",
+   "slug": "caca-palavras-ferramentas-3720",
+   "type": "wordsearch",
    "mode": null,
    "theme": "tools",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-ferramentas-86c3"
+   "level": "1o-ano",
+   "deck": "caca-palavras-ferramentas-3720"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-flores-ff2a",
-   "type": "crossword",
+   "slug": "caca-palavras-flores-44d7",
+   "type": "wordsearch",
    "mode": null,
    "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-flores-ff2a"
+   "level": "1o-ano",
+   "deck": "caca-palavras-flores-44d7"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-formas-f091",
-   "type": "crossword",
+   "slug": "caca-palavras-formas-55b8",
+   "type": "wordsearch",
    "mode": null,
    "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-formas-f091"
+   "level": "1o-ano",
+   "deck": "caca-palavras-formas-55b8"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-frutas-460e",
-   "type": "crossword",
+   "slug": "caca-palavras-frutas-c133",
+   "type": "wordsearch",
    "mode": null,
    "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-frutas-460e"
+   "level": "1o-ano",
+   "deck": "caca-palavras-frutas-c133"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-hospital-b090",
-   "type": "crossword",
+   "slug": "caca-palavras-hospital-6770",
+   "type": "wordsearch",
    "mode": null,
    "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-hospital-b090"
+   "level": "1o-ano",
+   "deck": "caca-palavras-hospital-6770"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-insetos-e-bichos-4188",
-   "type": "crossword",
+   "slug": "caca-palavras-insetos-e-bichos-98b7",
+   "type": "wordsearch",
    "mode": null,
    "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-insetos-e-bichos-4188"
+   "level": "1o-ano",
+   "deck": "caca-palavras-insetos-e-bichos-98b7"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-inverno-7b97",
-   "type": "crossword",
+   "slug": "caca-palavras-inverno-8d2e",
+   "type": "wordsearch",
    "mode": null,
    "theme": "winter",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-inverno-7b97"
+   "level": "1o-ano",
+   "deck": "caca-palavras-inverno-8d2e"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-moveis-a5f2",
-   "type": "crossword",
+   "slug": "caca-palavras-moveis-879f",
+   "type": "wordsearch",
    "mode": null,
    "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-moveis-a5f2"
+   "level": "1o-ano",
+   "deck": "caca-palavras-moveis-879f"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-musica-2955",
-   "type": "crossword",
+   "slug": "caca-palavras-musica-a667",
+   "type": "wordsearch",
    "mode": null,
    "theme": "music",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-musica-2955"
+   "level": "1o-ano",
+   "deck": "caca-palavras-musica-a667"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-natal-cc30",
-   "type": "crossword",
+   "slug": "caca-palavras-natal-4209",
+   "type": "wordsearch",
    "mode": null,
    "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-natal-cc30"
+   "level": "1o-ano",
+   "deck": "caca-palavras-natal-4209"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-no-supermercado-b598",
-   "type": "crossword",
+   "slug": "caca-palavras-no-supermercado-0f8a",
+   "type": "wordsearch",
    "mode": null,
    "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-no-supermercado-b598"
+   "level": "1o-ano",
+   "deck": "caca-palavras-no-supermercado-0f8a"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-partes-do-corpo-9a89",
-   "type": "crossword",
+   "slug": "caca-palavras-padaria-d5f1",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "caca-palavras-padaria-d5f1"
+  },
+  {
+   "slug": "caca-palavras-partes-do-corpo-fc44",
+   "type": "wordsearch",
    "mode": null,
    "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-partes-do-corpo-9a89"
+   "level": "1o-ano",
+   "deck": "caca-palavras-partes-do-corpo-fc44"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-pascoa-8f87",
-   "type": "crossword",
+   "slug": "caca-palavras-pascoa-62d7",
+   "type": "wordsearch",
    "mode": null,
    "theme": "easter",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-pascoa-8f87"
+   "level": "1o-ano",
+   "deck": "caca-palavras-pascoa-62d7"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-passaros-2-2f60",
-   "type": "crossword",
+   "slug": "caca-palavras-passaros-2-8efe",
+   "type": "wordsearch",
    "mode": null,
    "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-passaros-2-2f60"
+   "level": "1o-ano",
+   "deck": "caca-palavras-passaros-2-8efe"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-pela-casa-528a",
-   "type": "crossword",
+   "slug": "caca-palavras-passaros-bcbf",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "caca-palavras-passaros-bcbf"
+  },
+  {
+   "slug": "caca-palavras-pela-casa-97e6",
+   "type": "wordsearch",
    "mode": null,
    "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-pela-casa-528a"
+   "level": "1o-ano",
+   "deck": "caca-palavras-pela-casa-97e6"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-praia-24d3",
-   "type": "crossword",
+   "slug": "caca-palavras-praia-88d7",
+   "type": "wordsearch",
    "mode": null,
    "theme": "beach",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-praia-24d3"
+   "level": "1o-ano",
+   "deck": "caca-palavras-praia-88d7"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-primavera-754d",
-   "type": "crossword",
+   "slug": "caca-palavras-primavera-4ded",
+   "type": "wordsearch",
    "mode": null,
    "theme": "spring",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-primavera-754d"
+   "level": "1o-ano",
+   "deck": "caca-palavras-primavera-4ded"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-profissoes-eade",
-   "type": "crossword",
+   "slug": "caca-palavras-profissoes-aa7d",
+   "type": "wordsearch",
    "mode": null,
    "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-profissoes-eade"
+   "level": "1o-ano",
+   "deck": "caca-palavras-profissoes-aa7d"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-roupas-29c5",
-   "type": "crossword",
+   "slug": "caca-palavras-repteis-e-anfibios-3ae2",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "caca-palavras-repteis-e-anfibios-3ae2"
+  },
+  {
+   "slug": "caca-palavras-roupas-bd64",
+   "type": "wordsearch",
    "mode": null,
    "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-roupas-29c5"
+   "level": "1o-ano",
+   "deck": "caca-palavras-roupas-bd64"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-sala-de-aula-2e3b",
-   "type": "crossword",
+   "slug": "caca-palavras-sala-de-aula-2875",
+   "type": "wordsearch",
    "mode": null,
    "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-sala-de-aula-2e3b"
+   "level": "1o-ano",
+   "deck": "caca-palavras-sala-de-aula-2875"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-sobremesas-e-doces-1181",
-   "type": "crossword",
+   "slug": "caca-palavras-sobremesas-e-doces-9931",
+   "type": "wordsearch",
    "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-sobremesas-e-doces-1181"
+   "level": "1o-ano",
+   "deck": "caca-palavras-sobremesas-e-doces-9931"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-vegetais-9feb",
-   "type": "crossword",
+   "slug": "caca-palavras-utensilios-de-cozinha-8da4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "caca-palavras-utensilios-de-cozinha-8da4"
+  },
+  {
+   "slug": "caca-palavras-vegetais-473c",
+   "type": "wordsearch",
    "mode": null,
    "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-vegetais-9feb"
+   "level": "1o-ano",
+   "deck": "caca-palavras-vegetais-473c"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-veiculos-1441",
-   "type": "crossword",
+   "slug": "caca-palavras-veiculos-7a61",
+   "type": "wordsearch",
    "mode": null,
    "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-veiculos-1441"
+   "level": "1o-ano",
+   "deck": "caca-palavras-veiculos-7a61"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-verao-42d6",
-   "type": "crossword",
+   "slug": "caca-palavras-verao-bedf",
+   "type": "wordsearch",
    "mode": null,
    "theme": "summer",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-verao-42d6"
+   "level": "1o-ano",
+   "deck": "caca-palavras-verao-bedf"
   },
   {
-   "slug": "espanhol-palavras-cruzadas-vida-marinha-c142",
-   "type": "crossword",
+   "slug": "caca-palavras-vida-marinha-7643",
+   "type": "wordsearch",
    "mode": null,
    "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "espanhol-palavras-cruzadas-vida-marinha-c142"
+   "level": "1o-ano",
+   "deck": "caca-palavras-vida-marinha-7643"
   },
   {
-   "slug": "ingles-palavras-cruzadas-acampamento-972e",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-acampamento-aaa1",
+   "type": "wordsearch",
    "mode": null,
    "theme": "camping",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-acampamento-972e"
+   "deck": "espanhol-caca-palavras-acampamento-aaa1"
   },
   {
-   "slug": "ingles-palavras-cruzadas-acessorios-fbbb",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-acessorios-b273",
+   "type": "wordsearch",
    "mode": null,
    "theme": "accessories",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-acessorios-fbbb"
+   "deck": "espanhol-caca-palavras-acessorios-b273"
   },
   {
-   "slug": "ingles-palavras-cruzadas-animais-da-fazenda-5f0f",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-animais-da-fazenda-01c9",
+   "type": "wordsearch",
    "mode": null,
    "theme": "farm_animals",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-animais-da-fazenda-5f0f"
+   "deck": "espanhol-caca-palavras-animais-da-fazenda-01c9"
   },
   {
-   "slug": "ingles-palavras-cruzadas-animais-de-estimacao-e9ab",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-animais-de-estimacao-7544",
+   "type": "wordsearch",
    "mode": null,
    "theme": "pets",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-animais-de-estimacao-e9ab"
+   "deck": "espanhol-caca-palavras-animais-de-estimacao-7544"
   },
   {
-   "slug": "ingles-palavras-cruzadas-animais-do-zoologico-652f",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-animais-do-zoologico-2573",
+   "type": "wordsearch",
    "mode": null,
    "theme": "zoo_animals",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-animais-do-zoologico-652f"
+   "deck": "espanhol-caca-palavras-animais-do-zoologico-2573"
   },
   {
-   "slug": "ingles-palavras-cruzadas-animais-fd83",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-animais-f13d",
+   "type": "wordsearch",
    "mode": null,
    "theme": "animals",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-animais-fd83"
+   "deck": "espanhol-caca-palavras-animais-f13d"
   },
   {
-   "slug": "ingles-palavras-cruzadas-arvores-6a82",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-arvores-45c7",
+   "type": "wordsearch",
    "mode": null,
    "theme": "tree",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-arvores-6a82"
+   "deck": "espanhol-caca-palavras-arvores-45c7"
   },
   {
-   "slug": "ingles-palavras-cruzadas-atividades-2510",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-atividades-b19e",
+   "type": "wordsearch",
    "mode": null,
    "theme": "activities",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-atividades-2510"
+   "deck": "espanhol-caca-palavras-atividades-b19e"
   },
   {
-   "slug": "ingles-palavras-cruzadas-cafe-da-manha-894f",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-brinquedos-57dc",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "espanhol-caca-palavras-brinquedos-57dc"
+  },
+  {
+   "slug": "espanhol-caca-palavras-cafe-da-manha-50ae",
+   "type": "wordsearch",
    "mode": null,
    "theme": "breakfast",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-cafe-da-manha-894f"
+   "deck": "espanhol-caca-palavras-cafe-da-manha-50ae"
   },
   {
-   "slug": "ingles-palavras-cruzadas-clima-b97e",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-clima-0245",
+   "type": "wordsearch",
    "mode": null,
    "theme": "weather",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-clima-b97e"
+   "deck": "espanhol-caca-palavras-clima-0245"
   },
   {
-   "slug": "ingles-palavras-cruzadas-coisas-que-voam-8d08",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-coisas-que-voam-7db4",
+   "type": "wordsearch",
    "mode": null,
    "theme": "things_that_fly",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-coisas-que-voam-8d08"
+   "deck": "espanhol-caca-palavras-coisas-que-voam-7db4"
   },
   {
-   "slug": "ingles-palavras-cruzadas-cores-4972",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-cores-2426",
+   "type": "wordsearch",
    "mode": null,
    "theme": "colors",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-cores-4972"
+   "deck": "espanhol-caca-palavras-cores-2426"
   },
   {
-   "slug": "ingles-palavras-cruzadas-correios-f974",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-correios-9c6a",
+   "type": "wordsearch",
    "mode": null,
    "theme": "post_office",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-correios-f974"
+   "deck": "espanhol-caca-palavras-correios-9c6a"
   },
   {
-   "slug": "ingles-palavras-cruzadas-criaturas-da-floresta-7c64",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-criaturas-da-floresta-abcc",
+   "type": "wordsearch",
    "mode": null,
    "theme": "forest_creatures",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-criaturas-da-floresta-7c64"
+   "deck": "espanhol-caca-palavras-criaturas-da-floresta-abcc"
   },
   {
-   "slug": "ingles-palavras-cruzadas-dia-de-acao-de-gracas-61e3",
-   "type": "crossword",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-dia-de-acao-de-gracas-61e3"
-  },
-  {
-   "slug": "ingles-palavras-cruzadas-emocoes-be4b",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-emocoes-6e06",
+   "type": "wordsearch",
    "mode": null,
    "theme": "emotions",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-emocoes-be4b"
+   "deck": "espanhol-caca-palavras-emocoes-6e06"
   },
   {
-   "slug": "ingles-palavras-cruzadas-espaco-518e",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-espaco-c64e",
+   "type": "wordsearch",
    "mode": null,
    "theme": "space",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-espaco-518e"
+   "deck": "espanhol-caca-palavras-espaco-c64e"
   },
   {
-   "slug": "ingles-palavras-cruzadas-ferramentas-cb0c",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-ferramentas-8ac4",
+   "type": "wordsearch",
    "mode": null,
    "theme": "tools",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-ferramentas-cb0c"
+   "deck": "espanhol-caca-palavras-ferramentas-8ac4"
   },
   {
-   "slug": "ingles-palavras-cruzadas-flores-f985",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-flores-fba7",
+   "type": "wordsearch",
    "mode": null,
    "theme": "flowers",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-flores-f985"
+   "deck": "espanhol-caca-palavras-flores-fba7"
   },
   {
-   "slug": "ingles-palavras-cruzadas-formas-50c3",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-formas-de08",
+   "type": "wordsearch",
    "mode": null,
    "theme": "shapes",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-formas-50c3"
+   "deck": "espanhol-caca-palavras-formas-de08"
   },
   {
-   "slug": "ingles-palavras-cruzadas-frutas-6801",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-frutas-9a8c",
+   "type": "wordsearch",
    "mode": null,
    "theme": "fruits",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-frutas-6801"
+   "deck": "espanhol-caca-palavras-frutas-9a8c"
   },
   {
-   "slug": "ingles-palavras-cruzadas-hospital-98c8",
-   "type": "crossword",
+   "slug": "espanhol-caca-palavras-hospital-8fcd",
+   "type": "wordsearch",
    "mode": null,
    "theme": "hospital",
    "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-hospital-98c8"
-  },
-  {
-   "slug": "ingles-palavras-cruzadas-insetos-e-bichos-3cb6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-insetos-e-bichos-3cb6"
-  },
-  {
-   "slug": "ingles-palavras-cruzadas-inverno-8060",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-inverno-8060"
-  },
-  {
-   "slug": "ingles-palavras-cruzadas-moveis-c733",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-moveis-c733"
-  },
-  {
-   "slug": "ingles-palavras-cruzadas-musica-3a1b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "ingles-palavras-cruzadas-musica-3a1b"
+   "deck": "espanhol-caca-palavras-hospital-8fcd"
   }
  ]
 }

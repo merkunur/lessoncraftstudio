@@ -2,722 +2,651 @@
  "part": 140,
  "locale": "fr",
  "classes": [
-  "crossword::null"
+  "addition::find-addend",
+  "addition::image-image"
  ],
  "splitOf": null,
- "count": 89,
+ "count": 80,
  "pages": [
   {
-   "slug": "anglais-mots-croises-4-juillet-fbc9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-4-juillet-fbc9"
-  },
-  {
-   "slug": "anglais-mots-croises-accessoires-7b9c",
-   "type": "crossword",
-   "mode": null,
-   "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-accessoires-7b9c"
-  },
-  {
-   "slug": "anglais-mots-croises-action-de-grace-9bfa",
-   "type": "crossword",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-action-de-grace-9bfa"
-  },
-  {
-   "slug": "anglais-mots-croises-activites-348d",
-   "type": "crossword",
-   "mode": null,
-   "theme": "activities",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-activites-348d"
-  },
-  {
-   "slug": "anglais-mots-croises-animaux-a18f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "animals",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-animaux-a18f"
-  },
-  {
-   "slug": "anglais-mots-croises-animaux-de-compagnie-cf70",
-   "type": "crossword",
-   "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-animaux-de-compagnie-cf70"
-  },
-  {
-   "slug": "anglais-mots-croises-animaux-de-la-ferme-06d3",
-   "type": "crossword",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-animaux-de-la-ferme-06d3"
-  },
-  {
-   "slug": "anglais-mots-croises-animaux-du-zoo-d454",
-   "type": "crossword",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-animaux-du-zoo-d454"
-  },
-  {
-   "slug": "anglais-mots-croises-au-supermarche-e746",
-   "type": "crossword",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-au-supermarche-e746"
-  },
-  {
-   "slug": "anglais-mots-croises-autour-de-la-maison-ce15",
-   "type": "crossword",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-autour-de-la-maison-ce15"
-  },
-  {
-   "slug": "anglais-mots-croises-bureau-de-poste-2274",
-   "type": "crossword",
-   "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-bureau-de-poste-2274"
-  },
-  {
-   "slug": "anglais-mots-croises-camping-c0ca",
-   "type": "crossword",
-   "mode": null,
-   "theme": "camping",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-camping-c0ca"
-  },
-  {
-   "slug": "anglais-mots-croises-choses-qui-volent-bdbf",
-   "type": "crossword",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-choses-qui-volent-bdbf"
-  },
-  {
-   "slug": "anglais-mots-croises-couleurs-b9b3",
-   "type": "crossword",
-   "mode": null,
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-couleurs-b9b3"
-  },
-  {
-   "slug": "anglais-mots-croises-creatures-de-la-foret-3afc",
-   "type": "crossword",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-creatures-de-la-foret-3afc"
-  },
-  {
-   "slug": "anglais-mots-croises-desserts-et-sucreries-c39a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-desserts-et-sucreries-c39a"
-  },
-  {
-   "slug": "anglais-mots-croises-emotions-be4b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-emotions-be4b"
-  },
-  {
-   "slug": "anglais-mots-croises-espace-52aa",
-   "type": "crossword",
-   "mode": null,
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-espace-52aa"
-  },
-  {
-   "slug": "anglais-mots-croises-ete-79d8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-ete-79d8"
-  },
-  {
-   "slug": "anglais-mots-croises-fleurs-182a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-fleurs-182a"
-  },
-  {
-   "slug": "anglais-mots-croises-formes-715b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-formes-715b"
-  },
-  {
-   "slug": "anglais-mots-croises-fruits-99fd",
-   "type": "crossword",
-   "mode": null,
-   "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-fruits-99fd"
-  },
-  {
-   "slug": "anglais-mots-croises-hiver-c49f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-hiver-c49f"
-  },
-  {
-   "slug": "anglais-mots-croises-hopital-8718",
-   "type": "crossword",
-   "mode": null,
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-hopital-8718"
-  },
-  {
-   "slug": "anglais-mots-croises-insectes-et-bestioles-5b34",
-   "type": "crossword",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-insectes-et-bestioles-5b34"
-  },
-  {
-   "slug": "anglais-mots-croises-jouets-a5ed",
-   "type": "crossword",
-   "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-jouets-a5ed"
-  },
-  {
-   "slug": "anglais-mots-croises-legumes-c0a8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-legumes-c0a8"
-  },
-  {
-   "slug": "anglais-mots-croises-meteo-a4a3",
-   "type": "crossword",
-   "mode": null,
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-meteo-a4a3"
-  },
-  {
-   "slug": "anglais-mots-croises-metiers-26fd",
-   "type": "crossword",
-   "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-metiers-26fd"
-  },
-  {
-   "slug": "anglais-mots-croises-meubles-4b85",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-meubles-4b85"
-  },
-  {
-   "slug": "anglais-mots-croises-musique-f60c",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-musique-f60c"
-  },
-  {
-   "slug": "anglais-mots-croises-noel-e56e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-noel-e56e"
-  },
-  {
-   "slug": "anglais-mots-croises-oiseaux-2-7f95",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-oiseaux-2-7f95"
-  },
-  {
-   "slug": "anglais-mots-croises-oiseaux-23d9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-oiseaux-23d9"
-  },
-  {
-   "slug": "anglais-mots-croises-outils-3e06",
-   "type": "crossword",
-   "mode": null,
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-outils-3e06"
-  },
-  {
-   "slug": "anglais-mots-croises-paques-6984",
-   "type": "crossword",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-paques-6984"
-  },
-  {
-   "slug": "anglais-mots-croises-parties-du-corps-f65a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-parties-du-corps-f65a"
-  },
-  {
-   "slug": "anglais-mots-croises-petit-dejeuner-bdbb",
-   "type": "crossword",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-petit-dejeuner-bdbb"
-  },
-  {
-   "slug": "anglais-mots-croises-plage-ccc4",
-   "type": "crossword",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-plage-ccc4"
-  },
-  {
-   "slug": "anglais-mots-croises-printemps-3b90",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-printemps-3b90"
-  },
-  {
-   "slug": "anglais-mots-croises-reptiles-et-amphibiens-f20a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-reptiles-et-amphibiens-f20a"
-  },
-  {
-   "slug": "anglais-mots-croises-salle-de-classe-5182",
-   "type": "crossword",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-salle-de-classe-5182"
-  },
-  {
-   "slug": "anglais-mots-croises-ustensiles-de-cuisine-de53",
-   "type": "crossword",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-ustensiles-de-cuisine-de53"
-  },
-  {
-   "slug": "anglais-mots-croises-vehicules-d55f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-vehicules-d55f"
-  },
-  {
-   "slug": "anglais-mots-croises-vetements-1cfd",
-   "type": "crossword",
-   "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-vetements-1cfd"
-  },
-  {
-   "slug": "anglais-mots-croises-vie-oceanique-c6e8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "anglais-mots-croises-vie-oceanique-c6e8"
-  },
-  {
-   "slug": "mots-croises-accessoires-8383",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-accessoires-2a6c",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "accessories",
    "level": "cp",
-   "deck": "mots-croises-accessoires-8383"
+   "deck": "addition-trouve-le-terme-accessoires-2a6c"
   },
   {
-   "slug": "mots-croises-action-de-grace-82e0",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-action-de-grace-ffc7",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "thanksgivinng",
    "level": "cp",
-   "deck": "mots-croises-action-de-grace-82e0"
+   "deck": "addition-trouve-le-terme-action-de-grace-ffc7"
   },
   {
-   "slug": "mots-croises-activites-c603",
-   "type": "crossword",
-   "mode": null,
-   "theme": "activities",
-   "level": "cp",
-   "deck": "mots-croises-activites-c603"
-  },
-  {
-   "slug": "mots-croises-animaux-2bc4",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-animaux-1c6a",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "animals",
    "level": "cp",
-   "deck": "mots-croises-animaux-2bc4"
+   "deck": "addition-trouve-le-terme-animaux-1c6a"
   },
   {
-   "slug": "mots-croises-animaux-de-compagnie-d946",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-animaux-de-compagnie-d75e",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "pets",
    "level": "cp",
-   "deck": "mots-croises-animaux-de-compagnie-d946"
+   "deck": "addition-trouve-le-terme-animaux-de-compagnie-d75e"
   },
   {
-   "slug": "mots-croises-animaux-de-la-ferme-256e",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-animaux-de-la-ferme-b1fa",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "farm_animals",
    "level": "cp",
-   "deck": "mots-croises-animaux-de-la-ferme-256e"
+   "deck": "addition-trouve-le-terme-animaux-de-la-ferme-b1fa"
   },
   {
-   "slug": "mots-croises-animaux-du-zoo-72fb",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-animaux-du-zoo-da5d",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "zoo_animals",
    "level": "cp",
-   "deck": "mots-croises-animaux-du-zoo-72fb"
+   "deck": "addition-trouve-le-terme-animaux-du-zoo-da5d"
   },
   {
-   "slug": "mots-croises-au-supermarche-d705",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-arbres-ed90",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-arbres-ed90"
+  },
+  {
+   "slug": "addition-trouve-le-terme-au-supermarche-046b",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "at_the_supermarket",
    "level": "cp",
-   "deck": "mots-croises-au-supermarche-d705"
+   "deck": "addition-trouve-le-terme-au-supermarche-046b"
   },
   {
-   "slug": "mots-croises-autour-de-la-maison-1f56",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-autour-de-la-maison-2d10",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "around_the_house",
    "level": "cp",
-   "deck": "mots-croises-autour-de-la-maison-1f56"
+   "deck": "addition-trouve-le-terme-autour-de-la-maison-2d10"
   },
   {
-   "slug": "mots-croises-boulangerie-2d6f",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-boulangerie-5f60",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "bakery",
    "level": "cp",
-   "deck": "mots-croises-boulangerie-2d6f"
+   "deck": "addition-trouve-le-terme-boulangerie-5f60"
   },
   {
-   "slug": "mots-croises-bureau-de-poste-b5a6",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-bureau-de-poste-b38c",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "post_office",
    "level": "cp",
-   "deck": "mots-croises-bureau-de-poste-b5a6"
+   "deck": "addition-trouve-le-terme-bureau-de-poste-b38c"
   },
   {
-   "slug": "mots-croises-camping-3c34",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-camping-ac2a",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "camping",
    "level": "cp",
-   "deck": "mots-croises-camping-3c34"
+   "deck": "addition-trouve-le-terme-camping-ac2a"
   },
   {
-   "slug": "mots-croises-choses-qui-volent-50af",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-choses-qui-volent-a53c",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "things_that_fly",
    "level": "cp",
-   "deck": "mots-croises-choses-qui-volent-50af"
+   "deck": "addition-trouve-le-terme-choses-qui-volent-a53c"
   },
   {
-   "slug": "mots-croises-desserts-et-sucreries-a023",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-creatures-de-la-foret-224d",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "forest_creatures",
+   "level": "cp",
+   "deck": "addition-trouve-le-terme-creatures-de-la-foret-224d"
+  },
+  {
+   "slug": "addition-trouve-le-terme-desserts-et-sucreries-2df0",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "desserts_and_sweets",
    "level": "cp",
-   "deck": "mots-croises-desserts-et-sucreries-a023"
+   "deck": "addition-trouve-le-terme-desserts-et-sucreries-2df0"
   },
   {
-   "slug": "mots-croises-emotions-1358",
-   "type": "crossword",
-   "mode": null,
-   "theme": "emotions",
+   "slug": "addition-trouve-le-terme-dinosaures-7353",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "dinosaurs",
    "level": "cp",
-   "deck": "mots-croises-emotions-1358"
+   "deck": "addition-trouve-le-terme-dinosaures-7353"
   },
   {
-   "slug": "mots-croises-espace-fd59",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-espace-0aaf",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "space",
    "level": "cp",
-   "deck": "mots-croises-espace-fd59"
+   "deck": "addition-trouve-le-terme-espace-0aaf"
   },
   {
-   "slug": "mots-croises-ete-dabd",
-   "type": "crossword",
-   "mode": null,
-   "theme": "summer",
-   "level": "cp",
-   "deck": "mots-croises-ete-dabd"
-  },
-  {
-   "slug": "mots-croises-fleurs-a142",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-fleurs-8f18",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "flowers",
    "level": "cp",
-   "deck": "mots-croises-fleurs-a142"
+   "deck": "addition-trouve-le-terme-fleurs-8f18"
   },
   {
-   "slug": "mots-croises-formes-6d08",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-formes-30c4",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "shapes",
    "level": "cp",
-   "deck": "mots-croises-formes-6d08"
+   "deck": "addition-trouve-le-terme-formes-30c4"
   },
   {
-   "slug": "mots-croises-fruits-de0a",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-fruits-8ae2",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "fruits",
    "level": "cp",
-   "deck": "mots-croises-fruits-de0a"
+   "deck": "addition-trouve-le-terme-fruits-8ae2"
   },
   {
-   "slug": "mots-croises-hiver-1001",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "cp",
-   "deck": "mots-croises-hiver-1001"
-  },
-  {
-   "slug": "mots-croises-hopital-b0d9",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-hopital-bc42",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "hospital",
    "level": "cp",
-   "deck": "mots-croises-hopital-b0d9"
+   "deck": "addition-trouve-le-terme-hopital-bc42"
   },
   {
-   "slug": "mots-croises-insectes-et-bestioles-18d1",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-insectes-et-bestioles-a491",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "insects_and_bugs",
    "level": "cp",
-   "deck": "mots-croises-insectes-et-bestioles-18d1"
+   "deck": "addition-trouve-le-terme-insectes-et-bestioles-a491"
   },
   {
-   "slug": "mots-croises-jouets-b263",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-jouets-87b1",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "toys",
    "level": "cp",
-   "deck": "mots-croises-jouets-b263"
+   "deck": "addition-trouve-le-terme-jouets-87b1"
   },
   {
-   "slug": "mots-croises-legumes-60ef",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-legumes-8cb7",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "vegetables",
    "level": "cp",
-   "deck": "mots-croises-legumes-60ef"
+   "deck": "addition-trouve-le-terme-legumes-8cb7"
   },
   {
-   "slug": "mots-croises-meteo-6e5a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "weather",
-   "level": "cp",
-   "deck": "mots-croises-meteo-6e5a"
-  },
-  {
-   "slug": "mots-croises-metiers-5b93",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-metiers-628f",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "occupations",
    "level": "cp",
-   "deck": "mots-croises-metiers-5b93"
+   "deck": "addition-trouve-le-terme-metiers-628f"
   },
   {
-   "slug": "mots-croises-meubles-f550",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-meubles-ac76",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "furniture",
    "level": "cp",
-   "deck": "mots-croises-meubles-f550"
+   "deck": "addition-trouve-le-terme-meubles-ac76"
   },
   {
-   "slug": "mots-croises-musique-7389",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-musique-5295",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "music",
    "level": "cp",
-   "deck": "mots-croises-musique-7389"
+   "deck": "addition-trouve-le-terme-musique-5295"
   },
   {
-   "slug": "mots-croises-noel-2eb5",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-noel-34e5",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "christmas",
    "level": "cp",
-   "deck": "mots-croises-noel-2eb5"
+   "deck": "addition-trouve-le-terme-noel-34e5"
   },
   {
-   "slug": "mots-croises-oiseaux-2-87f3",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-oiseaux-2-6845",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "birds_2",
    "level": "cp",
-   "deck": "mots-croises-oiseaux-2-87f3"
+   "deck": "addition-trouve-le-terme-oiseaux-2-6845"
   },
   {
-   "slug": "mots-croises-oiseaux-9247",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-oiseaux-8345",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "birds",
    "level": "cp",
-   "deck": "mots-croises-oiseaux-9247"
+   "deck": "addition-trouve-le-terme-oiseaux-8345"
   },
   {
-   "slug": "mots-croises-outils-a4d0",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-outils-b403",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "tools",
    "level": "cp",
-   "deck": "mots-croises-outils-a4d0"
+   "deck": "addition-trouve-le-terme-outils-b403"
   },
   {
-   "slug": "mots-croises-paques-eb3f",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-paques-4378",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "easter",
    "level": "cp",
-   "deck": "mots-croises-paques-eb3f"
+   "deck": "addition-trouve-le-terme-paques-4378"
   },
   {
-   "slug": "mots-croises-parties-du-corps-69ba",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "cp",
-   "deck": "mots-croises-parties-du-corps-69ba"
-  },
-  {
-   "slug": "mots-croises-petit-dejeuner-4554",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-petit-dejeuner-ce18",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "breakfast",
    "level": "cp",
-   "deck": "mots-croises-petit-dejeuner-4554"
+   "deck": "addition-trouve-le-terme-petit-dejeuner-ce18"
   },
   {
-   "slug": "mots-croises-plage-4a30",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-plage-c3af",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "beach",
    "level": "cp",
-   "deck": "mots-croises-plage-4a30"
+   "deck": "addition-trouve-le-terme-plage-c3af"
   },
   {
-   "slug": "mots-croises-printemps-4e50",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
+   "slug": "addition-trouve-le-terme-reptiles-et-amphibiens-3175",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "reptiles_and_amphibians",
    "level": "cp",
-   "deck": "mots-croises-printemps-4e50"
+   "deck": "addition-trouve-le-terme-reptiles-et-amphibiens-3175"
   },
   {
-   "slug": "mots-croises-salle-de-classe-4fbe",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-salle-de-classe-9b91",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "classroom",
    "level": "cp",
-   "deck": "mots-croises-salle-de-classe-4fbe"
+   "deck": "addition-trouve-le-terme-salle-de-classe-9b91"
   },
   {
-   "slug": "mots-croises-ustensiles-de-cuisine-ef96",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-ustensiles-de-cuisine-9c2d",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "kitchen_tools",
    "level": "cp",
-   "deck": "mots-croises-ustensiles-de-cuisine-ef96"
+   "deck": "addition-trouve-le-terme-ustensiles-de-cuisine-9c2d"
   },
   {
-   "slug": "mots-croises-vehicules-4e7c",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-vehicules-5e23",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "vehicles",
    "level": "cp",
-   "deck": "mots-croises-vehicules-4e7c"
+   "deck": "addition-trouve-le-terme-vehicules-5e23"
   },
   {
-   "slug": "mots-croises-vetements-1705",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-vetements-56d2",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "clothing",
    "level": "cp",
-   "deck": "mots-croises-vetements-1705"
+   "deck": "addition-trouve-le-terme-vetements-56d2"
   },
   {
-   "slug": "mots-croises-vie-oceanique-8d75",
-   "type": "crossword",
-   "mode": null,
+   "slug": "addition-trouve-le-terme-vie-oceanique-9b92",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "ocean_life",
    "level": "cp",
-   "deck": "mots-croises-vie-oceanique-8d75"
+   "deck": "addition-trouve-le-terme-vie-oceanique-9b92"
+  },
+  {
+   "slug": "addition-image-image-accessoires-d076",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "cp",
+   "deck": "addition-image-image-accessoires-d076"
+  },
+  {
+   "slug": "addition-image-image-action-de-grace-1b5e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "cp",
+   "deck": "addition-image-image-action-de-grace-1b5e"
+  },
+  {
+   "slug": "addition-image-image-animaux",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "addition-image-image-animaux"
+  },
+  {
+   "slug": "addition-image-image-animaux-de-compagnie-e862",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "addition-image-image-animaux-de-compagnie-e862"
+  },
+  {
+   "slug": "addition-image-image-animaux-de-la-ferme-08f5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "cp",
+   "deck": "addition-image-image-animaux-de-la-ferme-08f5"
+  },
+  {
+   "slug": "addition-image-image-animaux-du-zoo-5b08",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "addition-image-image-animaux-du-zoo-5b08"
+  },
+  {
+   "slug": "addition-image-image-arbres-8bf1",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "addition-image-image-arbres-8bf1"
+  },
+  {
+   "slug": "addition-image-image-au-supermarche-5ad3",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "cp",
+   "deck": "addition-image-image-au-supermarche-5ad3"
+  },
+  {
+   "slug": "addition-image-image-autour-de-la-maison-f976",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "cp",
+   "deck": "addition-image-image-autour-de-la-maison-f976"
+  },
+  {
+   "slug": "addition-image-image-boulangerie-e68d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "cp",
+   "deck": "addition-image-image-boulangerie-e68d"
+  },
+  {
+   "slug": "addition-image-image-bureau-de-poste-1c34",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "cp",
+   "deck": "addition-image-image-bureau-de-poste-1c34"
+  },
+  {
+   "slug": "addition-image-image-camping-45c4",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "cp",
+   "deck": "addition-image-image-camping-45c4"
+  },
+  {
+   "slug": "addition-image-image-choses-qui-volent-9f30",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "cp",
+   "deck": "addition-image-image-choses-qui-volent-9f30"
+  },
+  {
+   "slug": "addition-image-image-creatures-de-la-foret-888b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "cp",
+   "deck": "addition-image-image-creatures-de-la-foret-888b"
+  },
+  {
+   "slug": "addition-image-image-desserts-et-sucreries-50ea",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "cp",
+   "deck": "addition-image-image-desserts-et-sucreries-50ea"
+  },
+  {
+   "slug": "addition-image-image-dinosaures-21f5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "cp",
+   "deck": "addition-image-image-dinosaures-21f5"
+  },
+  {
+   "slug": "addition-image-image-espace-fdda",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "cp",
+   "deck": "addition-image-image-espace-fdda"
+  },
+  {
+   "slug": "addition-image-image-fleurs-5809",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "cp",
+   "deck": "addition-image-image-fleurs-5809"
+  },
+  {
+   "slug": "addition-image-image-formes-3e84",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "addition-image-image-formes-3e84"
+  },
+  {
+   "slug": "addition-image-image-fruits-f954",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "cp",
+   "deck": "addition-image-image-fruits-f954"
+  },
+  {
+   "slug": "addition-image-image-hopital-9821",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "cp",
+   "deck": "addition-image-image-hopital-9821"
+  },
+  {
+   "slug": "addition-image-image-insectes-et-bestioles-c3d7",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "addition-image-image-insectes-et-bestioles-c3d7"
+  },
+  {
+   "slug": "addition-image-image-jouets-a2ae",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "cp",
+   "deck": "addition-image-image-jouets-a2ae"
+  },
+  {
+   "slug": "addition-image-image-legumes-4481",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "cp",
+   "deck": "addition-image-image-legumes-4481"
+  },
+  {
+   "slug": "addition-image-image-metiers-1a71",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "addition-image-image-metiers-1a71"
+  },
+  {
+   "slug": "addition-image-image-meubles-beee",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "cp",
+   "deck": "addition-image-image-meubles-beee"
+  },
+  {
+   "slug": "addition-image-image-musique-efb7",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "cp",
+   "deck": "addition-image-image-musique-efb7"
+  },
+  {
+   "slug": "addition-image-image-noel-555e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "addition-image-image-noel-555e"
+  },
+  {
+   "slug": "addition-image-image-oiseaux-2-a07c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "cp",
+   "deck": "addition-image-image-oiseaux-2-a07c"
+  },
+  {
+   "slug": "addition-image-image-oiseaux-3f41",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "addition-image-image-oiseaux-3f41"
+  },
+  {
+   "slug": "addition-image-image-outils-1c0c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "cp",
+   "deck": "addition-image-image-outils-1c0c"
+  },
+  {
+   "slug": "addition-image-image-paques-0017",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "cp",
+   "deck": "addition-image-image-paques-0017"
+  },
+  {
+   "slug": "addition-image-image-petit-dejeuner-620c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "cp",
+   "deck": "addition-image-image-petit-dejeuner-620c"
+  },
+  {
+   "slug": "addition-image-image-plage-0b14",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "cp",
+   "deck": "addition-image-image-plage-0b14"
+  },
+  {
+   "slug": "addition-image-image-reptiles-et-amphibiens-25f3",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "cp",
+   "deck": "addition-image-image-reptiles-et-amphibiens-25f3"
+  },
+  {
+   "slug": "addition-image-image-salle-de-classe-a84c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "cp",
+   "deck": "addition-image-image-salle-de-classe-a84c"
+  },
+  {
+   "slug": "addition-image-image-ustensiles-de-cuisine-34d1",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "addition-image-image-ustensiles-de-cuisine-34d1"
+  },
+  {
+   "slug": "addition-image-image-vehicules-4095",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "cp",
+   "deck": "addition-image-image-vehicules-4095"
+  },
+  {
+   "slug": "addition-image-image-vetements-436f",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "cp",
+   "deck": "addition-image-image-vetements-436f"
+  },
+  {
+   "slug": "addition-image-image-vie-oceanique-553e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "cp",
+   "deck": "addition-image-image-vie-oceanique-553e"
   }
  ]
 }

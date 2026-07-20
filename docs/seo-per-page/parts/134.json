@@ -2,804 +2,787 @@
  "part": 134,
  "locale": "pt",
  "classes": [
-  "sudoku::hard",
-  "alphabet-train::letter-hint",
-  "alphabet-train::null"
+  "code-addition::null",
+  "code-addition::secret-word"
  ],
  "splitOf": null,
- "count": 99,
+ "count": 97,
  "pages": [
   {
-   "slug": "sudoku-ilustrado-dificil-0290",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-0290"
+   "slug": "adicao-com-codigo-acampamento-7440",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "camping",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-acampamento-7440"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-05c3",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-05c3"
+   "slug": "adicao-com-codigo-acessorios-7e67",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-acessorios-7e67"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-1b3a",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-1b3a"
+   "slug": "adicao-com-codigo-animais-628e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-animais-628e"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-2db8",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-2db8"
+   "slug": "adicao-com-codigo-animais-da-fazenda-49ce",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-animais-da-fazenda-49ce"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-3096",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-3096"
+   "slug": "adicao-com-codigo-animais-de-estimacao-2536",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-animais-de-estimacao-2536"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-414d",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-414d"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-43d9",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-43d9"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-4441",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-4441"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-466d",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-466d"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-5419",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-5419"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-5853",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-5853"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-590b",
-   "type": "sudoku",
-   "mode": "hard",
+   "slug": "adicao-com-codigo-animais-do-zoologico-f25e",
+   "type": "code-addition",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-590b"
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-animais-do-zoologico-f25e"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-5ebb",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-5ebb"
+   "slug": "adicao-com-codigo-arvores-eecd",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tree",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-arvores-eecd"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-62ed",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-62ed"
+   "slug": "adicao-com-codigo-atividades-da72",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "activities",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-atividades-da72"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-7748",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-7748"
+   "slug": "adicao-com-codigo-brinquedos-9844",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-brinquedos-9844"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-77f7",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-77f7"
+   "slug": "adicao-com-codigo-cafe-da-manha-d37b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-cafe-da-manha-d37b"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-7fc1",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-7fc1"
+   "slug": "adicao-com-codigo-clima-52b6",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-clima-52b6"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-845e",
-   "type": "sudoku",
-   "mode": "hard",
+   "slug": "adicao-com-codigo-coisas-que-voam-318f",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-coisas-que-voam-318f"
+  },
+  {
+   "slug": "adicao-com-codigo-cores-0e68",
+   "type": "code-addition",
+   "mode": null,
    "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-845e"
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-cores-0e68"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-9251",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-9251"
+   "slug": "adicao-com-codigo-correios-2c05",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-correios-2c05"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-96f6",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-96f6"
+   "slug": "adicao-com-codigo-criaturas-da-floresta-821e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-criaturas-da-floresta-821e"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-979a",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-979a"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-9e05",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-9e05"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-a118",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-a118"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-a268",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-a268"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-a93e",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-a93e"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-b2c3",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-b2c3"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-b39b",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-b39b"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-bc60",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-bc60"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-bdba",
-   "type": "sudoku",
-   "mode": "hard",
+   "slug": "adicao-com-codigo-dia-de-acao-de-gracas-c481",
+   "type": "code-addition",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-bdba"
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-dia-de-acao-de-gracas-c481"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-c2d3",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-c2d3"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-c4e8",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-c4e8"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-cc16",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-cc16"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-d3b0",
-   "type": "sudoku",
-   "mode": "hard",
+   "slug": "adicao-com-codigo-dinossauros-1789",
+   "type": "code-addition",
+   "mode": null,
    "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-d3b0"
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-dinossauros-1789"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-d413",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-d413"
+   "slug": "adicao-com-codigo-diversos-cc48",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-diversos-cc48"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-d4a3",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-d4a3"
+   "slug": "adicao-com-codigo-emocoes-cf37",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "emotions",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-emocoes-cf37"
   },
   {
-   "slug": "sudoku-ilustrado-dificil-dc0b",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-dc0b"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-e456",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-e456"
-  },
-  {
-   "slug": "sudoku-ilustrado-dificil-feca",
-   "type": "sudoku",
-   "mode": "hard",
-   "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-dificil-feca"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-acampamento-e290",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-acampamento-e290"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-acessorios-e89e",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-acessorios-e89e"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-animais-1868",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-animais-1868"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-animais-do-zoologico-7290",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-animais-do-zoologico-7290"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-arvores-d22c",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-arvores-d22c"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-atividades-3748",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-atividades-3748"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-brinquedos-52fd",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-brinquedos-52fd"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-cafe-da-manha-3ed3",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-cafe-da-manha-3ed3"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-clima-f0f9",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-clima-f0f9"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-coisas-que-voam-21c2",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-coisas-que-voam-21c2"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-criaturas-da-floresta-9a1b",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-criaturas-da-floresta-9a1b"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-dinossauros-f5ff",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-dinossauros-f5ff"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-espaco-c4c1",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "adicao-com-codigo-espaco-1c84",
+   "type": "code-addition",
+   "mode": null,
    "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-espaco-c4c1"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-espaco-1c84"
   },
   {
-   "slug": "trem-do-alfabeto-dica-de-letra-ferramentas-06f9",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "adicao-com-codigo-ferramentas-3b14",
+   "type": "code-addition",
+   "mode": null,
    "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-ferramentas-06f9"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-ferramentas-3b14"
   },
   {
-   "slug": "trem-do-alfabeto-dica-de-letra-flores-a518",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "adicao-com-codigo-flores-cfe6",
+   "type": "code-addition",
+   "mode": null,
    "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-flores-a518"
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-flores-cfe6"
   },
   {
-   "slug": "trem-do-alfabeto-dica-de-letra-frutas-4703",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-frutas-4703"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-hospital-3e30",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-hospital-3e30"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-inverno-9e55",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-inverno-9e55"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-natal-36c8",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-natal-36c8"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-no-supermercado-d30e",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-no-supermercado-d30e"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-partes-do-corpo-392f",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-partes-do-corpo-392f"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-pascoa-c72f",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-pascoa-c72f"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-pela-casa-40fe",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-pela-casa-40fe"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-praia-04b0",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-praia-04b0"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-primavera-adad",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-primavera-adad"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-profissoes-bd36",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-profissoes-bd36"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-roupas-7ab3",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-roupas-7ab3"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-sala-de-aula-a1c3",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-sala-de-aula-a1c3"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-utensilios-de-cozinha-15aa",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-utensilios-de-cozinha-15aa"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-veiculos-7587",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-veiculos-7587"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-verao-125c",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-verao-125c"
-  },
-  {
-   "slug": "trem-do-alfabeto-dica-de-letra-vida-marinha-89f3",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-dica-de-letra-vida-marinha-89f3"
-  },
-  {
-   "slug": "trem-do-alfabeto-acampamento-4355",
-   "type": "alphabet-train",
+   "slug": "adicao-com-codigo-formas-7d42",
+   "type": "code-addition",
    "mode": null,
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-formas-7d42"
+  },
+  {
+   "slug": "adicao-com-codigo-frutas-715e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-frutas-715e"
+  },
+  {
+   "slug": "adicao-com-codigo-hospital-8349",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-hospital-8349"
+  },
+  {
+   "slug": "adicao-com-codigo-insetos-e-bichos-bbc4",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-insetos-e-bichos-bbc4"
+  },
+  {
+   "slug": "adicao-com-codigo-inverno-e2e3",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-inverno-e2e3"
+  },
+  {
+   "slug": "adicao-com-codigo-moveis-7239",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-moveis-7239"
+  },
+  {
+   "slug": "adicao-com-codigo-musica-bf73",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "music",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-musica-bf73"
+  },
+  {
+   "slug": "adicao-com-codigo-natal-f79d",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "christmas",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-natal-f79d"
+  },
+  {
+   "slug": "adicao-com-codigo-no-supermercado-33dc",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-no-supermercado-33dc"
+  },
+  {
+   "slug": "adicao-com-codigo-padaria-c2ea",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-padaria-c2ea"
+  },
+  {
+   "slug": "adicao-com-codigo-partes-do-corpo-b070",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-partes-do-corpo-b070"
+  },
+  {
+   "slug": "adicao-com-codigo-pascoa-4078",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-pascoa-4078"
+  },
+  {
+   "slug": "adicao-com-codigo-passaros-2-ebdc",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-passaros-2-ebdc"
+  },
+  {
+   "slug": "adicao-com-codigo-passaros-4a74",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-passaros-4a74"
+  },
+  {
+   "slug": "adicao-com-codigo-pela-casa-bb9a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-pela-casa-bb9a"
+  },
+  {
+   "slug": "adicao-com-codigo-praia-f5c1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "beach",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-praia-f5c1"
+  },
+  {
+   "slug": "adicao-com-codigo-primavera-09c3",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "spring",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-primavera-09c3"
+  },
+  {
+   "slug": "adicao-com-codigo-profissoes-87c4",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-profissoes-87c4"
+  },
+  {
+   "slug": "adicao-com-codigo-repteis-e-anfibios-1034",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-repteis-e-anfibios-1034"
+  },
+  {
+   "slug": "adicao-com-codigo-roupas-f716",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-roupas-f716"
+  },
+  {
+   "slug": "adicao-com-codigo-sala-de-aula-f70b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-sala-de-aula-f70b"
+  },
+  {
+   "slug": "adicao-com-codigo-sobremesas-e-doces-c23a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-sobremesas-e-doces-c23a"
+  },
+  {
+   "slug": "adicao-com-codigo-utensilios-de-cozinha-98e6",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-utensilios-de-cozinha-98e6"
+  },
+  {
+   "slug": "adicao-com-codigo-vegetais-fc50",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-vegetais-fc50"
+  },
+  {
+   "slug": "adicao-com-codigo-veiculos-34a6",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-veiculos-34a6"
+  },
+  {
+   "slug": "adicao-com-codigo-verao-dab5",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "summer",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-verao-dab5"
+  },
+  {
+   "slug": "adicao-com-codigo-vida-marinha-7d31",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-vida-marinha-7d31"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-acampamento-7dbf",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-acampamento-4355"
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-acampamento-7dbf"
   },
   {
-   "slug": "trem-do-alfabeto-acessorios-7204",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-acessorios-8967",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-acessorios-7204"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-acessorios-8967"
   },
   {
-   "slug": "trem-do-alfabeto-animais",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-animais-972e",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-animais"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-animais-972e"
   },
   {
-   "slug": "trem-do-alfabeto-animais-do-zoologico-fddc",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-animais-da-fazenda-b031",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "farm_animals",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-animais-da-fazenda-b031"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-animais-de-estimacao-b7ae",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "pets",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-animais-de-estimacao-b7ae"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-animais-do-zoologico-903b",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-animais-do-zoologico-fddc"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-animais-do-zoologico-903b"
   },
   {
-   "slug": "trem-do-alfabeto-atividades-4c7e",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-arvores-4b90",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tree",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-arvores-4b90"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-atividades-bcb6",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-atividades-4c7e"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-atividades-bcb6"
   },
   {
-   "slug": "trem-do-alfabeto-brinquedos-a466",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-brinquedos-74ad",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-brinquedos-a466"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-brinquedos-74ad"
   },
   {
-   "slug": "trem-do-alfabeto-cafe-da-manha-1906",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-cafe-da-manha-abcc",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-cafe-da-manha-1906"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-cafe-da-manha-abcc"
   },
   {
-   "slug": "trem-do-alfabeto-clima-bbaf",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-clima-9934",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-clima-bbaf"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-clima-9934"
   },
   {
-   "slug": "trem-do-alfabeto-coisas-que-voam-548c",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-coisas-que-voam-3b0d",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-coisas-que-voam-548c"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-coisas-que-voam-3b0d"
   },
   {
-   "slug": "trem-do-alfabeto-criaturas-da-floresta-a712",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-cores-e5e4",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "colors",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-cores-e5e4"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-correios-960d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "post_office",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-correios-960d"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-criaturas-da-floresta-746c",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-criaturas-da-floresta-a712"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-criaturas-da-floresta-746c"
   },
   {
-   "slug": "trem-do-alfabeto-espaco-3517",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-dia-de-acao-de-gracas-4925",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-dia-de-acao-de-gracas-4925"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-dinossauros-e102",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "dinosaurs",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-dinossauros-e102"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-emocoes-ff99",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "emotions",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-emocoes-ff99"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-espaco-6046",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-espaco-3517"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-espaco-6046"
   },
   {
-   "slug": "trem-do-alfabeto-ferramentas-e160",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-ferramentas-a8f7",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-ferramentas-e160"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-ferramentas-a8f7"
   },
   {
-   "slug": "trem-do-alfabeto-frutas-09b9",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-flores-d308",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "flowers",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-flores-d308"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-formas-01de",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "shapes",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-formas-01de"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-frutas-5545",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-frutas-09b9"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-frutas-5545"
   },
   {
-   "slug": "trem-do-alfabeto-hospital-4942",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-hospital-0988",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-hospital-4942"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-hospital-0988"
   },
   {
-   "slug": "trem-do-alfabeto-inverno-d677",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-insetos-e-bichos-5d3c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "insects_and_bugs",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-insetos-e-bichos-5d3c"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-inverno-c339",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-inverno-d677"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-inverno-c339"
   },
   {
-   "slug": "trem-do-alfabeto-natal-b7d4",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-moveis-651a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "furniture",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-moveis-651a"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-musica-29ff",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "music",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-musica-29ff"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-natal-146f",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-natal-b7d4"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-natal-146f"
   },
   {
-   "slug": "trem-do-alfabeto-no-supermercado-9163",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-no-supermercado-fc46",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-no-supermercado-9163"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-no-supermercado-fc46"
   },
   {
-   "slug": "trem-do-alfabeto-partes-do-corpo-68db",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-padaria-44d6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "bakery",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-padaria-44d6"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-partes-do-corpo-097c",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-partes-do-corpo-68db"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-partes-do-corpo-097c"
   },
   {
-   "slug": "trem-do-alfabeto-pascoa-80fc",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-pascoa-0aee",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-pascoa-80fc"
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-pascoa-0aee"
   },
   {
-   "slug": "trem-do-alfabeto-pela-casa-53d3",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-passaros-2-e250",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds_2",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-passaros-2-e250"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-passaros-f19f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-passaros-f19f"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-pela-casa-abbc",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-pela-casa-53d3"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-pela-casa-abbc"
   },
   {
-   "slug": "trem-do-alfabeto-praia-b134",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-praia-4b3f",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-praia-b134"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-praia-4b3f"
   },
   {
-   "slug": "trem-do-alfabeto-primavera-30ad",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-primavera-3a0e",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-primavera-30ad"
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-primavera-3a0e"
   },
   {
-   "slug": "trem-do-alfabeto-profissoes-96a1",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-profissoes-b97d",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-profissoes-96a1"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-profissoes-b97d"
   },
   {
-   "slug": "trem-do-alfabeto-roupas-f325",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-repteis-e-anfibios-a0cb",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "reptiles_and_amphibians",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-repteis-e-anfibios-a0cb"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-roupas-420d",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-roupas-f325"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-roupas-420d"
   },
   {
-   "slug": "trem-do-alfabeto-sala-de-aula-e03d",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-sala-de-aula-541e",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-sala-de-aula-e03d"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-sala-de-aula-541e"
   },
   {
-   "slug": "trem-do-alfabeto-utensilios-de-cozinha-37d3",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-sobremesas-e-doces-d981",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-sobremesas-e-doces-d981"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-utensilios-de-cozinha-d6df",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-utensilios-de-cozinha-37d3"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-utensilios-de-cozinha-d6df"
   },
   {
-   "slug": "trem-do-alfabeto-veiculos-7a59",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-vegetais-0943",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vegetables",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-vegetais-0943"
+  },
+  {
+   "slug": "adicao-com-codigo-palavra-secreta-veiculos-5b25",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-veiculos-7a59"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-veiculos-5b25"
   },
   {
-   "slug": "trem-do-alfabeto-verao-bfa5",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-verao-ccd4",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-verao-bfa5"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-verao-ccd4"
   },
   {
-   "slug": "trem-do-alfabeto-vida-marinha-6c1d",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "adicao-com-codigo-palavra-secreta-vida-marinha-6fb6",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "trem-do-alfabeto-vida-marinha-6c1d"
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-palavra-secreta-vida-marinha-6fb6"
   }
  ]
 }

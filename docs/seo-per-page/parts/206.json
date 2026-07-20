@@ -2,763 +2,763 @@
  "part": 206,
  "locale": "nl",
  "classes": [
-  "odd-one-out::same-theme",
-  "picture-path::choose-path"
+  "prepositions::multiplechoice",
+  "code-addition::null"
  ],
  "splitOf": null,
  "count": 94,
  "pages": [
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-accessoires-19ef",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-accessoires-8afb",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "accessories",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-accessoires-19ef"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-accessoires-8afb"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-activiteiten-617a",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-activiteiten-5243",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "activities",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-activiteiten-617a"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-activiteiten-5243"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-bakkerij-7a3a",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-bakkerij-f6fe",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "bakery",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-bakkerij-7a3a"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-bakkerij-f6fe"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-beroepen-a852",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-beroepen-8d16",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "occupations",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-beroepen-a852"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-beroepen-8d16"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-bloemen-8aca",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-bloemen-77c1",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "flowers",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-bloemen-8aca"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-bloemen-77c1"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-boerderijdieren-59eb",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-boerderijdieren-62d2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "farm_animals",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-boerderijdieren-59eb"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-boerderijdieren-62d2"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-bomen-ef45",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-bomen-20f4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "tree",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-bomen-ef45"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-bomen-20f4"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-boswezens-20e5",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-boswezens-625b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "forest_creatures",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-boswezens-20e5"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-boswezens-625b"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-desserts-en-snoep-c330",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-desserts-en-snoep-5b71",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "desserts_and_sweets",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-desserts-en-snoep-c330"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-desserts-en-snoep-5b71"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-dieren",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-dieren-aad9",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "animals",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-dieren"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-dieren-aad9"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-dierentuindieren-49ca",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-dierentuindieren-9b7c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "zoo_animals",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-dierentuindieren-49ca"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-dierentuindieren-9b7c"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-dingen-die-vliegen-7a51",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-dingen-die-vliegen-f812",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "things_that_fly",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-dingen-die-vliegen-7a51"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-dingen-die-vliegen-f812"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-dinosaurussen-8b2b",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-dinosaurussen-2ce6",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "dinosaurs",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-dinosaurussen-8b2b"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-dinosaurussen-2ce6"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-emoties-e7d5",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-emoties-3cad",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "emotions",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-emoties-e7d5"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-emoties-3cad"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-fruit-2eae",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-fruit-b67f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "fruits",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-fruit-2eae"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-fruit-b67f"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-gereedschap-0062",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-gereedschap-e206",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "tools",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-gereedschap-0062"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-gereedschap-e206"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-groenten-22e0",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-groenten-7a94",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "vegetables",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-groenten-22e0"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-groenten-7a94"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-huisdieren-a267",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-huisdieren-695e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "pets",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-huisdieren-a267"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-huisdieren-695e"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-in-de-supermarkt-06fe",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-in-de-supermarkt-531f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "at_the_supermarket",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-in-de-supermarkt-06fe"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-in-de-supermarkt-531f"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-insecten-en-beestjes-fabf",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-insecten-en-beestjes-8f90",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "insects_and_bugs",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-insecten-en-beestjes-fabf"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-insecten-en-beestjes-8f90"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-kamperen-9bc1",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-kamperen-4f10",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "camping",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-kamperen-9bc1"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-kamperen-4f10"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-kerstmis-7288",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-kerstmis-3f35",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "christmas",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-kerstmis-7288"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-kerstmis-3f35"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-keukengerei-7b67",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-keukengerei-8de2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "kitchen_tools",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-keukengerei-7b67"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-keukengerei-8de2"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-klaslokaal-24f2",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-klaslokaal-49ee",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "classroom",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-klaslokaal-24f2"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-klaslokaal-49ee"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-kleding-7ad1",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-kleding-50c6",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "clothing",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-kleding-7ad1"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-kleding-50c6"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-kleuren-50f0",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-kleuren-16b3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "colors",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-kleuren-50f0"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-kleuren-16b3"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-lente-8246",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-lente-c695",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "spring",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-lente-8246"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-lente-c695"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-lichaamsdelen-c488",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-lichaamsdelen-7928",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "body_parts",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-lichaamsdelen-c488"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-lichaamsdelen-7928"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-meubels-0380",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-meubels-6067",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "furniture",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-meubels-0380"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-meubels-6067"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-muziek-fa08",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-muziek-75cf",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "music",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-muziek-fa08"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-muziek-75cf"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-oceaanleven-0579",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-oceaanleven-bff3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "ocean_life",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-oceaanleven-0579"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-oceaanleven-bff3"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-ontbijt-f4c1",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-ontbijt-dec3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "breakfast",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-ontbijt-f4c1"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-ontbijt-dec3"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-pasen-4cc7",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-pasen-bb37",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "easter",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-pasen-4cc7"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-pasen-bb37"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-postkantoor-8cc7",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-postkantoor-34b8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "post_office",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-postkantoor-8cc7"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-postkantoor-34b8"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-rond-het-huis-fa61",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-rond-het-huis-f333",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "around_the_house",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-rond-het-huis-fa61"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-rond-het-huis-f333"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-ruimte-f35e",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-ruimte-c9ce",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "space",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-ruimte-f35e"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-ruimte-c9ce"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-speelgoed-d714",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-speelgoed-f4e4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "toys",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-speelgoed-d714"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-speelgoed-f4e4"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-strand-f3fa",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-strand-72a8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "beach",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-strand-f3fa"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-strand-72a8"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-thanksgiving-a6a6",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-thanksgiving-d98e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "thanksgivinng",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-thanksgiving-a6a6"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-thanksgiving-d98e"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-voertuigen-57cb",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-voertuigen-9b41",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "vehicles",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-voertuigen-57cb"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-voertuigen-9b41"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-vogels-2-0a51",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-vogels-2-a8c1",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "birds_2",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-vogels-2-0a51"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-vogels-2-a8c1"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-vogels-af07",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "birds",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-vogels-af07"
-  },
-  {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-vormen-4603",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-vormen-d0c4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "shapes",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-vormen-4603"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-vormen-d0c4"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-weer-7564",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-weer-f60b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "weather",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-weer-7564"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-weer-f60b"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-winter-a27a",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-winter-b27b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "winter",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-winter-a27a"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-winter-b27b"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-ziekenhuis-085b",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-ziekenhuis-4b01",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "hospital",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-ziekenhuis-085b"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-ziekenhuis-4b01"
   },
   {
-   "slug": "welke-hoort-niet-thuis-zelfde-thema-zomer-fa88",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "voorzetsels-meerkeuze-zomer-cfd1",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "summer",
-   "level": "kleuters",
-   "deck": "welke-hoort-niet-thuis-zelfde-thema-zomer-fa88"
+   "level": "groep-3",
+   "deck": "voorzetsels-meerkeuze-zomer-cfd1"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-accessoires-7ced",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-accessoires-ce59",
+   "type": "code-addition",
+   "mode": null,
    "theme": "accessories",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-accessoires-7ced"
+   "level": "groep-4",
+   "deck": "code-optellen-accessoires-ce59"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-activiteiten-5aea",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-activiteiten-a2db",
+   "type": "code-addition",
+   "mode": null,
    "theme": "activities",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-activiteiten-5aea"
+   "level": "groep-3",
+   "deck": "code-optellen-activiteiten-a2db"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-bakkerij-6a9f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-bakkerij-9cdf",
+   "type": "code-addition",
+   "mode": null,
    "theme": "bakery",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-bakkerij-6a9f"
+   "level": "groep-3",
+   "deck": "code-optellen-bakkerij-9cdf"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-beroepen-15fb",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-beroepen-1042",
+   "type": "code-addition",
+   "mode": null,
    "theme": "occupations",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-beroepen-15fb"
+   "level": "groep-4",
+   "deck": "code-optellen-beroepen-1042"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-bloemen-5697",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-bloemen-273d",
+   "type": "code-addition",
+   "mode": null,
    "theme": "flowers",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-bloemen-5697"
+   "level": "groep-3",
+   "deck": "code-optellen-bloemen-273d"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-boerderijdieren-ca11",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-boerderijdieren-9a8b",
+   "type": "code-addition",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-boerderijdieren-ca11"
+   "level": "groep-3",
+   "deck": "code-optellen-boerderijdieren-9a8b"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-bomen-7ad0",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-bomen-2a68",
+   "type": "code-addition",
+   "mode": null,
    "theme": "tree",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-bomen-7ad0"
+   "level": "groep-4",
+   "deck": "code-optellen-bomen-2a68"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-boswezens-0b65",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-boswezens-cc23",
+   "type": "code-addition",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-boswezens-0b65"
+   "level": "groep-4",
+   "deck": "code-optellen-boswezens-cc23"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-desserts-en-snoep-5ac8",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-desserts-en-snoep-c5f5",
+   "type": "code-addition",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-desserts-en-snoep-5ac8"
+   "level": "groep-3",
+   "deck": "code-optellen-desserts-en-snoep-c5f5"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-dieren-2665",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-dieren-6a2e",
+   "type": "code-addition",
+   "mode": null,
    "theme": "animals",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-dieren-2665"
+   "level": "groep-3",
+   "deck": "code-optellen-dieren-6a2e"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-dierentuindieren-8973",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-dierentuindieren-70ef",
+   "type": "code-addition",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-dierentuindieren-8973"
+   "level": "groep-4",
+   "deck": "code-optellen-dierentuindieren-70ef"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-dingen-die-vliegen-84f5",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-dingen-die-vliegen-7cd8",
+   "type": "code-addition",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-dingen-die-vliegen-84f5"
+   "level": "groep-4",
+   "deck": "code-optellen-dingen-die-vliegen-7cd8"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-dinosaurussen-87f9",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-dinosaurussen-bbde",
+   "type": "code-addition",
+   "mode": null,
    "theme": "dinosaurs",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-dinosaurussen-87f9"
+   "level": "groep-4",
+   "deck": "code-optellen-dinosaurussen-bbde"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-emoties-e376",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-emoties-60cd",
+   "type": "code-addition",
+   "mode": null,
    "theme": "emotions",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-emoties-e376"
+   "level": "groep-3",
+   "deck": "code-optellen-emoties-60cd"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-fruit-015d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-fruit-591f",
+   "type": "code-addition",
+   "mode": null,
    "theme": "fruits",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-fruit-015d"
+   "level": "groep-3",
+   "deck": "code-optellen-fruit-591f"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-gereedschap-b27e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-gereedschap-76f7",
+   "type": "code-addition",
+   "mode": null,
    "theme": "tools",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-gereedschap-b27e"
+   "level": "groep-3",
+   "deck": "code-optellen-gereedschap-76f7"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-groenten-d836",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-groenten-5f88",
+   "type": "code-addition",
+   "mode": null,
    "theme": "vegetables",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-groenten-d836"
+   "level": "groep-3",
+   "deck": "code-optellen-groenten-5f88"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-huisdieren-f98b",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-huisdieren-2ea7",
+   "type": "code-addition",
+   "mode": null,
    "theme": "pets",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-huisdieren-f98b"
+   "level": "groep-3",
+   "deck": "code-optellen-huisdieren-2ea7"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-in-de-supermarkt-fe29",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-in-de-supermarkt-bf8a",
+   "type": "code-addition",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-in-de-supermarkt-fe29"
+   "level": "groep-4",
+   "deck": "code-optellen-in-de-supermarkt-bf8a"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-insecten-en-beestjes-9d6a",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-insecten-en-beestjes-6f64",
+   "type": "code-addition",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-insecten-en-beestjes-9d6a"
+   "level": "groep-3",
+   "deck": "code-optellen-insecten-en-beestjes-6f64"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-kamperen-f06d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-kamperen-1caf",
+   "type": "code-addition",
+   "mode": null,
    "theme": "camping",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-kamperen-f06d"
+   "level": "groep-3",
+   "deck": "code-optellen-kamperen-1caf"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-kerstmis-7677",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-kerstmis-d763",
+   "type": "code-addition",
+   "mode": null,
    "theme": "christmas",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-kerstmis-7677"
+   "level": "groep-4",
+   "deck": "code-optellen-kerstmis-d763"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-keukengerei-1a07",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-keukengerei-97f2",
+   "type": "code-addition",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-keukengerei-1a07"
+   "level": "groep-3",
+   "deck": "code-optellen-keukengerei-97f2"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-klaslokaal-1fb6",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-klaslokaal-60a8",
+   "type": "code-addition",
+   "mode": null,
    "theme": "classroom",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-klaslokaal-1fb6"
+   "level": "groep-3",
+   "deck": "code-optellen-klaslokaal-60a8"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-kleding-10b3",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-kleding-13e7",
+   "type": "code-addition",
+   "mode": null,
    "theme": "clothing",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-kleding-10b3"
+   "level": "groep-4",
+   "deck": "code-optellen-kleding-13e7"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-kleuren-be9d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-kleuren-dfc6",
+   "type": "code-addition",
+   "mode": null,
    "theme": "colors",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-kleuren-be9d"
+   "level": "groep-3",
+   "deck": "code-optellen-kleuren-dfc6"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-lente-8035",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-lente-3481",
+   "type": "code-addition",
+   "mode": null,
    "theme": "spring",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-lente-8035"
+   "level": "groep-3",
+   "deck": "code-optellen-lente-3481"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-lichaamsdelen-9517",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-lichaamsdelen-b1fb",
+   "type": "code-addition",
+   "mode": null,
    "theme": "body_parts",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-lichaamsdelen-9517"
+   "level": "groep-4",
+   "deck": "code-optellen-lichaamsdelen-b1fb"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-meubels-172b",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-meubels-7897",
+   "type": "code-addition",
+   "mode": null,
    "theme": "furniture",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-meubels-172b"
+   "level": "groep-3",
+   "deck": "code-optellen-meubels-7897"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-muziek-fd50",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-muziek-99cb",
+   "type": "code-addition",
+   "mode": null,
    "theme": "music",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-muziek-fd50"
+   "level": "groep-3",
+   "deck": "code-optellen-muziek-99cb"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-oceaanleven-175f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-oceaanleven-8d84",
+   "type": "code-addition",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-oceaanleven-175f"
+   "level": "groep-4",
+   "deck": "code-optellen-oceaanleven-8d84"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-ontbijt-30c4",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-ontbijt-0b0b",
+   "type": "code-addition",
+   "mode": null,
    "theme": "breakfast",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-ontbijt-30c4"
+   "level": "groep-3",
+   "deck": "code-optellen-ontbijt-0b0b"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-pasen-9e28",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-pasen-5aea",
+   "type": "code-addition",
+   "mode": null,
    "theme": "easter",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-pasen-9e28"
+   "level": "groep-4",
+   "deck": "code-optellen-pasen-5aea"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-postkantoor-1b4b",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-postkantoor-8c52",
+   "type": "code-addition",
+   "mode": null,
    "theme": "post_office",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-postkantoor-1b4b"
+   "level": "groep-4",
+   "deck": "code-optellen-postkantoor-8c52"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-rond-het-huis-908a",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-reptielen-en-amfibieen-038c",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "code-optellen-reptielen-en-amfibieen-038c"
+  },
+  {
+   "slug": "code-optellen-rond-het-huis-0533",
+   "type": "code-addition",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-rond-het-huis-908a"
+   "level": "groep-4",
+   "deck": "code-optellen-rond-het-huis-0533"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-ruimte-ed0e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-ruimte-dfe2",
+   "type": "code-addition",
+   "mode": null,
    "theme": "space",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-ruimte-ed0e"
+   "level": "groep-3",
+   "deck": "code-optellen-ruimte-dfe2"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-speelgoed-85d1",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-speelgoed-f245",
+   "type": "code-addition",
+   "mode": null,
    "theme": "toys",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-speelgoed-85d1"
+   "level": "groep-3",
+   "deck": "code-optellen-speelgoed-f245"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-strand-25f5",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-strand-2bfe",
+   "type": "code-addition",
+   "mode": null,
    "theme": "beach",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-strand-25f5"
+   "level": "groep-3",
+   "deck": "code-optellen-strand-2bfe"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-thanksgiving-58d0",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-thanksgiving-945d",
+   "type": "code-addition",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-thanksgiving-58d0"
+   "level": "groep-3",
+   "deck": "code-optellen-thanksgiving-945d"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-voertuigen-6761",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-voertuigen-b333",
+   "type": "code-addition",
+   "mode": null,
    "theme": "vehicles",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-voertuigen-6761"
+   "level": "groep-3",
+   "deck": "code-optellen-voertuigen-b333"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-vogels-2-9d03",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-vogels-2-923e",
+   "type": "code-addition",
+   "mode": null,
    "theme": "birds_2",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-vogels-2-9d03"
+   "level": "groep-4",
+   "deck": "code-optellen-vogels-2-923e"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-vogels-2b80",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-vogels-ec15",
+   "type": "code-addition",
+   "mode": null,
    "theme": "birds",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-vogels-2b80"
+   "level": "groep-4",
+   "deck": "code-optellen-vogels-ec15"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-vormen-3977",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-vormen-43b6",
+   "type": "code-addition",
+   "mode": null,
    "theme": "shapes",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-vormen-3977"
+   "level": "groep-3",
+   "deck": "code-optellen-vormen-43b6"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-weer-372e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-weer-d5b4",
+   "type": "code-addition",
+   "mode": null,
    "theme": "weather",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-weer-372e"
+   "level": "groep-3",
+   "deck": "code-optellen-weer-d5b4"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-winter-8b3f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-winter-aa39",
+   "type": "code-addition",
+   "mode": null,
    "theme": "winter",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-winter-8b3f"
+   "level": "groep-3",
+   "deck": "code-optellen-winter-aa39"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-ziekenhuis-06dc",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-ziekenhuis-dc61",
+   "type": "code-addition",
+   "mode": null,
    "theme": "hospital",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-ziekenhuis-06dc"
+   "level": "groep-4",
+   "deck": "code-optellen-ziekenhuis-dc61"
   },
   {
-   "slug": "beeldpad-kies-het-juiste-pad-zomer-6118",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "code-optellen-zomer-6f5e",
+   "type": "code-addition",
+   "mode": null,
    "theme": "summer",
-   "level": "kleuters",
-   "deck": "beeldpad-kies-het-juiste-pad-zomer-6118"
+   "level": "groep-4",
+   "deck": "code-optellen-zomer-6f5e"
   }
  ]
 }

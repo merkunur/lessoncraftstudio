@@ -2,387 +2,315 @@
  "part": 238,
  "locale": "sv",
  "classes": [
-  "odd-one-out::same-theme",
+  "subtraction::cross-out",
   "prepositions::fillin"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 85,
  "pages": [
   {
-   "slug": "vilken-passar-inte-samma-tema-aktiviteter-41a4",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "activities",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-aktiviteter-41a4"
-  },
-  {
-   "slug": "vilken-passar-inte-samma-tema-bageri-a179",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-bageri-1bef",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "bakery",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-bageri-a179"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-bageri-1bef"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-blommor-0ad3",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-blommor-2356",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "flowers",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-blommor-0ad3"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-blommor-2356"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-bondgardsdjur-8751",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-bondgardsdjur-c17d",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-bondgardsdjur-8751"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-bondgardsdjur-c17d"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-camping-c976",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-camping-ccc3",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "camping",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-camping-c976"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-camping-ccc3"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-dinosaurier-c40b",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-dinosaurier-b5de",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-dinosaurier-c40b"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-dinosaurier-b5de"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-djur",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-djur",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "animals",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-djur"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-djur"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-djurparksdjur-cfe2",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-djurparksdjur-90f8",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-djurparksdjur-cfe2"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-djurparksdjur-90f8"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-efterratter-och-godis-c90b",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-efterratter-och-godis-095f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-efterratter-och-godis-c90b"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-efterratter-och-godis-095f"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-faglar-2-8720",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "birds_2",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-faglar-2-8720"
-  },
-  {
-   "slug": "vilken-passar-inte-samma-tema-faglar-f11d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-faglar-3eeb",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-faglar-f11d"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-faglar-3eeb"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-farger-7d94",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "colors",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-farger-7d94"
-  },
-  {
-   "slug": "vilken-passar-inte-samma-tema-fordon-f84b",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-fordon-c112",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vehicles",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-fordon-f84b"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-fordon-c112"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-former-7b5b",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-former-56fe",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "shapes",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-former-7b5b"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-former-56fe"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-frukost-c09a",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-frukost-5527",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "breakfast",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-frukost-c09a"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-frukost-5527"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-frukter-5482",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-frukter-795b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "fruits",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-frukter-5482"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-frukter-795b"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-gronsaker-b213",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-gronsaker-2ea3",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vegetables",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-gronsaker-b213"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-gronsaker-2ea3"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-havsliv-51fe",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-havsliv-8e9a",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-havsliv-51fe"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-havsliv-8e9a"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-husdjur-8824",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-husdjur-5898",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "pets",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-husdjur-8824"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-husdjur-5898"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-i-snabbkopet-e01b",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-i-snabbkopet-4515",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-i-snabbkopet-e01b"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-i-snabbkopet-4515"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-insekter-och-kryp-36ef",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-insekter-och-kryp-8dfc",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-insekter-och-kryp-36ef"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-insekter-och-kryp-8dfc"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-jul-e1d7",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-jul-6686",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "christmas",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-jul-e1d7"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-jul-6686"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-kanslor-2ae0",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "emotions",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-kanslor-2ae0"
-  },
-  {
-   "slug": "vilken-passar-inte-samma-tema-klader-bc53",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-klader-da7e",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "clothing",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-klader-bc53"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-klader-da7e"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-klassrum-b6b2",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-klassrum-8bd5",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "classroom",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-klassrum-b6b2"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-klassrum-8bd5"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-koksredskap-2c4d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-koksredskap-2c4d"
-  },
-  {
-   "slug": "vilken-passar-inte-samma-tema-kroppsdelar-32fd",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-kroppsdelar-32fd"
-  },
-  {
-   "slug": "vilken-passar-inte-samma-tema-leksaker-97d9",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-leksaker-da46",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "toys",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-leksaker-97d9"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-leksaker-da46"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-mobler-971b",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-mobler-509f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "furniture",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-mobler-971b"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-mobler-509f"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-musik-df88",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-musik-64db",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "music",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-musik-df88"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-musik-64db"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-pask-e8dc",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-pask-9a52",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "easter",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-pask-e8dc"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-pask-9a52"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-postkontor-b636",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-postkontor-839e",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "post_office",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-postkontor-b636"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-postkontor-839e"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-runt-huset-f0b2",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-reptiler-och-groddjur-1605",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-reptiler-och-groddjur-1605"
+  },
+  {
+   "slug": "subtraktion-stryk-over-runt-huset-2c32",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-runt-huset-f0b2"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-runt-huset-2c32"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-rymden-63f8",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-rymden-41ee",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "space",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-rymden-63f8"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-rymden-41ee"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-saker-som-flyger-e263",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-saker-som-flyger-9128",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-saker-som-flyger-e263"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-saker-som-flyger-9128"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-sjukhus-88a7",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-sjukhus-aa8c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "hospital",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-sjukhus-88a7"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-sjukhus-aa8c"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-skogsdjur-9195",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-skogsdjur-d671",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-skogsdjur-9195"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-skogsdjur-d671"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-sommar-4af6",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "summer",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-sommar-4af6"
-  },
-  {
-   "slug": "vilken-passar-inte-samma-tema-strand-ea97",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-strand-1bbf",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "beach",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-strand-ea97"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-strand-1bbf"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-thanksgiving-0da4",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-thanksgiving-d660",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-thanksgiving-0da4"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-thanksgiving-d660"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-tillbehor-77ae",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-tillbehor-8ef5",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "accessories",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-tillbehor-77ae"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-tillbehor-8ef5"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-trad-08d5",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-trad-69e3",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tree",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-trad-08d5"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-trad-69e3"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-vader-5e03",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "weather",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-vader-5e03"
-  },
-  {
-   "slug": "vilken-passar-inte-samma-tema-var-f141",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "spring",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-var-f141"
-  },
-  {
-   "slug": "vilken-passar-inte-samma-tema-verktyg-af58",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-verktyg-d4b5",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tools",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-verktyg-af58"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-verktyg-d4b5"
   },
   {
-   "slug": "vilken-passar-inte-samma-tema-vinter-1fdc",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "winter",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-vinter-1fdc"
-  },
-  {
-   "slug": "vilken-passar-inte-samma-tema-yrken-e213",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "subtraktion-stryk-over-yrken-287b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "occupations",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-samma-tema-yrken-e213"
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-yrken-287b"
   },
   {
    "slug": "prepositioner-fyll-i-aktiviteter-ab70",

@@ -2,699 +2,378 @@
  "part": 214,
  "locale": "nl",
  "classes": [
-  "find-and-count::letter-spotting",
-  "alphabet-train::letter-hint"
+  "word-scramble::normal"
  ],
  "splitOf": null,
- "count": 86,
+ "count": 46,
  "pages": [
   {
-   "slug": "zoek-en-tel-letters-zoeken-accessoires-0143",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-accessoires-9616",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "accessories",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-accessoires-0143"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-accessoires-9616"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-activiteiten-c45c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-activiteiten-f710",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "activities",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-activiteiten-c45c"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-activiteiten-f710"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-bakkerij-73f7",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-bakkerij-0177",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "bakery",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-bakkerij-73f7"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-bakkerij-0177"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-beroepen-16e1",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-beroepen-4f76",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "occupations",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-beroepen-16e1"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-beroepen-4f76"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-bloemen-6110",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-bloemen-702b",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "flowers",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-bloemen-6110"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-bloemen-702b"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-boerderijdieren-1130",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-boerderijdieren-a75a",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "farm_animals",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-boerderijdieren-1130"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-boerderijdieren-a75a"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-boswezens-451a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-boswezens-fbed",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "forest_creatures",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-boswezens-451a"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-boswezens-fbed"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-desserts-en-snoep-2651",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-desserts-en-snoep-b69b",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "desserts_and_sweets",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-desserts-en-snoep-2651"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-desserts-en-snoep-b69b"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-dieren",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-dieren-64e1",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "animals",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-dieren"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-dieren-64e1"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-dierentuindieren-c685",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-dierentuindieren-c308",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "zoo_animals",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-dierentuindieren-c685"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-dierentuindieren-c308"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-dingen-die-vliegen-de15",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-dingen-die-vliegen-71b3",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "things_that_fly",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-dingen-die-vliegen-de15"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-dingen-die-vliegen-71b3"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-emoties-7282",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-emoties-504e",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "emotions",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-emoties-7282"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-emoties-504e"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-fruit-cf8d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-fruit-e0bb",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "fruits",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-fruit-cf8d"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-fruit-e0bb"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-gereedschap-3cfb",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-gereedschap-0f25",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "tools",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-gereedschap-3cfb"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-gereedschap-0f25"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-groenten-2d45",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-groenten-73fc",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "vegetables",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-groenten-2d45"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-groenten-73fc"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-huisdieren-1c6a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-huisdieren-c56f",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "pets",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-huisdieren-1c6a"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-huisdieren-c56f"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-in-de-supermarkt-1577",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-in-de-supermarkt-3930",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "at_the_supermarket",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-in-de-supermarkt-1577"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-in-de-supermarkt-3930"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-insecten-en-beestjes-b32b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-insecten-en-beestjes-2b87",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "insects_and_bugs",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-insecten-en-beestjes-b32b"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-insecten-en-beestjes-2b87"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-kamperen-e006",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-kamperen-5170",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "camping",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-kamperen-e006"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-kamperen-5170"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-kerstmis-2a09",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-kerstmis-f3f7",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "christmas",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-kerstmis-2a09"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-kerstmis-f3f7"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-keukengerei-e954",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-keukengerei-59a3",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "kitchen_tools",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-keukengerei-e954"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-keukengerei-59a3"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-klaslokaal-1a7e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-klaslokaal-c91f",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "classroom",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-klaslokaal-1a7e"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-klaslokaal-c91f"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-kleding-c72e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-kleding-2832",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "clothing",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-kleding-c72e"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-kleding-2832"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-kleuren-2b47",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-kleuren-afe5",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "colors",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-kleuren-2b47"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-kleuren-afe5"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-lente-afa8",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-lente-4760",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "spring",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-lente-afa8"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-lente-4760"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-lichaamsdelen-7c35",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-lichaamsdelen-fb57",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "body_parts",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-lichaamsdelen-7c35"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-lichaamsdelen-fb57"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-meubels-c2be",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-meubels-8c1b",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "furniture",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-meubels-c2be"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-meubels-8c1b"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-muziek-2017",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-muziek-f22b",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "music",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-muziek-2017"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-muziek-f22b"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-oceaanleven-ce21",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-oceaanleven-fd4d",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "ocean_life",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-oceaanleven-ce21"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-oceaanleven-fd4d"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-ontbijt-051f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-ontbijt-2f17",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "breakfast",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-ontbijt-051f"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-ontbijt-2f17"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-pasen-ea65",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-pasen-c222",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "easter",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-pasen-ea65"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-pasen-c222"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-postkantoor-893a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-postkantoor-69af",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "post_office",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-postkantoor-893a"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-postkantoor-69af"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-rond-het-huis-5492",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-reptielen-en-amfibieen-de16",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-reptielen-en-amfibieen-de16"
+  },
+  {
+   "slug": "woordpuzzel-normaal-rond-het-huis-d9d7",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "around_the_house",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-rond-het-huis-5492"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-rond-het-huis-d9d7"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-ruimte-a82f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-ruimte-b3a2",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "space",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-ruimte-a82f"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-ruimte-b3a2"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-speelgoed-8516",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-speelgoed-3aca",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "toys",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-speelgoed-8516"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-speelgoed-3aca"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-strand-dc9d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-strand-c6c1",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "beach",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-strand-dc9d"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-strand-c6c1"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-thanksgiving-9412",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-thanksgiving-5555",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "thanksgivinng",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-thanksgiving-9412"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-thanksgiving-5555"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-voertuigen-ec9f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-voertuigen-fed9",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "vehicles",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-voertuigen-ec9f"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-voertuigen-fed9"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-vogels-2-6b18",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-vogels-2-78f4",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "birds_2",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-vogels-2-6b18"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-vogels-2-78f4"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-vormen-b4d6",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-vogels-2e9d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-vogels-2e9d"
+  },
+  {
+   "slug": "woordpuzzel-normaal-vormen-ced5",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "shapes",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-vormen-b4d6"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-vormen-ced5"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-weer-6239",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-weer-4951",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "weather",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-weer-6239"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-weer-4951"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-winter-8a56",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-winter-d00b",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "winter",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-winter-8a56"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-winter-d00b"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-ziekenhuis-810e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-ziekenhuis-1df3",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "hospital",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-ziekenhuis-810e"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-ziekenhuis-1df3"
   },
   {
-   "slug": "zoek-en-tel-letters-zoeken-zomer-3bb8",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "woordpuzzel-normaal-zomer-49b0",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "summer",
-   "level": "kleuters",
-   "deck": "zoek-en-tel-letters-zoeken-zomer-3bb8"
-  },
-  {
-   "slug": "alfabettrein-letterhint-4-juli-2f2a",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "4th_of_july",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-4-juli-2f2a"
-  },
-  {
-   "slug": "alfabettrein-letterhint-accessoires-bf65",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "accessories",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-accessoires-bf65"
-  },
-  {
-   "slug": "alfabettrein-letterhint-activiteiten-8861",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "activities",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-activiteiten-8861"
-  },
-  {
-   "slug": "alfabettrein-letterhint-beroepen-1c7c",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "occupations",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-beroepen-1c7c"
-  },
-  {
-   "slug": "alfabettrein-letterhint-bloemen-39f8",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "flowers",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-bloemen-39f8"
-  },
-  {
-   "slug": "alfabettrein-letterhint-boerderijdieren-d4bf",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "farm_animals",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-boerderijdieren-d4bf"
-  },
-  {
-   "slug": "alfabettrein-letterhint-bomen-433e",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "tree",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-bomen-433e"
-  },
-  {
-   "slug": "alfabettrein-letterhint-boswezens-5779",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "forest_creatures",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-boswezens-5779"
-  },
-  {
-   "slug": "alfabettrein-letterhint-desserts-en-snoep-864d",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "desserts_and_sweets",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-desserts-en-snoep-864d"
-  },
-  {
-   "slug": "alfabettrein-letterhint-dieren-f125",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "animals",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-dieren-f125"
-  },
-  {
-   "slug": "alfabettrein-letterhint-dierentuindieren-e7a4",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "zoo_animals",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-dierentuindieren-e7a4"
-  },
-  {
-   "slug": "alfabettrein-letterhint-dingen-die-vliegen-724e",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "things_that_fly",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-dingen-die-vliegen-724e"
-  },
-  {
-   "slug": "alfabettrein-letterhint-dinosaurussen-9f6d",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "dinosaurs",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-dinosaurussen-9f6d"
-  },
-  {
-   "slug": "alfabettrein-letterhint-fruit-23ed",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "fruits",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-fruit-23ed"
-  },
-  {
-   "slug": "alfabettrein-letterhint-gereedschap-02b2",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "tools",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-gereedschap-02b2"
-  },
-  {
-   "slug": "alfabettrein-letterhint-groenten-906f",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "vegetables",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-groenten-906f"
-  },
-  {
-   "slug": "alfabettrein-letterhint-in-de-supermarkt-1dc7",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "at_the_supermarket",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-in-de-supermarkt-1dc7"
-  },
-  {
-   "slug": "alfabettrein-letterhint-kamperen-3104",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "camping",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-kamperen-3104"
-  },
-  {
-   "slug": "alfabettrein-letterhint-kerstmis-42b6",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "christmas",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-kerstmis-42b6"
-  },
-  {
-   "slug": "alfabettrein-letterhint-keukengerei-a25f",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "kitchen_tools",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-keukengerei-a25f"
-  },
-  {
-   "slug": "alfabettrein-letterhint-klaslokaal-5285",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "classroom",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-klaslokaal-5285"
-  },
-  {
-   "slug": "alfabettrein-letterhint-kleding-ab00",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "clothing",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-kleding-ab00"
-  },
-  {
-   "slug": "alfabettrein-letterhint-kleuren-a177",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "colors",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-kleuren-a177"
-  },
-  {
-   "slug": "alfabettrein-letterhint-lente-289e",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "spring",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-lente-289e"
-  },
-  {
-   "slug": "alfabettrein-letterhint-lichaamsdelen-b94a",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "body_parts",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-lichaamsdelen-b94a"
-  },
-  {
-   "slug": "alfabettrein-letterhint-meubels-22a5",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "furniture",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-meubels-22a5"
-  },
-  {
-   "slug": "alfabettrein-letterhint-muziek-f053",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "music",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-muziek-f053"
-  },
-  {
-   "slug": "alfabettrein-letterhint-oceaanleven-de5e",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "ocean_life",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-oceaanleven-de5e"
-  },
-  {
-   "slug": "alfabettrein-letterhint-ontbijt-a838",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "breakfast",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-ontbijt-a838"
-  },
-  {
-   "slug": "alfabettrein-letterhint-pasen-d785",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "easter",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-pasen-d785"
-  },
-  {
-   "slug": "alfabettrein-letterhint-rond-het-huis-9d6f",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "around_the_house",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-rond-het-huis-9d6f"
-  },
-  {
-   "slug": "alfabettrein-letterhint-ruimte-ddc2",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "space",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-ruimte-ddc2"
-  },
-  {
-   "slug": "alfabettrein-letterhint-speelgoed-5883",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "toys",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-speelgoed-5883"
-  },
-  {
-   "slug": "alfabettrein-letterhint-strand-ef2c",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "beach",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-strand-ef2c"
-  },
-  {
-   "slug": "alfabettrein-letterhint-thanksgiving-b8e9",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "thanksgivinng",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-thanksgiving-b8e9"
-  },
-  {
-   "slug": "alfabettrein-letterhint-voertuigen-62f0",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "vehicles",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-voertuigen-62f0"
-  },
-  {
-   "slug": "alfabettrein-letterhint-vogels-2-91f9",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "birds_2",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-vogels-2-91f9"
-  },
-  {
-   "slug": "alfabettrein-letterhint-vormen-b179",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "shapes",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-vormen-b179"
-  },
-  {
-   "slug": "alfabettrein-letterhint-weer-3fa7",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "weather",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-weer-3fa7"
-  },
-  {
-   "slug": "alfabettrein-letterhint-winter-89e3",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "winter",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-winter-89e3"
-  },
-  {
-   "slug": "alfabettrein-letterhint-ziekenhuis-0213",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "hospital",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-ziekenhuis-0213"
-  },
-  {
-   "slug": "alfabettrein-letterhint-zomer-55d4",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "summer",
-   "level": "kleuters",
-   "deck": "alfabettrein-letterhint-zomer-55d4"
+   "level": "groep-4",
+   "deck": "woordpuzzel-normaal-zomer-49b0"
   }
  ]
 }

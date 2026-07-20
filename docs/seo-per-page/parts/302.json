@@ -2,771 +2,635 @@
  "part": 302,
  "locale": "no",
  "classes": [
-  "treasure-hunt::compass",
-  "code-addition::secret-word"
+  "subtraction::mixed",
+  "bingo::null"
  ],
  "splitOf": null,
- "count": 95,
+ "count": 78,
  "pages": [
   {
-   "slug": "skattejakt-himmelretninger-aktiviteter-1edf",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "subtraksjon-blandet-bakeri-eb05",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-bakeri-eb05"
+  },
+  {
+   "slug": "subtraksjon-blandet-blomster-240f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-blomster-240f"
+  },
+  {
+   "slug": "subtraksjon-blandet-camping-73e8",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-camping-73e8"
+  },
+  {
+   "slug": "subtraksjon-blandet-desserter-og-godteri-70bf",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-desserter-og-godteri-70bf"
+  },
+  {
+   "slug": "subtraksjon-blandet-dinosaurer-018c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-dinosaurer-018c"
+  },
+  {
+   "slug": "subtraksjon-blandet-dyr-d22c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-dyr-d22c"
+  },
+  {
+   "slug": "subtraksjon-blandet-dyrehagedyr-e230",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-dyrehagedyr-e230"
+  },
+  {
+   "slug": "subtraksjon-blandet-former-28d7",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-former-28d7"
+  },
+  {
+   "slug": "subtraksjon-blandet-frokost-412f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-frokost-412f"
+  },
+  {
+   "slug": "subtraksjon-blandet-frukter-66ca",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-frukter-66ca"
+  },
+  {
+   "slug": "subtraksjon-blandet-fugler-2-103d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-fugler-2-103d"
+  },
+  {
+   "slug": "subtraksjon-blandet-fugler-4565",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-fugler-4565"
+  },
+  {
+   "slug": "subtraksjon-blandet-gardsdyr-1c47",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-gardsdyr-1c47"
+  },
+  {
+   "slug": "subtraksjon-blandet-gronnsaker-2d0d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-gronnsaker-2d0d"
+  },
+  {
+   "slug": "subtraksjon-blandet-havliv-3647",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-havliv-3647"
+  },
+  {
+   "slug": "subtraksjon-blandet-i-supermarkedet-a95b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-i-supermarkedet-a95b"
+  },
+  {
+   "slug": "subtraksjon-blandet-insekter-og-kryp-0239",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-insekter-og-kryp-0239"
+  },
+  {
+   "slug": "subtraksjon-blandet-jul-62d3",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-jul-62d3"
+  },
+  {
+   "slug": "subtraksjon-blandet-kjaeledyr-7761",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-kjaeledyr-7761"
+  },
+  {
+   "slug": "subtraksjon-blandet-kjokkenredskaper-9514",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-kjokkenredskaper-9514"
+  },
+  {
+   "slug": "subtraksjon-blandet-kjoretoy-2dbc",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-kjoretoy-2dbc"
+  },
+  {
+   "slug": "subtraksjon-blandet-klaer-9db4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-klaer-9db4"
+  },
+  {
+   "slug": "subtraksjon-blandet-klasserom-bf63",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-klasserom-bf63"
+  },
+  {
+   "slug": "subtraksjon-blandet-leker-9e22",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-leker-9e22"
+  },
+  {
+   "slug": "subtraksjon-blandet-mobler-129b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-mobler-129b"
+  },
+  {
+   "slug": "subtraksjon-blandet-musikk-dd15",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-musikk-dd15"
+  },
+  {
+   "slug": "subtraksjon-blandet-paske-05bf",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-paske-05bf"
+  },
+  {
+   "slug": "subtraksjon-blandet-postkontor-e09b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-postkontor-e09b"
+  },
+  {
+   "slug": "subtraksjon-blandet-reptiler-og-amfibier-a85b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-reptiler-og-amfibier-a85b"
+  },
+  {
+   "slug": "subtraksjon-blandet-rundt-i-huset-19ab",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-rundt-i-huset-19ab"
+  },
+  {
+   "slug": "subtraksjon-blandet-skogsdyr-ae93",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-skogsdyr-ae93"
+  },
+  {
+   "slug": "subtraksjon-blandet-strand-285c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-strand-285c"
+  },
+  {
+   "slug": "subtraksjon-blandet-sykehus-557f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-sykehus-557f"
+  },
+  {
+   "slug": "subtraksjon-blandet-thanksgiving-9633",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-thanksgiving-9633"
+  },
+  {
+   "slug": "subtraksjon-blandet-tilbehor-f584",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-tilbehor-f584"
+  },
+  {
+   "slug": "subtraksjon-blandet-traer-5439",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-traer-5439"
+  },
+  {
+   "slug": "subtraksjon-blandet-verdensrommet-ffeb",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-verdensrommet-ffeb"
+  },
+  {
+   "slug": "subtraksjon-blandet-verktoy-ff96",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-verktoy-ff96"
+  },
+  {
+   "slug": "subtraksjon-blandet-yrker-c8e6",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "subtraksjon-blandet-yrker-c8e6"
+  },
+  {
+   "slug": "bingo-aktiviteter-99ac",
+   "type": "bingo",
+   "mode": null,
    "theme": "activities",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-aktiviteter-1edf"
+   "deck": "bingo-aktiviteter-99ac"
   },
   {
-   "slug": "skattejakt-himmelretninger-bakeri-2489",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-bakeri-bd4d",
+   "type": "bingo",
+   "mode": null,
    "theme": "bakery",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-bakeri-2489"
+   "deck": "bingo-bakeri-bd4d"
   },
   {
-   "slug": "skattejakt-himmelretninger-blomster-8ec1",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-blomster-24e7",
+   "type": "bingo",
+   "mode": null,
    "theme": "flowers",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-blomster-8ec1"
+   "deck": "bingo-blomster-24e7"
   },
   {
-   "slug": "skattejakt-himmelretninger-camping-2064",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-camping-46a9",
+   "type": "bingo",
+   "mode": null,
    "theme": "camping",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-camping-2064"
+   "deck": "bingo-camping-46a9"
   },
   {
-   "slug": "skattejakt-himmelretninger-desserter-og-godteri-863f",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-desserter-og-godteri-9e5c",
+   "type": "bingo",
+   "mode": null,
    "theme": "desserts_and_sweets",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-desserter-og-godteri-863f"
+   "deck": "bingo-desserter-og-godteri-9e5c"
   },
   {
-   "slug": "skattejakt-himmelretninger-dinosaurer-0240",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-dinosaurer-0240"
-  },
-  {
-   "slug": "skattejakt-himmelretninger-dyr-62ab",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-dyr-a113",
+   "type": "bingo",
+   "mode": null,
    "theme": "animals",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-dyr-62ab"
+   "deck": "bingo-dyr-a113"
   },
   {
-   "slug": "skattejakt-himmelretninger-dyrehagedyr-5200",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-dyrehagedyr-d912",
+   "type": "bingo",
+   "mode": null,
    "theme": "zoo_animals",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-dyrehagedyr-5200"
+   "deck": "bingo-dyrehagedyr-d912"
   },
   {
-   "slug": "skattejakt-himmelretninger-farger-92c8",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-farger-8dd8",
+   "type": "bingo",
+   "mode": null,
    "theme": "colors",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-farger-92c8"
+   "deck": "bingo-farger-8dd8"
   },
   {
-   "slug": "skattejakt-himmelretninger-folelser-b1f4",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-folelser-b1f4"
-  },
-  {
-   "slug": "skattejakt-himmelretninger-former-a95a",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-former-4f11",
+   "type": "bingo",
+   "mode": null,
    "theme": "shapes",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-former-a95a"
+   "deck": "bingo-former-4f11"
   },
   {
-   "slug": "skattejakt-himmelretninger-frokost-aac6",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-frokost-68ac",
+   "type": "bingo",
+   "mode": null,
    "theme": "breakfast",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-frokost-aac6"
+   "deck": "bingo-frokost-68ac"
   },
   {
-   "slug": "skattejakt-himmelretninger-frukter-1143",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-frukter-2c3a",
+   "type": "bingo",
+   "mode": null,
    "theme": "fruits",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-frukter-1143"
+   "deck": "bingo-frukter-2c3a"
   },
   {
-   "slug": "skattejakt-himmelretninger-fugler-2-007f",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-fugler-2-9694",
+   "type": "bingo",
+   "mode": null,
    "theme": "birds_2",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-fugler-2-007f"
+   "deck": "bingo-fugler-2-9694"
   },
   {
-   "slug": "skattejakt-himmelretninger-fugler-b3bf",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "birds",
-   "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-fugler-b3bf"
-  },
-  {
-   "slug": "skattejakt-himmelretninger-gardsdyr-a41d",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-gardsdyr-6c9b",
+   "type": "bingo",
+   "mode": null,
    "theme": "farm_animals",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-gardsdyr-a41d"
+   "deck": "bingo-gardsdyr-6c9b"
   },
   {
-   "slug": "skattejakt-himmelretninger-gronnsaker-2782",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-gronnsaker-47fb",
+   "type": "bingo",
+   "mode": null,
    "theme": "vegetables",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-gronnsaker-2782"
+   "deck": "bingo-gronnsaker-47fb"
   },
   {
-   "slug": "skattejakt-himmelretninger-havliv-7dc3",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-havliv-6a08",
+   "type": "bingo",
+   "mode": null,
    "theme": "ocean_life",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-havliv-7dc3"
+   "deck": "bingo-havliv-6a08"
   },
   {
-   "slug": "skattejakt-himmelretninger-i-supermarkedet-3dd4",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-i-supermarkedet-f7c7",
+   "type": "bingo",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-i-supermarkedet-3dd4"
+   "deck": "bingo-i-supermarkedet-f7c7"
   },
   {
-   "slug": "skattejakt-himmelretninger-insekter-og-kryp-95c9",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-insekter-og-kryp-95c9"
-  },
-  {
-   "slug": "skattejakt-himmelretninger-jul-de4e",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-jul-4fc2",
+   "type": "bingo",
+   "mode": null,
    "theme": "christmas",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-jul-de4e"
+   "deck": "bingo-jul-4fc2"
   },
   {
-   "slug": "skattejakt-himmelretninger-kjaeledyr-c9ff",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-kjaeledyr-78b5",
+   "type": "bingo",
+   "mode": null,
    "theme": "pets",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-kjaeledyr-c9ff"
+   "deck": "bingo-kjaeledyr-78b5"
   },
   {
-   "slug": "skattejakt-himmelretninger-kjokkenredskaper-2ffc",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-kjokkenredskaper-4221",
+   "type": "bingo",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-kjokkenredskaper-2ffc"
+   "deck": "bingo-kjokkenredskaper-4221"
   },
   {
-   "slug": "skattejakt-himmelretninger-kjoretoy-e7e7",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-kjoretoy-32f3",
+   "type": "bingo",
+   "mode": null,
    "theme": "vehicles",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-kjoretoy-e7e7"
+   "deck": "bingo-kjoretoy-32f3"
   },
   {
-   "slug": "skattejakt-himmelretninger-klaer-10dd",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-klaer-5b3d",
+   "type": "bingo",
+   "mode": null,
    "theme": "clothing",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-klaer-10dd"
+   "deck": "bingo-klaer-5b3d"
   },
   {
-   "slug": "skattejakt-himmelretninger-klasserom-dc33",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-klasserom-3e98",
+   "type": "bingo",
+   "mode": null,
    "theme": "classroom",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-klasserom-dc33"
+   "deck": "bingo-klasserom-3e98"
   },
   {
-   "slug": "skattejakt-himmelretninger-kroppsdeler-63f9",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-kroppsdeler-eee7",
+   "type": "bingo",
+   "mode": null,
    "theme": "body_parts",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-kroppsdeler-63f9"
+   "deck": "bingo-kroppsdeler-eee7"
   },
   {
-   "slug": "skattejakt-himmelretninger-leker-db29",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-leker-160f",
+   "type": "bingo",
+   "mode": null,
    "theme": "toys",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-leker-db29"
+   "deck": "bingo-leker-160f"
   },
   {
-   "slug": "skattejakt-himmelretninger-mobler-5ff8",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-mobler-23ed",
+   "type": "bingo",
+   "mode": null,
    "theme": "furniture",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-mobler-5ff8"
+   "deck": "bingo-mobler-23ed"
   },
   {
-   "slug": "skattejakt-himmelretninger-musikk-2232",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "music",
-   "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-musikk-2232"
-  },
-  {
-   "slug": "skattejakt-himmelretninger-paske-ce64",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-paske-7346",
+   "type": "bingo",
+   "mode": null,
    "theme": "easter",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-paske-ce64"
+   "deck": "bingo-paske-7346"
   },
   {
-   "slug": "skattejakt-himmelretninger-postkontor-3307",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-postkontor-3307"
-  },
-  {
-   "slug": "skattejakt-himmelretninger-reptiler-og-amfibier-86b6",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-reptiler-og-amfibier-86b6"
-  },
-  {
-   "slug": "skattejakt-himmelretninger-rundt-i-huset-4446",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-rundt-i-huset-a67e",
+   "type": "bingo",
+   "mode": null,
    "theme": "around_the_house",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-rundt-i-huset-4446"
+   "deck": "bingo-rundt-i-huset-a67e"
   },
   {
-   "slug": "skattejakt-himmelretninger-skogsdyr-e4b6",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-skogsdyr-2786",
+   "type": "bingo",
+   "mode": null,
    "theme": "forest_creatures",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-skogsdyr-e4b6"
+   "deck": "bingo-skogsdyr-2786"
   },
   {
-   "slug": "skattejakt-himmelretninger-sommer-9812",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-sommer-918f",
+   "type": "bingo",
+   "mode": null,
    "theme": "summer",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-sommer-9812"
+   "deck": "bingo-sommer-918f"
   },
   {
-   "slug": "skattejakt-himmelretninger-strand-8c5f",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-strand-e807",
+   "type": "bingo",
+   "mode": null,
    "theme": "beach",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-strand-8c5f"
+   "deck": "bingo-strand-e807"
   },
   {
-   "slug": "skattejakt-himmelretninger-sykehus-80ee",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-sykehus-5bb2",
+   "type": "bingo",
+   "mode": null,
    "theme": "hospital",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-sykehus-80ee"
+   "deck": "bingo-sykehus-5bb2"
   },
   {
-   "slug": "skattejakt-himmelretninger-thanksgiving-0c96",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-thanksgiving-0c96"
-  },
-  {
-   "slug": "skattejakt-himmelretninger-tilbehor-320e",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-tilbehor-4088",
+   "type": "bingo",
+   "mode": null,
    "theme": "accessories",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-tilbehor-320e"
+   "deck": "bingo-tilbehor-4088"
   },
   {
-   "slug": "skattejakt-himmelretninger-ting-som-flyr-ad8d",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-ting-som-flyr-a6f2",
+   "type": "bingo",
+   "mode": null,
    "theme": "things_that_fly",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-ting-som-flyr-ad8d"
+   "deck": "bingo-ting-som-flyr-a6f2"
   },
   {
-   "slug": "skattejakt-himmelretninger-traer-63db",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-traer-a51b",
+   "type": "bingo",
+   "mode": null,
    "theme": "tree",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-traer-63db"
+   "deck": "bingo-traer-a51b"
   },
   {
-   "slug": "skattejakt-himmelretninger-vaer-ce6c",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-vaer-f37c",
+   "type": "bingo",
+   "mode": null,
    "theme": "weather",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-vaer-ce6c"
+   "deck": "bingo-vaer-f37c"
   },
   {
-   "slug": "skattejakt-himmelretninger-var-9ff2",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-var-ab91",
+   "type": "bingo",
+   "mode": null,
    "theme": "spring",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-var-9ff2"
+   "deck": "bingo-var-ab91"
   },
   {
-   "slug": "skattejakt-himmelretninger-verdensrommet-6acd",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-verdensrommet-913d",
+   "type": "bingo",
+   "mode": null,
    "theme": "space",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-verdensrommet-6acd"
+   "deck": "bingo-verdensrommet-913d"
   },
   {
-   "slug": "skattejakt-himmelretninger-verktoy-3f81",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "tools",
-   "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-verktoy-3f81"
-  },
-  {
-   "slug": "skattejakt-himmelretninger-vinter-f4ad",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-vinter-902c",
+   "type": "bingo",
+   "mode": null,
    "theme": "winter",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-vinter-f4ad"
+   "deck": "bingo-vinter-902c"
   },
   {
-   "slug": "skattejakt-himmelretninger-yrker-ab12",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "bingo-yrker-7b52",
+   "type": "bingo",
+   "mode": null,
    "theme": "occupations",
    "level": "1-trinn",
-   "deck": "skattejakt-himmelretninger-yrker-ab12"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-aktiviteter-0b13",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "activities",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-aktiviteter-0b13"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-bakeri-0a6e",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "bakery",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-bakeri-0a6e"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-blomster-bcd2",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "flowers",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-blomster-bcd2"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-camping-f839",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "camping",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-camping-f839"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-desserter-og-godteri-6218",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "desserts_and_sweets",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-desserter-og-godteri-6218"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-dinosaurer-bac1",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "dinosaurs",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-dinosaurer-bac1"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-dyr-0ab6",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "animals",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-dyr-0ab6"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-dyrehagedyr-95a7",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "zoo_animals",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-dyrehagedyr-95a7"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-farger-434f",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "colors",
-   "level": "2-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-farger-434f"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-folelser-385b",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "emotions",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-folelser-385b"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-former-a3ef",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "shapes",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-former-a3ef"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-frokost-dd0e",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "breakfast",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-frokost-dd0e"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-frukter-a221",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "fruits",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-frukter-a221"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-fugler-2fb4",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "birds",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-fugler-2fb4"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-gardsdyr-7702",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "farm_animals",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-gardsdyr-7702"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-gronnsaker-660a",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "vegetables",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-gronnsaker-660a"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-havliv-77cd",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "ocean_life",
-   "level": "2-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-havliv-77cd"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-i-supermarkedet-7958",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "at_the_supermarket",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-i-supermarkedet-7958"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-insekter-og-kryp-ce94",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "insects_and_bugs",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-insekter-og-kryp-ce94"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-jul-0547",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "christmas",
-   "level": "2-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-jul-0547"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-kjaeledyr-4391",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "pets",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-kjaeledyr-4391"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-kjokkenredskaper-d21d",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "kitchen_tools",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-kjokkenredskaper-d21d"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-kjoretoy-5a54",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "vehicles",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-kjoretoy-5a54"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-klaer-63db",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "clothing",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-klaer-63db"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-klasserom-5bbd",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "classroom",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-klasserom-5bbd"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-kroppsdeler-8f3c",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "body_parts",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-kroppsdeler-8f3c"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-leker-d519",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "toys",
-   "level": "2-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-leker-d519"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-mobler-4b42",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "furniture",
-   "level": "2-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-mobler-4b42"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-musikk-e864",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "music",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-musikk-e864"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-paske-4440",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "easter",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-paske-4440"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-postkontor-fb80",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "post_office",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-postkontor-fb80"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-reptiler-og-amfibier-c453",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "reptiles_and_amphibians",
-   "level": "2-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-reptiler-og-amfibier-c453"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-rundt-i-huset-83fc",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "around_the_house",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-rundt-i-huset-83fc"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-skogsdyr-0228",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "forest_creatures",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-skogsdyr-0228"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-sommer-296a",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "summer",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-sommer-296a"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-strand-0b60",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "beach",
-   "level": "2-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-strand-0b60"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-sykehus-5e89",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "hospital",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-sykehus-5e89"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-thanksgiving-c09f",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "thanksgivinng",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-thanksgiving-c09f"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-tilbehor-d83e",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "accessories",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-tilbehor-d83e"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-ting-som-flyr-d886",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "things_that_fly",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-ting-som-flyr-d886"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-traer-ea88",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "tree",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-traer-ea88"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-vaer-ad0e",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "weather",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-vaer-ad0e"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-var-5698",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "spring",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-var-5698"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-verdensrommet-9e87",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "space",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-verdensrommet-9e87"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-verktoy-01fd",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "tools",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-verktoy-01fd"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-vinter-ae73",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "winter",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-vinter-ae73"
-  },
-  {
-   "slug": "kodeaddisjon-hemmelig-ord-yrker-74bc",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "occupations",
-   "level": "3-trinn",
-   "deck": "kodeaddisjon-hemmelig-ord-yrker-74bc"
+   "deck": "bingo-yrker-7b52"
   }
  ]
 }

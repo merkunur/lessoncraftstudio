@@ -2,667 +2,723 @@
  "part": 128,
  "locale": "pt",
  "classes": [
-  "math-puzzle::subtraction",
-  "more-less::check-cross"
+  "picture-path::classic-maze",
+  "odd-one-out::same-theme"
  ],
  "splitOf": null,
- "count": 82,
+ "count": 89,
  "pages": [
   {
-   "slug": "quebra-cabeca-matematico-subtracao-acampamento-36d6",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "camping",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-acampamento-36d6"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-acessorios-4e35",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "accessories",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-acessorios-4e35"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-animais-79b8",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "animals",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-animais-79b8"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-animais-da-fazenda-a857",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "farm_animals",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-animais-da-fazenda-a857"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-animais-de-estimacao-582e",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "pets",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-animais-de-estimacao-582e"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-animais-do-zoologico-c212",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "zoo_animals",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-animais-do-zoologico-c212"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-arvores-6710",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "tree",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-arvores-6710"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-brinquedos-ba33",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "toys",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-brinquedos-ba33"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-cafe-da-manha-bf6a",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "breakfast",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-cafe-da-manha-bf6a"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-coisas-que-voam-08f9",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "things_that_fly",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-coisas-que-voam-08f9"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-correios-778e",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "post_office",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-correios-778e"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-criaturas-da-floresta-e955",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "forest_creatures",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-criaturas-da-floresta-e955"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-dia-de-acao-de-gracas-f5a7",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "thanksgivinng",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-dia-de-acao-de-gracas-f5a7"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-dinossauros-4cdb",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "dinosaurs",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-dinossauros-4cdb"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-diversos-e710",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "miscellaneous",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-diversos-e710"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-espaco-3f84",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "space",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-espaco-3f84"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-ferramentas-74ac",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "tools",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-ferramentas-74ac"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-flores-535b",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "flowers",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-flores-535b"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-formas-d5ec",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "shapes",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-formas-d5ec"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-frutas-87fb",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "fruits",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-frutas-87fb"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-hospital-b8e3",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "hospital",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-hospital-b8e3"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-insetos-e-bichos-0c51",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "insects_and_bugs",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-insetos-e-bichos-0c51"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-moveis-cd26",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "furniture",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-moveis-cd26"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-musica-e19f",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "music",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-musica-e19f"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-natal-8330",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "christmas",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-natal-8330"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-no-supermercado-7b1d",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "at_the_supermarket",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-no-supermercado-7b1d"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-padaria-91f8",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "bakery",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-padaria-91f8"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-pascoa-4693",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "easter",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-pascoa-4693"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-passaros-2-d879",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "birds_2",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-passaros-2-d879"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-passaros-7535",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "birds",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-passaros-7535"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-pela-casa-5546",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "around_the_house",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-pela-casa-5546"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-praia-a6d8",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "beach",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-praia-a6d8"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-profissoes-c7e6",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "occupations",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-profissoes-c7e6"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-repteis-e-anfibios-e4a7",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "reptiles_and_amphibians",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-repteis-e-anfibios-e4a7"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-roupas-051a",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "clothing",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-roupas-051a"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-sala-de-aula-9a5b",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "classroom",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-sala-de-aula-9a5b"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-sobremesas-e-doces-da30",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "desserts_and_sweets",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-sobremesas-e-doces-da30"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-utensilios-de-cozinha-e911",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "kitchen_tools",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-utensilios-de-cozinha-e911"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-vegetais-3780",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "vegetables",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-vegetais-3780"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-veiculos-e90b",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "vehicles",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-veiculos-e90b"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-subtracao-vida-marinha-4909",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "ocean_life",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-subtracao-vida-marinha-4909"
-  },
-  {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-acampamento-a7f5",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-acampamento-01a5",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "camping",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-acampamento-a7f5"
+   "deck": "caminho-ilustrado-labirinto-classico-acampamento-01a5"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-acessorios-69be",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-acessorios-af1b",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "accessories",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-acessorios-69be"
+   "deck": "caminho-ilustrado-labirinto-classico-acessorios-af1b"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-animais-a24f",
-   "type": "more-less",
-   "mode": "check-cross",
-   "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-animais-a24f"
-  },
-  {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-animais-da-fazenda-7aca",
-   "type": "more-less",
-   "mode": "check-cross",
-   "theme": "farm_animals",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-animais-da-fazenda-7aca"
-  },
-  {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-animais-de-estimacao-3e55",
-   "type": "more-less",
-   "mode": "check-cross",
-   "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-animais-de-estimacao-3e55"
-  },
-  {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-animais-do-zoologico-3c17",
-   "type": "more-less",
-   "mode": "check-cross",
-   "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-animais-do-zoologico-3c17"
-  },
-  {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-arvores-6dcf",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-arvores-ee3f",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "tree",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-arvores-6dcf"
+   "deck": "caminho-ilustrado-labirinto-classico-arvores-ee3f"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-brinquedos-f9eb",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-atividades-f69b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-labirinto-classico-atividades-f69b"
+  },
+  {
+   "slug": "caminho-ilustrado-labirinto-classico-brinquedos-adcf",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "toys",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-brinquedos-f9eb"
+   "deck": "caminho-ilustrado-labirinto-classico-brinquedos-adcf"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-cafe-da-manha-f268",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-cafe-da-manha-04ba",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "breakfast",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-cafe-da-manha-f268"
+   "deck": "caminho-ilustrado-labirinto-classico-cafe-da-manha-04ba"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-coisas-que-voam-a825",
-   "type": "more-less",
-   "mode": "check-cross",
-   "theme": "things_that_fly",
+   "slug": "caminho-ilustrado-labirinto-classico-clima-b9d5",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "weather",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-coisas-que-voam-a825"
+   "deck": "caminho-ilustrado-labirinto-classico-clima-b9d5"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-correios-f8fe",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-cores-3e1a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-labirinto-classico-cores-3e1a"
+  },
+  {
+   "slug": "caminho-ilustrado-labirinto-classico-correios-7b81",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "post_office",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-correios-f8fe"
+   "deck": "caminho-ilustrado-labirinto-classico-correios-7b81"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-criaturas-da-floresta-0ffa",
-   "type": "more-less",
-   "mode": "check-cross",
-   "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-criaturas-da-floresta-0ffa"
-  },
-  {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-dia-de-acao-de-gracas-7ac7",
-   "type": "more-less",
-   "mode": "check-cross",
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-dia-de-acao-de-gracas-7ac7"
-  },
-  {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-dinossauros-4524",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-dinossauros-289f",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "dinosaurs",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-dinossauros-4524"
+   "deck": "caminho-ilustrado-labirinto-classico-dinossauros-289f"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-diversos-f6c6",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-diversos-4ee5",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "miscellaneous",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-diversos-f6c6"
+   "deck": "caminho-ilustrado-labirinto-classico-diversos-4ee5"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-espaco-de24",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-emocoes-bbd4",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-labirinto-classico-emocoes-bbd4"
+  },
+  {
+   "slug": "caminho-ilustrado-labirinto-classico-espaco-b362",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "space",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-espaco-de24"
+   "deck": "caminho-ilustrado-labirinto-classico-espaco-b362"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-ferramentas-83ba",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-ferramentas-d685",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "tools",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-ferramentas-83ba"
+   "deck": "caminho-ilustrado-labirinto-classico-ferramentas-d685"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-flores-5579",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-flores-1d5b",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "flowers",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-flores-5579"
+   "deck": "caminho-ilustrado-labirinto-classico-flores-1d5b"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-formas-4cf9",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-formas-e69f",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "shapes",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-formas-4cf9"
+   "deck": "caminho-ilustrado-labirinto-classico-formas-e69f"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-frutas-e388",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-frutas-9f63",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "fruits",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-frutas-e388"
+   "deck": "caminho-ilustrado-labirinto-classico-frutas-9f63"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-hospital-d0ed",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-hospital-8567",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "hospital",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-hospital-d0ed"
+   "deck": "caminho-ilustrado-labirinto-classico-hospital-8567"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-insetos-e-bichos-0f01",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-insetos-e-bichos-3f87",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "insects_and_bugs",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-insetos-e-bichos-0f01"
+   "deck": "caminho-ilustrado-labirinto-classico-insetos-e-bichos-3f87"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-moveis-9ded",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-inverno-e8ab",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-labirinto-classico-inverno-e8ab"
+  },
+  {
+   "slug": "caminho-ilustrado-labirinto-classico-moveis-2a21",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "furniture",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-moveis-9ded"
+   "deck": "caminho-ilustrado-labirinto-classico-moveis-2a21"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-musica-3989",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-musica-4e40",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "music",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-musica-3989"
+   "deck": "caminho-ilustrado-labirinto-classico-musica-4e40"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-natal-48c5",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-natal-90bc",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "christmas",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-natal-48c5"
+   "deck": "caminho-ilustrado-labirinto-classico-natal-90bc"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-no-supermercado-4794",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-no-supermercado-b1d0",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "at_the_supermarket",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-no-supermercado-4794"
+   "deck": "caminho-ilustrado-labirinto-classico-no-supermercado-b1d0"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-padaria-81ee",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-padaria-6b3a",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "bakery",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-padaria-81ee"
+   "deck": "caminho-ilustrado-labirinto-classico-padaria-6b3a"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-pascoa-15cf",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-pascoa-2161",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "easter",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-pascoa-15cf"
+   "deck": "caminho-ilustrado-labirinto-classico-pascoa-2161"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-passaros-2-7d32",
-   "type": "more-less",
-   "mode": "check-cross",
-   "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-passaros-2-7d32"
-  },
-  {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-passaros-cc0c",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-passaros-be31",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "birds",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-passaros-cc0c"
+   "deck": "caminho-ilustrado-labirinto-classico-passaros-be31"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-pela-casa-4376",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-pela-casa-493e",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "around_the_house",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-pela-casa-4376"
+   "deck": "caminho-ilustrado-labirinto-classico-pela-casa-493e"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-praia-2308",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-praia-cf41",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "beach",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-praia-2308"
+   "deck": "caminho-ilustrado-labirinto-classico-praia-cf41"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-profissoes-5ccb",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-primavera-e29b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-labirinto-classico-primavera-e29b"
+  },
+  {
+   "slug": "caminho-ilustrado-labirinto-classico-profissoes-1a27",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "occupations",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-profissoes-5ccb"
+   "deck": "caminho-ilustrado-labirinto-classico-profissoes-1a27"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-repteis-e-anfibios-30c5",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-repteis-e-anfibios-cff7",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "reptiles_and_amphibians",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-repteis-e-anfibios-30c5"
+   "deck": "caminho-ilustrado-labirinto-classico-repteis-e-anfibios-cff7"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-roupas-f0df",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-roupas-ec82",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "clothing",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-roupas-f0df"
+   "deck": "caminho-ilustrado-labirinto-classico-roupas-ec82"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-sala-de-aula-57d7",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-sala-de-aula-7ab6",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "classroom",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-sala-de-aula-57d7"
+   "deck": "caminho-ilustrado-labirinto-classico-sala-de-aula-7ab6"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-sobremesas-e-doces-9f8b",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-sobremesas-e-doces-0dc8",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "desserts_and_sweets",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-sobremesas-e-doces-9f8b"
+   "deck": "caminho-ilustrado-labirinto-classico-sobremesas-e-doces-0dc8"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-utensilios-de-cozinha-f27a",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-utensilios-de-cozinha-c7b1",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "kitchen_tools",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-utensilios-de-cozinha-f27a"
+   "deck": "caminho-ilustrado-labirinto-classico-utensilios-de-cozinha-c7b1"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-vegetais-87ab",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-vegetais-39fd",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "vegetables",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-vegetais-87ab"
+   "deck": "caminho-ilustrado-labirinto-classico-vegetais-39fd"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-veiculos-de36",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-veiculos-bc4c",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "vehicles",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-veiculos-de36"
+   "deck": "caminho-ilustrado-labirinto-classico-veiculos-bc4c"
   },
   {
-   "slug": "mais-ou-menos-marque-e-risque-grupos-vida-marinha-5cb4",
-   "type": "more-less",
-   "mode": "check-cross",
+   "slug": "caminho-ilustrado-labirinto-classico-verao-019a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-labirinto-classico-verao-019a"
+  },
+  {
+   "slug": "caminho-ilustrado-labirinto-classico-vida-marinha-7ba0",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "ocean_life",
    "level": "educacao-infantil",
-   "deck": "mais-ou-menos-marque-e-risque-grupos-vida-marinha-5cb4"
+   "deck": "caminho-ilustrado-labirinto-classico-vida-marinha-7ba0"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-acampamento-fe91",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-acampamento-fe91"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-acessorios-b83c",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-acessorios-b83c"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-animais",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-animais"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-animais-da-fazenda-7062",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "farm_animals",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-animais-da-fazenda-7062"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-animais-de-estimacao-4506",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-animais-de-estimacao-4506"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-animais-do-zoologico-d39e",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-animais-do-zoologico-d39e"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-arvores-a7ed",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-arvores-a7ed"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-atividades-66bd",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-atividades-66bd"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-brinquedos-bbb1",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-brinquedos-bbb1"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-cafe-da-manha-ea3c",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-cafe-da-manha-ea3c"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-clima-8a14",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-clima-8a14"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-coisas-que-voam-852b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-coisas-que-voam-852b"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-cores-8f1d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-cores-8f1d"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-correios-f1f7",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-correios-f1f7"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-criaturas-da-floresta-89a0",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-criaturas-da-floresta-89a0"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-dia-de-acao-de-gracas-7cd2",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-dia-de-acao-de-gracas-7cd2"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-dinossauros-7660",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-dinossauros-7660"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-diversos-c7c3",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-diversos-c7c3"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-emocoes-9d1f",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-emocoes-9d1f"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-espaco-2ff2",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-espaco-2ff2"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-ferramentas-8d28",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-ferramentas-8d28"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-flores-b5da",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-flores-b5da"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-formas-e491",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-formas-e491"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-frutas-48df",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-frutas-48df"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-hospital-a476",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-hospital-a476"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-insetos-e-bichos-3b25",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-insetos-e-bichos-3b25"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-inverno-8e02",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-inverno-8e02"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-moveis-64fe",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-moveis-64fe"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-musica-c7ea",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-musica-c7ea"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-natal-e6f3",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-natal-e6f3"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-no-supermercado-08b6",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-no-supermercado-08b6"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-padaria-50e6",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-padaria-50e6"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-partes-do-corpo-2944",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-partes-do-corpo-2944"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-pascoa-4b98",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-pascoa-4b98"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-passaros-2-2f98",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-passaros-2-2f98"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-passaros-a380",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-passaros-a380"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-pela-casa-024a",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-pela-casa-024a"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-praia-45cd",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-praia-45cd"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-primavera-1791",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-primavera-1791"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-profissoes-4903",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-profissoes-4903"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-repteis-e-anfibios-c734",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-repteis-e-anfibios-c734"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-roupas-9e35",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-roupas-9e35"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-sala-de-aula-cfab",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-sala-de-aula-cfab"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-sobremesas-e-doces-7095",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-sobremesas-e-doces-7095"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-utensilios-de-cozinha-828d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-utensilios-de-cozinha-828d"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-vegetais-a1b8",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-vegetais-a1b8"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-veiculos-1d23",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-veiculos-1d23"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-verao-b58d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-verao-b58d"
+  },
+  {
+   "slug": "qual-e-diferente-mesmo-tema-vida-marinha-c20e",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-mesmo-tema-vida-marinha-c20e"
   }
  ]
 }

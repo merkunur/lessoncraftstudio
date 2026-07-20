@@ -2,747 +2,771 @@
  "part": 308,
  "locale": "no",
  "classes": [
-  "missing-pieces::two-missing",
-  "shadow-match::make-whole"
+  "sudoku::easy",
+  "sudoku::medium"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 95,
  "pages": [
   {
-   "slug": "manglende-brikker-2-manglende-brikker-aktiviteter-63b7",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-aktiviteter-724d",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "activities",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-aktiviteter-63b7"
+   "deck": "bildesudoku-lett-aktiviteter-724d"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-bakeri-765c",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-bakeri-a2f2",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "bakery",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-bakeri-765c"
+   "deck": "bildesudoku-lett-bakeri-a2f2"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-blomster-bf7d",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-blomster-a771",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "flowers",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-blomster-bf7d"
+   "deck": "bildesudoku-lett-blomster-a771"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-camping-1461",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-camping-a4bd",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "camping",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-camping-1461"
+   "deck": "bildesudoku-lett-camping-a4bd"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-desserter-og-godteri-46e4",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-desserter-og-godteri-b8e8",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "desserts_and_sweets",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-desserter-og-godteri-46e4"
+   "deck": "bildesudoku-lett-desserter-og-godteri-b8e8"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-dinosaurer-bf9c",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-dinosaurer-b511",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "dinosaurs",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-dinosaurer-bf9c"
+   "deck": "bildesudoku-lett-dinosaurer-b511"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-dyr-f67e",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-dyr-5f09",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "animals",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-dyr-f67e"
+   "deck": "bildesudoku-lett-dyr-5f09"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-dyrehagedyr-e31f",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-dyrehagedyr-15a3",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "zoo_animals",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-dyrehagedyr-e31f"
+   "deck": "bildesudoku-lett-dyrehagedyr-15a3"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-folelser-fa22",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-farger-afcc",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-farger-afcc"
+  },
+  {
+   "slug": "bildesudoku-lett-folelser-0c91",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "emotions",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-folelser-fa22"
+   "deck": "bildesudoku-lett-folelser-0c91"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-frokost-f0ca",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-former-f4cd",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "bildesudoku-lett-former-f4cd"
+  },
+  {
+   "slug": "bildesudoku-lett-frokost-8872",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "breakfast",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-frokost-f0ca"
+   "deck": "bildesudoku-lett-frokost-8872"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-frukter-2be6",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-frukter-1053",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "fruits",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-frukter-2be6"
+   "deck": "bildesudoku-lett-frukter-1053"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-fugler-2-e044",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-fugler-2-3a12",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "birds_2",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-fugler-2-e044"
+   "deck": "bildesudoku-lett-fugler-2-3a12"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-fugler-6252",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-fugler-3416",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "birds",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-fugler-6252"
+   "deck": "bildesudoku-lett-fugler-3416"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-gardsdyr-3d6c",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-gardsdyr-cc94",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "farm_animals",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-gardsdyr-3d6c"
+   "deck": "bildesudoku-lett-gardsdyr-cc94"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-gronnsaker-6def",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-gronnsaker-58e4",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "vegetables",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-gronnsaker-6def"
+   "deck": "bildesudoku-lett-gronnsaker-58e4"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-havliv-e46f",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-havliv-bfce",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "ocean_life",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-havliv-e46f"
+   "deck": "bildesudoku-lett-havliv-bfce"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-i-supermarkedet-5337",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-i-supermarkedet-6251",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "at_the_supermarket",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-i-supermarkedet-5337"
+   "deck": "bildesudoku-lett-i-supermarkedet-6251"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-insekter-og-kryp-0701",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-insekter-og-kryp-0160",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "insects_and_bugs",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-insekter-og-kryp-0701"
+   "deck": "bildesudoku-lett-insekter-og-kryp-0160"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-jul-61a6",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-jul-de57",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "christmas",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-jul-61a6"
+   "deck": "bildesudoku-lett-jul-de57"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-kjaeledyr-870e",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-kjaeledyr-2551",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "pets",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-kjaeledyr-870e"
+   "deck": "bildesudoku-lett-kjaeledyr-2551"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-kjokkenredskaper-800f",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-kjokkenredskaper-156c",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "kitchen_tools",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-kjokkenredskaper-800f"
+   "deck": "bildesudoku-lett-kjokkenredskaper-156c"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-kjoretoy-9b10",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-kjoretoy-4941",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "vehicles",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-kjoretoy-9b10"
+   "deck": "bildesudoku-lett-kjoretoy-4941"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-klaer-fdf3",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-klaer-41c0",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "clothing",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-klaer-fdf3"
+   "deck": "bildesudoku-lett-klaer-41c0"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-klasserom-fec8",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-klasserom-8bb5",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "classroom",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-klasserom-fec8"
+   "deck": "bildesudoku-lett-klasserom-8bb5"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-kroppsdeler-8c39",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-kroppsdeler-1729",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "body_parts",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-kroppsdeler-8c39"
+   "deck": "bildesudoku-lett-kroppsdeler-1729"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-leker-ef6b",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-leker-740e",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "toys",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-leker-ef6b"
+   "deck": "bildesudoku-lett-leker-740e"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-mobler-0501",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-mobler-313f",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "furniture",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-mobler-0501"
+   "deck": "bildesudoku-lett-mobler-313f"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-musikk-f94f",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-musikk-d805",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "music",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-musikk-f94f"
+   "deck": "bildesudoku-lett-musikk-d805"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-paske-a4c1",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-paske-981b",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "easter",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-paske-a4c1"
+   "deck": "bildesudoku-lett-paske-981b"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-postkontor-1205",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-postkontor-72dc",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "post_office",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-postkontor-1205"
+   "deck": "bildesudoku-lett-postkontor-72dc"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-reptiler-og-amfibier-031c",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-reptiler-og-amfibier-fac5",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "reptiles_and_amphibians",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-reptiler-og-amfibier-031c"
+   "deck": "bildesudoku-lett-reptiler-og-amfibier-fac5"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-rundt-i-huset-b5aa",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-rundt-i-huset-bf4f",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "around_the_house",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-rundt-i-huset-b5aa"
+   "deck": "bildesudoku-lett-rundt-i-huset-bf4f"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-skogsdyr-dbdd",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-skogsdyr-d2e6",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "forest_creatures",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-skogsdyr-dbdd"
+   "deck": "bildesudoku-lett-skogsdyr-d2e6"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-sommer-1593",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-sommer-8b26",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "summer",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-sommer-1593"
+   "deck": "bildesudoku-lett-sommer-8b26"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-strand-86da",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-strand-01c3",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "beach",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-strand-86da"
+   "deck": "bildesudoku-lett-strand-01c3"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-sykehus-46b5",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-sykehus-f08e",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "hospital",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-sykehus-46b5"
+   "deck": "bildesudoku-lett-sykehus-f08e"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-thanksgiving-b7c1",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-thanksgiving-041f",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "thanksgivinng",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-thanksgiving-b7c1"
+   "deck": "bildesudoku-lett-thanksgiving-041f"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-tilbehor-d7c1",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-tilbehor-ce95",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "accessories",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-tilbehor-d7c1"
+   "deck": "bildesudoku-lett-tilbehor-ce95"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-ting-som-flyr-d4fa",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-ting-som-flyr-6d98",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "things_that_fly",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-ting-som-flyr-d4fa"
+   "deck": "bildesudoku-lett-ting-som-flyr-6d98"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-traer-5e6c",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-traer-b871",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "tree",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-traer-5e6c"
+   "deck": "bildesudoku-lett-traer-b871"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-vaer-e38b",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-vaer-f1bd",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "weather",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-vaer-e38b"
+   "deck": "bildesudoku-lett-vaer-f1bd"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-var-a6d4",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-var-088f",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "spring",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-var-a6d4"
+   "deck": "bildesudoku-lett-var-088f"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-verdensrommet-fe70",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-verdensrommet-4eeb",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "space",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-verdensrommet-fe70"
+   "deck": "bildesudoku-lett-verdensrommet-4eeb"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-verktoy-965a",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-verktoy-9089",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "tools",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-verktoy-965a"
+   "deck": "bildesudoku-lett-verktoy-9089"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-vinter-caf7",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-vinter-1e38",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "winter",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-vinter-caf7"
+   "deck": "bildesudoku-lett-vinter-1e38"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-yrker-83c4",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "bildesudoku-lett-yrker-c186",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "occupations",
    "level": "1-trinn",
-   "deck": "manglende-brikker-2-manglende-brikker-yrker-83c4"
+   "deck": "bildesudoku-lett-yrker-c186"
   },
   {
-   "slug": "match-skygger-gjor-hel-aktiviteter-4274",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-aktiviteter-d656",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "activities",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-aktiviteter-4274"
+   "deck": "bildesudoku-middels-aktiviteter-d656"
   },
   {
-   "slug": "match-skygger-gjor-hel-bakeri-78a7",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-bakeri-6902",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "bakery",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-bakeri-78a7"
+   "deck": "bildesudoku-middels-bakeri-6902"
   },
   {
-   "slug": "match-skygger-gjor-hel-blomster-2ef2",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-blomster-e1e5",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "flowers",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-blomster-2ef2"
+   "deck": "bildesudoku-middels-blomster-e1e5"
   },
   {
-   "slug": "match-skygger-gjor-hel-camping-2417",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-camping-85b3",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "camping",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-camping-2417"
+   "deck": "bildesudoku-middels-camping-85b3"
   },
   {
-   "slug": "match-skygger-gjor-hel-desserter-og-godteri-87e9",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-desserter-og-godteri-b185",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "desserts_and_sweets",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-desserter-og-godteri-87e9"
+   "deck": "bildesudoku-middels-desserter-og-godteri-b185"
   },
   {
-   "slug": "match-skygger-gjor-hel-dinosaurer-547f",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-dinosaurer-8728",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "dinosaurs",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-dinosaurer-547f"
+   "deck": "bildesudoku-middels-dinosaurer-8728"
   },
   {
-   "slug": "match-skygger-gjor-hel-dyr-8ff7",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-dyr-4e1e",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "animals",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-dyr-8ff7"
+   "deck": "bildesudoku-middels-dyr-4e1e"
   },
   {
-   "slug": "match-skygger-gjor-hel-dyrehagedyr-068d",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-dyrehagedyr-1207",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "zoo_animals",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-dyrehagedyr-068d"
+   "deck": "bildesudoku-middels-dyrehagedyr-1207"
   },
   {
-   "slug": "match-skygger-gjor-hel-folelser-553e",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-farger-a260",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-farger-a260"
+  },
+  {
+   "slug": "bildesudoku-middels-folelser-ff47",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "emotions",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-folelser-553e"
+   "deck": "bildesudoku-middels-folelser-ff47"
   },
   {
-   "slug": "match-skygger-gjor-hel-frokost-09fc",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-former-8d40",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-former-8d40"
+  },
+  {
+   "slug": "bildesudoku-middels-frokost-6dd1",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "breakfast",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-frokost-09fc"
+   "deck": "bildesudoku-middels-frokost-6dd1"
   },
   {
-   "slug": "match-skygger-gjor-hel-frukter-fb35",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-frukter-07df",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "fruits",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-frukter-fb35"
+   "deck": "bildesudoku-middels-frukter-07df"
   },
   {
-   "slug": "match-skygger-gjor-hel-fugler-2-9ca3",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-fugler-2-5164",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "birds_2",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-fugler-2-9ca3"
+   "deck": "bildesudoku-middels-fugler-2-5164"
   },
   {
-   "slug": "match-skygger-gjor-hel-fugler-f6f5",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-fugler-e85e",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "birds",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-fugler-f6f5"
+   "deck": "bildesudoku-middels-fugler-e85e"
   },
   {
-   "slug": "match-skygger-gjor-hel-gardsdyr-208d",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-gardsdyr-ecd3",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "farm_animals",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-gardsdyr-208d"
+   "deck": "bildesudoku-middels-gardsdyr-ecd3"
   },
   {
-   "slug": "match-skygger-gjor-hel-gronnsaker-9086",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-gronnsaker-debf",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "vegetables",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-gronnsaker-9086"
+   "deck": "bildesudoku-middels-gronnsaker-debf"
   },
   {
-   "slug": "match-skygger-gjor-hel-havliv-550b",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-havliv-7a9b",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "ocean_life",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-havliv-550b"
+   "deck": "bildesudoku-middels-havliv-7a9b"
   },
   {
-   "slug": "match-skygger-gjor-hel-i-supermarkedet-25f4",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-i-supermarkedet-cc1f",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "at_the_supermarket",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-i-supermarkedet-25f4"
+   "deck": "bildesudoku-middels-i-supermarkedet-cc1f"
   },
   {
-   "slug": "match-skygger-gjor-hel-insekter-og-kryp-d7c5",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-insekter-og-kryp-2483",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "insects_and_bugs",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-insekter-og-kryp-d7c5"
+   "deck": "bildesudoku-middels-insekter-og-kryp-2483"
   },
   {
-   "slug": "match-skygger-gjor-hel-jul-45cf",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-jul-db2e",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "christmas",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-jul-45cf"
+   "deck": "bildesudoku-middels-jul-db2e"
   },
   {
-   "slug": "match-skygger-gjor-hel-kjaeledyr-c18f",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-kjaeledyr-f69d",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "pets",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-kjaeledyr-c18f"
+   "deck": "bildesudoku-middels-kjaeledyr-f69d"
   },
   {
-   "slug": "match-skygger-gjor-hel-kjokkenredskaper-9584",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-kjokkenredskaper-d53e",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "kitchen_tools",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-kjokkenredskaper-9584"
+   "deck": "bildesudoku-middels-kjokkenredskaper-d53e"
   },
   {
-   "slug": "match-skygger-gjor-hel-kjoretoy-bc0c",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-kjoretoy-f202",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "vehicles",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-kjoretoy-bc0c"
+   "deck": "bildesudoku-middels-kjoretoy-f202"
   },
   {
-   "slug": "match-skygger-gjor-hel-klaer-0510",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-klaer-99b2",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "clothing",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-klaer-0510"
+   "deck": "bildesudoku-middels-klaer-99b2"
   },
   {
-   "slug": "match-skygger-gjor-hel-klasserom-7450",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-klasserom-6679",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "classroom",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-klasserom-7450"
+   "deck": "bildesudoku-middels-klasserom-6679"
   },
   {
-   "slug": "match-skygger-gjor-hel-kroppsdeler-22c8",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-kroppsdeler-22c8"
-  },
-  {
-   "slug": "match-skygger-gjor-hel-leker-baea",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-leker-4024",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "toys",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-leker-baea"
+   "deck": "bildesudoku-middels-leker-4024"
   },
   {
-   "slug": "match-skygger-gjor-hel-mobler-0b41",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-mobler-7d6f",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "furniture",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-mobler-0b41"
+   "deck": "bildesudoku-middels-mobler-7d6f"
   },
   {
-   "slug": "match-skygger-gjor-hel-musikk-1d18",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-musikk-6865",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "music",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-musikk-1d18"
+   "deck": "bildesudoku-middels-musikk-6865"
   },
   {
-   "slug": "match-skygger-gjor-hel-paske-5cd9",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-paske-5e2f",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "easter",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-paske-5cd9"
+   "deck": "bildesudoku-middels-paske-5e2f"
   },
   {
-   "slug": "match-skygger-gjor-hel-postkontor-2510",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-postkontor-db6f",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "post_office",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-postkontor-2510"
+   "deck": "bildesudoku-middels-postkontor-db6f"
   },
   {
-   "slug": "match-skygger-gjor-hel-reptiler-og-amfibier-9fdc",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-reptiler-og-amfibier-0872",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "reptiles_and_amphibians",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-reptiler-og-amfibier-9fdc"
+   "deck": "bildesudoku-middels-reptiler-og-amfibier-0872"
   },
   {
-   "slug": "match-skygger-gjor-hel-rundt-i-huset-fbe3",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-rundt-i-huset-f505",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "around_the_house",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-rundt-i-huset-fbe3"
+   "deck": "bildesudoku-middels-rundt-i-huset-f505"
   },
   {
-   "slug": "match-skygger-gjor-hel-skogsdyr-9241",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-skogsdyr-1b2d",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "forest_creatures",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-skogsdyr-9241"
+   "deck": "bildesudoku-middels-skogsdyr-1b2d"
   },
   {
-   "slug": "match-skygger-gjor-hel-sommer-ab28",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-sommer-6cef",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "summer",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-sommer-ab28"
+   "deck": "bildesudoku-middels-sommer-6cef"
   },
   {
-   "slug": "match-skygger-gjor-hel-strand-2806",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-strand-0a61",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "beach",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-strand-2806"
+   "deck": "bildesudoku-middels-strand-0a61"
   },
   {
-   "slug": "match-skygger-gjor-hel-sykehus-1dd0",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-sykehus-3ee5",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "hospital",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-sykehus-1dd0"
+   "deck": "bildesudoku-middels-sykehus-3ee5"
   },
   {
-   "slug": "match-skygger-gjor-hel-thanksgiving-9d58",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-thanksgiving-cce3",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "thanksgivinng",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-thanksgiving-9d58"
+   "deck": "bildesudoku-middels-thanksgiving-cce3"
   },
   {
-   "slug": "match-skygger-gjor-hel-tilbehor-4f14",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-tilbehor-6a92",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "accessories",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-tilbehor-4f14"
+   "deck": "bildesudoku-middels-tilbehor-6a92"
   },
   {
-   "slug": "match-skygger-gjor-hel-ting-som-flyr-9e8f",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-ting-som-flyr-0da9",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "things_that_fly",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-ting-som-flyr-9e8f"
+   "deck": "bildesudoku-middels-ting-som-flyr-0da9"
   },
   {
-   "slug": "match-skygger-gjor-hel-traer-d650",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-traer-61ab",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "tree",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-traer-d650"
+   "deck": "bildesudoku-middels-traer-61ab"
   },
   {
-   "slug": "match-skygger-gjor-hel-vaer-6acb",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-vaer-9c6b",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "weather",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-vaer-6acb"
+   "deck": "bildesudoku-middels-vaer-9c6b"
   },
   {
-   "slug": "match-skygger-gjor-hel-var-68c2",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-var-7259",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "spring",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-var-68c2"
+   "deck": "bildesudoku-middels-var-7259"
   },
   {
-   "slug": "match-skygger-gjor-hel-verdensrommet-911a",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-verdensrommet-c548",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "space",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-verdensrommet-911a"
+   "deck": "bildesudoku-middels-verdensrommet-c548"
   },
   {
-   "slug": "match-skygger-gjor-hel-verktoy-6638",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-verktoy-4aa0",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "tools",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-verktoy-6638"
+   "deck": "bildesudoku-middels-verktoy-4aa0"
   },
   {
-   "slug": "match-skygger-gjor-hel-vinter-593f",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-vinter-ab19",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "winter",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-vinter-593f"
+   "deck": "bildesudoku-middels-vinter-ab19"
   },
   {
-   "slug": "match-skygger-gjor-hel-yrker-8301",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "bildesudoku-middels-yrker-0286",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "occupations",
    "level": "1-trinn",
-   "deck": "match-skygger-gjor-hel-yrker-8301"
+   "deck": "bildesudoku-middels-yrker-0286"
   }
  ]
 }

@@ -3,7 +3,7 @@
  "locale": "en",
  "classes": [
   "treasure-hunt::cardinal-arrows",
-  "code-addition::null"
+  "find-objects::find-odd"
  ],
  "splitOf": null,
  "count": 95,
@@ -393,380 +393,380 @@
    "deck": "treasure-hunt-compass-4th-of-july-004"
   },
   {
-   "slug": "code-addition-4th-of-july-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-4th-of-july-77c2",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "4th_of_july",
-   "level": "grade-2",
-   "deck": "code-addition-4th-of-july"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-4th-of-july-77c2"
   },
   {
-   "slug": "code-addition-accessories-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-accessories-a25a",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "accessories",
-   "level": "grade-1",
-   "deck": "code-addition-accessories"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-accessories-a25a"
   },
   {
-   "slug": "code-addition-activities-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-activities-2815",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "activities",
-   "level": "grade-2",
-   "deck": "code-addition-activities"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-activities-2815"
   },
   {
-   "slug": "code-addition-animals-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-animals-8b1a",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "animals",
-   "level": "grade-1",
-   "deck": "code-addition-animals"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-animals-8b1a"
   },
   {
-   "slug": "code-addition-around-the-house-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-around-the-house-abc2",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "around_the_house",
-   "level": "grade-2",
-   "deck": "code-addition-around-the-house"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-around-the-house-abc2"
   },
   {
-   "slug": "code-addition-at-the-supermarket-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-at-the-supermarket-7a05",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "at_the_supermarket",
-   "level": "grade-1",
-   "deck": "code-addition-at-the-supermarket"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-at-the-supermarket-7a05"
   },
   {
-   "slug": "code-addition-bakery-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-bakery-dcc0",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "bakery",
-   "level": "grade-1",
-   "deck": "code-addition-bakery"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-bakery-dcc0"
   },
   {
-   "slug": "code-addition-beach-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-beach-0fc2",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "beach",
-   "level": "grade-1",
-   "deck": "code-addition-beach"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-beach-0fc2"
   },
   {
-   "slug": "code-addition-birds-2-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-birds-2-31b6",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "birds_2",
-   "level": "grade-1",
-   "deck": "code-addition-birds-2"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-birds-2-31b6"
   },
   {
-   "slug": "code-addition-birds-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-birds-e578",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "birds",
-   "level": "grade-2",
-   "deck": "code-addition-birds"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-birds-e578"
   },
   {
-   "slug": "code-addition-breakfast-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-body-parts-e9d7",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-body-parts-e9d7"
+  },
+  {
+   "slug": "find-objects-find-odd-breakfast-a7ec",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "breakfast",
-   "level": "grade-1",
-   "deck": "code-addition-breakfast"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-breakfast-a7ec"
   },
   {
-   "slug": "code-addition-camping-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-camping-93db",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "camping",
-   "level": "grade-2",
-   "deck": "code-addition-camping"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-camping-93db"
   },
   {
-   "slug": "code-addition-christmas-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-christmas-1d35",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "christmas",
-   "level": "grade-1",
-   "deck": "code-addition-christmas"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-christmas-1d35"
   },
   {
-   "slug": "code-addition-classroom-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-classroom-0a8c",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "classroom",
-   "level": "grade-1",
-   "deck": "code-addition-classroom"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-classroom-0a8c"
   },
   {
-   "slug": "code-addition-clothing-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-clothing-bbe9",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "clothing",
-   "level": "grade-1",
-   "deck": "code-addition-clothing"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-clothing-bbe9"
   },
   {
-   "slug": "code-addition-colors-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-colors-3a7f",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "colors",
-   "level": "grade-2",
-   "deck": "code-addition-colors"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-colors-3a7f"
   },
   {
-   "slug": "code-addition-desserts-and-sweets-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-desserts-and-sweets-17ae",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "desserts_and_sweets",
-   "level": "grade-1",
-   "deck": "code-addition-desserts-and-sweets"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-desserts-and-sweets-17ae"
   },
   {
-   "slug": "code-addition-dinosaurs-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-dinosaurs-c4c7",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "dinosaurs",
-   "level": "grade-1",
-   "deck": "code-addition-dinosaurs"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-dinosaurs-c4c7"
   },
   {
-   "slug": "code-addition-easter-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-easter-22fc",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "easter",
-   "level": "grade-2",
-   "deck": "code-addition-easter"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-easter-22fc"
   },
   {
-   "slug": "code-addition-faces-bw-grade-1",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "faces_bw",
-   "level": "grade-1",
-   "deck": "code-addition-faces-bw"
+   "slug": "find-objects-find-odd-emotions-5fae",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "emotions",
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-emotions-5fae"
   },
   {
-   "slug": "code-addition-farm-animals-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-farm-animals-e39f",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "farm_animals",
-   "level": "grade-2",
-   "deck": "code-addition-farm-animals"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-farm-animals-e39f"
   },
   {
-   "slug": "code-addition-flowers-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-flowers-4fc0",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "flowers",
-   "level": "grade-2",
-   "deck": "code-addition-flowers"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-flowers-4fc0"
   },
   {
-   "slug": "code-addition-forest-creatures",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-forest-creatures-b0ec",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "forest_creatures",
-   "level": "grade-1",
-   "deck": "code-addition-forest-creatures"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-forest-creatures-b0ec"
   },
   {
-   "slug": "code-addition-fruits-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-fruits-4475",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "fruits",
-   "level": "grade-1",
-   "deck": "code-addition-fruits"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-fruits-4475"
   },
   {
-   "slug": "code-addition-furniture-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-furniture-cdc8",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "furniture",
-   "level": "grade-1",
-   "deck": "code-addition-furniture"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-furniture-cdc8"
   },
   {
-   "slug": "code-addition-hospital-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-hospital-134d",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "hospital",
-   "level": "grade-2",
-   "deck": "code-addition-hospital"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-hospital-134d"
   },
   {
-   "slug": "code-addition-insects-and-bugs-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-insects-and-bugs-5ba0",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "insects_and_bugs",
-   "level": "grade-1",
-   "deck": "code-addition-insects-and-bugs"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-insects-and-bugs-5ba0"
   },
   {
-   "slug": "code-addition-kitchen-tools-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-kitchen-tools-a77e",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "kitchen_tools",
-   "level": "grade-1",
-   "deck": "code-addition-kitchen-tools"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-kitchen-tools-a77e"
   },
   {
-   "slug": "code-addition-miscellaneous-grade-1",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "grade-1",
-   "deck": "code-addition-miscellaneous"
-  },
-  {
-   "slug": "code-addition-music-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-music-c820",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "music",
-   "level": "grade-2",
-   "deck": "code-addition-music"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-music-c820"
   },
   {
-   "slug": "code-addition-occupations-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-occupations-96b6",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "occupations",
-   "level": "grade-2",
-   "deck": "code-addition-occupations"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-occupations-96b6"
   },
   {
-   "slug": "code-addition-ocean-life-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-ocean-life-d0ea",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "ocean_life",
-   "level": "grade-1",
-   "deck": "code-addition-ocean-life"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-ocean-life-d0ea"
   },
   {
-   "slug": "code-addition-pets-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-pets-222d",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "pets",
-   "level": "grade-2",
-   "deck": "code-addition-pets"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-pets-222d"
   },
   {
-   "slug": "code-addition-post-office-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-post-office-d42d",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "post_office",
-   "level": "grade-1",
-   "deck": "code-addition-post-office"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-post-office-d42d"
   },
   {
-   "slug": "code-addition-reptiles-and-amphibians-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-reptiles-and-amphibians-f1f9",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "reptiles_and_amphibians",
-   "level": "grade-1",
-   "deck": "code-addition-reptiles-and-amphibians"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-reptiles-and-amphibians-f1f9"
   },
   {
-   "slug": "code-addition-shapes-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-shapes-4047",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "shapes",
-   "level": "grade-1",
-   "deck": "code-addition-shapes"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-shapes-4047"
   },
   {
-   "slug": "code-addition-space-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-space-e780",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "space",
-   "level": "grade-1",
-   "deck": "code-addition-space"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-space-e780"
   },
   {
-   "slug": "code-addition-summer-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-spring-18df",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "spring",
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-spring-18df"
+  },
+  {
+   "slug": "find-objects-find-odd-summer-6838",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "summer",
-   "level": "grade-2",
-   "deck": "code-addition-summer"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-summer-6838"
   },
   {
-   "slug": "code-addition-thanksgivinng-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-thanksgiving-40a8",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "thanksgivinng",
-   "level": "grade-1",
-   "deck": "code-addition-thanksgiving"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-thanksgiving-40a8"
   },
   {
-   "slug": "code-addition-things-that-fly-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-things-that-fly-ff34",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "things_that_fly",
-   "level": "grade-2",
-   "deck": "code-addition-things-that-fly"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-things-that-fly-ff34"
   },
   {
-   "slug": "code-addition-tools-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-tools-9f5d",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "tools",
-   "level": "grade-2",
-   "deck": "code-addition-tools"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-tools-9f5d"
   },
   {
-   "slug": "code-addition-toys-grade-1",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "toys",
-   "level": "grade-1",
-   "deck": "code-addition-toys"
-  },
-  {
-   "slug": "code-addition-tree-grade-2",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "tree",
-   "level": "grade-2",
-   "deck": "code-addition-tree"
-  },
-  {
-   "slug": "code-addition-valentine-bw-grade-1",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "valentine_bw",
-   "level": "grade-1",
-   "deck": "code-addition-valentine-bw"
-  },
-  {
-   "slug": "code-addition-vegetables-grade-2",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-vegetables-7d33",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "vegetables",
-   "level": "grade-2",
-   "deck": "code-addition-vegetables"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-vegetables-7d33"
   },
   {
-   "slug": "code-addition-vehicles-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-vehicles-32aa",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "vehicles",
-   "level": "grade-1",
-   "deck": "code-addition-vehicles"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-vehicles-32aa"
   },
   {
-   "slug": "code-addition-zoo-animals-grade-1",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "find-objects-find-odd-weather-eabe",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "weather",
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-weather-eabe"
+  },
+  {
+   "slug": "find-objects-find-odd-winter-4f43",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "winter",
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-winter-4f43"
+  },
+  {
+   "slug": "find-objects-find-odd-zoo-animals-4b2e",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "zoo_animals",
-   "level": "grade-1",
-   "deck": "code-addition-zoo-animals"
+   "level": "kindergarten",
+   "deck": "find-objects-find-odd-zoo-animals-4b2e"
   }
  ]
 }

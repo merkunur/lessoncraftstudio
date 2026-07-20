@@ -2,715 +2,755 @@
  "part": 243,
  "locale": "sv",
  "classes": [
-  "matching::letter",
-  "prepositions::multiplechoice"
+  "word-scramble::easy",
+  "word-scramble::normal"
  ],
  "splitOf": null,
- "count": 88,
+ "count": 93,
  "pages": [
   {
-   "slug": "matchning-bokstav-aktiviteter-9156",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-aktiviteter-aef2",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "activities",
    "level": "ak-1",
-   "deck": "matchning-bokstav-aktiviteter-9156"
+   "deck": "bokstavspussel-latt-aktiviteter-aef2"
   },
   {
-   "slug": "matchning-bokstav-bageri-573f",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-bageri-4e27",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "bakery",
    "level": "ak-1",
-   "deck": "matchning-bokstav-bageri-573f"
+   "deck": "bokstavspussel-latt-bageri-4e27"
   },
   {
-   "slug": "matchning-bokstav-bondgardsdjur-82a4",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-blommor-048d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "bokstavspussel-latt-blommor-048d"
+  },
+  {
+   "slug": "bokstavspussel-latt-bondgardsdjur-4cac",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "farm_animals",
    "level": "ak-1",
-   "deck": "matchning-bokstav-bondgardsdjur-82a4"
+   "deck": "bokstavspussel-latt-bondgardsdjur-4cac"
   },
   {
-   "slug": "matchning-bokstav-camping-9f3d",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-camping-bf9e",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "camping",
    "level": "ak-1",
-   "deck": "matchning-bokstav-camping-9f3d"
+   "deck": "bokstavspussel-latt-camping-bf9e"
   },
   {
-   "slug": "matchning-bokstav-djur-75de",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-djur-36b3",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "animals",
    "level": "ak-1",
-   "deck": "matchning-bokstav-djur-75de"
+   "deck": "bokstavspussel-latt-djur-36b3"
   },
   {
-   "slug": "matchning-bokstav-djurparksdjur-cc6e",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-djurparksdjur-cf90",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "zoo_animals",
    "level": "ak-1",
-   "deck": "matchning-bokstav-djurparksdjur-cc6e"
+   "deck": "bokstavspussel-latt-djurparksdjur-cf90"
   },
   {
-   "slug": "matchning-bokstav-efterratter-och-godis-75df",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-efterratter-och-godis-10ff",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "desserts_and_sweets",
    "level": "ak-1",
-   "deck": "matchning-bokstav-efterratter-och-godis-75df"
+   "deck": "bokstavspussel-latt-efterratter-och-godis-10ff"
   },
   {
-   "slug": "matchning-bokstav-faglar-2-7607",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-faglar-2-de3e",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "birds_2",
    "level": "ak-1",
-   "deck": "matchning-bokstav-faglar-2-7607"
+   "deck": "bokstavspussel-latt-faglar-2-de3e"
   },
   {
-   "slug": "matchning-bokstav-faglar-3a2c",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-faglar-e31b",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "birds",
    "level": "ak-1",
-   "deck": "matchning-bokstav-faglar-3a2c"
+   "deck": "bokstavspussel-latt-faglar-e31b"
   },
   {
-   "slug": "matchning-bokstav-farger-cc76",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-farger-a15c",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "colors",
    "level": "ak-1",
-   "deck": "matchning-bokstav-farger-cc76"
+   "deck": "bokstavspussel-latt-farger-a15c"
   },
   {
-   "slug": "matchning-bokstav-fordon-f63d",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-fordon-7655",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "vehicles",
    "level": "ak-1",
-   "deck": "matchning-bokstav-fordon-f63d"
+   "deck": "bokstavspussel-latt-fordon-7655"
   },
   {
-   "slug": "matchning-bokstav-former-ae01",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-former-2b4a",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "shapes",
    "level": "ak-1",
-   "deck": "matchning-bokstav-former-ae01"
+   "deck": "bokstavspussel-latt-former-2b4a"
   },
   {
-   "slug": "matchning-bokstav-frukost-eee0",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-frukost-637b",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "breakfast",
    "level": "ak-1",
-   "deck": "matchning-bokstav-frukost-eee0"
+   "deck": "bokstavspussel-latt-frukost-637b"
   },
   {
-   "slug": "matchning-bokstav-frukter-e2c2",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-frukter-4ba5",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "fruits",
    "level": "ak-1",
-   "deck": "matchning-bokstav-frukter-e2c2"
+   "deck": "bokstavspussel-latt-frukter-4ba5"
   },
   {
-   "slug": "matchning-bokstav-gronsaker-34e3",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-gronsaker-ebbc",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "vegetables",
    "level": "ak-1",
-   "deck": "matchning-bokstav-gronsaker-34e3"
+   "deck": "bokstavspussel-latt-gronsaker-ebbc"
   },
   {
-   "slug": "matchning-bokstav-havsliv-e02c",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-havsliv-5759",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "ocean_life",
    "level": "ak-1",
-   "deck": "matchning-bokstav-havsliv-e02c"
+   "deck": "bokstavspussel-latt-havsliv-5759"
   },
   {
-   "slug": "matchning-bokstav-i-snabbkopet-f660",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-husdjur-edb7",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "bokstavspussel-latt-husdjur-edb7"
+  },
+  {
+   "slug": "bokstavspussel-latt-i-snabbkopet-f925",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "at_the_supermarket",
    "level": "ak-1",
-   "deck": "matchning-bokstav-i-snabbkopet-f660"
+   "deck": "bokstavspussel-latt-i-snabbkopet-f925"
   },
   {
-   "slug": "matchning-bokstav-insekter-och-kryp-2538",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-insekter-och-kryp-a0a1",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "insects_and_bugs",
    "level": "ak-1",
-   "deck": "matchning-bokstav-insekter-och-kryp-2538"
+   "deck": "bokstavspussel-latt-insekter-och-kryp-a0a1"
   },
   {
-   "slug": "matchning-bokstav-jul-24f9",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-jul-af81",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "christmas",
    "level": "ak-1",
-   "deck": "matchning-bokstav-jul-24f9"
+   "deck": "bokstavspussel-latt-jul-af81"
   },
   {
-   "slug": "matchning-bokstav-kanslor-3258",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-kanslor-c4db",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "emotions",
    "level": "ak-1",
-   "deck": "matchning-bokstav-kanslor-3258"
+   "deck": "bokstavspussel-latt-kanslor-c4db"
   },
   {
-   "slug": "matchning-bokstav-klader-0f64",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-klader-9ae7",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "clothing",
    "level": "ak-1",
-   "deck": "matchning-bokstav-klader-0f64"
+   "deck": "bokstavspussel-latt-klader-9ae7"
   },
   {
-   "slug": "matchning-bokstav-klassrum-fff2",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-klassrum-aea4",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "classroom",
    "level": "ak-1",
-   "deck": "matchning-bokstav-klassrum-fff2"
+   "deck": "bokstavspussel-latt-klassrum-aea4"
   },
   {
-   "slug": "matchning-bokstav-koksredskap-38af",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-koksredskap-812a",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "kitchen_tools",
    "level": "ak-1",
-   "deck": "matchning-bokstav-koksredskap-38af"
+   "deck": "bokstavspussel-latt-koksredskap-812a"
   },
   {
-   "slug": "matchning-bokstav-kroppsdelar-0959",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-kroppsdelar-714d",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "body_parts",
    "level": "ak-1",
-   "deck": "matchning-bokstav-kroppsdelar-0959"
+   "deck": "bokstavspussel-latt-kroppsdelar-714d"
   },
   {
-   "slug": "matchning-bokstav-leksaker-e171",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-leksaker-fb41",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "toys",
    "level": "ak-1",
-   "deck": "matchning-bokstav-leksaker-e171"
+   "deck": "bokstavspussel-latt-leksaker-fb41"
   },
   {
-   "slug": "matchning-bokstav-mobler-d02b",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-mobler-b54a",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "furniture",
    "level": "ak-1",
-   "deck": "matchning-bokstav-mobler-d02b"
+   "deck": "bokstavspussel-latt-mobler-b54a"
   },
   {
-   "slug": "matchning-bokstav-musik-1b77",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-musik-98b8",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "music",
    "level": "ak-1",
-   "deck": "matchning-bokstav-musik-1b77"
+   "deck": "bokstavspussel-latt-musik-98b8"
   },
   {
-   "slug": "matchning-bokstav-pask-12cd",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-pask-8391",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "easter",
    "level": "ak-1",
-   "deck": "matchning-bokstav-pask-12cd"
+   "deck": "bokstavspussel-latt-pask-8391"
   },
   {
-   "slug": "matchning-bokstav-postkontor-8aaf",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-postkontor-1b1d",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "post_office",
    "level": "ak-1",
-   "deck": "matchning-bokstav-postkontor-8aaf"
+   "deck": "bokstavspussel-latt-postkontor-1b1d"
   },
   {
-   "slug": "matchning-bokstav-reptiler-och-groddjur-76f9",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-reptiler-och-groddjur-e59a",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "reptiles_and_amphibians",
    "level": "ak-1",
-   "deck": "matchning-bokstav-reptiler-och-groddjur-76f9"
+   "deck": "bokstavspussel-latt-reptiler-och-groddjur-e59a"
   },
   {
-   "slug": "matchning-bokstav-runt-huset-e6db",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-runt-huset-d114",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "around_the_house",
    "level": "ak-1",
-   "deck": "matchning-bokstav-runt-huset-e6db"
+   "deck": "bokstavspussel-latt-runt-huset-d114"
   },
   {
-   "slug": "matchning-bokstav-rymden-369f",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-rymden-5832",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "space",
    "level": "ak-1",
-   "deck": "matchning-bokstav-rymden-369f"
+   "deck": "bokstavspussel-latt-rymden-5832"
   },
   {
-   "slug": "matchning-bokstav-saker-som-flyger-41c1",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-saker-som-flyger-e872",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "things_that_fly",
    "level": "ak-1",
-   "deck": "matchning-bokstav-saker-som-flyger-41c1"
+   "deck": "bokstavspussel-latt-saker-som-flyger-e872"
   },
   {
-   "slug": "matchning-bokstav-sjukhus-14c0",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-sjukhus-fc76",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "hospital",
    "level": "ak-1",
-   "deck": "matchning-bokstav-sjukhus-14c0"
+   "deck": "bokstavspussel-latt-sjukhus-fc76"
   },
   {
-   "slug": "matchning-bokstav-skogsdjur-3c1f",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-skogsdjur-d209",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "forest_creatures",
    "level": "ak-1",
-   "deck": "matchning-bokstav-skogsdjur-3c1f"
+   "deck": "bokstavspussel-latt-skogsdjur-d209"
   },
   {
-   "slug": "matchning-bokstav-sommar-b25b",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-sommar-89ab",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "summer",
    "level": "ak-1",
-   "deck": "matchning-bokstav-sommar-b25b"
+   "deck": "bokstavspussel-latt-sommar-89ab"
   },
   {
-   "slug": "matchning-bokstav-strand-ee4a",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-strand-4d75",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "beach",
    "level": "ak-1",
-   "deck": "matchning-bokstav-strand-ee4a"
+   "deck": "bokstavspussel-latt-strand-4d75"
   },
   {
-   "slug": "matchning-bokstav-thanksgiving-6861",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-thanksgiving-0d4f",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "thanksgivinng",
    "level": "ak-1",
-   "deck": "matchning-bokstav-thanksgiving-6861"
+   "deck": "bokstavspussel-latt-thanksgiving-0d4f"
   },
   {
-   "slug": "matchning-bokstav-tillbehor-95d8",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-tillbehor-22ab",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "accessories",
    "level": "ak-1",
-   "deck": "matchning-bokstav-tillbehor-95d8"
+   "deck": "bokstavspussel-latt-tillbehor-22ab"
   },
   {
-   "slug": "matchning-bokstav-vader-39f4",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-trad-4d32",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "bokstavspussel-latt-trad-4d32"
+  },
+  {
+   "slug": "bokstavspussel-latt-vader-2d3f",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "weather",
    "level": "ak-1",
-   "deck": "matchning-bokstav-vader-39f4"
+   "deck": "bokstavspussel-latt-vader-2d3f"
   },
   {
-   "slug": "matchning-bokstav-var-7b0a",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-var-92aa",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "spring",
    "level": "ak-1",
-   "deck": "matchning-bokstav-var-7b0a"
+   "deck": "bokstavspussel-latt-var-92aa"
   },
   {
-   "slug": "matchning-bokstav-verktyg-d232",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-verktyg-f1ab",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "tools",
    "level": "ak-1",
-   "deck": "matchning-bokstav-verktyg-d232"
+   "deck": "bokstavspussel-latt-verktyg-f1ab"
   },
   {
-   "slug": "matchning-bokstav-vinter-aba7",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-vinter-feb4",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "winter",
    "level": "ak-1",
-   "deck": "matchning-bokstav-vinter-aba7"
+   "deck": "bokstavspussel-latt-vinter-feb4"
   },
   {
-   "slug": "matchning-bokstav-yrken-afe6",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspussel-latt-yrken-c0f4",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "occupations",
    "level": "ak-1",
-   "deck": "matchning-bokstav-yrken-afe6"
+   "deck": "bokstavspussel-latt-yrken-c0f4"
   },
   {
-   "slug": "prepositioner-flerval-aktiviteter-1488",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-aktiviteter-2e5d",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "activities",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-aktiviteter-1488"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-aktiviteter-2e5d"
   },
   {
-   "slug": "prepositioner-flerval-bageri-15cc",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-bageri-7c24",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "bakery",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-bageri-15cc"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-bageri-7c24"
   },
   {
-   "slug": "prepositioner-flerval-blommor-d8e1",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-blommor-f5cd",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "flowers",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-blommor-d8e1"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-blommor-f5cd"
   },
   {
-   "slug": "prepositioner-flerval-bondgardsdjur-3cb3",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-bondgardsdjur-cb92",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-bondgardsdjur-3cb3"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-bondgardsdjur-cb92"
   },
   {
-   "slug": "prepositioner-flerval-camping-2b53",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-camping-b260",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "camping",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-camping-2b53"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-camping-b260"
   },
   {
-   "slug": "prepositioner-flerval-dinosaurier-da39",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-dinosaurier-da39"
-  },
-  {
-   "slug": "prepositioner-flerval-djur-dbb7",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-djur-a781",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "animals",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-djur-dbb7"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-djur-a781"
   },
   {
-   "slug": "prepositioner-flerval-djurparksdjur-9691",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-djurparksdjur-576d",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-djurparksdjur-9691"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-djurparksdjur-576d"
   },
   {
-   "slug": "prepositioner-flerval-efterratter-och-godis-3c92",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-efterratter-och-godis-3672",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-efterratter-och-godis-3c92"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-efterratter-och-godis-3672"
   },
   {
-   "slug": "prepositioner-flerval-faglar-2-c8dd",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-faglar-2-0d0c",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "birds_2",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-faglar-2-c8dd"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-faglar-2-0d0c"
   },
   {
-   "slug": "prepositioner-flerval-faglar-88ad",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-faglar-49ce",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "birds",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-faglar-88ad"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-faglar-49ce"
   },
   {
-   "slug": "prepositioner-flerval-farger-8f3d",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-farger-eede",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "colors",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-farger-8f3d"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-farger-eede"
   },
   {
-   "slug": "prepositioner-flerval-fordon-2a31",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-fordon-f801",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "vehicles",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-fordon-2a31"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-fordon-f801"
   },
   {
-   "slug": "prepositioner-flerval-frukost-f29d",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-former-6972",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-former-6972"
+  },
+  {
+   "slug": "bokstavspussel-normal-frukost-7b50",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "breakfast",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-frukost-f29d"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-frukost-7b50"
   },
   {
-   "slug": "prepositioner-flerval-frukter-e127",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-frukter-a413",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "fruits",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-frukter-e127"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-frukter-a413"
   },
   {
-   "slug": "prepositioner-flerval-gronsaker-29aa",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-gronsaker-eb35",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "vegetables",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-gronsaker-29aa"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-gronsaker-eb35"
   },
   {
-   "slug": "prepositioner-flerval-havsliv-9984",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-havsliv-de52",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-havsliv-9984"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-havsliv-de52"
   },
   {
-   "slug": "prepositioner-flerval-husdjur-2d56",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-husdjur-21f5",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "pets",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-husdjur-2d56"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-husdjur-21f5"
   },
   {
-   "slug": "prepositioner-flerval-i-snabbkopet-4437",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-i-snabbkopet-9006",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-i-snabbkopet-4437"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-i-snabbkopet-9006"
   },
   {
-   "slug": "prepositioner-flerval-jul-cdca",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-jul-9ab7",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "christmas",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-jul-cdca"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-jul-9ab7"
   },
   {
-   "slug": "prepositioner-flerval-kanslor-061b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-kanslor-ce8c",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "emotions",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-kanslor-061b"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-kanslor-ce8c"
   },
   {
-   "slug": "prepositioner-flerval-klader-c108",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-klader-3ccb",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "clothing",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-klader-c108"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-klader-3ccb"
   },
   {
-   "slug": "prepositioner-flerval-klassrum-8ad4",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-klassrum-5554",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "classroom",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-klassrum-8ad4"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-klassrum-5554"
   },
   {
-   "slug": "prepositioner-flerval-koksredskap-0cb3",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-koksredskap-6cd6",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-koksredskap-0cb3"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-koksredskap-6cd6"
   },
   {
-   "slug": "prepositioner-flerval-kroppsdelar-2d71",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-kroppsdelar-1e48",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "body_parts",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-kroppsdelar-2d71"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-kroppsdelar-1e48"
   },
   {
-   "slug": "prepositioner-flerval-leksaker-18c8",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-leksaker-1c4e",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "toys",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-leksaker-18c8"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-leksaker-1c4e"
   },
   {
-   "slug": "prepositioner-flerval-mobler-846d",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-mobler-dc17",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "furniture",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-mobler-846d"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-mobler-dc17"
   },
   {
-   "slug": "prepositioner-flerval-musik-8a6a",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-musik-78f3",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "music",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-musik-8a6a"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-musik-78f3"
   },
   {
-   "slug": "prepositioner-flerval-pask-19cb",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-pask-d90a",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "easter",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-pask-19cb"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-pask-d90a"
   },
   {
-   "slug": "prepositioner-flerval-postkontor-2e0c",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-postkontor-28bd",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "post_office",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-postkontor-2e0c"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-postkontor-28bd"
   },
   {
-   "slug": "prepositioner-flerval-runt-huset-8b3d",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-reptiler-och-groddjur-23b1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-reptiler-och-groddjur-23b1"
+  },
+  {
+   "slug": "bokstavspussel-normal-runt-huset-c233",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-runt-huset-8b3d"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-runt-huset-c233"
   },
   {
-   "slug": "prepositioner-flerval-rymden-4a3a",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-rymden-13ad",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "space",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-rymden-4a3a"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-rymden-13ad"
   },
   {
-   "slug": "prepositioner-flerval-saker-som-flyger-35cf",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-saker-som-flyger-587d",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-saker-som-flyger-35cf"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-saker-som-flyger-587d"
   },
   {
-   "slug": "prepositioner-flerval-sjukhus-b320",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-sjukhus-7e85",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "hospital",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-sjukhus-b320"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-sjukhus-7e85"
   },
   {
-   "slug": "prepositioner-flerval-skogsdjur-5fd7",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-skogsdjur-d995",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-skogsdjur-5fd7"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-skogsdjur-d995"
   },
   {
-   "slug": "prepositioner-flerval-sommar-ebcd",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-sommar-6cfd",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "summer",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-sommar-ebcd"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-sommar-6cfd"
   },
   {
-   "slug": "prepositioner-flerval-strand-38eb",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-strand-dcd7",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "beach",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-strand-38eb"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-strand-dcd7"
   },
   {
-   "slug": "prepositioner-flerval-thanksgiving-f776",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-thanksgiving-e0fb",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-thanksgiving-f776"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-thanksgiving-e0fb"
   },
   {
-   "slug": "prepositioner-flerval-tillbehor-e93a",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-tillbehor-0363",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "accessories",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-tillbehor-e93a"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-tillbehor-0363"
   },
   {
-   "slug": "prepositioner-flerval-trad-8360",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-trad-4d2e",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "tree",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-trad-8360"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-trad-4d2e"
   },
   {
-   "slug": "prepositioner-flerval-vader-1416",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-vader-8e52",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "weather",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-vader-1416"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-vader-8e52"
   },
   {
-   "slug": "prepositioner-flerval-verktyg-5865",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-var-c228",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-var-c228"
+  },
+  {
+   "slug": "bokstavspussel-normal-verktyg-4954",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "tools",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-verktyg-5865"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-verktyg-4954"
   },
   {
-   "slug": "prepositioner-flerval-vinter-327c",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-vinter-25fc",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "winter",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-vinter-327c"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-vinter-25fc"
   },
   {
-   "slug": "prepositioner-flerval-yrken-9f77",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "bokstavspussel-normal-yrken-8b1e",
+   "type": "word-scramble",
+   "mode": "normal",
    "theme": "occupations",
-   "level": "forskola",
-   "deck": "prepositioner-flerval-yrken-9f77"
+   "level": "ak-1",
+   "deck": "bokstavspussel-normal-yrken-8b1e"
   }
  ]
 }

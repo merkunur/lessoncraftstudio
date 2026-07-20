@@ -2,667 +2,723 @@
  "part": 127,
  "locale": "pt",
  "classes": [
-  "math-puzzle::addition",
-  "math-puzzle::mixed"
+  "more-less::image-image",
+  "picture-path::choose-path"
  ],
  "splitOf": null,
- "count": 82,
+ "count": 89,
  "pages": [
   {
-   "slug": "quebra-cabeca-matematico-soma-acampamento-61ef",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-acampamento-96c8",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "camping",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-acampamento-61ef"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-acampamento-96c8"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-acessorios-bc54",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-acessorios-6f0b",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "accessories",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-acessorios-bc54"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-acessorios-6f0b"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-animais-86cd",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "animals",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-animais-86cd"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-soma-animais-da-fazenda-6906",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-animais-da-fazenda-5364",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "farm_animals",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-animais-da-fazenda-6906"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-animais-da-fazenda-5364"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-animais-de-estimacao-f69a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-animais-de-estimacao-7571",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "pets",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-animais-de-estimacao-f69a"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-animais-de-estimacao-7571"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-animais-do-zoologico-dec7",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-animais-do-zoologico-2a90",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "zoo_animals",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-animais-do-zoologico-dec7"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-animais-do-zoologico-2a90"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-arvores-e4f6",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-animais-fae3",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-animais-fae3"
+  },
+  {
+   "slug": "mais-ou-menos-imagem-imagem-arvores-2f5b",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "tree",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-arvores-e4f6"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-arvores-2f5b"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-brinquedos-0b13",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-brinquedos-df90",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "toys",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-brinquedos-0b13"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-brinquedos-df90"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-cafe-da-manha-9d87",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "breakfast",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-cafe-da-manha-9d87"
-  },
-  {
-   "slug": "quebra-cabeca-matematico-soma-coisas-que-voam-a1fd",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-coisas-que-voam-782e",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "things_that_fly",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-coisas-que-voam-a1fd"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-coisas-que-voam-782e"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-correios-6070",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-correios-d397",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "post_office",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-correios-6070"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-correios-d397"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-criaturas-da-floresta-5ff4",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-criaturas-da-floresta-b220",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "forest_creatures",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-criaturas-da-floresta-5ff4"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-criaturas-da-floresta-b220"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-dia-de-acao-de-gracas-cffc",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-dia-de-acao-de-gracas-b884",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "thanksgivinng",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-dia-de-acao-de-gracas-cffc"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-dia-de-acao-de-gracas-b884"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-dinossauros-9772",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-dinossauros-03b3",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "dinosaurs",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-dinossauros-9772"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-dinossauros-03b3"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-diversos-18b8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-diversos-efe0",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "miscellaneous",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-diversos-18b8"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-diversos-efe0"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-espaco-c77b",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-espaco-6388",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "space",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-espaco-c77b"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-espaco-6388"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-ferramentas-ef6a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-ferramentas-3659",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "tools",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-ferramentas-ef6a"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-ferramentas-3659"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-flores-ab41",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-flores-7c94",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "flowers",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-flores-ab41"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-flores-7c94"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-formas-6886",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-formas-421e",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "shapes",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-formas-6886"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-formas-421e"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-frutas-1b9f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-frutas-2542",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "fruits",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-frutas-1b9f"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-frutas-2542"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-hospital-e819",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-hospital-2b69",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "hospital",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-hospital-e819"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-hospital-2b69"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-insetos-e-bichos-88ed",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-insetos-e-bichos-6930",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "insects_and_bugs",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-insetos-e-bichos-88ed"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-insetos-e-bichos-6930"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-moveis-3987",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-moveis-ebd9",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "furniture",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-moveis-3987"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-moveis-ebd9"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-musica-8369",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-musica-8769",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "music",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-musica-8369"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-musica-8769"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-natal-c265",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-natal-8569",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "christmas",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-natal-c265"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-natal-8569"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-no-supermercado-9162",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-no-supermercado-8682",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "at_the_supermarket",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-no-supermercado-9162"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-no-supermercado-8682"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-padaria-8d3b",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-padaria-d3ba",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "bakery",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-padaria-8d3b"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-padaria-d3ba"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-pascoa-f85b",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-pascoa-1e07",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "easter",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-pascoa-f85b"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-pascoa-1e07"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-passaros-2-8f81",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-passaros-2-ba90",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "birds_2",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-passaros-2-8f81"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-passaros-2-ba90"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-passaros-add4",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-passaros-703b",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "birds",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-passaros-add4"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-passaros-703b"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-pela-casa-b068",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-pela-casa-f5cc",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "around_the_house",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-pela-casa-b068"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-pela-casa-f5cc"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-praia-60ac",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-praia-39d2",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "beach",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-praia-60ac"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-praia-39d2"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-profissoes-ed5c",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-profissoes-9bc2",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "occupations",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-profissoes-ed5c"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-profissoes-9bc2"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-repteis-e-anfibios-2228",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-repteis-e-anfibios-2f99",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "reptiles_and_amphibians",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-repteis-e-anfibios-2228"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-repteis-e-anfibios-2f99"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-roupas-319f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-roupas-ec43",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "clothing",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-roupas-319f"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-roupas-ec43"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-sala-de-aula-fc95",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-sala-de-aula-eb3f",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "classroom",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-sala-de-aula-fc95"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-sala-de-aula-eb3f"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-sobremesas-e-doces-2152",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-sobremesas-e-doces-0a68",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "desserts_and_sweets",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-sobremesas-e-doces-2152"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-sobremesas-e-doces-0a68"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-utensilios-de-cozinha-dbe3",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-utensilios-de-cozinha-7453",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "kitchen_tools",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-utensilios-de-cozinha-dbe3"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-utensilios-de-cozinha-7453"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-vegetais-c4f1",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-vegetais-61ab",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "vegetables",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-vegetais-c4f1"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-vegetais-61ab"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-veiculos-d733",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-veiculos-bf8b",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "vehicles",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-veiculos-d733"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-veiculos-bf8b"
   },
   {
-   "slug": "quebra-cabeca-matematico-soma-vida-marinha-a967",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "mais-ou-menos-imagem-imagem-vida-marinha-1c7b",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "ocean_life",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-soma-vida-marinha-a967"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-imagem-vida-marinha-1c7b"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-acampamento-d503",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-acampamento-334e",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "camping",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-acampamento-d503"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-acampamento-334e"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-acessorios-1d37",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-acessorios-36df",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "accessories",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-acessorios-1d37"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-acessorios-36df"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-animais",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-animais-32ae",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "animals",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-misto-animais"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-animais-32ae"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-animais-da-fazenda-0c39",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-animais-da-fazenda-6577",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "farm_animals",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-misto-animais-da-fazenda-0c39"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-animais-da-fazenda-6577"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-animais-de-estimacao-c335",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-animais-de-estimacao-53ca",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "pets",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-animais-de-estimacao-c335"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-animais-de-estimacao-53ca"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-animais-do-zoologico-66aa",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-animais-do-zoologico-9785",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "zoo_animals",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-animais-do-zoologico-66aa"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-animais-do-zoologico-9785"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-arvores-2a58",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-arvores-92df",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "tree",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-misto-arvores-2a58"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-arvores-92df"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-brinquedos-7bd6",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-atividades-e275",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-atividades-e275"
+  },
+  {
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-brinquedos-a5b0",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "toys",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-brinquedos-7bd6"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-brinquedos-a5b0"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-cafe-da-manha-008a",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-cafe-da-manha-094b",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "breakfast",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-cafe-da-manha-008a"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-cafe-da-manha-094b"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-coisas-que-voam-0920",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-clima-0cc4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-clima-0cc4"
+  },
+  {
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-coisas-que-voam-d5d1",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "things_that_fly",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-coisas-que-voam-0920"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-coisas-que-voam-d5d1"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-correios-eed2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-cores-907b",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-cores-907b"
+  },
+  {
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-correios-ff4a",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "post_office",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-correios-eed2"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-correios-ff4a"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-criaturas-da-floresta-7ae8",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-criaturas-da-floresta-26f4",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "forest_creatures",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-criaturas-da-floresta-7ae8"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-criaturas-da-floresta-26f4"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-dia-de-acao-de-gracas-248c",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-dia-de-acao-de-gracas-ccc6",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "thanksgivinng",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-dia-de-acao-de-gracas-248c"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-dia-de-acao-de-gracas-ccc6"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-dinossauros-56fc",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-dinossauros-c77f",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "dinosaurs",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-misto-dinossauros-56fc"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-dinossauros-c77f"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-diversos-b066",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-diversos-e723",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "miscellaneous",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-diversos-b066"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-diversos-e723"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-espaco-35d4",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-emocoes-0b4e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-emocoes-0b4e"
+  },
+  {
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-espaco-1a34",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "space",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-espaco-35d4"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-espaco-1a34"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-ferramentas-7619",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-ferramentas-4936",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "tools",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-ferramentas-7619"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-ferramentas-4936"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-flores-0102",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-flores-29d9",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "flowers",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-flores-0102"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-flores-29d9"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-formas-4c7e",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-formas-1757",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "shapes",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-formas-4c7e"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-formas-1757"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-frutas-bfa8",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-frutas-b9f5",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "fruits",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-frutas-bfa8"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-frutas-b9f5"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-hospital-6a79",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-hospital-c8d1",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "hospital",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-misto-hospital-6a79"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-hospital-c8d1"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-insetos-e-bichos-c6ac",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-insetos-e-bichos-d515",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "insects_and_bugs",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-insetos-e-bichos-c6ac"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-insetos-e-bichos-d515"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-moveis-064e",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-inverno-2a5e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-inverno-2a5e"
+  },
+  {
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-moveis-e8b1",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "furniture",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-misto-moveis-064e"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-moveis-e8b1"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-musica-62a3",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-musica-f175",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "music",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-musica-62a3"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-musica-f175"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-natal-c019",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-natal-4c76",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "christmas",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-natal-c019"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-natal-4c76"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-no-supermercado-3fc5",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-no-supermercado-76e4",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "at_the_supermarket",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-no-supermercado-3fc5"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-no-supermercado-76e4"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-padaria-20e8",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-padaria-d3e3",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "bakery",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-padaria-20e8"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-padaria-d3e3"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-pascoa-a0df",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-partes-do-corpo-0f98",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-partes-do-corpo-0f98"
+  },
+  {
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-pascoa-bd9b",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "easter",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-misto-pascoa-a0df"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-pascoa-bd9b"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-passaros-2-3f05",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-passaros-2-e463",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "birds_2",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-misto-passaros-2-3f05"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-passaros-2-e463"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-passaros-f2b6",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-passaros-f2be",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "birds",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-misto-passaros-f2b6"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-passaros-f2be"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-pela-casa-65fa",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-pela-casa-54cb",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "around_the_house",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-misto-pela-casa-65fa"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-pela-casa-54cb"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-praia-48ed",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-praia-d3d5",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "beach",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-praia-48ed"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-praia-d3d5"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-profissoes-2854",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-primavera-0fd6",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-primavera-0fd6"
+  },
+  {
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-profissoes-6f01",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "occupations",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-profissoes-2854"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-profissoes-6f01"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-repteis-e-anfibios-52b7",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-repteis-e-anfibios-b333",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "reptiles_and_amphibians",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-repteis-e-anfibios-52b7"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-repteis-e-anfibios-b333"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-roupas-4a5f",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-roupas-6808",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "clothing",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-misto-roupas-4a5f"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-roupas-6808"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-sala-de-aula-b97a",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-sala-de-aula-edc5",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "classroom",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-misto-sala-de-aula-b97a"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-sala-de-aula-edc5"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-sobremesas-e-doces-337b",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-sobremesas-e-doces-1fc4",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "desserts_and_sweets",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-sobremesas-e-doces-337b"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-sobremesas-e-doces-1fc4"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-utensilios-de-cozinha-3780",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-utensilios-de-cozinha-3204",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "kitchen_tools",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-utensilios-de-cozinha-3780"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-utensilios-de-cozinha-3204"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-vegetais-a735",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-vegetais-cf78",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "vegetables",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-vegetais-a735"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-vegetais-cf78"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-veiculos-e241",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-veiculos-69b8",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "vehicles",
-   "level": "2o-ano",
-   "deck": "quebra-cabeca-matematico-misto-veiculos-e241"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-veiculos-69b8"
   },
   {
-   "slug": "quebra-cabeca-matematico-misto-vida-marinha-3bb1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-verao-c3e4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-verao-c3e4"
+  },
+  {
+   "slug": "caminho-ilustrado-escolha-o-caminho-certo-vida-marinha-b7db",
+   "type": "picture-path",
+   "mode": "choose-path",
    "theme": "ocean_life",
-   "level": "1o-ano",
-   "deck": "quebra-cabeca-matematico-misto-vida-marinha-3bb1"
+   "level": "educacao-infantil",
+   "deck": "caminho-ilustrado-escolha-o-caminho-certo-vida-marinha-b7db"
   }
  ]
 }

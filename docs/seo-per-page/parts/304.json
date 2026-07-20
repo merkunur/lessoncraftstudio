@@ -3,10 +3,10 @@
  "locale": "no",
  "classes": [
   "prepositions::fillin",
-  "sudoku::medium"
+  "math-worksheet::three-symbols-add-sub"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 95,
  "pages": [
   {
    "slug": "preposisjoner-fyll-inn-aktiviteter-557e",
@@ -385,380 +385,388 @@
    "deck": "preposisjoner-fyll-inn-yrker-6868"
   },
   {
-   "slug": "bildesudoku-middels-aktiviteter-d656",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-aktiviteter-99b5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "activities",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-aktiviteter-d656"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-aktiviteter-99b5"
   },
   {
-   "slug": "bildesudoku-middels-bakeri-6902",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-bakeri-ff4c",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-bakeri-6902"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-bakeri-ff4c"
   },
   {
-   "slug": "bildesudoku-middels-blomster-e1e5",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-blomster-2278",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-blomster-e1e5"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-blomster-2278"
   },
   {
-   "slug": "bildesudoku-middels-camping-85b3",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-camping-4111",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "camping",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-camping-85b3"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-camping-4111"
   },
   {
-   "slug": "bildesudoku-middels-desserter-og-godteri-b185",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-desserter-og-godteri-9119",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-desserter-og-godteri-b185"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-desserter-og-godteri-9119"
   },
   {
-   "slug": "bildesudoku-middels-dinosaurer-8728",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-dinosaurer-7b32",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-dinosaurer-8728"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-dinosaurer-7b32"
   },
   {
-   "slug": "bildesudoku-middels-dyr-4e1e",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-dyr-3e70",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "animals",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-dyr-4e1e"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-dyr-3e70"
   },
   {
-   "slug": "bildesudoku-middels-dyrehagedyr-1207",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-dyrehagedyr-84eb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-dyrehagedyr-1207"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-dyrehagedyr-84eb"
   },
   {
-   "slug": "bildesudoku-middels-farger-a260",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-farger-75ac",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "colors",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-farger-a260"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-farger-75ac"
   },
   {
-   "slug": "bildesudoku-middels-folelser-ff47",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-folelser-dc3e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-folelser-ff47"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-folelser-dc3e"
   },
   {
-   "slug": "bildesudoku-middels-former-8d40",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-former-1a4e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-former-8d40"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-former-1a4e"
   },
   {
-   "slug": "bildesudoku-middels-frokost-6dd1",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-frokost-f0be",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-frokost-6dd1"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-frokost-f0be"
   },
   {
-   "slug": "bildesudoku-middels-frukter-07df",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-frukter-27b2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-frukter-07df"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-frukter-27b2"
   },
   {
-   "slug": "bildesudoku-middels-fugler-2-5164",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-fugler-2-8a7a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-fugler-2-5164"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-fugler-2-8a7a"
   },
   {
-   "slug": "bildesudoku-middels-fugler-e85e",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-fugler-7325",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "birds",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-fugler-e85e"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-fugler-7325"
   },
   {
-   "slug": "bildesudoku-middels-gardsdyr-ecd3",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-gardsdyr-0b05",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-gardsdyr-ecd3"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-gardsdyr-0b05"
   },
   {
-   "slug": "bildesudoku-middels-gronnsaker-debf",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-gronnsaker-0806",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-gronnsaker-debf"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-gronnsaker-0806"
   },
   {
-   "slug": "bildesudoku-middels-havliv-7a9b",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-havliv-c6c8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-havliv-7a9b"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-havliv-c6c8"
   },
   {
-   "slug": "bildesudoku-middels-i-supermarkedet-cc1f",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-i-supermarkedet-9c59",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-i-supermarkedet-cc1f"
+   "level": "3-trinn",
+   "deck": "matteark-3-symboler-add-sub-i-supermarkedet-9c59"
   },
   {
-   "slug": "bildesudoku-middels-insekter-og-kryp-2483",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-insekter-og-kryp-32bd",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-insekter-og-kryp-2483"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-insekter-og-kryp-32bd"
   },
   {
-   "slug": "bildesudoku-middels-jul-db2e",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-jul-2882",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-jul-db2e"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-jul-2882"
   },
   {
-   "slug": "bildesudoku-middels-kjaeledyr-f69d",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-kjaeledyr-ecc4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "pets",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-kjaeledyr-f69d"
+   "level": "3-trinn",
+   "deck": "matteark-3-symboler-add-sub-kjaeledyr-ecc4"
   },
   {
-   "slug": "bildesudoku-middels-kjokkenredskaper-d53e",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-kjokkenredskaper-462b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-kjokkenredskaper-d53e"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-kjokkenredskaper-462b"
   },
   {
-   "slug": "bildesudoku-middels-kjoretoy-f202",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-kjoretoy-e3f2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-kjoretoy-f202"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-kjoretoy-e3f2"
   },
   {
-   "slug": "bildesudoku-middels-klaer-99b2",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-klaer-ed30",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-klaer-99b2"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-klaer-ed30"
   },
   {
-   "slug": "bildesudoku-middels-klasserom-6679",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-klasserom-30d3",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-klasserom-6679"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-klasserom-30d3"
   },
   {
-   "slug": "bildesudoku-middels-leker-4024",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-kroppsdeler-1dd7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-kroppsdeler-1dd7"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-leker-4ec8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "toys",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-leker-4024"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-leker-4ec8"
   },
   {
-   "slug": "bildesudoku-middels-mobler-7d6f",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-mobler-3ed6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-mobler-7d6f"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-mobler-3ed6"
   },
   {
-   "slug": "bildesudoku-middels-musikk-6865",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-musikk-78b1",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "music",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-musikk-6865"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-musikk-78b1"
   },
   {
-   "slug": "bildesudoku-middels-paske-5e2f",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-paske-9ff1",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "easter",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-paske-5e2f"
+   "level": "3-trinn",
+   "deck": "matteark-3-symboler-add-sub-paske-9ff1"
   },
   {
-   "slug": "bildesudoku-middels-postkontor-db6f",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-postkontor-6b69",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-postkontor-db6f"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-postkontor-6b69"
   },
   {
-   "slug": "bildesudoku-middels-reptiler-og-amfibier-0872",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-reptiler-og-amfibier-3baf",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-reptiler-og-amfibier-0872"
+   "level": "3-trinn",
+   "deck": "matteark-3-symboler-add-sub-reptiler-og-amfibier-3baf"
   },
   {
-   "slug": "bildesudoku-middels-rundt-i-huset-f505",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-rundt-i-huset-c117",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-rundt-i-huset-f505"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-rundt-i-huset-c117"
   },
   {
-   "slug": "bildesudoku-middels-skogsdyr-1b2d",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-skogsdyr-5ccf",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-skogsdyr-1b2d"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-skogsdyr-5ccf"
   },
   {
-   "slug": "bildesudoku-middels-sommer-6cef",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-sommer-d8e7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "summer",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-sommer-6cef"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-sommer-d8e7"
   },
   {
-   "slug": "bildesudoku-middels-strand-0a61",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-strand-48ce",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "beach",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-strand-0a61"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-strand-48ce"
   },
   {
-   "slug": "bildesudoku-middels-sykehus-3ee5",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-sykehus-dd0e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-sykehus-3ee5"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-sykehus-dd0e"
   },
   {
-   "slug": "bildesudoku-middels-thanksgiving-cce3",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-thanksgiving-78a5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-thanksgiving-cce3"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-thanksgiving-78a5"
   },
   {
-   "slug": "bildesudoku-middels-tilbehor-6a92",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-tilbehor-b8d2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-tilbehor-6a92"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-tilbehor-b8d2"
   },
   {
-   "slug": "bildesudoku-middels-ting-som-flyr-0da9",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-ting-som-flyr-d0f2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-ting-som-flyr-0da9"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-ting-som-flyr-d0f2"
   },
   {
-   "slug": "bildesudoku-middels-traer-61ab",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-traer-0085",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "tree",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-traer-61ab"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-traer-0085"
   },
   {
-   "slug": "bildesudoku-middels-vaer-9c6b",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-vaer-2dda",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "weather",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-vaer-9c6b"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-vaer-2dda"
   },
   {
-   "slug": "bildesudoku-middels-var-7259",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-var-0bcf",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "spring",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-var-7259"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-var-0bcf"
   },
   {
-   "slug": "bildesudoku-middels-verdensrommet-c548",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-verdensrommet-3e82",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "space",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-verdensrommet-c548"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-verdensrommet-3e82"
   },
   {
-   "slug": "bildesudoku-middels-verktoy-4aa0",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-verktoy-8547",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "tools",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-verktoy-4aa0"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-verktoy-8547"
   },
   {
-   "slug": "bildesudoku-middels-vinter-ab19",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-vinter-51c2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "winter",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-vinter-ab19"
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-vinter-51c2"
   },
   {
-   "slug": "bildesudoku-middels-yrker-0286",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "matteark-3-symboler-add-sub-yrker-cac9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "bildesudoku-middels-yrker-0286"
+   "level": "3-trinn",
+   "deck": "matteark-3-symboler-add-sub-yrker-cac9"
   }
  ]
 }

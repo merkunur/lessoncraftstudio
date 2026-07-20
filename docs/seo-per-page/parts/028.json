@@ -2,426 +2,418 @@
  "part": 28,
  "locale": "en",
  "classes": [
-  "more-less::image-image"
+  "big-small::findBig"
  ],
  "splitOf": null,
- "count": 52,
+ "count": 51,
  "pages": [
   {
-   "slug": "more-less-4th-of-july-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-4th-of-july",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "4th_of_july",
    "level": "preschool",
-   "deck": "more-less-4th-of-july"
+   "deck": "big-small-findbig-4th-of-july"
   },
   {
-   "slug": "more-less-accessories-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-accessories",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "accessories",
    "level": "preschool",
-   "deck": "more-less-accessories"
+   "deck": "big-small-findbig-accessories"
   },
   {
-   "slug": "more-less-activities-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-activities",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "activities",
    "level": "preschool",
-   "deck": "more-less-activities"
+   "deck": "big-small-findbig-activities"
   },
   {
-   "slug": "more-less-animals-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-animals",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "animals",
    "level": "preschool",
-   "deck": "more-less-animals"
+   "deck": "big-small-findbig-animals"
   },
   {
-   "slug": "more-less-around-the-house-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-around-the-house",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "around_the_house",
    "level": "preschool",
-   "deck": "more-less-around-the-house"
+   "deck": "big-small-findbig-around-the-house"
   },
   {
-   "slug": "more-less-at-the-supermarket-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-at-the-supermarket",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "at_the_supermarket",
    "level": "preschool",
-   "deck": "more-less-at-the-supermarket"
+   "deck": "big-small-findbig-at-the-supermarket"
   },
   {
-   "slug": "more-less-bakery-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-bakery",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "bakery",
    "level": "preschool",
-   "deck": "more-less-bakery"
+   "deck": "big-small-findbig-bakery"
   },
   {
-   "slug": "more-less-beach-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-beach",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "beach",
    "level": "preschool",
-   "deck": "more-less-beach"
+   "deck": "big-small-findbig-beach"
   },
   {
-   "slug": "more-less-birds-2-preschool",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "birds_2",
-   "level": "preschool",
-   "deck": "more-less-birds-2"
-  },
-  {
-   "slug": "more-less-birds-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-birds",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "birds",
    "level": "preschool",
-   "deck": "more-less-birds"
+   "deck": "big-small-findbig-birds"
   },
   {
-   "slug": "more-less-body-parts-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-birds-2",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "birds_2",
+   "level": "preschool",
+   "deck": "big-small-findbig-birds-2"
+  },
+  {
+   "slug": "big-small-findbig-body-parts",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "body_parts",
    "level": "preschool",
-   "deck": "more-less-body-parts"
+   "deck": "big-small-findbig-body-parts"
   },
   {
-   "slug": "more-less-breakfast-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-breakfast",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "breakfast",
    "level": "preschool",
-   "deck": "more-less-breakfast"
+   "deck": "big-small-findbig-breakfast"
   },
   {
-   "slug": "more-less-camping-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-camping",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "camping",
    "level": "preschool",
-   "deck": "more-less-camping"
+   "deck": "big-small-findbig-camping"
   },
   {
-   "slug": "more-less-christmas-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-christmas",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "christmas",
    "level": "preschool",
-   "deck": "more-less-christmas"
+   "deck": "big-small-findbig-christmas"
   },
   {
-   "slug": "more-less-classroom-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-classroom",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "classroom",
    "level": "preschool",
-   "deck": "more-less-classroom"
+   "deck": "big-small-findbig-classroom"
   },
   {
-   "slug": "more-less-clothing-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-clothing",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "clothing",
    "level": "preschool",
-   "deck": "more-less-clothing"
+   "deck": "big-small-findbig-clothing"
   },
   {
-   "slug": "more-less-colors-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-colors",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "colors",
    "level": "preschool",
-   "deck": "more-less-colors"
+   "deck": "big-small-findbig-colors"
   },
   {
-   "slug": "more-less-desserts-and-sweets-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-desserts-and-sweets",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "desserts_and_sweets",
    "level": "preschool",
-   "deck": "more-less-desserts-and-sweets"
+   "deck": "big-small-findbig-desserts-and-sweets"
   },
   {
-   "slug": "more-less-dinosaurs-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-dinosaurs",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "dinosaurs",
    "level": "preschool",
-   "deck": "more-less-dinosaurs"
+   "deck": "big-small-findbig-dinosaurs"
   },
   {
-   "slug": "more-less-easter-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-easter",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "easter",
    "level": "preschool",
-   "deck": "more-less-easter"
+   "deck": "big-small-findbig-easter"
   },
   {
-   "slug": "more-less-emotions-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-emotions",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "emotions",
    "level": "preschool",
-   "deck": "more-less-emotions"
+   "deck": "big-small-findbig-emotions"
   },
   {
-   "slug": "more-less-faces-bw-preschool",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "faces_bw",
-   "level": "preschool",
-   "deck": "more-less-faces-bw"
-  },
-  {
-   "slug": "more-less-farm-animals-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-farm-animals",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "farm_animals",
    "level": "preschool",
-   "deck": "more-less-farm-animals"
+   "deck": "big-small-findbig-farm-animals"
   },
   {
-   "slug": "more-less-flowers-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-flowers",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "flowers",
    "level": "preschool",
-   "deck": "more-less-flowers"
+   "deck": "big-small-findbig-flowers"
   },
   {
-   "slug": "more-less-forest-creatures-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-forest-creatures",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "forest_creatures",
    "level": "preschool",
-   "deck": "more-less-forest-creatures"
+   "deck": "big-small-findbig-forest-creatures"
   },
   {
-   "slug": "more-less-fruits-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-fruits",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "fruits",
    "level": "preschool",
-   "deck": "more-less-fruits"
+   "deck": "big-small-findbig-fruits"
   },
   {
-   "slug": "more-less-furniture-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-furniture",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "furniture",
    "level": "preschool",
-   "deck": "more-less-furniture"
+   "deck": "big-small-findbig-furniture"
   },
   {
-   "slug": "more-less-hospital-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-hospital",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "hospital",
    "level": "preschool",
-   "deck": "more-less-hospital"
+   "deck": "big-small-findbig-hospital"
   },
   {
-   "slug": "more-less-insects-and-bugs-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-insects-and-bugs",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "insects_and_bugs",
    "level": "preschool",
-   "deck": "more-less-insects-and-bugs"
+   "deck": "big-small-findbig-insects-and-bugs"
   },
   {
-   "slug": "more-less-kitchen-tools-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-kitchen-tools",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "kitchen_tools",
    "level": "preschool",
-   "deck": "more-less-kitchen-tools"
+   "deck": "big-small-findbig-kitchen-tools"
   },
   {
-   "slug": "more-less-miscellaneous-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-miscellaneous",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "miscellaneous",
    "level": "preschool",
-   "deck": "more-less-miscellaneous"
+   "deck": "big-small-findbig-miscellaneous"
   },
   {
-   "slug": "more-less-music-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-music",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "music",
    "level": "preschool",
-   "deck": "more-less-music"
+   "deck": "big-small-findbig-music"
   },
   {
-   "slug": "more-less-occupations-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-occupations",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "occupations",
    "level": "preschool",
-   "deck": "more-less-occupations"
+   "deck": "big-small-findbig-occupations"
   },
   {
-   "slug": "more-less-ocean-life-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-ocean-life",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "ocean_life",
    "level": "preschool",
-   "deck": "more-less-ocean-life"
+   "deck": "big-small-findbig-ocean-life"
   },
   {
-   "slug": "more-less-pets-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-pets",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "pets",
    "level": "preschool",
-   "deck": "more-less-pets"
+   "deck": "big-small-findbig-pets"
   },
   {
-   "slug": "more-less-post-office-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-post-office",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "post_office",
    "level": "preschool",
-   "deck": "more-less-post-office"
+   "deck": "big-small-findbig-post-office"
   },
   {
-   "slug": "more-less-reptiles-and-amphibians-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-reptiles-and-amphibians",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "reptiles_and_amphibians",
    "level": "preschool",
-   "deck": "more-less-reptiles-and-amphibians"
+   "deck": "big-small-findbig-reptiles-and-amphibians"
   },
   {
-   "slug": "more-less-shapes-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-shapes",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "shapes",
    "level": "preschool",
-   "deck": "more-less-shapes"
+   "deck": "big-small-findbig-shapes"
   },
   {
-   "slug": "more-less-space-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-space",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "space",
    "level": "preschool",
-   "deck": "more-less-space"
+   "deck": "big-small-findbig-space"
   },
   {
-   "slug": "more-less-spring-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-spring",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "spring",
    "level": "preschool",
-   "deck": "more-less-spring"
+   "deck": "big-small-findbig-spring"
   },
   {
-   "slug": "more-less-summer-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-summer",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "summer",
    "level": "preschool",
-   "deck": "more-less-summer"
+   "deck": "big-small-findbig-summer"
   },
   {
-   "slug": "more-less-thanksgivinng-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-thanksgiving",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "thanksgivinng",
    "level": "preschool",
-   "deck": "more-less-thanksgiving"
+   "deck": "big-small-findbig-thanksgiving"
   },
   {
-   "slug": "more-less-things-that-fly-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-things-that-fly",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "things_that_fly",
    "level": "preschool",
-   "deck": "more-less-things-that-fly"
+   "deck": "big-small-findbig-things-that-fly"
   },
   {
-   "slug": "more-less-tools-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-tools",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "tools",
    "level": "preschool",
-   "deck": "more-less-tools"
+   "deck": "big-small-findbig-tools"
   },
   {
-   "slug": "more-less-toys-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-toys",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "toys",
    "level": "preschool",
-   "deck": "more-less-toys"
+   "deck": "big-small-findbig-toys"
   },
   {
-   "slug": "more-less-tree-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-tree",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "tree",
    "level": "preschool",
-   "deck": "more-less-tree"
+   "deck": "big-small-findbig-tree"
   },
   {
-   "slug": "more-less-valentine-bw-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-valentine-bw",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "valentine_bw",
    "level": "preschool",
-   "deck": "more-less-valentine-bw"
+   "deck": "big-small-findbig-valentine-bw"
   },
   {
-   "slug": "more-less-vegetables-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-vegetables",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "vegetables",
    "level": "preschool",
-   "deck": "more-less-vegetables"
+   "deck": "big-small-findbig-vegetables"
   },
   {
-   "slug": "more-less-vehicles-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-vehicles",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "vehicles",
    "level": "preschool",
-   "deck": "more-less-vehicles"
+   "deck": "big-small-findbig-vehicles"
   },
   {
-   "slug": "more-less-weather-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-weather",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "weather",
    "level": "preschool",
-   "deck": "more-less-weather"
+   "deck": "big-small-findbig-weather"
   },
   {
-   "slug": "more-less-winter-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-winter",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "winter",
    "level": "preschool",
-   "deck": "more-less-winter"
+   "deck": "big-small-findbig-winter"
   },
   {
-   "slug": "more-less-zoo-animals-preschool",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "big-small-findbig-zoo-animals",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "zoo_animals",
    "level": "preschool",
-   "deck": "more-less-zoo-animals"
+   "deck": "big-small-findbig-zoo-animals"
   }
  ]
 }

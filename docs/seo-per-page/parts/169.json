@@ -1,579 +1,716 @@
 {
  "part": 169,
- "locale": "it",
+ "locale": "fr",
  "classes": [
-  "picture-sort::null"
+  "shadow-match::find-shadow",
+  "find-and-count::hidden-object"
  ],
  "splitOf": null,
- "count": 71,
+ "count": 88,
  "pages": [
   {
-   "slug": "ordina-immagini-accessories-vs-animals-51ad",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-animals",
-   "level": "infanzia",
-   "deck": "ordina-immagini-accessories-vs-animals-51ad"
-  },
-  {
-   "slug": "ordina-immagini-accessories-vs-farm-animals-3254",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-farm_animals",
-   "level": "infanzia",
-   "deck": "ordina-immagini-accessories-vs-farm-animals-3254"
-  },
-  {
-   "slug": "ordina-immagini-accessories-vs-furniture-aa92",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-furniture",
-   "level": "infanzia",
-   "deck": "ordina-immagini-accessories-vs-furniture-aa92"
-  },
-  {
-   "slug": "ordina-immagini-accessories-vs-hospital-12c5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-hospital",
-   "level": "infanzia",
-   "deck": "ordina-immagini-accessories-vs-hospital-12c5"
-  },
-  {
-   "slug": "ordina-immagini-accessories-vs-music-2cf1",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-music",
-   "level": "infanzia",
-   "deck": "ordina-immagini-accessories-vs-music-2cf1"
-  },
-  {
-   "slug": "ordina-immagini-accessories-vs-pets-af4b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-pets",
-   "level": "infanzia",
-   "deck": "ordina-immagini-accessories-vs-pets-af4b"
-  },
-  {
-   "slug": "ordina-immagini-accessories-vs-space-0574",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-space",
-   "level": "infanzia",
-   "deck": "ordina-immagini-accessories-vs-space-0574"
-  },
-  {
-   "slug": "ordina-immagini-accessories-vs-tree-7b92",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-tree",
-   "level": "infanzia",
-   "deck": "ordina-immagini-accessories-vs-tree-7b92"
-  },
-  {
-   "slug": "ordina-immagini-accessories-vs-vegetables-222e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-vegetables",
-   "level": "infanzia",
-   "deck": "ordina-immagini-accessories-vs-vegetables-222e"
-  },
-  {
-   "slug": "ordina-immagini-accessories-vs-zoo-animals-f54b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-zoo_animals",
-   "level": "infanzia",
-   "deck": "ordina-immagini-accessories-vs-zoo-animals-f54b"
-  },
-  {
-   "slug": "ordina-immagini-activities-vs-around-the-house-0d17",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-around_the_house",
-   "level": "infanzia",
-   "deck": "ordina-immagini-activities-vs-around-the-house-0d17"
-  },
-  {
-   "slug": "ordina-immagini-activities-vs-breakfast-001c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-breakfast",
-   "level": "infanzia",
-   "deck": "ordina-immagini-activities-vs-breakfast-001c"
-  },
-  {
-   "slug": "ordina-immagini-activities-vs-camping-88a7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-camping",
-   "level": "infanzia",
-   "deck": "ordina-immagini-activities-vs-camping-88a7"
+   "slug": "apparier-les-ombres-associe-l-ombre-accessoires-f3f1",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-accessoires-f3f1"
+  },
+  {
+   "slug": "apparier-les-ombres-associe-l-ombre-action-de-grace-7364",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "thanksgivinng",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-action-de-grace-7364"
+  },
+  {
+   "slug": "apparier-les-ombres-associe-l-ombre-activites-8f4d",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-activites-8f4d"
+  },
+  {
+   "slug": "apparier-les-ombres-associe-l-ombre-animaux",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-animaux"
+  },
+  {
+   "slug": "apparier-les-ombres-associe-l-ombre-animaux-de-compagnie-02e0",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "pets",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-animaux-de-compagnie-02e0"
+  },
+  {
+   "slug": "apparier-les-ombres-associe-l-ombre-animaux-de-la-ferme-2257",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "farm_animals",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-animaux-de-la-ferme-2257"
+  },
+  {
+   "slug": "apparier-les-ombres-associe-l-ombre-animaux-du-zoo-098b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-animaux-du-zoo-098b"
+  },
+  {
+   "slug": "apparier-les-ombres-associe-l-ombre-arbres-877e",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tree",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-arbres-877e"
+  },
+  {
+   "slug": "apparier-les-ombres-associe-l-ombre-au-supermarche-e3c0",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-au-supermarche-e3c0"
+  },
+  {
+   "slug": "apparier-les-ombres-associe-l-ombre-autour-de-la-maison-638f",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-autour-de-la-maison-638f"
+  },
+  {
+   "slug": "apparier-les-ombres-associe-l-ombre-boulangerie-fb04",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "bakery",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-boulangerie-fb04"
+  },
+  {
+   "slug": "apparier-les-ombres-associe-l-ombre-bureau-de-poste-7203",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "post_office",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-bureau-de-poste-7203"
+  },
+  {
+   "slug": "apparier-les-ombres-associe-l-ombre-camping-1a6b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "camping",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-camping-1a6b"
   },
   {
-   "slug": "ordina-immagini-activities-vs-classroom-1b68",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-classroom",
-   "level": "infanzia",
-   "deck": "ordina-immagini-activities-vs-classroom-1b68"
+   "slug": "apparier-les-ombres-associe-l-ombre-choses-qui-volent-33d0",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-choses-qui-volent-33d0"
   },
   {
-   "slug": "ordina-immagini-activities-vs-summer-171c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-summer",
-   "level": "infanzia",
-   "deck": "ordina-immagini-activities-vs-summer-171c"
+   "slug": "apparier-les-ombres-associe-l-ombre-creatures-de-la-foret-4c8f",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "forest_creatures",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-creatures-de-la-foret-4c8f"
   },
   {
-   "slug": "ordina-immagini-activities-vs-things-that-fly-5e01",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-things_that_fly",
-   "level": "infanzia",
-   "deck": "ordina-immagini-activities-vs-things-that-fly-5e01"
+   "slug": "apparier-les-ombres-associe-l-ombre-desserts-et-sucreries-f8ad",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "desserts_and_sweets",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-desserts-et-sucreries-f8ad"
   },
   {
-   "slug": "ordina-immagini-activities-vs-tools-6e29",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-tools",
-   "level": "infanzia",
-   "deck": "ordina-immagini-activities-vs-tools-6e29"
+   "slug": "apparier-les-ombres-associe-l-ombre-dinosaures-57d8",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "dinosaurs",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-dinosaures-57d8"
   },
   {
-   "slug": "ordina-immagini-animals-vs-desserts-and-sweets-d26f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-desserts_and_sweets",
-   "level": "infanzia",
-   "deck": "ordina-immagini-animals-vs-desserts-and-sweets-d26f"
+   "slug": "apparier-les-ombres-associe-l-ombre-espace-f4ae",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-espace-f4ae"
   },
   {
-   "slug": "ordina-immagini-animals-vs-dinosaurs-adad",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-dinosaurs",
-   "level": "infanzia",
-   "deck": "ordina-immagini-animals-vs-dinosaurs-adad"
+   "slug": "apparier-les-ombres-associe-l-ombre-ete-bd28",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-ete-bd28"
   },
   {
-   "slug": "ordina-immagini-animals-vs-flowers-5160",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-flowers",
-   "level": "infanzia",
-   "deck": "ordina-immagini-animals-vs-flowers-5160"
+   "slug": "apparier-les-ombres-associe-l-ombre-fleurs-e1e0",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "flowers",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-fleurs-e1e0"
   },
   {
-   "slug": "ordina-immagini-animals-vs-summer-6864",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-summer",
-   "level": "infanzia",
-   "deck": "ordina-immagini-animals-vs-summer-6864"
+   "slug": "apparier-les-ombres-associe-l-ombre-fruits-ff40",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "fruits",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-fruits-ff40"
   },
   {
-   "slug": "ordina-immagini-at-the-supermarket-vs-beach-649e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-beach",
-   "level": "infanzia",
-   "deck": "ordina-immagini-at-the-supermarket-vs-beach-649e"
+   "slug": "apparier-les-ombres-associe-l-ombre-hiver-5ee1",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-hiver-5ee1"
   },
   {
-   "slug": "ordina-immagini-at-the-supermarket-vs-birds-963b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-birds",
-   "level": "infanzia",
-   "deck": "ordina-immagini-at-the-supermarket-vs-birds-963b"
+   "slug": "apparier-les-ombres-associe-l-ombre-hopital-24da",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-hopital-24da"
   },
   {
-   "slug": "ordina-immagini-at-the-supermarket-vs-christmas-916e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-christmas",
-   "level": "infanzia",
-   "deck": "ordina-immagini-at-the-supermarket-vs-christmas-916e"
+   "slug": "apparier-les-ombres-associe-l-ombre-insectes-et-bestioles-5ac1",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "insects_and_bugs",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-insectes-et-bestioles-5ac1"
   },
   {
-   "slug": "ordina-immagini-at-the-supermarket-vs-music-2293",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-music",
-   "level": "infanzia",
-   "deck": "ordina-immagini-at-the-supermarket-vs-music-2293"
+   "slug": "apparier-les-ombres-associe-l-ombre-jouets-9454",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-jouets-9454"
   },
   {
-   "slug": "ordina-immagini-at-the-supermarket-vs-ocean-life-7d77",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-ocean_life",
-   "level": "infanzia",
-   "deck": "ordina-immagini-at-the-supermarket-vs-ocean-life-7d77"
+   "slug": "apparier-les-ombres-associe-l-ombre-legumes-178b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vegetables",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-legumes-178b"
   },
   {
-   "slug": "ordina-immagini-at-the-supermarket-vs-vehicles-0b77",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-vehicles",
-   "level": "infanzia",
-   "deck": "ordina-immagini-at-the-supermarket-vs-vehicles-0b77"
+   "slug": "apparier-les-ombres-associe-l-ombre-meteo-70c1",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-meteo-70c1"
   },
   {
-   "slug": "ordina-immagini-camping-vs-around-the-house-c3e9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-around_the_house",
-   "level": "infanzia",
-   "deck": "ordina-immagini-camping-vs-around-the-house-c3e9"
+   "slug": "apparier-les-ombres-associe-l-ombre-metiers-5243",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-metiers-5243"
   },
   {
-   "slug": "ordina-immagini-camping-vs-beach-dc4f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-beach",
-   "level": "infanzia",
-   "deck": "ordina-immagini-camping-vs-beach-dc4f"
+   "slug": "apparier-les-ombres-associe-l-ombre-meubles-75a9",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "furniture",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-meubles-75a9"
   },
   {
-   "slug": "ordina-immagini-camping-vs-birds-a9da",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-birds",
-   "level": "infanzia",
-   "deck": "ordina-immagini-camping-vs-birds-a9da"
+   "slug": "apparier-les-ombres-associe-l-ombre-musique-7edf",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "music",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-musique-7edf"
   },
   {
-   "slug": "ordina-immagini-camping-vs-christmas-e0f7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-christmas",
-   "level": "infanzia",
-   "deck": "ordina-immagini-camping-vs-christmas-e0f7"
+   "slug": "apparier-les-ombres-associe-l-ombre-noel-378f",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "christmas",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-noel-378f"
   },
   {
-   "slug": "ordina-immagini-camping-vs-flowers-a5dd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-flowers",
-   "level": "infanzia",
-   "deck": "ordina-immagini-camping-vs-flowers-a5dd"
+   "slug": "apparier-les-ombres-associe-l-ombre-oiseaux-2-5ebb",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-oiseaux-2-5ebb"
   },
   {
-   "slug": "ordina-immagini-camping-vs-fruits-418e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-fruits",
-   "level": "infanzia",
-   "deck": "ordina-immagini-camping-vs-fruits-418e"
+   "slug": "apparier-les-ombres-associe-l-ombre-oiseaux-a69f",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-oiseaux-a69f"
   },
   {
-   "slug": "ordina-immagini-camping-vs-insects-and-bugs-7c0e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-insects_and_bugs",
-   "level": "infanzia",
-   "deck": "ordina-immagini-camping-vs-insects-and-bugs-7c0e"
+   "slug": "apparier-les-ombres-associe-l-ombre-outils-4e3d",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tools",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-outils-4e3d"
   },
   {
-   "slug": "ordina-immagini-camping-vs-toys-3079",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-toys",
-   "level": "infanzia",
-   "deck": "ordina-immagini-camping-vs-toys-3079"
+   "slug": "apparier-les-ombres-associe-l-ombre-paques-c27f",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "easter",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-paques-c27f"
   },
   {
-   "slug": "ordina-immagini-camping-vs-vegetables-36a4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-vegetables",
-   "level": "infanzia",
-   "deck": "ordina-immagini-camping-vs-vegetables-36a4"
+   "slug": "apparier-les-ombres-associe-l-ombre-parties-du-corps-f78f",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-parties-du-corps-f78f"
   },
   {
-   "slug": "ordina-immagini-classroom-vs-breakfast-c780",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-breakfast",
-   "level": "infanzia",
-   "deck": "ordina-immagini-classroom-vs-breakfast-c780"
+   "slug": "apparier-les-ombres-associe-l-ombre-petit-dejeuner-3f0d",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-petit-dejeuner-3f0d"
   },
   {
-   "slug": "ordina-immagini-classroom-vs-camping-5586",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-camping",
-   "level": "infanzia",
-   "deck": "ordina-immagini-classroom-vs-camping-5586"
+   "slug": "apparier-les-ombres-associe-l-ombre-plage-c76b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-plage-c76b"
   },
   {
-   "slug": "ordina-immagini-classroom-vs-desserts-and-sweets-0e11",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-desserts_and_sweets",
-   "level": "infanzia",
-   "deck": "ordina-immagini-classroom-vs-desserts-and-sweets-0e11"
+   "slug": "apparier-les-ombres-associe-l-ombre-printemps-1e4f",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-printemps-1e4f"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-accessories-e66e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-accessories",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-accessories-e66e"
+   "slug": "apparier-les-ombres-associe-l-ombre-reptiles-et-amphibiens-1c45",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "reptiles_and_amphibians",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-reptiles-et-amphibiens-1c45"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-activities-9643",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-activities",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-activities-9643"
+   "slug": "apparier-les-ombres-associe-l-ombre-salle-de-classe-8c2f",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-salle-de-classe-8c2f"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-animals-5975",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-animals",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-animals-5975"
+   "slug": "apparier-les-ombres-associe-l-ombre-ustensiles-de-cuisine-3533",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "kitchen_tools",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-ustensiles-de-cuisine-3533"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-breakfast-4d43",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-breakfast",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-breakfast-4d43"
+   "slug": "apparier-les-ombres-associe-l-ombre-vehicules-aa03",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-vehicules-aa03"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-camping-4a63",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-camping",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-camping-4a63"
+   "slug": "apparier-les-ombres-associe-l-ombre-vetements-725a",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-vetements-725a"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-classroom-e5e4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-classroom",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-classroom-e5e4"
+   "slug": "apparier-les-ombres-associe-l-ombre-vie-oceanique-ce22",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "apparier-les-ombres-associe-l-ombre-vie-oceanique-ce22"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-desserts-and-sweets-09bd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-desserts_and_sweets",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-desserts-and-sweets-09bd"
+   "slug": "trouve-et-compte-objets-caches-accessoires-0633",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-accessoires-0633"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-farm-animals-18ce",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-farm_animals",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-farm-animals-18ce"
+   "slug": "trouve-et-compte-objets-caches-action-de-grace-e0ff",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "thanksgivinng",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-action-de-grace-e0ff"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-forest-creatures-b558",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-forest_creatures",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-forest-creatures-b558"
+   "slug": "trouve-et-compte-objets-caches-activites-3f20",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-activites-3f20"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-pets-0955",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-pets",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-pets-0955"
+   "slug": "trouve-et-compte-objets-caches-animaux-b6ed",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-animaux-b6ed"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-things-that-fly-e0c6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-things_that_fly",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-things-that-fly-e0c6"
+   "slug": "trouve-et-compte-objets-caches-animaux-de-compagnie-00bb",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "pets",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-animaux-de-compagnie-00bb"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-tools-939d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-tools",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-tools-939d"
+   "slug": "trouve-et-compte-objets-caches-animaux-de-la-ferme-f58d",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "farm_animals",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-animaux-de-la-ferme-f58d"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-tree-066e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-tree",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-tree-066e"
+   "slug": "trouve-et-compte-objets-caches-animaux-du-zoo-28eb",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-animaux-du-zoo-28eb"
   },
   {
-   "slug": "ordina-immagini-clothing-vs-zoo-animals-860c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-zoo_animals",
-   "level": "infanzia",
-   "deck": "ordina-immagini-clothing-vs-zoo-animals-860c"
+   "slug": "trouve-et-compte-objets-caches-au-supermarche-5b2b",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-au-supermarche-5b2b"
   },
   {
-   "slug": "ordina-immagini-flowers-vs-christmas-373a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-christmas",
-   "level": "infanzia",
-   "deck": "ordina-immagini-flowers-vs-christmas-373a"
+   "slug": "trouve-et-compte-objets-caches-autour-de-la-maison-68d9",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-autour-de-la-maison-68d9"
   },
   {
-   "slug": "ordina-immagini-flowers-vs-easter-93c9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-easter",
-   "level": "infanzia",
-   "deck": "ordina-immagini-flowers-vs-easter-93c9"
+   "slug": "trouve-et-compte-objets-caches-boulangerie-4983",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "bakery",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-boulangerie-4983"
   },
   {
-   "slug": "ordina-immagini-flowers-vs-furniture-460e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-furniture",
-   "level": "infanzia",
-   "deck": "ordina-immagini-flowers-vs-furniture-460e"
+   "slug": "trouve-et-compte-objets-caches-bureau-de-poste-7678",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "post_office",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-bureau-de-poste-7678"
   },
   {
-   "slug": "ordina-immagini-flowers-vs-hospital-5c0b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-hospital",
-   "level": "infanzia",
-   "deck": "ordina-immagini-flowers-vs-hospital-5c0b"
+   "slug": "trouve-et-compte-objets-caches-camping-0572",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "camping",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-camping-0572"
   },
   {
-   "slug": "ordina-immagini-flowers-vs-insects-and-bugs-08ad",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-insects_and_bugs",
-   "level": "infanzia",
-   "deck": "ordina-immagini-flowers-vs-insects-and-bugs-08ad"
+   "slug": "trouve-et-compte-objets-caches-choses-qui-volent-e08a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-choses-qui-volent-e08a"
   },
   {
-   "slug": "ordina-immagini-flowers-vs-music-2d01",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-music",
-   "level": "infanzia",
-   "deck": "ordina-immagini-flowers-vs-music-2d01"
-  },
-  {
-   "slug": "ordina-immagini-flowers-vs-toys-9f06",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-toys",
-   "level": "infanzia",
-   "deck": "ordina-immagini-flowers-vs-toys-9f06"
-  },
-  {
-   "slug": "ordina-immagini-flowers-vs-weather-f1fc",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-weather",
-   "level": "infanzia",
-   "deck": "ordina-immagini-flowers-vs-weather-f1fc"
-  },
-  {
-   "slug": "ordina-immagini-summer-vs-birds-2-bdce",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "summer-vs-birds_2",
-   "level": "infanzia",
-   "deck": "ordina-immagini-summer-vs-birds-2-bdce"
-  },
-  {
-   "slug": "ordina-immagini-summer-vs-occupations-6693",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "summer-vs-occupations",
-   "level": "infanzia",
-   "deck": "ordina-immagini-summer-vs-occupations-6693"
-  },
-  {
-   "slug": "ordina-immagini-summer-vs-vegetables-9a55",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "summer-vs-vegetables",
-   "level": "infanzia",
-   "deck": "ordina-immagini-summer-vs-vegetables-9a55"
-  },
-  {
-   "slug": "ordina-immagini-summer-vs-vehicles-628b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "summer-vs-vehicles",
-   "level": "infanzia",
-   "deck": "ordina-immagini-summer-vs-vehicles-628b"
-  },
-  {
-   "slug": "ordina-immagini-tree-vs-flowers-311f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-flowers",
-   "level": "infanzia",
-   "deck": "ordina-immagini-tree-vs-flowers-311f"
-  },
-  {
-   "slug": "ordina-immagini-tree-vs-furniture-27ff",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-furniture",
-   "level": "infanzia",
-   "deck": "ordina-immagini-tree-vs-furniture-27ff"
-  },
-  {
-   "slug": "ordina-immagini-tree-vs-insects-and-bugs-bd44",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-insects_and_bugs",
-   "level": "infanzia",
-   "deck": "ordina-immagini-tree-vs-insects-and-bugs-bd44"
-  },
-  {
-   "slug": "ordina-immagini-tree-vs-music-e27f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-music",
-   "level": "infanzia",
-   "deck": "ordina-immagini-tree-vs-music-e27f"
-  },
-  {
-   "slug": "ordina-immagini-tree-vs-toys-35bb",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-toys",
-   "level": "infanzia",
-   "deck": "ordina-immagini-tree-vs-toys-35bb"
-  },
-  {
-   "slug": "ordina-immagini-tree-vs-weather-71a1",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-weather",
-   "level": "infanzia",
-   "deck": "ordina-immagini-tree-vs-weather-71a1"
+   "slug": "trouve-et-compte-objets-caches-couleurs-edb0",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-couleurs-edb0"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-creatures-de-la-foret-e590",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "forest_creatures",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-creatures-de-la-foret-e590"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-desserts-et-sucreries-d4e4",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "desserts_and_sweets",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-desserts-et-sucreries-d4e4"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-emotions-4898",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-emotions-4898"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-espace-2f81",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-espace-2f81"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-ete-37f7",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-ete-37f7"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-fleurs-fe22",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "flowers",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-fleurs-fe22"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-formes-0d9e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "shapes",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-formes-0d9e"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-fruits-c8f0",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "fruits",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-fruits-c8f0"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-hiver-b815",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-hiver-b815"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-hopital-7fce",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-hopital-7fce"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-insectes-et-bestioles-921a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "insects_and_bugs",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-insectes-et-bestioles-921a"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-jouets-7718",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-jouets-7718"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-legumes-c102",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "vegetables",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-legumes-c102"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-meteo-ee89",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-meteo-ee89"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-metiers-1971",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-metiers-1971"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-meubles-2e70",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "furniture",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-meubles-2e70"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-musique-141a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "music",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-musique-141a"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-noel-1bba",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "christmas",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-noel-1bba"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-oiseaux-2-420c",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-oiseaux-2-420c"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-outils-448d",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "tools",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-outils-448d"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-paques-5a88",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "easter",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-paques-5a88"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-parties-du-corps-8989",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-parties-du-corps-8989"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-petit-dejeuner-2a44",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-petit-dejeuner-2a44"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-plage-4ad4",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-plage-4ad4"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-printemps-a30b",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-printemps-a30b"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-salle-de-classe-9b60",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-salle-de-classe-9b60"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-vehicules-50a7",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-vehicules-50a7"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-vetements-9369",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-vetements-9369"
+  },
+  {
+   "slug": "trouve-et-compte-objets-caches-vie-oceanique-8574",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "trouve-et-compte-objets-caches-vie-oceanique-8574"
   }
  ]
 }

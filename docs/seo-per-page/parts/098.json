@@ -2,603 +2,795 @@
  "part": 98,
  "locale": "es",
  "classes": [
-  "bingo::null",
-  "alphabet-train::letter-hint"
+  "odd-one-out::null",
+  "sudoku::null"
  ],
  "splitOf": null,
- "count": 74,
+ "count": 98,
  "pages": [
   {
-   "slug": "bingo-accesorios-4f99",
-   "type": "bingo",
+   "slug": "el-intruso-4-de-julio-2532",
+   "type": "odd-one-out",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "el-intruso-4-de-julio-2532"
+  },
+  {
+   "slug": "el-intruso-accesorios-029c",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "accessories",
    "level": "preescolar",
-   "deck": "bingo-accesorios-4f99"
+   "deck": "el-intruso-accesorios-029c"
   },
   {
-   "slug": "bingo-actividades-98be",
-   "type": "bingo",
+   "slug": "el-intruso-actividades-ec20",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "activities",
    "level": "preescolar",
-   "deck": "bingo-actividades-98be"
+   "deck": "el-intruso-actividades-ec20"
   },
   {
-   "slug": "bingo-alrededor-de-la-casa-98be",
-   "type": "bingo",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "preescolar",
-   "deck": "bingo-alrededor-de-la-casa-98be"
-  },
-  {
-   "slug": "bingo-animales",
-   "type": "bingo",
+   "slug": "el-intruso-animales-43af",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "animals",
    "level": "preescolar",
-   "deck": "bingo-animales"
+   "deck": "el-intruso-animales-43af"
   },
   {
-   "slug": "bingo-animales-de-granja-646b",
-   "type": "bingo",
+   "slug": "el-intruso-animales-de-granja-ee54",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "farm_animals",
    "level": "preescolar",
-   "deck": "bingo-animales-de-granja-646b"
+   "deck": "el-intruso-animales-de-granja-ee54"
   },
   {
-   "slug": "bingo-animales-del-zoologico-01cd",
-   "type": "bingo",
+   "slug": "el-intruso-animales-del-zoologico-bc32",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "zoo_animals",
    "level": "preescolar",
-   "deck": "bingo-animales-del-zoologico-01cd"
+   "deck": "el-intruso-animales-del-zoologico-bc32"
   },
   {
-   "slug": "bingo-arboles-98be",
-   "type": "bingo",
+   "slug": "el-intruso-arboles-c52f",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "tree",
    "level": "preescolar",
-   "deck": "bingo-arboles-98be"
+   "deck": "el-intruso-arboles-c52f"
   },
   {
-   "slug": "bingo-aves-2-58fc",
-   "type": "bingo",
+   "slug": "el-intruso-aves-2-a68c",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "birds_2",
    "level": "preescolar",
-   "deck": "bingo-aves-2-58fc"
+   "deck": "el-intruso-aves-2-a68c"
   },
   {
-   "slug": "bingo-campamento-98be",
-   "type": "bingo",
+   "slug": "el-intruso-aves-e9e5",
+   "type": "odd-one-out",
+   "mode": null,
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "el-intruso-aves-e9e5"
+  },
+  {
+   "slug": "el-intruso-campamento-4cc2",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "camping",
    "level": "preescolar",
-   "deck": "bingo-campamento-98be"
+   "deck": "el-intruso-campamento-4cc2"
   },
   {
-   "slug": "bingo-clima-98be",
-   "type": "bingo",
+   "slug": "el-intruso-clima-8322",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "weather",
    "level": "preescolar",
-   "deck": "bingo-clima-98be"
+   "deck": "el-intruso-clima-8322"
   },
   {
-   "slug": "bingo-colores-98be",
-   "type": "bingo",
+   "slug": "el-intruso-colores-0e99",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "colors",
    "level": "preescolar",
-   "deck": "bingo-colores-98be"
+   "deck": "el-intruso-colores-0e99"
   },
   {
-   "slug": "bingo-cosas-que-vuelan-3368",
-   "type": "bingo",
+   "slug": "el-intruso-cosas-que-vuelan-67d6",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "things_that_fly",
    "level": "preescolar",
-   "deck": "bingo-cosas-que-vuelan-3368"
+   "deck": "el-intruso-cosas-que-vuelan-67d6"
   },
   {
-   "slug": "bingo-criaturas-del-bosque-40d8",
-   "type": "bingo",
+   "slug": "el-intruso-criaturas-del-bosque-a876",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "forest_creatures",
    "level": "preescolar",
-   "deck": "bingo-criaturas-del-bosque-40d8"
+   "deck": "el-intruso-criaturas-del-bosque-a876"
   },
   {
-   "slug": "bingo-desayuno-680f",
-   "type": "bingo",
+   "slug": "el-intruso-desayuno-ab17",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "breakfast",
    "level": "preescolar",
-   "deck": "bingo-desayuno-680f"
+   "deck": "el-intruso-desayuno-ab17"
   },
   {
-   "slug": "bingo-en-el-supermercado-98be",
-   "type": "bingo",
+   "slug": "el-intruso-dia-de-accion-de-gracias-b043",
+   "type": "odd-one-out",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "el-intruso-dia-de-accion-de-gracias-b043"
+  },
+  {
+   "slug": "el-intruso-dinosaurios-eeee",
+   "type": "odd-one-out",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "el-intruso-dinosaurios-eeee"
+  },
+  {
+   "slug": "el-intruso-emociones-736a",
+   "type": "odd-one-out",
+   "mode": null,
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "el-intruso-emociones-736a"
+  },
+  {
+   "slug": "el-intruso-en-el-supermercado-aac9",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "at_the_supermarket",
    "level": "preescolar",
-   "deck": "bingo-en-el-supermercado-98be"
+   "deck": "el-intruso-en-el-supermercado-aac9"
   },
   {
-   "slug": "bingo-espacio-98be",
-   "type": "bingo",
+   "slug": "el-intruso-espacio-319d",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "space",
    "level": "preescolar",
-   "deck": "bingo-espacio-98be"
+   "deck": "el-intruso-espacio-319d"
   },
   {
-   "slug": "bingo-flores-98be",
-   "type": "bingo",
+   "slug": "el-intruso-flores-8a76",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "flowers",
    "level": "preescolar",
-   "deck": "bingo-flores-98be"
+   "deck": "el-intruso-flores-8a76"
   },
   {
-   "slug": "bingo-formas-3ede",
-   "type": "bingo",
+   "slug": "el-intruso-formas-08b9",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "shapes",
    "level": "preescolar",
-   "deck": "bingo-formas-3ede"
+   "deck": "el-intruso-formas-08b9"
   },
   {
-   "slug": "bingo-frutas-98be",
-   "type": "bingo",
+   "slug": "el-intruso-frutas-fa80",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "fruits",
    "level": "preescolar",
-   "deck": "bingo-frutas-98be"
+   "deck": "el-intruso-frutas-fa80"
   },
   {
-   "slug": "bingo-hospital-98be",
-   "type": "bingo",
+   "slug": "el-intruso-herramientas-5a7f",
+   "type": "odd-one-out",
+   "mode": null,
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "el-intruso-herramientas-5a7f"
+  },
+  {
+   "slug": "el-intruso-hospital-7a50",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "hospital",
    "level": "preescolar",
-   "deck": "bingo-hospital-98be"
+   "deck": "el-intruso-hospital-7a50"
   },
   {
-   "slug": "bingo-invierno-98be",
-   "type": "bingo",
+   "slug": "el-intruso-insectos-y-bichos-9a29",
+   "type": "odd-one-out",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "el-intruso-insectos-y-bichos-9a29"
+  },
+  {
+   "slug": "el-intruso-invierno-a77f",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "winter",
    "level": "preescolar",
-   "deck": "bingo-invierno-98be"
+   "deck": "el-intruso-invierno-a77f"
   },
   {
-   "slug": "bingo-juguetes-98be",
-   "type": "bingo",
+   "slug": "el-intruso-juguetes-46e2",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "toys",
    "level": "preescolar",
-   "deck": "bingo-juguetes-98be"
+   "deck": "el-intruso-juguetes-46e2"
   },
   {
-   "slug": "bingo-mascotas-63b2",
-   "type": "bingo",
+   "slug": "el-intruso-mascotas-aad8",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "pets",
    "level": "preescolar",
-   "deck": "bingo-mascotas-63b2"
+   "deck": "el-intruso-mascotas-aad8"
   },
   {
-   "slug": "bingo-muebles-98be",
-   "type": "bingo",
+   "slug": "el-intruso-miscelaneo-7983",
+   "type": "odd-one-out",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "el-intruso-miscelaneo-7983"
+  },
+  {
+   "slug": "el-intruso-muebles-80d0",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "furniture",
    "level": "preescolar",
-   "deck": "bingo-muebles-98be"
+   "deck": "el-intruso-muebles-80d0"
   },
   {
-   "slug": "bingo-navidad-89d6",
-   "type": "bingo",
+   "slug": "el-intruso-musica-03e7",
+   "type": "odd-one-out",
+   "mode": null,
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "el-intruso-musica-03e7"
+  },
+  {
+   "slug": "el-intruso-navidad-6657",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "christmas",
    "level": "preescolar",
-   "deck": "bingo-navidad-89d6"
+   "deck": "el-intruso-navidad-6657"
   },
   {
-   "slug": "bingo-ocupaciones-6b78",
-   "type": "bingo",
+   "slug": "el-intruso-ocupaciones-0fbb",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "occupations",
    "level": "preescolar",
-   "deck": "bingo-ocupaciones-6b78"
+   "deck": "el-intruso-ocupaciones-0fbb"
   },
   {
-   "slug": "bingo-panaderia-3c41",
-   "type": "bingo",
+   "slug": "el-intruso-oficina-de-correos-d91b",
+   "type": "odd-one-out",
+   "mode": null,
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "el-intruso-oficina-de-correos-d91b"
+  },
+  {
+   "slug": "el-intruso-panaderia-0fb4",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "bakery",
    "level": "preescolar",
-   "deck": "bingo-panaderia-3c41"
+   "deck": "el-intruso-panaderia-0fb4"
   },
   {
-   "slug": "bingo-partes-del-cuerpo-98be",
-   "type": "bingo",
+   "slug": "el-intruso-partes-del-cuerpo-5030",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "body_parts",
    "level": "preescolar",
-   "deck": "bingo-partes-del-cuerpo-98be"
+   "deck": "el-intruso-partes-del-cuerpo-5030"
   },
   {
-   "slug": "bingo-pascua-49e8",
-   "type": "bingo",
+   "slug": "el-intruso-pascua-059e",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "easter",
    "level": "preescolar",
-   "deck": "bingo-pascua-49e8"
+   "deck": "el-intruso-pascua-059e"
   },
   {
-   "slug": "bingo-playa-09d5",
-   "type": "bingo",
+   "slug": "el-intruso-playa-8b55",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "beach",
    "level": "preescolar",
-   "deck": "bingo-playa-09d5"
+   "deck": "el-intruso-playa-8b55"
   },
   {
-   "slug": "bingo-postres-y-dulces-98be",
-   "type": "bingo",
+   "slug": "el-intruso-postres-y-dulces-45ad",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "desserts_and_sweets",
    "level": "preescolar",
-   "deck": "bingo-postres-y-dulces-98be"
+   "deck": "el-intruso-postres-y-dulces-45ad"
   },
   {
-   "slug": "bingo-primavera-69f3",
-   "type": "bingo",
+   "slug": "el-intruso-primavera-d82d",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "spring",
    "level": "preescolar",
-   "deck": "bingo-primavera-69f3"
+   "deck": "el-intruso-primavera-d82d"
   },
   {
-   "slug": "bingo-ropa-1a48",
-   "type": "bingo",
+   "slug": "el-intruso-reptiles-y-anfibios-e178",
+   "type": "odd-one-out",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "el-intruso-reptiles-y-anfibios-e178"
+  },
+  {
+   "slug": "el-intruso-ropa-3a56",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "clothing",
    "level": "preescolar",
-   "deck": "bingo-ropa-1a48"
+   "deck": "el-intruso-ropa-3a56"
   },
   {
-   "slug": "bingo-salon-de-clases-6032",
-   "type": "bingo",
+   "slug": "el-intruso-salon-de-clases-83a8",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "classroom",
    "level": "preescolar",
-   "deck": "bingo-salon-de-clases-6032"
+   "deck": "el-intruso-salon-de-clases-83a8"
   },
   {
-   "slug": "bingo-utensilios-de-cocina-98be",
-   "type": "bingo",
+   "slug": "el-intruso-utensilios-de-cocina-cefb",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "kitchen_tools",
    "level": "preescolar",
-   "deck": "bingo-utensilios-de-cocina-98be"
+   "deck": "el-intruso-utensilios-de-cocina-cefb"
   },
   {
-   "slug": "bingo-vehiculos-98be",
-   "type": "bingo",
+   "slug": "el-intruso-vehiculos-b77d",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "vehicles",
    "level": "preescolar",
-   "deck": "bingo-vehiculos-98be"
+   "deck": "el-intruso-vehiculos-b77d"
   },
   {
-   "slug": "bingo-verano-319c",
-   "type": "bingo",
+   "slug": "el-intruso-verano-b494",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "summer",
    "level": "preescolar",
-   "deck": "bingo-verano-319c"
+   "deck": "el-intruso-verano-b494"
   },
   {
-   "slug": "bingo-verduras-98be",
-   "type": "bingo",
+   "slug": "el-intruso-verduras-3689",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "vegetables",
    "level": "preescolar",
-   "deck": "bingo-verduras-98be"
+   "deck": "el-intruso-verduras-3689"
   },
   {
-   "slug": "bingo-vida-marina-8045",
-   "type": "bingo",
+   "slug": "el-intruso-vida-marina-a669",
+   "type": "odd-one-out",
    "mode": null,
    "theme": "ocean_life",
    "level": "preescolar",
-   "deck": "bingo-vida-marina-8045"
+   "deck": "el-intruso-vida-marina-a669"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-accesorios-8f0d",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes"
+  },
+  {
+   "slug": "sudoku-de-imagenes-4-de-julio-68ac",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-4-de-julio-68ac"
+  },
+  {
+   "slug": "sudoku-de-imagenes-accesorios-dc30",
+   "type": "sudoku",
+   "mode": null,
    "theme": "accessories",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-accesorios-8f0d"
+   "deck": "sudoku-de-imagenes-accesorios-dc30"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-actividades-8d61",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-actividades-080b",
+   "type": "sudoku",
+   "mode": null,
    "theme": "activities",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-actividades-8d61"
+   "deck": "sudoku-de-imagenes-actividades-080b"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-alrededor-de-la-casa-a1a4",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "around_the_house",
-   "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-alrededor-de-la-casa-a1a4"
-  },
-  {
-   "slug": "tren-del-abecedario-pista-de-letra-animales-3f01",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-animales-98c1",
+   "type": "sudoku",
+   "mode": null,
    "theme": "animals",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-animales-3f01"
+   "deck": "sudoku-de-imagenes-animales-98c1"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-animales-del-zoologico-6502",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-animales-de-granja-e8f1",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-animales-de-granja-e8f1"
+  },
+  {
+   "slug": "sudoku-de-imagenes-animales-del-zoologico-5c37",
+   "type": "sudoku",
+   "mode": null,
    "theme": "zoo_animals",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-animales-del-zoologico-6502"
+   "deck": "sudoku-de-imagenes-animales-del-zoologico-5c37"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-arboles-b025",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-arboles-02e6",
+   "type": "sudoku",
+   "mode": null,
    "theme": "tree",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-arboles-b025"
+   "deck": "sudoku-de-imagenes-arboles-02e6"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-aves-2-a64e",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-aves-2-63b6",
+   "type": "sudoku",
+   "mode": null,
    "theme": "birds_2",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-aves-2-a64e"
+   "deck": "sudoku-de-imagenes-aves-2-63b6"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-campamento-6e79",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-aves-3ef8",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-aves-3ef8"
+  },
+  {
+   "slug": "sudoku-de-imagenes-campamento-088a",
+   "type": "sudoku",
+   "mode": null,
    "theme": "camping",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-campamento-6e79"
+   "deck": "sudoku-de-imagenes-campamento-088a"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-clima-c438",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-clima-235f",
+   "type": "sudoku",
+   "mode": null,
    "theme": "weather",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-clima-c438"
+   "deck": "sudoku-de-imagenes-clima-235f"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-colores-096f",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-colores-fcb0",
+   "type": "sudoku",
+   "mode": null,
    "theme": "colors",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-colores-096f"
+   "deck": "sudoku-de-imagenes-colores-fcb0"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-cosas-que-vuelan-93ae",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-cosas-que-vuelan-011c",
+   "type": "sudoku",
+   "mode": null,
    "theme": "things_that_fly",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-cosas-que-vuelan-93ae"
+   "deck": "sudoku-de-imagenes-cosas-que-vuelan-011c"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-criaturas-del-bosque-f867",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-criaturas-del-bosque-6395",
+   "type": "sudoku",
+   "mode": null,
    "theme": "forest_creatures",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-criaturas-del-bosque-f867"
+   "deck": "sudoku-de-imagenes-criaturas-del-bosque-6395"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-desayuno-9fc3",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-desayuno-e589",
+   "type": "sudoku",
+   "mode": null,
    "theme": "breakfast",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-desayuno-9fc3"
+   "deck": "sudoku-de-imagenes-desayuno-e589"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-dinosaurios-25f0",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-dia-de-accion-de-gracias-acff",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-dia-de-accion-de-gracias-acff"
+  },
+  {
+   "slug": "sudoku-de-imagenes-dinosaurios-f547",
+   "type": "sudoku",
+   "mode": null,
    "theme": "dinosaurs",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-dinosaurios-25f0"
+   "deck": "sudoku-de-imagenes-dinosaurios-f547"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-en-el-supermercado-2121",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-emociones-4e56",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-emociones-4e56"
+  },
+  {
+   "slug": "sudoku-de-imagenes-en-el-supermercado-84c9",
+   "type": "sudoku",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-en-el-supermercado-2121"
+   "deck": "sudoku-de-imagenes-en-el-supermercado-84c9"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-espacio-c5f6",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-espacio-d357",
+   "type": "sudoku",
+   "mode": null,
    "theme": "space",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-espacio-c5f6"
+   "deck": "sudoku-de-imagenes-espacio-d357"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-flores-be9e",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-flores-d76d",
+   "type": "sudoku",
+   "mode": null,
    "theme": "flowers",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-flores-be9e"
+   "deck": "sudoku-de-imagenes-flores-d76d"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-frutas-4c9d",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-formas-36a8",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-formas-36a8"
+  },
+  {
+   "slug": "sudoku-de-imagenes-frutas-029b",
+   "type": "sudoku",
+   "mode": null,
    "theme": "fruits",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-frutas-4c9d"
+   "deck": "sudoku-de-imagenes-frutas-029b"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-hospital-5946",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-herramientas-25d6",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-herramientas-25d6"
+  },
+  {
+   "slug": "sudoku-de-imagenes-hospital-d802",
+   "type": "sudoku",
+   "mode": null,
    "theme": "hospital",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-hospital-5946"
+   "deck": "sudoku-de-imagenes-hospital-d802"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-invierno-0bda",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-insectos-y-bichos-1fb9",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-insectos-y-bichos-1fb9"
+  },
+  {
+   "slug": "sudoku-de-imagenes-invierno-8539",
+   "type": "sudoku",
+   "mode": null,
    "theme": "winter",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-invierno-0bda"
+   "deck": "sudoku-de-imagenes-invierno-8539"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-juguetes-27cd",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-juguetes-58ed",
+   "type": "sudoku",
+   "mode": null,
    "theme": "toys",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-juguetes-27cd"
+   "deck": "sudoku-de-imagenes-juguetes-58ed"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-musica-035a",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-mascotas-d530",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-mascotas-d530"
+  },
+  {
+   "slug": "sudoku-de-imagenes-miscelaneo-4a83",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-miscelaneo-4a83"
+  },
+  {
+   "slug": "sudoku-de-imagenes-muebles-79dd",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-muebles-79dd"
+  },
+  {
+   "slug": "sudoku-de-imagenes-musica-7650",
+   "type": "sudoku",
+   "mode": null,
    "theme": "music",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-musica-035a"
+   "deck": "sudoku-de-imagenes-musica-7650"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-navidad-2bfd",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-navidad-74e1",
+   "type": "sudoku",
+   "mode": null,
    "theme": "christmas",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-navidad-2bfd"
+   "deck": "sudoku-de-imagenes-navidad-74e1"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-ocupaciones-2941",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-ocupaciones-d817",
+   "type": "sudoku",
+   "mode": null,
    "theme": "occupations",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-ocupaciones-2941"
+   "deck": "sudoku-de-imagenes-ocupaciones-d817"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-panaderia-627d",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-oficina-de-correos-1b43",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-oficina-de-correos-1b43"
+  },
+  {
+   "slug": "sudoku-de-imagenes-panaderia-e6b6",
+   "type": "sudoku",
+   "mode": null,
    "theme": "bakery",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-panaderia-627d"
+   "deck": "sudoku-de-imagenes-panaderia-e6b6"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-partes-del-cuerpo-626e",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-partes-del-cuerpo-16f4",
+   "type": "sudoku",
+   "mode": null,
    "theme": "body_parts",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-partes-del-cuerpo-626e"
+   "deck": "sudoku-de-imagenes-partes-del-cuerpo-16f4"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-pascua-0db7",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-pascua-752f",
+   "type": "sudoku",
+   "mode": null,
    "theme": "easter",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-pascua-0db7"
+   "deck": "sudoku-de-imagenes-pascua-752f"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-playa-63bc",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-playa-47d6",
+   "type": "sudoku",
+   "mode": null,
    "theme": "beach",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-playa-63bc"
+   "deck": "sudoku-de-imagenes-playa-47d6"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-primavera-93b0",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-postres-y-dulces-4efe",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-postres-y-dulces-4efe"
+  },
+  {
+   "slug": "sudoku-de-imagenes-primavera-78a0",
+   "type": "sudoku",
+   "mode": null,
    "theme": "spring",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-primavera-93b0"
+   "deck": "sudoku-de-imagenes-primavera-78a0"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-ropa-62e5",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-reptiles-y-anfibios-439c",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "sudoku-de-imagenes-reptiles-y-anfibios-439c"
+  },
+  {
+   "slug": "sudoku-de-imagenes-ropa-7139",
+   "type": "sudoku",
+   "mode": null,
    "theme": "clothing",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-ropa-62e5"
+   "deck": "sudoku-de-imagenes-ropa-7139"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-salon-de-clases-0ed8",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-salon-de-clases-4b67",
+   "type": "sudoku",
+   "mode": null,
    "theme": "classroom",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-salon-de-clases-0ed8"
+   "deck": "sudoku-de-imagenes-salon-de-clases-4b67"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-utensilios-de-cocina-3c70",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-utensilios-de-cocina-7928",
+   "type": "sudoku",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-utensilios-de-cocina-3c70"
+   "deck": "sudoku-de-imagenes-utensilios-de-cocina-7928"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-vehiculos-4bdd",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-vehiculos-ad6c",
+   "type": "sudoku",
+   "mode": null,
    "theme": "vehicles",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-vehiculos-4bdd"
+   "deck": "sudoku-de-imagenes-vehiculos-ad6c"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-verano-76ea",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-verano-1ad7",
+   "type": "sudoku",
+   "mode": null,
    "theme": "summer",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-verano-76ea"
+   "deck": "sudoku-de-imagenes-verano-1ad7"
   },
   {
-   "slug": "tren-del-abecedario-pista-de-letra-vida-marina-9e8b",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "sudoku-de-imagenes-vida-marina-a4cc",
+   "type": "sudoku",
+   "mode": null,
    "theme": "ocean_life",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pista-de-letra-vida-marina-9e8b"
+   "deck": "sudoku-de-imagenes-vida-marina-a4cc"
   }
  ]
 }

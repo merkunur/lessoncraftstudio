@@ -1,520 +1,756 @@
 {
  "part": 322,
- "locale": "fi",
+ "locale": "no",
  "classes": [
-  "picture-sort::null"
+  "word-guess::normal",
+  "find-and-count::letter-spotting"
  ],
- "splitOf": {
-  "class": "picture-sort::null",
-  "total": 125,
-  "chunk": 1,
-  "chunks": 2
- },
- "count": 63,
+ "splitOf": null,
+ "count": 93,
  "pages": [
   {
-   "slug": "lajittele-kuvat-4th-of-july-vs-animals-e319",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "4th_of_july-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-4th-of-july-vs-animals-e319"
+   "slug": "gjett-ordet-normal-aktiviteter-2b3e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-aktiviteter-2b3e"
   },
   {
-   "slug": "lajittele-kuvat-4th-of-july-vs-dinosaurs-7541",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "4th_of_july-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-4th-of-july-vs-dinosaurs-7541"
+   "slug": "gjett-ordet-normal-bakeri-bed5",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-bakeri-bed5"
   },
   {
-   "slug": "lajittele-kuvat-4th-of-july-vs-vehicles-8ae4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "4th_of_july-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-4th-of-july-vs-vehicles-8ae4"
+   "slug": "gjett-ordet-normal-blomster-5589",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-blomster-5589"
   },
   {
-   "slug": "lajittele-kuvat-accessories-vs-animals-104a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-accessories-vs-animals-104a"
+   "slug": "gjett-ordet-normal-camping-7b47",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-camping-7b47"
   },
   {
-   "slug": "lajittele-kuvat-accessories-vs-breakfast-1ad2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-breakfast",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-accessories-vs-breakfast-1ad2"
+   "slug": "gjett-ordet-normal-desserter-og-godteri-0685",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-desserter-og-godteri-0685"
   },
   {
-   "slug": "lajittele-kuvat-accessories-vs-dinosaurs-13b6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-accessories-vs-dinosaurs-13b6"
+   "slug": "gjett-ordet-normal-dyr-fb76",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-dyr-fb76"
   },
   {
-   "slug": "lajittele-kuvat-accessories-vs-flowers-eaa7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-flowers",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-accessories-vs-flowers-eaa7"
+   "slug": "gjett-ordet-normal-dyrehagedyr-4a18",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-dyrehagedyr-4a18"
   },
   {
-   "slug": "lajittele-kuvat-activities-vs-animals-56fa",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-activities-vs-animals-56fa"
+   "slug": "gjett-ordet-normal-farger-85bb",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-farger-85bb"
   },
   {
-   "slug": "lajittele-kuvat-activities-vs-breakfast-f7f9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-breakfast",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-activities-vs-breakfast-f7f9"
+   "slug": "gjett-ordet-normal-folelser-6f02",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-folelser-6f02"
   },
   {
-   "slug": "lajittele-kuvat-activities-vs-dinosaurs-2d7d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-activities-vs-dinosaurs-2d7d"
+   "slug": "gjett-ordet-normal-former-467d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-former-467d"
   },
   {
-   "slug": "lajittele-kuvat-activities-vs-flowers-097c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-flowers",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-activities-vs-flowers-097c"
+   "slug": "gjett-ordet-normal-frokost-edab",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-frokost-edab"
   },
   {
-   "slug": "lajittele-kuvat-animals-vs-dinosaurs-af4e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-animals-vs-dinosaurs-af4e"
+   "slug": "gjett-ordet-normal-frukter-e7e2",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-frukter-e7e2"
   },
   {
-   "slug": "lajittele-kuvat-animals-vs-flowers-206e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-flowers",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-animals-vs-flowers-206e"
+   "slug": "gjett-ordet-normal-fugler-2-ee65",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-fugler-2-ee65"
   },
   {
-   "slug": "lajittele-kuvat-animals-vs-vehicles-8fa4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-animals-vs-vehicles-8fa4"
+   "slug": "gjett-ordet-normal-fugler-b5ee",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-fugler-b5ee"
   },
   {
-   "slug": "lajittele-kuvat-around-the-house-vs-animals-efa9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "around_the_house-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-around-the-house-vs-animals-efa9"
+   "slug": "gjett-ordet-normal-gardsdyr-fd27",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-gardsdyr-fd27"
   },
   {
-   "slug": "lajittele-kuvat-around-the-house-vs-vehicles-4f3e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "around_the_house-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-around-the-house-vs-vehicles-4f3e"
+   "slug": "gjett-ordet-normal-gronnsaker-43e6",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-gronnsaker-43e6"
   },
   {
-   "slug": "lajittele-kuvat-at-the-supermarket-vs-dinosaurs-843e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-at-the-supermarket-vs-dinosaurs-843e"
+   "slug": "gjett-ordet-normal-havliv-2e51",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-havliv-2e51"
   },
   {
-   "slug": "lajittele-kuvat-at-the-supermarket-vs-vehicles-1307",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-at-the-supermarket-vs-vehicles-1307"
+   "slug": "gjett-ordet-normal-i-supermarkedet-2514",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-i-supermarkedet-2514"
   },
   {
-   "slug": "lajittele-kuvat-bakery-vs-animals-6b92",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-bakery-vs-animals-6b92"
+   "slug": "gjett-ordet-normal-insekter-og-kryp-d815",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-insekter-og-kryp-d815"
   },
   {
-   "slug": "lajittele-kuvat-bakery-vs-dinosaurs-faa5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-bakery-vs-dinosaurs-faa5"
+   "slug": "gjett-ordet-normal-jul-6795",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-jul-6795"
   },
   {
-   "slug": "lajittele-kuvat-bakery-vs-vehicles-5605",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-bakery-vs-vehicles-5605"
+   "slug": "gjett-ordet-normal-kjaeledyr-c134",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-kjaeledyr-c134"
   },
   {
-   "slug": "lajittele-kuvat-beach-vs-dinosaurs-d305",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "beach-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-beach-vs-dinosaurs-d305"
+   "slug": "gjett-ordet-normal-kjokkenredskaper-fb4f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-kjokkenredskaper-fb4f"
   },
   {
-   "slug": "lajittele-kuvat-beach-vs-vehicles-469f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "beach-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-beach-vs-vehicles-469f"
+   "slug": "gjett-ordet-normal-kjoretoy-e2bd",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-kjoretoy-e2bd"
   },
   {
-   "slug": "lajittele-kuvat-birds-vs-dinosaurs-e76a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "birds-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-birds-vs-dinosaurs-e76a"
+   "slug": "gjett-ordet-normal-klaer-24ea",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-klaer-24ea"
   },
   {
-   "slug": "lajittele-kuvat-birds-vs-vehicles-3324",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "birds-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-birds-vs-vehicles-3324"
+   "slug": "gjett-ordet-normal-klasserom-5e20",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-klasserom-5e20"
   },
   {
-   "slug": "lajittele-kuvat-body-parts-vs-vehicles-cc2b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "body_parts-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-body-parts-vs-vehicles-cc2b"
+   "slug": "gjett-ordet-normal-kroppsdeler-9bdb",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-kroppsdeler-9bdb"
   },
   {
-   "slug": "lajittele-kuvat-breakfast-vs-animals-1f36",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "breakfast-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-breakfast-vs-animals-1f36"
+   "slug": "gjett-ordet-normal-leker-f354",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-leker-f354"
   },
   {
-   "slug": "lajittele-kuvat-breakfast-vs-dinosaurs-2630",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "breakfast-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-breakfast-vs-dinosaurs-2630"
+   "slug": "gjett-ordet-normal-mobler-df7c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-mobler-df7c"
   },
   {
-   "slug": "lajittele-kuvat-breakfast-vs-flowers-13e6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "breakfast-vs-flowers",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-breakfast-vs-flowers-13e6"
+   "slug": "gjett-ordet-normal-musikk-de69",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "music",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-musikk-de69"
   },
   {
-   "slug": "lajittele-kuvat-camping-vs-animals-d84a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-camping-vs-animals-d84a"
+   "slug": "gjett-ordet-normal-paske-7362",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-paske-7362"
   },
   {
-   "slug": "lajittele-kuvat-camping-vs-dinosaurs-8d44",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-camping-vs-dinosaurs-8d44"
+   "slug": "gjett-ordet-normal-postkontor-db57",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-postkontor-db57"
   },
   {
-   "slug": "lajittele-kuvat-camping-vs-vehicles-509e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-camping-vs-vehicles-509e"
+   "slug": "gjett-ordet-normal-reptiler-og-amfibier-4436",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-reptiler-og-amfibier-4436"
   },
   {
-   "slug": "lajittele-kuvat-christmas-vs-animals-bcd8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "christmas-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-christmas-vs-animals-bcd8"
+   "slug": "gjett-ordet-normal-rundt-i-huset-492d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-rundt-i-huset-492d"
   },
   {
-   "slug": "lajittele-kuvat-christmas-vs-dinosaurs-7fc3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "christmas-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-christmas-vs-dinosaurs-7fc3"
+   "slug": "gjett-ordet-normal-skogsdyr-faef",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-skogsdyr-faef"
   },
   {
-   "slug": "lajittele-kuvat-christmas-vs-flowers-fd02",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "christmas-vs-flowers",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-christmas-vs-flowers-fd02"
+   "slug": "gjett-ordet-normal-sommer-d69e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-sommer-d69e"
   },
   {
-   "slug": "lajittele-kuvat-christmas-vs-vehicles-e5fd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "christmas-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-christmas-vs-vehicles-e5fd"
+   "slug": "gjett-ordet-normal-strand-5669",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-strand-5669"
   },
   {
-   "slug": "lajittele-kuvat-classroom-vs-animals-8bbd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-classroom-vs-animals-8bbd"
+   "slug": "gjett-ordet-normal-sykehus-e2e8",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-sykehus-e2e8"
   },
   {
-   "slug": "lajittele-kuvat-classroom-vs-dinosaurs-1bce",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-classroom-vs-dinosaurs-1bce"
+   "slug": "gjett-ordet-normal-thanksgiving-e10b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-thanksgiving-e10b"
   },
   {
-   "slug": "lajittele-kuvat-classroom-vs-vehicles-cd97",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-classroom-vs-vehicles-cd97"
+   "slug": "gjett-ordet-normal-tilbehor-7718",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-tilbehor-7718"
   },
   {
-   "slug": "lajittele-kuvat-clothing-vs-dinosaurs-3b85",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-clothing-vs-dinosaurs-3b85"
+   "slug": "gjett-ordet-normal-ting-som-flyr-d723",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-ting-som-flyr-d723"
   },
   {
-   "slug": "lajittele-kuvat-clothing-vs-vehicles-a285",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-clothing-vs-vehicles-a285"
+   "slug": "gjett-ordet-normal-traer-9d44",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-traer-9d44"
   },
   {
-   "slug": "lajittele-kuvat-colors-vs-dinosaurs-83c6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-colors-vs-dinosaurs-83c6"
+   "slug": "gjett-ordet-normal-vaer-7178",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-vaer-7178"
   },
   {
-   "slug": "lajittele-kuvat-colors-vs-vehicles-20a4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-colors-vs-vehicles-20a4"
+   "slug": "gjett-ordet-normal-var-ba21",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-var-ba21"
   },
   {
-   "slug": "lajittele-kuvat-desserts-and-sweets-vs-animals-bcdf",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "desserts_and_sweets-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-desserts-and-sweets-vs-animals-bcdf"
+   "slug": "gjett-ordet-normal-verdensrommet-4e85",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "space",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-verdensrommet-4e85"
   },
   {
-   "slug": "lajittele-kuvat-desserts-and-sweets-vs-dinosaurs-105c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "desserts_and_sweets-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-desserts-and-sweets-vs-dinosaurs-105c"
+   "slug": "gjett-ordet-normal-verktoy-f533",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-verktoy-f533"
   },
   {
-   "slug": "lajittele-kuvat-desserts-and-sweets-vs-vehicles-0028",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "desserts_and_sweets-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-desserts-and-sweets-vs-vehicles-0028"
+   "slug": "gjett-ordet-normal-vinter-6047",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-vinter-6047"
   },
   {
-   "slug": "lajittele-kuvat-dinosaurs-vs-animals-05f4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "dinosaurs-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-dinosaurs-vs-animals-05f4"
+   "slug": "gjett-ordet-normal-yrker-b7e6",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "3-trinn",
+   "deck": "gjett-ordet-normal-yrker-b7e6"
   },
   {
-   "slug": "lajittele-kuvat-dinosaurs-vs-flowers-0d11",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "dinosaurs-vs-flowers",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-dinosaurs-vs-flowers-0d11"
+   "slug": "finn-og-tell-finn-bokstaver-aktiviteter-e6f3",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-aktiviteter-e6f3"
   },
   {
-   "slug": "lajittele-kuvat-easter-vs-dinosaurs-9165",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "easter-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-easter-vs-dinosaurs-9165"
+   "slug": "finn-og-tell-finn-bokstaver-bakeri-5729",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-bakeri-5729"
   },
   {
-   "slug": "lajittele-kuvat-easter-vs-vehicles-1a21",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "easter-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-easter-vs-vehicles-1a21"
+   "slug": "finn-og-tell-finn-bokstaver-blomster-a9a0",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-blomster-a9a0"
   },
   {
-   "slug": "lajittele-kuvat-emotions-vs-dinosaurs-9247",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "emotions-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-emotions-vs-dinosaurs-9247"
+   "slug": "finn-og-tell-finn-bokstaver-camping-83f4",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-camping-83f4"
   },
   {
-   "slug": "lajittele-kuvat-emotions-vs-vehicles-8298",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "emotions-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-emotions-vs-vehicles-8298"
+   "slug": "finn-og-tell-finn-bokstaver-desserter-og-godteri-ea68",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-desserter-og-godteri-ea68"
   },
   {
-   "slug": "lajittele-kuvat-farm-animals-vs-dinosaurs-27d0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "farm_animals-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-farm-animals-vs-dinosaurs-27d0"
+   "slug": "finn-og-tell-finn-bokstaver-dyr-2534",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-dyr-2534"
   },
   {
-   "slug": "lajittele-kuvat-farm-animals-vs-vehicles-cada",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "farm_animals-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-farm-animals-vs-vehicles-cada"
+   "slug": "finn-og-tell-finn-bokstaver-dyrehagedyr-ab4a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-dyrehagedyr-ab4a"
   },
   {
-   "slug": "lajittele-kuvat-flowers-vs-animals-4cc8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-flowers-vs-animals-4cc8"
+   "slug": "finn-og-tell-finn-bokstaver-farger-a531",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-farger-a531"
   },
   {
-   "slug": "lajittele-kuvat-flowers-vs-dinosaurs-f21a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-flowers-vs-dinosaurs-f21a"
+   "slug": "finn-og-tell-finn-bokstaver-folelser-8df2",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-folelser-8df2"
   },
   {
-   "slug": "lajittele-kuvat-flowers-vs-vehicles-f362",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-flowers-vs-vehicles-f362"
+   "slug": "finn-og-tell-finn-bokstaver-former-a06f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-former-a06f"
   },
   {
-   "slug": "lajittele-kuvat-forest-creatures-vs-dinosaurs-0dbb",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "forest_creatures-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-forest-creatures-vs-dinosaurs-0dbb"
+   "slug": "finn-og-tell-finn-bokstaver-frokost-7ca3",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-frokost-7ca3"
   },
   {
-   "slug": "lajittele-kuvat-forest-creatures-vs-vehicles-1697",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "forest_creatures-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-forest-creatures-vs-vehicles-1697"
+   "slug": "finn-og-tell-finn-bokstaver-frukter-3888",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-frukter-3888"
   },
   {
-   "slug": "lajittele-kuvat-fruits-vs-animals-2a06",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-fruits-vs-animals-2a06"
+   "slug": "finn-og-tell-finn-bokstaver-fugler-2-efaa",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-fugler-2-efaa"
   },
   {
-   "slug": "lajittele-kuvat-fruits-vs-dinosaurs-211f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-fruits-vs-dinosaurs-211f"
+   "slug": "finn-og-tell-finn-bokstaver-gardsdyr-3508",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-gardsdyr-3508"
   },
   {
-   "slug": "lajittele-kuvat-fruits-vs-flowers-6773",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-flowers",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-fruits-vs-flowers-6773"
+   "slug": "finn-og-tell-finn-bokstaver-gronnsaker-9b14",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-gronnsaker-9b14"
   },
   {
-   "slug": "lajittele-kuvat-fruits-vs-vehicles-abe5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-fruits-vs-vehicles-abe5"
+   "slug": "finn-og-tell-finn-bokstaver-havliv-cc58",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-havliv-cc58"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-i-supermarkedet-4b84",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-i-supermarkedet-4b84"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-insekter-og-kryp-2c10",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-insekter-og-kryp-2c10"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-jul-fcc8",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-jul-fcc8"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-kjaeledyr-d19e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-kjaeledyr-d19e"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-kjokkenredskaper-37a4",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-kjokkenredskaper-37a4"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-kjoretoy-d3b0",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-kjoretoy-d3b0"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-klaer-f987",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-klaer-f987"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-klasserom-567f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-klasserom-567f"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-kroppsdeler-39af",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-kroppsdeler-39af"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-leker-4e9b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-leker-4e9b"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-mobler-7d60",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-mobler-7d60"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-musikk-a042",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-musikk-a042"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-paske-c641",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-paske-c641"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-postkontor-6439",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-postkontor-6439"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-reptiler-og-amfibier-750e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-reptiler-og-amfibier-750e"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-rundt-i-huset-3be1",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-rundt-i-huset-3be1"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-skogsdyr-910f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-skogsdyr-910f"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-sommer-a994",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-sommer-a994"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-strand-145c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-strand-145c"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-sykehus-6d79",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-sykehus-6d79"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-thanksgiving-f715",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-thanksgiving-f715"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-tilbehor-e913",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-tilbehor-e913"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-ting-som-flyr-542c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-ting-som-flyr-542c"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-traer-6791",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-traer-6791"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-vaer-e8e9",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-vaer-e8e9"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-var-3c43",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-var-3c43"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-verdensrommet-a0a9",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-verdensrommet-a0a9"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-verktoy-f9f1",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-verktoy-f9f1"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-vinter-d074",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-vinter-d074"
+  },
+  {
+   "slug": "finn-og-tell-finn-bokstaver-yrker-5d0c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "finn-og-tell-finn-bokstaver-yrker-5d0c"
   }
  ]
 }

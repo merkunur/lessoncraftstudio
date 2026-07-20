@@ -1,739 +1,814 @@
 {
  "part": 199,
- "locale": "nl",
+ "locale": "it",
  "classes": [
-  "crossword::null"
+  "chart-count::null",
+  "alphabet-train::letter-hint",
+  "alphabet-train::null",
+  "arrays-multiplication::arrays-repeated-addition"
  ],
  "splitOf": null,
- "count": 91,
+ "count": 100,
  "pages": [
   {
-   "slug": "engels-kruiswoordraadsel-4-juli-00d8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-4-juli-00d8"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-accessoires-98ab",
-   "type": "crossword",
-   "mode": null,
-   "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-accessoires-98ab"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-activiteiten-8634",
-   "type": "crossword",
-   "mode": null,
-   "theme": "activities",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-activiteiten-8634"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-bakkerij-0cf9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-bakkerij-0cf9"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-beroepen-8a00",
-   "type": "crossword",
-   "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-beroepen-8a00"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-bloemen-8d31",
-   "type": "crossword",
-   "mode": null,
-   "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-bloemen-8d31"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-boerderijdieren-ee3d",
-   "type": "crossword",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-boerderijdieren-ee3d"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-boswezens-6898",
-   "type": "crossword",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-boswezens-6898"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-desserts-en-snoep-7c94",
-   "type": "crossword",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-desserts-en-snoep-7c94"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-dieren-7b20",
-   "type": "crossword",
-   "mode": null,
-   "theme": "animals",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-dieren-7b20"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-dierentuindieren-1d96",
-   "type": "crossword",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-dierentuindieren-1d96"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-dingen-die-vliegen-1bb6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-dingen-die-vliegen-1bb6"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-emoties-77c6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-emoties-77c6"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-fruit-e6ab",
-   "type": "crossword",
-   "mode": null,
-   "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-fruit-e6ab"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-gereedschap-66d4",
-   "type": "crossword",
-   "mode": null,
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-gereedschap-66d4"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-groenten-0c32",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-groenten-0c32"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-huisdieren-6857",
-   "type": "crossword",
-   "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-huisdieren-6857"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-in-de-supermarkt-4583",
-   "type": "crossword",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-in-de-supermarkt-4583"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-insecten-en-beestjes-ac81",
-   "type": "crossword",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-insecten-en-beestjes-ac81"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-kamperen-bf8b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "camping",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-kamperen-bf8b"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-kerstmis-0ca7",
-   "type": "crossword",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-kerstmis-0ca7"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-keukengerei-4631",
-   "type": "crossword",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-keukengerei-4631"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-klaslokaal-c4ea",
-   "type": "crossword",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-klaslokaal-c4ea"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-kleding-8deb",
-   "type": "crossword",
+   "slug": "conteggio-grafico-abbigliamento-59b2",
+   "type": "chart-count",
    "mode": null,
    "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-kleding-8deb"
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-abbigliamento-59b2"
   },
   {
-   "slug": "engels-kruiswoordraadsel-kleuren-4958",
-   "type": "crossword",
-   "mode": null,
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-kleuren-4958"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-lente-2a83",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-lente-2a83"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-lichaamsdelen-1ca9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-lichaamsdelen-1ca9"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-meubels-32f0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-meubels-32f0"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-muziek-3a1b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-muziek-3a1b"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-oceaanleven-1599",
-   "type": "crossword",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-oceaanleven-1599"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-ontbijt-1ddc",
-   "type": "crossword",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-ontbijt-1ddc"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-pasen-2136",
-   "type": "crossword",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-pasen-2136"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-postkantoor-7d62",
-   "type": "crossword",
-   "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-postkantoor-7d62"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-rond-het-huis-a41b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-rond-het-huis-a41b"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-ruimte-34a0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-ruimte-34a0"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-speelgoed-d934",
-   "type": "crossword",
-   "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-speelgoed-d934"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-strand-6dbc",
-   "type": "crossword",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-strand-6dbc"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-thanksgiving-a567",
-   "type": "crossword",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-thanksgiving-a567"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-voertuigen-fd5b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-voertuigen-fd5b"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-vogels-2-73de",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-vogels-2-73de"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-vogels-f525",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-vogels-f525"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-vormen-bc95",
-   "type": "crossword",
-   "mode": null,
-   "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-vormen-bc95"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-weer-a997",
-   "type": "crossword",
-   "mode": null,
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-weer-a997"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-winter-c64d",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-winter-c64d"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-ziekenhuis-00c0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-ziekenhuis-00c0"
-  },
-  {
-   "slug": "engels-kruiswoordraadsel-zomer-4167",
-   "type": "crossword",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "engels-kruiswoordraadsel-zomer-4167"
-  },
-  {
-   "slug": "kruiswoordraadsel-accessoires-adfc",
-   "type": "crossword",
+   "slug": "conteggio-grafico-accessori-0385",
+   "type": "chart-count",
    "mode": null,
    "theme": "accessories",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-accessoires-adfc"
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-accessori-0385"
   },
   {
-   "slug": "kruiswoordraadsel-activiteiten-155e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "activities",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-activiteiten-155e"
-  },
-  {
-   "slug": "kruiswoordraadsel-bakkerij-97dc",
-   "type": "crossword",
-   "mode": null,
-   "theme": "bakery",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-bakkerij-97dc"
-  },
-  {
-   "slug": "kruiswoordraadsel-beroepen-56d7",
-   "type": "crossword",
-   "mode": null,
-   "theme": "occupations",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-beroepen-56d7"
-  },
-  {
-   "slug": "kruiswoordraadsel-bloemen-4441",
-   "type": "crossword",
-   "mode": null,
-   "theme": "flowers",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-bloemen-4441"
-  },
-  {
-   "slug": "kruiswoordraadsel-boerderijdieren-c3a6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-boerderijdieren-c3a6"
-  },
-  {
-   "slug": "kruiswoordraadsel-boswezens-e689",
-   "type": "crossword",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-boswezens-e689"
-  },
-  {
-   "slug": "kruiswoordraadsel-desserts-en-snoep-fd52",
-   "type": "crossword",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-desserts-en-snoep-fd52"
-  },
-  {
-   "slug": "kruiswoordraadsel-dieren-cc73",
-   "type": "crossword",
-   "mode": null,
-   "theme": "animals",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-dieren-cc73"
-  },
-  {
-   "slug": "kruiswoordraadsel-dierentuindieren-fd0e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-dierentuindieren-fd0e"
-  },
-  {
-   "slug": "kruiswoordraadsel-dingen-die-vliegen-bf52",
-   "type": "crossword",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-dingen-die-vliegen-bf52"
-  },
-  {
-   "slug": "kruiswoordraadsel-emoties-410a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "emotions",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-emoties-410a"
-  },
-  {
-   "slug": "kruiswoordraadsel-fruit-d2ad",
-   "type": "crossword",
-   "mode": null,
-   "theme": "fruits",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-fruit-d2ad"
-  },
-  {
-   "slug": "kruiswoordraadsel-gereedschap-ec00",
-   "type": "crossword",
-   "mode": null,
-   "theme": "tools",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-gereedschap-ec00"
-  },
-  {
-   "slug": "kruiswoordraadsel-groenten-7dd0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-groenten-7dd0"
-  },
-  {
-   "slug": "kruiswoordraadsel-huisdieren-9a13",
-   "type": "crossword",
-   "mode": null,
-   "theme": "pets",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-huisdieren-9a13"
-  },
-  {
-   "slug": "kruiswoordraadsel-in-de-supermarkt-49b0",
-   "type": "crossword",
+   "slug": "conteggio-grafico-al-supermercato-aeeb",
+   "type": "chart-count",
    "mode": null,
    "theme": "at_the_supermarket",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-in-de-supermarkt-49b0"
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-al-supermercato-aeeb"
   },
   {
-   "slug": "kruiswoordraadsel-insecten-en-beestjes-fbf9",
-   "type": "crossword",
+   "slug": "conteggio-grafico-alberi-e265",
+   "type": "chart-count",
    "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-insecten-en-beestjes-fbf9"
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-alberi-e265"
   },
   {
-   "slug": "kruiswoordraadsel-kamperen-1fd9",
-   "type": "crossword",
+   "slug": "conteggio-grafico-animali-9424",
+   "type": "chart-count",
    "mode": null,
-   "theme": "camping",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-kamperen-1fd9"
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-animali-9424"
   },
   {
-   "slug": "kruiswoordraadsel-kerstmis-c825",
-   "type": "crossword",
+   "slug": "conteggio-grafico-animali-dello-zoo-4ba0",
+   "type": "chart-count",
    "mode": null,
-   "theme": "christmas",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-kerstmis-c825"
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-animali-dello-zoo-4ba0"
   },
   {
-   "slug": "kruiswoordraadsel-keukengerei-e10a",
-   "type": "crossword",
+   "slug": "conteggio-grafico-animali-domestici-e0d8",
+   "type": "chart-count",
    "mode": null,
-   "theme": "kitchen_tools",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-keukengerei-e10a"
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-animali-domestici-e0d8"
   },
   {
-   "slug": "kruiswoordraadsel-klaslokaal-5941",
-   "type": "crossword",
+   "slug": "conteggio-grafico-attrezzi-29da",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "tools",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-attrezzi-29da"
+  },
+  {
+   "slug": "conteggio-grafico-aula-7705",
+   "type": "chart-count",
    "mode": null,
    "theme": "classroom",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-klaslokaal-5941"
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-aula-7705"
   },
   {
-   "slug": "kruiswoordraadsel-kleding-de56",
-   "type": "crossword",
+   "slug": "conteggio-grafico-campeggio-46d6",
+   "type": "chart-count",
    "mode": null,
-   "theme": "clothing",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-kleding-de56"
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-campeggio-46d6"
   },
   {
-   "slug": "kruiswoordraadsel-kleuren-dc6f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "colors",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-kleuren-dc6f"
-  },
-  {
-   "slug": "kruiswoordraadsel-lente-5789",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-lente-5789"
-  },
-  {
-   "slug": "kruiswoordraadsel-lichaamsdelen-bbb1",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-lichaamsdelen-bbb1"
-  },
-  {
-   "slug": "kruiswoordraadsel-meubels-6b34",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-meubels-6b34"
-  },
-  {
-   "slug": "kruiswoordraadsel-muziek-a8d0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-muziek-a8d0"
-  },
-  {
-   "slug": "kruiswoordraadsel-oceaanleven-9758",
-   "type": "crossword",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-oceaanleven-9758"
-  },
-  {
-   "slug": "kruiswoordraadsel-ontbijt-38af",
-   "type": "crossword",
+   "slug": "conteggio-grafico-colazione-decf",
+   "type": "chart-count",
    "mode": null,
    "theme": "breakfast",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-ontbijt-38af"
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-colazione-decf"
   },
   {
-   "slug": "kruiswoordraadsel-pasen-6b1a",
-   "type": "crossword",
+   "slug": "conteggio-grafico-colori-b41d",
+   "type": "chart-count",
    "mode": null,
-   "theme": "easter",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-pasen-6b1a"
+   "theme": "colors",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-colori-b41d"
   },
   {
-   "slug": "kruiswoordraadsel-postkantoor-9e0e",
-   "type": "crossword",
+   "slug": "conteggio-grafico-cose-che-volano-ce5e",
+   "type": "chart-count",
    "mode": null,
-   "theme": "post_office",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-postkantoor-9e0e"
+   "theme": "things_that_fly",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-cose-che-volano-ce5e"
   },
   {
-   "slug": "kruiswoordraadsel-rond-het-huis-d923",
-   "type": "crossword",
+   "slug": "conteggio-grafico-creature-della-foresta-a316",
+   "type": "chart-count",
    "mode": null,
-   "theme": "around_the_house",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-rond-het-huis-d923"
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-creature-della-foresta-a316"
   },
   {
-   "slug": "kruiswoordraadsel-ruimte-9390",
-   "type": "crossword",
+   "slug": "conteggio-grafico-dinosauri-80c5",
+   "type": "chart-count",
    "mode": null,
-   "theme": "space",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-ruimte-9390"
+   "theme": "dinosaurs",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-dinosauri-80c5"
   },
   {
-   "slug": "kruiswoordraadsel-speelgoed-2166",
-   "type": "crossword",
+   "slug": "conteggio-grafico-dolci-e-dolciumi-f377",
+   "type": "chart-count",
    "mode": null,
-   "theme": "toys",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-speelgoed-2166"
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-dolci-e-dolciumi-f377"
   },
   {
-   "slug": "kruiswoordraadsel-strand-f9bd",
-   "type": "crossword",
+   "slug": "conteggio-grafico-fiori-c74c",
+   "type": "chart-count",
    "mode": null,
-   "theme": "beach",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-strand-f9bd"
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-fiori-c74c"
   },
   {
-   "slug": "kruiswoordraadsel-thanksgiving-6e3c",
-   "type": "crossword",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-thanksgiving-6e3c"
-  },
-  {
-   "slug": "kruiswoordraadsel-voertuigen-16f0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-voertuigen-16f0"
-  },
-  {
-   "slug": "kruiswoordraadsel-vogels-2-c8c2",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-vogels-2-c8c2"
-  },
-  {
-   "slug": "kruiswoordraadsel-vogels-a534",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-vogels-a534"
-  },
-  {
-   "slug": "kruiswoordraadsel-vormen-b1dd",
-   "type": "crossword",
+   "slug": "conteggio-grafico-forme-5b81",
+   "type": "chart-count",
    "mode": null,
    "theme": "shapes",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-vormen-b1dd"
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-forme-5b81"
   },
   {
-   "slug": "kruiswoordraadsel-weer-5ca0",
-   "type": "crossword",
+   "slug": "conteggio-grafico-frutta-1809",
+   "type": "chart-count",
    "mode": null,
-   "theme": "weather",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-weer-5ca0"
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-frutta-1809"
   },
   {
-   "slug": "kruiswoordraadsel-winter-397a",
-   "type": "crossword",
+   "slug": "conteggio-grafico-giocattoli-ebe3",
+   "type": "chart-count",
    "mode": null,
-   "theme": "winter",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-winter-397a"
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-giocattoli-ebe3"
   },
   {
-   "slug": "kruiswoordraadsel-ziekenhuis-48fd",
-   "type": "crossword",
+   "slug": "conteggio-grafico-giorno-del-ringraziamento-07b4",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-giorno-del-ringraziamento-07b4"
+  },
+  {
+   "slug": "conteggio-grafico-in-giro-per-casa-17fb",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-in-giro-per-casa-17fb"
+  },
+  {
+   "slug": "conteggio-grafico-insetti-e-scarafaggi-33ec",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-insetti-e-scarafaggi-33ec"
+  },
+  {
+   "slug": "conteggio-grafico-mobili-65c2",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-mobili-65c2"
+  },
+  {
+   "slug": "conteggio-grafico-musica-4251",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-musica-4251"
+  },
+  {
+   "slug": "conteggio-grafico-natale-8c68",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-natale-8c68"
+  },
+  {
+   "slug": "conteggio-grafico-ospedale-6f81",
+   "type": "chart-count",
    "mode": null,
    "theme": "hospital",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-ziekenhuis-48fd"
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-ospedale-6f81"
   },
   {
-   "slug": "kruiswoordraadsel-zomer-b024",
-   "type": "crossword",
+   "slug": "conteggio-grafico-panetteria-1d9b",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "bakery",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-panetteria-1d9b"
+  },
+  {
+   "slug": "conteggio-grafico-pasqua-c460",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-pasqua-c460"
+  },
+  {
+   "slug": "conteggio-grafico-professioni-8019",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-professioni-8019"
+  },
+  {
+   "slug": "conteggio-grafico-rettili-e-anfibi-cea4",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-rettili-e-anfibi-cea4"
+  },
+  {
+   "slug": "conteggio-grafico-spazio-492e",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-spazio-492e"
+  },
+  {
+   "slug": "conteggio-grafico-spiaggia-297d",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-spiaggia-297d"
+  },
+  {
+   "slug": "conteggio-grafico-uccelli-2-7135",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-uccelli-2-7135"
+  },
+  {
+   "slug": "conteggio-grafico-uccelli-bc37",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-uccelli-bc37"
+  },
+  {
+   "slug": "conteggio-grafico-ufficio-postale-4992",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "post_office",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-ufficio-postale-4992"
+  },
+  {
+   "slug": "conteggio-grafico-utensili-da-cucina-c531",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-utensili-da-cucina-c531"
+  },
+  {
+   "slug": "conteggio-grafico-veicoli-1058",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-veicoli-1058"
+  },
+  {
+   "slug": "conteggio-grafico-verdure-7797",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-verdure-7797"
+  },
+  {
+   "slug": "conteggio-grafico-vita-oceanica-8760",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-vita-oceanica-8760"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-abbigliamento-bc20",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-abbigliamento-bc20"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-accessori-ea2b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-accessori-ea2b"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-al-supermercato-9d14",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-al-supermercato-9d14"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-alberi-16a6",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-alberi-16a6"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-animali-2d0d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-animali-2d0d"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-animali-dello-zoo-87a4",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-animali-dello-zoo-87a4"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-attivita-90e3",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-attivita-90e3"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-aula-65bd",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-aula-65bd"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-campeggio-7500",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-campeggio-7500"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-colazione-7944",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-colazione-7944"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-colori-3482",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-colori-3482"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-cose-che-volano-722b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-cose-che-volano-722b"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-creature-della-foresta-a917",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-creature-della-foresta-a917"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-dinosauri-ccbc",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-dinosauri-ccbc"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-dolci-e-dolciumi-0dd6",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-dolci-e-dolciumi-0dd6"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-estate-b3c1",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-estate-b3c1"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-fiori-baac",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-fiori-baac"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-giocattoli-f0a5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-giocattoli-f0a5"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-in-giro-per-casa-947a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-in-giro-per-casa-947a"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-inverno-d87d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-inverno-d87d"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-meteo-1df2",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-meteo-1df2"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-natale-f672",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-natale-f672"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-ospedale-738c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-ospedale-738c"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-parti-del-corpo-618a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-parti-del-corpo-618a"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-primavera-28f0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-primavera-28f0"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-professioni-e397",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-professioni-e397"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-spazio-eae5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-spazio-eae5"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-spiaggia-8b05",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-spiaggia-8b05"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-uccelli-2-29b1",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-uccelli-2-29b1"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-veicoli-4b41",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-veicoli-4b41"
+  },
+  {
+   "slug": "treno-dell-alfabeto-indizio-lettera-vita-oceanica-56f2",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-indizio-lettera-vita-oceanica-56f2"
+  },
+  {
+   "slug": "treno-dell-alfabeto-abbigliamento-cf38",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-abbigliamento-cf38"
+  },
+  {
+   "slug": "treno-dell-alfabeto-accessori-7a6b",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-accessori-7a6b"
+  },
+  {
+   "slug": "treno-dell-alfabeto-al-supermercato-b280",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-al-supermercato-b280"
+  },
+  {
+   "slug": "treno-dell-alfabeto-alberi-c56b",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-alberi-c56b"
+  },
+  {
+   "slug": "treno-dell-alfabeto-animali-a6c4",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-animali-a6c4"
+  },
+  {
+   "slug": "treno-dell-alfabeto-animali-dello-zoo-da33",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-animali-dello-zoo-da33"
+  },
+  {
+   "slug": "treno-dell-alfabeto-aula-8a92",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-aula-8a92"
+  },
+  {
+   "slug": "treno-dell-alfabeto-campeggio-0a3c",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-campeggio-0a3c"
+  },
+  {
+   "slug": "treno-dell-alfabeto-colazione-06e9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-colazione-06e9"
+  },
+  {
+   "slug": "treno-dell-alfabeto-colori-5a2f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-colori-5a2f"
+  },
+  {
+   "slug": "treno-dell-alfabeto-cose-che-volano-dc23",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-cose-che-volano-dc23"
+  },
+  {
+   "slug": "treno-dell-alfabeto-creature-della-foresta-6316",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-creature-della-foresta-6316"
+  },
+  {
+   "slug": "treno-dell-alfabeto-dolci-e-dolciumi-c7d9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-dolci-e-dolciumi-c7d9"
+  },
+  {
+   "slug": "treno-dell-alfabeto-estate-fc6c",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "summer",
-   "level": "groep-4",
-   "deck": "kruiswoordraadsel-zomer-b024"
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-estate-fc6c"
+  },
+  {
+   "slug": "treno-dell-alfabeto-giocattoli-3c5f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-giocattoli-3c5f"
+  },
+  {
+   "slug": "treno-dell-alfabeto-in-giro-per-casa-ae82",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-in-giro-per-casa-ae82"
+  },
+  {
+   "slug": "treno-dell-alfabeto-inverno-6ed9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-inverno-6ed9"
+  },
+  {
+   "slug": "treno-dell-alfabeto-meteo-9851",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-meteo-9851"
+  },
+  {
+   "slug": "treno-dell-alfabeto-natale-2cfe",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-natale-2cfe"
+  },
+  {
+   "slug": "treno-dell-alfabeto-ospedale-6ed5",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-ospedale-6ed5"
+  },
+  {
+   "slug": "treno-dell-alfabeto-parti-del-corpo-c7c6",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-parti-del-corpo-c7c6"
+  },
+  {
+   "slug": "treno-dell-alfabeto-primavera-1d22",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-primavera-1d22"
+  },
+  {
+   "slug": "treno-dell-alfabeto-professioni-a466",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-professioni-a466"
+  },
+  {
+   "slug": "treno-dell-alfabeto-spazio-3d5e",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-spazio-3d5e"
+  },
+  {
+   "slug": "treno-dell-alfabeto-spiaggia-e482",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-spiaggia-e482"
+  },
+  {
+   "slug": "treno-dell-alfabeto-uccelli-2-6da9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-uccelli-2-6da9"
+  },
+  {
+   "slug": "treno-dell-alfabeto-veicoli-e9e9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-veicoli-e9e9"
+  },
+  {
+   "slug": "treno-dell-alfabeto-vita-oceanica-8762",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "treno-dell-alfabeto-vita-oceanica-8762"
+  },
+  {
+   "slug": "schede-schieramenti-moltiplicazione-classe-seconda",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "classe-seconda",
+   "deck": "schieramenti-moltiplicazione-forme-g2209"
   }
  ]
 }

@@ -2,651 +2,627 @@
  "part": 347,
  "locale": "fi",
  "classes": [
-  "math-puzzle::mixed",
-  "math-puzzle::subtraction"
+  "big-small::orderAsc",
+  "big-small::findBig"
  ],
  "splitOf": null,
- "count": 80,
+ "count": 77,
  "pages": [
   {
-   "slug": "matematiikkapulma-sekoitettu-aamiainen-2f60",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-aamiainen-ceb8",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "breakfast",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-sekoitettu-aamiainen-2f60"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-aamiainen-ceb8"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-ajoneuvot-9a43",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-ajoneuvot-28e3",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "vehicles",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-ajoneuvot-9a43"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-ajoneuvot-28e3"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-ammatit-df11",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-ammatit-d8a9",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "occupations",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-ammatit-df11"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-ammatit-d8a9"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-asusteet-7549",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-asusteet-0d6f",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "accessories",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-sekoitettu-asusteet-7549"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-asusteet-0d6f"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-avaruus-a41d",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-avaruus-4bc4",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "space",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-avaruus-a41d"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-avaruus-4bc4"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-dinosaurukset-b8a5",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-dinosaurukset-86c2",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "dinosaurs",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-dinosaurukset-b8a5"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-dinosaurukset-86c2"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-elaimet",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-elaimet-c5ff",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "animals",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-sekoitettu-elaimet"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-elaimet-c5ff"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-elaintarhan-elaimet-2e02",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-elaintarhan-elaimet-96f4",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "zoo_animals",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-elaintarhan-elaimet-2e02"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-elaintarhan-elaimet-96f4"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-hedelmat-81b4",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-hedelmat-6466",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "fruits",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-hedelmat-81b4"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-hedelmat-6466"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-huonekalut-c045",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-huonekalut-4e95",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "furniture",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-huonekalut-c045"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-huonekalut-4e95"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-hyonteiset-ja-otokat-3592",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-hyonteiset-ja-otokat-d558",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "insects_and_bugs",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-hyonteiset-ja-otokat-3592"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-hyonteiset-ja-otokat-d558"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-jalkiruoat-ja-makeiset-3d91",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-jalkiruoat-ja-makeiset-a90f",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "desserts_and_sweets",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-jalkiruoat-ja-makeiset-3d91"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-jalkiruoat-ja-makeiset-a90f"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-joulu-15f6",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-joulu-b30f",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "christmas",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-joulu-15f6"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-joulu-b30f"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-keittiovalineet-ade1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-keittiovalineet-3f65",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "kitchen_tools",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-sekoitettu-keittiovalineet-ade1"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-keittiovalineet-3f65"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-kiitospaiva-9805",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-kiitospaiva-66c0",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "thanksgivinng",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-kiitospaiva-9805"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-kiitospaiva-66c0"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-kodin-ymparilla-6b11",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-kodin-ymparilla-88bb",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "around_the_house",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-kodin-ymparilla-6b11"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-kodin-ymparilla-88bb"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-kukat-0d9c",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-kukat-3f2e",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "flowers",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-sekoitettu-kukat-0d9c"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-kukat-3f2e"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-leipomo-80d5",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-leipomo-43bb",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "bakery",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-sekoitettu-leipomo-80d5"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-leipomo-43bb"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-leirielama-2a83",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-leirielama-1cf1",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "camping",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-leirielama-2a83"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-leirielama-1cf1"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-lelut-3fee",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-lelut-1203",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "toys",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-lelut-3fee"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-lelut-1203"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-lemmikit-b2d7",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-lemmikit-3962",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "pets",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-sekoitettu-lemmikit-b2d7"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-lemmikit-3962"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-lentavat-asiat-0f63",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-lentavat-asiat-1655",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "things_that_fly",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-lentavat-asiat-0f63"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-lentavat-asiat-1655"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-linnut-2-a6e5",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-linnut-2-1b39",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "birds_2",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-sekoitettu-linnut-2-a6e5"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-linnut-2-1b39"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-linnut-a060",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-linnut-9003",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "birds",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-linnut-a060"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-linnut-9003"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-luokkahuone-b7b4",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-luokkahuone-fb1e",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "classroom",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-luokkahuone-b7b4"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-luokkahuone-fb1e"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-maatilan-elaimet-e329",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-maatilan-elaimet-0ed7",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "farm_animals",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-maatilan-elaimet-e329"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-maatilan-elaimet-0ed7"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-matelijat-ja-sammakkoelaimet-27a7",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-matelijat-ja-sammakkoelaimet-2917",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "reptiles_and_amphibians",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-matelijat-ja-sammakkoelaimet-27a7"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-matelijat-ja-sammakkoelaimet-2917"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-merielama-4b19",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-merielama-0817",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "ocean_life",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-merielama-4b19"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-merielama-0817"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-metsan-elaimet-10f5",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-metsan-elaimet-e6ce",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "forest_creatures",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-sekoitettu-metsan-elaimet-10f5"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-metsan-elaimet-e6ce"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-muodot-b4bc",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-muodot-dd66",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "shapes",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-muodot-b4bc"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-muodot-dd66"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-musiikki-3e03",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-musiikki-b68b",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "music",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-musiikki-3e03"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-musiikki-b68b"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-paasiainen-05bc",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-paasiainen-b876",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "easter",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-sekoitettu-paasiainen-05bc"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-paasiainen-b876"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-postitoimisto-ad32",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-postitoimisto-a487",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "post_office",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-postitoimisto-ad32"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-postitoimisto-a487"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-puut-2986",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-puut-526d",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "tree",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-puut-2986"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-puut-526d"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-ranta-405a",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-ranta-9b62",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "beach",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-ranta-405a"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-ranta-9b62"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-ruokakaupassa-c476",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-ruokakaupassa-cda3",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "at_the_supermarket",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-ruokakaupassa-c476"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-ruokakaupassa-cda3"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-sairaala-fe34",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-ruumiinosat-d2e5",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-ruumiinosat-d2e5"
+  },
+  {
+   "slug": "iso-pieni-nouseva-jarjestys-sairaala-049c",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "hospital",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-sekoitettu-sairaala-fe34"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-sairaala-049c"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-tyokalut-f60f",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-tyokalut-6cdd",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "tools",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-sekoitettu-tyokalut-f60f"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-tyokalut-6cdd"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-vaatteet-9872",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-vaatteet-2ff2",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "clothing",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-vaatteet-9872"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-vaatteet-2ff2"
   },
   {
-   "slug": "matematiikkapulma-sekoitettu-vihannekset-4b02",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "iso-pieni-nouseva-jarjestys-vihannekset-c91e",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "vegetables",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-sekoitettu-vihannekset-4b02"
+   "level": "esikoulu",
+   "deck": "iso-pieni-nouseva-jarjestys-vihannekset-c91e"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-aamiainen-c154",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-aamiainen-ed13",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "breakfast",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-aamiainen-c154"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-aamiainen-ed13"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-ajoneuvot-5faf",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-ajoneuvot-6069",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "vehicles",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-ajoneuvot-5faf"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-ajoneuvot-6069"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-ammatit-a95e",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-ammatit-414b",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "occupations",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-ammatit-a95e"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-ammatit-414b"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-asusteet-54e0",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-asusteet-2e02",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "accessories",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-asusteet-54e0"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-asusteet-2e02"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-avaruus-c403",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-avaruus-e0c2",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "space",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-avaruus-c403"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-avaruus-e0c2"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-dinosaurukset-8e9f",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-dinosaurukset-f5ab",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "dinosaurs",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-dinosaurukset-8e9f"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-dinosaurukset-f5ab"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-elaimet-a99b",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-elaimet-ec06",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "animals",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-elaimet-a99b"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-elaimet-ec06"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-elaintarhan-elaimet-17a7",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-elaintarhan-elaimet-445a",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "zoo_animals",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-elaintarhan-elaimet-17a7"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-elaintarhan-elaimet-445a"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-hedelmat-3aba",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-hedelmat-e809",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "fruits",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-hedelmat-3aba"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-hedelmat-e809"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-huonekalut-fbc4",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-huonekalut-9069",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "furniture",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-huonekalut-fbc4"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-huonekalut-9069"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-hyonteiset-ja-otokat-326f",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "insects_and_bugs",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-hyonteiset-ja-otokat-326f"
-  },
-  {
-   "slug": "matematiikkapulma-vahennyslasku-jalkiruoat-ja-makeiset-eae5",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-jalkiruoat-ja-makeiset-d88d",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "desserts_and_sweets",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-jalkiruoat-ja-makeiset-eae5"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-jalkiruoat-ja-makeiset-d88d"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-joulu-4558",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-joulu-5f06",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "christmas",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-joulu-4558"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-joulu-5f06"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-keittiovalineet-db5f",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-keittiovalineet-b7de",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "kitchen_tools",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-keittiovalineet-db5f"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-keittiovalineet-b7de"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-kiitospaiva-2874",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "thanksgivinng",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-kiitospaiva-2874"
-  },
-  {
-   "slug": "matematiikkapulma-vahennyslasku-kodin-ymparilla-6f99",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-kodin-ymparilla-33c3",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "around_the_house",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-kodin-ymparilla-6f99"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-kodin-ymparilla-33c3"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-kukat-df80",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-kukat-becb",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "flowers",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-kukat-df80"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-kukat-becb"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-leipomo-0283",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-leipomo-16de",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "bakery",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-leipomo-0283"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-leipomo-16de"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-leirielama-1b06",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-leirielama-4fd5",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "camping",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-leirielama-1b06"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-leirielama-4fd5"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-lelut-2d85",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-lelut-242f",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "toys",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-lelut-2d85"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-lelut-242f"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-lemmikit-8794",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-lemmikit-6ba1",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "pets",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-lemmikit-8794"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-lemmikit-6ba1"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-lentavat-asiat-d877",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-lentavat-asiat-3fc7",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "things_that_fly",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-lentavat-asiat-d877"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-lentavat-asiat-3fc7"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-linnut-2-145b",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-linnut-2-e4c5",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "birds_2",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-linnut-2-145b"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-linnut-2-e4c5"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-linnut-db76",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "birds",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-linnut-db76"
-  },
-  {
-   "slug": "matematiikkapulma-vahennyslasku-luokkahuone-5453",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-luokkahuone-afef",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "classroom",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-luokkahuone-5453"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-luokkahuone-afef"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-maatilan-elaimet-c0da",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-maatilan-elaimet-c685",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "farm_animals",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-maatilan-elaimet-c0da"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-maatilan-elaimet-c685"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-matelijat-ja-sammakkoelaimet-218a",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-matelijat-ja-sammakkoelaimet-218a"
-  },
-  {
-   "slug": "matematiikkapulma-vahennyslasku-merielama-c7a6",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-merielama-f445",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "ocean_life",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-merielama-c7a6"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-merielama-f445"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-metsan-elaimet-3180",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-metsan-elaimet-9ede",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "forest_creatures",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-metsan-elaimet-3180"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-metsan-elaimet-9ede"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-muodot-c7dc",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-muodot-8841",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "shapes",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-muodot-c7dc"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-muodot-8841"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-musiikki-db7b",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-musiikki-db1a",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "music",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-musiikki-db7b"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-musiikki-db1a"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-paasiainen-9b6c",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-paasiainen-192b",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "easter",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-paasiainen-9b6c"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-paasiainen-192b"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-postitoimisto-fd3c",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "post_office",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-postitoimisto-fd3c"
-  },
-  {
-   "slug": "matematiikkapulma-vahennyslasku-puut-cf91",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-puut-f50c",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "tree",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-puut-cf91"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-puut-f50c"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-ranta-34aa",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-ranta-1a31",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "beach",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-ranta-34aa"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-ranta-1a31"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-ruokakaupassa-9c81",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-ruokakaupassa-21b6",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "at_the_supermarket",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-ruokakaupassa-9c81"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-ruokakaupassa-21b6"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-sairaala-62d5",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-ruumiinosat-4346",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-ruumiinosat-4346"
+  },
+  {
+   "slug": "iso-pieni-etsi-iso-sairaala-726b",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "hospital",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-sairaala-62d5"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-sairaala-726b"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-tyokalut-adc4",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-tyokalut-6dda",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "tools",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-tyokalut-adc4"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-tyokalut-6dda"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-vaatteet-083e",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-vaatteet-44a3",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "clothing",
-   "level": "2-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-vaatteet-083e"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-vaatteet-44a3"
   },
   {
-   "slug": "matematiikkapulma-vahennyslasku-vihannekset-69e9",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "iso-pieni-etsi-iso-vihannekset-a6ce",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "vegetables",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-vahennyslasku-vihannekset-69e9"
+   "level": "esikoulu",
+   "deck": "iso-pieni-etsi-iso-vihannekset-a6ce"
   }
  ]
 }

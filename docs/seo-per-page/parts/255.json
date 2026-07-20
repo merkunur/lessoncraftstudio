@@ -2,488 +2,763 @@
  "part": 255,
  "locale": "sv",
  "classes": [
-  "picture-path::classic-maze",
-  "odd-one-out::cross-theme",
-  "arrays-multiplication::arrays-repeated-addition",
-  "arrays-multiplication::multiply-and-divide",
-  "fractions::name-and-compare",
-  "fractions::partition-and-share",
-  "geometry::count-and-sort-shapes",
-  "geometry::quadrilaterals-and-area",
-  "geometry::shape-attributes",
-  "graphing-data::graphs-and-line-plots",
-  "graphing-data::read-picture-bar-graphs",
-  "graphing-data::scaled-graphs",
-  "measurement::compare-weight",
-  "measurement::length-units",
-  "measurement::measure-and-compare-length",
-  "measurement::volume-and-temperature",
-  "number-charts::hundreds-chart-skip-count",
-  "number-charts::number-patterns",
-  "number-charts::numbers-to-20",
-  "number-charts::skip-count-and-100-more-less",
-  "telling-time::hour-half-hour",
-  "telling-time::to-five-minutes",
-  "telling-time::to-the-minute"
+  "find-objects::i-spy",
+  "missing-pieces::one-missing"
  ],
  "splitOf": null,
- "count": 57,
+ "count": 94,
  "pages": [
   {
-   "slug": "bildvag-klassisk-labyrint-aktiviteter-49f3",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "hitta-foremalen-jag-ser-jag-ser-aktiviteter-5587",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "activities",
    "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-aktiviteter-49f3"
+   "deck": "hitta-foremalen-jag-ser-jag-ser-aktiviteter-5587"
   },
   {
-   "slug": "bildvag-klassisk-labyrint-bageri-4006",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "hitta-foremalen-jag-ser-jag-ser-bageri-a984",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "bakery",
    "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-bageri-4006"
+   "deck": "hitta-foremalen-jag-ser-jag-ser-bageri-a984"
   },
   {
-   "slug": "bildvag-klassisk-labyrint-blommor-1808",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "hitta-foremalen-jag-ser-jag-ser-blommor-38ea",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "flowers",
    "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-blommor-1808"
+   "deck": "hitta-foremalen-jag-ser-jag-ser-blommor-38ea"
   },
   {
-   "slug": "bildvag-klassisk-labyrint-camping-465c",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "hitta-foremalen-jag-ser-jag-ser-bondgardsdjur-70ea",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-bondgardsdjur-70ea"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-camping-fe7e",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "camping",
    "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-camping-465c"
+   "deck": "hitta-foremalen-jag-ser-jag-ser-camping-fe7e"
   },
   {
-   "slug": "bildvag-klassisk-labyrint-efterratter-och-godis-8db7",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "desserts_and_sweets",
+   "slug": "hitta-foremalen-jag-ser-jag-ser-dinosaurier-d660",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "dinosaurs",
    "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-efterratter-och-godis-8db7"
+   "deck": "hitta-foremalen-jag-ser-jag-ser-dinosaurier-d660"
   },
   {
-   "slug": "bildvag-klassisk-labyrint-fordon-57bb",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "vehicles",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-fordon-57bb"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-frukost-6507",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "breakfast",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-frukost-6507"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-frukter-1c9f",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "fruits",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-frukter-1c9f"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-gronsaker-e607",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "vegetables",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-gronsaker-e607"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-i-snabbkopet-de84",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-i-snabbkopet-de84"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-jul-a393",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "christmas",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-jul-a393"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-klader-c7c9",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "clothing",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-klader-c7c9"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-klassrum-ab17",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "classroom",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-klassrum-ab17"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-koksredskap-d23a",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-koksredskap-d23a"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-kroppsdelar-c316",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-kroppsdelar-c316"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-leksaker-b12a",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "toys",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-leksaker-b12a"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-mobler-93ad",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "furniture",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-mobler-93ad"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-musik-ed47",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "music",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-musik-ed47"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-pask-8642",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "easter",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-pask-8642"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-postkontor-fd59",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "post_office",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-postkontor-fd59"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-runt-huset-da31",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-runt-huset-da31"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-rymden-71ee",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "space",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-rymden-71ee"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-saker-som-flyger-6ed1",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-saker-som-flyger-6ed1"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-sjukhus-45c0",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "hospital",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-sjukhus-45c0"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-sommar-1ac3",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "summer",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-sommar-1ac3"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-strand-790d",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "beach",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-strand-790d"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-thanksgiving-96d8",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-thanksgiving-96d8"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-tillbehor-d5cc",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "accessories",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-tillbehor-d5cc"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-trad-3eb1",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "tree",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-trad-3eb1"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-vader-6d38",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "weather",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-vader-6d38"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-var-dc10",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "spring",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-var-dc10"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-verktyg-91a7",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "tools",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-verktyg-91a7"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-vinter-ea0f",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "winter",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-vinter-ea0f"
-  },
-  {
-   "slug": "bildvag-klassisk-labyrint-yrken-ed1f",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "occupations",
-   "level": "forskola",
-   "deck": "bildvag-klassisk-labyrint-yrken-ed1f"
-  },
-  {
-   "slug": "vilken-passar-inte-tvartema-bageri-d297",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "bakery",
-   "level": "forskola",
-   "deck": "vilken-passar-inte-tvartema-bageri-d297"
-  },
-  {
-   "slug": "vilken-passar-inte-tvartema-djur-78ef",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "hitta-foremalen-jag-ser-jag-ser-djur-978e",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "animals",
    "level": "forskola",
-   "deck": "vilken-passar-inte-tvartema-djur-78ef"
+   "deck": "hitta-foremalen-jag-ser-jag-ser-djur-978e"
   },
   {
-   "slug": "rader-och-kolumner-lika-grupper-ak-2",
-   "type": "arrays-multiplication",
-   "mode": "arrays-repeated-addition",
-   "theme": "",
-   "level": "ak-2",
-   "deck": "multiplikation-bilder-djur-g2209"
-  },
-  {
-   "slug": "multiplikationstabellen-rader-kolumner-ak-3",
-   "type": "arrays-multiplication",
-   "mode": "multiply-and-divide",
-   "theme": "",
-   "level": "ak-3",
-   "deck": "multiplikation-bilder-g3313"
-  },
-  {
-   "slug": "brak-tallinjen-ak-3",
-   "type": "fractions",
-   "mode": "name-and-compare",
-   "theme": "",
-   "level": "ak-3",
-   "deck": "brak-g3315"
-  },
-  {
-   "slug": "brak-lika-delar-ak-2",
-   "type": "fractions",
-   "mode": "partition-and-share",
-   "theme": "",
-   "level": "ak-2",
-   "deck": "brak-g2228"
-  },
-  {
-   "slug": "geometri-former-forskola",
-   "type": "geometry",
-   "mode": "count-and-sort-shapes",
-   "theme": "",
+   "slug": "hitta-foremalen-jag-ser-jag-ser-djurparksdjur-f6b6",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "zoo_animals",
    "level": "forskola",
-   "deck": "geometri-k075"
+   "deck": "hitta-foremalen-jag-ser-jag-ser-djurparksdjur-f6b6"
   },
   {
-   "slug": "geometri-omkrets-area-ak-3",
-   "type": "geometry",
-   "mode": "quadrilaterals-and-area",
-   "theme": "",
-   "level": "ak-3",
-   "deck": "geometri-g3337"
-  },
-  {
-   "slug": "geometri-kroppar-ak-2",
-   "type": "geometry",
-   "mode": "shape-attributes",
-   "theme": "",
-   "level": "ak-2",
-   "deck": "geometri-g2241"
-  },
-  {
-   "slug": "diagram-ak-2",
-   "type": "graphing-data",
-   "mode": "graphs-and-line-plots",
-   "theme": "",
-   "level": "ak-2",
-   "deck": "diagram-djur-g2237"
-  },
-  {
-   "slug": "diagram-ak-1",
-   "type": "graphing-data",
-   "mode": "read-picture-bar-graphs",
-   "theme": "",
-   "level": "ak-1",
-   "deck": "diagram-djur-g1144"
-  },
-  {
-   "slug": "diagram-ak-3",
-   "type": "graphing-data",
-   "mode": "scaled-graphs",
-   "theme": "",
-   "level": "ak-3",
-   "deck": "diagram-djur-g3335"
-  },
-  {
-   "slug": "jamfora-vikt-tung-eller-latt-forskola",
-   "type": "measurement",
-   "mode": "compare-weight",
-   "theme": "",
+   "slug": "hitta-foremalen-jag-ser-jag-ser-efterratter-och-godis-30b9",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "desserts_and_sweets",
    "level": "forskola",
-   "deck": "matning-djur-k038"
+   "deck": "hitta-foremalen-jag-ser-jag-ser-efterratter-och-godis-30b9"
   },
   {
-   "slug": "mata-langd-med-enheter-ak-1",
-   "type": "measurement",
-   "mode": "length-units",
-   "theme": "",
-   "level": "ak-1",
-   "deck": "matning-djur-g1139"
-  },
-  {
-   "slug": "mata-med-linjal-jamfora-langder-ak-2",
-   "type": "measurement",
-   "mode": "measure-and-compare-length",
-   "theme": "",
-   "level": "ak-2",
-   "deck": "matning-fordon-g2236"
-  },
-  {
-   "slug": "temperatur-och-volym-jamfora-ak-3",
-   "type": "measurement",
-   "mode": "volume-and-temperature",
-   "theme": "",
-   "level": "ak-3",
-   "deck": "matning-g3345"
-  },
-  {
-   "slug": "hundraruta-ak-1",
-   "type": "number-charts",
-   "mode": "hundreds-chart-skip-count",
-   "theme": "",
-   "level": "ak-1",
-   "deck": "hundraruta-g1130"
-  },
-  {
-   "slug": "talfoljder-ak-3",
-   "type": "number-charts",
-   "mode": "number-patterns",
-   "theme": "",
-   "level": "ak-3",
-   "deck": "hundraruta-g3328"
-  },
-  {
-   "slug": "tal-som-saknas-forskola",
-   "type": "number-charts",
-   "mode": "numbers-to-20",
-   "theme": "",
+   "slug": "hitta-foremalen-jag-ser-jag-ser-faglar-164f",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "birds",
    "level": "forskola",
-   "deck": "hundraruta-k021"
+   "deck": "hitta-foremalen-jag-ser-jag-ser-faglar-164f"
   },
   {
-   "slug": "hundraruta-ak-2",
-   "type": "number-charts",
-   "mode": "skip-count-and-100-more-less",
-   "theme": "",
-   "level": "ak-2",
-   "deck": "hundraruta-g2218"
+   "slug": "hitta-foremalen-jag-ser-jag-ser-faglar-2-409a",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-faglar-2-409a"
   },
   {
-   "slug": "klockan-arbetsblad-ak-1",
-   "type": "telling-time",
-   "mode": "hour-half-hour",
-   "theme": "",
-   "level": "ak-1",
-   "deck": "klockan-g1148"
+   "slug": "hitta-foremalen-jag-ser-jag-ser-farger-8320",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-farger-8320"
   },
   {
-   "slug": "klockan-fem-minuter-ak-2",
-   "type": "telling-time",
-   "mode": "to-five-minutes",
-   "theme": "",
-   "level": "ak-2",
-   "deck": "klockan-g2249"
+   "slug": "hitta-foremalen-jag-ser-jag-ser-fordon-9c5c",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-fordon-9c5c"
   },
   {
-   "slug": "klockan-tidsskillnad-ak-3",
-   "type": "telling-time",
-   "mode": "to-the-minute",
-   "theme": "",
-   "level": "ak-3",
-   "deck": "klockan-g3344"
+   "slug": "hitta-foremalen-jag-ser-jag-ser-former-a4fd",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-former-a4fd"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-frukost-e06a",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-frukost-e06a"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-frukter-dc96",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-frukter-dc96"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-gronsaker-3792",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-gronsaker-3792"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-havsliv-194d",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-havsliv-194d"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-husdjur-d3d9",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-husdjur-d3d9"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-i-snabbkopet-8791",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-i-snabbkopet-8791"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-insekter-och-kryp-fd43",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-insekter-och-kryp-fd43"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-jul-2667",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-jul-2667"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-kanslor-e09d",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-kanslor-e09d"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-klader-03e0",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-klader-03e0"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-klassrum-b1ac",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-klassrum-b1ac"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-koksredskap-4ea4",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-koksredskap-4ea4"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-kroppsdelar-7bf9",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-kroppsdelar-7bf9"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-leksaker-6bf5",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-leksaker-6bf5"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-mobler-a0ce",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-mobler-a0ce"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-musik-a649",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-musik-a649"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-pask-238e",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-pask-238e"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-postkontor-d47d",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-postkontor-d47d"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-reptiler-och-groddjur-0463",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-reptiler-och-groddjur-0463"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-rymden-007e",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-rymden-007e"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-saker-som-flyger-bbba",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-saker-som-flyger-bbba"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-sjukhus-2299",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-sjukhus-2299"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-skogsdjur-d2f8",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-skogsdjur-d2f8"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-sommar-caef",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-sommar-caef"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-strand-c295",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-strand-c295"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-thanksgiving-7334",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-thanksgiving-7334"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-tillbehor-16ad",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-tillbehor-16ad"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-trad-d24d",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-trad-d24d"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-vader-e54d",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-vader-e54d"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-var-a67c",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-var-a67c"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-verktyg-776b",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-verktyg-776b"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-vinter-f85f",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-vinter-f85f"
+  },
+  {
+   "slug": "hitta-foremalen-jag-ser-jag-ser-yrken-c3c0",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "hitta-foremalen-jag-ser-jag-ser-yrken-c3c0"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-aktiviteter-2e91",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-aktiviteter-2e91"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-bageri-fdb8",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-bageri-fdb8"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-blandat-6cfc",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "miscellaneous",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-blandat-6cfc"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-blommor-dde6",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-blommor-dde6"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-bondgardsdjur-ba25",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-bondgardsdjur-ba25"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-camping-fb62",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-camping-fb62"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-dinosaurier-cf07",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-dinosaurier-cf07"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-djur",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-djur"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-djurparksdjur-07af",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-djurparksdjur-07af"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-efterratter-och-godis-bbcf",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-efterratter-och-godis-bbcf"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-faglar-2-30ca",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-faglar-2-30ca"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-faglar-fe23",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-faglar-fe23"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-fordon-b18d",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-fordon-b18d"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-frukost-45e8",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-frukost-45e8"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-frukter-525d",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-frukter-525d"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-gronsaker-9e37",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-gronsaker-9e37"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-havsliv-d68d",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-havsliv-d68d"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-husdjur-6420",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-husdjur-6420"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-i-snabbkopet-438c",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-i-snabbkopet-438c"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-insekter-och-kryp-b72e",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-insekter-och-kryp-b72e"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-jul-7753",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-jul-7753"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-kanslor-800a",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-kanslor-800a"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-klader-50c7",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-klader-50c7"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-klassrum-cf26",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-klassrum-cf26"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-koksredskap-45a2",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-koksredskap-45a2"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-kroppsdelar-e5bd",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-kroppsdelar-e5bd"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-leksaker-1ec6",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-leksaker-1ec6"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-mobler-2728",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-mobler-2728"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-musik-1bcc",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-musik-1bcc"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-pask-6b35",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-pask-6b35"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-postkontor-af64",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-postkontor-af64"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-reptiler-och-groddjur-84eb",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-reptiler-och-groddjur-84eb"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-runt-huset-2e66",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-runt-huset-2e66"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-rymden-1772",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-rymden-1772"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-saker-som-flyger-d0cb",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-saker-som-flyger-d0cb"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-sjukhus-6af1",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-sjukhus-6af1"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-skogsdjur-d557",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-skogsdjur-d557"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-sommar-55b4",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-sommar-55b4"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-strand-f18f",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-strand-f18f"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-thanksgiving-237e",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-thanksgiving-237e"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-tillbehor-7fda",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-tillbehor-7fda"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-trad-97b7",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-trad-97b7"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-vader-649e",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-vader-649e"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-var-d828",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-var-d828"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-verktyg-3aba",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-verktyg-3aba"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-vinter-f2cd",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-vinter-f2cd"
+  },
+  {
+   "slug": "saknade-bitar-1-saknad-bit-yrken-ef6b",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "saknade-bitar-1-saknad-bit-yrken-ef6b"
   }
  ]
 }

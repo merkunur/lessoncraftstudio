@@ -1,747 +1,716 @@
 {
  "part": 293,
- "locale": "no",
+ "locale": "da",
  "classes": [
-  "crossword::null"
+  "matching::letter",
+  "missing-pieces::one-missing"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 88,
  "pages": [
   {
-   "slug": "engelsk-kryssord-4-juli-3ee6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-4-juli-3ee6"
-  },
-  {
-   "slug": "engelsk-kryssord-aktiviteter-d1f8",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-aktiviteter-b127",
+   "type": "matching",
+   "mode": "letter",
    "theme": "activities",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-aktiviteter-d1f8"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-aktiviteter-b127"
   },
   {
-   "slug": "engelsk-kryssord-bakeri-2ab4",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-bageri-03a9",
+   "type": "matching",
+   "mode": "letter",
    "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-bakeri-2ab4"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-bageri-03a9"
   },
   {
-   "slug": "engelsk-kryssord-blomster-f31b",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-blomster-6b56",
+   "type": "matching",
+   "mode": "letter",
    "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-blomster-f31b"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-blomster-6b56"
   },
   {
-   "slug": "engelsk-kryssord-camping-27ca",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-camping-f733",
+   "type": "matching",
+   "mode": "letter",
    "theme": "camping",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-camping-27ca"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-camping-f733"
   },
   {
-   "slug": "engelsk-kryssord-desserter-og-godteri-37f2",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-desserter-og-slik-b1b3",
+   "type": "matching",
+   "mode": "letter",
    "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-desserter-og-godteri-37f2"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-desserter-og-slik-b1b3"
   },
   {
-   "slug": "engelsk-kryssord-dyr-ba47",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-dyr-65c6",
+   "type": "matching",
+   "mode": "letter",
    "theme": "animals",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-dyr-ba47"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-dyr-65c6"
   },
   {
-   "slug": "engelsk-kryssord-dyrehagedyr-84fe",
-   "type": "crossword",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-dyrehagedyr-84fe"
-  },
-  {
-   "slug": "engelsk-kryssord-farger-8e75",
-   "type": "crossword",
-   "mode": null,
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-farger-8e75"
-  },
-  {
-   "slug": "engelsk-kryssord-folelser-be4b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-folelser-be4b"
-  },
-  {
-   "slug": "engelsk-kryssord-former-3aaa",
-   "type": "crossword",
-   "mode": null,
-   "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-former-3aaa"
-  },
-  {
-   "slug": "engelsk-kryssord-frokost-263a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-frokost-263a"
-  },
-  {
-   "slug": "engelsk-kryssord-frukter-6a26",
-   "type": "crossword",
-   "mode": null,
-   "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-frukter-6a26"
-  },
-  {
-   "slug": "engelsk-kryssord-fugler-2-cbb8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-fugler-2-cbb8"
-  },
-  {
-   "slug": "engelsk-kryssord-fugler-23d9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-fugler-23d9"
-  },
-  {
-   "slug": "engelsk-kryssord-gardsdyr-bae5",
-   "type": "crossword",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-gardsdyr-bae5"
-  },
-  {
-   "slug": "engelsk-kryssord-gronnsaker-adc0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-gronnsaker-adc0"
-  },
-  {
-   "slug": "engelsk-kryssord-havliv-c16d",
-   "type": "crossword",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-havliv-c16d"
-  },
-  {
-   "slug": "engelsk-kryssord-i-supermarkedet-bbf6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-i-supermarkedet-bbf6"
-  },
-  {
-   "slug": "engelsk-kryssord-insekter-og-kryp-6fb9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-insekter-og-kryp-6fb9"
-  },
-  {
-   "slug": "engelsk-kryssord-jul-1441",
-   "type": "crossword",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-jul-1441"
-  },
-  {
-   "slug": "engelsk-kryssord-kjaeledyr-1bd2",
-   "type": "crossword",
-   "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-kjaeledyr-1bd2"
-  },
-  {
-   "slug": "engelsk-kryssord-kjokkenredskaper-bf50",
-   "type": "crossword",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-kjokkenredskaper-bf50"
-  },
-  {
-   "slug": "engelsk-kryssord-kjoretoy-6209",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-kjoretoy-6209"
-  },
-  {
-   "slug": "engelsk-kryssord-klaer-f700",
-   "type": "crossword",
-   "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-klaer-f700"
-  },
-  {
-   "slug": "engelsk-kryssord-klasserom-6140",
-   "type": "crossword",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-klasserom-6140"
-  },
-  {
-   "slug": "engelsk-kryssord-kroppsdeler-6174",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-kroppsdeler-6174"
-  },
-  {
-   "slug": "engelsk-kryssord-leker-b304",
-   "type": "crossword",
-   "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-leker-b304"
-  },
-  {
-   "slug": "engelsk-kryssord-mobler-73b4",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-mobler-73b4"
-  },
-  {
-   "slug": "engelsk-kryssord-musikk-760a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-musikk-760a"
-  },
-  {
-   "slug": "engelsk-kryssord-paske-b249",
-   "type": "crossword",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-paske-b249"
-  },
-  {
-   "slug": "engelsk-kryssord-postkontor-0946",
-   "type": "crossword",
-   "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-postkontor-0946"
-  },
-  {
-   "slug": "engelsk-kryssord-rundt-i-huset-acf8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-rundt-i-huset-acf8"
-  },
-  {
-   "slug": "engelsk-kryssord-skogsdyr-37cc",
-   "type": "crossword",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-skogsdyr-37cc"
-  },
-  {
-   "slug": "engelsk-kryssord-sommer-24a0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-sommer-24a0"
-  },
-  {
-   "slug": "engelsk-kryssord-strand-551e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-strand-551e"
-  },
-  {
-   "slug": "engelsk-kryssord-sykehus-a8bc",
-   "type": "crossword",
-   "mode": null,
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-sykehus-a8bc"
-  },
-  {
-   "slug": "engelsk-kryssord-thanksgiving-a567",
-   "type": "crossword",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-thanksgiving-a567"
-  },
-  {
-   "slug": "engelsk-kryssord-tilbehor-c85a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-tilbehor-c85a"
-  },
-  {
-   "slug": "engelsk-kryssord-vaer-c323",
-   "type": "crossword",
-   "mode": null,
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-vaer-c323"
-  },
-  {
-   "slug": "engelsk-kryssord-var-0483",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-var-0483"
-  },
-  {
-   "slug": "engelsk-kryssord-verdensrommet-52a7",
-   "type": "crossword",
-   "mode": null,
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-verdensrommet-52a7"
-  },
-  {
-   "slug": "engelsk-kryssord-verktoy-d628",
-   "type": "crossword",
-   "mode": null,
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-verktoy-d628"
-  },
-  {
-   "slug": "engelsk-kryssord-vinter-1a1c",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-vinter-1a1c"
-  },
-  {
-   "slug": "engelsk-kryssord-yrker-07d3",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-erhverv-9b56",
+   "type": "matching",
+   "mode": "letter",
    "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "engelsk-kryssord-yrker-07d3"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-erhverv-9b56"
   },
   {
-   "slug": "kryssord-aktiviteter-fa8c",
-   "type": "crossword",
-   "mode": null,
-   "theme": "activities",
-   "level": "3-trinn",
-   "deck": "kryssord-aktiviteter-fa8c"
-  },
-  {
-   "slug": "kryssord-bakeri-59b9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "bakery",
-   "level": "3-trinn",
-   "deck": "kryssord-bakeri-59b9"
-  },
-  {
-   "slug": "kryssord-blomster-ab01",
-   "type": "crossword",
-   "mode": null,
-   "theme": "flowers",
-   "level": "3-trinn",
-   "deck": "kryssord-blomster-ab01"
-  },
-  {
-   "slug": "kryssord-camping-5e61",
-   "type": "crossword",
-   "mode": null,
-   "theme": "camping",
-   "level": "3-trinn",
-   "deck": "kryssord-camping-5e61"
-  },
-  {
-   "slug": "kryssord-desserter-og-godteri-3d36",
-   "type": "crossword",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "3-trinn",
-   "deck": "kryssord-desserter-og-godteri-3d36"
-  },
-  {
-   "slug": "kryssord-dyr-89ee",
-   "type": "crossword",
-   "mode": null,
-   "theme": "animals",
-   "level": "3-trinn",
-   "deck": "kryssord-dyr-89ee"
-  },
-  {
-   "slug": "kryssord-dyrehagedyr-0e85",
-   "type": "crossword",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "3-trinn",
-   "deck": "kryssord-dyrehagedyr-0e85"
-  },
-  {
-   "slug": "kryssord-farger-1c44",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-farver-4282",
+   "type": "matching",
+   "mode": "letter",
    "theme": "colors",
-   "level": "3-trinn",
-   "deck": "kryssord-farger-1c44"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-farver-4282"
   },
   {
-   "slug": "kryssord-folelser-3e72",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-folelser-b979",
+   "type": "matching",
+   "mode": "letter",
    "theme": "emotions",
-   "level": "3-trinn",
-   "deck": "kryssord-folelser-3e72"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-folelser-b979"
   },
   {
-   "slug": "kryssord-former-76d0",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-forar-7ac5",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-forar-7ac5"
+  },
+  {
+   "slug": "matchning-bogstav-former-6257",
+   "type": "matching",
+   "mode": "letter",
    "theme": "shapes",
-   "level": "3-trinn",
-   "deck": "kryssord-former-76d0"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-former-6257"
   },
   {
-   "slug": "kryssord-frokost-5419",
-   "type": "crossword",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "3-trinn",
-   "deck": "kryssord-frokost-5419"
-  },
-  {
-   "slug": "kryssord-frukter-01ee",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-frugter-2774",
+   "type": "matching",
+   "mode": "letter",
    "theme": "fruits",
-   "level": "3-trinn",
-   "deck": "kryssord-frukter-01ee"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-frugter-2774"
   },
   {
-   "slug": "kryssord-fugler-2-ccfa",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-fugle-2-7faf",
+   "type": "matching",
+   "mode": "letter",
    "theme": "birds_2",
-   "level": "3-trinn",
-   "deck": "kryssord-fugler-2-ccfa"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-fugle-2-7faf"
   },
   {
-   "slug": "kryssord-fugler-223d",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds",
-   "level": "3-trinn",
-   "deck": "kryssord-fugler-223d"
-  },
-  {
-   "slug": "kryssord-gardsdyr-a0bd",
-   "type": "crossword",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "3-trinn",
-   "deck": "kryssord-gardsdyr-a0bd"
-  },
-  {
-   "slug": "kryssord-gronnsaker-8820",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-grontsager-f965",
+   "type": "matching",
+   "mode": "letter",
    "theme": "vegetables",
-   "level": "3-trinn",
-   "deck": "kryssord-gronnsaker-8820"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-grontsager-f965"
   },
   {
-   "slug": "kryssord-havliv-b8cb",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-havliv-72b3",
+   "type": "matching",
+   "mode": "letter",
    "theme": "ocean_life",
-   "level": "3-trinn",
-   "deck": "kryssord-havliv-b8cb"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-havliv-72b3"
   },
   {
-   "slug": "kryssord-i-supermarkedet-6d48",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-hospital-241e",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-hospital-241e"
+  },
+  {
+   "slug": "matchning-bogstav-i-supermarkedet-1d43",
+   "type": "matching",
+   "mode": "letter",
    "theme": "at_the_supermarket",
-   "level": "3-trinn",
-   "deck": "kryssord-i-supermarkedet-6d48"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-i-supermarkedet-1d43"
   },
   {
-   "slug": "kryssord-insekter-og-kryp-bbec",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-insekter-og-kryb-3ec1",
+   "type": "matching",
+   "mode": "letter",
    "theme": "insects_and_bugs",
-   "level": "3-trinn",
-   "deck": "kryssord-insekter-og-kryp-bbec"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-insekter-og-kryb-3ec1"
   },
   {
-   "slug": "kryssord-jul-7db2",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-jul-0ca3",
+   "type": "matching",
+   "mode": "letter",
    "theme": "christmas",
-   "level": "3-trinn",
-   "deck": "kryssord-jul-7db2"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-jul-0ca3"
   },
   {
-   "slug": "kryssord-kjaeledyr-6a61",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-kaeledyr-c4f1",
+   "type": "matching",
+   "mode": "letter",
    "theme": "pets",
-   "level": "3-trinn",
-   "deck": "kryssord-kjaeledyr-6a61"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-kaeledyr-c4f1"
   },
   {
-   "slug": "kryssord-kjokkenredskaper-3922",
-   "type": "crossword",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "3-trinn",
-   "deck": "kryssord-kjokkenredskaper-3922"
-  },
-  {
-   "slug": "kryssord-kjoretoy-0e9d",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "3-trinn",
-   "deck": "kryssord-kjoretoy-0e9d"
-  },
-  {
-   "slug": "kryssord-klaer-f263",
-   "type": "crossword",
-   "mode": null,
-   "theme": "clothing",
-   "level": "3-trinn",
-   "deck": "kryssord-klaer-f263"
-  },
-  {
-   "slug": "kryssord-klasserom-180d",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-klassevaerelse-31ce",
+   "type": "matching",
+   "mode": "letter",
    "theme": "classroom",
-   "level": "3-trinn",
-   "deck": "kryssord-klasserom-180d"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-klassevaerelse-31ce"
   },
   {
-   "slug": "kryssord-kroppsdeler-21b5",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-kokkenredskaber-96c3",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-kokkenredskaber-96c3"
+  },
+  {
+   "slug": "matchning-bogstav-koretojer-0f9c",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-koretojer-0f9c"
+  },
+  {
+   "slug": "matchning-bogstav-kropsdele-c7fc",
+   "type": "matching",
+   "mode": "letter",
    "theme": "body_parts",
-   "level": "3-trinn",
-   "deck": "kryssord-kroppsdeler-21b5"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-kropsdele-c7fc"
   },
   {
-   "slug": "kryssord-leker-dbb3",
-   "type": "crossword",
-   "mode": null,
-   "theme": "toys",
-   "level": "3-trinn",
-   "deck": "kryssord-leker-dbb3"
-  },
-  {
-   "slug": "kryssord-mobler-aa98",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "3-trinn",
-   "deck": "kryssord-mobler-aa98"
-  },
-  {
-   "slug": "kryssord-musikk-d299",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "3-trinn",
-   "deck": "kryssord-musikk-d299"
-  },
-  {
-   "slug": "kryssord-paske-c1e8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "easter",
-   "level": "3-trinn",
-   "deck": "kryssord-paske-c1e8"
-  },
-  {
-   "slug": "kryssord-postkontor-9fef",
-   "type": "crossword",
-   "mode": null,
-   "theme": "post_office",
-   "level": "3-trinn",
-   "deck": "kryssord-postkontor-9fef"
-  },
-  {
-   "slug": "kryssord-reptiler-og-amfibier-cada",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-krybdyr-og-padder-5476",
+   "type": "matching",
+   "mode": "letter",
    "theme": "reptiles_and_amphibians",
-   "level": "3-trinn",
-   "deck": "kryssord-reptiler-og-amfibier-cada"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-krybdyr-og-padder-5476"
   },
   {
-   "slug": "kryssord-rundt-i-huset-3150",
-   "type": "crossword",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "3-trinn",
-   "deck": "kryssord-rundt-i-huset-3150"
+   "slug": "matchning-bogstav-legetoj-4af9",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-legetoj-4af9"
   },
   {
-   "slug": "kryssord-skogsdyr-ce50",
-   "type": "crossword",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "3-trinn",
-   "deck": "kryssord-skogsdyr-ce50"
+   "slug": "matchning-bogstav-mobler-9a39",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-mobler-9a39"
   },
   {
-   "slug": "kryssord-sommer-e858",
-   "type": "crossword",
-   "mode": null,
-   "theme": "summer",
-   "level": "3-trinn",
-   "deck": "kryssord-sommer-e858"
+   "slug": "matchning-bogstav-morgenmad-069d",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-morgenmad-069d"
   },
   {
-   "slug": "kryssord-strand-33de",
-   "type": "crossword",
-   "mode": null,
-   "theme": "beach",
-   "level": "3-trinn",
-   "deck": "kryssord-strand-33de"
+   "slug": "matchning-bogstav-musik-b5ae",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-musik-b5ae"
   },
   {
-   "slug": "kryssord-sykehus-e3c4",
-   "type": "crossword",
-   "mode": null,
-   "theme": "hospital",
-   "level": "3-trinn",
-   "deck": "kryssord-sykehus-e3c4"
+   "slug": "matchning-bogstav-paske-138d",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-paske-138d"
   },
   {
-   "slug": "kryssord-thanksgiving-4666",
-   "type": "crossword",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "3-trinn",
-   "deck": "kryssord-thanksgiving-4666"
-  },
-  {
-   "slug": "kryssord-tilbehor-c1b3",
-   "type": "crossword",
-   "mode": null,
-   "theme": "accessories",
-   "level": "3-trinn",
-   "deck": "kryssord-tilbehor-c1b3"
-  },
-  {
-   "slug": "kryssord-ting-som-flyr-7edb",
-   "type": "crossword",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "3-trinn",
-   "deck": "kryssord-ting-som-flyr-7edb"
-  },
-  {
-   "slug": "kryssord-traer-5252",
-   "type": "crossword",
-   "mode": null,
-   "theme": "tree",
-   "level": "3-trinn",
-   "deck": "kryssord-traer-5252"
-  },
-  {
-   "slug": "kryssord-vaer-b897",
-   "type": "crossword",
-   "mode": null,
-   "theme": "weather",
-   "level": "3-trinn",
-   "deck": "kryssord-vaer-b897"
-  },
-  {
-   "slug": "kryssord-var-f3bc",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
-   "level": "3-trinn",
-   "deck": "kryssord-var-f3bc"
-  },
-  {
-   "slug": "kryssord-verdensrommet-574d",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-rummet-d959",
+   "type": "matching",
+   "mode": "letter",
    "theme": "space",
-   "level": "3-trinn",
-   "deck": "kryssord-verdensrommet-574d"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-rummet-d959"
   },
   {
-   "slug": "kryssord-verktoy-9fdc",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-rundt-i-huset-0e4e",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-rundt-i-huset-0e4e"
+  },
+  {
+   "slug": "matchning-bogstav-skovdyr-1004",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-skovdyr-1004"
+  },
+  {
+   "slug": "matchning-bogstav-sommer-a597",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-sommer-a597"
+  },
+  {
+   "slug": "matchning-bogstav-strand-ea77",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-strand-ea77"
+  },
+  {
+   "slug": "matchning-bogstav-thanksgiving-85f7",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-thanksgiving-85f7"
+  },
+  {
+   "slug": "matchning-bogstav-tilbehor-2ee9",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-tilbehor-2ee9"
+  },
+  {
+   "slug": "matchning-bogstav-ting-der-flyver-5cb0",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-ting-der-flyver-5cb0"
+  },
+  {
+   "slug": "matchning-bogstav-toj-1acf",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-toj-1acf"
+  },
+  {
+   "slug": "matchning-bogstav-traeer-9250",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-traeer-9250"
+  },
+  {
+   "slug": "matchning-bogstav-vaerktoj-d604",
+   "type": "matching",
+   "mode": "letter",
    "theme": "tools",
-   "level": "3-trinn",
-   "deck": "kryssord-verktoy-9fdc"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-vaerktoj-d604"
   },
   {
-   "slug": "kryssord-vinter-4ad8",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matchning-bogstav-vejr-2bb5",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-vejr-2bb5"
+  },
+  {
+   "slug": "matchning-bogstav-vinter-9237",
+   "type": "matching",
+   "mode": "letter",
    "theme": "winter",
-   "level": "3-trinn",
-   "deck": "kryssord-vinter-4ad8"
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-vinter-9237"
   },
   {
-   "slug": "kryssord-yrker-86c2",
-   "type": "crossword",
-   "mode": null,
-   "theme": "occupations",
-   "level": "3-trinn",
-   "deck": "kryssord-yrker-86c2"
+   "slug": "matchning-bogstav-zoodyr-9ade",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "matchning-bogstav-zoodyr-9ade"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-aktiviteter-a763",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-aktiviteter-a763"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-bageri-aa69",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-bageri-aa69"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-blomster-28b7",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-blomster-28b7"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-bondegardsdyr-f934",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-bondegardsdyr-f934"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-camping-6009",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-camping-6009"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-dinosaurer-3f79",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-dinosaurer-3f79"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-dyr",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-dyr"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-folelser-2bb6",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-folelser-2bb6"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-forar-241a",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-forar-241a"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-frugter-600d",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-frugter-600d"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-fugle-2-9062",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-fugle-2-9062"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-fugle-21c5",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-fugle-21c5"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-grontsager-d1fe",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-grontsager-d1fe"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-havliv-9eae",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-havliv-9eae"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-hospital-e598",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-hospital-e598"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-i-supermarkedet-4652",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-i-supermarkedet-4652"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-insekter-og-kryb-ecf2",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-insekter-og-kryb-ecf2"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-jul-6f74",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-jul-6f74"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-kaeledyr-1d1c",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-kaeledyr-1d1c"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-klassevaerelse-4a08",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-klassevaerelse-4a08"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-kokkenredskaber-8e55",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-kokkenredskaber-8e55"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-koretojer-90c2",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-koretojer-90c2"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-kropsdele-b034",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-kropsdele-b034"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-krybdyr-og-padder-178f",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-krybdyr-og-padder-178f"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-legetoj-2d81",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-legetoj-2d81"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-mobler-eaeb",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-mobler-eaeb"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-morgenmad-b85d",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-morgenmad-b85d"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-musik-fa90",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-musik-fa90"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-paske-44a3",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-paske-44a3"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-postkontor-55ae",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-postkontor-55ae"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-rummet-75d3",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-rummet-75d3"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-rundt-i-huset-9700",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-rundt-i-huset-9700"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-skovdyr-ec9d",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-skovdyr-ec9d"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-sommer-10c6",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-sommer-10c6"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-strand-1f22",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-strand-1f22"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-thanksgiving-0aac",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-thanksgiving-0aac"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-tilbehor-86d5",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-tilbehor-86d5"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-ting-der-flyver-504a",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-ting-der-flyver-504a"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-toj-8c1b",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-toj-8c1b"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-traeer-2817",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-traeer-2817"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-vaerktoj-0b72",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-vaerktoj-0b72"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-vejr-b225",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-vejr-b225"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-vinter-3898",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-vinter-3898"
+  },
+  {
+   "slug": "manglende-brikker-1-manglende-brik-zoodyr-f6cf",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "manglende-brikker-1-manglende-brik-zoodyr-f6cf"
   }
  ]
 }

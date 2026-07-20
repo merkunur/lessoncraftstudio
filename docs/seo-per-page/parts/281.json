@@ -2,651 +2,754 @@
  "part": 281,
  "locale": "da",
  "classes": [
-  "subtraction::cross-out",
-  "subtraction::mixed"
+  "matching::name"
  ],
  "splitOf": null,
- "count": 80,
+ "count": 93,
  "pages": [
   {
-   "slug": "subtraktion-streg-over-bageri-339a",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "engelsk-matchning-navne-4-juli-e936",
+   "type": "matching",
+   "mode": "name",
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-4-juli-e936"
+  },
+  {
+   "slug": "engelsk-matchning-navne-aktiviteter-b19d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-aktiviteter-b19d"
+  },
+  {
+   "slug": "engelsk-matchning-navne-bageri-d14a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-bageri-d14a"
+  },
+  {
+   "slug": "engelsk-matchning-navne-blomster-f8ee",
+   "type": "matching",
+   "mode": "name",
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-blomster-f8ee"
+  },
+  {
+   "slug": "engelsk-matchning-navne-bondegardsdyr-ce11",
+   "type": "matching",
+   "mode": "name",
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-bondegardsdyr-ce11"
+  },
+  {
+   "slug": "engelsk-matchning-navne-camping-a06a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-camping-a06a"
+  },
+  {
+   "slug": "engelsk-matchning-navne-desserter-og-slik-b2ee",
+   "type": "matching",
+   "mode": "name",
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-desserter-og-slik-b2ee"
+  },
+  {
+   "slug": "engelsk-matchning-navne-dyr-b539",
+   "type": "matching",
+   "mode": "name",
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-dyr-b539"
+  },
+  {
+   "slug": "engelsk-matchning-navne-erhverv-4e53",
+   "type": "matching",
+   "mode": "name",
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-erhverv-4e53"
+  },
+  {
+   "slug": "engelsk-matchning-navne-farver-fab7",
+   "type": "matching",
+   "mode": "name",
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-farver-fab7"
+  },
+  {
+   "slug": "engelsk-matchning-navne-folelser-6027",
+   "type": "matching",
+   "mode": "name",
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-folelser-6027"
+  },
+  {
+   "slug": "engelsk-matchning-navne-forar-3925",
+   "type": "matching",
+   "mode": "name",
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-forar-3925"
+  },
+  {
+   "slug": "engelsk-matchning-navne-former-001a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-former-001a"
+  },
+  {
+   "slug": "engelsk-matchning-navne-frugter-e636",
+   "type": "matching",
+   "mode": "name",
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-frugter-e636"
+  },
+  {
+   "slug": "engelsk-matchning-navne-fugle-2-be60",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-fugle-2-be60"
+  },
+  {
+   "slug": "engelsk-matchning-navne-fugle-f349",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-fugle-f349"
+  },
+  {
+   "slug": "engelsk-matchning-navne-grontsager-8e56",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-grontsager-8e56"
+  },
+  {
+   "slug": "engelsk-matchning-navne-havliv-54a9",
+   "type": "matching",
+   "mode": "name",
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-havliv-54a9"
+  },
+  {
+   "slug": "engelsk-matchning-navne-hospital-e30d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-hospital-e30d"
+  },
+  {
+   "slug": "engelsk-matchning-navne-i-supermarkedet-9dd8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-i-supermarkedet-9dd8"
+  },
+  {
+   "slug": "engelsk-matchning-navne-insekter-og-kryb-aa61",
+   "type": "matching",
+   "mode": "name",
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-insekter-og-kryb-aa61"
+  },
+  {
+   "slug": "engelsk-matchning-navne-jul-0b04",
+   "type": "matching",
+   "mode": "name",
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-jul-0b04"
+  },
+  {
+   "slug": "engelsk-matchning-navne-kaeledyr-9f8a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-kaeledyr-9f8a"
+  },
+  {
+   "slug": "engelsk-matchning-navne-klassevaerelse-201f",
+   "type": "matching",
+   "mode": "name",
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-klassevaerelse-201f"
+  },
+  {
+   "slug": "engelsk-matchning-navne-kokkenredskaber-352b",
+   "type": "matching",
+   "mode": "name",
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-kokkenredskaber-352b"
+  },
+  {
+   "slug": "engelsk-matchning-navne-koretojer-c0fb",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-koretojer-c0fb"
+  },
+  {
+   "slug": "engelsk-matchning-navne-kropsdele-72a7",
+   "type": "matching",
+   "mode": "name",
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-kropsdele-72a7"
+  },
+  {
+   "slug": "engelsk-matchning-navne-krybdyr-og-padder-b004",
+   "type": "matching",
+   "mode": "name",
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-krybdyr-og-padder-b004"
+  },
+  {
+   "slug": "engelsk-matchning-navne-legetoj-52eb",
+   "type": "matching",
+   "mode": "name",
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-legetoj-52eb"
+  },
+  {
+   "slug": "engelsk-matchning-navne-mobler-65cb",
+   "type": "matching",
+   "mode": "name",
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-mobler-65cb"
+  },
+  {
+   "slug": "engelsk-matchning-navne-morgenmad-526d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-morgenmad-526d"
+  },
+  {
+   "slug": "engelsk-matchning-navne-musik-d554",
+   "type": "matching",
+   "mode": "name",
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-musik-d554"
+  },
+  {
+   "slug": "engelsk-matchning-navne-paske-1308",
+   "type": "matching",
+   "mode": "name",
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-paske-1308"
+  },
+  {
+   "slug": "engelsk-matchning-navne-postkontor-a6fb",
+   "type": "matching",
+   "mode": "name",
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-postkontor-a6fb"
+  },
+  {
+   "slug": "engelsk-matchning-navne-rummet-8c39",
+   "type": "matching",
+   "mode": "name",
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-rummet-8c39"
+  },
+  {
+   "slug": "engelsk-matchning-navne-rundt-i-huset-70c2",
+   "type": "matching",
+   "mode": "name",
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-rundt-i-huset-70c2"
+  },
+  {
+   "slug": "engelsk-matchning-navne-skovdyr-8519",
+   "type": "matching",
+   "mode": "name",
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-skovdyr-8519"
+  },
+  {
+   "slug": "engelsk-matchning-navne-sommer-25eb",
+   "type": "matching",
+   "mode": "name",
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-sommer-25eb"
+  },
+  {
+   "slug": "engelsk-matchning-navne-strand-48fe",
+   "type": "matching",
+   "mode": "name",
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-strand-48fe"
+  },
+  {
+   "slug": "engelsk-matchning-navne-thanksgiving-d338",
+   "type": "matching",
+   "mode": "name",
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-thanksgiving-d338"
+  },
+  {
+   "slug": "engelsk-matchning-navne-tilbehor-6742",
+   "type": "matching",
+   "mode": "name",
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-tilbehor-6742"
+  },
+  {
+   "slug": "engelsk-matchning-navne-ting-der-flyver-85e2",
+   "type": "matching",
+   "mode": "name",
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-ting-der-flyver-85e2"
+  },
+  {
+   "slug": "engelsk-matchning-navne-toj-bb50",
+   "type": "matching",
+   "mode": "name",
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-toj-bb50"
+  },
+  {
+   "slug": "engelsk-matchning-navne-vaerktoj-d2bd",
+   "type": "matching",
+   "mode": "name",
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-vaerktoj-d2bd"
+  },
+  {
+   "slug": "engelsk-matchning-navne-vejr-f4e1",
+   "type": "matching",
+   "mode": "name",
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-vejr-f4e1"
+  },
+  {
+   "slug": "engelsk-matchning-navne-vinter-f413",
+   "type": "matching",
+   "mode": "name",
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-vinter-f413"
+  },
+  {
+   "slug": "engelsk-matchning-navne-zoodyr-f4e2",
+   "type": "matching",
+   "mode": "name",
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "engelsk-matchning-navne-zoodyr-f4e2"
+  },
+  {
+   "slug": "matchning-navne-aktiviteter-b802",
+   "type": "matching",
+   "mode": "name",
+   "theme": "activities",
+   "level": "1-klasse",
+   "deck": "matchning-navne-aktiviteter-b802"
+  },
+  {
+   "slug": "matchning-navne-bageri-15ee",
+   "type": "matching",
+   "mode": "name",
    "theme": "bakery",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-bageri-339a"
+   "deck": "matchning-navne-bageri-15ee"
   },
   {
-   "slug": "subtraktion-streg-over-blomster-b084",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-blomster-8e52",
+   "type": "matching",
+   "mode": "name",
    "theme": "flowers",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-blomster-b084"
+   "deck": "matchning-navne-blomster-8e52"
   },
   {
-   "slug": "subtraktion-streg-over-bondegardsdyr-0945",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-bondegardsdyr-3714",
+   "type": "matching",
+   "mode": "name",
    "theme": "farm_animals",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-bondegardsdyr-0945"
+   "deck": "matchning-navne-bondegardsdyr-3714"
   },
   {
-   "slug": "subtraktion-streg-over-camping-5006",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-camping-96dd",
+   "type": "matching",
+   "mode": "name",
    "theme": "camping",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-camping-5006"
+   "deck": "matchning-navne-camping-96dd"
   },
   {
-   "slug": "subtraktion-streg-over-desserter-og-slik-c875",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-desserter-og-slik-9b50",
+   "type": "matching",
+   "mode": "name",
    "theme": "desserts_and_sweets",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-desserter-og-slik-c875"
+   "deck": "matchning-navne-desserter-og-slik-9b50"
   },
   {
-   "slug": "subtraktion-streg-over-dinosaurer-7400",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "dinosaurs",
-   "level": "1-klasse",
-   "deck": "subtraktion-streg-over-dinosaurer-7400"
-  },
-  {
-   "slug": "subtraktion-streg-over-dyr",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-dyr-5cd2",
+   "type": "matching",
+   "mode": "name",
    "theme": "animals",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-dyr"
+   "deck": "matchning-navne-dyr-5cd2"
   },
   {
-   "slug": "subtraktion-streg-over-erhverv-285d",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-erhverv-f319",
+   "type": "matching",
+   "mode": "name",
    "theme": "occupations",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-erhverv-285d"
+   "deck": "matchning-navne-erhverv-f319"
   },
   {
-   "slug": "subtraktion-streg-over-former-c821",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-farver-3503",
+   "type": "matching",
+   "mode": "name",
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "matchning-navne-farver-3503"
+  },
+  {
+   "slug": "matchning-navne-folelser-510a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "emotions",
+   "level": "1-klasse",
+   "deck": "matchning-navne-folelser-510a"
+  },
+  {
+   "slug": "matchning-navne-forar-50ff",
+   "type": "matching",
+   "mode": "name",
+   "theme": "spring",
+   "level": "1-klasse",
+   "deck": "matchning-navne-forar-50ff"
+  },
+  {
+   "slug": "matchning-navne-former-d59e",
+   "type": "matching",
+   "mode": "name",
    "theme": "shapes",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-former-c821"
+   "deck": "matchning-navne-former-d59e"
   },
   {
-   "slug": "subtraktion-streg-over-frugter-2995",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-frugter-14fc",
+   "type": "matching",
+   "mode": "name",
    "theme": "fruits",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-frugter-2995"
+   "deck": "matchning-navne-frugter-14fc"
   },
   {
-   "slug": "subtraktion-streg-over-fugle-2-50a1",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-fugle-2-d0fa",
+   "type": "matching",
+   "mode": "name",
    "theme": "birds_2",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-fugle-2-50a1"
+   "deck": "matchning-navne-fugle-2-d0fa"
   },
   {
-   "slug": "subtraktion-streg-over-fugle-2096",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-fugle-b3e3",
+   "type": "matching",
+   "mode": "name",
    "theme": "birds",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-fugle-2096"
+   "deck": "matchning-navne-fugle-b3e3"
   },
   {
-   "slug": "subtraktion-streg-over-grontsager-d3eb",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-grontsager-7fba",
+   "type": "matching",
+   "mode": "name",
    "theme": "vegetables",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-grontsager-d3eb"
+   "deck": "matchning-navne-grontsager-7fba"
   },
   {
-   "slug": "subtraktion-streg-over-havliv-6b6d",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-havliv-bacc",
+   "type": "matching",
+   "mode": "name",
    "theme": "ocean_life",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-havliv-6b6d"
+   "deck": "matchning-navne-havliv-bacc"
   },
   {
-   "slug": "subtraktion-streg-over-hospital-0859",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-hospital-12e7",
+   "type": "matching",
+   "mode": "name",
    "theme": "hospital",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-hospital-0859"
+   "deck": "matchning-navne-hospital-12e7"
   },
   {
-   "slug": "subtraktion-streg-over-i-supermarkedet-bf5f",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-i-supermarkedet-d43f",
+   "type": "matching",
+   "mode": "name",
    "theme": "at_the_supermarket",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-i-supermarkedet-bf5f"
+   "deck": "matchning-navne-i-supermarkedet-d43f"
   },
   {
-   "slug": "subtraktion-streg-over-insekter-og-kryb-9537",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-insekter-og-kryb-2255",
+   "type": "matching",
+   "mode": "name",
    "theme": "insects_and_bugs",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-insekter-og-kryb-9537"
+   "deck": "matchning-navne-insekter-og-kryb-2255"
   },
   {
-   "slug": "subtraktion-streg-over-jul-224c",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-jul-ea5f",
+   "type": "matching",
+   "mode": "name",
    "theme": "christmas",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-jul-224c"
+   "deck": "matchning-navne-jul-ea5f"
   },
   {
-   "slug": "subtraktion-streg-over-kaeledyr-0656",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-kaeledyr-6446",
+   "type": "matching",
+   "mode": "name",
    "theme": "pets",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-kaeledyr-0656"
+   "deck": "matchning-navne-kaeledyr-6446"
   },
   {
-   "slug": "subtraktion-streg-over-klassevaerelse-a276",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-klassevaerelse-6157",
+   "type": "matching",
+   "mode": "name",
    "theme": "classroom",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-klassevaerelse-a276"
+   "deck": "matchning-navne-klassevaerelse-6157"
   },
   {
-   "slug": "subtraktion-streg-over-kokkenredskaber-27ce",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-kokkenredskaber-0f8e",
+   "type": "matching",
+   "mode": "name",
    "theme": "kitchen_tools",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-kokkenredskaber-27ce"
+   "deck": "matchning-navne-kokkenredskaber-0f8e"
   },
   {
-   "slug": "subtraktion-streg-over-koretojer-0522",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-koretojer-1c8a",
+   "type": "matching",
+   "mode": "name",
    "theme": "vehicles",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-koretojer-0522"
+   "deck": "matchning-navne-koretojer-1c8a"
   },
   {
-   "slug": "subtraktion-streg-over-krybdyr-og-padder-3216",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-kropsdele-8ef6",
+   "type": "matching",
+   "mode": "name",
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "matchning-navne-kropsdele-8ef6"
+  },
+  {
+   "slug": "matchning-navne-krybdyr-og-padder-7fba",
+   "type": "matching",
+   "mode": "name",
    "theme": "reptiles_and_amphibians",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-krybdyr-og-padder-3216"
+   "deck": "matchning-navne-krybdyr-og-padder-7fba"
   },
   {
-   "slug": "subtraktion-streg-over-legetoj-b31a",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-legetoj-2d37",
+   "type": "matching",
+   "mode": "name",
    "theme": "toys",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-legetoj-b31a"
+   "deck": "matchning-navne-legetoj-2d37"
   },
   {
-   "slug": "subtraktion-streg-over-mobler-4e4b",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-mobler-3837",
+   "type": "matching",
+   "mode": "name",
    "theme": "furniture",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-mobler-4e4b"
+   "deck": "matchning-navne-mobler-3837"
   },
   {
-   "slug": "subtraktion-streg-over-morgenmad-558f",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-morgenmad-0131",
+   "type": "matching",
+   "mode": "name",
    "theme": "breakfast",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-morgenmad-558f"
+   "deck": "matchning-navne-morgenmad-0131"
   },
   {
-   "slug": "subtraktion-streg-over-musik-bc38",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-musik-f3a2",
+   "type": "matching",
+   "mode": "name",
    "theme": "music",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-musik-bc38"
+   "deck": "matchning-navne-musik-f3a2"
   },
   {
-   "slug": "subtraktion-streg-over-paske-58af",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-paske-161b",
+   "type": "matching",
+   "mode": "name",
    "theme": "easter",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-paske-58af"
+   "deck": "matchning-navne-paske-161b"
   },
   {
-   "slug": "subtraktion-streg-over-postkontor-d38b",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-postkontor-2c65",
+   "type": "matching",
+   "mode": "name",
    "theme": "post_office",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-postkontor-d38b"
+   "deck": "matchning-navne-postkontor-2c65"
   },
   {
-   "slug": "subtraktion-streg-over-rummet-ed2f",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-rummet-1ed0",
+   "type": "matching",
+   "mode": "name",
    "theme": "space",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-rummet-ed2f"
+   "deck": "matchning-navne-rummet-1ed0"
   },
   {
-   "slug": "subtraktion-streg-over-rundt-i-huset-c48f",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-rundt-i-huset-bbd3",
+   "type": "matching",
+   "mode": "name",
    "theme": "around_the_house",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-rundt-i-huset-c48f"
+   "deck": "matchning-navne-rundt-i-huset-bbd3"
   },
   {
-   "slug": "subtraktion-streg-over-skovdyr-be1b",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-skovdyr-dce4",
+   "type": "matching",
+   "mode": "name",
    "theme": "forest_creatures",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-skovdyr-be1b"
+   "deck": "matchning-navne-skovdyr-dce4"
   },
   {
-   "slug": "subtraktion-streg-over-strand-c946",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-sommer-4291",
+   "type": "matching",
+   "mode": "name",
+   "theme": "summer",
+   "level": "1-klasse",
+   "deck": "matchning-navne-sommer-4291"
+  },
+  {
+   "slug": "matchning-navne-strand-0641",
+   "type": "matching",
+   "mode": "name",
    "theme": "beach",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-strand-c946"
+   "deck": "matchning-navne-strand-0641"
   },
   {
-   "slug": "subtraktion-streg-over-thanksgiving-6f3c",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-thanksgiving-a77d",
+   "type": "matching",
+   "mode": "name",
    "theme": "thanksgivinng",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-thanksgiving-6f3c"
+   "deck": "matchning-navne-thanksgiving-a77d"
   },
   {
-   "slug": "subtraktion-streg-over-tilbehor-41ce",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-tilbehor-549a",
+   "type": "matching",
+   "mode": "name",
    "theme": "accessories",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-tilbehor-41ce"
+   "deck": "matchning-navne-tilbehor-549a"
   },
   {
-   "slug": "subtraktion-streg-over-ting-der-flyver-dd3d",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-ting-der-flyver-ab1f",
+   "type": "matching",
+   "mode": "name",
    "theme": "things_that_fly",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-ting-der-flyver-dd3d"
+   "deck": "matchning-navne-ting-der-flyver-ab1f"
   },
   {
-   "slug": "subtraktion-streg-over-toj-24d5",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-toj-e03a",
+   "type": "matching",
+   "mode": "name",
    "theme": "clothing",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-toj-24d5"
+   "deck": "matchning-navne-toj-e03a"
   },
   {
-   "slug": "subtraktion-streg-over-traeer-4f8f",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "tree",
-   "level": "1-klasse",
-   "deck": "subtraktion-streg-over-traeer-4f8f"
-  },
-  {
-   "slug": "subtraktion-streg-over-vaerktoj-0d3a",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-vaerktoj-6085",
+   "type": "matching",
+   "mode": "name",
    "theme": "tools",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-vaerktoj-0d3a"
+   "deck": "matchning-navne-vaerktoj-6085"
   },
   {
-   "slug": "subtraktion-streg-over-zoodyr-c343",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "matchning-navne-vejr-5b5d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "matchning-navne-vejr-5b5d"
+  },
+  {
+   "slug": "matchning-navne-vinter-1660",
+   "type": "matching",
+   "mode": "name",
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "matchning-navne-vinter-1660"
+  },
+  {
+   "slug": "matchning-navne-zoodyr-e640",
+   "type": "matching",
+   "mode": "name",
    "theme": "zoo_animals",
    "level": "1-klasse",
-   "deck": "subtraktion-streg-over-zoodyr-c343"
-  },
-  {
-   "slug": "subtraktion-blandet-bageri-18ed",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "bakery",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-bageri-18ed"
-  },
-  {
-   "slug": "subtraktion-blandet-blomster-3184",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "flowers",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-blomster-3184"
-  },
-  {
-   "slug": "subtraktion-blandet-bondegardsdyr-82e0",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "farm_animals",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-bondegardsdyr-82e0"
-  },
-  {
-   "slug": "subtraktion-blandet-camping-3554",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "camping",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-camping-3554"
-  },
-  {
-   "slug": "subtraktion-blandet-desserter-og-slik-7412",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "desserts_and_sweets",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-desserter-og-slik-7412"
-  },
-  {
-   "slug": "subtraktion-blandet-dinosaurer-86f0",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "dinosaurs",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-dinosaurer-86f0"
-  },
-  {
-   "slug": "subtraktion-blandet-dyr-0a26",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "animals",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-dyr-0a26"
-  },
-  {
-   "slug": "subtraktion-blandet-erhverv-c845",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "occupations",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-erhverv-c845"
-  },
-  {
-   "slug": "subtraktion-blandet-former-719a",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "shapes",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-former-719a"
-  },
-  {
-   "slug": "subtraktion-blandet-frugter-2d18",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "fruits",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-frugter-2d18"
-  },
-  {
-   "slug": "subtraktion-blandet-fugle-2-8208",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-fugle-2-8208"
-  },
-  {
-   "slug": "subtraktion-blandet-fugle-47b1",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "birds",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-fugle-47b1"
-  },
-  {
-   "slug": "subtraktion-blandet-grontsager-db04",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "vegetables",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-grontsager-db04"
-  },
-  {
-   "slug": "subtraktion-blandet-havliv-e508",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "ocean_life",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-havliv-e508"
-  },
-  {
-   "slug": "subtraktion-blandet-hospital-50f2",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "hospital",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-hospital-50f2"
-  },
-  {
-   "slug": "subtraktion-blandet-i-supermarkedet-7834",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "at_the_supermarket",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-i-supermarkedet-7834"
-  },
-  {
-   "slug": "subtraktion-blandet-insekter-og-kryb-cab3",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "insects_and_bugs",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-insekter-og-kryb-cab3"
-  },
-  {
-   "slug": "subtraktion-blandet-jul-47a5",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "christmas",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-jul-47a5"
-  },
-  {
-   "slug": "subtraktion-blandet-kaeledyr-cb58",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "pets",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-kaeledyr-cb58"
-  },
-  {
-   "slug": "subtraktion-blandet-klassevaerelse-bc1e",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "classroom",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-klassevaerelse-bc1e"
-  },
-  {
-   "slug": "subtraktion-blandet-kokkenredskaber-c505",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "kitchen_tools",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-kokkenredskaber-c505"
-  },
-  {
-   "slug": "subtraktion-blandet-koretojer-68fd",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "vehicles",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-koretojer-68fd"
-  },
-  {
-   "slug": "subtraktion-blandet-krybdyr-og-padder-d90b",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-krybdyr-og-padder-d90b"
-  },
-  {
-   "slug": "subtraktion-blandet-legetoj-707f",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "toys",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-legetoj-707f"
-  },
-  {
-   "slug": "subtraktion-blandet-mobler-a10d",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "furniture",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-mobler-a10d"
-  },
-  {
-   "slug": "subtraktion-blandet-morgenmad-2d8f",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "breakfast",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-morgenmad-2d8f"
-  },
-  {
-   "slug": "subtraktion-blandet-musik-da73",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "music",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-musik-da73"
-  },
-  {
-   "slug": "subtraktion-blandet-paske-a9ca",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "easter",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-paske-a9ca"
-  },
-  {
-   "slug": "subtraktion-blandet-postkontor-5534",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "post_office",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-postkontor-5534"
-  },
-  {
-   "slug": "subtraktion-blandet-rummet-15c7",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "space",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-rummet-15c7"
-  },
-  {
-   "slug": "subtraktion-blandet-rundt-i-huset-9d11",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "around_the_house",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-rundt-i-huset-9d11"
-  },
-  {
-   "slug": "subtraktion-blandet-skovdyr-0832",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "forest_creatures",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-skovdyr-0832"
-  },
-  {
-   "slug": "subtraktion-blandet-strand-d05b",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "beach",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-strand-d05b"
-  },
-  {
-   "slug": "subtraktion-blandet-thanksgiving-fb5a",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "thanksgivinng",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-thanksgiving-fb5a"
-  },
-  {
-   "slug": "subtraktion-blandet-tilbehor-c73f",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "accessories",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-tilbehor-c73f"
-  },
-  {
-   "slug": "subtraktion-blandet-ting-der-flyver-94ce",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "things_that_fly",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-ting-der-flyver-94ce"
-  },
-  {
-   "slug": "subtraktion-blandet-toj-0297",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "clothing",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-toj-0297"
-  },
-  {
-   "slug": "subtraktion-blandet-traeer-4e7e",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "tree",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-traeer-4e7e"
-  },
-  {
-   "slug": "subtraktion-blandet-vaerktoj-f2f9",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "tools",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-vaerktoj-f2f9"
-  },
-  {
-   "slug": "subtraktion-blandet-zoodyr-3302",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "zoo_animals",
-   "level": "1-klasse",
-   "deck": "subtraktion-blandet-zoodyr-3302"
+   "deck": "matchning-navne-zoodyr-e640"
   }
  ]
 }

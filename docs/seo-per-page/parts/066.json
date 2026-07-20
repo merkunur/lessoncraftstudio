@@ -2,659 +2,667 @@
  "part": 66,
  "locale": "de",
  "classes": [
-  "math-puzzle::subtraction",
-  "math-puzzle::addition"
+  "big-small::findBig",
+  "odd-one-out::same-theme"
  ],
  "splitOf": null,
- "count": 81,
+ "count": 82,
  "pages": [
   {
-   "slug": "mathe-raetsel-subtraktion-accessoires-bdaf",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-accessoires-20f9",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "accessories",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-accessoires-bdaf"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-accessoires-20f9"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-backerei-6020",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-backerei-b12e",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "bakery",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-backerei-6020"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-backerei-b12e"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-bauernhoftiere-d53d",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-bauernhoftiere-ddb3",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "farm_animals",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-bauernhoftiere-d53d"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-bauernhoftiere-ddb3"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-baume-582b",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-baume-1516",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "tree",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-baume-582b"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-baume-1516"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-berufe-011e",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-berufe-6e40",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "occupations",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-berufe-011e"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-berufe-6e40"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-blumen-46ce",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-blumen-6567",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "flowers",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-blumen-46ce"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-blumen-6567"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-camping-24fa",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-camping-1213",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "camping",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-camping-24fa"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-camping-1213"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-desserts-und-sussigkeiten-3714",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-desserts-und-sussigkeiten-9495",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "desserts_and_sweets",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-desserts-und-sussigkeiten-3714"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-desserts-und-sussigkeiten-9495"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-dinge-die-fliegen-af9a",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-dinge-die-fliegen-51eb",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "things_that_fly",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-dinge-die-fliegen-af9a"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-dinge-die-fliegen-51eb"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-dinosaurier-ffe1",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-dinosaurier-7ff7",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "dinosaurs",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-dinosaurier-ffe1"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-dinosaurier-7ff7"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-erntedankfest-8d47",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "thanksgivinng",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-erntedankfest-8d47"
-  },
-  {
-   "slug": "mathe-raetsel-subtraktion-fahrzeuge-8356",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-fahrzeuge-dc64",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "vehicles",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-fahrzeuge-8356"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-fahrzeuge-dc64"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-formen-d643",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-formen-5dfb",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "shapes",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-formen-d643"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-formen-5dfb"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-fruchte-0914",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-fruchte-91d7",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "fruits",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-fruchte-0914"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-fruchte-91d7"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-fruhstuck-1af0",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-fruhstuck-0fcb",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "breakfast",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-fruhstuck-1af0"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-fruhstuck-0fcb"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-gemuse-f1a8",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-gemuse-ce88",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "vegetables",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-gemuse-f1a8"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-gemuse-ce88"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-haustiere-755f",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-haustiere-13b0",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "pets",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-haustiere-755f"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-haustiere-13b0"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-im-supermarkt-6ca0",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-im-supermarkt-eefb",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "at_the_supermarket",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-im-supermarkt-6ca0"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-im-supermarkt-eefb"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-insekten-und-kafer-4de0",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "insects_and_bugs",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-insekten-und-kafer-4de0"
-  },
-  {
-   "slug": "mathe-raetsel-subtraktion-klassenzimmer-21ec",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-klassenzimmer-121e",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "classroom",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-klassenzimmer-21ec"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-klassenzimmer-121e"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-kleidung-e10a",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-kleidung-39ca",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "clothing",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-kleidung-e10a"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-kleidung-39ca"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-krankenhaus-0435",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-korperteile-6518",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-korperteile-6518"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-krankenhaus-1f79",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "hospital",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-krankenhaus-0435"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-krankenhaus-1f79"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-kuchenwerkzeuge-3b7d",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-kuchenwerkzeuge-a533",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "kitchen_tools",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-kuchenwerkzeuge-3b7d"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-kuchenwerkzeuge-a533"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-meeresleben-81cc",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-meeresleben-1784",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "ocean_life",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-meeresleben-81cc"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-meeresleben-1784"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-mobel-dd69",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-mobel-4ef2",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "furniture",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-mobel-dd69"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-mobel-4ef2"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-musik-e5f0",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-musik-db01",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "music",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-musik-e5f0"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-musik-db01"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-ostern-e36a",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-ostern-f7de",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "easter",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-ostern-e36a"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-ostern-f7de"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-postamt-ba93",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "post_office",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-postamt-ba93"
-  },
-  {
-   "slug": "mathe-raetsel-subtraktion-reptilien-und-amphibien-ce6f",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "reptiles_and_amphibians",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-reptilien-und-amphibien-ce6f"
-  },
-  {
-   "slug": "mathe-raetsel-subtraktion-rund-ums-haus-d030",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-rund-ums-haus-89eb",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "around_the_house",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-rund-ums-haus-d030"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-rund-ums-haus-89eb"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-spielzeug-f29c",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-spielzeug-92d5",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "toys",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-spielzeug-f29c"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-spielzeug-92d5"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-strand-ecab",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-strand-c7c0",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "beach",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-strand-ecab"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-strand-c7c0"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-tiere-fa03",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-tiere-e63a",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "animals",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-tiere-fa03"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-tiere-e63a"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-verschiedenes-cd8d",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "miscellaneous",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-verschiedenes-cd8d"
-  },
-  {
-   "slug": "mathe-raetsel-subtraktion-vogel-2-00f3",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-vogel-2-c0e4",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-vogel-2-00f3"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-vogel-2-c0e4"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-vogel-386d",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "birds",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-vogel-386d"
-  },
-  {
-   "slug": "mathe-raetsel-subtraktion-waldtiere-c55a",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-waldtiere-a005",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "forest_creatures",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-waldtiere-c55a"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-waldtiere-a005"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-weihnachten-78f4",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-weihnachten-af06",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "christmas",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-weihnachten-78f4"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-weihnachten-af06"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-weltraum-9fdc",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-weltraum-0574",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "space",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-weltraum-9fdc"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-weltraum-0574"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-werkzeuge-ec77",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-werkzeuge-4722",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "tools",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-subtraktion-werkzeuge-ec77"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-werkzeuge-4722"
   },
   {
-   "slug": "mathe-raetsel-subtraktion-zootiere-ea8a",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "gross-klein-grosses-finden-zootiere-132f",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "zoo_animals",
-   "level": "2-klasse",
-   "deck": "mathe-raetsel-subtraktion-zootiere-ea8a"
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-zootiere-132f"
   },
   {
-   "slug": "mathe-raetsel-addition-accessoires-176c",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-accessoires-a649",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "accessories",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-accessoires-176c"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-accessoires-a649"
   },
   {
-   "slug": "mathe-raetsel-addition-backerei-d1cd",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-aktivitaten-4537",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-aktivitaten-4537"
+  },
+  {
+   "slug": "was-passt-nicht-gleiches-thema-backerei-cc72",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "bakery",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-backerei-d1cd"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-backerei-cc72"
   },
   {
-   "slug": "mathe-raetsel-addition-baume-e338",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-bauernhoftiere-9414",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-bauernhoftiere-9414"
+  },
+  {
+   "slug": "was-passt-nicht-gleiches-thema-baume-7707",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "tree",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-baume-e338"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-baume-7707"
   },
   {
-   "slug": "mathe-raetsel-addition-berufe-4bbf",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-berufe-f622",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "occupations",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-berufe-4bbf"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-berufe-f622"
   },
   {
-   "slug": "mathe-raetsel-addition-blumen-d020",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-blumen-854d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "flowers",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-blumen-d020"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-blumen-854d"
   },
   {
-   "slug": "mathe-raetsel-addition-camping-af1b",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-camping-3916",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "camping",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-camping-af1b"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-camping-3916"
   },
   {
-   "slug": "mathe-raetsel-addition-desserts-und-sussigkeiten-4b10",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-desserts-und-sussigkeiten-0ea8",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "desserts_and_sweets",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-desserts-und-sussigkeiten-4b10"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-desserts-und-sussigkeiten-0ea8"
   },
   {
-   "slug": "mathe-raetsel-addition-dinge-die-fliegen-df6a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-dinge-die-fliegen-a762",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "things_that_fly",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-dinge-die-fliegen-df6a"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-dinge-die-fliegen-a762"
   },
   {
-   "slug": "mathe-raetsel-addition-dinosaurier-3cde",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-dinosaurier-a7e0",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "dinosaurs",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-dinosaurier-3cde"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-dinosaurier-a7e0"
   },
   {
-   "slug": "mathe-raetsel-addition-erntedankfest-7c4d",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-emotionen-af25",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-emotionen-af25"
+  },
+  {
+   "slug": "was-passt-nicht-gleiches-thema-erntedankfest-b3ee",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "thanksgivinng",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-erntedankfest-7c4d"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-erntedankfest-b3ee"
   },
   {
-   "slug": "mathe-raetsel-addition-fahrzeuge-20cd",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-fahrzeuge-d80a",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "vehicles",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-fahrzeuge-20cd"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-fahrzeuge-d80a"
   },
   {
-   "slug": "mathe-raetsel-addition-formen-4706",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-farben-e20e",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-farben-e20e"
+  },
+  {
+   "slug": "was-passt-nicht-gleiches-thema-formen-49f4",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "shapes",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-formen-4706"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-formen-49f4"
   },
   {
-   "slug": "mathe-raetsel-addition-fruchte-fe92",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-fruchte-1614",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "fruits",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-fruchte-fe92"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-fruchte-1614"
   },
   {
-   "slug": "mathe-raetsel-addition-fruhstuck-89a6",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-fruhling-f9d8",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-fruhling-f9d8"
+  },
+  {
+   "slug": "was-passt-nicht-gleiches-thema-fruhstuck-7d75",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "breakfast",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-fruhstuck-89a6"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-fruhstuck-7d75"
   },
   {
-   "slug": "mathe-raetsel-addition-gemuse-73e5",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-gemuse-42ef",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "vegetables",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-gemuse-73e5"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-gemuse-42ef"
   },
   {
-   "slug": "mathe-raetsel-addition-haustiere-42ad",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-haustiere-cb98",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "pets",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-haustiere-42ad"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-haustiere-cb98"
   },
   {
-   "slug": "mathe-raetsel-addition-im-supermarkt-f5a8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-im-supermarkt-d7b8",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "at_the_supermarket",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-im-supermarkt-f5a8"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-im-supermarkt-d7b8"
   },
   {
-   "slug": "mathe-raetsel-addition-insekten-und-kafer-1383",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-insekten-und-kafer-a5f6",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "insects_and_bugs",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-insekten-und-kafer-1383"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-insekten-und-kafer-a5f6"
   },
   {
-   "slug": "mathe-raetsel-addition-klassenzimmer-91f7",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-klassenzimmer-0d01",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "classroom",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-klassenzimmer-91f7"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-klassenzimmer-0d01"
   },
   {
-   "slug": "mathe-raetsel-addition-kleidung-814e",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-kleidung-8cc8",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "clothing",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-kleidung-814e"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-kleidung-8cc8"
   },
   {
-   "slug": "mathe-raetsel-addition-krankenhaus-0cc4",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-korperteile-f338",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-korperteile-f338"
+  },
+  {
+   "slug": "was-passt-nicht-gleiches-thema-krankenhaus-7edc",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "hospital",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-krankenhaus-0cc4"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-krankenhaus-7edc"
   },
   {
-   "slug": "mathe-raetsel-addition-kuchenwerkzeuge-c844",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-kuchenwerkzeuge-626d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "kitchen_tools",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-kuchenwerkzeuge-c844"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-kuchenwerkzeuge-626d"
   },
   {
-   "slug": "mathe-raetsel-addition-meeresleben-1db9",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-meeresleben-ed3e",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "ocean_life",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-meeresleben-1db9"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-meeresleben-ed3e"
   },
   {
-   "slug": "mathe-raetsel-addition-mobel-b68e",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-mobel-188a",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "furniture",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-mobel-b68e"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-mobel-188a"
   },
   {
-   "slug": "mathe-raetsel-addition-musik-ee2a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-musik-1100",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "music",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-musik-ee2a"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-musik-1100"
   },
   {
-   "slug": "mathe-raetsel-addition-ostern-574e",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-ostern-0fc9",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "easter",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-ostern-574e"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-ostern-0fc9"
   },
   {
-   "slug": "mathe-raetsel-addition-postamt-5774",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-postamt-3ab4",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "post_office",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-postamt-5774"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-postamt-3ab4"
   },
   {
-   "slug": "mathe-raetsel-addition-reptilien-und-amphibien-63fd",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-reptilien-und-amphibien-63fd"
-  },
-  {
-   "slug": "mathe-raetsel-addition-rund-ums-haus-46e8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-rund-ums-haus-61aa",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "around_the_house",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-rund-ums-haus-46e8"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-rund-ums-haus-61aa"
   },
   {
-   "slug": "mathe-raetsel-addition-spielzeug-7102",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-sommer-7105",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-sommer-7105"
+  },
+  {
+   "slug": "was-passt-nicht-gleiches-thema-spielzeug-bb93",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "toys",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-spielzeug-7102"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-spielzeug-bb93"
   },
   {
-   "slug": "mathe-raetsel-addition-strand-a082",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-strand-a32e",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "beach",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-strand-a082"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-strand-a32e"
   },
   {
-   "slug": "mathe-raetsel-addition-tiere-4eb8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-tiere",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "animals",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-tiere-4eb8"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-tiere"
   },
   {
-   "slug": "mathe-raetsel-addition-verschiedenes-0881",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "miscellaneous",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-verschiedenes-0881"
-  },
-  {
-   "slug": "mathe-raetsel-addition-vogel-2-11b3",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-vogel-2-8562",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-vogel-2-11b3"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-vogel-2-8562"
   },
   {
-   "slug": "mathe-raetsel-addition-vogel-df32",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-vogel-2caa",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "birds",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-vogel-df32"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-vogel-2caa"
   },
   {
-   "slug": "mathe-raetsel-addition-waldtiere-3a4d",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-waldtiere-3f7f",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "forest_creatures",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-waldtiere-3a4d"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-waldtiere-3f7f"
   },
   {
-   "slug": "mathe-raetsel-addition-weihnachten-a10f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-weihnachten-bae4",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "christmas",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-weihnachten-a10f"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-weihnachten-bae4"
   },
   {
-   "slug": "mathe-raetsel-addition-weltraum-f26f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-weltraum-584e",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "space",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-weltraum-f26f"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-weltraum-584e"
   },
   {
-   "slug": "mathe-raetsel-addition-werkzeuge-68d0",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-werkzeuge-3bf5",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "tools",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-werkzeuge-68d0"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-werkzeuge-3bf5"
   },
   {
-   "slug": "mathe-raetsel-addition-zootiere-5b59",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "was-passt-nicht-gleiches-thema-wetter-c622",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-wetter-c622"
+  },
+  {
+   "slug": "was-passt-nicht-gleiches-thema-zootiere-a24e",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "zoo_animals",
-   "level": "1-klasse",
-   "deck": "mathe-raetsel-addition-zootiere-5b59"
+   "level": "vorschule",
+   "deck": "was-passt-nicht-gleiches-thema-zootiere-a24e"
   }
  ]
 }

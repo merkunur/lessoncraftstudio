@@ -2,763 +2,643 @@
  "part": 270,
  "locale": "da",
  "classes": [
-  "grid-match::null",
-  "math-worksheet::two-symbols-add-sub"
+  "subtraction::mixed",
+  "subtraction::find-subtrahend"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 79,
  "pages": [
   {
-   "slug": "gittermatch-aktiviteter-15df",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-aktiviteter-15df"
-  },
-  {
-   "slug": "gittermatch-bageri-e512",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-blandet-bageri-18ed",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-bageri-e512"
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-bageri-18ed"
   },
   {
-   "slug": "gittermatch-blomster-99e7",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-blandet-blomster-3184",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-blomster-99e7"
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-blomster-3184"
   },
   {
-   "slug": "gittermatch-bondegardsdyr-5119",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-blandet-bondegardsdyr-82e0",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-bondegardsdyr-5119"
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-bondegardsdyr-82e0"
   },
   {
-   "slug": "gittermatch-camping-b1af",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-blandet-camping-3554",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-camping-b1af"
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-camping-3554"
   },
   {
-   "slug": "gittermatch-desserter-og-slik-e141",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-blandet-desserter-og-slik-7412",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-desserter-og-slik-e141"
-  },
-  {
-   "slug": "gittermatch-dinosaurer-0b32",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-dinosaurer-0b32"
-  },
-  {
-   "slug": "gittermatch-dyr",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-dyr"
-  },
-  {
-   "slug": "gittermatch-erhverv-ba38",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-erhverv-ba38"
-  },
-  {
-   "slug": "gittermatch-folelser-f5ee",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-folelser-f5ee"
-  },
-  {
-   "slug": "gittermatch-forar-c96f",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-forar-c96f"
-  },
-  {
-   "slug": "gittermatch-former-713c",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "shapes",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-former-713c"
-  },
-  {
-   "slug": "gittermatch-frugter-155f",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-frugter-155f"
-  },
-  {
-   "slug": "gittermatch-fugle-2-0c06",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-fugle-2-0c06"
-  },
-  {
-   "slug": "gittermatch-fugle-2aeb",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "birds",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-fugle-2aeb"
-  },
-  {
-   "slug": "gittermatch-grontsager-3b54",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-grontsager-3b54"
-  },
-  {
-   "slug": "gittermatch-havliv-68cd",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-havliv-68cd"
-  },
-  {
-   "slug": "gittermatch-hospital-5cb3",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-hospital-5cb3"
-  },
-  {
-   "slug": "gittermatch-i-supermarkedet-4ef1",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-i-supermarkedet-4ef1"
-  },
-  {
-   "slug": "gittermatch-insekter-og-kryb-caca",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-insekter-og-kryb-caca"
-  },
-  {
-   "slug": "gittermatch-jul-5305",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-jul-5305"
-  },
-  {
-   "slug": "gittermatch-kaeledyr-3c23",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-kaeledyr-3c23"
-  },
-  {
-   "slug": "gittermatch-klassevaerelse-47ae",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-klassevaerelse-47ae"
-  },
-  {
-   "slug": "gittermatch-kokkenredskaber-c3fb",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-kokkenredskaber-c3fb"
-  },
-  {
-   "slug": "gittermatch-koretojer-39e5",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-koretojer-39e5"
-  },
-  {
-   "slug": "gittermatch-kropsdele-0a32",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-kropsdele-0a32"
-  },
-  {
-   "slug": "gittermatch-krybdyr-og-padder-9c99",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-krybdyr-og-padder-9c99"
-  },
-  {
-   "slug": "gittermatch-legetoj-ff18",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-legetoj-ff18"
-  },
-  {
-   "slug": "gittermatch-mobler-ace4",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-mobler-ace4"
-  },
-  {
-   "slug": "gittermatch-morgenmad-95c1",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-morgenmad-95c1"
-  },
-  {
-   "slug": "gittermatch-musik-2ea0",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-musik-2ea0"
-  },
-  {
-   "slug": "gittermatch-paske-58cb",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-paske-58cb"
-  },
-  {
-   "slug": "gittermatch-postkontor-08ee",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-postkontor-08ee"
-  },
-  {
-   "slug": "gittermatch-rummet-59ab",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-rummet-59ab"
-  },
-  {
-   "slug": "gittermatch-rundt-i-huset-b720",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-rundt-i-huset-b720"
-  },
-  {
-   "slug": "gittermatch-skovdyr-c57a",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-skovdyr-c57a"
-  },
-  {
-   "slug": "gittermatch-sommer-f2d5",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-sommer-f2d5"
-  },
-  {
-   "slug": "gittermatch-strand-cacb",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-strand-cacb"
-  },
-  {
-   "slug": "gittermatch-thanksgiving-7114",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-thanksgiving-7114"
-  },
-  {
-   "slug": "gittermatch-tilbehor-9b87",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-tilbehor-9b87"
-  },
-  {
-   "slug": "gittermatch-ting-der-flyver-9d9a",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-ting-der-flyver-9d9a"
-  },
-  {
-   "slug": "gittermatch-toj-0faf",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-toj-0faf"
-  },
-  {
-   "slug": "gittermatch-traeer-a62c",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "tree",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-traeer-a62c"
-  },
-  {
-   "slug": "gittermatch-vaerktoj-2452",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "tools",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-vaerktoj-2452"
-  },
-  {
-   "slug": "gittermatch-vejr-481a",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-vejr-481a"
-  },
-  {
-   "slug": "gittermatch-vinter-b2cc",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-vinter-b2cc"
-  },
-  {
-   "slug": "gittermatch-zoodyr-5352",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "gittermatch-zoodyr-5352"
-  },
-  {
-   "slug": "matematikark-2-symboler-add-sub-aktiviteter-f7d0",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "activities",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-aktiviteter-f7d0"
+   "deck": "subtraktion-blandet-desserter-og-slik-7412"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-bageri-bec4",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-blandet-dinosaurer-86f0",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-dinosaurer-86f0"
+  },
+  {
+   "slug": "subtraktion-blandet-dyr-0a26",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-dyr-0a26"
+  },
+  {
+   "slug": "subtraktion-blandet-erhverv-c845",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-erhverv-c845"
+  },
+  {
+   "slug": "subtraktion-blandet-former-719a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-former-719a"
+  },
+  {
+   "slug": "subtraktion-blandet-frugter-2d18",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-frugter-2d18"
+  },
+  {
+   "slug": "subtraktion-blandet-fugle-2-8208",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-fugle-2-8208"
+  },
+  {
+   "slug": "subtraktion-blandet-fugle-47b1",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-fugle-47b1"
+  },
+  {
+   "slug": "subtraktion-blandet-grontsager-db04",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-grontsager-db04"
+  },
+  {
+   "slug": "subtraktion-blandet-havliv-e508",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-havliv-e508"
+  },
+  {
+   "slug": "subtraktion-blandet-hospital-50f2",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-hospital-50f2"
+  },
+  {
+   "slug": "subtraktion-blandet-i-supermarkedet-7834",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-i-supermarkedet-7834"
+  },
+  {
+   "slug": "subtraktion-blandet-insekter-og-kryb-cab3",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-insekter-og-kryb-cab3"
+  },
+  {
+   "slug": "subtraktion-blandet-jul-47a5",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-jul-47a5"
+  },
+  {
+   "slug": "subtraktion-blandet-kaeledyr-cb58",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-kaeledyr-cb58"
+  },
+  {
+   "slug": "subtraktion-blandet-klassevaerelse-bc1e",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-klassevaerelse-bc1e"
+  },
+  {
+   "slug": "subtraktion-blandet-kokkenredskaber-c505",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-kokkenredskaber-c505"
+  },
+  {
+   "slug": "subtraktion-blandet-koretojer-68fd",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-koretojer-68fd"
+  },
+  {
+   "slug": "subtraktion-blandet-krybdyr-og-padder-d90b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-krybdyr-og-padder-d90b"
+  },
+  {
+   "slug": "subtraktion-blandet-legetoj-707f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-legetoj-707f"
+  },
+  {
+   "slug": "subtraktion-blandet-mobler-a10d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-mobler-a10d"
+  },
+  {
+   "slug": "subtraktion-blandet-morgenmad-2d8f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-morgenmad-2d8f"
+  },
+  {
+   "slug": "subtraktion-blandet-musik-da73",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-musik-da73"
+  },
+  {
+   "slug": "subtraktion-blandet-paske-a9ca",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-paske-a9ca"
+  },
+  {
+   "slug": "subtraktion-blandet-postkontor-5534",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-postkontor-5534"
+  },
+  {
+   "slug": "subtraktion-blandet-rummet-15c7",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-rummet-15c7"
+  },
+  {
+   "slug": "subtraktion-blandet-rundt-i-huset-9d11",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-rundt-i-huset-9d11"
+  },
+  {
+   "slug": "subtraktion-blandet-skovdyr-0832",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-skovdyr-0832"
+  },
+  {
+   "slug": "subtraktion-blandet-strand-d05b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-strand-d05b"
+  },
+  {
+   "slug": "subtraktion-blandet-thanksgiving-fb5a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-thanksgiving-fb5a"
+  },
+  {
+   "slug": "subtraktion-blandet-tilbehor-c73f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-tilbehor-c73f"
+  },
+  {
+   "slug": "subtraktion-blandet-ting-der-flyver-94ce",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-ting-der-flyver-94ce"
+  },
+  {
+   "slug": "subtraktion-blandet-toj-0297",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-toj-0297"
+  },
+  {
+   "slug": "subtraktion-blandet-traeer-4e7e",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-traeer-4e7e"
+  },
+  {
+   "slug": "subtraktion-blandet-vaerktoj-f2f9",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-vaerktoj-f2f9"
+  },
+  {
+   "slug": "subtraktion-blandet-zoodyr-3302",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-zoodyr-3302"
+  },
+  {
+   "slug": "subtraktion-find-subtrahend-bageri-8b6e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "bakery",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-bageri-bec4"
+   "deck": "subtraktion-find-subtrahend-bageri-8b6e"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-blomster-01e0",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-blomster-4f9d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "flowers",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-blomster-01e0"
+   "deck": "subtraktion-find-subtrahend-blomster-4f9d"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-bondegardsdyr-0b16",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-bondegardsdyr-b734",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "farm_animals",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-bondegardsdyr-0b16"
+   "deck": "subtraktion-find-subtrahend-bondegardsdyr-b734"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-camping-9855",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-camping-c654",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "camping",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-camping-9855"
+   "deck": "subtraktion-find-subtrahend-camping-c654"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-dinosaurer-622d",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-dinosaurer-a1c8",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "dinosaurs",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-dinosaurer-622d"
+   "deck": "subtraktion-find-subtrahend-dinosaurer-a1c8"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-dyr-6091",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-dyr-5ac7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "animals",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-dyr-6091"
+   "deck": "subtraktion-find-subtrahend-dyr-5ac7"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-erhverv-e26b",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-erhverv-488f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "occupations",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-erhverv-e26b"
+   "deck": "subtraktion-find-subtrahend-erhverv-488f"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-farver-c9c2",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "colors",
-   "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-farver-c9c2"
-  },
-  {
-   "slug": "matematikark-2-symboler-add-sub-folelser-8fed",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "emotions",
-   "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-folelser-8fed"
-  },
-  {
-   "slug": "matematikark-2-symboler-add-sub-forar-79a1",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "spring",
-   "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-forar-79a1"
-  },
-  {
-   "slug": "matematikark-2-symboler-add-sub-former-f9b6",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-former-c1bc",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "shapes",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-former-f9b6"
+   "deck": "subtraktion-find-subtrahend-former-c1bc"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-frugter-1a85",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-frugter-ec85",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "fruits",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-frugter-1a85"
+   "deck": "subtraktion-find-subtrahend-frugter-ec85"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-fugle-2-eb68",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-fugle-2-14f1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds_2",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-fugle-2-eb68"
+   "deck": "subtraktion-find-subtrahend-fugle-2-14f1"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-fugle-7671",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-fugle-cb27",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-fugle-7671"
+   "deck": "subtraktion-find-subtrahend-fugle-cb27"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-grontsager-5b6d",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-grontsager-4e5e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vegetables",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-grontsager-5b6d"
+   "deck": "subtraktion-find-subtrahend-grontsager-4e5e"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-havliv-eb46",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-havliv-7819",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "ocean_life",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-havliv-eb46"
+   "deck": "subtraktion-find-subtrahend-havliv-7819"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-hospital-5270",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-hospital-490e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "hospital",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-hospital-5270"
+   "deck": "subtraktion-find-subtrahend-hospital-490e"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-i-supermarkedet-421e",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-i-supermarkedet-ba7f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "at_the_supermarket",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-i-supermarkedet-421e"
+   "deck": "subtraktion-find-subtrahend-i-supermarkedet-ba7f"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-insekter-og-kryb-f2f3",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-insekter-og-kryb-089b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "insects_and_bugs",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-insekter-og-kryb-f2f3"
+   "deck": "subtraktion-find-subtrahend-insekter-og-kryb-089b"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-jul-4095",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-jul-cad9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "christmas",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-jul-4095"
+   "deck": "subtraktion-find-subtrahend-jul-cad9"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-kaeledyr-cef2",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-kaeledyr-362d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "pets",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-kaeledyr-cef2"
+   "deck": "subtraktion-find-subtrahend-kaeledyr-362d"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-klassevaerelse-6ce8",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-klassevaerelse-91f9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "classroom",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-klassevaerelse-6ce8"
+   "deck": "subtraktion-find-subtrahend-klassevaerelse-91f9"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-kokkenredskaber-e7ff",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-kokkenredskaber-52a3",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "kitchen_tools",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-kokkenredskaber-e7ff"
+   "deck": "subtraktion-find-subtrahend-kokkenredskaber-52a3"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-koretojer-0801",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-koretojer-2809",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vehicles",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-koretojer-0801"
+   "deck": "subtraktion-find-subtrahend-koretojer-2809"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-kropsdele-9868",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "body_parts",
-   "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-kropsdele-9868"
-  },
-  {
-   "slug": "matematikark-2-symboler-add-sub-krybdyr-og-padder-e0ed",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-krybdyr-og-padder-9a2f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "reptiles_and_amphibians",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-krybdyr-og-padder-e0ed"
+   "deck": "subtraktion-find-subtrahend-krybdyr-og-padder-9a2f"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-legetoj-2165",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-legetoj-b325",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "toys",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-legetoj-2165"
+   "deck": "subtraktion-find-subtrahend-legetoj-b325"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-mobler-4831",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-mobler-b552",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "furniture",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-mobler-4831"
+   "deck": "subtraktion-find-subtrahend-mobler-b552"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-morgenmad-0800",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-morgenmad-fd6b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "breakfast",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-morgenmad-0800"
+   "deck": "subtraktion-find-subtrahend-morgenmad-fd6b"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-musik-b35d",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-musik-774d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "music",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-musik-b35d"
+   "deck": "subtraktion-find-subtrahend-musik-774d"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-paske-3009",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-paske-0728",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "easter",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-paske-3009"
+   "deck": "subtraktion-find-subtrahend-paske-0728"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-postkontor-210b",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-postkontor-33ff",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "post_office",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-postkontor-210b"
+   "deck": "subtraktion-find-subtrahend-postkontor-33ff"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-rummet-e9a9",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-rummet-7792",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "space",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-rummet-e9a9"
+   "deck": "subtraktion-find-subtrahend-rummet-7792"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-rundt-i-huset-bf7f",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-rundt-i-huset-ed05",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "around_the_house",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-rundt-i-huset-bf7f"
+   "deck": "subtraktion-find-subtrahend-rundt-i-huset-ed05"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-skovdyr-defa",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-skovdyr-cd70",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "forest_creatures",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-skovdyr-defa"
+   "deck": "subtraktion-find-subtrahend-skovdyr-cd70"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-sommer-55e4",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "summer",
-   "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-sommer-55e4"
-  },
-  {
-   "slug": "matematikark-2-symboler-add-sub-strand-e1c1",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-strand-0e01",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "beach",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-strand-e1c1"
+   "deck": "subtraktion-find-subtrahend-strand-0e01"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-thanksgiving-980b",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-thanksgiving-97bc",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "thanksgivinng",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-thanksgiving-980b"
+   "deck": "subtraktion-find-subtrahend-thanksgiving-97bc"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-tilbehor-8c66",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-tilbehor-c3b3",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "accessories",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-tilbehor-8c66"
+   "deck": "subtraktion-find-subtrahend-tilbehor-c3b3"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-ting-der-flyver-70f7",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-ting-der-flyver-e6a6",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "things_that_fly",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-ting-der-flyver-70f7"
+   "deck": "subtraktion-find-subtrahend-ting-der-flyver-e6a6"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-toj-b88f",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-toj-016f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "clothing",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-toj-b88f"
+   "deck": "subtraktion-find-subtrahend-toj-016f"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-traeer-a50b",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-traeer-e8fe",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "tree",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-traeer-a50b"
+   "deck": "subtraktion-find-subtrahend-traeer-e8fe"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-vaerktoj-2f6b",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-vaerktoj-f09c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "tools",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-vaerktoj-2f6b"
+   "deck": "subtraktion-find-subtrahend-vaerktoj-f09c"
   },
   {
-   "slug": "matematikark-2-symboler-add-sub-vejr-9364",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "weather",
-   "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-vejr-9364"
-  },
-  {
-   "slug": "matematikark-2-symboler-add-sub-vinter-7c91",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "winter",
-   "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-vinter-7c91"
-  },
-  {
-   "slug": "matematikark-2-symboler-add-sub-zoodyr-2c7d",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "subtraktion-find-subtrahend-zoodyr-98fb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "zoo_animals",
    "level": "1-klasse",
-   "deck": "matematikark-2-symboler-add-sub-zoodyr-2c7d"
+   "deck": "subtraktion-find-subtrahend-zoodyr-98fb"
   }
  ]
 }

@@ -2,667 +2,747 @@
  "part": 129,
  "locale": "pt",
  "classes": [
-  "more-less::image-number",
-  "subtraction::cross-out"
+  "word-guess::easy",
+  "word-guess::normal"
  ],
  "splitOf": null,
- "count": 82,
+ "count": 92,
  "pages": [
   {
-   "slug": "mais-ou-menos-imagem-numero-acampamento-43ed",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-acampamento-43ed"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-acessorios-5d1a",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-acessorios-5d1a"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-animais-31c2",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-animais-31c2"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-animais-da-fazenda-716f",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "farm_animals",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-animais-da-fazenda-716f"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-animais-de-estimacao-9987",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-animais-de-estimacao-9987"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-animais-do-zoologico-aa26",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-animais-do-zoologico-aa26"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-arvores-59e3",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-arvores-59e3"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-brinquedos-4139",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-brinquedos-4139"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-cafe-da-manha-4e24",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-cafe-da-manha-4e24"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-coisas-que-voam-dbde",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-coisas-que-voam-dbde"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-correios-aaf9",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-correios-aaf9"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-criaturas-da-floresta-bbf0",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-criaturas-da-floresta-bbf0"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-dia-de-acao-de-gracas-e626",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-dia-de-acao-de-gracas-e626"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-dinossauros-7f61",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-dinossauros-7f61"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-diversos-4711",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-diversos-4711"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-espaco-c685",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-espaco-c685"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-ferramentas-3a99",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-ferramentas-3a99"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-flores-8f6f",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-flores-8f6f"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-formas-4536",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-formas-4536"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-frutas-7c0e",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-frutas-7c0e"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-hospital-14d1",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-hospital-14d1"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-insetos-e-bichos-4dbe",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-insetos-e-bichos-4dbe"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-moveis-8509",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-moveis-8509"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-musica-52bf",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-musica-52bf"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-natal-bf7d",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-natal-bf7d"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-no-supermercado-8f32",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-no-supermercado-8f32"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-padaria-ac56",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-padaria-ac56"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-pascoa-87e7",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-pascoa-87e7"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-passaros-1ae3",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-passaros-1ae3"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-passaros-2-41e1",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-passaros-2-41e1"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-pela-casa-41bf",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-pela-casa-41bf"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-praia-2cf4",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-praia-2cf4"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-profissoes-b64a",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-profissoes-b64a"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-repteis-e-anfibios-2942",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-repteis-e-anfibios-2942"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-roupas-2e40",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-roupas-2e40"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-sala-de-aula-1d36",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-sala-de-aula-1d36"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-sobremesas-e-doces-13c7",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-sobremesas-e-doces-13c7"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-utensilios-de-cozinha-b47a",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-utensilios-de-cozinha-b47a"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-vegetais-a98a",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-vegetais-a98a"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-veiculos-c5a8",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-veiculos-c5a8"
-  },
-  {
-   "slug": "mais-ou-menos-imagem-numero-vida-marinha-d09c",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "mais-ou-menos-imagem-numero-vida-marinha-d09c"
-  },
-  {
-   "slug": "subtracao-riscar-acampamento-840b",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-acampamento-423a",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "camping",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-acampamento-840b"
+   "deck": "adivinhe-a-palavra-facil-acampamento-423a"
   },
   {
-   "slug": "subtracao-riscar-acessorios-8745",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-acessorios-280e",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "accessories",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-acessorios-8745"
+   "deck": "adivinhe-a-palavra-facil-acessorios-280e"
   },
   {
-   "slug": "subtracao-riscar-animais",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-animais-aaf6",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "animals",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-animais"
+   "deck": "adivinhe-a-palavra-facil-animais-aaf6"
   },
   {
-   "slug": "subtracao-riscar-animais-da-fazenda-0f81",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-animais-da-fazenda-0e67",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "farm_animals",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-animais-da-fazenda-0f81"
+   "deck": "adivinhe-a-palavra-facil-animais-da-fazenda-0e67"
   },
   {
-   "slug": "subtracao-riscar-animais-de-estimacao-29b7",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-animais-de-estimacao-d427",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "pets",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-animais-de-estimacao-29b7"
+   "deck": "adivinhe-a-palavra-facil-animais-de-estimacao-d427"
   },
   {
-   "slug": "subtracao-riscar-animais-do-zoologico-042c",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-animais-do-zoologico-dfb6",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "zoo_animals",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-animais-do-zoologico-042c"
+   "deck": "adivinhe-a-palavra-facil-animais-do-zoologico-dfb6"
   },
   {
-   "slug": "subtracao-riscar-arvores-a253",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-arvores-f068",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "tree",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-arvores-a253"
+   "deck": "adivinhe-a-palavra-facil-arvores-f068"
   },
   {
-   "slug": "subtracao-riscar-brinquedos-25ef",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-atividades-6476",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-atividades-6476"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-brinquedos-4aef",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "toys",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-brinquedos-25ef"
+   "deck": "adivinhe-a-palavra-facil-brinquedos-4aef"
   },
   {
-   "slug": "subtracao-riscar-cafe-da-manha-8f9e",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-cafe-da-manha-7196",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "breakfast",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-cafe-da-manha-8f9e"
+   "deck": "adivinhe-a-palavra-facil-cafe-da-manha-7196"
   },
   {
-   "slug": "subtracao-riscar-coisas-que-voam-9d82",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-clima-7d3f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-clima-7d3f"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-coisas-que-voam-bc9f",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "things_that_fly",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-coisas-que-voam-9d82"
+   "deck": "adivinhe-a-palavra-facil-coisas-que-voam-bc9f"
   },
   {
-   "slug": "subtracao-riscar-correios-9926",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "post_office",
+   "slug": "adivinhe-a-palavra-facil-cores-b4d6",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "colors",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-correios-9926"
+   "deck": "adivinhe-a-palavra-facil-cores-b4d6"
   },
   {
-   "slug": "subtracao-riscar-criaturas-da-floresta-d931",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-criaturas-da-floresta-aa42",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "forest_creatures",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-criaturas-da-floresta-d931"
+   "deck": "adivinhe-a-palavra-facil-criaturas-da-floresta-aa42"
   },
   {
-   "slug": "subtracao-riscar-dia-de-acao-de-gracas-95b1",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-dia-de-acao-de-gracas-fa36",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "thanksgivinng",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-dia-de-acao-de-gracas-95b1"
+   "deck": "adivinhe-a-palavra-facil-dia-de-acao-de-gracas-fa36"
   },
   {
-   "slug": "subtracao-riscar-dinossauros-5d1c",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "dinosaurs",
-   "level": "1o-ano",
-   "deck": "subtracao-riscar-dinossauros-5d1c"
-  },
-  {
-   "slug": "subtracao-riscar-diversos-4432",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-diversos-e182",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "miscellaneous",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-diversos-4432"
+   "deck": "adivinhe-a-palavra-facil-diversos-e182"
   },
   {
-   "slug": "subtracao-riscar-espaco-2486",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-emocoes-d024",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-emocoes-d024"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-espaco-4874",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "space",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-espaco-2486"
+   "deck": "adivinhe-a-palavra-facil-espaco-4874"
   },
   {
-   "slug": "subtracao-riscar-ferramentas-6fe8",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-ferramentas-a168",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "tools",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-ferramentas-6fe8"
+   "deck": "adivinhe-a-palavra-facil-ferramentas-a168"
   },
   {
-   "slug": "subtracao-riscar-flores-f37c",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-flores-0aa9",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "flowers",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-flores-f37c"
+   "deck": "adivinhe-a-palavra-facil-flores-0aa9"
   },
   {
-   "slug": "subtracao-riscar-formas-858b",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-formas-cf5b",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "shapes",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-formas-858b"
+   "deck": "adivinhe-a-palavra-facil-formas-cf5b"
   },
   {
-   "slug": "subtracao-riscar-frutas-a395",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-frutas-dee3",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "fruits",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-frutas-a395"
+   "deck": "adivinhe-a-palavra-facil-frutas-dee3"
   },
   {
-   "slug": "subtracao-riscar-hospital-0833",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-hospital-aee3",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "hospital",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-hospital-0833"
+   "deck": "adivinhe-a-palavra-facil-hospital-aee3"
   },
   {
-   "slug": "subtracao-riscar-insetos-e-bichos-ea57",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-insetos-e-bichos-e2e7",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "insects_and_bugs",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-insetos-e-bichos-ea57"
+   "deck": "adivinhe-a-palavra-facil-insetos-e-bichos-e2e7"
   },
   {
-   "slug": "subtracao-riscar-moveis-4b2e",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-inverno-bd07",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-inverno-bd07"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-moveis-f6b4",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "furniture",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-moveis-4b2e"
+   "deck": "adivinhe-a-palavra-facil-moveis-f6b4"
   },
   {
-   "slug": "subtracao-riscar-musica-2b61",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-musica-f54b",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "music",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-musica-2b61"
+   "deck": "adivinhe-a-palavra-facil-musica-f54b"
   },
   {
-   "slug": "subtracao-riscar-natal-d66f",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-natal-62bb",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "christmas",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-natal-d66f"
+   "deck": "adivinhe-a-palavra-facil-natal-62bb"
   },
   {
-   "slug": "subtracao-riscar-no-supermercado-b386",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-no-supermercado-1e39",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "at_the_supermarket",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-no-supermercado-b386"
+   "deck": "adivinhe-a-palavra-facil-no-supermercado-1e39"
   },
   {
-   "slug": "subtracao-riscar-padaria-91e6",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-padaria-de0c",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "bakery",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-padaria-91e6"
+   "deck": "adivinhe-a-palavra-facil-padaria-de0c"
   },
   {
-   "slug": "subtracao-riscar-pascoa-4c4b",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-partes-do-corpo-3a1f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-partes-do-corpo-3a1f"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-pascoa-bdb3",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "easter",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-pascoa-4c4b"
+   "deck": "adivinhe-a-palavra-facil-pascoa-bdb3"
   },
   {
-   "slug": "subtracao-riscar-passaros-2-fe37",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-passaros-2-62e4",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "birds_2",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-passaros-2-fe37"
+   "deck": "adivinhe-a-palavra-facil-passaros-2-62e4"
   },
   {
-   "slug": "subtracao-riscar-passaros-e50c",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-passaros-de22",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "birds",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-passaros-e50c"
+   "deck": "adivinhe-a-palavra-facil-passaros-de22"
   },
   {
-   "slug": "subtracao-riscar-pela-casa-0745",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-pela-casa-0a4c",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "around_the_house",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-pela-casa-0745"
+   "deck": "adivinhe-a-palavra-facil-pela-casa-0a4c"
   },
   {
-   "slug": "subtracao-riscar-praia-12bd",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-praia-9d3e",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "beach",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-praia-12bd"
+   "deck": "adivinhe-a-palavra-facil-praia-9d3e"
   },
   {
-   "slug": "subtracao-riscar-profissoes-4efa",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-primavera-b931",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-primavera-b931"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-profissoes-1ef9",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "occupations",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-profissoes-4efa"
+   "deck": "adivinhe-a-palavra-facil-profissoes-1ef9"
   },
   {
-   "slug": "subtracao-riscar-repteis-e-anfibios-7696",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-repteis-e-anfibios-9d11",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "reptiles_and_amphibians",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-repteis-e-anfibios-7696"
+   "deck": "adivinhe-a-palavra-facil-repteis-e-anfibios-9d11"
   },
   {
-   "slug": "subtracao-riscar-roupas-368a",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-roupas-4ed2",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "clothing",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-roupas-368a"
+   "deck": "adivinhe-a-palavra-facil-roupas-4ed2"
   },
   {
-   "slug": "subtracao-riscar-sala-de-aula-3694",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-sala-de-aula-6a74",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "classroom",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-sala-de-aula-3694"
+   "deck": "adivinhe-a-palavra-facil-sala-de-aula-6a74"
   },
   {
-   "slug": "subtracao-riscar-sobremesas-e-doces-ed6d",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-sobremesas-e-doces-de6c",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "desserts_and_sweets",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-sobremesas-e-doces-ed6d"
+   "deck": "adivinhe-a-palavra-facil-sobremesas-e-doces-de6c"
   },
   {
-   "slug": "subtracao-riscar-utensilios-de-cozinha-6199",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-utensilios-de-cozinha-326c",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "kitchen_tools",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-utensilios-de-cozinha-6199"
+   "deck": "adivinhe-a-palavra-facil-utensilios-de-cozinha-326c"
   },
   {
-   "slug": "subtracao-riscar-vegetais-b0fe",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-vegetais-a49c",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "vegetables",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-vegetais-b0fe"
+   "deck": "adivinhe-a-palavra-facil-vegetais-a49c"
   },
   {
-   "slug": "subtracao-riscar-veiculos-a850",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-veiculos-bf96",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "vehicles",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-veiculos-a850"
+   "deck": "adivinhe-a-palavra-facil-veiculos-bf96"
   },
   {
-   "slug": "subtracao-riscar-vida-marinha-2fa1",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "adivinhe-a-palavra-facil-verao-7f93",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-facil-verao-7f93"
+  },
+  {
+   "slug": "adivinhe-a-palavra-facil-vida-marinha-5a42",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "ocean_life",
    "level": "1o-ano",
-   "deck": "subtracao-riscar-vida-marinha-2fa1"
+   "deck": "adivinhe-a-palavra-facil-vida-marinha-5a42"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-acampamento-657c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-acampamento-657c"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-acessorios-0a76",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-acessorios-0a76"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-animais-4223",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-animais-4223"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-animais-da-fazenda-3a41",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-animais-da-fazenda-3a41"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-animais-de-estimacao-aa3d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-animais-de-estimacao-aa3d"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-animais-do-zoologico-1acb",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-animais-do-zoologico-1acb"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-atividades-7920",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-atividades-7920"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-brinquedos-a978",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-brinquedos-a978"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-cafe-da-manha-12fd",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-cafe-da-manha-12fd"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-clima-210a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-clima-210a"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-coisas-que-voam-0510",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-coisas-que-voam-0510"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-cores-4ac1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-cores-4ac1"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-criaturas-da-floresta-3f40",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-criaturas-da-floresta-3f40"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-dia-de-acao-de-gracas-5634",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-dia-de-acao-de-gracas-5634"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-emocoes-5242",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-emocoes-5242"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-espaco-a2d7",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-espaco-a2d7"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-ferramentas-c74a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-ferramentas-c74a"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-flores-2b6e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-flores-2b6e"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-formas-5f3d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-formas-5f3d"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-frutas-0c05",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-frutas-0c05"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-hospital-f6d9",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-hospital-f6d9"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-insetos-e-bichos-2578",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-insetos-e-bichos-2578"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-inverno-ef5a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-inverno-ef5a"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-moveis-9aa2",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-moveis-9aa2"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-musica-531c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-musica-531c"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-natal-7e54",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-natal-7e54"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-no-supermercado-af5a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-no-supermercado-af5a"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-padaria-43eb",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-padaria-43eb"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-partes-do-corpo-d543",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-partes-do-corpo-d543"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-pascoa-1e4f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-pascoa-1e4f"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-passaros-2-8843",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-passaros-2-8843"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-passaros-291e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-passaros-291e"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-pela-casa-db12",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-pela-casa-db12"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-praia-6e9f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-praia-6e9f"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-primavera-64a7",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-primavera-64a7"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-profissoes-87da",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-profissoes-87da"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-repteis-e-anfibios-8477",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-repteis-e-anfibios-8477"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-roupas-3cc7",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-roupas-3cc7"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-sala-de-aula-cd69",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-sala-de-aula-cd69"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-sobremesas-e-doces-2259",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-sobremesas-e-doces-2259"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-utensilios-de-cozinha-384e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-utensilios-de-cozinha-384e"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-vegetais-2774",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-vegetais-2774"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-veiculos-0ddd",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-veiculos-0ddd"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-verao-5113",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-verao-5113"
+  },
+  {
+   "slug": "adivinhe-a-palavra-normal-vida-marinha-81c2",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "adivinhe-a-palavra-normal-vida-marinha-81c2"
   }
  ]
 }

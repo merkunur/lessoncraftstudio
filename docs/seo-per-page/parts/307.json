@@ -2,747 +2,770 @@
  "part": 307,
  "locale": "no",
  "classes": [
-  "find-and-count::letter-spotting",
-  "find-objects::i-spy"
+  "wordsearch::null"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 95,
  "pages": [
   {
-   "slug": "finn-og-tell-finn-bokstaver-aktiviteter-e6f3",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-4-juli-c1aa",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-4-juli-c1aa"
+  },
+  {
+   "slug": "engelsk-ordleting-aktiviteter-37df",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "activities",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-aktiviteter-e6f3"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-aktiviteter-37df"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-bakeri-5729",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-bakeri-c88e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-bakeri-5729"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-bakeri-c88e"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-blomster-a9a0",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-blomster-d5bc",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-blomster-a9a0"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-blomster-d5bc"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-camping-83f4",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-camping-2aa0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "camping",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-camping-83f4"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-camping-2aa0"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-desserter-og-godteri-ea68",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-desserter-og-godteri-57cc",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-desserter-og-godteri-ea68"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-desserter-og-godteri-57cc"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-dyr-2534",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-dyr-732f",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "animals",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-dyr-2534"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-dyr-732f"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-dyrehagedyr-ab4a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-dyrehagedyr-c6d9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-dyrehagedyr-ab4a"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-dyrehagedyr-c6d9"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-farger-a531",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-farger-f2a9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "colors",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-farger-a531"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-farger-f2a9"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-folelser-8df2",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-folelser-cf7a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-folelser-8df2"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-folelser-cf7a"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-former-a06f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-former-2def",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-former-a06f"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-former-2def"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-frokost-7ca3",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-frokost-5395",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-frokost-7ca3"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-frokost-5395"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-frukter-3888",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-frukter-216a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-frukter-3888"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-frukter-216a"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-fugler-2-efaa",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-fugler-2-8277",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-fugler-2-efaa"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-fugler-2-8277"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-gardsdyr-3508",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-fugler-6503",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-fugler-6503"
+  },
+  {
+   "slug": "engelsk-ordleting-gardsdyr-6a6b",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-gardsdyr-3508"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-gardsdyr-6a6b"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-gronnsaker-9b14",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-gronnsaker-758c",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-gronnsaker-9b14"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-gronnsaker-758c"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-havliv-cc58",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-havliv-ada5",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-havliv-cc58"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-havliv-ada5"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-i-supermarkedet-4b84",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-i-supermarkedet-8f93",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-i-supermarkedet-4b84"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-i-supermarkedet-8f93"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-insekter-og-kryp-2c10",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-insekter-og-kryp-2cee",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-insekter-og-kryp-2c10"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-insekter-og-kryp-2cee"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-jul-fcc8",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-jul-99fb",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-jul-fcc8"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-jul-99fb"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-kjaeledyr-d19e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-kjaeledyr-e05f",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "pets",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-kjaeledyr-d19e"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-kjaeledyr-e05f"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-kjokkenredskaper-37a4",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-kjokkenredskaper-6b92",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-kjokkenredskaper-37a4"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-kjokkenredskaper-6b92"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-kjoretoy-d3b0",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-kjoretoy-9d4b",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-kjoretoy-d3b0"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-kjoretoy-9d4b"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-klaer-f987",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-klaer-ed26",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-klaer-f987"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-klaer-ed26"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-klasserom-567f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-klasserom-e8d8",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-klasserom-567f"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-klasserom-e8d8"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-kroppsdeler-39af",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-kroppsdeler-80a1",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-kroppsdeler-39af"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-kroppsdeler-80a1"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-leker-4e9b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-leker-94d0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "toys",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-leker-4e9b"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-leker-94d0"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-mobler-7d60",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-mobler-c5ed",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-mobler-7d60"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-mobler-c5ed"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-musikk-a042",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-musikk-b978",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "music",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-musikk-a042"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-musikk-b978"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-paske-c641",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-paske-6c72",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "easter",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-paske-c641"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-paske-6c72"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-postkontor-6439",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-postkontor-5ad9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-postkontor-6439"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-postkontor-5ad9"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-reptiler-og-amfibier-750e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-reptiler-og-amfibier-1af0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-reptiler-og-amfibier-750e"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-reptiler-og-amfibier-1af0"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-rundt-i-huset-3be1",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-rundt-i-huset-e213",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-rundt-i-huset-3be1"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-rundt-i-huset-e213"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-skogsdyr-910f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-skogsdyr-23d9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-skogsdyr-910f"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-skogsdyr-23d9"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-sommer-a994",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-sommer-07e5",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "summer",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-sommer-a994"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-sommer-07e5"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-strand-145c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-strand-acdd",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "beach",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-strand-145c"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-strand-acdd"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-sykehus-6d79",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-sykehus-2ee1",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-sykehus-6d79"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-sykehus-2ee1"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-thanksgiving-f715",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-thanksgiving-2225",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-thanksgiving-f715"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-thanksgiving-2225"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-tilbehor-e913",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-tilbehor-d51b",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-tilbehor-e913"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-tilbehor-d51b"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-ting-som-flyr-542c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-ting-som-flyr-d84a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-ting-som-flyr-542c"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-ting-som-flyr-d84a"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-traer-6791",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-traer-a469",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tree",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-traer-6791"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-traer-a469"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-vaer-e8e9",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-vaer-1ed0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "weather",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-vaer-e8e9"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-vaer-1ed0"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-var-3c43",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-var-5d66",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "spring",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-var-3c43"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-var-5d66"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-verdensrommet-a0a9",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-verdensrommet-5378",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "space",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-verdensrommet-a0a9"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-verdensrommet-5378"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-verktoy-f9f1",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-verktoy-d9ab",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tools",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-verktoy-f9f1"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-verktoy-d9ab"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-vinter-d074",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-vinter-fad7",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "winter",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-vinter-d074"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-vinter-fad7"
   },
   {
-   "slug": "finn-og-tell-finn-bokstaver-yrker-5d0c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "engelsk-ordleting-yrker-9572",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-finn-bokstaver-yrker-5d0c"
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-yrker-9572"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-aktiviteter-23ce",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-aktiviteter-ef7d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "activities",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-aktiviteter-23ce"
+   "level": "2-trinn",
+   "deck": "ordleting-aktiviteter-ef7d"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-bakeri-48c0",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-bakeri-0f83",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-bakeri-48c0"
+   "level": "2-trinn",
+   "deck": "ordleting-bakeri-0f83"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-blomster-b9fb",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-blomster-75c8",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-blomster-b9fb"
+   "level": "2-trinn",
+   "deck": "ordleting-blomster-75c8"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-camping-70d1",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-camping-51eb",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "camping",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-camping-70d1"
+   "level": "2-trinn",
+   "deck": "ordleting-camping-51eb"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-desserter-og-godteri-14ab",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-desserter-og-godteri-dca7",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-desserter-og-godteri-14ab"
+   "level": "2-trinn",
+   "deck": "ordleting-desserter-og-godteri-dca7"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-dinosaurer-52b5",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-dinosaurer-52b5"
-  },
-  {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-dyr-7f70",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-dyr-9b27",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "animals",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-dyr-7f70"
+   "level": "2-trinn",
+   "deck": "ordleting-dyr-9b27"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-dyrehagedyr-7ba0",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-dyrehagedyr-c3df",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-dyrehagedyr-7ba0"
+   "level": "2-trinn",
+   "deck": "ordleting-dyrehagedyr-c3df"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-farger-8c60",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-farger-35d8",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "colors",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-farger-8c60"
+   "level": "2-trinn",
+   "deck": "ordleting-farger-35d8"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-folelser-9311",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-folelser-9764",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-folelser-9311"
+   "level": "2-trinn",
+   "deck": "ordleting-folelser-9764"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-former-d700",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-former-9ec1",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-former-d700"
+   "level": "2-trinn",
+   "deck": "ordleting-former-9ec1"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-frokost-adbc",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-frokost-5cfa",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-frokost-adbc"
+   "level": "2-trinn",
+   "deck": "ordleting-frokost-5cfa"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-frukter-bf9d",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-frukter-3dba",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-frukter-bf9d"
+   "level": "2-trinn",
+   "deck": "ordleting-frukter-3dba"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-fugler-2-43cf",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-fugler-2-6cfc",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-fugler-2-43cf"
+   "level": "2-trinn",
+   "deck": "ordleting-fugler-2-6cfc"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-gardsdyr-eaaf",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-fugler-a70b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "ordleting-fugler-a70b"
+  },
+  {
+   "slug": "ordleting-gardsdyr-c4c3",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-gardsdyr-eaaf"
+   "level": "2-trinn",
+   "deck": "ordleting-gardsdyr-c4c3"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-gronnsaker-fb92",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-gronnsaker-528a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-gronnsaker-fb92"
+   "level": "2-trinn",
+   "deck": "ordleting-gronnsaker-528a"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-havliv-159a",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-havliv-f615",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-havliv-159a"
+   "level": "2-trinn",
+   "deck": "ordleting-havliv-f615"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-i-supermarkedet-04db",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-i-supermarkedet-47d4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-i-supermarkedet-04db"
+   "level": "2-trinn",
+   "deck": "ordleting-i-supermarkedet-47d4"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-insekter-og-kryp-294b",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-insekter-og-kryp-96c2",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-insekter-og-kryp-294b"
+   "level": "2-trinn",
+   "deck": "ordleting-insekter-og-kryp-96c2"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-jul-3175",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-jul-84f1",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-jul-3175"
+   "level": "2-trinn",
+   "deck": "ordleting-jul-84f1"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-kjaeledyr-734d",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-kjaeledyr-f9f2",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "pets",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-kjaeledyr-734d"
+   "level": "2-trinn",
+   "deck": "ordleting-kjaeledyr-f9f2"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-kjokkenredskaper-a091",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-kjokkenredskaper-5e2c",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-kjokkenredskaper-a091"
+   "level": "2-trinn",
+   "deck": "ordleting-kjokkenredskaper-5e2c"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-kjoretoy-af06",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-kjoretoy-2837",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-kjoretoy-af06"
+   "level": "2-trinn",
+   "deck": "ordleting-kjoretoy-2837"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-klaer-8377",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-klaer-b9f5",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-klaer-8377"
+   "level": "2-trinn",
+   "deck": "ordleting-klaer-b9f5"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-klasserom-63cb",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-klasserom-0828",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-klasserom-63cb"
+   "level": "2-trinn",
+   "deck": "ordleting-klasserom-0828"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-kroppsdeler-6754",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-kroppsdeler-c4e8",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-kroppsdeler-6754"
+   "level": "2-trinn",
+   "deck": "ordleting-kroppsdeler-c4e8"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-leker-5c93",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-leker-5921",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "toys",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-leker-5c93"
+   "level": "2-trinn",
+   "deck": "ordleting-leker-5921"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-mobler-a5fa",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-mobler-dfc5",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-mobler-a5fa"
+   "level": "2-trinn",
+   "deck": "ordleting-mobler-dfc5"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-musikk-d052",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-musikk-5fd4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "music",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-musikk-d052"
+   "level": "2-trinn",
+   "deck": "ordleting-musikk-5fd4"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-paske-84b7",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-paske-1c00",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "easter",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-paske-84b7"
+   "level": "2-trinn",
+   "deck": "ordleting-paske-1c00"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-postkontor-d1b9",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-postkontor-4acd",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-postkontor-d1b9"
+   "level": "2-trinn",
+   "deck": "ordleting-postkontor-4acd"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-reptiler-og-amfibier-cb96",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-reptiler-og-amfibier-64e4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-reptiler-og-amfibier-cb96"
+   "level": "2-trinn",
+   "deck": "ordleting-reptiler-og-amfibier-64e4"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-skogsdyr-60bb",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-rundt-i-huset-f2c4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "ordleting-rundt-i-huset-f2c4"
+  },
+  {
+   "slug": "ordleting-skogsdyr-1cdc",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-skogsdyr-60bb"
+   "level": "2-trinn",
+   "deck": "ordleting-skogsdyr-1cdc"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-sommer-dd35",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-sommer-283b",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "summer",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-sommer-dd35"
+   "level": "2-trinn",
+   "deck": "ordleting-sommer-283b"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-strand-34ad",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-strand-50d8",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "beach",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-strand-34ad"
+   "level": "2-trinn",
+   "deck": "ordleting-strand-50d8"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-sykehus-12e4",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-sykehus-adf3",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-sykehus-12e4"
+   "level": "2-trinn",
+   "deck": "ordleting-sykehus-adf3"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-thanksgiving-4850",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-thanksgiving-4034",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-thanksgiving-4850"
+   "level": "2-trinn",
+   "deck": "ordleting-thanksgiving-4034"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-tilbehor-27a1",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-tilbehor-8b7a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-tilbehor-27a1"
+   "level": "2-trinn",
+   "deck": "ordleting-tilbehor-8b7a"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-ting-som-flyr-7f81",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-ting-som-flyr-ce58",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-ting-som-flyr-7f81"
+   "level": "2-trinn",
+   "deck": "ordleting-ting-som-flyr-ce58"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-traer-b90a",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-traer-d4a6",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tree",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-traer-b90a"
+   "level": "2-trinn",
+   "deck": "ordleting-traer-d4a6"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-vaer-7977",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-vaer-a74e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "weather",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-vaer-7977"
+   "level": "2-trinn",
+   "deck": "ordleting-vaer-a74e"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-var-1425",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-var-7b0e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "spring",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-var-1425"
+   "level": "2-trinn",
+   "deck": "ordleting-var-7b0e"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-verdensrommet-fda5",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-verdensrommet-86f4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "space",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-verdensrommet-fda5"
+   "level": "2-trinn",
+   "deck": "ordleting-verdensrommet-86f4"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-verktoy-fbe2",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-verktoy-122b",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tools",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-verktoy-fbe2"
+   "level": "2-trinn",
+   "deck": "ordleting-verktoy-122b"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-vinter-6d0e",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-vinter-b777",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "winter",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-vinter-6d0e"
+   "level": "2-trinn",
+   "deck": "ordleting-vinter-b777"
   },
   {
-   "slug": "finn-objektene-jeg-ser-jeg-ser-yrker-cf97",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "ordleting-yrker-b083",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "finn-objektene-jeg-ser-jeg-ser-yrker-cf97"
+   "level": "2-trinn",
+   "deck": "ordleting-yrker-b083"
   }
  ]
 }

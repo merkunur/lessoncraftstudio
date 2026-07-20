@@ -1,771 +1,732 @@
 {
  "part": 227,
- "locale": "sv",
+ "locale": "nl",
  "classes": [
-  "wordsearch::null"
+  "find-and-count::hidden-object",
+  "grid-match::null"
  ],
  "splitOf": null,
- "count": 95,
+ "count": 90,
  "pages": [
   {
-   "slug": "engelska-ordleta-4-juli-6376",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-4-juli-6376"
+   "slug": "zoek-en-tel-verborgen-objecten-accessoires-85de",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-accessoires-85de"
   },
   {
-   "slug": "engelska-ordleta-aktiviteter-0f53",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "zoek-en-tel-verborgen-objecten-activiteiten-3944",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "activities",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-aktiviteter-0f53"
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-activiteiten-3944"
   },
   {
-   "slug": "engelska-ordleta-bageri-6f2a",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "zoek-en-tel-verborgen-objecten-bakkerij-8f3b",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-bageri-6f2a"
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-bakkerij-8f3b"
   },
   {
-   "slug": "engelska-ordleta-blommor-d1a2",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "zoek-en-tel-verborgen-objecten-beroepen-7a74",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-beroepen-7a74"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-bloemen-acfe",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-blommor-d1a2"
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-bloemen-acfe"
   },
   {
-   "slug": "engelska-ordleta-bondgardsdjur-8248",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "zoek-en-tel-verborgen-objecten-boerderijdieren-6f68",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-bondgardsdjur-8248"
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-boerderijdieren-6f68"
   },
   {
-   "slug": "engelska-ordleta-camping-ca78",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "camping",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-camping-ca78"
-  },
-  {
-   "slug": "engelska-ordleta-djur-5216",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "animals",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-djur-5216"
-  },
-  {
-   "slug": "engelska-ordleta-djurparksdjur-96b0",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-djurparksdjur-96b0"
-  },
-  {
-   "slug": "engelska-ordleta-efterratter-och-godis-47b9",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-efterratter-och-godis-47b9"
-  },
-  {
-   "slug": "engelska-ordleta-faglar-2-28d8",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-faglar-2-28d8"
-  },
-  {
-   "slug": "engelska-ordleta-faglar-ed34",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-faglar-ed34"
-  },
-  {
-   "slug": "engelska-ordleta-farger-8205",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-farger-8205"
-  },
-  {
-   "slug": "engelska-ordleta-fordon-eb51",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-fordon-eb51"
-  },
-  {
-   "slug": "engelska-ordleta-former-2476",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-former-2476"
-  },
-  {
-   "slug": "engelska-ordleta-frukost-25b9",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-frukost-25b9"
-  },
-  {
-   "slug": "engelska-ordleta-frukter-85f4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-frukter-85f4"
-  },
-  {
-   "slug": "engelska-ordleta-gronsaker-3585",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-gronsaker-3585"
-  },
-  {
-   "slug": "engelska-ordleta-havsliv-9e62",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-havsliv-9e62"
-  },
-  {
-   "slug": "engelska-ordleta-husdjur-c562",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-husdjur-c562"
-  },
-  {
-   "slug": "engelska-ordleta-i-snabbkopet-0550",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-i-snabbkopet-0550"
-  },
-  {
-   "slug": "engelska-ordleta-insekter-och-kryp-c139",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-insekter-och-kryp-c139"
-  },
-  {
-   "slug": "engelska-ordleta-jul-3ca3",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-jul-3ca3"
-  },
-  {
-   "slug": "engelska-ordleta-kanslor-308d",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-kanslor-308d"
-  },
-  {
-   "slug": "engelska-ordleta-klader-b0c3",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-klader-b0c3"
-  },
-  {
-   "slug": "engelska-ordleta-klassrum-f2f4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-klassrum-f2f4"
-  },
-  {
-   "slug": "engelska-ordleta-koksredskap-0f17",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-koksredskap-0f17"
-  },
-  {
-   "slug": "engelska-ordleta-kroppsdelar-3fe0",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-kroppsdelar-3fe0"
-  },
-  {
-   "slug": "engelska-ordleta-leksaker-329e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-leksaker-329e"
-  },
-  {
-   "slug": "engelska-ordleta-mobler-cb9a",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-mobler-cb9a"
-  },
-  {
-   "slug": "engelska-ordleta-musik-0ecc",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-musik-0ecc"
-  },
-  {
-   "slug": "engelska-ordleta-pask-7677",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-pask-7677"
-  },
-  {
-   "slug": "engelska-ordleta-postkontor-259f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-postkontor-259f"
-  },
-  {
-   "slug": "engelska-ordleta-reptiler-och-groddjur-6862",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-reptiler-och-groddjur-6862"
-  },
-  {
-   "slug": "engelska-ordleta-runt-huset-913f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-runt-huset-913f"
-  },
-  {
-   "slug": "engelska-ordleta-rymden-6cd0",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-rymden-6cd0"
-  },
-  {
-   "slug": "engelska-ordleta-saker-som-flyger-247a",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-saker-som-flyger-247a"
-  },
-  {
-   "slug": "engelska-ordleta-sjukhus-a8bb",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-sjukhus-a8bb"
-  },
-  {
-   "slug": "engelska-ordleta-skogsdjur-9a33",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "zoek-en-tel-verborgen-objecten-boswezens-77b4",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-skogsdjur-9a33"
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-boswezens-77b4"
   },
   {
-   "slug": "engelska-ordleta-sommar-4706",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-sommar-4706"
+   "slug": "zoek-en-tel-verborgen-objecten-desserts-en-snoep-22e1",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-desserts-en-snoep-22e1"
   },
   {
-   "slug": "engelska-ordleta-strand-6ea0",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "zoek-en-tel-verborgen-objecten-dieren-9b8e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-dieren-9b8e"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-dierentuindieren-6ce0",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-dierentuindieren-6ce0"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-dingen-die-vliegen-7e34",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "things_that_fly",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-dingen-die-vliegen-7e34"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-emoties-d5c6",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "emotions",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-emoties-d5c6"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-fruit-e856",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-fruit-e856"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-gereedschap-e464",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-gereedschap-e464"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-groenten-9d95",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-groenten-9d95"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-huisdieren-0e3f",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-huisdieren-0e3f"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-in-de-supermarkt-642a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-in-de-supermarkt-642a"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-insecten-en-beestjes-42b3",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-insecten-en-beestjes-42b3"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-kamperen-26c5",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-kamperen-26c5"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-kerstmis-3cce",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-kerstmis-3cce"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-keukengerei-92d3",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-keukengerei-92d3"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-klaslokaal-66c7",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-klaslokaal-66c7"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-kleding-908b",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-kleding-908b"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-kleuren-9cfd",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "colors",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-kleuren-9cfd"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-lente-56fe",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-lente-56fe"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-lichaamsdelen-0c99",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-lichaamsdelen-0c99"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-meubels-b180",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-meubels-b180"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-muziek-3570",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-muziek-3570"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-oceaanleven-b3a2",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-oceaanleven-b3a2"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-ontbijt-8806",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-ontbijt-8806"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-pasen-f11e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-pasen-f11e"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-postkantoor-f04a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-postkantoor-f04a"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-reptielen-en-amfibieen-624b",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "reptiles_and_amphibians",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-reptielen-en-amfibieen-624b"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-rond-het-huis-501e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-rond-het-huis-501e"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-ruimte-6c9a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-ruimte-6c9a"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-speelgoed-1857",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-speelgoed-1857"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-strand-d8f0",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "beach",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-strand-6ea0"
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-strand-d8f0"
   },
   {
-   "slug": "engelska-ordleta-thanksgiving-fe93",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "zoek-en-tel-verborgen-objecten-thanksgiving-5910",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-thanksgiving-fe93"
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-thanksgiving-5910"
   },
   {
-   "slug": "engelska-ordleta-tillbehor-b34d",
-   "type": "wordsearch",
+   "slug": "zoek-en-tel-verborgen-objecten-voertuigen-f414",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-voertuigen-f414"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-vogels-2-1cbf",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-vogels-2-1cbf"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-vormen-0c4c",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-vormen-0c4c"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-weer-1272",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-weer-1272"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-winter-be2a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-winter-be2a"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-ziekenhuis-22bf",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-ziekenhuis-22bf"
+  },
+  {
+   "slug": "zoek-en-tel-verborgen-objecten-zomer-398e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "zoek-en-tel-verborgen-objecten-zomer-398e"
+  },
+  {
+   "slug": "rooster-koppelen-accessoires-4c2d",
+   "type": "grid-match",
    "mode": null,
    "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-tillbehor-b34d"
+   "level": "kleuters",
+   "deck": "rooster-koppelen-accessoires-4c2d"
   },
   {
-   "slug": "engelska-ordleta-trad-3e0d",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tree",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-trad-3e0d"
-  },
-  {
-   "slug": "engelska-ordleta-vader-d639",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-vader-d639"
-  },
-  {
-   "slug": "engelska-ordleta-var-d3de",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-var-d3de"
-  },
-  {
-   "slug": "engelska-ordleta-verktyg-e275",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-verktyg-e275"
-  },
-  {
-   "slug": "engelska-ordleta-vinter-2975",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-vinter-2975"
-  },
-  {
-   "slug": "engelska-ordleta-yrken-1030",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "engelska-ordleta-yrken-1030"
-  },
-  {
-   "slug": "ordleta-aktiviteter-eff1",
-   "type": "wordsearch",
+   "slug": "rooster-koppelen-activiteiten-d062",
+   "type": "grid-match",
    "mode": null,
    "theme": "activities",
-   "level": "ak-1",
-   "deck": "ordleta-aktiviteter-eff1"
+   "level": "kleuters",
+   "deck": "rooster-koppelen-activiteiten-d062"
   },
   {
-   "slug": "ordleta-bageri-6a65",
-   "type": "wordsearch",
+   "slug": "rooster-koppelen-bakkerij-e3c4",
+   "type": "grid-match",
    "mode": null,
    "theme": "bakery",
-   "level": "ak-1",
-   "deck": "ordleta-bageri-6a65"
+   "level": "kleuters",
+   "deck": "rooster-koppelen-bakkerij-e3c4"
   },
   {
-   "slug": "ordleta-blommor-cf8f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "flowers",
-   "level": "ak-1",
-   "deck": "ordleta-blommor-cf8f"
-  },
-  {
-   "slug": "ordleta-bondgardsdjur-c697",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "ak-1",
-   "deck": "ordleta-bondgardsdjur-c697"
-  },
-  {
-   "slug": "ordleta-camping-5d13",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "camping",
-   "level": "ak-1",
-   "deck": "ordleta-camping-5d13"
-  },
-  {
-   "slug": "ordleta-djur-3206",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "animals",
-   "level": "ak-1",
-   "deck": "ordleta-djur-3206"
-  },
-  {
-   "slug": "ordleta-djurparksdjur-74ff",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "ak-1",
-   "deck": "ordleta-djurparksdjur-74ff"
-  },
-  {
-   "slug": "ordleta-efterratter-och-godis-bb79",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "ak-1",
-   "deck": "ordleta-efterratter-och-godis-bb79"
-  },
-  {
-   "slug": "ordleta-faglar-2-177f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "ak-1",
-   "deck": "ordleta-faglar-2-177f"
-  },
-  {
-   "slug": "ordleta-faglar-f2fb",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds",
-   "level": "ak-1",
-   "deck": "ordleta-faglar-f2fb"
-  },
-  {
-   "slug": "ordleta-farger-7894",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "colors",
-   "level": "ak-1",
-   "deck": "ordleta-farger-7894"
-  },
-  {
-   "slug": "ordleta-fordon-d9a1",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "ak-1",
-   "deck": "ordleta-fordon-d9a1"
-  },
-  {
-   "slug": "ordleta-former-04dc",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "shapes",
-   "level": "ak-1",
-   "deck": "ordleta-former-04dc"
-  },
-  {
-   "slug": "ordleta-frukost-8441",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "ak-1",
-   "deck": "ordleta-frukost-8441"
-  },
-  {
-   "slug": "ordleta-frukter-40e9",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "fruits",
-   "level": "ak-1",
-   "deck": "ordleta-frukter-40e9"
-  },
-  {
-   "slug": "ordleta-gronsaker-dbf6",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "ak-1",
-   "deck": "ordleta-gronsaker-dbf6"
-  },
-  {
-   "slug": "ordleta-havsliv-6ebf",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "ak-1",
-   "deck": "ordleta-havsliv-6ebf"
-  },
-  {
-   "slug": "ordleta-husdjur-8f1e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "pets",
-   "level": "ak-1",
-   "deck": "ordleta-husdjur-8f1e"
-  },
-  {
-   "slug": "ordleta-i-snabbkopet-e73f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "ak-1",
-   "deck": "ordleta-i-snabbkopet-e73f"
-  },
-  {
-   "slug": "ordleta-insekter-och-kryp-efdf",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "ak-1",
-   "deck": "ordleta-insekter-och-kryp-efdf"
-  },
-  {
-   "slug": "ordleta-jul-edc6",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "christmas",
-   "level": "ak-1",
-   "deck": "ordleta-jul-edc6"
-  },
-  {
-   "slug": "ordleta-kanslor-65b0",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "emotions",
-   "level": "ak-1",
-   "deck": "ordleta-kanslor-65b0"
-  },
-  {
-   "slug": "ordleta-klader-b5a9",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "clothing",
-   "level": "ak-1",
-   "deck": "ordleta-klader-b5a9"
-  },
-  {
-   "slug": "ordleta-klassrum-bb76",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "classroom",
-   "level": "ak-1",
-   "deck": "ordleta-klassrum-bb76"
-  },
-  {
-   "slug": "ordleta-koksredskap-653f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "ak-1",
-   "deck": "ordleta-koksredskap-653f"
-  },
-  {
-   "slug": "ordleta-kroppsdelar-492c",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "ak-1",
-   "deck": "ordleta-kroppsdelar-492c"
-  },
-  {
-   "slug": "ordleta-leksaker-c86e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "toys",
-   "level": "ak-1",
-   "deck": "ordleta-leksaker-c86e"
-  },
-  {
-   "slug": "ordleta-mobler-2775",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "furniture",
-   "level": "ak-1",
-   "deck": "ordleta-mobler-2775"
-  },
-  {
-   "slug": "ordleta-musik-5caf",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "music",
-   "level": "ak-1",
-   "deck": "ordleta-musik-5caf"
-  },
-  {
-   "slug": "ordleta-pask-73de",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "easter",
-   "level": "ak-1",
-   "deck": "ordleta-pask-73de"
-  },
-  {
-   "slug": "ordleta-postkontor-5003",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "post_office",
-   "level": "ak-1",
-   "deck": "ordleta-postkontor-5003"
-  },
-  {
-   "slug": "ordleta-reptiler-och-groddjur-1100",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "ak-1",
-   "deck": "ordleta-reptiler-och-groddjur-1100"
-  },
-  {
-   "slug": "ordleta-runt-huset-38e2",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "ak-1",
-   "deck": "ordleta-runt-huset-38e2"
-  },
-  {
-   "slug": "ordleta-rymden-e373",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "space",
-   "level": "ak-1",
-   "deck": "ordleta-rymden-e373"
-  },
-  {
-   "slug": "ordleta-saker-som-flyger-7735",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "ak-1",
-   "deck": "ordleta-saker-som-flyger-7735"
-  },
-  {
-   "slug": "ordleta-sjukhus-cf7b",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "hospital",
-   "level": "ak-1",
-   "deck": "ordleta-sjukhus-cf7b"
-  },
-  {
-   "slug": "ordleta-skogsdjur-3df4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "ak-1",
-   "deck": "ordleta-skogsdjur-3df4"
-  },
-  {
-   "slug": "ordleta-sommar-eedd",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "summer",
-   "level": "ak-1",
-   "deck": "ordleta-sommar-eedd"
-  },
-  {
-   "slug": "ordleta-strand-d122",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "beach",
-   "level": "ak-1",
-   "deck": "ordleta-strand-d122"
-  },
-  {
-   "slug": "ordleta-thanksgiving-7ed9",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "ak-1",
-   "deck": "ordleta-thanksgiving-7ed9"
-  },
-  {
-   "slug": "ordleta-tillbehor-621b",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "accessories",
-   "level": "ak-1",
-   "deck": "ordleta-tillbehor-621b"
-  },
-  {
-   "slug": "ordleta-trad-ebaf",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tree",
-   "level": "ak-1",
-   "deck": "ordleta-trad-ebaf"
-  },
-  {
-   "slug": "ordleta-vader-8581",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "weather",
-   "level": "ak-1",
-   "deck": "ordleta-vader-8581"
-  },
-  {
-   "slug": "ordleta-var-cb27",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "spring",
-   "level": "ak-1",
-   "deck": "ordleta-var-cb27"
-  },
-  {
-   "slug": "ordleta-verktyg-4412",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tools",
-   "level": "ak-1",
-   "deck": "ordleta-verktyg-4412"
-  },
-  {
-   "slug": "ordleta-vinter-13ea",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "winter",
-   "level": "ak-1",
-   "deck": "ordleta-vinter-13ea"
-  },
-  {
-   "slug": "ordleta-yrken-c88a",
-   "type": "wordsearch",
+   "slug": "rooster-koppelen-beroepen-c3a3",
+   "type": "grid-match",
    "mode": null,
    "theme": "occupations",
-   "level": "ak-1",
-   "deck": "ordleta-yrken-c88a"
+   "level": "kleuters",
+   "deck": "rooster-koppelen-beroepen-c3a3"
+  },
+  {
+   "slug": "rooster-koppelen-bloemen-2af3",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-bloemen-2af3"
+  },
+  {
+   "slug": "rooster-koppelen-boerderijdieren-708d",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-boerderijdieren-708d"
+  },
+  {
+   "slug": "rooster-koppelen-bomen-9ca6",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-bomen-9ca6"
+  },
+  {
+   "slug": "rooster-koppelen-boswezens-da1a",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-boswezens-da1a"
+  },
+  {
+   "slug": "rooster-koppelen-desserts-en-snoep-d404",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-desserts-en-snoep-d404"
+  },
+  {
+   "slug": "rooster-koppelen-dieren",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-dieren"
+  },
+  {
+   "slug": "rooster-koppelen-dierentuindieren-1b50",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-dierentuindieren-1b50"
+  },
+  {
+   "slug": "rooster-koppelen-emoties-5561",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "emotions",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-emoties-5561"
+  },
+  {
+   "slug": "rooster-koppelen-fruit-d4fa",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-fruit-d4fa"
+  },
+  {
+   "slug": "rooster-koppelen-gereedschap-9b88",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-gereedschap-9b88"
+  },
+  {
+   "slug": "rooster-koppelen-groenten-7f2c",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-groenten-7f2c"
+  },
+  {
+   "slug": "rooster-koppelen-huisdieren-b936",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-huisdieren-b936"
+  },
+  {
+   "slug": "rooster-koppelen-in-de-supermarkt-93bf",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-in-de-supermarkt-93bf"
+  },
+  {
+   "slug": "rooster-koppelen-insecten-en-beestjes-140c",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-insecten-en-beestjes-140c"
+  },
+  {
+   "slug": "rooster-koppelen-kamperen-9eca",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-kamperen-9eca"
+  },
+  {
+   "slug": "rooster-koppelen-kerstmis-ecf2",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-kerstmis-ecf2"
+  },
+  {
+   "slug": "rooster-koppelen-keukengerei-a065",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-keukengerei-a065"
+  },
+  {
+   "slug": "rooster-koppelen-klaslokaal-d798",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-klaslokaal-d798"
+  },
+  {
+   "slug": "rooster-koppelen-kleding-400d",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-kleding-400d"
+  },
+  {
+   "slug": "rooster-koppelen-lente-c771",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-lente-c771"
+  },
+  {
+   "slug": "rooster-koppelen-lichaamsdelen-90e9",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-lichaamsdelen-90e9"
+  },
+  {
+   "slug": "rooster-koppelen-meubels-f90b",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-meubels-f90b"
+  },
+  {
+   "slug": "rooster-koppelen-muziek-ee1d",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-muziek-ee1d"
+  },
+  {
+   "slug": "rooster-koppelen-oceaanleven-7ac6",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-oceaanleven-7ac6"
+  },
+  {
+   "slug": "rooster-koppelen-ontbijt-7b8f",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-ontbijt-7b8f"
+  },
+  {
+   "slug": "rooster-koppelen-pasen-601d",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-pasen-601d"
+  },
+  {
+   "slug": "rooster-koppelen-postkantoor-c378",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-postkantoor-c378"
+  },
+  {
+   "slug": "rooster-koppelen-reptielen-en-amfibieen-f752",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-reptielen-en-amfibieen-f752"
+  },
+  {
+   "slug": "rooster-koppelen-rond-het-huis-a621",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-rond-het-huis-a621"
+  },
+  {
+   "slug": "rooster-koppelen-ruimte-21e8",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-ruimte-21e8"
+  },
+  {
+   "slug": "rooster-koppelen-speelgoed-1468",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-speelgoed-1468"
+  },
+  {
+   "slug": "rooster-koppelen-strand-ef94",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-strand-ef94"
+  },
+  {
+   "slug": "rooster-koppelen-thanksgiving-548a",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-thanksgiving-548a"
+  },
+  {
+   "slug": "rooster-koppelen-voertuigen-daae",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-voertuigen-daae"
+  },
+  {
+   "slug": "rooster-koppelen-vogels-2-2a5d",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-vogels-2-2a5d"
+  },
+  {
+   "slug": "rooster-koppelen-vogels-e9c9",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "birds",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-vogels-e9c9"
+  },
+  {
+   "slug": "rooster-koppelen-vormen-9a14",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-vormen-9a14"
+  },
+  {
+   "slug": "rooster-koppelen-weer-b158",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-weer-b158"
+  },
+  {
+   "slug": "rooster-koppelen-winter-525e",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-winter-525e"
+  },
+  {
+   "slug": "rooster-koppelen-ziekenhuis-fa15",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-ziekenhuis-fa15"
+  },
+  {
+   "slug": "rooster-koppelen-zomer-4b22",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "rooster-koppelen-zomer-4b22"
   }
  ]
 }

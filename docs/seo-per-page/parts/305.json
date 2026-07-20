@@ -2,763 +2,779 @@
  "part": 305,
  "locale": "no",
  "classes": [
-  "word-guess::easy",
-  "word-guess::normal"
+  "math-worksheet::two-symbols-add-sub",
+  "treasure-hunt::cardinal-arrows"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 96,
  "pages": [
   {
-   "slug": "gjett-ordet-lett-aktiviteter-bfc4",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-aktiviteter-1c6b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "activities",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-aktiviteter-bfc4"
+   "deck": "matteark-2-symboler-add-sub-aktiviteter-1c6b"
   },
   {
-   "slug": "gjett-ordet-lett-bakeri-b6cd",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-bakeri-5c91",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "bakery",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-bakeri-b6cd"
+   "deck": "matteark-2-symboler-add-sub-bakeri-5c91"
   },
   {
-   "slug": "gjett-ordet-lett-blomster-3647",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-blomster-2d2b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "flowers",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-blomster-3647"
+   "deck": "matteark-2-symboler-add-sub-blomster-2d2b"
   },
   {
-   "slug": "gjett-ordet-lett-camping-5b46",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-camping-db0f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "camping",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-camping-5b46"
+   "deck": "matteark-2-symboler-add-sub-camping-db0f"
   },
   {
-   "slug": "gjett-ordet-lett-desserter-og-godteri-642e",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-desserter-og-godteri-ddc6",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "desserts_and_sweets",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-desserter-og-godteri-642e"
+   "deck": "matteark-2-symboler-add-sub-desserter-og-godteri-ddc6"
   },
   {
-   "slug": "gjett-ordet-lett-dyr-e720",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-dinosaurer-baf2",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "matteark-2-symboler-add-sub-dinosaurer-baf2"
+  },
+  {
+   "slug": "matteark-2-symboler-add-sub-dyr-4c95",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "animals",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-dyr-e720"
+   "deck": "matteark-2-symboler-add-sub-dyr-4c95"
   },
   {
-   "slug": "gjett-ordet-lett-dyrehagedyr-f55a",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-dyrehagedyr-21c0",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "zoo_animals",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-dyrehagedyr-f55a"
+   "deck": "matteark-2-symboler-add-sub-dyrehagedyr-21c0"
   },
   {
-   "slug": "gjett-ordet-lett-farger-835c",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-farger-60c5",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "colors",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-farger-835c"
+   "deck": "matteark-2-symboler-add-sub-farger-60c5"
   },
   {
-   "slug": "gjett-ordet-lett-folelser-b201",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-folelser-daca",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "emotions",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-folelser-b201"
+   "deck": "matteark-2-symboler-add-sub-folelser-daca"
   },
   {
-   "slug": "gjett-ordet-lett-former-d58d",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-former-8026",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "shapes",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-former-d58d"
+   "deck": "matteark-2-symboler-add-sub-former-8026"
   },
   {
-   "slug": "gjett-ordet-lett-frokost-4fcd",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-frokost-ee51",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "breakfast",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-frokost-4fcd"
+   "deck": "matteark-2-symboler-add-sub-frokost-ee51"
   },
   {
-   "slug": "gjett-ordet-lett-frukter-f3cc",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-frukter-2b93",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "fruits",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-frukter-f3cc"
+   "deck": "matteark-2-symboler-add-sub-frukter-2b93"
   },
   {
-   "slug": "gjett-ordet-lett-fugler-2-2b89",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-fugler-2-7d15",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "birds_2",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-fugler-2-2b89"
+   "deck": "matteark-2-symboler-add-sub-fugler-2-7d15"
   },
   {
-   "slug": "gjett-ordet-lett-fugler-4cdf",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-fugler-d7df",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "birds",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-fugler-4cdf"
+   "deck": "matteark-2-symboler-add-sub-fugler-d7df"
   },
   {
-   "slug": "gjett-ordet-lett-gardsdyr-1ec1",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-gardsdyr-c8ae",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "farm_animals",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-gardsdyr-1ec1"
+   "deck": "matteark-2-symboler-add-sub-gardsdyr-c8ae"
   },
   {
-   "slug": "gjett-ordet-lett-gronnsaker-597a",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-gronnsaker-e7a1",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "vegetables",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-gronnsaker-597a"
+   "deck": "matteark-2-symboler-add-sub-gronnsaker-e7a1"
   },
   {
-   "slug": "gjett-ordet-lett-havliv-939e",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-havliv-243a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "ocean_life",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-havliv-939e"
+   "deck": "matteark-2-symboler-add-sub-havliv-243a"
   },
   {
-   "slug": "gjett-ordet-lett-i-supermarkedet-47c9",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-i-supermarkedet-1573",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "at_the_supermarket",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-i-supermarkedet-47c9"
+   "deck": "matteark-2-symboler-add-sub-i-supermarkedet-1573"
   },
   {
-   "slug": "gjett-ordet-lett-insekter-og-kryp-d3ba",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-insekter-og-kryp-a93e",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "insects_and_bugs",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-insekter-og-kryp-d3ba"
+   "deck": "matteark-2-symboler-add-sub-insekter-og-kryp-a93e"
   },
   {
-   "slug": "gjett-ordet-lett-jul-8b34",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-jul-3316",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "christmas",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-jul-8b34"
+   "deck": "matteark-2-symboler-add-sub-jul-3316"
   },
   {
-   "slug": "gjett-ordet-lett-kjaeledyr-d792",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-kjaeledyr-2fd0",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "pets",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-kjaeledyr-d792"
+   "deck": "matteark-2-symboler-add-sub-kjaeledyr-2fd0"
   },
   {
-   "slug": "gjett-ordet-lett-kjokkenredskaper-e566",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-kjokkenredskaper-a680",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "kitchen_tools",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-kjokkenredskaper-e566"
+   "deck": "matteark-2-symboler-add-sub-kjokkenredskaper-a680"
   },
   {
-   "slug": "gjett-ordet-lett-kjoretoy-5baf",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-kjoretoy-a2fb",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "vehicles",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-kjoretoy-5baf"
+   "deck": "matteark-2-symboler-add-sub-kjoretoy-a2fb"
   },
   {
-   "slug": "gjett-ordet-lett-klaer-7ef7",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-klaer-b451",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "clothing",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-klaer-7ef7"
+   "deck": "matteark-2-symboler-add-sub-klaer-b451"
   },
   {
-   "slug": "gjett-ordet-lett-klasserom-e93c",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-klasserom-e1fd",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "classroom",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-klasserom-e93c"
+   "deck": "matteark-2-symboler-add-sub-klasserom-e1fd"
   },
   {
-   "slug": "gjett-ordet-lett-kroppsdeler-51d6",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-kroppsdeler-3a05",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "body_parts",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-kroppsdeler-51d6"
+   "deck": "matteark-2-symboler-add-sub-kroppsdeler-3a05"
   },
   {
-   "slug": "gjett-ordet-lett-leker-ace5",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-leker-5a8b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "toys",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-leker-ace5"
+   "deck": "matteark-2-symboler-add-sub-leker-5a8b"
   },
   {
-   "slug": "gjett-ordet-lett-mobler-2fb1",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-mobler-c8e2",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "furniture",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-mobler-2fb1"
+   "deck": "matteark-2-symboler-add-sub-mobler-c8e2"
   },
   {
-   "slug": "gjett-ordet-lett-musikk-58f5",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-musikk-426b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "music",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-musikk-58f5"
+   "deck": "matteark-2-symboler-add-sub-musikk-426b"
   },
   {
-   "slug": "gjett-ordet-lett-paske-96b6",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-paske-75b4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "easter",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-paske-96b6"
+   "deck": "matteark-2-symboler-add-sub-paske-75b4"
   },
   {
-   "slug": "gjett-ordet-lett-postkontor-589b",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-postkontor-584e",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "post_office",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-postkontor-589b"
+   "deck": "matteark-2-symboler-add-sub-postkontor-584e"
   },
   {
-   "slug": "gjett-ordet-lett-reptiler-og-amfibier-07e3",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-reptiler-og-amfibier-452f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "reptiles_and_amphibians",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-reptiler-og-amfibier-07e3"
+   "deck": "matteark-2-symboler-add-sub-reptiler-og-amfibier-452f"
   },
   {
-   "slug": "gjett-ordet-lett-rundt-i-huset-0538",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-rundt-i-huset-d5e5",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "around_the_house",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-rundt-i-huset-0538"
+   "deck": "matteark-2-symboler-add-sub-rundt-i-huset-d5e5"
   },
   {
-   "slug": "gjett-ordet-lett-skogsdyr-2b96",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-skogsdyr-16bb",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "forest_creatures",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-skogsdyr-2b96"
+   "deck": "matteark-2-symboler-add-sub-skogsdyr-16bb"
   },
   {
-   "slug": "gjett-ordet-lett-sommer-c3dc",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-sommer-e4c1",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "summer",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-sommer-c3dc"
+   "deck": "matteark-2-symboler-add-sub-sommer-e4c1"
   },
   {
-   "slug": "gjett-ordet-lett-strand-fa0a",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-strand-aab7",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "beach",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-strand-fa0a"
+   "deck": "matteark-2-symboler-add-sub-strand-aab7"
   },
   {
-   "slug": "gjett-ordet-lett-sykehus-02f4",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-sykehus-2f7c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "hospital",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-sykehus-02f4"
+   "deck": "matteark-2-symboler-add-sub-sykehus-2f7c"
   },
   {
-   "slug": "gjett-ordet-lett-thanksgiving-2ff2",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-thanksgiving-7b54",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "thanksgivinng",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-thanksgiving-2ff2"
+   "deck": "matteark-2-symboler-add-sub-thanksgiving-7b54"
   },
   {
-   "slug": "gjett-ordet-lett-tilbehor-f104",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-tilbehor-266e",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "accessories",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-tilbehor-f104"
+   "deck": "matteark-2-symboler-add-sub-tilbehor-266e"
   },
   {
-   "slug": "gjett-ordet-lett-ting-som-flyr-bb12",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-ting-som-flyr-00f5",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "things_that_fly",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-ting-som-flyr-bb12"
+   "deck": "matteark-2-symboler-add-sub-ting-som-flyr-00f5"
   },
   {
-   "slug": "gjett-ordet-lett-traer-7f27",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-traer-961c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "tree",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-traer-7f27"
+   "deck": "matteark-2-symboler-add-sub-traer-961c"
   },
   {
-   "slug": "gjett-ordet-lett-vaer-6c36",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-vaer-7ed8",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "weather",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-vaer-6c36"
+   "deck": "matteark-2-symboler-add-sub-vaer-7ed8"
   },
   {
-   "slug": "gjett-ordet-lett-var-ec4b",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-var-fc00",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "spring",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-var-ec4b"
+   "deck": "matteark-2-symboler-add-sub-var-fc00"
   },
   {
-   "slug": "gjett-ordet-lett-verdensrommet-c610",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-verdensrommet-301d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "space",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-verdensrommet-c610"
+   "deck": "matteark-2-symboler-add-sub-verdensrommet-301d"
   },
   {
-   "slug": "gjett-ordet-lett-verktoy-ba24",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-verktoy-eadb",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "tools",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-verktoy-ba24"
+   "deck": "matteark-2-symboler-add-sub-verktoy-eadb"
   },
   {
-   "slug": "gjett-ordet-lett-vinter-cf8a",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-vinter-4065",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "winter",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-vinter-cf8a"
+   "deck": "matteark-2-symboler-add-sub-vinter-4065"
   },
   {
-   "slug": "gjett-ordet-lett-yrker-cf3f",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "matteark-2-symboler-add-sub-yrker-ee43",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "occupations",
    "level": "2-trinn",
-   "deck": "gjett-ordet-lett-yrker-cf3f"
+   "deck": "matteark-2-symboler-add-sub-yrker-ee43"
   },
   {
-   "slug": "gjett-ordet-normal-aktiviteter-2b3e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-aktiviteter-78bd",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "activities",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-aktiviteter-2b3e"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-aktiviteter-78bd"
   },
   {
-   "slug": "gjett-ordet-normal-bakeri-bed5",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-bakeri-1bb5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "bakery",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-bakeri-bed5"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-bakeri-1bb5"
   },
   {
-   "slug": "gjett-ordet-normal-blomster-5589",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-blomster-5e10",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "flowers",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-blomster-5589"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-blomster-5e10"
   },
   {
-   "slug": "gjett-ordet-normal-camping-7b47",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-camping-bb82",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "camping",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-camping-7b47"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-camping-bb82"
   },
   {
-   "slug": "gjett-ordet-normal-desserter-og-godteri-0685",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-desserter-og-godteri-d8d2",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "desserts_and_sweets",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-desserter-og-godteri-0685"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-desserter-og-godteri-d8d2"
   },
   {
-   "slug": "gjett-ordet-normal-dyr-fb76",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-dinosaurer-2b74",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-dinosaurer-2b74"
+  },
+  {
+   "slug": "skattejakt-opp-ned-venstre-hoyre-dyr-8c13",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "animals",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-dyr-fb76"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-dyr-8c13"
   },
   {
-   "slug": "gjett-ordet-normal-dyrehagedyr-4a18",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-dyrehagedyr-eb98",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "zoo_animals",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-dyrehagedyr-4a18"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-dyrehagedyr-eb98"
   },
   {
-   "slug": "gjett-ordet-normal-farger-85bb",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-farger-cb5a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "colors",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-farger-85bb"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-farger-cb5a"
   },
   {
-   "slug": "gjett-ordet-normal-folelser-6f02",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-folelser-455f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "emotions",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-folelser-6f02"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-folelser-455f"
   },
   {
-   "slug": "gjett-ordet-normal-former-467d",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-former-68e7",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "shapes",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-former-467d"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-former-68e7"
   },
   {
-   "slug": "gjett-ordet-normal-frokost-edab",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-frokost-2b92",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "breakfast",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-frokost-edab"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-frokost-2b92"
   },
   {
-   "slug": "gjett-ordet-normal-frukter-e7e2",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-frukter-4c1f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "fruits",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-frukter-e7e2"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-frukter-4c1f"
   },
   {
-   "slug": "gjett-ordet-normal-fugler-2-ee65",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-fugler-2-be76",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "birds_2",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-fugler-2-ee65"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-fugler-2-be76"
   },
   {
-   "slug": "gjett-ordet-normal-fugler-b5ee",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-fugler-430c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "birds",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-fugler-b5ee"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-fugler-430c"
   },
   {
-   "slug": "gjett-ordet-normal-gardsdyr-fd27",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-gardsdyr-c747",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "farm_animals",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-gardsdyr-fd27"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-gardsdyr-c747"
   },
   {
-   "slug": "gjett-ordet-normal-gronnsaker-43e6",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-gronnsaker-a143",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "vegetables",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-gronnsaker-43e6"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-gronnsaker-a143"
   },
   {
-   "slug": "gjett-ordet-normal-havliv-2e51",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-havliv-ce94",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "ocean_life",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-havliv-2e51"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-havliv-ce94"
   },
   {
-   "slug": "gjett-ordet-normal-i-supermarkedet-2514",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-i-supermarkedet-a54d",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "at_the_supermarket",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-i-supermarkedet-2514"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-i-supermarkedet-a54d"
   },
   {
-   "slug": "gjett-ordet-normal-insekter-og-kryp-d815",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-insekter-og-kryp-3eb6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "insects_and_bugs",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-insekter-og-kryp-d815"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-insekter-og-kryp-3eb6"
   },
   {
-   "slug": "gjett-ordet-normal-jul-6795",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-jul-fbbe",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "christmas",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-jul-6795"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-jul-fbbe"
   },
   {
-   "slug": "gjett-ordet-normal-kjaeledyr-c134",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-kjaeledyr-8bfa",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "pets",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-kjaeledyr-c134"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-kjaeledyr-8bfa"
   },
   {
-   "slug": "gjett-ordet-normal-kjokkenredskaper-fb4f",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-kjokkenredskaper-955a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "kitchen_tools",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-kjokkenredskaper-fb4f"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-kjokkenredskaper-955a"
   },
   {
-   "slug": "gjett-ordet-normal-kjoretoy-e2bd",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-kjoretoy-23b2",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "vehicles",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-kjoretoy-e2bd"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-kjoretoy-23b2"
   },
   {
-   "slug": "gjett-ordet-normal-klaer-24ea",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-klaer-0064",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "clothing",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-klaer-24ea"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-klaer-0064"
   },
   {
-   "slug": "gjett-ordet-normal-klasserom-5e20",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-klasserom-07ad",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "classroom",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-klasserom-5e20"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-klasserom-07ad"
   },
   {
-   "slug": "gjett-ordet-normal-kroppsdeler-9bdb",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-kroppsdeler-68d0",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "body_parts",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-kroppsdeler-9bdb"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-kroppsdeler-68d0"
   },
   {
-   "slug": "gjett-ordet-normal-leker-f354",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-leker-45a0",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "toys",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-leker-f354"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-leker-45a0"
   },
   {
-   "slug": "gjett-ordet-normal-mobler-df7c",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-mobler-97b3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "furniture",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-mobler-df7c"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-mobler-97b3"
   },
   {
-   "slug": "gjett-ordet-normal-musikk-de69",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-musikk-a8b7",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "music",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-musikk-de69"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-musikk-a8b7"
   },
   {
-   "slug": "gjett-ordet-normal-paske-7362",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-paske-5b08",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "easter",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-paske-7362"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-paske-5b08"
   },
   {
-   "slug": "gjett-ordet-normal-postkontor-db57",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-postkontor-9267",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "post_office",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-postkontor-db57"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-postkontor-9267"
   },
   {
-   "slug": "gjett-ordet-normal-reptiler-og-amfibier-4436",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-reptiler-og-amfibier-f028",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "reptiles_and_amphibians",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-reptiler-og-amfibier-4436"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-reptiler-og-amfibier-f028"
   },
   {
-   "slug": "gjett-ordet-normal-rundt-i-huset-492d",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-rundt-i-huset-41e8",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "around_the_house",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-rundt-i-huset-492d"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-rundt-i-huset-41e8"
   },
   {
-   "slug": "gjett-ordet-normal-skogsdyr-faef",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-skogsdyr-adcc",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "forest_creatures",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-skogsdyr-faef"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-skogsdyr-adcc"
   },
   {
-   "slug": "gjett-ordet-normal-sommer-d69e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-sommer-9edd",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "summer",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-sommer-d69e"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-sommer-9edd"
   },
   {
-   "slug": "gjett-ordet-normal-strand-5669",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-strand-fbb8",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "beach",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-strand-5669"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-strand-fbb8"
   },
   {
-   "slug": "gjett-ordet-normal-sykehus-e2e8",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-sykehus-59dc",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "hospital",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-sykehus-e2e8"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-sykehus-59dc"
   },
   {
-   "slug": "gjett-ordet-normal-thanksgiving-e10b",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-thanksgiving-c6e3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "thanksgivinng",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-thanksgiving-e10b"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-thanksgiving-c6e3"
   },
   {
-   "slug": "gjett-ordet-normal-tilbehor-7718",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-tilbehor-93b8",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "accessories",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-tilbehor-7718"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-tilbehor-93b8"
   },
   {
-   "slug": "gjett-ordet-normal-ting-som-flyr-d723",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-ting-som-flyr-e11f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "things_that_fly",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-ting-som-flyr-d723"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-ting-som-flyr-e11f"
   },
   {
-   "slug": "gjett-ordet-normal-traer-9d44",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-traer-afd0",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "tree",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-traer-9d44"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-traer-afd0"
   },
   {
-   "slug": "gjett-ordet-normal-vaer-7178",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-vaer-4041",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "weather",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-vaer-7178"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-vaer-4041"
   },
   {
-   "slug": "gjett-ordet-normal-var-ba21",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-var-c5f1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "spring",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-var-ba21"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-var-c5f1"
   },
   {
-   "slug": "gjett-ordet-normal-verdensrommet-4e85",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-verdensrommet-6ba2",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "space",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-verdensrommet-4e85"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-verdensrommet-6ba2"
   },
   {
-   "slug": "gjett-ordet-normal-verktoy-f533",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-verktoy-e9ee",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "tools",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-verktoy-f533"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-verktoy-e9ee"
   },
   {
-   "slug": "gjett-ordet-normal-vinter-6047",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-vinter-4154",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "winter",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-vinter-6047"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-vinter-4154"
   },
   {
-   "slug": "gjett-ordet-normal-yrker-b7e6",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "skattejakt-opp-ned-venstre-hoyre-yrker-e0c3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "occupations",
-   "level": "3-trinn",
-   "deck": "gjett-ordet-normal-yrker-b7e6"
+   "level": "1-trinn",
+   "deck": "skattejakt-opp-ned-venstre-hoyre-yrker-e0c3"
   }
  ]
 }

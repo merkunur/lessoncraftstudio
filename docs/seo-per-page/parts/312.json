@@ -2,651 +2,495 @@
  "part": 312,
  "locale": "no",
  "classes": [
-  "addition::find-addend",
-  "addition::image-number"
+  "picture-sort::null"
  ],
- "splitOf": null,
- "count": 80,
+ "splitOf": {
+  "class": "picture-sort::null",
+  "total": 180,
+  "chunk": 1,
+  "chunks": 3
+ },
+ "count": 60,
  "pages": [
   {
-   "slug": "addisjon-finn-ledd-bakeri-8c84",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "bakery",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-bakeri-8c84"
-  },
-  {
-   "slug": "addisjon-finn-ledd-blomster-d51a",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "flowers",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-blomster-d51a"
-  },
-  {
-   "slug": "addisjon-finn-ledd-camping-2eed",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "camping",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-camping-2eed"
-  },
-  {
-   "slug": "addisjon-finn-ledd-desserter-og-godteri-271d",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "desserts_and_sweets",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-desserter-og-godteri-271d"
-  },
-  {
-   "slug": "addisjon-finn-ledd-dinosaurer-6269",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "dinosaurs",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-dinosaurer-6269"
-  },
-  {
-   "slug": "addisjon-finn-ledd-dyr-5a2f",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "animals",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-dyr-5a2f"
-  },
-  {
-   "slug": "addisjon-finn-ledd-dyrehagedyr-3f8f",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "zoo_animals",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-dyrehagedyr-3f8f"
-  },
-  {
-   "slug": "addisjon-finn-ledd-former-6c68",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "shapes",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-former-6c68"
-  },
-  {
-   "slug": "addisjon-finn-ledd-frokost-03c9",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "breakfast",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-frokost-03c9"
-  },
-  {
-   "slug": "addisjon-finn-ledd-frukter-5086",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "fruits",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-frukter-5086"
-  },
-  {
-   "slug": "addisjon-finn-ledd-fugler-2-146a",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "birds_2",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-fugler-2-146a"
-  },
-  {
-   "slug": "addisjon-finn-ledd-fugler-842f",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "birds",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-fugler-842f"
-  },
-  {
-   "slug": "addisjon-finn-ledd-gardsdyr-2282",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "farm_animals",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-gardsdyr-2282"
+   "slug": "sorter-bilder-4th-of-july-vs-flowers-f47d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "4th_of_july-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-4th-of-july-vs-flowers-f47d"
+  },
+  {
+   "slug": "sorter-bilder-accessories-vs-animals-c829",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-accessories-vs-animals-c829"
+  },
+  {
+   "slug": "sorter-bilder-accessories-vs-bakery-c2fe",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-accessories-vs-bakery-c2fe"
+  },
+  {
+   "slug": "sorter-bilder-accessories-vs-flowers-c7b4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-accessories-vs-flowers-c7b4"
+  },
+  {
+   "slug": "sorter-bilder-activities-vs-animals-33c0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-activities-vs-animals-33c0"
+  },
+  {
+   "slug": "sorter-bilder-activities-vs-bakery-64b0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-activities-vs-bakery-64b0"
+  },
+  {
+   "slug": "sorter-bilder-activities-vs-dinosaurs-4def",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-activities-vs-dinosaurs-4def"
+  },
+  {
+   "slug": "sorter-bilder-activities-vs-flowers-099a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-activities-vs-flowers-099a"
+  },
+  {
+   "slug": "sorter-bilder-activities-vs-tree-e33d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-activities-vs-tree-e33d"
+  },
+  {
+   "slug": "sorter-bilder-activities-vs-vehicles-7e9f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-activities-vs-vehicles-7e9f"
+  },
+  {
+   "slug": "sorter-bilder-animals-vs-bakery-ff2d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-animals-vs-bakery-ff2d"
+  },
+  {
+   "slug": "sorter-bilder-animals-vs-dinosaurs-8953",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-animals-vs-dinosaurs-8953"
+  },
+  {
+   "slug": "sorter-bilder-animals-vs-flowers-309e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-animals-vs-flowers-309e"
   },
   {
-   "slug": "addisjon-finn-ledd-gronnsaker-f8d8",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "vegetables",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-gronnsaker-f8d8"
+   "slug": "sorter-bilder-animals-vs-tree-f758",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-animals-vs-tree-f758"
   },
   {
-   "slug": "addisjon-finn-ledd-havliv-1578",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "ocean_life",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-havliv-1578"
+   "slug": "sorter-bilder-animals-vs-vehicles-03ab",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-animals-vs-vehicles-03ab"
   },
   {
-   "slug": "addisjon-finn-ledd-i-supermarkedet-ffd8",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "at_the_supermarket",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-i-supermarkedet-ffd8"
+   "slug": "sorter-bilder-around-the-house-vs-animals-35f0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "around_the_house-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-around-the-house-vs-animals-35f0"
   },
   {
-   "slug": "addisjon-finn-ledd-insekter-og-kryp-7bfd",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "insects_and_bugs",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-insekter-og-kryp-7bfd"
+   "slug": "sorter-bilder-around-the-house-vs-bakery-78e6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "around_the_house-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-around-the-house-vs-bakery-78e6"
   },
   {
-   "slug": "addisjon-finn-ledd-jul-3ea5",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "christmas",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-jul-3ea5"
+   "slug": "sorter-bilder-around-the-house-vs-flowers-be2a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "around_the_house-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-around-the-house-vs-flowers-be2a"
   },
   {
-   "slug": "addisjon-finn-ledd-kjaeledyr-adc8",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "pets",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-kjaeledyr-adc8"
+   "slug": "sorter-bilder-at-the-supermarket-vs-animals-15dd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-at-the-supermarket-vs-animals-15dd"
   },
   {
-   "slug": "addisjon-finn-ledd-kjokkenredskaper-ce79",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "kitchen_tools",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-kjokkenredskaper-ce79"
+   "slug": "sorter-bilder-at-the-supermarket-vs-bakery-5f2f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-at-the-supermarket-vs-bakery-5f2f"
   },
   {
-   "slug": "addisjon-finn-ledd-kjoretoy-29e4",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "vehicles",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-kjoretoy-29e4"
+   "slug": "sorter-bilder-at-the-supermarket-vs-dinosaurs-2553",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-at-the-supermarket-vs-dinosaurs-2553"
   },
   {
-   "slug": "addisjon-finn-ledd-klaer-e81b",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "clothing",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-klaer-e81b"
+   "slug": "sorter-bilder-at-the-supermarket-vs-flowers-11ba",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-at-the-supermarket-vs-flowers-11ba"
   },
   {
-   "slug": "addisjon-finn-ledd-klasserom-2e85",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "classroom",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-klasserom-2e85"
+   "slug": "sorter-bilder-at-the-supermarket-vs-tree-d866",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-at-the-supermarket-vs-tree-d866"
   },
   {
-   "slug": "addisjon-finn-ledd-leker-2a45",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "toys",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-leker-2a45"
+   "slug": "sorter-bilder-at-the-supermarket-vs-vehicles-b185",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-at-the-supermarket-vs-vehicles-b185"
   },
   {
-   "slug": "addisjon-finn-ledd-mobler-6aec",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "furniture",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-mobler-6aec"
+   "slug": "sorter-bilder-bakery-vs-animals-4252",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-bakery-vs-animals-4252"
   },
   {
-   "slug": "addisjon-finn-ledd-musikk-80a0",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "music",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-musikk-80a0"
+   "slug": "sorter-bilder-bakery-vs-dinosaurs-9c7f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-bakery-vs-dinosaurs-9c7f"
   },
   {
-   "slug": "addisjon-finn-ledd-paske-7724",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "easter",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-paske-7724"
+   "slug": "sorter-bilder-bakery-vs-flowers-deaa",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-bakery-vs-flowers-deaa"
   },
   {
-   "slug": "addisjon-finn-ledd-postkontor-6ad8",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "post_office",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-postkontor-6ad8"
+   "slug": "sorter-bilder-bakery-vs-tree-f342",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-bakery-vs-tree-f342"
   },
   {
-   "slug": "addisjon-finn-ledd-reptiler-og-amfibier-ce77",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "reptiles_and_amphibians",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-reptiler-og-amfibier-ce77"
+   "slug": "sorter-bilder-bakery-vs-vehicles-e0bc",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-bakery-vs-vehicles-e0bc"
   },
   {
-   "slug": "addisjon-finn-ledd-rundt-i-huset-c69d",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "around_the_house",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-rundt-i-huset-c69d"
+   "slug": "sorter-bilder-beach-vs-animals-24fc",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "beach-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-beach-vs-animals-24fc"
   },
   {
-   "slug": "addisjon-finn-ledd-skogsdyr-9a67",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "forest_creatures",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-skogsdyr-9a67"
+   "slug": "sorter-bilder-beach-vs-bakery-47b3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "beach-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-beach-vs-bakery-47b3"
   },
   {
-   "slug": "addisjon-finn-ledd-strand-ef19",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "beach",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-strand-ef19"
+   "slug": "sorter-bilder-beach-vs-flowers-9202",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "beach-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-beach-vs-flowers-9202"
   },
   {
-   "slug": "addisjon-finn-ledd-sykehus-0410",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "hospital",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-sykehus-0410"
+   "slug": "sorter-bilder-birds-vs-bakery-61b6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "birds-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-birds-vs-bakery-61b6"
   },
   {
-   "slug": "addisjon-finn-ledd-thanksgiving-e1fe",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "thanksgivinng",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-thanksgiving-e1fe"
+   "slug": "sorter-bilder-birds-vs-dinosaurs-0619",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "birds-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-birds-vs-dinosaurs-0619"
   },
   {
-   "slug": "addisjon-finn-ledd-tilbehor-9909",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "accessories",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-tilbehor-9909"
+   "slug": "sorter-bilder-birds-vs-flowers-8531",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "birds-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-birds-vs-flowers-8531"
   },
   {
-   "slug": "addisjon-finn-ledd-ting-som-flyr-ab29",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "things_that_fly",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-ting-som-flyr-ab29"
+   "slug": "sorter-bilder-birds-vs-tree-98c0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "birds-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-birds-vs-tree-98c0"
   },
   {
-   "slug": "addisjon-finn-ledd-traer-ec1d",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "tree",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-traer-ec1d"
+   "slug": "sorter-bilder-birds-vs-vehicles-2fe2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "birds-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-birds-vs-vehicles-2fe2"
   },
   {
-   "slug": "addisjon-finn-ledd-verdensrommet-219b",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "space",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-verdensrommet-219b"
+   "slug": "sorter-bilder-body-parts-vs-animals-cbe6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "body_parts-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-body-parts-vs-animals-cbe6"
   },
   {
-   "slug": "addisjon-finn-ledd-verktoy-cc77",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "tools",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-verktoy-cc77"
+   "slug": "sorter-bilder-body-parts-vs-bakery-3f30",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "body_parts-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-body-parts-vs-bakery-3f30"
   },
   {
-   "slug": "addisjon-finn-ledd-yrker-bd3b",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "occupations",
-   "level": "2-trinn",
-   "deck": "addisjon-finn-ledd-yrker-bd3b"
+   "slug": "sorter-bilder-body-parts-vs-flowers-7134",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "body_parts-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-body-parts-vs-flowers-7134"
   },
   {
-   "slug": "addisjon-bilde-tall-bakeri-02f6",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "bakery",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-bakeri-02f6"
+   "slug": "sorter-bilder-breakfast-vs-animals-6647",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "breakfast-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-breakfast-vs-animals-6647"
   },
   {
-   "slug": "addisjon-bilde-tall-blomster-a2b2",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "flowers",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-blomster-a2b2"
+   "slug": "sorter-bilder-breakfast-vs-dinosaurs-7d9b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "breakfast-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-breakfast-vs-dinosaurs-7d9b"
   },
   {
-   "slug": "addisjon-bilde-tall-camping-0e76",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "camping",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-camping-0e76"
+   "slug": "sorter-bilder-breakfast-vs-flowers-b934",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "breakfast-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-breakfast-vs-flowers-b934"
   },
   {
-   "slug": "addisjon-bilde-tall-desserter-og-godteri-28fa",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "desserts_and_sweets",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-desserter-og-godteri-28fa"
+   "slug": "sorter-bilder-breakfast-vs-tree-1544",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "breakfast-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-breakfast-vs-tree-1544"
   },
   {
-   "slug": "addisjon-bilde-tall-dinosaurer-24cb",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "dinosaurs",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-dinosaurer-24cb"
+   "slug": "sorter-bilder-breakfast-vs-vehicles-44eb",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "breakfast-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-breakfast-vs-vehicles-44eb"
   },
   {
-   "slug": "addisjon-bilde-tall-dyr-db63",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "animals",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-dyr-db63"
+   "slug": "sorter-bilder-camping-vs-animals-db31",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-camping-vs-animals-db31"
   },
   {
-   "slug": "addisjon-bilde-tall-dyrehagedyr-c222",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "zoo_animals",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-dyrehagedyr-c222"
+   "slug": "sorter-bilder-camping-vs-bakery-11e6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-camping-vs-bakery-11e6"
   },
   {
-   "slug": "addisjon-bilde-tall-former-4cc7",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "shapes",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-former-4cc7"
-  },
-  {
-   "slug": "addisjon-bilde-tall-frokost-4d84",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "breakfast",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-frokost-4d84"
-  },
-  {
-   "slug": "addisjon-bilde-tall-frukter-035a",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "fruits",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-frukter-035a"
-  },
-  {
-   "slug": "addisjon-bilde-tall-fugler-2-7336",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "birds_2",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-fugler-2-7336"
-  },
-  {
-   "slug": "addisjon-bilde-tall-fugler-e8a9",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-fugler-e8a9"
-  },
-  {
-   "slug": "addisjon-bilde-tall-gardsdyr-0203",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "farm_animals",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-gardsdyr-0203"
-  },
-  {
-   "slug": "addisjon-bilde-tall-gronnsaker-302f",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "vegetables",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-gronnsaker-302f"
-  },
-  {
-   "slug": "addisjon-bilde-tall-havliv-9e04",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "ocean_life",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-havliv-9e04"
-  },
-  {
-   "slug": "addisjon-bilde-tall-i-supermarkedet-92cb",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "at_the_supermarket",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-i-supermarkedet-92cb"
-  },
-  {
-   "slug": "addisjon-bilde-tall-insekter-og-kryp-f8f8",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "insects_and_bugs",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-insekter-og-kryp-f8f8"
-  },
-  {
-   "slug": "addisjon-bilde-tall-jul-63d6",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "christmas",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-jul-63d6"
-  },
-  {
-   "slug": "addisjon-bilde-tall-kjaeledyr-5b83",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "pets",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-kjaeledyr-5b83"
-  },
-  {
-   "slug": "addisjon-bilde-tall-kjokkenredskaper-9221",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "kitchen_tools",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-kjokkenredskaper-9221"
-  },
-  {
-   "slug": "addisjon-bilde-tall-kjoretoy-c3a1",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "vehicles",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-kjoretoy-c3a1"
-  },
-  {
-   "slug": "addisjon-bilde-tall-klaer-6c25",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "clothing",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-klaer-6c25"
-  },
-  {
-   "slug": "addisjon-bilde-tall-klasserom-4141",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "classroom",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-klasserom-4141"
-  },
-  {
-   "slug": "addisjon-bilde-tall-leker-3bea",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "toys",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-leker-3bea"
-  },
-  {
-   "slug": "addisjon-bilde-tall-mobler-aee8",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "furniture",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-mobler-aee8"
-  },
-  {
-   "slug": "addisjon-bilde-tall-musikk-e439",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "music",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-musikk-e439"
-  },
-  {
-   "slug": "addisjon-bilde-tall-paske-ebad",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "easter",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-paske-ebad"
-  },
-  {
-   "slug": "addisjon-bilde-tall-postkontor-d5b2",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "post_office",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-postkontor-d5b2"
-  },
-  {
-   "slug": "addisjon-bilde-tall-reptiler-og-amfibier-09e9",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "reptiles_and_amphibians",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-reptiler-og-amfibier-09e9"
-  },
-  {
-   "slug": "addisjon-bilde-tall-rundt-i-huset-6953",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "around_the_house",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-rundt-i-huset-6953"
-  },
-  {
-   "slug": "addisjon-bilde-tall-skogsdyr-b46c",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "forest_creatures",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-skogsdyr-b46c"
-  },
-  {
-   "slug": "addisjon-bilde-tall-strand-30d0",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "beach",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-strand-30d0"
-  },
-  {
-   "slug": "addisjon-bilde-tall-sykehus-85b5",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "hospital",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-sykehus-85b5"
-  },
-  {
-   "slug": "addisjon-bilde-tall-thanksgiving-5719",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "thanksgivinng",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-thanksgiving-5719"
-  },
-  {
-   "slug": "addisjon-bilde-tall-tilbehor-e87b",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "accessories",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-tilbehor-e87b"
-  },
-  {
-   "slug": "addisjon-bilde-tall-ting-som-flyr-50d6",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "things_that_fly",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-ting-som-flyr-50d6"
-  },
-  {
-   "slug": "addisjon-bilde-tall-traer-f448",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-traer-f448"
-  },
-  {
-   "slug": "addisjon-bilde-tall-verdensrommet-dfc3",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "space",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-verdensrommet-dfc3"
-  },
-  {
-   "slug": "addisjon-bilde-tall-verktoy-75f8",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "tools",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-verktoy-75f8"
-  },
-  {
-   "slug": "addisjon-bilde-tall-yrker-884e",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "occupations",
-   "level": "2-trinn",
-   "deck": "addisjon-bilde-tall-yrker-884e"
+   "slug": "sorter-bilder-camping-vs-dinosaurs-877b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-camping-vs-dinosaurs-877b"
+  },
+  {
+   "slug": "sorter-bilder-camping-vs-flowers-88d0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-camping-vs-flowers-88d0"
+  },
+  {
+   "slug": "sorter-bilder-camping-vs-tree-3ea7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-camping-vs-tree-3ea7"
+  },
+  {
+   "slug": "sorter-bilder-camping-vs-vehicles-d1b2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-camping-vs-vehicles-d1b2"
+  },
+  {
+   "slug": "sorter-bilder-christmas-vs-animals-815c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-christmas-vs-animals-815c"
+  },
+  {
+   "slug": "sorter-bilder-christmas-vs-bakery-1add",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-christmas-vs-bakery-1add"
+  },
+  {
+   "slug": "sorter-bilder-christmas-vs-dinosaurs-21ce",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-christmas-vs-dinosaurs-21ce"
+  },
+  {
+   "slug": "sorter-bilder-christmas-vs-flowers-49da",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-christmas-vs-flowers-49da"
+  },
+  {
+   "slug": "sorter-bilder-christmas-vs-tree-f1a3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-christmas-vs-tree-f1a3"
+  },
+  {
+   "slug": "sorter-bilder-christmas-vs-vehicles-94e9",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-christmas-vs-vehicles-94e9"
+  },
+  {
+   "slug": "sorter-bilder-classroom-vs-animals-d088",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "classroom-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-classroom-vs-animals-d088"
+  },
+  {
+   "slug": "sorter-bilder-classroom-vs-bakery-f556",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "classroom-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-classroom-vs-bakery-f556"
+  },
+  {
+   "slug": "sorter-bilder-classroom-vs-flowers-0a51",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "classroom-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-classroom-vs-flowers-0a51"
   }
  ]
 }

@@ -1,0 +1,82 @@
+{
+ "part": 362,
+ "locale": "fi",
+ "classes": [
+  "arrays-multiplication::multiply-and-divide",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less"
+ ],
+ "splitOf": null,
+ "count": 8,
+ "pages": [
+  {
+   "slug": "kertotaulu-rivit-sarakkeet-3-luokka",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "3-luokka",
+   "deck": "kertolaskun-alkeet-g3313"
+  },
+  {
+   "slug": "diagrammit-tehtavat-2-luokka",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "2-luokka",
+   "deck": "kaaviot-lelut-g2239"
+  },
+  {
+   "slug": "diagrammit-tehtavat-1-luokka",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "1-luokka",
+   "deck": "kaaviot-lelut-g1142"
+  },
+  {
+   "slug": "diagrammit-tehtavat-3-luokka",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "3-luokka",
+   "deck": "kaaviot-lelut-g3333"
+  },
+  {
+   "slug": "lukutaulu-100-1-luokka",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "1-luokka",
+   "deck": "lukutaulu-g1130"
+  },
+  {
+   "slug": "lukujonot-lukukoneet-3-luokka",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "3-luokka",
+   "deck": "lukutaulu-g3328"
+  },
+  {
+   "slug": "puuttuvat-luvut-esikoulu",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "esikoulu",
+   "deck": "lukutaulu-k021"
+  },
+  {
+   "slug": "lukujonot-2-luokka",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "2-luokka",
+   "deck": "lukutaulu-g2218"
+  }
+ ]
+}

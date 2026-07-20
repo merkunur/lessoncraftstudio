@@ -1,780 +1,652 @@
 {
  "part": 230,
- "locale": "sv",
+ "locale": "nl",
  "classes": [
-  "code-addition::null",
-  "grid-match::null"
+  "subtraction::image-number",
+  "subtraction::mixed"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 80,
  "pages": [
   {
-   "slug": "kodaddition-aktiviteter-6299",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "activities",
-   "level": "ak-1",
-   "deck": "kodaddition-aktiviteter-6299"
-  },
-  {
-   "slug": "kodaddition-bageri-784d",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "bakery",
-   "level": "ak-1",
-   "deck": "kodaddition-bageri-784d"
-  },
-  {
-   "slug": "kodaddition-blommor-c416",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "flowers",
-   "level": "ak-1",
-   "deck": "kodaddition-blommor-c416"
-  },
-  {
-   "slug": "kodaddition-bondgardsdjur-1c91",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "ak-1",
-   "deck": "kodaddition-bondgardsdjur-1c91"
-  },
-  {
-   "slug": "kodaddition-camping-2341",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "camping",
-   "level": "ak-1",
-   "deck": "kodaddition-camping-2341"
-  },
-  {
-   "slug": "kodaddition-dinosaurier-8162",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "ak-1",
-   "deck": "kodaddition-dinosaurier-8162"
-  },
-  {
-   "slug": "kodaddition-djur-22a4",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "animals",
-   "level": "ak-1",
-   "deck": "kodaddition-djur-22a4"
-  },
-  {
-   "slug": "kodaddition-djurparksdjur-2d4d",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "ak-1",
-   "deck": "kodaddition-djurparksdjur-2d4d"
-  },
-  {
-   "slug": "kodaddition-efterratter-och-godis-b556",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "ak-1",
-   "deck": "kodaddition-efterratter-och-godis-b556"
-  },
-  {
-   "slug": "kodaddition-faglar-2-a4d6",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "ak-1",
-   "deck": "kodaddition-faglar-2-a4d6"
-  },
-  {
-   "slug": "kodaddition-faglar-6702",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "birds",
-   "level": "ak-1",
-   "deck": "kodaddition-faglar-6702"
-  },
-  {
-   "slug": "kodaddition-farger-6d7b",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "colors",
-   "level": "ak-1",
-   "deck": "kodaddition-farger-6d7b"
-  },
-  {
-   "slug": "kodaddition-fordon-062e",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "ak-1",
-   "deck": "kodaddition-fordon-062e"
-  },
-  {
-   "slug": "kodaddition-former-1815",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "shapes",
-   "level": "ak-1",
-   "deck": "kodaddition-former-1815"
-  },
-  {
-   "slug": "kodaddition-frukost-fa34",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "ak-1",
-   "deck": "kodaddition-frukost-fa34"
-  },
-  {
-   "slug": "kodaddition-frukter-8a78",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "fruits",
-   "level": "ak-1",
-   "deck": "kodaddition-frukter-8a78"
-  },
-  {
-   "slug": "kodaddition-gronsaker-72c8",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "ak-1",
-   "deck": "kodaddition-gronsaker-72c8"
-  },
-  {
-   "slug": "kodaddition-havsliv-cefe",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "ak-1",
-   "deck": "kodaddition-havsliv-cefe"
-  },
-  {
-   "slug": "kodaddition-husdjur-2917",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "pets",
-   "level": "ak-1",
-   "deck": "kodaddition-husdjur-2917"
-  },
-  {
-   "slug": "kodaddition-i-snabbkopet-6b41",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "ak-1",
-   "deck": "kodaddition-i-snabbkopet-6b41"
-  },
-  {
-   "slug": "kodaddition-insekter-och-kryp-e6e4",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "ak-1",
-   "deck": "kodaddition-insekter-och-kryp-e6e4"
-  },
-  {
-   "slug": "kodaddition-jul-c6b0",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "christmas",
-   "level": "ak-1",
-   "deck": "kodaddition-jul-c6b0"
-  },
-  {
-   "slug": "kodaddition-kanslor-11ea",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "emotions",
-   "level": "ak-1",
-   "deck": "kodaddition-kanslor-11ea"
-  },
-  {
-   "slug": "kodaddition-klader-8354",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "clothing",
-   "level": "ak-1",
-   "deck": "kodaddition-klader-8354"
-  },
-  {
-   "slug": "kodaddition-klassrum-159d",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "classroom",
-   "level": "ak-1",
-   "deck": "kodaddition-klassrum-159d"
-  },
-  {
-   "slug": "kodaddition-koksredskap-ebe7",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "ak-1",
-   "deck": "kodaddition-koksredskap-ebe7"
-  },
-  {
-   "slug": "kodaddition-kroppsdelar-8df8",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "ak-1",
-   "deck": "kodaddition-kroppsdelar-8df8"
-  },
-  {
-   "slug": "kodaddition-leksaker-8146",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "toys",
-   "level": "ak-1",
-   "deck": "kodaddition-leksaker-8146"
-  },
-  {
-   "slug": "kodaddition-mobler-cf45",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "furniture",
-   "level": "ak-1",
-   "deck": "kodaddition-mobler-cf45"
-  },
-  {
-   "slug": "kodaddition-musik-0d18",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "music",
-   "level": "ak-1",
-   "deck": "kodaddition-musik-0d18"
-  },
-  {
-   "slug": "kodaddition-pask-c97a",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "easter",
-   "level": "ak-1",
-   "deck": "kodaddition-pask-c97a"
-  },
-  {
-   "slug": "kodaddition-postkontor-3709",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "post_office",
-   "level": "ak-1",
-   "deck": "kodaddition-postkontor-3709"
-  },
-  {
-   "slug": "kodaddition-reptiler-och-groddjur-c6a6",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "ak-1",
-   "deck": "kodaddition-reptiler-och-groddjur-c6a6"
-  },
-  {
-   "slug": "kodaddition-runt-huset-6d86",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "ak-1",
-   "deck": "kodaddition-runt-huset-6d86"
-  },
-  {
-   "slug": "kodaddition-rymden-0677",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "space",
-   "level": "ak-1",
-   "deck": "kodaddition-rymden-0677"
-  },
-  {
-   "slug": "kodaddition-saker-som-flyger-1df6",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "ak-1",
-   "deck": "kodaddition-saker-som-flyger-1df6"
-  },
-  {
-   "slug": "kodaddition-sjukhus-6bce",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "hospital",
-   "level": "ak-1",
-   "deck": "kodaddition-sjukhus-6bce"
-  },
-  {
-   "slug": "kodaddition-skogsdjur-712f",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "ak-1",
-   "deck": "kodaddition-skogsdjur-712f"
-  },
-  {
-   "slug": "kodaddition-sommar-c011",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "summer",
-   "level": "ak-1",
-   "deck": "kodaddition-sommar-c011"
-  },
-  {
-   "slug": "kodaddition-strand-e1b1",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "beach",
-   "level": "ak-1",
-   "deck": "kodaddition-strand-e1b1"
-  },
-  {
-   "slug": "kodaddition-thanksgiving-6b5a",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "ak-1",
-   "deck": "kodaddition-thanksgiving-6b5a"
-  },
-  {
-   "slug": "kodaddition-tillbehor-15a8",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "aftrekken-beeld-getal-accessoires-7bd9",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "accessories",
-   "level": "ak-1",
-   "deck": "kodaddition-tillbehor-15a8"
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-accessoires-7bd9"
   },
   {
-   "slug": "kodaddition-trad-85cf",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "tree",
-   "level": "ak-1",
-   "deck": "kodaddition-trad-85cf"
-  },
-  {
-   "slug": "kodaddition-vader-dca2",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "weather",
-   "level": "ak-1",
-   "deck": "kodaddition-vader-dca2"
-  },
-  {
-   "slug": "kodaddition-var-f6d5",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "spring",
-   "level": "ak-1",
-   "deck": "kodaddition-var-f6d5"
-  },
-  {
-   "slug": "kodaddition-verktyg-0fc7",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "tools",
-   "level": "ak-1",
-   "deck": "kodaddition-verktyg-0fc7"
-  },
-  {
-   "slug": "kodaddition-vinter-9d7b",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "winter",
-   "level": "ak-1",
-   "deck": "kodaddition-vinter-9d7b"
-  },
-  {
-   "slug": "kodaddition-yrken-ed0d",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "occupations",
-   "level": "ak-1",
-   "deck": "kodaddition-yrken-ed0d"
-  },
-  {
-   "slug": "rutmatchning-aktiviteter-c46b",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "activities",
-   "level": "forskola",
-   "deck": "rutmatchning-aktiviteter-c46b"
-  },
-  {
-   "slug": "rutmatchning-bageri-a94c",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "aftrekken-beeld-getal-bakkerij-d4c7",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "bakery",
-   "level": "forskola",
-   "deck": "rutmatchning-bageri-a94c"
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-bakkerij-d4c7"
   },
   {
-   "slug": "rutmatchning-blandat-16c5",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "forskola",
-   "deck": "rutmatchning-blandat-16c5"
-  },
-  {
-   "slug": "rutmatchning-blommor-f48c",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "flowers",
-   "level": "forskola",
-   "deck": "rutmatchning-blommor-f48c"
-  },
-  {
-   "slug": "rutmatchning-bondgardsdjur-9287",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "rutmatchning-bondgardsdjur-9287"
-  },
-  {
-   "slug": "rutmatchning-camping-9838",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "camping",
-   "level": "forskola",
-   "deck": "rutmatchning-camping-9838"
-  },
-  {
-   "slug": "rutmatchning-dinosaurier-4a7f",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "rutmatchning-dinosaurier-4a7f"
-  },
-  {
-   "slug": "rutmatchning-djur",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "animals",
-   "level": "forskola",
-   "deck": "rutmatchning-djur"
-  },
-  {
-   "slug": "rutmatchning-djurparksdjur-f4e3",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "rutmatchning-djurparksdjur-f4e3"
-  },
-  {
-   "slug": "rutmatchning-efterratter-och-godis-a8a1",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "rutmatchning-efterratter-och-godis-a8a1"
-  },
-  {
-   "slug": "rutmatchning-faglar-2-8e04",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "forskola",
-   "deck": "rutmatchning-faglar-2-8e04"
-  },
-  {
-   "slug": "rutmatchning-faglar-d8fa",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "birds",
-   "level": "forskola",
-   "deck": "rutmatchning-faglar-d8fa"
-  },
-  {
-   "slug": "rutmatchning-fordon-e28b",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "forskola",
-   "deck": "rutmatchning-fordon-e28b"
-  },
-  {
-   "slug": "rutmatchning-former-f15b",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "shapes",
-   "level": "forskola",
-   "deck": "rutmatchning-former-f15b"
-  },
-  {
-   "slug": "rutmatchning-frukost-2217",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "forskola",
-   "deck": "rutmatchning-frukost-2217"
-  },
-  {
-   "slug": "rutmatchning-frukter-4eb1",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "fruits",
-   "level": "forskola",
-   "deck": "rutmatchning-frukter-4eb1"
-  },
-  {
-   "slug": "rutmatchning-gronsaker-9e56",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "forskola",
-   "deck": "rutmatchning-gronsaker-9e56"
-  },
-  {
-   "slug": "rutmatchning-havsliv-9e7d",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "rutmatchning-havsliv-9e7d"
-  },
-  {
-   "slug": "rutmatchning-husdjur-1d7f",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "pets",
-   "level": "forskola",
-   "deck": "rutmatchning-husdjur-1d7f"
-  },
-  {
-   "slug": "rutmatchning-i-snabbkopet-d81a",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "rutmatchning-i-snabbkopet-d81a"
-  },
-  {
-   "slug": "rutmatchning-insekter-och-kryp-8f1f",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "rutmatchning-insekter-och-kryp-8f1f"
-  },
-  {
-   "slug": "rutmatchning-jul-4e9e",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "christmas",
-   "level": "forskola",
-   "deck": "rutmatchning-jul-4e9e"
-  },
-  {
-   "slug": "rutmatchning-kanslor-60b8",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "emotions",
-   "level": "forskola",
-   "deck": "rutmatchning-kanslor-60b8"
-  },
-  {
-   "slug": "rutmatchning-klader-487c",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "clothing",
-   "level": "forskola",
-   "deck": "rutmatchning-klader-487c"
-  },
-  {
-   "slug": "rutmatchning-klassrum-f255",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "classroom",
-   "level": "forskola",
-   "deck": "rutmatchning-klassrum-f255"
-  },
-  {
-   "slug": "rutmatchning-koksredskap-7208",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "rutmatchning-koksredskap-7208"
-  },
-  {
-   "slug": "rutmatchning-kroppsdelar-bb1f",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "rutmatchning-kroppsdelar-bb1f"
-  },
-  {
-   "slug": "rutmatchning-leksaker-c202",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "toys",
-   "level": "forskola",
-   "deck": "rutmatchning-leksaker-c202"
-  },
-  {
-   "slug": "rutmatchning-mobler-2576",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "furniture",
-   "level": "forskola",
-   "deck": "rutmatchning-mobler-2576"
-  },
-  {
-   "slug": "rutmatchning-musik-235d",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "music",
-   "level": "forskola",
-   "deck": "rutmatchning-musik-235d"
-  },
-  {
-   "slug": "rutmatchning-pask-e822",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "easter",
-   "level": "forskola",
-   "deck": "rutmatchning-pask-e822"
-  },
-  {
-   "slug": "rutmatchning-postkontor-8bb7",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "post_office",
-   "level": "forskola",
-   "deck": "rutmatchning-postkontor-8bb7"
-  },
-  {
-   "slug": "rutmatchning-reptiler-och-groddjur-a87d",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "forskola",
-   "deck": "rutmatchning-reptiler-och-groddjur-a87d"
-  },
-  {
-   "slug": "rutmatchning-runt-huset-3d66",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "rutmatchning-runt-huset-3d66"
-  },
-  {
-   "slug": "rutmatchning-rymden-f50f",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "space",
-   "level": "forskola",
-   "deck": "rutmatchning-rymden-f50f"
-  },
-  {
-   "slug": "rutmatchning-saker-som-flyger-63dd",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "rutmatchning-saker-som-flyger-63dd"
-  },
-  {
-   "slug": "rutmatchning-sjukhus-731e",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "hospital",
-   "level": "forskola",
-   "deck": "rutmatchning-sjukhus-731e"
-  },
-  {
-   "slug": "rutmatchning-skogsdjur-1c12",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "rutmatchning-skogsdjur-1c12"
-  },
-  {
-   "slug": "rutmatchning-sommar-4b6f",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "summer",
-   "level": "forskola",
-   "deck": "rutmatchning-sommar-4b6f"
-  },
-  {
-   "slug": "rutmatchning-strand-4813",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "beach",
-   "level": "forskola",
-   "deck": "rutmatchning-strand-4813"
-  },
-  {
-   "slug": "rutmatchning-thanksgiving-cd70",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "rutmatchning-thanksgiving-cd70"
-  },
-  {
-   "slug": "rutmatchning-tillbehor-dfa4",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "accessories",
-   "level": "forskola",
-   "deck": "rutmatchning-tillbehor-dfa4"
-  },
-  {
-   "slug": "rutmatchning-trad-56c8",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "tree",
-   "level": "forskola",
-   "deck": "rutmatchning-trad-56c8"
-  },
-  {
-   "slug": "rutmatchning-vader-36f9",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "weather",
-   "level": "forskola",
-   "deck": "rutmatchning-vader-36f9"
-  },
-  {
-   "slug": "rutmatchning-var-83f5",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "spring",
-   "level": "forskola",
-   "deck": "rutmatchning-var-83f5"
-  },
-  {
-   "slug": "rutmatchning-verktyg-b86e",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "tools",
-   "level": "forskola",
-   "deck": "rutmatchning-verktyg-b86e"
-  },
-  {
-   "slug": "rutmatchning-vinter-73c9",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "winter",
-   "level": "forskola",
-   "deck": "rutmatchning-vinter-73c9"
-  },
-  {
-   "slug": "rutmatchning-yrken-d660",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "aftrekken-beeld-getal-beroepen-3907",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "occupations",
-   "level": "forskola",
-   "deck": "rutmatchning-yrken-d660"
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-beroepen-3907"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-bloemen-6d64",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-bloemen-6d64"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-boerderijdieren-3f22",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-boerderijdieren-3f22"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-bomen-4305",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-bomen-4305"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-boswezens-5a0e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-boswezens-5a0e"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-desserts-en-snoep-0a01",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-desserts-en-snoep-0a01"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-dieren-e5f5",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-dieren-e5f5"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-dierentuindieren-e681",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-dierentuindieren-e681"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-dingen-die-vliegen-17cc",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-dingen-die-vliegen-17cc"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-dinosaurussen-1dbb",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-dinosaurussen-1dbb"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-fruit-1241",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-fruit-1241"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-gereedschap-0f66",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-gereedschap-0f66"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-groenten-2956",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-groenten-2956"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-huisdieren-95af",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-huisdieren-95af"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-in-de-supermarkt-8398",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-in-de-supermarkt-8398"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-insecten-en-beestjes-b411",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-insecten-en-beestjes-b411"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-kamperen-70f7",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-kamperen-70f7"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-kerstmis-2b05",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-kerstmis-2b05"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-keukengerei-fe9f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-keukengerei-fe9f"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-klaslokaal-8435",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-klaslokaal-8435"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-kleding-53bd",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-kleding-53bd"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-meubels-64ed",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-meubels-64ed"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-muziek-4573",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-muziek-4573"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-oceaanleven-cbb8",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-oceaanleven-cbb8"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-ontbijt-d766",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-ontbijt-d766"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-pasen-9230",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-pasen-9230"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-postkantoor-3afc",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-postkantoor-3afc"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-reptielen-en-amfibieen-c6e3",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-reptielen-en-amfibieen-c6e3"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-rond-het-huis-4e11",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-rond-het-huis-4e11"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-ruimte-4f11",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-ruimte-4f11"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-speelgoed-3d03",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-speelgoed-3d03"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-strand-bd49",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-strand-bd49"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-thanksgiving-15ea",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-thanksgiving-15ea"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-voertuigen-c590",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-voertuigen-c590"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-vogels-2-370a",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-vogels-2-370a"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-vogels-4285",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-vogels-4285"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-vormen-1ff5",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-vormen-1ff5"
+  },
+  {
+   "slug": "aftrekken-beeld-getal-ziekenhuis-e14e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "groep-3",
+   "deck": "aftrekken-beeld-getal-ziekenhuis-e14e"
+  },
+  {
+   "slug": "aftrekken-gemengd-accessoires-4435",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-accessoires-4435"
+  },
+  {
+   "slug": "aftrekken-gemengd-bakkerij-bc74",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-bakkerij-bc74"
+  },
+  {
+   "slug": "aftrekken-gemengd-beroepen-71f8",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-beroepen-71f8"
+  },
+  {
+   "slug": "aftrekken-gemengd-bloemen-1795",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-bloemen-1795"
+  },
+  {
+   "slug": "aftrekken-gemengd-boerderijdieren-45c2",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-boerderijdieren-45c2"
+  },
+  {
+   "slug": "aftrekken-gemengd-bomen-d57a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-bomen-d57a"
+  },
+  {
+   "slug": "aftrekken-gemengd-boswezens-26c4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-boswezens-26c4"
+  },
+  {
+   "slug": "aftrekken-gemengd-desserts-en-snoep-78ad",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-desserts-en-snoep-78ad"
+  },
+  {
+   "slug": "aftrekken-gemengd-dieren-6407",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-dieren-6407"
+  },
+  {
+   "slug": "aftrekken-gemengd-dierentuindieren-4567",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-dierentuindieren-4567"
+  },
+  {
+   "slug": "aftrekken-gemengd-dingen-die-vliegen-5ec3",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-dingen-die-vliegen-5ec3"
+  },
+  {
+   "slug": "aftrekken-gemengd-dinosaurussen-75d6",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-dinosaurussen-75d6"
+  },
+  {
+   "slug": "aftrekken-gemengd-fruit-3e6d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-fruit-3e6d"
+  },
+  {
+   "slug": "aftrekken-gemengd-gereedschap-299c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-gereedschap-299c"
+  },
+  {
+   "slug": "aftrekken-gemengd-groenten-5a03",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-groenten-5a03"
+  },
+  {
+   "slug": "aftrekken-gemengd-huisdieren-6701",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-huisdieren-6701"
+  },
+  {
+   "slug": "aftrekken-gemengd-in-de-supermarkt-3bf9",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-in-de-supermarkt-3bf9"
+  },
+  {
+   "slug": "aftrekken-gemengd-insecten-en-beestjes-278f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-insecten-en-beestjes-278f"
+  },
+  {
+   "slug": "aftrekken-gemengd-kamperen-e6f7",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-kamperen-e6f7"
+  },
+  {
+   "slug": "aftrekken-gemengd-kerstmis-c587",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-kerstmis-c587"
+  },
+  {
+   "slug": "aftrekken-gemengd-keukengerei-9cad",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-keukengerei-9cad"
+  },
+  {
+   "slug": "aftrekken-gemengd-klaslokaal-3b68",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-klaslokaal-3b68"
+  },
+  {
+   "slug": "aftrekken-gemengd-kleding-2117",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-kleding-2117"
+  },
+  {
+   "slug": "aftrekken-gemengd-meubels-a60f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-meubels-a60f"
+  },
+  {
+   "slug": "aftrekken-gemengd-muziek-dbb3",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-muziek-dbb3"
+  },
+  {
+   "slug": "aftrekken-gemengd-oceaanleven-f89c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-oceaanleven-f89c"
+  },
+  {
+   "slug": "aftrekken-gemengd-ontbijt-8834",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-ontbijt-8834"
+  },
+  {
+   "slug": "aftrekken-gemengd-pasen-7804",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-pasen-7804"
+  },
+  {
+   "slug": "aftrekken-gemengd-postkantoor-f2ae",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-postkantoor-f2ae"
+  },
+  {
+   "slug": "aftrekken-gemengd-reptielen-en-amfibieen-f3cf",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-reptielen-en-amfibieen-f3cf"
+  },
+  {
+   "slug": "aftrekken-gemengd-rond-het-huis-50e4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-rond-het-huis-50e4"
+  },
+  {
+   "slug": "aftrekken-gemengd-ruimte-8f86",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-ruimte-8f86"
+  },
+  {
+   "slug": "aftrekken-gemengd-speelgoed-7c74",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-speelgoed-7c74"
+  },
+  {
+   "slug": "aftrekken-gemengd-strand-4b45",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-strand-4b45"
+  },
+  {
+   "slug": "aftrekken-gemengd-thanksgiving-e598",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-thanksgiving-e598"
+  },
+  {
+   "slug": "aftrekken-gemengd-voertuigen-5d19",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-voertuigen-5d19"
+  },
+  {
+   "slug": "aftrekken-gemengd-vogels-2-095d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-vogels-2-095d"
+  },
+  {
+   "slug": "aftrekken-gemengd-vogels-ab04",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-vogels-ab04"
+  },
+  {
+   "slug": "aftrekken-gemengd-vormen-f69a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-vormen-f69a"
+  },
+  {
+   "slug": "aftrekken-gemengd-ziekenhuis-0d08",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "groep-3",
+   "deck": "aftrekken-gemengd-ziekenhuis-0d08"
   }
  ]
 }

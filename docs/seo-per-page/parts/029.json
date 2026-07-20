@@ -2,418 +2,787 @@
  "part": 29,
  "locale": "en",
  "classes": [
-  "big-small::findBig"
+  "big-small::orderAsc",
+  "code-addition::null"
  ],
  "splitOf": null,
- "count": 51,
+ "count": 97,
  "pages": [
   {
-   "slug": "big-small-findbig-4th-of-july",
+   "slug": "big-small-orderasc-4th-of-july",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "4th_of_july",
    "level": "preschool",
-   "deck": "big-small-findbig-4th-of-july"
+   "deck": "big-small-orderasc-4th-of-july"
   },
   {
-   "slug": "big-small-findbig-accessories",
+   "slug": "big-small-orderasc-accessories",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "accessories",
    "level": "preschool",
-   "deck": "big-small-findbig-accessories"
+   "deck": "big-small-orderasc-accessories"
   },
   {
-   "slug": "big-small-findbig-activities",
+   "slug": "big-small-orderasc-activities",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "activities",
    "level": "preschool",
-   "deck": "big-small-findbig-activities"
+   "deck": "big-small-orderasc-activities"
   },
   {
-   "slug": "big-small-findbig-animals",
+   "slug": "big-small-orderasc-animals",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "animals",
    "level": "preschool",
-   "deck": "big-small-findbig-animals"
+   "deck": "big-small-orderasc-animals"
   },
   {
-   "slug": "big-small-findbig-around-the-house",
+   "slug": "big-small-orderasc-around-the-house",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "around_the_house",
    "level": "preschool",
-   "deck": "big-small-findbig-around-the-house"
+   "deck": "big-small-orderasc-around-the-house"
   },
   {
-   "slug": "big-small-findbig-at-the-supermarket",
+   "slug": "big-small-orderasc-at-the-supermarket",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "at_the_supermarket",
    "level": "preschool",
-   "deck": "big-small-findbig-at-the-supermarket"
+   "deck": "big-small-orderasc-at-the-supermarket"
   },
   {
-   "slug": "big-small-findbig-bakery",
+   "slug": "big-small-orderasc-bakery",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "bakery",
    "level": "preschool",
-   "deck": "big-small-findbig-bakery"
+   "deck": "big-small-orderasc-bakery"
   },
   {
-   "slug": "big-small-findbig-beach",
+   "slug": "big-small-orderasc-beach",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "beach",
    "level": "preschool",
-   "deck": "big-small-findbig-beach"
+   "deck": "big-small-orderasc-beach"
   },
   {
-   "slug": "big-small-findbig-birds",
+   "slug": "big-small-orderasc-birds",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "birds",
    "level": "preschool",
-   "deck": "big-small-findbig-birds"
+   "deck": "big-small-orderasc-birds"
   },
   {
-   "slug": "big-small-findbig-birds-2",
+   "slug": "big-small-orderasc-birds-2",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "birds_2",
    "level": "preschool",
-   "deck": "big-small-findbig-birds-2"
+   "deck": "big-small-orderasc-birds-2"
   },
   {
-   "slug": "big-small-findbig-body-parts",
+   "slug": "big-small-orderasc-body-parts",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "body_parts",
    "level": "preschool",
-   "deck": "big-small-findbig-body-parts"
+   "deck": "big-small-orderasc-body-parts"
   },
   {
-   "slug": "big-small-findbig-breakfast",
+   "slug": "big-small-orderasc-breakfast",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "breakfast",
    "level": "preschool",
-   "deck": "big-small-findbig-breakfast"
+   "deck": "big-small-orderasc-breakfast"
   },
   {
-   "slug": "big-small-findbig-camping",
+   "slug": "big-small-orderasc-camping",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "camping",
    "level": "preschool",
-   "deck": "big-small-findbig-camping"
+   "deck": "big-small-orderasc-camping"
   },
   {
-   "slug": "big-small-findbig-christmas",
+   "slug": "big-small-orderasc-christmas",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "christmas",
    "level": "preschool",
-   "deck": "big-small-findbig-christmas"
+   "deck": "big-small-orderasc-christmas"
   },
   {
-   "slug": "big-small-findbig-classroom",
+   "slug": "big-small-orderasc-classroom",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "classroom",
    "level": "preschool",
-   "deck": "big-small-findbig-classroom"
+   "deck": "big-small-orderasc-classroom"
   },
   {
-   "slug": "big-small-findbig-clothing",
+   "slug": "big-small-orderasc-clothing",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "clothing",
    "level": "preschool",
-   "deck": "big-small-findbig-clothing"
+   "deck": "big-small-orderasc-clothing"
   },
   {
-   "slug": "big-small-findbig-colors",
+   "slug": "big-small-orderasc-colors",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "colors",
    "level": "preschool",
-   "deck": "big-small-findbig-colors"
+   "deck": "big-small-orderasc-colors"
   },
   {
-   "slug": "big-small-findbig-desserts-and-sweets",
+   "slug": "big-small-orderasc-desserts-and-sweets",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "desserts_and_sweets",
    "level": "preschool",
-   "deck": "big-small-findbig-desserts-and-sweets"
+   "deck": "big-small-orderasc-desserts-and-sweets"
   },
   {
-   "slug": "big-small-findbig-dinosaurs",
+   "slug": "big-small-orderasc-dinosaurs",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "dinosaurs",
    "level": "preschool",
-   "deck": "big-small-findbig-dinosaurs"
+   "deck": "big-small-orderasc-dinosaurs"
   },
   {
-   "slug": "big-small-findbig-easter",
+   "slug": "big-small-orderasc-easter",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "easter",
    "level": "preschool",
-   "deck": "big-small-findbig-easter"
+   "deck": "big-small-orderasc-easter"
   },
   {
-   "slug": "big-small-findbig-emotions",
+   "slug": "big-small-orderasc-emotions",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "emotions",
    "level": "preschool",
-   "deck": "big-small-findbig-emotions"
+   "deck": "big-small-orderasc-emotions"
   },
   {
-   "slug": "big-small-findbig-farm-animals",
+   "slug": "big-small-orderasc-faces-bw",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
+   "theme": "faces_bw",
+   "level": "preschool",
+   "deck": "big-small-orderasc-faces-bw"
+  },
+  {
+   "slug": "big-small-orderasc-farm-animals",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "farm_animals",
    "level": "preschool",
-   "deck": "big-small-findbig-farm-animals"
+   "deck": "big-small-orderasc-farm-animals"
   },
   {
-   "slug": "big-small-findbig-flowers",
+   "slug": "big-small-orderasc-flowers",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "flowers",
    "level": "preschool",
-   "deck": "big-small-findbig-flowers"
+   "deck": "big-small-orderasc-flowers"
   },
   {
-   "slug": "big-small-findbig-forest-creatures",
+   "slug": "big-small-orderasc-forest-creatures",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "forest_creatures",
    "level": "preschool",
-   "deck": "big-small-findbig-forest-creatures"
+   "deck": "big-small-orderasc-forest-creatures"
   },
   {
-   "slug": "big-small-findbig-fruits",
+   "slug": "big-small-orderasc-fruits",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "fruits",
    "level": "preschool",
-   "deck": "big-small-findbig-fruits"
+   "deck": "big-small-orderasc-fruits"
   },
   {
-   "slug": "big-small-findbig-furniture",
+   "slug": "big-small-orderasc-furniture",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "furniture",
    "level": "preschool",
-   "deck": "big-small-findbig-furniture"
+   "deck": "big-small-orderasc-furniture"
   },
   {
-   "slug": "big-small-findbig-hospital",
+   "slug": "big-small-orderasc-hospital",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "hospital",
    "level": "preschool",
-   "deck": "big-small-findbig-hospital"
+   "deck": "big-small-orderasc-hospital"
   },
   {
-   "slug": "big-small-findbig-insects-and-bugs",
+   "slug": "big-small-orderasc-insects-and-bugs",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "insects_and_bugs",
    "level": "preschool",
-   "deck": "big-small-findbig-insects-and-bugs"
+   "deck": "big-small-orderasc-insects-and-bugs"
   },
   {
-   "slug": "big-small-findbig-kitchen-tools",
+   "slug": "big-small-orderasc-kitchen-tools",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "kitchen_tools",
    "level": "preschool",
-   "deck": "big-small-findbig-kitchen-tools"
+   "deck": "big-small-orderasc-kitchen-tools"
   },
   {
-   "slug": "big-small-findbig-miscellaneous",
+   "slug": "big-small-orderasc-miscellaneous",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "miscellaneous",
    "level": "preschool",
-   "deck": "big-small-findbig-miscellaneous"
+   "deck": "big-small-orderasc-miscellaneous"
   },
   {
-   "slug": "big-small-findbig-music",
+   "slug": "big-small-orderasc-music",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "music",
    "level": "preschool",
-   "deck": "big-small-findbig-music"
+   "deck": "big-small-orderasc-music"
   },
   {
-   "slug": "big-small-findbig-occupations",
+   "slug": "big-small-orderasc-occupations",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "occupations",
    "level": "preschool",
-   "deck": "big-small-findbig-occupations"
+   "deck": "big-small-orderasc-occupations"
   },
   {
-   "slug": "big-small-findbig-ocean-life",
+   "slug": "big-small-orderasc-ocean-life",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "ocean_life",
    "level": "preschool",
-   "deck": "big-small-findbig-ocean-life"
+   "deck": "big-small-orderasc-ocean-life"
   },
   {
-   "slug": "big-small-findbig-pets",
+   "slug": "big-small-orderasc-pets",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "pets",
    "level": "preschool",
-   "deck": "big-small-findbig-pets"
+   "deck": "big-small-orderasc-pets"
   },
   {
-   "slug": "big-small-findbig-post-office",
+   "slug": "big-small-orderasc-post-office",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "post_office",
    "level": "preschool",
-   "deck": "big-small-findbig-post-office"
+   "deck": "big-small-orderasc-post-office"
   },
   {
-   "slug": "big-small-findbig-reptiles-and-amphibians",
+   "slug": "big-small-orderasc-reptiles-and-amphibians",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "reptiles_and_amphibians",
    "level": "preschool",
-   "deck": "big-small-findbig-reptiles-and-amphibians"
+   "deck": "big-small-orderasc-reptiles-and-amphibians"
   },
   {
-   "slug": "big-small-findbig-shapes",
+   "slug": "big-small-orderasc-shapes",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "shapes",
    "level": "preschool",
-   "deck": "big-small-findbig-shapes"
+   "deck": "big-small-orderasc-shapes"
   },
   {
-   "slug": "big-small-findbig-space",
+   "slug": "big-small-orderasc-space",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "space",
    "level": "preschool",
-   "deck": "big-small-findbig-space"
+   "deck": "big-small-orderasc-space"
   },
   {
-   "slug": "big-small-findbig-spring",
+   "slug": "big-small-orderasc-spring",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "spring",
    "level": "preschool",
-   "deck": "big-small-findbig-spring"
+   "deck": "big-small-orderasc-spring"
   },
   {
-   "slug": "big-small-findbig-summer",
+   "slug": "big-small-orderasc-summer",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "summer",
    "level": "preschool",
-   "deck": "big-small-findbig-summer"
+   "deck": "big-small-orderasc-summer"
   },
   {
-   "slug": "big-small-findbig-thanksgiving",
+   "slug": "big-small-orderasc-thanksgiving",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "thanksgivinng",
    "level": "preschool",
-   "deck": "big-small-findbig-thanksgiving"
+   "deck": "big-small-orderasc-thanksgiving"
   },
   {
-   "slug": "big-small-findbig-things-that-fly",
+   "slug": "big-small-orderasc-things-that-fly",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "things_that_fly",
    "level": "preschool",
-   "deck": "big-small-findbig-things-that-fly"
+   "deck": "big-small-orderasc-things-that-fly"
   },
   {
-   "slug": "big-small-findbig-tools",
+   "slug": "big-small-orderasc-tools",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "tools",
    "level": "preschool",
-   "deck": "big-small-findbig-tools"
+   "deck": "big-small-orderasc-tools"
   },
   {
-   "slug": "big-small-findbig-toys",
+   "slug": "big-small-orderasc-tree",
    "type": "big-small",
-   "mode": "findBig",
-   "theme": "toys",
-   "level": "preschool",
-   "deck": "big-small-findbig-toys"
-  },
-  {
-   "slug": "big-small-findbig-tree",
-   "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "tree",
    "level": "preschool",
-   "deck": "big-small-findbig-tree"
+   "deck": "big-small-orderasc-tree"
   },
   {
-   "slug": "big-small-findbig-valentine-bw",
+   "slug": "big-small-orderasc-vegetables",
    "type": "big-small",
-   "mode": "findBig",
-   "theme": "valentine_bw",
-   "level": "preschool",
-   "deck": "big-small-findbig-valentine-bw"
-  },
-  {
-   "slug": "big-small-findbig-vegetables",
-   "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "vegetables",
    "level": "preschool",
-   "deck": "big-small-findbig-vegetables"
+   "deck": "big-small-orderasc-vegetables"
   },
   {
-   "slug": "big-small-findbig-vehicles",
+   "slug": "big-small-orderasc-vehicles",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "vehicles",
    "level": "preschool",
-   "deck": "big-small-findbig-vehicles"
+   "deck": "big-small-orderasc-vehicles"
   },
   {
-   "slug": "big-small-findbig-weather",
+   "slug": "big-small-orderasc-weather",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "weather",
    "level": "preschool",
-   "deck": "big-small-findbig-weather"
+   "deck": "big-small-orderasc-weather"
   },
   {
-   "slug": "big-small-findbig-winter",
+   "slug": "big-small-orderasc-winter",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "winter",
    "level": "preschool",
-   "deck": "big-small-findbig-winter"
+   "deck": "big-small-orderasc-winter"
   },
   {
-   "slug": "big-small-findbig-zoo-animals",
+   "slug": "big-small-orderasc-zoo-animals",
    "type": "big-small",
-   "mode": "findBig",
+   "mode": "orderAsc",
    "theme": "zoo_animals",
    "level": "preschool",
-   "deck": "big-small-findbig-zoo-animals"
+   "deck": "big-small-orderasc-zoo-animals"
+  },
+  {
+   "slug": "code-addition-4th-of-july-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "grade-2",
+   "deck": "code-addition-4th-of-july"
+  },
+  {
+   "slug": "code-addition-accessories-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "accessories",
+   "level": "grade-1",
+   "deck": "code-addition-accessories"
+  },
+  {
+   "slug": "code-addition-activities-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "activities",
+   "level": "grade-2",
+   "deck": "code-addition-activities"
+  },
+  {
+   "slug": "code-addition-animals-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "animals",
+   "level": "grade-1",
+   "deck": "code-addition-animals"
+  },
+  {
+   "slug": "code-addition-around-the-house-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "grade-2",
+   "deck": "code-addition-around-the-house"
+  },
+  {
+   "slug": "code-addition-at-the-supermarket-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "grade-1",
+   "deck": "code-addition-at-the-supermarket"
+  },
+  {
+   "slug": "code-addition-bakery-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "bakery",
+   "level": "grade-1",
+   "deck": "code-addition-bakery"
+  },
+  {
+   "slug": "code-addition-beach-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "beach",
+   "level": "grade-1",
+   "deck": "code-addition-beach"
+  },
+  {
+   "slug": "code-addition-birds-2-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "grade-1",
+   "deck": "code-addition-birds-2"
+  },
+  {
+   "slug": "code-addition-birds-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds",
+   "level": "grade-2",
+   "deck": "code-addition-birds"
+  },
+  {
+   "slug": "code-addition-breakfast-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "grade-1",
+   "deck": "code-addition-breakfast"
+  },
+  {
+   "slug": "code-addition-camping-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "camping",
+   "level": "grade-2",
+   "deck": "code-addition-camping"
+  },
+  {
+   "slug": "code-addition-christmas-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "christmas",
+   "level": "grade-1",
+   "deck": "code-addition-christmas"
+  },
+  {
+   "slug": "code-addition-classroom-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "classroom",
+   "level": "grade-1",
+   "deck": "code-addition-classroom"
+  },
+  {
+   "slug": "code-addition-clothing-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "clothing",
+   "level": "grade-1",
+   "deck": "code-addition-clothing"
+  },
+  {
+   "slug": "code-addition-colors-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "colors",
+   "level": "grade-2",
+   "deck": "code-addition-colors"
+  },
+  {
+   "slug": "code-addition-desserts-and-sweets-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "grade-1",
+   "deck": "code-addition-desserts-and-sweets"
+  },
+  {
+   "slug": "code-addition-dinosaurs-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "grade-1",
+   "deck": "code-addition-dinosaurs"
+  },
+  {
+   "slug": "code-addition-easter-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "easter",
+   "level": "grade-2",
+   "deck": "code-addition-easter"
+  },
+  {
+   "slug": "code-addition-faces-bw-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "faces_bw",
+   "level": "grade-1",
+   "deck": "code-addition-faces-bw"
+  },
+  {
+   "slug": "code-addition-farm-animals-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "grade-2",
+   "deck": "code-addition-farm-animals"
+  },
+  {
+   "slug": "code-addition-flowers-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "flowers",
+   "level": "grade-2",
+   "deck": "code-addition-flowers"
+  },
+  {
+   "slug": "code-addition-forest-creatures",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "grade-1",
+   "deck": "code-addition-forest-creatures"
+  },
+  {
+   "slug": "code-addition-fruits-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "fruits",
+   "level": "grade-1",
+   "deck": "code-addition-fruits"
+  },
+  {
+   "slug": "code-addition-furniture-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "furniture",
+   "level": "grade-1",
+   "deck": "code-addition-furniture"
+  },
+  {
+   "slug": "code-addition-hospital-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "hospital",
+   "level": "grade-2",
+   "deck": "code-addition-hospital"
+  },
+  {
+   "slug": "code-addition-insects-and-bugs-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "grade-1",
+   "deck": "code-addition-insects-and-bugs"
+  },
+  {
+   "slug": "code-addition-kitchen-tools-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "grade-1",
+   "deck": "code-addition-kitchen-tools"
+  },
+  {
+   "slug": "code-addition-miscellaneous-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "grade-1",
+   "deck": "code-addition-miscellaneous"
+  },
+  {
+   "slug": "code-addition-music-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "music",
+   "level": "grade-2",
+   "deck": "code-addition-music"
+  },
+  {
+   "slug": "code-addition-occupations-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "occupations",
+   "level": "grade-2",
+   "deck": "code-addition-occupations"
+  },
+  {
+   "slug": "code-addition-ocean-life-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "grade-1",
+   "deck": "code-addition-ocean-life"
+  },
+  {
+   "slug": "code-addition-pets-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "pets",
+   "level": "grade-2",
+   "deck": "code-addition-pets"
+  },
+  {
+   "slug": "code-addition-post-office-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "post_office",
+   "level": "grade-1",
+   "deck": "code-addition-post-office"
+  },
+  {
+   "slug": "code-addition-reptiles-and-amphibians-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "grade-1",
+   "deck": "code-addition-reptiles-and-amphibians"
+  },
+  {
+   "slug": "code-addition-shapes-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "shapes",
+   "level": "grade-1",
+   "deck": "code-addition-shapes"
+  },
+  {
+   "slug": "code-addition-space-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "space",
+   "level": "grade-1",
+   "deck": "code-addition-space"
+  },
+  {
+   "slug": "code-addition-summer-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "summer",
+   "level": "grade-2",
+   "deck": "code-addition-summer"
+  },
+  {
+   "slug": "code-addition-thanksgivinng-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "grade-1",
+   "deck": "code-addition-thanksgiving"
+  },
+  {
+   "slug": "code-addition-things-that-fly-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "grade-2",
+   "deck": "code-addition-things-that-fly"
+  },
+  {
+   "slug": "code-addition-tools-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tools",
+   "level": "grade-2",
+   "deck": "code-addition-tools"
+  },
+  {
+   "slug": "code-addition-toys-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "toys",
+   "level": "grade-1",
+   "deck": "code-addition-toys"
+  },
+  {
+   "slug": "code-addition-tree-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tree",
+   "level": "grade-2",
+   "deck": "code-addition-tree"
+  },
+  {
+   "slug": "code-addition-valentine-bw-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "valentine_bw",
+   "level": "grade-1",
+   "deck": "code-addition-valentine-bw"
+  },
+  {
+   "slug": "code-addition-vegetables-grade-2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "grade-2",
+   "deck": "code-addition-vegetables"
+  },
+  {
+   "slug": "code-addition-vehicles-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "grade-1",
+   "deck": "code-addition-vehicles"
+  },
+  {
+   "slug": "code-addition-zoo-animals-grade-1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "grade-1",
+   "deck": "code-addition-zoo-animals"
   }
  ]
 }

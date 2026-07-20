@@ -2,731 +2,651 @@
  "part": 154,
  "locale": "fr",
  "classes": [
-  "shadow-match::find-shadow",
-  "treasure-hunt::compass"
+  "more-less::image-image",
+  "math-puzzle::addition"
  ],
  "splitOf": null,
- "count": 90,
+ "count": 80,
  "pages": [
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-accessoires-f3f1",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-accessoires-1a70",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "accessories",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-accessoires-f3f1"
+   "deck": "plus-ou-moins-image-image-accessoires-1a70"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-action-de-grace-7364",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-action-de-grace-c674",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "thanksgivinng",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-action-de-grace-7364"
+   "deck": "plus-ou-moins-image-image-action-de-grace-c674"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-activites-8f4d",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "activities",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-activites-8f4d"
-  },
-  {
-   "slug": "apparier-les-ombres-associe-l-ombre-animaux",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-animaux-28f4",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "animals",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-animaux"
+   "deck": "plus-ou-moins-image-image-animaux-28f4"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-animaux-de-compagnie-02e0",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-animaux-de-compagnie-3fa9",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "pets",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-animaux-de-compagnie-02e0"
+   "deck": "plus-ou-moins-image-image-animaux-de-compagnie-3fa9"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-animaux-de-la-ferme-2257",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-animaux-de-la-ferme-ef3d",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "farm_animals",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-animaux-de-la-ferme-2257"
+   "deck": "plus-ou-moins-image-image-animaux-de-la-ferme-ef3d"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-animaux-du-zoo-098b",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-animaux-du-zoo-6e1d",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "zoo_animals",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-animaux-du-zoo-098b"
+   "deck": "plus-ou-moins-image-image-animaux-du-zoo-6e1d"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-arbres-877e",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-arbres-417d",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "tree",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-arbres-877e"
+   "deck": "plus-ou-moins-image-image-arbres-417d"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-au-supermarche-e3c0",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-au-supermarche-3667",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "at_the_supermarket",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-au-supermarche-e3c0"
+   "deck": "plus-ou-moins-image-image-au-supermarche-3667"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-autour-de-la-maison-638f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-autour-de-la-maison-6d17",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "around_the_house",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-autour-de-la-maison-638f"
+   "deck": "plus-ou-moins-image-image-autour-de-la-maison-6d17"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-boulangerie-fb04",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-boulangerie-f573",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "bakery",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-boulangerie-fb04"
+   "deck": "plus-ou-moins-image-image-boulangerie-f573"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-bureau-de-poste-7203",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-bureau-de-poste-dda7",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "post_office",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-bureau-de-poste-7203"
+   "deck": "plus-ou-moins-image-image-bureau-de-poste-dda7"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-camping-1a6b",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-camping-e796",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "camping",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-camping-1a6b"
+   "deck": "plus-ou-moins-image-image-camping-e796"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-choses-qui-volent-33d0",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-choses-qui-volent-1ec5",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "things_that_fly",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-choses-qui-volent-33d0"
+   "deck": "plus-ou-moins-image-image-choses-qui-volent-1ec5"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-creatures-de-la-foret-4c8f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-creatures-de-la-foret-7d3b",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "forest_creatures",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-creatures-de-la-foret-4c8f"
+   "deck": "plus-ou-moins-image-image-creatures-de-la-foret-7d3b"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-desserts-et-sucreries-f8ad",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-desserts-et-sucreries-0507",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "desserts_and_sweets",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-desserts-et-sucreries-f8ad"
+   "deck": "plus-ou-moins-image-image-desserts-et-sucreries-0507"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-dinosaures-57d8",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-dinosaures-ed7b",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "dinosaurs",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-dinosaures-57d8"
+   "deck": "plus-ou-moins-image-image-dinosaures-ed7b"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-espace-f4ae",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-espace-1b6b",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "space",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-espace-f4ae"
+   "deck": "plus-ou-moins-image-image-espace-1b6b"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-ete-bd28",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "summer",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-ete-bd28"
-  },
-  {
-   "slug": "apparier-les-ombres-associe-l-ombre-fleurs-e1e0",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-fleurs-eee8",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "flowers",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-fleurs-e1e0"
+   "deck": "plus-ou-moins-image-image-fleurs-eee8"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-fruits-ff40",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-formes-a6a9",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "maternelle",
+   "deck": "plus-ou-moins-image-image-formes-a6a9"
+  },
+  {
+   "slug": "plus-ou-moins-image-image-fruits-f1d4",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "fruits",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-fruits-ff40"
+   "deck": "plus-ou-moins-image-image-fruits-f1d4"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-hiver-5ee1",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "winter",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-hiver-5ee1"
-  },
-  {
-   "slug": "apparier-les-ombres-associe-l-ombre-hopital-24da",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-hopital-77f4",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "hospital",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-hopital-24da"
+   "deck": "plus-ou-moins-image-image-hopital-77f4"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-insectes-et-bestioles-5ac1",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-insectes-et-bestioles-9587",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "insects_and_bugs",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-insectes-et-bestioles-5ac1"
+   "deck": "plus-ou-moins-image-image-insectes-et-bestioles-9587"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-jouets-9454",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-jouets-bef2",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "toys",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-jouets-9454"
+   "deck": "plus-ou-moins-image-image-jouets-bef2"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-legumes-178b",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-legumes-0852",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "vegetables",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-legumes-178b"
+   "deck": "plus-ou-moins-image-image-legumes-0852"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-meteo-70c1",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "weather",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-meteo-70c1"
-  },
-  {
-   "slug": "apparier-les-ombres-associe-l-ombre-metiers-5243",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-metiers-c1dc",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "occupations",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-metiers-5243"
+   "deck": "plus-ou-moins-image-image-metiers-c1dc"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-meubles-75a9",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "furniture",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-meubles-75a9"
-  },
-  {
-   "slug": "apparier-les-ombres-associe-l-ombre-musique-7edf",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-musique-4e80",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "music",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-musique-7edf"
+   "deck": "plus-ou-moins-image-image-musique-4e80"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-noel-378f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-noel-23c7",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "christmas",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-noel-378f"
+   "deck": "plus-ou-moins-image-image-noel-23c7"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-oiseaux-2-5ebb",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-oiseaux-2-107b",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "birds_2",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-oiseaux-2-5ebb"
+   "deck": "plus-ou-moins-image-image-oiseaux-2-107b"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-oiseaux-a69f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-oiseaux-c219",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "birds",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-oiseaux-a69f"
+   "deck": "plus-ou-moins-image-image-oiseaux-c219"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-outils-4e3d",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-outils-3342",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "tools",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-outils-4e3d"
+   "deck": "plus-ou-moins-image-image-outils-3342"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-paques-c27f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-paques-6825",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "easter",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-paques-c27f"
+   "deck": "plus-ou-moins-image-image-paques-6825"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-parties-du-corps-f78f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-parties-du-corps-f78f"
-  },
-  {
-   "slug": "apparier-les-ombres-associe-l-ombre-petit-dejeuner-3f0d",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-petit-dejeuner-ec7e",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "breakfast",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-petit-dejeuner-3f0d"
+   "deck": "plus-ou-moins-image-image-petit-dejeuner-ec7e"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-plage-c76b",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-plage-b953",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "beach",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-plage-c76b"
+   "deck": "plus-ou-moins-image-image-plage-b953"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-printemps-1e4f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "spring",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-printemps-1e4f"
-  },
-  {
-   "slug": "apparier-les-ombres-associe-l-ombre-reptiles-et-amphibiens-1c45",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-reptiles-et-amphibiens-1d1f",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "reptiles_and_amphibians",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-reptiles-et-amphibiens-1c45"
+   "deck": "plus-ou-moins-image-image-reptiles-et-amphibiens-1d1f"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-salle-de-classe-8c2f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-salle-de-classe-fd22",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "classroom",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-salle-de-classe-8c2f"
+   "deck": "plus-ou-moins-image-image-salle-de-classe-fd22"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-ustensiles-de-cuisine-3533",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-ustensiles-de-cuisine-4f6c",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "kitchen_tools",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-ustensiles-de-cuisine-3533"
+   "deck": "plus-ou-moins-image-image-ustensiles-de-cuisine-4f6c"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-vehicules-aa03",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-vehicules-0cc6",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "vehicles",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-vehicules-aa03"
+   "deck": "plus-ou-moins-image-image-vehicules-0cc6"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-vetements-725a",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-vetements-700d",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "clothing",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-vetements-725a"
+   "deck": "plus-ou-moins-image-image-vetements-700d"
   },
   {
-   "slug": "apparier-les-ombres-associe-l-ombre-vie-oceanique-ce22",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "plus-ou-moins-image-image-vie-oceanique-6976",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "ocean_life",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-associe-l-ombre-vie-oceanique-ce22"
+   "deck": "plus-ou-moins-image-image-vie-oceanique-6976"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-accessoires-c718",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-accessoires-cf6e",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "accessories",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-accessoires-c718"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-accessoires-cf6e"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-action-de-grace-87b9",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-action-de-grace-2742",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-action-de-grace-87b9"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-action-de-grace-2742"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-activites-ec2e",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "activities",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-activites-ec2e"
-  },
-  {
-   "slug": "chasse-au-tresor-points-cardinaux-animaux-281e",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "animals",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-animaux-281e"
-  },
-  {
-   "slug": "chasse-au-tresor-points-cardinaux-animaux-de-compagnie-4478",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-animaux-de-compagnie-d9b3",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "pets",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-animaux-de-compagnie-4478"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-animaux-de-compagnie-d9b3"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-animaux-de-la-ferme-7b47",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-animaux-de-la-ferme-1b7b",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-animaux-de-la-ferme-7b47"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-animaux-de-la-ferme-1b7b"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-animaux-du-zoo-f79c",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-animaux-du-zoo-520c",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-animaux-du-zoo-f79c"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-animaux-du-zoo-520c"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-arbres-6c7e",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-animaux-ed4b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-animaux-ed4b"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-arbres-fba6",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "tree",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-arbres-6c7e"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-arbres-fba6"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-au-supermarche-81af",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-au-supermarche-49a8",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-au-supermarche-81af"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-au-supermarche-49a8"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-autour-de-la-maison-fa8c",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-autour-de-la-maison-27a4",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-autour-de-la-maison-fa8c"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-autour-de-la-maison-27a4"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-boulangerie-44e0",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-boulangerie-23b8",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "bakery",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-boulangerie-44e0"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-boulangerie-23b8"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-bureau-de-poste-89b1",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-bureau-de-poste-8748",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "post_office",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-bureau-de-poste-89b1"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-bureau-de-poste-8748"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-camping-9a8a",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-camping-b89c",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "camping",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-camping-9a8a"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-camping-b89c"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-choses-qui-volent-712e",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-choses-qui-volent-d1c1",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-choses-qui-volent-712e"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-choses-qui-volent-d1c1"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-couleurs-b085",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "colors",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-couleurs-b085"
-  },
-  {
-   "slug": "chasse-au-tresor-points-cardinaux-creatures-de-la-foret-de1f",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-creatures-de-la-foret-3584",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "forest_creatures",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-creatures-de-la-foret-de1f"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-creatures-de-la-foret-3584"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-desserts-et-sucreries-8a3c",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-desserts-et-sucreries-6637",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-desserts-et-sucreries-8a3c"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-desserts-et-sucreries-6637"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-dinosaures-a451",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-dinosaures-71a2",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "dinosaurs",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-dinosaures-a451"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-dinosaures-71a2"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-emotions-851c",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "emotions",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-emotions-851c"
+   "slug": "puzzle-mathematique-addition-divers-4c05",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "miscellaneous",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-divers-4c05"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-espace-1a38",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-espace-f2c0",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "space",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-espace-1a38"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-espace-f2c0"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-ete-c6d0",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "summer",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-ete-c6d0"
-  },
-  {
-   "slug": "chasse-au-tresor-points-cardinaux-fleurs-50ba",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-fleurs-87ba",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "flowers",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-fleurs-50ba"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-fleurs-87ba"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-hiver-c5b7",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "winter",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-hiver-c5b7"
+   "slug": "puzzle-mathematique-addition-formes-98d6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-formes-98d6"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-hopital-a3f0",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-fruits-afe2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "fruits",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-fruits-afe2"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-hopital-e116",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "hospital",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-hopital-a3f0"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-hopital-e116"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-insectes-et-bestioles-363a",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-insectes-et-bestioles-3662",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "insects_and_bugs",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-insectes-et-bestioles-363a"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-insectes-et-bestioles-3662"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-jouets-39cc",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-jouets-329a",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "toys",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-jouets-39cc"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-jouets-329a"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-legumes-bd41",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-legumes-36d8",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "vegetables",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-legumes-bd41"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-legumes-36d8"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-meteo-b45d",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "weather",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-meteo-b45d"
-  },
-  {
-   "slug": "chasse-au-tresor-points-cardinaux-metiers-4143",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-metiers-8fb8",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "occupations",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-metiers-4143"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-metiers-8fb8"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-meubles-16c2",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-meubles-9be3",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "furniture",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-meubles-16c2"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-meubles-9be3"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-musique-49e5",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-musique-4b6b",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "music",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-musique-49e5"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-musique-4b6b"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-noel-847d",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-noel-ed3c",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "christmas",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-noel-847d"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-noel-ed3c"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-oiseaux-2-5ebe",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-oiseaux-2-b5f7",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-oiseaux-2-5ebe"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-oiseaux-2-b5f7"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-oiseaux-b3dc",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-oiseaux-8096",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "birds",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-oiseaux-b3dc"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-oiseaux-8096"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-outils-8c0e",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-outils-e23f",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "tools",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-outils-8c0e"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-outils-e23f"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-paques-622f",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-paques-406a",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "easter",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-paques-622f"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-paques-406a"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-parties-du-corps-93f9",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-parties-du-corps-93f9"
-  },
-  {
-   "slug": "chasse-au-tresor-points-cardinaux-petit-dejeuner-ec41",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-petit-dejeuner-b942",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "breakfast",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-petit-dejeuner-ec41"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-petit-dejeuner-b942"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-plage-e985",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-plage-8167",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "beach",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-plage-e985"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-plage-8167"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-printemps-17d9",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "spring",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-printemps-17d9"
-  },
-  {
-   "slug": "chasse-au-tresor-points-cardinaux-reptiles-et-amphibiens-2d17",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-reptiles-et-amphibiens-b14c",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-reptiles-et-amphibiens-2d17"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-reptiles-et-amphibiens-b14c"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-salle-de-classe-b2a9",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-salle-de-classe-fe3a",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "classroom",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-salle-de-classe-b2a9"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-salle-de-classe-fe3a"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-vehicules-c88a",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-ustensiles-de-cuisine-1321",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-ustensiles-de-cuisine-1321"
+  },
+  {
+   "slug": "puzzle-mathematique-addition-vehicules-0a9d",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-vehicules-c88a"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-vehicules-0a9d"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-vetements-b9de",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-vetements-1b10",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "clothing",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-vetements-b9de"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-vetements-1b10"
   },
   {
-   "slug": "chasse-au-tresor-points-cardinaux-vie-oceanique-6276",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "puzzle-mathematique-addition-vie-oceanique-780d",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-points-cardinaux-vie-oceanique-6276"
+   "level": "cp",
+   "deck": "puzzle-mathematique-addition-vie-oceanique-780d"
   }
  ]
 }

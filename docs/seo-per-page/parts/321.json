@@ -2,480 +2,763 @@
  "part": 321,
  "locale": "no",
  "classes": [
-  "alphabet-train::null",
-  "odd-one-out::cross-theme",
-  "arrays-multiplication::arrays-repeated-addition",
-  "arrays-multiplication::multiply-and-divide",
-  "fractions::name-and-compare",
-  "fractions::partition-and-share",
-  "geometry::count-and-sort-shapes",
-  "geometry::quadrilaterals-and-area",
-  "geometry::shape-attributes",
-  "graphing-data::graphs-and-line-plots",
-  "graphing-data::read-picture-bar-graphs",
-  "graphing-data::scaled-graphs",
-  "measurement::compare-weight",
-  "measurement::length-units",
-  "measurement::measure-and-compare-length",
-  "measurement::volume-and-temperature",
-  "number-charts::hundreds-chart-skip-count",
-  "number-charts::number-patterns",
-  "number-charts::numbers-to-20",
-  "number-charts::skip-count-and-100-more-less",
-  "telling-time::hour-half-hour",
-  "telling-time::to-five-minutes",
-  "telling-time::to-the-minute"
+  "grid-match::null",
+  "word-guess::easy"
  ],
  "splitOf": null,
- "count": 56,
+ "count": 94,
  "pages": [
   {
-   "slug": "alfabettoget-aktiviteter-5408",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-aktiviteter-fe35",
+   "type": "grid-match",
    "mode": null,
    "theme": "activities",
    "level": "1-trinn",
-   "deck": "alfabettoget-aktiviteter-5408"
+   "deck": "rutenettmatch-aktiviteter-fe35"
   },
   {
-   "slug": "alfabettoget-bakeri-8ddd",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-bakeri-15fe",
+   "type": "grid-match",
    "mode": null,
    "theme": "bakery",
    "level": "1-trinn",
-   "deck": "alfabettoget-bakeri-8ddd"
+   "deck": "rutenettmatch-bakeri-15fe"
   },
   {
-   "slug": "alfabettoget-camping-f6dc",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-blomster-af9a",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-blomster-af9a"
+  },
+  {
+   "slug": "rutenettmatch-camping-de99",
+   "type": "grid-match",
    "mode": null,
    "theme": "camping",
    "level": "1-trinn",
-   "deck": "alfabettoget-camping-f6dc"
+   "deck": "rutenettmatch-camping-de99"
   },
   {
-   "slug": "alfabettoget-dyr-cd6c",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-desserter-og-godteri-a5a0",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-desserter-og-godteri-a5a0"
+  },
+  {
+   "slug": "rutenettmatch-dinosaurer-d5e1",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-dinosaurer-d5e1"
+  },
+  {
+   "slug": "rutenettmatch-dyr-d58e",
+   "type": "grid-match",
    "mode": null,
    "theme": "animals",
    "level": "1-trinn",
-   "deck": "alfabettoget-dyr-cd6c"
+   "deck": "rutenettmatch-dyr-d58e"
   },
   {
-   "slug": "alfabettoget-dyrehagedyr-feda",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-dyrehagedyr-fb10",
+   "type": "grid-match",
    "mode": null,
    "theme": "zoo_animals",
    "level": "1-trinn",
-   "deck": "alfabettoget-dyrehagedyr-feda"
+   "deck": "rutenettmatch-dyrehagedyr-fb10"
   },
   {
-   "slug": "alfabettoget-fugler-2-2bd0",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-folelser-7da1",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-folelser-7da1"
+  },
+  {
+   "slug": "rutenettmatch-former-e3c5",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-former-e3c5"
+  },
+  {
+   "slug": "rutenettmatch-frokost-520b",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-frokost-520b"
+  },
+  {
+   "slug": "rutenettmatch-frukter-facf",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-frukter-facf"
+  },
+  {
+   "slug": "rutenettmatch-fugler-2-909d",
+   "type": "grid-match",
    "mode": null,
    "theme": "birds_2",
    "level": "1-trinn",
-   "deck": "alfabettoget-fugler-2-2bd0"
+   "deck": "rutenettmatch-fugler-2-909d"
   },
   {
-   "slug": "alfabettoget-gardsdyr-238f",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-fugler-a138",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-fugler-a138"
+  },
+  {
+   "slug": "rutenettmatch-gardsdyr-94fa",
+   "type": "grid-match",
    "mode": null,
    "theme": "farm_animals",
    "level": "1-trinn",
-   "deck": "alfabettoget-gardsdyr-238f"
+   "deck": "rutenettmatch-gardsdyr-94fa"
   },
   {
-   "slug": "alfabettoget-gronnsaker-469f",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-gronnsaker-1f0f",
+   "type": "grid-match",
    "mode": null,
    "theme": "vegetables",
    "level": "1-trinn",
-   "deck": "alfabettoget-gronnsaker-469f"
+   "deck": "rutenettmatch-gronnsaker-1f0f"
   },
   {
-   "slug": "alfabettoget-havliv-f3ec",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-havliv-5462",
+   "type": "grid-match",
    "mode": null,
    "theme": "ocean_life",
    "level": "1-trinn",
-   "deck": "alfabettoget-havliv-f3ec"
+   "deck": "rutenettmatch-havliv-5462"
   },
   {
-   "slug": "alfabettoget-i-supermarkedet-c484",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-i-supermarkedet-4284",
+   "type": "grid-match",
    "mode": null,
    "theme": "at_the_supermarket",
    "level": "1-trinn",
-   "deck": "alfabettoget-i-supermarkedet-c484"
+   "deck": "rutenettmatch-i-supermarkedet-4284"
   },
   {
-   "slug": "alfabettoget-jul-5e46",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-insekter-og-kryp-3ea1",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-insekter-og-kryp-3ea1"
+  },
+  {
+   "slug": "rutenettmatch-jul-f9e6",
+   "type": "grid-match",
    "mode": null,
    "theme": "christmas",
    "level": "1-trinn",
-   "deck": "alfabettoget-jul-5e46"
+   "deck": "rutenettmatch-jul-f9e6"
   },
   {
-   "slug": "alfabettoget-kjaeledyr-b217",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-kjaeledyr-80c4",
+   "type": "grid-match",
    "mode": null,
    "theme": "pets",
    "level": "1-trinn",
-   "deck": "alfabettoget-kjaeledyr-b217"
+   "deck": "rutenettmatch-kjaeledyr-80c4"
   },
   {
-   "slug": "alfabettoget-kjokkenredskaper-1452",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-kjokkenredskaper-98c3",
+   "type": "grid-match",
    "mode": null,
    "theme": "kitchen_tools",
    "level": "1-trinn",
-   "deck": "alfabettoget-kjokkenredskaper-1452"
+   "deck": "rutenettmatch-kjokkenredskaper-98c3"
   },
   {
-   "slug": "alfabettoget-kjoretoy-caea",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-kjoretoy-04d9",
+   "type": "grid-match",
    "mode": null,
    "theme": "vehicles",
    "level": "1-trinn",
-   "deck": "alfabettoget-kjoretoy-caea"
+   "deck": "rutenettmatch-kjoretoy-04d9"
   },
   {
-   "slug": "alfabettoget-klaer-add8",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-klaer-1c25",
+   "type": "grid-match",
    "mode": null,
    "theme": "clothing",
    "level": "1-trinn",
-   "deck": "alfabettoget-klaer-add8"
+   "deck": "rutenettmatch-klaer-1c25"
   },
   {
-   "slug": "alfabettoget-klasserom-d912",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-klasserom-9005",
+   "type": "grid-match",
    "mode": null,
    "theme": "classroom",
    "level": "1-trinn",
-   "deck": "alfabettoget-klasserom-d912"
+   "deck": "rutenettmatch-klasserom-9005"
   },
   {
-   "slug": "alfabettoget-kroppsdeler-2221",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-kroppsdeler-027f",
+   "type": "grid-match",
    "mode": null,
    "theme": "body_parts",
    "level": "1-trinn",
-   "deck": "alfabettoget-kroppsdeler-2221"
+   "deck": "rutenettmatch-kroppsdeler-027f"
   },
   {
-   "slug": "alfabettoget-leker-eb73",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-leker-1dcd",
+   "type": "grid-match",
    "mode": null,
    "theme": "toys",
    "level": "1-trinn",
-   "deck": "alfabettoget-leker-eb73"
+   "deck": "rutenettmatch-leker-1dcd"
   },
   {
-   "slug": "alfabettoget-paske-4f66",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-mobler-e47b",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-mobler-e47b"
+  },
+  {
+   "slug": "rutenettmatch-musikk-b363",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-musikk-b363"
+  },
+  {
+   "slug": "rutenettmatch-paske-2ac1",
+   "type": "grid-match",
    "mode": null,
    "theme": "easter",
    "level": "1-trinn",
-   "deck": "alfabettoget-paske-4f66"
+   "deck": "rutenettmatch-paske-2ac1"
   },
   {
-   "slug": "alfabettoget-rundt-i-huset-d729",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-postkontor-7216",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-postkontor-7216"
+  },
+  {
+   "slug": "rutenettmatch-reptiler-og-amfibier-5b23",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-reptiler-og-amfibier-5b23"
+  },
+  {
+   "slug": "rutenettmatch-rundt-i-huset-6530",
+   "type": "grid-match",
    "mode": null,
    "theme": "around_the_house",
    "level": "1-trinn",
-   "deck": "alfabettoget-rundt-i-huset-d729"
+   "deck": "rutenettmatch-rundt-i-huset-6530"
   },
   {
-   "slug": "alfabettoget-skogsdyr-950f",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-skogsdyr-5576",
+   "type": "grid-match",
    "mode": null,
    "theme": "forest_creatures",
    "level": "1-trinn",
-   "deck": "alfabettoget-skogsdyr-950f"
+   "deck": "rutenettmatch-skogsdyr-5576"
   },
   {
-   "slug": "alfabettoget-sommer-00c6",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-sommer-07c0",
+   "type": "grid-match",
    "mode": null,
    "theme": "summer",
    "level": "1-trinn",
-   "deck": "alfabettoget-sommer-00c6"
+   "deck": "rutenettmatch-sommer-07c0"
   },
   {
-   "slug": "alfabettoget-strand-ddbb",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-strand-ab1e",
+   "type": "grid-match",
    "mode": null,
    "theme": "beach",
    "level": "1-trinn",
-   "deck": "alfabettoget-strand-ddbb"
+   "deck": "rutenettmatch-strand-ab1e"
   },
   {
-   "slug": "alfabettoget-sykehus-4687",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-sykehus-62be",
+   "type": "grid-match",
    "mode": null,
    "theme": "hospital",
    "level": "1-trinn",
-   "deck": "alfabettoget-sykehus-4687"
+   "deck": "rutenettmatch-sykehus-62be"
   },
   {
-   "slug": "alfabettoget-thanksgiving-1911",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-thanksgiving-fa64",
+   "type": "grid-match",
    "mode": null,
    "theme": "thanksgivinng",
    "level": "1-trinn",
-   "deck": "alfabettoget-thanksgiving-1911"
+   "deck": "rutenettmatch-thanksgiving-fa64"
   },
   {
-   "slug": "alfabettoget-tilbehor-cb9d",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-tilbehor-b9c7",
+   "type": "grid-match",
    "mode": null,
    "theme": "accessories",
    "level": "1-trinn",
-   "deck": "alfabettoget-tilbehor-cb9d"
+   "deck": "rutenettmatch-tilbehor-b9c7"
   },
   {
-   "slug": "alfabettoget-ting-som-flyr-c4f3",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-ting-som-flyr-6b70",
+   "type": "grid-match",
    "mode": null,
    "theme": "things_that_fly",
    "level": "1-trinn",
-   "deck": "alfabettoget-ting-som-flyr-c4f3"
+   "deck": "rutenettmatch-ting-som-flyr-6b70"
   },
   {
-   "slug": "alfabettoget-var-e7c5",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-traer-4f0c",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-traer-4f0c"
+  },
+  {
+   "slug": "rutenettmatch-vaer-c0c2",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-vaer-c0c2"
+  },
+  {
+   "slug": "rutenettmatch-var-ab2f",
+   "type": "grid-match",
    "mode": null,
    "theme": "spring",
    "level": "1-trinn",
-   "deck": "alfabettoget-var-e7c5"
+   "deck": "rutenettmatch-var-ab2f"
   },
   {
-   "slug": "alfabettoget-verdensrommet-04be",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-verdensrommet-96d2",
+   "type": "grid-match",
    "mode": null,
    "theme": "space",
    "level": "1-trinn",
-   "deck": "alfabettoget-verdensrommet-04be"
+   "deck": "rutenettmatch-verdensrommet-96d2"
   },
   {
-   "slug": "alfabettoget-vinter-217a",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-verktoy-6f92",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "rutenettmatch-verktoy-6f92"
+  },
+  {
+   "slug": "rutenettmatch-vinter-4e28",
+   "type": "grid-match",
    "mode": null,
    "theme": "winter",
    "level": "1-trinn",
-   "deck": "alfabettoget-vinter-217a"
+   "deck": "rutenettmatch-vinter-4e28"
   },
   {
-   "slug": "alfabettoget-yrker-4d54",
-   "type": "alphabet-train",
+   "slug": "rutenettmatch-yrker-a667",
+   "type": "grid-match",
    "mode": null,
    "theme": "occupations",
    "level": "1-trinn",
-   "deck": "alfabettoget-yrker-4d54"
+   "deck": "rutenettmatch-yrker-a667"
   },
   {
-   "slug": "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-999c",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "gjett-ordet-lett-aktiviteter-bfc4",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-aktiviteter-bfc4"
+  },
+  {
+   "slug": "gjett-ordet-lett-bakeri-b6cd",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-999c"
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-bakeri-b6cd"
   },
   {
-   "slug": "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-8013",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "gjett-ordet-lett-blomster-3647",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-8013"
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-blomster-3647"
   },
   {
-   "slug": "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-92c9",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-92c9"
+   "slug": "gjett-ordet-lett-camping-5b46",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-camping-5b46"
   },
   {
-   "slug": "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-4949",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "gjett-ordet-lett-desserter-og-godteri-642e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-desserter-og-godteri-642e"
+  },
+  {
+   "slug": "gjett-ordet-lett-dyr-e720",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "animals",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-4949"
-  },
-  {
-   "slug": "rader-og-kolonner-3-trinn",
-   "type": "arrays-multiplication",
-   "mode": "arrays-repeated-addition",
-   "theme": "",
-   "level": "3-trinn",
-   "deck": "ganging-med-rader-dyr-g2209"
-  },
-  {
-   "slug": "gangetabellen-rader-kolonner-4-trinn",
-   "type": "arrays-multiplication",
-   "mode": "multiply-and-divide",
-   "theme": "",
-   "level": "4-trinn",
-   "deck": "ganging-med-rader-g3313"
-  },
-  {
-   "slug": "brok-tallinje-4-trinn",
-   "type": "fractions",
-   "mode": "name-and-compare",
-   "theme": "",
-   "level": "4-trinn",
-   "deck": "brok-g3315"
-  },
-  {
-   "slug": "brok-like-deler-3-trinn",
-   "type": "fractions",
-   "mode": "partition-and-share",
-   "theme": "",
-   "level": "3-trinn",
-   "deck": "brok-g2228"
-  },
-  {
-   "slug": "geometri-former-1-trinn",
-   "type": "geometry",
-   "mode": "count-and-sort-shapes",
-   "theme": "",
-   "level": "1-trinn",
-   "deck": "geometri-k075"
-  },
-  {
-   "slug": "geometri-omkrets-areal-4-trinn",
-   "type": "geometry",
-   "mode": "quadrilaterals-and-area",
-   "theme": "",
-   "level": "4-trinn",
-   "deck": "geometri-g3337"
-  },
-  {
-   "slug": "geometri-romfigurer-3-trinn",
-   "type": "geometry",
-   "mode": "shape-attributes",
-   "theme": "",
-   "level": "3-trinn",
-   "deck": "geometri-g2241"
-  },
-  {
-   "slug": "diagram-3-trinn",
-   "type": "graphing-data",
-   "mode": "graphs-and-line-plots",
-   "theme": "",
-   "level": "3-trinn",
-   "deck": "diagram-og-data-dyr-g2237"
-  },
-  {
-   "slug": "diagram-2-trinn",
-   "type": "graphing-data",
-   "mode": "read-picture-bar-graphs",
-   "theme": "",
    "level": "2-trinn",
-   "deck": "diagram-og-data-dyr-g1144"
+   "deck": "gjett-ordet-lett-dyr-e720"
   },
   {
-   "slug": "diagram-4-trinn",
-   "type": "graphing-data",
-   "mode": "scaled-graphs",
-   "theme": "",
-   "level": "4-trinn",
-   "deck": "diagram-og-data-dyr-g3335"
-  },
-  {
-   "slug": "maling-tung-eller-lett-1-trinn",
-   "type": "measurement",
-   "mode": "compare-weight",
-   "theme": "",
-   "level": "1-trinn",
-   "deck": "maling-dyr-k038"
-  },
-  {
-   "slug": "maling-lengde-med-enheter-2-trinn",
-   "type": "measurement",
-   "mode": "length-units",
-   "theme": "",
+   "slug": "gjett-ordet-lett-dyrehagedyr-f55a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "zoo_animals",
    "level": "2-trinn",
-   "deck": "maling-dyr-g1139"
+   "deck": "gjett-ordet-lett-dyrehagedyr-f55a"
   },
   {
-   "slug": "maling-med-linjal-3-trinn",
-   "type": "measurement",
-   "mode": "measure-and-compare-length",
-   "theme": "",
-   "level": "3-trinn",
-   "deck": "maling-leker-g2235"
-  },
-  {
-   "slug": "maling-temperatur-og-volum-4-trinn",
-   "type": "measurement",
-   "mode": "volume-and-temperature",
-   "theme": "",
-   "level": "4-trinn",
-   "deck": "maling-g3345"
-  },
-  {
-   "slug": "hundrerutenett-2-trinn",
-   "type": "number-charts",
-   "mode": "hundreds-chart-skip-count",
-   "theme": "",
+   "slug": "gjett-ordet-lett-farger-835c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "colors",
    "level": "2-trinn",
-   "deck": "hundrerute-g1130"
+   "deck": "gjett-ordet-lett-farger-835c"
   },
   {
-   "slug": "tallmaskiner-4-trinn",
-   "type": "number-charts",
-   "mode": "number-patterns",
-   "theme": "",
-   "level": "4-trinn",
-   "deck": "hundrerute-g3328"
-  },
-  {
-   "slug": "tall-som-mangler-1-trinn",
-   "type": "number-charts",
-   "mode": "numbers-to-20",
-   "theme": "",
-   "level": "1-trinn",
-   "deck": "hundrerute-k021"
-  },
-  {
-   "slug": "tallfolger-3-trinn",
-   "type": "number-charts",
-   "mode": "skip-count-and-100-more-less",
-   "theme": "",
-   "level": "3-trinn",
-   "deck": "hundrerute-g2218"
-  },
-  {
-   "slug": "klokka-arbeidsark-2-trinn",
-   "type": "telling-time",
-   "mode": "hour-half-hour",
-   "theme": "",
+   "slug": "gjett-ordet-lett-folelser-b201",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "emotions",
    "level": "2-trinn",
-   "deck": "klokka-g1148"
+   "deck": "gjett-ordet-lett-folelser-b201"
   },
   {
-   "slug": "klokka-fem-minutter-3-trinn",
-   "type": "telling-time",
-   "mode": "to-five-minutes",
-   "theme": "",
-   "level": "3-trinn",
-   "deck": "klokka-g2249"
+   "slug": "gjett-ordet-lett-former-d58d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-former-d58d"
   },
   {
-   "slug": "klokka-tidsdifferanse-4-trinn",
-   "type": "telling-time",
-   "mode": "to-the-minute",
-   "theme": "",
-   "level": "4-trinn",
-   "deck": "klokka-g3344"
+   "slug": "gjett-ordet-lett-frokost-4fcd",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-frokost-4fcd"
+  },
+  {
+   "slug": "gjett-ordet-lett-frukter-f3cc",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-frukter-f3cc"
+  },
+  {
+   "slug": "gjett-ordet-lett-fugler-2-2b89",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-fugler-2-2b89"
+  },
+  {
+   "slug": "gjett-ordet-lett-fugler-4cdf",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-fugler-4cdf"
+  },
+  {
+   "slug": "gjett-ordet-lett-gardsdyr-1ec1",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-gardsdyr-1ec1"
+  },
+  {
+   "slug": "gjett-ordet-lett-gronnsaker-597a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-gronnsaker-597a"
+  },
+  {
+   "slug": "gjett-ordet-lett-havliv-939e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-havliv-939e"
+  },
+  {
+   "slug": "gjett-ordet-lett-i-supermarkedet-47c9",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-i-supermarkedet-47c9"
+  },
+  {
+   "slug": "gjett-ordet-lett-insekter-og-kryp-d3ba",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-insekter-og-kryp-d3ba"
+  },
+  {
+   "slug": "gjett-ordet-lett-jul-8b34",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-jul-8b34"
+  },
+  {
+   "slug": "gjett-ordet-lett-kjaeledyr-d792",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-kjaeledyr-d792"
+  },
+  {
+   "slug": "gjett-ordet-lett-kjokkenredskaper-e566",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-kjokkenredskaper-e566"
+  },
+  {
+   "slug": "gjett-ordet-lett-kjoretoy-5baf",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-kjoretoy-5baf"
+  },
+  {
+   "slug": "gjett-ordet-lett-klaer-7ef7",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-klaer-7ef7"
+  },
+  {
+   "slug": "gjett-ordet-lett-klasserom-e93c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-klasserom-e93c"
+  },
+  {
+   "slug": "gjett-ordet-lett-kroppsdeler-51d6",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-kroppsdeler-51d6"
+  },
+  {
+   "slug": "gjett-ordet-lett-leker-ace5",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-leker-ace5"
+  },
+  {
+   "slug": "gjett-ordet-lett-mobler-2fb1",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-mobler-2fb1"
+  },
+  {
+   "slug": "gjett-ordet-lett-musikk-58f5",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-musikk-58f5"
+  },
+  {
+   "slug": "gjett-ordet-lett-paske-96b6",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-paske-96b6"
+  },
+  {
+   "slug": "gjett-ordet-lett-postkontor-589b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-postkontor-589b"
+  },
+  {
+   "slug": "gjett-ordet-lett-reptiler-og-amfibier-07e3",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-reptiler-og-amfibier-07e3"
+  },
+  {
+   "slug": "gjett-ordet-lett-rundt-i-huset-0538",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-rundt-i-huset-0538"
+  },
+  {
+   "slug": "gjett-ordet-lett-skogsdyr-2b96",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-skogsdyr-2b96"
+  },
+  {
+   "slug": "gjett-ordet-lett-sommer-c3dc",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-sommer-c3dc"
+  },
+  {
+   "slug": "gjett-ordet-lett-strand-fa0a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-strand-fa0a"
+  },
+  {
+   "slug": "gjett-ordet-lett-sykehus-02f4",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-sykehus-02f4"
+  },
+  {
+   "slug": "gjett-ordet-lett-thanksgiving-2ff2",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-thanksgiving-2ff2"
+  },
+  {
+   "slug": "gjett-ordet-lett-tilbehor-f104",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-tilbehor-f104"
+  },
+  {
+   "slug": "gjett-ordet-lett-ting-som-flyr-bb12",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-ting-som-flyr-bb12"
+  },
+  {
+   "slug": "gjett-ordet-lett-traer-7f27",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-traer-7f27"
+  },
+  {
+   "slug": "gjett-ordet-lett-vaer-6c36",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-vaer-6c36"
+  },
+  {
+   "slug": "gjett-ordet-lett-var-ec4b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-var-ec4b"
+  },
+  {
+   "slug": "gjett-ordet-lett-verdensrommet-c610",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-verdensrommet-c610"
+  },
+  {
+   "slug": "gjett-ordet-lett-verktoy-ba24",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-verktoy-ba24"
+  },
+  {
+   "slug": "gjett-ordet-lett-vinter-cf8a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-vinter-cf8a"
+  },
+  {
+   "slug": "gjett-ordet-lett-yrker-cf3f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "gjett-ordet-lett-yrker-cf3f"
   }
  ]
 }

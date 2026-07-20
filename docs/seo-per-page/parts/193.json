@@ -2,595 +2,787 @@
  "part": 193,
  "locale": "it",
  "classes": [
-  "math-puzzle::addition",
-  "big-small::findBig"
+  "code-addition::null",
+  "grid-match::null"
  ],
  "splitOf": null,
- "count": 73,
+ "count": 97,
  "pages": [
   {
-   "slug": "puzzle-matematico-addizione-abbigliamento-c886",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-abbigliamento-3fe2",
+   "type": "code-addition",
+   "mode": null,
    "theme": "clothing",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-abbigliamento-c886"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-abbigliamento-3fe2"
   },
   {
-   "slug": "puzzle-matematico-addizione-accessori-d3ef",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-accessori-08ff",
+   "type": "code-addition",
+   "mode": null,
    "theme": "accessories",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-accessori-d3ef"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-accessori-08ff"
   },
   {
-   "slug": "puzzle-matematico-addizione-al-supermercato-35c7",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-al-supermercato-275b",
+   "type": "code-addition",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-al-supermercato-35c7"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-al-supermercato-275b"
   },
   {
-   "slug": "puzzle-matematico-addizione-alberi-dc1e",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-alberi-a91b",
+   "type": "code-addition",
+   "mode": null,
    "theme": "tree",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-alberi-dc1e"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-alberi-a91b"
   },
   {
-   "slug": "puzzle-matematico-addizione-animali-539f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-animali-15ab",
+   "type": "code-addition",
+   "mode": null,
    "theme": "animals",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-animali-539f"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-animali-15ab"
   },
   {
-   "slug": "puzzle-matematico-addizione-animali-della-fattoria-bc9f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-animali-della-fattoria-328e",
+   "type": "code-addition",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-animali-della-fattoria-bc9f"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-animali-della-fattoria-328e"
   },
   {
-   "slug": "puzzle-matematico-addizione-animali-dello-zoo-05f6",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-animali-dello-zoo-6a5e",
+   "type": "code-addition",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-animali-dello-zoo-05f6"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-animali-dello-zoo-6a5e"
   },
   {
-   "slug": "puzzle-matematico-addizione-animali-domestici-199c",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-animali-domestici-305d",
+   "type": "code-addition",
+   "mode": null,
    "theme": "pets",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-animali-domestici-199c"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-animali-domestici-305d"
   },
   {
-   "slug": "puzzle-matematico-addizione-attrezzi-5daa",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-attivita-383a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "activities",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-attivita-383a"
+  },
+  {
+   "slug": "addizione-codificata-attrezzi-ccc0",
+   "type": "code-addition",
+   "mode": null,
    "theme": "tools",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-attrezzi-5daa"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-attrezzi-ccc0"
   },
   {
-   "slug": "puzzle-matematico-addizione-aula-4f8b",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-aula-b79a",
+   "type": "code-addition",
+   "mode": null,
    "theme": "classroom",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-aula-4f8b"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-aula-b79a"
   },
   {
-   "slug": "puzzle-matematico-addizione-campeggio-eb61",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-campeggio-51a6",
+   "type": "code-addition",
+   "mode": null,
    "theme": "camping",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-campeggio-eb61"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-campeggio-51a6"
   },
   {
-   "slug": "puzzle-matematico-addizione-colazione-9187",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-colazione-fa98",
+   "type": "code-addition",
+   "mode": null,
    "theme": "breakfast",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-colazione-9187"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-colazione-fa98"
   },
   {
-   "slug": "puzzle-matematico-addizione-cose-che-volano-afe3",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-colori-981e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "colors",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-colori-981e"
+  },
+  {
+   "slug": "addizione-codificata-cose-che-volano-43ed",
+   "type": "code-addition",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-cose-che-volano-afe3"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-cose-che-volano-43ed"
   },
   {
-   "slug": "puzzle-matematico-addizione-creature-della-foresta-1972",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-creature-della-foresta-9b4a",
+   "type": "code-addition",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-creature-della-foresta-1972"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-creature-della-foresta-9b4a"
   },
   {
-   "slug": "puzzle-matematico-addizione-dinosauri-9bd9",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-dinosauri-0d67",
+   "type": "code-addition",
+   "mode": null,
    "theme": "dinosaurs",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-dinosauri-9bd9"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-dinosauri-0d67"
   },
   {
-   "slug": "puzzle-matematico-addizione-dolci-e-dolciumi-0d1b",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-dolci-e-dolciumi-b03c",
+   "type": "code-addition",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-dolci-e-dolciumi-0d1b"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-dolci-e-dolciumi-b03c"
   },
   {
-   "slug": "puzzle-matematico-addizione-fiori-5e48",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-emozioni-9134",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "emotions",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-emozioni-9134"
+  },
+  {
+   "slug": "addizione-codificata-estate-477b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "summer",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-estate-477b"
+  },
+  {
+   "slug": "addizione-codificata-fiori-1644",
+   "type": "code-addition",
+   "mode": null,
    "theme": "flowers",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-fiori-5e48"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-fiori-1644"
   },
   {
-   "slug": "puzzle-matematico-addizione-frutta-408a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-forme-4e83",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "shapes",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-forme-4e83"
+  },
+  {
+   "slug": "addizione-codificata-frutta-02ce",
+   "type": "code-addition",
+   "mode": null,
    "theme": "fruits",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-frutta-408a"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-frutta-02ce"
   },
   {
-   "slug": "puzzle-matematico-addizione-giocattoli-7ca8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-giocattoli-cfcd",
+   "type": "code-addition",
+   "mode": null,
    "theme": "toys",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-giocattoli-7ca8"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-giocattoli-cfcd"
   },
   {
-   "slug": "puzzle-matematico-addizione-in-giro-per-casa-78c1",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-giorno-del-ringraziamento-0e0b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-giorno-del-ringraziamento-0e0b"
+  },
+  {
+   "slug": "addizione-codificata-in-giro-per-casa-2f9d",
+   "type": "code-addition",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-in-giro-per-casa-78c1"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-in-giro-per-casa-2f9d"
   },
   {
-   "slug": "puzzle-matematico-addizione-insetti-e-scarafaggi-dfa4",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-insetti-e-scarafaggi-634f",
+   "type": "code-addition",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-insetti-e-scarafaggi-dfa4"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-insetti-e-scarafaggi-634f"
   },
   {
-   "slug": "puzzle-matematico-addizione-mobili-aadb",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-inverno-12a0",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "winter",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-inverno-12a0"
+  },
+  {
+   "slug": "addizione-codificata-meteo-b727",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "weather",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-meteo-b727"
+  },
+  {
+   "slug": "addizione-codificata-mobili-b28e",
+   "type": "code-addition",
+   "mode": null,
    "theme": "furniture",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-mobili-aadb"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-mobili-b28e"
   },
   {
-   "slug": "puzzle-matematico-addizione-musica-5f50",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-musica-b519",
+   "type": "code-addition",
+   "mode": null,
    "theme": "music",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-musica-5f50"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-musica-b519"
   },
   {
-   "slug": "puzzle-matematico-addizione-natale-f576",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-natale-aa34",
+   "type": "code-addition",
+   "mode": null,
    "theme": "christmas",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-natale-f576"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-natale-aa34"
   },
   {
-   "slug": "puzzle-matematico-addizione-ospedale-f4cd",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-ospedale-ee52",
+   "type": "code-addition",
+   "mode": null,
    "theme": "hospital",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-ospedale-f4cd"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-ospedale-ee52"
   },
   {
-   "slug": "puzzle-matematico-addizione-panetteria-76c8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-panetteria-1712",
+   "type": "code-addition",
+   "mode": null,
    "theme": "bakery",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-panetteria-76c8"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-panetteria-1712"
   },
   {
-   "slug": "puzzle-matematico-addizione-pasqua-f577",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-parti-del-corpo-1702",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parti-del-corpo-1702"
+  },
+  {
+   "slug": "addizione-codificata-pasqua-4d58",
+   "type": "code-addition",
+   "mode": null,
    "theme": "easter",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-pasqua-f577"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-pasqua-4d58"
   },
   {
-   "slug": "puzzle-matematico-addizione-professioni-98a1",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-primavera-e89b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "spring",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-primavera-e89b"
+  },
+  {
+   "slug": "addizione-codificata-professioni-8f1a",
+   "type": "code-addition",
+   "mode": null,
    "theme": "occupations",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-professioni-98a1"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-professioni-8f1a"
   },
   {
-   "slug": "puzzle-matematico-addizione-rettili-e-anfibi-2275",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-rettili-e-anfibi-3225",
+   "type": "code-addition",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-rettili-e-anfibi-2275"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-rettili-e-anfibi-3225"
   },
   {
-   "slug": "puzzle-matematico-addizione-spazio-2d56",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-spazio-cfdf",
+   "type": "code-addition",
+   "mode": null,
    "theme": "space",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-spazio-2d56"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-spazio-cfdf"
   },
   {
-   "slug": "puzzle-matematico-addizione-spiaggia-45d6",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-spiaggia-af0e",
+   "type": "code-addition",
+   "mode": null,
    "theme": "beach",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-spiaggia-45d6"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-spiaggia-af0e"
   },
   {
-   "slug": "puzzle-matematico-addizione-uccelli-2-2ce0",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-uccelli-2-f8fd",
+   "type": "code-addition",
+   "mode": null,
    "theme": "birds_2",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-uccelli-2-2ce0"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-uccelli-2-f8fd"
   },
   {
-   "slug": "puzzle-matematico-addizione-uccelli-319b",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-uccelli-3753",
+   "type": "code-addition",
+   "mode": null,
    "theme": "birds",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-uccelli-319b"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-uccelli-3753"
   },
   {
-   "slug": "puzzle-matematico-addizione-varie-2ab6",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-ufficio-postale-a466",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "post_office",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-ufficio-postale-a466"
+  },
+  {
+   "slug": "addizione-codificata-utensili-da-cucina-3373",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-utensili-da-cucina-3373"
+  },
+  {
+   "slug": "addizione-codificata-varie-17c0",
+   "type": "code-addition",
+   "mode": null,
    "theme": "miscellaneous",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-varie-2ab6"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-varie-17c0"
   },
   {
-   "slug": "puzzle-matematico-addizione-veicoli-20cf",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-veicoli-e584",
+   "type": "code-addition",
+   "mode": null,
    "theme": "vehicles",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-veicoli-20cf"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-veicoli-e584"
   },
   {
-   "slug": "puzzle-matematico-addizione-verdure-6196",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-verdure-319c",
+   "type": "code-addition",
+   "mode": null,
    "theme": "vegetables",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-verdure-6196"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-verdure-319c"
   },
   {
-   "slug": "puzzle-matematico-addizione-vita-oceanica-31f3",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "addizione-codificata-vita-oceanica-4718",
+   "type": "code-addition",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-addizione-vita-oceanica-31f3"
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-vita-oceanica-4718"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-abbigliamento-987b",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-abbigliamento-fe44",
+   "type": "grid-match",
+   "mode": null,
    "theme": "clothing",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-abbigliamento-987b"
+   "deck": "abbinamento-griglia-abbigliamento-fe44"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-accessori-17be",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-accessori-3ec7",
+   "type": "grid-match",
+   "mode": null,
    "theme": "accessories",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-accessori-17be"
+   "deck": "abbinamento-griglia-accessori-3ec7"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-al-supermercato-1780",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-al-supermercato-5c4c",
+   "type": "grid-match",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-al-supermercato-1780"
+   "deck": "abbinamento-griglia-al-supermercato-5c4c"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-alberi-0d26",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-alberi-2b60",
+   "type": "grid-match",
+   "mode": null,
    "theme": "tree",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-alberi-0d26"
+   "deck": "abbinamento-griglia-alberi-2b60"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-animali-d54d",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-animali",
+   "type": "grid-match",
+   "mode": null,
    "theme": "animals",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-animali-d54d"
+   "deck": "abbinamento-griglia-animali"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-animali-della-fattoria-d14f",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-animali-della-fattoria-3c0b",
+   "type": "grid-match",
+   "mode": null,
    "theme": "farm_animals",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-animali-della-fattoria-d14f"
+   "deck": "abbinamento-griglia-animali-della-fattoria-3c0b"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-animali-dello-zoo-d95e",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-animali-dello-zoo-ed40",
+   "type": "grid-match",
+   "mode": null,
    "theme": "zoo_animals",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-animali-dello-zoo-d95e"
+   "deck": "abbinamento-griglia-animali-dello-zoo-ed40"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-animali-domestici-671e",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-animali-domestici-536e",
+   "type": "grid-match",
+   "mode": null,
    "theme": "pets",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-animali-domestici-671e"
+   "deck": "abbinamento-griglia-animali-domestici-536e"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-attrezzi-9c3e",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-attivita-03d3",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "abbinamento-griglia-attivita-03d3"
+  },
+  {
+   "slug": "abbinamento-griglia-attrezzi-1397",
+   "type": "grid-match",
+   "mode": null,
    "theme": "tools",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-attrezzi-9c3e"
+   "deck": "abbinamento-griglia-attrezzi-1397"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-aula-e22d",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-aula-5f51",
+   "type": "grid-match",
+   "mode": null,
    "theme": "classroom",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-aula-e22d"
+   "deck": "abbinamento-griglia-aula-5f51"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-campeggio-ba49",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-campeggio-38fc",
+   "type": "grid-match",
+   "mode": null,
    "theme": "camping",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-campeggio-ba49"
+   "deck": "abbinamento-griglia-campeggio-38fc"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-colazione-e5ac",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-colazione-7e2c",
+   "type": "grid-match",
+   "mode": null,
    "theme": "breakfast",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-colazione-e5ac"
+   "deck": "abbinamento-griglia-colazione-7e2c"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-cose-che-volano-9a66",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-cose-che-volano-05bb",
+   "type": "grid-match",
+   "mode": null,
    "theme": "things_that_fly",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-cose-che-volano-9a66"
+   "deck": "abbinamento-griglia-cose-che-volano-05bb"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-creature-della-foresta-ba80",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-creature-della-foresta-b9ac",
+   "type": "grid-match",
+   "mode": null,
    "theme": "forest_creatures",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-creature-della-foresta-ba80"
+   "deck": "abbinamento-griglia-creature-della-foresta-b9ac"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-dinosauri-5c10",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-dinosauri-16d9",
+   "type": "grid-match",
+   "mode": null,
    "theme": "dinosaurs",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-dinosauri-5c10"
+   "deck": "abbinamento-griglia-dinosauri-16d9"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-dolci-e-dolciumi-7e35",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-dolci-e-dolciumi-cd17",
+   "type": "grid-match",
+   "mode": null,
    "theme": "desserts_and_sweets",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-dolci-e-dolciumi-7e35"
+   "deck": "abbinamento-griglia-dolci-e-dolciumi-cd17"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-fiori-c90e",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-emozioni-a357",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "abbinamento-griglia-emozioni-a357"
+  },
+  {
+   "slug": "abbinamento-griglia-estate-0f09",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "abbinamento-griglia-estate-0f09"
+  },
+  {
+   "slug": "abbinamento-griglia-fiori-8055",
+   "type": "grid-match",
+   "mode": null,
    "theme": "flowers",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-fiori-c90e"
+   "deck": "abbinamento-griglia-fiori-8055"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-forme-8fef",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-forme-697f",
+   "type": "grid-match",
+   "mode": null,
    "theme": "shapes",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-forme-8fef"
+   "deck": "abbinamento-griglia-forme-697f"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-frutta-ff14",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-frutta-13a0",
+   "type": "grid-match",
+   "mode": null,
    "theme": "fruits",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-frutta-ff14"
+   "deck": "abbinamento-griglia-frutta-13a0"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-giocattoli-9177",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-giocattoli-51a8",
+   "type": "grid-match",
+   "mode": null,
    "theme": "toys",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-giocattoli-9177"
+   "deck": "abbinamento-griglia-giocattoli-51a8"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-in-giro-per-casa-5fd1",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-giorno-del-ringraziamento-dd6e",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "abbinamento-griglia-giorno-del-ringraziamento-dd6e"
+  },
+  {
+   "slug": "abbinamento-griglia-in-giro-per-casa-a105",
+   "type": "grid-match",
+   "mode": null,
    "theme": "around_the_house",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-in-giro-per-casa-5fd1"
+   "deck": "abbinamento-griglia-in-giro-per-casa-a105"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-mobili-57fc",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-insetti-e-scarafaggi-1be6",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "abbinamento-griglia-insetti-e-scarafaggi-1be6"
+  },
+  {
+   "slug": "abbinamento-griglia-inverno-96ab",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "abbinamento-griglia-inverno-96ab"
+  },
+  {
+   "slug": "abbinamento-griglia-meteo-0887",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "abbinamento-griglia-meteo-0887"
+  },
+  {
+   "slug": "abbinamento-griglia-mobili-7050",
+   "type": "grid-match",
+   "mode": null,
    "theme": "furniture",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-mobili-57fc"
+   "deck": "abbinamento-griglia-mobili-7050"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-musica-25c3",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-musica-ffc9",
+   "type": "grid-match",
+   "mode": null,
    "theme": "music",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-musica-25c3"
+   "deck": "abbinamento-griglia-musica-ffc9"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-natale-7a54",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-natale-cd55",
+   "type": "grid-match",
+   "mode": null,
    "theme": "christmas",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-natale-7a54"
+   "deck": "abbinamento-griglia-natale-cd55"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-ospedale-682c",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-ospedale-dbc3",
+   "type": "grid-match",
+   "mode": null,
    "theme": "hospital",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-ospedale-682c"
+   "deck": "abbinamento-griglia-ospedale-dbc3"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-panetteria-0f55",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-panetteria-21d9",
+   "type": "grid-match",
+   "mode": null,
    "theme": "bakery",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-panetteria-0f55"
+   "deck": "abbinamento-griglia-panetteria-21d9"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-parti-del-corpo-0f8b",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-parti-del-corpo-662d",
+   "type": "grid-match",
+   "mode": null,
    "theme": "body_parts",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-parti-del-corpo-0f8b"
+   "deck": "abbinamento-griglia-parti-del-corpo-662d"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-pasqua-4721",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-pasqua-0732",
+   "type": "grid-match",
+   "mode": null,
    "theme": "easter",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-pasqua-4721"
+   "deck": "abbinamento-griglia-pasqua-0732"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-professioni-4cf2",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-primavera-a69a",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "abbinamento-griglia-primavera-a69a"
+  },
+  {
+   "slug": "abbinamento-griglia-professioni-8307",
+   "type": "grid-match",
+   "mode": null,
    "theme": "occupations",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-professioni-4cf2"
+   "deck": "abbinamento-griglia-professioni-8307"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-spazio-adc5",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-rettili-e-anfibi-80d8",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "abbinamento-griglia-rettili-e-anfibi-80d8"
+  },
+  {
+   "slug": "abbinamento-griglia-spazio-40d4",
+   "type": "grid-match",
+   "mode": null,
    "theme": "space",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-spazio-adc5"
+   "deck": "abbinamento-griglia-spazio-40d4"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-spiaggia-7cc4",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-spiaggia-f5c0",
+   "type": "grid-match",
+   "mode": null,
    "theme": "beach",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-spiaggia-7cc4"
+   "deck": "abbinamento-griglia-spiaggia-f5c0"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-uccelli-2-1230",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-uccelli-2-abae",
+   "type": "grid-match",
+   "mode": null,
    "theme": "birds_2",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-uccelli-2-1230"
+   "deck": "abbinamento-griglia-uccelli-2-abae"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-utensili-da-cucina-fb35",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-uccelli-8bbd",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "abbinamento-griglia-uccelli-8bbd"
+  },
+  {
+   "slug": "abbinamento-griglia-ufficio-postale-8723",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "abbinamento-griglia-ufficio-postale-8723"
+  },
+  {
+   "slug": "abbinamento-griglia-utensili-da-cucina-58b7",
+   "type": "grid-match",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-utensili-da-cucina-fb35"
+   "deck": "abbinamento-griglia-utensili-da-cucina-58b7"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-veicoli-e6ca",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-varie-005a",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "infanzia",
+   "deck": "abbinamento-griglia-varie-005a"
+  },
+  {
+   "slug": "abbinamento-griglia-veicoli-76ac",
+   "type": "grid-match",
+   "mode": null,
    "theme": "vehicles",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-veicoli-e6ca"
+   "deck": "abbinamento-griglia-veicoli-76ac"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-verdure-09e6",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-verdure-884f",
+   "type": "grid-match",
+   "mode": null,
    "theme": "vegetables",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-verdure-09e6"
+   "deck": "abbinamento-griglia-verdure-884f"
   },
   {
-   "slug": "grande-piccolo-trova-il-grande-vita-oceanica-0a09",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "abbinamento-griglia-vita-oceanica-253e",
+   "type": "grid-match",
+   "mode": null,
    "theme": "ocean_life",
    "level": "infanzia",
-   "deck": "grande-piccolo-trova-il-grande-vita-oceanica-0a09"
+   "deck": "abbinamento-griglia-vita-oceanica-253e"
   }
  ]
 }

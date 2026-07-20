@@ -2,667 +2,667 @@
  "part": 188,
  "locale": "it",
  "classes": [
-  "more-less::image-image",
-  "subtraction::cross-out"
+  "odd-one-out::cross-theme",
+  "math-puzzle::mixed"
  ],
  "splitOf": null,
  "count": 82,
  "pages": [
   {
-   "slug": "piu-o-meno-immagine-immagine-abbigliamento-e123",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-abbigliamento-62e5",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "clothing",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-abbigliamento-e123"
+   "deck": "l-intruso-multi-tema-abbigliamento-62e5"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-accessori-7d5f",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-accessori-2a94",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "accessories",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-accessori-7d5f"
+   "deck": "l-intruso-multi-tema-accessori-2a94"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-al-supermercato-d177",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "at_the_supermarket",
-   "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-al-supermercato-d177"
-  },
-  {
-   "slug": "piu-o-meno-immagine-immagine-alberi-536c",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "tree",
-   "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-alberi-536c"
-  },
-  {
-   "slug": "piu-o-meno-immagine-immagine-animali-bea7",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-animali-c336",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "animals",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-animali-bea7"
+   "deck": "l-intruso-multi-tema-animali-c336"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-animali-della-fattoria-3b65",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-animali-della-fattoria-02a9",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "farm_animals",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-animali-della-fattoria-3b65"
+   "deck": "l-intruso-multi-tema-animali-della-fattoria-02a9"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-animali-dello-zoo-b7ed",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-animali-dello-zoo-e6b6",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "zoo_animals",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-animali-dello-zoo-b7ed"
+   "deck": "l-intruso-multi-tema-animali-dello-zoo-e6b6"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-animali-domestici-4330",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-animali-domestici-8bdb",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "pets",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-animali-domestici-4330"
+   "deck": "l-intruso-multi-tema-animali-domestici-8bdb"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-attrezzi-d42b",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-attivita-1741",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-attivita-1741"
+  },
+  {
+   "slug": "l-intruso-multi-tema-attrezzi-596d",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "tools",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-attrezzi-d42b"
+   "deck": "l-intruso-multi-tema-attrezzi-596d"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-aula-6fb5",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-aula-eb5f",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "classroom",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-aula-6fb5"
+   "deck": "l-intruso-multi-tema-aula-eb5f"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-campeggio-e220",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "camping",
-   "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-campeggio-e220"
-  },
-  {
-   "slug": "piu-o-meno-immagine-immagine-colazione-1b79",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-colazione-72b7",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "breakfast",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-colazione-1b79"
+   "deck": "l-intruso-multi-tema-colazione-72b7"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-cose-che-volano-1e30",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "things_that_fly",
-   "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-cose-che-volano-1e30"
-  },
-  {
-   "slug": "piu-o-meno-immagine-immagine-creature-della-foresta-78e3",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "forest_creatures",
-   "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-creature-della-foresta-78e3"
-  },
-  {
-   "slug": "piu-o-meno-immagine-immagine-dinosauri-de8c",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-dinosauri-57d2",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "dinosaurs",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-dinosauri-de8c"
+   "deck": "l-intruso-multi-tema-dinosauri-57d2"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-dolci-e-dolciumi-16eb",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-dolci-e-dolciumi-100e",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "desserts_and_sweets",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-dolci-e-dolciumi-16eb"
+   "deck": "l-intruso-multi-tema-dolci-e-dolciumi-100e"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-fiori-ce87",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-emozioni-39ec",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-emozioni-39ec"
+  },
+  {
+   "slug": "l-intruso-multi-tema-estate-17ac",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-estate-17ac"
+  },
+  {
+   "slug": "l-intruso-multi-tema-fiori-520b",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "flowers",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-fiori-ce87"
+   "deck": "l-intruso-multi-tema-fiori-520b"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-forme-5107",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-forme-84e5",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "shapes",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-forme-5107"
+   "deck": "l-intruso-multi-tema-forme-84e5"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-frutta-d0e1",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-frutta-28f9",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "fruits",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-frutta-d0e1"
+   "deck": "l-intruso-multi-tema-frutta-28f9"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-giocattoli-4874",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-giocattoli-ee76",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "toys",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-giocattoli-4874"
+   "deck": "l-intruso-multi-tema-giocattoli-ee76"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-giorno-del-ringraziamento-0cc9",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-giorno-del-ringraziamento-3866",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "thanksgivinng",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-giorno-del-ringraziamento-0cc9"
+   "deck": "l-intruso-multi-tema-giorno-del-ringraziamento-3866"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-in-giro-per-casa-2d5a",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-in-giro-per-casa-6ce6",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "around_the_house",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-in-giro-per-casa-2d5a"
+   "deck": "l-intruso-multi-tema-in-giro-per-casa-6ce6"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-insetti-e-scarafaggi-06ca",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-insetti-e-scarafaggi-8f2e",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "insects_and_bugs",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-insetti-e-scarafaggi-06ca"
+   "deck": "l-intruso-multi-tema-insetti-e-scarafaggi-8f2e"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-mobili-2ed5",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-inverno-23f4",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-inverno-23f4"
+  },
+  {
+   "slug": "l-intruso-multi-tema-meteo-ec60",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-meteo-ec60"
+  },
+  {
+   "slug": "l-intruso-multi-tema-mobili-cc17",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "furniture",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-mobili-2ed5"
+   "deck": "l-intruso-multi-tema-mobili-cc17"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-musica-de31",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-musica-6551",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "music",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-musica-de31"
+   "deck": "l-intruso-multi-tema-musica-6551"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-natale-ceb8",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-natale-b0e2",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "christmas",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-natale-ceb8"
+   "deck": "l-intruso-multi-tema-natale-b0e2"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-ospedale-60f3",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-ospedale-045a",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "hospital",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-ospedale-60f3"
+   "deck": "l-intruso-multi-tema-ospedale-045a"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-panetteria-ed15",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-panetteria-f382",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "bakery",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-panetteria-ed15"
+   "deck": "l-intruso-multi-tema-panetteria-f382"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-pasqua-b530",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-parti-del-corpo-2ef8",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-parti-del-corpo-2ef8"
+  },
+  {
+   "slug": "l-intruso-multi-tema-pasqua-1d37",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "easter",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-pasqua-b530"
+   "deck": "l-intruso-multi-tema-pasqua-1d37"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-professioni-1029",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-primavera-9054",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "l-intruso-multi-tema-primavera-9054"
+  },
+  {
+   "slug": "l-intruso-multi-tema-professioni-2971",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "occupations",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-professioni-1029"
+   "deck": "l-intruso-multi-tema-professioni-2971"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-rettili-e-anfibi-bcfe",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-rettili-e-anfibi-e485",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "reptiles_and_amphibians",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-rettili-e-anfibi-bcfe"
+   "deck": "l-intruso-multi-tema-rettili-e-anfibi-e485"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-spazio-98eb",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-spazio-8054",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "space",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-spazio-98eb"
+   "deck": "l-intruso-multi-tema-spazio-8054"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-spiaggia-fa9c",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-spiaggia-9df0",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "beach",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-spiaggia-fa9c"
+   "deck": "l-intruso-multi-tema-spiaggia-9df0"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-uccelli-2-e8c7",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-uccelli-2-d2f0",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "birds_2",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-uccelli-2-e8c7"
+   "deck": "l-intruso-multi-tema-uccelli-2-d2f0"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-uccelli-982f",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-uccelli-b309",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "birds",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-uccelli-982f"
+   "deck": "l-intruso-multi-tema-uccelli-b309"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-ufficio-postale-f34f",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-ufficio-postale-4a21",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "post_office",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-ufficio-postale-f34f"
+   "deck": "l-intruso-multi-tema-ufficio-postale-4a21"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-utensili-da-cucina-df29",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-utensili-da-cucina-b657",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "kitchen_tools",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-utensili-da-cucina-df29"
+   "deck": "l-intruso-multi-tema-utensili-da-cucina-b657"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-varie-4a42",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "miscellaneous",
-   "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-varie-4a42"
-  },
-  {
-   "slug": "piu-o-meno-immagine-immagine-veicoli-5893",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-veicoli-b51d",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "vehicles",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-veicoli-5893"
+   "deck": "l-intruso-multi-tema-veicoli-b51d"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-verdure-d89f",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-verdure-75be",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "vegetables",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-verdure-d89f"
+   "deck": "l-intruso-multi-tema-verdure-75be"
   },
   {
-   "slug": "piu-o-meno-immagine-immagine-vita-oceanica-6f01",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "l-intruso-multi-tema-vita-oceanica-ce79",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "ocean_life",
    "level": "infanzia",
-   "deck": "piu-o-meno-immagine-immagine-vita-oceanica-6f01"
+   "deck": "l-intruso-multi-tema-vita-oceanica-ce79"
   },
   {
-   "slug": "sottrazione-barrare-abbigliamento-459d",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-abbigliamento-0850",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "clothing",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-abbigliamento-459d"
+   "deck": "puzzle-matematico-misto-abbigliamento-0850"
   },
   {
-   "slug": "sottrazione-barrare-accessori-8ac9",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-accessori-baff",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "accessories",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-accessori-8ac9"
+   "deck": "puzzle-matematico-misto-accessori-baff"
   },
   {
-   "slug": "sottrazione-barrare-al-supermercato-8888",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-al-supermercato-94ba",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-al-supermercato-8888"
+   "deck": "puzzle-matematico-misto-al-supermercato-94ba"
   },
   {
-   "slug": "sottrazione-barrare-alberi-d90e",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-alberi-1941",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "tree",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-alberi-d90e"
+   "deck": "puzzle-matematico-misto-alberi-1941"
   },
   {
-   "slug": "sottrazione-barrare-animali",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-animali-107f",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "animals",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-animali"
+   "deck": "puzzle-matematico-misto-animali-107f"
   },
   {
-   "slug": "sottrazione-barrare-animali-della-fattoria-3487",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-animali-della-fattoria-b4f7",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "farm_animals",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-animali-della-fattoria-3487"
+   "deck": "puzzle-matematico-misto-animali-della-fattoria-b4f7"
   },
   {
-   "slug": "sottrazione-barrare-animali-dello-zoo-6f7e",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-animali-dello-zoo-b335",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "zoo_animals",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-animali-dello-zoo-6f7e"
+   "deck": "puzzle-matematico-misto-animali-dello-zoo-b335"
   },
   {
-   "slug": "sottrazione-barrare-animali-domestici-e0d2",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-animali-domestici-49ba",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "pets",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-animali-domestici-e0d2"
+   "deck": "puzzle-matematico-misto-animali-domestici-49ba"
   },
   {
-   "slug": "sottrazione-barrare-attrezzi-39bf",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-attrezzi-7629",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "tools",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-attrezzi-39bf"
+   "deck": "puzzle-matematico-misto-attrezzi-7629"
   },
   {
-   "slug": "sottrazione-barrare-aula-2a0c",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-aula-db84",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "classroom",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-aula-2a0c"
+   "deck": "puzzle-matematico-misto-aula-db84"
   },
   {
-   "slug": "sottrazione-barrare-campeggio-b51e",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-campeggio-a4a8",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "camping",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-campeggio-b51e"
+   "deck": "puzzle-matematico-misto-campeggio-a4a8"
   },
   {
-   "slug": "sottrazione-barrare-colazione-784b",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-colazione-623f",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "breakfast",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-colazione-784b"
+   "deck": "puzzle-matematico-misto-colazione-623f"
   },
   {
-   "slug": "sottrazione-barrare-cose-che-volano-2903",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-cose-che-volano-fbcf",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "classe-prima",
-   "deck": "sottrazione-barrare-cose-che-volano-2903"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-cose-che-volano-fbcf"
   },
   {
-   "slug": "sottrazione-barrare-creature-della-foresta-d78f",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-creature-della-foresta-5809",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "classe-prima",
-   "deck": "sottrazione-barrare-creature-della-foresta-d78f"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-creature-della-foresta-5809"
   },
   {
-   "slug": "sottrazione-barrare-dinosauri-877d",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-dinosauri-4469",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "dinosaurs",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-dinosauri-877d"
+   "deck": "puzzle-matematico-misto-dinosauri-4469"
   },
   {
-   "slug": "sottrazione-barrare-dolci-e-dolciumi-d9d0",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-dolci-e-dolciumi-a4b4",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-dolci-e-dolciumi-d9d0"
+   "deck": "puzzle-matematico-misto-dolci-e-dolciumi-a4b4"
   },
   {
-   "slug": "sottrazione-barrare-fiori-bd40",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-fiori-c135",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "flowers",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-fiori-bd40"
+   "deck": "puzzle-matematico-misto-fiori-c135"
   },
   {
-   "slug": "sottrazione-barrare-forme-b9cd",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "shapes",
-   "level": "classe-prima",
-   "deck": "sottrazione-barrare-forme-b9cd"
-  },
-  {
-   "slug": "sottrazione-barrare-frutta-4431",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-frutta-6b81",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "classe-prima",
-   "deck": "sottrazione-barrare-frutta-4431"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-frutta-6b81"
   },
   {
-   "slug": "sottrazione-barrare-giocattoli-225c",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-giocattoli-ce76",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "toys",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-giocattoli-225c"
+   "deck": "puzzle-matematico-misto-giocattoli-ce76"
   },
   {
-   "slug": "sottrazione-barrare-giorno-del-ringraziamento-2afd",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-giorno-del-ringraziamento-df8d",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "thanksgivinng",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-giorno-del-ringraziamento-2afd"
+   "deck": "puzzle-matematico-misto-giorno-del-ringraziamento-df8d"
   },
   {
-   "slug": "sottrazione-barrare-in-giro-per-casa-2fc5",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-in-giro-per-casa-f241",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "classe-prima",
-   "deck": "sottrazione-barrare-in-giro-per-casa-2fc5"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-in-giro-per-casa-f241"
   },
   {
-   "slug": "sottrazione-barrare-insetti-e-scarafaggi-7915",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-insetti-e-scarafaggi-049e",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-insetti-e-scarafaggi-7915"
+   "deck": "puzzle-matematico-misto-insetti-e-scarafaggi-049e"
   },
   {
-   "slug": "sottrazione-barrare-mobili-3f4d",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-mobili-ff64",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "furniture",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-mobili-3f4d"
+   "deck": "puzzle-matematico-misto-mobili-ff64"
   },
   {
-   "slug": "sottrazione-barrare-musica-b469",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-musica-178f",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "music",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-musica-b469"
+   "deck": "puzzle-matematico-misto-musica-178f"
   },
   {
-   "slug": "sottrazione-barrare-natale-3b92",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-natale-463e",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "classe-prima",
-   "deck": "sottrazione-barrare-natale-3b92"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-natale-463e"
   },
   {
-   "slug": "sottrazione-barrare-ospedale-51a7",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-ospedale-0aeb",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "hospital",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-ospedale-51a7"
+   "deck": "puzzle-matematico-misto-ospedale-0aeb"
   },
   {
-   "slug": "sottrazione-barrare-panetteria-9e53",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-panetteria-a47e",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "classe-prima",
-   "deck": "sottrazione-barrare-panetteria-9e53"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-panetteria-a47e"
   },
   {
-   "slug": "sottrazione-barrare-pasqua-f0f9",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-pasqua-52eb",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "classe-prima",
-   "deck": "sottrazione-barrare-pasqua-f0f9"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-pasqua-52eb"
   },
   {
-   "slug": "sottrazione-barrare-professioni-9d6f",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-professioni-b54e",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "occupations",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-professioni-9d6f"
+   "deck": "puzzle-matematico-misto-professioni-b54e"
   },
   {
-   "slug": "sottrazione-barrare-rettili-e-anfibi-78c5",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-rettili-e-anfibi-1750",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-rettili-e-anfibi-78c5"
+   "deck": "puzzle-matematico-misto-rettili-e-anfibi-1750"
   },
   {
-   "slug": "sottrazione-barrare-spazio-ae94",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-spazio-e8a3",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "space",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-spazio-ae94"
+   "deck": "puzzle-matematico-misto-spazio-e8a3"
   },
   {
-   "slug": "sottrazione-barrare-spiaggia-9e24",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-spiaggia-dfc3",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "classe-prima",
-   "deck": "sottrazione-barrare-spiaggia-9e24"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-spiaggia-dfc3"
   },
   {
-   "slug": "sottrazione-barrare-uccelli-2-c3a9",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-uccelli-2-50c0",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "birds_2",
-   "level": "classe-prima",
-   "deck": "sottrazione-barrare-uccelli-2-c3a9"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-uccelli-2-50c0"
   },
   {
-   "slug": "sottrazione-barrare-uccelli-2c87",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-uccelli-d468",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "birds",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-uccelli-2c87"
+   "deck": "puzzle-matematico-misto-uccelli-d468"
   },
   {
-   "slug": "sottrazione-barrare-ufficio-postale-5ad1",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-ufficio-postale-b76e",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "post_office",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-ufficio-postale-5ad1"
+   "deck": "puzzle-matematico-misto-ufficio-postale-b76e"
   },
   {
-   "slug": "sottrazione-barrare-utensili-da-cucina-fe9e",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-utensili-da-cucina-ca10",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "kitchen_tools",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-utensili-da-cucina-fe9e"
+   "deck": "puzzle-matematico-misto-utensili-da-cucina-ca10"
   },
   {
-   "slug": "sottrazione-barrare-varie-7279",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-varie-ee21",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "miscellaneous",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-varie-7279"
+   "deck": "puzzle-matematico-misto-varie-ee21"
   },
   {
-   "slug": "sottrazione-barrare-veicoli-4bf5",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-veicoli-5dfc",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "vehicles",
    "level": "classe-prima",
-   "deck": "sottrazione-barrare-veicoli-4bf5"
+   "deck": "puzzle-matematico-misto-veicoli-5dfc"
   },
   {
-   "slug": "sottrazione-barrare-verdure-9b8f",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-verdure-2e3c",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "classe-prima",
-   "deck": "sottrazione-barrare-verdure-9b8f"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-verdure-2e3c"
   },
   {
-   "slug": "sottrazione-barrare-vita-oceanica-2252",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "puzzle-matematico-misto-vita-oceanica-0ba9",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "classe-prima",
-   "deck": "sottrazione-barrare-vita-oceanica-2252"
+   "level": "classe-seconda",
+   "deck": "puzzle-matematico-misto-vita-oceanica-0ba9"
   }
  ]
 }

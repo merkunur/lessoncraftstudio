@@ -2,715 +2,811 @@
  "part": 45,
  "locale": "en",
  "classes": [
-  "subtraction::mixed",
-  "addition::image-image"
+  "pattern-train::aabb",
+  "pattern-train::abb"
  ],
  "splitOf": null,
- "count": 88,
+ "count": 100,
  "pages": [
   {
-   "slug": "subtraction-mixed-4th-of-july",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "4th_of_july",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-4th-of-july"
-  },
-  {
-   "slug": "subtraction-mixed-accessories",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "accessories",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-accessories"
-  },
-  {
-   "slug": "subtraction-mixed-animals",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "animals",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-animals"
-  },
-  {
-   "slug": "subtraction-mixed-around-the-house",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "around_the_house",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-around-the-house"
-  },
-  {
-   "slug": "subtraction-mixed-at-the-supermarket",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "at_the_supermarket",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-at-the-supermarket"
-  },
-  {
-   "slug": "subtraction-mixed-bakery",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "bakery",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-bakery"
-  },
-  {
-   "slug": "subtraction-mixed-beach",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "beach",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-beach"
-  },
-  {
-   "slug": "subtraction-mixed-birds",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "birds",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-birds"
-  },
-  {
-   "slug": "subtraction-mixed-birds-2",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "birds_2",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-birds-2"
-  },
-  {
-   "slug": "subtraction-mixed-breakfast",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "breakfast",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-breakfast"
-  },
-  {
-   "slug": "subtraction-mixed-camping",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "camping",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-camping"
-  },
-  {
-   "slug": "subtraction-mixed-christmas",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "christmas",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-christmas"
-  },
-  {
-   "slug": "subtraction-mixed-classroom",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "classroom",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-classroom"
-  },
-  {
-   "slug": "subtraction-mixed-clothing",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "clothing",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-clothing"
-  },
-  {
-   "slug": "subtraction-mixed-desserts-and-sweets",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "desserts_and_sweets",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-desserts-and-sweets"
-  },
-  {
-   "slug": "subtraction-mixed-dinosaurs",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "dinosaurs",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-dinosaurs"
-  },
-  {
-   "slug": "subtraction-mixed-easter",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "easter",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-easter"
-  },
-  {
-   "slug": "subtraction-mixed-faces-bw",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "faces_bw",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-faces-bw"
-  },
-  {
-   "slug": "subtraction-mixed-farm-animals",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "farm_animals",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-farm-animals"
-  },
-  {
-   "slug": "subtraction-mixed-flowers",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "flowers",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-flowers"
-  },
-  {
-   "slug": "subtraction-mixed-forest-creatures",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "forest_creatures",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-forest-creatures"
-  },
-  {
-   "slug": "subtraction-mixed-fruits",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "fruits",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-fruits"
-  },
-  {
-   "slug": "subtraction-mixed-furniture",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "furniture",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-furniture"
-  },
-  {
-   "slug": "subtraction-mixed-hospital",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "hospital",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-hospital"
-  },
-  {
-   "slug": "subtraction-mixed-insects-and-bugs",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "insects_and_bugs",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-insects-and-bugs"
-  },
-  {
-   "slug": "subtraction-mixed-kitchen-tools",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "kitchen_tools",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-kitchen-tools"
-  },
-  {
-   "slug": "subtraction-mixed-miscellaneous",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "miscellaneous",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-miscellaneous"
-  },
-  {
-   "slug": "subtraction-mixed-music",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "music",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-music"
-  },
-  {
-   "slug": "subtraction-mixed-occupations",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "occupations",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-occupations"
-  },
-  {
-   "slug": "subtraction-mixed-ocean-life",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "ocean_life",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-ocean-life"
-  },
-  {
-   "slug": "subtraction-mixed-pets",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "pets",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-pets"
-  },
-  {
-   "slug": "subtraction-mixed-post-office",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "post_office",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-post-office"
-  },
-  {
-   "slug": "subtraction-mixed-reptiles-and-amphibians",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "reptiles_and_amphibians",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-reptiles-and-amphibians"
-  },
-  {
-   "slug": "subtraction-mixed-shapes",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "shapes",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-shapes"
-  },
-  {
-   "slug": "subtraction-mixed-space",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "space",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-space"
-  },
-  {
-   "slug": "subtraction-mixed-sports-bw",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "sports_bw",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-sports-bw"
-  },
-  {
-   "slug": "subtraction-mixed-thanksgiving",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "thanksgivinng",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-thanksgiving"
-  },
-  {
-   "slug": "subtraction-mixed-things-that-fly",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "things_that_fly",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-things-that-fly"
-  },
-  {
-   "slug": "subtraction-mixed-tools",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "tools",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-tools"
-  },
-  {
-   "slug": "subtraction-mixed-toys",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "toys",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-toys"
-  },
-  {
-   "slug": "subtraction-mixed-tree",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "tree",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-tree"
-  },
-  {
-   "slug": "subtraction-mixed-valentine-bw",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "valentine_bw",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-valentine-bw"
-  },
-  {
-   "slug": "subtraction-mixed-vegetables",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "vegetables",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-vegetables"
-  },
-  {
-   "slug": "subtraction-mixed-vehicles",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "vehicles",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-vehicles"
-  },
-  {
-   "slug": "subtraction-mixed-zoo-animals",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "zoo_animals",
-   "level": "grade-1",
-   "deck": "subtraction-mixed-zoo-animals"
-  },
-  {
-   "slug": "addition-image-image-4th-of-july",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-4th-of-july",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "4th_of_july",
    "level": "kindergarten",
-   "deck": "addition-image-image-4th-of-july"
+   "deck": "pattern-train-aabb-4th-of-july"
   },
   {
-   "slug": "addition-image-image-accessories",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-accessories",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "accessories",
    "level": "kindergarten",
-   "deck": "addition-image-image-accessories"
+   "deck": "pattern-train-aabb-accessories"
   },
   {
-   "slug": "addition-image-image-animals-kindergarten",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-activities",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "pattern-train-aabb-activities"
+  },
+  {
+   "slug": "pattern-train-aabb-animals",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "animals",
    "level": "kindergarten",
-   "deck": "addition-image-image"
+   "deck": "pattern-train-aabb-animals"
   },
   {
-   "slug": "addition-image-image-around-the-house",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-around-the-house",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "around_the_house",
    "level": "kindergarten",
-   "deck": "addition-image-image-around-the-house"
+   "deck": "pattern-train-aabb-around-the-house"
   },
   {
-   "slug": "addition-image-image-at-the-supermarket",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-at-the-supermarket",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "at_the_supermarket",
    "level": "kindergarten",
-   "deck": "addition-image-image-at-the-supermarket"
+   "deck": "pattern-train-aabb-at-the-supermarket"
   },
   {
-   "slug": "addition-image-image-bakery",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-bakery",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "bakery",
    "level": "kindergarten",
-   "deck": "addition-image-image-bakery"
+   "deck": "pattern-train-aabb-bakery"
   },
   {
-   "slug": "addition-image-image-beach",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-beach",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "beach",
    "level": "kindergarten",
-   "deck": "addition-image-image-beach"
+   "deck": "pattern-train-aabb-beach"
   },
   {
-   "slug": "addition-image-image-birds",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-birds",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "birds",
    "level": "kindergarten",
-   "deck": "addition-image-image-birds"
+   "deck": "pattern-train-aabb-birds"
   },
   {
-   "slug": "addition-image-image-birds-2",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-birds-2",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "birds_2",
    "level": "kindergarten",
-   "deck": "addition-image-image-birds-2"
+   "deck": "pattern-train-aabb-birds-2"
   },
   {
-   "slug": "addition-image-image-breakfast",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-body-parts",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "pattern-train-aabb-body-parts"
+  },
+  {
+   "slug": "pattern-train-aabb-breakfast",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "breakfast",
    "level": "kindergarten",
-   "deck": "addition-image-image-breakfast"
+   "deck": "pattern-train-aabb-breakfast"
   },
   {
-   "slug": "addition-image-image-camping",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-camping",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "camping",
    "level": "kindergarten",
-   "deck": "addition-image-image-camping"
+   "deck": "pattern-train-aabb-camping"
   },
   {
-   "slug": "addition-image-image-christmas",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-christmas",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "christmas",
    "level": "kindergarten",
-   "deck": "addition-image-image-christmas"
+   "deck": "pattern-train-aabb-christmas"
   },
   {
-   "slug": "addition-image-image-classroom",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-classroom",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "classroom",
    "level": "kindergarten",
-   "deck": "addition-image-image-classroom"
+   "deck": "pattern-train-aabb-classroom"
   },
   {
-   "slug": "addition-image-image-clothing",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-clothing",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "clothing",
    "level": "kindergarten",
-   "deck": "addition-image-image-clothing"
+   "deck": "pattern-train-aabb-clothing"
   },
   {
-   "slug": "addition-image-image-desserts-and-sweets",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-colors",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "colors",
+   "level": "kindergarten",
+   "deck": "pattern-train-aabb-colors"
+  },
+  {
+   "slug": "pattern-train-aabb-desserts-and-sweets",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "desserts_and_sweets",
    "level": "kindergarten",
-   "deck": "addition-image-image-desserts-and-sweets"
+   "deck": "pattern-train-aabb-desserts-and-sweets"
   },
   {
-   "slug": "addition-image-image-dinosaurs",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-dinosaurs",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "dinosaurs",
    "level": "kindergarten",
-   "deck": "addition-image-image-dinosaurs"
+   "deck": "pattern-train-aabb-dinosaurs"
   },
   {
-   "slug": "addition-image-image-easter",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-easter",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "easter",
    "level": "kindergarten",
-   "deck": "addition-image-image-easter"
+   "deck": "pattern-train-aabb-easter"
   },
   {
-   "slug": "addition-image-image-farm-animals",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-emotions",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "emotions",
+   "level": "kindergarten",
+   "deck": "pattern-train-aabb-emotions"
+  },
+  {
+   "slug": "pattern-train-aabb-farm-animals",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "farm_animals",
    "level": "kindergarten",
-   "deck": "addition-image-image-farm-animals"
+   "deck": "pattern-train-aabb-farm-animals"
   },
   {
-   "slug": "addition-image-image-flowers",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-flowers",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "flowers",
    "level": "kindergarten",
-   "deck": "addition-image-image-flowers"
+   "deck": "pattern-train-aabb-flowers"
   },
   {
-   "slug": "addition-image-image-forest-creatures",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-forest-creatures",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "forest_creatures",
    "level": "kindergarten",
-   "deck": "addition-image-image-forest-creatures"
+   "deck": "pattern-train-aabb-forest-creatures"
   },
   {
-   "slug": "addition-image-image-fruits",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-fruits",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "fruits",
    "level": "kindergarten",
-   "deck": "addition-image-image-fruits"
+   "deck": "pattern-train-aabb-fruits"
   },
   {
-   "slug": "addition-image-image-furniture",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-furniture",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "furniture",
    "level": "kindergarten",
-   "deck": "addition-image-image-furniture"
+   "deck": "pattern-train-aabb-furniture"
   },
   {
-   "slug": "addition-image-image-hospital",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-hospital",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "hospital",
    "level": "kindergarten",
-   "deck": "addition-image-image-hospital"
+   "deck": "pattern-train-aabb-hospital"
   },
   {
-   "slug": "addition-image-image-insects-and-bugs",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-insects-and-bugs",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "insects_and_bugs",
    "level": "kindergarten",
-   "deck": "addition-image-image-insects-and-bugs"
+   "deck": "pattern-train-aabb-insects-and-bugs"
   },
   {
-   "slug": "addition-image-image-kitchen-tools",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-kitchen-tools",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "kitchen_tools",
    "level": "kindergarten",
-   "deck": "addition-image-image-kitchen-tools"
+   "deck": "pattern-train-aabb-kitchen-tools"
   },
   {
-   "slug": "addition-image-image-miscellaneous",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-miscellaneous",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "miscellaneous",
    "level": "kindergarten",
-   "deck": "addition-image-image-miscellaneous"
+   "deck": "pattern-train-aabb-miscellaneous"
   },
   {
-   "slug": "addition-image-image-music",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-music",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "music",
    "level": "kindergarten",
-   "deck": "addition-image-image-music"
+   "deck": "pattern-train-aabb-music"
   },
   {
-   "slug": "addition-image-image-occupations",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-occupations",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "occupations",
    "level": "kindergarten",
-   "deck": "addition-image-image-occupations"
+   "deck": "pattern-train-aabb-occupations"
   },
   {
-   "slug": "addition-image-image-ocean-life",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-ocean-life",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "ocean_life",
    "level": "kindergarten",
-   "deck": "addition-image-image-ocean-life"
+   "deck": "pattern-train-aabb-ocean-life"
   },
   {
-   "slug": "addition-image-image-pets",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-pets",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "pets",
    "level": "kindergarten",
-   "deck": "addition-image-image-pets"
+   "deck": "pattern-train-aabb-pets"
   },
   {
-   "slug": "addition-image-image-post-office",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-post-office",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "post_office",
    "level": "kindergarten",
-   "deck": "addition-image-image-post-office"
+   "deck": "pattern-train-aabb-post-office"
   },
   {
-   "slug": "addition-image-image-reptiles-and-amphibians",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-reptiles-and-amphibians",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "reptiles_and_amphibians",
    "level": "kindergarten",
-   "deck": "addition-image-image-reptiles-and-amphibians"
+   "deck": "pattern-train-aabb-reptiles-and-amphibians"
   },
   {
-   "slug": "addition-image-image-shapes",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-shapes",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "shapes",
    "level": "kindergarten",
-   "deck": "addition-image-image-shapes"
+   "deck": "pattern-train-aabb-shapes"
   },
   {
-   "slug": "addition-image-image-space",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-space",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "space",
    "level": "kindergarten",
-   "deck": "addition-image-image-space"
+   "deck": "pattern-train-aabb-space"
   },
   {
-   "slug": "addition-image-image-thanksgiving",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-spring",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "spring",
+   "level": "kindergarten",
+   "deck": "pattern-train-aabb-spring"
+  },
+  {
+   "slug": "pattern-train-aabb-summer",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "summer",
+   "level": "kindergarten",
+   "deck": "pattern-train-aabb-summer"
+  },
+  {
+   "slug": "pattern-train-aabb-thanksgiving",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "thanksgivinng",
    "level": "kindergarten",
-   "deck": "addition-image-image-thanksgiving"
+   "deck": "pattern-train-aabb-thanksgiving"
   },
   {
-   "slug": "addition-image-image-things-that-fly",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-things-that-fly",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "things_that_fly",
    "level": "kindergarten",
-   "deck": "addition-image-image-things-that-fly"
+   "deck": "pattern-train-aabb-things-that-fly"
   },
   {
-   "slug": "addition-image-image-tools",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-tools",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "tools",
    "level": "kindergarten",
-   "deck": "addition-image-image-tools"
+   "deck": "pattern-train-aabb-tools"
   },
   {
-   "slug": "addition-image-image-toys",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-toys",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "toys",
    "level": "kindergarten",
-   "deck": "addition-image-image-toys"
+   "deck": "pattern-train-aabb-toys"
   },
   {
-   "slug": "addition-image-image-tree",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-tree",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "tree",
    "level": "kindergarten",
-   "deck": "addition-image-image-tree"
+   "deck": "pattern-train-aabb-tree"
   },
   {
-   "slug": "addition-image-image-valentine-bw",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "valentine_bw",
-   "level": "kindergarten",
-   "deck": "addition-image-image-valentine-bw"
-  },
-  {
-   "slug": "addition-image-image-vegetables",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-vegetables",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "vegetables",
    "level": "kindergarten",
-   "deck": "addition-image-image-vegetables"
+   "deck": "pattern-train-aabb-vegetables"
   },
   {
-   "slug": "addition-image-image-vehicles",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-vehicles",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "vehicles",
    "level": "kindergarten",
-   "deck": "addition-image-image-vehicles"
+   "deck": "pattern-train-aabb-vehicles"
   },
   {
-   "slug": "addition-image-image-zoo-animals",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "pattern-train-aabb-weather",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "weather",
+   "level": "kindergarten",
+   "deck": "pattern-train-aabb-weather"
+  },
+  {
+   "slug": "pattern-train-aabb-winter",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "winter",
+   "level": "kindergarten",
+   "deck": "pattern-train-aabb-winter"
+  },
+  {
+   "slug": "pattern-train-aabb-zoo-animals",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "zoo_animals",
    "level": "kindergarten",
-   "deck": "addition-image-image-zoo-animals"
+   "deck": "pattern-train-aabb-zoo-animals"
+  },
+  {
+   "slug": "pattern-train-abb-4th-of-july",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-4th-of-july"
+  },
+  {
+   "slug": "pattern-train-abb-accessories",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-accessories"
+  },
+  {
+   "slug": "pattern-train-abb-activities",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-activities"
+  },
+  {
+   "slug": "pattern-train-abb-animals",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-animals"
+  },
+  {
+   "slug": "pattern-train-abb-around-the-house",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-around-the-house"
+  },
+  {
+   "slug": "pattern-train-abb-at-the-supermarket",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-at-the-supermarket"
+  },
+  {
+   "slug": "pattern-train-abb-bakery",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-bakery"
+  },
+  {
+   "slug": "pattern-train-abb-beach",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-beach"
+  },
+  {
+   "slug": "pattern-train-abb-birds",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "birds",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-birds"
+  },
+  {
+   "slug": "pattern-train-abb-birds-2",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "birds_2",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-birds-2"
+  },
+  {
+   "slug": "pattern-train-abb-body-parts",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-body-parts"
+  },
+  {
+   "slug": "pattern-train-abb-breakfast",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "breakfast",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-breakfast"
+  },
+  {
+   "slug": "pattern-train-abb-camping",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "camping",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-camping"
+  },
+  {
+   "slug": "pattern-train-abb-christmas",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "christmas",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-christmas"
+  },
+  {
+   "slug": "pattern-train-abb-classroom",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-classroom"
+  },
+  {
+   "slug": "pattern-train-abb-clothing",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-clothing"
+  },
+  {
+   "slug": "pattern-train-abb-colors",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "colors",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-colors"
+  },
+  {
+   "slug": "pattern-train-abb-desserts-and-sweets",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-desserts-and-sweets"
+  },
+  {
+   "slug": "pattern-train-abb-dinosaurs",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "dinosaurs",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-dinosaurs"
+  },
+  {
+   "slug": "pattern-train-abb-easter",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-easter"
+  },
+  {
+   "slug": "pattern-train-abb-emotions",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "emotions",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-emotions"
+  },
+  {
+   "slug": "pattern-train-abb-farm-animals",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-farm-animals"
+  },
+  {
+   "slug": "pattern-train-abb-flowers",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "flowers",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-flowers"
+  },
+  {
+   "slug": "pattern-train-abb-forest-creatures",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-forest-creatures"
+  },
+  {
+   "slug": "pattern-train-abb-fruits",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-fruits"
+  },
+  {
+   "slug": "pattern-train-abb-furniture",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-furniture"
+  },
+  {
+   "slug": "pattern-train-abb-hospital",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "hospital",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-hospital"
+  },
+  {
+   "slug": "pattern-train-abb-insects-and-bugs",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-insects-and-bugs"
+  },
+  {
+   "slug": "pattern-train-abb-kitchen-tools",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-kitchen-tools"
+  },
+  {
+   "slug": "pattern-train-abb-miscellaneous",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "miscellaneous",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-miscellaneous"
+  },
+  {
+   "slug": "pattern-train-abb-music",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "music",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-music"
+  },
+  {
+   "slug": "pattern-train-abb-occupations",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-occupations"
+  },
+  {
+   "slug": "pattern-train-abb-ocean-life",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "ocean_life",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-ocean-life"
+  },
+  {
+   "slug": "pattern-train-abb-pets",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "pets",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-pets"
+  },
+  {
+   "slug": "pattern-train-abb-post-office",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "post_office",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-post-office"
+  },
+  {
+   "slug": "pattern-train-abb-reptiles-and-amphibians",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "reptiles_and_amphibians",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-reptiles-and-amphibians"
+  },
+  {
+   "slug": "pattern-train-abb-shapes",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "shapes",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-shapes"
+  },
+  {
+   "slug": "pattern-train-abb-space",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "space",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-space"
+  },
+  {
+   "slug": "pattern-train-abb-spring",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "spring",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-spring"
+  },
+  {
+   "slug": "pattern-train-abb-summer",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "summer",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-summer"
+  },
+  {
+   "slug": "pattern-train-abb-thanksgiving",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "thanksgivinng",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-thanksgiving"
+  },
+  {
+   "slug": "pattern-train-abb-things-that-fly",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "things_that_fly",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-things-that-fly"
+  },
+  {
+   "slug": "pattern-train-abb-tools",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "tools",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-tools"
+  },
+  {
+   "slug": "pattern-train-abb-toys",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-toys"
+  },
+  {
+   "slug": "pattern-train-abb-tree",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "tree",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-tree"
+  },
+  {
+   "slug": "pattern-train-abb-vegetables",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "vegetables",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-vegetables"
+  },
+  {
+   "slug": "pattern-train-abb-vehicles",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-vehicles"
+  },
+  {
+   "slug": "pattern-train-abb-weather",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "weather",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-weather"
+  },
+  {
+   "slug": "pattern-train-abb-winter",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "winter",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-winter"
+  },
+  {
+   "slug": "pattern-train-abb-zoo-animals",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "zoo_animals",
+   "level": "kindergarten",
+   "deck": "pattern-train-abb-zoo-animals"
   }
  ]
 }

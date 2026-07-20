@@ -2,795 +2,667 @@
  "part": 113,
  "locale": "pt",
  "classes": [
-  "picture-path::choose-path",
-  "prepositions::fillin"
+  "subtraction::cross-out",
+  "subtraction::image-number"
  ],
  "splitOf": null,
- "count": 98,
+ "count": 82,
  "pages": [
   {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-acampamento-334e",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-acampamento-334e"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-acessorios-36df",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-acessorios-36df"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-animais-32ae",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-animais-32ae"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-animais-da-fazenda-6577",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "farm_animals",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-animais-da-fazenda-6577"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-animais-de-estimacao-53ca",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-animais-de-estimacao-53ca"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-animais-do-zoologico-9785",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-animais-do-zoologico-9785"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-arvores-92df",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-arvores-92df"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-atividades-e275",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-atividades-e275"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-brinquedos-a5b0",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-brinquedos-a5b0"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-cafe-da-manha-094b",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-cafe-da-manha-094b"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-clima-0cc4",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-clima-0cc4"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-coisas-que-voam-d5d1",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-coisas-que-voam-d5d1"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-cores-907b",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-cores-907b"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-correios-ff4a",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-correios-ff4a"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-criaturas-da-floresta-26f4",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-criaturas-da-floresta-26f4"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-dia-de-acao-de-gracas-ccc6",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-dia-de-acao-de-gracas-ccc6"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-dinossauros-c77f",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-dinossauros-c77f"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-diversos-e723",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-diversos-e723"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-emocoes-0b4e",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-emocoes-0b4e"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-espaco-1a34",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-espaco-1a34"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-ferramentas-4936",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-ferramentas-4936"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-flores-29d9",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-flores-29d9"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-formas-1757",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-formas-1757"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-frutas-b9f5",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-frutas-b9f5"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-hospital-c8d1",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-hospital-c8d1"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-insetos-e-bichos-d515",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-insetos-e-bichos-d515"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-inverno-2a5e",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-inverno-2a5e"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-moveis-e8b1",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-moveis-e8b1"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-musica-f175",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-musica-f175"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-natal-4c76",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-natal-4c76"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-no-supermercado-76e4",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-no-supermercado-76e4"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-padaria-d3e3",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-padaria-d3e3"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-partes-do-corpo-0f98",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-partes-do-corpo-0f98"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-pascoa-bd9b",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-pascoa-bd9b"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-passaros-2-e463",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-passaros-2-e463"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-passaros-f2be",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-passaros-f2be"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-pela-casa-54cb",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-pela-casa-54cb"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-praia-d3d5",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-praia-d3d5"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-primavera-0fd6",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-primavera-0fd6"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-profissoes-6f01",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-profissoes-6f01"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-repteis-e-anfibios-b333",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-repteis-e-anfibios-b333"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-roupas-6808",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-roupas-6808"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-sala-de-aula-edc5",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-sala-de-aula-edc5"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-sobremesas-e-doces-1fc4",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-sobremesas-e-doces-1fc4"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-utensilios-de-cozinha-3204",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-utensilios-de-cozinha-3204"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-vegetais-cf78",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-vegetais-cf78"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-veiculos-69b8",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-veiculos-69b8"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-verao-c3e4",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-verao-c3e4"
-  },
-  {
-   "slug": "caminho-ilustrado-escolha-o-caminho-certo-vida-marinha-b7db",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-escolha-o-caminho-certo-vida-marinha-b7db"
-  },
-  {
-   "slug": "preposicoes-complete-acampamento-71b4",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-acampamento-840b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "camping",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-acampamento-71b4"
+   "deck": "subtracao-riscar-acampamento-840b"
   },
   {
-   "slug": "preposicoes-complete-acessorios-ef96",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-acessorios-8745",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "accessories",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-acessorios-ef96"
+   "deck": "subtracao-riscar-acessorios-8745"
   },
   {
-   "slug": "preposicoes-complete-animais-2a2c",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-animais",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "animals",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-animais-2a2c"
+   "deck": "subtracao-riscar-animais"
   },
   {
-   "slug": "preposicoes-complete-animais-da-fazenda-9aab",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-animais-da-fazenda-0f81",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "farm_animals",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-animais-da-fazenda-9aab"
+   "deck": "subtracao-riscar-animais-da-fazenda-0f81"
   },
   {
-   "slug": "preposicoes-complete-animais-de-estimacao-cff0",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-animais-de-estimacao-29b7",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "pets",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-animais-de-estimacao-cff0"
+   "deck": "subtracao-riscar-animais-de-estimacao-29b7"
   },
   {
-   "slug": "preposicoes-complete-animais-do-zoologico-9ce6",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-animais-do-zoologico-042c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "zoo_animals",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-animais-do-zoologico-9ce6"
+   "deck": "subtracao-riscar-animais-do-zoologico-042c"
   },
   {
-   "slug": "preposicoes-complete-arvores-7e8c",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-arvores-a253",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tree",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-arvores-7e8c"
+   "deck": "subtracao-riscar-arvores-a253"
   },
   {
-   "slug": "preposicoes-complete-atividades-eff5",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "activities",
-   "level": "1o-ano",
-   "deck": "preposicoes-complete-atividades-eff5"
-  },
-  {
-   "slug": "preposicoes-complete-brinquedos-42c1",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-brinquedos-25ef",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "toys",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-brinquedos-42c1"
+   "deck": "subtracao-riscar-brinquedos-25ef"
   },
   {
-   "slug": "preposicoes-complete-cafe-da-manha-6d65",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-cafe-da-manha-8f9e",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "breakfast",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-cafe-da-manha-6d65"
+   "deck": "subtracao-riscar-cafe-da-manha-8f9e"
   },
   {
-   "slug": "preposicoes-complete-clima-84cc",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "weather",
-   "level": "1o-ano",
-   "deck": "preposicoes-complete-clima-84cc"
-  },
-  {
-   "slug": "preposicoes-complete-coisas-que-voam-0904",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-coisas-que-voam-9d82",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "things_that_fly",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-coisas-que-voam-0904"
+   "deck": "subtracao-riscar-coisas-que-voam-9d82"
   },
   {
-   "slug": "preposicoes-complete-cores-2bb9",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "colors",
-   "level": "1o-ano",
-   "deck": "preposicoes-complete-cores-2bb9"
-  },
-  {
-   "slug": "preposicoes-complete-correios-3a79",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-correios-9926",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "post_office",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-correios-3a79"
+   "deck": "subtracao-riscar-correios-9926"
   },
   {
-   "slug": "preposicoes-complete-criaturas-da-floresta-2a1f",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-criaturas-da-floresta-d931",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "forest_creatures",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-criaturas-da-floresta-2a1f"
+   "deck": "subtracao-riscar-criaturas-da-floresta-d931"
   },
   {
-   "slug": "preposicoes-complete-dia-de-acao-de-gracas-9290",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-dia-de-acao-de-gracas-95b1",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "thanksgivinng",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-dia-de-acao-de-gracas-9290"
+   "deck": "subtracao-riscar-dia-de-acao-de-gracas-95b1"
   },
   {
-   "slug": "preposicoes-complete-dinossauros-3243",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-dinossauros-5d1c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "dinosaurs",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-dinossauros-3243"
+   "deck": "subtracao-riscar-dinossauros-5d1c"
   },
   {
-   "slug": "preposicoes-complete-diversos-e503",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-diversos-4432",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "miscellaneous",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-diversos-e503"
+   "deck": "subtracao-riscar-diversos-4432"
   },
   {
-   "slug": "preposicoes-complete-emocoes-e6de",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "emotions",
-   "level": "1o-ano",
-   "deck": "preposicoes-complete-emocoes-e6de"
-  },
-  {
-   "slug": "preposicoes-complete-espaco-0d6e",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-espaco-2486",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "space",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-espaco-0d6e"
+   "deck": "subtracao-riscar-espaco-2486"
   },
   {
-   "slug": "preposicoes-complete-ferramentas-b7af",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-ferramentas-6fe8",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tools",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-ferramentas-b7af"
+   "deck": "subtracao-riscar-ferramentas-6fe8"
   },
   {
-   "slug": "preposicoes-complete-flores-4a32",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-flores-f37c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "flowers",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-flores-4a32"
+   "deck": "subtracao-riscar-flores-f37c"
   },
   {
-   "slug": "preposicoes-complete-formas-2e09",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-formas-858b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "shapes",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-formas-2e09"
+   "deck": "subtracao-riscar-formas-858b"
   },
   {
-   "slug": "preposicoes-complete-frutas-870e",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-frutas-a395",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "fruits",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-frutas-870e"
+   "deck": "subtracao-riscar-frutas-a395"
   },
   {
-   "slug": "preposicoes-complete-hospital-764b",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-hospital-0833",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "hospital",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-hospital-764b"
+   "deck": "subtracao-riscar-hospital-0833"
   },
   {
-   "slug": "preposicoes-complete-insetos-e-bichos-05e7",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-insetos-e-bichos-ea57",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "insects_and_bugs",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-insetos-e-bichos-05e7"
+   "deck": "subtracao-riscar-insetos-e-bichos-ea57"
   },
   {
-   "slug": "preposicoes-complete-inverno-d652",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "winter",
-   "level": "1o-ano",
-   "deck": "preposicoes-complete-inverno-d652"
-  },
-  {
-   "slug": "preposicoes-complete-moveis-6603",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-moveis-4b2e",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "furniture",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-moveis-6603"
+   "deck": "subtracao-riscar-moveis-4b2e"
   },
   {
-   "slug": "preposicoes-complete-musica-e13c",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-musica-2b61",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "music",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-musica-e13c"
+   "deck": "subtracao-riscar-musica-2b61"
   },
   {
-   "slug": "preposicoes-complete-natal-e290",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-natal-d66f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "christmas",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-natal-e290"
+   "deck": "subtracao-riscar-natal-d66f"
   },
   {
-   "slug": "preposicoes-complete-no-supermercado-53c7",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-no-supermercado-b386",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "at_the_supermarket",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-no-supermercado-53c7"
+   "deck": "subtracao-riscar-no-supermercado-b386"
   },
   {
-   "slug": "preposicoes-complete-padaria-029e",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-padaria-91e6",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "bakery",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-padaria-029e"
+   "deck": "subtracao-riscar-padaria-91e6"
   },
   {
-   "slug": "preposicoes-complete-partes-do-corpo-4df5",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "body_parts",
-   "level": "1o-ano",
-   "deck": "preposicoes-complete-partes-do-corpo-4df5"
-  },
-  {
-   "slug": "preposicoes-complete-pascoa-b337",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-pascoa-4c4b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "easter",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-pascoa-b337"
+   "deck": "subtracao-riscar-pascoa-4c4b"
   },
   {
-   "slug": "preposicoes-complete-passaros-2-b74e",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-passaros-2-fe37",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds_2",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-passaros-2-b74e"
+   "deck": "subtracao-riscar-passaros-2-fe37"
   },
   {
-   "slug": "preposicoes-complete-passaros-652b",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-passaros-e50c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-passaros-652b"
+   "deck": "subtracao-riscar-passaros-e50c"
   },
   {
-   "slug": "preposicoes-complete-pela-casa-0fd9",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-pela-casa-0745",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "around_the_house",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-pela-casa-0fd9"
+   "deck": "subtracao-riscar-pela-casa-0745"
   },
   {
-   "slug": "preposicoes-complete-praia-a844",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-praia-12bd",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "beach",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-praia-a844"
+   "deck": "subtracao-riscar-praia-12bd"
   },
   {
-   "slug": "preposicoes-complete-primavera-24d1",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "spring",
-   "level": "1o-ano",
-   "deck": "preposicoes-complete-primavera-24d1"
-  },
-  {
-   "slug": "preposicoes-complete-profissoes-d429",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-profissoes-4efa",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "occupations",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-profissoes-d429"
+   "deck": "subtracao-riscar-profissoes-4efa"
   },
   {
-   "slug": "preposicoes-complete-repteis-e-anfibios-76f8",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-repteis-e-anfibios-7696",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "reptiles_and_amphibians",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-repteis-e-anfibios-76f8"
+   "deck": "subtracao-riscar-repteis-e-anfibios-7696"
   },
   {
-   "slug": "preposicoes-complete-roupas-36b4",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-roupas-368a",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "clothing",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-roupas-36b4"
+   "deck": "subtracao-riscar-roupas-368a"
   },
   {
-   "slug": "preposicoes-complete-sala-de-aula-b40d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-sala-de-aula-3694",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "classroom",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-sala-de-aula-b40d"
+   "deck": "subtracao-riscar-sala-de-aula-3694"
   },
   {
-   "slug": "preposicoes-complete-sobremesas-e-doces-fcd3",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-sobremesas-e-doces-ed6d",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "desserts_and_sweets",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-sobremesas-e-doces-fcd3"
+   "deck": "subtracao-riscar-sobremesas-e-doces-ed6d"
   },
   {
-   "slug": "preposicoes-complete-utensilios-de-cozinha-785d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-utensilios-de-cozinha-6199",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "kitchen_tools",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-utensilios-de-cozinha-785d"
+   "deck": "subtracao-riscar-utensilios-de-cozinha-6199"
   },
   {
-   "slug": "preposicoes-complete-vegetais-e8d4",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-vegetais-b0fe",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vegetables",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-vegetais-e8d4"
+   "deck": "subtracao-riscar-vegetais-b0fe"
   },
   {
-   "slug": "preposicoes-complete-veiculos-2875",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-veiculos-a850",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vehicles",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-veiculos-2875"
+   "deck": "subtracao-riscar-veiculos-a850"
   },
   {
-   "slug": "preposicoes-complete-verao-5394",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "summer",
-   "level": "1o-ano",
-   "deck": "preposicoes-complete-verao-5394"
-  },
-  {
-   "slug": "preposicoes-complete-vida-marinha-4f19",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "subtracao-riscar-vida-marinha-2fa1",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "ocean_life",
    "level": "1o-ano",
-   "deck": "preposicoes-complete-vida-marinha-4f19"
+   "deck": "subtracao-riscar-vida-marinha-2fa1"
+  },
+  {
+   "slug": "subtracao-imagem-numero-acampamento-38ac",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-acampamento-38ac"
+  },
+  {
+   "slug": "subtracao-imagem-numero-acessorios-5327",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-acessorios-5327"
+  },
+  {
+   "slug": "subtracao-imagem-numero-animais-4a99",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-animais-4a99"
+  },
+  {
+   "slug": "subtracao-imagem-numero-animais-da-fazenda-bbb4",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-animais-da-fazenda-bbb4"
+  },
+  {
+   "slug": "subtracao-imagem-numero-animais-de-estimacao-1730",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-animais-de-estimacao-1730"
+  },
+  {
+   "slug": "subtracao-imagem-numero-animais-do-zoologico-b924",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-animais-do-zoologico-b924"
+  },
+  {
+   "slug": "subtracao-imagem-numero-arvores-fa46",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-arvores-fa46"
+  },
+  {
+   "slug": "subtracao-imagem-numero-brinquedos-90b1",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-brinquedos-90b1"
+  },
+  {
+   "slug": "subtracao-imagem-numero-cafe-da-manha-f364",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-cafe-da-manha-f364"
+  },
+  {
+   "slug": "subtracao-imagem-numero-coisas-que-voam-5160",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-coisas-que-voam-5160"
+  },
+  {
+   "slug": "subtracao-imagem-numero-correios-e5fd",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-correios-e5fd"
+  },
+  {
+   "slug": "subtracao-imagem-numero-criaturas-da-floresta-516f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-criaturas-da-floresta-516f"
+  },
+  {
+   "slug": "subtracao-imagem-numero-dia-de-acao-de-gracas-ddbf",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-dia-de-acao-de-gracas-ddbf"
+  },
+  {
+   "slug": "subtracao-imagem-numero-dinossauros-9daf",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-dinossauros-9daf"
+  },
+  {
+   "slug": "subtracao-imagem-numero-diversos-653f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-diversos-653f"
+  },
+  {
+   "slug": "subtracao-imagem-numero-espaco-1061",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-espaco-1061"
+  },
+  {
+   "slug": "subtracao-imagem-numero-ferramentas-e57d",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-ferramentas-e57d"
+  },
+  {
+   "slug": "subtracao-imagem-numero-flores-4f87",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-flores-4f87"
+  },
+  {
+   "slug": "subtracao-imagem-numero-formas-0e0c",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-formas-0e0c"
+  },
+  {
+   "slug": "subtracao-imagem-numero-frutas-e433",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-frutas-e433"
+  },
+  {
+   "slug": "subtracao-imagem-numero-hospital-7813",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-hospital-7813"
+  },
+  {
+   "slug": "subtracao-imagem-numero-insetos-e-bichos-85f9",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-insetos-e-bichos-85f9"
+  },
+  {
+   "slug": "subtracao-imagem-numero-moveis-4d40",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-moveis-4d40"
+  },
+  {
+   "slug": "subtracao-imagem-numero-musica-dc13",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-musica-dc13"
+  },
+  {
+   "slug": "subtracao-imagem-numero-natal-68a7",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-natal-68a7"
+  },
+  {
+   "slug": "subtracao-imagem-numero-no-supermercado-6b0f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-no-supermercado-6b0f"
+  },
+  {
+   "slug": "subtracao-imagem-numero-padaria-850f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-padaria-850f"
+  },
+  {
+   "slug": "subtracao-imagem-numero-pascoa-d481",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-pascoa-d481"
+  },
+  {
+   "slug": "subtracao-imagem-numero-passaros-2-913e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-passaros-2-913e"
+  },
+  {
+   "slug": "subtracao-imagem-numero-passaros-7d7d",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-passaros-7d7d"
+  },
+  {
+   "slug": "subtracao-imagem-numero-pela-casa-668b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-pela-casa-668b"
+  },
+  {
+   "slug": "subtracao-imagem-numero-praia-234c",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-praia-234c"
+  },
+  {
+   "slug": "subtracao-imagem-numero-profissoes-bf6e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-profissoes-bf6e"
+  },
+  {
+   "slug": "subtracao-imagem-numero-repteis-e-anfibios-36b3",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-repteis-e-anfibios-36b3"
+  },
+  {
+   "slug": "subtracao-imagem-numero-roupas-a30b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-roupas-a30b"
+  },
+  {
+   "slug": "subtracao-imagem-numero-sala-de-aula-680e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-sala-de-aula-680e"
+  },
+  {
+   "slug": "subtracao-imagem-numero-sobremesas-e-doces-3825",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-sobremesas-e-doces-3825"
+  },
+  {
+   "slug": "subtracao-imagem-numero-utensilios-de-cozinha-2629",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-utensilios-de-cozinha-2629"
+  },
+  {
+   "slug": "subtracao-imagem-numero-vegetais-c436",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-vegetais-c436"
+  },
+  {
+   "slug": "subtracao-imagem-numero-veiculos-9dff",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-veiculos-9dff"
+  },
+  {
+   "slug": "subtracao-imagem-numero-vida-marinha-e5c8",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-vida-marinha-e5c8"
   }
  ]
 }

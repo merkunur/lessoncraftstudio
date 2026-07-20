@@ -2,683 +2,747 @@
  "part": 124,
  "locale": "pt",
  "classes": [
-  "find-and-count::hidden-object",
-  "sudoku::easy"
+  "shadow-match::make-whole",
+  "shadow-match::find-shadow"
  ],
  "splitOf": null,
- "count": 84,
+ "count": 92,
  "pages": [
   {
-   "slug": "encontre-e-conte-objetos-escondidos-acampamento-0275",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "pareamento-de-sombras-complete-acampamento-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
    "theme": "camping",
    "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-acampamento-0275"
+   "deck": "pareamento-de-sombras-complete-acampamento-5d83"
   },
   {
-   "slug": "encontre-e-conte-objetos-escondidos-acessorios-a321",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "pareamento-de-sombras-complete-acessorios-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
    "theme": "accessories",
    "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-acessorios-a321"
+   "deck": "pareamento-de-sombras-complete-acessorios-5d83"
   },
   {
-   "slug": "encontre-e-conte-objetos-escondidos-animais-bdd6",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "pareamento-de-sombras-complete-animais-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
    "theme": "animals",
    "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-animais-bdd6"
+   "deck": "pareamento-de-sombras-complete-animais-5d83"
   },
   {
-   "slug": "encontre-e-conte-objetos-escondidos-animais-da-fazenda-adf7",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "pareamento-de-sombras-complete-animais-da-fazenda-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
    "theme": "farm_animals",
    "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-animais-da-fazenda-adf7"
+   "deck": "pareamento-de-sombras-complete-animais-da-fazenda-5d83"
   },
   {
-   "slug": "encontre-e-conte-objetos-escondidos-animais-de-estimacao-1e73",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "pareamento-de-sombras-complete-animais-de-estimacao-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
    "theme": "pets",
    "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-animais-de-estimacao-1e73"
+   "deck": "pareamento-de-sombras-complete-animais-de-estimacao-5d83"
   },
   {
-   "slug": "encontre-e-conte-objetos-escondidos-animais-do-zoologico-5a21",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "pareamento-de-sombras-complete-animais-do-zoologico-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
    "theme": "zoo_animals",
    "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-animais-do-zoologico-5a21"
+   "deck": "pareamento-de-sombras-complete-animais-do-zoologico-5d83"
   },
   {
-   "slug": "encontre-e-conte-objetos-escondidos-atividades-cd01",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-atividades-cd01"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-brinquedos-30c5",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-brinquedos-30c5"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-cafe-da-manha-c299",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-cafe-da-manha-c299"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-clima-93a2",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-clima-93a2"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-coisas-que-voam-0c2a",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-coisas-que-voam-0c2a"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-cores-f049",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-cores-f049"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-correios-3f5f",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-correios-3f5f"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-criaturas-da-floresta-c124",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-criaturas-da-floresta-c124"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-dia-de-acao-de-gracas-8b45",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-dia-de-acao-de-gracas-8b45"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-emocoes-c336",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-emocoes-c336"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-espaco-a0b7",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-espaco-a0b7"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-ferramentas-4d0b",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-ferramentas-4d0b"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-formas-3845",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-formas-3845"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-frutas-3818",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-frutas-3818"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-hospital-37e2",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-hospital-37e2"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-inverno-7e5c",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-inverno-7e5c"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-moveis-e9ca",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-moveis-e9ca"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-musica-c5d4",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-musica-c5d4"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-natal-69f4",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-natal-69f4"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-no-supermercado-c7d0",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-no-supermercado-c7d0"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-padaria-7390",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-padaria-7390"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-partes-do-corpo-e577",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-partes-do-corpo-e577"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-pascoa-2247",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-pascoa-2247"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-passaros-2-7b73",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-passaros-2-7b73"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-pela-casa-7cfb",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-pela-casa-7cfb"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-praia-0841",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-praia-0841"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-primavera-3b34",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-primavera-3b34"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-profissoes-403f",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-profissoes-403f"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-repteis-e-anfibios-033c",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-repteis-e-anfibios-033c"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-roupas-720c",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-roupas-720c"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-sala-de-aula-d88a",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-sala-de-aula-d88a"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-sobremesas-e-doces-0345",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-sobremesas-e-doces-0345"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-utensilios-de-cozinha-d6d9",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-utensilios-de-cozinha-d6d9"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-vegetais-0c82",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-vegetais-0c82"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-veiculos-f890",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-veiculos-f890"
-  },
-  {
-   "slug": "encontre-e-conte-objetos-escondidos-vida-marinha-6e00",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "encontre-e-conte-objetos-escondidos-vida-marinha-6e00"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-0150",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "pareamento-de-sombras-complete-arvores-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
    "theme": "tree",
    "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-0150"
+   "deck": "pareamento-de-sombras-complete-arvores-5d83"
   },
   {
-   "slug": "sudoku-ilustrado-facil-0782",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-0782"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-0ace",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-0ace"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-0be6",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-0be6"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-0c14",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-0c14"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-1681",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-1681"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-2483",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-2483"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-35fb",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-35fb"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-374f",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-374f"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-3a1c",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-3a1c"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-3a37",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-3a37"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-3d8d",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-3d8d"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-4b1d",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-4b1d"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-4f31",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-4f31"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-576d",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-576d"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-5ba6",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-5ba6"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-618d",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-618d"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-634a",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-634a"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-6533",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-6533"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-65f6",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-65f6"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-724b",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-724b"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-7429",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-7429"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-75d5",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-75d5"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-7b8e",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-7b8e"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-8186",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-8186"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-825b",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-825b"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-8356",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-8356"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-8617",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-8617"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-8cb6",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-8cb6"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-9a3a",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-9a3a"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-9baf",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-9baf"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-a515",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-a515"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-a9eb",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-a9eb"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-a9ee",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-a9ee"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-af79",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-af79"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-b274",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-b274"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-baee",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-baee"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-c1ec",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-c1ec"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-c4a7",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-c4a7"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-f596",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-f596"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-f970",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-f970"
-  },
-  {
-   "slug": "sudoku-ilustrado-facil-f975",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "pareamento-de-sombras-complete-atividades-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
    "theme": "activities",
    "level": "educacao-infantil",
-   "deck": "sudoku-ilustrado-facil-f975"
+   "deck": "pareamento-de-sombras-complete-atividades-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-brinquedos-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-brinquedos-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-cafe-da-manha-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-cafe-da-manha-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-clima-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-clima-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-coisas-que-voam-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-coisas-que-voam-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-correios-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-correios-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-criaturas-da-floresta-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-criaturas-da-floresta-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-dia-de-acao-de-gracas-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-dia-de-acao-de-gracas-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-dinossauros-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-dinossauros-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-diversos-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-diversos-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-emocoes-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-emocoes-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-espaco-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-espaco-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-ferramentas-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-ferramentas-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-flores-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-flores-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-frutas-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-frutas-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-hospital-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-hospital-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-insetos-e-bichos-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-insetos-e-bichos-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-inverno-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-inverno-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-moveis-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-moveis-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-musica-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-musica-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-natal-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-natal-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-no-supermercado-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-no-supermercado-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-padaria-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-padaria-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-partes-do-corpo-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-partes-do-corpo-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-pascoa-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-pascoa-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-passaros-2-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-passaros-2-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-passaros-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-passaros-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-pela-casa-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-pela-casa-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-praia-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-praia-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-primavera-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-primavera-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-profissoes-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-profissoes-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-repteis-e-anfibios-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-repteis-e-anfibios-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-roupas-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-roupas-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-sala-de-aula-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-sala-de-aula-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-sobremesas-e-doces-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-sobremesas-e-doces-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-utensilios-de-cozinha-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-utensilios-de-cozinha-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-vegetais-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-vegetais-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-veiculos-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-veiculos-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-verao-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-verao-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-complete-vida-marinha-5d83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-complete-vida-marinha-5d83"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-acampamento-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-acampamento-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-acessorios-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-acessorios-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-animais",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-animais"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-animais-da-fazenda-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "farm_animals",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-animais-da-fazenda-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-animais-de-estimacao-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-animais-de-estimacao-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-animais-do-zoologico-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-animais-do-zoologico-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-arvores-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-arvores-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-atividades-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-atividades-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-brinquedos-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-brinquedos-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-cafe-da-manha-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-cafe-da-manha-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-clima-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-clima-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-coisas-que-voam-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-coisas-que-voam-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-correios-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-correios-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-criaturas-da-floresta-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-criaturas-da-floresta-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-dia-de-acao-de-gracas-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-dia-de-acao-de-gracas-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-dinossauros-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-dinossauros-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-diversos-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-diversos-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-espaco-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-espaco-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-ferramentas-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-ferramentas-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-flores-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-flores-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-frutas-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-frutas-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-hospital-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-hospital-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-insetos-e-bichos-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-insetos-e-bichos-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-inverno-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-inverno-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-moveis-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-moveis-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-musica-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-musica-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-natal-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-natal-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-no-supermercado-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-no-supermercado-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-padaria-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-padaria-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-partes-do-corpo-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-partes-do-corpo-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-pascoa-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-pascoa-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-passaros-2-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-passaros-2-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-passaros-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-passaros-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-pela-casa-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-pela-casa-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-praia-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-praia-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-primavera-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-primavera-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-profissoes-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-profissoes-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-repteis-e-anfibios-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-repteis-e-anfibios-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-roupas-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-roupas-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-sala-de-aula-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-sala-de-aula-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-utensilios-de-cozinha-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-utensilios-de-cozinha-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-vegetais-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-vegetais-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-veiculos-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-veiculos-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-verao-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-verao-e7bd"
+  },
+  {
+   "slug": "pareamento-de-sombras-combine-a-sombra-vida-marinha-e7bd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "pareamento-de-sombras-combine-a-sombra-vida-marinha-e7bd"
   }
  ]
 }

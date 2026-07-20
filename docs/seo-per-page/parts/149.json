@@ -2,763 +2,755 @@
  "part": 149,
  "locale": "fr",
  "classes": [
-  "prepositions::fillin",
-  "shadow-match::make-whole"
+  "pattern-worksheet::null",
+  "pattern-train::aabb"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 93,
  "pages": [
   {
-   "slug": "prepositions-a-completer-accessoires-6cc1",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-accessoires-443e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "accessories",
-   "level": "cp",
-   "deck": "prepositions-a-completer-accessoires-6cc1"
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-accessoires-443e"
   },
   {
-   "slug": "prepositions-a-completer-action-de-grace-0e15",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-action-de-grace-d868",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "cp",
-   "deck": "prepositions-a-completer-action-de-grace-0e15"
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-action-de-grace-d868"
   },
   {
-   "slug": "prepositions-a-completer-activites-6b04",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-activites-b465",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "activities",
-   "level": "cp",
-   "deck": "prepositions-a-completer-activites-6b04"
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-activites-b465"
   },
   {
-   "slug": "prepositions-a-completer-animaux-822b",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "animals",
-   "level": "cp",
-   "deck": "prepositions-a-completer-animaux-822b"
-  },
-  {
-   "slug": "prepositions-a-completer-animaux-de-compagnie-8921",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-animaux-de-compagnie-ec37",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "pets",
-   "level": "cp",
-   "deck": "prepositions-a-completer-animaux-de-compagnie-8921"
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-animaux-de-compagnie-ec37"
   },
   {
-   "slug": "prepositions-a-completer-animaux-de-la-ferme-a913",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-animaux-de-la-ferme-8d2c",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "cp",
-   "deck": "prepositions-a-completer-animaux-de-la-ferme-a913"
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-animaux-de-la-ferme-8d2c"
   },
   {
-   "slug": "prepositions-a-completer-animaux-du-zoo-a2d6",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-animaux-du-zoo-753f",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "cp",
-   "deck": "prepositions-a-completer-animaux-du-zoo-a2d6"
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-animaux-du-zoo-753f"
   },
   {
-   "slug": "prepositions-a-completer-arbres-a51d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-animaux-f1cb",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-animaux-f1cb"
+  },
+  {
+   "slug": "fiche-de-modeles-arbres-ce28",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "tree",
-   "level": "cp",
-   "deck": "prepositions-a-completer-arbres-a51d"
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-arbres-ce28"
   },
   {
-   "slug": "prepositions-a-completer-au-supermarche-6604",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-au-supermarche-82be",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "cp",
-   "deck": "prepositions-a-completer-au-supermarche-6604"
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-au-supermarche-82be"
   },
   {
-   "slug": "prepositions-a-completer-autour-de-la-maison-2a20",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-autour-de-la-maison-22b8",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "cp",
-   "deck": "prepositions-a-completer-autour-de-la-maison-2a20"
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-autour-de-la-maison-22b8"
   },
   {
-   "slug": "prepositions-a-completer-boulangerie-def5",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-boulangerie-306b",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "bakery",
-   "level": "cp",
-   "deck": "prepositions-a-completer-boulangerie-def5"
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-boulangerie-306b"
   },
   {
-   "slug": "prepositions-a-completer-bureau-de-poste-cbaa",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-bureau-de-poste-62d1",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "post_office",
-   "level": "cp",
-   "deck": "prepositions-a-completer-bureau-de-poste-cbaa"
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-bureau-de-poste-62d1"
   },
   {
-   "slug": "prepositions-a-completer-camping-ba24",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-camping-3fcc",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "camping",
-   "level": "cp",
-   "deck": "prepositions-a-completer-camping-ba24"
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-camping-3fcc"
   },
   {
-   "slug": "prepositions-a-completer-choses-qui-volent-8317",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-choses-qui-volent-e351",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "cp",
-   "deck": "prepositions-a-completer-choses-qui-volent-8317"
+   "level": "maternelle",
+   "deck": "fiche-de-modeles-choses-qui-volent-e351"
   },
   {
-   "slug": "prepositions-a-completer-couleurs-c801",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "fiche-de-modeles-couleurs-45e9",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "colors",
-   "level": "cp",
-   "deck": "prepositions-a-completer-couleurs-c801"
-  },
-  {
-   "slug": "prepositions-a-completer-creatures-de-la-foret-0bc9",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "forest_creatures",
-   "level": "cp",
-   "deck": "prepositions-a-completer-creatures-de-la-foret-0bc9"
-  },
-  {
-   "slug": "prepositions-a-completer-desserts-et-sucreries-cb1f",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "desserts_and_sweets",
-   "level": "cp",
-   "deck": "prepositions-a-completer-desserts-et-sucreries-cb1f"
-  },
-  {
-   "slug": "prepositions-a-completer-dinosaures-1c06",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "dinosaurs",
-   "level": "cp",
-   "deck": "prepositions-a-completer-dinosaures-1c06"
-  },
-  {
-   "slug": "prepositions-a-completer-emotions-aecc",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "emotions",
-   "level": "cp",
-   "deck": "prepositions-a-completer-emotions-aecc"
-  },
-  {
-   "slug": "prepositions-a-completer-espace-1628",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "space",
-   "level": "cp",
-   "deck": "prepositions-a-completer-espace-1628"
-  },
-  {
-   "slug": "prepositions-a-completer-ete-19e8",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "summer",
-   "level": "cp",
-   "deck": "prepositions-a-completer-ete-19e8"
-  },
-  {
-   "slug": "prepositions-a-completer-fleurs-4a3c",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "flowers",
-   "level": "cp",
-   "deck": "prepositions-a-completer-fleurs-4a3c"
-  },
-  {
-   "slug": "prepositions-a-completer-formes-39c1",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "shapes",
-   "level": "cp",
-   "deck": "prepositions-a-completer-formes-39c1"
-  },
-  {
-   "slug": "prepositions-a-completer-fruits-3fe1",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "fruits",
-   "level": "cp",
-   "deck": "prepositions-a-completer-fruits-3fe1"
-  },
-  {
-   "slug": "prepositions-a-completer-hiver-e240",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "winter",
-   "level": "cp",
-   "deck": "prepositions-a-completer-hiver-e240"
-  },
-  {
-   "slug": "prepositions-a-completer-hopital-2e5c",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "hospital",
-   "level": "cp",
-   "deck": "prepositions-a-completer-hopital-2e5c"
-  },
-  {
-   "slug": "prepositions-a-completer-insectes-et-bestioles-addb",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "insects_and_bugs",
-   "level": "cp",
-   "deck": "prepositions-a-completer-insectes-et-bestioles-addb"
-  },
-  {
-   "slug": "prepositions-a-completer-jouets-5c38",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "toys",
-   "level": "cp",
-   "deck": "prepositions-a-completer-jouets-5c38"
-  },
-  {
-   "slug": "prepositions-a-completer-legumes-493c",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "vegetables",
-   "level": "cp",
-   "deck": "prepositions-a-completer-legumes-493c"
-  },
-  {
-   "slug": "prepositions-a-completer-meteo-732a",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "weather",
-   "level": "cp",
-   "deck": "prepositions-a-completer-meteo-732a"
-  },
-  {
-   "slug": "prepositions-a-completer-metiers-2729",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "occupations",
-   "level": "cp",
-   "deck": "prepositions-a-completer-metiers-2729"
-  },
-  {
-   "slug": "prepositions-a-completer-meubles-5d57",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "furniture",
-   "level": "cp",
-   "deck": "prepositions-a-completer-meubles-5d57"
-  },
-  {
-   "slug": "prepositions-a-completer-musique-9800",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "music",
-   "level": "cp",
-   "deck": "prepositions-a-completer-musique-9800"
-  },
-  {
-   "slug": "prepositions-a-completer-noel-088c",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "christmas",
-   "level": "cp",
-   "deck": "prepositions-a-completer-noel-088c"
-  },
-  {
-   "slug": "prepositions-a-completer-oiseaux-2-d42d",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "birds_2",
-   "level": "cp",
-   "deck": "prepositions-a-completer-oiseaux-2-d42d"
-  },
-  {
-   "slug": "prepositions-a-completer-oiseaux-be7f",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "birds",
-   "level": "cp",
-   "deck": "prepositions-a-completer-oiseaux-be7f"
-  },
-  {
-   "slug": "prepositions-a-completer-outils-43b0",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "tools",
-   "level": "cp",
-   "deck": "prepositions-a-completer-outils-43b0"
-  },
-  {
-   "slug": "prepositions-a-completer-paques-ad08",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "easter",
-   "level": "cp",
-   "deck": "prepositions-a-completer-paques-ad08"
-  },
-  {
-   "slug": "prepositions-a-completer-parties-du-corps-f503",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "body_parts",
-   "level": "cp",
-   "deck": "prepositions-a-completer-parties-du-corps-f503"
-  },
-  {
-   "slug": "prepositions-a-completer-petit-dejeuner-f081",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "breakfast",
-   "level": "cp",
-   "deck": "prepositions-a-completer-petit-dejeuner-f081"
-  },
-  {
-   "slug": "prepositions-a-completer-plage-0f19",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "beach",
-   "level": "cp",
-   "deck": "prepositions-a-completer-plage-0f19"
-  },
-  {
-   "slug": "prepositions-a-completer-printemps-4476",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "spring",
-   "level": "cp",
-   "deck": "prepositions-a-completer-printemps-4476"
-  },
-  {
-   "slug": "prepositions-a-completer-salle-de-classe-f5e7",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "classroom",
-   "level": "cp",
-   "deck": "prepositions-a-completer-salle-de-classe-f5e7"
-  },
-  {
-   "slug": "prepositions-a-completer-ustensiles-de-cuisine-5093",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "kitchen_tools",
-   "level": "cp",
-   "deck": "prepositions-a-completer-ustensiles-de-cuisine-5093"
-  },
-  {
-   "slug": "prepositions-a-completer-vehicules-b7c1",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "vehicles",
-   "level": "cp",
-   "deck": "prepositions-a-completer-vehicules-b7c1"
-  },
-  {
-   "slug": "prepositions-a-completer-vetements-e968",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "clothing",
-   "level": "cp",
-   "deck": "prepositions-a-completer-vetements-e968"
-  },
-  {
-   "slug": "prepositions-a-completer-vie-oceanique-0a8c",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "ocean_life",
-   "level": "cp",
-   "deck": "prepositions-a-completer-vie-oceanique-0a8c"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-accessoires-52fe",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "accessories",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-accessoires-52fe"
+   "deck": "fiche-de-modeles-couleurs-45e9"
   },
   {
-   "slug": "apparier-les-ombres-complete-action-de-grace-0018",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-action-de-grace-0018"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-activites-6e7d",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "activities",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-activites-6e7d"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-animaux-5312",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "animals",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-animaux-5312"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-animaux-de-compagnie-381d",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "pets",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-animaux-de-compagnie-381d"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-animaux-de-la-ferme-4a30",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-animaux-de-la-ferme-4a30"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-animaux-du-zoo-8cd7",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-animaux-du-zoo-8cd7"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-arbres-56fe",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "tree",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-arbres-56fe"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-au-supermarche-0e0d",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-au-supermarche-0e0d"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-autour-de-la-maison-eeb1",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-autour-de-la-maison-eeb1"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-boulangerie-4510",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "bakery",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-boulangerie-4510"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-bureau-de-poste-13a6",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "post_office",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-bureau-de-poste-13a6"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-camping-c56e",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "camping",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-camping-c56e"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-choses-qui-volent-2138",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-choses-qui-volent-2138"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-creatures-de-la-foret-baa3",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-creatures-de-la-foret-6c72",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "forest_creatures",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-creatures-de-la-foret-baa3"
+   "deck": "fiche-de-modeles-creatures-de-la-foret-6c72"
   },
   {
-   "slug": "apparier-les-ombres-complete-desserts-et-sucreries-a762",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-desserts-et-sucreries-4fc8",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "desserts_and_sweets",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-desserts-et-sucreries-a762"
+   "deck": "fiche-de-modeles-desserts-et-sucreries-4fc8"
   },
   {
-   "slug": "apparier-les-ombres-complete-dinosaures-3753",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-dinosaures-0443",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "dinosaurs",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-dinosaures-3753"
+   "deck": "fiche-de-modeles-dinosaures-0443"
   },
   {
-   "slug": "apparier-les-ombres-complete-emotions-595b",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-emotions-d7cb",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "emotions",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-emotions-595b"
+   "deck": "fiche-de-modeles-emotions-d7cb"
   },
   {
-   "slug": "apparier-les-ombres-complete-espace-caa3",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-espace-a8ec",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "space",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-espace-caa3"
+   "deck": "fiche-de-modeles-espace-a8ec"
   },
   {
-   "slug": "apparier-les-ombres-complete-ete-55a3",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-ete-8e34",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "summer",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-ete-55a3"
+   "deck": "fiche-de-modeles-ete-8e34"
   },
   {
-   "slug": "apparier-les-ombres-complete-fleurs-6d1d",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-fleurs-1948",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "flowers",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-fleurs-6d1d"
+   "deck": "fiche-de-modeles-fleurs-1948"
   },
   {
-   "slug": "apparier-les-ombres-complete-formes-291c",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-formes-31f8",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "shapes",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-formes-291c"
+   "deck": "fiche-de-modeles-formes-31f8"
   },
   {
-   "slug": "apparier-les-ombres-complete-fruits-d9b7",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-fruits-9b02",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "fruits",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-fruits-d9b7"
+   "deck": "fiche-de-modeles-fruits-9b02"
   },
   {
-   "slug": "apparier-les-ombres-complete-hiver-cae6",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-hiver-a3a1",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "winter",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-hiver-cae6"
+   "deck": "fiche-de-modeles-hiver-a3a1"
   },
   {
-   "slug": "apparier-les-ombres-complete-hopital-ed6f",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-hopital-efae",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "hospital",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-hopital-ed6f"
+   "deck": "fiche-de-modeles-hopital-efae"
   },
   {
-   "slug": "apparier-les-ombres-complete-insectes-et-bestioles-cc51",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-insectes-et-bestioles-bdc4",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "insects_and_bugs",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-insectes-et-bestioles-cc51"
+   "deck": "fiche-de-modeles-insectes-et-bestioles-bdc4"
   },
   {
-   "slug": "apparier-les-ombres-complete-jouets-a624",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-jouets-3f2e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "toys",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-jouets-a624"
+   "deck": "fiche-de-modeles-jouets-3f2e"
   },
   {
-   "slug": "apparier-les-ombres-complete-legumes-a15c",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-legumes-4c28",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "vegetables",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-legumes-a15c"
+   "deck": "fiche-de-modeles-legumes-4c28"
   },
   {
-   "slug": "apparier-les-ombres-complete-meteo-0e94",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-meteo-a5d1",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "weather",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-meteo-0e94"
+   "deck": "fiche-de-modeles-meteo-a5d1"
   },
   {
-   "slug": "apparier-les-ombres-complete-metiers-18d3",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-metiers-d592",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "occupations",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-metiers-18d3"
+   "deck": "fiche-de-modeles-metiers-d592"
   },
   {
-   "slug": "apparier-les-ombres-complete-meubles-4cf3",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "furniture",
-   "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-meubles-4cf3"
-  },
-  {
-   "slug": "apparier-les-ombres-complete-musique-281f",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-musique-cdac",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "music",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-musique-281f"
+   "deck": "fiche-de-modeles-musique-cdac"
   },
   {
-   "slug": "apparier-les-ombres-complete-noel-d263",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-noel-6689",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "christmas",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-noel-d263"
+   "deck": "fiche-de-modeles-noel-6689"
   },
   {
-   "slug": "apparier-les-ombres-complete-oiseaux-2-683d",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-oiseaux-2-99c8",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "birds_2",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-oiseaux-2-683d"
+   "deck": "fiche-de-modeles-oiseaux-2-99c8"
   },
   {
-   "slug": "apparier-les-ombres-complete-oiseaux-b260",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-oiseaux-d2cb",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "birds",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-oiseaux-b260"
+   "deck": "fiche-de-modeles-oiseaux-d2cb"
   },
   {
-   "slug": "apparier-les-ombres-complete-outils-afb4",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-outils-e36b",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "tools",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-outils-afb4"
+   "deck": "fiche-de-modeles-outils-e36b"
   },
   {
-   "slug": "apparier-les-ombres-complete-paques-a075",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-paques-a9ee",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "easter",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-paques-a075"
+   "deck": "fiche-de-modeles-paques-a9ee"
   },
   {
-   "slug": "apparier-les-ombres-complete-parties-du-corps-bfaa",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-parties-du-corps-df93",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "body_parts",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-parties-du-corps-bfaa"
+   "deck": "fiche-de-modeles-parties-du-corps-df93"
   },
   {
-   "slug": "apparier-les-ombres-complete-petit-dejeuner-dfe1",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-petit-dejeuner-7410",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "breakfast",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-petit-dejeuner-dfe1"
+   "deck": "fiche-de-modeles-petit-dejeuner-7410"
   },
   {
-   "slug": "apparier-les-ombres-complete-plage-4812",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-plage-24ec",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "beach",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-plage-4812"
+   "deck": "fiche-de-modeles-plage-24ec"
   },
   {
-   "slug": "apparier-les-ombres-complete-printemps-d940",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-printemps-c12d",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "spring",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-printemps-d940"
+   "deck": "fiche-de-modeles-printemps-c12d"
   },
   {
-   "slug": "apparier-les-ombres-complete-reptiles-et-amphibiens-f760",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-reptiles-et-amphibiens-089c",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-reptiles-et-amphibiens-f760"
+   "deck": "fiche-de-modeles-reptiles-et-amphibiens-089c"
   },
   {
-   "slug": "apparier-les-ombres-complete-salle-de-classe-56ef",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-salle-de-classe-5117",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "classroom",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-salle-de-classe-56ef"
+   "deck": "fiche-de-modeles-salle-de-classe-5117"
   },
   {
-   "slug": "apparier-les-ombres-complete-ustensiles-de-cuisine-b336",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-ustensiles-de-cuisine-67ec",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-ustensiles-de-cuisine-b336"
+   "deck": "fiche-de-modeles-ustensiles-de-cuisine-67ec"
   },
   {
-   "slug": "apparier-les-ombres-complete-vehicules-e00c",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-vehicules-0101",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "vehicles",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-vehicules-e00c"
+   "deck": "fiche-de-modeles-vehicules-0101"
   },
   {
-   "slug": "apparier-les-ombres-complete-vetements-a87b",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-vetements-aebb",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "clothing",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-vetements-a87b"
+   "deck": "fiche-de-modeles-vetements-aebb"
   },
   {
-   "slug": "apparier-les-ombres-complete-vie-oceanique-e5e4",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "fiche-de-modeles-vie-oceanique-059a",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "ocean_life",
    "level": "maternelle",
-   "deck": "apparier-les-ombres-complete-vie-oceanique-e5e4"
+   "deck": "fiche-de-modeles-vie-oceanique-059a"
+  },
+  {
+   "slug": "train-de-modeles-aabb-accessoires-3d33",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-accessoires-3d33"
+  },
+  {
+   "slug": "train-de-modeles-aabb-action-de-grace-1d08",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "thanksgivinng",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-action-de-grace-1d08"
+  },
+  {
+   "slug": "train-de-modeles-aabb-activites-2c2f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-activites-2c2f"
+  },
+  {
+   "slug": "train-de-modeles-aabb-animaux-de-compagnie-bc6c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "pets",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-animaux-de-compagnie-bc6c"
+  },
+  {
+   "slug": "train-de-modeles-aabb-animaux-de-la-ferme-0951",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "farm_animals",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-animaux-de-la-ferme-0951"
+  },
+  {
+   "slug": "train-de-modeles-aabb-animaux-du-zoo-3dde",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-animaux-du-zoo-3dde"
+  },
+  {
+   "slug": "train-de-modeles-aabb-animaux-f7b3",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-animaux-f7b3"
+  },
+  {
+   "slug": "train-de-modeles-aabb-arbres-58f2",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tree",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-arbres-58f2"
+  },
+  {
+   "slug": "train-de-modeles-aabb-au-supermarche-d76f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-au-supermarche-d76f"
+  },
+  {
+   "slug": "train-de-modeles-aabb-autour-de-la-maison-4993",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-autour-de-la-maison-4993"
+  },
+  {
+   "slug": "train-de-modeles-aabb-boulangerie-dbe0",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "bakery",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-boulangerie-dbe0"
+  },
+  {
+   "slug": "train-de-modeles-aabb-bureau-de-poste-d0e0",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "post_office",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-bureau-de-poste-d0e0"
+  },
+  {
+   "slug": "train-de-modeles-aabb-camping-6016",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "camping",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-camping-6016"
+  },
+  {
+   "slug": "train-de-modeles-aabb-choses-qui-volent-b215",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-choses-qui-volent-b215"
+  },
+  {
+   "slug": "train-de-modeles-aabb-desserts-et-sucreries-50b6",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "desserts_and_sweets",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-desserts-et-sucreries-50b6"
+  },
+  {
+   "slug": "train-de-modeles-aabb-dinosaures-8637",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "dinosaurs",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-dinosaures-8637"
+  },
+  {
+   "slug": "train-de-modeles-aabb-emotions-49c8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-emotions-49c8"
+  },
+  {
+   "slug": "train-de-modeles-aabb-espace-328d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-espace-328d"
+  },
+  {
+   "slug": "train-de-modeles-aabb-ete-7029",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-ete-7029"
+  },
+  {
+   "slug": "train-de-modeles-aabb-fleurs-6823",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "flowers",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-fleurs-6823"
+  },
+  {
+   "slug": "train-de-modeles-aabb-formes-bf68",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "shapes",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-formes-bf68"
+  },
+  {
+   "slug": "train-de-modeles-aabb-fruits-3ce8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "fruits",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-fruits-3ce8"
+  },
+  {
+   "slug": "train-de-modeles-aabb-hiver-9433",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-hiver-9433"
+  },
+  {
+   "slug": "train-de-modeles-aabb-hopital-a41f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-hopital-a41f"
+  },
+  {
+   "slug": "train-de-modeles-aabb-insectes-et-bestioles-a66a",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "insects_and_bugs",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-insectes-et-bestioles-a66a"
+  },
+  {
+   "slug": "train-de-modeles-aabb-jouets-c2fe",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-jouets-c2fe"
+  },
+  {
+   "slug": "train-de-modeles-aabb-legumes-0bcf",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vegetables",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-legumes-0bcf"
+  },
+  {
+   "slug": "train-de-modeles-aabb-meteo-6126",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-meteo-6126"
+  },
+  {
+   "slug": "train-de-modeles-aabb-metiers-a511",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-metiers-a511"
+  },
+  {
+   "slug": "train-de-modeles-aabb-meubles-9b62",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "furniture",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-meubles-9b62"
+  },
+  {
+   "slug": "train-de-modeles-aabb-musique-c0a0",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "music",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-musique-c0a0"
+  },
+  {
+   "slug": "train-de-modeles-aabb-noel-935f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "christmas",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-noel-935f"
+  },
+  {
+   "slug": "train-de-modeles-aabb-oiseaux-2-2f25",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-oiseaux-2-2f25"
+  },
+  {
+   "slug": "train-de-modeles-aabb-oiseaux-a74b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-oiseaux-a74b"
+  },
+  {
+   "slug": "train-de-modeles-aabb-outils-85a6",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tools",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-outils-85a6"
+  },
+  {
+   "slug": "train-de-modeles-aabb-paques-c07d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "easter",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-paques-c07d"
+  },
+  {
+   "slug": "train-de-modeles-aabb-parties-du-corps-e436",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-parties-du-corps-e436"
+  },
+  {
+   "slug": "train-de-modeles-aabb-petit-dejeuner-7913",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-petit-dejeuner-7913"
+  },
+  {
+   "slug": "train-de-modeles-aabb-plage-24cd",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-plage-24cd"
+  },
+  {
+   "slug": "train-de-modeles-aabb-printemps-0383",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-printemps-0383"
+  },
+  {
+   "slug": "train-de-modeles-aabb-reptiles-et-amphibiens-d90d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "reptiles_and_amphibians",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-reptiles-et-amphibiens-d90d"
+  },
+  {
+   "slug": "train-de-modeles-aabb-salle-de-classe-3561",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-salle-de-classe-3561"
+  },
+  {
+   "slug": "train-de-modeles-aabb-ustensiles-de-cuisine-0b06",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "kitchen_tools",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-ustensiles-de-cuisine-0b06"
+  },
+  {
+   "slug": "train-de-modeles-aabb-vehicules-e442",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-vehicules-e442"
+  },
+  {
+   "slug": "train-de-modeles-aabb-vetements-ce56",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-vetements-ce56"
+  },
+  {
+   "slug": "train-de-modeles-aabb-vie-oceanique-962c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aabb-vie-oceanique-962c"
   }
  ]
 }

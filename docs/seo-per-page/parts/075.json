@@ -2,583 +2,583 @@
  "part": 75,
  "locale": "es",
  "classes": [
-  "math-puzzle::mixed"
+  "wordsearch::null"
  ],
  "splitOf": {
-  "class": "math-puzzle::mixed",
-  "total": 142,
-  "chunk": 2,
+  "class": "wordsearch::null",
+  "total": 141,
+  "chunk": 1,
   "chunks": 2
  },
  "count": 71,
  "pages": [
   {
-   "slug": "rompecabezas-matematico-mixto-hospital-525d",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-4-de-julio-add3",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-4-de-julio-add3"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-accesorios-95ad",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-accesorios-95ad"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-actividades-3778",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-actividades-3778"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-alrededor-de-la-casa-d176",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-alrededor-de-la-casa-d176"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-animales-a8dd",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-animales-a8dd"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-animales-de-granja-197f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-animales-de-granja-197f"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-animales-del-zoologico-7d22",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-animales-del-zoologico-7d22"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-arboles-c670",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tree",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-arboles-c670"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-aves-1154",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-aves-1154"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-aves-2-db11",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-aves-2-db11"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-campamento-267f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-campamento-267f"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-clima-1980",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-clima-1980"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-colores-3ac9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-colores-3ac9"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-cosas-que-vuelan-f867",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-cosas-que-vuelan-f867"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-criaturas-del-bosque-2608",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-criaturas-del-bosque-2608"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-desayuno-d208",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-desayuno-d208"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-dia-de-accion-de-gracias-c342",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-dia-de-accion-de-gracias-c342"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-emociones-925e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-emociones-925e"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-en-el-supermercado-1323",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-en-el-supermercado-1323"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-espacio-9dd4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-espacio-9dd4"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-flores-bc40",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-flores-bc40"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-formas-b5a7",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-formas-b5a7"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-frutas-eb05",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-frutas-eb05"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-herramientas-b67f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-herramientas-b67f"
+  },
+  {
+   "slug": "ingles-sopa-de-letras-hospital-8f10",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "hospital",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-hospital-525d"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-hospital-8f10"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-insectos-y-bichos-20c1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-insectos-y-bichos-9106",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-insectos-y-bichos-20c1"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-insectos-y-bichos-9106"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-insectos-y-bichos-337f",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "insects_and_bugs",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-insectos-y-bichos-337f"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-insectos-y-bichos-4ec7",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "insects_and_bugs",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-insectos-y-bichos-4ec7"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-invierno-1c7b",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-invierno-06ee",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "winter",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-invierno-1c7b"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-invierno-06ee"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-invierno-6a14",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "winter",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-invierno-6a14"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-invierno-7806",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "winter",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-invierno-7806"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-juguetes-2e7f",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-juguetes-573c",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "toys",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-juguetes-2e7f"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-juguetes-573c"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-juguetes-7a9a",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "toys",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-juguetes-7a9a"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-juguetes-f2fc",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "toys",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-juguetes-f2fc"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-mascotas-37fb",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-mascotas-3c76",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "pets",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-mascotas-37fb"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-mascotas-3c76"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-mascotas-4702",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "pets",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-mascotas-4702"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-mascotas-9735",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "pets",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-mascotas-9735"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-miscelaneo-54f8",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "miscellaneous",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-miscelaneo-54f8"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-miscelaneo-5a7d",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "miscellaneous",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-miscelaneo-5a7d"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-miscelaneo-863b",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "miscellaneous",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-miscelaneo-863b"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-muebles-321c",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-muebles-8e49",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "furniture",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-muebles-321c"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-muebles-8e49"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-muebles-67c3",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "furniture",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-muebles-67c3"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-muebles-cef2",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "furniture",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-muebles-cef2"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-musica-5918",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-musica-158e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "music",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-musica-5918"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-musica-158e"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-musica-699b",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "music",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-musica-699b"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-musica-ce10",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "music",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-musica-ce10"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-navidad-6c98",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-navidad-5775",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "christmas",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-navidad-6c98"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-navidad-5775"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-navidad-ada1",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "christmas",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-navidad-ada1"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-navidad-e51c",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "christmas",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-navidad-e51c"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-ocupaciones-6774",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-ocupaciones-68ef",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "occupations",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-ocupaciones-6774"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-ocupaciones-68ef"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-ocupaciones-c76e",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "occupations",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-ocupaciones-c76e"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-ocupaciones-d5e1",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "occupations",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-ocupaciones-d5e1"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-oficina-de-correos-2bc3",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-oficina-de-correos-2e0d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "post_office",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-oficina-de-correos-2bc3"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-oficina-de-correos-2e0d"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-oficina-de-correos-2e5f",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "post_office",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-oficina-de-correos-2e5f"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-oficina-de-correos-5864",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "post_office",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-oficina-de-correos-5864"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-panaderia-0697",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-panaderia-6bdc",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "bakery",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-panaderia-0697"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-panaderia-6bdc"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-panaderia-2c9b",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "bakery",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-panaderia-2c9b"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-panaderia-e135",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "bakery",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-panaderia-e135"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-partes-del-cuerpo-1ce7",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-partes-del-cuerpo-1406",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "body_parts",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-partes-del-cuerpo-1ce7"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-partes-del-cuerpo-1406"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-partes-del-cuerpo-7900",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "body_parts",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-partes-del-cuerpo-7900"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-partes-del-cuerpo-b505",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "body_parts",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-partes-del-cuerpo-b505"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-pascua-84d8",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-pascua-98ee",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "easter",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-pascua-84d8"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-pascua-98ee"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-pascua-9e76",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "easter",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-pascua-9e76"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-pascua-a2a6",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "easter",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-pascua-a2a6"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-playa-50dc",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-playa-a408",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "beach",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-playa-50dc"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-playa-a408"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-playa-a464",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "beach",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-playa-a464"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-playa-ad44",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "beach",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-playa-ad44"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-postres-y-dulces-3a6e",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-postres-y-dulces-c67a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-postres-y-dulces-3a6e"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-postres-y-dulces-c67a"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-postres-y-dulces-ae3b",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "desserts_and_sweets",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-postres-y-dulces-ae3b"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-postres-y-dulces-f04b",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "desserts_and_sweets",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-postres-y-dulces-f04b"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-primavera-0a2b",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "spring",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-primavera-0a2b"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-primavera-e570",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "spring",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-primavera-e570"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-reptiles-y-anfibios-2205",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "reptiles_and_amphibians",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-reptiles-y-anfibios-2205"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-reptiles-y-anfibios-77a7",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "reptiles_and_amphibians",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-reptiles-y-anfibios-77a7"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-ropa-292d",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-ropa-10b1",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "clothing",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-ropa-292d"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-ropa-10b1"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-ropa-4294",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "clothing",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-ropa-4294"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-ropa-57fd",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "clothing",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-ropa-57fd"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-salon-de-clases-aed0",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-salon-de-clases-7a0f",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "classroom",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-salon-de-clases-aed0"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-salon-de-clases-7a0f"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-salon-de-clases-be25",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "classroom",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-salon-de-clases-be25"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-salon-de-clases-c571",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "classroom",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-salon-de-clases-c571"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-utensilios-de-cocina-8739",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-utensilios-de-cocina-a976",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-utensilios-de-cocina-8739"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-utensilios-de-cocina-a976"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-utensilios-de-cocina-e4e9",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "kitchen_tools",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-utensilios-de-cocina-e4e9"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-utensilios-de-cocina-fdc5",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "kitchen_tools",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-utensilios-de-cocina-fdc5"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-vehiculos-1839",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-vehiculos-67c9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vehicles",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-vehiculos-1839"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-vehiculos-67c9"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-vehiculos-4eb9",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "vehicles",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-vehiculos-4eb9"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-vehiculos-5159",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "vehicles",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-vehiculos-5159"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-verano-0a92",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-verano-0946",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "summer",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-verano-0a92"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-verano-0946"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-verano-594a",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "summer",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-verano-594a"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-verano-7f61",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "summer",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-verano-7f61"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-verduras-521b",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-verduras-773e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vegetables",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-verduras-521b"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-verduras-773e"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-verduras-94f2",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "vegetables",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-verduras-94f2"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-verduras-bcf5",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "vegetables",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-verduras-bcf5"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-vida-marina-5476",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "ingles-sopa-de-letras-vida-marina-d426",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-vida-marina-5476"
+   "level": "language-beginner",
+   "deck": "ingles-sopa-de-letras-vida-marina-d426"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-vida-marina-6380",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "ocean_life",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-vida-marina-6380"
+   "slug": "portugues-sopa-de-letras-4-de-julio-b11b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-4-de-julio-b11b"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-vida-marina-af82",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "ocean_life",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-vida-marina-af82"
+   "slug": "portugues-sopa-de-letras-accesorios-7391",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-accesorios-7391"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-actividades-51ac",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-actividades-51ac"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-alrededor-de-la-casa-91a4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-alrededor-de-la-casa-91a4"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-animales-74a7",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-animales-74a7"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-animales-de-granja-b118",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-animales-de-granja-b118"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-animales-del-zoologico-d8eb",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-animales-del-zoologico-d8eb"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-arboles-25ac",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tree",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-arboles-25ac"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-aves-2-5ab7",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-aves-2-5ab7"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-aves-2b29",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-aves-2b29"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-campamento-378f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-campamento-378f"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-clima-732f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-clima-732f"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-colores-2bcd",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-colores-2bcd"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-cosas-que-vuelan-89a6",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-cosas-que-vuelan-89a6"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-criaturas-del-bosque-9f9a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-criaturas-del-bosque-9f9a"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-desayuno-9ead",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-desayuno-9ead"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-dia-de-accion-de-gracias-cf8a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-dia-de-accion-de-gracias-cf8a"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-emociones-e35a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-emociones-e35a"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-en-el-supermercado-1873",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-en-el-supermercado-1873"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-espacio-a29c",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-espacio-a29c"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-flores-926b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-flores-926b"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-formas-e57d",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-formas-e57d"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-frutas-3b29",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-frutas-3b29"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-herramientas-3b92",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-herramientas-3b92"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-hospital-d045",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-hospital-d045"
   }
  ]
 }

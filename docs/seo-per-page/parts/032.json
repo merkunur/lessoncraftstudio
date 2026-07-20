@@ -2,811 +2,803 @@
  "part": 32,
  "locale": "en",
  "classes": [
-  "pattern-train::aabb",
-  "pattern-train::abb"
+  "subtraction::cross-out",
+  "prepositions::multiplechoice"
  ],
  "splitOf": null,
- "count": 100,
+ "count": 99,
  "pages": [
   {
-   "slug": "pattern-train-aabb-4th-of-july",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-4th-of-july",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "4th_of_july",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-4th-of-july"
+   "deck": "subtraction-cross-out-4th-of-july"
   },
   {
-   "slug": "pattern-train-aabb-accessories",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-accessories",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "accessories",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-accessories"
+   "deck": "subtraction-cross-out-accessories"
   },
   {
-   "slug": "pattern-train-aabb-activities",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "pattern-train-aabb-activities"
-  },
-  {
-   "slug": "pattern-train-aabb-animals",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-animals-kindergarten",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "animals",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-animals"
+   "deck": "subtraction-cross-out"
   },
   {
-   "slug": "pattern-train-aabb-around-the-house",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-around-the-house",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "around_the_house",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-around-the-house"
+   "deck": "subtraction-cross-out-around-the-house"
   },
   {
-   "slug": "pattern-train-aabb-at-the-supermarket",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-at-the-supermarket",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "at_the_supermarket",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-at-the-supermarket"
+   "deck": "subtraction-cross-out-at-the-supermarket"
   },
   {
-   "slug": "pattern-train-aabb-bakery",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-bakery",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "bakery",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-bakery"
+   "deck": "subtraction-cross-out-bakery"
   },
   {
-   "slug": "pattern-train-aabb-beach",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-beach",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "beach",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-beach"
+   "deck": "subtraction-cross-out-beach"
   },
   {
-   "slug": "pattern-train-aabb-birds",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-birds",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-birds"
+   "deck": "subtraction-cross-out-birds"
   },
   {
-   "slug": "pattern-train-aabb-birds-2",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-birds-2",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds_2",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-birds-2"
+   "deck": "subtraction-cross-out-birds-2"
   },
   {
-   "slug": "pattern-train-aabb-body-parts",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "body_parts",
-   "level": "kindergarten",
-   "deck": "pattern-train-aabb-body-parts"
-  },
-  {
-   "slug": "pattern-train-aabb-breakfast",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-breakfast",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "breakfast",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-breakfast"
+   "deck": "subtraction-cross-out-breakfast"
   },
   {
-   "slug": "pattern-train-aabb-camping",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-camping",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "camping",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-camping"
+   "deck": "subtraction-cross-out-camping"
   },
   {
-   "slug": "pattern-train-aabb-christmas",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-christmas",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "christmas",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-christmas"
+   "deck": "subtraction-cross-out-christmas"
   },
   {
-   "slug": "pattern-train-aabb-classroom",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-classroom",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "classroom",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-classroom"
+   "deck": "subtraction-cross-out-classroom"
   },
   {
-   "slug": "pattern-train-aabb-clothing",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-clothing",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "clothing",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-clothing"
+   "deck": "subtraction-cross-out-clothing"
   },
   {
-   "slug": "pattern-train-aabb-colors",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "colors",
-   "level": "kindergarten",
-   "deck": "pattern-train-aabb-colors"
-  },
-  {
-   "slug": "pattern-train-aabb-desserts-and-sweets",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-desserts-and-sweets",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "desserts_and_sweets",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-desserts-and-sweets"
+   "deck": "subtraction-cross-out-desserts-and-sweets"
   },
   {
-   "slug": "pattern-train-aabb-dinosaurs",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-dinosaurs",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "dinosaurs",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-dinosaurs"
+   "deck": "subtraction-cross-out-dinosaurs"
   },
   {
-   "slug": "pattern-train-aabb-easter",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-easter",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "easter",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-easter"
+   "deck": "subtraction-cross-out-easter"
   },
   {
-   "slug": "pattern-train-aabb-emotions",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "emotions",
+   "slug": "subtraction-cross-out-faces-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "faces_bw",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-emotions"
+   "deck": "subtraction-cross-out-faces-bw"
   },
   {
-   "slug": "pattern-train-aabb-farm-animals",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-farm-animals",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "farm_animals",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-farm-animals"
+   "deck": "subtraction-cross-out-farm-animals"
   },
   {
-   "slug": "pattern-train-aabb-flowers",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-flowers",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "flowers",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-flowers"
+   "deck": "subtraction-cross-out-flowers"
   },
   {
-   "slug": "pattern-train-aabb-forest-creatures",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-forest-creatures",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "forest_creatures",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-forest-creatures"
+   "deck": "subtraction-cross-out-forest-creatures"
   },
   {
-   "slug": "pattern-train-aabb-fruits",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-fruits",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "fruits",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-fruits"
+   "deck": "subtraction-cross-out-fruits"
   },
   {
-   "slug": "pattern-train-aabb-furniture",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-furniture",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "furniture",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-furniture"
+   "deck": "subtraction-cross-out-furniture"
   },
   {
-   "slug": "pattern-train-aabb-hospital",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-home-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "home_bw",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-home-bw"
+  },
+  {
+   "slug": "subtraction-cross-out-hospital",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "hospital",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-hospital"
+   "deck": "subtraction-cross-out-hospital"
   },
   {
-   "slug": "pattern-train-aabb-insects-and-bugs",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-household-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "household_bw",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-household-bw"
+  },
+  {
+   "slug": "subtraction-cross-out-insects-and-bugs",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "insects_and_bugs",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-insects-and-bugs"
+   "deck": "subtraction-cross-out-insects-and-bugs"
   },
   {
-   "slug": "pattern-train-aabb-kitchen-tools",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-kitchen-tools",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "kitchen_tools",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-kitchen-tools"
+   "deck": "subtraction-cross-out-kitchen-tools"
   },
   {
-   "slug": "pattern-train-aabb-miscellaneous",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-miscellaneous",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "miscellaneous",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-miscellaneous"
+   "deck": "subtraction-cross-out-miscellaneous"
   },
   {
-   "slug": "pattern-train-aabb-music",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-music",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "music",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-music"
+   "deck": "subtraction-cross-out-music"
   },
   {
-   "slug": "pattern-train-aabb-occupations",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-nature-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "nature_bw",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-nature-bw"
+  },
+  {
+   "slug": "subtraction-cross-out-objects-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "objects_bw",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-objects-bw"
+  },
+  {
+   "slug": "subtraction-cross-out-occupations",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "occupations",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-occupations"
+   "deck": "subtraction-cross-out-occupations"
   },
   {
-   "slug": "pattern-train-aabb-ocean-life",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-ocean-life",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "ocean_life",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-ocean-life"
+   "deck": "subtraction-cross-out-ocean-life"
   },
   {
-   "slug": "pattern-train-aabb-pets",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-pets",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "pets",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-pets"
+   "deck": "subtraction-cross-out-pets"
   },
   {
-   "slug": "pattern-train-aabb-post-office",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-post-office",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "post_office",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-post-office"
+   "deck": "subtraction-cross-out-post-office"
   },
   {
-   "slug": "pattern-train-aabb-reptiles-and-amphibians",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-reptiles-and-amphibians",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "reptiles_and_amphibians",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-reptiles-and-amphibians"
+   "deck": "subtraction-cross-out-reptiles-and-amphibians"
   },
   {
-   "slug": "pattern-train-aabb-shapes",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-shapes",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "shapes",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-shapes"
+   "deck": "subtraction-cross-out-shapes"
   },
   {
-   "slug": "pattern-train-aabb-space",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-space",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "space",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-space"
+   "deck": "subtraction-cross-out-space"
   },
   {
-   "slug": "pattern-train-aabb-spring",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "spring",
+   "slug": "subtraction-cross-out-sports-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "sports_bw",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-spring"
+   "deck": "subtraction-cross-out-sports-bw"
   },
   {
-   "slug": "pattern-train-aabb-summer",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "summer",
-   "level": "kindergarten",
-   "deck": "pattern-train-aabb-summer"
-  },
-  {
-   "slug": "pattern-train-aabb-thanksgiving",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-thanksgiving",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "thanksgivinng",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-thanksgiving"
+   "deck": "subtraction-cross-out-thanksgiving"
   },
   {
-   "slug": "pattern-train-aabb-things-that-fly",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-things-that-fly",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "things_that_fly",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-things-that-fly"
+   "deck": "subtraction-cross-out-things-that-fly"
   },
   {
-   "slug": "pattern-train-aabb-tools",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-tools",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tools",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-tools"
+   "deck": "subtraction-cross-out-tools"
   },
   {
-   "slug": "pattern-train-aabb-toys",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-toys",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "toys",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-toys"
+   "deck": "subtraction-cross-out-toys"
   },
   {
-   "slug": "pattern-train-aabb-tree",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-tree",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tree",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-tree"
+   "deck": "subtraction-cross-out-tree"
   },
   {
-   "slug": "pattern-train-aabb-vegetables",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-valentine-bw",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "valentine_bw",
+   "level": "kindergarten",
+   "deck": "subtraction-cross-out-valentine-bw"
+  },
+  {
+   "slug": "subtraction-cross-out-vegetables",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vegetables",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-vegetables"
+   "deck": "subtraction-cross-out-vegetables"
   },
   {
-   "slug": "pattern-train-aabb-vehicles",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-vehicles",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vehicles",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-vehicles"
+   "deck": "subtraction-cross-out-vehicles"
   },
   {
-   "slug": "pattern-train-aabb-weather",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "weather",
-   "level": "kindergarten",
-   "deck": "pattern-train-aabb-weather"
-  },
-  {
-   "slug": "pattern-train-aabb-winter",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "winter",
-   "level": "kindergarten",
-   "deck": "pattern-train-aabb-winter"
-  },
-  {
-   "slug": "pattern-train-aabb-zoo-animals",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "subtraction-cross-out-zoo-animals",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "zoo_animals",
    "level": "kindergarten",
-   "deck": "pattern-train-aabb-zoo-animals"
+   "deck": "subtraction-cross-out-zoo-animals"
   },
   {
-   "slug": "pattern-train-abb-4th-of-july",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-4th-of-july",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "4th_of_july",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-4th-of-july"
+   "deck": "prepositions-multiplechoice-4th-of-july"
   },
   {
-   "slug": "pattern-train-abb-accessories",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-accessories",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "accessories",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-accessories"
+   "deck": "prepositions-multiplechoice-accessories"
   },
   {
-   "slug": "pattern-train-abb-activities",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-activities",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "activities",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-activities"
+   "deck": "prepositions-multiplechoice-activities"
   },
   {
-   "slug": "pattern-train-abb-animals",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-animals",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "animals",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-animals"
+   "deck": "prepositions-multiplechoice-animals"
   },
   {
-   "slug": "pattern-train-abb-around-the-house",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-around-the-house",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "around_the_house",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-around-the-house"
+   "deck": "prepositions-multiplechoice-around-the-house"
   },
   {
-   "slug": "pattern-train-abb-at-the-supermarket",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-at-the-supermarket",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "at_the_supermarket",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-at-the-supermarket"
+   "deck": "prepositions-multiplechoice-at-the-supermarket"
   },
   {
-   "slug": "pattern-train-abb-bakery",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-bakery",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "bakery",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-bakery"
+   "deck": "prepositions-multiplechoice-bakery"
   },
   {
-   "slug": "pattern-train-abb-beach",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-beach",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "beach",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-beach"
+   "deck": "prepositions-multiplechoice-beach"
   },
   {
-   "slug": "pattern-train-abb-birds",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-birds",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "birds",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-birds"
+   "deck": "prepositions-multiplechoice-birds"
   },
   {
-   "slug": "pattern-train-abb-birds-2",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-birds-2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "birds_2",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-birds-2"
+   "deck": "prepositions-multiplechoice-birds-2"
   },
   {
-   "slug": "pattern-train-abb-body-parts",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-body-parts",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "body_parts",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-body-parts"
+   "deck": "prepositions-multiplechoice-body-parts"
   },
   {
-   "slug": "pattern-train-abb-breakfast",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-breakfast",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "breakfast",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-breakfast"
+   "deck": "prepositions-multiplechoice-breakfast"
   },
   {
-   "slug": "pattern-train-abb-camping",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-camping",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "camping",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-camping"
+   "deck": "prepositions-multiplechoice-camping"
   },
   {
-   "slug": "pattern-train-abb-christmas",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-christmas",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "christmas",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-christmas"
+   "deck": "prepositions-multiplechoice-christmas"
   },
   {
-   "slug": "pattern-train-abb-classroom",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-classroom",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "classroom",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-classroom"
+   "deck": "prepositions-multiplechoice-classroom"
   },
   {
-   "slug": "pattern-train-abb-clothing",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-clothing",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "clothing",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-clothing"
+   "deck": "prepositions-multiplechoice-clothing"
   },
   {
-   "slug": "pattern-train-abb-colors",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-colors",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "colors",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-colors"
+   "deck": "prepositions-multiplechoice-colors"
   },
   {
-   "slug": "pattern-train-abb-desserts-and-sweets",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-desserts-and-sweets",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "desserts_and_sweets",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-desserts-and-sweets"
+   "deck": "prepositions-multiplechoice-desserts-and-sweets"
   },
   {
-   "slug": "pattern-train-abb-dinosaurs",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-dinosaurs",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "dinosaurs",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-dinosaurs"
+   "deck": "prepositions-multiplechoice-dinosaurs"
   },
   {
-   "slug": "pattern-train-abb-easter",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-easter",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "easter",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-easter"
+   "deck": "prepositions-multiplechoice-easter"
   },
   {
-   "slug": "pattern-train-abb-emotions",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-emotions",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "emotions",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-emotions"
+   "deck": "prepositions-multiplechoice-emotions"
   },
   {
-   "slug": "pattern-train-abb-farm-animals",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-farm-animals",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "farm_animals",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-farm-animals"
+   "deck": "prepositions-multiplechoice-farm-animals"
   },
   {
-   "slug": "pattern-train-abb-flowers",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-flowers",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "flowers",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-flowers"
+   "deck": "prepositions-multiplechoice-flowers"
   },
   {
-   "slug": "pattern-train-abb-forest-creatures",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-forest-creatures",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "forest_creatures",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-forest-creatures"
+   "deck": "prepositions-multiplechoice-forest-creatures"
   },
   {
-   "slug": "pattern-train-abb-fruits",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-fruits",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "fruits",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-fruits"
+   "deck": "prepositions-multiplechoice-fruits"
   },
   {
-   "slug": "pattern-train-abb-furniture",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-furniture",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "furniture",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-furniture"
+   "deck": "prepositions-multiplechoice-furniture"
   },
   {
-   "slug": "pattern-train-abb-hospital",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-hospital",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "hospital",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-hospital"
+   "deck": "prepositions-multiplechoice-hospital"
   },
   {
-   "slug": "pattern-train-abb-insects-and-bugs",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-insects-and-bugs",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "insects_and_bugs",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-insects-and-bugs"
+   "deck": "prepositions-multiplechoice-insects-and-bugs"
   },
   {
-   "slug": "pattern-train-abb-kitchen-tools",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-kitchen-tools",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "kitchen_tools",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-kitchen-tools"
+   "deck": "prepositions-multiplechoice-kitchen-tools"
   },
   {
-   "slug": "pattern-train-abb-miscellaneous",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-miscellaneous",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "miscellaneous",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-miscellaneous"
+   "deck": "prepositions-multiplechoice-miscellaneous"
   },
   {
-   "slug": "pattern-train-abb-music",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-music",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "music",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-music"
+   "deck": "prepositions-multiplechoice-music"
   },
   {
-   "slug": "pattern-train-abb-occupations",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-occupations",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "occupations",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-occupations"
+   "deck": "prepositions-multiplechoice-occupations"
   },
   {
-   "slug": "pattern-train-abb-ocean-life",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-ocean-life",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "ocean_life",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-ocean-life"
+   "deck": "prepositions-multiplechoice-ocean-life"
   },
   {
-   "slug": "pattern-train-abb-pets",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-pets",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "pets",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-pets"
+   "deck": "prepositions-multiplechoice-pets"
   },
   {
-   "slug": "pattern-train-abb-post-office",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-post-office",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "post_office",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-post-office"
+   "deck": "prepositions-multiplechoice-post-office"
   },
   {
-   "slug": "pattern-train-abb-reptiles-and-amphibians",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-reptiles-and-amphibians",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "reptiles_and_amphibians",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-reptiles-and-amphibians"
+   "deck": "prepositions-multiplechoice-reptiles-and-amphibians"
   },
   {
-   "slug": "pattern-train-abb-shapes",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-shapes",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "shapes",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-shapes"
+   "deck": "prepositions-multiplechoice-shapes"
   },
   {
-   "slug": "pattern-train-abb-space",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-space",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "space",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-space"
+   "deck": "prepositions-multiplechoice-space"
   },
   {
-   "slug": "pattern-train-abb-spring",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-spring",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "spring",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-spring"
+   "deck": "prepositions-multiplechoice-spring"
   },
   {
-   "slug": "pattern-train-abb-summer",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-summer",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "summer",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-summer"
+   "deck": "prepositions-multiplechoice-summer"
   },
   {
-   "slug": "pattern-train-abb-thanksgiving",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-thanksgiving",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "thanksgivinng",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-thanksgiving"
+   "deck": "prepositions-multiplechoice-thanksgiving"
   },
   {
-   "slug": "pattern-train-abb-things-that-fly",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-things-that-fly",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "things_that_fly",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-things-that-fly"
+   "deck": "prepositions-multiplechoice-things-that-fly"
   },
   {
-   "slug": "pattern-train-abb-tools",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-tools",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "tools",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-tools"
+   "deck": "prepositions-multiplechoice-tools"
   },
   {
-   "slug": "pattern-train-abb-toys",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-toys",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "toys",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-toys"
+   "deck": "prepositions-multiplechoice-toys"
   },
   {
-   "slug": "pattern-train-abb-tree",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-tree",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "tree",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-tree"
+   "deck": "prepositions-multiplechoice-tree"
   },
   {
-   "slug": "pattern-train-abb-vegetables",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-vegetables",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "vegetables",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-vegetables"
+   "deck": "prepositions-multiplechoice-vegetables"
   },
   {
-   "slug": "pattern-train-abb-vehicles",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-vehicles",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "vehicles",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-vehicles"
+   "deck": "prepositions-multiplechoice-vehicles"
   },
   {
-   "slug": "pattern-train-abb-weather",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-weather",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "weather",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-weather"
+   "deck": "prepositions-multiplechoice-weather"
   },
   {
-   "slug": "pattern-train-abb-winter",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-winter",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "winter",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-winter"
+   "deck": "prepositions-multiplechoice-winter"
   },
   {
-   "slug": "pattern-train-abb-zoo-animals",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "prepositions-multiplechoice-zoo-animals",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "zoo_animals",
    "level": "kindergarten",
-   "deck": "pattern-train-abb-zoo-animals"
+   "deck": "prepositions-multiplechoice-zoo-animals"
   }
  ]
 }

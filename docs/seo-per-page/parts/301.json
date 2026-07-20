@@ -2,779 +2,635 @@
  "part": 301,
  "locale": "no",
  "classes": [
-  "sudoku::easy",
-  "treasure-hunt::cardinal-arrows"
+  "subtraction::cross-out",
+  "subtraction::image-number"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 78,
  "pages": [
   {
-   "slug": "bildesudoku-lett-aktiviteter-724d",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "activities",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-aktiviteter-724d"
-  },
-  {
-   "slug": "bildesudoku-lett-bakeri-a2f2",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-bakeri-0389",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-bakeri-a2f2"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-bakeri-0389"
   },
   {
-   "slug": "bildesudoku-lett-blomster-a771",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-blomster-10e1",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-blomster-a771"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-blomster-10e1"
   },
   {
-   "slug": "bildesudoku-lett-camping-a4bd",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-camping-35de",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "camping",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-camping-a4bd"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-camping-35de"
   },
   {
-   "slug": "bildesudoku-lett-desserter-og-godteri-b8e8",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-desserter-og-godteri-4194",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-desserter-og-godteri-b8e8"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-desserter-og-godteri-4194"
   },
   {
-   "slug": "bildesudoku-lett-dinosaurer-b511",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-dinosaurer-f6c8",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-dinosaurer-b511"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-dinosaurer-f6c8"
   },
   {
-   "slug": "bildesudoku-lett-dyr-5f09",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-dyr-407b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "animals",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-dyr-5f09"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-dyr-407b"
   },
   {
-   "slug": "bildesudoku-lett-dyrehagedyr-15a3",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-dyrehagedyr-15a3"
-  },
-  {
-   "slug": "bildesudoku-lett-farger-afcc",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "colors",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-farger-afcc"
-  },
-  {
-   "slug": "bildesudoku-lett-folelser-0c91",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-folelser-0c91"
-  },
-  {
-   "slug": "bildesudoku-lett-former-f4cd",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-former-ecd2",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-former-f4cd"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-former-ecd2"
   },
   {
-   "slug": "bildesudoku-lett-frokost-8872",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-frokost-28ea",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-frokost-8872"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-frokost-28ea"
   },
   {
-   "slug": "bildesudoku-lett-frukter-1053",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-frukter-d4ad",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-frukter-1053"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-frukter-d4ad"
   },
   {
-   "slug": "bildesudoku-lett-fugler-2-3a12",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-fugler-2-efe1",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-fugler-2-3a12"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-fugler-2-efe1"
   },
   {
-   "slug": "bildesudoku-lett-fugler-3416",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-fugler-eceb",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-fugler-3416"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-fugler-eceb"
   },
   {
-   "slug": "bildesudoku-lett-gardsdyr-cc94",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-gardsdyr-2466",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-gardsdyr-cc94"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-gardsdyr-2466"
   },
   {
-   "slug": "bildesudoku-lett-gronnsaker-58e4",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-gronnsaker-39ec",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-gronnsaker-58e4"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-gronnsaker-39ec"
   },
   {
-   "slug": "bildesudoku-lett-havliv-bfce",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-havliv-5d5c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-havliv-bfce"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-havliv-5d5c"
   },
   {
-   "slug": "bildesudoku-lett-i-supermarkedet-6251",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-i-supermarkedet-110f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-i-supermarkedet-6251"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-i-supermarkedet-110f"
   },
   {
-   "slug": "bildesudoku-lett-insekter-og-kryp-0160",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-insekter-og-kryp-57c5",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-insekter-og-kryp-0160"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-insekter-og-kryp-57c5"
   },
   {
-   "slug": "bildesudoku-lett-jul-de57",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-jul-7de2",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-jul-de57"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-jul-7de2"
   },
   {
-   "slug": "bildesudoku-lett-kjaeledyr-2551",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-kjaeledyr-2908",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "pets",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-kjaeledyr-2551"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-kjaeledyr-2908"
   },
   {
-   "slug": "bildesudoku-lett-kjokkenredskaper-156c",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-kjokkenredskaper-9fdf",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-kjokkenredskaper-156c"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-kjokkenredskaper-9fdf"
   },
   {
-   "slug": "bildesudoku-lett-kjoretoy-4941",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-kjoretoy-5b01",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-kjoretoy-4941"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-kjoretoy-5b01"
   },
   {
-   "slug": "bildesudoku-lett-klaer-41c0",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-klaer-835a",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-klaer-41c0"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-klaer-835a"
   },
   {
-   "slug": "bildesudoku-lett-klasserom-8bb5",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-klasserom-d817",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-klasserom-8bb5"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-klasserom-d817"
   },
   {
-   "slug": "bildesudoku-lett-kroppsdeler-1729",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-kroppsdeler-1729"
-  },
-  {
-   "slug": "bildesudoku-lett-leker-740e",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-leker-83c9",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "toys",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-leker-740e"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-leker-83c9"
   },
   {
-   "slug": "bildesudoku-lett-mobler-313f",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-mobler-edb0",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-mobler-313f"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-mobler-edb0"
   },
   {
-   "slug": "bildesudoku-lett-musikk-d805",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-musikk-ce22",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "music",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-musikk-d805"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-musikk-ce22"
   },
   {
-   "slug": "bildesudoku-lett-paske-981b",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-paske-2e5f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "easter",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-paske-981b"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-paske-2e5f"
   },
   {
-   "slug": "bildesudoku-lett-postkontor-72dc",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-postkontor-9369",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-postkontor-72dc"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-postkontor-9369"
   },
   {
-   "slug": "bildesudoku-lett-reptiler-og-amfibier-fac5",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-reptiler-og-amfibier-7e77",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-reptiler-og-amfibier-fac5"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-reptiler-og-amfibier-7e77"
   },
   {
-   "slug": "bildesudoku-lett-rundt-i-huset-bf4f",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-rundt-i-huset-ba6c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-rundt-i-huset-bf4f"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-rundt-i-huset-ba6c"
   },
   {
-   "slug": "bildesudoku-lett-skogsdyr-d2e6",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-skogsdyr-65af",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-skogsdyr-d2e6"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-skogsdyr-65af"
   },
   {
-   "slug": "bildesudoku-lett-sommer-8b26",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "summer",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-sommer-8b26"
-  },
-  {
-   "slug": "bildesudoku-lett-strand-01c3",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-strand-9df6",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "beach",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-strand-01c3"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-strand-9df6"
   },
   {
-   "slug": "bildesudoku-lett-sykehus-f08e",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-sykehus-5b60",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-sykehus-f08e"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-sykehus-5b60"
   },
   {
-   "slug": "bildesudoku-lett-thanksgiving-041f",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-thanksgiving-a708",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-thanksgiving-041f"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-thanksgiving-a708"
   },
   {
-   "slug": "bildesudoku-lett-tilbehor-ce95",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-tilbehor-4bf9",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-tilbehor-ce95"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-tilbehor-4bf9"
   },
   {
-   "slug": "bildesudoku-lett-ting-som-flyr-6d98",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-ting-som-flyr-b5c9",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-ting-som-flyr-6d98"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-ting-som-flyr-b5c9"
   },
   {
-   "slug": "bildesudoku-lett-traer-b871",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-traer-1a43",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tree",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-traer-b871"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-traer-1a43"
   },
   {
-   "slug": "bildesudoku-lett-vaer-f1bd",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "weather",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-vaer-f1bd"
-  },
-  {
-   "slug": "bildesudoku-lett-var-088f",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "spring",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-var-088f"
-  },
-  {
-   "slug": "bildesudoku-lett-verdensrommet-4eeb",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-verdensrommet-3e0e",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "space",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-verdensrommet-4eeb"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-verdensrommet-3e0e"
   },
   {
-   "slug": "bildesudoku-lett-verktoy-9089",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-verktoy-ab62",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tools",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-verktoy-9089"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-verktoy-ab62"
   },
   {
-   "slug": "bildesudoku-lett-vinter-1e38",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "winter",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-vinter-1e38"
-  },
-  {
-   "slug": "bildesudoku-lett-yrker-c186",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "subtraksjon-strek-over-yrker-ad83",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "bildesudoku-lett-yrker-c186"
+   "level": "2-trinn",
+   "deck": "subtraksjon-strek-over-yrker-ad83"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-aktiviteter-78bd",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "activities",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-aktiviteter-78bd"
-  },
-  {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-bakeri-1bb5",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-bakeri-58ca",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-bakeri-1bb5"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-bakeri-58ca"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-blomster-5e10",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-blomster-d188",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-blomster-5e10"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-blomster-d188"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-camping-bb82",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-camping-6d6b",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "camping",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-camping-bb82"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-camping-6d6b"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-desserter-og-godteri-d8d2",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-desserter-og-godteri-9f33",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-desserter-og-godteri-d8d2"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-desserter-og-godteri-9f33"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-dinosaurer-2b74",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-dinosaurer-a3d9",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-dinosaurer-2b74"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-dinosaurer-a3d9"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-dyr-8c13",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-dyr-0fbe",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "animals",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-dyr-8c13"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-dyr-0fbe"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-dyrehagedyr-eb98",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-dyrehagedyr-29bb",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-dyrehagedyr-eb98"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-dyrehagedyr-29bb"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-farger-cb5a",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "colors",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-farger-cb5a"
-  },
-  {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-folelser-455f",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-folelser-455f"
-  },
-  {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-former-68e7",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-former-4e65",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-former-68e7"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-former-4e65"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-frokost-2b92",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-frokost-031d",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-frokost-2b92"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-frokost-031d"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-frukter-4c1f",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-frukter-4c1f"
-  },
-  {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-fugler-2-be76",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-fugler-2-921b",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-fugler-2-be76"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-fugler-2-921b"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-fugler-430c",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-fugler-7107",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "birds",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-fugler-430c"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-fugler-7107"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-gardsdyr-c747",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-gardsdyr-e7f8",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-gardsdyr-c747"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-gardsdyr-e7f8"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-gronnsaker-a143",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-gronnsaker-4bea",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-gronnsaker-a143"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-gronnsaker-4bea"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-havliv-ce94",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-havliv-6f97",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-havliv-ce94"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-havliv-6f97"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-i-supermarkedet-a54d",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-i-supermarkedet-ca1b",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-i-supermarkedet-a54d"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-i-supermarkedet-ca1b"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-insekter-og-kryp-3eb6",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-insekter-og-kryp-9734",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-insekter-og-kryp-3eb6"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-insekter-og-kryp-9734"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-jul-fbbe",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-jul-deef",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-jul-fbbe"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-jul-deef"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-kjaeledyr-8bfa",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-kjaeledyr-2bf7",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "pets",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-kjaeledyr-8bfa"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-kjaeledyr-2bf7"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-kjokkenredskaper-955a",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-kjokkenredskaper-9c3b",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-kjokkenredskaper-955a"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-kjokkenredskaper-9c3b"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-kjoretoy-23b2",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-kjoretoy-45e1",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-kjoretoy-23b2"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-kjoretoy-45e1"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-klaer-0064",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-klaer-def5",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-klaer-0064"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-klaer-def5"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-klasserom-07ad",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-klasserom-63e7",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-klasserom-07ad"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-klasserom-63e7"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-kroppsdeler-68d0",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-kroppsdeler-68d0"
-  },
-  {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-leker-45a0",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-leker-6057",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "toys",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-leker-45a0"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-leker-6057"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-mobler-97b3",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-mobler-5ce8",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-mobler-97b3"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-mobler-5ce8"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-musikk-a8b7",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-musikk-5fb7",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "music",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-musikk-a8b7"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-musikk-5fb7"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-paske-5b08",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-paske-8589",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "easter",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-paske-5b08"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-paske-8589"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-postkontor-9267",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-postkontor-3057",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-postkontor-9267"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-postkontor-3057"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-reptiler-og-amfibier-f028",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-reptiler-og-amfibier-d319",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-reptiler-og-amfibier-f028"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-reptiler-og-amfibier-d319"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-rundt-i-huset-41e8",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-rundt-i-huset-a869",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-rundt-i-huset-41e8"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-rundt-i-huset-a869"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-skogsdyr-adcc",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-skogsdyr-37c3",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-skogsdyr-adcc"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-skogsdyr-37c3"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-sommer-9edd",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "summer",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-sommer-9edd"
-  },
-  {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-strand-fbb8",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-strand-ff10",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "beach",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-strand-fbb8"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-strand-ff10"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-sykehus-59dc",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-sykehus-fb1e",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-sykehus-59dc"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-sykehus-fb1e"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-thanksgiving-c6e3",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-thanksgiving-b6ad",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-thanksgiving-c6e3"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-thanksgiving-b6ad"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-tilbehor-93b8",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-tilbehor-7701",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-tilbehor-93b8"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-tilbehor-7701"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-ting-som-flyr-e11f",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-ting-som-flyr-b345",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-ting-som-flyr-e11f"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-ting-som-flyr-b345"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-traer-afd0",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-traer-99d0",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "tree",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-traer-afd0"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-traer-99d0"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-vaer-4041",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "weather",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-vaer-4041"
-  },
-  {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-var-c5f1",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "spring",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-var-c5f1"
-  },
-  {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-verdensrommet-6ba2",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-verdensrommet-ac1a",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "space",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-verdensrommet-6ba2"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-verdensrommet-ac1a"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-verktoy-e9ee",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-verktoy-6510",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "tools",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-verktoy-e9ee"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-verktoy-6510"
   },
   {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-vinter-4154",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "winter",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-vinter-4154"
-  },
-  {
-   "slug": "skattejakt-opp-ned-venstre-hoyre-yrker-e0c3",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "subtraksjon-bilde-tall-yrker-8e08",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "skattejakt-opp-ned-venstre-hoyre-yrker-e0c3"
+   "level": "2-trinn",
+   "deck": "subtraksjon-bilde-tall-yrker-8e08"
   }
  ]
 }

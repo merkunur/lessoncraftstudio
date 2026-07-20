@@ -2,779 +2,754 @@
  "part": 265,
  "locale": "da",
  "classes": [
-  "pattern-train::null",
-  "pattern-worksheet::null"
+  "crossword::null"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 93,
  "pages": [
   {
-   "slug": "monstertoget-aktiviteter-9657",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-4-juli-fbc9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-4-juli-fbc9"
+  },
+  {
+   "slug": "engelsk-krydsord-aktiviteter-a733",
+   "type": "crossword",
    "mode": null,
    "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aktiviteter-9657"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-aktiviteter-a733"
   },
   {
-   "slug": "monstertoget-bageri-b3a3",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-bageri-308a",
+   "type": "crossword",
    "mode": null,
    "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-bageri-b3a3"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-bageri-308a"
   },
   {
-   "slug": "monstertoget-blomster-ebcc",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-blomster-50d8",
+   "type": "crossword",
    "mode": null,
    "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-blomster-ebcc"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-blomster-50d8"
   },
   {
-   "slug": "monstertoget-bondegardsdyr-1dd1",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-bondegardsdyr-8b5f",
+   "type": "crossword",
    "mode": null,
    "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-bondegardsdyr-1dd1"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-bondegardsdyr-8b5f"
   },
   {
-   "slug": "monstertoget-camping-14b2",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-camping-ec82",
+   "type": "crossword",
    "mode": null,
    "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-camping-14b2"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-camping-ec82"
   },
   {
-   "slug": "monstertoget-desserter-og-slik-2a2a",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-desserter-og-slik-2a2a"
-  },
-  {
-   "slug": "monstertoget-dinosaurer-d998",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-dinosaurer-d998"
-  },
-  {
-   "slug": "monstertoget-dyr-91cc",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-dyr-139f",
+   "type": "crossword",
    "mode": null,
    "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-dyr-91cc"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-dyr-139f"
   },
   {
-   "slug": "monstertoget-erhverv-d133",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-erhverv-ee25",
+   "type": "crossword",
    "mode": null,
    "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-erhverv-d133"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-erhverv-ee25"
   },
   {
-   "slug": "monstertoget-farver-a580",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-farver-8e10",
+   "type": "crossword",
    "mode": null,
    "theme": "colors",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-farver-a580"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-farver-8e10"
   },
   {
-   "slug": "monstertoget-folelser-a9b3",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-folelser-13fd",
+   "type": "crossword",
    "mode": null,
    "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-folelser-a9b3"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-folelser-13fd"
   },
   {
-   "slug": "monstertoget-forar-da60",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-forar-2765",
+   "type": "crossword",
    "mode": null,
    "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-forar-da60"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-forar-2765"
   },
   {
-   "slug": "monstertoget-former-d8ea",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-former-6a61",
+   "type": "crossword",
    "mode": null,
    "theme": "shapes",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-former-d8ea"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-former-6a61"
   },
   {
-   "slug": "monstertoget-frugter-fdff",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-frugter-df66",
+   "type": "crossword",
    "mode": null,
    "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-frugter-fdff"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-frugter-df66"
   },
   {
-   "slug": "monstertoget-fugle-2-8386",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-fugle-2-45a2",
+   "type": "crossword",
    "mode": null,
    "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-fugle-2-8386"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-fugle-2-45a2"
   },
   {
-   "slug": "monstertoget-fugle-f901",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-fugle-92fb",
+   "type": "crossword",
    "mode": null,
    "theme": "birds",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-fugle-f901"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-fugle-92fb"
   },
   {
-   "slug": "monstertoget-grontsager-83f1",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-grontsager-8184",
+   "type": "crossword",
    "mode": null,
    "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-grontsager-83f1"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-grontsager-8184"
   },
   {
-   "slug": "monstertoget-havliv-5330",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-havliv-808a",
+   "type": "crossword",
    "mode": null,
    "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-havliv-5330"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-havliv-808a"
   },
   {
-   "slug": "monstertoget-hospital-bddb",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-hospital-f317",
+   "type": "crossword",
    "mode": null,
    "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-hospital-bddb"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-hospital-f317"
   },
   {
-   "slug": "monstertoget-i-supermarkedet-2d80",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-i-supermarkedet-6bc2",
+   "type": "crossword",
    "mode": null,
    "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-i-supermarkedet-2d80"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-i-supermarkedet-6bc2"
   },
   {
-   "slug": "monstertoget-insekter-og-kryb-75a0",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-insekter-og-kryb-8220",
+   "type": "crossword",
    "mode": null,
    "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-insekter-og-kryb-75a0"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-insekter-og-kryb-8220"
   },
   {
-   "slug": "monstertoget-jul-4266",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-jul-4a25",
+   "type": "crossword",
    "mode": null,
    "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-jul-4266"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-jul-4a25"
   },
   {
-   "slug": "monstertoget-kaeledyr-dec9",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-kaeledyr-9b51",
+   "type": "crossword",
    "mode": null,
    "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-kaeledyr-dec9"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-kaeledyr-9b51"
   },
   {
-   "slug": "monstertoget-klassevaerelse-2581",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-klassevaerelse-ed6b",
+   "type": "crossword",
    "mode": null,
    "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-klassevaerelse-2581"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-klassevaerelse-ed6b"
   },
   {
-   "slug": "monstertoget-kokkenredskaber-de5b",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-kokkenredskaber-ade7",
+   "type": "crossword",
    "mode": null,
    "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-kokkenredskaber-de5b"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-kokkenredskaber-ade7"
   },
   {
-   "slug": "monstertoget-koretojer-4fb6",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-koretojer-39dc",
+   "type": "crossword",
    "mode": null,
    "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-koretojer-4fb6"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-koretojer-39dc"
   },
   {
-   "slug": "monstertoget-kropsdele-b670",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-kropsdele-abc4",
+   "type": "crossword",
    "mode": null,
    "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-kropsdele-b670"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-kropsdele-abc4"
   },
   {
-   "slug": "monstertoget-krybdyr-og-padder-4ad1",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-krybdyr-og-padder-f20a",
+   "type": "crossword",
    "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-krybdyr-og-padder-4ad1"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-krybdyr-og-padder-f20a"
   },
   {
-   "slug": "monstertoget-legetoj-f9c7",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-legetoj-ec28",
+   "type": "crossword",
    "mode": null,
    "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-legetoj-f9c7"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-legetoj-ec28"
   },
   {
-   "slug": "monstertoget-mobler-90e6",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-mobler-6c46",
+   "type": "crossword",
    "mode": null,
    "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-mobler-90e6"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-mobler-6c46"
   },
   {
-   "slug": "monstertoget-morgenmad-925d",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-morgenmad-478e",
+   "type": "crossword",
    "mode": null,
    "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-morgenmad-925d"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-morgenmad-478e"
   },
   {
-   "slug": "monstertoget-musik-283a",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-musik-de4f",
+   "type": "crossword",
    "mode": null,
    "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-musik-283a"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-musik-de4f"
   },
   {
-   "slug": "monstertoget-paske-e443",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-paske-203a",
+   "type": "crossword",
    "mode": null,
    "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-paske-e443"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-paske-203a"
   },
   {
-   "slug": "monstertoget-postkontor-5338",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-postkontor-285f",
+   "type": "crossword",
    "mode": null,
    "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-postkontor-5338"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-postkontor-285f"
   },
   {
-   "slug": "monstertoget-rummet-1810",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-rummet-703f",
+   "type": "crossword",
    "mode": null,
    "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-rummet-1810"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-rummet-703f"
   },
   {
-   "slug": "monstertoget-rundt-i-huset-9c13",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-rundt-i-huset-d1d1",
+   "type": "crossword",
    "mode": null,
    "theme": "around_the_house",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-rundt-i-huset-9c13"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-rundt-i-huset-d1d1"
   },
   {
-   "slug": "monstertoget-skovdyr-abc6",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-skovdyr-deb6",
+   "type": "crossword",
    "mode": null,
    "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-skovdyr-abc6"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-skovdyr-deb6"
   },
   {
-   "slug": "monstertoget-sommer-9c1f",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-sommer-b43a",
+   "type": "crossword",
    "mode": null,
    "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-sommer-9c1f"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-sommer-b43a"
   },
   {
-   "slug": "monstertoget-strand-33f8",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-strand-1f79",
+   "type": "crossword",
    "mode": null,
    "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-strand-33f8"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-strand-1f79"
   },
   {
-   "slug": "monstertoget-thanksgiving-dc94",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-thanksgiving-9bfa",
+   "type": "crossword",
    "mode": null,
    "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-thanksgiving-dc94"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-thanksgiving-9bfa"
   },
   {
-   "slug": "monstertoget-tilbehor-0b60",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-tilbehor-679a",
+   "type": "crossword",
    "mode": null,
    "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-tilbehor-0b60"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-tilbehor-679a"
   },
   {
-   "slug": "monstertoget-ting-der-flyver-3203",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-ting-der-flyver-fba6",
+   "type": "crossword",
    "mode": null,
    "theme": "things_that_fly",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-ting-der-flyver-3203"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-ting-der-flyver-fba6"
   },
   {
-   "slug": "monstertoget-toj-1bc1",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-toj-e9ff",
+   "type": "crossword",
    "mode": null,
    "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-toj-1bc1"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-toj-e9ff"
   },
   {
-   "slug": "monstertoget-traeer-7c81",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "tree",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-traeer-7c81"
-  },
-  {
-   "slug": "monstertoget-vaerktoj-ff38",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-vaerktoj-3c8f",
+   "type": "crossword",
    "mode": null,
    "theme": "tools",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-vaerktoj-ff38"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-vaerktoj-3c8f"
   },
   {
-   "slug": "monstertoget-vejr-bd2a",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-vejr-144a",
+   "type": "crossword",
    "mode": null,
    "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-vejr-bd2a"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-vejr-144a"
   },
   {
-   "slug": "monstertoget-vinter-b7ff",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-vinter-97bf",
+   "type": "crossword",
    "mode": null,
    "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-vinter-b7ff"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-vinter-97bf"
   },
   {
-   "slug": "monstertoget-zoodyr-a7ac",
-   "type": "pattern-train",
+   "slug": "engelsk-krydsord-zoodyr-1225",
+   "type": "crossword",
    "mode": null,
    "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-zoodyr-a7ac"
+   "level": "language-beginner",
+   "deck": "engelsk-krydsord-zoodyr-1225"
   },
   {
-   "slug": "monsterark-aktiviteter-c30b",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-aktiviteter-df80",
+   "type": "crossword",
    "mode": null,
    "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-aktiviteter-c30b"
+   "level": "2-klasse",
+   "deck": "krydsord-aktiviteter-df80"
   },
   {
-   "slug": "monsterark-bageri-ebf3",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-bageri-9ffc",
+   "type": "crossword",
    "mode": null,
    "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-bageri-ebf3"
+   "level": "2-klasse",
+   "deck": "krydsord-bageri-9ffc"
   },
   {
-   "slug": "monsterark-blomster-b43a",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-blomster-b1fc",
+   "type": "crossword",
    "mode": null,
    "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-blomster-b43a"
+   "level": "2-klasse",
+   "deck": "krydsord-blomster-b1fc"
   },
   {
-   "slug": "monsterark-bondegardsdyr-dd89",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-bondegardsdyr-b4fa",
+   "type": "crossword",
    "mode": null,
    "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-bondegardsdyr-dd89"
+   "level": "2-klasse",
+   "deck": "krydsord-bondegardsdyr-b4fa"
   },
   {
-   "slug": "monsterark-camping-b380",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-camping-bbab",
+   "type": "crossword",
    "mode": null,
    "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-camping-b380"
+   "level": "2-klasse",
+   "deck": "krydsord-camping-bbab"
   },
   {
-   "slug": "monsterark-desserter-og-slik-7acd",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-desserter-og-slik-aece",
+   "type": "crossword",
    "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-desserter-og-slik-7acd"
+   "level": "2-klasse",
+   "deck": "krydsord-desserter-og-slik-aece"
   },
   {
-   "slug": "monsterark-dinosaurer-5a35",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-dinosaurer-5a35"
-  },
-  {
-   "slug": "monsterark-dyr-3e98",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-dyr-fcf8",
+   "type": "crossword",
    "mode": null,
    "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-dyr-3e98"
+   "level": "2-klasse",
+   "deck": "krydsord-dyr-fcf8"
   },
   {
-   "slug": "monsterark-erhverv-6a7e",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-erhverv-e116",
+   "type": "crossword",
    "mode": null,
    "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-erhverv-6a7e"
+   "level": "2-klasse",
+   "deck": "krydsord-erhverv-e116"
   },
   {
-   "slug": "monsterark-farver-631e",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-farver-9f2a",
+   "type": "crossword",
    "mode": null,
    "theme": "colors",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-farver-631e"
+   "level": "2-klasse",
+   "deck": "krydsord-farver-9f2a"
   },
   {
-   "slug": "monsterark-folelser-22a3",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-folelser-60fa",
+   "type": "crossword",
    "mode": null,
    "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-folelser-22a3"
+   "level": "2-klasse",
+   "deck": "krydsord-folelser-60fa"
   },
   {
-   "slug": "monsterark-forar-4f50",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-forar-be02",
+   "type": "crossword",
    "mode": null,
    "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-forar-4f50"
+   "level": "2-klasse",
+   "deck": "krydsord-forar-be02"
   },
   {
-   "slug": "monsterark-former-150f",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-former-e356",
+   "type": "crossword",
    "mode": null,
    "theme": "shapes",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-former-150f"
+   "level": "2-klasse",
+   "deck": "krydsord-former-e356"
   },
   {
-   "slug": "monsterark-frugter-afbf",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-frugter-1d0e",
+   "type": "crossword",
    "mode": null,
    "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-frugter-afbf"
+   "level": "2-klasse",
+   "deck": "krydsord-frugter-1d0e"
   },
   {
-   "slug": "monsterark-fugle-2-b186",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-fugle-2-640d",
+   "type": "crossword",
    "mode": null,
    "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-fugle-2-b186"
+   "level": "2-klasse",
+   "deck": "krydsord-fugle-2-640d"
   },
   {
-   "slug": "monsterark-fugle-c5aa",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-fugle-9fe6",
+   "type": "crossword",
    "mode": null,
    "theme": "birds",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-fugle-c5aa"
+   "level": "2-klasse",
+   "deck": "krydsord-fugle-9fe6"
   },
   {
-   "slug": "monsterark-grontsager-e093",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-grontsager-daa1",
+   "type": "crossword",
    "mode": null,
    "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-grontsager-e093"
+   "level": "2-klasse",
+   "deck": "krydsord-grontsager-daa1"
   },
   {
-   "slug": "monsterark-havliv-0f9a",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-havliv-6f40",
+   "type": "crossword",
    "mode": null,
    "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-havliv-0f9a"
+   "level": "2-klasse",
+   "deck": "krydsord-havliv-6f40"
   },
   {
-   "slug": "monsterark-hospital-872e",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-hospital-ce7f",
+   "type": "crossword",
    "mode": null,
    "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-hospital-872e"
+   "level": "2-klasse",
+   "deck": "krydsord-hospital-ce7f"
   },
   {
-   "slug": "monsterark-i-supermarkedet-ad27",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-i-supermarkedet-d6fd",
+   "type": "crossword",
    "mode": null,
    "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-i-supermarkedet-ad27"
+   "level": "2-klasse",
+   "deck": "krydsord-i-supermarkedet-d6fd"
   },
   {
-   "slug": "monsterark-insekter-og-kryb-a29f",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-insekter-og-kryb-d981",
+   "type": "crossword",
    "mode": null,
    "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-insekter-og-kryb-a29f"
+   "level": "2-klasse",
+   "deck": "krydsord-insekter-og-kryb-d981"
   },
   {
-   "slug": "monsterark-jul-304b",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-jul-fdaa",
+   "type": "crossword",
    "mode": null,
    "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-jul-304b"
+   "level": "2-klasse",
+   "deck": "krydsord-jul-fdaa"
   },
   {
-   "slug": "monsterark-kaeledyr-bb6b",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-kaeledyr-2009",
+   "type": "crossword",
    "mode": null,
    "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-kaeledyr-bb6b"
+   "level": "2-klasse",
+   "deck": "krydsord-kaeledyr-2009"
   },
   {
-   "slug": "monsterark-klassevaerelse-77ce",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-klassevaerelse-503d",
+   "type": "crossword",
    "mode": null,
    "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-klassevaerelse-77ce"
+   "level": "2-klasse",
+   "deck": "krydsord-klassevaerelse-503d"
   },
   {
-   "slug": "monsterark-kokkenredskaber-3937",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-kokkenredskaber-7d84",
+   "type": "crossword",
    "mode": null,
    "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-kokkenredskaber-3937"
+   "level": "2-klasse",
+   "deck": "krydsord-kokkenredskaber-7d84"
   },
   {
-   "slug": "monsterark-koretojer-ee64",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-koretojer-1aa5",
+   "type": "crossword",
    "mode": null,
    "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-koretojer-ee64"
+   "level": "2-klasse",
+   "deck": "krydsord-koretojer-1aa5"
   },
   {
-   "slug": "monsterark-kropsdele-c84c",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-kropsdele-6138",
+   "type": "crossword",
    "mode": null,
    "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-kropsdele-c84c"
+   "level": "2-klasse",
+   "deck": "krydsord-kropsdele-6138"
   },
   {
-   "slug": "monsterark-krybdyr-og-padder-2c74",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-krybdyr-og-padder-0d14",
+   "type": "crossword",
    "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-krybdyr-og-padder-2c74"
+   "level": "2-klasse",
+   "deck": "krydsord-krybdyr-og-padder-0d14"
   },
   {
-   "slug": "monsterark-legetoj-1b24",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-legetoj-cf48",
+   "type": "crossword",
    "mode": null,
    "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-legetoj-1b24"
+   "level": "2-klasse",
+   "deck": "krydsord-legetoj-cf48"
   },
   {
-   "slug": "monsterark-mobler-4221",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-mobler-cfd9",
+   "type": "crossword",
    "mode": null,
    "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-mobler-4221"
+   "level": "2-klasse",
+   "deck": "krydsord-mobler-cfd9"
   },
   {
-   "slug": "monsterark-morgenmad-6c0b",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-morgenmad-a6fc",
+   "type": "crossword",
    "mode": null,
    "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-morgenmad-6c0b"
+   "level": "2-klasse",
+   "deck": "krydsord-morgenmad-a6fc"
   },
   {
-   "slug": "monsterark-musik-06f7",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-musik-7232",
+   "type": "crossword",
    "mode": null,
    "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-musik-06f7"
+   "level": "2-klasse",
+   "deck": "krydsord-musik-7232"
   },
   {
-   "slug": "monsterark-paske-b03d",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-paske-025c",
+   "type": "crossword",
    "mode": null,
    "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-paske-b03d"
+   "level": "2-klasse",
+   "deck": "krydsord-paske-025c"
   },
   {
-   "slug": "monsterark-postkontor-9f31",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-postkontor-0be1",
+   "type": "crossword",
    "mode": null,
    "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-postkontor-9f31"
+   "level": "2-klasse",
+   "deck": "krydsord-postkontor-0be1"
   },
   {
-   "slug": "monsterark-rummet-5d0f",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-rummet-9145",
+   "type": "crossword",
    "mode": null,
    "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-rummet-5d0f"
+   "level": "2-klasse",
+   "deck": "krydsord-rummet-9145"
   },
   {
-   "slug": "monsterark-rundt-i-huset-65b6",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-rundt-i-huset-1fdb",
+   "type": "crossword",
    "mode": null,
    "theme": "around_the_house",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-rundt-i-huset-65b6"
+   "level": "2-klasse",
+   "deck": "krydsord-rundt-i-huset-1fdb"
   },
   {
-   "slug": "monsterark-skovdyr-b287",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-skovdyr-f2c9",
+   "type": "crossword",
    "mode": null,
    "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-skovdyr-b287"
+   "level": "2-klasse",
+   "deck": "krydsord-skovdyr-f2c9"
   },
   {
-   "slug": "monsterark-sommer-242e",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-sommer-dfc5",
+   "type": "crossword",
    "mode": null,
    "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-sommer-242e"
+   "level": "2-klasse",
+   "deck": "krydsord-sommer-dfc5"
   },
   {
-   "slug": "monsterark-strand-f730",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-strand-cbb0",
+   "type": "crossword",
    "mode": null,
    "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-strand-f730"
+   "level": "2-klasse",
+   "deck": "krydsord-strand-cbb0"
   },
   {
-   "slug": "monsterark-thanksgiving-7e33",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-thanksgiving-f4bb",
+   "type": "crossword",
    "mode": null,
    "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-thanksgiving-7e33"
+   "level": "2-klasse",
+   "deck": "krydsord-thanksgiving-f4bb"
   },
   {
-   "slug": "monsterark-tilbehor-b67d",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-tilbehor-6d94",
+   "type": "crossword",
    "mode": null,
    "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-tilbehor-b67d"
+   "level": "2-klasse",
+   "deck": "krydsord-tilbehor-6d94"
   },
   {
-   "slug": "monsterark-ting-der-flyver-d0be",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-ting-der-flyver-82af",
+   "type": "crossword",
    "mode": null,
    "theme": "things_that_fly",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-ting-der-flyver-d0be"
+   "level": "2-klasse",
+   "deck": "krydsord-ting-der-flyver-82af"
   },
   {
-   "slug": "monsterark-toj-c1c8",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-toj-ba78",
+   "type": "crossword",
    "mode": null,
    "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-toj-c1c8"
+   "level": "2-klasse",
+   "deck": "krydsord-toj-ba78"
   },
   {
-   "slug": "monsterark-traeer-d322",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-traeer-d2b1",
+   "type": "crossword",
    "mode": null,
    "theme": "tree",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-traeer-d322"
+   "level": "2-klasse",
+   "deck": "krydsord-traeer-d2b1"
   },
   {
-   "slug": "monsterark-vaerktoj-4500",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-vaerktoj-a17d",
+   "type": "crossword",
    "mode": null,
    "theme": "tools",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-vaerktoj-4500"
+   "level": "2-klasse",
+   "deck": "krydsord-vaerktoj-a17d"
   },
   {
-   "slug": "monsterark-vejr-0311",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-vejr-d6f8",
+   "type": "crossword",
    "mode": null,
    "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-vejr-0311"
+   "level": "2-klasse",
+   "deck": "krydsord-vejr-d6f8"
   },
   {
-   "slug": "monsterark-vinter-d3c0",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-vinter-be8d",
+   "type": "crossword",
    "mode": null,
    "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-vinter-d3c0"
+   "level": "2-klasse",
+   "deck": "krydsord-vinter-be8d"
   },
   {
-   "slug": "monsterark-zoodyr-d375",
-   "type": "pattern-worksheet",
+   "slug": "krydsord-zoodyr-7f61",
+   "type": "crossword",
    "mode": null,
    "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "monsterark-zoodyr-d375"
+   "level": "2-klasse",
+   "deck": "krydsord-zoodyr-7f61"
   }
  ]
 }

@@ -2,747 +2,699 @@
  "part": 180,
  "locale": "it",
  "classes": [
-  "find-objects::find-odd",
-  "matching::letter"
+  "bingo::null",
+  "pattern-train::aab"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 86,
  "pages": [
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-abbigliamento-b3cd",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-abbigliamento-8683",
+   "type": "bingo",
+   "mode": null,
    "theme": "clothing",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-abbigliamento-b3cd"
+   "deck": "bingo-abbigliamento-8683"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-accessori-cd12",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-accessori-7c7f",
+   "type": "bingo",
+   "mode": null,
    "theme": "accessories",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-accessori-cd12"
+   "deck": "bingo-accessori-7c7f"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-al-supermercato-e849",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-al-supermercato-f2aa",
+   "type": "bingo",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-al-supermercato-e849"
+   "deck": "bingo-al-supermercato-f2aa"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-alberi-f01e",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-animali",
+   "type": "bingo",
+   "mode": null,
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "bingo-animali"
+  },
+  {
+   "slug": "bingo-animali-della-fattoria-88ce",
+   "type": "bingo",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "bingo-animali-della-fattoria-88ce"
+  },
+  {
+   "slug": "bingo-animali-dello-zoo-a068",
+   "type": "bingo",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "bingo-animali-dello-zoo-a068"
+  },
+  {
+   "slug": "bingo-animali-domestici-93bc",
+   "type": "bingo",
+   "mode": null,
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "bingo-animali-domestici-93bc"
+  },
+  {
+   "slug": "bingo-attivita-5bd7",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "bingo-attivita-5bd7"
+  },
+  {
+   "slug": "bingo-aula-4d5b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "bingo-aula-4d5b"
+  },
+  {
+   "slug": "bingo-campeggio-77b0",
+   "type": "bingo",
+   "mode": null,
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "bingo-campeggio-77b0"
+  },
+  {
+   "slug": "bingo-colazione-0154",
+   "type": "bingo",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "bingo-colazione-0154"
+  },
+  {
+   "slug": "bingo-colori-b21b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "bingo-colori-b21b"
+  },
+  {
+   "slug": "bingo-cose-che-volano-f3d0",
+   "type": "bingo",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "bingo-cose-che-volano-f3d0"
+  },
+  {
+   "slug": "bingo-creature-della-foresta-5032",
+   "type": "bingo",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "bingo-creature-della-foresta-5032"
+  },
+  {
+   "slug": "bingo-dolci-e-dolciumi-2eba",
+   "type": "bingo",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "bingo-dolci-e-dolciumi-2eba"
+  },
+  {
+   "slug": "bingo-estate-9453",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "bingo-estate-9453"
+  },
+  {
+   "slug": "bingo-fiori-07b7",
+   "type": "bingo",
+   "mode": null,
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "bingo-fiori-07b7"
+  },
+  {
+   "slug": "bingo-forme-607b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "bingo-forme-607b"
+  },
+  {
+   "slug": "bingo-frutta-85c2",
+   "type": "bingo",
+   "mode": null,
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "bingo-frutta-85c2"
+  },
+  {
+   "slug": "bingo-giocattoli-1622",
+   "type": "bingo",
+   "mode": null,
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "bingo-giocattoli-1622"
+  },
+  {
+   "slug": "bingo-in-giro-per-casa-3305",
+   "type": "bingo",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "bingo-in-giro-per-casa-3305"
+  },
+  {
+   "slug": "bingo-inverno-2d08",
+   "type": "bingo",
+   "mode": null,
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "bingo-inverno-2d08"
+  },
+  {
+   "slug": "bingo-meteo-0b56",
+   "type": "bingo",
+   "mode": null,
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "bingo-meteo-0b56"
+  },
+  {
+   "slug": "bingo-mobili-986e",
+   "type": "bingo",
+   "mode": null,
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "bingo-mobili-986e"
+  },
+  {
+   "slug": "bingo-natale-9760",
+   "type": "bingo",
+   "mode": null,
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "bingo-natale-9760"
+  },
+  {
+   "slug": "bingo-ospedale-cb52",
+   "type": "bingo",
+   "mode": null,
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "bingo-ospedale-cb52"
+  },
+  {
+   "slug": "bingo-panetteria-75c4",
+   "type": "bingo",
+   "mode": null,
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "bingo-panetteria-75c4"
+  },
+  {
+   "slug": "bingo-parti-del-corpo-c904",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "bingo-parti-del-corpo-c904"
+  },
+  {
+   "slug": "bingo-pasqua-2e37",
+   "type": "bingo",
+   "mode": null,
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "bingo-pasqua-2e37"
+  },
+  {
+   "slug": "bingo-primavera-2834",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "bingo-primavera-2834"
+  },
+  {
+   "slug": "bingo-spazio-8e2c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "bingo-spazio-8e2c"
+  },
+  {
+   "slug": "bingo-spiaggia-dd1a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "bingo-spiaggia-dd1a"
+  },
+  {
+   "slug": "bingo-uccelli-2-0728",
+   "type": "bingo",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "bingo-uccelli-2-0728"
+  },
+  {
+   "slug": "bingo-utensili-da-cucina-5356",
+   "type": "bingo",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "bingo-utensili-da-cucina-5356"
+  },
+  {
+   "slug": "bingo-veicoli-c242",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "bingo-veicoli-c242"
+  },
+  {
+   "slug": "bingo-verdure-338c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "bingo-verdure-338c"
+  },
+  {
+   "slug": "bingo-vita-oceanica-4c5e",
+   "type": "bingo",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "bingo-vita-oceanica-4c5e"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-abbigliamento-4ee4",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-abbigliamento-4ee4"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-accessori-3949",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-accessori-3949"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-al-supermercato-117c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-al-supermercato-117c"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-alberi-1296",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "tree",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-alberi-f01e"
+   "deck": "treno-dei-modelli-aab-alberi-1296"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-animali-b2f3",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-animali-0f49",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "animals",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-animali-b2f3"
+   "deck": "treno-dei-modelli-aab-animali-0f49"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-animali-della-fattoria-dbc6",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-animali-della-fattoria-0f08",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "farm_animals",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-animali-della-fattoria-dbc6"
+   "deck": "treno-dei-modelli-aab-animali-della-fattoria-0f08"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-animali-dello-zoo-356b",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-animali-dello-zoo-b9e3",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "zoo_animals",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-animali-dello-zoo-356b"
+   "deck": "treno-dei-modelli-aab-animali-dello-zoo-b9e3"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-animali-domestici-e1ed",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-animali-domestici-740d",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "pets",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-animali-domestici-e1ed"
+   "deck": "treno-dei-modelli-aab-animali-domestici-740d"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-attivita-5bbd",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-attivita-c5a7",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "activities",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-attivita-5bbd"
+   "deck": "treno-dei-modelli-aab-attivita-c5a7"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-attrezzi-d4e5",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-attrezzi-4098",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "tools",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-attrezzi-d4e5"
+   "deck": "treno-dei-modelli-aab-attrezzi-4098"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-aula-474a",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-aula-8003",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "classroom",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-aula-474a"
+   "deck": "treno-dei-modelli-aab-aula-8003"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-campeggio-3d0d",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-campeggio-912b",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "camping",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-campeggio-3d0d"
+   "deck": "treno-dei-modelli-aab-campeggio-912b"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-colazione-caec",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-colazione-7ce0",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "breakfast",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-colazione-caec"
+   "deck": "treno-dei-modelli-aab-colazione-7ce0"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-colori-cedf",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-colori-0b25",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "colors",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-colori-cedf"
+   "deck": "treno-dei-modelli-aab-colori-0b25"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-cose-che-volano-8a60",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-cose-che-volano-2009",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "things_that_fly",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-cose-che-volano-8a60"
+   "deck": "treno-dei-modelli-aab-cose-che-volano-2009"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-creature-della-foresta-4690",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-creature-della-foresta-340c",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "forest_creatures",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-creature-della-foresta-4690"
+   "deck": "treno-dei-modelli-aab-creature-della-foresta-340c"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-dinosauri-84b9",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-dinosauri-8816",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "dinosaurs",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-dinosauri-84b9"
+   "deck": "treno-dei-modelli-aab-dinosauri-8816"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-dolci-e-dolciumi-3978",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-dolci-e-dolciumi-55f6",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "desserts_and_sweets",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-dolci-e-dolciumi-3978"
+   "deck": "treno-dei-modelli-aab-dolci-e-dolciumi-55f6"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-emozioni-3241",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-emozioni-104c",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "emotions",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-emozioni-3241"
+   "deck": "treno-dei-modelli-aab-emozioni-104c"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-estate-0648",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-estate-aae9",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "summer",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-estate-0648"
+   "deck": "treno-dei-modelli-aab-estate-aae9"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-fiori-e842",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-fiori-cd8f",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "flowers",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-fiori-e842"
+   "deck": "treno-dei-modelli-aab-fiori-cd8f"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-forme-c7fd",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-forme-b4af",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "shapes",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-forme-c7fd"
+   "deck": "treno-dei-modelli-aab-forme-b4af"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-frutta-171b",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-frutta-36e6",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "fruits",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-frutta-171b"
+   "deck": "treno-dei-modelli-aab-frutta-36e6"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-giocattoli-c7bf",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-giocattoli-8afe",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "toys",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-giocattoli-c7bf"
+   "deck": "treno-dei-modelli-aab-giocattoli-8afe"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-giorno-del-ringraziamento-cd05",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-giorno-del-ringraziamento-09f5",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "thanksgivinng",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-giorno-del-ringraziamento-cd05"
+   "deck": "treno-dei-modelli-aab-giorno-del-ringraziamento-09f5"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-in-giro-per-casa-1357",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-in-giro-per-casa-ad5f",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "around_the_house",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-in-giro-per-casa-1357"
+   "deck": "treno-dei-modelli-aab-in-giro-per-casa-ad5f"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-insetti-e-scarafaggi-d713",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-insetti-e-scarafaggi-e8d0",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "insects_and_bugs",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-insetti-e-scarafaggi-d713"
+   "deck": "treno-dei-modelli-aab-insetti-e-scarafaggi-e8d0"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-inverno-61e8",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-inverno-608a",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "winter",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-inverno-61e8"
+   "deck": "treno-dei-modelli-aab-inverno-608a"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-meteo-93be",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-meteo-0435",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "weather",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-meteo-93be"
+   "deck": "treno-dei-modelli-aab-meteo-0435"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-mobili-e22c",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-mobili-7109",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "furniture",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-mobili-e22c"
+   "deck": "treno-dei-modelli-aab-mobili-7109"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-musica-1e4f",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-musica-385c",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "music",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-musica-1e4f"
+   "deck": "treno-dei-modelli-aab-musica-385c"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-natale-5e35",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-natale-d781",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "christmas",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-natale-5e35"
+   "deck": "treno-dei-modelli-aab-natale-d781"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-ospedale-e93e",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-ospedale-6fa9",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "hospital",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-ospedale-e93e"
+   "deck": "treno-dei-modelli-aab-ospedale-6fa9"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-panetteria-b676",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-panetteria-c808",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "bakery",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-panetteria-b676"
+   "deck": "treno-dei-modelli-aab-panetteria-c808"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-parti-del-corpo-cd48",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-parti-del-corpo-ba37",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "body_parts",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-parti-del-corpo-cd48"
+   "deck": "treno-dei-modelli-aab-parti-del-corpo-ba37"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-pasqua-6558",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-pasqua-600f",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "easter",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-pasqua-6558"
+   "deck": "treno-dei-modelli-aab-pasqua-600f"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-primavera-1b7f",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-primavera-3c19",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "spring",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-primavera-1b7f"
+   "deck": "treno-dei-modelli-aab-primavera-3c19"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-professioni-c896",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "treno-dei-modelli-aab-professioni-2b9d",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "occupations",
    "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-professioni-c896"
+   "deck": "treno-dei-modelli-aab-professioni-2b9d"
   },
   {
-   "slug": "trova-gli-oggetti-trova-il-diverso-spazio-553d",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "space",
-   "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-spazio-553d"
-  },
-  {
-   "slug": "trova-gli-oggetti-trova-il-diverso-spiaggia-da8f",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "beach",
-   "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-spiaggia-da8f"
-  },
-  {
-   "slug": "trova-gli-oggetti-trova-il-diverso-uccelli-2-219a",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "birds_2",
-   "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-uccelli-2-219a"
-  },
-  {
-   "slug": "trova-gli-oggetti-trova-il-diverso-ufficio-postale-222e",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "post_office",
-   "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-ufficio-postale-222e"
-  },
-  {
-   "slug": "trova-gli-oggetti-trova-il-diverso-utensili-da-cucina-18bc",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "kitchen_tools",
-   "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-utensili-da-cucina-18bc"
-  },
-  {
-   "slug": "trova-gli-oggetti-trova-il-diverso-veicoli-acfe",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "vehicles",
-   "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-veicoli-acfe"
-  },
-  {
-   "slug": "trova-gli-oggetti-trova-il-diverso-verdure-977f",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "vegetables",
-   "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-verdure-977f"
-  },
-  {
-   "slug": "trova-gli-oggetti-trova-il-diverso-vita-oceanica-cd90",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "ocean_life",
-   "level": "infanzia",
-   "deck": "trova-gli-oggetti-trova-il-diverso-vita-oceanica-cd90"
-  },
-  {
-   "slug": "abbinamento-lettera-abbigliamento-b56a",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "clothing",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-abbigliamento-b56a"
-  },
-  {
-   "slug": "abbinamento-lettera-accessori-a0d3",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "accessories",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-accessori-a0d3"
-  },
-  {
-   "slug": "abbinamento-lettera-al-supermercato-c57e",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "at_the_supermarket",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-al-supermercato-c57e"
-  },
-  {
-   "slug": "abbinamento-lettera-animali-a730",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "animals",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-animali-a730"
-  },
-  {
-   "slug": "abbinamento-lettera-animali-della-fattoria-fb44",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "farm_animals",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-animali-della-fattoria-fb44"
-  },
-  {
-   "slug": "abbinamento-lettera-animali-dello-zoo-7e76",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "zoo_animals",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-animali-dello-zoo-7e76"
-  },
-  {
-   "slug": "abbinamento-lettera-animali-domestici-f665",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "pets",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-animali-domestici-f665"
-  },
-  {
-   "slug": "abbinamento-lettera-attivita-a0e1",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "activities",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-attivita-a0e1"
-  },
-  {
-   "slug": "abbinamento-lettera-attrezzi-f2b7",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "tools",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-attrezzi-f2b7"
-  },
-  {
-   "slug": "abbinamento-lettera-aula-bb10",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "classroom",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-aula-bb10"
-  },
-  {
-   "slug": "abbinamento-lettera-campeggio-5443",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "camping",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-campeggio-5443"
-  },
-  {
-   "slug": "abbinamento-lettera-colazione-68a2",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "breakfast",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-colazione-68a2"
-  },
-  {
-   "slug": "abbinamento-lettera-colori-18be",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "colors",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-colori-18be"
-  },
-  {
-   "slug": "abbinamento-lettera-cose-che-volano-dbd7",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "things_that_fly",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-cose-che-volano-dbd7"
-  },
-  {
-   "slug": "abbinamento-lettera-creature-della-foresta-844f",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "forest_creatures",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-creature-della-foresta-844f"
-  },
-  {
-   "slug": "abbinamento-lettera-dolci-e-dolciumi-22e3",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "desserts_and_sweets",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-dolci-e-dolciumi-22e3"
-  },
-  {
-   "slug": "abbinamento-lettera-emozioni-cb7a",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "emotions",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-emozioni-cb7a"
-  },
-  {
-   "slug": "abbinamento-lettera-estate-762f",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "summer",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-estate-762f"
-  },
-  {
-   "slug": "abbinamento-lettera-fiori-9014",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "flowers",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-fiori-9014"
-  },
-  {
-   "slug": "abbinamento-lettera-forme-6a98",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "shapes",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-forme-6a98"
-  },
-  {
-   "slug": "abbinamento-lettera-frutta-ed2a",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "fruits",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-frutta-ed2a"
-  },
-  {
-   "slug": "abbinamento-lettera-giocattoli-d34c",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "toys",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-giocattoli-d34c"
-  },
-  {
-   "slug": "abbinamento-lettera-giorno-del-ringraziamento-7e05",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "thanksgivinng",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-giorno-del-ringraziamento-7e05"
-  },
-  {
-   "slug": "abbinamento-lettera-in-giro-per-casa-0ee8",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "around_the_house",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-in-giro-per-casa-0ee8"
-  },
-  {
-   "slug": "abbinamento-lettera-insetti-e-scarafaggi-2e7e",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "insects_and_bugs",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-insetti-e-scarafaggi-2e7e"
-  },
-  {
-   "slug": "abbinamento-lettera-inverno-383b",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "winter",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-inverno-383b"
-  },
-  {
-   "slug": "abbinamento-lettera-meteo-1b40",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "weather",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-meteo-1b40"
-  },
-  {
-   "slug": "abbinamento-lettera-mobili-6777",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "furniture",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-mobili-6777"
-  },
-  {
-   "slug": "abbinamento-lettera-musica-a5fb",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "music",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-musica-a5fb"
-  },
-  {
-   "slug": "abbinamento-lettera-natale-11c2",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "christmas",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-natale-11c2"
-  },
-  {
-   "slug": "abbinamento-lettera-ospedale-9e33",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "hospital",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-ospedale-9e33"
-  },
-  {
-   "slug": "abbinamento-lettera-panetteria-b812",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "bakery",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-panetteria-b812"
-  },
-  {
-   "slug": "abbinamento-lettera-parti-del-corpo-a023",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "body_parts",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-parti-del-corpo-a023"
-  },
-  {
-   "slug": "abbinamento-lettera-pasqua-d8c0",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "easter",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-pasqua-d8c0"
-  },
-  {
-   "slug": "abbinamento-lettera-primavera-c011",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "spring",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-primavera-c011"
-  },
-  {
-   "slug": "abbinamento-lettera-professioni-9aa7",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "occupations",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-professioni-9aa7"
-  },
-  {
-   "slug": "abbinamento-lettera-rettili-e-anfibi-95ea",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "treno-dei-modelli-aab-rettili-e-anfibi-340f",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "reptiles_and_amphibians",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-rettili-e-anfibi-95ea"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-rettili-e-anfibi-340f"
   },
   {
-   "slug": "abbinamento-lettera-spazio-f20e",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "treno-dei-modelli-aab-spazio-d92b",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "space",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-spazio-f20e"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-spazio-d92b"
   },
   {
-   "slug": "abbinamento-lettera-spiaggia-e5cd",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "treno-dei-modelli-aab-spiaggia-ff1a",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "beach",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-spiaggia-e5cd"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-spiaggia-ff1a"
   },
   {
-   "slug": "abbinamento-lettera-uccelli-2-ee0c",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "treno-dei-modelli-aab-uccelli-2-4b2c",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "birds_2",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-uccelli-2-ee0c"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-uccelli-2-4b2c"
   },
   {
-   "slug": "abbinamento-lettera-uccelli-32ee",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "treno-dei-modelli-aab-uccelli-e24e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "birds",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-uccelli-32ee"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-uccelli-e24e"
   },
   {
-   "slug": "abbinamento-lettera-ufficio-postale-af06",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "treno-dei-modelli-aab-ufficio-postale-7681",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "post_office",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-ufficio-postale-af06"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-ufficio-postale-7681"
   },
   {
-   "slug": "abbinamento-lettera-utensili-da-cucina-f865",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "treno-dei-modelli-aab-utensili-da-cucina-7a90",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "kitchen_tools",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-utensili-da-cucina-f865"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-utensili-da-cucina-7a90"
   },
   {
-   "slug": "abbinamento-lettera-veicoli-6f84",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "treno-dei-modelli-aab-varie-a1cc",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "miscellaneous",
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-varie-a1cc"
+  },
+  {
+   "slug": "treno-dei-modelli-aab-veicoli-517e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "vehicles",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-veicoli-6f84"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-veicoli-517e"
   },
   {
-   "slug": "abbinamento-lettera-verdure-7d02",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "treno-dei-modelli-aab-verdure-7b12",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "vegetables",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-verdure-7d02"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-verdure-7b12"
   },
   {
-   "slug": "abbinamento-lettera-vita-oceanica-5d19",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "treno-dei-modelli-aab-vita-oceanica-3bc3",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "ocean_life",
-   "level": "classe-prima",
-   "deck": "abbinamento-lettera-vita-oceanica-5d19"
+   "level": "infanzia",
+   "deck": "treno-dei-modelli-aab-vita-oceanica-3bc3"
   }
  ]
 }

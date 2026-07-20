@@ -2,731 +2,723 @@
  "part": 63,
  "locale": "de",
  "classes": [
-  "pattern-worksheet::null",
-  "shadow-match::find-shadow"
+  "treasure-hunt::cardinal-arrows",
+  "big-small::orderAsc"
  ],
  "splitOf": null,
- "count": 90,
+ "count": 89,
  "pages": [
   {
-   "slug": "muster-arbeitsblatt-accessoires-a84e",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-4-juli",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "4th_of_july",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-4-juli-95f2"
+  },
+  {
+   "slug": "schatzsuche-accessoires",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "accessories",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-accessoires-a84e"
+   "deck": "schatzsuche-hoch-runter-links-rechts-accessoires-5316"
   },
   {
-   "slug": "muster-arbeitsblatt-aktivitaten-35d9",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-aktivitaten",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "activities",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-aktivitaten-35d9"
+   "deck": "schatzsuche-hoch-runter-links-rechts-aktivitaten-602e"
   },
   {
-   "slug": "muster-arbeitsblatt-backerei-742b",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-backerei",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "bakery",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-backerei-742b"
+   "deck": "schatzsuche-hoch-runter-links-rechts-backerei-038c"
   },
   {
-   "slug": "muster-arbeitsblatt-bauernhoftiere-840c",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-bauernhoftiere",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "farm_animals",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-bauernhoftiere-840c"
+   "deck": "schatzsuche-hoch-runter-links-rechts-bauernhoftiere-b903"
   },
   {
-   "slug": "muster-arbeitsblatt-baume-7019",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-baume",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "tree",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-baume-7019"
+   "deck": "schatzsuche-hoch-runter-links-rechts-baume-8c40"
   },
   {
-   "slug": "muster-arbeitsblatt-berufe-158f",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-berufe",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "occupations",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-berufe-158f"
+   "deck": "schatzsuche-hoch-runter-links-rechts-berufe-80e2"
   },
   {
-   "slug": "muster-arbeitsblatt-blumen-c2b5",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-blumen",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "flowers",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-blumen-c2b5"
+   "deck": "schatzsuche-hoch-runter-links-rechts-blumen-13a7"
   },
   {
-   "slug": "muster-arbeitsblatt-camping-87fc",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-camping",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "camping",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-camping-87fc"
+   "deck": "schatzsuche-hoch-runter-links-rechts-camping-9f0b"
   },
   {
-   "slug": "muster-arbeitsblatt-desserts-und-sussigkeiten-31b7",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-desserts-und-sussigkeiten",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "desserts_and_sweets",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-desserts-und-sussigkeiten-31b7"
+   "deck": "schatzsuche-hoch-runter-links-rechts-desserts-und-sussigkeiten-14bd"
   },
   {
-   "slug": "muster-arbeitsblatt-dinge-die-fliegen-873f",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-dinge-die-fliegen",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "things_that_fly",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-dinge-die-fliegen-873f"
+   "deck": "schatzsuche-hoch-runter-links-rechts-dinge-die-fliegen-c218"
   },
   {
-   "slug": "muster-arbeitsblatt-dinosaurier-5cda",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-dinosaurier",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "dinosaurs",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-dinosaurier-5cda"
+   "deck": "schatzsuche-hoch-runter-links-rechts-dinosaurier-1720"
   },
   {
-   "slug": "muster-arbeitsblatt-emotionen-7bbb",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-emotionen",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "emotions",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-emotionen-7bbb"
+   "deck": "schatzsuche-hoch-runter-links-rechts-emotionen-6ffb"
   },
   {
-   "slug": "muster-arbeitsblatt-erntedankfest-4141",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-erntedankfest",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "thanksgivinng",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-erntedankfest-4141"
+   "deck": "schatzsuche-hoch-runter-links-rechts-erntedankfest-c80a"
   },
   {
-   "slug": "muster-arbeitsblatt-fahrzeuge-d425",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-fahrzeuge",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "vehicles",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-fahrzeuge-d425"
+   "deck": "schatzsuche-hoch-runter-links-rechts-fahrzeuge-ea5f"
   },
   {
-   "slug": "muster-arbeitsblatt-farben-797b",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-farben",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "colors",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-farben-797b"
+   "deck": "schatzsuche-hoch-runter-links-rechts-farben-e3e1"
   },
   {
-   "slug": "muster-arbeitsblatt-formen-43ee",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-formen",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "shapes",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-formen-43ee"
+   "deck": "schatzsuche-hoch-runter-links-rechts-formen-c022"
   },
   {
-   "slug": "muster-arbeitsblatt-fruchte-5c57",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-fruchte",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "fruits",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-fruchte-5c57"
+   "deck": "schatzsuche-hoch-runter-links-rechts-fruchte-fdc0"
   },
   {
-   "slug": "muster-arbeitsblatt-fruhling-8e24",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-fruhling",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "spring",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-fruhling-8e24"
+   "deck": "schatzsuche-hoch-runter-links-rechts-fruhling-5c11"
   },
   {
-   "slug": "muster-arbeitsblatt-fruhstuck-bce5",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-fruhstuck",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "breakfast",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-fruhstuck-bce5"
+   "deck": "schatzsuche-hoch-runter-links-rechts-fruhstuck-767f"
   },
   {
-   "slug": "muster-arbeitsblatt-gemuse-8284",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-gemuse",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "vegetables",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-gemuse-8284"
+   "deck": "schatzsuche-hoch-runter-links-rechts-gemuse-c293"
   },
   {
-   "slug": "muster-arbeitsblatt-haustiere-54f1",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-haustiere",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "pets",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-haustiere-54f1"
+   "deck": "schatzsuche-hoch-runter-links-rechts-haustiere-9158"
   },
   {
-   "slug": "muster-arbeitsblatt-im-supermarkt-4bde",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-im-supermarkt",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "at_the_supermarket",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-im-supermarkt-4bde"
+   "deck": "schatzsuche-hoch-runter-links-rechts-im-supermarkt-89bb"
   },
   {
-   "slug": "muster-arbeitsblatt-insekten-und-kafer-172b",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-insekten-und-kafer",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "insects_and_bugs",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-insekten-und-kafer-172b"
+   "deck": "schatzsuche-hoch-runter-links-rechts-insekten-und-kafer-b8e9"
   },
   {
-   "slug": "muster-arbeitsblatt-klassenzimmer-b20e",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-klassenzimmer",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "classroom",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-klassenzimmer-b20e"
+   "deck": "schatzsuche-hoch-runter-links-rechts-klassenzimmer-c3d7"
   },
   {
-   "slug": "muster-arbeitsblatt-kleidung-8781",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-kleidung",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "clothing",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-kleidung-8781"
+   "deck": "schatzsuche-hoch-runter-links-rechts-kleidung-1f7f"
   },
   {
-   "slug": "muster-arbeitsblatt-korperteile-77e3",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-korperteile",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "body_parts",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-korperteile-77e3"
+   "deck": "schatzsuche-hoch-runter-links-rechts-korperteile-de9b"
   },
   {
-   "slug": "muster-arbeitsblatt-krankenhaus-81fc",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-krankenhaus",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "hospital",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-krankenhaus-81fc"
+   "deck": "schatzsuche-hoch-runter-links-rechts-krankenhaus-ab38"
   },
   {
-   "slug": "muster-arbeitsblatt-kuchenwerkzeuge-083f",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-kuchenwerkzeuge",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "kitchen_tools",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-kuchenwerkzeuge-083f"
+   "deck": "schatzsuche-hoch-runter-links-rechts-kuchenwerkzeuge-18d2"
   },
   {
-   "slug": "muster-arbeitsblatt-meeresleben-8317",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-meeresleben",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "ocean_life",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-meeresleben-8317"
+   "deck": "schatzsuche-hoch-runter-links-rechts-meeresleben-04d7"
   },
   {
-   "slug": "muster-arbeitsblatt-mobel-70f0",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-mobel",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "furniture",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-mobel-70f0"
+   "deck": "schatzsuche-hoch-runter-links-rechts-mobel-82de"
   },
   {
-   "slug": "muster-arbeitsblatt-musik-242b",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-musik",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "music",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-musik-242b"
+   "deck": "schatzsuche-hoch-runter-links-rechts-musik-6e7a"
   },
   {
-   "slug": "muster-arbeitsblatt-ostern-4213",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-ostern",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "easter",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-ostern-4213"
+   "deck": "schatzsuche-hoch-runter-links-rechts-ostern-8846"
   },
   {
-   "slug": "muster-arbeitsblatt-postamt-8034",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-postamt",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "post_office",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-postamt-8034"
+   "deck": "schatzsuche-hoch-runter-links-rechts-postamt-dfc6"
   },
   {
-   "slug": "muster-arbeitsblatt-rund-ums-haus-5279",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-rund-ums-haus",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "around_the_house",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-rund-ums-haus-5279"
+   "deck": "schatzsuche-hoch-runter-links-rechts-rund-ums-haus-f0a6"
   },
   {
-   "slug": "muster-arbeitsblatt-sommer-0604",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-sommer",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "summer",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-sommer-0604"
+   "deck": "schatzsuche-hoch-runter-links-rechts-sommer-b848"
   },
   {
-   "slug": "muster-arbeitsblatt-spielzeug-8b89",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-spielzeug",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "toys",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-spielzeug-8b89"
+   "deck": "schatzsuche-hoch-runter-links-rechts-spielzeug-8900"
   },
   {
-   "slug": "muster-arbeitsblatt-strand-02db",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-strand",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "beach",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-strand-02db"
+   "deck": "schatzsuche-hoch-runter-links-rechts-strand-d75f"
   },
   {
-   "slug": "muster-arbeitsblatt-tiere-e989",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-tiere",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "animals",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-tiere-e989"
+   "deck": "schatzsuche-hoch-runter-links-rechts-tiere"
   },
   {
-   "slug": "muster-arbeitsblatt-vogel-2-db1e",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "vorschule",
-   "deck": "muster-arbeitsblatt-vogel-2-db1e"
-  },
-  {
-   "slug": "muster-arbeitsblatt-vogel-790e",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "schatzsuche-vogel",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "birds",
    "level": "vorschule",
-   "deck": "muster-arbeitsblatt-vogel-790e"
+   "deck": "schatzsuche-hoch-runter-links-rechts-vogel-cdc5"
   },
   {
-   "slug": "muster-arbeitsblatt-waldtiere-084e",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "vorschule",
-   "deck": "muster-arbeitsblatt-waldtiere-084e"
-  },
-  {
-   "slug": "muster-arbeitsblatt-werkzeuge-ba41",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "tools",
-   "level": "vorschule",
-   "deck": "muster-arbeitsblatt-werkzeuge-ba41"
-  },
-  {
-   "slug": "muster-arbeitsblatt-wetter-db86",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "weather",
-   "level": "vorschule",
-   "deck": "muster-arbeitsblatt-wetter-db86"
-  },
-  {
-   "slug": "muster-arbeitsblatt-winter-d49d",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "winter",
-   "level": "vorschule",
-   "deck": "muster-arbeitsblatt-winter-d49d"
-  },
-  {
-   "slug": "muster-arbeitsblatt-zootiere-b983",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "vorschule",
-   "deck": "muster-arbeitsblatt-zootiere-b983"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-accessoires-6b4d",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "accessories",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-accessoires-6b4d"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-aktivitaten-d78e",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "activities",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-aktivitaten-d78e"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-backerei-2645",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "bakery",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-backerei-2645"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-bauernhoftiere-7ac9",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "farm_animals",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-bauernhoftiere-7ac9"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-baume-13fb",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "tree",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-baume-13fb"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-berufe-6db2",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "occupations",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-berufe-6db2"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-blumen-e858",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "flowers",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-blumen-e858"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-camping-36bc",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "camping",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-camping-36bc"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-desserts-und-sussigkeiten-1f7c",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "desserts_and_sweets",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-desserts-und-sussigkeiten-1f7c"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-dinge-die-fliegen-75d1",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "things_that_fly",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-dinge-die-fliegen-75d1"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-dinosaurier-60f4",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "dinosaurs",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-dinosaurier-60f4"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-erntedankfest-7561",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "thanksgivinng",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-erntedankfest-7561"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-fahrzeuge-4325",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "vehicles",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-fahrzeuge-4325"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-fruchte-0159",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "fruits",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-fruchte-0159"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-fruhling-439c",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "spring",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-fruhling-439c"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-fruhstuck-ade6",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "breakfast",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-fruhstuck-ade6"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-gemuse-105b",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "vegetables",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-gemuse-105b"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-haustiere-0bfc",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "pets",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-haustiere-0bfc"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-im-supermarkt-0768",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "at_the_supermarket",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-im-supermarkt-0768"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-insekten-und-kafer-4515",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "insects_and_bugs",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-insekten-und-kafer-4515"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-klassenzimmer-ac19",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "classroom",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-klassenzimmer-ac19"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-kleidung-b357",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "clothing",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-kleidung-b357"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-korperteile-49b5",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "body_parts",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-korperteile-49b5"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-krankenhaus-3363",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "hospital",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-krankenhaus-3363"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-kuchenwerkzeuge-48be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "kitchen_tools",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-kuchenwerkzeuge-48be"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-meeresleben-8419",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "ocean_life",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-meeresleben-8419"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-mobel-5a36",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "furniture",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-mobel-5a36"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-musik-0266",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "music",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-musik-0266"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-ostern-a4ce",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "easter",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-ostern-a4ce"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-postamt-da0c",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "post_office",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-postamt-da0c"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-reptilien-und-amphibien-8d6c",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "reptiles_and_amphibians",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-reptilien-und-amphibien-8d6c"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-rund-ums-haus-e4d6",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "around_the_house",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-rund-ums-haus-e4d6"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-sommer-8b75",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "summer",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-sommer-8b75"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-spielzeug-c723",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "toys",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-spielzeug-c723"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-strand-57dc",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "beach",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-strand-57dc"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-tiere",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "animals",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-tiere"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-vogel-2-7881",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "schatzsuche-vogel-2",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "birds_2",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-vogel-2-7881"
+   "deck": "schatzsuche-hoch-runter-links-rechts-vogel-2-4acf"
   },
   {
-   "slug": "schatten-zuordnen-schatten-zuordnen-vogel-9062",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "birds",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-vogel-9062"
-  },
-  {
-   "slug": "schatten-zuordnen-schatten-zuordnen-waldtiere-a6ec",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "schatzsuche-waldtiere",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "forest_creatures",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-waldtiere-a6ec"
+   "deck": "schatzsuche-hoch-runter-links-rechts-waldtiere-79f4"
   },
   {
-   "slug": "schatten-zuordnen-schatten-zuordnen-weihnachten-8077",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "schatzsuche-weihnachten",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "christmas",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-weihnachten-8077"
+   "deck": "schatzsuche-hoch-runter-links-rechts-weihnachten-9484"
   },
   {
-   "slug": "schatten-zuordnen-schatten-zuordnen-weltraum-27e5",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "schatzsuche-weltraum",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "space",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-weltraum-27e5"
+   "deck": "schatzsuche-hoch-runter-links-rechts-weltraum-2033"
   },
   {
-   "slug": "schatten-zuordnen-schatten-zuordnen-werkzeuge-88dd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "schatzsuche-werkzeuge",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "tools",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-werkzeuge-88dd"
+   "deck": "schatzsuche-hoch-runter-links-rechts-werkzeuge-9abb"
   },
   {
-   "slug": "schatten-zuordnen-schatten-zuordnen-wetter-f1ec",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "schatzsuche-wetter",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "weather",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-wetter-f1ec"
+   "deck": "schatzsuche-hoch-runter-links-rechts-wetter-38ed"
   },
   {
-   "slug": "schatten-zuordnen-schatten-zuordnen-winter-bca2",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "schatzsuche-winter",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "winter",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-winter-bca2"
+   "deck": "schatzsuche-hoch-runter-links-rechts-winter-cac1"
   },
   {
-   "slug": "schatten-zuordnen-schatten-zuordnen-zootiere-8f4a",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "schatzsuche-zootiere",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "zoo_animals",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-schatten-zuordnen-zootiere-8f4a"
+   "deck": "schatzsuche-hoch-runter-links-rechts-zootiere-ac40"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-accessoires-5d6d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-accessoires-5d6d"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-backerei-9a3b",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-backerei-9a3b"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-bauernhoftiere-3718",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-bauernhoftiere-3718"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-baume-9808",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-baume-9808"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-berufe-a7d6",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-berufe-a7d6"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-blumen-ee46",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-blumen-ee46"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-camping-a78c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-camping-a78c"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-desserts-und-sussigkeiten-313e",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-desserts-und-sussigkeiten-313e"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-dinge-die-fliegen-ef19",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-dinge-die-fliegen-ef19"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-dinosaurier-d77b",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-dinosaurier-d77b"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-erntedankfest-6351",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-erntedankfest-6351"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-fahrzeuge-dc51",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-fahrzeuge-dc51"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-formen-d247",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-formen-d247"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-fruchte-1790",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-fruchte-1790"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-fruhstuck-046f",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-fruhstuck-046f"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-gemuse-8938",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-gemuse-8938"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-haustiere-eb45",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-haustiere-eb45"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-im-supermarkt-2fdb",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-im-supermarkt-2fdb"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-insekten-und-kafer-11d9",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-insekten-und-kafer-11d9"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-klassenzimmer-a877",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-klassenzimmer-a877"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-kleidung-80d7",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-kleidung-80d7"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-korperteile-6729",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-korperteile-6729"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-krankenhaus-f831",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-krankenhaus-f831"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-kuchenwerkzeuge-c68f",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-kuchenwerkzeuge-c68f"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-meeresleben-cd62",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-meeresleben-cd62"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-mobel-d63c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-mobel-d63c"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-musik-ff1d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-musik-ff1d"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-ostern-5503",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-ostern-5503"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-postamt-03c2",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-postamt-03c2"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-reptilien-und-amphibien-bc42",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "reptiles_and_amphibians",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-reptilien-und-amphibien-bc42"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-rund-ums-haus-2e2b",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-rund-ums-haus-2e2b"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-spielzeug-6aa7",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-spielzeug-6aa7"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-strand-8eef",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-strand-8eef"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-tiere-9e4e",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-tiere-9e4e"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-vogel-2-012d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-vogel-2-012d"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-vogel-df47",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-vogel-df47"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-waldtiere-8ff3",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-waldtiere-8ff3"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-weihnachten-e93e",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-weihnachten-e93e"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-weltraum-fcc1",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-weltraum-fcc1"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-werkzeuge-bdcc",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-werkzeuge-bdcc"
+  },
+  {
+   "slug": "gross-klein-aufsteigend-ordnen-zootiere-4f33",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "gross-klein-aufsteigend-ordnen-zootiere-4f33"
   }
  ]
 }

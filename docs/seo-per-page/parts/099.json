@@ -2,712 +2,779 @@
  "part": 99,
  "locale": "es",
  "classes": [
-  "picture-sort::null",
-  "alphabet-train::null",
-  "arrays-multiplication::arrays-repeated-addition",
-  "arrays-multiplication::multiply-and-divide",
-  "fractions::name-and-compare",
-  "fractions::partition-and-share",
-  "geometry::count-and-sort-shapes",
-  "geometry::quadrilaterals-and-area",
-  "geometry::shape-attributes",
-  "graphing-data::graphs-and-line-plots",
-  "graphing-data::read-picture-bar-graphs",
-  "graphing-data::scaled-graphs",
-  "measurement::compare-weight",
-  "measurement::length-units",
-  "measurement::measure-and-compare-length",
-  "measurement::volume-and-temperature",
-  "number-charts::hundreds-chart-skip-count",
-  "number-charts::number-patterns",
-  "number-charts::numbers-to-20",
-  "number-charts::skip-count-and-100-more-less",
-  "telling-time::hour-half-hour",
-  "telling-time::to-five-minutes",
-  "telling-time::to-the-minute"
+  "addition::image-image",
+  "missing-pieces::null"
  ],
  "splitOf": null,
- "count": 85,
+ "count": 96,
  "pages": [
   {
-   "slug": "clasificar-imagenes-accessories-vs-animals-f238",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-animals",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-accessories-vs-animals-f238"
+   "slug": "suma-imagen-imagen-4-de-julio-6902",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-4-de-julio-6902"
   },
   {
-   "slug": "clasificar-imagenes-activities-vs-animals-ff66",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-animals",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-activities-vs-animals-ff66"
+   "slug": "suma-imagen-imagen-accesorios-23f7",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-accesorios-23f7"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-at-the-supermarket-1d73",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-at_the_supermarket",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-at-the-supermarket-1d73"
+   "slug": "suma-imagen-imagen-actividades-5ce5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-actividades-5ce5"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-bakery-f867",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-bakery",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-bakery-f867"
+   "slug": "suma-imagen-imagen-alrededor-de-la-casa-7129",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-alrededor-de-la-casa-7129"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-beach-4dd1",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-beach",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-beach-4dd1"
+   "slug": "suma-imagen-imagen-animales-33bf",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-animales-33bf"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-birds-e49d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-birds",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-birds-e49d"
+   "slug": "suma-imagen-imagen-animales-de-granja-2d13",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-animales-de-granja-2d13"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-body-parts-6ea8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-body_parts",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-body-parts-6ea8"
+   "slug": "suma-imagen-imagen-animales-del-zoologico-6dc3",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-animales-del-zoologico-6dc3"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-breakfast-c226",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-breakfast",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-breakfast-c226"
+   "slug": "suma-imagen-imagen-arboles-38f5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-arboles-38f5"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-christmas-31bb",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-christmas",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-christmas-31bb"
+   "slug": "suma-imagen-imagen-aves-2-5103",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-aves-2-5103"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-classroom-a07b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-classroom",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-classroom-a07b"
+   "slug": "suma-imagen-imagen-aves-7400",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-aves-7400"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-clothing-ffaa",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-clothing",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-clothing-ffaa"
+   "slug": "suma-imagen-imagen-campamento-0fb8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-campamento-0fb8"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-desserts-and-sweets-4fbb",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-desserts_and_sweets",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-desserts-and-sweets-4fbb"
+   "slug": "suma-imagen-imagen-clima-4333",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-clima-4333"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-dinosaurs-e02f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-dinosaurs",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-dinosaurs-e02f"
+   "slug": "suma-imagen-imagen-colores-838d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-colores-838d"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-easter-ac0e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-easter",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-easter-ac0e"
+   "slug": "suma-imagen-imagen-cosas-que-vuelan-c386",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-cosas-que-vuelan-c386"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-emotions-306e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-emotions",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-emotions-306e"
+   "slug": "suma-imagen-imagen-criaturas-del-bosque-7663",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-criaturas-del-bosque-7663"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-flowers-b23d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-flowers",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-flowers-b23d"
+   "slug": "suma-imagen-imagen-desayuno-6fad",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-desayuno-6fad"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-fruits-d77d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-fruits",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-fruits-d77d"
+   "slug": "suma-imagen-imagen-emociones-6b16",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-emociones-6b16"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-furniture-b9b1",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-furniture",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-furniture-b9b1"
+   "slug": "suma-imagen-imagen-en-el-supermercado-76da",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-en-el-supermercado-76da"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-hospital-8f3a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-hospital",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-hospital-8f3a"
+   "slug": "suma-imagen-imagen-espacio-1577",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-espacio-1577"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-kitchen-tools-76fd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-kitchen_tools",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-kitchen-tools-76fd"
+   "slug": "suma-imagen-imagen-flores-f4ff",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-flores-f4ff"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-music-3a91",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-music",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-music-3a91"
+   "slug": "suma-imagen-imagen-formas-1586",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-formas-1586"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-occupations-03ba",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-occupations",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-occupations-03ba"
+   "slug": "suma-imagen-imagen-frutas-487f",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-frutas-487f"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-post-office-3c85",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-post_office",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-post-office-3c85"
+   "slug": "suma-imagen-imagen-herramientas-a68f",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-herramientas-a68f"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-shapes-2f8a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-shapes",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-shapes-2f8a"
+   "slug": "suma-imagen-imagen-hospital-cca5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-hospital-cca5"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-space-ed50",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-space",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-space-ed50"
+   "slug": "suma-imagen-imagen-insectos-y-bichos-9620",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-insectos-y-bichos-9620"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-summer-cdb9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-summer",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-summer-cdb9"
+   "slug": "suma-imagen-imagen-invierno-8e1d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-invierno-8e1d"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-thanksgiving-96b3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-thanksgivinng",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-thanksgiving-96b3"
+   "slug": "suma-imagen-imagen-juguetes-96ae",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-juguetes-96ae"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-tools-895a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-tools",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-tools-895a"
+   "slug": "suma-imagen-imagen-mascotas-8389",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-mascotas-8389"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-toys-6b6d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-toys",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-toys-6b6d"
+   "slug": "suma-imagen-imagen-miscelaneo-b635",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-miscelaneo-b635"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-tree-98be",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-tree",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-tree-98be"
+   "slug": "suma-imagen-imagen-muebles-f868",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-muebles-f868"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-vegetables-86ab",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-vegetables",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-vegetables-86ab"
+   "slug": "suma-imagen-imagen-musica-67a6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-musica-67a6"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-vehicles-3f91",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-vehicles",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-vehicles-3f91"
+   "slug": "suma-imagen-imagen-navidad-e97e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-navidad-e97e"
   },
   {
-   "slug": "clasificar-imagenes-animals-vs-weather-fb18",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-weather",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-animals-vs-weather-fb18"
+   "slug": "suma-imagen-imagen-ocupaciones-16d9",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-ocupaciones-16d9"
   },
   {
-   "slug": "clasificar-imagenes-around-the-house-vs-animals-98be",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "around_the_house-vs-animals",
-   "level": "preescolar",
-   "deck": "clasificar-imagenes-around-the-house-vs-animals-98be"
+   "slug": "suma-imagen-imagen-oficina-de-correos-8a03",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-oficina-de-correos-8a03"
   },
   {
-   "slug": "tren-del-abecedario-accesorios-fe63",
-   "type": "alphabet-train",
+   "slug": "suma-imagen-imagen-panaderia-af64",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-panaderia-af64"
+  },
+  {
+   "slug": "suma-imagen-imagen-partes-del-cuerpo-194a",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-partes-del-cuerpo-194a"
+  },
+  {
+   "slug": "suma-imagen-imagen-pascua-ecda",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-pascua-ecda"
+  },
+  {
+   "slug": "suma-imagen-imagen-playa-3b5c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-playa-3b5c"
+  },
+  {
+   "slug": "suma-imagen-imagen-postres-y-dulces-c11c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-postres-y-dulces-c11c"
+  },
+  {
+   "slug": "suma-imagen-imagen-primavera-bb03",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "spring",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-primavera-bb03"
+  },
+  {
+   "slug": "suma-imagen-imagen-reptiles-y-anfibios-0ba5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-reptiles-y-anfibios-0ba5"
+  },
+  {
+   "slug": "suma-imagen-imagen-ropa-c05e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-ropa-c05e"
+  },
+  {
+   "slug": "suma-imagen-imagen-salon-de-clases-3e9c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-salon-de-clases-3e9c"
+  },
+  {
+   "slug": "suma-imagen-imagen-utensilios-de-cocina-5f74",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-utensilios-de-cocina-5f74"
+  },
+  {
+   "slug": "suma-imagen-imagen-vehiculos-b3e8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-vehiculos-b3e8"
+  },
+  {
+   "slug": "suma-imagen-imagen-verano-29be",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-verano-29be"
+  },
+  {
+   "slug": "suma-imagen-imagen-verduras-73f6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-verduras-73f6"
+  },
+  {
+   "slug": "suma-imagen-imagen-vida-marina-09cf",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "suma-imagen-imagen-vida-marina-09cf"
+  },
+  {
+   "slug": "piezas-faltantes-4-de-julio-7d6e",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-4-de-julio-7d6e"
+  },
+  {
+   "slug": "piezas-faltantes-accesorios-08c2",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "accessories",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-accesorios-fe63"
+   "deck": "piezas-faltantes-accesorios-08c2"
   },
   {
-   "slug": "tren-del-abecedario-actividades-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-actividades-2c4c",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "activities",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-actividades-fe63"
+   "deck": "piezas-faltantes-actividades-2c4c"
   },
   {
-   "slug": "tren-del-abecedario-alrededor-de-la-casa-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-alrededor-de-la-casa-9ff1",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "around_the_house",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-alrededor-de-la-casa-fe63"
+   "deck": "piezas-faltantes-alrededor-de-la-casa-9ff1"
   },
   {
-   "slug": "tren-del-abecedario-animales",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-animales-4243",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "animals",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-animales"
+   "deck": "piezas-faltantes-animales-4243"
   },
   {
-   "slug": "tren-del-abecedario-animales-del-zoologico-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-animales-de-granja-cd60",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-animales-de-granja-cd60"
+  },
+  {
+   "slug": "piezas-faltantes-animales-del-zoologico-a93f",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "zoo_animals",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-animales-del-zoologico-fe63"
+   "deck": "piezas-faltantes-animales-del-zoologico-a93f"
   },
   {
-   "slug": "tren-del-abecedario-campamento-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-arboles-0c53",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-arboles-0c53"
+  },
+  {
+   "slug": "piezas-faltantes-aves-2-3479",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-aves-2-3479"
+  },
+  {
+   "slug": "piezas-faltantes-aves-ac04",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-aves-ac04"
+  },
+  {
+   "slug": "piezas-faltantes-campamento-6a18",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "camping",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-campamento-fe63"
+   "deck": "piezas-faltantes-campamento-6a18"
   },
   {
-   "slug": "tren-del-abecedario-clima-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-clima-bcbf",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "weather",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-clima-fe63"
+   "deck": "piezas-faltantes-clima-bcbf"
   },
   {
-   "slug": "tren-del-abecedario-colores-fe63",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "colors",
-   "level": "preescolar",
-   "deck": "tren-del-abecedario-colores-fe63"
-  },
-  {
-   "slug": "tren-del-abecedario-cosas-que-vuelan-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-cosas-que-vuelan-12c9",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "things_that_fly",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-cosas-que-vuelan-fe63"
+   "deck": "piezas-faltantes-cosas-que-vuelan-12c9"
   },
   {
-   "slug": "tren-del-abecedario-criaturas-del-bosque-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-criaturas-del-bosque-043a",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "forest_creatures",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-criaturas-del-bosque-fe63"
+   "deck": "piezas-faltantes-criaturas-del-bosque-043a"
   },
   {
-   "slug": "tren-del-abecedario-desayuno-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-desayuno-7517",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "breakfast",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-desayuno-fe63"
+   "deck": "piezas-faltantes-desayuno-7517"
   },
   {
-   "slug": "tren-del-abecedario-en-el-supermercado-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-dia-de-accion-de-gracias-8426",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-dia-de-accion-de-gracias-8426"
+  },
+  {
+   "slug": "piezas-faltantes-dinosaurios-d21f",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-dinosaurios-d21f"
+  },
+  {
+   "slug": "piezas-faltantes-emociones-7066",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-emociones-7066"
+  },
+  {
+   "slug": "piezas-faltantes-en-el-supermercado-42fd",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "at_the_supermarket",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-en-el-supermercado-fe63"
+   "deck": "piezas-faltantes-en-el-supermercado-42fd"
   },
   {
-   "slug": "tren-del-abecedario-espacio-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-espacio-09c9",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "space",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-espacio-fe63"
+   "deck": "piezas-faltantes-espacio-09c9"
   },
   {
-   "slug": "tren-del-abecedario-frutas-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-flores-1c93",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-flores-1c93"
+  },
+  {
+   "slug": "piezas-faltantes-frutas-58f7",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "fruits",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-frutas-fe63"
+   "deck": "piezas-faltantes-frutas-58f7"
   },
   {
-   "slug": "tren-del-abecedario-hospital-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-herramientas-24b6",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-herramientas-24b6"
+  },
+  {
+   "slug": "piezas-faltantes-hospital-78c0",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "hospital",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-hospital-fe63"
+   "deck": "piezas-faltantes-hospital-78c0"
   },
   {
-   "slug": "tren-del-abecedario-invierno-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-insectos-y-bichos-a50c",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-insectos-y-bichos-a50c"
+  },
+  {
+   "slug": "piezas-faltantes-invierno-4c6a",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "winter",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-invierno-fe63"
+   "deck": "piezas-faltantes-invierno-4c6a"
   },
   {
-   "slug": "tren-del-abecedario-juguetes-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-juguetes-8c53",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "toys",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-juguetes-fe63"
+   "deck": "piezas-faltantes-juguetes-8c53"
   },
   {
-   "slug": "tren-del-abecedario-musica-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-mascotas-7e00",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-mascotas-7e00"
+  },
+  {
+   "slug": "piezas-faltantes-miscelaneo-77fa",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-miscelaneo-77fa"
+  },
+  {
+   "slug": "piezas-faltantes-muebles-1e36",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-muebles-1e36"
+  },
+  {
+   "slug": "piezas-faltantes-musica-4211",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "music",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-musica-fe63"
+   "deck": "piezas-faltantes-musica-4211"
   },
   {
-   "slug": "tren-del-abecedario-navidad-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-navidad-9dbd",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "christmas",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-navidad-fe63"
+   "deck": "piezas-faltantes-navidad-9dbd"
   },
   {
-   "slug": "tren-del-abecedario-ocupaciones-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-ocupaciones-bb68",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "occupations",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-ocupaciones-fe63"
+   "deck": "piezas-faltantes-ocupaciones-bb68"
   },
   {
-   "slug": "tren-del-abecedario-panaderia-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-oficina-de-correos-ceea",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-oficina-de-correos-ceea"
+  },
+  {
+   "slug": "piezas-faltantes-panaderia-b28c",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "bakery",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-panaderia-fe63"
+   "deck": "piezas-faltantes-panaderia-b28c"
   },
   {
-   "slug": "tren-del-abecedario-partes-del-cuerpo-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-partes-del-cuerpo-1e31",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "body_parts",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-partes-del-cuerpo-fe63"
+   "deck": "piezas-faltantes-partes-del-cuerpo-1e31"
   },
   {
-   "slug": "tren-del-abecedario-pascua-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-pascua-0e9f",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "easter",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-pascua-fe63"
+   "deck": "piezas-faltantes-pascua-0e9f"
   },
   {
-   "slug": "tren-del-abecedario-playa-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-playa-81c5",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "beach",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-playa-fe63"
+   "deck": "piezas-faltantes-playa-81c5"
   },
   {
-   "slug": "tren-del-abecedario-ropa-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-postres-y-dulces-1c42",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-postres-y-dulces-1c42"
+  },
+  {
+   "slug": "piezas-faltantes-primavera-4b01",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-primavera-4b01"
+  },
+  {
+   "slug": "piezas-faltantes-reptiles-y-anfibios-5ee6",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-reptiles-y-anfibios-5ee6"
+  },
+  {
+   "slug": "piezas-faltantes-ropa-3ea4",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "clothing",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-ropa-fe63"
+   "deck": "piezas-faltantes-ropa-3ea4"
   },
   {
-   "slug": "tren-del-abecedario-salon-de-clases-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-salon-de-clases-e1ca",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "classroom",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-salon-de-clases-fe63"
+   "deck": "piezas-faltantes-salon-de-clases-e1ca"
   },
   {
-   "slug": "tren-del-abecedario-utensilios-de-cocina-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-utensilios-de-cocina-f42f",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "kitchen_tools",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-utensilios-de-cocina-fe63"
+   "deck": "piezas-faltantes-utensilios-de-cocina-f42f"
   },
   {
-   "slug": "tren-del-abecedario-vehiculos-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-vehiculos-6f32",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "vehicles",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-vehiculos-fe63"
+   "deck": "piezas-faltantes-vehiculos-6f32"
   },
   {
-   "slug": "tren-del-abecedario-verano-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-verano-2043",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "summer",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-verano-fe63"
+   "deck": "piezas-faltantes-verano-2043"
   },
   {
-   "slug": "tren-del-abecedario-vida-marina-fe63",
-   "type": "alphabet-train",
+   "slug": "piezas-faltantes-verduras-43db",
+   "type": "missing-pieces",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "piezas-faltantes-verduras-43db"
+  },
+  {
+   "slug": "piezas-faltantes-vida-marina-285b",
+   "type": "missing-pieces",
    "mode": null,
    "theme": "ocean_life",
    "level": "preescolar",
-   "deck": "tren-del-abecedario-vida-marina-fe63"
-  },
-  {
-   "slug": "arreglos-multiplicacion-segundo-grado",
-   "type": "arrays-multiplication",
-   "mode": "arrays-repeated-addition",
-   "theme": "",
-   "level": "segundo-grado",
-   "deck": "multiplicacion-formas-g2209"
-  },
-  {
-   "slug": "tablas-multiplicar-arreglos-tercer-grado",
-   "type": "arrays-multiplication",
-   "mode": "multiply-and-divide",
-   "theme": "",
-   "level": "tercer-grado",
-   "deck": "multiplicacion-g3313"
-  },
-  {
-   "slug": "fracciones-tercer-grado",
-   "type": "fractions",
-   "mode": "name-and-compare",
-   "theme": "",
-   "level": "tercer-grado",
-   "deck": "fracciones-g3315"
-  },
-  {
-   "slug": "fracciones-partes-iguales-segundo-grado",
-   "type": "fractions",
-   "mode": "partition-and-share",
-   "theme": "",
-   "level": "segundo-grado",
-   "deck": "fracciones-g2228"
-  },
-  {
-   "slug": "figuras-geometricas-preescolar",
-   "type": "geometry",
-   "mode": "count-and-sort-shapes",
-   "theme": "",
-   "level": "preescolar",
-   "deck": "geometria-k075"
-  },
-  {
-   "slug": "geometria-tercer-grado",
-   "type": "geometry",
-   "mode": "quadrilaterals-and-area",
-   "theme": "",
-   "level": "tercer-grado",
-   "deck": "geometria-g3337"
-  },
-  {
-   "slug": "cuerpos-geometricos-segundo-grado",
-   "type": "geometry",
-   "mode": "shape-attributes",
-   "theme": "",
-   "level": "segundo-grado",
-   "deck": "geometria-g2241"
-  },
-  {
-   "slug": "graficas-de-barras-segundo-grado",
-   "type": "graphing-data",
-   "mode": "graphs-and-line-plots",
-   "theme": "",
-   "level": "segundo-grado",
-   "deck": "graficos-y-datos-formas-g2240"
-  },
-  {
-   "slug": "graficas-pictogramas-primer-grado",
-   "type": "graphing-data",
-   "mode": "read-picture-bar-graphs",
-   "theme": "",
-   "level": "primer-grado",
-   "deck": "graficos-y-datos-formas-g1143"
-  },
-  {
-   "slug": "graficas-de-barras-con-escala-tercer-grado",
-   "type": "graphing-data",
-   "mode": "scaled-graphs",
-   "theme": "",
-   "level": "tercer-grado",
-   "deck": "graficos-y-datos-formas-g3334"
-  },
-  {
-   "slug": "comparar-peso-pesado-ligero-preescolar",
-   "type": "measurement",
-   "mode": "compare-weight",
-   "theme": "",
-   "level": "preescolar",
-   "deck": "medicion-frutas-k038"
-  },
-  {
-   "slug": "medir-longitud-cubos-primer-grado",
-   "type": "measurement",
-   "mode": "length-units",
-   "theme": "",
-   "level": "primer-grado",
-   "deck": "medicion-formas-g1139"
-  },
-  {
-   "slug": "medir-comparar-longitudes-segundo-grado",
-   "type": "measurement",
-   "mode": "measure-and-compare-length",
-   "theme": "",
-   "level": "segundo-grado",
-   "deck": "medicion-formas-g2235"
-  },
-  {
-   "slug": "temperatura-volumen-comparar-tercer-grado",
-   "type": "measurement",
-   "mode": "volume-and-temperature",
-   "theme": "",
-   "level": "tercer-grado",
-   "deck": "medicion-g3345"
-  },
-  {
-   "slug": "tabla-del-100-primer-grado",
-   "type": "number-charts",
-   "mode": "hundreds-chart-skip-count",
-   "theme": "",
-   "level": "primer-grado",
-   "deck": "tabla-del-100-g1130"
-  },
-  {
-   "slug": "sucesiones-y-maquinas-de-numeros-tercer-grado",
-   "type": "number-charts",
-   "mode": "number-patterns",
-   "theme": "",
-   "level": "tercer-grado",
-   "deck": "tabla-del-100-g3328"
-  },
-  {
-   "slug": "numeros-que-faltan-preescolar",
-   "type": "number-charts",
-   "mode": "numbers-to-20",
-   "theme": "",
-   "level": "preescolar",
-   "deck": "tabla-del-100-k021"
-  },
-  {
-   "slug": "contar-de-3-en-3-segundo-grado",
-   "type": "number-charts",
-   "mode": "skip-count-and-100-more-less",
-   "theme": "",
-   "level": "segundo-grado",
-   "deck": "tabla-del-100-g2218"
-  },
-  {
-   "slug": "leer-el-reloj-primer-grado",
-   "type": "telling-time",
-   "mode": "hour-half-hour",
-   "theme": "",
-   "level": "primer-grado",
-   "deck": "aprender-la-hora-g1148"
-  },
-  {
-   "slug": "la-hora-segundo-grado",
-   "type": "telling-time",
-   "mode": "to-five-minutes",
-   "theme": "",
-   "level": "segundo-grado",
-   "deck": "aprender-la-hora-g2249"
-  },
-  {
-   "slug": "decir-la-hora-tercer-grado",
-   "type": "telling-time",
-   "mode": "to-the-minute",
-   "theme": "",
-   "level": "tercer-grado",
-   "deck": "aprender-la-hora-g3344"
+   "deck": "piezas-faltantes-vida-marina-285b"
   }
  ]
 }

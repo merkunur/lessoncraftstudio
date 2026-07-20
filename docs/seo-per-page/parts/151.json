@@ -2,747 +2,394 @@
  "part": 151,
  "locale": "fr",
  "classes": [
-  "code-addition::secret-word",
-  "missing-pieces::one-missing"
+  "odd-one-out::same-theme"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 48,
  "pages": [
   {
-   "slug": "addition-codee-mot-secret-accessoires-3b75",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-accessoires-2ed1",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "accessories",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-accessoires-3b75"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-accessoires-2ed1"
   },
   {
-   "slug": "addition-codee-mot-secret-action-de-grace-17c2",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-action-de-grace-5837",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "thanksgivinng",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-action-de-grace-17c2"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-action-de-grace-5837"
   },
   {
-   "slug": "addition-codee-mot-secret-activites-bbd2",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-activites-942a",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "activities",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-activites-bbd2"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-activites-942a"
   },
   {
-   "slug": "addition-codee-mot-secret-animaux-bd25",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-animaux",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "animals",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-animaux-bd25"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-animaux"
   },
   {
-   "slug": "addition-codee-mot-secret-animaux-de-compagnie-235e",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-animaux-de-compagnie-3831",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "pets",
-   "level": "cp",
-   "deck": "addition-codee-mot-secret-animaux-de-compagnie-235e"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-animaux-de-compagnie-3831"
   },
   {
-   "slug": "addition-codee-mot-secret-animaux-de-la-ferme-15a1",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-animaux-de-la-ferme-c864",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "farm_animals",
-   "level": "cp",
-   "deck": "addition-codee-mot-secret-animaux-de-la-ferme-15a1"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-animaux-de-la-ferme-c864"
   },
   {
-   "slug": "addition-codee-mot-secret-animaux-du-zoo-277b",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-animaux-du-zoo-d512",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "zoo_animals",
-   "level": "cp",
-   "deck": "addition-codee-mot-secret-animaux-du-zoo-277b"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-animaux-du-zoo-d512"
   },
   {
-   "slug": "addition-codee-mot-secret-arbres-f87b",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-arbres-7a72",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "tree",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-arbres-f87b"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-arbres-7a72"
   },
   {
-   "slug": "addition-codee-mot-secret-au-supermarche-eb96",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-au-supermarche-3a8d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "at_the_supermarket",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-au-supermarche-eb96"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-au-supermarche-3a8d"
   },
   {
-   "slug": "addition-codee-mot-secret-autour-de-la-maison-7c16",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-autour-de-la-maison-d553",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "around_the_house",
-   "level": "cp",
-   "deck": "addition-codee-mot-secret-autour-de-la-maison-7c16"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-autour-de-la-maison-d553"
   },
   {
-   "slug": "addition-codee-mot-secret-boulangerie-0281",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-boulangerie-2df2",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "bakery",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-boulangerie-0281"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-boulangerie-2df2"
   },
   {
-   "slug": "addition-codee-mot-secret-bureau-de-poste-c029",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-bureau-de-poste-99bd",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "post_office",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-bureau-de-poste-c029"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-bureau-de-poste-99bd"
   },
   {
-   "slug": "addition-codee-mot-secret-camping-03ed",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-camping-3a57",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "camping",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-camping-03ed"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-camping-3a57"
   },
   {
-   "slug": "addition-codee-mot-secret-choses-qui-volent-95c1",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-choses-qui-volent-7917",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "things_that_fly",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-choses-qui-volent-95c1"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-choses-qui-volent-7917"
   },
   {
-   "slug": "addition-codee-mot-secret-couleurs-5b63",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-couleurs-9778",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "colors",
-   "level": "cp",
-   "deck": "addition-codee-mot-secret-couleurs-5b63"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-couleurs-9778"
   },
   {
-   "slug": "addition-codee-mot-secret-creatures-de-la-foret-5d1b",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-creatures-de-la-foret-9d03",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "forest_creatures",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-creatures-de-la-foret-5d1b"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-creatures-de-la-foret-9d03"
   },
   {
-   "slug": "addition-codee-mot-secret-desserts-et-sucreries-591b",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-desserts-et-sucreries-51ee",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "desserts_and_sweets",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-desserts-et-sucreries-591b"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-desserts-et-sucreries-51ee"
   },
   {
-   "slug": "addition-codee-mot-secret-dinosaures-087a",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-dinosaures-4363",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "dinosaurs",
-   "level": "cp",
-   "deck": "addition-codee-mot-secret-dinosaures-087a"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-dinosaures-4363"
   },
   {
-   "slug": "addition-codee-mot-secret-emotions-ae3a",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-emotions-ca72",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "emotions",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-emotions-ae3a"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-emotions-ca72"
   },
   {
-   "slug": "addition-codee-mot-secret-espace-9d77",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-espace-8c5f",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "space",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-espace-9d77"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-espace-8c5f"
   },
   {
-   "slug": "addition-codee-mot-secret-ete-b91e",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-ete-c699",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "summer",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-ete-b91e"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-ete-c699"
   },
   {
-   "slug": "addition-codee-mot-secret-fleurs-0def",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-fleurs-90ff",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "flowers",
-   "level": "cp",
-   "deck": "addition-codee-mot-secret-fleurs-0def"
+   "level": "maternelle",
+   "deck": "l-intrus-meme-theme-fleurs-90ff"
   },
   {
-   "slug": "addition-codee-mot-secret-formes-17cc",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "l-intrus-meme-theme-formes-a403",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "shapes",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-formes-17cc"
-  },
-  {
-   "slug": "addition-codee-mot-secret-fruits-b893",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "fruits",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-fruits-b893"
-  },
-  {
-   "slug": "addition-codee-mot-secret-hiver-63cf",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "winter",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-hiver-63cf"
-  },
-  {
-   "slug": "addition-codee-mot-secret-hopital-eac9",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "hospital",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-hopital-eac9"
-  },
-  {
-   "slug": "addition-codee-mot-secret-jouets-1300",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "toys",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-jouets-1300"
-  },
-  {
-   "slug": "addition-codee-mot-secret-legumes-ad0e",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "vegetables",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-legumes-ad0e"
-  },
-  {
-   "slug": "addition-codee-mot-secret-meteo-71ba",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "weather",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-meteo-71ba"
-  },
-  {
-   "slug": "addition-codee-mot-secret-metiers-3fe1",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "occupations",
-   "level": "cp",
-   "deck": "addition-codee-mot-secret-metiers-3fe1"
-  },
-  {
-   "slug": "addition-codee-mot-secret-meubles-fd93",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "furniture",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-meubles-fd93"
-  },
-  {
-   "slug": "addition-codee-mot-secret-musique-c6a3",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "music",
-   "level": "cp",
-   "deck": "addition-codee-mot-secret-musique-c6a3"
-  },
-  {
-   "slug": "addition-codee-mot-secret-noel-ffad",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "christmas",
-   "level": "cp",
-   "deck": "addition-codee-mot-secret-noel-ffad"
-  },
-  {
-   "slug": "addition-codee-mot-secret-oiseaux-2-7c88",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "birds_2",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-oiseaux-2-7c88"
-  },
-  {
-   "slug": "addition-codee-mot-secret-oiseaux-8cf4",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "birds",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-oiseaux-8cf4"
-  },
-  {
-   "slug": "addition-codee-mot-secret-outils-c3f3",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "tools",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-outils-c3f3"
-  },
-  {
-   "slug": "addition-codee-mot-secret-paques-80ce",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "easter",
-   "level": "cp",
-   "deck": "addition-codee-mot-secret-paques-80ce"
-  },
-  {
-   "slug": "addition-codee-mot-secret-parties-du-corps-768f",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "body_parts",
-   "level": "cp",
-   "deck": "addition-codee-mot-secret-parties-du-corps-768f"
-  },
-  {
-   "slug": "addition-codee-mot-secret-petit-dejeuner-d49a",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "breakfast",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-petit-dejeuner-d49a"
-  },
-  {
-   "slug": "addition-codee-mot-secret-plage-3cb4",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "beach",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-plage-3cb4"
-  },
-  {
-   "slug": "addition-codee-mot-secret-printemps-895f",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "spring",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-printemps-895f"
-  },
-  {
-   "slug": "addition-codee-mot-secret-salle-de-classe-cf12",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "classroom",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-salle-de-classe-cf12"
-  },
-  {
-   "slug": "addition-codee-mot-secret-ustensiles-de-cuisine-d8c8",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "kitchen_tools",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-ustensiles-de-cuisine-d8c8"
-  },
-  {
-   "slug": "addition-codee-mot-secret-vehicules-7cb3",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "vehicles",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-vehicules-7cb3"
-  },
-  {
-   "slug": "addition-codee-mot-secret-vetements-df63",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "clothing",
-   "level": "cp",
-   "deck": "addition-codee-mot-secret-vetements-df63"
-  },
-  {
-   "slug": "addition-codee-mot-secret-vie-oceanique-5803",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "ocean_life",
-   "level": "ce1",
-   "deck": "addition-codee-mot-secret-vie-oceanique-5803"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-accessoires-0f13",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "accessories",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-accessoires-0f13"
+   "deck": "l-intrus-meme-theme-formes-a403"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-action-de-grace-cd45",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-action-de-grace-cd45"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-activites-0020",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "activities",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-activites-0020"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-animaux",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "animals",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-animaux"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-animaux-de-compagnie-48c7",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "pets",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-animaux-de-compagnie-48c7"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-animaux-de-la-ferme-8132",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-animaux-de-la-ferme-8132"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-animaux-du-zoo-e6d3",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-animaux-du-zoo-e6d3"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-arbres-4216",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "tree",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-arbres-4216"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-au-supermarche-d832",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-au-supermarche-d832"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-autour-de-la-maison-bfc0",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-autour-de-la-maison-bfc0"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-boulangerie-612b",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "bakery",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-boulangerie-612b"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-bureau-de-poste-4d38",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "post_office",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-bureau-de-poste-4d38"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-camping-0bc5",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "camping",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-camping-0bc5"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-choses-qui-volent-b0fa",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-choses-qui-volent-b0fa"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-creatures-de-la-foret-5806",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "forest_creatures",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-creatures-de-la-foret-5806"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-desserts-et-sucreries-9198",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-desserts-et-sucreries-9198"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-dinosaures-0397",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "dinosaurs",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-dinosaures-0397"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-emotions-4abb",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "emotions",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-emotions-4abb"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-espace-19fd",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "space",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-espace-19fd"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-ete-0219",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "summer",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-ete-0219"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-fleurs-da6c",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "flowers",
-   "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-fleurs-da6c"
-  },
-  {
-   "slug": "pieces-manquantes-1-piece-manquante-fruits-8718",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-fruits-86b7",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "fruits",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-fruits-8718"
+   "deck": "l-intrus-meme-theme-fruits-86b7"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-hiver-46d5",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-hiver-8294",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "winter",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-hiver-46d5"
+   "deck": "l-intrus-meme-theme-hiver-8294"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-hopital-bb74",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-hopital-b225",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "hospital",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-hopital-bb74"
+   "deck": "l-intrus-meme-theme-hopital-b225"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-insectes-et-bestioles-9a7f",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-insectes-et-bestioles-8581",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "insects_and_bugs",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-insectes-et-bestioles-9a7f"
+   "deck": "l-intrus-meme-theme-insectes-et-bestioles-8581"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-jouets-906e",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-jouets-7a8f",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "toys",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-jouets-906e"
+   "deck": "l-intrus-meme-theme-jouets-7a8f"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-legumes-710d",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-legumes-1a39",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "vegetables",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-legumes-710d"
+   "deck": "l-intrus-meme-theme-legumes-1a39"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-meteo-d189",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-meteo-11a9",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "weather",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-meteo-d189"
+   "deck": "l-intrus-meme-theme-meteo-11a9"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-metiers-1865",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-metiers-a262",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "occupations",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-metiers-1865"
+   "deck": "l-intrus-meme-theme-metiers-a262"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-meubles-8b46",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-meubles-b340",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "furniture",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-meubles-8b46"
+   "deck": "l-intrus-meme-theme-meubles-b340"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-musique-0de0",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-musique-3f6e",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "music",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-musique-0de0"
+   "deck": "l-intrus-meme-theme-musique-3f6e"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-noel-4c30",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-noel-a315",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "christmas",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-noel-4c30"
+   "deck": "l-intrus-meme-theme-noel-a315"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-oiseaux-2-5dc4",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-oiseaux-2-b9ab",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "birds_2",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-oiseaux-2-5dc4"
+   "deck": "l-intrus-meme-theme-oiseaux-2-b9ab"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-oiseaux-233f",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-oiseaux-9721",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "birds",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-oiseaux-233f"
+   "deck": "l-intrus-meme-theme-oiseaux-9721"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-outils-6880",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-outils-5806",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "tools",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-outils-6880"
+   "deck": "l-intrus-meme-theme-outils-5806"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-paques-36b2",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-paques-71cf",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "easter",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-paques-36b2"
+   "deck": "l-intrus-meme-theme-paques-71cf"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-parties-du-corps-8a1f",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-parties-du-corps-ba83",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "body_parts",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-parties-du-corps-8a1f"
+   "deck": "l-intrus-meme-theme-parties-du-corps-ba83"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-petit-dejeuner-ee06",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-petit-dejeuner-3209",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "breakfast",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-petit-dejeuner-ee06"
+   "deck": "l-intrus-meme-theme-petit-dejeuner-3209"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-plage-ac2f",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-plage-f173",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "beach",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-plage-ac2f"
+   "deck": "l-intrus-meme-theme-plage-f173"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-printemps-e9ee",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-printemps-2090",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "spring",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-printemps-e9ee"
+   "deck": "l-intrus-meme-theme-printemps-2090"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-reptiles-et-amphibiens-28cb",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-reptiles-et-amphibiens-2e82",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "reptiles_and_amphibians",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-reptiles-et-amphibiens-28cb"
+   "deck": "l-intrus-meme-theme-reptiles-et-amphibiens-2e82"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-salle-de-classe-aa3f",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-salle-de-classe-cc79",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "classroom",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-salle-de-classe-aa3f"
+   "deck": "l-intrus-meme-theme-salle-de-classe-cc79"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-ustensiles-de-cuisine-347a",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-ustensiles-de-cuisine-7569",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "kitchen_tools",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-ustensiles-de-cuisine-347a"
+   "deck": "l-intrus-meme-theme-ustensiles-de-cuisine-7569"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-vehicules-8a70",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-vehicules-3ac4",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "vehicles",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-vehicules-8a70"
+   "deck": "l-intrus-meme-theme-vehicules-3ac4"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-vetements-d5d7",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-vetements-c08b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "clothing",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-vetements-d5d7"
+   "deck": "l-intrus-meme-theme-vetements-c08b"
   },
   {
-   "slug": "pieces-manquantes-1-piece-manquante-vie-oceanique-b55f",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "l-intrus-meme-theme-vie-oceanique-4329",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "ocean_life",
    "level": "maternelle",
-   "deck": "pieces-manquantes-1-piece-manquante-vie-oceanique-b55f"
+   "deck": "l-intrus-meme-theme-vie-oceanique-4329"
   }
  ]
 }

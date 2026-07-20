@@ -2,635 +2,779 @@
  "part": 283,
  "locale": "da",
  "classes": [
-  "addition::image-number",
-  "math-puzzle::mixed"
+  "pattern-train::aab",
+  "pattern-train::aabb"
  ],
  "splitOf": null,
- "count": 78,
+ "count": 96,
  "pages": [
   {
-   "slug": "addition-billede-tal-bageri-65d8",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-aktiviteter-af5e",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-aktiviteter-af5e"
+  },
+  {
+   "slug": "monstertoget-aab-bageri-8d0e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "bakery",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-bageri-65d8"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-bageri-8d0e"
   },
   {
-   "slug": "addition-billede-tal-blomster-a291",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-blomster-0b7e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "flowers",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-blomster-a291"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-blomster-0b7e"
   },
   {
-   "slug": "addition-billede-tal-bondegardsdyr-d2e5",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-bondegardsdyr-7314",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "farm_animals",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-bondegardsdyr-d2e5"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-bondegardsdyr-7314"
   },
   {
-   "slug": "addition-billede-tal-camping-5c7f",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-camping-3641",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "camping",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-camping-5c7f"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-camping-3641"
   },
   {
-   "slug": "addition-billede-tal-dinosaurer-7284",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-desserter-og-slik-c965",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-desserter-og-slik-c965"
+  },
+  {
+   "slug": "monstertoget-aab-dinosaurer-4a7c",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "dinosaurs",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-dinosaurer-7284"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-dinosaurer-4a7c"
   },
   {
-   "slug": "addition-billede-tal-dyr-ce70",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-dyr-a0ac",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "animals",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-dyr-ce70"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-dyr-a0ac"
   },
   {
-   "slug": "addition-billede-tal-erhverv-cb9f",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-erhverv-4686",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "occupations",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-erhverv-cb9f"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-erhverv-4686"
   },
   {
-   "slug": "addition-billede-tal-former-f738",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-farver-ae2d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-farver-ae2d"
+  },
+  {
+   "slug": "monstertoget-aab-folelser-4663",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-folelser-4663"
+  },
+  {
+   "slug": "monstertoget-aab-forar-88cf",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-forar-88cf"
+  },
+  {
+   "slug": "monstertoget-aab-former-a13d",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "shapes",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-former-f738"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-former-a13d"
   },
   {
-   "slug": "addition-billede-tal-frugter-1fdb",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-frugter-3566",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "fruits",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-frugter-1fdb"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-frugter-3566"
   },
   {
-   "slug": "addition-billede-tal-fugle-2-e6a8",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-fugle-2-23af",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-fugle-2-e6a8"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-fugle-2-23af"
   },
   {
-   "slug": "addition-billede-tal-fugle-7f60",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-fugle-c388",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "birds",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-fugle-7f60"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-fugle-c388"
   },
   {
-   "slug": "addition-billede-tal-grontsager-7ad4",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-grontsager-ab2a",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "vegetables",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-grontsager-7ad4"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-grontsager-ab2a"
   },
   {
-   "slug": "addition-billede-tal-havliv-2563",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-havliv-9b75",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "ocean_life",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-havliv-2563"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-havliv-9b75"
   },
   {
-   "slug": "addition-billede-tal-hospital-b96b",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-hospital-7496",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "hospital",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-hospital-b96b"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-hospital-7496"
   },
   {
-   "slug": "addition-billede-tal-i-supermarkedet-ae6e",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-i-supermarkedet-20ad",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "at_the_supermarket",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-i-supermarkedet-ae6e"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-i-supermarkedet-20ad"
   },
   {
-   "slug": "addition-billede-tal-insekter-og-kryb-5c74",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-insekter-og-kryb-c221",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "insects_and_bugs",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-insekter-og-kryb-5c74"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-insekter-og-kryb-c221"
   },
   {
-   "slug": "addition-billede-tal-jul-2fb8",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-jul-58eb",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "christmas",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-jul-2fb8"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-jul-58eb"
   },
   {
-   "slug": "addition-billede-tal-kaeledyr-6a80",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-kaeledyr-7ad5",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "pets",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-kaeledyr-6a80"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-kaeledyr-7ad5"
   },
   {
-   "slug": "addition-billede-tal-klassevaerelse-a3fa",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-klassevaerelse-c260",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "classroom",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-klassevaerelse-a3fa"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-klassevaerelse-c260"
   },
   {
-   "slug": "addition-billede-tal-kokkenredskaber-3cce",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-kokkenredskaber-18b9",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "kitchen_tools",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-kokkenredskaber-3cce"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-kokkenredskaber-18b9"
   },
   {
-   "slug": "addition-billede-tal-koretojer-2fc0",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-koretojer-b21c",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "vehicles",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-koretojer-2fc0"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-koretojer-b21c"
   },
   {
-   "slug": "addition-billede-tal-krybdyr-og-padder-ec8d",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-kropsdele-9712",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-kropsdele-9712"
+  },
+  {
+   "slug": "monstertoget-aab-krybdyr-og-padder-6426",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "reptiles_and_amphibians",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-krybdyr-og-padder-ec8d"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-krybdyr-og-padder-6426"
   },
   {
-   "slug": "addition-billede-tal-legetoj-21f1",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-legetoj-d351",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "toys",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-legetoj-21f1"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-legetoj-d351"
   },
   {
-   "slug": "addition-billede-tal-mobler-4235",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-mobler-be9e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "furniture",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-mobler-4235"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-mobler-be9e"
   },
   {
-   "slug": "addition-billede-tal-morgenmad-690c",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-morgenmad-7410",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "breakfast",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-morgenmad-690c"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-morgenmad-7410"
   },
   {
-   "slug": "addition-billede-tal-musik-1479",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-musik-969f",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "music",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-musik-1479"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-musik-969f"
   },
   {
-   "slug": "addition-billede-tal-paske-9854",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-paske-47cb",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "easter",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-paske-9854"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-paske-47cb"
   },
   {
-   "slug": "addition-billede-tal-postkontor-8fa6",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-postkontor-a5a5",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "post_office",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-postkontor-8fa6"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-postkontor-a5a5"
   },
   {
-   "slug": "addition-billede-tal-rummet-8a50",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-rummet-8682",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "space",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-rummet-8a50"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-rummet-8682"
   },
   {
-   "slug": "addition-billede-tal-rundt-i-huset-a29e",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-rundt-i-huset-e2cf",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "around_the_house",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-rundt-i-huset-a29e"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-rundt-i-huset-e2cf"
   },
   {
-   "slug": "addition-billede-tal-skovdyr-ace0",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-skovdyr-a063",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "forest_creatures",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-skovdyr-ace0"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-skovdyr-a063"
   },
   {
-   "slug": "addition-billede-tal-strand-8558",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-sommer-018a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-sommer-018a"
+  },
+  {
+   "slug": "monstertoget-aab-strand-978e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "beach",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-strand-8558"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-strand-978e"
   },
   {
-   "slug": "addition-billede-tal-thanksgiving-60cf",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-thanksgiving-1dd6",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "thanksgivinng",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-thanksgiving-60cf"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-thanksgiving-1dd6"
   },
   {
-   "slug": "addition-billede-tal-tilbehor-5a7d",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-tilbehor-8ace",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "accessories",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-tilbehor-5a7d"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-tilbehor-8ace"
   },
   {
-   "slug": "addition-billede-tal-ting-der-flyver-f141",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-ting-der-flyver-5b94",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "things_that_fly",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-ting-der-flyver-f141"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-ting-der-flyver-5b94"
   },
   {
-   "slug": "addition-billede-tal-toj-47fe",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-toj-3728",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "clothing",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-toj-47fe"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-toj-3728"
   },
   {
-   "slug": "addition-billede-tal-traeer-c8ac",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-traeer-aa61",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "tree",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-traeer-c8ac"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-traeer-aa61"
   },
   {
-   "slug": "addition-billede-tal-vaerktoj-8f33",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-vaerktoj-0b14",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "tools",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-vaerktoj-8f33"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-vaerktoj-0b14"
   },
   {
-   "slug": "addition-billede-tal-zoodyr-a8b1",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "monstertoget-aab-vejr-9545",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-vejr-9545"
+  },
+  {
+   "slug": "monstertoget-aab-vinter-0dee",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-vinter-0dee"
+  },
+  {
+   "slug": "monstertoget-aab-zoodyr-f4ae",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "zoo_animals",
-   "level": "1-klasse",
-   "deck": "addition-billede-tal-zoodyr-a8b1"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aab-zoodyr-f4ae"
   },
   {
-   "slug": "matematikpuslespil-blandet-bageri-6c6f",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-aktiviteter-77f8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-aktiviteter-77f8"
+  },
+  {
+   "slug": "monstertoget-aabb-bageri-388f",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "bakery",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-bageri-6c6f"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-bageri-388f"
   },
   {
-   "slug": "matematikpuslespil-blandet-blomster-71e1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-blomster-0c61",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "flowers",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-blomster-71e1"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-blomster-0c61"
   },
   {
-   "slug": "matematikpuslespil-blandet-bondegardsdyr-b009",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-bondegardsdyr-72e7",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "farm_animals",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-bondegardsdyr-b009"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-bondegardsdyr-72e7"
   },
   {
-   "slug": "matematikpuslespil-blandet-camping-0603",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-camping-e304",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "camping",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-camping-0603"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-camping-e304"
   },
   {
-   "slug": "matematikpuslespil-blandet-dinosaurer-bbf7",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-desserter-og-slik-1f14",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-desserter-og-slik-1f14"
+  },
+  {
+   "slug": "monstertoget-aabb-dinosaurer-7ac7",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "dinosaurs",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-dinosaurer-bbf7"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-dinosaurer-7ac7"
   },
   {
-   "slug": "matematikpuslespil-blandet-dyr",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-dyr-da3f",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "animals",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-dyr"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-dyr-da3f"
   },
   {
-   "slug": "matematikpuslespil-blandet-erhverv-a753",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-erhverv-9fb0",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "occupations",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-erhverv-a753"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-erhverv-9fb0"
   },
   {
-   "slug": "matematikpuslespil-blandet-former-cc92",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-farver-0ee0",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-farver-0ee0"
+  },
+  {
+   "slug": "monstertoget-aabb-folelser-1e1d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-folelser-1e1d"
+  },
+  {
+   "slug": "monstertoget-aabb-forar-f886",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-forar-f886"
+  },
+  {
+   "slug": "monstertoget-aabb-former-d86d",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "shapes",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-former-cc92"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-former-d86d"
   },
   {
-   "slug": "matematikpuslespil-blandet-frugter-4691",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-frugter-d16d",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "fruits",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-frugter-4691"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-frugter-d16d"
   },
   {
-   "slug": "matematikpuslespil-blandet-fugle-2-51a7",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-fugle-2-b746",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-fugle-2-51a7"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-fugle-2-b746"
   },
   {
-   "slug": "matematikpuslespil-blandet-fugle-a521",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-fugle-9da5",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "birds",
-   "level": "2-klasse",
-   "deck": "matematikpuslespil-blandet-fugle-a521"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-fugle-9da5"
   },
   {
-   "slug": "matematikpuslespil-blandet-grontsager-ab0b",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-grontsager-895f",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "vegetables",
-   "level": "2-klasse",
-   "deck": "matematikpuslespil-blandet-grontsager-ab0b"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-grontsager-895f"
   },
   {
-   "slug": "matematikpuslespil-blandet-havliv-71de",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-havliv-42e9",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "ocean_life",
-   "level": "2-klasse",
-   "deck": "matematikpuslespil-blandet-havliv-71de"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-havliv-42e9"
   },
   {
-   "slug": "matematikpuslespil-blandet-hospital-5bda",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-hospital-1a26",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "hospital",
-   "level": "2-klasse",
-   "deck": "matematikpuslespil-blandet-hospital-5bda"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-hospital-1a26"
   },
   {
-   "slug": "matematikpuslespil-blandet-i-supermarkedet-e812",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-i-supermarkedet-52c8",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "at_the_supermarket",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-i-supermarkedet-e812"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-i-supermarkedet-52c8"
   },
   {
-   "slug": "matematikpuslespil-blandet-insekter-og-kryb-27b2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-insekter-og-kryb-92d7",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "insects_and_bugs",
-   "level": "2-klasse",
-   "deck": "matematikpuslespil-blandet-insekter-og-kryb-27b2"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-insekter-og-kryb-92d7"
   },
   {
-   "slug": "matematikpuslespil-blandet-jul-da65",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-jul-4272",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "christmas",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-jul-da65"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-jul-4272"
   },
   {
-   "slug": "matematikpuslespil-blandet-kaeledyr-1c29",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-kaeledyr-5aaf",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "pets",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-kaeledyr-1c29"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-kaeledyr-5aaf"
   },
   {
-   "slug": "matematikpuslespil-blandet-klassevaerelse-b3fd",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-klassevaerelse-760c",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "classroom",
-   "level": "2-klasse",
-   "deck": "matematikpuslespil-blandet-klassevaerelse-b3fd"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-klassevaerelse-760c"
   },
   {
-   "slug": "matematikpuslespil-blandet-kokkenredskaber-296f",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-kokkenredskaber-581d",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "kitchen_tools",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-kokkenredskaber-296f"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-kokkenredskaber-581d"
   },
   {
-   "slug": "matematikpuslespil-blandet-koretojer-181d",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-koretojer-68ad",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "vehicles",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-koretojer-181d"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-koretojer-68ad"
   },
   {
-   "slug": "matematikpuslespil-blandet-krybdyr-og-padder-9d3d",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-kropsdele-a62c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-kropsdele-a62c"
+  },
+  {
+   "slug": "monstertoget-aabb-krybdyr-og-padder-013e",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "reptiles_and_amphibians",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-krybdyr-og-padder-9d3d"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-krybdyr-og-padder-013e"
   },
   {
-   "slug": "matematikpuslespil-blandet-legetoj-5c17",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-legetoj-ec52",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "toys",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-legetoj-5c17"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-legetoj-ec52"
   },
   {
-   "slug": "matematikpuslespil-blandet-mobler-4bde",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-mobler-6445",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "furniture",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-mobler-4bde"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-mobler-6445"
   },
   {
-   "slug": "matematikpuslespil-blandet-morgenmad-a4cf",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-morgenmad-2dc5",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "breakfast",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-morgenmad-a4cf"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-morgenmad-2dc5"
   },
   {
-   "slug": "matematikpuslespil-blandet-musik-5320",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-musik-0ae3",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "music",
-   "level": "2-klasse",
-   "deck": "matematikpuslespil-blandet-musik-5320"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-musik-0ae3"
   },
   {
-   "slug": "matematikpuslespil-blandet-paske-43b4",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-paske-e350",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "easter",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-paske-43b4"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-paske-e350"
   },
   {
-   "slug": "matematikpuslespil-blandet-postkontor-c4ee",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-postkontor-79e9",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "post_office",
-   "level": "2-klasse",
-   "deck": "matematikpuslespil-blandet-postkontor-c4ee"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-postkontor-79e9"
   },
   {
-   "slug": "matematikpuslespil-blandet-rummet-c46a",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-rummet-9d5c",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "space",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-rummet-c46a"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-rummet-9d5c"
   },
   {
-   "slug": "matematikpuslespil-blandet-rundt-i-huset-22b3",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-rundt-i-huset-cb2a",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "around_the_house",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-rundt-i-huset-22b3"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-rundt-i-huset-cb2a"
   },
   {
-   "slug": "matematikpuslespil-blandet-skovdyr-1969",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-skovdyr-3a6b",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "forest_creatures",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-skovdyr-1969"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-skovdyr-3a6b"
   },
   {
-   "slug": "matematikpuslespil-blandet-strand-1e1f",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-sommer-4fa8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-sommer-4fa8"
+  },
+  {
+   "slug": "monstertoget-aabb-strand-d452",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "beach",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-strand-1e1f"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-strand-d452"
   },
   {
-   "slug": "matematikpuslespil-blandet-thanksgiving-666d",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-thanksgiving-3626",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "thanksgivinng",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-thanksgiving-666d"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-thanksgiving-3626"
   },
   {
-   "slug": "matematikpuslespil-blandet-tilbehor-fedf",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-tilbehor-654b",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "accessories",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-tilbehor-fedf"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-tilbehor-654b"
   },
   {
-   "slug": "matematikpuslespil-blandet-ting-der-flyver-2e78",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-ting-der-flyver-acf3",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "things_that_fly",
-   "level": "2-klasse",
-   "deck": "matematikpuslespil-blandet-ting-der-flyver-2e78"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-ting-der-flyver-acf3"
   },
   {
-   "slug": "matematikpuslespil-blandet-toj-b379",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-toj-1bff",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "clothing",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-toj-b379"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-toj-1bff"
   },
   {
-   "slug": "matematikpuslespil-blandet-traeer-2dac",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-traeer-8a3b",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "tree",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-traeer-2dac"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-traeer-8a3b"
   },
   {
-   "slug": "matematikpuslespil-blandet-vaerktoj-fd5d",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-vaerktoj-01a1",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "tools",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-vaerktoj-fd5d"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-vaerktoj-01a1"
   },
   {
-   "slug": "matematikpuslespil-blandet-zoodyr-3041",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-vejr-1ce9",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-vejr-1ce9"
+  },
+  {
+   "slug": "monstertoget-aabb-vinter-dbb6",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-vinter-dbb6"
+  },
+  {
+   "slug": "monstertoget-aabb-zoodyr-00d1",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "zoo_animals",
-   "level": "1-klasse",
-   "deck": "matematikpuslespil-blandet-zoodyr-3041"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-zoodyr-00d1"
   }
  ]
 }

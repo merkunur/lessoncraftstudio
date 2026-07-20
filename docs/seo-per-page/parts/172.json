@@ -2,795 +2,787 @@
  "part": 172,
  "locale": "it",
  "classes": [
-  "pattern-train::abb",
-  "pattern-train::abc"
+  "math-worksheet::two-symbols-add-sub",
+  "math-worksheet::three-symbols-add-sub"
  ],
  "splitOf": null,
- "count": 98,
+ "count": 97,
  "pages": [
   {
-   "slug": "treno-dei-modelli-abb-abbigliamento-9263",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-abbigliamento-6555",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "clothing",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-abbigliamento-9263"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-abbigliamento-6555"
   },
   {
-   "slug": "treno-dei-modelli-abb-accessori-5a68",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-accessori-09a6",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "accessories",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-accessori-5a68"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-accessori-09a6"
   },
   {
-   "slug": "treno-dei-modelli-abb-al-supermercato-a34f",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-al-supermercato-9908",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "at_the_supermarket",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-al-supermercato-a34f"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-al-supermercato-9908"
   },
   {
-   "slug": "treno-dei-modelli-abb-alberi-d822",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-alberi-8c9a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "tree",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-alberi-d822"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-alberi-8c9a"
   },
   {
-   "slug": "treno-dei-modelli-abb-animali-6b2c",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-animali-38b9",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "animals",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-animali-6b2c"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-animali-38b9"
   },
   {
-   "slug": "treno-dei-modelli-abb-animali-della-fattoria-0617",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-animali-della-fattoria-9e98",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "farm_animals",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-animali-della-fattoria-0617"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-animali-della-fattoria-9e98"
   },
   {
-   "slug": "treno-dei-modelli-abb-animali-dello-zoo-6e77",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-animali-dello-zoo-350d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "zoo_animals",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-animali-dello-zoo-6e77"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-animali-dello-zoo-350d"
   },
   {
-   "slug": "treno-dei-modelli-abb-animali-domestici-93c8",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-animali-domestici-7d0f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "pets",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-animali-domestici-93c8"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-animali-domestici-7d0f"
   },
   {
-   "slug": "treno-dei-modelli-abb-attivita-eaba",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-attivita-7c24",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "activities",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-attivita-eaba"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-attivita-7c24"
   },
   {
-   "slug": "treno-dei-modelli-abb-attrezzi-ca8e",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-attrezzi-0b2d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "tools",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-attrezzi-ca8e"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-attrezzi-0b2d"
   },
   {
-   "slug": "treno-dei-modelli-abb-aula-b69f",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-aula-4456",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "classroom",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-aula-b69f"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-aula-4456"
   },
   {
-   "slug": "treno-dei-modelli-abb-campeggio-5c6f",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-campeggio-1508",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "camping",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-campeggio-5c6f"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-campeggio-1508"
   },
   {
-   "slug": "treno-dei-modelli-abb-colazione-046c",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-colazione-a97b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "breakfast",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-colazione-046c"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-colazione-a97b"
   },
   {
-   "slug": "treno-dei-modelli-abb-colori-3d9f",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-colori-ec08",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "colors",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-colori-3d9f"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-colori-ec08"
   },
   {
-   "slug": "treno-dei-modelli-abb-cose-che-volano-f16e",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-cose-che-volano-0fa4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "things_that_fly",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-cose-che-volano-f16e"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-cose-che-volano-0fa4"
   },
   {
-   "slug": "treno-dei-modelli-abb-creature-della-foresta-29aa",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-creature-della-foresta-725c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "forest_creatures",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-creature-della-foresta-29aa"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-creature-della-foresta-725c"
   },
   {
-   "slug": "treno-dei-modelli-abb-dinosauri-fbd7",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-dinosauri-bff8",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "dinosaurs",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-dinosauri-fbd7"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-dinosauri-bff8"
   },
   {
-   "slug": "treno-dei-modelli-abb-dolci-e-dolciumi-5d9f",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-dolci-e-dolciumi-d27c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "desserts_and_sweets",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-dolci-e-dolciumi-5d9f"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-dolci-e-dolciumi-d27c"
   },
   {
-   "slug": "treno-dei-modelli-abb-emozioni-cbde",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-emozioni-9779",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "emotions",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-emozioni-cbde"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-emozioni-9779"
   },
   {
-   "slug": "treno-dei-modelli-abb-estate-520f",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-estate-a35c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "summer",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-estate-520f"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-estate-a35c"
   },
   {
-   "slug": "treno-dei-modelli-abb-fiori-fbe9",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-fiori-6391",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "flowers",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-fiori-fbe9"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-fiori-6391"
   },
   {
-   "slug": "treno-dei-modelli-abb-forme-03aa",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-forme-a143",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "shapes",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-forme-03aa"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-forme-a143"
   },
   {
-   "slug": "treno-dei-modelli-abb-frutta-6887",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-frutta-3297",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "fruits",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-frutta-6887"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-frutta-3297"
   },
   {
-   "slug": "treno-dei-modelli-abb-giocattoli-4c80",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-giocattoli-f8df",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "toys",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-giocattoli-4c80"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-giocattoli-f8df"
   },
   {
-   "slug": "treno-dei-modelli-abb-giorno-del-ringraziamento-22fb",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-giorno-del-ringraziamento-a4ea",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "thanksgivinng",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-giorno-del-ringraziamento-22fb"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-giorno-del-ringraziamento-a4ea"
   },
   {
-   "slug": "treno-dei-modelli-abb-in-giro-per-casa-4fc5",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-in-giro-per-casa-6f4f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "around_the_house",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-in-giro-per-casa-4fc5"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-in-giro-per-casa-6f4f"
   },
   {
-   "slug": "treno-dei-modelli-abb-insetti-e-scarafaggi-312e",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-insetti-e-scarafaggi-86cb",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "insects_and_bugs",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-insetti-e-scarafaggi-312e"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-insetti-e-scarafaggi-86cb"
   },
   {
-   "slug": "treno-dei-modelli-abb-inverno-034c",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-inverno-8a7c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "winter",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-inverno-034c"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-inverno-8a7c"
   },
   {
-   "slug": "treno-dei-modelli-abb-meteo-f952",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-meteo-51e0",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "weather",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-meteo-f952"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-meteo-51e0"
   },
   {
-   "slug": "treno-dei-modelli-abb-mobili-f49b",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-mobili-9d67",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "furniture",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-mobili-f49b"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-mobili-9d67"
   },
   {
-   "slug": "treno-dei-modelli-abb-musica-2e49",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-musica-2392",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "music",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-musica-2e49"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-musica-2392"
   },
   {
-   "slug": "treno-dei-modelli-abb-natale-af17",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-natale-ce9d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "christmas",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-natale-af17"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-natale-ce9d"
   },
   {
-   "slug": "treno-dei-modelli-abb-ospedale-ab30",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-ospedale-705c",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "hospital",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-ospedale-ab30"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-ospedale-705c"
   },
   {
-   "slug": "treno-dei-modelli-abb-panetteria-2745",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-panetteria-fde9",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "bakery",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-panetteria-2745"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-panetteria-fde9"
   },
   {
-   "slug": "treno-dei-modelli-abb-parti-del-corpo-30d7",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-parti-del-corpo-2fbb",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "body_parts",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-parti-del-corpo-30d7"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-parti-del-corpo-2fbb"
   },
   {
-   "slug": "treno-dei-modelli-abb-pasqua-5662",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-pasqua-6e83",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "easter",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-pasqua-5662"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-pasqua-6e83"
   },
   {
-   "slug": "treno-dei-modelli-abb-primavera-270c",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-primavera-edcc",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "spring",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-primavera-270c"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-primavera-edcc"
   },
   {
-   "slug": "treno-dei-modelli-abb-professioni-6841",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-professioni-735a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "occupations",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-professioni-6841"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-professioni-735a"
   },
   {
-   "slug": "treno-dei-modelli-abb-rettili-e-anfibi-fe96",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-rettili-e-anfibi-20b2",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "reptiles_and_amphibians",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-rettili-e-anfibi-fe96"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-rettili-e-anfibi-20b2"
   },
   {
-   "slug": "treno-dei-modelli-abb-spazio-a370",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-spazio-baed",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "space",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-spazio-a370"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-spazio-baed"
   },
   {
-   "slug": "treno-dei-modelli-abb-spiaggia-9a4b",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-spiaggia-afdf",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "beach",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-spiaggia-9a4b"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-spiaggia-afdf"
   },
   {
-   "slug": "treno-dei-modelli-abb-uccelli-2-e4b6",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-uccelli-2-f2fa",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "birds_2",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-uccelli-2-e4b6"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-uccelli-2-f2fa"
   },
   {
-   "slug": "treno-dei-modelli-abb-uccelli-f09b",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-uccelli-8ae7",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "birds",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-uccelli-f09b"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-uccelli-8ae7"
   },
   {
-   "slug": "treno-dei-modelli-abb-ufficio-postale-aa25",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-ufficio-postale-2490",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "post_office",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-ufficio-postale-aa25"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-ufficio-postale-2490"
   },
   {
-   "slug": "treno-dei-modelli-abb-utensili-da-cucina-cd0a",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-utensili-da-cucina-05e4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "kitchen_tools",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-utensili-da-cucina-cd0a"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-utensili-da-cucina-05e4"
   },
   {
-   "slug": "treno-dei-modelli-abb-varie-3746",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-varie-89f4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "miscellaneous",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-varie-3746"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-varie-89f4"
   },
   {
-   "slug": "treno-dei-modelli-abb-veicoli-3de5",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-veicoli-5975",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "vehicles",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-veicoli-3de5"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-veicoli-5975"
   },
   {
-   "slug": "treno-dei-modelli-abb-verdure-e94f",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-verdure-3bf7",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "vegetables",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-verdure-e94f"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-verdure-3bf7"
   },
   {
-   "slug": "treno-dei-modelli-abb-vita-oceanica-a8d4",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "scheda-di-matematica-2-simboli-add-sott-vita-oceanica-50cc",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "ocean_life",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abb-vita-oceanica-a8d4"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-2-simboli-add-sott-vita-oceanica-50cc"
   },
   {
-   "slug": "treno-dei-modelli-abc-abbigliamento-5897",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-abbigliamento-90ff",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "clothing",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-abbigliamento-5897"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-abbigliamento-90ff"
   },
   {
-   "slug": "treno-dei-modelli-abc-accessori-1556",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-accessori-fd0a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "accessories",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-accessori-1556"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-accessori-fd0a"
   },
   {
-   "slug": "treno-dei-modelli-abc-al-supermercato-cb09",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-al-supermercato-64d0",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "at_the_supermarket",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-al-supermercato-cb09"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-al-supermercato-64d0"
   },
   {
-   "slug": "treno-dei-modelli-abc-alberi-e470",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-alberi-7c38",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "tree",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-alberi-e470"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-alberi-7c38"
   },
   {
-   "slug": "treno-dei-modelli-abc-animali-c0e5",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-animali-91b6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "animals",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-animali-c0e5"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-animali-91b6"
   },
   {
-   "slug": "treno-dei-modelli-abc-animali-della-fattoria-a2fe",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-animali-della-fattoria-efba",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "farm_animals",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-animali-della-fattoria-a2fe"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-animali-della-fattoria-efba"
   },
   {
-   "slug": "treno-dei-modelli-abc-animali-dello-zoo-fc81",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-animali-dello-zoo-2c46",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "zoo_animals",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-animali-dello-zoo-fc81"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-animali-dello-zoo-2c46"
   },
   {
-   "slug": "treno-dei-modelli-abc-animali-domestici-22cf",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-animali-domestici-15ed",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "pets",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-animali-domestici-22cf"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-animali-domestici-15ed"
   },
   {
-   "slug": "treno-dei-modelli-abc-attivita-9932",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-attivita-d783",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "activities",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-attivita-9932"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-attivita-d783"
   },
   {
-   "slug": "treno-dei-modelli-abc-attrezzi-423a",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-attrezzi-5b0d",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "tools",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-attrezzi-423a"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-attrezzi-5b0d"
   },
   {
-   "slug": "treno-dei-modelli-abc-aula-20cb",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-aula-352f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "classroom",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-aula-20cb"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-aula-352f"
   },
   {
-   "slug": "treno-dei-modelli-abc-campeggio-fce4",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-campeggio-86e7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "camping",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-campeggio-fce4"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-campeggio-86e7"
   },
   {
-   "slug": "treno-dei-modelli-abc-colazione-f503",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-colazione-d731",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "breakfast",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-colazione-f503"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-colazione-d731"
   },
   {
-   "slug": "treno-dei-modelli-abc-colori-7382",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-colori-2fe9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "colors",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-colori-7382"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-colori-2fe9"
   },
   {
-   "slug": "treno-dei-modelli-abc-cose-che-volano-a8a0",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-cose-che-volano-0f22",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "things_that_fly",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-cose-che-volano-a8a0"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-cose-che-volano-0f22"
   },
   {
-   "slug": "treno-dei-modelli-abc-creature-della-foresta-7336",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-creature-della-foresta-a0d9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "forest_creatures",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-creature-della-foresta-7336"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-creature-della-foresta-a0d9"
   },
   {
-   "slug": "treno-dei-modelli-abc-dinosauri-6adf",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-dinosauri-0535",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "dinosaurs",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-dinosauri-6adf"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-dinosauri-0535"
   },
   {
-   "slug": "treno-dei-modelli-abc-dolci-e-dolciumi-b059",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-dolci-e-dolciumi-4cc9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "desserts_and_sweets",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-dolci-e-dolciumi-b059"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-dolci-e-dolciumi-4cc9"
   },
   {
-   "slug": "treno-dei-modelli-abc-emozioni-0ae3",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-emozioni-c92b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "emotions",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-emozioni-0ae3"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-emozioni-c92b"
   },
   {
-   "slug": "treno-dei-modelli-abc-estate-2cd1",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-estate-b9e0",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "summer",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-estate-2cd1"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-estate-b9e0"
   },
   {
-   "slug": "treno-dei-modelli-abc-fiori-2a0f",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-fiori-1dd6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "flowers",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-fiori-2a0f"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-fiori-1dd6"
   },
   {
-   "slug": "treno-dei-modelli-abc-forme-e384",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-forme-43ff",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "shapes",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-forme-e384"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-forme-43ff"
   },
   {
-   "slug": "treno-dei-modelli-abc-frutta-a814",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-frutta-7a63",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "fruits",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-frutta-a814"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-frutta-7a63"
   },
   {
-   "slug": "treno-dei-modelli-abc-giocattoli-e08c",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-giocattoli-24a2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "toys",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-giocattoli-e08c"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-giocattoli-24a2"
   },
   {
-   "slug": "treno-dei-modelli-abc-giorno-del-ringraziamento-62ed",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-giorno-del-ringraziamento-cd7d",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "thanksgivinng",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-giorno-del-ringraziamento-62ed"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-giorno-del-ringraziamento-cd7d"
   },
   {
-   "slug": "treno-dei-modelli-abc-in-giro-per-casa-a256",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-in-giro-per-casa-dee5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "around_the_house",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-in-giro-per-casa-a256"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-in-giro-per-casa-dee5"
   },
   {
-   "slug": "treno-dei-modelli-abc-insetti-e-scarafaggi-a634",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-insetti-e-scarafaggi-9cd9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "insects_and_bugs",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-insetti-e-scarafaggi-a634"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-insetti-e-scarafaggi-9cd9"
   },
   {
-   "slug": "treno-dei-modelli-abc-inverno-69e0",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-inverno-6ca4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "winter",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-inverno-69e0"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-inverno-6ca4"
   },
   {
-   "slug": "treno-dei-modelli-abc-meteo-46ca",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-meteo-1450",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "weather",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-meteo-46ca"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-meteo-1450"
   },
   {
-   "slug": "treno-dei-modelli-abc-mobili-352b",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-mobili-fbb4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "furniture",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-mobili-352b"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-mobili-fbb4"
   },
   {
-   "slug": "treno-dei-modelli-abc-musica-9566",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-musica-adfd",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "music",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-musica-9566"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-musica-adfd"
   },
   {
-   "slug": "treno-dei-modelli-abc-natale-7cb1",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-natale-79e6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "christmas",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-natale-7cb1"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-natale-79e6"
   },
   {
-   "slug": "treno-dei-modelli-abc-ospedale-c065",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-ospedale-0295",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "hospital",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-ospedale-c065"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-ospedale-0295"
   },
   {
-   "slug": "treno-dei-modelli-abc-panetteria-f321",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-panetteria-aa3c",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "bakery",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-panetteria-f321"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-panetteria-aa3c"
   },
   {
-   "slug": "treno-dei-modelli-abc-parti-del-corpo-54f8",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-parti-del-corpo-af01",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "body_parts",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-parti-del-corpo-54f8"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-parti-del-corpo-af01"
   },
   {
-   "slug": "treno-dei-modelli-abc-pasqua-15aa",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-pasqua-45d0",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "easter",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-pasqua-15aa"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-pasqua-45d0"
   },
   {
-   "slug": "treno-dei-modelli-abc-primavera-521a",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-primavera-c2ca",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "spring",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-primavera-521a"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-primavera-c2ca"
   },
   {
-   "slug": "treno-dei-modelli-abc-professioni-e52a",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-professioni-78eb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "occupations",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-professioni-e52a"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-professioni-78eb"
   },
   {
-   "slug": "treno-dei-modelli-abc-rettili-e-anfibi-a546",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-rettili-e-anfibi-a676",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "reptiles_and_amphibians",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-rettili-e-anfibi-a546"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-rettili-e-anfibi-a676"
   },
   {
-   "slug": "treno-dei-modelli-abc-spazio-87f4",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-spazio-dd0d",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "space",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-spazio-87f4"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-spazio-dd0d"
   },
   {
-   "slug": "treno-dei-modelli-abc-spiaggia-795c",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-spiaggia-f48a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "beach",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-spiaggia-795c"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-spiaggia-f48a"
   },
   {
-   "slug": "treno-dei-modelli-abc-uccelli-1384",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "birds",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-uccelli-1384"
-  },
-  {
-   "slug": "treno-dei-modelli-abc-uccelli-2-0a85",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-uccelli-2-0e0e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "birds_2",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-uccelli-2-0a85"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-uccelli-2-0e0e"
   },
   {
-   "slug": "treno-dei-modelli-abc-ufficio-postale-1784",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-uccelli-89a0",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-uccelli-89a0"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-ufficio-postale-3f47",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "post_office",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-ufficio-postale-1784"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-ufficio-postale-3f47"
   },
   {
-   "slug": "treno-dei-modelli-abc-utensili-da-cucina-45a1",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-utensili-da-cucina-edbb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "kitchen_tools",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-utensili-da-cucina-45a1"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-utensili-da-cucina-edbb"
   },
   {
-   "slug": "treno-dei-modelli-abc-varie-c9a6",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "miscellaneous",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-varie-c9a6"
-  },
-  {
-   "slug": "treno-dei-modelli-abc-veicoli-9dd0",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-veicoli-ac94",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vehicles",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-veicoli-9dd0"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-veicoli-ac94"
   },
   {
-   "slug": "treno-dei-modelli-abc-verdure-5f30",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-verdure-c79a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vegetables",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-verdure-5f30"
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-verdure-c79a"
   },
   {
-   "slug": "treno-dei-modelli-abc-vita-oceanica-e034",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "scheda-di-matematica-3-simboli-add-sott-vita-oceanica-ca14",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "ocean_life",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abc-vita-oceanica-e034"
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-vita-oceanica-ca14"
   }
  ]
 }

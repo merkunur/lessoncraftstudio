@@ -2,779 +2,619 @@
  "part": 53,
  "locale": "de",
  "classes": [
-  "pattern-train::abc",
-  "pattern-train::null"
+  "addition::image-image",
+  "addition::mixed"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 76,
  "pages": [
   {
-   "slug": "muster-zug-abc-accessoires-6c94",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-accessoires-5fad",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "accessories",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-accessoires-6c94"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-accessoires-5fad"
   },
   {
-   "slug": "muster-zug-abc-aktivitaten-92c3",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "activities",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-aktivitaten-92c3"
-  },
-  {
-   "slug": "muster-zug-abc-backerei-5daf",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-backerei-07c4",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "bakery",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-backerei-5daf"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-backerei-07c4"
   },
   {
-   "slug": "muster-zug-abc-bauernhoftiere-bf6d",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-bauernhoftiere-cbcf",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "farm_animals",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-bauernhoftiere-bf6d"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-bauernhoftiere-cbcf"
   },
   {
-   "slug": "muster-zug-abc-baume-0b72",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-baume-96ae",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "tree",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-baume-0b72"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-baume-96ae"
   },
   {
-   "slug": "muster-zug-abc-berufe-3852",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-berufe-e188",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "occupations",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-berufe-3852"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-berufe-e188"
   },
   {
-   "slug": "muster-zug-abc-blumen-ed7c",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-blumen-11fd",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "flowers",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-blumen-ed7c"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-blumen-11fd"
   },
   {
-   "slug": "muster-zug-abc-camping-e12d",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-camping-4032",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "camping",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-camping-e12d"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-camping-4032"
   },
   {
-   "slug": "muster-zug-abc-desserts-und-sussigkeiten-9500",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-desserts-und-sussigkeiten-2ac7",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "desserts_and_sweets",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-desserts-und-sussigkeiten-9500"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-desserts-und-sussigkeiten-2ac7"
   },
   {
-   "slug": "muster-zug-abc-dinge-die-fliegen-9091",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-dinge-die-fliegen-88fa",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "things_that_fly",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-dinge-die-fliegen-9091"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-dinge-die-fliegen-88fa"
   },
   {
-   "slug": "muster-zug-abc-dinosaurier-d526",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-dinosaurier-bb04",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "dinosaurs",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-dinosaurier-d526"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-dinosaurier-bb04"
   },
   {
-   "slug": "muster-zug-abc-emotionen-133a",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "emotions",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-emotionen-133a"
-  },
-  {
-   "slug": "muster-zug-abc-erntedankfest-1536",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-erntedankfest-cf1e",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "thanksgivinng",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-erntedankfest-1536"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-erntedankfest-cf1e"
   },
   {
-   "slug": "muster-zug-abc-fahrzeuge-b208",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-fahrzeuge-fd59",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "vehicles",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-fahrzeuge-b208"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-fahrzeuge-fd59"
   },
   {
-   "slug": "muster-zug-abc-farben-e656",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "colors",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-farben-e656"
-  },
-  {
-   "slug": "muster-zug-abc-formen-82f6",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-formen-3327",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "shapes",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-formen-82f6"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-formen-3327"
   },
   {
-   "slug": "muster-zug-abc-fruchte-ff90",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-fruchte-e51d",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "fruits",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-fruchte-ff90"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-fruchte-e51d"
   },
   {
-   "slug": "muster-zug-abc-fruhling-8072",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "spring",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-fruhling-8072"
-  },
-  {
-   "slug": "muster-zug-abc-fruhstuck-5e90",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-fruhstuck-9462",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "breakfast",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-fruhstuck-5e90"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-fruhstuck-9462"
   },
   {
-   "slug": "muster-zug-abc-gemuse-05ab",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-gemuse-cd61",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "vegetables",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-gemuse-05ab"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-gemuse-cd61"
   },
   {
-   "slug": "muster-zug-abc-haustiere-cbfb",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-haustiere-26da",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "pets",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-haustiere-cbfb"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-haustiere-26da"
   },
   {
-   "slug": "muster-zug-abc-im-supermarkt-2f1e",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-im-supermarkt-b819",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "at_the_supermarket",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-im-supermarkt-2f1e"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-im-supermarkt-b819"
   },
   {
-   "slug": "muster-zug-abc-insekten-und-kafer-d8bd",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-insekten-und-kafer-83c3",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "insects_and_bugs",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-insekten-und-kafer-d8bd"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-insekten-und-kafer-83c3"
   },
   {
-   "slug": "muster-zug-abc-klassenzimmer-dd78",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-klassenzimmer-3192",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "classroom",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-klassenzimmer-dd78"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-klassenzimmer-3192"
   },
   {
-   "slug": "muster-zug-abc-kleidung-c49b",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-kleidung-446e",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "clothing",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-kleidung-c49b"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-kleidung-446e"
   },
   {
-   "slug": "muster-zug-abc-korperteile-bf2d",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "body_parts",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-korperteile-bf2d"
-  },
-  {
-   "slug": "muster-zug-abc-krankenhaus-5c97",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-krankenhaus-e5d0",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "hospital",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-krankenhaus-5c97"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-krankenhaus-e5d0"
   },
   {
-   "slug": "muster-zug-abc-kuchenwerkzeuge-059d",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-kuchenwerkzeuge-3926",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "kitchen_tools",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-kuchenwerkzeuge-059d"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-kuchenwerkzeuge-3926"
   },
   {
-   "slug": "muster-zug-abc-meeresleben-a564",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-meeresleben-d4a9",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "ocean_life",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-meeresleben-a564"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-meeresleben-d4a9"
   },
   {
-   "slug": "muster-zug-abc-mobel-ce05",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-mobel-6864",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "furniture",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-mobel-ce05"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-mobel-6864"
   },
   {
-   "slug": "muster-zug-abc-musik-08c7",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-musik-f3e8",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "music",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-musik-08c7"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-musik-f3e8"
   },
   {
-   "slug": "muster-zug-abc-ostern-535e",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-ostern-3c8f",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "easter",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-ostern-535e"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-ostern-3c8f"
   },
   {
-   "slug": "muster-zug-abc-postamt-c2c7",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-postamt-dace",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "post_office",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-postamt-c2c7"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-postamt-dace"
   },
   {
-   "slug": "muster-zug-abc-reptilien-und-amphibien-f970",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "reptiles_and_amphibians",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-reptilien-und-amphibien-f970"
-  },
-  {
-   "slug": "muster-zug-abc-rund-ums-haus-be62",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-rund-ums-haus-aff3",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "around_the_house",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-rund-ums-haus-be62"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-rund-ums-haus-aff3"
   },
   {
-   "slug": "muster-zug-abc-sommer-d44f",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "summer",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-sommer-d44f"
-  },
-  {
-   "slug": "muster-zug-abc-spielzeug-7c18",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-spielzeug-6d52",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "toys",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-spielzeug-7c18"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-spielzeug-6d52"
   },
   {
-   "slug": "muster-zug-abc-strand-4d70",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-strand-9985",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "beach",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-strand-4d70"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-strand-9985"
   },
   {
-   "slug": "muster-zug-abc-tiere-d93d",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-tiere",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "animals",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-tiere-d93d"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-tiere"
   },
   {
-   "slug": "muster-zug-abc-vogel-2-f9c8",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "birds_2",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-vogel-2-f9c8"
-  },
-  {
-   "slug": "muster-zug-abc-vogel-7ea2",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-vogel-6801",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "birds",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-vogel-7ea2"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-vogel-6801"
   },
   {
-   "slug": "muster-zug-abc-waldtiere-fa9b",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-waldtiere-71de",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "forest_creatures",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-waldtiere-fa9b"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-waldtiere-71de"
   },
   {
-   "slug": "muster-zug-abc-weihnachten-ce5f",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-weihnachten-e184",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "christmas",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-weihnachten-ce5f"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-weihnachten-e184"
   },
   {
-   "slug": "muster-zug-abc-weltraum-c9fe",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-weltraum-af2e",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "space",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-weltraum-c9fe"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-weltraum-af2e"
   },
   {
-   "slug": "muster-zug-abc-werkzeuge-ab4b",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-werkzeuge-bfe1",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "tools",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-werkzeuge-ab4b"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-werkzeuge-bfe1"
   },
   {
-   "slug": "muster-zug-abc-wetter-a922",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "weather",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-wetter-a922"
-  },
-  {
-   "slug": "muster-zug-abc-winter-e30e",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "winter",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-winter-e30e"
-  },
-  {
-   "slug": "muster-zug-abc-zootiere-e752",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "addition-bild-bild-zootiere-3bb8",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "zoo_animals",
-   "level": "vorschule",
-   "deck": "muster-zug-abc-zootiere-e752"
+   "level": "1-klasse",
+   "deck": "addition-bild-bild-zootiere-3bb8"
   },
   {
-   "slug": "muster-zug-accessoires-43c3",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-accessoires-ebc3",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "accessories",
-   "level": "vorschule",
-   "deck": "muster-zug-accessoires-43c3"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-accessoires-ebc3"
   },
   {
-   "slug": "muster-zug-aktivitaten-5a69",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "activities",
-   "level": "vorschule",
-   "deck": "muster-zug-aktivitaten-5a69"
-  },
-  {
-   "slug": "muster-zug-backerei-f835",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-backerei-b863",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "vorschule",
-   "deck": "muster-zug-backerei-f835"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-backerei-b863"
   },
   {
-   "slug": "muster-zug-bauernhoftiere-79d5",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-bauernhoftiere-f32e",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "vorschule",
-   "deck": "muster-zug-bauernhoftiere-79d5"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-bauernhoftiere-f32e"
   },
   {
-   "slug": "muster-zug-baume-05b6",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-baume-6a2b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "tree",
-   "level": "vorschule",
-   "deck": "muster-zug-baume-05b6"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-baume-6a2b"
   },
   {
-   "slug": "muster-zug-berufe-d015",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-berufe-8979",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "occupations",
-   "level": "vorschule",
-   "deck": "muster-zug-berufe-d015"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-berufe-8979"
   },
   {
-   "slug": "muster-zug-blumen-0d34",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-blumen-23eb",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "vorschule",
-   "deck": "muster-zug-blumen-0d34"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-blumen-23eb"
   },
   {
-   "slug": "muster-zug-camping-8a3d",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-camping-3388",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "vorschule",
-   "deck": "muster-zug-camping-8a3d"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-camping-3388"
   },
   {
-   "slug": "muster-zug-desserts-und-sussigkeiten-a902",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-desserts-und-sussigkeiten-00ea",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "vorschule",
-   "deck": "muster-zug-desserts-und-sussigkeiten-a902"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-desserts-und-sussigkeiten-00ea"
   },
   {
-   "slug": "muster-zug-dinge-die-fliegen-3671",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-dinge-die-fliegen-bfa5",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "vorschule",
-   "deck": "muster-zug-dinge-die-fliegen-3671"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-dinge-die-fliegen-bfa5"
   },
   {
-   "slug": "muster-zug-dinosaurier-d6e5",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-dinosaurier-9618",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "dinosaurs",
-   "level": "vorschule",
-   "deck": "muster-zug-dinosaurier-d6e5"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-dinosaurier-9618"
   },
   {
-   "slug": "muster-zug-emotionen-91c6",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "emotions",
-   "level": "vorschule",
-   "deck": "muster-zug-emotionen-91c6"
-  },
-  {
-   "slug": "muster-zug-erntedankfest-5832",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-erntedankfest-247c",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "vorschule",
-   "deck": "muster-zug-erntedankfest-5832"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-erntedankfest-247c"
   },
   {
-   "slug": "muster-zug-fahrzeuge-712f",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-fahrzeuge-ccf4",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "vorschule",
-   "deck": "muster-zug-fahrzeuge-712f"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-fahrzeuge-ccf4"
   },
   {
-   "slug": "muster-zug-farben-e331",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "colors",
-   "level": "vorschule",
-   "deck": "muster-zug-farben-e331"
-  },
-  {
-   "slug": "muster-zug-formen-c3d6",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-formen-5989",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "vorschule",
-   "deck": "muster-zug-formen-c3d6"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-formen-5989"
   },
   {
-   "slug": "muster-zug-fruchte-916e",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-fruchte-d8ba",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "vorschule",
-   "deck": "muster-zug-fruchte-916e"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-fruchte-d8ba"
   },
   {
-   "slug": "muster-zug-fruhling-e819",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "spring",
-   "level": "vorschule",
-   "deck": "muster-zug-fruhling-e819"
-  },
-  {
-   "slug": "muster-zug-fruhstuck-d85d",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-fruhstuck-f460",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "breakfast",
-   "level": "vorschule",
-   "deck": "muster-zug-fruhstuck-d85d"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-fruhstuck-f460"
   },
   {
-   "slug": "muster-zug-gemuse-155b",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-gemuse-cd88",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "vorschule",
-   "deck": "muster-zug-gemuse-155b"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-gemuse-cd88"
   },
   {
-   "slug": "muster-zug-haustiere-8f27",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-haustiere-20d2",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "pets",
-   "level": "vorschule",
-   "deck": "muster-zug-haustiere-8f27"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-haustiere-20d2"
   },
   {
-   "slug": "muster-zug-im-supermarkt-3287",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-im-supermarkt-1d73",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
-   "level": "vorschule",
-   "deck": "muster-zug-im-supermarkt-3287"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-im-supermarkt-1d73"
   },
   {
-   "slug": "muster-zug-insekten-und-kafer-4540",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-insekten-und-kafer-cfd6",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "vorschule",
-   "deck": "muster-zug-insekten-und-kafer-4540"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-insekten-und-kafer-cfd6"
   },
   {
-   "slug": "muster-zug-klassenzimmer-50a2",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-klassenzimmer-fb97",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "vorschule",
-   "deck": "muster-zug-klassenzimmer-50a2"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-klassenzimmer-fb97"
   },
   {
-   "slug": "muster-zug-kleidung-b746",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-kleidung-b5c8",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "clothing",
-   "level": "vorschule",
-   "deck": "muster-zug-kleidung-b746"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-kleidung-b5c8"
   },
   {
-   "slug": "muster-zug-korperteile-77cf",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "vorschule",
-   "deck": "muster-zug-korperteile-77cf"
-  },
-  {
-   "slug": "muster-zug-krankenhaus-97a4",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-krankenhaus-a587",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "vorschule",
-   "deck": "muster-zug-krankenhaus-97a4"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-krankenhaus-a587"
   },
   {
-   "slug": "muster-zug-kuchenwerkzeuge-095b",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-kuchenwerkzeuge-fa5f",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "kitchen_tools",
-   "level": "vorschule",
-   "deck": "muster-zug-kuchenwerkzeuge-095b"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-kuchenwerkzeuge-fa5f"
   },
   {
-   "slug": "muster-zug-meeresleben-f64b",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-meeresleben-1598",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "vorschule",
-   "deck": "muster-zug-meeresleben-f64b"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-meeresleben-1598"
   },
   {
-   "slug": "muster-zug-mobel-4e82",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-mobel-5019",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "furniture",
-   "level": "vorschule",
-   "deck": "muster-zug-mobel-4e82"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-mobel-5019"
   },
   {
-   "slug": "muster-zug-musik-40bb",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-musik-1d9c",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "music",
-   "level": "vorschule",
-   "deck": "muster-zug-musik-40bb"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-musik-1d9c"
   },
   {
-   "slug": "muster-zug-ostern-6582",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-ostern-58e7",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "vorschule",
-   "deck": "muster-zug-ostern-6582"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-ostern-58e7"
   },
   {
-   "slug": "muster-zug-postamt-bed9",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-postamt-8fd0",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "vorschule",
-   "deck": "muster-zug-postamt-bed9"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-postamt-8fd0"
   },
   {
-   "slug": "muster-zug-reptilien-und-amphibien-57c9",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "vorschule",
-   "deck": "muster-zug-reptilien-und-amphibien-57c9"
-  },
-  {
-   "slug": "muster-zug-rund-ums-haus-690a",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-rund-ums-haus-943e",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "vorschule",
-   "deck": "muster-zug-rund-ums-haus-690a"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-rund-ums-haus-943e"
   },
   {
-   "slug": "muster-zug-sommer-e5ed",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "summer",
-   "level": "vorschule",
-   "deck": "muster-zug-sommer-e5ed"
-  },
-  {
-   "slug": "muster-zug-spielzeug-1ee0",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-spielzeug-e1af",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "vorschule",
-   "deck": "muster-zug-spielzeug-1ee0"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-spielzeug-e1af"
   },
   {
-   "slug": "muster-zug-strand-ae3d",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-strand-c3de",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "vorschule",
-   "deck": "muster-zug-strand-ae3d"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-strand-c3de"
   },
   {
-   "slug": "muster-zug-tiere-9387",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-tiere-452f",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "animals",
-   "level": "vorschule",
-   "deck": "muster-zug-tiere-9387"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-tiere-452f"
   },
   {
-   "slug": "muster-zug-vogel-2-5187",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "vorschule",
-   "deck": "muster-zug-vogel-2-5187"
-  },
-  {
-   "slug": "muster-zug-vogel-6900",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-vogel-af41",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "birds",
-   "level": "vorschule",
-   "deck": "muster-zug-vogel-6900"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-vogel-af41"
   },
   {
-   "slug": "muster-zug-waldtiere-a32e",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-waldtiere-85c9",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "vorschule",
-   "deck": "muster-zug-waldtiere-a32e"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-waldtiere-85c9"
   },
   {
-   "slug": "muster-zug-weihnachten-2cc5",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-weihnachten-d058",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "vorschule",
-   "deck": "muster-zug-weihnachten-2cc5"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-weihnachten-d058"
   },
   {
-   "slug": "muster-zug-weltraum-5aa1",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-weltraum-2094",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "space",
-   "level": "vorschule",
-   "deck": "muster-zug-weltraum-5aa1"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-weltraum-2094"
   },
   {
-   "slug": "muster-zug-werkzeuge-75ea",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-werkzeuge-31c7",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "vorschule",
-   "deck": "muster-zug-werkzeuge-75ea"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-werkzeuge-31c7"
   },
   {
-   "slug": "muster-zug-wetter-953a",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "weather",
-   "level": "vorschule",
-   "deck": "muster-zug-wetter-953a"
-  },
-  {
-   "slug": "muster-zug-winter-bba3",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "winter",
-   "level": "vorschule",
-   "deck": "muster-zug-winter-bba3"
-  },
-  {
-   "slug": "muster-zug-zootiere-cfc1",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addition-gemischt-zootiere-ee26",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "vorschule",
-   "deck": "muster-zug-zootiere-cfc1"
+   "level": "1-klasse",
+   "deck": "addition-gemischt-zootiere-ee26"
   }
  ]
 }

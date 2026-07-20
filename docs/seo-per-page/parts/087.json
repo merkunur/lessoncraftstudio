@@ -2,795 +2,747 @@
  "part": 87,
  "locale": "es",
  "classes": [
-  "big-small::findBig",
-  "odd-one-out::null"
+  "pattern-train::aab",
+  "subtraction::cross-out"
  ],
  "splitOf": null,
- "count": 98,
+ "count": 92,
  "pages": [
   {
-   "slug": "grande-pequeno-encontrar-el-grande",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "summer",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-4-de-julio-1b4d",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "tren-de-patrones-aab-4-de-julio-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "4th_of_july",
    "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-4-de-julio-1b4d"
+   "deck": "tren-de-patrones-aab-4-de-julio-fe63"
   },
   {
-   "slug": "grande-pequeno-encontrar-el-grande-accesorios-2765",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "tren-de-patrones-aab-accesorios-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "accessories",
    "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-accesorios-2765"
+   "deck": "tren-de-patrones-aab-accesorios-fe63"
   },
   {
-   "slug": "grande-pequeno-encontrar-el-grande-actividades-1ab3",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "tren-de-patrones-aab-actividades-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "activities",
    "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-actividades-1ab3"
+   "deck": "tren-de-patrones-aab-actividades-fe63"
   },
   {
-   "slug": "grande-pequeno-encontrar-el-grande-alrededor-de-la-casa-b566",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "tren-de-patrones-aab-alrededor-de-la-casa-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "around_the_house",
    "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-alrededor-de-la-casa-b566"
+   "deck": "tren-de-patrones-aab-alrededor-de-la-casa-fe63"
   },
   {
-   "slug": "grande-pequeno-encontrar-el-grande-animales-520d",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "animals",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-animales-520d"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-animales-de-granja-43f9",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "tren-de-patrones-aab-animales-de-granja-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "farm_animals",
    "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-animales-de-granja-43f9"
+   "deck": "tren-de-patrones-aab-animales-de-granja-fe63"
   },
   {
-   "slug": "grande-pequeno-encontrar-el-grande-animales-del-zoologico-3c4e",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "tren-de-patrones-aab-animales-del-zoologico-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "zoo_animals",
    "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-animales-del-zoologico-3c4e"
+   "deck": "tren-de-patrones-aab-animales-del-zoologico-fe63"
   },
   {
-   "slug": "grande-pequeno-encontrar-el-grande-arboles-3b52",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "tree",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-arboles-3b52"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-aves-2-3785",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "birds_2",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-aves-2-3785"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-aves-ade4",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "birds",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-aves-ade4"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-campamento-3239",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "camping",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-campamento-3239"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-clima-7cf8",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "weather",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-clima-7cf8"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-colores-7d30",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "colors",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-colores-7d30"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-cosas-que-vuelan-5624",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "things_that_fly",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-cosas-que-vuelan-5624"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-criaturas-del-bosque-d75b",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "forest_creatures",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-criaturas-del-bosque-d75b"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-desayuno-31e9",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "breakfast",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-desayuno-31e9"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-dia-de-accion-de-gracias-b46d",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "thanksgivinng",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-dia-de-accion-de-gracias-b46d"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-dinosaurios-a927",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "dinosaurs",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-dinosaurios-a927"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-emociones-f090",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "emotions",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-emociones-f090"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-en-el-supermercado-682b",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "at_the_supermarket",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-en-el-supermercado-682b"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-espacio-9e5f",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "space",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-espacio-9e5f"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-flores-1620",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "flowers",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-flores-1620"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-formas-2da9",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "shapes",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-formas-2da9"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-frutas-1db8",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "fruits",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-frutas-1db8"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-herramientas-1a2c",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "tools",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-herramientas-1a2c"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-hospital-2af1",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "hospital",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-hospital-2af1"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-insectos-y-bichos-0499",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "insects_and_bugs",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-insectos-y-bichos-0499"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-invierno-b3f2",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "winter",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-invierno-b3f2"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-juguetes-9f3f",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "toys",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-juguetes-9f3f"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-mascotas-2279",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "pets",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-mascotas-2279"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-miscelaneo-4e21",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "miscellaneous",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-miscelaneo-4e21"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-muebles-390a",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "furniture",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-muebles-390a"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-musica-43c2",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "music",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-musica-43c2"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-navidad-9494",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "christmas",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-navidad-9494"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-ocupaciones-0807",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "occupations",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-ocupaciones-0807"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-oficina-de-correos-385d",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "post_office",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-oficina-de-correos-385d"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-panaderia-6d02",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "bakery",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-panaderia-6d02"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-partes-del-cuerpo-48d7",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "body_parts",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-partes-del-cuerpo-48d7"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-pascua-4a40",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "easter",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-pascua-4a40"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-playa-221f",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "beach",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-playa-221f"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-postres-y-dulces-4ddb",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "desserts_and_sweets",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-postres-y-dulces-4ddb"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-primavera-f225",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "spring",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-primavera-f225"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-ropa-4aad",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "clothing",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-ropa-4aad"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-salon-de-clases-a696",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "classroom",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-salon-de-clases-a696"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-utensilios-de-cocina-22f4",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "kitchen_tools",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-utensilios-de-cocina-22f4"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-vehiculos-1543",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "vehicles",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-vehiculos-1543"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-verduras-1738",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "vegetables",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-verduras-1738"
-  },
-  {
-   "slug": "grande-pequeno-encontrar-el-grande-vida-marina-91d2",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "ocean_life",
-   "level": "preescolar",
-   "deck": "grande-pequeno-encontrar-el-grande-vida-marina-91d2"
-  },
-  {
-   "slug": "el-intruso-4-de-julio-2532",
-   "type": "odd-one-out",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "preescolar",
-   "deck": "el-intruso-4-de-julio-2532"
-  },
-  {
-   "slug": "el-intruso-accesorios-029c",
-   "type": "odd-one-out",
-   "mode": null,
-   "theme": "accessories",
-   "level": "preescolar",
-   "deck": "el-intruso-accesorios-029c"
-  },
-  {
-   "slug": "el-intruso-actividades-ec20",
-   "type": "odd-one-out",
-   "mode": null,
-   "theme": "activities",
-   "level": "preescolar",
-   "deck": "el-intruso-actividades-ec20"
-  },
-  {
-   "slug": "el-intruso-animales-43af",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-animales-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "animals",
    "level": "preescolar",
-   "deck": "el-intruso-animales-43af"
+   "deck": "tren-de-patrones-aab-animales-fe63"
   },
   {
-   "slug": "el-intruso-animales-de-granja-ee54",
-   "type": "odd-one-out",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "preescolar",
-   "deck": "el-intruso-animales-de-granja-ee54"
-  },
-  {
-   "slug": "el-intruso-animales-del-zoologico-bc32",
-   "type": "odd-one-out",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "preescolar",
-   "deck": "el-intruso-animales-del-zoologico-bc32"
-  },
-  {
-   "slug": "el-intruso-arboles-c52f",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-arboles-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "tree",
    "level": "preescolar",
-   "deck": "el-intruso-arboles-c52f"
+   "deck": "tren-de-patrones-aab-arboles-fe63"
   },
   {
-   "slug": "el-intruso-aves-2-a68c",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-aves-2-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "birds_2",
    "level": "preescolar",
-   "deck": "el-intruso-aves-2-a68c"
+   "deck": "tren-de-patrones-aab-aves-2-fe63"
   },
   {
-   "slug": "el-intruso-aves-e9e5",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-aves-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "birds",
    "level": "preescolar",
-   "deck": "el-intruso-aves-e9e5"
+   "deck": "tren-de-patrones-aab-aves-fe63"
   },
   {
-   "slug": "el-intruso-campamento-4cc2",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-campamento-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "camping",
    "level": "preescolar",
-   "deck": "el-intruso-campamento-4cc2"
+   "deck": "tren-de-patrones-aab-campamento-fe63"
   },
   {
-   "slug": "el-intruso-clima-8322",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-clima-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "weather",
    "level": "preescolar",
-   "deck": "el-intruso-clima-8322"
+   "deck": "tren-de-patrones-aab-clima-fe63"
   },
   {
-   "slug": "el-intruso-colores-0e99",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-colores-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "colors",
    "level": "preescolar",
-   "deck": "el-intruso-colores-0e99"
+   "deck": "tren-de-patrones-aab-colores-fe63"
   },
   {
-   "slug": "el-intruso-cosas-que-vuelan-67d6",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-cosas-que-vuelan-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "things_that_fly",
    "level": "preescolar",
-   "deck": "el-intruso-cosas-que-vuelan-67d6"
+   "deck": "tren-de-patrones-aab-cosas-que-vuelan-fe63"
   },
   {
-   "slug": "el-intruso-criaturas-del-bosque-a876",
-   "type": "odd-one-out",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "preescolar",
-   "deck": "el-intruso-criaturas-del-bosque-a876"
-  },
-  {
-   "slug": "el-intruso-desayuno-ab17",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-desayuno-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "breakfast",
    "level": "preescolar",
-   "deck": "el-intruso-desayuno-ab17"
+   "deck": "tren-de-patrones-aab-desayuno-fe63"
   },
   {
-   "slug": "el-intruso-dia-de-accion-de-gracias-b043",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-dia-de-accion-de-gracias-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "thanksgivinng",
    "level": "preescolar",
-   "deck": "el-intruso-dia-de-accion-de-gracias-b043"
+   "deck": "tren-de-patrones-aab-dia-de-accion-de-gracias-fe63"
   },
   {
-   "slug": "el-intruso-dinosaurios-eeee",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-dinosaurios-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "dinosaurs",
    "level": "preescolar",
-   "deck": "el-intruso-dinosaurios-eeee"
+   "deck": "tren-de-patrones-aab-dinosaurios-fe63"
   },
   {
-   "slug": "el-intruso-emociones-736a",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-emociones-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "emotions",
    "level": "preescolar",
-   "deck": "el-intruso-emociones-736a"
+   "deck": "tren-de-patrones-aab-emociones-fe63"
   },
   {
-   "slug": "el-intruso-en-el-supermercado-aac9",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-en-el-supermercado-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "at_the_supermarket",
    "level": "preescolar",
-   "deck": "el-intruso-en-el-supermercado-aac9"
+   "deck": "tren-de-patrones-aab-en-el-supermercado-fe63"
   },
   {
-   "slug": "el-intruso-espacio-319d",
-   "type": "odd-one-out",
-   "mode": null,
-   "theme": "space",
-   "level": "preescolar",
-   "deck": "el-intruso-espacio-319d"
-  },
-  {
-   "slug": "el-intruso-flores-8a76",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-flores-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "flowers",
    "level": "preescolar",
-   "deck": "el-intruso-flores-8a76"
+   "deck": "tren-de-patrones-aab-flores-fe63"
   },
   {
-   "slug": "el-intruso-formas-08b9",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-formas-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "shapes",
    "level": "preescolar",
-   "deck": "el-intruso-formas-08b9"
+   "deck": "tren-de-patrones-aab-formas-fe63"
   },
   {
-   "slug": "el-intruso-frutas-fa80",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-frutas-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "fruits",
    "level": "preescolar",
-   "deck": "el-intruso-frutas-fa80"
+   "deck": "tren-de-patrones-aab-frutas-fe63"
   },
   {
-   "slug": "el-intruso-herramientas-5a7f",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-herramientas-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "tools",
    "level": "preescolar",
-   "deck": "el-intruso-herramientas-5a7f"
+   "deck": "tren-de-patrones-aab-herramientas-fe63"
   },
   {
-   "slug": "el-intruso-hospital-7a50",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-hospital-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "hospital",
    "level": "preescolar",
-   "deck": "el-intruso-hospital-7a50"
+   "deck": "tren-de-patrones-aab-hospital-fe63"
   },
   {
-   "slug": "el-intruso-insectos-y-bichos-9a29",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-insectos-y-bichos-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "insects_and_bugs",
    "level": "preescolar",
-   "deck": "el-intruso-insectos-y-bichos-9a29"
+   "deck": "tren-de-patrones-aab-insectos-y-bichos-fe63"
   },
   {
-   "slug": "el-intruso-invierno-a77f",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-invierno-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "winter",
    "level": "preescolar",
-   "deck": "el-intruso-invierno-a77f"
+   "deck": "tren-de-patrones-aab-invierno-fe63"
   },
   {
-   "slug": "el-intruso-juguetes-46e2",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-juguetes-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "toys",
    "level": "preescolar",
-   "deck": "el-intruso-juguetes-46e2"
+   "deck": "tren-de-patrones-aab-juguetes-fe63"
   },
   {
-   "slug": "el-intruso-mascotas-aad8",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-mascotas-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "pets",
    "level": "preescolar",
-   "deck": "el-intruso-mascotas-aad8"
+   "deck": "tren-de-patrones-aab-mascotas-fe63"
   },
   {
-   "slug": "el-intruso-miscelaneo-7983",
-   "type": "odd-one-out",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "preescolar",
-   "deck": "el-intruso-miscelaneo-7983"
-  },
-  {
-   "slug": "el-intruso-muebles-80d0",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-muebles-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "furniture",
    "level": "preescolar",
-   "deck": "el-intruso-muebles-80d0"
+   "deck": "tren-de-patrones-aab-muebles-fe63"
   },
   {
-   "slug": "el-intruso-musica-03e7",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-musica-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "music",
    "level": "preescolar",
-   "deck": "el-intruso-musica-03e7"
+   "deck": "tren-de-patrones-aab-musica-fe63"
   },
   {
-   "slug": "el-intruso-navidad-6657",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-navidad-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "christmas",
    "level": "preescolar",
-   "deck": "el-intruso-navidad-6657"
+   "deck": "tren-de-patrones-aab-navidad-fe63"
   },
   {
-   "slug": "el-intruso-ocupaciones-0fbb",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-ocupaciones-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "occupations",
    "level": "preescolar",
-   "deck": "el-intruso-ocupaciones-0fbb"
+   "deck": "tren-de-patrones-aab-ocupaciones-fe63"
   },
   {
-   "slug": "el-intruso-oficina-de-correos-d91b",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-oficina-de-correos-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "post_office",
    "level": "preescolar",
-   "deck": "el-intruso-oficina-de-correos-d91b"
+   "deck": "tren-de-patrones-aab-oficina-de-correos-fe63"
   },
   {
-   "slug": "el-intruso-panaderia-0fb4",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-panaderia-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "bakery",
    "level": "preescolar",
-   "deck": "el-intruso-panaderia-0fb4"
+   "deck": "tren-de-patrones-aab-panaderia-fe63"
   },
   {
-   "slug": "el-intruso-partes-del-cuerpo-5030",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-partes-del-cuerpo-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "body_parts",
    "level": "preescolar",
-   "deck": "el-intruso-partes-del-cuerpo-5030"
+   "deck": "tren-de-patrones-aab-partes-del-cuerpo-fe63"
   },
   {
-   "slug": "el-intruso-pascua-059e",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-pascua-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "easter",
    "level": "preescolar",
-   "deck": "el-intruso-pascua-059e"
+   "deck": "tren-de-patrones-aab-pascua-fe63"
   },
   {
-   "slug": "el-intruso-playa-8b55",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-playa-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "beach",
    "level": "preescolar",
-   "deck": "el-intruso-playa-8b55"
+   "deck": "tren-de-patrones-aab-playa-fe63"
   },
   {
-   "slug": "el-intruso-postres-y-dulces-45ad",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-postres-y-dulces-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "desserts_and_sweets",
    "level": "preescolar",
-   "deck": "el-intruso-postres-y-dulces-45ad"
+   "deck": "tren-de-patrones-aab-postres-y-dulces-fe63"
   },
   {
-   "slug": "el-intruso-primavera-d82d",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-primavera-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "spring",
    "level": "preescolar",
-   "deck": "el-intruso-primavera-d82d"
+   "deck": "tren-de-patrones-aab-primavera-fe63"
   },
   {
-   "slug": "el-intruso-reptiles-y-anfibios-e178",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-reptiles-y-anfibios-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "reptiles_and_amphibians",
    "level": "preescolar",
-   "deck": "el-intruso-reptiles-y-anfibios-e178"
+   "deck": "tren-de-patrones-aab-reptiles-y-anfibios-fe63"
   },
   {
-   "slug": "el-intruso-ropa-3a56",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-ropa-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "clothing",
    "level": "preescolar",
-   "deck": "el-intruso-ropa-3a56"
+   "deck": "tren-de-patrones-aab-ropa-fe63"
   },
   {
-   "slug": "el-intruso-salon-de-clases-83a8",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-salon-de-clases-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "classroom",
    "level": "preescolar",
-   "deck": "el-intruso-salon-de-clases-83a8"
+   "deck": "tren-de-patrones-aab-salon-de-clases-fe63"
   },
   {
-   "slug": "el-intruso-utensilios-de-cocina-cefb",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-utensilios-de-cocina-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "kitchen_tools",
    "level": "preescolar",
-   "deck": "el-intruso-utensilios-de-cocina-cefb"
+   "deck": "tren-de-patrones-aab-utensilios-de-cocina-fe63"
   },
   {
-   "slug": "el-intruso-vehiculos-b77d",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-vehiculos-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "vehicles",
    "level": "preescolar",
-   "deck": "el-intruso-vehiculos-b77d"
+   "deck": "tren-de-patrones-aab-vehiculos-fe63"
   },
   {
-   "slug": "el-intruso-verano-b494",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-verano-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "summer",
    "level": "preescolar",
-   "deck": "el-intruso-verano-b494"
+   "deck": "tren-de-patrones-aab-verano-fe63"
   },
   {
-   "slug": "el-intruso-verduras-3689",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-verduras-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "vegetables",
    "level": "preescolar",
-   "deck": "el-intruso-verduras-3689"
+   "deck": "tren-de-patrones-aab-verduras-fe63"
   },
   {
-   "slug": "el-intruso-vida-marina-a669",
-   "type": "odd-one-out",
-   "mode": null,
+   "slug": "tren-de-patrones-aab-vida-marina-fe63",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "ocean_life",
    "level": "preescolar",
-   "deck": "el-intruso-vida-marina-a669"
+   "deck": "tren-de-patrones-aab-vida-marina-fe63"
+  },
+  {
+   "slug": "resta-tachar-4-de-julio-551b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "resta-tachar-4-de-julio-551b"
+  },
+  {
+   "slug": "resta-tachar-accesorios-a38e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "resta-tachar-accesorios-a38e"
+  },
+  {
+   "slug": "resta-tachar-actividades-204d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "resta-tachar-actividades-204d"
+  },
+  {
+   "slug": "resta-tachar-animales-dec7",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "resta-tachar-animales-dec7"
+  },
+  {
+   "slug": "resta-tachar-arboles-4281",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "resta-tachar-arboles-4281"
+  },
+  {
+   "slug": "resta-tachar-aves-2-4026",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "resta-tachar-aves-2-4026"
+  },
+  {
+   "slug": "resta-tachar-aves-e2e3",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "resta-tachar-aves-e2e3"
+  },
+  {
+   "slug": "resta-tachar-campamento-c259",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "resta-tachar-campamento-c259"
+  },
+  {
+   "slug": "resta-tachar-clima-27ad",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "resta-tachar-clima-27ad"
+  },
+  {
+   "slug": "resta-tachar-colores-d02c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "resta-tachar-colores-d02c"
+  },
+  {
+   "slug": "resta-tachar-cosas-que-vuelan-98b3",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "resta-tachar-cosas-que-vuelan-98b3"
+  },
+  {
+   "slug": "resta-tachar-criaturas-del-bosque-37b0",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "resta-tachar-criaturas-del-bosque-37b0"
+  },
+  {
+   "slug": "resta-tachar-criaturas-del-bosque-8cd4",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "resta-tachar-criaturas-del-bosque-8cd4"
+  },
+  {
+   "slug": "resta-tachar-desayuno-923a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "resta-tachar-desayuno-923a"
+  },
+  {
+   "slug": "resta-tachar-dia-de-accion-de-gracias-c0f5",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "thanksgivinng",
+   "level": "primer-grado",
+   "deck": "resta-tachar-dia-de-accion-de-gracias-c0f5"
+  },
+  {
+   "slug": "resta-tachar-dinosaurios-d619",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "resta-tachar-dinosaurios-d619"
+  },
+  {
+   "slug": "resta-tachar-emociones-7c11",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "resta-tachar-emociones-7c11"
+  },
+  {
+   "slug": "resta-tachar-en-el-supermercado-4ba9",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "resta-tachar-en-el-supermercado-4ba9"
+  },
+  {
+   "slug": "resta-tachar-espacio-cb27",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "resta-tachar-espacio-cb27"
+  },
+  {
+   "slug": "resta-tachar-flores-ca69",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "resta-tachar-flores-ca69"
+  },
+  {
+   "slug": "resta-tachar-formas-c087",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "resta-tachar-formas-c087"
+  },
+  {
+   "slug": "resta-tachar-frutas-0c7c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "resta-tachar-frutas-0c7c"
+  },
+  {
+   "slug": "resta-tachar-herramientas-1813",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "resta-tachar-herramientas-1813"
+  },
+  {
+   "slug": "resta-tachar-hospital-8411",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "resta-tachar-hospital-8411"
+  },
+  {
+   "slug": "resta-tachar-invierno-716d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "resta-tachar-invierno-716d"
+  },
+  {
+   "slug": "resta-tachar-juguetes-009e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "resta-tachar-juguetes-009e"
+  },
+  {
+   "slug": "resta-tachar-mascotas-9ceb",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "resta-tachar-mascotas-9ceb"
+  },
+  {
+   "slug": "resta-tachar-miscelaneo-f89a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "resta-tachar-miscelaneo-f89a"
+  },
+  {
+   "slug": "resta-tachar-muebles-a6d4",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "resta-tachar-muebles-a6d4"
+  },
+  {
+   "slug": "resta-tachar-musica-2adb",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "resta-tachar-musica-2adb"
+  },
+  {
+   "slug": "resta-tachar-navidad-413a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "resta-tachar-navidad-413a"
+  },
+  {
+   "slug": "resta-tachar-ocupaciones-dbf0",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "resta-tachar-ocupaciones-dbf0"
+  },
+  {
+   "slug": "resta-tachar-oficina-de-correos-273b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "resta-tachar-oficina-de-correos-273b"
+  },
+  {
+   "slug": "resta-tachar-panaderia-fd3c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "resta-tachar-panaderia-fd3c"
+  },
+  {
+   "slug": "resta-tachar-partes-del-cuerpo-afc9",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "resta-tachar-partes-del-cuerpo-afc9"
+  },
+  {
+   "slug": "resta-tachar-pascua-7995",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "resta-tachar-pascua-7995"
+  },
+  {
+   "slug": "resta-tachar-playa-d4cc",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "resta-tachar-playa-d4cc"
+  },
+  {
+   "slug": "resta-tachar-postres-y-dulces-103d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "resta-tachar-postres-y-dulces-103d"
+  },
+  {
+   "slug": "resta-tachar-ropa-e18b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "resta-tachar-ropa-e18b"
+  },
+  {
+   "slug": "resta-tachar-salon-de-clases-b09e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "resta-tachar-salon-de-clases-b09e"
+  },
+  {
+   "slug": "resta-tachar-utensilios-de-cocina-d874",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "resta-tachar-utensilios-de-cocina-d874"
+  },
+  {
+   "slug": "resta-tachar-vehiculos-ecbf",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "resta-tachar-vehiculos-ecbf"
+  },
+  {
+   "slug": "resta-tachar-verano-0739",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "resta-tachar-verano-0739"
+  },
+  {
+   "slug": "resta-tachar-verduras-b222",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "resta-tachar-verduras-b222"
+  },
+  {
+   "slug": "resta-tachar-vida-marina-9916",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "resta-tachar-vida-marina-9916"
   }
  ]
 }

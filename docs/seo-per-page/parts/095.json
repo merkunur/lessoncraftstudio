@@ -2,755 +2,820 @@
  "part": 95,
  "locale": "es",
  "classes": [
-  "word-scramble::normal",
-  "subtraction::find-subtrahend"
+  "picture-path::null",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "chart-count::null",
+  "measurement::compare-weight",
+  "measurement::length-units"
  ],
  "splitOf": null,
- "count": 93,
+ "count": 100,
  "pages": [
   {
-   "slug": "letras-revueltas-normal-4-de-julio-c90f",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "sendero-de-imagenes-4-de-julio-02e0",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-4-de-julio-02e0"
+  },
+  {
+   "slug": "sendero-de-imagenes-accesorios-257e",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-accesorios-257e"
+  },
+  {
+   "slug": "sendero-de-imagenes-actividades-273d",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-actividades-273d"
+  },
+  {
+   "slug": "sendero-de-imagenes-alrededor-de-la-casa-2e6e",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-alrededor-de-la-casa-2e6e"
+  },
+  {
+   "slug": "sendero-de-imagenes-animales-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-animales-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-animales-de-granja-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-animales-de-granja-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-animales-del-zoologico-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-animales-del-zoologico-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-arboles-8c29",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-arboles-8c29"
+  },
+  {
+   "slug": "sendero-de-imagenes-aves-2-6084",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-aves-2-6084"
+  },
+  {
+   "slug": "sendero-de-imagenes-aves-5526",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-aves-5526"
+  },
+  {
+   "slug": "sendero-de-imagenes-campamento-03f0",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-campamento-03f0"
+  },
+  {
+   "slug": "sendero-de-imagenes-clima-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-clima-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-colores-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-colores-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-cosas-que-vuelan-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-cosas-que-vuelan-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-criaturas-del-bosque-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-criaturas-del-bosque-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-desayuno-7410",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-desayuno-7410"
+  },
+  {
+   "slug": "sendero-de-imagenes-dia-de-accion-de-gracias-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-dia-de-accion-de-gracias-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-dinosaurios-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-dinosaurios-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-emociones-36f7",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-emociones-36f7"
+  },
+  {
+   "slug": "sendero-de-imagenes-en-el-supermercado-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-en-el-supermercado-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-espacio-138a",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-espacio-138a"
+  },
+  {
+   "slug": "sendero-de-imagenes-flores-2fe6",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-flores-2fe6"
+  },
+  {
+   "slug": "sendero-de-imagenes-formas-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-formas-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-frutas-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-frutas-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-herramientas-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-herramientas-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-hospital-7887",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-hospital-7887"
+  },
+  {
+   "slug": "sendero-de-imagenes-invierno-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-invierno-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-juguetes-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-juguetes-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-mascotas-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-mascotas-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-miscelaneo-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-miscelaneo-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-muebles-6792",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-muebles-6792"
+  },
+  {
+   "slug": "sendero-de-imagenes-musica-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-musica-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-navidad-1929",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-navidad-1929"
+  },
+  {
+   "slug": "sendero-de-imagenes-ocupaciones-6abf",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-ocupaciones-6abf"
+  },
+  {
+   "slug": "sendero-de-imagenes-oficina-de-correos-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-oficina-de-correos-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-panaderia-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-panaderia-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-partes-del-cuerpo-3d9a",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-partes-del-cuerpo-3d9a"
+  },
+  {
+   "slug": "sendero-de-imagenes-pascua-319c",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-pascua-319c"
+  },
+  {
+   "slug": "sendero-de-imagenes-playa-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-playa-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-postres-y-dulces-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-postres-y-dulces-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-primavera-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-primavera-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-ropa-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-ropa-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-salon-de-clases-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-salon-de-clases-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-utensilios-de-cocina-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-utensilios-de-cocina-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-vehiculos-9779",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-vehiculos-9779"
+  },
+  {
+   "slug": "sendero-de-imagenes-verano-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-verano-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-verduras-98be",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-verduras-98be"
+  },
+  {
+   "slug": "sendero-de-imagenes-vida-marina-1d09",
+   "type": "picture-path",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "sendero-de-imagenes-vida-marina-1d09"
+  },
+  {
+   "slug": "fracciones-tercer-grado",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "tercer-grado",
+   "deck": "fracciones-g3315"
+  },
+  {
+   "slug": "fracciones-partes-iguales-segundo-grado",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "segundo-grado",
+   "deck": "fracciones-g2228"
+  },
+  {
+   "slug": "figuras-geometricas-preescolar",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "preescolar",
+   "deck": "geometria-k075"
+  },
+  {
+   "slug": "geometria-tercer-grado",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "tercer-grado",
+   "deck": "geometria-g3337"
+  },
+  {
+   "slug": "cuerpos-geometricos-segundo-grado",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "segundo-grado",
+   "deck": "geometria-g2241"
+  },
+  {
+   "slug": "arreglos-multiplicacion-segundo-grado",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "segundo-grado",
+   "deck": "multiplicacion-formas-g2209"
+  },
+  {
+   "slug": "tablas-multiplicar-arreglos-tercer-grado",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "tercer-grado",
+   "deck": "multiplicacion-g3313"
+  },
+  {
+   "slug": "contar-en-grafico-4-de-julio",
+   "type": "chart-count",
+   "mode": null,
    "theme": "4th_of_july",
    "level": "primer-grado",
-   "deck": "letras-revueltas-normal-4-de-julio-c90f"
+   "deck": "contar-en-grafico-4-de-julio"
   },
   {
-   "slug": "letras-revueltas-normal-accesorios-0384",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "contar-en-grafico-accesorios",
+   "type": "chart-count",
+   "mode": null,
    "theme": "accessories",
    "level": "primer-grado",
-   "deck": "letras-revueltas-normal-accesorios-0384"
+   "deck": "contar-en-grafico-accesorios"
   },
   {
-   "slug": "letras-revueltas-normal-actividades-1ac2",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "activities",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-actividades-1ac2"
-  },
-  {
-   "slug": "letras-revueltas-normal-alrededor-de-la-casa-eec9",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "contar-en-grafico-alrededor-de-la-casa",
+   "type": "chart-count",
+   "mode": null,
    "theme": "around_the_house",
    "level": "primer-grado",
-   "deck": "letras-revueltas-normal-alrededor-de-la-casa-eec9"
+   "deck": "contar-en-grafico-alrededor-de-la-casa"
   },
   {
-   "slug": "letras-revueltas-normal-animales-da20",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "contar-en-grafico-animales",
+   "type": "chart-count",
+   "mode": null,
    "theme": "animals",
    "level": "primer-grado",
-   "deck": "letras-revueltas-normal-animales-da20"
+   "deck": "contar-en-grafico-animales"
   },
   {
-   "slug": "letras-revueltas-normal-animales-de-granja-3333",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "contar-en-grafico-animales-de-granja",
+   "type": "chart-count",
+   "mode": null,
    "theme": "farm_animals",
    "level": "primer-grado",
-   "deck": "letras-revueltas-normal-animales-de-granja-3333"
+   "deck": "contar-en-grafico-animales-de-granja"
   },
   {
-   "slug": "letras-revueltas-normal-animales-del-zoologico-2a0f",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "contar-en-grafico-animales-del-zoologico",
+   "type": "chart-count",
+   "mode": null,
    "theme": "zoo_animals",
    "level": "primer-grado",
-   "deck": "letras-revueltas-normal-animales-del-zoologico-2a0f"
+   "deck": "contar-en-grafico-animales-del-zoologico"
   },
   {
-   "slug": "letras-revueltas-normal-arboles-91fe",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "contar-en-grafico-arboles",
+   "type": "chart-count",
+   "mode": null,
    "theme": "tree",
    "level": "primer-grado",
-   "deck": "letras-revueltas-normal-arboles-91fe"
+   "deck": "contar-en-grafico-arboles"
   },
   {
-   "slug": "letras-revueltas-normal-aves-2-f6ef",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "birds_2",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-aves-2-f6ef"
-  },
-  {
-   "slug": "letras-revueltas-normal-aves-489c",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "contar-en-grafico-aves",
+   "type": "chart-count",
+   "mode": null,
    "theme": "birds",
    "level": "primer-grado",
-   "deck": "letras-revueltas-normal-aves-489c"
+   "deck": "contar-en-grafico-aves"
   },
   {
-   "slug": "letras-revueltas-normal-campamento-f672",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "camping",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-campamento-f672"
-  },
-  {
-   "slug": "letras-revueltas-normal-clima-62bc",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "weather",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-clima-62bc"
-  },
-  {
-   "slug": "letras-revueltas-normal-colores-d635",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "colors",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-colores-d635"
-  },
-  {
-   "slug": "letras-revueltas-normal-cosas-que-vuelan-722c",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "things_that_fly",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-cosas-que-vuelan-722c"
-  },
-  {
-   "slug": "letras-revueltas-normal-criaturas-del-bosque-ef4b",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "forest_creatures",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-criaturas-del-bosque-ef4b"
-  },
-  {
-   "slug": "letras-revueltas-normal-desayuno-5d33",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "breakfast",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-desayuno-5d33"
-  },
-  {
-   "slug": "letras-revueltas-normal-dia-de-accion-de-gracias-15a4",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "thanksgivinng",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-dia-de-accion-de-gracias-15a4"
-  },
-  {
-   "slug": "letras-revueltas-normal-emociones-f6ac",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "emotions",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-emociones-f6ac"
-  },
-  {
-   "slug": "letras-revueltas-normal-en-el-supermercado-389b",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "at_the_supermarket",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-en-el-supermercado-389b"
-  },
-  {
-   "slug": "letras-revueltas-normal-espacio-7ef0",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "space",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-espacio-7ef0"
-  },
-  {
-   "slug": "letras-revueltas-normal-flores-1402",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "flowers",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-flores-1402"
-  },
-  {
-   "slug": "letras-revueltas-normal-formas-274a",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "shapes",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-formas-274a"
-  },
-  {
-   "slug": "letras-revueltas-normal-frutas-d953",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "fruits",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-frutas-d953"
-  },
-  {
-   "slug": "letras-revueltas-normal-herramientas-18fb",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "tools",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-herramientas-18fb"
-  },
-  {
-   "slug": "letras-revueltas-normal-hospital-b4e1",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "hospital",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-hospital-b4e1"
-  },
-  {
-   "slug": "letras-revueltas-normal-insectos-y-bichos-1d24",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "insects_and_bugs",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-insectos-y-bichos-1d24"
-  },
-  {
-   "slug": "letras-revueltas-normal-invierno-509f",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "winter",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-invierno-509f"
-  },
-  {
-   "slug": "letras-revueltas-normal-juguetes-45b8",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "toys",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-juguetes-45b8"
-  },
-  {
-   "slug": "letras-revueltas-normal-mascotas-96ce",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "pets",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-mascotas-96ce"
-  },
-  {
-   "slug": "letras-revueltas-normal-miscelaneo-1f8c",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "miscellaneous",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-miscelaneo-1f8c"
-  },
-  {
-   "slug": "letras-revueltas-normal-muebles-ca23",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "furniture",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-muebles-ca23"
-  },
-  {
-   "slug": "letras-revueltas-normal-musica-01d1",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "music",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-musica-01d1"
-  },
-  {
-   "slug": "letras-revueltas-normal-navidad-a8bb",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "christmas",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-navidad-a8bb"
-  },
-  {
-   "slug": "letras-revueltas-normal-ocupaciones-946e",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "occupations",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-ocupaciones-946e"
-  },
-  {
-   "slug": "letras-revueltas-normal-oficina-de-correos-026a",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "post_office",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-oficina-de-correos-026a"
-  },
-  {
-   "slug": "letras-revueltas-normal-panaderia-c88a",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "bakery",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-panaderia-c88a"
-  },
-  {
-   "slug": "letras-revueltas-normal-partes-del-cuerpo-a0f8",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "body_parts",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-partes-del-cuerpo-a0f8"
-  },
-  {
-   "slug": "letras-revueltas-normal-pascua-f663",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "easter",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-pascua-f663"
-  },
-  {
-   "slug": "letras-revueltas-normal-playa-d333",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "beach",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-playa-d333"
-  },
-  {
-   "slug": "letras-revueltas-normal-postres-y-dulces-a4b1",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "desserts_and_sweets",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-postres-y-dulces-a4b1"
-  },
-  {
-   "slug": "letras-revueltas-normal-ropa-ea03",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "clothing",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-ropa-ea03"
-  },
-  {
-   "slug": "letras-revueltas-normal-salon-de-clases-efee",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "classroom",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-salon-de-clases-efee"
-  },
-  {
-   "slug": "letras-revueltas-normal-utensilios-de-cocina-4156",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "kitchen_tools",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-utensilios-de-cocina-4156"
-  },
-  {
-   "slug": "letras-revueltas-normal-vehiculos-e9d3",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "vehicles",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-vehiculos-e9d3"
-  },
-  {
-   "slug": "letras-revueltas-normal-verano-557c",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "summer",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-verano-557c"
-  },
-  {
-   "slug": "letras-revueltas-normal-verduras-edf1",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "vegetables",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-verduras-edf1"
-  },
-  {
-   "slug": "letras-revueltas-normal-vida-marina-485f",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "ocean_life",
-   "level": "primer-grado",
-   "deck": "letras-revueltas-normal-vida-marina-485f"
-  },
-  {
-   "slug": "resta-buscar-sustraendo-4-de-julio-a64a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "4th_of_july",
-   "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-4-de-julio-a64a"
-  },
-  {
-   "slug": "resta-buscar-sustraendo-accesorios-78ba",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "accessories",
-   "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-accesorios-78ba"
-  },
-  {
-   "slug": "resta-buscar-sustraendo-actividades-b2c3",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "activities",
-   "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-actividades-b2c3"
-  },
-  {
-   "slug": "resta-buscar-sustraendo-animales-a477",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "animals",
-   "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-animales-a477"
-  },
-  {
-   "slug": "resta-buscar-sustraendo-animales-de-granja-479d",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "farm_animals",
-   "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-animales-de-granja-479d"
-  },
-  {
-   "slug": "resta-buscar-sustraendo-animales-del-zoologico-a1d1",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "zoo_animals",
-   "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-animales-del-zoologico-a1d1"
-  },
-  {
-   "slug": "resta-buscar-sustraendo-arboles-74a1",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "tree",
-   "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-arboles-74a1"
-  },
-  {
-   "slug": "resta-buscar-sustraendo-aves-2-4b76",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-aves-2",
+   "type": "chart-count",
+   "mode": null,
    "theme": "birds_2",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-aves-2-4b76"
+   "deck": "contar-en-grafico-aves-2"
   },
   {
-   "slug": "resta-buscar-sustraendo-aves-8d67",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "birds",
-   "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-aves-8d67"
-  },
-  {
-   "slug": "resta-buscar-sustraendo-campamento-b566",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-campamento",
+   "type": "chart-count",
+   "mode": null,
    "theme": "camping",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-campamento-b566"
+   "deck": "contar-en-grafico-campamento"
   },
   {
-   "slug": "resta-buscar-sustraendo-clima-3d7c",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "weather",
-   "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-clima-3d7c"
-  },
-  {
-   "slug": "resta-buscar-sustraendo-colores-ba10",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-colores",
+   "type": "chart-count",
+   "mode": null,
    "theme": "colors",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-colores-ba10"
+   "deck": "contar-en-grafico-colores"
   },
   {
-   "slug": "resta-buscar-sustraendo-cosas-que-vuelan-ae51",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-cosas-que-vuelan",
+   "type": "chart-count",
+   "mode": null,
    "theme": "things_that_fly",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-cosas-que-vuelan-ae51"
+   "deck": "contar-en-grafico-cosas-que-vuelan"
   },
   {
-   "slug": "resta-buscar-sustraendo-criaturas-del-bosque-dfa9",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-criaturas-del-bosque",
+   "type": "chart-count",
+   "mode": null,
    "theme": "forest_creatures",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-criaturas-del-bosque-dfa9"
+   "deck": "contar-en-grafico-criaturas-del-bosque"
   },
   {
-   "slug": "resta-buscar-sustraendo-desayuno-7e4c",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-desayuno",
+   "type": "chart-count",
+   "mode": null,
    "theme": "breakfast",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-desayuno-7e4c"
+   "deck": "contar-en-grafico-desayuno"
   },
   {
-   "slug": "resta-buscar-sustraendo-dia-de-accion-de-gracias-c78e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-dia-de-accion-de-gracias",
+   "type": "chart-count",
+   "mode": null,
    "theme": "thanksgivinng",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-dia-de-accion-de-gracias-c78e"
+   "deck": "contar-en-grafico-dia-de-accion-de-gracias"
   },
   {
-   "slug": "resta-buscar-sustraendo-dinosaurios-103a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-dinosaurios",
+   "type": "chart-count",
+   "mode": null,
    "theme": "dinosaurs",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-dinosaurios-103a"
+   "deck": "contar-en-grafico-dinosaurios"
   },
   {
-   "slug": "resta-buscar-sustraendo-emociones-5000",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "emotions",
-   "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-emociones-5000"
-  },
-  {
-   "slug": "resta-buscar-sustraendo-en-el-supermercado-bb36",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-en-el-supermercado",
+   "type": "chart-count",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-en-el-supermercado-bb36"
+   "deck": "contar-en-grafico-en-el-supermercado"
   },
   {
-   "slug": "resta-buscar-sustraendo-espacio-225c",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-espacio",
+   "type": "chart-count",
+   "mode": null,
    "theme": "space",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-espacio-225c"
+   "deck": "contar-en-grafico-espacio"
   },
   {
-   "slug": "resta-buscar-sustraendo-flores-b57d",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-flores",
+   "type": "chart-count",
+   "mode": null,
    "theme": "flowers",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-flores-b57d"
+   "deck": "contar-en-grafico-flores"
   },
   {
-   "slug": "resta-buscar-sustraendo-formas-eb62",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-formas",
+   "type": "chart-count",
+   "mode": null,
    "theme": "shapes",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-formas-eb62"
+   "deck": "contar-en-grafico-formas"
   },
   {
-   "slug": "resta-buscar-sustraendo-frutas-b8ca",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-frutas",
+   "type": "chart-count",
+   "mode": null,
    "theme": "fruits",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-frutas-b8ca"
+   "deck": "contar-en-grafico-frutas"
   },
   {
-   "slug": "resta-buscar-sustraendo-herramientas-bc6b",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-herramientas",
+   "type": "chart-count",
+   "mode": null,
    "theme": "tools",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-herramientas-bc6b"
+   "deck": "contar-en-grafico-herramientas"
   },
   {
-   "slug": "resta-buscar-sustraendo-hospital-5473",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-hospital",
+   "type": "chart-count",
+   "mode": null,
    "theme": "hospital",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-hospital-5473"
+   "deck": "contar-en-grafico-hospital"
   },
   {
-   "slug": "resta-buscar-sustraendo-insectos-y-bichos-59ce",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-insectos-y-bichos",
+   "type": "chart-count",
+   "mode": null,
    "theme": "insects_and_bugs",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-insectos-y-bichos-59ce"
+   "deck": "contar-en-grafico-insectos-y-bichos"
   },
   {
-   "slug": "resta-buscar-sustraendo-invierno-f8f3",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "winter",
-   "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-invierno-f8f3"
-  },
-  {
-   "slug": "resta-buscar-sustraendo-juguetes-856a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-juguetes",
+   "type": "chart-count",
+   "mode": null,
    "theme": "toys",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-juguetes-856a"
+   "deck": "contar-en-grafico-juguetes"
   },
   {
-   "slug": "resta-buscar-sustraendo-mascotas-60e9",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-mascotas",
+   "type": "chart-count",
+   "mode": null,
    "theme": "pets",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-mascotas-60e9"
+   "deck": "contar-en-grafico-mascotas"
   },
   {
-   "slug": "resta-buscar-sustraendo-miscelaneo-ac2b",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-miscelaneo",
+   "type": "chart-count",
+   "mode": null,
    "theme": "miscellaneous",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-miscelaneo-ac2b"
+   "deck": "contar-en-grafico-miscelaneo"
   },
   {
-   "slug": "resta-buscar-sustraendo-muebles-017c",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-muebles",
+   "type": "chart-count",
+   "mode": null,
    "theme": "furniture",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-muebles-017c"
+   "deck": "contar-en-grafico-muebles"
   },
   {
-   "slug": "resta-buscar-sustraendo-musica-f405",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-musica",
+   "type": "chart-count",
+   "mode": null,
    "theme": "music",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-musica-f405"
+   "deck": "contar-en-grafico-musica"
   },
   {
-   "slug": "resta-buscar-sustraendo-navidad-97ba",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-navidad",
+   "type": "chart-count",
+   "mode": null,
    "theme": "christmas",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-navidad-97ba"
+   "deck": "contar-en-grafico-navidad"
   },
   {
-   "slug": "resta-buscar-sustraendo-ocupaciones-ed0b",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-ocupaciones",
+   "type": "chart-count",
+   "mode": null,
    "theme": "occupations",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-ocupaciones-ed0b"
+   "deck": "contar-en-grafico-ocupaciones"
   },
   {
-   "slug": "resta-buscar-sustraendo-oficina-de-correos-65d7",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-oficina-de-correos",
+   "type": "chart-count",
+   "mode": null,
    "theme": "post_office",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-oficina-de-correos-65d7"
+   "deck": "contar-en-grafico-oficina-de-correos"
   },
   {
-   "slug": "resta-buscar-sustraendo-panaderia-7073",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-panaderia",
+   "type": "chart-count",
+   "mode": null,
    "theme": "bakery",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-panaderia-7073"
+   "deck": "contar-en-grafico-panaderia"
   },
   {
-   "slug": "resta-buscar-sustraendo-partes-del-cuerpo-373e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "body_parts",
+   "slug": "contar-en-grafico-pascua",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "easter",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-partes-del-cuerpo-373e"
+   "deck": "contar-en-grafico-pascua"
   },
   {
-   "slug": "resta-buscar-sustraendo-primavera-7859",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "spring",
+   "slug": "contar-en-grafico-playa",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "beach",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-primavera-7859"
+   "deck": "contar-en-grafico-playa"
   },
   {
-   "slug": "resta-buscar-sustraendo-reptiles-y-anfibios-65c0",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-postres-y-dulces",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "contar-en-grafico-postres-y-dulces"
+  },
+  {
+   "slug": "contar-en-grafico-reptiles-y-anfibios",
+   "type": "chart-count",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-reptiles-y-anfibios-65c0"
+   "deck": "contar-en-grafico-reptiles-y-anfibios"
   },
   {
-   "slug": "resta-buscar-sustraendo-ropa-18e7",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-ropa",
+   "type": "chart-count",
+   "mode": null,
    "theme": "clothing",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-ropa-18e7"
+   "deck": "contar-en-grafico-ropa"
   },
   {
-   "slug": "resta-buscar-sustraendo-salon-de-clases-60d5",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-salon-de-clases",
+   "type": "chart-count",
+   "mode": null,
    "theme": "classroom",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-salon-de-clases-60d5"
+   "deck": "contar-en-grafico-salon-de-clases"
   },
   {
-   "slug": "resta-buscar-sustraendo-utensilios-de-cocina-71b4",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-utensilios-de-cocina",
+   "type": "chart-count",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-utensilios-de-cocina-71b4"
+   "deck": "contar-en-grafico-utensilios-de-cocina"
   },
   {
-   "slug": "resta-buscar-sustraendo-vehiculos-7751",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-vehiculos",
+   "type": "chart-count",
+   "mode": null,
    "theme": "vehicles",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-vehiculos-7751"
+   "deck": "contar-en-grafico-vehiculos"
   },
   {
-   "slug": "resta-buscar-sustraendo-verano-189a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "summer",
-   "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-verano-189a"
-  },
-  {
-   "slug": "resta-buscar-sustraendo-verduras-34c0",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-verduras",
+   "type": "chart-count",
+   "mode": null,
    "theme": "vegetables",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-verduras-34c0"
+   "deck": "contar-en-grafico-verduras"
   },
   {
-   "slug": "resta-buscar-sustraendo-vida-marina-c5e5",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "contar-en-grafico-vida-marina",
+   "type": "chart-count",
+   "mode": null,
    "theme": "ocean_life",
    "level": "primer-grado",
-   "deck": "resta-buscar-sustraendo-vida-marina-c5e5"
+   "deck": "contar-en-grafico-vida-marina"
+  },
+  {
+   "slug": "comparar-peso-pesado-ligero-preescolar",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "preescolar",
+   "deck": "medicion-frutas-k038"
+  },
+  {
+   "slug": "medir-longitud-cubos-primer-grado",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
+   "level": "primer-grado",
+   "deck": "medicion-formas-g1139"
   }
  ]
 }

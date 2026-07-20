@@ -1,780 +1,648 @@
 {
  "part": 231,
- "locale": "sv",
+ "locale": "nl",
  "classes": [
-  "pattern-train::aab",
-  "pattern-train::aabb"
+  "subtraction::find-subtrahend",
+  "picture-path::classic-maze",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "word-guess::null"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 79,
  "pages": [
   {
-   "slug": "monstertaget-aab-aktiviteter-9acd",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "activities",
-   "level": "forskola",
-   "deck": "monstertaget-aab-aktiviteter-9acd"
-  },
-  {
-   "slug": "monstertaget-aab-bageri-9211",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "bakery",
-   "level": "forskola",
-   "deck": "monstertaget-aab-bageri-9211"
-  },
-  {
-   "slug": "monstertaget-aab-blommor-f230",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "flowers",
-   "level": "forskola",
-   "deck": "monstertaget-aab-blommor-f230"
-  },
-  {
-   "slug": "monstertaget-aab-bondgardsdjur-6df2",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "monstertaget-aab-bondgardsdjur-6df2"
-  },
-  {
-   "slug": "monstertaget-aab-camping-71fb",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "camping",
-   "level": "forskola",
-   "deck": "monstertaget-aab-camping-71fb"
-  },
-  {
-   "slug": "monstertaget-aab-dinosaurier-2b76",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "monstertaget-aab-dinosaurier-2b76"
-  },
-  {
-   "slug": "monstertaget-aab-djur-d5c7",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "animals",
-   "level": "forskola",
-   "deck": "monstertaget-aab-djur-d5c7"
-  },
-  {
-   "slug": "monstertaget-aab-djurparksdjur-84fd",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "monstertaget-aab-djurparksdjur-84fd"
-  },
-  {
-   "slug": "monstertaget-aab-efterratter-och-godis-2bce",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "monstertaget-aab-efterratter-och-godis-2bce"
-  },
-  {
-   "slug": "monstertaget-aab-faglar-2-8ad2",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "birds_2",
-   "level": "forskola",
-   "deck": "monstertaget-aab-faglar-2-8ad2"
-  },
-  {
-   "slug": "monstertaget-aab-faglar-427d",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "birds",
-   "level": "forskola",
-   "deck": "monstertaget-aab-faglar-427d"
-  },
-  {
-   "slug": "monstertaget-aab-farger-3c8b",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "colors",
-   "level": "forskola",
-   "deck": "monstertaget-aab-farger-3c8b"
-  },
-  {
-   "slug": "monstertaget-aab-fordon-8cb2",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "vehicles",
-   "level": "forskola",
-   "deck": "monstertaget-aab-fordon-8cb2"
-  },
-  {
-   "slug": "monstertaget-aab-former-ef59",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "shapes",
-   "level": "forskola",
-   "deck": "monstertaget-aab-former-ef59"
-  },
-  {
-   "slug": "monstertaget-aab-frukost-b0bf",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "breakfast",
-   "level": "forskola",
-   "deck": "monstertaget-aab-frukost-b0bf"
-  },
-  {
-   "slug": "monstertaget-aab-frukter-dc9b",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "fruits",
-   "level": "forskola",
-   "deck": "monstertaget-aab-frukter-dc9b"
-  },
-  {
-   "slug": "monstertaget-aab-gronsaker-aeee",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "vegetables",
-   "level": "forskola",
-   "deck": "monstertaget-aab-gronsaker-aeee"
-  },
-  {
-   "slug": "monstertaget-aab-havsliv-4637",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "monstertaget-aab-havsliv-4637"
-  },
-  {
-   "slug": "monstertaget-aab-husdjur-744b",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "pets",
-   "level": "forskola",
-   "deck": "monstertaget-aab-husdjur-744b"
-  },
-  {
-   "slug": "monstertaget-aab-i-snabbkopet-563e",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "monstertaget-aab-i-snabbkopet-563e"
-  },
-  {
-   "slug": "monstertaget-aab-insekter-och-kryp-e0d2",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "monstertaget-aab-insekter-och-kryp-e0d2"
-  },
-  {
-   "slug": "monstertaget-aab-jul-8695",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "christmas",
-   "level": "forskola",
-   "deck": "monstertaget-aab-jul-8695"
-  },
-  {
-   "slug": "monstertaget-aab-kanslor-4193",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "emotions",
-   "level": "forskola",
-   "deck": "monstertaget-aab-kanslor-4193"
-  },
-  {
-   "slug": "monstertaget-aab-klader-6606",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "clothing",
-   "level": "forskola",
-   "deck": "monstertaget-aab-klader-6606"
-  },
-  {
-   "slug": "monstertaget-aab-klassrum-a9a2",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "classroom",
-   "level": "forskola",
-   "deck": "monstertaget-aab-klassrum-a9a2"
-  },
-  {
-   "slug": "monstertaget-aab-koksredskap-35cb",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "monstertaget-aab-koksredskap-35cb"
-  },
-  {
-   "slug": "monstertaget-aab-kroppsdelar-eebb",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "monstertaget-aab-kroppsdelar-eebb"
-  },
-  {
-   "slug": "monstertaget-aab-leksaker-761f",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "toys",
-   "level": "forskola",
-   "deck": "monstertaget-aab-leksaker-761f"
-  },
-  {
-   "slug": "monstertaget-aab-mobler-4e9b",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "furniture",
-   "level": "forskola",
-   "deck": "monstertaget-aab-mobler-4e9b"
-  },
-  {
-   "slug": "monstertaget-aab-musik-0390",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "music",
-   "level": "forskola",
-   "deck": "monstertaget-aab-musik-0390"
-  },
-  {
-   "slug": "monstertaget-aab-pask-6100",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "easter",
-   "level": "forskola",
-   "deck": "monstertaget-aab-pask-6100"
-  },
-  {
-   "slug": "monstertaget-aab-postkontor-772d",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "post_office",
-   "level": "forskola",
-   "deck": "monstertaget-aab-postkontor-772d"
-  },
-  {
-   "slug": "monstertaget-aab-reptiler-och-groddjur-dcf1",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "reptiles_and_amphibians",
-   "level": "forskola",
-   "deck": "monstertaget-aab-reptiler-och-groddjur-dcf1"
-  },
-  {
-   "slug": "monstertaget-aab-runt-huset-da3e",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "monstertaget-aab-runt-huset-da3e"
-  },
-  {
-   "slug": "monstertaget-aab-rymden-3c88",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "space",
-   "level": "forskola",
-   "deck": "monstertaget-aab-rymden-3c88"
-  },
-  {
-   "slug": "monstertaget-aab-saker-som-flyger-db73",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "monstertaget-aab-saker-som-flyger-db73"
-  },
-  {
-   "slug": "monstertaget-aab-sjukhus-3ef6",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "hospital",
-   "level": "forskola",
-   "deck": "monstertaget-aab-sjukhus-3ef6"
-  },
-  {
-   "slug": "monstertaget-aab-skogsdjur-2b52",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "monstertaget-aab-skogsdjur-2b52"
-  },
-  {
-   "slug": "monstertaget-aab-sommar-dd37",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "summer",
-   "level": "forskola",
-   "deck": "monstertaget-aab-sommar-dd37"
-  },
-  {
-   "slug": "monstertaget-aab-strand-7e6d",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "beach",
-   "level": "forskola",
-   "deck": "monstertaget-aab-strand-7e6d"
-  },
-  {
-   "slug": "monstertaget-aab-thanksgiving-174d",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "monstertaget-aab-thanksgiving-174d"
-  },
-  {
-   "slug": "monstertaget-aab-tillbehor-cb9c",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "aftrekken-zoek-de-aftrekker-accessoires-6c82",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "accessories",
-   "level": "forskola",
-   "deck": "monstertaget-aab-tillbehor-cb9c"
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-accessoires-6c82"
   },
   {
-   "slug": "monstertaget-aab-trad-0bd5",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "tree",
-   "level": "forskola",
-   "deck": "monstertaget-aab-trad-0bd5"
-  },
-  {
-   "slug": "monstertaget-aab-vader-a65c",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "weather",
-   "level": "forskola",
-   "deck": "monstertaget-aab-vader-a65c"
-  },
-  {
-   "slug": "monstertaget-aab-var-8a55",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "spring",
-   "level": "forskola",
-   "deck": "monstertaget-aab-var-8a55"
-  },
-  {
-   "slug": "monstertaget-aab-verktyg-d9bf",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "tools",
-   "level": "forskola",
-   "deck": "monstertaget-aab-verktyg-d9bf"
-  },
-  {
-   "slug": "monstertaget-aab-vinter-a764",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "winter",
-   "level": "forskola",
-   "deck": "monstertaget-aab-vinter-a764"
-  },
-  {
-   "slug": "monstertaget-aab-yrken-fb5f",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "occupations",
-   "level": "forskola",
-   "deck": "monstertaget-aab-yrken-fb5f"
-  },
-  {
-   "slug": "monstertaget-aabb-aktiviteter-6e37",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "activities",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-aktiviteter-6e37"
-  },
-  {
-   "slug": "monstertaget-aabb-bageri-180c",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "aftrekken-zoek-de-aftrekker-bakkerij-f797",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "bakery",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-bageri-180c"
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-bakkerij-f797"
   },
   {
-   "slug": "monstertaget-aabb-blommor-85cd",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "flowers",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-blommor-85cd"
-  },
-  {
-   "slug": "monstertaget-aabb-bondgardsdjur-5db8",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-bondgardsdjur-5db8"
-  },
-  {
-   "slug": "monstertaget-aabb-camping-e298",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "camping",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-camping-e298"
-  },
-  {
-   "slug": "monstertaget-aabb-dinosaurier-70f5",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-dinosaurier-70f5"
-  },
-  {
-   "slug": "monstertaget-aabb-djur-4c35",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "animals",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-djur-4c35"
-  },
-  {
-   "slug": "monstertaget-aabb-djurparksdjur-10cb",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-djurparksdjur-10cb"
-  },
-  {
-   "slug": "monstertaget-aabb-efterratter-och-godis-e583",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-efterratter-och-godis-e583"
-  },
-  {
-   "slug": "monstertaget-aabb-faglar-2-d7ee",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "birds_2",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-faglar-2-d7ee"
-  },
-  {
-   "slug": "monstertaget-aabb-faglar-859e",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "birds",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-faglar-859e"
-  },
-  {
-   "slug": "monstertaget-aabb-farger-7766",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "colors",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-farger-7766"
-  },
-  {
-   "slug": "monstertaget-aabb-fordon-adef",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "vehicles",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-fordon-adef"
-  },
-  {
-   "slug": "monstertaget-aabb-former-4845",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "shapes",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-former-4845"
-  },
-  {
-   "slug": "monstertaget-aabb-frukost-82b9",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "breakfast",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-frukost-82b9"
-  },
-  {
-   "slug": "monstertaget-aabb-frukter-9c51",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "fruits",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-frukter-9c51"
-  },
-  {
-   "slug": "monstertaget-aabb-gronsaker-783c",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "vegetables",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-gronsaker-783c"
-  },
-  {
-   "slug": "monstertaget-aabb-havsliv-7408",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-havsliv-7408"
-  },
-  {
-   "slug": "monstertaget-aabb-husdjur-6dc2",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "pets",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-husdjur-6dc2"
-  },
-  {
-   "slug": "monstertaget-aabb-i-snabbkopet-98b5",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-i-snabbkopet-98b5"
-  },
-  {
-   "slug": "monstertaget-aabb-insekter-och-kryp-822d",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-insekter-och-kryp-822d"
-  },
-  {
-   "slug": "monstertaget-aabb-jul-be29",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "christmas",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-jul-be29"
-  },
-  {
-   "slug": "monstertaget-aabb-kanslor-b9b7",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "emotions",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-kanslor-b9b7"
-  },
-  {
-   "slug": "monstertaget-aabb-klader-5c51",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "clothing",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-klader-5c51"
-  },
-  {
-   "slug": "monstertaget-aabb-klassrum-3db4",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "classroom",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-klassrum-3db4"
-  },
-  {
-   "slug": "monstertaget-aabb-koksredskap-f39d",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-koksredskap-f39d"
-  },
-  {
-   "slug": "monstertaget-aabb-kroppsdelar-239e",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-kroppsdelar-239e"
-  },
-  {
-   "slug": "monstertaget-aabb-leksaker-08b5",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "toys",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-leksaker-08b5"
-  },
-  {
-   "slug": "monstertaget-aabb-mobler-0d4d",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "furniture",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-mobler-0d4d"
-  },
-  {
-   "slug": "monstertaget-aabb-musik-8bba",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "music",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-musik-8bba"
-  },
-  {
-   "slug": "monstertaget-aabb-pask-cb4d",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "easter",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-pask-cb4d"
-  },
-  {
-   "slug": "monstertaget-aabb-postkontor-c455",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "post_office",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-postkontor-c455"
-  },
-  {
-   "slug": "monstertaget-aabb-reptiler-och-groddjur-a8d9",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "reptiles_and_amphibians",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-reptiler-och-groddjur-a8d9"
-  },
-  {
-   "slug": "monstertaget-aabb-runt-huset-846f",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-runt-huset-846f"
-  },
-  {
-   "slug": "monstertaget-aabb-rymden-a6ab",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "space",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-rymden-a6ab"
-  },
-  {
-   "slug": "monstertaget-aabb-saker-som-flyger-9315",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-saker-som-flyger-9315"
-  },
-  {
-   "slug": "monstertaget-aabb-sjukhus-b73d",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "hospital",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-sjukhus-b73d"
-  },
-  {
-   "slug": "monstertaget-aabb-skogsdjur-048f",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-skogsdjur-048f"
-  },
-  {
-   "slug": "monstertaget-aabb-sommar-ba77",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "summer",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-sommar-ba77"
-  },
-  {
-   "slug": "monstertaget-aabb-strand-1749",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "beach",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-strand-1749"
-  },
-  {
-   "slug": "monstertaget-aabb-thanksgiving-f381",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-thanksgiving-f381"
-  },
-  {
-   "slug": "monstertaget-aabb-tillbehor-bac8",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "accessories",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-tillbehor-bac8"
-  },
-  {
-   "slug": "monstertaget-aabb-trad-e2c3",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "tree",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-trad-e2c3"
-  },
-  {
-   "slug": "monstertaget-aabb-vader-c593",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "weather",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-vader-c593"
-  },
-  {
-   "slug": "monstertaget-aabb-var-d03b",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "spring",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-var-d03b"
-  },
-  {
-   "slug": "monstertaget-aabb-verktyg-5ea4",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "tools",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-verktyg-5ea4"
-  },
-  {
-   "slug": "monstertaget-aabb-vinter-29de",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "winter",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-vinter-29de"
-  },
-  {
-   "slug": "monstertaget-aabb-yrken-79d8",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "aftrekken-zoek-de-aftrekker-beroepen-9489",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "occupations",
-   "level": "forskola",
-   "deck": "monstertaget-aabb-yrken-79d8"
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-beroepen-9489"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-bloemen-d677",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "flowers",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-bloemen-d677"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-boerderijdieren-00dc",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "farm_animals",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-boerderijdieren-00dc"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-bomen-a4b3",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-bomen-a4b3"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-boswezens-9f53",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "forest_creatures",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-boswezens-9f53"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-desserts-en-snoep-a922",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "desserts_and_sweets",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-desserts-en-snoep-a922"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-dieren-4cc5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "animals",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-dieren-4cc5"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-dierentuindieren-4496",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "zoo_animals",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-dierentuindieren-4496"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-dingen-die-vliegen-3ac8",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "things_that_fly",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-dingen-die-vliegen-3ac8"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-dinosaurussen-49de",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "dinosaurs",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-dinosaurussen-49de"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-fruit-e0b6",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "fruits",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-fruit-e0b6"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-gereedschap-da3d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tools",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-gereedschap-da3d"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-groenten-6533",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vegetables",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-groenten-6533"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-huisdieren-5c4e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "pets",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-huisdieren-5c4e"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-in-de-supermarkt-d1da",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "at_the_supermarket",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-in-de-supermarkt-d1da"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-insecten-en-beestjes-e40a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "insects_and_bugs",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-insecten-en-beestjes-e40a"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-kamperen-cca4",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "camping",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-kamperen-cca4"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-kerstmis-6a5f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "christmas",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-kerstmis-6a5f"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-keukengerei-c48a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "kitchen_tools",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-keukengerei-c48a"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-klaslokaal-c1dc",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "classroom",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-klaslokaal-c1dc"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-kleding-e49b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "clothing",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-kleding-e49b"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-meubels-be81",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "furniture",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-meubels-be81"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-muziek-4ab5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "music",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-muziek-4ab5"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-oceaanleven-ba1e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "ocean_life",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-oceaanleven-ba1e"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-ontbijt-c9e1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "breakfast",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-ontbijt-c9e1"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-pasen-876d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "easter",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-pasen-876d"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-postkantoor-1e7d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "post_office",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-postkantoor-1e7d"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-reptielen-en-amfibieen-5d69",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-reptielen-en-amfibieen-5d69"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-ruimte-2d1a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "space",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-ruimte-2d1a"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-speelgoed-6e10",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "toys",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-speelgoed-6e10"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-strand-58d2",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "beach",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-strand-58d2"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-thanksgiving-ad0d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "thanksgivinng",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-thanksgiving-ad0d"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-voertuigen-b595",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vehicles",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-voertuigen-b595"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-vogels-2-5d19",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds_2",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-vogels-2-5d19"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-vogels-2405",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-vogels-2405"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-vormen-c8a3",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "shapes",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-vormen-c8a3"
+  },
+  {
+   "slug": "aftrekken-zoek-de-aftrekker-ziekenhuis-8ba3",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "hospital",
+   "level": "groep-3",
+   "deck": "aftrekken-zoek-de-aftrekker-ziekenhuis-8ba3"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-accessoires-dded",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-accessoires-dded"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-activiteiten-ceb8",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "activities",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-activiteiten-ceb8"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-bakkerij-a619",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-bakkerij-a619"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-beroepen-a19b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-beroepen-a19b"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-bloemen-904d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-bloemen-904d"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-bomen-302b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-bomen-302b"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-desserts-en-snoep-6d9a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-desserts-en-snoep-6d9a"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-dinosaurussen-cd30",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-dinosaurussen-cd30"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-fruit-74ce",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-fruit-74ce"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-gereedschap-25e6",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-gereedschap-25e6"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-groenten-459e",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-groenten-459e"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-in-de-supermarkt-858a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-in-de-supermarkt-858a"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-kamperen-4cef",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-kamperen-4cef"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-kerstmis-2257",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-kerstmis-2257"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-keukengerei-0f70",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-keukengerei-0f70"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-klaslokaal-c2cc",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-klaslokaal-c2cc"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-kleding-c1fa",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-kleding-c1fa"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-lente-c789",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-lente-c789"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-lichaamsdelen-29df",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-lichaamsdelen-29df"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-meubels-1220",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-meubels-1220"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-muziek-9c11",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-muziek-9c11"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-oceaanleven-d2ba",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-oceaanleven-d2ba"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-ontbijt-f5ae",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-ontbijt-f5ae"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-pasen-8e6d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-pasen-8e6d"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-postkantoor-bb68",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-postkantoor-bb68"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-rond-het-huis-3084",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-rond-het-huis-3084"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-ruimte-f1b6",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-ruimte-f1b6"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-speelgoed-f361",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-speelgoed-f361"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-strand-0163",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-strand-0163"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-thanksgiving-eb72",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-thanksgiving-eb72"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-voertuigen-d669",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-voertuigen-d669"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-vormen-1a7e",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-vormen-1a7e"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-weer-1243",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-weer-1243"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-winter-090a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-winter-090a"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-ziekenhuis-4dcf",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-ziekenhuis-4dcf"
+  },
+  {
+   "slug": "beeldpad-klassiek-doolhof-zomer-7b8b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "beeldpad-klassiek-doolhof-zomer-7b8b"
+  },
+  {
+   "slug": "grafieken-groep-4",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "grafieken-lezen-fruit-g2237"
+  },
+  {
+   "slug": "grafieken-lezen-groep-3",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "groep-3",
+   "deck": "grafieken-lezen-fruit-g1141"
+  },
+  {
+   "slug": "grafieken-met-schaal-groep-5",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "grafieken-lezen-fruit-g3332"
+  },
+  {
+   "slug": "woord-raden-dieren",
+   "type": "word-guess",
+   "mode": null,
+   "theme": "animals",
+   "level": "groep-3",
+   "deck": "woord-raden-dieren"
   }
  ]
 }

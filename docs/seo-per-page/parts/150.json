@@ -2,763 +2,731 @@
  "part": 150,
  "locale": "fr",
  "classes": [
-  "word-guess::normal",
-  "word-scramble::normal"
+  "prepositions::fillin",
+  "prepositions::multiplechoice"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 90,
  "pages": [
   {
-   "slug": "devine-le-mot-normal-accessoires-ee25",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-accessoires-6cc1",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "accessories",
    "level": "cp",
-   "deck": "devine-le-mot-normal-accessoires-ee25"
+   "deck": "prepositions-a-completer-accessoires-6cc1"
   },
   {
-   "slug": "devine-le-mot-normal-action-de-grace-0893",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-action-de-grace-0e15",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "thanksgivinng",
    "level": "cp",
-   "deck": "devine-le-mot-normal-action-de-grace-0893"
+   "deck": "prepositions-a-completer-action-de-grace-0e15"
   },
   {
-   "slug": "devine-le-mot-normal-activites-a263",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-activites-6b04",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "activities",
    "level": "cp",
-   "deck": "devine-le-mot-normal-activites-a263"
+   "deck": "prepositions-a-completer-activites-6b04"
   },
   {
-   "slug": "devine-le-mot-normal-animaux-5498",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-animaux-822b",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "animals",
    "level": "cp",
-   "deck": "devine-le-mot-normal-animaux-5498"
+   "deck": "prepositions-a-completer-animaux-822b"
   },
   {
-   "slug": "devine-le-mot-normal-animaux-de-compagnie-3b40",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-animaux-de-compagnie-8921",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "pets",
    "level": "cp",
-   "deck": "devine-le-mot-normal-animaux-de-compagnie-3b40"
+   "deck": "prepositions-a-completer-animaux-de-compagnie-8921"
   },
   {
-   "slug": "devine-le-mot-normal-animaux-de-la-ferme-3838",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-animaux-de-la-ferme-a913",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "farm_animals",
    "level": "cp",
-   "deck": "devine-le-mot-normal-animaux-de-la-ferme-3838"
+   "deck": "prepositions-a-completer-animaux-de-la-ferme-a913"
   },
   {
-   "slug": "devine-le-mot-normal-animaux-du-zoo-f2bc",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-animaux-du-zoo-a2d6",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "zoo_animals",
    "level": "cp",
-   "deck": "devine-le-mot-normal-animaux-du-zoo-f2bc"
+   "deck": "prepositions-a-completer-animaux-du-zoo-a2d6"
   },
   {
-   "slug": "devine-le-mot-normal-arbres-bdac",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-arbres-a51d",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "tree",
    "level": "cp",
-   "deck": "devine-le-mot-normal-arbres-bdac"
+   "deck": "prepositions-a-completer-arbres-a51d"
   },
   {
-   "slug": "devine-le-mot-normal-au-supermarche-b6ec",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-au-supermarche-6604",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "at_the_supermarket",
    "level": "cp",
-   "deck": "devine-le-mot-normal-au-supermarche-b6ec"
+   "deck": "prepositions-a-completer-au-supermarche-6604"
   },
   {
-   "slug": "devine-le-mot-normal-autour-de-la-maison-ba4e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-autour-de-la-maison-2a20",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "around_the_house",
    "level": "cp",
-   "deck": "devine-le-mot-normal-autour-de-la-maison-ba4e"
+   "deck": "prepositions-a-completer-autour-de-la-maison-2a20"
   },
   {
-   "slug": "devine-le-mot-normal-boulangerie-9798",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-boulangerie-def5",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "bakery",
    "level": "cp",
-   "deck": "devine-le-mot-normal-boulangerie-9798"
+   "deck": "prepositions-a-completer-boulangerie-def5"
   },
   {
-   "slug": "devine-le-mot-normal-bureau-de-poste-f925",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-bureau-de-poste-cbaa",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "post_office",
    "level": "cp",
-   "deck": "devine-le-mot-normal-bureau-de-poste-f925"
+   "deck": "prepositions-a-completer-bureau-de-poste-cbaa"
   },
   {
-   "slug": "devine-le-mot-normal-camping-caf5",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-camping-ba24",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "camping",
    "level": "cp",
-   "deck": "devine-le-mot-normal-camping-caf5"
+   "deck": "prepositions-a-completer-camping-ba24"
   },
   {
-   "slug": "devine-le-mot-normal-choses-qui-volent-398a",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-choses-qui-volent-8317",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "things_that_fly",
    "level": "cp",
-   "deck": "devine-le-mot-normal-choses-qui-volent-398a"
+   "deck": "prepositions-a-completer-choses-qui-volent-8317"
   },
   {
-   "slug": "devine-le-mot-normal-couleurs-87bb",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-couleurs-c801",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "colors",
    "level": "cp",
-   "deck": "devine-le-mot-normal-couleurs-87bb"
+   "deck": "prepositions-a-completer-couleurs-c801"
   },
   {
-   "slug": "devine-le-mot-normal-creatures-de-la-foret-bd6a",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-creatures-de-la-foret-0bc9",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "forest_creatures",
    "level": "cp",
-   "deck": "devine-le-mot-normal-creatures-de-la-foret-bd6a"
+   "deck": "prepositions-a-completer-creatures-de-la-foret-0bc9"
   },
   {
-   "slug": "devine-le-mot-normal-desserts-et-sucreries-5813",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-desserts-et-sucreries-cb1f",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "desserts_and_sweets",
    "level": "cp",
-   "deck": "devine-le-mot-normal-desserts-et-sucreries-5813"
+   "deck": "prepositions-a-completer-desserts-et-sucreries-cb1f"
   },
   {
-   "slug": "devine-le-mot-normal-emotions-a296",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-dinosaures-1c06",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "dinosaurs",
+   "level": "cp",
+   "deck": "prepositions-a-completer-dinosaures-1c06"
+  },
+  {
+   "slug": "prepositions-a-completer-emotions-aecc",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "emotions",
    "level": "cp",
-   "deck": "devine-le-mot-normal-emotions-a296"
+   "deck": "prepositions-a-completer-emotions-aecc"
   },
   {
-   "slug": "devine-le-mot-normal-espace-695d",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-espace-1628",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "space",
    "level": "cp",
-   "deck": "devine-le-mot-normal-espace-695d"
+   "deck": "prepositions-a-completer-espace-1628"
   },
   {
-   "slug": "devine-le-mot-normal-ete-54f2",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-ete-19e8",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "summer",
    "level": "cp",
-   "deck": "devine-le-mot-normal-ete-54f2"
+   "deck": "prepositions-a-completer-ete-19e8"
   },
   {
-   "slug": "devine-le-mot-normal-fleurs-79c2",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-fleurs-4a3c",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "flowers",
    "level": "cp",
-   "deck": "devine-le-mot-normal-fleurs-79c2"
+   "deck": "prepositions-a-completer-fleurs-4a3c"
   },
   {
-   "slug": "devine-le-mot-normal-formes-f719",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-formes-39c1",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "shapes",
    "level": "cp",
-   "deck": "devine-le-mot-normal-formes-f719"
+   "deck": "prepositions-a-completer-formes-39c1"
   },
   {
-   "slug": "devine-le-mot-normal-fruits-812d",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-fruits-3fe1",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "fruits",
    "level": "cp",
-   "deck": "devine-le-mot-normal-fruits-812d"
+   "deck": "prepositions-a-completer-fruits-3fe1"
   },
   {
-   "slug": "devine-le-mot-normal-hiver-fc27",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-hiver-e240",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "winter",
    "level": "cp",
-   "deck": "devine-le-mot-normal-hiver-fc27"
+   "deck": "prepositions-a-completer-hiver-e240"
   },
   {
-   "slug": "devine-le-mot-normal-hopital-6bcc",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-hopital-2e5c",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "hospital",
    "level": "cp",
-   "deck": "devine-le-mot-normal-hopital-6bcc"
+   "deck": "prepositions-a-completer-hopital-2e5c"
   },
   {
-   "slug": "devine-le-mot-normal-insectes-et-bestioles-5d6c",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-insectes-et-bestioles-addb",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "insects_and_bugs",
    "level": "cp",
-   "deck": "devine-le-mot-normal-insectes-et-bestioles-5d6c"
+   "deck": "prepositions-a-completer-insectes-et-bestioles-addb"
   },
   {
-   "slug": "devine-le-mot-normal-jouets-f9c4",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-jouets-5c38",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "toys",
    "level": "cp",
-   "deck": "devine-le-mot-normal-jouets-f9c4"
+   "deck": "prepositions-a-completer-jouets-5c38"
   },
   {
-   "slug": "devine-le-mot-normal-legumes-0db1",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-legumes-493c",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "vegetables",
    "level": "cp",
-   "deck": "devine-le-mot-normal-legumes-0db1"
+   "deck": "prepositions-a-completer-legumes-493c"
   },
   {
-   "slug": "devine-le-mot-normal-meteo-bcc9",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-meteo-732a",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "weather",
    "level": "cp",
-   "deck": "devine-le-mot-normal-meteo-bcc9"
+   "deck": "prepositions-a-completer-meteo-732a"
   },
   {
-   "slug": "devine-le-mot-normal-metiers-b828",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-metiers-2729",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "occupations",
    "level": "cp",
-   "deck": "devine-le-mot-normal-metiers-b828"
+   "deck": "prepositions-a-completer-metiers-2729"
   },
   {
-   "slug": "devine-le-mot-normal-meubles-9808",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-meubles-5d57",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "furniture",
    "level": "cp",
-   "deck": "devine-le-mot-normal-meubles-9808"
+   "deck": "prepositions-a-completer-meubles-5d57"
   },
   {
-   "slug": "devine-le-mot-normal-musique-ae30",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-musique-9800",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "music",
    "level": "cp",
-   "deck": "devine-le-mot-normal-musique-ae30"
+   "deck": "prepositions-a-completer-musique-9800"
   },
   {
-   "slug": "devine-le-mot-normal-noel-5e8a",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-noel-088c",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "christmas",
    "level": "cp",
-   "deck": "devine-le-mot-normal-noel-5e8a"
+   "deck": "prepositions-a-completer-noel-088c"
   },
   {
-   "slug": "devine-le-mot-normal-oiseaux-2-c33f",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-oiseaux-2-d42d",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "birds_2",
    "level": "cp",
-   "deck": "devine-le-mot-normal-oiseaux-2-c33f"
+   "deck": "prepositions-a-completer-oiseaux-2-d42d"
   },
   {
-   "slug": "devine-le-mot-normal-oiseaux-6656",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-oiseaux-be7f",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "birds",
    "level": "cp",
-   "deck": "devine-le-mot-normal-oiseaux-6656"
+   "deck": "prepositions-a-completer-oiseaux-be7f"
   },
   {
-   "slug": "devine-le-mot-normal-outils-ef28",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-outils-43b0",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "tools",
    "level": "cp",
-   "deck": "devine-le-mot-normal-outils-ef28"
+   "deck": "prepositions-a-completer-outils-43b0"
   },
   {
-   "slug": "devine-le-mot-normal-paques-ae90",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-paques-ad08",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "easter",
    "level": "cp",
-   "deck": "devine-le-mot-normal-paques-ae90"
+   "deck": "prepositions-a-completer-paques-ad08"
   },
   {
-   "slug": "devine-le-mot-normal-parties-du-corps-99ec",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-parties-du-corps-f503",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "body_parts",
    "level": "cp",
-   "deck": "devine-le-mot-normal-parties-du-corps-99ec"
+   "deck": "prepositions-a-completer-parties-du-corps-f503"
   },
   {
-   "slug": "devine-le-mot-normal-petit-dejeuner-d40e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-petit-dejeuner-f081",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "breakfast",
    "level": "cp",
-   "deck": "devine-le-mot-normal-petit-dejeuner-d40e"
+   "deck": "prepositions-a-completer-petit-dejeuner-f081"
   },
   {
-   "slug": "devine-le-mot-normal-plage-b95b",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-plage-0f19",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "beach",
    "level": "cp",
-   "deck": "devine-le-mot-normal-plage-b95b"
+   "deck": "prepositions-a-completer-plage-0f19"
   },
   {
-   "slug": "devine-le-mot-normal-printemps-52c0",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-printemps-4476",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "spring",
    "level": "cp",
-   "deck": "devine-le-mot-normal-printemps-52c0"
+   "deck": "prepositions-a-completer-printemps-4476"
   },
   {
-   "slug": "devine-le-mot-normal-reptiles-et-amphibiens-4c49",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "reptiles_and_amphibians",
-   "level": "cp",
-   "deck": "devine-le-mot-normal-reptiles-et-amphibiens-4c49"
-  },
-  {
-   "slug": "devine-le-mot-normal-salle-de-classe-23ee",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-salle-de-classe-f5e7",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "classroom",
    "level": "cp",
-   "deck": "devine-le-mot-normal-salle-de-classe-23ee"
+   "deck": "prepositions-a-completer-salle-de-classe-f5e7"
   },
   {
-   "slug": "devine-le-mot-normal-ustensiles-de-cuisine-c106",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-ustensiles-de-cuisine-5093",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "kitchen_tools",
    "level": "cp",
-   "deck": "devine-le-mot-normal-ustensiles-de-cuisine-c106"
+   "deck": "prepositions-a-completer-ustensiles-de-cuisine-5093"
   },
   {
-   "slug": "devine-le-mot-normal-vehicules-d115",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-vehicules-b7c1",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "vehicles",
    "level": "cp",
-   "deck": "devine-le-mot-normal-vehicules-d115"
+   "deck": "prepositions-a-completer-vehicules-b7c1"
   },
   {
-   "slug": "devine-le-mot-normal-vetements-e0ea",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-vetements-e968",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "clothing",
    "level": "cp",
-   "deck": "devine-le-mot-normal-vetements-e0ea"
+   "deck": "prepositions-a-completer-vetements-e968"
   },
   {
-   "slug": "devine-le-mot-normal-vie-oceanique-e917",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "prepositions-a-completer-vie-oceanique-0a8c",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "ocean_life",
    "level": "cp",
-   "deck": "devine-le-mot-normal-vie-oceanique-e917"
+   "deck": "prepositions-a-completer-vie-oceanique-0a8c"
   },
   {
-   "slug": "lettres-melangees-normal-accessoires-b995",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-accessoires-bcb4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "accessories",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-accessoires-b995"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-accessoires-bcb4"
   },
   {
-   "slug": "lettres-melangees-normal-action-de-grace-023d",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-action-de-grace-4fe0",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "thanksgivinng",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-action-de-grace-023d"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-action-de-grace-4fe0"
   },
   {
-   "slug": "lettres-melangees-normal-activites-29ac",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-activites-ee5e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "activities",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-activites-29ac"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-activites-ee5e"
   },
   {
-   "slug": "lettres-melangees-normal-animaux-31f5",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-animaux-666b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "animals",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-animaux-31f5"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-animaux-666b"
   },
   {
-   "slug": "lettres-melangees-normal-animaux-de-compagnie-55f8",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-animaux-de-compagnie-3727",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "pets",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-animaux-de-compagnie-55f8"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-animaux-de-compagnie-3727"
   },
   {
-   "slug": "lettres-melangees-normal-animaux-de-la-ferme-7838",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-animaux-de-la-ferme-8a6a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "farm_animals",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-animaux-de-la-ferme-7838"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-animaux-de-la-ferme-8a6a"
   },
   {
-   "slug": "lettres-melangees-normal-animaux-du-zoo-67c1",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-animaux-du-zoo-b32f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "zoo_animals",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-animaux-du-zoo-67c1"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-animaux-du-zoo-b32f"
   },
   {
-   "slug": "lettres-melangees-normal-arbres-7a6e",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-arbres-40a2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "tree",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-arbres-7a6e"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-arbres-40a2"
   },
   {
-   "slug": "lettres-melangees-normal-au-supermarche-8cae",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-au-supermarche-c434",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "at_the_supermarket",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-au-supermarche-8cae"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-au-supermarche-c434"
   },
   {
-   "slug": "lettres-melangees-normal-autour-de-la-maison-ec4d",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-autour-de-la-maison-4f8b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "around_the_house",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-autour-de-la-maison-ec4d"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-autour-de-la-maison-4f8b"
   },
   {
-   "slug": "lettres-melangees-normal-boulangerie-ca85",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-boulangerie-8dac",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "bakery",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-boulangerie-ca85"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-boulangerie-8dac"
   },
   {
-   "slug": "lettres-melangees-normal-bureau-de-poste-190c",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-bureau-de-poste-ea32",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "post_office",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-bureau-de-poste-190c"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-bureau-de-poste-ea32"
   },
   {
-   "slug": "lettres-melangees-normal-camping-bd89",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-camping-0724",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "camping",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-camping-bd89"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-camping-0724"
   },
   {
-   "slug": "lettres-melangees-normal-choses-qui-volent-13f8",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-choses-qui-volent-6b6e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "things_that_fly",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-choses-qui-volent-13f8"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-choses-qui-volent-6b6e"
   },
   {
-   "slug": "lettres-melangees-normal-couleurs-e63e",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "colors",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-couleurs-e63e"
-  },
-  {
-   "slug": "lettres-melangees-normal-creatures-de-la-foret-422a",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "forest_creatures",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-creatures-de-la-foret-422a"
-  },
-  {
-   "slug": "lettres-melangees-normal-desserts-et-sucreries-db7a",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-desserts-et-sucreries-97cc",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "desserts_and_sweets",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-desserts-et-sucreries-db7a"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-desserts-et-sucreries-97cc"
   },
   {
-   "slug": "lettres-melangees-normal-emotions-92f5",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-dinosaures-470c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "dinosaurs",
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-dinosaures-470c"
+  },
+  {
+   "slug": "prepositions-choix-multiple-emotions-eacc",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "emotions",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-emotions-92f5"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-emotions-eacc"
   },
   {
-   "slug": "lettres-melangees-normal-espace-d249",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-espace-ddb9",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "space",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-espace-d249"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-espace-ddb9"
   },
   {
-   "slug": "lettres-melangees-normal-ete-7480",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-ete-de79",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "summer",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-ete-7480"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-ete-de79"
   },
   {
-   "slug": "lettres-melangees-normal-fleurs-8485",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-fleurs-37e5",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "flowers",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-fleurs-8485"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-fleurs-37e5"
   },
   {
-   "slug": "lettres-melangees-normal-formes-22fd",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "shapes",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-formes-22fd"
-  },
-  {
-   "slug": "lettres-melangees-normal-fruits-4aae",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-fruits-83bc",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "fruits",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-fruits-4aae"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-fruits-83bc"
   },
   {
-   "slug": "lettres-melangees-normal-hiver-f581",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-hiver-68b5",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "winter",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-hiver-f581"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-hiver-68b5"
   },
   {
-   "slug": "lettres-melangees-normal-hopital-f481",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-hopital-ccdf",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "hospital",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-hopital-f481"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-hopital-ccdf"
   },
   {
-   "slug": "lettres-melangees-normal-insectes-et-bestioles-547c",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-insectes-et-bestioles-b436",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "insects_and_bugs",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-insectes-et-bestioles-547c"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-insectes-et-bestioles-b436"
   },
   {
-   "slug": "lettres-melangees-normal-jouets-aec2",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-jouets-40b1",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "toys",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-jouets-aec2"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-jouets-40b1"
   },
   {
-   "slug": "lettres-melangees-normal-legumes-3497",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-legumes-0133",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "vegetables",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-legumes-3497"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-legumes-0133"
   },
   {
-   "slug": "lettres-melangees-normal-meteo-8c4d",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-meteo-ef7d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "weather",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-meteo-8c4d"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-meteo-ef7d"
   },
   {
-   "slug": "lettres-melangees-normal-metiers-178c",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-metiers-7b57",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "occupations",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-metiers-178c"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-metiers-7b57"
   },
   {
-   "slug": "lettres-melangees-normal-meubles-81ff",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-meubles-03d3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "furniture",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-meubles-81ff"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-meubles-03d3"
   },
   {
-   "slug": "lettres-melangees-normal-musique-1282",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-musique-5712",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "music",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-musique-1282"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-musique-5712"
   },
   {
-   "slug": "lettres-melangees-normal-noel-ec76",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-noel-917f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "christmas",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-noel-ec76"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-noel-917f"
   },
   {
-   "slug": "lettres-melangees-normal-oiseaux-2-745b",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-oiseaux-2-e638",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "birds_2",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-oiseaux-2-745b"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-oiseaux-2-e638"
   },
   {
-   "slug": "lettres-melangees-normal-oiseaux-5555",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-oiseaux-88c5",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "birds",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-oiseaux-5555"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-oiseaux-88c5"
   },
   {
-   "slug": "lettres-melangees-normal-outils-9179",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-outils-f2ba",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "tools",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-outils-9179"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-outils-f2ba"
   },
   {
-   "slug": "lettres-melangees-normal-paques-5ea2",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-paques-6760",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "easter",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-paques-5ea2"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-paques-6760"
   },
   {
-   "slug": "lettres-melangees-normal-parties-du-corps-748d",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-parties-du-corps-2e4b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "body_parts",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-parties-du-corps-748d"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-parties-du-corps-2e4b"
   },
   {
-   "slug": "lettres-melangees-normal-petit-dejeuner-b201",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "breakfast",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-petit-dejeuner-b201"
-  },
-  {
-   "slug": "lettres-melangees-normal-plage-823f",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-plage-1cba",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "beach",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-plage-823f"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-plage-1cba"
   },
   {
-   "slug": "lettres-melangees-normal-printemps-57da",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-printemps-0c82",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "spring",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-printemps-57da"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-printemps-0c82"
   },
   {
-   "slug": "lettres-melangees-normal-reptiles-et-amphibiens-a30c",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "reptiles_and_amphibians",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-reptiles-et-amphibiens-a30c"
-  },
-  {
-   "slug": "lettres-melangees-normal-salle-de-classe-cfdc",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-salle-de-classe-8763",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "classroom",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-salle-de-classe-cfdc"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-salle-de-classe-8763"
   },
   {
-   "slug": "lettres-melangees-normal-ustensiles-de-cuisine-ee19",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-ustensiles-de-cuisine-013e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "kitchen_tools",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-ustensiles-de-cuisine-ee19"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-ustensiles-de-cuisine-013e"
   },
   {
-   "slug": "lettres-melangees-normal-vehicules-5200",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-vehicules-5690",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "vehicles",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-vehicules-5200"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-vehicules-5690"
   },
   {
-   "slug": "lettres-melangees-normal-vetements-90cc",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-vetements-879c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "clothing",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-vetements-90cc"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-vetements-879c"
   },
   {
-   "slug": "lettres-melangees-normal-vie-oceanique-163a",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "prepositions-choix-multiple-vie-oceanique-5602",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "ocean_life",
-   "level": "cp",
-   "deck": "lettres-melangees-normal-vie-oceanique-163a"
+   "level": "maternelle",
+   "deck": "prepositions-choix-multiple-vie-oceanique-5602"
   }
  ]
 }

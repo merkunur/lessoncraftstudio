@@ -2,651 +2,722 @@
  "part": 346,
  "locale": "fi",
  "classes": [
-  "chart-count::null",
-  "math-puzzle::addition"
+  "crossword::null"
  ],
  "splitOf": null,
- "count": 80,
+ "count": 89,
  "pages": [
   {
-   "slug": "laske-kaaviossa-aamiainen-2ff7",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-aamiainen-ab1b",
+   "type": "crossword",
    "mode": null,
    "theme": "breakfast",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-aamiainen-2ff7"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-aamiainen-ab1b"
   },
   {
-   "slug": "laske-kaaviossa-ajoneuvot-4098",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-ajoneuvot-09cb",
+   "type": "crossword",
    "mode": null,
    "theme": "vehicles",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-ajoneuvot-4098"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-ajoneuvot-09cb"
   },
   {
-   "slug": "laske-kaaviossa-ammatit-60ce",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-aktiviteetit-c7a7",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-aktiviteetit-c7a7"
+  },
+  {
+   "slug": "englanti-ristikko-ammatit-5b48",
+   "type": "crossword",
    "mode": null,
    "theme": "occupations",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-ammatit-60ce"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-ammatit-5b48"
   },
   {
-   "slug": "laske-kaaviossa-asusteet-0353",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-asusteet-da06",
+   "type": "crossword",
    "mode": null,
    "theme": "accessories",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-asusteet-0353"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-asusteet-da06"
   },
   {
-   "slug": "laske-kaaviossa-avaruus-5576",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-avaruus-9547",
+   "type": "crossword",
    "mode": null,
    "theme": "space",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-avaruus-5576"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-avaruus-9547"
   },
   {
-   "slug": "laske-kaaviossa-dinosaurukset-5b9b",
-   "type": "chart-count",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-dinosaurukset-5b9b"
-  },
-  {
-   "slug": "laske-kaaviossa-elaimet",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-elaimet-8c0b",
+   "type": "crossword",
    "mode": null,
    "theme": "animals",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-elaimet"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-elaimet-8c0b"
   },
   {
-   "slug": "laske-kaaviossa-elaintarhan-elaimet-463b",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-elaintarhan-elaimet-7517",
+   "type": "crossword",
    "mode": null,
    "theme": "zoo_animals",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-elaintarhan-elaimet-463b"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-elaintarhan-elaimet-7517"
   },
   {
-   "slug": "laske-kaaviossa-hedelmat-6fa1",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-hedelmat-ba48",
+   "type": "crossword",
    "mode": null,
    "theme": "fruits",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-hedelmat-6fa1"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-hedelmat-ba48"
   },
   {
-   "slug": "laske-kaaviossa-huonekalut-2100",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-heinakuun-4-fbc9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-heinakuun-4-fbc9"
+  },
+  {
+   "slug": "englanti-ristikko-huonekalut-92f0",
+   "type": "crossword",
    "mode": null,
    "theme": "furniture",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-huonekalut-2100"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-huonekalut-92f0"
   },
   {
-   "slug": "laske-kaaviossa-hyonteiset-ja-otokat-ae68",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-hyonteiset-ja-otokat-972e",
+   "type": "crossword",
    "mode": null,
    "theme": "insects_and_bugs",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-hyonteiset-ja-otokat-ae68"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-hyonteiset-ja-otokat-972e"
   },
   {
-   "slug": "laske-kaaviossa-jalkiruoat-ja-makeiset-9f85",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-jalkiruoat-ja-makeiset-b668",
+   "type": "crossword",
    "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-jalkiruoat-ja-makeiset-9f85"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-jalkiruoat-ja-makeiset-b668"
   },
   {
-   "slug": "laske-kaaviossa-joulu-f4ad",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-joulu-ef91",
+   "type": "crossword",
    "mode": null,
    "theme": "christmas",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-joulu-f4ad"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-joulu-ef91"
   },
   {
-   "slug": "laske-kaaviossa-keittiovalineet-ac95",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-keittiovalineet-0f06",
+   "type": "crossword",
    "mode": null,
    "theme": "kitchen_tools",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-keittiovalineet-ac95"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-keittiovalineet-0f06"
   },
   {
-   "slug": "laske-kaaviossa-kiitospaiva-42e4",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-kesa-b4e5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-kesa-b4e5"
+  },
+  {
+   "slug": "englanti-ristikko-kevat-1367",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-kevat-1367"
+  },
+  {
+   "slug": "englanti-ristikko-kiitospaiva-0595",
+   "type": "crossword",
    "mode": null,
    "theme": "thanksgivinng",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-kiitospaiva-42e4"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-kiitospaiva-0595"
   },
   {
-   "slug": "laske-kaaviossa-kodin-ymparilla-1ff3",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-kodin-ymparilla-bb30",
+   "type": "crossword",
    "mode": null,
    "theme": "around_the_house",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-kodin-ymparilla-1ff3"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-kodin-ymparilla-bb30"
   },
   {
-   "slug": "laske-kaaviossa-kukat-d4dc",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-kukat-7b45",
+   "type": "crossword",
    "mode": null,
    "theme": "flowers",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-kukat-d4dc"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-kukat-7b45"
   },
   {
-   "slug": "laske-kaaviossa-leipomo-336e",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-leipomo-d2ea",
+   "type": "crossword",
    "mode": null,
    "theme": "bakery",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-leipomo-336e"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-leipomo-d2ea"
   },
   {
-   "slug": "laske-kaaviossa-leirielama-3d07",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-leirielama-e394",
+   "type": "crossword",
    "mode": null,
    "theme": "camping",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-leirielama-3d07"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-leirielama-e394"
   },
   {
-   "slug": "laske-kaaviossa-lelut-5e9b",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-lelut-93bd",
+   "type": "crossword",
    "mode": null,
    "theme": "toys",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-lelut-5e9b"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-lelut-93bd"
   },
   {
-   "slug": "laske-kaaviossa-lemmikit-76c8",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-lemmikit-356c",
+   "type": "crossword",
    "mode": null,
    "theme": "pets",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-lemmikit-76c8"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-lemmikit-356c"
   },
   {
-   "slug": "laske-kaaviossa-lentavat-asiat-c370",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-lentavat-asiat-d0a9",
+   "type": "crossword",
    "mode": null,
    "theme": "things_that_fly",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-lentavat-asiat-c370"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-lentavat-asiat-d0a9"
   },
   {
-   "slug": "laske-kaaviossa-linnut-2-22b9",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-linnut-2-fb74",
+   "type": "crossword",
    "mode": null,
    "theme": "birds_2",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-linnut-2-22b9"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-linnut-2-fb74"
   },
   {
-   "slug": "laske-kaaviossa-luokkahuone-2b1e",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-linnut-f13b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-linnut-f13b"
+  },
+  {
+   "slug": "englanti-ristikko-luokkahuone-f1b8",
+   "type": "crossword",
    "mode": null,
    "theme": "classroom",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-luokkahuone-2b1e"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-luokkahuone-f1b8"
   },
   {
-   "slug": "laske-kaaviossa-maatilan-elaimet-11c9",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-maatilan-elaimet-0881",
+   "type": "crossword",
    "mode": null,
    "theme": "farm_animals",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-maatilan-elaimet-11c9"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-maatilan-elaimet-0881"
   },
   {
-   "slug": "laske-kaaviossa-matelijat-ja-sammakkoelaimet-4c71",
-   "type": "chart-count",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-matelijat-ja-sammakkoelaimet-4c71"
-  },
-  {
-   "slug": "laske-kaaviossa-merielama-85b4",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-merielama-32f3",
+   "type": "crossword",
    "mode": null,
    "theme": "ocean_life",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-merielama-85b4"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-merielama-32f3"
   },
   {
-   "slug": "laske-kaaviossa-metsan-elaimet-eaa2",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-metsan-elaimet-17c8",
+   "type": "crossword",
    "mode": null,
    "theme": "forest_creatures",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-metsan-elaimet-eaa2"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-metsan-elaimet-17c8"
   },
   {
-   "slug": "laske-kaaviossa-muodot-2362",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-muodot-a9d6",
+   "type": "crossword",
    "mode": null,
    "theme": "shapes",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-muodot-2362"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-muodot-a9d6"
   },
   {
-   "slug": "laske-kaaviossa-musiikki-5e8f",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-musiikki-de4f",
+   "type": "crossword",
    "mode": null,
    "theme": "music",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-musiikki-5e8f"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-musiikki-de4f"
   },
   {
-   "slug": "laske-kaaviossa-paasiainen-ead3",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-paasiainen-ccc1",
+   "type": "crossword",
    "mode": null,
    "theme": "easter",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-paasiainen-ead3"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-paasiainen-ccc1"
   },
   {
-   "slug": "laske-kaaviossa-postitoimisto-bfb7",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-postitoimisto-17fa",
+   "type": "crossword",
    "mode": null,
    "theme": "post_office",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-postitoimisto-bfb7"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-postitoimisto-17fa"
   },
   {
-   "slug": "laske-kaaviossa-puut-0c8b",
-   "type": "chart-count",
-   "mode": null,
-   "theme": "tree",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-puut-0c8b"
-  },
-  {
-   "slug": "laske-kaaviossa-ranta-64c3",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-ranta-79d2",
+   "type": "crossword",
    "mode": null,
    "theme": "beach",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-ranta-64c3"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-ranta-79d2"
   },
   {
-   "slug": "laske-kaaviossa-ruokakaupassa-dccb",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-ruokakaupassa-764d",
+   "type": "crossword",
    "mode": null,
    "theme": "at_the_supermarket",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-ruokakaupassa-dccb"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-ruokakaupassa-764d"
   },
   {
-   "slug": "laske-kaaviossa-sairaala-d75f",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-ruumiinosat-e0b1",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-ruumiinosat-e0b1"
+  },
+  {
+   "slug": "englanti-ristikko-saa-01ff",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-saa-01ff"
+  },
+  {
+   "slug": "englanti-ristikko-sairaala-9be0",
+   "type": "crossword",
    "mode": null,
    "theme": "hospital",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-sairaala-d75f"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-sairaala-9be0"
   },
   {
-   "slug": "laske-kaaviossa-tyokalut-074e",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-talvi-6165",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-talvi-6165"
+  },
+  {
+   "slug": "englanti-ristikko-tunteet-be4b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-tunteet-be4b"
+  },
+  {
+   "slug": "englanti-ristikko-tyokalut-e88e",
+   "type": "crossword",
    "mode": null,
    "theme": "tools",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-tyokalut-074e"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-tyokalut-e88e"
   },
   {
-   "slug": "laske-kaaviossa-vaatteet-e10b",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-vaatteet-7183",
+   "type": "crossword",
    "mode": null,
    "theme": "clothing",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-vaatteet-e10b"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-vaatteet-7183"
   },
   {
-   "slug": "laske-kaaviossa-varit-8475",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-varit-7cc4",
+   "type": "crossword",
    "mode": null,
    "theme": "colors",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-varit-8475"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-varit-7cc4"
   },
   {
-   "slug": "laske-kaaviossa-vihannekset-1a7c",
-   "type": "chart-count",
+   "slug": "englanti-ristikko-vihannekset-d6d9",
+   "type": "crossword",
    "mode": null,
    "theme": "vegetables",
-   "level": "1-luokka",
-   "deck": "laske-kaaviossa-vihannekset-1a7c"
+   "level": "language-beginner",
+   "deck": "englanti-ristikko-vihannekset-d6d9"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-aamiainen-7530",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-aamiainen-e546",
+   "type": "crossword",
+   "mode": null,
    "theme": "breakfast",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-aamiainen-7530"
+   "level": "2-luokka",
+   "deck": "ristikko-aamiainen-e546"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-ajoneuvot-54f4",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-ajoneuvot-fdaf",
+   "type": "crossword",
+   "mode": null,
    "theme": "vehicles",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-ajoneuvot-54f4"
+   "level": "2-luokka",
+   "deck": "ristikko-ajoneuvot-fdaf"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-ammatit-6828",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-aktiviteetit-a8ea",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "2-luokka",
+   "deck": "ristikko-aktiviteetit-a8ea"
+  },
+  {
+   "slug": "ristikko-ammatit-d086",
+   "type": "crossword",
+   "mode": null,
    "theme": "occupations",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-ammatit-6828"
+   "level": "2-luokka",
+   "deck": "ristikko-ammatit-d086"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-asusteet-d7cc",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-asusteet-e80d",
+   "type": "crossword",
+   "mode": null,
    "theme": "accessories",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-asusteet-d7cc"
+   "level": "2-luokka",
+   "deck": "ristikko-asusteet-e80d"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-avaruus-1586",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-avaruus-0ea4",
+   "type": "crossword",
+   "mode": null,
    "theme": "space",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-avaruus-1586"
+   "level": "2-luokka",
+   "deck": "ristikko-avaruus-0ea4"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-dinosaurukset-5124",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "dinosaurs",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-dinosaurukset-5124"
-  },
-  {
-   "slug": "matematiikkapulma-yhteenlasku-elaimet-8de5",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-elaimet-d864",
+   "type": "crossword",
+   "mode": null,
    "theme": "animals",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-elaimet-8de5"
+   "level": "2-luokka",
+   "deck": "ristikko-elaimet-d864"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-elaintarhan-elaimet-a87a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-elaintarhan-elaimet-319a",
+   "type": "crossword",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-elaintarhan-elaimet-a87a"
+   "level": "2-luokka",
+   "deck": "ristikko-elaintarhan-elaimet-319a"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-hedelmat-48bd",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-hedelmat-e7cb",
+   "type": "crossword",
+   "mode": null,
    "theme": "fruits",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-hedelmat-48bd"
+   "level": "2-luokka",
+   "deck": "ristikko-hedelmat-e7cb"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-huonekalut-9c22",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-huonekalut-73e2",
+   "type": "crossword",
+   "mode": null,
    "theme": "furniture",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-huonekalut-9c22"
+   "level": "2-luokka",
+   "deck": "ristikko-huonekalut-73e2"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-hyonteiset-ja-otokat-ef2a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-hyonteiset-ja-otokat-20f6",
+   "type": "crossword",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-hyonteiset-ja-otokat-ef2a"
+   "level": "2-luokka",
+   "deck": "ristikko-hyonteiset-ja-otokat-20f6"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-jalkiruoat-ja-makeiset-e28b",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-jalkiruoat-ja-makeiset-5fb5",
+   "type": "crossword",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-jalkiruoat-ja-makeiset-e28b"
+   "level": "2-luokka",
+   "deck": "ristikko-jalkiruoat-ja-makeiset-5fb5"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-joulu-f041",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-joulu-abae",
+   "type": "crossword",
+   "mode": null,
    "theme": "christmas",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-joulu-f041"
+   "level": "2-luokka",
+   "deck": "ristikko-joulu-abae"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-keittiovalineet-79d4",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-keittiovalineet-6f7b",
+   "type": "crossword",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-keittiovalineet-79d4"
+   "level": "2-luokka",
+   "deck": "ristikko-keittiovalineet-6f7b"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-kiitospaiva-d45a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-kesa-2096",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "2-luokka",
+   "deck": "ristikko-kesa-2096"
+  },
+  {
+   "slug": "ristikko-kevat-4e26",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "2-luokka",
+   "deck": "ristikko-kevat-4e26"
+  },
+  {
+   "slug": "ristikko-kiitospaiva-98de",
+   "type": "crossword",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-kiitospaiva-d45a"
+   "level": "2-luokka",
+   "deck": "ristikko-kiitospaiva-98de"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-kodin-ymparilla-67b5",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-kodin-ymparilla-5246",
+   "type": "crossword",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-kodin-ymparilla-67b5"
+   "level": "2-luokka",
+   "deck": "ristikko-kodin-ymparilla-5246"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-kukat-9d25",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-kukat-ff43",
+   "type": "crossword",
+   "mode": null,
    "theme": "flowers",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-kukat-9d25"
+   "level": "2-luokka",
+   "deck": "ristikko-kukat-ff43"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-leipomo-19c3",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-leipomo-4c19",
+   "type": "crossword",
+   "mode": null,
    "theme": "bakery",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-leipomo-19c3"
+   "level": "2-luokka",
+   "deck": "ristikko-leipomo-4c19"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-leirielama-6c41",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-leirielama-7332",
+   "type": "crossword",
+   "mode": null,
    "theme": "camping",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-leirielama-6c41"
+   "level": "2-luokka",
+   "deck": "ristikko-leirielama-7332"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-lelut-4801",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-lelut-a1fc",
+   "type": "crossword",
+   "mode": null,
    "theme": "toys",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-lelut-4801"
+   "level": "2-luokka",
+   "deck": "ristikko-lelut-a1fc"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-lemmikit-2f35",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-lemmikit-4b68",
+   "type": "crossword",
+   "mode": null,
    "theme": "pets",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-lemmikit-2f35"
+   "level": "2-luokka",
+   "deck": "ristikko-lemmikit-4b68"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-lentavat-asiat-1282",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-lentavat-asiat-c5ab",
+   "type": "crossword",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-lentavat-asiat-1282"
+   "level": "2-luokka",
+   "deck": "ristikko-lentavat-asiat-c5ab"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-linnut-2-3aec",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-linnut-2-f3e0",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds_2",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-linnut-2-3aec"
+   "level": "2-luokka",
+   "deck": "ristikko-linnut-2-f3e0"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-linnut-9cfc",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "birds",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-linnut-9cfc"
-  },
-  {
-   "slug": "matematiikkapulma-yhteenlasku-luokkahuone-27f8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-luokkahuone-ddce",
+   "type": "crossword",
+   "mode": null,
    "theme": "classroom",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-luokkahuone-27f8"
+   "level": "2-luokka",
+   "deck": "ristikko-luokkahuone-ddce"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-maatilan-elaimet-a962",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-maatilan-elaimet-b40a",
+   "type": "crossword",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-maatilan-elaimet-a962"
+   "level": "2-luokka",
+   "deck": "ristikko-maatilan-elaimet-b40a"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-matelijat-ja-sammakkoelaimet-65de",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-matelijat-ja-sammakkoelaimet-65de"
-  },
-  {
-   "slug": "matematiikkapulma-yhteenlasku-merielama-43ea",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-merielama-b771",
+   "type": "crossword",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-merielama-43ea"
+   "level": "2-luokka",
+   "deck": "ristikko-merielama-b771"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-metsan-elaimet-2a54",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-metsan-elaimet-4e15",
+   "type": "crossword",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-metsan-elaimet-2a54"
+   "level": "2-luokka",
+   "deck": "ristikko-metsan-elaimet-4e15"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-muodot-c182",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-muodot-9f18",
+   "type": "crossword",
+   "mode": null,
    "theme": "shapes",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-muodot-c182"
+   "level": "2-luokka",
+   "deck": "ristikko-muodot-9f18"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-musiikki-55ac",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-musiikki-5cb6",
+   "type": "crossword",
+   "mode": null,
    "theme": "music",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-musiikki-55ac"
+   "level": "2-luokka",
+   "deck": "ristikko-musiikki-5cb6"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-paasiainen-16c8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-paasiainen-e7ce",
+   "type": "crossword",
+   "mode": null,
    "theme": "easter",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-paasiainen-16c8"
+   "level": "2-luokka",
+   "deck": "ristikko-paasiainen-e7ce"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-postitoimisto-975d",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "post_office",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-postitoimisto-975d"
-  },
-  {
-   "slug": "matematiikkapulma-yhteenlasku-puut-3266",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-puut-ef3b",
+   "type": "crossword",
+   "mode": null,
    "theme": "tree",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-puut-3266"
+   "level": "2-luokka",
+   "deck": "ristikko-puut-ef3b"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-ranta-0060",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-ranta-f41b",
+   "type": "crossword",
+   "mode": null,
    "theme": "beach",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-ranta-0060"
+   "level": "2-luokka",
+   "deck": "ristikko-ranta-f41b"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-ruokakaupassa-70b5",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-ruokakaupassa-2f6a",
+   "type": "crossword",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-ruokakaupassa-70b5"
+   "level": "2-luokka",
+   "deck": "ristikko-ruokakaupassa-2f6a"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-sairaala-ac40",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-ruumiinosat-c664",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "2-luokka",
+   "deck": "ristikko-ruumiinosat-c664"
+  },
+  {
+   "slug": "ristikko-saa-3a63",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "2-luokka",
+   "deck": "ristikko-saa-3a63"
+  },
+  {
+   "slug": "ristikko-sairaala-faf5",
+   "type": "crossword",
+   "mode": null,
    "theme": "hospital",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-sairaala-ac40"
+   "level": "2-luokka",
+   "deck": "ristikko-sairaala-faf5"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-tyokalut-fc88",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-talvi-6d49",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "2-luokka",
+   "deck": "ristikko-talvi-6d49"
+  },
+  {
+   "slug": "ristikko-tyokalut-eb1b",
+   "type": "crossword",
+   "mode": null,
    "theme": "tools",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-tyokalut-fc88"
+   "level": "2-luokka",
+   "deck": "ristikko-tyokalut-eb1b"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-vaatteet-7b56",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-vaatteet-7bfc",
+   "type": "crossword",
+   "mode": null,
    "theme": "clothing",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-vaatteet-7b56"
+   "level": "2-luokka",
+   "deck": "ristikko-vaatteet-7bfc"
   },
   {
-   "slug": "matematiikkapulma-yhteenlasku-vihannekset-f68a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "ristikko-varit-f10e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "2-luokka",
+   "deck": "ristikko-varit-f10e"
+  },
+  {
+   "slug": "ristikko-vihannekset-e980",
+   "type": "crossword",
+   "mode": null,
    "theme": "vegetables",
-   "level": "1-luokka",
-   "deck": "matematiikkapulma-yhteenlasku-vihannekset-f68a"
+   "level": "2-luokka",
+   "deck": "ristikko-vihannekset-e980"
   }
  ]
 }

@@ -2,747 +2,779 @@
  "part": 274,
  "locale": "da",
  "classes": [
-  "find-objects::i-spy",
-  "missing-pieces::two-missing"
+  "pattern-worksheet::null",
+  "picture-path::choose-path"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 96,
  "pages": [
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-aktiviteter-06ad",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-aktiviteter-c30b",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "activities",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-aktiviteter-06ad"
+   "deck": "monsterark-aktiviteter-c30b"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-bageri-8283",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-bageri-ebf3",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "bakery",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-bageri-8283"
+   "deck": "monsterark-bageri-ebf3"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-blomster-35a2",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-blomster-b43a",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "flowers",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-blomster-35a2"
+   "deck": "monsterark-blomster-b43a"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-bondegardsdyr-8aed",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-bondegardsdyr-dd89",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "farm_animals",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-bondegardsdyr-8aed"
+   "deck": "monsterark-bondegardsdyr-dd89"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-camping-6fc0",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-camping-b380",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "camping",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-camping-6fc0"
+   "deck": "monsterark-camping-b380"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-desserter-og-slik-35a8",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-desserter-og-slik-7acd",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "desserts_and_sweets",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-desserter-og-slik-35a8"
+   "deck": "monsterark-desserter-og-slik-7acd"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-dinosaurer-c91e",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-dinosaurer-5a35",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "dinosaurs",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-dinosaurer-c91e"
+   "deck": "monsterark-dinosaurer-5a35"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-dyr-d7cc",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-dyr-3e98",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "animals",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-dyr-d7cc"
+   "deck": "monsterark-dyr-3e98"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-erhverv-0638",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-erhverv-6a7e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "occupations",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-erhverv-0638"
+   "deck": "monsterark-erhverv-6a7e"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-farver-3296",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-farver-631e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "colors",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-farver-3296"
+   "deck": "monsterark-farver-631e"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-folelser-bf53",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-folelser-22a3",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "emotions",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-folelser-bf53"
+   "deck": "monsterark-folelser-22a3"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-forar-349b",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-forar-4f50",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "spring",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-forar-349b"
+   "deck": "monsterark-forar-4f50"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-former-aff9",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-former-150f",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "shapes",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-former-aff9"
+   "deck": "monsterark-former-150f"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-frugter-5e82",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-frugter-afbf",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "fruits",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-frugter-5e82"
+   "deck": "monsterark-frugter-afbf"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-fugle-2-cf2f",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "monsterark-fugle-2-b186",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "birds_2",
    "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-fugle-2-cf2f"
+   "deck": "monsterark-fugle-2-b186"
   },
   {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-grontsager-ed23",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-grontsager-ed23"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-havliv-1733",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-havliv-1733"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-hospital-6f2a",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-hospital-6f2a"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-i-supermarkedet-a19e",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-i-supermarkedet-a19e"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-insekter-og-kryb-078d",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-insekter-og-kryb-078d"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-jul-1b92",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-jul-1b92"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-kaeledyr-2b5d",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-kaeledyr-2b5d"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-klassevaerelse-1499",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-klassevaerelse-1499"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-kokkenredskaber-18b5",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-kokkenredskaber-18b5"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-koretojer-f2c6",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-koretojer-f2c6"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-kropsdele-e8fb",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-kropsdele-e8fb"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-krybdyr-og-padder-ef93",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-krybdyr-og-padder-ef93"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-legetoj-924a",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-legetoj-924a"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-mobler-ab8c",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-mobler-ab8c"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-morgenmad-0c51",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-morgenmad-0c51"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-musik-0f8b",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-musik-0f8b"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-paske-2bcf",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-paske-2bcf"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-postkontor-fbd8",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-postkontor-fbd8"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-rummet-9f3d",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-rummet-9f3d"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-skovdyr-c0b0",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-skovdyr-c0b0"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-sommer-cf0f",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-sommer-cf0f"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-strand-8ee2",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-strand-8ee2"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-thanksgiving-55e5",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-thanksgiving-55e5"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-tilbehor-0dc9",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-tilbehor-0dc9"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-ting-der-flyver-1371",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "things_that_fly",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-ting-der-flyver-1371"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-toj-7a95",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-toj-7a95"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-traeer-6e3e",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "tree",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-traeer-6e3e"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-vaerktoj-fc34",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "tools",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-vaerktoj-fc34"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-vejr-ab0d",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-vejr-ab0d"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-vinter-0dc7",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-vinter-0dc7"
-  },
-  {
-   "slug": "find-genstandene-jeg-ser-jeg-ser-zoodyr-3b0b",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-jeg-ser-jeg-ser-zoodyr-3b0b"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-aktiviteter-8884",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-aktiviteter-8884"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-bageri-ba2f",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-bageri-ba2f"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-blomster-c24c",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-blomster-c24c"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-bondegardsdyr-af5f",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-bondegardsdyr-af5f"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-camping-ccb4",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-camping-ccb4"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-desserter-og-slik-052f",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "desserts_and_sweets",
-   "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-desserter-og-slik-052f"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-dinosaurer-e30b",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-dinosaurer-e30b"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-dyr-4307",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-dyr-4307"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-erhverv-d5e2",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-erhverv-d5e2"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-folelser-d7d0",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-folelser-d7d0"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-forar-0954",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-forar-0954"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-frugter-b7e7",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-frugter-b7e7"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-fugle-2-92d6",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-fugle-2-92d6"
-  },
-  {
-   "slug": "manglende-brikker-2-manglende-brikker-fugle-3b29",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-fugle-c5aa",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "birds",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-fugle-3b29"
+   "deck": "monsterark-fugle-c5aa"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-grontsager-1ab0",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-grontsager-e093",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "vegetables",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-grontsager-1ab0"
+   "deck": "monsterark-grontsager-e093"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-havliv-6fcc",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-havliv-0f9a",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "ocean_life",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-havliv-6fcc"
+   "deck": "monsterark-havliv-0f9a"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-hospital-57ae",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-hospital-872e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "hospital",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-hospital-57ae"
+   "deck": "monsterark-hospital-872e"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-i-supermarkedet-27a6",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-i-supermarkedet-ad27",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-i-supermarkedet-27a6"
+   "deck": "monsterark-i-supermarkedet-ad27"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-insekter-og-kryb-255b",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-insekter-og-kryb-a29f",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "insects_and_bugs",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-insekter-og-kryb-255b"
+   "deck": "monsterark-insekter-og-kryb-a29f"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-jul-49a1",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-jul-304b",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "christmas",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-jul-49a1"
+   "deck": "monsterark-jul-304b"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-kaeledyr-8028",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-kaeledyr-bb6b",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "pets",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-kaeledyr-8028"
+   "deck": "monsterark-kaeledyr-bb6b"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-klassevaerelse-6527",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-klassevaerelse-77ce",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "classroom",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-klassevaerelse-6527"
+   "deck": "monsterark-klassevaerelse-77ce"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-kokkenredskaber-b6ff",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-kokkenredskaber-3937",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-kokkenredskaber-b6ff"
+   "deck": "monsterark-kokkenredskaber-3937"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-koretojer-a0b2",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-koretojer-ee64",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "vehicles",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-koretojer-a0b2"
+   "deck": "monsterark-koretojer-ee64"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-kropsdele-e9df",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-kropsdele-c84c",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "body_parts",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-kropsdele-e9df"
+   "deck": "monsterark-kropsdele-c84c"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-krybdyr-og-padder-9fa6",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-krybdyr-og-padder-2c74",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-krybdyr-og-padder-9fa6"
+   "deck": "monsterark-krybdyr-og-padder-2c74"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-legetoj-0f69",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-legetoj-1b24",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "toys",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-legetoj-0f69"
+   "deck": "monsterark-legetoj-1b24"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-mobler-2940",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-mobler-4221",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "furniture",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-mobler-2940"
+   "deck": "monsterark-mobler-4221"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-morgenmad-4f05",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-morgenmad-6c0b",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "breakfast",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-morgenmad-4f05"
+   "deck": "monsterark-morgenmad-6c0b"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-musik-6962",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-musik-06f7",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "music",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-musik-6962"
+   "deck": "monsterark-musik-06f7"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-paske-c778",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-paske-b03d",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "easter",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-paske-c778"
+   "deck": "monsterark-paske-b03d"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-postkontor-3876",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-postkontor-9f31",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "post_office",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-postkontor-3876"
+   "deck": "monsterark-postkontor-9f31"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-rummet-f710",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-rummet-5d0f",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "space",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-rummet-f710"
+   "deck": "monsterark-rummet-5d0f"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-rundt-i-huset-01a1",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-rundt-i-huset-65b6",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "around_the_house",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-rundt-i-huset-01a1"
+   "deck": "monsterark-rundt-i-huset-65b6"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-skovdyr-f527",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-skovdyr-b287",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "forest_creatures",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-skovdyr-f527"
+   "deck": "monsterark-skovdyr-b287"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-sommer-000c",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-sommer-242e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "summer",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-sommer-000c"
+   "deck": "monsterark-sommer-242e"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-strand-d5b8",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-strand-f730",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "beach",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-strand-d5b8"
+   "deck": "monsterark-strand-f730"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-thanksgiving-aaf6",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-thanksgiving-7e33",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "thanksgivinng",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-thanksgiving-aaf6"
+   "deck": "monsterark-thanksgiving-7e33"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-tilbehor-ad10",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-tilbehor-b67d",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "accessories",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-tilbehor-ad10"
+   "deck": "monsterark-tilbehor-b67d"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-ting-der-flyver-2fd7",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-ting-der-flyver-d0be",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "things_that_fly",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-ting-der-flyver-2fd7"
+   "deck": "monsterark-ting-der-flyver-d0be"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-toj-0e2a",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-toj-c1c8",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "clothing",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-toj-0e2a"
+   "deck": "monsterark-toj-c1c8"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-traeer-bbc0",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-traeer-d322",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "tree",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-traeer-bbc0"
+   "deck": "monsterark-traeer-d322"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-vaerktoj-81f7",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-vaerktoj-4500",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "tools",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-vaerktoj-81f7"
+   "deck": "monsterark-vaerktoj-4500"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-vejr-014a",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-vejr-0311",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "weather",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-vejr-014a"
+   "deck": "monsterark-vejr-0311"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-vinter-9ce4",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-vinter-d3c0",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "winter",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-vinter-9ce4"
+   "deck": "monsterark-vinter-d3c0"
   },
   {
-   "slug": "manglende-brikker-2-manglende-brikker-zoodyr-7c81",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "monsterark-zoodyr-d375",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "zoo_animals",
    "level": "boernehaveklasse",
-   "deck": "manglende-brikker-2-manglende-brikker-zoodyr-7c81"
+   "deck": "monsterark-zoodyr-d375"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-aktiviteter-0f15",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-aktiviteter-0f15"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-bageri-c57f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-bageri-c57f"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-blomster-bf92",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-blomster-bf92"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-bondegardsdyr-40c3",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-bondegardsdyr-40c3"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-camping-6c3e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-camping-6c3e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-desserter-og-slik-542e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-desserter-og-slik-542e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-dinosaurer-c67e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-dinosaurer-c67e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-dyr-2995",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-dyr-2995"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-erhverv-2362",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-erhverv-2362"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-farver-97ad",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-farver-97ad"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-folelser-087d",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-folelser-087d"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-forar-b799",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-forar-b799"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-former-240d",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-former-240d"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-frugter-740f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-frugter-740f"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-fugle-2-c055",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-fugle-2-c055"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-fugle-250c",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-fugle-250c"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-grontsager-d78e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-grontsager-d78e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-havliv-81a4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-havliv-81a4"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-hospital-7b96",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-hospital-7b96"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-i-supermarkedet-b6d8",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-i-supermarkedet-b6d8"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-insekter-og-kryb-c5c7",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-insekter-og-kryb-c5c7"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-jul-3956",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-jul-3956"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-kaeledyr-29dd",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-kaeledyr-29dd"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-klassevaerelse-0b15",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-klassevaerelse-0b15"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-kokkenredskaber-844e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-kokkenredskaber-844e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-koretojer-2ae8",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-koretojer-2ae8"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-kropsdele-1391",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-kropsdele-1391"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-krybdyr-og-padder-9f94",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-krybdyr-og-padder-9f94"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-legetoj-a3fe",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-legetoj-a3fe"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-mobler-42ff",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-mobler-42ff"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-morgenmad-b411",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-morgenmad-b411"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-musik-0cdf",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-musik-0cdf"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-paske-3e6e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-paske-3e6e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-postkontor-f4c3",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-postkontor-f4c3"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-rummet-3026",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-rummet-3026"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-rundt-i-huset-b774",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-rundt-i-huset-b774"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-skovdyr-b085",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-skovdyr-b085"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-sommer-891f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-sommer-891f"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-strand-3b51",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-strand-3b51"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-thanksgiving-90a5",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-thanksgiving-90a5"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-tilbehor-adce",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-tilbehor-adce"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-ting-der-flyver-9e10",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-ting-der-flyver-9e10"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-toj-d99f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-toj-d99f"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-traeer-6e25",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-traeer-6e25"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-vaerktoj-9fb2",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-vaerktoj-9fb2"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-vejr-deb9",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-vejr-deb9"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-vinter-ef0e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-vinter-ef0e"
+  },
+  {
+   "slug": "billedvej-vaelg-den-rigtige-vej-zoodyr-eea4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-vaelg-den-rigtige-vej-zoodyr-eea4"
   }
  ]
 }

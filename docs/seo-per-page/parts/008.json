@@ -2,607 +2,543 @@
  "part": 8,
  "locale": "en",
  "classes": [
-  "matching::name"
+  "find-and-count::letter-spotting"
  ],
  "splitOf": {
-  "class": "matching::name",
-  "total": 512,
+  "class": "find-and-count::letter-spotting",
+  "total": 330,
   "chunk": 1,
-  "chunks": 7
+  "chunks": 5
  },
- "count": 74,
+ "count": 66,
  "pages": [
   {
-   "slug": "danish-matching-name-4th-of-july-e9de",
-   "type": "matching",
-   "mode": "name",
+   "slug": "beginning-sounds-4th-of-july-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-4th-of-july-e9de"
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-4th-of-july"
   },
   {
-   "slug": "danish-matching-name-accessories-56ae",
-   "type": "matching",
-   "mode": "name",
-   "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-accessories-56ae"
-  },
-  {
-   "slug": "danish-matching-name-activities-5969",
-   "type": "matching",
-   "mode": "name",
-   "theme": "activities",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-activities-5969"
-  },
-  {
-   "slug": "danish-matching-name-animals-b958",
-   "type": "matching",
-   "mode": "name",
-   "theme": "animals",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-animals-b958"
-  },
-  {
-   "slug": "danish-matching-name-around-the-house-e818",
-   "type": "matching",
-   "mode": "name",
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-around-the-house-e818"
-  },
-  {
-   "slug": "danish-matching-name-at-the-supermarket-f9a4",
-   "type": "matching",
-   "mode": "name",
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-at-the-supermarket-f9a4"
-  },
-  {
-   "slug": "danish-matching-name-bakery-9724",
-   "type": "matching",
-   "mode": "name",
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-bakery-9724"
-  },
-  {
-   "slug": "danish-matching-name-beach-1540",
-   "type": "matching",
-   "mode": "name",
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-beach-1540"
-  },
-  {
-   "slug": "danish-matching-name-birds-0e87",
-   "type": "matching",
-   "mode": "name",
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-birds-0e87"
-  },
-  {
-   "slug": "danish-matching-name-birds-2-2707",
-   "type": "matching",
-   "mode": "name",
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-birds-2-2707"
-  },
-  {
-   "slug": "danish-matching-name-body-parts-4574",
-   "type": "matching",
-   "mode": "name",
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-body-parts-4574"
-  },
-  {
-   "slug": "danish-matching-name-breakfast-19bf",
-   "type": "matching",
-   "mode": "name",
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-breakfast-19bf"
-  },
-  {
-   "slug": "danish-matching-name-camping-6635",
-   "type": "matching",
-   "mode": "name",
-   "theme": "camping",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-camping-6635"
-  },
-  {
-   "slug": "danish-matching-name-christmas-674b",
-   "type": "matching",
-   "mode": "name",
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-christmas-674b"
-  },
-  {
-   "slug": "danish-matching-name-classroom-16cc",
-   "type": "matching",
-   "mode": "name",
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-classroom-16cc"
-  },
-  {
-   "slug": "danish-matching-name-clothing-e692",
-   "type": "matching",
-   "mode": "name",
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-clothing-e692"
-  },
-  {
-   "slug": "danish-matching-name-colors-3d8b",
-   "type": "matching",
-   "mode": "name",
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-colors-3d8b"
-  },
-  {
-   "slug": "danish-matching-name-desserts-and-sweets-59a6",
-   "type": "matching",
-   "mode": "name",
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-desserts-and-sweets-59a6"
-  },
-  {
-   "slug": "danish-matching-name-easter-3845",
-   "type": "matching",
-   "mode": "name",
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-easter-3845"
-  },
-  {
-   "slug": "danish-matching-name-emotions-fd64",
-   "type": "matching",
-   "mode": "name",
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-emotions-fd64"
-  },
-  {
-   "slug": "danish-matching-name-farm-animals-a506",
-   "type": "matching",
-   "mode": "name",
-   "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-farm-animals-a506"
-  },
-  {
-   "slug": "danish-matching-name-flowers-6d6c",
-   "type": "matching",
-   "mode": "name",
-   "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-flowers-6d6c"
-  },
-  {
-   "slug": "danish-matching-name-forest-creatures-8c82",
-   "type": "matching",
-   "mode": "name",
-   "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-forest-creatures-8c82"
-  },
-  {
-   "slug": "danish-matching-name-fruits-7c4e",
-   "type": "matching",
-   "mode": "name",
-   "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-fruits-7c4e"
-  },
-  {
-   "slug": "danish-matching-name-furniture-dfd5",
-   "type": "matching",
-   "mode": "name",
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-furniture-dfd5"
-  },
-  {
-   "slug": "danish-matching-name-hospital-df72",
-   "type": "matching",
-   "mode": "name",
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-hospital-df72"
-  },
-  {
-   "slug": "danish-matching-name-insects-and-bugs-b946",
-   "type": "matching",
-   "mode": "name",
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-insects-and-bugs-b946"
-  },
-  {
-   "slug": "danish-matching-name-kitchen-tools-e40f",
-   "type": "matching",
-   "mode": "name",
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-kitchen-tools-e40f"
-  },
-  {
-   "slug": "danish-matching-name-music-e2d6",
-   "type": "matching",
-   "mode": "name",
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-music-e2d6"
-  },
-  {
-   "slug": "danish-matching-name-occupations-5dd2",
-   "type": "matching",
-   "mode": "name",
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-occupations-5dd2"
-  },
-  {
-   "slug": "danish-matching-name-ocean-life-9450",
-   "type": "matching",
-   "mode": "name",
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-ocean-life-9450"
-  },
-  {
-   "slug": "danish-matching-name-pets-c5d1",
-   "type": "matching",
-   "mode": "name",
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-pets-c5d1"
-  },
-  {
-   "slug": "danish-matching-name-post-office-8754",
-   "type": "matching",
-   "mode": "name",
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-post-office-8754"
-  },
-  {
-   "slug": "danish-matching-name-reptiles-and-amphibians-9795",
-   "type": "matching",
-   "mode": "name",
-   "theme": "reptiles_and_amphibians",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-reptiles-and-amphibians-9795"
-  },
-  {
-   "slug": "danish-matching-name-shapes-eee7",
-   "type": "matching",
-   "mode": "name",
-   "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-shapes-eee7"
-  },
-  {
-   "slug": "danish-matching-name-space-9233",
-   "type": "matching",
-   "mode": "name",
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-space-9233"
-  },
-  {
-   "slug": "danish-matching-name-spring-fb96",
-   "type": "matching",
-   "mode": "name",
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-spring-fb96"
-  },
-  {
-   "slug": "danish-matching-name-summer-e89c",
-   "type": "matching",
-   "mode": "name",
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-summer-e89c"
-  },
-  {
-   "slug": "danish-matching-name-thanksgiving-0cf0",
-   "type": "matching",
-   "mode": "name",
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-thanksgiving-0cf0"
-  },
-  {
-   "slug": "danish-matching-name-things-that-fly-99f6",
-   "type": "matching",
-   "mode": "name",
-   "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-things-that-fly-99f6"
-  },
-  {
-   "slug": "danish-matching-name-tools-cb64",
-   "type": "matching",
-   "mode": "name",
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-tools-cb64"
-  },
-  {
-   "slug": "danish-matching-name-toys-0ca1",
-   "type": "matching",
-   "mode": "name",
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-toys-0ca1"
-  },
-  {
-   "slug": "danish-matching-name-vegetables-c550",
-   "type": "matching",
-   "mode": "name",
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-vegetables-c550"
-  },
-  {
-   "slug": "danish-matching-name-vehicles-49fc",
-   "type": "matching",
-   "mode": "name",
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-vehicles-49fc"
-  },
-  {
-   "slug": "danish-matching-name-weather-780a",
-   "type": "matching",
-   "mode": "name",
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-weather-780a"
-  },
-  {
-   "slug": "danish-matching-name-winter-a9f9",
-   "type": "matching",
-   "mode": "name",
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-winter-a9f9"
-  },
-  {
-   "slug": "danish-matching-name-zoo-animals-526f",
-   "type": "matching",
-   "mode": "name",
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "danish-matching-name-zoo-animals-526f"
-  },
-  {
-   "slug": "dutch-matching-name-4th-of-july-0515",
-   "type": "matching",
-   "mode": "name",
+   "slug": "beginning-sounds-4th-of-july-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-4th-of-july-0515"
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-4th-of-july-2"
   },
   {
-   "slug": "dutch-matching-name-accessories-02ea",
-   "type": "matching",
-   "mode": "name",
+   "slug": "beginning-sounds-4th-of-july-e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-4th-of-july-3"
+  },
+  {
+   "slug": "beginning-sounds-4th-of-july-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-4th-of-july-5"
+  },
+  {
+   "slug": "beginning-sounds-4th-of-july-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-4th-of-july-6"
+  },
+  {
+   "slug": "beginning-sounds-4th-of-july-h",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-4th-of-july-7"
+  },
+  {
+   "slug": "beginning-sounds-4th-of-july-i",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-4th-of-july-8"
+  },
+  {
+   "slug": "beginning-sounds-4th-of-july-u",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-4th-of-july-9"
+  },
+  {
+   "slug": "beginning-sounds-4th-of-july-w",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-4th-of-july-10"
+  },
+  {
+   "slug": "beginning-sounds-accessories-a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-accessories-02ea"
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories"
   },
   {
-   "slug": "dutch-matching-name-activities-f2d1",
-   "type": "matching",
-   "mode": "name",
+   "slug": "beginning-sounds-accessories-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-2"
+  },
+  {
+   "slug": "beginning-sounds-accessories-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-3"
+  },
+  {
+   "slug": "beginning-sounds-accessories-e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-4"
+  },
+  {
+   "slug": "beginning-sounds-accessories-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-5"
+  },
+  {
+   "slug": "beginning-sounds-accessories-h",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-6"
+  },
+  {
+   "slug": "beginning-sounds-accessories-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-7"
+  },
+  {
+   "slug": "beginning-sounds-accessories-n",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-8"
+  },
+  {
+   "slug": "beginning-sounds-accessories-p",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-9"
+  },
+  {
+   "slug": "beginning-sounds-accessories-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-10"
+  },
+  {
+   "slug": "beginning-sounds-accessories-s",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-11"
+  },
+  {
+   "slug": "beginning-sounds-accessories-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-12"
+  },
+  {
+   "slug": "beginning-sounds-accessories-u",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-13"
+  },
+  {
+   "slug": "beginning-sounds-accessories-v",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-14"
+  },
+  {
+   "slug": "beginning-sounds-accessories-w",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-accessories-15"
+  },
+  {
+   "slug": "beginning-sounds-activities-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "activities",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-activities-f2d1"
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities"
   },
   {
-   "slug": "dutch-matching-name-animals-982a",
-   "type": "matching",
-   "mode": "name",
+   "slug": "beginning-sounds-activities-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities-2"
+  },
+  {
+   "slug": "beginning-sounds-activities-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities-3"
+  },
+  {
+   "slug": "beginning-sounds-activities-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities-4"
+  },
+  {
+   "slug": "beginning-sounds-activities-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities-5"
+  },
+  {
+   "slug": "beginning-sounds-activities-h",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities-6"
+  },
+  {
+   "slug": "beginning-sounds-activities-j",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities-7"
+  },
+  {
+   "slug": "beginning-sounds-activities-k",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities-8"
+  },
+  {
+   "slug": "beginning-sounds-activities-p",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities-9"
+  },
+  {
+   "slug": "beginning-sounds-activities-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities-10"
+  },
+  {
+   "slug": "beginning-sounds-activities-s",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities-11"
+  },
+  {
+   "slug": "beginning-sounds-activities-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities-12"
+  },
+  {
+   "slug": "beginning-sounds-activities-v",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities-13"
+  },
+  {
+   "slug": "beginning-sounds-activities-w",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-activities-14"
+  },
+  {
+   "slug": "beginning-sounds-animals-a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "animals",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-animals-982a"
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals"
   },
   {
-   "slug": "dutch-matching-name-around-the-house-36ea",
-   "type": "matching",
-   "mode": "name",
+   "slug": "beginning-sounds-animals-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-2"
+  },
+  {
+   "slug": "beginning-sounds-animals-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-3"
+  },
+  {
+   "slug": "beginning-sounds-animals-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-4"
+  },
+  {
+   "slug": "beginning-sounds-animals-e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-5"
+  },
+  {
+   "slug": "beginning-sounds-animals-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-6"
+  },
+  {
+   "slug": "beginning-sounds-animals-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-7"
+  },
+  {
+   "slug": "beginning-sounds-animals-h",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-8"
+  },
+  {
+   "slug": "beginning-sounds-animals-i",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-9"
+  },
+  {
+   "slug": "beginning-sounds-animals-j",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-10"
+  },
+  {
+   "slug": "beginning-sounds-animals-k",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-11"
+  },
+  {
+   "slug": "beginning-sounds-animals-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-12"
+  },
+  {
+   "slug": "beginning-sounds-animals-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-13"
+  },
+  {
+   "slug": "beginning-sounds-animals-o",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-14"
+  },
+  {
+   "slug": "beginning-sounds-animals-p",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-15"
+  },
+  {
+   "slug": "beginning-sounds-animals-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-16"
+  },
+  {
+   "slug": "beginning-sounds-animals-s",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-17"
+  },
+  {
+   "slug": "beginning-sounds-animals-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-18"
+  },
+  {
+   "slug": "beginning-sounds-animals-v",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-19"
+  },
+  {
+   "slug": "beginning-sounds-animals-w",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-20"
+  },
+  {
+   "slug": "beginning-sounds-animals-z",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-animals-21"
+  },
+  {
+   "slug": "beginning-sounds-around-the-house-a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-around-the-house-36ea"
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house"
   },
   {
-   "slug": "dutch-matching-name-at-the-supermarket-338f",
-   "type": "matching",
-   "mode": "name",
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-at-the-supermarket-338f"
+   "slug": "beginning-sounds-around-the-house-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-2"
   },
   {
-   "slug": "dutch-matching-name-bakery-922b",
-   "type": "matching",
-   "mode": "name",
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-bakery-922b"
+   "slug": "beginning-sounds-around-the-house-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-3"
   },
   {
-   "slug": "dutch-matching-name-beach-d549",
-   "type": "matching",
-   "mode": "name",
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-beach-d549"
+   "slug": "beginning-sounds-around-the-house-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-4"
   },
   {
-   "slug": "dutch-matching-name-birds-2-2b37",
-   "type": "matching",
-   "mode": "name",
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-birds-2-2b37"
+   "slug": "beginning-sounds-around-the-house-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-5"
   },
   {
-   "slug": "dutch-matching-name-birds-db00",
-   "type": "matching",
-   "mode": "name",
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-birds-db00"
+   "slug": "beginning-sounds-around-the-house-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-6"
   },
   {
-   "slug": "dutch-matching-name-body-parts-93af",
-   "type": "matching",
-   "mode": "name",
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-body-parts-93af"
-  },
-  {
-   "slug": "dutch-matching-name-breakfast-b1e9",
-   "type": "matching",
-   "mode": "name",
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-breakfast-b1e9"
-  },
-  {
-   "slug": "dutch-matching-name-camping-3b8f",
-   "type": "matching",
-   "mode": "name",
-   "theme": "camping",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-camping-3b8f"
-  },
-  {
-   "slug": "dutch-matching-name-christmas-162a",
-   "type": "matching",
-   "mode": "name",
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-christmas-162a"
-  },
-  {
-   "slug": "dutch-matching-name-classroom-f7d7",
-   "type": "matching",
-   "mode": "name",
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-classroom-f7d7"
-  },
-  {
-   "slug": "dutch-matching-name-clothing-4cb6",
-   "type": "matching",
-   "mode": "name",
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-clothing-4cb6"
-  },
-  {
-   "slug": "dutch-matching-name-colors-71b7",
-   "type": "matching",
-   "mode": "name",
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-colors-71b7"
-  },
-  {
-   "slug": "dutch-matching-name-desserts-and-sweets-c6fb",
-   "type": "matching",
-   "mode": "name",
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-desserts-and-sweets-c6fb"
-  },
-  {
-   "slug": "dutch-matching-name-easter-457b",
-   "type": "matching",
-   "mode": "name",
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-easter-457b"
-  },
-  {
-   "slug": "dutch-matching-name-emotions-32d6",
-   "type": "matching",
-   "mode": "name",
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-emotions-32d6"
-  },
-  {
-   "slug": "dutch-matching-name-farm-animals-f721",
-   "type": "matching",
-   "mode": "name",
-   "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-farm-animals-f721"
-  },
-  {
-   "slug": "dutch-matching-name-flowers-a8da",
-   "type": "matching",
-   "mode": "name",
-   "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-flowers-a8da"
-  },
-  {
-   "slug": "dutch-matching-name-forest-creatures-84c1",
-   "type": "matching",
-   "mode": "name",
-   "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-forest-creatures-84c1"
-  },
-  {
-   "slug": "dutch-matching-name-fruits-f471",
-   "type": "matching",
-   "mode": "name",
-   "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-fruits-f471"
-  },
-  {
-   "slug": "dutch-matching-name-furniture-9a0e",
-   "type": "matching",
-   "mode": "name",
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-furniture-9a0e"
-  },
-  {
-   "slug": "dutch-matching-name-hospital-f542",
-   "type": "matching",
-   "mode": "name",
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-hospital-f542"
-  },
-  {
-   "slug": "dutch-matching-name-insects-and-bugs-31d7",
-   "type": "matching",
-   "mode": "name",
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "dutch-matching-name-insects-and-bugs-31d7"
+   "slug": "beginning-sounds-around-the-house-h",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-around-the-house-7"
   }
  ]
 }

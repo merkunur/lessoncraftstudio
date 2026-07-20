@@ -2,779 +2,651 @@
  "part": 143,
  "locale": "fr",
  "classes": [
-  "odd-one-out::same-theme",
-  "pattern-train::aab"
+  "subtraction::cross-out",
+  "subtraction::find-subtrahend"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 80,
  "pages": [
   {
-   "slug": "l-intrus-meme-theme-accessoires-2ed1",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-accessoires-3669",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "accessories",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-accessoires-2ed1"
+   "level": "cp",
+   "deck": "soustraction-barrer-accessoires-3669"
   },
   {
-   "slug": "l-intrus-meme-theme-action-de-grace-5837",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-action-de-grace-a070",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-action-de-grace-5837"
+   "level": "cp",
+   "deck": "soustraction-barrer-action-de-grace-a070"
   },
   {
-   "slug": "l-intrus-meme-theme-activites-942a",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "activities",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-activites-942a"
-  },
-  {
-   "slug": "l-intrus-meme-theme-animaux",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-animaux",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "animals",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-animaux"
+   "level": "cp",
+   "deck": "soustraction-barrer-animaux"
   },
   {
-   "slug": "l-intrus-meme-theme-animaux-de-compagnie-3831",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-animaux-de-compagnie-6909",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "pets",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-animaux-de-compagnie-3831"
+   "level": "cp",
+   "deck": "soustraction-barrer-animaux-de-compagnie-6909"
   },
   {
-   "slug": "l-intrus-meme-theme-animaux-de-la-ferme-c864",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-animaux-de-la-ferme-8b91",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-animaux-de-la-ferme-c864"
+   "level": "cp",
+   "deck": "soustraction-barrer-animaux-de-la-ferme-8b91"
   },
   {
-   "slug": "l-intrus-meme-theme-animaux-du-zoo-d512",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-animaux-du-zoo-9a32",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-animaux-du-zoo-d512"
+   "level": "cp",
+   "deck": "soustraction-barrer-animaux-du-zoo-9a32"
   },
   {
-   "slug": "l-intrus-meme-theme-arbres-7a72",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-arbres-7193",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tree",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-arbres-7a72"
+   "level": "cp",
+   "deck": "soustraction-barrer-arbres-7193"
   },
   {
-   "slug": "l-intrus-meme-theme-au-supermarche-3a8d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-au-supermarche-513b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-au-supermarche-3a8d"
+   "level": "cp",
+   "deck": "soustraction-barrer-au-supermarche-513b"
   },
   {
-   "slug": "l-intrus-meme-theme-autour-de-la-maison-d553",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-autour-de-la-maison-d3c3",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-autour-de-la-maison-d553"
+   "level": "cp",
+   "deck": "soustraction-barrer-autour-de-la-maison-d3c3"
   },
   {
-   "slug": "l-intrus-meme-theme-boulangerie-2df2",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-boulangerie-a1bb",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "bakery",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-boulangerie-2df2"
+   "level": "cp",
+   "deck": "soustraction-barrer-boulangerie-a1bb"
   },
   {
-   "slug": "l-intrus-meme-theme-bureau-de-poste-99bd",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-bureau-de-poste-96b2",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "post_office",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-bureau-de-poste-99bd"
+   "level": "cp",
+   "deck": "soustraction-barrer-bureau-de-poste-96b2"
   },
   {
-   "slug": "l-intrus-meme-theme-camping-3a57",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-camping-fcec",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "camping",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-camping-3a57"
+   "level": "cp",
+   "deck": "soustraction-barrer-camping-fcec"
   },
   {
-   "slug": "l-intrus-meme-theme-choses-qui-volent-7917",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-choses-qui-volent-c00d",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-choses-qui-volent-7917"
+   "level": "cp",
+   "deck": "soustraction-barrer-choses-qui-volent-c00d"
   },
   {
-   "slug": "l-intrus-meme-theme-couleurs-9778",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "colors",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-couleurs-9778"
-  },
-  {
-   "slug": "l-intrus-meme-theme-creatures-de-la-foret-9d03",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-creatures-de-la-foret-4eca",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "forest_creatures",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-creatures-de-la-foret-9d03"
+   "level": "cp",
+   "deck": "soustraction-barrer-creatures-de-la-foret-4eca"
   },
   {
-   "slug": "l-intrus-meme-theme-desserts-et-sucreries-51ee",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-desserts-et-sucreries-9721",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-desserts-et-sucreries-51ee"
+   "level": "cp",
+   "deck": "soustraction-barrer-desserts-et-sucreries-9721"
   },
   {
-   "slug": "l-intrus-meme-theme-dinosaures-4363",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-dinosaures-dbeb",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "dinosaurs",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-dinosaures-4363"
+   "level": "cp",
+   "deck": "soustraction-barrer-dinosaures-dbeb"
   },
   {
-   "slug": "l-intrus-meme-theme-emotions-ca72",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "emotions",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-emotions-ca72"
-  },
-  {
-   "slug": "l-intrus-meme-theme-espace-8c5f",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-espace-3e32",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "space",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-espace-8c5f"
+   "level": "cp",
+   "deck": "soustraction-barrer-espace-3e32"
   },
   {
-   "slug": "l-intrus-meme-theme-ete-c699",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "summer",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-ete-c699"
-  },
-  {
-   "slug": "l-intrus-meme-theme-fleurs-90ff",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-fleurs-ba18",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "flowers",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-fleurs-90ff"
+   "level": "cp",
+   "deck": "soustraction-barrer-fleurs-ba18"
   },
   {
-   "slug": "l-intrus-meme-theme-formes-a403",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-formes-096a",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "shapes",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-formes-a403"
+   "level": "cp",
+   "deck": "soustraction-barrer-formes-096a"
   },
   {
-   "slug": "l-intrus-meme-theme-fruits-86b7",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-fruits-3ff9",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "fruits",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-fruits-86b7"
+   "level": "cp",
+   "deck": "soustraction-barrer-fruits-3ff9"
   },
   {
-   "slug": "l-intrus-meme-theme-hiver-8294",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "winter",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-hiver-8294"
-  },
-  {
-   "slug": "l-intrus-meme-theme-hopital-b225",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-hopital-f617",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "hospital",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-hopital-b225"
+   "level": "cp",
+   "deck": "soustraction-barrer-hopital-f617"
   },
   {
-   "slug": "l-intrus-meme-theme-insectes-et-bestioles-8581",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-insectes-et-bestioles-aae1",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "insects_and_bugs",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-insectes-et-bestioles-8581"
+   "level": "cp",
+   "deck": "soustraction-barrer-insectes-et-bestioles-aae1"
   },
   {
-   "slug": "l-intrus-meme-theme-jouets-7a8f",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-jouets-3638",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "toys",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-jouets-7a8f"
+   "level": "cp",
+   "deck": "soustraction-barrer-jouets-3638"
   },
   {
-   "slug": "l-intrus-meme-theme-legumes-1a39",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-legumes-16f3",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vegetables",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-legumes-1a39"
+   "level": "cp",
+   "deck": "soustraction-barrer-legumes-16f3"
   },
   {
-   "slug": "l-intrus-meme-theme-meteo-11a9",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "weather",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-meteo-11a9"
-  },
-  {
-   "slug": "l-intrus-meme-theme-metiers-a262",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-metiers-76de",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "occupations",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-metiers-a262"
+   "level": "cp",
+   "deck": "soustraction-barrer-metiers-76de"
   },
   {
-   "slug": "l-intrus-meme-theme-meubles-b340",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-meubles-fb95",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "furniture",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-meubles-b340"
+   "level": "cp",
+   "deck": "soustraction-barrer-meubles-fb95"
   },
   {
-   "slug": "l-intrus-meme-theme-musique-3f6e",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-musique-c401",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "music",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-musique-3f6e"
+   "level": "cp",
+   "deck": "soustraction-barrer-musique-c401"
   },
   {
-   "slug": "l-intrus-meme-theme-noel-a315",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-noel-8ec4",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "christmas",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-noel-a315"
+   "level": "cp",
+   "deck": "soustraction-barrer-noel-8ec4"
   },
   {
-   "slug": "l-intrus-meme-theme-oiseaux-2-b9ab",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-oiseaux-2-c805",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-oiseaux-2-b9ab"
+   "level": "cp",
+   "deck": "soustraction-barrer-oiseaux-2-c805"
   },
   {
-   "slug": "l-intrus-meme-theme-oiseaux-9721",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-oiseaux-dd5b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-oiseaux-9721"
+   "level": "cp",
+   "deck": "soustraction-barrer-oiseaux-dd5b"
   },
   {
-   "slug": "l-intrus-meme-theme-outils-5806",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-outils-a2d5",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tools",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-outils-5806"
+   "level": "cp",
+   "deck": "soustraction-barrer-outils-a2d5"
   },
   {
-   "slug": "l-intrus-meme-theme-paques-71cf",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-paques-5989",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "easter",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-paques-71cf"
+   "level": "cp",
+   "deck": "soustraction-barrer-paques-5989"
   },
   {
-   "slug": "l-intrus-meme-theme-parties-du-corps-ba83",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-parties-du-corps-ba83"
-  },
-  {
-   "slug": "l-intrus-meme-theme-petit-dejeuner-3209",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-petit-dejeuner-3474",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "breakfast",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-petit-dejeuner-3209"
+   "level": "cp",
+   "deck": "soustraction-barrer-petit-dejeuner-3474"
   },
   {
-   "slug": "l-intrus-meme-theme-plage-f173",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-plage-694e",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "beach",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-plage-f173"
+   "level": "cp",
+   "deck": "soustraction-barrer-plage-694e"
   },
   {
-   "slug": "l-intrus-meme-theme-printemps-2090",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "spring",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-printemps-2090"
-  },
-  {
-   "slug": "l-intrus-meme-theme-reptiles-et-amphibiens-2e82",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-reptiles-et-amphibiens-54b5",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-reptiles-et-amphibiens-2e82"
+   "level": "cp",
+   "deck": "soustraction-barrer-reptiles-et-amphibiens-54b5"
   },
   {
-   "slug": "l-intrus-meme-theme-salle-de-classe-cc79",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-salle-de-classe-b5dd",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "classroom",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-salle-de-classe-cc79"
+   "level": "cp",
+   "deck": "soustraction-barrer-salle-de-classe-b5dd"
   },
   {
-   "slug": "l-intrus-meme-theme-ustensiles-de-cuisine-7569",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-ustensiles-de-cuisine-ac97",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "kitchen_tools",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-ustensiles-de-cuisine-7569"
+   "level": "cp",
+   "deck": "soustraction-barrer-ustensiles-de-cuisine-ac97"
   },
   {
-   "slug": "l-intrus-meme-theme-vehicules-3ac4",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-vehicules-ea07",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-vehicules-3ac4"
+   "level": "cp",
+   "deck": "soustraction-barrer-vehicules-ea07"
   },
   {
-   "slug": "l-intrus-meme-theme-vetements-c08b",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-vetements-b4c8",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "clothing",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-vetements-c08b"
+   "level": "cp",
+   "deck": "soustraction-barrer-vetements-b4c8"
   },
   {
-   "slug": "l-intrus-meme-theme-vie-oceanique-4329",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "soustraction-barrer-vie-oceanique-a631",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "l-intrus-meme-theme-vie-oceanique-4329"
+   "level": "cp",
+   "deck": "soustraction-barrer-vie-oceanique-a631"
   },
   {
-   "slug": "train-de-modeles-aab-accessoires-0de6",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-accessoires-d03e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "accessories",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-accessoires-0de6"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-accessoires-d03e"
   },
   {
-   "slug": "train-de-modeles-aab-action-de-grace-4d22",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-action-de-grace-a761",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-action-de-grace-4d22"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-action-de-grace-a761"
   },
   {
-   "slug": "train-de-modeles-aab-activites-c688",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "activities",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-activites-c688"
-  },
-  {
-   "slug": "train-de-modeles-aab-animaux-1667",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-animaux-591f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "animals",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-animaux-1667"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-animaux-591f"
   },
   {
-   "slug": "train-de-modeles-aab-animaux-de-compagnie-41cd",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-animaux-de-compagnie-b55b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "pets",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-animaux-de-compagnie-41cd"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-animaux-de-compagnie-b55b"
   },
   {
-   "slug": "train-de-modeles-aab-animaux-de-la-ferme-fee3",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-animaux-de-la-ferme-8d39",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-animaux-de-la-ferme-fee3"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-animaux-de-la-ferme-8d39"
   },
   {
-   "slug": "train-de-modeles-aab-animaux-du-zoo-b06e",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-animaux-du-zoo-f57e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-animaux-du-zoo-b06e"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-animaux-du-zoo-f57e"
   },
   {
-   "slug": "train-de-modeles-aab-arbres-ccbf",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-arbres-fdfa",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "tree",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-arbres-ccbf"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-arbres-fdfa"
   },
   {
-   "slug": "train-de-modeles-aab-au-supermarche-ce6e",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-au-supermarche-4380",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-au-supermarche-ce6e"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-au-supermarche-4380"
   },
   {
-   "slug": "train-de-modeles-aab-autour-de-la-maison-6e14",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-autour-de-la-maison-ac6b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-autour-de-la-maison-6e14"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-autour-de-la-maison-ac6b"
   },
   {
-   "slug": "train-de-modeles-aab-boulangerie-f3dd",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-boulangerie-6fc1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "bakery",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-boulangerie-f3dd"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-boulangerie-6fc1"
   },
   {
-   "slug": "train-de-modeles-aab-bureau-de-poste-7592",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-bureau-de-poste-fec7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "post_office",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-bureau-de-poste-7592"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-bureau-de-poste-fec7"
   },
   {
-   "slug": "train-de-modeles-aab-camping-4b3b",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-camping-e7da",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "camping",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-camping-4b3b"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-camping-e7da"
   },
   {
-   "slug": "train-de-modeles-aab-choses-qui-volent-8472",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-choses-qui-volent-4bd5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-choses-qui-volent-8472"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-choses-qui-volent-4bd5"
   },
   {
-   "slug": "train-de-modeles-aab-couleurs-b0fe",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "colors",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-couleurs-b0fe"
-  },
-  {
-   "slug": "train-de-modeles-aab-creatures-de-la-foret-3511",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-creatures-de-la-foret-daa2",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "forest_creatures",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-creatures-de-la-foret-3511"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-creatures-de-la-foret-daa2"
   },
   {
-   "slug": "train-de-modeles-aab-desserts-et-sucreries-ad56",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-desserts-et-sucreries-465c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-desserts-et-sucreries-ad56"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-desserts-et-sucreries-465c"
   },
   {
-   "slug": "train-de-modeles-aab-dinosaures-546e",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-dinosaures-d622",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "dinosaurs",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-dinosaures-546e"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-dinosaures-d622"
   },
   {
-   "slug": "train-de-modeles-aab-emotions-056d",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "emotions",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-emotions-056d"
-  },
-  {
-   "slug": "train-de-modeles-aab-espace-3a24",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-espace-7c0e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "space",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-espace-3a24"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-espace-7c0e"
   },
   {
-   "slug": "train-de-modeles-aab-ete-76b9",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "summer",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-ete-76b9"
-  },
-  {
-   "slug": "train-de-modeles-aab-fleurs-3bae",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-fleurs-a377",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "flowers",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-fleurs-3bae"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-fleurs-a377"
   },
   {
-   "slug": "train-de-modeles-aab-formes-c308",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-formes-6ca6",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "shapes",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-formes-c308"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-formes-6ca6"
   },
   {
-   "slug": "train-de-modeles-aab-fruits-24b3",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-fruits-6d20",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "fruits",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-fruits-24b3"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-fruits-6d20"
   },
   {
-   "slug": "train-de-modeles-aab-hiver-6bba",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "winter",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-hiver-6bba"
-  },
-  {
-   "slug": "train-de-modeles-aab-hopital-4524",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-hopital-b589",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "hospital",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-hopital-4524"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-hopital-b589"
   },
   {
-   "slug": "train-de-modeles-aab-insectes-et-bestioles-18ec",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-insectes-et-bestioles-c626",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "insects_and_bugs",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-insectes-et-bestioles-18ec"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-insectes-et-bestioles-c626"
   },
   {
-   "slug": "train-de-modeles-aab-jouets-8877",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-jouets-3c9f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "toys",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-jouets-8877"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-jouets-3c9f"
   },
   {
-   "slug": "train-de-modeles-aab-legumes-3cf9",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-legumes-7104",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vegetables",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-legumes-3cf9"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-legumes-7104"
   },
   {
-   "slug": "train-de-modeles-aab-meteo-49ef",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "weather",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-meteo-49ef"
-  },
-  {
-   "slug": "train-de-modeles-aab-metiers-14ac",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-metiers-2957",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "occupations",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-metiers-14ac"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-metiers-2957"
   },
   {
-   "slug": "train-de-modeles-aab-meubles-e17b",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-meubles-521d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "furniture",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-meubles-e17b"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-meubles-521d"
   },
   {
-   "slug": "train-de-modeles-aab-musique-c5e4",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-musique-e07f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "music",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-musique-c5e4"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-musique-e07f"
   },
   {
-   "slug": "train-de-modeles-aab-noel-d005",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-noel-4cfb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "christmas",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-noel-d005"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-noel-4cfb"
   },
   {
-   "slug": "train-de-modeles-aab-oiseaux-2-c2c6",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-oiseaux-2-6f39",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-oiseaux-2-c2c6"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-oiseaux-2-6f39"
   },
   {
-   "slug": "train-de-modeles-aab-oiseaux-db8b",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-oiseaux-31b0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-oiseaux-db8b"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-oiseaux-31b0"
   },
   {
-   "slug": "train-de-modeles-aab-outils-1dc6",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-outils-5d3e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "tools",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-outils-1dc6"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-outils-5d3e"
   },
   {
-   "slug": "train-de-modeles-aab-paques-d462",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-paques-e835",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "easter",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-paques-d462"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-paques-e835"
   },
   {
-   "slug": "train-de-modeles-aab-parties-du-corps-f1ee",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-parties-du-corps-f1ee"
-  },
-  {
-   "slug": "train-de-modeles-aab-petit-dejeuner-bbbb",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-petit-dejeuner-4380",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "breakfast",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-petit-dejeuner-bbbb"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-petit-dejeuner-4380"
   },
   {
-   "slug": "train-de-modeles-aab-plage-829f",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-plage-9323",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "beach",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-plage-829f"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-plage-9323"
   },
   {
-   "slug": "train-de-modeles-aab-printemps-55b6",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "spring",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-printemps-55b6"
-  },
-  {
-   "slug": "train-de-modeles-aab-reptiles-et-amphibiens-e86c",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-reptiles-et-amphibiens-d360",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-reptiles-et-amphibiens-e86c"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-reptiles-et-amphibiens-d360"
   },
   {
-   "slug": "train-de-modeles-aab-salle-de-classe-8f37",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-salle-de-classe-8161",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "classroom",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-salle-de-classe-8f37"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-salle-de-classe-8161"
   },
   {
-   "slug": "train-de-modeles-aab-ustensiles-de-cuisine-60d5",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-ustensiles-de-cuisine-aefc",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "kitchen_tools",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-ustensiles-de-cuisine-60d5"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-ustensiles-de-cuisine-aefc"
   },
   {
-   "slug": "train-de-modeles-aab-vehicules-ba34",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-vehicules-ce3a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-vehicules-ba34"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-vehicules-ce3a"
   },
   {
-   "slug": "train-de-modeles-aab-vetements-58de",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-vetements-4f7b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "clothing",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-vetements-58de"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-vetements-4f7b"
   },
   {
-   "slug": "train-de-modeles-aab-vie-oceanique-2286",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "soustraction-trouve-le-soustracteur-vie-oceanique-e2e8",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "train-de-modeles-aab-vie-oceanique-2286"
+   "level": "cp",
+   "deck": "soustraction-trouve-le-soustracteur-vie-oceanique-e2e8"
   }
  ]
 }

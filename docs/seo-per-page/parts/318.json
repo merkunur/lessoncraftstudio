@@ -2,635 +2,779 @@
  "part": 318,
  "locale": "no",
  "classes": [
-  "picture-path::classic-maze",
-  "subtraction::cross-out"
+  "pattern-train::abb",
+  "pattern-train::abc"
  ],
  "splitOf": null,
- "count": 78,
+ "count": 96,
  "pages": [
   {
-   "slug": "bildevei-klassisk-labyrint-aktiviteter-3b70",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-aktiviteter-81a2",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "activities",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-aktiviteter-3b70"
+   "deck": "monstertoget-abb-aktiviteter-81a2"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-bakeri-2f2d",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-bakeri-09a6",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "bakery",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-bakeri-2f2d"
+   "deck": "monstertoget-abb-bakeri-09a6"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-blomster-10a3",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-blomster-30d6",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "flowers",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-blomster-10a3"
+   "deck": "monstertoget-abb-blomster-30d6"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-camping-921b",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-camping-de72",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "camping",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-camping-921b"
+   "deck": "monstertoget-abb-camping-de72"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-desserter-og-godteri-1b82",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-desserter-og-godteri-d07e",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "desserts_and_sweets",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-desserter-og-godteri-1b82"
+   "deck": "monstertoget-abb-desserter-og-godteri-d07e"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-dinosaurer-47f1",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-dinosaurer-0b5f",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "dinosaurs",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-dinosaurer-47f1"
+   "deck": "monstertoget-abb-dinosaurer-0b5f"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-farger-6d6d",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-dyr-ffaf",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "monstertoget-abb-dyr-ffaf"
+  },
+  {
+   "slug": "monstertoget-abb-dyrehagedyr-6645",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "monstertoget-abb-dyrehagedyr-6645"
+  },
+  {
+   "slug": "monstertoget-abb-farger-2e02",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "colors",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-farger-6d6d"
+   "deck": "monstertoget-abb-farger-2e02"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-folelser-556c",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-folelser-61aa",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "emotions",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-folelser-556c"
+   "deck": "monstertoget-abb-folelser-61aa"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-former-51ed",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-former-fd7e",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "shapes",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-former-51ed"
+   "deck": "monstertoget-abb-former-fd7e"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-frokost-b739",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-frokost-c39f",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "breakfast",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-frokost-b739"
+   "deck": "monstertoget-abb-frokost-c39f"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-frukter-9449",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-frukter-fea3",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "fruits",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-frukter-9449"
+   "deck": "monstertoget-abb-frukter-fea3"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-gronnsaker-1d7c",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-fugler-2-a1d6",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "monstertoget-abb-fugler-2-a1d6"
+  },
+  {
+   "slug": "monstertoget-abb-fugler-4bc2",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "monstertoget-abb-fugler-4bc2"
+  },
+  {
+   "slug": "monstertoget-abb-gardsdyr-161f",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "monstertoget-abb-gardsdyr-161f"
+  },
+  {
+   "slug": "monstertoget-abb-gronnsaker-65ac",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "vegetables",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-gronnsaker-1d7c"
+   "deck": "monstertoget-abb-gronnsaker-65ac"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-i-supermarkedet-1c18",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-havliv-59ba",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "monstertoget-abb-havliv-59ba"
+  },
+  {
+   "slug": "monstertoget-abb-i-supermarkedet-2ef1",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "at_the_supermarket",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-i-supermarkedet-1c18"
+   "deck": "monstertoget-abb-i-supermarkedet-2ef1"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-insekter-og-kryp-3586",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-insekter-og-kryp-f286",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "insects_and_bugs",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-insekter-og-kryp-3586"
+   "deck": "monstertoget-abb-insekter-og-kryp-f286"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-jul-503e",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-jul-aca8",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "christmas",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-jul-503e"
+   "deck": "monstertoget-abb-jul-aca8"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-kjokkenredskaper-28c2",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-kjaeledyr-a40e",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "monstertoget-abb-kjaeledyr-a40e"
+  },
+  {
+   "slug": "monstertoget-abb-kjokkenredskaper-8851",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "kitchen_tools",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-kjokkenredskaper-28c2"
+   "deck": "monstertoget-abb-kjokkenredskaper-8851"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-kjoretoy-5d49",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-kjoretoy-b91f",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "vehicles",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-kjoretoy-5d49"
+   "deck": "monstertoget-abb-kjoretoy-b91f"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-klaer-aed5",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-klaer-3b20",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "clothing",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-klaer-aed5"
+   "deck": "monstertoget-abb-klaer-3b20"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-klasserom-eb84",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-klasserom-5c43",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "classroom",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-klasserom-eb84"
+   "deck": "monstertoget-abb-klasserom-5c43"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-kroppsdeler-02ba",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-kroppsdeler-839d",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "body_parts",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-kroppsdeler-02ba"
+   "deck": "monstertoget-abb-kroppsdeler-839d"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-leker-221d",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-leker-f250",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "toys",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-leker-221d"
+   "deck": "monstertoget-abb-leker-f250"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-mobler-1d4c",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-mobler-8ba6",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "furniture",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-mobler-1d4c"
+   "deck": "monstertoget-abb-mobler-8ba6"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-musikk-969d",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-musikk-ae2b",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "music",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-musikk-969d"
+   "deck": "monstertoget-abb-musikk-ae2b"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-paske-7057",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-paske-c4e9",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "easter",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-paske-7057"
+   "deck": "monstertoget-abb-paske-c4e9"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-postkontor-419d",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-postkontor-bb28",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "post_office",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-postkontor-419d"
+   "deck": "monstertoget-abb-postkontor-bb28"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-rundt-i-huset-02f4",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-reptiler-og-amfibier-0849",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "monstertoget-abb-reptiler-og-amfibier-0849"
+  },
+  {
+   "slug": "monstertoget-abb-rundt-i-huset-d3e5",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "around_the_house",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-rundt-i-huset-02f4"
+   "deck": "monstertoget-abb-rundt-i-huset-d3e5"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-sommer-b56c",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-skogsdyr-c069",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "monstertoget-abb-skogsdyr-c069"
+  },
+  {
+   "slug": "monstertoget-abb-sommer-2981",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "summer",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-sommer-b56c"
+   "deck": "monstertoget-abb-sommer-2981"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-strand-809f",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-strand-b4cf",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "beach",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-strand-809f"
+   "deck": "monstertoget-abb-strand-b4cf"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-sykehus-eba1",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-sykehus-d483",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "hospital",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-sykehus-eba1"
+   "deck": "monstertoget-abb-sykehus-d483"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-thanksgiving-7a50",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-thanksgiving-e756",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "thanksgivinng",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-thanksgiving-7a50"
+   "deck": "monstertoget-abb-thanksgiving-e756"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-tilbehor-2ed5",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-tilbehor-9cbe",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "accessories",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-tilbehor-2ed5"
+   "deck": "monstertoget-abb-tilbehor-9cbe"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-ting-som-flyr-facf",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-ting-som-flyr-574d",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "things_that_fly",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-ting-som-flyr-facf"
+   "deck": "monstertoget-abb-ting-som-flyr-574d"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-traer-5c7d",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-traer-e445",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "tree",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-traer-5c7d"
+   "deck": "monstertoget-abb-traer-e445"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-vaer-9755",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-vaer-780e",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "weather",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-vaer-9755"
+   "deck": "monstertoget-abb-vaer-780e"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-var-404c",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-var-3f98",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "spring",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-var-404c"
+   "deck": "monstertoget-abb-var-3f98"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-verdensrommet-f1a0",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-verdensrommet-0467",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "space",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-verdensrommet-f1a0"
+   "deck": "monstertoget-abb-verdensrommet-0467"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-verktoy-4bbd",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-verktoy-caa0",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "tools",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-verktoy-4bbd"
+   "deck": "monstertoget-abb-verktoy-caa0"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-vinter-7c4f",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-vinter-e7de",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "winter",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-vinter-7c4f"
+   "deck": "monstertoget-abb-vinter-e7de"
   },
   {
-   "slug": "bildevei-klassisk-labyrint-yrker-9615",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "monstertoget-abb-yrker-35cd",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "occupations",
    "level": "1-trinn",
-   "deck": "bildevei-klassisk-labyrint-yrker-9615"
+   "deck": "monstertoget-abb-yrker-35cd"
   },
   {
-   "slug": "subtraksjon-strek-over-bakeri-0389",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-aktiviteter-8fef",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-aktiviteter-8fef"
+  },
+  {
+   "slug": "monstertoget-abc-bakeri-304a",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "bakery",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-bakeri-0389"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-bakeri-304a"
   },
   {
-   "slug": "subtraksjon-strek-over-blomster-10e1",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-blomster-5d91",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "flowers",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-blomster-10e1"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-blomster-5d91"
   },
   {
-   "slug": "subtraksjon-strek-over-camping-35de",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-camping-6451",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "camping",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-camping-35de"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-camping-6451"
   },
   {
-   "slug": "subtraksjon-strek-over-desserter-og-godteri-4194",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-desserter-og-godteri-b54c",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "desserts_and_sweets",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-desserter-og-godteri-4194"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-desserter-og-godteri-b54c"
   },
   {
-   "slug": "subtraksjon-strek-over-dinosaurer-f6c8",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-dinosaurer-db53",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "dinosaurs",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-dinosaurer-f6c8"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-dinosaurer-db53"
   },
   {
-   "slug": "subtraksjon-strek-over-dyr-407b",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-dyr-fde6",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "animals",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-dyr-407b"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-dyr-fde6"
   },
   {
-   "slug": "subtraksjon-strek-over-former-ecd2",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-dyrehagedyr-8efc",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-dyrehagedyr-8efc"
+  },
+  {
+   "slug": "monstertoget-abc-farger-cb55",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-farger-cb55"
+  },
+  {
+   "slug": "monstertoget-abc-folelser-508a",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-folelser-508a"
+  },
+  {
+   "slug": "monstertoget-abc-former-0024",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "shapes",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-former-ecd2"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-former-0024"
   },
   {
-   "slug": "subtraksjon-strek-over-frokost-28ea",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-frokost-6790",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "breakfast",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-frokost-28ea"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-frokost-6790"
   },
   {
-   "slug": "subtraksjon-strek-over-frukter-d4ad",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-frukter-fc13",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "fruits",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-frukter-d4ad"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-frukter-fc13"
   },
   {
-   "slug": "subtraksjon-strek-over-fugler-2-efe1",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-fugler-2-bcad",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "birds_2",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-fugler-2-efe1"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-fugler-2-bcad"
   },
   {
-   "slug": "subtraksjon-strek-over-fugler-eceb",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-fugler-6f02",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "birds",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-fugler-eceb"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-fugler-6f02"
   },
   {
-   "slug": "subtraksjon-strek-over-gardsdyr-2466",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-gardsdyr-b5f6",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "farm_animals",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-gardsdyr-2466"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-gardsdyr-b5f6"
   },
   {
-   "slug": "subtraksjon-strek-over-gronnsaker-39ec",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-gronnsaker-4015",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "vegetables",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-gronnsaker-39ec"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-gronnsaker-4015"
   },
   {
-   "slug": "subtraksjon-strek-over-havliv-5d5c",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-havliv-3e7f",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "ocean_life",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-havliv-5d5c"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-havliv-3e7f"
   },
   {
-   "slug": "subtraksjon-strek-over-i-supermarkedet-110f",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-i-supermarkedet-c074",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "at_the_supermarket",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-i-supermarkedet-110f"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-i-supermarkedet-c074"
   },
   {
-   "slug": "subtraksjon-strek-over-insekter-og-kryp-57c5",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-insekter-og-kryp-1741",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "insects_and_bugs",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-insekter-og-kryp-57c5"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-insekter-og-kryp-1741"
   },
   {
-   "slug": "subtraksjon-strek-over-jul-7de2",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-jul-f168",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "christmas",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-jul-7de2"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-jul-f168"
   },
   {
-   "slug": "subtraksjon-strek-over-kjaeledyr-2908",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-kjaeledyr-b893",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "pets",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-kjaeledyr-2908"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-kjaeledyr-b893"
   },
   {
-   "slug": "subtraksjon-strek-over-kjokkenredskaper-9fdf",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-kjokkenredskaper-60f7",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "kitchen_tools",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-kjokkenredskaper-9fdf"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-kjokkenredskaper-60f7"
   },
   {
-   "slug": "subtraksjon-strek-over-kjoretoy-5b01",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-kjoretoy-2261",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "vehicles",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-kjoretoy-5b01"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-kjoretoy-2261"
   },
   {
-   "slug": "subtraksjon-strek-over-klaer-835a",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-klaer-8364",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "clothing",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-klaer-835a"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-klaer-8364"
   },
   {
-   "slug": "subtraksjon-strek-over-klasserom-d817",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-klasserom-345a",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "classroom",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-klasserom-d817"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-klasserom-345a"
   },
   {
-   "slug": "subtraksjon-strek-over-leker-83c9",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-kroppsdeler-08b1",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-kroppsdeler-08b1"
+  },
+  {
+   "slug": "monstertoget-abc-leker-3d9f",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "toys",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-leker-83c9"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-leker-3d9f"
   },
   {
-   "slug": "subtraksjon-strek-over-mobler-edb0",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-mobler-ea62",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "furniture",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-mobler-edb0"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-mobler-ea62"
   },
   {
-   "slug": "subtraksjon-strek-over-musikk-ce22",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-musikk-9b5f",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "music",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-musikk-ce22"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-musikk-9b5f"
   },
   {
-   "slug": "subtraksjon-strek-over-paske-2e5f",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-paske-1e65",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "easter",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-paske-2e5f"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-paske-1e65"
   },
   {
-   "slug": "subtraksjon-strek-over-postkontor-9369",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-postkontor-a829",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "post_office",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-postkontor-9369"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-postkontor-a829"
   },
   {
-   "slug": "subtraksjon-strek-over-reptiler-og-amfibier-7e77",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-reptiler-og-amfibier-720a",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "reptiles_and_amphibians",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-reptiler-og-amfibier-7e77"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-reptiler-og-amfibier-720a"
   },
   {
-   "slug": "subtraksjon-strek-over-rundt-i-huset-ba6c",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-rundt-i-huset-80b8",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "around_the_house",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-rundt-i-huset-ba6c"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-rundt-i-huset-80b8"
   },
   {
-   "slug": "subtraksjon-strek-over-skogsdyr-65af",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-skogsdyr-4d67",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "forest_creatures",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-skogsdyr-65af"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-skogsdyr-4d67"
   },
   {
-   "slug": "subtraksjon-strek-over-strand-9df6",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-sommer-6050",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-sommer-6050"
+  },
+  {
+   "slug": "monstertoget-abc-strand-a90c",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "beach",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-strand-9df6"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-strand-a90c"
   },
   {
-   "slug": "subtraksjon-strek-over-sykehus-5b60",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-sykehus-56d3",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "hospital",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-sykehus-5b60"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-sykehus-56d3"
   },
   {
-   "slug": "subtraksjon-strek-over-thanksgiving-a708",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-thanksgiving-a620",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "thanksgivinng",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-thanksgiving-a708"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-thanksgiving-a620"
   },
   {
-   "slug": "subtraksjon-strek-over-tilbehor-4bf9",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-tilbehor-137a",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "accessories",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-tilbehor-4bf9"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-tilbehor-137a"
   },
   {
-   "slug": "subtraksjon-strek-over-ting-som-flyr-b5c9",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-ting-som-flyr-38da",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "things_that_fly",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-ting-som-flyr-b5c9"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-ting-som-flyr-38da"
   },
   {
-   "slug": "subtraksjon-strek-over-traer-1a43",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-traer-bed4",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "tree",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-traer-1a43"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-traer-bed4"
   },
   {
-   "slug": "subtraksjon-strek-over-verdensrommet-3e0e",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-vaer-771a",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-vaer-771a"
+  },
+  {
+   "slug": "monstertoget-abc-var-5be5",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-var-5be5"
+  },
+  {
+   "slug": "monstertoget-abc-verdensrommet-fcf3",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "space",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-verdensrommet-3e0e"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-verdensrommet-fcf3"
   },
   {
-   "slug": "subtraksjon-strek-over-verktoy-ab62",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-verktoy-603f",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "tools",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-verktoy-ab62"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-verktoy-603f"
   },
   {
-   "slug": "subtraksjon-strek-over-yrker-ad83",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "monstertoget-abc-vinter-cba5",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-vinter-cba5"
+  },
+  {
+   "slug": "monstertoget-abc-yrker-215b",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "occupations",
-   "level": "2-trinn",
-   "deck": "subtraksjon-strek-over-yrker-ad83"
+   "level": "1-trinn",
+   "deck": "monstertoget-abc-yrker-215b"
   }
  ]
 }

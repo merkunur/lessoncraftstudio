@@ -1,723 +1,660 @@
 {
  "part": 326,
- "locale": "fi",
+ "locale": "no",
  "classes": [
-  "crossword::null"
+  "chart-count::null",
+  "math-puzzle::subtraction"
  ],
  "splitOf": null,
- "count": 89,
+ "count": 81,
  "pages": [
   {
-   "slug": "englanti-ristikko-aamiainen-ab1b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-aamiainen-ab1b"
-  },
-  {
-   "slug": "englanti-ristikko-ajoneuvot-09cb",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-ajoneuvot-09cb"
-  },
-  {
-   "slug": "englanti-ristikko-aktiviteetit-c7a7",
-   "type": "crossword",
-   "mode": null,
-   "theme": "activities",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-aktiviteetit-c7a7"
-  },
-  {
-   "slug": "englanti-ristikko-ammatit-5b48",
-   "type": "crossword",
-   "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-ammatit-5b48"
-  },
-  {
-   "slug": "englanti-ristikko-asusteet-da06",
-   "type": "crossword",
-   "mode": null,
-   "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-asusteet-da06"
-  },
-  {
-   "slug": "englanti-ristikko-avaruus-9547",
-   "type": "crossword",
-   "mode": null,
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-avaruus-9547"
-  },
-  {
-   "slug": "englanti-ristikko-elaimet-8c0b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "animals",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-elaimet-8c0b"
-  },
-  {
-   "slug": "englanti-ristikko-elaintarhan-elaimet-7517",
-   "type": "crossword",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-elaintarhan-elaimet-7517"
-  },
-  {
-   "slug": "englanti-ristikko-hedelmat-ba48",
-   "type": "crossword",
-   "mode": null,
-   "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-hedelmat-ba48"
-  },
-  {
-   "slug": "englanti-ristikko-heinakuun-4-fbc9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-heinakuun-4-fbc9"
-  },
-  {
-   "slug": "englanti-ristikko-huonekalut-92f0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-huonekalut-92f0"
-  },
-  {
-   "slug": "englanti-ristikko-hyonteiset-ja-otokat-972e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-hyonteiset-ja-otokat-972e"
-  },
-  {
-   "slug": "englanti-ristikko-jalkiruoat-ja-makeiset-b668",
-   "type": "crossword",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-jalkiruoat-ja-makeiset-b668"
-  },
-  {
-   "slug": "englanti-ristikko-joulu-ef91",
-   "type": "crossword",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-joulu-ef91"
-  },
-  {
-   "slug": "englanti-ristikko-keittiovalineet-0f06",
-   "type": "crossword",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-keittiovalineet-0f06"
-  },
-  {
-   "slug": "englanti-ristikko-kesa-b4e5",
-   "type": "crossword",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-kesa-b4e5"
-  },
-  {
-   "slug": "englanti-ristikko-kevat-1367",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-kevat-1367"
-  },
-  {
-   "slug": "englanti-ristikko-kiitospaiva-0595",
-   "type": "crossword",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-kiitospaiva-0595"
-  },
-  {
-   "slug": "englanti-ristikko-kodin-ymparilla-bb30",
-   "type": "crossword",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-kodin-ymparilla-bb30"
-  },
-  {
-   "slug": "englanti-ristikko-kukat-7b45",
-   "type": "crossword",
-   "mode": null,
-   "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-kukat-7b45"
-  },
-  {
-   "slug": "englanti-ristikko-leipomo-d2ea",
-   "type": "crossword",
+   "slug": "tell-i-diagram-bakeri-36fe",
+   "type": "chart-count",
    "mode": null,
    "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-leipomo-d2ea"
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-bakeri-36fe"
   },
   {
-   "slug": "englanti-ristikko-leirielama-e394",
-   "type": "crossword",
+   "slug": "tell-i-diagram-blomster-899e",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-blomster-899e"
+  },
+  {
+   "slug": "tell-i-diagram-camping-dae9",
+   "type": "chart-count",
    "mode": null,
    "theme": "camping",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-leirielama-e394"
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-camping-dae9"
   },
   {
-   "slug": "englanti-ristikko-lelut-93bd",
-   "type": "crossword",
+   "slug": "tell-i-diagram-desserter-og-godteri-9a85",
+   "type": "chart-count",
    "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-lelut-93bd"
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-desserter-og-godteri-9a85"
   },
   {
-   "slug": "englanti-ristikko-lemmikit-356c",
-   "type": "crossword",
+   "slug": "tell-i-diagram-dinosaurer-13d0",
+   "type": "chart-count",
    "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-lemmikit-356c"
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-dinosaurer-13d0"
   },
   {
-   "slug": "englanti-ristikko-lentavat-asiat-d0a9",
-   "type": "crossword",
+   "slug": "tell-i-diagram-dyr-40f2",
+   "type": "chart-count",
    "mode": null,
-   "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-lentavat-asiat-d0a9"
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-dyr-40f2"
   },
   {
-   "slug": "englanti-ristikko-linnut-2-fb74",
-   "type": "crossword",
+   "slug": "tell-i-diagram-dyrehagedyr-c058",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-dyrehagedyr-c058"
+  },
+  {
+   "slug": "tell-i-diagram-farger-305e",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "colors",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-farger-305e"
+  },
+  {
+   "slug": "tell-i-diagram-former-bfbc",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-former-bfbc"
+  },
+  {
+   "slug": "tell-i-diagram-frokost-8c40",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-frokost-8c40"
+  },
+  {
+   "slug": "tell-i-diagram-frukter-bb67",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-frukter-bb67"
+  },
+  {
+   "slug": "tell-i-diagram-fugler-2-c83a",
+   "type": "chart-count",
    "mode": null,
    "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-linnut-2-fb74"
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-fugler-2-c83a"
   },
   {
-   "slug": "englanti-ristikko-linnut-f13b",
-   "type": "crossword",
+   "slug": "tell-i-diagram-fugler-f187",
+   "type": "chart-count",
    "mode": null,
    "theme": "birds",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-linnut-f13b"
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-fugler-f187"
   },
   {
-   "slug": "englanti-ristikko-luokkahuone-f1b8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-luokkahuone-f1b8"
-  },
-  {
-   "slug": "englanti-ristikko-maatilan-elaimet-0881",
-   "type": "crossword",
+   "slug": "tell-i-diagram-gardsdyr-43e7",
+   "type": "chart-count",
    "mode": null,
    "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-maatilan-elaimet-0881"
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-gardsdyr-43e7"
   },
   {
-   "slug": "englanti-ristikko-merielama-32f3",
-   "type": "crossword",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-merielama-32f3"
-  },
-  {
-   "slug": "englanti-ristikko-metsan-elaimet-17c8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-metsan-elaimet-17c8"
-  },
-  {
-   "slug": "englanti-ristikko-muodot-a9d6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-muodot-a9d6"
-  },
-  {
-   "slug": "englanti-ristikko-musiikki-de4f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-musiikki-de4f"
-  },
-  {
-   "slug": "englanti-ristikko-paasiainen-ccc1",
-   "type": "crossword",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-paasiainen-ccc1"
-  },
-  {
-   "slug": "englanti-ristikko-postitoimisto-17fa",
-   "type": "crossword",
-   "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-postitoimisto-17fa"
-  },
-  {
-   "slug": "englanti-ristikko-ranta-79d2",
-   "type": "crossword",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-ranta-79d2"
-  },
-  {
-   "slug": "englanti-ristikko-ruokakaupassa-764d",
-   "type": "crossword",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-ruokakaupassa-764d"
-  },
-  {
-   "slug": "englanti-ristikko-ruumiinosat-e0b1",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-ruumiinosat-e0b1"
-  },
-  {
-   "slug": "englanti-ristikko-saa-01ff",
-   "type": "crossword",
-   "mode": null,
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-saa-01ff"
-  },
-  {
-   "slug": "englanti-ristikko-sairaala-9be0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-sairaala-9be0"
-  },
-  {
-   "slug": "englanti-ristikko-talvi-6165",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-talvi-6165"
-  },
-  {
-   "slug": "englanti-ristikko-tunteet-be4b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-tunteet-be4b"
-  },
-  {
-   "slug": "englanti-ristikko-tyokalut-e88e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-tyokalut-e88e"
-  },
-  {
-   "slug": "englanti-ristikko-vaatteet-7183",
-   "type": "crossword",
-   "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-vaatteet-7183"
-  },
-  {
-   "slug": "englanti-ristikko-varit-7cc4",
-   "type": "crossword",
-   "mode": null,
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-varit-7cc4"
-  },
-  {
-   "slug": "englanti-ristikko-vihannekset-d6d9",
-   "type": "crossword",
+   "slug": "tell-i-diagram-gronnsaker-7680",
+   "type": "chart-count",
    "mode": null,
    "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "englanti-ristikko-vihannekset-d6d9"
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-gronnsaker-7680"
   },
   {
-   "slug": "ristikko-aamiainen-e546",
-   "type": "crossword",
+   "slug": "tell-i-diagram-havliv-eb01",
+   "type": "chart-count",
    "mode": null,
-   "theme": "breakfast",
-   "level": "2-luokka",
-   "deck": "ristikko-aamiainen-e546"
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-havliv-eb01"
   },
   {
-   "slug": "ristikko-ajoneuvot-fdaf",
-   "type": "crossword",
+   "slug": "tell-i-diagram-i-supermarkedet-8026",
+   "type": "chart-count",
    "mode": null,
-   "theme": "vehicles",
-   "level": "2-luokka",
-   "deck": "ristikko-ajoneuvot-fdaf"
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-i-supermarkedet-8026"
   },
   {
-   "slug": "ristikko-aktiviteetit-a8ea",
-   "type": "crossword",
-   "mode": null,
-   "theme": "activities",
-   "level": "2-luokka",
-   "deck": "ristikko-aktiviteetit-a8ea"
-  },
-  {
-   "slug": "ristikko-ammatit-d086",
-   "type": "crossword",
-   "mode": null,
-   "theme": "occupations",
-   "level": "2-luokka",
-   "deck": "ristikko-ammatit-d086"
-  },
-  {
-   "slug": "ristikko-asusteet-e80d",
-   "type": "crossword",
-   "mode": null,
-   "theme": "accessories",
-   "level": "2-luokka",
-   "deck": "ristikko-asusteet-e80d"
-  },
-  {
-   "slug": "ristikko-avaruus-0ea4",
-   "type": "crossword",
-   "mode": null,
-   "theme": "space",
-   "level": "2-luokka",
-   "deck": "ristikko-avaruus-0ea4"
-  },
-  {
-   "slug": "ristikko-elaimet-d864",
-   "type": "crossword",
-   "mode": null,
-   "theme": "animals",
-   "level": "2-luokka",
-   "deck": "ristikko-elaimet-d864"
-  },
-  {
-   "slug": "ristikko-elaintarhan-elaimet-319a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "2-luokka",
-   "deck": "ristikko-elaintarhan-elaimet-319a"
-  },
-  {
-   "slug": "ristikko-hedelmat-e7cb",
-   "type": "crossword",
-   "mode": null,
-   "theme": "fruits",
-   "level": "2-luokka",
-   "deck": "ristikko-hedelmat-e7cb"
-  },
-  {
-   "slug": "ristikko-huonekalut-73e2",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "2-luokka",
-   "deck": "ristikko-huonekalut-73e2"
-  },
-  {
-   "slug": "ristikko-hyonteiset-ja-otokat-20f6",
-   "type": "crossword",
+   "slug": "tell-i-diagram-insekter-og-kryp-3d00",
+   "type": "chart-count",
    "mode": null,
    "theme": "insects_and_bugs",
-   "level": "2-luokka",
-   "deck": "ristikko-hyonteiset-ja-otokat-20f6"
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-insekter-og-kryp-3d00"
   },
   {
-   "slug": "ristikko-jalkiruoat-ja-makeiset-5fb5",
-   "type": "crossword",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "2-luokka",
-   "deck": "ristikko-jalkiruoat-ja-makeiset-5fb5"
-  },
-  {
-   "slug": "ristikko-joulu-abae",
-   "type": "crossword",
+   "slug": "tell-i-diagram-jul-4406",
+   "type": "chart-count",
    "mode": null,
    "theme": "christmas",
-   "level": "2-luokka",
-   "deck": "ristikko-joulu-abae"
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-jul-4406"
   },
   {
-   "slug": "ristikko-keittiovalineet-6f7b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "2-luokka",
-   "deck": "ristikko-keittiovalineet-6f7b"
-  },
-  {
-   "slug": "ristikko-kesa-2096",
-   "type": "crossword",
-   "mode": null,
-   "theme": "summer",
-   "level": "2-luokka",
-   "deck": "ristikko-kesa-2096"
-  },
-  {
-   "slug": "ristikko-kevat-4e26",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
-   "level": "2-luokka",
-   "deck": "ristikko-kevat-4e26"
-  },
-  {
-   "slug": "ristikko-kiitospaiva-98de",
-   "type": "crossword",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "2-luokka",
-   "deck": "ristikko-kiitospaiva-98de"
-  },
-  {
-   "slug": "ristikko-kodin-ymparilla-5246",
-   "type": "crossword",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "2-luokka",
-   "deck": "ristikko-kodin-ymparilla-5246"
-  },
-  {
-   "slug": "ristikko-kukat-ff43",
-   "type": "crossword",
-   "mode": null,
-   "theme": "flowers",
-   "level": "2-luokka",
-   "deck": "ristikko-kukat-ff43"
-  },
-  {
-   "slug": "ristikko-leipomo-4c19",
-   "type": "crossword",
-   "mode": null,
-   "theme": "bakery",
-   "level": "2-luokka",
-   "deck": "ristikko-leipomo-4c19"
-  },
-  {
-   "slug": "ristikko-leirielama-7332",
-   "type": "crossword",
-   "mode": null,
-   "theme": "camping",
-   "level": "2-luokka",
-   "deck": "ristikko-leirielama-7332"
-  },
-  {
-   "slug": "ristikko-lelut-a1fc",
-   "type": "crossword",
-   "mode": null,
-   "theme": "toys",
-   "level": "2-luokka",
-   "deck": "ristikko-lelut-a1fc"
-  },
-  {
-   "slug": "ristikko-lemmikit-4b68",
-   "type": "crossword",
+   "slug": "tell-i-diagram-kjaeledyr-881c",
+   "type": "chart-count",
    "mode": null,
    "theme": "pets",
-   "level": "2-luokka",
-   "deck": "ristikko-lemmikit-4b68"
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-kjaeledyr-881c"
   },
   {
-   "slug": "ristikko-lentavat-asiat-c5ab",
-   "type": "crossword",
+   "slug": "tell-i-diagram-kjokkenredskaper-e99f",
+   "type": "chart-count",
    "mode": null,
-   "theme": "things_that_fly",
-   "level": "2-luokka",
-   "deck": "ristikko-lentavat-asiat-c5ab"
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-kjokkenredskaper-e99f"
   },
   {
-   "slug": "ristikko-linnut-2-f3e0",
-   "type": "crossword",
+   "slug": "tell-i-diagram-kjoretoy-3040",
+   "type": "chart-count",
    "mode": null,
-   "theme": "birds_2",
-   "level": "2-luokka",
-   "deck": "ristikko-linnut-2-f3e0"
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-kjoretoy-3040"
   },
   {
-   "slug": "ristikko-luokkahuone-ddce",
-   "type": "crossword",
-   "mode": null,
-   "theme": "classroom",
-   "level": "2-luokka",
-   "deck": "ristikko-luokkahuone-ddce"
-  },
-  {
-   "slug": "ristikko-maatilan-elaimet-b40a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "2-luokka",
-   "deck": "ristikko-maatilan-elaimet-b40a"
-  },
-  {
-   "slug": "ristikko-merielama-b771",
-   "type": "crossword",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "2-luokka",
-   "deck": "ristikko-merielama-b771"
-  },
-  {
-   "slug": "ristikko-metsan-elaimet-4e15",
-   "type": "crossword",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "2-luokka",
-   "deck": "ristikko-metsan-elaimet-4e15"
-  },
-  {
-   "slug": "ristikko-muodot-9f18",
-   "type": "crossword",
-   "mode": null,
-   "theme": "shapes",
-   "level": "2-luokka",
-   "deck": "ristikko-muodot-9f18"
-  },
-  {
-   "slug": "ristikko-musiikki-5cb6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "2-luokka",
-   "deck": "ristikko-musiikki-5cb6"
-  },
-  {
-   "slug": "ristikko-paasiainen-e7ce",
-   "type": "crossword",
-   "mode": null,
-   "theme": "easter",
-   "level": "2-luokka",
-   "deck": "ristikko-paasiainen-e7ce"
-  },
-  {
-   "slug": "ristikko-puut-ef3b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "tree",
-   "level": "2-luokka",
-   "deck": "ristikko-puut-ef3b"
-  },
-  {
-   "slug": "ristikko-ranta-f41b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "beach",
-   "level": "2-luokka",
-   "deck": "ristikko-ranta-f41b"
-  },
-  {
-   "slug": "ristikko-ruokakaupassa-2f6a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "2-luokka",
-   "deck": "ristikko-ruokakaupassa-2f6a"
-  },
-  {
-   "slug": "ristikko-ruumiinosat-c664",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "2-luokka",
-   "deck": "ristikko-ruumiinosat-c664"
-  },
-  {
-   "slug": "ristikko-saa-3a63",
-   "type": "crossword",
-   "mode": null,
-   "theme": "weather",
-   "level": "2-luokka",
-   "deck": "ristikko-saa-3a63"
-  },
-  {
-   "slug": "ristikko-sairaala-faf5",
-   "type": "crossword",
-   "mode": null,
-   "theme": "hospital",
-   "level": "2-luokka",
-   "deck": "ristikko-sairaala-faf5"
-  },
-  {
-   "slug": "ristikko-talvi-6d49",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "2-luokka",
-   "deck": "ristikko-talvi-6d49"
-  },
-  {
-   "slug": "ristikko-tyokalut-eb1b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "tools",
-   "level": "2-luokka",
-   "deck": "ristikko-tyokalut-eb1b"
-  },
-  {
-   "slug": "ristikko-vaatteet-7bfc",
-   "type": "crossword",
+   "slug": "tell-i-diagram-klaer-8692",
+   "type": "chart-count",
    "mode": null,
    "theme": "clothing",
-   "level": "2-luokka",
-   "deck": "ristikko-vaatteet-7bfc"
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-klaer-8692"
   },
   {
-   "slug": "ristikko-varit-f10e",
-   "type": "crossword",
+   "slug": "tell-i-diagram-klasserom-8658",
+   "type": "chart-count",
    "mode": null,
-   "theme": "colors",
-   "level": "2-luokka",
-   "deck": "ristikko-varit-f10e"
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-klasserom-8658"
   },
   {
-   "slug": "ristikko-vihannekset-e980",
-   "type": "crossword",
+   "slug": "tell-i-diagram-leker-38a4",
+   "type": "chart-count",
    "mode": null,
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-leker-38a4"
+  },
+  {
+   "slug": "tell-i-diagram-mobler-211f",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-mobler-211f"
+  },
+  {
+   "slug": "tell-i-diagram-musikk-666a",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-musikk-666a"
+  },
+  {
+   "slug": "tell-i-diagram-paske-923e",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-paske-923e"
+  },
+  {
+   "slug": "tell-i-diagram-postkontor-ed4a",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-postkontor-ed4a"
+  },
+  {
+   "slug": "tell-i-diagram-reptiler-og-amfibier-c0f7",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-reptiler-og-amfibier-c0f7"
+  },
+  {
+   "slug": "tell-i-diagram-rundt-i-huset-a597",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-rundt-i-huset-a597"
+  },
+  {
+   "slug": "tell-i-diagram-skogsdyr-4b34",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-skogsdyr-4b34"
+  },
+  {
+   "slug": "tell-i-diagram-strand-8fa7",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-strand-8fa7"
+  },
+  {
+   "slug": "tell-i-diagram-sykehus-6a94",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-sykehus-6a94"
+  },
+  {
+   "slug": "tell-i-diagram-thanksgiving-1caa",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-thanksgiving-1caa"
+  },
+  {
+   "slug": "tell-i-diagram-tilbehor-a40c",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-tilbehor-a40c"
+  },
+  {
+   "slug": "tell-i-diagram-ting-som-flyr-e915",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-ting-som-flyr-e915"
+  },
+  {
+   "slug": "tell-i-diagram-traer-1f4c",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-traer-1f4c"
+  },
+  {
+   "slug": "tell-i-diagram-verdensrommet-c152",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-verdensrommet-c152"
+  },
+  {
+   "slug": "tell-i-diagram-verktoy-209f",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-verktoy-209f"
+  },
+  {
+   "slug": "tell-i-diagram-yrker-7186",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-yrker-7186"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-bakeri-2f55",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-bakeri-2f55"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-blomster-97f4",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "flowers",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-blomster-97f4"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-camping-5cc3",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-camping-5cc3"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-desserter-og-godteri-6362",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-desserter-og-godteri-6362"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-dinosaurer-fe2e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "dinosaurs",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-dinosaurer-fe2e"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-dyr-4415",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-dyr-4415"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-dyrehagedyr-7868",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-dyrehagedyr-7868"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-former-2ae7",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-former-2ae7"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-frokost-ea02",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "breakfast",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-frokost-ea02"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-frukter-2ac1",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-frukter-2ac1"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-fugler-2-02cd",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-fugler-2-02cd"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-fugler-b209",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-fugler-b209"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-gardsdyr-37ed",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "farm_animals",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-gardsdyr-37ed"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-gronnsaker-668e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "vegetables",
-   "level": "2-luokka",
-   "deck": "ristikko-vihannekset-e980"
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-gronnsaker-668e"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-havliv-b261",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "ocean_life",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-havliv-b261"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-i-supermarkedet-d571",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "at_the_supermarket",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-i-supermarkedet-d571"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-insekter-og-kryp-d602",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-insekter-og-kryp-d602"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-jul-d18d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-jul-d18d"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-kjaeledyr-3d6e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-kjaeledyr-3d6e"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-kjokkenredskaper-ca09",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "kitchen_tools",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-kjokkenredskaper-ca09"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-kjoretoy-7d51",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vehicles",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-kjoretoy-7d51"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-klaer-49b9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "clothing",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-klaer-49b9"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-klasserom-0b1f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "classroom",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-klasserom-0b1f"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-leker-bc27",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-leker-bc27"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-mobler-2989",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-mobler-2989"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-musikk-aadb",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "music",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-musikk-aadb"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-paske-49de",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-paske-49de"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-postkontor-3565",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "post_office",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-postkontor-3565"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-reptiler-og-amfibier-0412",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-reptiler-og-amfibier-0412"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-rundt-i-huset-6ec6",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "around_the_house",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-rundt-i-huset-6ec6"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-skogsdyr-d4c8",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "forest_creatures",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-skogsdyr-d4c8"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-strand-62e7",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "beach",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-strand-62e7"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-sykehus-9acd",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-sykehus-9acd"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-thanksgiving-55ba",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-thanksgiving-55ba"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-tilbehor-dc15",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "accessories",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-tilbehor-dc15"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-ting-som-flyr-9ad0",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "things_that_fly",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-ting-som-flyr-9ad0"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-traer-1a13",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-traer-1a13"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-verdensrommet-e864",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "space",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-subtraksjon-verdensrommet-e864"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-verktoy-c38f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-verktoy-c38f"
+  },
+  {
+   "slug": "mattepuslespill-subtraksjon-yrker-e15f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-subtraksjon-yrker-e15f"
   }
  ]
 }

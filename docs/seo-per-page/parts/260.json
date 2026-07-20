@@ -1,755 +1,660 @@
 {
  "part": 260,
- "locale": "da",
+ "locale": "sv",
  "classes": [
-  "crossword::null"
+  "math-puzzle::addition",
+  "math-puzzle::mixed"
  ],
  "splitOf": null,
- "count": 93,
+ "count": 81,
  "pages": [
   {
-   "slug": "engelsk-krydsord-4-juli-fbc9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-4-juli-fbc9"
-  },
-  {
-   "slug": "engelsk-krydsord-aktiviteter-a733",
-   "type": "crossword",
-   "mode": null,
-   "theme": "activities",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-aktiviteter-a733"
-  },
-  {
-   "slug": "engelsk-krydsord-bageri-308a",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-bageri-c428",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-bageri-308a"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-bageri-c428"
   },
   {
-   "slug": "engelsk-krydsord-blomster-50d8",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-blandat-3ef6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "miscellaneous",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-blandat-3ef6"
+  },
+  {
+   "slug": "mattepussel-addition-blommor-27e7",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-blomster-50d8"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-blommor-27e7"
   },
   {
-   "slug": "engelsk-krydsord-bondegardsdyr-8b5f",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-bondgardsdjur-e1f0",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-bondegardsdyr-8b5f"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-bondgardsdjur-e1f0"
   },
   {
-   "slug": "engelsk-krydsord-camping-ec82",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-camping-a0ee",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "camping",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-camping-ec82"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-camping-a0ee"
   },
   {
-   "slug": "engelsk-krydsord-dyr-139f",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-dinosaurier-3eb8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-dinosaurier-3eb8"
+  },
+  {
+   "slug": "mattepussel-addition-djur-d2c8",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "animals",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-dyr-139f"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-djur-d2c8"
   },
   {
-   "slug": "engelsk-krydsord-erhverv-ee25",
-   "type": "crossword",
-   "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-erhverv-ee25"
-  },
-  {
-   "slug": "engelsk-krydsord-farver-8e10",
-   "type": "crossword",
-   "mode": null,
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-farver-8e10"
-  },
-  {
-   "slug": "engelsk-krydsord-folelser-13fd",
-   "type": "crossword",
-   "mode": null,
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-folelser-13fd"
-  },
-  {
-   "slug": "engelsk-krydsord-forar-2765",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-forar-2765"
-  },
-  {
-   "slug": "engelsk-krydsord-former-6a61",
-   "type": "crossword",
-   "mode": null,
-   "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-former-6a61"
-  },
-  {
-   "slug": "engelsk-krydsord-frugter-df66",
-   "type": "crossword",
-   "mode": null,
-   "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-frugter-df66"
-  },
-  {
-   "slug": "engelsk-krydsord-fugle-2-45a2",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-fugle-2-45a2"
-  },
-  {
-   "slug": "engelsk-krydsord-fugle-92fb",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-fugle-92fb"
-  },
-  {
-   "slug": "engelsk-krydsord-grontsager-8184",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-grontsager-8184"
-  },
-  {
-   "slug": "engelsk-krydsord-havliv-808a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-havliv-808a"
-  },
-  {
-   "slug": "engelsk-krydsord-hospital-f317",
-   "type": "crossword",
-   "mode": null,
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-hospital-f317"
-  },
-  {
-   "slug": "engelsk-krydsord-i-supermarkedet-6bc2",
-   "type": "crossword",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-i-supermarkedet-6bc2"
-  },
-  {
-   "slug": "engelsk-krydsord-insekter-og-kryb-8220",
-   "type": "crossword",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-insekter-og-kryb-8220"
-  },
-  {
-   "slug": "engelsk-krydsord-jul-4a25",
-   "type": "crossword",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-jul-4a25"
-  },
-  {
-   "slug": "engelsk-krydsord-kaeledyr-9b51",
-   "type": "crossword",
-   "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-kaeledyr-9b51"
-  },
-  {
-   "slug": "engelsk-krydsord-klassevaerelse-ed6b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-klassevaerelse-ed6b"
-  },
-  {
-   "slug": "engelsk-krydsord-kokkenredskaber-ade7",
-   "type": "crossword",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-kokkenredskaber-ade7"
-  },
-  {
-   "slug": "engelsk-krydsord-koretojer-39dc",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-koretojer-39dc"
-  },
-  {
-   "slug": "engelsk-krydsord-kropsdele-abc4",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-kropsdele-abc4"
-  },
-  {
-   "slug": "engelsk-krydsord-krybdyr-og-padder-f20a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-krybdyr-og-padder-f20a"
-  },
-  {
-   "slug": "engelsk-krydsord-legetoj-ec28",
-   "type": "crossword",
-   "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-legetoj-ec28"
-  },
-  {
-   "slug": "engelsk-krydsord-mobler-6c46",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-mobler-6c46"
-  },
-  {
-   "slug": "engelsk-krydsord-morgenmad-478e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-morgenmad-478e"
-  },
-  {
-   "slug": "engelsk-krydsord-musik-de4f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-musik-de4f"
-  },
-  {
-   "slug": "engelsk-krydsord-paske-203a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-paske-203a"
-  },
-  {
-   "slug": "engelsk-krydsord-postkontor-285f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-postkontor-285f"
-  },
-  {
-   "slug": "engelsk-krydsord-rummet-703f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-rummet-703f"
-  },
-  {
-   "slug": "engelsk-krydsord-rundt-i-huset-d1d1",
-   "type": "crossword",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-rundt-i-huset-d1d1"
-  },
-  {
-   "slug": "engelsk-krydsord-skovdyr-deb6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-skovdyr-deb6"
-  },
-  {
-   "slug": "engelsk-krydsord-sommer-b43a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-sommer-b43a"
-  },
-  {
-   "slug": "engelsk-krydsord-strand-1f79",
-   "type": "crossword",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-strand-1f79"
-  },
-  {
-   "slug": "engelsk-krydsord-thanksgiving-9bfa",
-   "type": "crossword",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-thanksgiving-9bfa"
-  },
-  {
-   "slug": "engelsk-krydsord-tilbehor-679a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-tilbehor-679a"
-  },
-  {
-   "slug": "engelsk-krydsord-ting-der-flyver-fba6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-ting-der-flyver-fba6"
-  },
-  {
-   "slug": "engelsk-krydsord-toj-e9ff",
-   "type": "crossword",
-   "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-toj-e9ff"
-  },
-  {
-   "slug": "engelsk-krydsord-vaerktoj-3c8f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-vaerktoj-3c8f"
-  },
-  {
-   "slug": "engelsk-krydsord-vejr-144a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-vejr-144a"
-  },
-  {
-   "slug": "engelsk-krydsord-vinter-97bf",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-vinter-97bf"
-  },
-  {
-   "slug": "engelsk-krydsord-zoodyr-1225",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-djurparksdjur-cd9e",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "engelsk-krydsord-zoodyr-1225"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-djurparksdjur-cd9e"
   },
   {
-   "slug": "krydsord-aktiviteter-df80",
-   "type": "crossword",
-   "mode": null,
-   "theme": "activities",
-   "level": "2-klasse",
-   "deck": "krydsord-aktiviteter-df80"
-  },
-  {
-   "slug": "krydsord-bageri-9ffc",
-   "type": "crossword",
-   "mode": null,
-   "theme": "bakery",
-   "level": "2-klasse",
-   "deck": "krydsord-bageri-9ffc"
-  },
-  {
-   "slug": "krydsord-blomster-b1fc",
-   "type": "crossword",
-   "mode": null,
-   "theme": "flowers",
-   "level": "2-klasse",
-   "deck": "krydsord-blomster-b1fc"
-  },
-  {
-   "slug": "krydsord-bondegardsdyr-b4fa",
-   "type": "crossword",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "2-klasse",
-   "deck": "krydsord-bondegardsdyr-b4fa"
-  },
-  {
-   "slug": "krydsord-camping-bbab",
-   "type": "crossword",
-   "mode": null,
-   "theme": "camping",
-   "level": "2-klasse",
-   "deck": "krydsord-camping-bbab"
-  },
-  {
-   "slug": "krydsord-desserter-og-slik-aece",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-efterratter-och-godis-5ab2",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "desserts_and_sweets",
-   "level": "2-klasse",
-   "deck": "krydsord-desserter-og-slik-aece"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-efterratter-och-godis-5ab2"
   },
   {
-   "slug": "krydsord-dyr-fcf8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "animals",
-   "level": "2-klasse",
-   "deck": "krydsord-dyr-fcf8"
-  },
-  {
-   "slug": "krydsord-erhverv-e116",
-   "type": "crossword",
-   "mode": null,
-   "theme": "occupations",
-   "level": "2-klasse",
-   "deck": "krydsord-erhverv-e116"
-  },
-  {
-   "slug": "krydsord-farver-9f2a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "colors",
-   "level": "2-klasse",
-   "deck": "krydsord-farver-9f2a"
-  },
-  {
-   "slug": "krydsord-folelser-60fa",
-   "type": "crossword",
-   "mode": null,
-   "theme": "emotions",
-   "level": "2-klasse",
-   "deck": "krydsord-folelser-60fa"
-  },
-  {
-   "slug": "krydsord-forar-be02",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
-   "level": "2-klasse",
-   "deck": "krydsord-forar-be02"
-  },
-  {
-   "slug": "krydsord-former-e356",
-   "type": "crossword",
-   "mode": null,
-   "theme": "shapes",
-   "level": "2-klasse",
-   "deck": "krydsord-former-e356"
-  },
-  {
-   "slug": "krydsord-frugter-1d0e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "fruits",
-   "level": "2-klasse",
-   "deck": "krydsord-frugter-1d0e"
-  },
-  {
-   "slug": "krydsord-fugle-2-640d",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-faglar-2-8c02",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "birds_2",
-   "level": "2-klasse",
-   "deck": "krydsord-fugle-2-640d"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-faglar-2-8c02"
   },
   {
-   "slug": "krydsord-fugle-9fe6",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-faglar-72c1",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "birds",
-   "level": "2-klasse",
-   "deck": "krydsord-fugle-9fe6"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-faglar-72c1"
   },
   {
-   "slug": "krydsord-grontsager-daa1",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "2-klasse",
-   "deck": "krydsord-grontsager-daa1"
-  },
-  {
-   "slug": "krydsord-havliv-6f40",
-   "type": "crossword",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "2-klasse",
-   "deck": "krydsord-havliv-6f40"
-  },
-  {
-   "slug": "krydsord-hospital-ce7f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "hospital",
-   "level": "2-klasse",
-   "deck": "krydsord-hospital-ce7f"
-  },
-  {
-   "slug": "krydsord-i-supermarkedet-d6fd",
-   "type": "crossword",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "2-klasse",
-   "deck": "krydsord-i-supermarkedet-d6fd"
-  },
-  {
-   "slug": "krydsord-insekter-og-kryb-d981",
-   "type": "crossword",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "2-klasse",
-   "deck": "krydsord-insekter-og-kryb-d981"
-  },
-  {
-   "slug": "krydsord-jul-fdaa",
-   "type": "crossword",
-   "mode": null,
-   "theme": "christmas",
-   "level": "2-klasse",
-   "deck": "krydsord-jul-fdaa"
-  },
-  {
-   "slug": "krydsord-kaeledyr-2009",
-   "type": "crossword",
-   "mode": null,
-   "theme": "pets",
-   "level": "2-klasse",
-   "deck": "krydsord-kaeledyr-2009"
-  },
-  {
-   "slug": "krydsord-klassevaerelse-503d",
-   "type": "crossword",
-   "mode": null,
-   "theme": "classroom",
-   "level": "2-klasse",
-   "deck": "krydsord-klassevaerelse-503d"
-  },
-  {
-   "slug": "krydsord-kokkenredskaber-7d84",
-   "type": "crossword",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "2-klasse",
-   "deck": "krydsord-kokkenredskaber-7d84"
-  },
-  {
-   "slug": "krydsord-koretojer-1aa5",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-fordon-b536",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "vehicles",
-   "level": "2-klasse",
-   "deck": "krydsord-koretojer-1aa5"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-fordon-b536"
   },
   {
-   "slug": "krydsord-kropsdele-6138",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "2-klasse",
-   "deck": "krydsord-kropsdele-6138"
+   "slug": "mattepussel-addition-former-9c2d",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-former-9c2d"
   },
   {
-   "slug": "krydsord-krybdyr-og-padder-0d14",
-   "type": "crossword",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "2-klasse",
-   "deck": "krydsord-krybdyr-og-padder-0d14"
-  },
-  {
-   "slug": "krydsord-legetoj-cf48",
-   "type": "crossword",
-   "mode": null,
-   "theme": "toys",
-   "level": "2-klasse",
-   "deck": "krydsord-legetoj-cf48"
-  },
-  {
-   "slug": "krydsord-mobler-cfd9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "2-klasse",
-   "deck": "krydsord-mobler-cfd9"
-  },
-  {
-   "slug": "krydsord-morgenmad-a6fc",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-frukost-f1f5",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "breakfast",
-   "level": "2-klasse",
-   "deck": "krydsord-morgenmad-a6fc"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-frukost-f1f5"
   },
   {
-   "slug": "krydsord-musik-7232",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "2-klasse",
-   "deck": "krydsord-musik-7232"
+   "slug": "mattepussel-addition-frukter-0e64",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-frukter-0e64"
   },
   {
-   "slug": "krydsord-paske-025c",
-   "type": "crossword",
-   "mode": null,
-   "theme": "easter",
-   "level": "2-klasse",
-   "deck": "krydsord-paske-025c"
+   "slug": "mattepussel-addition-gronsaker-773b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-gronsaker-773b"
   },
   {
-   "slug": "krydsord-postkontor-0be1",
-   "type": "crossword",
-   "mode": null,
-   "theme": "post_office",
-   "level": "2-klasse",
-   "deck": "krydsord-postkontor-0be1"
+   "slug": "mattepussel-addition-havsliv-a7ee",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-havsliv-a7ee"
   },
   {
-   "slug": "krydsord-rummet-9145",
-   "type": "crossword",
-   "mode": null,
-   "theme": "space",
-   "level": "2-klasse",
-   "deck": "krydsord-rummet-9145"
+   "slug": "mattepussel-addition-husdjur-4659",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-husdjur-4659"
   },
   {
-   "slug": "krydsord-rundt-i-huset-1fdb",
-   "type": "crossword",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "2-klasse",
-   "deck": "krydsord-rundt-i-huset-1fdb"
+   "slug": "mattepussel-addition-i-snabbkopet-38e7",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-i-snabbkopet-38e7"
   },
   {
-   "slug": "krydsord-skovdyr-f2c9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "2-klasse",
-   "deck": "krydsord-skovdyr-f2c9"
+   "slug": "mattepussel-addition-insekter-och-kryp-f6c8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-insekter-och-kryp-f6c8"
   },
   {
-   "slug": "krydsord-sommer-dfc5",
-   "type": "crossword",
-   "mode": null,
-   "theme": "summer",
-   "level": "2-klasse",
-   "deck": "krydsord-sommer-dfc5"
+   "slug": "mattepussel-addition-jul-ab75",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-jul-ab75"
   },
   {
-   "slug": "krydsord-strand-cbb0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "beach",
-   "level": "2-klasse",
-   "deck": "krydsord-strand-cbb0"
-  },
-  {
-   "slug": "krydsord-thanksgiving-f4bb",
-   "type": "crossword",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "2-klasse",
-   "deck": "krydsord-thanksgiving-f4bb"
-  },
-  {
-   "slug": "krydsord-tilbehor-6d94",
-   "type": "crossword",
-   "mode": null,
-   "theme": "accessories",
-   "level": "2-klasse",
-   "deck": "krydsord-tilbehor-6d94"
-  },
-  {
-   "slug": "krydsord-ting-der-flyver-82af",
-   "type": "crossword",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "2-klasse",
-   "deck": "krydsord-ting-der-flyver-82af"
-  },
-  {
-   "slug": "krydsord-toj-ba78",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-klader-1584",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "clothing",
-   "level": "2-klasse",
-   "deck": "krydsord-toj-ba78"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-klader-1584"
   },
   {
-   "slug": "krydsord-traeer-d2b1",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-klassrum-f7f2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-klassrum-f7f2"
+  },
+  {
+   "slug": "mattepussel-addition-koksredskap-d55f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-koksredskap-d55f"
+  },
+  {
+   "slug": "mattepussel-addition-leksaker-25e0",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-leksaker-25e0"
+  },
+  {
+   "slug": "mattepussel-addition-mobler-43c1",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-mobler-43c1"
+  },
+  {
+   "slug": "mattepussel-addition-musik-f6dd",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-musik-f6dd"
+  },
+  {
+   "slug": "mattepussel-addition-pask-0a65",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-pask-0a65"
+  },
+  {
+   "slug": "mattepussel-addition-postkontor-d394",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-postkontor-d394"
+  },
+  {
+   "slug": "mattepussel-addition-reptiler-och-groddjur-fb56",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-reptiler-och-groddjur-fb56"
+  },
+  {
+   "slug": "mattepussel-addition-runt-huset-aed2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-runt-huset-aed2"
+  },
+  {
+   "slug": "mattepussel-addition-rymden-45b8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-rymden-45b8"
+  },
+  {
+   "slug": "mattepussel-addition-saker-som-flyger-91ab",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-saker-som-flyger-91ab"
+  },
+  {
+   "slug": "mattepussel-addition-sjukhus-ba1f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-sjukhus-ba1f"
+  },
+  {
+   "slug": "mattepussel-addition-skogsdjur-a154",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-skogsdjur-a154"
+  },
+  {
+   "slug": "mattepussel-addition-strand-3e5f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-strand-3e5f"
+  },
+  {
+   "slug": "mattepussel-addition-thanksgiving-3eeb",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-thanksgiving-3eeb"
+  },
+  {
+   "slug": "mattepussel-addition-tillbehor-fe9d",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-tillbehor-fe9d"
+  },
+  {
+   "slug": "mattepussel-addition-trad-f443",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "tree",
-   "level": "2-klasse",
-   "deck": "krydsord-traeer-d2b1"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-trad-f443"
   },
   {
-   "slug": "krydsord-vaerktoj-a17d",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-addition-verktyg-e928",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "tools",
-   "level": "2-klasse",
-   "deck": "krydsord-vaerktoj-a17d"
+   "level": "ak-1",
+   "deck": "mattepussel-addition-verktyg-e928"
   },
   {
-   "slug": "krydsord-vejr-d6f8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "weather",
-   "level": "2-klasse",
-   "deck": "krydsord-vejr-d6f8"
+   "slug": "mattepussel-addition-yrken-f0f0",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "mattepussel-addition-yrken-f0f0"
   },
   {
-   "slug": "krydsord-vinter-be8d",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "2-klasse",
-   "deck": "krydsord-vinter-be8d"
+   "slug": "mattepussel-blandat-bageri-0ff1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-bageri-0ff1"
   },
   {
-   "slug": "krydsord-zoodyr-7f61",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mattepussel-blandat-blommor-1bd3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-blommor-1bd3"
+  },
+  {
+   "slug": "mattepussel-blandat-bondgardsdjur-1bdb",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-bondgardsdjur-1bdb"
+  },
+  {
+   "slug": "mattepussel-blandat-camping-cb89",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-camping-cb89"
+  },
+  {
+   "slug": "mattepussel-blandat-dinosaurier-5ebe",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-dinosaurier-5ebe"
+  },
+  {
+   "slug": "mattepussel-blandat-djur",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-djur"
+  },
+  {
+   "slug": "mattepussel-blandat-djurparksdjur-8dc2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "2-klasse",
-   "deck": "krydsord-zoodyr-7f61"
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-djurparksdjur-8dc2"
+  },
+  {
+   "slug": "mattepussel-blandat-efterratter-och-godis-1425",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-efterratter-och-godis-1425"
+  },
+  {
+   "slug": "mattepussel-blandat-faglar-2-2bc0",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-faglar-2-2bc0"
+  },
+  {
+   "slug": "mattepussel-blandat-faglar-fb9e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-faglar-fb9e"
+  },
+  {
+   "slug": "mattepussel-blandat-fordon-4fb3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-fordon-4fb3"
+  },
+  {
+   "slug": "mattepussel-blandat-former-e7ab",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-former-e7ab"
+  },
+  {
+   "slug": "mattepussel-blandat-frukost-796e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-frukost-796e"
+  },
+  {
+   "slug": "mattepussel-blandat-frukter-fe87",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-frukter-fe87"
+  },
+  {
+   "slug": "mattepussel-blandat-gronsaker-4bc9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-gronsaker-4bc9"
+  },
+  {
+   "slug": "mattepussel-blandat-havsliv-8e60",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-havsliv-8e60"
+  },
+  {
+   "slug": "mattepussel-blandat-husdjur-5da3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-husdjur-5da3"
+  },
+  {
+   "slug": "mattepussel-blandat-i-snabbkopet-f67b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-i-snabbkopet-f67b"
+  },
+  {
+   "slug": "mattepussel-blandat-insekter-och-kryp-d368",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-insekter-och-kryp-d368"
+  },
+  {
+   "slug": "mattepussel-blandat-jul-e98f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-jul-e98f"
+  },
+  {
+   "slug": "mattepussel-blandat-klader-030f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-klader-030f"
+  },
+  {
+   "slug": "mattepussel-blandat-klassrum-2968",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-klassrum-2968"
+  },
+  {
+   "slug": "mattepussel-blandat-koksredskap-3111",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-koksredskap-3111"
+  },
+  {
+   "slug": "mattepussel-blandat-leksaker-2243",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-leksaker-2243"
+  },
+  {
+   "slug": "mattepussel-blandat-mobler-6c5e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-mobler-6c5e"
+  },
+  {
+   "slug": "mattepussel-blandat-musik-0cc9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-musik-0cc9"
+  },
+  {
+   "slug": "mattepussel-blandat-pask-8bf7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-pask-8bf7"
+  },
+  {
+   "slug": "mattepussel-blandat-postkontor-ce99",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-postkontor-ce99"
+  },
+  {
+   "slug": "mattepussel-blandat-reptiler-och-groddjur-095f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-reptiler-och-groddjur-095f"
+  },
+  {
+   "slug": "mattepussel-blandat-runt-huset-8fe7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-runt-huset-8fe7"
+  },
+  {
+   "slug": "mattepussel-blandat-rymden-c5c2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-rymden-c5c2"
+  },
+  {
+   "slug": "mattepussel-blandat-saker-som-flyger-b16b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-saker-som-flyger-b16b"
+  },
+  {
+   "slug": "mattepussel-blandat-sjukhus-c0d8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-sjukhus-c0d8"
+  },
+  {
+   "slug": "mattepussel-blandat-skogsdjur-6d11",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-skogsdjur-6d11"
+  },
+  {
+   "slug": "mattepussel-blandat-strand-5701",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-strand-5701"
+  },
+  {
+   "slug": "mattepussel-blandat-thanksgiving-af13",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-thanksgiving-af13"
+  },
+  {
+   "slug": "mattepussel-blandat-tillbehor-9fa9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-tillbehor-9fa9"
+  },
+  {
+   "slug": "mattepussel-blandat-trad-622b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-trad-622b"
+  },
+  {
+   "slug": "mattepussel-blandat-verktyg-0c2c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "mattepussel-blandat-verktyg-0c2c"
+  },
+  {
+   "slug": "mattepussel-blandat-yrken-164d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "ak-2",
+   "deck": "mattepussel-blandat-yrken-164d"
   }
  ]
 }

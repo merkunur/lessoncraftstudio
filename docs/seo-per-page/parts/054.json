@@ -3,10 +3,10 @@
  "locale": "de",
  "classes": [
   "prepositions::fillin",
-  "treasure-hunt::cardinal-arrows"
+  "prepositions::multiplechoice"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 94,
  "pages": [
   {
    "slug": "praepositionen-luckentext-accessoires-2781",
@@ -393,388 +393,372 @@
    "deck": "praepositionen-luckentext-zootiere-e158"
   },
   {
-   "slug": "schatzsuche-4-juli",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "4th_of_july",
-   "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-4-juli-95f2"
-  },
-  {
-   "slug": "schatzsuche-accessoires",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-accessoires-b798",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "accessories",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-accessoires-5316"
+   "deck": "praepositionen-multiple-choice-accessoires-b798"
   },
   {
-   "slug": "schatzsuche-aktivitaten",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-aktivitaten-b58d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "activities",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-aktivitaten-602e"
+   "deck": "praepositionen-multiple-choice-aktivitaten-b58d"
   },
   {
-   "slug": "schatzsuche-backerei",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-backerei-2f86",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "bakery",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-backerei-038c"
+   "deck": "praepositionen-multiple-choice-backerei-2f86"
   },
   {
-   "slug": "schatzsuche-bauernhoftiere",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-bauernhoftiere-00d4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "farm_animals",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-bauernhoftiere-b903"
+   "deck": "praepositionen-multiple-choice-bauernhoftiere-00d4"
   },
   {
-   "slug": "schatzsuche-baume",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-baume-f35b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "tree",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-baume-8c40"
+   "deck": "praepositionen-multiple-choice-baume-f35b"
   },
   {
-   "slug": "schatzsuche-berufe",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-berufe-0f98",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "occupations",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-berufe-80e2"
+   "deck": "praepositionen-multiple-choice-berufe-0f98"
   },
   {
-   "slug": "schatzsuche-blumen",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-blumen-f9ab",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "flowers",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-blumen-13a7"
+   "deck": "praepositionen-multiple-choice-blumen-f9ab"
   },
   {
-   "slug": "schatzsuche-camping",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-camping-120e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "camping",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-camping-9f0b"
+   "deck": "praepositionen-multiple-choice-camping-120e"
   },
   {
-   "slug": "schatzsuche-desserts-und-sussigkeiten",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-desserts-und-sussigkeiten-fd38",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "desserts_and_sweets",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-desserts-und-sussigkeiten-14bd"
+   "deck": "praepositionen-multiple-choice-desserts-und-sussigkeiten-fd38"
   },
   {
-   "slug": "schatzsuche-dinge-die-fliegen",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-dinge-die-fliegen-12d2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "things_that_fly",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-dinge-die-fliegen-c218"
+   "deck": "praepositionen-multiple-choice-dinge-die-fliegen-12d2"
   },
   {
-   "slug": "schatzsuche-dinosaurier",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-dinosaurier-f308",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "dinosaurs",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-dinosaurier-1720"
+   "deck": "praepositionen-multiple-choice-dinosaurier-f308"
   },
   {
-   "slug": "schatzsuche-emotionen",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-emotionen-ebc9",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "emotions",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-emotionen-6ffb"
+   "deck": "praepositionen-multiple-choice-emotionen-ebc9"
   },
   {
-   "slug": "schatzsuche-erntedankfest",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-erntedankfest-007c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "thanksgivinng",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-erntedankfest-c80a"
+   "deck": "praepositionen-multiple-choice-erntedankfest-007c"
   },
   {
-   "slug": "schatzsuche-fahrzeuge",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-fahrzeuge-7701",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "vehicles",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-fahrzeuge-ea5f"
+   "deck": "praepositionen-multiple-choice-fahrzeuge-7701"
   },
   {
-   "slug": "schatzsuche-farben",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-farben-865d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "colors",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-farben-e3e1"
+   "deck": "praepositionen-multiple-choice-farben-865d"
   },
   {
-   "slug": "schatzsuche-formen",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-formen-b958",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "shapes",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-formen-c022"
+   "deck": "praepositionen-multiple-choice-formen-b958"
   },
   {
-   "slug": "schatzsuche-fruchte",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-fruchte-64f3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "fruits",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-fruchte-fdc0"
+   "deck": "praepositionen-multiple-choice-fruchte-64f3"
   },
   {
-   "slug": "schatzsuche-fruhling",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-fruhling-c147",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "spring",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-fruhling-5c11"
+   "deck": "praepositionen-multiple-choice-fruhling-c147"
   },
   {
-   "slug": "schatzsuche-fruhstuck",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-fruhstuck-0875",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "breakfast",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-fruhstuck-767f"
+   "deck": "praepositionen-multiple-choice-fruhstuck-0875"
   },
   {
-   "slug": "schatzsuche-gemuse",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-gemuse-79b7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "vegetables",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-gemuse-c293"
+   "deck": "praepositionen-multiple-choice-gemuse-79b7"
   },
   {
-   "slug": "schatzsuche-haustiere",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-haustiere-52d8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "pets",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-haustiere-9158"
+   "deck": "praepositionen-multiple-choice-haustiere-52d8"
   },
   {
-   "slug": "schatzsuche-im-supermarkt",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-im-supermarkt-c7f6",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "at_the_supermarket",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-im-supermarkt-89bb"
+   "deck": "praepositionen-multiple-choice-im-supermarkt-c7f6"
   },
   {
-   "slug": "schatzsuche-insekten-und-kafer",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "insects_and_bugs",
-   "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-insekten-und-kafer-b8e9"
-  },
-  {
-   "slug": "schatzsuche-klassenzimmer",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-klassenzimmer-c5ce",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "classroom",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-klassenzimmer-c3d7"
+   "deck": "praepositionen-multiple-choice-klassenzimmer-c5ce"
   },
   {
-   "slug": "schatzsuche-kleidung",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-kleidung-683a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "clothing",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-kleidung-1f7f"
+   "deck": "praepositionen-multiple-choice-kleidung-683a"
   },
   {
-   "slug": "schatzsuche-korperteile",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-korperteile-ebe7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "body_parts",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-korperteile-de9b"
+   "deck": "praepositionen-multiple-choice-korperteile-ebe7"
   },
   {
-   "slug": "schatzsuche-krankenhaus",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-krankenhaus-ab6b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "hospital",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-krankenhaus-ab38"
+   "deck": "praepositionen-multiple-choice-krankenhaus-ab6b"
   },
   {
-   "slug": "schatzsuche-kuchenwerkzeuge",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-kuchenwerkzeuge-6c35",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "kitchen_tools",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-kuchenwerkzeuge-18d2"
+   "deck": "praepositionen-multiple-choice-kuchenwerkzeuge-6c35"
   },
   {
-   "slug": "schatzsuche-meeresleben",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-meeresleben-6469",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "ocean_life",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-meeresleben-04d7"
+   "deck": "praepositionen-multiple-choice-meeresleben-6469"
   },
   {
-   "slug": "schatzsuche-mobel",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-mobel-7743",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "furniture",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-mobel-82de"
+   "deck": "praepositionen-multiple-choice-mobel-7743"
   },
   {
-   "slug": "schatzsuche-musik",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-musik-eac8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "music",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-musik-6e7a"
+   "deck": "praepositionen-multiple-choice-musik-eac8"
   },
   {
-   "slug": "schatzsuche-ostern",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-ostern-0b36",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "easter",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-ostern-8846"
+   "deck": "praepositionen-multiple-choice-ostern-0b36"
   },
   {
-   "slug": "schatzsuche-postamt",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-postamt-8be9",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "post_office",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-postamt-dfc6"
+   "deck": "praepositionen-multiple-choice-postamt-8be9"
   },
   {
-   "slug": "schatzsuche-rund-ums-haus",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-rund-ums-haus-b127",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "around_the_house",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-rund-ums-haus-f0a6"
+   "deck": "praepositionen-multiple-choice-rund-ums-haus-b127"
   },
   {
-   "slug": "schatzsuche-sommer",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-sommer-9474",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "summer",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-sommer-b848"
+   "deck": "praepositionen-multiple-choice-sommer-9474"
   },
   {
-   "slug": "schatzsuche-spielzeug",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-spielzeug-70d2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "toys",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-spielzeug-8900"
+   "deck": "praepositionen-multiple-choice-spielzeug-70d2"
   },
   {
-   "slug": "schatzsuche-strand",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-strand-069a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "beach",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-strand-d75f"
+   "deck": "praepositionen-multiple-choice-strand-069a"
   },
   {
-   "slug": "schatzsuche-tiere",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-tiere-666e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "animals",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-tiere"
+   "deck": "praepositionen-multiple-choice-tiere-666e"
   },
   {
-   "slug": "schatzsuche-vogel",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-vogel-1552",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "birds",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-vogel-cdc5"
+   "deck": "praepositionen-multiple-choice-vogel-1552"
   },
   {
-   "slug": "schatzsuche-vogel-2",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-vogel-2-3c1f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "birds_2",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-vogel-2-4acf"
+   "deck": "praepositionen-multiple-choice-vogel-2-3c1f"
   },
   {
-   "slug": "schatzsuche-waldtiere",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-waldtiere-bc25",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "forest_creatures",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-waldtiere-79f4"
+   "deck": "praepositionen-multiple-choice-waldtiere-bc25"
   },
   {
-   "slug": "schatzsuche-weihnachten",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-weihnachten-06fa",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "christmas",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-weihnachten-9484"
+   "deck": "praepositionen-multiple-choice-weihnachten-06fa"
   },
   {
-   "slug": "schatzsuche-weltraum",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-weltraum-979b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "space",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-weltraum-2033"
+   "deck": "praepositionen-multiple-choice-weltraum-979b"
   },
   {
-   "slug": "schatzsuche-werkzeuge",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-werkzeuge-25bd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "tools",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-werkzeuge-9abb"
+   "deck": "praepositionen-multiple-choice-werkzeuge-25bd"
   },
   {
-   "slug": "schatzsuche-wetter",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-wetter-db3c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "weather",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-wetter-38ed"
+   "deck": "praepositionen-multiple-choice-wetter-db3c"
   },
   {
-   "slug": "schatzsuche-winter",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-winter-bf94",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "winter",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-winter-cac1"
+   "deck": "praepositionen-multiple-choice-winter-bf94"
   },
   {
-   "slug": "schatzsuche-zootiere",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "praepositionen-multiple-choice-zootiere-e8e5",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "zoo_animals",
    "level": "vorschule",
-   "deck": "schatzsuche-hoch-runter-links-rechts-zootiere-ac40"
+   "deck": "praepositionen-multiple-choice-zootiere-e8e5"
   }
  ]
 }

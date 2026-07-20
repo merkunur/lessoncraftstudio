@@ -2,651 +2,575 @@
  "part": 220,
  "locale": "nl",
  "classes": [
-  "subtraction::image-number",
-  "subtraction::mixed"
+  "picture-sort::null"
  ],
- "splitOf": null,
- "count": 80,
+ "splitOf": {
+  "class": "picture-sort::null",
+  "total": 139,
+  "chunk": 1,
+  "chunks": 2
+ },
+ "count": 70,
  "pages": [
   {
-   "slug": "aftrekken-beeld-getal-accessoires-7bd9",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "accessories",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-accessoires-7bd9"
-  },
-  {
-   "slug": "aftrekken-beeld-getal-bakkerij-d4c7",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "bakery",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-bakkerij-d4c7"
-  },
-  {
-   "slug": "aftrekken-beeld-getal-beroepen-3907",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "occupations",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-beroepen-3907"
-  },
-  {
-   "slug": "aftrekken-beeld-getal-bloemen-6d64",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "flowers",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-bloemen-6d64"
-  },
-  {
-   "slug": "aftrekken-beeld-getal-boerderijdieren-3f22",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "farm_animals",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-boerderijdieren-3f22"
-  },
-  {
-   "slug": "aftrekken-beeld-getal-bomen-4305",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-bomen-4305"
-  },
-  {
-   "slug": "aftrekken-beeld-getal-boswezens-5a0e",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "forest_creatures",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-boswezens-5a0e"
-  },
-  {
-   "slug": "aftrekken-beeld-getal-desserts-en-snoep-0a01",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "desserts_and_sweets",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-desserts-en-snoep-0a01"
-  },
-  {
-   "slug": "aftrekken-beeld-getal-dieren-e5f5",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "animals",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-dieren-e5f5"
-  },
-  {
-   "slug": "aftrekken-beeld-getal-dierentuindieren-e681",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "zoo_animals",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-dierentuindieren-e681"
-  },
-  {
-   "slug": "aftrekken-beeld-getal-dingen-die-vliegen-17cc",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "things_that_fly",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-dingen-die-vliegen-17cc"
-  },
-  {
-   "slug": "aftrekken-beeld-getal-dinosaurussen-1dbb",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "dinosaurs",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-dinosaurussen-1dbb"
-  },
-  {
-   "slug": "aftrekken-beeld-getal-fruit-1241",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "fruits",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-fruit-1241"
+   "slug": "beelden-sorteren-accessories-vs-activities-71b1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-activities",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-activities-71b1"
+  },
+  {
+   "slug": "beelden-sorteren-accessories-vs-animals-8b75",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-animals",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-animals-8b75"
+  },
+  {
+   "slug": "beelden-sorteren-accessories-vs-around-the-house-6a55",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-around_the_house",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-around-the-house-6a55"
+  },
+  {
+   "slug": "beelden-sorteren-accessories-vs-at-the-supermarket-7dea",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-at_the_supermarket",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-at-the-supermarket-7dea"
+  },
+  {
+   "slug": "beelden-sorteren-accessories-vs-bakery-b7c7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-bakery",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-bakery-b7c7"
+  },
+  {
+   "slug": "beelden-sorteren-accessories-vs-beach-4d75",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-beach",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-beach-4d75"
+  },
+  {
+   "slug": "beelden-sorteren-accessories-vs-birds-ffc8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-birds",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-birds-ffc8"
+  },
+  {
+   "slug": "beelden-sorteren-accessories-vs-body-parts-a10f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-body_parts",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-body-parts-a10f"
+  },
+  {
+   "slug": "beelden-sorteren-accessories-vs-breakfast-f7fd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-breakfast",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-breakfast-f7fd"
+  },
+  {
+   "slug": "beelden-sorteren-accessories-vs-classroom-c082",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-classroom",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-classroom-c082"
+  },
+  {
+   "slug": "beelden-sorteren-accessories-vs-desserts-and-sweets-7e65",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-desserts-and-sweets-7e65"
+  },
+  {
+   "slug": "beelden-sorteren-accessories-vs-dinosaurs-f7d2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-dinosaurs",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-dinosaurs-f7d2"
+  },
+  {
+   "slug": "beelden-sorteren-accessories-vs-easter-bb88",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-easter",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-easter-bb88"
   },
   {
-   "slug": "aftrekken-beeld-getal-gereedschap-0f66",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "tools",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-gereedschap-0f66"
+   "slug": "beelden-sorteren-accessories-vs-farm-animals-5e6a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-farm_animals",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-farm-animals-5e6a"
   },
   {
-   "slug": "aftrekken-beeld-getal-groenten-2956",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "vegetables",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-groenten-2956"
+   "slug": "beelden-sorteren-accessories-vs-flowers-3681",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-flowers",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-flowers-3681"
   },
   {
-   "slug": "aftrekken-beeld-getal-huisdieren-95af",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "pets",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-huisdieren-95af"
+   "slug": "beelden-sorteren-accessories-vs-forest-creatures-062f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-forest_creatures",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-forest-creatures-062f"
   },
   {
-   "slug": "aftrekken-beeld-getal-in-de-supermarkt-8398",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "at_the_supermarket",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-in-de-supermarkt-8398"
+   "slug": "beelden-sorteren-accessories-vs-fruits-2f2b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-fruits",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-fruits-2f2b"
   },
   {
-   "slug": "aftrekken-beeld-getal-insecten-en-beestjes-b411",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "insects_and_bugs",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-insecten-en-beestjes-b411"
+   "slug": "beelden-sorteren-accessories-vs-furniture-d94a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-furniture",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-furniture-d94a"
   },
   {
-   "slug": "aftrekken-beeld-getal-kamperen-70f7",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "camping",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-kamperen-70f7"
+   "slug": "beelden-sorteren-accessories-vs-hospital-7b9e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-hospital",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-hospital-7b9e"
   },
   {
-   "slug": "aftrekken-beeld-getal-kerstmis-2b05",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "christmas",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-kerstmis-2b05"
+   "slug": "beelden-sorteren-accessories-vs-insects-and-bugs-12ab",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-insects_and_bugs",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-insects-and-bugs-12ab"
   },
   {
-   "slug": "aftrekken-beeld-getal-keukengerei-fe9f",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "kitchen_tools",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-keukengerei-fe9f"
+   "slug": "beelden-sorteren-accessories-vs-kitchen-tools-be16",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-kitchen_tools",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-kitchen-tools-be16"
   },
   {
-   "slug": "aftrekken-beeld-getal-klaslokaal-8435",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "classroom",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-klaslokaal-8435"
+   "slug": "beelden-sorteren-accessories-vs-music-da0a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-music",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-music-da0a"
   },
   {
-   "slug": "aftrekken-beeld-getal-kleding-53bd",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "clothing",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-kleding-53bd"
+   "slug": "beelden-sorteren-accessories-vs-occupations-2c9f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-occupations",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-occupations-2c9f"
   },
   {
-   "slug": "aftrekken-beeld-getal-meubels-64ed",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "furniture",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-meubels-64ed"
+   "slug": "beelden-sorteren-accessories-vs-ocean-life-2430",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-ocean_life",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-ocean-life-2430"
   },
   {
-   "slug": "aftrekken-beeld-getal-muziek-4573",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "music",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-muziek-4573"
+   "slug": "beelden-sorteren-accessories-vs-pets-c82c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-pets",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-pets-c82c"
   },
   {
-   "slug": "aftrekken-beeld-getal-oceaanleven-cbb8",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "ocean_life",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-oceaanleven-cbb8"
+   "slug": "beelden-sorteren-accessories-vs-post-office-9217",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-post_office",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-post-office-9217"
   },
   {
-   "slug": "aftrekken-beeld-getal-ontbijt-d766",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "breakfast",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-ontbijt-d766"
+   "slug": "beelden-sorteren-accessories-vs-reptiles-and-amphibians-a238",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-reptiles_and_amphibians",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-reptiles-and-amphibians-a238"
   },
   {
-   "slug": "aftrekken-beeld-getal-pasen-9230",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "easter",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-pasen-9230"
+   "slug": "beelden-sorteren-accessories-vs-shapes-808d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-shapes",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-shapes-808d"
   },
   {
-   "slug": "aftrekken-beeld-getal-postkantoor-3afc",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "post_office",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-postkantoor-3afc"
+   "slug": "beelden-sorteren-accessories-vs-space-96da",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-space",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-space-96da"
   },
   {
-   "slug": "aftrekken-beeld-getal-reptielen-en-amfibieen-c6e3",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "reptiles_and_amphibians",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-reptielen-en-amfibieen-c6e3"
+   "slug": "beelden-sorteren-accessories-vs-spring-3058",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-spring",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-spring-3058"
   },
   {
-   "slug": "aftrekken-beeld-getal-rond-het-huis-4e11",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "around_the_house",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-rond-het-huis-4e11"
+   "slug": "beelden-sorteren-accessories-vs-summer-ec3e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-summer",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-summer-ec3e"
   },
   {
-   "slug": "aftrekken-beeld-getal-ruimte-4f11",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "space",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-ruimte-4f11"
+   "slug": "beelden-sorteren-accessories-vs-thanksgivinng-92ab",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-thanksgivinng",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-thanksgivinng-92ab"
   },
   {
-   "slug": "aftrekken-beeld-getal-speelgoed-3d03",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "toys",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-speelgoed-3d03"
+   "slug": "beelden-sorteren-accessories-vs-things-that-fly-cb72",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-things_that_fly",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-things-that-fly-cb72"
   },
   {
-   "slug": "aftrekken-beeld-getal-strand-bd49",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "beach",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-strand-bd49"
+   "slug": "beelden-sorteren-accessories-vs-tools-51f7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-tools",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-tools-51f7"
   },
   {
-   "slug": "aftrekken-beeld-getal-thanksgiving-15ea",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "thanksgivinng",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-thanksgiving-15ea"
+   "slug": "beelden-sorteren-accessories-vs-toys-152b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-toys",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-toys-152b"
   },
   {
-   "slug": "aftrekken-beeld-getal-voertuigen-c590",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "vehicles",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-voertuigen-c590"
+   "slug": "beelden-sorteren-accessories-vs-tree-c209",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-tree",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-tree-c209"
   },
   {
-   "slug": "aftrekken-beeld-getal-vogels-2-370a",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "birds_2",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-vogels-2-370a"
+   "slug": "beelden-sorteren-accessories-vs-vegetables-7429",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-vegetables",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-vegetables-7429"
   },
   {
-   "slug": "aftrekken-beeld-getal-vogels-4285",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-vogels-4285"
+   "slug": "beelden-sorteren-accessories-vs-vehicles-0b04",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-vehicles",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-vehicles-0b04"
   },
   {
-   "slug": "aftrekken-beeld-getal-vormen-1ff5",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "shapes",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-vormen-1ff5"
+   "slug": "beelden-sorteren-accessories-vs-weather-f600",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-weather",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-weather-f600"
   },
   {
-   "slug": "aftrekken-beeld-getal-ziekenhuis-e14e",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "hospital",
-   "level": "groep-3",
-   "deck": "aftrekken-beeld-getal-ziekenhuis-e14e"
+   "slug": "beelden-sorteren-accessories-vs-winter-6a83",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-winter",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-winter-6a83"
   },
   {
-   "slug": "aftrekken-gemengd-accessoires-4435",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "accessories",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-accessoires-4435"
+   "slug": "beelden-sorteren-accessories-vs-zoo-animals-6de2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-zoo_animals",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-accessories-vs-zoo-animals-6de2"
   },
   {
-   "slug": "aftrekken-gemengd-bakkerij-bc74",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "bakery",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-bakkerij-bc74"
+   "slug": "beelden-sorteren-animals-vs-around-the-house-f152",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-around_the_house",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-around-the-house-f152"
   },
   {
-   "slug": "aftrekken-gemengd-beroepen-71f8",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "occupations",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-beroepen-71f8"
+   "slug": "beelden-sorteren-animals-vs-at-the-supermarket-5b5e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-at_the_supermarket",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-at-the-supermarket-5b5e"
   },
   {
-   "slug": "aftrekken-gemengd-bloemen-1795",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "flowers",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-bloemen-1795"
+   "slug": "beelden-sorteren-animals-vs-breakfast-bff4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-breakfast",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-breakfast-bff4"
   },
   {
-   "slug": "aftrekken-gemengd-boerderijdieren-45c2",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "farm_animals",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-boerderijdieren-45c2"
+   "slug": "beelden-sorteren-animals-vs-christmas-e1eb",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-christmas",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-christmas-e1eb"
   },
   {
-   "slug": "aftrekken-gemengd-bomen-d57a",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "tree",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-bomen-d57a"
+   "slug": "beelden-sorteren-animals-vs-classroom-50cd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-classroom",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-classroom-50cd"
   },
   {
-   "slug": "aftrekken-gemengd-boswezens-26c4",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "forest_creatures",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-boswezens-26c4"
+   "slug": "beelden-sorteren-animals-vs-clothing-34f1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-clothing",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-clothing-34f1"
   },
   {
-   "slug": "aftrekken-gemengd-desserts-en-snoep-78ad",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "desserts_and_sweets",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-desserts-en-snoep-78ad"
+   "slug": "beelden-sorteren-animals-vs-fruits-49a1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-fruits",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-fruits-49a1"
   },
   {
-   "slug": "aftrekken-gemengd-dieren-6407",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "animals",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-dieren-6407"
+   "slug": "beelden-sorteren-animals-vs-furniture-167b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-furniture",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-furniture-167b"
   },
   {
-   "slug": "aftrekken-gemengd-dierentuindieren-4567",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "zoo_animals",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-dierentuindieren-4567"
+   "slug": "beelden-sorteren-animals-vs-hospital-317d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-hospital",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-hospital-317d"
   },
   {
-   "slug": "aftrekken-gemengd-dingen-die-vliegen-5ec3",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "things_that_fly",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-dingen-die-vliegen-5ec3"
+   "slug": "beelden-sorteren-animals-vs-kitchen-tools-8ae5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-kitchen_tools",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-kitchen-tools-8ae5"
   },
   {
-   "slug": "aftrekken-gemengd-dinosaurussen-75d6",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "dinosaurs",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-dinosaurussen-75d6"
+   "slug": "beelden-sorteren-animals-vs-music-d68d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-music",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-music-d68d"
   },
   {
-   "slug": "aftrekken-gemengd-fruit-3e6d",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "fruits",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-fruit-3e6d"
+   "slug": "beelden-sorteren-animals-vs-post-office-aa06",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-post_office",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-post-office-aa06"
   },
   {
-   "slug": "aftrekken-gemengd-gereedschap-299c",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "tools",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-gereedschap-299c"
+   "slug": "beelden-sorteren-animals-vs-shapes-4141",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-shapes",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-shapes-4141"
   },
   {
-   "slug": "aftrekken-gemengd-groenten-5a03",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "vegetables",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-groenten-5a03"
+   "slug": "beelden-sorteren-animals-vs-tools-c8d0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-tools",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-tools-c8d0"
   },
   {
-   "slug": "aftrekken-gemengd-huisdieren-6701",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "pets",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-huisdieren-6701"
+   "slug": "beelden-sorteren-animals-vs-vegetables-6140",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-vegetables",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-animals-vs-vegetables-6140"
   },
   {
-   "slug": "aftrekken-gemengd-in-de-supermarkt-3bf9",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "at_the_supermarket",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-in-de-supermarkt-3bf9"
+   "slug": "beelden-sorteren-bakery-vs-animals-1f08",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-animals",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-animals-1f08"
   },
   {
-   "slug": "aftrekken-gemengd-insecten-en-beestjes-278f",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "insects_and_bugs",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-insecten-en-beestjes-278f"
-  },
-  {
-   "slug": "aftrekken-gemengd-kamperen-e6f7",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "camping",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-kamperen-e6f7"
-  },
-  {
-   "slug": "aftrekken-gemengd-kerstmis-c587",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "christmas",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-kerstmis-c587"
-  },
-  {
-   "slug": "aftrekken-gemengd-keukengerei-9cad",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "kitchen_tools",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-keukengerei-9cad"
-  },
-  {
-   "slug": "aftrekken-gemengd-klaslokaal-3b68",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "classroom",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-klaslokaal-3b68"
-  },
-  {
-   "slug": "aftrekken-gemengd-kleding-2117",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "clothing",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-kleding-2117"
-  },
-  {
-   "slug": "aftrekken-gemengd-meubels-a60f",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "furniture",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-meubels-a60f"
-  },
-  {
-   "slug": "aftrekken-gemengd-muziek-dbb3",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "music",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-muziek-dbb3"
-  },
-  {
-   "slug": "aftrekken-gemengd-oceaanleven-f89c",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "ocean_life",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-oceaanleven-f89c"
-  },
-  {
-   "slug": "aftrekken-gemengd-ontbijt-8834",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "breakfast",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-ontbijt-8834"
-  },
-  {
-   "slug": "aftrekken-gemengd-pasen-7804",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "easter",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-pasen-7804"
-  },
-  {
-   "slug": "aftrekken-gemengd-postkantoor-f2ae",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "post_office",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-postkantoor-f2ae"
-  },
-  {
-   "slug": "aftrekken-gemengd-reptielen-en-amfibieen-f3cf",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "reptiles_and_amphibians",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-reptielen-en-amfibieen-f3cf"
-  },
-  {
-   "slug": "aftrekken-gemengd-rond-het-huis-50e4",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "around_the_house",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-rond-het-huis-50e4"
-  },
-  {
-   "slug": "aftrekken-gemengd-ruimte-8f86",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "space",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-ruimte-8f86"
-  },
-  {
-   "slug": "aftrekken-gemengd-speelgoed-7c74",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "toys",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-speelgoed-7c74"
-  },
-  {
-   "slug": "aftrekken-gemengd-strand-4b45",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "beach",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-strand-4b45"
-  },
-  {
-   "slug": "aftrekken-gemengd-thanksgiving-e598",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "thanksgivinng",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-thanksgiving-e598"
-  },
-  {
-   "slug": "aftrekken-gemengd-voertuigen-5d19",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "vehicles",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-voertuigen-5d19"
-  },
-  {
-   "slug": "aftrekken-gemengd-vogels-2-095d",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "birds_2",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-vogels-2-095d"
-  },
-  {
-   "slug": "aftrekken-gemengd-vogels-ab04",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "birds",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-vogels-ab04"
-  },
-  {
-   "slug": "aftrekken-gemengd-vormen-f69a",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "shapes",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-vormen-f69a"
-  },
-  {
-   "slug": "aftrekken-gemengd-ziekenhuis-0d08",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "hospital",
-   "level": "groep-3",
-   "deck": "aftrekken-gemengd-ziekenhuis-0d08"
+   "slug": "beelden-sorteren-bakery-vs-body-parts-7394",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-body_parts",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-body-parts-7394"
+  },
+  {
+   "slug": "beelden-sorteren-bakery-vs-christmas-6d0c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-christmas",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-christmas-6d0c"
+  },
+  {
+   "slug": "beelden-sorteren-bakery-vs-classroom-9133",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-classroom",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-classroom-9133"
+  },
+  {
+   "slug": "beelden-sorteren-bakery-vs-clothing-6a8a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-clothing",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-clothing-6a8a"
+  },
+  {
+   "slug": "beelden-sorteren-bakery-vs-dinosaurs-f134",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-dinosaurs",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-dinosaurs-f134"
+  },
+  {
+   "slug": "beelden-sorteren-bakery-vs-easter-94bf",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-easter",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-easter-94bf"
+  },
+  {
+   "slug": "beelden-sorteren-bakery-vs-farm-animals-da50",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-farm_animals",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-farm-animals-da50"
+  },
+  {
+   "slug": "beelden-sorteren-bakery-vs-flowers-ec7a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-flowers",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-flowers-ec7a"
+  },
+  {
+   "slug": "beelden-sorteren-bakery-vs-forest-creatures-a098",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-forest_creatures",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-forest-creatures-a098"
+  },
+  {
+   "slug": "beelden-sorteren-bakery-vs-fruits-4d49",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-fruits",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-fruits-4d49"
+  },
+  {
+   "slug": "beelden-sorteren-bakery-vs-furniture-c069",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-furniture",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-furniture-c069"
+  },
+  {
+   "slug": "beelden-sorteren-bakery-vs-kitchen-tools-fa24",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-kitchen_tools",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-kitchen-tools-fa24"
+  },
+  {
+   "slug": "beelden-sorteren-bakery-vs-music-4311",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-music",
+   "level": "kleuters",
+   "deck": "beelden-sorteren-bakery-vs-music-4311"
   }
  ]
 }

@@ -2,651 +2,495 @@
  "part": 313,
  "locale": "no",
  "classes": [
-  "addition::mixed",
-  "math-puzzle::subtraction"
+  "picture-sort::null"
  ],
- "splitOf": null,
- "count": 80,
+ "splitOf": {
+  "class": "picture-sort::null",
+  "total": 180,
+  "chunk": 2,
+  "chunks": 3
+ },
+ "count": 60,
  "pages": [
   {
-   "slug": "addisjon-blandet-bakeri-633e",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "bakery",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-bakeri-633e"
-  },
-  {
-   "slug": "addisjon-blandet-blomster-d356",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "flowers",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-blomster-d356"
-  },
-  {
-   "slug": "addisjon-blandet-camping-cffb",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "camping",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-camping-cffb"
-  },
-  {
-   "slug": "addisjon-blandet-desserter-og-godteri-ae1c",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "desserts_and_sweets",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-desserter-og-godteri-ae1c"
-  },
-  {
-   "slug": "addisjon-blandet-dinosaurer-7294",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "dinosaurs",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-dinosaurer-7294"
-  },
-  {
-   "slug": "addisjon-blandet-dyr-016b",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "animals",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-dyr-016b"
-  },
-  {
-   "slug": "addisjon-blandet-dyrehagedyr-5ab6",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "zoo_animals",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-dyrehagedyr-5ab6"
-  },
-  {
-   "slug": "addisjon-blandet-former-26b4",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "shapes",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-former-26b4"
-  },
-  {
-   "slug": "addisjon-blandet-frokost-d639",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "breakfast",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-frokost-d639"
-  },
-  {
-   "slug": "addisjon-blandet-frukter-0a79",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "fruits",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-frukter-0a79"
-  },
-  {
-   "slug": "addisjon-blandet-fugler-2-6b9d",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "birds_2",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-fugler-2-6b9d"
-  },
-  {
-   "slug": "addisjon-blandet-fugler-fb19",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "birds",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-fugler-fb19"
-  },
-  {
-   "slug": "addisjon-blandet-gardsdyr-c2fa",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "farm_animals",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-gardsdyr-c2fa"
+   "slug": "sorter-bilder-clothing-vs-animals-bac5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-clothing-vs-animals-bac5"
+  },
+  {
+   "slug": "sorter-bilder-clothing-vs-bakery-811b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-clothing-vs-bakery-811b"
+  },
+  {
+   "slug": "sorter-bilder-clothing-vs-flowers-5b2e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-clothing-vs-flowers-5b2e"
+  },
+  {
+   "slug": "sorter-bilder-colors-vs-animals-679a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "colors-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-colors-vs-animals-679a"
+  },
+  {
+   "slug": "sorter-bilder-colors-vs-bakery-8b01",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "colors-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-colors-vs-bakery-8b01"
+  },
+  {
+   "slug": "sorter-bilder-colors-vs-dinosaurs-31d2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "colors-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-colors-vs-dinosaurs-31d2"
+  },
+  {
+   "slug": "sorter-bilder-colors-vs-flowers-129b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "colors-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-colors-vs-flowers-129b"
+  },
+  {
+   "slug": "sorter-bilder-colors-vs-vehicles-6e75",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "colors-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-colors-vs-vehicles-6e75"
+  },
+  {
+   "slug": "sorter-bilder-desserts-and-sweets-vs-animals-4cc6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "desserts_and_sweets-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-desserts-and-sweets-vs-animals-4cc6"
+  },
+  {
+   "slug": "sorter-bilder-desserts-and-sweets-vs-dinosaurs-f8a3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "desserts_and_sweets-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-desserts-and-sweets-vs-dinosaurs-f8a3"
+  },
+  {
+   "slug": "sorter-bilder-desserts-and-sweets-vs-flowers-21f2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "desserts_and_sweets-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-desserts-and-sweets-vs-flowers-21f2"
+  },
+  {
+   "slug": "sorter-bilder-desserts-and-sweets-vs-tree-0889",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "desserts_and_sweets-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-desserts-and-sweets-vs-tree-0889"
+  },
+  {
+   "slug": "sorter-bilder-desserts-and-sweets-vs-vehicles-2cdf",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "desserts_and_sweets-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-desserts-and-sweets-vs-vehicles-2cdf"
   },
   {
-   "slug": "addisjon-blandet-gronnsaker-aa6b",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "vegetables",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-gronnsaker-aa6b"
+   "slug": "sorter-bilder-dinosaurs-vs-animals-8862",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "dinosaurs-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-dinosaurs-vs-animals-8862"
   },
   {
-   "slug": "addisjon-blandet-havliv-2f44",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "ocean_life",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-havliv-2f44"
+   "slug": "sorter-bilder-dinosaurs-vs-bakery-e599",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "dinosaurs-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-dinosaurs-vs-bakery-e599"
   },
   {
-   "slug": "addisjon-blandet-i-supermarkedet-3741",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "at_the_supermarket",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-i-supermarkedet-3741"
+   "slug": "sorter-bilder-dinosaurs-vs-flowers-86dc",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "dinosaurs-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-dinosaurs-vs-flowers-86dc"
   },
   {
-   "slug": "addisjon-blandet-insekter-og-kryp-fc5c",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "insects_and_bugs",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-insekter-og-kryp-fc5c"
+   "slug": "sorter-bilder-dinosaurs-vs-tree-4391",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "dinosaurs-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-dinosaurs-vs-tree-4391"
   },
   {
-   "slug": "addisjon-blandet-jul-b889",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "christmas",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-jul-b889"
+   "slug": "sorter-bilder-dinosaurs-vs-vehicles-434b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "dinosaurs-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-dinosaurs-vs-vehicles-434b"
   },
   {
-   "slug": "addisjon-blandet-kjaeledyr-86ac",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "pets",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-kjaeledyr-86ac"
+   "slug": "sorter-bilder-easter-vs-animals-d02d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "easter-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-easter-vs-animals-d02d"
   },
   {
-   "slug": "addisjon-blandet-kjokkenredskaper-85e6",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "kitchen_tools",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-kjokkenredskaper-85e6"
+   "slug": "sorter-bilder-easter-vs-bakery-ec42",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "easter-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-easter-vs-bakery-ec42"
   },
   {
-   "slug": "addisjon-blandet-kjoretoy-2afa",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "vehicles",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-kjoretoy-2afa"
+   "slug": "sorter-bilder-emotions-vs-animals-5f27",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "emotions-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-emotions-vs-animals-5f27"
   },
   {
-   "slug": "addisjon-blandet-klaer-cb99",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "clothing",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-klaer-cb99"
+   "slug": "sorter-bilder-emotions-vs-bakery-2ac8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "emotions-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-emotions-vs-bakery-2ac8"
   },
   {
-   "slug": "addisjon-blandet-klasserom-a204",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "classroom",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-klasserom-a204"
+   "slug": "sorter-bilder-emotions-vs-dinosaurs-8210",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "emotions-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-emotions-vs-dinosaurs-8210"
   },
   {
-   "slug": "addisjon-blandet-leker-33d7",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "toys",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-leker-33d7"
+   "slug": "sorter-bilder-emotions-vs-flowers-eeef",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "emotions-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-emotions-vs-flowers-eeef"
   },
   {
-   "slug": "addisjon-blandet-mobler-aa8f",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "furniture",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-mobler-aa8f"
+   "slug": "sorter-bilder-farm-animals-vs-bakery-43c8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-farm-animals-vs-bakery-43c8"
   },
   {
-   "slug": "addisjon-blandet-musikk-7d58",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "music",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-musikk-7d58"
+   "slug": "sorter-bilder-farm-animals-vs-dinosaurs-9305",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-farm-animals-vs-dinosaurs-9305"
   },
   {
-   "slug": "addisjon-blandet-paske-4324",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "easter",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-paske-4324"
+   "slug": "sorter-bilder-farm-animals-vs-flowers-fa62",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-farm-animals-vs-flowers-fa62"
   },
   {
-   "slug": "addisjon-blandet-postkontor-c53c",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "post_office",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-postkontor-c53c"
+   "slug": "sorter-bilder-farm-animals-vs-tree-9549",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-farm-animals-vs-tree-9549"
   },
   {
-   "slug": "addisjon-blandet-reptiler-og-amfibier-94cc",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "reptiles_and_amphibians",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-reptiler-og-amfibier-94cc"
+   "slug": "sorter-bilder-farm-animals-vs-vehicles-e000",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-farm-animals-vs-vehicles-e000"
   },
   {
-   "slug": "addisjon-blandet-rundt-i-huset-37f9",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "around_the_house",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-rundt-i-huset-37f9"
+   "slug": "sorter-bilder-flowers-vs-animals-75ff",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-flowers-vs-animals-75ff"
   },
   {
-   "slug": "addisjon-blandet-skogsdyr-f941",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "forest_creatures",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-skogsdyr-f941"
+   "slug": "sorter-bilder-flowers-vs-bakery-4fd1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-flowers-vs-bakery-4fd1"
   },
   {
-   "slug": "addisjon-blandet-strand-d9ac",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "beach",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-strand-d9ac"
+   "slug": "sorter-bilder-flowers-vs-dinosaurs-155c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-flowers-vs-dinosaurs-155c"
   },
   {
-   "slug": "addisjon-blandet-sykehus-0194",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "hospital",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-sykehus-0194"
+   "slug": "sorter-bilder-flowers-vs-tree-d375",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-flowers-vs-tree-d375"
   },
   {
-   "slug": "addisjon-blandet-thanksgiving-e141",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "thanksgivinng",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-thanksgiving-e141"
+   "slug": "sorter-bilder-flowers-vs-vehicles-9b77",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-flowers-vs-vehicles-9b77"
   },
   {
-   "slug": "addisjon-blandet-tilbehor-2036",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "accessories",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-tilbehor-2036"
+   "slug": "sorter-bilder-forest-creatures-vs-bakery-f716",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "forest_creatures-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-forest-creatures-vs-bakery-f716"
   },
   {
-   "slug": "addisjon-blandet-ting-som-flyr-1003",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "things_that_fly",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-ting-som-flyr-1003"
+   "slug": "sorter-bilder-forest-creatures-vs-flowers-d294",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "forest_creatures-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-forest-creatures-vs-flowers-d294"
   },
   {
-   "slug": "addisjon-blandet-traer-6efc",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "tree",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-traer-6efc"
+   "slug": "sorter-bilder-fruits-vs-animals-74e6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "fruits-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-fruits-vs-animals-74e6"
   },
   {
-   "slug": "addisjon-blandet-verdensrommet-04ae",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "space",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-verdensrommet-04ae"
+   "slug": "sorter-bilder-fruits-vs-dinosaurs-d3dd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "fruits-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-fruits-vs-dinosaurs-d3dd"
   },
   {
-   "slug": "addisjon-blandet-verktoy-fb63",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "tools",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-verktoy-fb63"
+   "slug": "sorter-bilder-fruits-vs-flowers-95b4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "fruits-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-fruits-vs-flowers-95b4"
   },
   {
-   "slug": "addisjon-blandet-yrker-c22e",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "occupations",
-   "level": "2-trinn",
-   "deck": "addisjon-blandet-yrker-c22e"
+   "slug": "sorter-bilder-fruits-vs-tree-aeef",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "fruits-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-fruits-vs-tree-aeef"
   },
   {
-   "slug": "mattepuslespill-subtraksjon-bakeri-2f55",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "bakery",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-bakeri-2f55"
+   "slug": "sorter-bilder-fruits-vs-vehicles-6458",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "fruits-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-fruits-vs-vehicles-6458"
   },
   {
-   "slug": "mattepuslespill-subtraksjon-blomster-97f4",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "flowers",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-blomster-97f4"
+   "slug": "sorter-bilder-furniture-vs-animals-d13b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "furniture-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-furniture-vs-animals-d13b"
   },
   {
-   "slug": "mattepuslespill-subtraksjon-camping-5cc3",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "camping",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-camping-5cc3"
+   "slug": "sorter-bilder-furniture-vs-bakery-762a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "furniture-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-furniture-vs-bakery-762a"
   },
   {
-   "slug": "mattepuslespill-subtraksjon-desserter-og-godteri-6362",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "desserts_and_sweets",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-desserter-og-godteri-6362"
+   "slug": "sorter-bilder-furniture-vs-flowers-490a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "furniture-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-furniture-vs-flowers-490a"
   },
   {
-   "slug": "mattepuslespill-subtraksjon-dinosaurer-fe2e",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "dinosaurs",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-dinosaurer-fe2e"
+   "slug": "sorter-bilder-hospital-vs-animals-3113",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "hospital-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-hospital-vs-animals-3113"
   },
   {
-   "slug": "mattepuslespill-subtraksjon-dyr-4415",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "animals",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-dyr-4415"
+   "slug": "sorter-bilder-hospital-vs-bakery-6eb6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "hospital-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-hospital-vs-bakery-6eb6"
   },
   {
-   "slug": "mattepuslespill-subtraksjon-dyrehagedyr-7868",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "zoo_animals",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-dyrehagedyr-7868"
+   "slug": "sorter-bilder-hospital-vs-flowers-c2d5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "hospital-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-hospital-vs-flowers-c2d5"
   },
   {
-   "slug": "mattepuslespill-subtraksjon-former-2ae7",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "shapes",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-former-2ae7"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-frokost-ea02",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "breakfast",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-frokost-ea02"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-frukter-2ac1",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "fruits",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-frukter-2ac1"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-fugler-2-02cd",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "birds_2",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-fugler-2-02cd"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-fugler-b209",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "birds",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-fugler-b209"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-gardsdyr-37ed",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "farm_animals",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-gardsdyr-37ed"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-gronnsaker-668e",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "vegetables",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-gronnsaker-668e"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-havliv-b261",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "ocean_life",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-havliv-b261"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-i-supermarkedet-d571",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "at_the_supermarket",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-i-supermarkedet-d571"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-insekter-og-kryp-d602",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "insects_and_bugs",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-insekter-og-kryp-d602"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-jul-d18d",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "christmas",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-jul-d18d"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-kjaeledyr-3d6e",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "pets",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-kjaeledyr-3d6e"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-kjokkenredskaper-ca09",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "kitchen_tools",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-kjokkenredskaper-ca09"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-kjoretoy-7d51",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "vehicles",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-kjoretoy-7d51"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-klaer-49b9",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "clothing",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-klaer-49b9"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-klasserom-0b1f",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "classroom",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-klasserom-0b1f"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-leker-bc27",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "toys",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-leker-bc27"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-mobler-2989",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "furniture",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-mobler-2989"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-musikk-aadb",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "music",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-musikk-aadb"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-paske-49de",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "easter",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-paske-49de"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-postkontor-3565",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "post_office",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-postkontor-3565"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-reptiler-og-amfibier-0412",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "reptiles_and_amphibians",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-reptiler-og-amfibier-0412"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-rundt-i-huset-6ec6",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "around_the_house",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-rundt-i-huset-6ec6"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-skogsdyr-d4c8",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "forest_creatures",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-skogsdyr-d4c8"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-strand-62e7",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "beach",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-strand-62e7"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-sykehus-9acd",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "hospital",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-sykehus-9acd"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-thanksgiving-55ba",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "thanksgivinng",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-thanksgiving-55ba"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-tilbehor-dc15",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "accessories",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-tilbehor-dc15"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-ting-som-flyr-9ad0",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "things_that_fly",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-ting-som-flyr-9ad0"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-traer-1a13",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "tree",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-traer-1a13"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-verdensrommet-e864",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "space",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-subtraksjon-verdensrommet-e864"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-verktoy-c38f",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "tools",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-verktoy-c38f"
-  },
-  {
-   "slug": "mattepuslespill-subtraksjon-yrker-e15f",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "occupations",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-subtraksjon-yrker-e15f"
+   "slug": "sorter-bilder-insects-and-bugs-vs-bakery-3328",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-insects-and-bugs-vs-bakery-3328"
+  },
+  {
+   "slug": "sorter-bilder-insects-and-bugs-vs-dinosaurs-5f21",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-insects-and-bugs-vs-dinosaurs-5f21"
+  },
+  {
+   "slug": "sorter-bilder-insects-and-bugs-vs-flowers-026f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-insects-and-bugs-vs-flowers-026f"
+  },
+  {
+   "slug": "sorter-bilder-insects-and-bugs-vs-tree-4b23",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-insects-and-bugs-vs-tree-4b23"
+  },
+  {
+   "slug": "sorter-bilder-insects-and-bugs-vs-vehicles-7e51",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-insects-and-bugs-vs-vehicles-7e51"
+  },
+  {
+   "slug": "sorter-bilder-kitchen-tools-vs-animals-a553",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-kitchen-tools-vs-animals-a553"
+  },
+  {
+   "slug": "sorter-bilder-kitchen-tools-vs-bakery-9544",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-kitchen-tools-vs-bakery-9544"
+  },
+  {
+   "slug": "sorter-bilder-kitchen-tools-vs-tree-5295",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-kitchen-tools-vs-tree-5295"
+  },
+  {
+   "slug": "sorter-bilder-music-vs-animals-f9c2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-music-vs-animals-f9c2"
+  },
+  {
+   "slug": "sorter-bilder-music-vs-bakery-ca00",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-music-vs-bakery-ca00"
+  },
+  {
+   "slug": "sorter-bilder-music-vs-flowers-489f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-music-vs-flowers-489f"
+  },
+  {
+   "slug": "sorter-bilder-occupations-vs-bakery-049a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-occupations-vs-bakery-049a"
+  },
+  {
+   "slug": "sorter-bilder-occupations-vs-flowers-3f55",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-occupations-vs-flowers-3f55"
   }
  ]
 }

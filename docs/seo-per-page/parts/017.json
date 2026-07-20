@@ -2,583 +2,607 @@
  "part": 17,
  "locale": "en",
  "classes": [
-  "crossword::null"
+  "matching::name"
  ],
  "splitOf": {
-  "class": "crossword::null",
-  "total": 497,
-  "chunk": 3,
+  "class": "matching::name",
+  "total": 512,
+  "chunk": 5,
   "chunks": 7
  },
- "count": 71,
+ "count": 74,
  "pages": [
   {
-   "slug": "finnish-crossword-at-the-supermarket-035e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-at-the-supermarket-035e"
-  },
-  {
-   "slug": "finnish-crossword-bakery-9c66",
-   "type": "crossword",
-   "mode": null,
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-bakery-9c66"
-  },
-  {
-   "slug": "finnish-crossword-beach-b3e3",
-   "type": "crossword",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-beach-b3e3"
-  },
-  {
-   "slug": "finnish-crossword-birds-2-d56a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-birds-2-d56a"
-  },
-  {
-   "slug": "finnish-crossword-birds-4a10",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-birds-4a10"
-  },
-  {
-   "slug": "finnish-crossword-body-parts-dc8a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-body-parts-dc8a"
-  },
-  {
-   "slug": "finnish-crossword-breakfast-8e53",
-   "type": "crossword",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-breakfast-8e53"
-  },
-  {
-   "slug": "finnish-crossword-camping-28a3",
-   "type": "crossword",
-   "mode": null,
-   "theme": "camping",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-camping-28a3"
-  },
-  {
-   "slug": "finnish-crossword-christmas-075a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-christmas-075a"
-  },
-  {
-   "slug": "finnish-crossword-classroom-faad",
-   "type": "crossword",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-classroom-faad"
-  },
-  {
-   "slug": "finnish-crossword-clothing-df8a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-clothing-df8a"
-  },
-  {
-   "slug": "finnish-crossword-colors-df38",
-   "type": "crossword",
-   "mode": null,
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-colors-df38"
-  },
-  {
-   "slug": "finnish-crossword-desserts-and-sweets-b689",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-desserts-and-sweets",
+   "type": "matching",
+   "mode": "name",
    "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-desserts-and-sweets-b689"
+   "level": "kindergarten",
+   "deck": "matching-name-desserts-and-sweets"
   },
   {
-   "slug": "finnish-crossword-easter-6185",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-easter",
+   "type": "matching",
+   "mode": "name",
    "theme": "easter",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-easter-6185"
+   "level": "kindergarten",
+   "deck": "matching-name-easter"
   },
   {
-   "slug": "finnish-crossword-emotions-a799",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-emotions",
+   "type": "matching",
+   "mode": "name",
    "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-emotions-a799"
+   "level": "kindergarten",
+   "deck": "matching-name-emotions"
   },
   {
-   "slug": "finnish-crossword-farm-animals-2fa8",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-farm-animals",
+   "type": "matching",
+   "mode": "name",
    "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-farm-animals-2fa8"
+   "level": "kindergarten",
+   "deck": "matching-name-farm-animals"
   },
   {
-   "slug": "finnish-crossword-flowers-241c",
-   "type": "crossword",
-   "mode": null,
-   "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-flowers-241c"
-  },
-  {
-   "slug": "finnish-crossword-forest-creatures-c5d1",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-forest-creatures",
+   "type": "matching",
+   "mode": "name",
    "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-forest-creatures-c5d1"
+   "level": "kindergarten",
+   "deck": "matching-name-forest-creatures"
   },
   {
-   "slug": "finnish-crossword-fruits-75de",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-fruits",
+   "type": "matching",
+   "mode": "name",
    "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-fruits-75de"
+   "level": "kindergarten",
+   "deck": "matching-name-fruits"
   },
   {
-   "slug": "finnish-crossword-furniture-3018",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-furniture",
+   "type": "matching",
+   "mode": "name",
    "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-furniture-3018"
+   "level": "kindergarten",
+   "deck": "matching-name-furniture"
   },
   {
-   "slug": "finnish-crossword-hospital-e7d8",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-hospital",
+   "type": "matching",
+   "mode": "name",
    "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-hospital-e7d8"
+   "level": "kindergarten",
+   "deck": "matching-name-hospital"
   },
   {
-   "slug": "finnish-crossword-kitchen-tools-62a2",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-insects-and-bugs",
+   "type": "matching",
+   "mode": "name",
+   "theme": "insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "matching-name-insects-and-bugs"
+  },
+  {
+   "slug": "matching-name-kitchen-tools",
+   "type": "matching",
+   "mode": "name",
    "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-kitchen-tools-62a2"
+   "level": "kindergarten",
+   "deck": "matching-name-kitchen-tools"
   },
   {
-   "slug": "finnish-crossword-music-d1c4",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-music",
+   "type": "matching",
+   "mode": "name",
    "theme": "music",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-music-d1c4"
+   "level": "kindergarten",
+   "deck": "matching-name-music"
   },
   {
-   "slug": "finnish-crossword-occupations-206b",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-occupations",
+   "type": "matching",
+   "mode": "name",
    "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-occupations-206b"
+   "level": "kindergarten",
+   "deck": "matching-name-occupations"
   },
   {
-   "slug": "finnish-crossword-ocean-life-65e5",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-ocean-life",
+   "type": "matching",
+   "mode": "name",
    "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-ocean-life-65e5"
+   "level": "kindergarten",
+   "deck": "matching-name-ocean-life"
   },
   {
-   "slug": "finnish-crossword-pets-a38e",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-pets",
+   "type": "matching",
+   "mode": "name",
    "theme": "pets",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-pets-a38e"
+   "level": "kindergarten",
+   "deck": "matching-name-pets"
   },
   {
-   "slug": "finnish-crossword-post-office-31b8",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-post-office",
+   "type": "matching",
+   "mode": "name",
    "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-post-office-31b8"
+   "level": "kindergarten",
+   "deck": "matching-name-post-office"
   },
   {
-   "slug": "finnish-crossword-shapes-33ae",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-reptiles-and-amphibians",
+   "type": "matching",
+   "mode": "name",
+   "theme": "reptiles_and_amphibians",
+   "level": "kindergarten",
+   "deck": "matching-name-reptiles-and-amphibians"
+  },
+  {
+   "slug": "matching-name-shapes",
+   "type": "matching",
+   "mode": "name",
    "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-shapes-33ae"
+   "level": "kindergarten",
+   "deck": "matching-name-shapes"
   },
   {
-   "slug": "finnish-crossword-space-a97f",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-space",
+   "type": "matching",
+   "mode": "name",
    "theme": "space",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-space-a97f"
+   "level": "kindergarten",
+   "deck": "matching-name-space"
   },
   {
-   "slug": "finnish-crossword-spring-608d",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-spring",
+   "type": "matching",
+   "mode": "name",
    "theme": "spring",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-spring-608d"
+   "level": "kindergarten",
+   "deck": "matching-name-spring"
   },
   {
-   "slug": "finnish-crossword-summer-1aa2",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-summer",
+   "type": "matching",
+   "mode": "name",
    "theme": "summer",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-summer-1aa2"
+   "level": "kindergarten",
+   "deck": "matching-name-summer"
   },
   {
-   "slug": "finnish-crossword-thanksgiving-e1fc",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-thanksgiving",
+   "type": "matching",
+   "mode": "name",
    "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-thanksgiving-e1fc"
+   "level": "kindergarten",
+   "deck": "matching-name-thanksgiving"
   },
   {
-   "slug": "finnish-crossword-things-that-fly-a06d",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-things-that-fly",
+   "type": "matching",
+   "mode": "name",
    "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-things-that-fly-a06d"
+   "level": "kindergarten",
+   "deck": "matching-name-things-that-fly"
   },
   {
-   "slug": "finnish-crossword-tools-7a98",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-tools",
+   "type": "matching",
+   "mode": "name",
    "theme": "tools",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-tools-7a98"
+   "level": "kindergarten",
+   "deck": "matching-name-tools"
   },
   {
-   "slug": "finnish-crossword-toys-e74b",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-toys",
+   "type": "matching",
+   "mode": "name",
    "theme": "toys",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-toys-e74b"
+   "level": "kindergarten",
+   "deck": "matching-name-toys"
   },
   {
-   "slug": "finnish-crossword-vegetables-4db0",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-vegetables",
+   "type": "matching",
+   "mode": "name",
    "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-vegetables-4db0"
+   "level": "kindergarten",
+   "deck": "matching-name-vegetables"
   },
   {
-   "slug": "finnish-crossword-vehicles-49df",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-vehicles",
+   "type": "matching",
+   "mode": "name",
    "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-vehicles-49df"
+   "level": "kindergarten",
+   "deck": "matching-name-vehicles"
   },
   {
-   "slug": "finnish-crossword-weather-2c03",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-weather",
+   "type": "matching",
+   "mode": "name",
    "theme": "weather",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-weather-2c03"
+   "level": "kindergarten",
+   "deck": "matching-name-weather"
   },
   {
-   "slug": "finnish-crossword-winter-ad69",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-winter-ad69"
-  },
-  {
-   "slug": "finnish-crossword-zoo-animals-d841",
-   "type": "crossword",
-   "mode": null,
+   "slug": "matching-name-zoo-animals",
+   "type": "matching",
+   "mode": "name",
    "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "finnish-crossword-zoo-animals-d841"
+   "level": "kindergarten",
+   "deck": "matching-name-zoo-animals"
   },
   {
-   "slug": "french-crossword-4th-of-july-4006",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-4th-of-july-ef9f",
+   "type": "matching",
+   "mode": "name",
    "theme": "4th_of_july",
    "level": "language-beginner",
-   "deck": "french-crossword-4th-of-july-4006"
+   "deck": "norwegian-matching-name-4th-of-july-ef9f"
   },
   {
-   "slug": "french-crossword-accessories-584f",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-accessories-450b",
+   "type": "matching",
+   "mode": "name",
    "theme": "accessories",
    "level": "language-beginner",
-   "deck": "french-crossword-accessories-584f"
+   "deck": "norwegian-matching-name-accessories-450b"
   },
   {
-   "slug": "french-crossword-activities-26f4",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-activities-32a7",
+   "type": "matching",
+   "mode": "name",
    "theme": "activities",
    "level": "language-beginner",
-   "deck": "french-crossword-activities-26f4"
+   "deck": "norwegian-matching-name-activities-32a7"
   },
   {
-   "slug": "french-crossword-animals-c70c",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-animals-2448",
+   "type": "matching",
+   "mode": "name",
    "theme": "animals",
    "level": "language-beginner",
-   "deck": "french-crossword-animals-c70c"
+   "deck": "norwegian-matching-name-animals-2448"
   },
   {
-   "slug": "french-crossword-around-the-house-ab6e",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-around-the-house-6edd",
+   "type": "matching",
+   "mode": "name",
    "theme": "around_the_house",
    "level": "language-beginner",
-   "deck": "french-crossword-around-the-house-ab6e"
+   "deck": "norwegian-matching-name-around-the-house-6edd"
   },
   {
-   "slug": "french-crossword-at-the-supermarket-576d",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-at-the-supermarket-c8b1",
+   "type": "matching",
+   "mode": "name",
    "theme": "at_the_supermarket",
    "level": "language-beginner",
-   "deck": "french-crossword-at-the-supermarket-576d"
+   "deck": "norwegian-matching-name-at-the-supermarket-c8b1"
   },
   {
-   "slug": "french-crossword-bakery-b3c8",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-bakery-0aa8",
+   "type": "matching",
+   "mode": "name",
    "theme": "bakery",
    "level": "language-beginner",
-   "deck": "french-crossword-bakery-b3c8"
+   "deck": "norwegian-matching-name-bakery-0aa8"
   },
   {
-   "slug": "french-crossword-beach-e571",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-beach-35dc",
+   "type": "matching",
+   "mode": "name",
    "theme": "beach",
    "level": "language-beginner",
-   "deck": "french-crossword-beach-e571"
+   "deck": "norwegian-matching-name-beach-35dc"
   },
   {
-   "slug": "french-crossword-birds-2-500e",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-birds-2-bd89",
+   "type": "matching",
+   "mode": "name",
    "theme": "birds_2",
    "level": "language-beginner",
-   "deck": "french-crossword-birds-2-500e"
+   "deck": "norwegian-matching-name-birds-2-bd89"
   },
   {
-   "slug": "french-crossword-birds-dd0e",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-birds-409d",
+   "type": "matching",
+   "mode": "name",
    "theme": "birds",
    "level": "language-beginner",
-   "deck": "french-crossword-birds-dd0e"
+   "deck": "norwegian-matching-name-birds-409d"
   },
   {
-   "slug": "french-crossword-body-parts-38c2",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-body-parts-75cc",
+   "type": "matching",
+   "mode": "name",
    "theme": "body_parts",
    "level": "language-beginner",
-   "deck": "french-crossword-body-parts-38c2"
+   "deck": "norwegian-matching-name-body-parts-75cc"
   },
   {
-   "slug": "french-crossword-breakfast-0105",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-breakfast-475b",
+   "type": "matching",
+   "mode": "name",
    "theme": "breakfast",
    "level": "language-beginner",
-   "deck": "french-crossword-breakfast-0105"
+   "deck": "norwegian-matching-name-breakfast-475b"
   },
   {
-   "slug": "french-crossword-camping-0b1e",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-camping-3abe",
+   "type": "matching",
+   "mode": "name",
    "theme": "camping",
    "level": "language-beginner",
-   "deck": "french-crossword-camping-0b1e"
+   "deck": "norwegian-matching-name-camping-3abe"
   },
   {
-   "slug": "french-crossword-christmas-e095",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-christmas-3a3a",
+   "type": "matching",
+   "mode": "name",
    "theme": "christmas",
    "level": "language-beginner",
-   "deck": "french-crossword-christmas-e095"
+   "deck": "norwegian-matching-name-christmas-3a3a"
   },
   {
-   "slug": "french-crossword-classroom-53f2",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-classroom-f54c",
+   "type": "matching",
+   "mode": "name",
    "theme": "classroom",
    "level": "language-beginner",
-   "deck": "french-crossword-classroom-53f2"
+   "deck": "norwegian-matching-name-classroom-f54c"
   },
   {
-   "slug": "french-crossword-clothing-e522",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-clothing-ef6d",
+   "type": "matching",
+   "mode": "name",
    "theme": "clothing",
    "level": "language-beginner",
-   "deck": "french-crossword-clothing-e522"
+   "deck": "norwegian-matching-name-clothing-ef6d"
   },
   {
-   "slug": "french-crossword-colors-0694",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-colors-0752",
+   "type": "matching",
+   "mode": "name",
    "theme": "colors",
    "level": "language-beginner",
-   "deck": "french-crossword-colors-0694"
+   "deck": "norwegian-matching-name-colors-0752"
   },
   {
-   "slug": "french-crossword-desserts-and-sweets-5ab8",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-desserts-and-sweets-882d",
+   "type": "matching",
+   "mode": "name",
    "theme": "desserts_and_sweets",
    "level": "language-beginner",
-   "deck": "french-crossword-desserts-and-sweets-5ab8"
+   "deck": "norwegian-matching-name-desserts-and-sweets-882d"
   },
   {
-   "slug": "french-crossword-easter-f461",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-easter-a99d",
+   "type": "matching",
+   "mode": "name",
    "theme": "easter",
    "level": "language-beginner",
-   "deck": "french-crossword-easter-f461"
+   "deck": "norwegian-matching-name-easter-a99d"
   },
   {
-   "slug": "french-crossword-emotions-6a33",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-emotions-05a1",
+   "type": "matching",
+   "mode": "name",
    "theme": "emotions",
    "level": "language-beginner",
-   "deck": "french-crossword-emotions-6a33"
+   "deck": "norwegian-matching-name-emotions-05a1"
   },
   {
-   "slug": "french-crossword-farm-animals-6b93",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-farm-animals-e98a",
+   "type": "matching",
+   "mode": "name",
    "theme": "farm_animals",
    "level": "language-beginner",
-   "deck": "french-crossword-farm-animals-6b93"
+   "deck": "norwegian-matching-name-farm-animals-e98a"
   },
   {
-   "slug": "french-crossword-flowers-a26b",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-flowers-e1b1",
+   "type": "matching",
+   "mode": "name",
    "theme": "flowers",
    "level": "language-beginner",
-   "deck": "french-crossword-flowers-a26b"
+   "deck": "norwegian-matching-name-flowers-e1b1"
   },
   {
-   "slug": "french-crossword-forest-creatures-f20b",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-forest-creatures-4419",
+   "type": "matching",
+   "mode": "name",
    "theme": "forest_creatures",
    "level": "language-beginner",
-   "deck": "french-crossword-forest-creatures-f20b"
+   "deck": "norwegian-matching-name-forest-creatures-4419"
   },
   {
-   "slug": "french-crossword-fruits-6802",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-fruits-e126",
+   "type": "matching",
+   "mode": "name",
    "theme": "fruits",
    "level": "language-beginner",
-   "deck": "french-crossword-fruits-6802"
+   "deck": "norwegian-matching-name-fruits-e126"
   },
   {
-   "slug": "french-crossword-furniture-b296",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-furniture-bfd0",
+   "type": "matching",
+   "mode": "name",
    "theme": "furniture",
    "level": "language-beginner",
-   "deck": "french-crossword-furniture-b296"
+   "deck": "norwegian-matching-name-furniture-bfd0"
   },
   {
-   "slug": "french-crossword-hospital-1300",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-hospital-12e0",
+   "type": "matching",
+   "mode": "name",
    "theme": "hospital",
    "level": "language-beginner",
-   "deck": "french-crossword-hospital-1300"
+   "deck": "norwegian-matching-name-hospital-12e0"
   },
   {
-   "slug": "french-crossword-kitchen-tools-27c9",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-insects-and-bugs-01e6",
+   "type": "matching",
+   "mode": "name",
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-insects-and-bugs-01e6"
+  },
+  {
+   "slug": "norwegian-matching-name-kitchen-tools-37da",
+   "type": "matching",
+   "mode": "name",
    "theme": "kitchen_tools",
    "level": "language-beginner",
-   "deck": "french-crossword-kitchen-tools-27c9"
+   "deck": "norwegian-matching-name-kitchen-tools-37da"
   },
   {
-   "slug": "french-crossword-music-cc59",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-music-39cd",
+   "type": "matching",
+   "mode": "name",
    "theme": "music",
    "level": "language-beginner",
-   "deck": "french-crossword-music-cc59"
+   "deck": "norwegian-matching-name-music-39cd"
   },
   {
-   "slug": "french-crossword-occupations-640c",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-occupations-a5ec",
+   "type": "matching",
+   "mode": "name",
    "theme": "occupations",
    "level": "language-beginner",
-   "deck": "french-crossword-occupations-640c"
+   "deck": "norwegian-matching-name-occupations-a5ec"
   },
   {
-   "slug": "french-crossword-ocean-life-5336",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-ocean-life-8289",
+   "type": "matching",
+   "mode": "name",
    "theme": "ocean_life",
    "level": "language-beginner",
-   "deck": "french-crossword-ocean-life-5336"
+   "deck": "norwegian-matching-name-ocean-life-8289"
   },
   {
-   "slug": "french-crossword-pets-6393",
-   "type": "crossword",
-   "mode": null,
+   "slug": "norwegian-matching-name-pets-a63a",
+   "type": "matching",
+   "mode": "name",
    "theme": "pets",
    "level": "language-beginner",
-   "deck": "french-crossword-pets-6393"
+   "deck": "norwegian-matching-name-pets-a63a"
+  },
+  {
+   "slug": "norwegian-matching-name-post-office-088d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-post-office-088d"
+  },
+  {
+   "slug": "norwegian-matching-name-reptiles-and-amphibians-6173",
+   "type": "matching",
+   "mode": "name",
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-reptiles-and-amphibians-6173"
+  },
+  {
+   "slug": "norwegian-matching-name-shapes-6b67",
+   "type": "matching",
+   "mode": "name",
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-shapes-6b67"
+  },
+  {
+   "slug": "norwegian-matching-name-space-ca04",
+   "type": "matching",
+   "mode": "name",
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-space-ca04"
+  },
+  {
+   "slug": "norwegian-matching-name-spring-7352",
+   "type": "matching",
+   "mode": "name",
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-spring-7352"
+  },
+  {
+   "slug": "norwegian-matching-name-summer-4feb",
+   "type": "matching",
+   "mode": "name",
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-summer-4feb"
+  },
+  {
+   "slug": "norwegian-matching-name-thanksgiving-4048",
+   "type": "matching",
+   "mode": "name",
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-thanksgiving-4048"
+  },
+  {
+   "slug": "norwegian-matching-name-things-that-fly-d0b7",
+   "type": "matching",
+   "mode": "name",
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-things-that-fly-d0b7"
+  },
+  {
+   "slug": "norwegian-matching-name-tools-f956",
+   "type": "matching",
+   "mode": "name",
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-tools-f956"
+  },
+  {
+   "slug": "norwegian-matching-name-toys-d560",
+   "type": "matching",
+   "mode": "name",
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-toys-d560"
+  },
+  {
+   "slug": "norwegian-matching-name-vegetables-a5b2",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-vegetables-a5b2"
+  },
+  {
+   "slug": "norwegian-matching-name-vehicles-6a84",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-vehicles-6a84"
+  },
+  {
+   "slug": "norwegian-matching-name-weather-5b1a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-weather-5b1a"
+  },
+  {
+   "slug": "norwegian-matching-name-winter-a3da",
+   "type": "matching",
+   "mode": "name",
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "norwegian-matching-name-winter-a3da"
   }
  ]
 }

@@ -2,811 +2,583 @@
  "part": 82,
  "locale": "es",
  "classes": [
-  "addition::find-addend",
-  "addition::image-number"
+  "math-puzzle::mixed"
  ],
- "splitOf": null,
- "count": 100,
+ "splitOf": {
+  "class": "math-puzzle::mixed",
+  "total": 142,
+  "chunk": 2,
+  "chunks": 2
+ },
+ "count": 71,
  "pages": [
   {
-   "slug": "suma-buscar-sumando-4-de-julio-16c6",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "4th_of_july",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-4-de-julio-16c6"
-  },
-  {
-   "slug": "suma-buscar-sumando-accesorios-156c",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "accessories",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-accesorios-156c"
-  },
-  {
-   "slug": "suma-buscar-sumando-actividades-bd59",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "activities",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-actividades-bd59"
-  },
-  {
-   "slug": "suma-buscar-sumando-alrededor-de-la-casa-745e",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "around_the_house",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-alrededor-de-la-casa-745e"
-  },
-  {
-   "slug": "suma-buscar-sumando-animales-0178",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "animals",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-animales-0178"
-  },
-  {
-   "slug": "suma-buscar-sumando-animales-de-granja-c37f",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "farm_animals",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-animales-de-granja-c37f"
-  },
-  {
-   "slug": "suma-buscar-sumando-animales-del-zoologico-fd60",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "zoo_animals",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-animales-del-zoologico-fd60"
-  },
-  {
-   "slug": "suma-buscar-sumando-arboles-2b3c",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "tree",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-arboles-2b3c"
-  },
-  {
-   "slug": "suma-buscar-sumando-aves-2-057a",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "birds_2",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-aves-2-057a"
-  },
-  {
-   "slug": "suma-buscar-sumando-aves-71f4",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "birds",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-aves-71f4"
-  },
-  {
-   "slug": "suma-buscar-sumando-campamento-fded",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "camping",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-campamento-fded"
-  },
-  {
-   "slug": "suma-buscar-sumando-clima-35a7",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "weather",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-clima-35a7"
-  },
-  {
-   "slug": "suma-buscar-sumando-colores-2e39",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "colors",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-colores-2e39"
-  },
-  {
-   "slug": "suma-buscar-sumando-cosas-que-vuelan-1236",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "things_that_fly",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-cosas-que-vuelan-1236"
-  },
-  {
-   "slug": "suma-buscar-sumando-criaturas-del-bosque-07a2",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "forest_creatures",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-criaturas-del-bosque-07a2"
-  },
-  {
-   "slug": "suma-buscar-sumando-desayuno-38b3",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "breakfast",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-desayuno-38b3"
-  },
-  {
-   "slug": "suma-buscar-sumando-dia-de-accion-de-gracias-b94e",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "thanksgivinng",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-dia-de-accion-de-gracias-b94e"
-  },
-  {
-   "slug": "suma-buscar-sumando-dinosaurios-167a",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "dinosaurs",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-dinosaurios-167a"
-  },
-  {
-   "slug": "suma-buscar-sumando-emociones-eb1b",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "emotions",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-emociones-eb1b"
-  },
-  {
-   "slug": "suma-buscar-sumando-en-el-supermercado-870c",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "at_the_supermarket",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-en-el-supermercado-870c"
-  },
-  {
-   "slug": "suma-buscar-sumando-espacio-02f9",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "space",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-espacio-02f9"
-  },
-  {
-   "slug": "suma-buscar-sumando-flores-be00",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "flowers",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-flores-be00"
-  },
-  {
-   "slug": "suma-buscar-sumando-formas-4169",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "shapes",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-formas-4169"
-  },
-  {
-   "slug": "suma-buscar-sumando-frutas-e4ca",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "fruits",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-frutas-e4ca"
-  },
-  {
-   "slug": "suma-buscar-sumando-herramientas-496e",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "tools",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-herramientas-496e"
-  },
-  {
-   "slug": "suma-buscar-sumando-hospital-b6fb",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "rompecabezas-matematico-mixto-hospital-525d",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "hospital",
    "level": "primer-grado",
-   "deck": "suma-buscar-sumando-hospital-b6fb"
+   "deck": "rompecabezas-matematico-mixto-hospital-525d"
   },
   {
-   "slug": "suma-buscar-sumando-insectos-y-bichos-f59a",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "rompecabezas-matematico-mixto-insectos-y-bichos-20c1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
    "level": "primer-grado",
-   "deck": "suma-buscar-sumando-insectos-y-bichos-f59a"
+   "deck": "rompecabezas-matematico-mixto-insectos-y-bichos-20c1"
   },
   {
-   "slug": "suma-buscar-sumando-invierno-91ad",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "winter",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-invierno-91ad"
-  },
-  {
-   "slug": "suma-buscar-sumando-juguetes-2e3e",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "toys",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-juguetes-2e3e"
-  },
-  {
-   "slug": "suma-buscar-sumando-mascotas-7003",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "pets",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-mascotas-7003"
-  },
-  {
-   "slug": "suma-buscar-sumando-miscelaneo-8941",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "miscellaneous",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-miscelaneo-8941"
-  },
-  {
-   "slug": "suma-buscar-sumando-muebles-9a21",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "furniture",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-muebles-9a21"
-  },
-  {
-   "slug": "suma-buscar-sumando-musica-aca6",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "music",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-musica-aca6"
-  },
-  {
-   "slug": "suma-buscar-sumando-navidad-cdd5",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "christmas",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-navidad-cdd5"
-  },
-  {
-   "slug": "suma-buscar-sumando-ocupaciones-5f9c",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "occupations",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-ocupaciones-5f9c"
-  },
-  {
-   "slug": "suma-buscar-sumando-oficina-de-correos-6064",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "post_office",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-oficina-de-correos-6064"
-  },
-  {
-   "slug": "suma-buscar-sumando-panaderia-d21d",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "bakery",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-panaderia-d21d"
-  },
-  {
-   "slug": "suma-buscar-sumando-partes-del-cuerpo-07ee",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "body_parts",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-partes-del-cuerpo-07ee"
-  },
-  {
-   "slug": "suma-buscar-sumando-pascua-7269",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "easter",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-pascua-7269"
-  },
-  {
-   "slug": "suma-buscar-sumando-playa-5472",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "beach",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-playa-5472"
-  },
-  {
-   "slug": "suma-buscar-sumando-postres-y-dulces-6344",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "desserts_and_sweets",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-postres-y-dulces-6344"
-  },
-  {
-   "slug": "suma-buscar-sumando-primavera-f0b8",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "spring",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-primavera-f0b8"
-  },
-  {
-   "slug": "suma-buscar-sumando-reptiles-y-anfibios-eaa9",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "reptiles_and_amphibians",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-reptiles-y-anfibios-eaa9"
-  },
-  {
-   "slug": "suma-buscar-sumando-ropa-098f",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "clothing",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-ropa-098f"
-  },
-  {
-   "slug": "suma-buscar-sumando-salon-de-clases-d7e0",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "classroom",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-salon-de-clases-d7e0"
-  },
-  {
-   "slug": "suma-buscar-sumando-utensilios-de-cocina-d44c",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "kitchen_tools",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-utensilios-de-cocina-d44c"
-  },
-  {
-   "slug": "suma-buscar-sumando-vehiculos-c068",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "vehicles",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-vehiculos-c068"
-  },
-  {
-   "slug": "suma-buscar-sumando-verano-271f",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "summer",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-verano-271f"
-  },
-  {
-   "slug": "suma-buscar-sumando-verduras-dcfb",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "vegetables",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-verduras-dcfb"
-  },
-  {
-   "slug": "suma-buscar-sumando-vida-marina-dbcd",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "ocean_life",
-   "level": "primer-grado",
-   "deck": "suma-buscar-sumando-vida-marina-dbcd"
-  },
-  {
-   "slug": "suma-imagen-numero-4-de-julio-7fca",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "4th_of_july",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-4-de-julio-7fca"
-  },
-  {
-   "slug": "suma-imagen-numero-accesorios-f7de",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "accessories",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-accesorios-f7de"
-  },
-  {
-   "slug": "suma-imagen-numero-actividades-0324",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "activities",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-actividades-0324"
-  },
-  {
-   "slug": "suma-imagen-numero-alrededor-de-la-casa-5be4",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "around_the_house",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-alrededor-de-la-casa-5be4"
-  },
-  {
-   "slug": "suma-imagen-numero-animales-a9ea",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "animals",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-animales-a9ea"
-  },
-  {
-   "slug": "suma-imagen-numero-animales-de-granja-0aa2",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "farm_animals",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-animales-de-granja-0aa2"
-  },
-  {
-   "slug": "suma-imagen-numero-animales-del-zoologico-db13",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "zoo_animals",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-animales-del-zoologico-db13"
-  },
-  {
-   "slug": "suma-imagen-numero-arboles-b4c8",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-arboles-b4c8"
-  },
-  {
-   "slug": "suma-imagen-numero-aves-2-7954",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "birds_2",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-aves-2-7954"
-  },
-  {
-   "slug": "suma-imagen-numero-aves-e13e",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-aves-e13e"
-  },
-  {
-   "slug": "suma-imagen-numero-campamento-d27d",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "camping",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-campamento-d27d"
-  },
-  {
-   "slug": "suma-imagen-numero-clima-abfd",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "weather",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-clima-abfd"
-  },
-  {
-   "slug": "suma-imagen-numero-colores-a0cf",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "colors",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-colores-a0cf"
-  },
-  {
-   "slug": "suma-imagen-numero-cosas-que-vuelan-de11",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "things_that_fly",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-cosas-que-vuelan-de11"
-  },
-  {
-   "slug": "suma-imagen-numero-criaturas-del-bosque-b93e",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "forest_creatures",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-criaturas-del-bosque-b93e"
-  },
-  {
-   "slug": "suma-imagen-numero-desayuno-fb21",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "breakfast",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-desayuno-fb21"
-  },
-  {
-   "slug": "suma-imagen-numero-dia-de-accion-de-gracias-9583",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "thanksgivinng",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-dia-de-accion-de-gracias-9583"
-  },
-  {
-   "slug": "suma-imagen-numero-dinosaurios-fab1",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "dinosaurs",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-dinosaurios-fab1"
-  },
-  {
-   "slug": "suma-imagen-numero-emociones-8174",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "emotions",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-emociones-8174"
-  },
-  {
-   "slug": "suma-imagen-numero-en-el-supermercado-77e1",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "at_the_supermarket",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-en-el-supermercado-77e1"
-  },
-  {
-   "slug": "suma-imagen-numero-espacio-1495",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "space",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-espacio-1495"
-  },
-  {
-   "slug": "suma-imagen-numero-flores-c746",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "flowers",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-flores-c746"
-  },
-  {
-   "slug": "suma-imagen-numero-formas-25bb",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "shapes",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-formas-25bb"
-  },
-  {
-   "slug": "suma-imagen-numero-frutas-db89",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "fruits",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-frutas-db89"
-  },
-  {
-   "slug": "suma-imagen-numero-herramientas-be48",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "tools",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-herramientas-be48"
-  },
-  {
-   "slug": "suma-imagen-numero-hospital-adf0",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "hospital",
-   "level": "primer-grado",
-   "deck": "suma-imagen-numero-hospital-adf0"
-  },
-  {
-   "slug": "suma-imagen-numero-insectos-y-bichos-c16e",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-insectos-y-bichos-337f",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-insectos-y-bichos-c16e"
+   "deck": "rompecabezas-matematico-mixto-insectos-y-bichos-337f"
   },
   {
-   "slug": "suma-imagen-numero-invierno-abcf",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-insectos-y-bichos-4ec7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-insectos-y-bichos-4ec7"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-invierno-1c7b",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "winter",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-invierno-abcf"
+   "deck": "rompecabezas-matematico-mixto-invierno-1c7b"
   },
   {
-   "slug": "suma-imagen-numero-juguetes-c21d",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-invierno-6a14",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-invierno-6a14"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-invierno-7806",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-invierno-7806"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-juguetes-2e7f",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "toys",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-juguetes-c21d"
+   "deck": "rompecabezas-matematico-mixto-juguetes-2e7f"
   },
   {
-   "slug": "suma-imagen-numero-mascotas-36d4",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-juguetes-7a9a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-juguetes-7a9a"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-juguetes-f2fc",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-juguetes-f2fc"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-mascotas-37fb",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "pets",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-mascotas-36d4"
+   "deck": "rompecabezas-matematico-mixto-mascotas-37fb"
   },
   {
-   "slug": "suma-imagen-numero-miscelaneo-bb02",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-mascotas-4702",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-mascotas-4702"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-mascotas-9735",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-mascotas-9735"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-miscelaneo-54f8",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "miscellaneous",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-miscelaneo-bb02"
+   "deck": "rompecabezas-matematico-mixto-miscelaneo-54f8"
   },
   {
-   "slug": "suma-imagen-numero-muebles-60e3",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-miscelaneo-5a7d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-miscelaneo-5a7d"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-miscelaneo-863b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-miscelaneo-863b"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-muebles-321c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-muebles-321c"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-muebles-67c3",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "furniture",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-muebles-60e3"
+   "deck": "rompecabezas-matematico-mixto-muebles-67c3"
   },
   {
-   "slug": "suma-imagen-numero-musica-f62d",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-muebles-cef2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-muebles-cef2"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-musica-5918",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-musica-5918"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-musica-699b",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "music",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-musica-f62d"
+   "deck": "rompecabezas-matematico-mixto-musica-699b"
   },
   {
-   "slug": "suma-imagen-numero-navidad-ceb8",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-musica-ce10",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-musica-ce10"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-navidad-6c98",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "christmas",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-navidad-ceb8"
+   "deck": "rompecabezas-matematico-mixto-navidad-6c98"
   },
   {
-   "slug": "suma-imagen-numero-ocupaciones-afbf",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-navidad-ada1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-navidad-ada1"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-navidad-e51c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-navidad-e51c"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-ocupaciones-6774",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-ocupaciones-6774"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-ocupaciones-c76e",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "occupations",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-ocupaciones-afbf"
+   "deck": "rompecabezas-matematico-mixto-ocupaciones-c76e"
   },
   {
-   "slug": "suma-imagen-numero-oficina-de-correos-66a3",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-ocupaciones-d5e1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-ocupaciones-d5e1"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-oficina-de-correos-2bc3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-oficina-de-correos-2bc3"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-oficina-de-correos-2e5f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-oficina-de-correos-2e5f"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-oficina-de-correos-5864",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "post_office",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-oficina-de-correos-66a3"
+   "deck": "rompecabezas-matematico-mixto-oficina-de-correos-5864"
   },
   {
-   "slug": "suma-imagen-numero-panaderia-26fb",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-panaderia-0697",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "bakery",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-panaderia-26fb"
+   "deck": "rompecabezas-matematico-mixto-panaderia-0697"
   },
   {
-   "slug": "suma-imagen-numero-partes-del-cuerpo-c2d6",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-panaderia-2c9b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-panaderia-2c9b"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-panaderia-e135",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-panaderia-e135"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-partes-del-cuerpo-1ce7",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "body_parts",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-partes-del-cuerpo-c2d6"
+   "deck": "rompecabezas-matematico-mixto-partes-del-cuerpo-1ce7"
   },
   {
-   "slug": "suma-imagen-numero-pascua-1a61",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-partes-del-cuerpo-7900",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "body_parts",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-partes-del-cuerpo-7900"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-partes-del-cuerpo-b505",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-partes-del-cuerpo-b505"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-pascua-84d8",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "easter",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-pascua-1a61"
+   "deck": "rompecabezas-matematico-mixto-pascua-84d8"
   },
   {
-   "slug": "suma-imagen-numero-playa-e77a",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-pascua-9e76",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-pascua-9e76"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-pascua-a2a6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-pascua-a2a6"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-playa-50dc",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "beach",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-playa-e77a"
+   "deck": "rompecabezas-matematico-mixto-playa-50dc"
   },
   {
-   "slug": "suma-imagen-numero-postres-y-dulces-c116",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-playa-a464",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-playa-a464"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-playa-ad44",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-playa-ad44"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-postres-y-dulces-3a6e",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-postres-y-dulces-c116"
+   "deck": "rompecabezas-matematico-mixto-postres-y-dulces-3a6e"
   },
   {
-   "slug": "suma-imagen-numero-primavera-f377",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-postres-y-dulces-ae3b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-postres-y-dulces-ae3b"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-postres-y-dulces-f04b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-postres-y-dulces-f04b"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-primavera-0a2b",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "spring",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-primavera-f377"
+   "deck": "rompecabezas-matematico-mixto-primavera-0a2b"
   },
   {
-   "slug": "suma-imagen-numero-reptiles-y-anfibios-4e12",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-primavera-e570",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "spring",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-primavera-e570"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-reptiles-y-anfibios-2205",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-reptiles-y-anfibios-4e12"
+   "deck": "rompecabezas-matematico-mixto-reptiles-y-anfibios-2205"
   },
   {
-   "slug": "suma-imagen-numero-ropa-57f6",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-reptiles-y-anfibios-77a7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-reptiles-y-anfibios-77a7"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-ropa-292d",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "clothing",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-ropa-57f6"
+   "deck": "rompecabezas-matematico-mixto-ropa-292d"
   },
   {
-   "slug": "suma-imagen-numero-salon-de-clases-b46d",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-ropa-4294",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-ropa-4294"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-ropa-57fd",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-ropa-57fd"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-salon-de-clases-aed0",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "classroom",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-salon-de-clases-b46d"
+   "deck": "rompecabezas-matematico-mixto-salon-de-clases-aed0"
   },
   {
-   "slug": "suma-imagen-numero-utensilios-de-cocina-4022",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-salon-de-clases-be25",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-salon-de-clases-be25"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-salon-de-clases-c571",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-salon-de-clases-c571"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-utensilios-de-cocina-8739",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "kitchen_tools",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-utensilios-de-cocina-4022"
+   "deck": "rompecabezas-matematico-mixto-utensilios-de-cocina-8739"
   },
   {
-   "slug": "suma-imagen-numero-vehiculos-c8b9",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-utensilios-de-cocina-e4e9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-utensilios-de-cocina-e4e9"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-utensilios-de-cocina-fdc5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-utensilios-de-cocina-fdc5"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-vehiculos-1839",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "vehicles",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-vehiculos-c8b9"
+   "deck": "rompecabezas-matematico-mixto-vehiculos-1839"
   },
   {
-   "slug": "suma-imagen-numero-verano-2656",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-vehiculos-4eb9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-vehiculos-4eb9"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-vehiculos-5159",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-vehiculos-5159"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-verano-0a92",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "summer",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-verano-2656"
+   "deck": "rompecabezas-matematico-mixto-verano-0a92"
   },
   {
-   "slug": "suma-imagen-numero-verduras-64fc",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-verano-594a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-verano-594a"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-verano-7f61",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-verano-7f61"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-verduras-521b",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "vegetables",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-verduras-64fc"
+   "deck": "rompecabezas-matematico-mixto-verduras-521b"
   },
   {
-   "slug": "suma-imagen-numero-vida-marina-b680",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "rompecabezas-matematico-mixto-verduras-94f2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-verduras-94f2"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-verduras-bcf5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "rompecabezas-matematico-mixto-verduras-bcf5"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-vida-marina-5476",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-vida-marina-5476"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-vida-marina-6380",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "segundo-grado",
+   "deck": "rompecabezas-matematico-mixto-vida-marina-6380"
+  },
+  {
+   "slug": "rompecabezas-matematico-mixto-vida-marina-af82",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "ocean_life",
    "level": "primer-grado",
-   "deck": "suma-imagen-numero-vida-marina-b680"
+   "deck": "rompecabezas-matematico-mixto-vida-marina-af82"
   }
  ]
 }

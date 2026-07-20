@@ -1,624 +1,764 @@
 {
  "part": 225,
- "locale": "sv",
+ "locale": "nl",
  "classes": [
-  "picture-sort::null"
+  "sudoku::medium",
+  "word-guess::easy"
  ],
- "splitOf": {
-  "class": "picture-sort::null",
-  "total": 151,
-  "chunk": 1,
-  "chunks": 2
- },
- "count": 76,
+ "splitOf": null,
+ "count": 94,
  "pages": [
   {
-   "slug": "sortera-bilder-4th-of-july-vs-animals-d3ba",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "4th_of_july-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-4th-of-july-vs-animals-d3ba"
-  },
-  {
-   "slug": "sortera-bilder-4th-of-july-vs-tree-5f9d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "4th_of_july-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-4th-of-july-vs-tree-5f9d"
-  },
-  {
-   "slug": "sortera-bilder-accessories-vs-animals-e2c6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-accessories-vs-animals-e2c6"
-  },
-  {
-   "slug": "sortera-bilder-accessories-vs-flowers-cf10",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-accessories-vs-flowers-cf10"
-  },
-  {
-   "slug": "sortera-bilder-accessories-vs-tree-563c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-accessories-vs-tree-563c"
-  },
-  {
-   "slug": "sortera-bilder-activities-vs-animals-8cb5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-activities-vs-animals-8cb5"
-  },
-  {
-   "slug": "sortera-bilder-activities-vs-flowers-974c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-activities-vs-flowers-974c"
-  },
-  {
-   "slug": "sortera-bilder-activities-vs-tree-700e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-activities-vs-tree-700e"
-  },
-  {
-   "slug": "sortera-bilder-animals-vs-flowers-4c83",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-animals-vs-flowers-4c83"
-  },
-  {
-   "slug": "sortera-bilder-animals-vs-tree-ea5b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-animals-vs-tree-ea5b"
-  },
-  {
-   "slug": "sortera-bilder-around-the-house-vs-animals-7cd7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "around_the_house-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-around-the-house-vs-animals-7cd7"
-  },
-  {
-   "slug": "sortera-bilder-around-the-house-vs-flowers-b981",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "around_the_house-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-around-the-house-vs-flowers-b981"
-  },
-  {
-   "slug": "sortera-bilder-around-the-house-vs-tree-fc8a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "around_the_house-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-around-the-house-vs-tree-fc8a"
+   "slug": "foto-sudoku-gemiddeld-accessoires-6129",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-accessoires-6129"
+  },
+  {
+   "slug": "foto-sudoku-gemiddeld-activiteiten-910b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "activities",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-activiteiten-910b"
+  },
+  {
+   "slug": "foto-sudoku-gemiddeld-bakkerij-91c0",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-bakkerij-91c0"
+  },
+  {
+   "slug": "foto-sudoku-gemiddeld-beroepen-c4fb",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-beroepen-c4fb"
+  },
+  {
+   "slug": "foto-sudoku-gemiddeld-bloemen-5201",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-bloemen-5201"
+  },
+  {
+   "slug": "foto-sudoku-gemiddeld-boerderijdieren-cac3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "farm_animals",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-boerderijdieren-cac3"
+  },
+  {
+   "slug": "foto-sudoku-gemiddeld-bomen-6629",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-bomen-6629"
+  },
+  {
+   "slug": "foto-sudoku-gemiddeld-boswezens-91ea",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "forest_creatures",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-boswezens-91ea"
+  },
+  {
+   "slug": "foto-sudoku-gemiddeld-desserts-en-snoep-bd19",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-desserts-en-snoep-bd19"
+  },
+  {
+   "slug": "foto-sudoku-gemiddeld-dieren-dceb",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-dieren-dceb"
+  },
+  {
+   "slug": "foto-sudoku-gemiddeld-dierentuindieren-f1d0",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-dierentuindieren-f1d0"
+  },
+  {
+   "slug": "foto-sudoku-gemiddeld-dingen-die-vliegen-5a2c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-dingen-die-vliegen-5a2c"
+  },
+  {
+   "slug": "foto-sudoku-gemiddeld-dinosaurussen-c3d2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-dinosaurussen-c3d2"
   },
   {
-   "slug": "sortera-bilder-at-the-supermarket-vs-animals-a868",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-at-the-supermarket-vs-animals-a868"
+   "slug": "foto-sudoku-gemiddeld-emoties-5ac9",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "emotions",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-emoties-5ac9"
   },
   {
-   "slug": "sortera-bilder-at-the-supermarket-vs-flowers-8699",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-at-the-supermarket-vs-flowers-8699"
+   "slug": "foto-sudoku-gemiddeld-fruit-8fa1",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-fruit-8fa1"
   },
   {
-   "slug": "sortera-bilder-at-the-supermarket-vs-tree-03f7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-at-the-supermarket-vs-tree-03f7"
+   "slug": "foto-sudoku-gemiddeld-gereedschap-7d59",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-gereedschap-7d59"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-4th-of-july-2e45",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-4th_of_july",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-4th-of-july-2e45"
+   "slug": "foto-sudoku-gemiddeld-groenten-c24c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-groenten-c24c"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-activities-1b86",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-activities",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-activities-1b86"
+   "slug": "foto-sudoku-gemiddeld-huisdieren-3c2c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-huisdieren-3c2c"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-animals-df48",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-animals-df48"
+   "slug": "foto-sudoku-gemiddeld-in-de-supermarkt-9173",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-in-de-supermarkt-9173"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-birds-2-1fd2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-birds_2",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-birds-2-1fd2"
+   "slug": "foto-sudoku-gemiddeld-insecten-en-beestjes-0ef6",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-insecten-en-beestjes-0ef6"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-birds-4e8e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-birds",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-birds-4e8e"
+   "slug": "foto-sudoku-gemiddeld-kamperen-4f95",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-kamperen-4f95"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-body-parts-2950",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-body_parts",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-body-parts-2950"
+   "slug": "foto-sudoku-gemiddeld-kerstmis-5708",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-kerstmis-5708"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-breakfast-30f0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-breakfast",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-breakfast-30f0"
+   "slug": "foto-sudoku-gemiddeld-keukengerei-f39e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-keukengerei-f39e"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-camping-f46e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-camping",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-camping-f46e"
+   "slug": "foto-sudoku-gemiddeld-klaslokaal-afe4",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-klaslokaal-afe4"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-christmas-025d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-christmas",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-christmas-025d"
+   "slug": "foto-sudoku-gemiddeld-kleding-8e06",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-kleding-8e06"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-classroom-2bd4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-classroom",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-classroom-2bd4"
+   "slug": "foto-sudoku-gemiddeld-kleuren-11bc",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-kleuren-11bc"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-clothing-1e26",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-clothing",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-clothing-1e26"
+   "slug": "foto-sudoku-gemiddeld-lente-6de7",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-lente-6de7"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-colors-d5a7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-colors",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-colors-d5a7"
+   "slug": "foto-sudoku-gemiddeld-lichaamsdelen-f439",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-lichaamsdelen-f439"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-dinosaurs-1de9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-dinosaurs",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-dinosaurs-1de9"
+   "slug": "foto-sudoku-gemiddeld-meubels-822c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-meubels-822c"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-emotions-3f64",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-emotions",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-emotions-3f64"
+   "slug": "foto-sudoku-gemiddeld-muziek-b2e9",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-muziek-b2e9"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-farm-animals-ee7a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-farm_animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-farm-animals-ee7a"
+   "slug": "foto-sudoku-gemiddeld-oceaanleven-a166",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-oceaanleven-a166"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-flowers-35d0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-flowers-35d0"
+   "slug": "foto-sudoku-gemiddeld-ontbijt-bbc1",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-ontbijt-bbc1"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-fruits-4580",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-fruits",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-fruits-4580"
+   "slug": "foto-sudoku-gemiddeld-pasen-113b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-pasen-113b"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-furniture-3f12",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-furniture",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-furniture-3f12"
+   "slug": "foto-sudoku-gemiddeld-postkantoor-62d0",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-postkantoor-62d0"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-kitchen-tools-eb15",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-kitchen_tools",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-kitchen-tools-eb15"
+   "slug": "foto-sudoku-gemiddeld-rond-het-huis-e214",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-rond-het-huis-e214"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-music-95b3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-music",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-music-95b3"
+   "slug": "foto-sudoku-gemiddeld-ruimte-90ea",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-ruimte-90ea"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-ocean-life-31c8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-ocean_life",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-ocean-life-31c8"
+   "slug": "foto-sudoku-gemiddeld-speelgoed-7d9f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-speelgoed-7d9f"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-pets-5bfb",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-pets",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-pets-5bfb"
+   "slug": "foto-sudoku-gemiddeld-strand-901c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-strand-901c"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-post-office-c921",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-post_office",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-post-office-c921"
+   "slug": "foto-sudoku-gemiddeld-thanksgiving-9861",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-thanksgiving-9861"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-shapes-f357",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-shapes",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-shapes-f357"
+   "slug": "foto-sudoku-gemiddeld-voertuigen-9fed",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-voertuigen-9fed"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-toys-bbd8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-toys",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-toys-bbd8"
+   "slug": "foto-sudoku-gemiddeld-vogels-2-de8f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-vogels-2-de8f"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-tree-3eb7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-tree-3eb7"
+   "slug": "foto-sudoku-gemiddeld-vogels-52b6",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-vogels-52b6"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-vegetables-06d9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-vegetables",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-vegetables-06d9"
+   "slug": "foto-sudoku-gemiddeld-vormen-0575",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-vormen-0575"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-vehicles-2964",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-vehicles",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-vehicles-2964"
+   "slug": "foto-sudoku-gemiddeld-weer-a5ca",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-weer-a5ca"
   },
   {
-   "slug": "sortera-bilder-bakery-vs-zoo-animals-ee80",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-zoo_animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-bakery-vs-zoo-animals-ee80"
+   "slug": "foto-sudoku-gemiddeld-winter-9ce1",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-winter-9ce1"
   },
   {
-   "slug": "sortera-bilder-beach-vs-flowers-c7d3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "beach-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-beach-vs-flowers-c7d3"
+   "slug": "foto-sudoku-gemiddeld-ziekenhuis-53c4",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-ziekenhuis-53c4"
   },
   {
-   "slug": "sortera-bilder-beach-vs-tree-f548",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "beach-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-beach-vs-tree-f548"
+   "slug": "foto-sudoku-gemiddeld-zomer-345e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "foto-sudoku-gemiddeld-zomer-345e"
   },
   {
-   "slug": "sortera-bilder-birds-2-vs-flowers-09e5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "birds_2-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-birds-2-vs-flowers-09e5"
+   "slug": "woord-raden-makkelijk-accessoires-e75d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-accessoires-e75d"
   },
   {
-   "slug": "sortera-bilder-birds-2-vs-tree-291d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "birds_2-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-birds-2-vs-tree-291d"
+   "slug": "woord-raden-makkelijk-activiteiten-e3c7",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-activiteiten-e3c7"
   },
   {
-   "slug": "sortera-bilder-birds-vs-tree-8c83",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "birds-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-birds-vs-tree-8c83"
+   "slug": "woord-raden-makkelijk-bakkerij-f2eb",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-bakkerij-f2eb"
   },
   {
-   "slug": "sortera-bilder-body-parts-vs-animals-3802",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "body_parts-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-body-parts-vs-animals-3802"
+   "slug": "woord-raden-makkelijk-beroepen-5713",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-beroepen-5713"
   },
   {
-   "slug": "sortera-bilder-body-parts-vs-flowers-3902",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "body_parts-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-body-parts-vs-flowers-3902"
+   "slug": "woord-raden-makkelijk-bloemen-dd2b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-bloemen-dd2b"
   },
   {
-   "slug": "sortera-bilder-body-parts-vs-tree-2add",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "body_parts-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-body-parts-vs-tree-2add"
+   "slug": "woord-raden-makkelijk-boerderijdieren-626a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-boerderijdieren-626a"
   },
   {
-   "slug": "sortera-bilder-breakfast-vs-animals-88de",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "breakfast-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-breakfast-vs-animals-88de"
+   "slug": "woord-raden-makkelijk-bomen-172d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-bomen-172d"
   },
   {
-   "slug": "sortera-bilder-breakfast-vs-flowers-61ea",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "breakfast-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-breakfast-vs-flowers-61ea"
+   "slug": "woord-raden-makkelijk-boswezens-99fc",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-boswezens-99fc"
   },
   {
-   "slug": "sortera-bilder-breakfast-vs-tree-ca60",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "breakfast-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-breakfast-vs-tree-ca60"
+   "slug": "woord-raden-makkelijk-desserts-en-snoep-98cd",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-desserts-en-snoep-98cd"
   },
   {
-   "slug": "sortera-bilder-camping-vs-flowers-d679",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-camping-vs-flowers-d679"
+   "slug": "woord-raden-makkelijk-dieren-3718",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-dieren-3718"
   },
   {
-   "slug": "sortera-bilder-camping-vs-tree-f6a8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-camping-vs-tree-f6a8"
+   "slug": "woord-raden-makkelijk-dierentuindieren-161d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-dierentuindieren-161d"
   },
   {
-   "slug": "sortera-bilder-christmas-vs-animals-04f4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "christmas-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-christmas-vs-animals-04f4"
+   "slug": "woord-raden-makkelijk-dingen-die-vliegen-e634",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-dingen-die-vliegen-e634"
   },
   {
-   "slug": "sortera-bilder-christmas-vs-flowers-8cb2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "christmas-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-christmas-vs-flowers-8cb2"
+   "slug": "woord-raden-makkelijk-emoties-f52f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-emoties-f52f"
   },
   {
-   "slug": "sortera-bilder-christmas-vs-tree-6163",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "christmas-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-christmas-vs-tree-6163"
+   "slug": "woord-raden-makkelijk-fruit-49c8",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-fruit-49c8"
   },
   {
-   "slug": "sortera-bilder-classroom-vs-animals-b533",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-classroom-vs-animals-b533"
+   "slug": "woord-raden-makkelijk-gereedschap-ff3b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-gereedschap-ff3b"
   },
   {
-   "slug": "sortera-bilder-classroom-vs-flowers-9bb5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-classroom-vs-flowers-9bb5"
+   "slug": "woord-raden-makkelijk-groenten-36db",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-groenten-36db"
   },
   {
-   "slug": "sortera-bilder-classroom-vs-tree-13c9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-classroom-vs-tree-13c9"
-  },
-  {
-   "slug": "sortera-bilder-clothing-vs-animals-0b36",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-clothing-vs-animals-0b36"
-  },
-  {
-   "slug": "sortera-bilder-clothing-vs-flowers-77b3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-clothing-vs-flowers-77b3"
-  },
-  {
-   "slug": "sortera-bilder-clothing-vs-tree-f86e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-clothing-vs-tree-f86e"
-  },
-  {
-   "slug": "sortera-bilder-colors-vs-animals-c4a5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-colors-vs-animals-c4a5"
-  },
-  {
-   "slug": "sortera-bilder-colors-vs-flowers-cf78",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-colors-vs-flowers-cf78"
-  },
-  {
-   "slug": "sortera-bilder-colors-vs-tree-0e9f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-colors-vs-tree-0e9f"
-  },
-  {
-   "slug": "sortera-bilder-desserts-and-sweets-vs-animals-dd7e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "desserts_and_sweets-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-desserts-and-sweets-vs-animals-dd7e"
-  },
-  {
-   "slug": "sortera-bilder-desserts-and-sweets-vs-flowers-d751",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "desserts_and_sweets-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-desserts-and-sweets-vs-flowers-d751"
-  },
-  {
-   "slug": "sortera-bilder-desserts-and-sweets-vs-tree-4779",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "desserts_and_sweets-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-desserts-and-sweets-vs-tree-4779"
-  },
-  {
-   "slug": "sortera-bilder-dinosaurs-vs-animals-f206",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "dinosaurs-vs-animals",
-   "level": "forskola",
-   "deck": "sortera-bilder-dinosaurs-vs-animals-f206"
-  },
-  {
-   "slug": "sortera-bilder-dinosaurs-vs-flowers-2c03",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "dinosaurs-vs-flowers",
-   "level": "forskola",
-   "deck": "sortera-bilder-dinosaurs-vs-flowers-2c03"
-  },
-  {
-   "slug": "sortera-bilder-dinosaurs-vs-tree-d589",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "dinosaurs-vs-tree",
-   "level": "forskola",
-   "deck": "sortera-bilder-dinosaurs-vs-tree-d589"
+   "slug": "woord-raden-makkelijk-huisdieren-878f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-huisdieren-878f"
+  },
+  {
+   "slug": "woord-raden-makkelijk-in-de-supermarkt-52d4",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-in-de-supermarkt-52d4"
+  },
+  {
+   "slug": "woord-raden-makkelijk-insecten-en-beestjes-1b34",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-insecten-en-beestjes-1b34"
+  },
+  {
+   "slug": "woord-raden-makkelijk-kamperen-5f1e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-kamperen-5f1e"
+  },
+  {
+   "slug": "woord-raden-makkelijk-kerstmis-5e85",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-kerstmis-5e85"
+  },
+  {
+   "slug": "woord-raden-makkelijk-keukengerei-a054",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-keukengerei-a054"
+  },
+  {
+   "slug": "woord-raden-makkelijk-klaslokaal-941b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-klaslokaal-941b"
+  },
+  {
+   "slug": "woord-raden-makkelijk-kleding-adaf",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-kleding-adaf"
+  },
+  {
+   "slug": "woord-raden-makkelijk-kleuren-4e26",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-kleuren-4e26"
+  },
+  {
+   "slug": "woord-raden-makkelijk-lente-36ed",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-lente-36ed"
+  },
+  {
+   "slug": "woord-raden-makkelijk-lichaamsdelen-fe4b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-lichaamsdelen-fe4b"
+  },
+  {
+   "slug": "woord-raden-makkelijk-meubels-838d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-meubels-838d"
+  },
+  {
+   "slug": "woord-raden-makkelijk-muziek-e9b3",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "music",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-muziek-e9b3"
+  },
+  {
+   "slug": "woord-raden-makkelijk-oceaanleven-a42c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-oceaanleven-a42c"
+  },
+  {
+   "slug": "woord-raden-makkelijk-ontbijt-ab97",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-ontbijt-ab97"
+  },
+  {
+   "slug": "woord-raden-makkelijk-pasen-f13c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-pasen-f13c"
+  },
+  {
+   "slug": "woord-raden-makkelijk-postkantoor-ed9f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-postkantoor-ed9f"
+  },
+  {
+   "slug": "woord-raden-makkelijk-reptielen-en-amfibieen-26dc",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-reptielen-en-amfibieen-26dc"
+  },
+  {
+   "slug": "woord-raden-makkelijk-rond-het-huis-274e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-rond-het-huis-274e"
+  },
+  {
+   "slug": "woord-raden-makkelijk-ruimte-9569",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "space",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-ruimte-9569"
+  },
+  {
+   "slug": "woord-raden-makkelijk-speelgoed-3434",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-speelgoed-3434"
+  },
+  {
+   "slug": "woord-raden-makkelijk-strand-8e63",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-strand-8e63"
+  },
+  {
+   "slug": "woord-raden-makkelijk-thanksgiving-f5ae",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-thanksgiving-f5ae"
+  },
+  {
+   "slug": "woord-raden-makkelijk-voertuigen-4f94",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-voertuigen-4f94"
+  },
+  {
+   "slug": "woord-raden-makkelijk-vogels-2-593a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-vogels-2-593a"
+  },
+  {
+   "slug": "woord-raden-makkelijk-vogels-2854",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-vogels-2854"
+  },
+  {
+   "slug": "woord-raden-makkelijk-vormen-d5e2",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-vormen-d5e2"
+  },
+  {
+   "slug": "woord-raden-makkelijk-weer-2b16",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-weer-2b16"
+  },
+  {
+   "slug": "woord-raden-makkelijk-winter-2174",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-winter-2174"
+  },
+  {
+   "slug": "woord-raden-makkelijk-ziekenhuis-0a9b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-ziekenhuis-0a9b"
+  },
+  {
+   "slug": "woord-raden-makkelijk-zomer-137b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "groep-3",
+   "deck": "woord-raden-makkelijk-zomer-137b"
   }
  ]
 }

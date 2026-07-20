@@ -2,747 +2,651 @@
  "part": 62,
  "locale": "de",
  "classes": [
-  "pattern-train::aabb",
-  "prepositions::multiplechoice"
+  "math-puzzle::addition",
+  "math-puzzle::mixed"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 80,
  "pages": [
   {
-   "slug": "muster-zug-aabb-accessoires-0d4e",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-accessoires-176c",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "accessories",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-accessoires-0d4e"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-accessoires-176c"
   },
   {
-   "slug": "muster-zug-aabb-aktivitaten-615c",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "activities",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-aktivitaten-615c"
-  },
-  {
-   "slug": "muster-zug-aabb-backerei-1155",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-backerei-d1cd",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "bakery",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-backerei-1155"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-backerei-d1cd"
   },
   {
-   "slug": "muster-zug-aabb-bauernhoftiere-be1d",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "farm_animals",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-bauernhoftiere-be1d"
-  },
-  {
-   "slug": "muster-zug-aabb-baume-0c39",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-baume-e338",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "tree",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-baume-0c39"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-baume-e338"
   },
   {
-   "slug": "muster-zug-aabb-berufe-837b",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-berufe-4bbf",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "occupations",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-berufe-837b"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-berufe-4bbf"
   },
   {
-   "slug": "muster-zug-aabb-blumen-1c5d",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-blumen-d020",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "flowers",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-blumen-1c5d"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-blumen-d020"
   },
   {
-   "slug": "muster-zug-aabb-camping-afba",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-camping-af1b",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "camping",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-camping-afba"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-camping-af1b"
   },
   {
-   "slug": "muster-zug-aabb-desserts-und-sussigkeiten-81c4",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-desserts-und-sussigkeiten-4b10",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "desserts_and_sweets",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-desserts-und-sussigkeiten-81c4"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-desserts-und-sussigkeiten-4b10"
   },
   {
-   "slug": "muster-zug-aabb-dinge-die-fliegen-56dc",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-dinge-die-fliegen-df6a",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "things_that_fly",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-dinge-die-fliegen-56dc"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-dinge-die-fliegen-df6a"
   },
   {
-   "slug": "muster-zug-aabb-dinosaurier-7131",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-dinosaurier-3cde",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "dinosaurs",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-dinosaurier-7131"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-dinosaurier-3cde"
   },
   {
-   "slug": "muster-zug-aabb-emotionen-1d36",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "emotions",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-emotionen-1d36"
-  },
-  {
-   "slug": "muster-zug-aabb-erntedankfest-68a2",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-erntedankfest-7c4d",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "thanksgivinng",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-erntedankfest-68a2"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-erntedankfest-7c4d"
   },
   {
-   "slug": "muster-zug-aabb-fahrzeuge-63f1",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-fahrzeuge-20cd",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "vehicles",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-fahrzeuge-63f1"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-fahrzeuge-20cd"
   },
   {
-   "slug": "muster-zug-aabb-farben-7f0d",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "colors",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-farben-7f0d"
-  },
-  {
-   "slug": "muster-zug-aabb-formen-f7bf",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-formen-4706",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "shapes",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-formen-f7bf"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-formen-4706"
   },
   {
-   "slug": "muster-zug-aabb-fruchte-5e2a",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-fruchte-fe92",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "fruits",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-fruchte-5e2a"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-fruchte-fe92"
   },
   {
-   "slug": "muster-zug-aabb-fruhling-16d5",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "spring",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-fruhling-16d5"
-  },
-  {
-   "slug": "muster-zug-aabb-fruhstuck-bed0",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-fruhstuck-89a6",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "breakfast",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-fruhstuck-bed0"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-fruhstuck-89a6"
   },
   {
-   "slug": "muster-zug-aabb-gemuse-d862",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-gemuse-73e5",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "vegetables",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-gemuse-d862"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-gemuse-73e5"
   },
   {
-   "slug": "muster-zug-aabb-haustiere-b50b",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-haustiere-42ad",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "pets",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-haustiere-b50b"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-haustiere-42ad"
   },
   {
-   "slug": "muster-zug-aabb-im-supermarkt-93ca",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-im-supermarkt-f5a8",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "at_the_supermarket",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-im-supermarkt-93ca"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-im-supermarkt-f5a8"
   },
   {
-   "slug": "muster-zug-aabb-insekten-und-kafer-f952",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-insekten-und-kafer-1383",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "insects_and_bugs",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-insekten-und-kafer-f952"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-insekten-und-kafer-1383"
   },
   {
-   "slug": "muster-zug-aabb-klassenzimmer-0b1b",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-klassenzimmer-91f7",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "classroom",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-klassenzimmer-0b1b"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-klassenzimmer-91f7"
   },
   {
-   "slug": "muster-zug-aabb-kleidung-a1a6",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-kleidung-814e",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "clothing",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-kleidung-a1a6"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-kleidung-814e"
   },
   {
-   "slug": "muster-zug-aabb-korperteile-ef88",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "body_parts",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-korperteile-ef88"
-  },
-  {
-   "slug": "muster-zug-aabb-krankenhaus-82a1",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-krankenhaus-0cc4",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "hospital",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-krankenhaus-82a1"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-krankenhaus-0cc4"
   },
   {
-   "slug": "muster-zug-aabb-kuchenwerkzeuge-61a2",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-kuchenwerkzeuge-c844",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "kitchen_tools",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-kuchenwerkzeuge-61a2"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-kuchenwerkzeuge-c844"
   },
   {
-   "slug": "muster-zug-aabb-meeresleben-ff1f",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-meeresleben-1db9",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "ocean_life",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-meeresleben-ff1f"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-meeresleben-1db9"
   },
   {
-   "slug": "muster-zug-aabb-mobel-24bd",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-mobel-b68e",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "furniture",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-mobel-24bd"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-mobel-b68e"
   },
   {
-   "slug": "muster-zug-aabb-musik-ec06",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-musik-ee2a",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "music",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-musik-ec06"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-musik-ee2a"
   },
   {
-   "slug": "muster-zug-aabb-ostern-2eb1",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-ostern-574e",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "easter",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-ostern-2eb1"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-ostern-574e"
   },
   {
-   "slug": "muster-zug-aabb-postamt-e7f7",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-postamt-5774",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "post_office",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-postamt-e7f7"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-postamt-5774"
   },
   {
-   "slug": "muster-zug-aabb-reptilien-und-amphibien-369f",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-reptilien-und-amphibien-63fd",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "reptiles_and_amphibians",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-reptilien-und-amphibien-369f"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-reptilien-und-amphibien-63fd"
   },
   {
-   "slug": "muster-zug-aabb-rund-ums-haus-d5f4",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-rund-ums-haus-46e8",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "around_the_house",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-rund-ums-haus-d5f4"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-rund-ums-haus-46e8"
   },
   {
-   "slug": "muster-zug-aabb-sommer-c41c",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "summer",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-sommer-c41c"
-  },
-  {
-   "slug": "muster-zug-aabb-spielzeug-a0dc",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-spielzeug-7102",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "toys",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-spielzeug-a0dc"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-spielzeug-7102"
   },
   {
-   "slug": "muster-zug-aabb-strand-4b90",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-strand-a082",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "beach",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-strand-4b90"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-strand-a082"
   },
   {
-   "slug": "muster-zug-aabb-tiere-dc24",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-tiere-4eb8",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "animals",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-tiere-dc24"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-tiere-4eb8"
   },
   {
-   "slug": "muster-zug-aabb-vogel-2-515b",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-verschiedenes-0881",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "miscellaneous",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-verschiedenes-0881"
+  },
+  {
+   "slug": "mathe-raetsel-addition-vogel-2-11b3",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "birds_2",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-vogel-2-515b"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-vogel-2-11b3"
   },
   {
-   "slug": "muster-zug-aabb-vogel-210b",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-vogel-df32",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "birds",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-vogel-210b"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-vogel-df32"
   },
   {
-   "slug": "muster-zug-aabb-waldtiere-32be",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mathe-raetsel-addition-waldtiere-3a4d",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "forest_creatures",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-waldtiere-32be"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-waldtiere-3a4d"
   },
   {
-   "slug": "muster-zug-aabb-weltraum-a872",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "space",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-weltraum-a872"
-  },
-  {
-   "slug": "muster-zug-aabb-werkzeuge-8bc1",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "tools",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-werkzeuge-8bc1"
-  },
-  {
-   "slug": "muster-zug-aabb-wetter-4eef",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "weather",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-wetter-4eef"
-  },
-  {
-   "slug": "muster-zug-aabb-zootiere-8421",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "zoo_animals",
-   "level": "vorschule",
-   "deck": "muster-zug-aabb-zootiere-8421"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-accessoires-b798",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "accessories",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-accessoires-b798"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-aktivitaten-b58d",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "activities",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-aktivitaten-b58d"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-backerei-2f86",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "bakery",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-backerei-2f86"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-bauernhoftiere-00d4",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "farm_animals",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-bauernhoftiere-00d4"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-baume-f35b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "tree",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-baume-f35b"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-berufe-0f98",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "occupations",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-berufe-0f98"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-blumen-f9ab",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "flowers",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-blumen-f9ab"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-camping-120e",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "camping",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-camping-120e"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-desserts-und-sussigkeiten-fd38",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "desserts_and_sweets",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-desserts-und-sussigkeiten-fd38"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-dinge-die-fliegen-12d2",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "things_that_fly",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-dinge-die-fliegen-12d2"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-dinosaurier-f308",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "dinosaurs",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-dinosaurier-f308"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-emotionen-ebc9",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "emotions",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-emotionen-ebc9"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-erntedankfest-007c",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "thanksgivinng",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-erntedankfest-007c"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-fahrzeuge-7701",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "vehicles",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-fahrzeuge-7701"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-farben-865d",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "colors",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-farben-865d"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-formen-b958",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "shapes",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-formen-b958"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-fruchte-64f3",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "fruits",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-fruchte-64f3"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-fruhling-c147",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "spring",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-fruhling-c147"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-fruhstuck-0875",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "breakfast",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-fruhstuck-0875"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-gemuse-79b7",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "vegetables",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-gemuse-79b7"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-haustiere-52d8",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "pets",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-haustiere-52d8"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-im-supermarkt-c7f6",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "at_the_supermarket",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-im-supermarkt-c7f6"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-klassenzimmer-c5ce",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "classroom",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-klassenzimmer-c5ce"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-kleidung-683a",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "clothing",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-kleidung-683a"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-korperteile-ebe7",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "body_parts",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-korperteile-ebe7"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-krankenhaus-ab6b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "hospital",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-krankenhaus-ab6b"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-kuchenwerkzeuge-6c35",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "kitchen_tools",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-kuchenwerkzeuge-6c35"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-meeresleben-6469",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "ocean_life",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-meeresleben-6469"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-mobel-7743",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "furniture",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-mobel-7743"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-musik-eac8",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "music",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-musik-eac8"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-ostern-0b36",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "easter",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-ostern-0b36"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-postamt-8be9",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "post_office",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-postamt-8be9"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-rund-ums-haus-b127",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "around_the_house",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-rund-ums-haus-b127"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-sommer-9474",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "summer",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-sommer-9474"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-spielzeug-70d2",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "toys",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-spielzeug-70d2"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-strand-069a",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "beach",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-strand-069a"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-tiere-666e",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "animals",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-tiere-666e"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-vogel-1552",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "birds",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-vogel-1552"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-vogel-2-3c1f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "birds_2",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-vogel-2-3c1f"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-waldtiere-bc25",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "forest_creatures",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-waldtiere-bc25"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-weihnachten-06fa",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "mathe-raetsel-addition-weihnachten-a10f",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "christmas",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-weihnachten-06fa"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-weihnachten-a10f"
   },
   {
-   "slug": "praepositionen-multiple-choice-weltraum-979b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "mathe-raetsel-addition-weltraum-f26f",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "space",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-weltraum-979b"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-weltraum-f26f"
   },
   {
-   "slug": "praepositionen-multiple-choice-werkzeuge-25bd",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "mathe-raetsel-addition-werkzeuge-68d0",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "tools",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-werkzeuge-25bd"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-werkzeuge-68d0"
   },
   {
-   "slug": "praepositionen-multiple-choice-wetter-db3c",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "weather",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-wetter-db3c"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-winter-bf94",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "winter",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-winter-bf94"
-  },
-  {
-   "slug": "praepositionen-multiple-choice-zootiere-e8e5",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "mathe-raetsel-addition-zootiere-5b59",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "zoo_animals",
-   "level": "vorschule",
-   "deck": "praepositionen-multiple-choice-zootiere-e8e5"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-addition-zootiere-5b59"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-accessoires-328f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-accessoires-328f"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-backerei-d899",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-backerei-d899"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-bauernhoftiere-c4c4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-bauernhoftiere-c4c4"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-baume-fdd7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-baume-fdd7"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-berufe-1843",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-berufe-1843"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-blumen-9c5f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-blumen-9c5f"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-camping-8b7b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-camping-8b7b"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-desserts-und-sussigkeiten-308e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-desserts-und-sussigkeiten-308e"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-dinge-die-fliegen-b140",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-dinge-die-fliegen-b140"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-dinosaurier-a839",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-dinosaurier-a839"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-erntedankfest-9daf",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-erntedankfest-9daf"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-fahrzeuge-925a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-fahrzeuge-925a"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-formen-7fe3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-formen-7fe3"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-fruchte-b879",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-fruchte-b879"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-gemuse-90f0",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-gemuse-90f0"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-haustiere-8a7d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-haustiere-8a7d"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-im-supermarkt-a28f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-im-supermarkt-a28f"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-insekten-und-kafer-23d8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-insekten-und-kafer-23d8"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-klassenzimmer-17dc",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-klassenzimmer-17dc"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-kleidung-be32",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-kleidung-be32"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-krankenhaus-5ff1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-krankenhaus-5ff1"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-kuchenwerkzeuge-f90d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-kuchenwerkzeuge-f90d"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-meeresleben-490a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-meeresleben-490a"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-mobel-abc5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-mobel-abc5"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-musik-2b78",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-musik-2b78"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-ostern-5522",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-ostern-5522"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-postamt-0dcb",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-postamt-0dcb"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-reptilien-und-amphibien-8ec8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-reptilien-und-amphibien-8ec8"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-rund-ums-haus-a75a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-rund-ums-haus-a75a"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-spielzeug-4a3c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-spielzeug-4a3c"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-strand-09b4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-strand-09b4"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-tiere",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-tiere"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-verschiedenes-13c2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-verschiedenes-13c2"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-vogel-2-ff8c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-vogel-2-ff8c"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-vogel-c1c9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-vogel-c1c9"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-waldtiere-a98b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-waldtiere-a98b"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-weihnachten-c9a8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-weihnachten-c9a8"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-weltraum-a47a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-gemischt-weltraum-a47a"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-werkzeuge-a081",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-werkzeuge-a081"
+  },
+  {
+   "slug": "mathe-raetsel-gemischt-zootiere-f72b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-gemischt-zootiere-f72b"
   }
  ]
 }

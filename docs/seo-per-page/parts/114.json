@@ -2,787 +2,651 @@
  "part": 114,
  "locale": "pt",
  "classes": [
-  "prepositions::multiplechoice",
-  "code-addition::secret-word"
+  "subtraction::mixed",
+  "subtraction::find-subtrahend"
  ],
  "splitOf": null,
- "count": 97,
+ "count": 80,
  "pages": [
   {
-   "slug": "preposicoes-multipla-escolha-acampamento-cb3a",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-acampamento-bac9",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-acampamento-cb3a"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-acampamento-bac9"
   },
   {
-   "slug": "preposicoes-multipla-escolha-acessorios-d808",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-acessorios-06d5",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-acessorios-d808"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-acessorios-06d5"
   },
   {
-   "slug": "preposicoes-multipla-escolha-animais-a1df",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-animais-6ccf",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-animais-a1df"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-animais-6ccf"
   },
   {
-   "slug": "preposicoes-multipla-escolha-animais-da-fazenda-ce50",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-animais-da-fazenda-6c52",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-animais-da-fazenda-ce50"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-animais-da-fazenda-6c52"
   },
   {
-   "slug": "preposicoes-multipla-escolha-animais-de-estimacao-7bf6",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-animais-de-estimacao-88cc",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-animais-de-estimacao-7bf6"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-animais-de-estimacao-88cc"
   },
   {
-   "slug": "preposicoes-multipla-escolha-animais-do-zoologico-42aa",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-animais-do-zoologico-4109",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-animais-do-zoologico-42aa"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-animais-do-zoologico-4109"
   },
   {
-   "slug": "preposicoes-multipla-escolha-arvores-44b6",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-arvores-a625",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-arvores-44b6"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-arvores-a625"
   },
   {
-   "slug": "preposicoes-multipla-escolha-atividades-02e8",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-atividades-02e8"
-  },
-  {
-   "slug": "preposicoes-multipla-escolha-brinquedos-c376",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-brinquedos-76c1",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-brinquedos-c376"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-brinquedos-76c1"
   },
   {
-   "slug": "preposicoes-multipla-escolha-cafe-da-manha-79f0",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-cafe-da-manha-33f4",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-cafe-da-manha-79f0"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-cafe-da-manha-33f4"
   },
   {
-   "slug": "preposicoes-multipla-escolha-clima-56f3",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-clima-56f3"
-  },
-  {
-   "slug": "preposicoes-multipla-escolha-coisas-que-voam-8c18",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-coisas-que-voam-1e00",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-coisas-que-voam-8c18"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-coisas-que-voam-1e00"
   },
   {
-   "slug": "preposicoes-multipla-escolha-cores-aeb6",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-cores-aeb6"
-  },
-  {
-   "slug": "preposicoes-multipla-escolha-correios-e8b7",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-correios-d557",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-correios-e8b7"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-correios-d557"
   },
   {
-   "slug": "preposicoes-multipla-escolha-criaturas-da-floresta-d8eb",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-criaturas-da-floresta-9960",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-criaturas-da-floresta-d8eb"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-criaturas-da-floresta-9960"
   },
   {
-   "slug": "preposicoes-multipla-escolha-dia-de-acao-de-gracas-0540",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-dia-de-acao-de-gracas-ec79",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-dia-de-acao-de-gracas-0540"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-dia-de-acao-de-gracas-ec79"
   },
   {
-   "slug": "preposicoes-multipla-escolha-dinossauros-2c76",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-dinossauros-6329",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-dinossauros-2c76"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-dinossauros-6329"
   },
   {
-   "slug": "preposicoes-multipla-escolha-diversos-6a19",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-diversos-3950",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-diversos-6a19"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-diversos-3950"
   },
   {
-   "slug": "preposicoes-multipla-escolha-emocoes-8ab2",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-emocoes-8ab2"
-  },
-  {
-   "slug": "preposicoes-multipla-escolha-espaco-2dbf",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-espaco-e7bd",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-espaco-2dbf"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-espaco-e7bd"
   },
   {
-   "slug": "preposicoes-multipla-escolha-ferramentas-e99b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-ferramentas-6efa",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-ferramentas-e99b"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-ferramentas-6efa"
   },
   {
-   "slug": "preposicoes-multipla-escolha-flores-995c",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-flores-d551",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-flores-995c"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-flores-d551"
   },
   {
-   "slug": "preposicoes-multipla-escolha-formas-eb6a",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-formas-32e9",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-formas-eb6a"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-formas-32e9"
   },
   {
-   "slug": "preposicoes-multipla-escolha-frutas-7a3a",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-frutas-ba5b",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-frutas-7a3a"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-frutas-ba5b"
   },
   {
-   "slug": "preposicoes-multipla-escolha-hospital-3a67",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-hospital-792d",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-hospital-3a67"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-hospital-792d"
   },
   {
-   "slug": "preposicoes-multipla-escolha-insetos-e-bichos-bcc3",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-insetos-e-bichos-5661",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-insetos-e-bichos-bcc3"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-insetos-e-bichos-5661"
   },
   {
-   "slug": "preposicoes-multipla-escolha-inverno-0d28",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-inverno-0d28"
-  },
-  {
-   "slug": "preposicoes-multipla-escolha-moveis-8a2f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-moveis-7a47",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-moveis-8a2f"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-moveis-7a47"
   },
   {
-   "slug": "preposicoes-multipla-escolha-musica-ac03",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-musica-605e",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-musica-ac03"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-musica-605e"
   },
   {
-   "slug": "preposicoes-multipla-escolha-natal-0d99",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-natal-3a8a",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-natal-0d99"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-natal-3a8a"
   },
   {
-   "slug": "preposicoes-multipla-escolha-no-supermercado-fd62",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-no-supermercado-ab3e",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-no-supermercado-fd62"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-no-supermercado-ab3e"
   },
   {
-   "slug": "preposicoes-multipla-escolha-padaria-71c0",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-padaria-b282",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-padaria-71c0"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-padaria-b282"
   },
   {
-   "slug": "preposicoes-multipla-escolha-partes-do-corpo-a76b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-partes-do-corpo-a76b"
-  },
-  {
-   "slug": "preposicoes-multipla-escolha-pascoa-baec",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-pascoa-1eb4",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-pascoa-baec"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-pascoa-1eb4"
   },
   {
-   "slug": "preposicoes-multipla-escolha-passaros-2-e6f2",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-passaros-2-360c",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-passaros-2-e6f2"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-passaros-2-360c"
   },
   {
-   "slug": "preposicoes-multipla-escolha-passaros-295c",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-passaros-8c81",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-passaros-295c"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-passaros-8c81"
   },
   {
-   "slug": "preposicoes-multipla-escolha-pela-casa-3ba7",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-pela-casa-c68a",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-pela-casa-3ba7"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-pela-casa-c68a"
   },
   {
-   "slug": "preposicoes-multipla-escolha-praia-3597",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-praia-903f",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-praia-3597"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-praia-903f"
   },
   {
-   "slug": "preposicoes-multipla-escolha-primavera-dcf0",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-primavera-dcf0"
-  },
-  {
-   "slug": "preposicoes-multipla-escolha-profissoes-b98c",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-profissoes-08ff",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-profissoes-b98c"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-profissoes-08ff"
   },
   {
-   "slug": "preposicoes-multipla-escolha-repteis-e-anfibios-314d",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-repteis-e-anfibios-00a6",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-repteis-e-anfibios-314d"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-repteis-e-anfibios-00a6"
   },
   {
-   "slug": "preposicoes-multipla-escolha-roupas-0868",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-roupas-0dc4",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-roupas-0868"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-roupas-0dc4"
   },
   {
-   "slug": "preposicoes-multipla-escolha-sala-de-aula-63e8",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-sala-de-aula-0a99",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-sala-de-aula-63e8"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-sala-de-aula-0a99"
   },
   {
-   "slug": "preposicoes-multipla-escolha-sobremesas-e-doces-fe18",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-sobremesas-e-doces-d083",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-sobremesas-e-doces-fe18"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-sobremesas-e-doces-d083"
   },
   {
-   "slug": "preposicoes-multipla-escolha-utensilios-de-cozinha-29ca",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-utensilios-de-cozinha-0873",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-utensilios-de-cozinha-29ca"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-utensilios-de-cozinha-0873"
   },
   {
-   "slug": "preposicoes-multipla-escolha-vegetais-d3e4",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-vegetais-03bc",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-vegetais-d3e4"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-vegetais-03bc"
   },
   {
-   "slug": "preposicoes-multipla-escolha-veiculos-2863",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-veiculos-5136",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-veiculos-2863"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-veiculos-5136"
   },
   {
-   "slug": "preposicoes-multipla-escolha-verao-a16e",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-verao-a16e"
-  },
-  {
-   "slug": "preposicoes-multipla-escolha-vida-marinha-9fa6",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtracao-misto-vida-marinha-e86c",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "preposicoes-multipla-escolha-vida-marinha-9fa6"
+   "level": "1o-ano",
+   "deck": "subtracao-misto-vida-marinha-e86c"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-acampamento-7dbf",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-acampamento-d03e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "camping",
    "level": "1o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-acampamento-7dbf"
+   "deck": "subtracao-encontre-o-subtraendo-acampamento-d03e"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-acessorios-8967",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-acessorios-77bc",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "accessories",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-acessorios-8967"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-acessorios-77bc"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-animais-972e",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "animals",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-animais-972e"
-  },
-  {
-   "slug": "adicao-com-codigo-palavra-secreta-animais-da-fazenda-b031",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "farm_animals",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-animais-da-fazenda-b031"
-  },
-  {
-   "slug": "adicao-com-codigo-palavra-secreta-animais-de-estimacao-b7ae",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-animais-de-estimacao-7873",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "pets",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-animais-de-estimacao-b7ae"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-animais-de-estimacao-7873"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-animais-do-zoologico-903b",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-animais-do-zoologico-1051",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "zoo_animals",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-animais-do-zoologico-903b"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-animais-do-zoologico-1051"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-arvores-4b90",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-animais-ef37",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-animais-ef37"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-arvores-c484",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "tree",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-arvores-4b90"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-arvores-c484"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-atividades-bcb6",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "activities",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-atividades-bcb6"
-  },
-  {
-   "slug": "adicao-com-codigo-palavra-secreta-brinquedos-74ad",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-brinquedos-3039",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "toys",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-brinquedos-74ad"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-brinquedos-3039"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-cafe-da-manha-abcc",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-cafe-da-manha-d927",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "breakfast",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-cafe-da-manha-abcc"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-cafe-da-manha-d927"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-clima-9934",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "weather",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-clima-9934"
-  },
-  {
-   "slug": "adicao-com-codigo-palavra-secreta-coisas-que-voam-3b0d",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-coisas-que-voam-7dde",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "things_that_fly",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-coisas-que-voam-3b0d"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-coisas-que-voam-7dde"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-cores-e5e4",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "colors",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-cores-e5e4"
-  },
-  {
-   "slug": "adicao-com-codigo-palavra-secreta-correios-960d",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-correios-ffaa",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "post_office",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-correios-960d"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-correios-ffaa"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-criaturas-da-floresta-746c",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "forest_creatures",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-criaturas-da-floresta-746c"
-  },
-  {
-   "slug": "adicao-com-codigo-palavra-secreta-dia-de-acao-de-gracas-4925",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-dia-de-acao-de-gracas-d211",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "thanksgivinng",
    "level": "1o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-dia-de-acao-de-gracas-4925"
+   "deck": "subtracao-encontre-o-subtraendo-dia-de-acao-de-gracas-d211"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-dinossauros-e102",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-dinossauros-8c90",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "dinosaurs",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-dinossauros-e102"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-dinossauros-8c90"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-emocoes-ff99",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "emotions",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-emocoes-ff99"
+   "slug": "subtracao-encontre-o-subtraendo-diversos-b3bb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-diversos-b3bb"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-espaco-6046",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-espaco-e941",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "space",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-espaco-6046"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-espaco-e941"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-ferramentas-a8f7",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-ferramentas-443a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "tools",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-ferramentas-a8f7"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-ferramentas-443a"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-flores-d308",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-flores-8c48",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "flowers",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-flores-d308"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-flores-8c48"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-formas-01de",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-formas-6712",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "shapes",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-formas-01de"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-formas-6712"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-frutas-5545",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-frutas-3078",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "fruits",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-frutas-5545"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-frutas-3078"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-hospital-0988",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-hospital-b66b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "hospital",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-hospital-0988"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-hospital-b66b"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-insetos-e-bichos-5d3c",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-insetos-e-bichos-1e86",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "insects_and_bugs",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-insetos-e-bichos-5d3c"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-insetos-e-bichos-1e86"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-inverno-c339",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "winter",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-inverno-c339"
-  },
-  {
-   "slug": "adicao-com-codigo-palavra-secreta-moveis-651a",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-moveis-1942",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "furniture",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-moveis-651a"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-moveis-1942"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-musica-29ff",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-musica-28ce",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "music",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-musica-29ff"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-musica-28ce"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-natal-146f",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-natal-652c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "christmas",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-natal-146f"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-natal-652c"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-no-supermercado-fc46",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-no-supermercado-c3f6",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "at_the_supermarket",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-no-supermercado-fc46"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-no-supermercado-c3f6"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-padaria-44d6",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-padaria-140b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "bakery",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-padaria-44d6"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-padaria-140b"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-partes-do-corpo-097c",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "body_parts",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-partes-do-corpo-097c"
-  },
-  {
-   "slug": "adicao-com-codigo-palavra-secreta-pascoa-0aee",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-pascoa-9bad",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "easter",
    "level": "1o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-pascoa-0aee"
+   "deck": "subtracao-encontre-o-subtraendo-pascoa-9bad"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-passaros-2-e250",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-passaros-2-c99f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds_2",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-passaros-2-e250"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-passaros-2-c99f"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-passaros-f19f",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-passaros-a067",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds",
    "level": "1o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-passaros-f19f"
+   "deck": "subtracao-encontre-o-subtraendo-passaros-a067"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-pela-casa-abbc",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-pela-casa-9dc9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "around_the_house",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-pela-casa-abbc"
-  },
-  {
-   "slug": "adicao-com-codigo-palavra-secreta-praia-4b3f",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "beach",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-praia-4b3f"
-  },
-  {
-   "slug": "adicao-com-codigo-palavra-secreta-primavera-3a0e",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "spring",
    "level": "1o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-primavera-3a0e"
+   "deck": "subtracao-encontre-o-subtraendo-pela-casa-9dc9"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-profissoes-b97d",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-praia-4176",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-praia-4176"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-profissoes-92ae",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "occupations",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-profissoes-b97d"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-profissoes-92ae"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-repteis-e-anfibios-a0cb",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-repteis-e-anfibios-5666",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "reptiles_and_amphibians",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-repteis-e-anfibios-a0cb"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-repteis-e-anfibios-5666"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-roupas-420d",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-roupas-9615",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "clothing",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-roupas-420d"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-roupas-9615"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-sala-de-aula-541e",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-sala-de-aula-8502",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "classroom",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-sala-de-aula-541e"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-sala-de-aula-8502"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-sobremesas-e-doces-d981",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-sobremesas-e-doces-a5fb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "desserts_and_sweets",
    "level": "1o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-sobremesas-e-doces-d981"
+   "deck": "subtracao-encontre-o-subtraendo-sobremesas-e-doces-a5fb"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-utensilios-de-cozinha-d6df",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-utensilios-de-cozinha-e3b0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "kitchen_tools",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-utensilios-de-cozinha-d6df"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-utensilios-de-cozinha-e3b0"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-vegetais-0943",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-vegetais-5a32",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vegetables",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-vegetais-0943"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-vegetais-5a32"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-veiculos-5b25",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-veiculos-fd6b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vehicles",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-veiculos-5b25"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-veiculos-fd6b"
   },
   {
-   "slug": "adicao-com-codigo-palavra-secreta-verao-ccd4",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "summer",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-verao-ccd4"
-  },
-  {
-   "slug": "adicao-com-codigo-palavra-secreta-vida-marinha-6fb6",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtracao-encontre-o-subtraendo-vida-marinha-04a0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "ocean_life",
-   "level": "2o-ano",
-   "deck": "adicao-com-codigo-palavra-secreta-vida-marinha-6fb6"
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-vida-marinha-04a0"
   }
  ]
 }

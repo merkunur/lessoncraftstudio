@@ -2,763 +2,755 @@
  "part": 303,
  "locale": "no",
  "classes": [
-  "find-objects::find-odd",
-  "grid-match::null"
+  "matching::letter",
+  "prepositions::multiplechoice"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 93,
  "pages": [
   {
-   "slug": "finn-objektene-finn-den-som-er-ulik-aktiviteter-8951",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "matching-bokstav-aktiviteter-8d14",
+   "type": "matching",
+   "mode": "letter",
    "theme": "activities",
    "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-aktiviteter-8951"
+   "deck": "matching-bokstav-aktiviteter-8d14"
   },
   {
-   "slug": "finn-objektene-finn-den-som-er-ulik-bakeri-c855",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "matching-bokstav-bakeri-8b6e",
+   "type": "matching",
+   "mode": "letter",
    "theme": "bakery",
    "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-bakeri-c855"
+   "deck": "matching-bokstav-bakeri-8b6e"
   },
   {
-   "slug": "finn-objektene-finn-den-som-er-ulik-blomster-85c5",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "matching-bokstav-blomster-046a",
+   "type": "matching",
+   "mode": "letter",
    "theme": "flowers",
    "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-blomster-85c5"
+   "deck": "matching-bokstav-blomster-046a"
   },
   {
-   "slug": "finn-objektene-finn-den-som-er-ulik-camping-aca4",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "matching-bokstav-camping-cd22",
+   "type": "matching",
+   "mode": "letter",
    "theme": "camping",
    "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-camping-aca4"
+   "deck": "matching-bokstav-camping-cd22"
   },
   {
-   "slug": "finn-objektene-finn-den-som-er-ulik-desserter-og-godteri-11ad",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "matching-bokstav-desserter-og-godteri-bf49",
+   "type": "matching",
+   "mode": "letter",
    "theme": "desserts_and_sweets",
    "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-desserter-og-godteri-11ad"
+   "deck": "matching-bokstav-desserter-og-godteri-bf49"
   },
   {
-   "slug": "finn-objektene-finn-den-som-er-ulik-dinosaurer-f0aa",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-dinosaurer-f0aa"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-dyr-bc75",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "matching-bokstav-dyr-8d5e",
+   "type": "matching",
+   "mode": "letter",
    "theme": "animals",
    "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-dyr-bc75"
+   "deck": "matching-bokstav-dyr-8d5e"
   },
   {
-   "slug": "finn-objektene-finn-den-som-er-ulik-dyrehagedyr-51b7",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "matching-bokstav-dyrehagedyr-18d2",
+   "type": "matching",
+   "mode": "letter",
    "theme": "zoo_animals",
    "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-dyrehagedyr-51b7"
+   "deck": "matching-bokstav-dyrehagedyr-18d2"
   },
   {
-   "slug": "finn-objektene-finn-den-som-er-ulik-farger-c174",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "matching-bokstav-farger-0c6c",
+   "type": "matching",
+   "mode": "letter",
    "theme": "colors",
    "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-farger-c174"
+   "deck": "matching-bokstav-farger-0c6c"
   },
   {
-   "slug": "finn-objektene-finn-den-som-er-ulik-folelser-6cea",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "matching-bokstav-folelser-ead3",
+   "type": "matching",
+   "mode": "letter",
    "theme": "emotions",
    "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-folelser-6cea"
+   "deck": "matching-bokstav-folelser-ead3"
   },
   {
-   "slug": "finn-objektene-finn-den-som-er-ulik-former-4082",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "matching-bokstav-former-4679",
+   "type": "matching",
+   "mode": "letter",
    "theme": "shapes",
    "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-former-4082"
+   "deck": "matching-bokstav-former-4679"
   },
   {
-   "slug": "finn-objektene-finn-den-som-er-ulik-frokost-2557",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "matching-bokstav-frokost-73ad",
+   "type": "matching",
+   "mode": "letter",
    "theme": "breakfast",
    "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-frokost-2557"
+   "deck": "matching-bokstav-frokost-73ad"
   },
   {
-   "slug": "finn-objektene-finn-den-som-er-ulik-frukter-cac4",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "matching-bokstav-frukter-9456",
+   "type": "matching",
+   "mode": "letter",
    "theme": "fruits",
    "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-frukter-cac4"
+   "deck": "matching-bokstav-frukter-9456"
   },
   {
-   "slug": "finn-objektene-finn-den-som-er-ulik-fugler-2-810a",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-fugler-2-810a"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-gardsdyr-5cc9",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-gardsdyr-5cc9"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-gronnsaker-7a5e",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-gronnsaker-7a5e"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-havliv-999a",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-havliv-999a"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-i-supermarkedet-be1a",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-i-supermarkedet-be1a"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-insekter-og-kryp-5b02",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-insekter-og-kryp-5b02"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-jul-474d",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-jul-474d"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-kjaeledyr-d524",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "pets",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-kjaeledyr-d524"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-kjokkenredskaper-8b37",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-kjokkenredskaper-8b37"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-kjoretoy-4a97",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-kjoretoy-4a97"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-klaer-2437",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-klaer-2437"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-klasserom-36b9",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-klasserom-36b9"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-kroppsdeler-894d",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-kroppsdeler-894d"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-leker-32f9",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "toys",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-leker-32f9"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-mobler-da3b",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-mobler-da3b"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-musikk-f8f2",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "music",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-musikk-f8f2"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-paske-bb22",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "easter",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-paske-bb22"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-postkontor-adf4",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-postkontor-adf4"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-reptiler-og-amfibier-019e",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-reptiler-og-amfibier-019e"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-rundt-i-huset-b677",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-rundt-i-huset-b677"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-skogsdyr-cf33",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-skogsdyr-cf33"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-sommer-fe04",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "summer",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-sommer-fe04"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-strand-fff0",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "beach",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-strand-fff0"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-sykehus-f0f1",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-sykehus-f0f1"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-thanksgiving-2e66",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-thanksgiving-2e66"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-tilbehor-7da9",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-tilbehor-7da9"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-ting-som-flyr-5885",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-ting-som-flyr-5885"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-traer-9d71",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "tree",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-traer-9d71"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-vaer-3aeb",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "weather",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-vaer-3aeb"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-var-0461",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "spring",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-var-0461"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-verdensrommet-9061",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "space",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-verdensrommet-9061"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-verktoy-259b",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "tools",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-verktoy-259b"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-vinter-a883",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "winter",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-vinter-a883"
-  },
-  {
-   "slug": "finn-objektene-finn-den-som-er-ulik-yrker-4d23",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "finn-objektene-finn-den-som-er-ulik-yrker-4d23"
-  },
-  {
-   "slug": "rutenettmatch-aktiviteter-fe35",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "activities",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-aktiviteter-fe35"
-  },
-  {
-   "slug": "rutenettmatch-bakeri-15fe",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-bakeri-15fe"
-  },
-  {
-   "slug": "rutenettmatch-blomster-af9a",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-blomster-af9a"
-  },
-  {
-   "slug": "rutenettmatch-camping-de99",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "camping",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-camping-de99"
-  },
-  {
-   "slug": "rutenettmatch-desserter-og-godteri-a5a0",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-desserter-og-godteri-a5a0"
-  },
-  {
-   "slug": "rutenettmatch-dinosaurer-d5e1",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-dinosaurer-d5e1"
-  },
-  {
-   "slug": "rutenettmatch-dyr-d58e",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "animals",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-dyr-d58e"
-  },
-  {
-   "slug": "rutenettmatch-dyrehagedyr-fb10",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-dyrehagedyr-fb10"
-  },
-  {
-   "slug": "rutenettmatch-folelser-7da1",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-folelser-7da1"
-  },
-  {
-   "slug": "rutenettmatch-former-e3c5",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-former-e3c5"
-  },
-  {
-   "slug": "rutenettmatch-frokost-520b",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-frokost-520b"
-  },
-  {
-   "slug": "rutenettmatch-frukter-facf",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-frukter-facf"
-  },
-  {
-   "slug": "rutenettmatch-fugler-2-909d",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-fugler-2-909d"
-  },
-  {
-   "slug": "rutenettmatch-fugler-a138",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-fugler-06ad",
+   "type": "matching",
+   "mode": "letter",
    "theme": "birds",
    "level": "1-trinn",
-   "deck": "rutenettmatch-fugler-a138"
+   "deck": "matching-bokstav-fugler-06ad"
   },
   {
-   "slug": "rutenettmatch-gardsdyr-94fa",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-fugler-2-95b9",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "matching-bokstav-fugler-2-95b9"
+  },
+  {
+   "slug": "matching-bokstav-gardsdyr-4603",
+   "type": "matching",
+   "mode": "letter",
    "theme": "farm_animals",
    "level": "1-trinn",
-   "deck": "rutenettmatch-gardsdyr-94fa"
+   "deck": "matching-bokstav-gardsdyr-4603"
   },
   {
-   "slug": "rutenettmatch-gronnsaker-1f0f",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-gronnsaker-88ef",
+   "type": "matching",
+   "mode": "letter",
    "theme": "vegetables",
    "level": "1-trinn",
-   "deck": "rutenettmatch-gronnsaker-1f0f"
+   "deck": "matching-bokstav-gronnsaker-88ef"
   },
   {
-   "slug": "rutenettmatch-havliv-5462",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-havliv-ea5a",
+   "type": "matching",
+   "mode": "letter",
    "theme": "ocean_life",
    "level": "1-trinn",
-   "deck": "rutenettmatch-havliv-5462"
+   "deck": "matching-bokstav-havliv-ea5a"
   },
   {
-   "slug": "rutenettmatch-i-supermarkedet-4284",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-i-supermarkedet-4284"
-  },
-  {
-   "slug": "rutenettmatch-insekter-og-kryp-3ea1",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-insekter-og-kryp-7b62",
+   "type": "matching",
+   "mode": "letter",
    "theme": "insects_and_bugs",
    "level": "1-trinn",
-   "deck": "rutenettmatch-insekter-og-kryp-3ea1"
+   "deck": "matching-bokstav-insekter-og-kryp-7b62"
   },
   {
-   "slug": "rutenettmatch-jul-f9e6",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-jul-7b9d",
+   "type": "matching",
+   "mode": "letter",
    "theme": "christmas",
    "level": "1-trinn",
-   "deck": "rutenettmatch-jul-f9e6"
+   "deck": "matching-bokstav-jul-7b9d"
   },
   {
-   "slug": "rutenettmatch-kjaeledyr-80c4",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-kjaeledyr-cae5",
+   "type": "matching",
+   "mode": "letter",
    "theme": "pets",
    "level": "1-trinn",
-   "deck": "rutenettmatch-kjaeledyr-80c4"
+   "deck": "matching-bokstav-kjaeledyr-cae5"
   },
   {
-   "slug": "rutenettmatch-kjokkenredskaper-98c3",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-kjokkenredskaper-577b",
+   "type": "matching",
+   "mode": "letter",
    "theme": "kitchen_tools",
    "level": "1-trinn",
-   "deck": "rutenettmatch-kjokkenredskaper-98c3"
+   "deck": "matching-bokstav-kjokkenredskaper-577b"
   },
   {
-   "slug": "rutenettmatch-kjoretoy-04d9",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-kjoretoy-bbd9",
+   "type": "matching",
+   "mode": "letter",
    "theme": "vehicles",
    "level": "1-trinn",
-   "deck": "rutenettmatch-kjoretoy-04d9"
+   "deck": "matching-bokstav-kjoretoy-bbd9"
   },
   {
-   "slug": "rutenettmatch-klaer-1c25",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-klaer-3a34",
+   "type": "matching",
+   "mode": "letter",
    "theme": "clothing",
    "level": "1-trinn",
-   "deck": "rutenettmatch-klaer-1c25"
+   "deck": "matching-bokstav-klaer-3a34"
   },
   {
-   "slug": "rutenettmatch-klasserom-9005",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-klasserom-94ef",
+   "type": "matching",
+   "mode": "letter",
    "theme": "classroom",
    "level": "1-trinn",
-   "deck": "rutenettmatch-klasserom-9005"
+   "deck": "matching-bokstav-klasserom-94ef"
   },
   {
-   "slug": "rutenettmatch-kroppsdeler-027f",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-kroppsdeler-86f9",
+   "type": "matching",
+   "mode": "letter",
    "theme": "body_parts",
    "level": "1-trinn",
-   "deck": "rutenettmatch-kroppsdeler-027f"
+   "deck": "matching-bokstav-kroppsdeler-86f9"
   },
   {
-   "slug": "rutenettmatch-leker-1dcd",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-leker-f038",
+   "type": "matching",
+   "mode": "letter",
    "theme": "toys",
    "level": "1-trinn",
-   "deck": "rutenettmatch-leker-1dcd"
+   "deck": "matching-bokstav-leker-f038"
   },
   {
-   "slug": "rutenettmatch-mobler-e47b",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-mobler-3c72",
+   "type": "matching",
+   "mode": "letter",
    "theme": "furniture",
    "level": "1-trinn",
-   "deck": "rutenettmatch-mobler-e47b"
+   "deck": "matching-bokstav-mobler-3c72"
   },
   {
-   "slug": "rutenettmatch-musikk-b363",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-musikk-76c4",
+   "type": "matching",
+   "mode": "letter",
    "theme": "music",
    "level": "1-trinn",
-   "deck": "rutenettmatch-musikk-b363"
+   "deck": "matching-bokstav-musikk-76c4"
   },
   {
-   "slug": "rutenettmatch-paske-2ac1",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-paske-aa27",
+   "type": "matching",
+   "mode": "letter",
    "theme": "easter",
    "level": "1-trinn",
-   "deck": "rutenettmatch-paske-2ac1"
+   "deck": "matching-bokstav-paske-aa27"
   },
   {
-   "slug": "rutenettmatch-postkontor-7216",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "rutenettmatch-postkontor-7216"
-  },
-  {
-   "slug": "rutenettmatch-reptiler-og-amfibier-5b23",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-reptiler-og-amfibier-f8b9",
+   "type": "matching",
+   "mode": "letter",
    "theme": "reptiles_and_amphibians",
    "level": "1-trinn",
-   "deck": "rutenettmatch-reptiler-og-amfibier-5b23"
+   "deck": "matching-bokstav-reptiler-og-amfibier-f8b9"
   },
   {
-   "slug": "rutenettmatch-rundt-i-huset-6530",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-rundt-i-huset-275f",
+   "type": "matching",
+   "mode": "letter",
    "theme": "around_the_house",
    "level": "1-trinn",
-   "deck": "rutenettmatch-rundt-i-huset-6530"
+   "deck": "matching-bokstav-rundt-i-huset-275f"
   },
   {
-   "slug": "rutenettmatch-skogsdyr-5576",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-skogsdyr-dd9d",
+   "type": "matching",
+   "mode": "letter",
    "theme": "forest_creatures",
    "level": "1-trinn",
-   "deck": "rutenettmatch-skogsdyr-5576"
+   "deck": "matching-bokstav-skogsdyr-dd9d"
   },
   {
-   "slug": "rutenettmatch-sommer-07c0",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-sommer-67c8",
+   "type": "matching",
+   "mode": "letter",
    "theme": "summer",
    "level": "1-trinn",
-   "deck": "rutenettmatch-sommer-07c0"
+   "deck": "matching-bokstav-sommer-67c8"
   },
   {
-   "slug": "rutenettmatch-strand-ab1e",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-strand-1b9b",
+   "type": "matching",
+   "mode": "letter",
    "theme": "beach",
    "level": "1-trinn",
-   "deck": "rutenettmatch-strand-ab1e"
+   "deck": "matching-bokstav-strand-1b9b"
   },
   {
-   "slug": "rutenettmatch-sykehus-62be",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-sykehus-05a3",
+   "type": "matching",
+   "mode": "letter",
    "theme": "hospital",
    "level": "1-trinn",
-   "deck": "rutenettmatch-sykehus-62be"
+   "deck": "matching-bokstav-sykehus-05a3"
   },
   {
-   "slug": "rutenettmatch-thanksgiving-fa64",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-thanksgiving-5d5a",
+   "type": "matching",
+   "mode": "letter",
    "theme": "thanksgivinng",
    "level": "1-trinn",
-   "deck": "rutenettmatch-thanksgiving-fa64"
+   "deck": "matching-bokstav-thanksgiving-5d5a"
   },
   {
-   "slug": "rutenettmatch-tilbehor-b9c7",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-tilbehor-084d",
+   "type": "matching",
+   "mode": "letter",
    "theme": "accessories",
    "level": "1-trinn",
-   "deck": "rutenettmatch-tilbehor-b9c7"
+   "deck": "matching-bokstav-tilbehor-084d"
   },
   {
-   "slug": "rutenettmatch-ting-som-flyr-6b70",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-ting-som-flyr-5c4b",
+   "type": "matching",
+   "mode": "letter",
    "theme": "things_that_fly",
    "level": "1-trinn",
-   "deck": "rutenettmatch-ting-som-flyr-6b70"
+   "deck": "matching-bokstav-ting-som-flyr-5c4b"
   },
   {
-   "slug": "rutenettmatch-traer-4f0c",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-traer-d77b",
+   "type": "matching",
+   "mode": "letter",
    "theme": "tree",
    "level": "1-trinn",
-   "deck": "rutenettmatch-traer-4f0c"
+   "deck": "matching-bokstav-traer-d77b"
   },
   {
-   "slug": "rutenettmatch-vaer-c0c2",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-vaer-1fa2",
+   "type": "matching",
+   "mode": "letter",
    "theme": "weather",
    "level": "1-trinn",
-   "deck": "rutenettmatch-vaer-c0c2"
+   "deck": "matching-bokstav-vaer-1fa2"
   },
   {
-   "slug": "rutenettmatch-var-ab2f",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-var-3282",
+   "type": "matching",
+   "mode": "letter",
    "theme": "spring",
    "level": "1-trinn",
-   "deck": "rutenettmatch-var-ab2f"
+   "deck": "matching-bokstav-var-3282"
   },
   {
-   "slug": "rutenettmatch-verdensrommet-96d2",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-verdensrommet-72ff",
+   "type": "matching",
+   "mode": "letter",
    "theme": "space",
    "level": "1-trinn",
-   "deck": "rutenettmatch-verdensrommet-96d2"
+   "deck": "matching-bokstav-verdensrommet-72ff"
   },
   {
-   "slug": "rutenettmatch-verktoy-6f92",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-verktoy-1cf8",
+   "type": "matching",
+   "mode": "letter",
    "theme": "tools",
    "level": "1-trinn",
-   "deck": "rutenettmatch-verktoy-6f92"
+   "deck": "matching-bokstav-verktoy-1cf8"
   },
   {
-   "slug": "rutenettmatch-vinter-4e28",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-vinter-0b4a",
+   "type": "matching",
+   "mode": "letter",
    "theme": "winter",
    "level": "1-trinn",
-   "deck": "rutenettmatch-vinter-4e28"
+   "deck": "matching-bokstav-vinter-0b4a"
   },
   {
-   "slug": "rutenettmatch-yrker-a667",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "matching-bokstav-yrker-f585",
+   "type": "matching",
+   "mode": "letter",
    "theme": "occupations",
    "level": "1-trinn",
-   "deck": "rutenettmatch-yrker-a667"
+   "deck": "matching-bokstav-yrker-f585"
+  },
+  {
+   "slug": "preposisjoner-flervalg-aktiviteter-4dc9",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "activities",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-aktiviteter-4dc9"
+  },
+  {
+   "slug": "preposisjoner-flervalg-bakeri-af9f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-bakeri-af9f"
+  },
+  {
+   "slug": "preposisjoner-flervalg-blomster-872f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-blomster-872f"
+  },
+  {
+   "slug": "preposisjoner-flervalg-camping-788f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-camping-788f"
+  },
+  {
+   "slug": "preposisjoner-flervalg-desserter-og-godteri-9ee7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-desserter-og-godteri-9ee7"
+  },
+  {
+   "slug": "preposisjoner-flervalg-dinosaurer-6b1b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-dinosaurer-6b1b"
+  },
+  {
+   "slug": "preposisjoner-flervalg-dyr-3d27",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-dyr-3d27"
+  },
+  {
+   "slug": "preposisjoner-flervalg-dyrehagedyr-4a6c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-dyrehagedyr-4a6c"
+  },
+  {
+   "slug": "preposisjoner-flervalg-farger-1352",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "colors",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-farger-1352"
+  },
+  {
+   "slug": "preposisjoner-flervalg-folelser-778e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "emotions",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-folelser-778e"
+  },
+  {
+   "slug": "preposisjoner-flervalg-former-a7fc",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-former-a7fc"
+  },
+  {
+   "slug": "preposisjoner-flervalg-frokost-adc5",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-frokost-adc5"
+  },
+  {
+   "slug": "preposisjoner-flervalg-frukter-cc98",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-frukter-cc98"
+  },
+  {
+   "slug": "preposisjoner-flervalg-fugler-2-1cf7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-fugler-2-1cf7"
+  },
+  {
+   "slug": "preposisjoner-flervalg-fugler-3578",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-fugler-3578"
+  },
+  {
+   "slug": "preposisjoner-flervalg-gardsdyr-875f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-gardsdyr-875f"
+  },
+  {
+   "slug": "preposisjoner-flervalg-gronnsaker-00bf",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-gronnsaker-00bf"
+  },
+  {
+   "slug": "preposisjoner-flervalg-havliv-c628",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-havliv-c628"
+  },
+  {
+   "slug": "preposisjoner-flervalg-i-supermarkedet-daa4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-i-supermarkedet-daa4"
+  },
+  {
+   "slug": "preposisjoner-flervalg-insekter-og-kryp-5766",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-insekter-og-kryp-5766"
+  },
+  {
+   "slug": "preposisjoner-flervalg-jul-0109",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-jul-0109"
+  },
+  {
+   "slug": "preposisjoner-flervalg-kjaeledyr-d6b8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-kjaeledyr-d6b8"
+  },
+  {
+   "slug": "preposisjoner-flervalg-kjokkenredskaper-457d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-kjokkenredskaper-457d"
+  },
+  {
+   "slug": "preposisjoner-flervalg-kjoretoy-0ae7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-kjoretoy-0ae7"
+  },
+  {
+   "slug": "preposisjoner-flervalg-klaer-edef",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-klaer-edef"
+  },
+  {
+   "slug": "preposisjoner-flervalg-klasserom-9e12",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-klasserom-9e12"
+  },
+  {
+   "slug": "preposisjoner-flervalg-kroppsdeler-136f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "body_parts",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-kroppsdeler-136f"
+  },
+  {
+   "slug": "preposisjoner-flervalg-leker-24d2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-leker-24d2"
+  },
+  {
+   "slug": "preposisjoner-flervalg-mobler-2c18",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-mobler-2c18"
+  },
+  {
+   "slug": "preposisjoner-flervalg-musikk-dd5d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-musikk-dd5d"
+  },
+  {
+   "slug": "preposisjoner-flervalg-paske-1d6e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-paske-1d6e"
+  },
+  {
+   "slug": "preposisjoner-flervalg-postkontor-808e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-postkontor-808e"
+  },
+  {
+   "slug": "preposisjoner-flervalg-reptiler-og-amfibier-0ca5",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-reptiler-og-amfibier-0ca5"
+  },
+  {
+   "slug": "preposisjoner-flervalg-rundt-i-huset-db47",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-rundt-i-huset-db47"
+  },
+  {
+   "slug": "preposisjoner-flervalg-skogsdyr-99d8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-skogsdyr-99d8"
+  },
+  {
+   "slug": "preposisjoner-flervalg-sommer-b5a7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "summer",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-sommer-b5a7"
+  },
+  {
+   "slug": "preposisjoner-flervalg-strand-0375",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-strand-0375"
+  },
+  {
+   "slug": "preposisjoner-flervalg-sykehus-c8ea",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-sykehus-c8ea"
+  },
+  {
+   "slug": "preposisjoner-flervalg-thanksgiving-a45d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-thanksgiving-a45d"
+  },
+  {
+   "slug": "preposisjoner-flervalg-tilbehor-a1ce",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-tilbehor-a1ce"
+  },
+  {
+   "slug": "preposisjoner-flervalg-ting-som-flyr-3cef",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-ting-som-flyr-3cef"
+  },
+  {
+   "slug": "preposisjoner-flervalg-traer-2539",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-traer-2539"
+  },
+  {
+   "slug": "preposisjoner-flervalg-vaer-6ac6",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "weather",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-vaer-6ac6"
+  },
+  {
+   "slug": "preposisjoner-flervalg-var-3596",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "spring",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-var-3596"
+  },
+  {
+   "slug": "preposisjoner-flervalg-verdensrommet-bc34",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-verdensrommet-bc34"
+  },
+  {
+   "slug": "preposisjoner-flervalg-verktoy-43d7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-verktoy-43d7"
+  },
+  {
+   "slug": "preposisjoner-flervalg-vinter-cbc9",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "winter",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-vinter-cbc9"
+  },
+  {
+   "slug": "preposisjoner-flervalg-yrker-caaa",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "preposisjoner-flervalg-yrker-caaa"
   }
  ]
 }

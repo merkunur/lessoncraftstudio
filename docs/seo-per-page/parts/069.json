@@ -2,12 +2,387 @@
  "part": 69,
  "locale": "de",
  "classes": [
+  "find-objects::find-odd",
   "picture-sort::null",
-  "subtraction::cross-out"
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature"
  ],
  "splitOf": null,
- "count": 78,
+ "count": 92,
  "pages": [
+  {
+   "slug": "objekte-finden-anders-finden-accessoires-8cbc",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-accessoires-8cbc"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-aktivitaten-3bcd",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-aktivitaten-3bcd"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-backerei-55bb",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-backerei-55bb"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-bauernhoftiere-9218",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-bauernhoftiere-9218"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-baume-d862",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-baume-d862"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-berufe-58f4",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-berufe-58f4"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-blumen-b2c4",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-blumen-b2c4"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-camping-a63b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-camping-a63b"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-desserts-und-sussigkeiten-717e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-desserts-und-sussigkeiten-717e"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-dinge-die-fliegen-1502",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-dinge-die-fliegen-1502"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-dinosaurier-d81f",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-dinosaurier-d81f"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-emotionen-8cbe",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-emotionen-8cbe"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-erntedankfest-c53a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-erntedankfest-c53a"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-fahrzeuge-f274",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-fahrzeuge-f274"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-farben-d6a8",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-farben-d6a8"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-formen-ffa7",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-formen-ffa7"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-fruchte-ca84",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-fruchte-ca84"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-fruhling-55e5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-fruhling-55e5"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-fruhstuck-d1a5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-fruhstuck-d1a5"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-gemuse-947b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-gemuse-947b"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-haustiere-f6ba",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-haustiere-f6ba"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-im-supermarkt-8bbd",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-im-supermarkt-8bbd"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-insekten-und-kafer-ffad",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-insekten-und-kafer-ffad"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-klassenzimmer-132a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-klassenzimmer-132a"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-kleidung-481f",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-kleidung-481f"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-korperteile-51ed",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-korperteile-51ed"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-krankenhaus-d12b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-krankenhaus-d12b"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-kuchenwerkzeuge-d5aa",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-kuchenwerkzeuge-d5aa"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-meeresleben-03a2",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-meeresleben-03a2"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-mobel-f6a6",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-mobel-f6a6"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-musik-f05a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-musik-f05a"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-ostern-f7a2",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-ostern-f7a2"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-postamt-8b97",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-postamt-8b97"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-rund-ums-haus-b391",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-rund-ums-haus-b391"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-sommer-455e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-sommer-455e"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-spielzeug-8f02",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-spielzeug-8f02"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-strand-08b8",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-strand-08b8"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-tiere-f1df",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-tiere-f1df"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-vogel-2-1c47",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-vogel-2-1c47"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-waldtiere-cc5c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-waldtiere-cc5c"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-weihnachten-d32d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-weihnachten-d32d"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-weltraum-2701",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-weltraum-2701"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-werkzeuge-7f81",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-werkzeuge-7f81"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-wetter-8636",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-wetter-8636"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-winter-78c2",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-winter-78c2"
+  },
+  {
+   "slug": "objekte-finden-anders-finden-zootiere-ad8d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "objekte-finden-anders-finden-zootiere-ad8d"
+  },
   {
    "slug": "bildersortierung-bakery-vs-animals-0dd6",
    "type": "picture-sort",
@@ -321,316 +696,60 @@
    "deck": "bildersortierung-farm-animals-vs-vehicles-d3b2"
   },
   {
-   "slug": "subtraktion-durchstreichen-accessoires-a950",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "accessories",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-accessoires-a950"
+   "slug": "formen-vorschule-seiten-ecken",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "vorschule",
+   "deck": "geometrie-k075"
   },
   {
-   "slug": "subtraktion-durchstreichen-backerei-eaf8",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "bakery",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-backerei-eaf8"
+   "slug": "geometrie-klasse-3-vierecke-umfang",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "geometrie-g3337"
   },
   {
-   "slug": "subtraktion-durchstreichen-bauernhoftiere-2de5",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "farm_animals",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-bauernhoftiere-2de5"
+   "slug": "geometrie-klasse-2-koerper-symmetrie",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "geometrie-g2241"
   },
   {
-   "slug": "subtraktion-durchstreichen-baume-6043",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "tree",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-baume-6043"
+   "slug": "gewicht-vergleichen-vorschule",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "vorschule",
+   "deck": "messen-tiere-k038"
   },
   {
-   "slug": "subtraktion-durchstreichen-berufe-a31b",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "occupations",
+   "slug": "laenge-messen-klasse-1",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
    "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-berufe-a31b"
+   "deck": "messen-tiere-g1139"
   },
   {
-   "slug": "subtraktion-durchstreichen-blumen-b93c",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "flowers",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-blumen-b93c"
+   "slug": "laenge-messen-lineal-klasse-2",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "messen-formen-g2235"
   },
   {
-   "slug": "subtraktion-durchstreichen-camping-9abc",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "camping",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-camping-9abc"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-desserts-und-sussigkeiten-a641",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "desserts_and_sweets",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-desserts-und-sussigkeiten-a641"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-dinge-die-fliegen-943c",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "things_that_fly",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-dinge-die-fliegen-943c"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-dinosaurier-15f8",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "dinosaurs",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-dinosaurier-15f8"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-erntedankfest-07d8",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "thanksgivinng",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-erntedankfest-07d8"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-fahrzeuge-11bc",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "vehicles",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-fahrzeuge-11bc"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-formen-7cac",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "shapes",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-formen-7cac"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-fruchte-26d6",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "fruits",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-fruchte-26d6"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-fruhstuck-93f1",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "breakfast",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-fruhstuck-93f1"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-gemuse-1dc4",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "vegetables",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-gemuse-1dc4"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-haustiere-c152",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "pets",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-haustiere-c152"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-im-supermarkt-4271",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "at_the_supermarket",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-im-supermarkt-4271"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-insekten-und-kafer-8017",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "insects_and_bugs",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-insekten-und-kafer-8017"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-klassenzimmer-aa1f",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "classroom",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-klassenzimmer-aa1f"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-kleidung-eeee",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "clothing",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-kleidung-eeee"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-krankenhaus-c93b",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "hospital",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-krankenhaus-c93b"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-kuchenwerkzeuge-3c8e",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "kitchen_tools",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-kuchenwerkzeuge-3c8e"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-meeresleben-55ad",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "ocean_life",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-meeresleben-55ad"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-mobel-c269",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "furniture",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-mobel-c269"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-musik-3b33",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "music",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-musik-3b33"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-ostern-5ce4",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "easter",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-ostern-5ce4"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-postamt-33fb",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "post_office",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-postamt-33fb"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-reptilien-und-amphibien-2a7d",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-reptilien-und-amphibien-2a7d"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-rund-ums-haus-c485",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "around_the_house",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-rund-ums-haus-c485"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-spielzeug-9b8b",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "toys",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-spielzeug-9b8b"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-strand-5b60",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "beach",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-strand-5b60"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-tiere",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "animals",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-tiere"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-vogel-2-585c",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-vogel-2-585c"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-vogel-3cb8",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "birds",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-vogel-3cb8"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-waldtiere-3049",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "forest_creatures",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-waldtiere-3049"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-weihnachten-9717",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "christmas",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-weihnachten-9717"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-weltraum-207e",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "space",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-weltraum-207e"
-  },
-  {
-   "slug": "subtraktion-durchstreichen-zootiere-fa91",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "zoo_animals",
-   "level": "1-klasse",
-   "deck": "subtraktion-durchstreichen-zootiere-fa91"
+   "slug": "temperatur-volumen-klasse-3",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "messen-g3345"
   }
  ]
 }

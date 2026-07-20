@@ -2,651 +2,747 @@
  "part": 349,
  "locale": "fi",
  "classes": [
-  "subtraction::image-number",
-  "subtraction::mixed"
+  "find-objects::i-spy",
+  "prepositions::multiplechoice"
  ],
  "splitOf": null,
- "count": 80,
+ "count": 92,
  "pages": [
   {
-   "slug": "vahennyslasku-kuva-numero-aamiainen-5eea",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-aamiainen-1749",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "breakfast",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-aamiainen-5eea"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-aamiainen-1749"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-ajoneuvot-287e",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-ajoneuvot-53c4",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "vehicles",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-ajoneuvot-287e"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-ajoneuvot-53c4"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-ammatit-3173",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-aktiviteetit-4eb5",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-aktiviteetit-4eb5"
+  },
+  {
+   "slug": "etsi-esineet-naen-naen-ammatit-b4a2",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "occupations",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-ammatit-3173"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-ammatit-b4a2"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-asusteet-2e49",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-asusteet-a379",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "accessories",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-asusteet-2e49"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-asusteet-a379"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-avaruus-71bf",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-avaruus-0228",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "space",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-avaruus-71bf"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-avaruus-0228"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-dinosaurukset-361d",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-dinosaurukset-ab58",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "dinosaurs",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-dinosaurukset-361d"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-dinosaurukset-ab58"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-elaimet-6f73",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-elaimet-6bda",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "animals",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-elaimet-6f73"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-elaimet-6bda"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-elaintarhan-elaimet-0427",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-elaintarhan-elaimet-dfdd",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "zoo_animals",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-elaintarhan-elaimet-0427"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-elaintarhan-elaimet-dfdd"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-hedelmat-e9e0",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-hedelmat-dc4e",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "fruits",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-hedelmat-e9e0"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-hedelmat-dc4e"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-huonekalut-ad4c",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-huonekalut-2cc8",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "furniture",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-huonekalut-ad4c"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-huonekalut-2cc8"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-hyonteiset-ja-otokat-9c37",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-hyonteiset-ja-otokat-a353",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "insects_and_bugs",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-hyonteiset-ja-otokat-9c37"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-hyonteiset-ja-otokat-a353"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-jalkiruoat-ja-makeiset-9987",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-jalkiruoat-ja-makeiset-d098",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "desserts_and_sweets",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-jalkiruoat-ja-makeiset-9987"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-jalkiruoat-ja-makeiset-d098"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-joulu-1182",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-joulu-9c48",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "christmas",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-joulu-1182"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-joulu-9c48"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-keittiovalineet-f53f",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-keittiovalineet-a254",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "kitchen_tools",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-keittiovalineet-f53f"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-keittiovalineet-a254"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-kiitospaiva-cf2d",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-kesa-dd5d",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-kesa-dd5d"
+  },
+  {
+   "slug": "etsi-esineet-naen-naen-kevat-8587",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-kevat-8587"
+  },
+  {
+   "slug": "etsi-esineet-naen-naen-kiitospaiva-d543",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "thanksgivinng",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-kiitospaiva-cf2d"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-kiitospaiva-d543"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-kodin-ymparilla-2e64",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "around_the_house",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-kodin-ymparilla-2e64"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-kukat-903c",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-kukat-9e3e",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "flowers",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-kukat-903c"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-kukat-9e3e"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-leipomo-51f2",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-leipomo-8402",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "bakery",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-leipomo-51f2"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-leipomo-8402"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-leirielama-d48c",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-leirielama-9894",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "camping",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-leirielama-d48c"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-leirielama-9894"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-lelut-b1d3",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-lelut-2276",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "toys",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-lelut-b1d3"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-lelut-2276"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-lemmikit-e8be",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "etsi-esineet-naen-naen-lemmikit-58d0",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "pets",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-lemmikit-e8be"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-lemmikit-58d0"
   },
   {
-   "slug": "vahennyslasku-kuva-numero-linnut-0ec2",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-linnut-0ec2"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-linnut-2-ffdb",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "birds_2",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-linnut-2-ffdb"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-luokkahuone-f3b5",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "classroom",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-luokkahuone-f3b5"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-maatilan-elaimet-9459",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "farm_animals",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-maatilan-elaimet-9459"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-matelijat-ja-sammakkoelaimet-5cbd",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-matelijat-ja-sammakkoelaimet-5cbd"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-merielama-9b75",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "ocean_life",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-merielama-9b75"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-metsan-elaimet-c93d",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "forest_creatures",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-metsan-elaimet-c93d"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-muodot-6979",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "shapes",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-muodot-6979"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-musiikki-61e5",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "music",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-musiikki-61e5"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-paasiainen-c71d",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "easter",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-paasiainen-c71d"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-postitoimisto-a809",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "post_office",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-postitoimisto-a809"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-puut-4ad2",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-puut-4ad2"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-ranta-a67f",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "beach",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-ranta-a67f"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-ruokakaupassa-d758",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "at_the_supermarket",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-ruokakaupassa-d758"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-sairaala-d2fb",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "hospital",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-sairaala-d2fb"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-sekalaista-cfa4",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "miscellaneous",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-sekalaista-cfa4"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-tyokalut-bf15",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "tools",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-tyokalut-bf15"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-vaatteet-d177",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "clothing",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-vaatteet-d177"
-  },
-  {
-   "slug": "vahennyslasku-kuva-numero-vihannekset-5717",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "vegetables",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-kuva-numero-vihannekset-5717"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-aamiainen-6bea",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "breakfast",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-aamiainen-6bea"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-ajoneuvot-0714",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "vehicles",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-ajoneuvot-0714"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-ammatit-e719",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "occupations",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-ammatit-e719"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-asusteet-a6e2",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "accessories",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-asusteet-a6e2"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-avaruus-ab59",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "space",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-avaruus-ab59"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-dinosaurukset-5924",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "dinosaurs",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-dinosaurukset-5924"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-elaimet-4af1",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "animals",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-elaimet-4af1"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-elaintarhan-elaimet-bfa5",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "zoo_animals",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-elaintarhan-elaimet-bfa5"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-hedelmat-f259",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "fruits",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-hedelmat-f259"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-huonekalut-62c6",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "furniture",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-huonekalut-62c6"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-hyonteiset-ja-otokat-ddf3",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "insects_and_bugs",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-hyonteiset-ja-otokat-ddf3"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-jalkiruoat-ja-makeiset-be61",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "desserts_and_sweets",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-jalkiruoat-ja-makeiset-be61"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-joulu-d9bf",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "christmas",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-joulu-d9bf"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-keittiovalineet-cd62",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "kitchen_tools",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-keittiovalineet-cd62"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-kiitospaiva-9d04",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "thanksgivinng",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-kiitospaiva-9d04"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-kodin-ymparilla-1edc",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "around_the_house",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-kodin-ymparilla-1edc"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-kukat-aa79",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "flowers",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-kukat-aa79"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-leipomo-21e8",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "bakery",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-leipomo-21e8"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-leirielama-3dc1",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "camping",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-leirielama-3dc1"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-lelut-791d",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "toys",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-lelut-791d"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-lemmikit-e637",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "pets",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-lemmikit-e637"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-lentavat-asiat-b34e",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-lentavat-asiat-5be1",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "things_that_fly",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-lentavat-asiat-b34e"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-lentavat-asiat-5be1"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-linnut-2-cd32",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-linnut-2-cc7c",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "birds_2",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-linnut-2-cd32"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-linnut-2-cc7c"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-linnut-6274",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "birds",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-linnut-6274"
-  },
-  {
-   "slug": "vahennyslasku-sekoitettu-luokkahuone-4d5b",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-luokkahuone-4b50",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "classroom",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-luokkahuone-4d5b"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-luokkahuone-4b50"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-maatilan-elaimet-19e5",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-maatilan-elaimet-0884",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "farm_animals",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-maatilan-elaimet-19e5"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-maatilan-elaimet-0884"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-matelijat-ja-sammakkoelaimet-89ae",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-matelijat-ja-sammakkoelaimet-85f3",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "reptiles_and_amphibians",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-matelijat-ja-sammakkoelaimet-89ae"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-matelijat-ja-sammakkoelaimet-85f3"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-merielama-e501",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-merielama-fc4c",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "ocean_life",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-merielama-e501"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-merielama-fc4c"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-metsan-elaimet-8af4",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-metsan-elaimet-63b0",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "forest_creatures",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-metsan-elaimet-8af4"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-metsan-elaimet-63b0"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-muodot-a844",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-muodot-395f",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "shapes",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-muodot-a844"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-muodot-395f"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-musiikki-73e5",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-musiikki-b9ed",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "music",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-musiikki-73e5"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-musiikki-b9ed"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-paasiainen-2de0",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-paasiainen-133f",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "easter",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-paasiainen-2de0"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-paasiainen-133f"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-postitoimisto-9699",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-postitoimisto-a185",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "post_office",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-postitoimisto-9699"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-postitoimisto-a185"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-puut-e6d9",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-puut-d3b3",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "tree",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-puut-e6d9"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-puut-d3b3"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-ranta-a02f",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-ranta-89a2",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "beach",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-ranta-a02f"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-ranta-89a2"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-ruokakaupassa-4fd9",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-ruokakaupassa-0baf",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "at_the_supermarket",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-ruokakaupassa-4fd9"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-ruokakaupassa-0baf"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-sairaala-01ba",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-ruumiinosat-761f",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-ruumiinosat-761f"
+  },
+  {
+   "slug": "etsi-esineet-naen-naen-saa-bea6",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-saa-bea6"
+  },
+  {
+   "slug": "etsi-esineet-naen-naen-sairaala-d1e1",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "hospital",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-sairaala-01ba"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-sairaala-d1e1"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-tyokalut-607a",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-talvi-c8b7",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-talvi-c8b7"
+  },
+  {
+   "slug": "etsi-esineet-naen-naen-tunteet-3c73",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-tunteet-3c73"
+  },
+  {
+   "slug": "etsi-esineet-naen-naen-tyokalut-b7b6",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "tools",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-tyokalut-607a"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-tyokalut-b7b6"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-vaatteet-aa62",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-vaatteet-20e5",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "clothing",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-vaatteet-aa62"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-vaatteet-20e5"
   },
   {
-   "slug": "vahennyslasku-sekoitettu-vihannekset-c58d",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "etsi-esineet-naen-naen-varit-7b46",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-varit-7b46"
+  },
+  {
+   "slug": "etsi-esineet-naen-naen-vihannekset-6288",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "vegetables",
-   "level": "1-luokka",
-   "deck": "vahennyslasku-sekoitettu-vihannekset-c58d"
+   "level": "esikoulu",
+   "deck": "etsi-esineet-naen-naen-vihannekset-6288"
+  },
+  {
+   "slug": "prepositiot-monivalinta-aamiainen-acce",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-aamiainen-acce"
+  },
+  {
+   "slug": "prepositiot-monivalinta-ajoneuvot-136e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-ajoneuvot-136e"
+  },
+  {
+   "slug": "prepositiot-monivalinta-aktiviteetit-fe9c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-aktiviteetit-fe9c"
+  },
+  {
+   "slug": "prepositiot-monivalinta-ammatit-8af1",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-ammatit-8af1"
+  },
+  {
+   "slug": "prepositiot-monivalinta-asusteet-2dab",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-asusteet-2dab"
+  },
+  {
+   "slug": "prepositiot-monivalinta-avaruus-c494",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-avaruus-c494"
+  },
+  {
+   "slug": "prepositiot-monivalinta-dinosaurukset-9e86",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-dinosaurukset-9e86"
+  },
+  {
+   "slug": "prepositiot-monivalinta-elaimet-60fd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-elaimet-60fd"
+  },
+  {
+   "slug": "prepositiot-monivalinta-elaintarhan-elaimet-d6fc",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-elaintarhan-elaimet-d6fc"
+  },
+  {
+   "slug": "prepositiot-monivalinta-hedelmat-0035",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-hedelmat-0035"
+  },
+  {
+   "slug": "prepositiot-monivalinta-huonekalut-99f1",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-huonekalut-99f1"
+  },
+  {
+   "slug": "prepositiot-monivalinta-hyonteiset-ja-otokat-e3b2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-hyonteiset-ja-otokat-e3b2"
+  },
+  {
+   "slug": "prepositiot-monivalinta-jalkiruoat-ja-makeiset-1d51",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-jalkiruoat-ja-makeiset-1d51"
+  },
+  {
+   "slug": "prepositiot-monivalinta-joulu-8505",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-joulu-8505"
+  },
+  {
+   "slug": "prepositiot-monivalinta-keittiovalineet-cd11",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-keittiovalineet-cd11"
+  },
+  {
+   "slug": "prepositiot-monivalinta-kesa-5fe2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-kesa-5fe2"
+  },
+  {
+   "slug": "prepositiot-monivalinta-kevat-b46f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-kevat-b46f"
+  },
+  {
+   "slug": "prepositiot-monivalinta-kiitospaiva-2519",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-kiitospaiva-2519"
+  },
+  {
+   "slug": "prepositiot-monivalinta-kodin-ymparilla-ca32",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-kodin-ymparilla-ca32"
+  },
+  {
+   "slug": "prepositiot-monivalinta-kukat-fa32",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-kukat-fa32"
+  },
+  {
+   "slug": "prepositiot-monivalinta-leipomo-dca8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-leipomo-dca8"
+  },
+  {
+   "slug": "prepositiot-monivalinta-leirielama-1df4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-leirielama-1df4"
+  },
+  {
+   "slug": "prepositiot-monivalinta-lelut-f085",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-lelut-f085"
+  },
+  {
+   "slug": "prepositiot-monivalinta-lemmikit-51fe",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-lemmikit-51fe"
+  },
+  {
+   "slug": "prepositiot-monivalinta-lentavat-asiat-f851",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-lentavat-asiat-f851"
+  },
+  {
+   "slug": "prepositiot-monivalinta-linnut-2-6b06",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-linnut-2-6b06"
+  },
+  {
+   "slug": "prepositiot-monivalinta-luokkahuone-9992",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-luokkahuone-9992"
+  },
+  {
+   "slug": "prepositiot-monivalinta-matelijat-ja-sammakkoelaimet-5ffd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-matelijat-ja-sammakkoelaimet-5ffd"
+  },
+  {
+   "slug": "prepositiot-monivalinta-merielama-ab5b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-merielama-ab5b"
+  },
+  {
+   "slug": "prepositiot-monivalinta-metsan-elaimet-e612",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-metsan-elaimet-e612"
+  },
+  {
+   "slug": "prepositiot-monivalinta-muodot-ad25",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-muodot-ad25"
+  },
+  {
+   "slug": "prepositiot-monivalinta-musiikki-f53f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-musiikki-f53f"
+  },
+  {
+   "slug": "prepositiot-monivalinta-paasiainen-2744",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-paasiainen-2744"
+  },
+  {
+   "slug": "prepositiot-monivalinta-postitoimisto-5167",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-postitoimisto-5167"
+  },
+  {
+   "slug": "prepositiot-monivalinta-puut-9bb8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-puut-9bb8"
+  },
+  {
+   "slug": "prepositiot-monivalinta-ranta-e137",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-ranta-e137"
+  },
+  {
+   "slug": "prepositiot-monivalinta-ruokakaupassa-61c6",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-ruokakaupassa-61c6"
+  },
+  {
+   "slug": "prepositiot-monivalinta-ruumiinosat-0594",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-ruumiinosat-0594"
+  },
+  {
+   "slug": "prepositiot-monivalinta-saa-9974",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-saa-9974"
+  },
+  {
+   "slug": "prepositiot-monivalinta-sairaala-3e51",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-sairaala-3e51"
+  },
+  {
+   "slug": "prepositiot-monivalinta-talvi-2a4f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-talvi-2a4f"
+  },
+  {
+   "slug": "prepositiot-monivalinta-tunteet-64dd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-tunteet-64dd"
+  },
+  {
+   "slug": "prepositiot-monivalinta-tyokalut-c2e3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-tyokalut-c2e3"
+  },
+  {
+   "slug": "prepositiot-monivalinta-vaatteet-a327",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-vaatteet-a327"
+  },
+  {
+   "slug": "prepositiot-monivalinta-varit-2871",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-varit-2871"
+  },
+  {
+   "slug": "prepositiot-monivalinta-vihannekset-cf37",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-vihannekset-cf37"
   }
  ]
 }

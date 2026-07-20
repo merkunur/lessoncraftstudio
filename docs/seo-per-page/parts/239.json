@@ -2,763 +2,362 @@
  "part": 239,
  "locale": "sv",
  "classes": [
-  "shadow-match::make-whole",
-  "word-guess::easy"
+  "prepositions::multiplechoice"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 44,
  "pages": [
   {
-   "slug": "matcha-skuggor-gor-hel-aktiviteter-f728",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "prepositioner-flerval-aktiviteter-1488",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "activities",
    "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-aktiviteter-f728"
+   "deck": "prepositioner-flerval-aktiviteter-1488"
   },
   {
-   "slug": "matcha-skuggor-gor-hel-bageri-091a",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "prepositioner-flerval-bageri-15cc",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "bakery",
    "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-bageri-091a"
+   "deck": "prepositioner-flerval-bageri-15cc"
   },
   {
-   "slug": "matcha-skuggor-gor-hel-blommor-6a84",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "prepositioner-flerval-blommor-d8e1",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "flowers",
    "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-blommor-6a84"
+   "deck": "prepositioner-flerval-blommor-d8e1"
   },
   {
-   "slug": "matcha-skuggor-gor-hel-bondgardsdjur-1d57",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "prepositioner-flerval-bondgardsdjur-3cb3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "farm_animals",
    "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-bondgardsdjur-1d57"
+   "deck": "prepositioner-flerval-bondgardsdjur-3cb3"
   },
   {
-   "slug": "matcha-skuggor-gor-hel-camping-682a",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "prepositioner-flerval-camping-2b53",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "camping",
    "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-camping-682a"
+   "deck": "prepositioner-flerval-camping-2b53"
   },
   {
-   "slug": "matcha-skuggor-gor-hel-dinosaurier-b04c",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "prepositioner-flerval-dinosaurier-da39",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "dinosaurs",
    "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-dinosaurier-b04c"
+   "deck": "prepositioner-flerval-dinosaurier-da39"
   },
   {
-   "slug": "matcha-skuggor-gor-hel-djur-4ea4",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "prepositioner-flerval-djur-dbb7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "animals",
    "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-djur-4ea4"
+   "deck": "prepositioner-flerval-djur-dbb7"
   },
   {
-   "slug": "matcha-skuggor-gor-hel-djurparksdjur-3837",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "prepositioner-flerval-djurparksdjur-9691",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "zoo_animals",
    "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-djurparksdjur-3837"
+   "deck": "prepositioner-flerval-djurparksdjur-9691"
   },
   {
-   "slug": "matcha-skuggor-gor-hel-efterratter-och-godis-10da",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "prepositioner-flerval-efterratter-och-godis-3c92",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "desserts_and_sweets",
    "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-efterratter-och-godis-10da"
+   "deck": "prepositioner-flerval-efterratter-och-godis-3c92"
   },
   {
-   "slug": "matcha-skuggor-gor-hel-faglar-2-a242",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "prepositioner-flerval-faglar-2-c8dd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "birds_2",
    "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-faglar-2-a242"
+   "deck": "prepositioner-flerval-faglar-2-c8dd"
   },
   {
-   "slug": "matcha-skuggor-gor-hel-faglar-a161",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "prepositioner-flerval-faglar-88ad",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "birds",
    "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-faglar-a161"
+   "deck": "prepositioner-flerval-faglar-88ad"
   },
   {
-   "slug": "matcha-skuggor-gor-hel-fordon-39e5",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "vehicles",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-fordon-39e5"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-former-84c3",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "shapes",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-former-84c3"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-frukost-45d9",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "breakfast",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-frukost-45d9"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-frukter-6955",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "fruits",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-frukter-6955"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-gronsaker-8fd7",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "vegetables",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-gronsaker-8fd7"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-havsliv-d745",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-havsliv-d745"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-husdjur-f69e",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "pets",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-husdjur-f69e"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-i-snabbkopet-29e0",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-i-snabbkopet-29e0"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-insekter-och-kryp-38a1",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-insekter-och-kryp-38a1"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-jul-1302",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "christmas",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-jul-1302"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-kanslor-e568",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "emotions",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-kanslor-e568"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-klader-494b",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "clothing",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-klader-494b"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-klassrum-51ca",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "classroom",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-klassrum-51ca"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-koksredskap-4377",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-koksredskap-4377"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-kroppsdelar-52b7",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-kroppsdelar-52b7"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-leksaker-bd76",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "toys",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-leksaker-bd76"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-mobler-b90a",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "furniture",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-mobler-b90a"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-musik-dc68",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "music",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-musik-dc68"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-pask-b0f5",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "easter",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-pask-b0f5"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-postkontor-09ca",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "post_office",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-postkontor-09ca"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-reptiler-och-groddjur-e02e",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "reptiles_and_amphibians",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-reptiler-och-groddjur-e02e"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-runt-huset-73d5",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-runt-huset-73d5"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-rymden-2f83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "space",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-rymden-2f83"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-saker-som-flyger-fd78",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-saker-som-flyger-fd78"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-sjukhus-242c",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "hospital",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-sjukhus-242c"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-skogsdjur-27a7",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-skogsdjur-27a7"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-sommar-e86c",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "summer",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-sommar-e86c"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-strand-2b56",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "beach",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-strand-2b56"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-thanksgiving-295d",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-thanksgiving-295d"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-tillbehor-5972",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "accessories",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-tillbehor-5972"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-trad-fac0",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "tree",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-trad-fac0"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-vader-cd69",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "weather",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-vader-cd69"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-var-bec9",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "spring",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-var-bec9"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-verktyg-6f8e",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "tools",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-verktyg-6f8e"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-vinter-ab69",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "winter",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-vinter-ab69"
-  },
-  {
-   "slug": "matcha-skuggor-gor-hel-yrken-61b3",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "occupations",
-   "level": "forskola",
-   "deck": "matcha-skuggor-gor-hel-yrken-61b3"
-  },
-  {
-   "slug": "gissa-ordet-latt-aktiviteter-17d9",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "activities",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-aktiviteter-17d9"
-  },
-  {
-   "slug": "gissa-ordet-latt-bageri-939d",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "bakery",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-bageri-939d"
-  },
-  {
-   "slug": "gissa-ordet-latt-blommor-bd56",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "flowers",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-blommor-bd56"
-  },
-  {
-   "slug": "gissa-ordet-latt-bondgardsdjur-04a8",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "farm_animals",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-bondgardsdjur-04a8"
-  },
-  {
-   "slug": "gissa-ordet-latt-camping-9aa1",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "camping",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-camping-9aa1"
-  },
-  {
-   "slug": "gissa-ordet-latt-djur-0c94",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "animals",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-djur-0c94"
-  },
-  {
-   "slug": "gissa-ordet-latt-djurparksdjur-9ec7",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "zoo_animals",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-djurparksdjur-9ec7"
-  },
-  {
-   "slug": "gissa-ordet-latt-efterratter-och-godis-7e86",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "desserts_and_sweets",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-efterratter-och-godis-7e86"
-  },
-  {
-   "slug": "gissa-ordet-latt-faglar-2-bd67",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "birds_2",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-faglar-2-bd67"
-  },
-  {
-   "slug": "gissa-ordet-latt-faglar-fb49",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "birds",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-faglar-fb49"
-  },
-  {
-   "slug": "gissa-ordet-latt-farger-b1ea",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-farger-8f3d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "colors",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-farger-b1ea"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-farger-8f3d"
   },
   {
-   "slug": "gissa-ordet-latt-fordon-4cb6",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-fordon-2a31",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "vehicles",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-fordon-4cb6"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-fordon-2a31"
   },
   {
-   "slug": "gissa-ordet-latt-former-8d81",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "shapes",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-former-8d81"
-  },
-  {
-   "slug": "gissa-ordet-latt-frukost-50a3",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-frukost-f29d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "breakfast",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-frukost-50a3"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-frukost-f29d"
   },
   {
-   "slug": "gissa-ordet-latt-frukter-72ce",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-frukter-e127",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "fruits",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-frukter-72ce"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-frukter-e127"
   },
   {
-   "slug": "gissa-ordet-latt-gronsaker-c393",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-gronsaker-29aa",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "vegetables",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-gronsaker-c393"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-gronsaker-29aa"
   },
   {
-   "slug": "gissa-ordet-latt-havsliv-ad80",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-havsliv-9984",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "ocean_life",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-havsliv-ad80"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-havsliv-9984"
   },
   {
-   "slug": "gissa-ordet-latt-husdjur-79ca",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-husdjur-2d56",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "pets",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-husdjur-79ca"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-husdjur-2d56"
   },
   {
-   "slug": "gissa-ordet-latt-i-snabbkopet-063f",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-i-snabbkopet-4437",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "at_the_supermarket",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-i-snabbkopet-063f"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-i-snabbkopet-4437"
   },
   {
-   "slug": "gissa-ordet-latt-insekter-och-kryp-f0c7",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "insects_and_bugs",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-insekter-och-kryp-f0c7"
-  },
-  {
-   "slug": "gissa-ordet-latt-jul-53ca",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-jul-cdca",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "christmas",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-jul-53ca"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-jul-cdca"
   },
   {
-   "slug": "gissa-ordet-latt-kanslor-f0ce",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-kanslor-061b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "emotions",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-kanslor-f0ce"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-kanslor-061b"
   },
   {
-   "slug": "gissa-ordet-latt-klader-c353",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-klader-c108",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "clothing",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-klader-c353"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-klader-c108"
   },
   {
-   "slug": "gissa-ordet-latt-klassrum-b900",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-klassrum-8ad4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "classroom",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-klassrum-b900"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-klassrum-8ad4"
   },
   {
-   "slug": "gissa-ordet-latt-koksredskap-d03f",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-koksredskap-0cb3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "kitchen_tools",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-koksredskap-d03f"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-koksredskap-0cb3"
   },
   {
-   "slug": "gissa-ordet-latt-kroppsdelar-0026",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-kroppsdelar-2d71",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "body_parts",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-kroppsdelar-0026"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-kroppsdelar-2d71"
   },
   {
-   "slug": "gissa-ordet-latt-leksaker-ac0e",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-leksaker-18c8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "toys",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-leksaker-ac0e"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-leksaker-18c8"
   },
   {
-   "slug": "gissa-ordet-latt-mobler-da04",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-mobler-846d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "furniture",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-mobler-da04"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-mobler-846d"
   },
   {
-   "slug": "gissa-ordet-latt-musik-2069",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-musik-8a6a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "music",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-musik-2069"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-musik-8a6a"
   },
   {
-   "slug": "gissa-ordet-latt-pask-c9c3",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-pask-19cb",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "easter",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-pask-c9c3"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-pask-19cb"
   },
   {
-   "slug": "gissa-ordet-latt-postkontor-10b4",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-postkontor-2e0c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "post_office",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-postkontor-10b4"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-postkontor-2e0c"
   },
   {
-   "slug": "gissa-ordet-latt-reptiler-och-groddjur-de91",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "reptiles_and_amphibians",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-reptiler-och-groddjur-de91"
-  },
-  {
-   "slug": "gissa-ordet-latt-runt-huset-d9fa",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-runt-huset-8b3d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "around_the_house",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-runt-huset-d9fa"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-runt-huset-8b3d"
   },
   {
-   "slug": "gissa-ordet-latt-rymden-14f3",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-rymden-4a3a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "space",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-rymden-14f3"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-rymden-4a3a"
   },
   {
-   "slug": "gissa-ordet-latt-saker-som-flyger-fa8b",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-saker-som-flyger-35cf",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "things_that_fly",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-saker-som-flyger-fa8b"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-saker-som-flyger-35cf"
   },
   {
-   "slug": "gissa-ordet-latt-sjukhus-04da",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-sjukhus-b320",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "hospital",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-sjukhus-04da"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-sjukhus-b320"
   },
   {
-   "slug": "gissa-ordet-latt-skogsdjur-21a0",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-skogsdjur-5fd7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "forest_creatures",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-skogsdjur-21a0"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-skogsdjur-5fd7"
   },
   {
-   "slug": "gissa-ordet-latt-sommar-dca3",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-sommar-ebcd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "summer",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-sommar-dca3"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-sommar-ebcd"
   },
   {
-   "slug": "gissa-ordet-latt-strand-51de",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-strand-38eb",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "beach",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-strand-51de"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-strand-38eb"
   },
   {
-   "slug": "gissa-ordet-latt-thanksgiving-c4f4",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-thanksgiving-f776",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "thanksgivinng",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-thanksgiving-c4f4"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-thanksgiving-f776"
   },
   {
-   "slug": "gissa-ordet-latt-tillbehor-68ec",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-tillbehor-e93a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "accessories",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-tillbehor-68ec"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-tillbehor-e93a"
   },
   {
-   "slug": "gissa-ordet-latt-trad-7acb",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-trad-8360",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "tree",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-trad-7acb"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-trad-8360"
   },
   {
-   "slug": "gissa-ordet-latt-vader-3a6b",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-vader-1416",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "weather",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-vader-3a6b"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-vader-1416"
   },
   {
-   "slug": "gissa-ordet-latt-var-8f90",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "spring",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-var-8f90"
-  },
-  {
-   "slug": "gissa-ordet-latt-verktyg-18a3",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-verktyg-5865",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "tools",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-verktyg-18a3"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-verktyg-5865"
   },
   {
-   "slug": "gissa-ordet-latt-vinter-8b98",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-vinter-327c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "winter",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-vinter-8b98"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-vinter-327c"
   },
   {
-   "slug": "gissa-ordet-latt-yrken-ddc5",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "prepositioner-flerval-yrken-9f77",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "occupations",
-   "level": "ak-1",
-   "deck": "gissa-ordet-latt-yrken-ddc5"
+   "level": "forskola",
+   "deck": "prepositioner-flerval-yrken-9f77"
   }
  ]
 }

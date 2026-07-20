@@ -2,619 +2,787 @@
  "part": 351,
  "locale": "fi",
  "classes": [
-  "more-less::image-number",
-  "picture-path::classic-maze"
+  "code-addition::null",
+  "math-worksheet::two-symbols-add-sub"
  ],
  "splitOf": null,
- "count": 76,
+ "count": 97,
  "pages": [
   {
-   "slug": "enemman-vahemman-kuva-numero-aamiainen-f125",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "koodattu-yhteenlasku-aamiainen-3e7d",
+   "type": "code-addition",
+   "mode": null,
    "theme": "breakfast",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-aamiainen-f125"
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-aamiainen-3e7d"
   },
   {
-   "slug": "enemman-vahemman-kuva-numero-ajoneuvot-13fc",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "koodattu-yhteenlasku-ajoneuvot-2651",
+   "type": "code-addition",
+   "mode": null,
    "theme": "vehicles",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-ajoneuvot-13fc"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-ajoneuvot-2651"
   },
   {
-   "slug": "enemman-vahemman-kuva-numero-ammatit-45fa",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "occupations",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-ammatit-45fa"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-asusteet-9718",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "accessories",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-asusteet-9718"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-avaruus-c8bf",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "space",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-avaruus-c8bf"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-dinosaurukset-ada4",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "dinosaurs",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-dinosaurukset-ada4"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-elaimet-2806",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "animals",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-elaimet-2806"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-elaintarhan-elaimet-9d20",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "zoo_animals",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-elaintarhan-elaimet-9d20"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-hedelmat-e947",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "fruits",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-hedelmat-e947"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-huonekalut-9c1b",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "furniture",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-huonekalut-9c1b"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-hyonteiset-ja-otokat-a0e3",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "insects_and_bugs",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-hyonteiset-ja-otokat-a0e3"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-jalkiruoat-ja-makeiset-1653",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "desserts_and_sweets",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-jalkiruoat-ja-makeiset-1653"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-joulu-db82",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "christmas",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-joulu-db82"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-keittiovalineet-c798",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "kitchen_tools",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-keittiovalineet-c798"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-kiitospaiva-4aa0",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "thanksgivinng",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-kiitospaiva-4aa0"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-kodin-ymparilla-a10a",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "around_the_house",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-kodin-ymparilla-a10a"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-kukat-528b",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "flowers",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-kukat-528b"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-leipomo-e4e5",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "bakery",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-leipomo-e4e5"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-leirielama-655e",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "camping",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-leirielama-655e"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-lelut-745a",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "toys",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-lelut-745a"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-lemmikit-e584",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "pets",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-lemmikit-e584"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-lentavat-asiat-3661",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "things_that_fly",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-lentavat-asiat-3661"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-linnut-2-a333",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "birds_2",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-linnut-2-a333"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-linnut-989f",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-linnut-989f"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-luokkahuone-304c",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "classroom",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-luokkahuone-304c"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-maatilan-elaimet-581f",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "farm_animals",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-maatilan-elaimet-581f"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-matelijat-ja-sammakkoelaimet-cc8d",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "reptiles_and_amphibians",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-matelijat-ja-sammakkoelaimet-cc8d"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-merielama-9ff2",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "ocean_life",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-merielama-9ff2"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-metsan-elaimet-c661",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "forest_creatures",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-metsan-elaimet-c661"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-muodot-b97b",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "shapes",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-muodot-b97b"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-musiikki-4041",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "music",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-musiikki-4041"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-paasiainen-15d5",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "easter",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-paasiainen-15d5"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-postitoimisto-50ac",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "post_office",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-postitoimisto-50ac"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-puut-247a",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-puut-247a"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-ranta-a50d",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "beach",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-ranta-a50d"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-ruokakaupassa-8c77",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "at_the_supermarket",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-ruokakaupassa-8c77"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-tyokalut-595e",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "tools",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-tyokalut-595e"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-vaatteet-4ae4",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "clothing",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-vaatteet-4ae4"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-numero-vihannekset-cc74",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "vegetables",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-numero-vihannekset-cc74"
-  },
-  {
-   "slug": "kuvapolku-perinteinen-sokkelo-aamiainen-3bc0",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "breakfast",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-aamiainen-3bc0"
-  },
-  {
-   "slug": "kuvapolku-perinteinen-sokkelo-ajoneuvot-25d9",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "vehicles",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-ajoneuvot-25d9"
-  },
-  {
-   "slug": "kuvapolku-perinteinen-sokkelo-aktiviteetit-fbec",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-aktiviteetit-d85b",
+   "type": "code-addition",
+   "mode": null,
    "theme": "activities",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-aktiviteetit-fbec"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-aktiviteetit-d85b"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-ammatit-1bb5",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-ammatit-2d15",
+   "type": "code-addition",
+   "mode": null,
    "theme": "occupations",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-ammatit-1bb5"
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-ammatit-2d15"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-asusteet-171c",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-asusteet-99b8",
+   "type": "code-addition",
+   "mode": null,
    "theme": "accessories",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-asusteet-171c"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-asusteet-99b8"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-avaruus-e5e6",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-avaruus-46f8",
+   "type": "code-addition",
+   "mode": null,
    "theme": "space",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-avaruus-e5e6"
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-avaruus-46f8"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-dinosaurukset-48a0",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-dinosaurukset-f2bb",
+   "type": "code-addition",
+   "mode": null,
    "theme": "dinosaurs",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-dinosaurukset-48a0"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-dinosaurukset-f2bb"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-hedelmat-2448",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-elaimet-b74f",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "animals",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-elaimet-b74f"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-elaintarhan-elaimet-3b34",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-elaintarhan-elaimet-3b34"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-hedelmat-ac2c",
+   "type": "code-addition",
+   "mode": null,
    "theme": "fruits",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-hedelmat-2448"
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-hedelmat-ac2c"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-huonekalut-561c",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-huonekalut-da8c",
+   "type": "code-addition",
+   "mode": null,
    "theme": "furniture",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-huonekalut-561c"
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-huonekalut-da8c"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-jalkiruoat-ja-makeiset-5b1a",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-hyonteiset-ja-otokat-2786",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-hyonteiset-ja-otokat-2786"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-jalkiruoat-ja-makeiset-bab8",
+   "type": "code-addition",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-jalkiruoat-ja-makeiset-5b1a"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-jalkiruoat-ja-makeiset-bab8"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-joulu-beec",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-joulu-3942",
+   "type": "code-addition",
+   "mode": null,
    "theme": "christmas",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-joulu-beec"
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-joulu-3942"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-keittiovalineet-8005",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-keittiovalineet-975a",
+   "type": "code-addition",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-keittiovalineet-8005"
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-keittiovalineet-975a"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-kesa-6d43",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-kesa-fc4a",
+   "type": "code-addition",
+   "mode": null,
    "theme": "summer",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-kesa-6d43"
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-kesa-fc4a"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-kevat-9ae1",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-kevat-e6df",
+   "type": "code-addition",
+   "mode": null,
    "theme": "spring",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-kevat-9ae1"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-kevat-e6df"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-kiitospaiva-1d3f",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-kiitospaiva-042d",
+   "type": "code-addition",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-kiitospaiva-1d3f"
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-kiitospaiva-042d"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-kodin-ymparilla-33a9",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-kodin-ymparilla-0362",
+   "type": "code-addition",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-kodin-ymparilla-33a9"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-kodin-ymparilla-0362"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-kukat-ef70",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-kukat-7719",
+   "type": "code-addition",
+   "mode": null,
    "theme": "flowers",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-kukat-ef70"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-kukat-7719"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-leipomo-36c0",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-leipomo-04f9",
+   "type": "code-addition",
+   "mode": null,
    "theme": "bakery",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-leipomo-36c0"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-leipomo-04f9"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-leirielama-95d5",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-leirielama-2922",
+   "type": "code-addition",
+   "mode": null,
    "theme": "camping",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-leirielama-95d5"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-leirielama-2922"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-lelut-6b0b",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-lelut-2870",
+   "type": "code-addition",
+   "mode": null,
    "theme": "toys",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-lelut-6b0b"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-lelut-2870"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-luokkahuone-9372",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-lemmikit-3b47",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "pets",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-lemmikit-3b47"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-lentavat-asiat-ff0d",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-lentavat-asiat-ff0d"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-linnut-12eb",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-linnut-12eb"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-linnut-2-cf9a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-linnut-2-cf9a"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-luokkahuone-aba4",
+   "type": "code-addition",
+   "mode": null,
    "theme": "classroom",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-luokkahuone-9372"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-luokkahuone-aba4"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-muodot-7cf1",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-maatilan-elaimet-a938",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-maatilan-elaimet-a938"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-matelijat-ja-sammakkoelaimet-7618",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-matelijat-ja-sammakkoelaimet-7618"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-merielama-58c3",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-merielama-58c3"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-metsan-elaimet-474a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-metsan-elaimet-474a"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-muodot-11f0",
+   "type": "code-addition",
+   "mode": null,
    "theme": "shapes",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-muodot-7cf1"
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-muodot-11f0"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-musiikki-cafb",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-musiikki-8152",
+   "type": "code-addition",
+   "mode": null,
    "theme": "music",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-musiikki-cafb"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-musiikki-8152"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-paasiainen-086d",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-paasiainen-6778",
+   "type": "code-addition",
+   "mode": null,
    "theme": "easter",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-paasiainen-086d"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-paasiainen-6778"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-postitoimisto-51f1",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-postitoimisto-f540",
+   "type": "code-addition",
+   "mode": null,
    "theme": "post_office",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-postitoimisto-51f1"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-postitoimisto-f540"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-puut-2394",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-puut-d10a",
+   "type": "code-addition",
+   "mode": null,
    "theme": "tree",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-puut-2394"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-puut-d10a"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-ranta-43b3",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-ranta-dc0b",
+   "type": "code-addition",
+   "mode": null,
    "theme": "beach",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-ranta-43b3"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-ranta-dc0b"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-ruokakaupassa-a65d",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-ruokakaupassa-1b3f",
+   "type": "code-addition",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-ruokakaupassa-a65d"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-ruokakaupassa-1b3f"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-ruumiinosat-3575",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-ruumiinosat-d16a",
+   "type": "code-addition",
+   "mode": null,
    "theme": "body_parts",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-ruumiinosat-3575"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-ruumiinosat-d16a"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-saa-65b6",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-saa-305b",
+   "type": "code-addition",
+   "mode": null,
    "theme": "weather",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-saa-65b6"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-saa-305b"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-sairaala-94d5",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-sairaala-d75e",
+   "type": "code-addition",
+   "mode": null,
    "theme": "hospital",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-sairaala-94d5"
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-sairaala-d75e"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-talvi-dcac",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-sekalaista-ec0a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-sekalaista-ec0a"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-talvi-8f07",
+   "type": "code-addition",
+   "mode": null,
    "theme": "winter",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-talvi-dcac"
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-talvi-8f07"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-tunteet-04a2",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-tunteet-87de",
+   "type": "code-addition",
+   "mode": null,
    "theme": "emotions",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-tunteet-04a2"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-tunteet-87de"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-tyokalut-3a36",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-tyokalut-e243",
+   "type": "code-addition",
+   "mode": null,
    "theme": "tools",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-tyokalut-3a36"
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-tyokalut-e243"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-vaatteet-e8e5",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-vaatteet-14c8",
+   "type": "code-addition",
+   "mode": null,
    "theme": "clothing",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-vaatteet-e8e5"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-vaatteet-14c8"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-varit-495e",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-varit-a325",
+   "type": "code-addition",
+   "mode": null,
    "theme": "colors",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-varit-495e"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-varit-a325"
   },
   {
-   "slug": "kuvapolku-perinteinen-sokkelo-vihannekset-ab94",
-   "type": "picture-path",
-   "mode": "classic-maze",
+   "slug": "koodattu-yhteenlasku-vihannekset-40d7",
+   "type": "code-addition",
+   "mode": null,
    "theme": "vegetables",
-   "level": "esikoulu",
-   "deck": "kuvapolku-perinteinen-sokkelo-vihannekset-ab94"
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-vihannekset-40d7"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-aamiainen-a2a5",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-aamiainen-a2a5"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-ajoneuvot-f58a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-ajoneuvot-f58a"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-aktiviteetit-fa2b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "activities",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-aktiviteetit-fa2b"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-ammatit-ae14",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "occupations",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-ammatit-ae14"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-asusteet-e48d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "accessories",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-asusteet-e48d"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-avaruus-6031",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "space",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-avaruus-6031"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-dinosaurukset-c2c9",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-dinosaurukset-c2c9"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-elaimet-726f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "animals",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-elaimet-726f"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-elaintarhan-elaimet-dfca",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-elaintarhan-elaimet-dfca"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-hedelmat-43bc",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "fruits",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-hedelmat-43bc"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-huonekalut-5205",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "furniture",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-huonekalut-5205"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-hyonteiset-ja-otokat-a7ff",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-hyonteiset-ja-otokat-a7ff"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-jalkiruoat-ja-makeiset-b492",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "desserts_and_sweets",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-jalkiruoat-ja-makeiset-b492"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-joulu-5761",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "christmas",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-joulu-5761"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-keittiovalineet-4e96",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-keittiovalineet-4e96"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-kesa-1591",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "summer",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-kesa-1591"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-kevat-98f4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "spring",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-kevat-98f4"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-kiitospaiva-de44",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "thanksgivinng",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-kiitospaiva-de44"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-kodin-ymparilla-cefa",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-kodin-ymparilla-cefa"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-kukat-8605",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "flowers",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-kukat-8605"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-leipomo-bbd4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "bakery",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-leipomo-bbd4"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-leirielama-a5a3",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "camping",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-leirielama-a5a3"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-lelut-ba87",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "toys",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-lelut-ba87"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-lemmikit-1b51",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "pets",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-lemmikit-1b51"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-lentavat-asiat-5f8f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-lentavat-asiat-5f8f"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-linnut-2-d135",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-linnut-2-d135"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-linnut-ed2a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "birds",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-linnut-ed2a"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-luokkahuone-a9d4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "classroom",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-luokkahuone-a9d4"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-maatilan-elaimet-39b6",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-maatilan-elaimet-39b6"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-matelijat-ja-sammakkoelaimet-5e55",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-matelijat-ja-sammakkoelaimet-5e55"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-merielama-5e48",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-merielama-5e48"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-metsan-elaimet-c10a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-metsan-elaimet-c10a"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-muodot-5665",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "shapes",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-muodot-5665"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-musiikki-1f9e",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "music",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-musiikki-1f9e"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-paasiainen-4536",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "easter",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-paasiainen-4536"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-postitoimisto-d219",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "post_office",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-postitoimisto-d219"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-puut-560e",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "tree",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-puut-560e"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-ranta-641d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "beach",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-ranta-641d"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-ruokakaupassa-08dc",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-ruokakaupassa-08dc"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-ruumiinosat-da42",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-ruumiinosat-da42"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-saa-0759",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "weather",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-saa-0759"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-sairaala-ae27",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "hospital",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-sairaala-ae27"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-talvi-1c4a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "winter",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-talvi-1c4a"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-tunteet-64a0",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "emotions",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-tunteet-64a0"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-tyokalut-19dd",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "tools",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-tyokalut-19dd"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-vaatteet-67d3",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "clothing",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-vaatteet-67d3"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-varit-0b54",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "colors",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-varit-0b54"
+  },
+  {
+   "slug": "matematiikkatehtava-2-symbolia-yht-vahen-vihannekset-e9d1",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "1-luokka",
+   "deck": "matematiikkatehtava-2-symbolia-yht-vahen-vihannekset-e9d1"
   }
  ]
 }

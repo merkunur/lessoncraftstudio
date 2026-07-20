@@ -2,811 +2,771 @@
  "part": 86,
  "locale": "es",
  "classes": [
-  "pattern-train::null",
-  "prepositions::fillin"
+  "pattern-worksheet::null",
+  "subtraction::find-subtrahend"
  ],
  "splitOf": null,
- "count": 100,
+ "count": 95,
  "pages": [
   {
-   "slug": "tren-de-patrones",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": null,
-   "level": "preescolar",
-   "deck": "tren-de-patrones"
-  },
-  {
-   "slug": "tren-de-patrones-4-de-julio-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-4-de-julio-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-accesorios-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "accessories",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-accesorios-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-actividades-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "activities",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-actividades-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-alrededor-de-la-casa-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-alrededor-de-la-casa-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-animales-de-granja-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-animales-de-granja-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-animales-del-zoologico-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-animales-del-zoologico-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-animales-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "animals",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-animales-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-arboles-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "tree",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-arboles-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aves-2-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aves-2-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aves-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "birds",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aves-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-campamento-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "camping",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-campamento-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-clima-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "weather",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-clima-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-colores-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "colors",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-colores-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-cosas-que-vuelan-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-cosas-que-vuelan-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-criaturas-del-bosque-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-criaturas-del-bosque-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-desayuno-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-desayuno-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-dia-de-accion-de-gracias-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-dia-de-accion-de-gracias-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-dinosaurios-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-dinosaurios-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-emociones-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "emotions",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-emociones-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-en-el-supermercado-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-en-el-supermercado-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-espacio-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "space",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-espacio-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-flores-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "flowers",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-flores-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-formas-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "shapes",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-formas-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-frutas-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "fruits",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-frutas-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-herramientas-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "tools",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-herramientas-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-hospital-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "hospital",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-hospital-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-insectos-y-bichos-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-insectos-y-bichos-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-invierno-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "winter",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-invierno-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-juguetes-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "toys",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-juguetes-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-mascotas-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "pets",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-mascotas-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-miscelaneo-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-miscelaneo-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-muebles-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "furniture",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-muebles-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-musica-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "music",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-musica-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-navidad-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "christmas",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-navidad-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-ocupaciones-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "occupations",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-ocupaciones-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-oficina-de-correos-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "post_office",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-oficina-de-correos-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-panaderia-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "bakery",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-panaderia-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-partes-del-cuerpo-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-partes-del-cuerpo-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-pascua-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "easter",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-pascua-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-playa-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "beach",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-playa-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-primavera-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "spring",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-primavera-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-reptiles-y-anfibios-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-reptiles-y-anfibios-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-ropa-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "clothing",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-ropa-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-salon-de-clases-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "classroom",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-salon-de-clases-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-utensilios-de-cocina-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-utensilios-de-cocina-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-vehiculos-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-vehiculos-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-verano-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "summer",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-verano-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-verduras-fe63",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-verduras-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-vida-marina-fe63",
-   "type": "pattern-train",
+   "slug": "ficha-de-patrones",
+   "type": "pattern-worksheet",
    "mode": null,
    "theme": "ocean_life",
    "level": "preescolar",
-   "deck": "tren-de-patrones-vida-marina-fe63"
+   "deck": "ficha-de-patrones"
   },
   {
-   "slug": "preposiciones-completar",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "summer",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar"
-  },
-  {
-   "slug": "preposiciones-completar-4-de-julio-a8c1",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-4-de-julio-1587",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "4th_of_july",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-4-de-julio-a8c1"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-4-de-julio-1587"
   },
   {
-   "slug": "preposiciones-completar-accesorios-f198",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-accesorios-fd73",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "accessories",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-accesorios-f198"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-accesorios-fd73"
   },
   {
-   "slug": "preposiciones-completar-actividades-415d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-actividades-6c66",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "activities",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-actividades-415d"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-actividades-6c66"
   },
   {
-   "slug": "preposiciones-completar-alrededor-de-la-casa-2eae",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-alrededor-de-la-casa-1adb",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-alrededor-de-la-casa-2eae"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-alrededor-de-la-casa-1adb"
   },
   {
-   "slug": "preposiciones-completar-animales-81f7",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "animals",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-animales-81f7"
-  },
-  {
-   "slug": "preposiciones-completar-animales-de-granja-7588",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-animales-de-granja-178d",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-animales-de-granja-7588"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-animales-de-granja-178d"
   },
   {
-   "slug": "preposiciones-completar-animales-del-zoologico-ef3f",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-animales-del-zoologico-f116",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-animales-del-zoologico-ef3f"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-animales-del-zoologico-f116"
   },
   {
-   "slug": "preposiciones-completar-arboles-15d7",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-arboles-9775",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "tree",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-arboles-15d7"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-arboles-9775"
   },
   {
-   "slug": "preposiciones-completar-aves-2-8ce0",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-aves-2-aab9",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "birds_2",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-aves-2-8ce0"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-aves-2-aab9"
   },
   {
-   "slug": "preposiciones-completar-aves-fd34",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-aves-5a08",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "birds",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-aves-fd34"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-aves-5a08"
   },
   {
-   "slug": "preposiciones-completar-campamento-2dd2",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-campamento-9abb",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "camping",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-campamento-2dd2"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-campamento-9abb"
   },
   {
-   "slug": "preposiciones-completar-clima-7ba5",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-clima-10dd",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "weather",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-clima-7ba5"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-clima-10dd"
   },
   {
-   "slug": "preposiciones-completar-colores-3243",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-colores-c2dc",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "colors",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-colores-3243"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-colores-c2dc"
   },
   {
-   "slug": "preposiciones-completar-cosas-que-vuelan-4937",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-cosas-que-vuelan-111f",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-cosas-que-vuelan-4937"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-cosas-que-vuelan-111f"
   },
   {
-   "slug": "preposiciones-completar-criaturas-del-bosque-63cf",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-criaturas-del-bosque-02f1",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-criaturas-del-bosque-63cf"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-criaturas-del-bosque-02f1"
   },
   {
-   "slug": "preposiciones-completar-desayuno-6194",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-desayuno-b46c",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "breakfast",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-desayuno-6194"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-desayuno-b46c"
   },
   {
-   "slug": "preposiciones-completar-dia-de-accion-de-gracias-2147",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-dia-de-accion-de-gracias-2042",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-dia-de-accion-de-gracias-2147"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-dia-de-accion-de-gracias-2042"
   },
   {
-   "slug": "preposiciones-completar-dinosaurios-240d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-dinosaurios-2569",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "dinosaurs",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-dinosaurios-240d"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-dinosaurios-2569"
   },
   {
-   "slug": "preposiciones-completar-emociones-ec1a",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-emociones-c879",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "emotions",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-emociones-ec1a"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-emociones-c879"
   },
   {
-   "slug": "preposiciones-completar-en-el-supermercado-2ddf",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-en-el-supermercado-5ed2",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-en-el-supermercado-2ddf"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-en-el-supermercado-5ed2"
   },
   {
-   "slug": "preposiciones-completar-espacio-a61f",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-espacio-853f",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "space",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-espacio-a61f"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-espacio-853f"
   },
   {
-   "slug": "preposiciones-completar-flores-1772",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-flores-7540",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "flowers",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-flores-1772"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-flores-7540"
   },
   {
-   "slug": "preposiciones-completar-formas-65f9",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-formas-7e6e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "shapes",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-formas-65f9"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-formas-7e6e"
   },
   {
-   "slug": "preposiciones-completar-frutas-3344",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-frutas-b64c",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "fruits",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-frutas-3344"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-frutas-b64c"
   },
   {
-   "slug": "preposiciones-completar-herramientas-a2bd",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-herramientas-fb72",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "tools",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-herramientas-a2bd"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-herramientas-fb72"
   },
   {
-   "slug": "preposiciones-completar-hospital-457b",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-hospital-e595",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "hospital",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-hospital-457b"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-hospital-e595"
   },
   {
-   "slug": "preposiciones-completar-insectos-y-bichos-6cd4",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-insectos-y-bichos-2639",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-insectos-y-bichos-6cd4"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-insectos-y-bichos-2639"
   },
   {
-   "slug": "preposiciones-completar-invierno-9093",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-invierno-bb26",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "winter",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-invierno-9093"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-invierno-bb26"
   },
   {
-   "slug": "preposiciones-completar-juguetes-c038",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-juguetes-7917",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "toys",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-juguetes-c038"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-juguetes-7917"
   },
   {
-   "slug": "preposiciones-completar-mascotas-f2b6",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-mascotas-19ed",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "pets",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-mascotas-f2b6"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-mascotas-19ed"
   },
   {
-   "slug": "preposiciones-completar-miscelaneo-300d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-miscelaneo-4d57",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "miscellaneous",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-miscelaneo-300d"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-miscelaneo-4d57"
   },
   {
-   "slug": "preposiciones-completar-muebles-9c7a",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-muebles-2739",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "furniture",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-muebles-9c7a"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-muebles-2739"
   },
   {
-   "slug": "preposiciones-completar-musica-a313",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-musica-2f9e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "music",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-musica-a313"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-musica-2f9e"
   },
   {
-   "slug": "preposiciones-completar-navidad-1ac3",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-navidad-002a",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "christmas",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-navidad-1ac3"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-navidad-002a"
   },
   {
-   "slug": "preposiciones-completar-ocupaciones-9d03",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-ocupaciones-e770",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "occupations",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-ocupaciones-9d03"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-ocupaciones-e770"
   },
   {
-   "slug": "preposiciones-completar-oficina-de-correos-bd34",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-oficina-de-correos-b7f3",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "post_office",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-oficina-de-correos-bd34"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-oficina-de-correos-b7f3"
   },
   {
-   "slug": "preposiciones-completar-panaderia-9508",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-panaderia-7161",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "bakery",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-panaderia-9508"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-panaderia-7161"
   },
   {
-   "slug": "preposiciones-completar-partes-del-cuerpo-dca0",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-partes-del-cuerpo-4c88",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "body_parts",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-partes-del-cuerpo-dca0"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-partes-del-cuerpo-4c88"
   },
   {
-   "slug": "preposiciones-completar-pascua-7f06",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-pascua-53b4",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "easter",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-pascua-7f06"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-pascua-53b4"
   },
   {
-   "slug": "preposiciones-completar-playa-538b",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-playa-6f62",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "beach",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-playa-538b"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-playa-6f62"
   },
   {
-   "slug": "preposiciones-completar-postres-y-dulces-b318",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-postres-y-dulces-542e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "primer-grado",
-   "deck": "preposiciones-completar-postres-y-dulces-b318"
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-postres-y-dulces-542e"
   },
   {
-   "slug": "preposiciones-completar-primavera-a156",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "ficha-de-patrones-primavera-4db2",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-primavera-4db2"
+  },
+  {
+   "slug": "ficha-de-patrones-reptiles-y-anfibios-820f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-reptiles-y-anfibios-820f"
+  },
+  {
+   "slug": "ficha-de-patrones-ropa-68c4",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-ropa-68c4"
+  },
+  {
+   "slug": "ficha-de-patrones-salon-de-clases-6267",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-salon-de-clases-6267"
+  },
+  {
+   "slug": "ficha-de-patrones-utensilios-de-cocina-1230",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-utensilios-de-cocina-1230"
+  },
+  {
+   "slug": "ficha-de-patrones-vehiculos-7522",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-vehiculos-7522"
+  },
+  {
+   "slug": "ficha-de-patrones-verano-1463",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-verano-1463"
+  },
+  {
+   "slug": "ficha-de-patrones-verduras-98df",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "ficha-de-patrones-verduras-98df"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-4-de-julio-a64a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-4-de-julio-a64a"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-accesorios-78ba",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-accesorios-78ba"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-actividades-b2c3",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-actividades-b2c3"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-animales-a477",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-animales-a477"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-animales-de-granja-479d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-animales-de-granja-479d"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-animales-del-zoologico-a1d1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-animales-del-zoologico-a1d1"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-arboles-74a1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-arboles-74a1"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-aves-2-4b76",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-aves-2-4b76"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-aves-8d67",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-aves-8d67"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-campamento-b566",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-campamento-b566"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-clima-3d7c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-clima-3d7c"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-colores-ba10",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-colores-ba10"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-cosas-que-vuelan-ae51",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-cosas-que-vuelan-ae51"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-criaturas-del-bosque-dfa9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-criaturas-del-bosque-dfa9"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-desayuno-7e4c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-desayuno-7e4c"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-dia-de-accion-de-gracias-c78e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "thanksgivinng",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-dia-de-accion-de-gracias-c78e"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-dinosaurios-103a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-dinosaurios-103a"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-emociones-5000",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-emociones-5000"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-en-el-supermercado-bb36",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-en-el-supermercado-bb36"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-espacio-225c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-espacio-225c"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-flores-b57d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-flores-b57d"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-formas-eb62",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-formas-eb62"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-frutas-b8ca",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-frutas-b8ca"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-herramientas-bc6b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-herramientas-bc6b"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-hospital-5473",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-hospital-5473"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-insectos-y-bichos-59ce",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-insectos-y-bichos-59ce"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-invierno-f8f3",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-invierno-f8f3"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-juguetes-856a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-juguetes-856a"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-mascotas-60e9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-mascotas-60e9"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-miscelaneo-ac2b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-miscelaneo-ac2b"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-muebles-017c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-muebles-017c"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-musica-f405",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-musica-f405"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-navidad-97ba",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-navidad-97ba"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-ocupaciones-ed0b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-ocupaciones-ed0b"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-oficina-de-correos-65d7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-oficina-de-correos-65d7"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-panaderia-7073",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-panaderia-7073"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-partes-del-cuerpo-373e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-partes-del-cuerpo-373e"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-primavera-7859",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "spring",
    "level": "primer-grado",
-   "deck": "preposiciones-completar-primavera-a156"
+   "deck": "resta-buscar-sustraendo-primavera-7859"
   },
   {
-   "slug": "preposiciones-completar-reptiles-y-anfibios-59b2",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "resta-buscar-sustraendo-reptiles-y-anfibios-65c0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "reptiles_and_amphibians",
    "level": "primer-grado",
-   "deck": "preposiciones-completar-reptiles-y-anfibios-59b2"
+   "deck": "resta-buscar-sustraendo-reptiles-y-anfibios-65c0"
   },
   {
-   "slug": "preposiciones-completar-ropa-4cca",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "resta-buscar-sustraendo-ropa-18e7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "clothing",
    "level": "primer-grado",
-   "deck": "preposiciones-completar-ropa-4cca"
+   "deck": "resta-buscar-sustraendo-ropa-18e7"
   },
   {
-   "slug": "preposiciones-completar-salon-de-clases-d9b3",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "resta-buscar-sustraendo-salon-de-clases-60d5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "classroom",
    "level": "primer-grado",
-   "deck": "preposiciones-completar-salon-de-clases-d9b3"
+   "deck": "resta-buscar-sustraendo-salon-de-clases-60d5"
   },
   {
-   "slug": "preposiciones-completar-utensilios-de-cocina-08ed",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "resta-buscar-sustraendo-utensilios-de-cocina-71b4",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "kitchen_tools",
    "level": "primer-grado",
-   "deck": "preposiciones-completar-utensilios-de-cocina-08ed"
+   "deck": "resta-buscar-sustraendo-utensilios-de-cocina-71b4"
   },
   {
-   "slug": "preposiciones-completar-vehiculos-53ab",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "resta-buscar-sustraendo-vehiculos-7751",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vehicles",
    "level": "primer-grado",
-   "deck": "preposiciones-completar-vehiculos-53ab"
+   "deck": "resta-buscar-sustraendo-vehiculos-7751"
   },
   {
-   "slug": "preposiciones-completar-verduras-ee9a",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "resta-buscar-sustraendo-verano-189a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "resta-buscar-sustraendo-verano-189a"
+  },
+  {
+   "slug": "resta-buscar-sustraendo-verduras-34c0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vegetables",
    "level": "primer-grado",
-   "deck": "preposiciones-completar-verduras-ee9a"
+   "deck": "resta-buscar-sustraendo-verduras-34c0"
   },
   {
-   "slug": "preposiciones-completar-vida-marina-a2aa",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "resta-buscar-sustraendo-vida-marina-c5e5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "ocean_life",
    "level": "primer-grado",
-   "deck": "preposiciones-completar-vida-marina-a2aa"
+   "deck": "resta-buscar-sustraendo-vida-marina-c5e5"
   }
  ]
 }

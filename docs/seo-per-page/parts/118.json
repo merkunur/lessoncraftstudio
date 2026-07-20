@@ -2,763 +2,795 @@
  "part": 118,
  "locale": "pt",
  "classes": [
-  "shadow-match::make-whole",
-  "word-guess::easy"
+  "pattern-train::abc",
+  "pattern-train::null"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 98,
  "pages": [
   {
-   "slug": "pareamento-de-sombras-complete-acampamento-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-acampamento-181a",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "camping",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-acampamento-5d83"
+   "deck": "trem-de-padroes-abc-acampamento-181a"
   },
   {
-   "slug": "pareamento-de-sombras-complete-acessorios-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-acessorios-5cea",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "accessories",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-acessorios-5d83"
+   "deck": "trem-de-padroes-abc-acessorios-5cea"
   },
   {
-   "slug": "pareamento-de-sombras-complete-animais-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-animais-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-animais-da-fazenda-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-animais-da-fazenda-9c19",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "farm_animals",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-animais-da-fazenda-5d83"
+   "deck": "trem-de-padroes-abc-animais-da-fazenda-9c19"
   },
   {
-   "slug": "pareamento-de-sombras-complete-animais-de-estimacao-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-animais-da2c",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-animais-da2c"
+  },
+  {
+   "slug": "trem-de-padroes-abc-animais-de-estimacao-a1ac",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "pets",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-animais-de-estimacao-5d83"
+   "deck": "trem-de-padroes-abc-animais-de-estimacao-a1ac"
   },
   {
-   "slug": "pareamento-de-sombras-complete-animais-do-zoologico-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-animais-do-zoologico-7727",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "zoo_animals",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-animais-do-zoologico-5d83"
+   "deck": "trem-de-padroes-abc-animais-do-zoologico-7727"
   },
   {
-   "slug": "pareamento-de-sombras-complete-arvores-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-arvores-e450",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "tree",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-arvores-5d83"
+   "deck": "trem-de-padroes-abc-arvores-e450"
   },
   {
-   "slug": "pareamento-de-sombras-complete-atividades-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-atividades-97b0",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "activities",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-atividades-5d83"
+   "deck": "trem-de-padroes-abc-atividades-97b0"
   },
   {
-   "slug": "pareamento-de-sombras-complete-brinquedos-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-brinquedos-6dc9",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "toys",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-brinquedos-5d83"
+   "deck": "trem-de-padroes-abc-brinquedos-6dc9"
   },
   {
-   "slug": "pareamento-de-sombras-complete-cafe-da-manha-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-cafe-da-manha-39a5",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "breakfast",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-cafe-da-manha-5d83"
+   "deck": "trem-de-padroes-abc-cafe-da-manha-39a5"
   },
   {
-   "slug": "pareamento-de-sombras-complete-clima-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-clima-4187",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "weather",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-clima-5d83"
+   "deck": "trem-de-padroes-abc-clima-4187"
   },
   {
-   "slug": "pareamento-de-sombras-complete-coisas-que-voam-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-coisas-que-voam-ba6f",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "things_that_fly",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-coisas-que-voam-5d83"
+   "deck": "trem-de-padroes-abc-coisas-que-voam-ba6f"
   },
   {
-   "slug": "pareamento-de-sombras-complete-correios-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-cores-c077",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-cores-c077"
+  },
+  {
+   "slug": "trem-de-padroes-abc-correios-3e84",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "post_office",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-correios-5d83"
+   "deck": "trem-de-padroes-abc-correios-3e84"
   },
   {
-   "slug": "pareamento-de-sombras-complete-criaturas-da-floresta-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-criaturas-da-floresta-2133",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "forest_creatures",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-criaturas-da-floresta-5d83"
+   "deck": "trem-de-padroes-abc-criaturas-da-floresta-2133"
   },
   {
-   "slug": "pareamento-de-sombras-complete-dia-de-acao-de-gracas-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-dia-de-acao-de-gracas-dc71",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "thanksgivinng",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-dia-de-acao-de-gracas-5d83"
+   "deck": "trem-de-padroes-abc-dia-de-acao-de-gracas-dc71"
   },
   {
-   "slug": "pareamento-de-sombras-complete-dinossauros-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-dinossauros-532c",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "dinosaurs",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-dinossauros-5d83"
+   "deck": "trem-de-padroes-abc-dinossauros-532c"
   },
   {
-   "slug": "pareamento-de-sombras-complete-diversos-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-diversos-8078",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "miscellaneous",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-diversos-5d83"
+   "deck": "trem-de-padroes-abc-diversos-8078"
   },
   {
-   "slug": "pareamento-de-sombras-complete-emocoes-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-emocoes-c0ef",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "emotions",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-emocoes-5d83"
+   "deck": "trem-de-padroes-abc-emocoes-c0ef"
   },
   {
-   "slug": "pareamento-de-sombras-complete-espaco-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-espaco-5baa",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "space",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-espaco-5d83"
+   "deck": "trem-de-padroes-abc-espaco-5baa"
   },
   {
-   "slug": "pareamento-de-sombras-complete-ferramentas-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-ferramentas-0121",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "tools",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-ferramentas-5d83"
+   "deck": "trem-de-padroes-abc-ferramentas-0121"
   },
   {
-   "slug": "pareamento-de-sombras-complete-flores-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "trem-de-padroes-abc-flores-286b",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "flowers",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-flores-5d83"
+   "deck": "trem-de-padroes-abc-flores-286b"
   },
   {
-   "slug": "pareamento-de-sombras-complete-frutas-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-frutas-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-hospital-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-hospital-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-insetos-e-bichos-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-insetos-e-bichos-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-inverno-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-inverno-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-moveis-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-moveis-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-musica-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-musica-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-natal-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-natal-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-no-supermercado-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-no-supermercado-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-padaria-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-padaria-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-partes-do-corpo-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-partes-do-corpo-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-pascoa-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-pascoa-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-passaros-2-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-passaros-2-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-passaros-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-passaros-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-pela-casa-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-pela-casa-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-praia-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-praia-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-primavera-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-primavera-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-profissoes-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-profissoes-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-repteis-e-anfibios-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-repteis-e-anfibios-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-roupas-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-roupas-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-sala-de-aula-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-sala-de-aula-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-sobremesas-e-doces-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-sobremesas-e-doces-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-utensilios-de-cozinha-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-utensilios-de-cozinha-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-vegetais-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-vegetais-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-veiculos-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-veiculos-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-verao-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-verao-5d83"
-  },
-  {
-   "slug": "pareamento-de-sombras-complete-vida-marinha-5d83",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-complete-vida-marinha-5d83"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-acampamento-423a",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "camping",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-acampamento-423a"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-acessorios-280e",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "accessories",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-acessorios-280e"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-animais-aaf6",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "animals",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-animais-aaf6"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-animais-da-fazenda-0e67",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "farm_animals",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-animais-da-fazenda-0e67"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-animais-de-estimacao-d427",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "pets",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-animais-de-estimacao-d427"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-animais-do-zoologico-dfb6",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "zoo_animals",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-animais-do-zoologico-dfb6"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-arvores-f068",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "tree",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-arvores-f068"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-atividades-6476",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "activities",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-atividades-6476"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-brinquedos-4aef",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "toys",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-brinquedos-4aef"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-cafe-da-manha-7196",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "breakfast",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-cafe-da-manha-7196"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-clima-7d3f",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "weather",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-clima-7d3f"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-coisas-que-voam-bc9f",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "things_that_fly",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-coisas-que-voam-bc9f"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-cores-b4d6",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "colors",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-cores-b4d6"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-criaturas-da-floresta-aa42",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "forest_creatures",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-criaturas-da-floresta-aa42"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-dia-de-acao-de-gracas-fa36",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "thanksgivinng",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-dia-de-acao-de-gracas-fa36"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-diversos-e182",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "miscellaneous",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-diversos-e182"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-emocoes-d024",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "emotions",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-emocoes-d024"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-espaco-4874",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "space",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-espaco-4874"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-ferramentas-a168",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "tools",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-ferramentas-a168"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-flores-0aa9",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "flowers",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-flores-0aa9"
-  },
-  {
-   "slug": "adivinhe-a-palavra-facil-formas-cf5b",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-formas-9475",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "shapes",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-formas-cf5b"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-formas-9475"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-frutas-dee3",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-frutas-674b",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "fruits",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-frutas-dee3"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-frutas-674b"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-hospital-aee3",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-hospital-ebd5",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "hospital",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-hospital-aee3"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-hospital-ebd5"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-insetos-e-bichos-e2e7",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-insetos-e-bichos-7cf9",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "insects_and_bugs",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-insetos-e-bichos-e2e7"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-insetos-e-bichos-7cf9"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-inverno-bd07",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-inverno-eae3",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "winter",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-inverno-bd07"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-inverno-eae3"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-moveis-f6b4",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-moveis-6208",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "furniture",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-moveis-f6b4"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-moveis-6208"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-musica-f54b",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-musica-1c75",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "music",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-musica-f54b"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-musica-1c75"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-natal-62bb",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-natal-1dda",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "christmas",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-natal-62bb"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-natal-1dda"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-no-supermercado-1e39",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-no-supermercado-4bff",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "at_the_supermarket",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-no-supermercado-1e39"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-no-supermercado-4bff"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-padaria-de0c",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-padaria-3b22",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "bakery",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-padaria-de0c"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-padaria-3b22"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-partes-do-corpo-3a1f",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-partes-do-corpo-6b66",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "body_parts",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-partes-do-corpo-3a1f"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-partes-do-corpo-6b66"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-pascoa-bdb3",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-pascoa-4138",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "easter",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-pascoa-bdb3"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-pascoa-4138"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-passaros-2-62e4",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-passaros-2-8d19",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "birds_2",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-passaros-2-62e4"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-passaros-2-8d19"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-passaros-de22",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-passaros-e03e",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "birds",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-passaros-de22"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-passaros-e03e"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-pela-casa-0a4c",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-pela-casa-0a11",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "around_the_house",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-pela-casa-0a4c"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-pela-casa-0a11"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-praia-9d3e",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-praia-072d",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "beach",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-praia-9d3e"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-praia-072d"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-primavera-b931",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-primavera-9944",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "spring",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-primavera-b931"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-primavera-9944"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-profissoes-1ef9",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-profissoes-6285",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "occupations",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-profissoes-1ef9"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-profissoes-6285"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-repteis-e-anfibios-9d11",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-repteis-e-anfibios-f6eb",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "reptiles_and_amphibians",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-repteis-e-anfibios-9d11"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-repteis-e-anfibios-f6eb"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-roupas-4ed2",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-roupas-e3d3",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "clothing",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-roupas-4ed2"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-roupas-e3d3"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-sala-de-aula-6a74",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-sala-de-aula-11cb",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "classroom",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-sala-de-aula-6a74"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-sala-de-aula-11cb"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-sobremesas-e-doces-de6c",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-sobremesas-e-doces-f370",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "desserts_and_sweets",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-sobremesas-e-doces-de6c"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-sobremesas-e-doces-f370"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-utensilios-de-cozinha-326c",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-utensilios-de-cozinha-0ab8",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "kitchen_tools",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-utensilios-de-cozinha-326c"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-utensilios-de-cozinha-0ab8"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-vegetais-a49c",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-vegetais-e76d",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "vegetables",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-vegetais-a49c"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-vegetais-e76d"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-veiculos-bf96",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-veiculos-e48f",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "vehicles",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-veiculos-bf96"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-veiculos-e48f"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-verao-7f93",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-verao-cdfe",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "summer",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-verao-7f93"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-verao-cdfe"
   },
   {
-   "slug": "adivinhe-a-palavra-facil-vida-marinha-5a42",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "trem-de-padroes-abc-vida-marinha-24a8",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "ocean_life",
-   "level": "1o-ano",
-   "deck": "adivinhe-a-palavra-facil-vida-marinha-5a42"
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-vida-marinha-24a8"
+  },
+  {
+   "slug": "trem-de-padroes-acampamento-2e90",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-acampamento-2e90"
+  },
+  {
+   "slug": "trem-de-padroes-acessorios-015b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-acessorios-015b"
+  },
+  {
+   "slug": "trem-de-padroes-animais-020c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-animais-020c"
+  },
+  {
+   "slug": "trem-de-padroes-animais-da-fazenda-4374",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-animais-da-fazenda-4374"
+  },
+  {
+   "slug": "trem-de-padroes-animais-de-estimacao-d613",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-animais-de-estimacao-d613"
+  },
+  {
+   "slug": "trem-de-padroes-animais-do-zoologico-74f4",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-animais-do-zoologico-74f4"
+  },
+  {
+   "slug": "trem-de-padroes-arvores-2723",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-arvores-2723"
+  },
+  {
+   "slug": "trem-de-padroes-atividades-c637",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-atividades-c637"
+  },
+  {
+   "slug": "trem-de-padroes-brinquedos-8822",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-brinquedos-8822"
+  },
+  {
+   "slug": "trem-de-padroes-cafe-da-manha-f203",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-cafe-da-manha-f203"
+  },
+  {
+   "slug": "trem-de-padroes-clima-1adb",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-clima-1adb"
+  },
+  {
+   "slug": "trem-de-padroes-coisas-que-voam-8f68",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-coisas-que-voam-8f68"
+  },
+  {
+   "slug": "trem-de-padroes-cores-995a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-cores-995a"
+  },
+  {
+   "slug": "trem-de-padroes-correios-bbb4",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-correios-bbb4"
+  },
+  {
+   "slug": "trem-de-padroes-criaturas-da-floresta-5300",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-criaturas-da-floresta-5300"
+  },
+  {
+   "slug": "trem-de-padroes-dia-de-acao-de-gracas-bf20",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-dia-de-acao-de-gracas-bf20"
+  },
+  {
+   "slug": "trem-de-padroes-dinossauros-be2d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-dinossauros-be2d"
+  },
+  {
+   "slug": "trem-de-padroes-diversos-5479",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-diversos-5479"
+  },
+  {
+   "slug": "trem-de-padroes-emocoes-868d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-emocoes-868d"
+  },
+  {
+   "slug": "trem-de-padroes-espaco-815f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-espaco-815f"
+  },
+  {
+   "slug": "trem-de-padroes-ferramentas-141a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-ferramentas-141a"
+  },
+  {
+   "slug": "trem-de-padroes-flores-0e81",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-flores-0e81"
+  },
+  {
+   "slug": "trem-de-padroes-formas-a0c9",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-formas-a0c9"
+  },
+  {
+   "slug": "trem-de-padroes-frutas-2976",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-frutas-2976"
+  },
+  {
+   "slug": "trem-de-padroes-hospital-8610",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-hospital-8610"
+  },
+  {
+   "slug": "trem-de-padroes-insetos-e-bichos-f076",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-insetos-e-bichos-f076"
+  },
+  {
+   "slug": "trem-de-padroes-inverno-133d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-inverno-133d"
+  },
+  {
+   "slug": "trem-de-padroes-moveis-d7a6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-moveis-d7a6"
+  },
+  {
+   "slug": "trem-de-padroes-musica-4278",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-musica-4278"
+  },
+  {
+   "slug": "trem-de-padroes-natal-0535",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-natal-0535"
+  },
+  {
+   "slug": "trem-de-padroes-no-supermercado-b294",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-no-supermercado-b294"
+  },
+  {
+   "slug": "trem-de-padroes-padaria-33fe",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-padaria-33fe"
+  },
+  {
+   "slug": "trem-de-padroes-partes-do-corpo-9af2",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-partes-do-corpo-9af2"
+  },
+  {
+   "slug": "trem-de-padroes-pascoa-5976",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-pascoa-5976"
+  },
+  {
+   "slug": "trem-de-padroes-passaros-2-0727",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-passaros-2-0727"
+  },
+  {
+   "slug": "trem-de-padroes-passaros-4730",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-passaros-4730"
+  },
+  {
+   "slug": "trem-de-padroes-pela-casa-4e9f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-pela-casa-4e9f"
+  },
+  {
+   "slug": "trem-de-padroes-praia-925f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-praia-925f"
+  },
+  {
+   "slug": "trem-de-padroes-primavera-6b21",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-primavera-6b21"
+  },
+  {
+   "slug": "trem-de-padroes-profissoes-1856",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-profissoes-1856"
+  },
+  {
+   "slug": "trem-de-padroes-repteis-e-anfibios-23ce",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-repteis-e-anfibios-23ce"
+  },
+  {
+   "slug": "trem-de-padroes-roupas-5182",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-roupas-5182"
+  },
+  {
+   "slug": "trem-de-padroes-sala-de-aula-4a4d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-sala-de-aula-4a4d"
+  },
+  {
+   "slug": "trem-de-padroes-sobremesas-e-doces-534c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-sobremesas-e-doces-534c"
+  },
+  {
+   "slug": "trem-de-padroes-utensilios-de-cozinha-41ed",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-utensilios-de-cozinha-41ed"
+  },
+  {
+   "slug": "trem-de-padroes-vegetais-f652",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-vegetais-f652"
+  },
+  {
+   "slug": "trem-de-padroes-veiculos-0813",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-veiculos-0813"
+  },
+  {
+   "slug": "trem-de-padroes-verao-e442",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-verao-e442"
+  },
+  {
+   "slug": "trem-de-padroes-vida-marinha-5a90",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-vida-marinha-5a90"
   }
  ]
 }

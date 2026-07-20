@@ -2,635 +2,779 @@
  "part": 284,
  "locale": "da",
  "classes": [
-  "more-less::image-number",
-  "subtraction::find-subtrahend"
+  "pattern-train::abb",
+  "pattern-train::null"
  ],
  "splitOf": null,
- "count": 78,
+ "count": 96,
  "pages": [
   {
-   "slug": "mere-mindre-billede-tal-bageri-d6f6",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-aktiviteter-72e0",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-aktiviteter-72e0"
+  },
+  {
+   "slug": "monstertoget-abb-bageri-9011",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "bakery",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-bageri-d6f6"
+   "deck": "monstertoget-abb-bageri-9011"
   },
   {
-   "slug": "mere-mindre-billede-tal-blomster-47f6",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-blomster-2fec",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "flowers",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-blomster-47f6"
+   "deck": "monstertoget-abb-blomster-2fec"
   },
   {
-   "slug": "mere-mindre-billede-tal-bondegardsdyr-f375",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-bondegardsdyr-01d5",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "farm_animals",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-bondegardsdyr-f375"
+   "deck": "monstertoget-abb-bondegardsdyr-01d5"
   },
   {
-   "slug": "mere-mindre-billede-tal-camping-9682",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-camping-7756",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "camping",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-camping-9682"
+   "deck": "monstertoget-abb-camping-7756"
   },
   {
-   "slug": "mere-mindre-billede-tal-dinosaurer-8abe",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-desserter-og-slik-09e1",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-desserter-og-slik-09e1"
+  },
+  {
+   "slug": "monstertoget-abb-dinosaurer-256e",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "dinosaurs",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-dinosaurer-8abe"
+   "deck": "monstertoget-abb-dinosaurer-256e"
   },
   {
-   "slug": "mere-mindre-billede-tal-dyr-7cbb",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-dyr-d804",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "animals",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-dyr-7cbb"
+   "deck": "monstertoget-abb-dyr-d804"
   },
   {
-   "slug": "mere-mindre-billede-tal-erhverv-5e7a",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-erhverv-2e44",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "occupations",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-erhverv-5e7a"
+   "deck": "monstertoget-abb-erhverv-2e44"
   },
   {
-   "slug": "mere-mindre-billede-tal-former-09e1",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-farver-5e3a",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-farver-5e3a"
+  },
+  {
+   "slug": "monstertoget-abb-folelser-9696",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-folelser-9696"
+  },
+  {
+   "slug": "monstertoget-abb-forar-90c8",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-forar-90c8"
+  },
+  {
+   "slug": "monstertoget-abb-former-aa16",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "shapes",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-former-09e1"
+   "deck": "monstertoget-abb-former-aa16"
   },
   {
-   "slug": "mere-mindre-billede-tal-frugter-d0c7",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-frugter-8d0a",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "fruits",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-frugter-d0c7"
+   "deck": "monstertoget-abb-frugter-8d0a"
   },
   {
-   "slug": "mere-mindre-billede-tal-fugle-17a0",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-fugle-17a0"
-  },
-  {
-   "slug": "mere-mindre-billede-tal-fugle-2-e8ba",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-fugle-2-a789",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "birds_2",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-fugle-2-e8ba"
+   "deck": "monstertoget-abb-fugle-2-a789"
   },
   {
-   "slug": "mere-mindre-billede-tal-grontsager-8d33",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-fugle-dfc4",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-fugle-dfc4"
+  },
+  {
+   "slug": "monstertoget-abb-grontsager-42aa",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "vegetables",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-grontsager-8d33"
+   "deck": "monstertoget-abb-grontsager-42aa"
   },
   {
-   "slug": "mere-mindre-billede-tal-havliv-9ab3",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-havliv-dcc2",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "ocean_life",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-havliv-9ab3"
+   "deck": "monstertoget-abb-havliv-dcc2"
   },
   {
-   "slug": "mere-mindre-billede-tal-hospital-e8bb",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-hospital-e31b",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "hospital",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-hospital-e8bb"
+   "deck": "monstertoget-abb-hospital-e31b"
   },
   {
-   "slug": "mere-mindre-billede-tal-i-supermarkedet-1620",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-i-supermarkedet-f2a6",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "at_the_supermarket",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-i-supermarkedet-1620"
+   "deck": "monstertoget-abb-i-supermarkedet-f2a6"
   },
   {
-   "slug": "mere-mindre-billede-tal-insekter-og-kryb-505a",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-insekter-og-kryb-0b89",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "insects_and_bugs",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-insekter-og-kryb-505a"
+   "deck": "monstertoget-abb-insekter-og-kryb-0b89"
   },
   {
-   "slug": "mere-mindre-billede-tal-jul-fe5b",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-jul-8d06",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "christmas",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-jul-fe5b"
+   "deck": "monstertoget-abb-jul-8d06"
   },
   {
-   "slug": "mere-mindre-billede-tal-kaeledyr-0dcc",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-kaeledyr-941a",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "pets",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-kaeledyr-0dcc"
+   "deck": "monstertoget-abb-kaeledyr-941a"
   },
   {
-   "slug": "mere-mindre-billede-tal-klassevaerelse-acff",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-klassevaerelse-0050",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "classroom",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-klassevaerelse-acff"
+   "deck": "monstertoget-abb-klassevaerelse-0050"
   },
   {
-   "slug": "mere-mindre-billede-tal-kokkenredskaber-9a59",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-kokkenredskaber-8ca1",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "kitchen_tools",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-kokkenredskaber-9a59"
+   "deck": "monstertoget-abb-kokkenredskaber-8ca1"
   },
   {
-   "slug": "mere-mindre-billede-tal-koretojer-60c9",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-koretojer-1331",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "vehicles",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-koretojer-60c9"
+   "deck": "monstertoget-abb-koretojer-1331"
   },
   {
-   "slug": "mere-mindre-billede-tal-krybdyr-og-padder-8f26",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-kropsdele-ac79",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-kropsdele-ac79"
+  },
+  {
+   "slug": "monstertoget-abb-krybdyr-og-padder-2885",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "reptiles_and_amphibians",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-krybdyr-og-padder-8f26"
+   "deck": "monstertoget-abb-krybdyr-og-padder-2885"
   },
   {
-   "slug": "mere-mindre-billede-tal-legetoj-c59b",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-legetoj-0b39",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "toys",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-legetoj-c59b"
+   "deck": "monstertoget-abb-legetoj-0b39"
   },
   {
-   "slug": "mere-mindre-billede-tal-mobler-3f69",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-mobler-2be4",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "furniture",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-mobler-3f69"
+   "deck": "monstertoget-abb-mobler-2be4"
   },
   {
-   "slug": "mere-mindre-billede-tal-morgenmad-43de",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-morgenmad-9067",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "breakfast",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-morgenmad-43de"
+   "deck": "monstertoget-abb-morgenmad-9067"
   },
   {
-   "slug": "mere-mindre-billede-tal-musik-f3d5",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-musik-23c0",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "music",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-musik-f3d5"
+   "deck": "monstertoget-abb-musik-23c0"
   },
   {
-   "slug": "mere-mindre-billede-tal-paske-9765",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-paske-be89",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "easter",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-paske-9765"
+   "deck": "monstertoget-abb-paske-be89"
   },
   {
-   "slug": "mere-mindre-billede-tal-postkontor-c503",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-postkontor-5a31",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "post_office",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-postkontor-c503"
+   "deck": "monstertoget-abb-postkontor-5a31"
   },
   {
-   "slug": "mere-mindre-billede-tal-rummet-f011",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-rummet-bba6",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "space",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-rummet-f011"
+   "deck": "monstertoget-abb-rummet-bba6"
   },
   {
-   "slug": "mere-mindre-billede-tal-rundt-i-huset-4ae6",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-rundt-i-huset-368b",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "around_the_house",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-rundt-i-huset-4ae6"
+   "deck": "monstertoget-abb-rundt-i-huset-368b"
   },
   {
-   "slug": "mere-mindre-billede-tal-skovdyr-fabc",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-skovdyr-3cc8",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "forest_creatures",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-skovdyr-fabc"
+   "deck": "monstertoget-abb-skovdyr-3cc8"
   },
   {
-   "slug": "mere-mindre-billede-tal-strand-47d0",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-sommer-a096",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-sommer-a096"
+  },
+  {
+   "slug": "monstertoget-abb-strand-e9a6",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "beach",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-strand-47d0"
+   "deck": "monstertoget-abb-strand-e9a6"
   },
   {
-   "slug": "mere-mindre-billede-tal-thanksgiving-70aa",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-thanksgiving-b93a",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "thanksgivinng",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-thanksgiving-70aa"
+   "deck": "monstertoget-abb-thanksgiving-b93a"
   },
   {
-   "slug": "mere-mindre-billede-tal-tilbehor-b32c",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-tilbehor-9993",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "accessories",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-tilbehor-b32c"
+   "deck": "monstertoget-abb-tilbehor-9993"
   },
   {
-   "slug": "mere-mindre-billede-tal-ting-der-flyver-ebfb",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-ting-der-flyver-aeeb",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "things_that_fly",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-ting-der-flyver-ebfb"
+   "deck": "monstertoget-abb-ting-der-flyver-aeeb"
   },
   {
-   "slug": "mere-mindre-billede-tal-toj-3bd0",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-toj-6f42",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "clothing",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-toj-3bd0"
+   "deck": "monstertoget-abb-toj-6f42"
   },
   {
-   "slug": "mere-mindre-billede-tal-traeer-7702",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-traeer-6014",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "tree",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-traeer-7702"
+   "deck": "monstertoget-abb-traeer-6014"
   },
   {
-   "slug": "mere-mindre-billede-tal-vaerktoj-dc17",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-vaerktoj-b2bb",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "tools",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-vaerktoj-dc17"
+   "deck": "monstertoget-abb-vaerktoj-b2bb"
   },
   {
-   "slug": "mere-mindre-billede-tal-zoodyr-1073",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monstertoget-abb-vejr-3ce6",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-vejr-3ce6"
+  },
+  {
+   "slug": "monstertoget-abb-vinter-5896",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-vinter-5896"
+  },
+  {
+   "slug": "monstertoget-abb-zoodyr-6894",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "zoo_animals",
    "level": "boernehaveklasse",
-   "deck": "mere-mindre-billede-tal-zoodyr-1073"
+   "deck": "monstertoget-abb-zoodyr-6894"
   },
   {
-   "slug": "subtraktion-find-subtrahend-bageri-8b6e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-aktiviteter-9657",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aktiviteter-9657"
+  },
+  {
+   "slug": "monstertoget-bageri-b3a3",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "bakery",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-bageri-8b6e"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-bageri-b3a3"
   },
   {
-   "slug": "subtraktion-find-subtrahend-blomster-4f9d",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-blomster-ebcc",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "flowers",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-blomster-4f9d"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-blomster-ebcc"
   },
   {
-   "slug": "subtraktion-find-subtrahend-bondegardsdyr-b734",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-bondegardsdyr-1dd1",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-bondegardsdyr-b734"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-bondegardsdyr-1dd1"
   },
   {
-   "slug": "subtraktion-find-subtrahend-camping-c654",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-camping-14b2",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "camping",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-camping-c654"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-camping-14b2"
   },
   {
-   "slug": "subtraktion-find-subtrahend-dinosaurer-a1c8",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-desserter-og-slik-2a2a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-desserter-og-slik-2a2a"
+  },
+  {
+   "slug": "monstertoget-dinosaurer-d998",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "dinosaurs",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-dinosaurer-a1c8"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-dinosaurer-d998"
   },
   {
-   "slug": "subtraktion-find-subtrahend-dyr-5ac7",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-dyr-91cc",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "animals",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-dyr-5ac7"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-dyr-91cc"
   },
   {
-   "slug": "subtraktion-find-subtrahend-erhverv-488f",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-erhverv-d133",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "occupations",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-erhverv-488f"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-erhverv-d133"
   },
   {
-   "slug": "subtraktion-find-subtrahend-former-c1bc",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-farver-a580",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-farver-a580"
+  },
+  {
+   "slug": "monstertoget-folelser-a9b3",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-folelser-a9b3"
+  },
+  {
+   "slug": "monstertoget-forar-da60",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-forar-da60"
+  },
+  {
+   "slug": "monstertoget-former-d8ea",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "shapes",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-former-c1bc"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-former-d8ea"
   },
   {
-   "slug": "subtraktion-find-subtrahend-frugter-ec85",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-frugter-fdff",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "fruits",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-frugter-ec85"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-frugter-fdff"
   },
   {
-   "slug": "subtraktion-find-subtrahend-fugle-2-14f1",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-fugle-2-8386",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-fugle-2-14f1"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-fugle-2-8386"
   },
   {
-   "slug": "subtraktion-find-subtrahend-fugle-cb27",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-fugle-f901",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "birds",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-fugle-cb27"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-fugle-f901"
   },
   {
-   "slug": "subtraktion-find-subtrahend-grontsager-4e5e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-grontsager-83f1",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "vegetables",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-grontsager-4e5e"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-grontsager-83f1"
   },
   {
-   "slug": "subtraktion-find-subtrahend-havliv-7819",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-havliv-5330",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-havliv-7819"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-havliv-5330"
   },
   {
-   "slug": "subtraktion-find-subtrahend-hospital-490e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-hospital-bddb",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "hospital",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-hospital-490e"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-hospital-bddb"
   },
   {
-   "slug": "subtraktion-find-subtrahend-i-supermarkedet-ba7f",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-i-supermarkedet-2d80",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-i-supermarkedet-ba7f"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-i-supermarkedet-2d80"
   },
   {
-   "slug": "subtraktion-find-subtrahend-insekter-og-kryb-089b",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-insekter-og-kryb-75a0",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-insekter-og-kryb-089b"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-insekter-og-kryb-75a0"
   },
   {
-   "slug": "subtraktion-find-subtrahend-jul-cad9",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-jul-4266",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "christmas",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-jul-cad9"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-jul-4266"
   },
   {
-   "slug": "subtraktion-find-subtrahend-kaeledyr-362d",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-kaeledyr-dec9",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "pets",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-kaeledyr-362d"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-kaeledyr-dec9"
   },
   {
-   "slug": "subtraktion-find-subtrahend-klassevaerelse-91f9",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-klassevaerelse-2581",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "classroom",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-klassevaerelse-91f9"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-klassevaerelse-2581"
   },
   {
-   "slug": "subtraktion-find-subtrahend-kokkenredskaber-52a3",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-kokkenredskaber-de5b",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-kokkenredskaber-52a3"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-kokkenredskaber-de5b"
   },
   {
-   "slug": "subtraktion-find-subtrahend-koretojer-2809",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-koretojer-4fb6",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "vehicles",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-koretojer-2809"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-koretojer-4fb6"
   },
   {
-   "slug": "subtraktion-find-subtrahend-krybdyr-og-padder-9a2f",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-kropsdele-b670",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-kropsdele-b670"
+  },
+  {
+   "slug": "monstertoget-krybdyr-og-padder-4ad1",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-krybdyr-og-padder-9a2f"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-krybdyr-og-padder-4ad1"
   },
   {
-   "slug": "subtraktion-find-subtrahend-legetoj-b325",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-legetoj-f9c7",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "toys",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-legetoj-b325"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-legetoj-f9c7"
   },
   {
-   "slug": "subtraktion-find-subtrahend-mobler-b552",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-mobler-90e6",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "furniture",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-mobler-b552"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-mobler-90e6"
   },
   {
-   "slug": "subtraktion-find-subtrahend-morgenmad-fd6b",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-morgenmad-925d",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "breakfast",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-morgenmad-fd6b"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-morgenmad-925d"
   },
   {
-   "slug": "subtraktion-find-subtrahend-musik-774d",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-musik-283a",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "music",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-musik-774d"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-musik-283a"
   },
   {
-   "slug": "subtraktion-find-subtrahend-paske-0728",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-paske-e443",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "easter",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-paske-0728"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-paske-e443"
   },
   {
-   "slug": "subtraktion-find-subtrahend-postkontor-33ff",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-postkontor-5338",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "post_office",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-postkontor-33ff"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-postkontor-5338"
   },
   {
-   "slug": "subtraktion-find-subtrahend-rummet-7792",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-rummet-1810",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "space",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-rummet-7792"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-rummet-1810"
   },
   {
-   "slug": "subtraktion-find-subtrahend-rundt-i-huset-ed05",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-rundt-i-huset-9c13",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-rundt-i-huset-ed05"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-rundt-i-huset-9c13"
   },
   {
-   "slug": "subtraktion-find-subtrahend-skovdyr-cd70",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-skovdyr-abc6",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-skovdyr-cd70"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-skovdyr-abc6"
   },
   {
-   "slug": "subtraktion-find-subtrahend-strand-0e01",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-sommer-9c1f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-sommer-9c1f"
+  },
+  {
+   "slug": "monstertoget-strand-33f8",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "beach",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-strand-0e01"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-strand-33f8"
   },
   {
-   "slug": "subtraktion-find-subtrahend-thanksgiving-97bc",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-thanksgiving-dc94",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-thanksgiving-97bc"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-thanksgiving-dc94"
   },
   {
-   "slug": "subtraktion-find-subtrahend-tilbehor-c3b3",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-tilbehor-0b60",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "accessories",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-tilbehor-c3b3"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-tilbehor-0b60"
   },
   {
-   "slug": "subtraktion-find-subtrahend-ting-der-flyver-e6a6",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-ting-der-flyver-3203",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-ting-der-flyver-e6a6"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-ting-der-flyver-3203"
   },
   {
-   "slug": "subtraktion-find-subtrahend-toj-016f",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-toj-1bc1",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "clothing",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-toj-016f"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-toj-1bc1"
   },
   {
-   "slug": "subtraktion-find-subtrahend-traeer-e8fe",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-traeer-7c81",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "tree",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-traeer-e8fe"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-traeer-7c81"
   },
   {
-   "slug": "subtraktion-find-subtrahend-vaerktoj-f09c",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-vaerktoj-ff38",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "tools",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-vaerktoj-f09c"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-vaerktoj-ff38"
   },
   {
-   "slug": "subtraktion-find-subtrahend-zoodyr-98fb",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "monstertoget-vejr-bd2a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-vejr-bd2a"
+  },
+  {
+   "slug": "monstertoget-vinter-b7ff",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-vinter-b7ff"
+  },
+  {
+   "slug": "monstertoget-zoodyr-a7ac",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "1-klasse",
-   "deck": "subtraktion-find-subtrahend-zoodyr-98fb"
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-zoodyr-a7ac"
   }
  ]
 }

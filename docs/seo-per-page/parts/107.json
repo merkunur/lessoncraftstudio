@@ -2,503 +2,795 @@
  "part": 107,
  "locale": "pt",
  "classes": [
-  "picture-sort::null"
+  "math-worksheet::four-symbols-add-sub",
+  "math-worksheet::three-symbols-add-sub"
  ],
- "splitOf": {
-  "class": "picture-sort::null",
-  "total": 122,
-  "chunk": 2,
-  "chunks": 2
- },
- "count": 61,
+ "splitOf": null,
+ "count": 98,
  "pages": [
   {
-   "slug": "ordenar-imagens-animals-vs-furniture-4c62",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-furniture",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-furniture-4c62"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-acampamento-1113",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-acampamento-1113"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-hospital-4df8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-hospital",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-hospital-4df8"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-acessorios-c6ee",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-acessorios-c6ee"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-kitchen-tools-c9bc",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-kitchen-tools-c9bc"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-animais-8f1c",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "animals",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-animais-8f1c"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-occupations-8245",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-occupations",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-occupations-8245"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-animais-da-fazenda-7656",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-animais-da-fazenda-7656"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-post-office-cf24",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-post_office",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-post-office-cf24"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-animais-de-estimacao-ae90",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-animais-de-estimacao-ae90"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-shapes-a146",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-shapes",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-shapes-a146"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-animais-do-zoologico-1a93",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-animais-do-zoologico-1a93"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-space-b48b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-space",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-space-b48b"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-arvores-f699",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-arvores-f699"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-spring-48d1",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-spring",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-spring-48d1"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-atividades-9fd1",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "activities",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-atividades-9fd1"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-summer-d77f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-summer",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-summer-d77f"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-brinquedos-f6b2",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-brinquedos-f6b2"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-thanksgiving-11c5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-thanksgiving-11c5"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-cafe-da-manha-08c0",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-cafe-da-manha-08c0"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-tools-e3d4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-tools",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-tools-e3d4"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-clima-5862",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-clima-5862"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-toys-a360",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-toys",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-toys-a360"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-coisas-que-voam-6e0d",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-coisas-que-voam-6e0d"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-tree-4455",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-tree",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-tree-4455"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-cores-3a42",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "colors",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-cores-3a42"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-vegetables-c16f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-vegetables",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-vegetables-c16f"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-correios-09e7",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "post_office",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-correios-09e7"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-vehicles-b595",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-vehicles",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-vehicles-b595"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-criaturas-da-floresta-2a44",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-criaturas-da-floresta-2a44"
   },
   {
-   "slug": "ordenar-imagens-animals-vs-weather-dccd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-weather",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-animals-vs-weather-dccd"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-dia-de-acao-de-gracas-cd07",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-dia-de-acao-de-gracas-cd07"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-accessories-ecce",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-accessories",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-accessories-ecce"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-dinossauros-d9f9",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-dinossauros-d9f9"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-activities-0026",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-activities",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-activities-0026"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-diversos-ba63",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-diversos-ba63"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-animals-6524",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-animals",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-animals-6524"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-emocoes-5c62",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "emotions",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-emocoes-5c62"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-around-the-house-f17e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-around_the_house",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-around-the-house-f17e"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-espaco-fa6d",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-espaco-fa6d"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-at-the-supermarket-4a90",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-at-the-supermarket-4a90"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-ferramentas-0097",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-ferramentas-0097"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-bakery-8499",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-bakery",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-bakery-8499"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-flores-6b8a",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-flores-6b8a"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-beach-ab54",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-beach",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-beach-ab54"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-formas-f07d",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "shapes",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-formas-f07d"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-birds-2-6a0e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-birds_2",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-birds-2-6a0e"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-frutas-a2a1",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-frutas-a2a1"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-birds-dc8d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-birds",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-birds-dc8d"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-hospital-86e5",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-hospital-86e5"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-body-parts-5d2f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-body_parts",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-body-parts-5d2f"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-insetos-e-bichos-12d7",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-insetos-e-bichos-12d7"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-breakfast-a87f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-breakfast",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-breakfast-a87f"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-inverno-00ec",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-inverno-00ec"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-christmas-0cc7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-christmas",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-christmas-0cc7"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-moveis-a6ac",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-moveis-a6ac"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-classroom-2445",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-classroom",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-classroom-2445"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-musica-0ca1",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "music",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-musica-0ca1"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-clothing-b1e7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-clothing",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-clothing-b1e7"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-natal-8ae2",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "christmas",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-natal-8ae2"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-colors-61f5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-colors",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-colors-61f5"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-no-supermercado-b92a",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-no-supermercado-b92a"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-desserts-and-sweets-eb01",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-desserts-and-sweets-eb01"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-padaria-6ff6",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-padaria-6ff6"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-dinosaurs-e0b3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-dinosaurs-e0b3"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-partes-do-corpo-d962",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-partes-do-corpo-d962"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-easter-501f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-easter",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-easter-501f"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-pascoa-74a5",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-pascoa-74a5"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-emotions-d9d8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-emotions",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-emotions-d9d8"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-passaros-2-a34c",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-passaros-2-a34c"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-farm-animals-c949",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-farm_animals",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-farm-animals-c949"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-passaros-6709",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "birds",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-passaros-6709"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-flowers-3601",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-flowers",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-flowers-3601"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-pela-casa-5cd1",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-pela-casa-5cd1"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-forest-creatures-23b0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-forest-creatures-23b0"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-praia-ebbf",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-praia-ebbf"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-fruits-a790",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-fruits",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-fruits-a790"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-primavera-fee2",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "spring",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-primavera-fee2"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-furniture-5904",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-furniture",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-furniture-5904"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-profissoes-e6ac",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-profissoes-e6ac"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-hospital-5ad6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-hospital",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-hospital-5ad6"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-repteis-e-anfibios-8833",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-repteis-e-anfibios-8833"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-insects-and-bugs-67e8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-insects-and-bugs-67e8"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-roupas-c8f3",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-roupas-c8f3"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-kitchen-tools-7731",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-kitchen-tools-7731"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-sala-de-aula-1046",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "classroom",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-sala-de-aula-1046"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-music-ffad",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-music",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-music-ffad"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-sobremesas-e-doces-dfdd",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-sobremesas-e-doces-dfdd"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-occupations-e1d5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-occupations",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-occupations-e1d5"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-utensilios-de-cozinha-4872",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-utensilios-de-cozinha-4872"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-ocean-life-dba4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-ocean_life",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-ocean-life-dba4"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-vegetais-91a0",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-vegetais-91a0"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-pets-e585",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-pets",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-pets-e585"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-veiculos-a0a4",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-veiculos-a0a4"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-post-office-1a0e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-post_office",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-post-office-1a0e"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-verao-a07e",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "summer",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-verao-a07e"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-reptiles-and-amphibians-4698",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-reptiles-and-amphibians-4698"
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-vida-marinha-76e1",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-vida-marinha-76e1"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-shapes-d76d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-shapes",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-shapes-d76d"
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-acampamento-9a06",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-acampamento-9a06"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-space-82d4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-space",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-space-82d4"
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-acessorios-3271",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-acessorios-3271"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-thanksgiving-0bcf",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-thanksgiving-0bcf"
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-animais-0c86",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "animals",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-animais-0c86"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-things-that-fly-8e72",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-things-that-fly-8e72"
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-animais-da-fazenda-c026",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-animais-da-fazenda-c026"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-tools-47cb",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-tools",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-tools-47cb"
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-animais-de-estimacao-eda4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "pets",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-animais-de-estimacao-eda4"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-toys-1a82",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-toys",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-toys-1a82"
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-animais-do-zoologico-bea7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-animais-do-zoologico-bea7"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-tree-5e5d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-tree",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-tree-5e5d"
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-arvores-6a60",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tree",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-arvores-6a60"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-vegetables-8903",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-vegetables",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-vegetables-8903"
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-atividades-61f8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "activities",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-atividades-61f8"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-vehicles-12ec",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-vehicles",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-vehicles-12ec"
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-brinquedos-1ab5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-brinquedos-1ab5"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-weather-ee70",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-weather",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-weather-ee70"
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-cafe-da-manha-5489",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-cafe-da-manha-5489"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-winter-7bd0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-winter",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-winter-7bd0"
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-clima-23b4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-clima-23b4"
   },
   {
-   "slug": "ordenar-imagens-camping-vs-zoo-animals-004c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "ordenar-imagens-camping-vs-zoo-animals-004c"
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-coisas-que-voam-be4d",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-coisas-que-voam-be4d"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-cores-2baf",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "colors",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-cores-2baf"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-correios-8486",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-correios-8486"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-criaturas-da-floresta-341c",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-criaturas-da-floresta-341c"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-dia-de-acao-de-gracas-1c7b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-dia-de-acao-de-gracas-1c7b"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-dinossauros-78b6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-dinossauros-78b6"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-diversos-5252",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-diversos-5252"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-emocoes-aae4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "emotions",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-emocoes-aae4"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-espaco-4cea",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-espaco-4cea"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-ferramentas-ed1e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-ferramentas-ed1e"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-flores-1a03",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-flores-1a03"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-formas-e1db",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "shapes",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-formas-e1db"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-frutas-cf24",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-frutas-cf24"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-hospital-ee5f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-hospital-ee5f"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-insetos-e-bichos-6037",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-insetos-e-bichos-6037"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-inverno-0b5f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-inverno-0b5f"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-moveis-1a30",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-moveis-1a30"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-musica-550c",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-musica-550c"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-natal-a491",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-natal-a491"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-no-supermercado-fbb9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-no-supermercado-fbb9"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-padaria-1aa6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-padaria-1aa6"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-partes-do-corpo-e92f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-partes-do-corpo-e92f"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-pascoa-e7e6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-pascoa-e7e6"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-passaros-2-0b3c",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-passaros-2-0b3c"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-passaros-4c09",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-passaros-4c09"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-pela-casa-eb0f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-pela-casa-eb0f"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-praia-1731",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-praia-1731"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-primavera-d02b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "spring",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-primavera-d02b"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-profissoes-3a75",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-profissoes-3a75"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-repteis-e-anfibios-f3f4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-repteis-e-anfibios-f3f4"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-roupas-ba66",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "clothing",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-roupas-ba66"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-sala-de-aula-36e4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-sala-de-aula-36e4"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-sobremesas-e-doces-e259",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "desserts_and_sweets",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-sobremesas-e-doces-e259"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-utensilios-de-cozinha-50a8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-utensilios-de-cozinha-50a8"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-vegetais-5977",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-vegetais-5977"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-veiculos-d4ce",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-veiculos-d4ce"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-verao-75c8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "summer",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-verao-75c8"
+  },
+  {
+   "slug": "atividade-de-matematica-3-simbolos-soma-sub-vida-marinha-e9cb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-3-simbolos-soma-sub-vida-marinha-e9cb"
   }
  ]
 }

@@ -2,667 +2,763 @@
  "part": 245,
  "locale": "sv",
  "classes": [
-  "big-small::orderAsc",
-  "chart-count::null"
+  "word-guess::easy",
+  "word-guess::normal"
  ],
  "splitOf": null,
- "count": 82,
+ "count": 94,
  "pages": [
   {
-   "slug": "stor-liten-stigande-ordning-bageri-25ee",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "bakery",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-bageri-25ee"
+   "slug": "gissa-ordet-latt-aktiviteter-17d9",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "ak-1",
+   "deck": "gissa-ordet-latt-aktiviteter-17d9"
   },
   {
-   "slug": "stor-liten-stigande-ordning-blommor-a384",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "flowers",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-blommor-a384"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-bondgardsdjur-e5fc",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-bondgardsdjur-e5fc"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-camping-09bf",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "camping",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-camping-09bf"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-dinosaurier-846b",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-dinosaurier-846b"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-djur-fb10",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "animals",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-djur-fb10"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-djurparksdjur-b2c5",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-djurparksdjur-b2c5"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-efterratter-och-godis-ed12",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-efterratter-och-godis-ed12"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-faglar-2-2f2e",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "birds_2",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-faglar-2-2f2e"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-faglar-e39d",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "birds",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-faglar-e39d"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-fordon-6869",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "vehicles",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-fordon-6869"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-former-aa93",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "shapes",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-former-aa93"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-frukost-99d0",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "breakfast",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-frukost-99d0"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-frukter-9d86",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "fruits",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-frukter-9d86"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-gronsaker-4449",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "vegetables",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-gronsaker-4449"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-havsliv-8295",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-havsliv-8295"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-husdjur-f118",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "pets",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-husdjur-f118"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-i-snabbkopet-9c73",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-i-snabbkopet-9c73"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-insekter-och-kryp-99d4",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-insekter-och-kryp-99d4"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-jul-c9c0",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "christmas",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-jul-c9c0"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-klader-5718",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "clothing",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-klader-5718"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-klassrum-b404",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "classroom",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-klassrum-b404"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-koksredskap-20fb",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-koksredskap-20fb"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-kroppsdelar-660f",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-kroppsdelar-660f"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-leksaker-96d5",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "toys",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-leksaker-96d5"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-mobler-795d",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "furniture",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-mobler-795d"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-musik-75e9",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "music",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-musik-75e9"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-pask-ac0c",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "easter",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-pask-ac0c"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-postkontor-5f81",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "post_office",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-postkontor-5f81"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-reptiler-och-groddjur-adc3",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "reptiles_and_amphibians",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-reptiler-och-groddjur-adc3"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-runt-huset-87c3",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-runt-huset-87c3"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-rymden-9b89",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "space",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-rymden-9b89"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-saker-som-flyger-be05",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-saker-som-flyger-be05"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-sjukhus-da8b",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "hospital",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-sjukhus-da8b"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-skogsdjur-6c7c",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-skogsdjur-6c7c"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-strand-965d",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "beach",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-strand-965d"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-thanksgiving-07fb",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-thanksgiving-07fb"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-tillbehor-86c2",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "accessories",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-tillbehor-86c2"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-trad-a24f",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "tree",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-trad-a24f"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-verktyg-aff5",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "tools",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-verktyg-aff5"
-  },
-  {
-   "slug": "stor-liten-stigande-ordning-yrken-e044",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "occupations",
-   "level": "forskola",
-   "deck": "stor-liten-stigande-ordning-yrken-e044"
-  },
-  {
-   "slug": "rakna-i-diagram-bageri-4532",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-bageri-939d",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "bakery",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-bageri-4532"
+   "deck": "gissa-ordet-latt-bageri-939d"
   },
   {
-   "slug": "rakna-i-diagram-blommor-56ce",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-blommor-bd56",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "flowers",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-blommor-56ce"
+   "deck": "gissa-ordet-latt-blommor-bd56"
   },
   {
-   "slug": "rakna-i-diagram-bondgardsdjur-abb4",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-bondgardsdjur-04a8",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "farm_animals",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-bondgardsdjur-abb4"
+   "deck": "gissa-ordet-latt-bondgardsdjur-04a8"
   },
   {
-   "slug": "rakna-i-diagram-camping-5b9d",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-camping-9aa1",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "camping",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-camping-5b9d"
+   "deck": "gissa-ordet-latt-camping-9aa1"
   },
   {
-   "slug": "rakna-i-diagram-dinosaurier-43ad",
-   "type": "chart-count",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "ak-1",
-   "deck": "rakna-i-diagram-dinosaurier-43ad"
-  },
-  {
-   "slug": "rakna-i-diagram-djur",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-djur-0c94",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "animals",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-djur"
+   "deck": "gissa-ordet-latt-djur-0c94"
   },
   {
-   "slug": "rakna-i-diagram-djurparksdjur-23d2",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-djurparksdjur-9ec7",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "zoo_animals",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-djurparksdjur-23d2"
+   "deck": "gissa-ordet-latt-djurparksdjur-9ec7"
   },
   {
-   "slug": "rakna-i-diagram-efterratter-och-godis-166f",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-efterratter-och-godis-7e86",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "desserts_and_sweets",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-efterratter-och-godis-166f"
+   "deck": "gissa-ordet-latt-efterratter-och-godis-7e86"
   },
   {
-   "slug": "rakna-i-diagram-faglar-2-3d5b",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-faglar-2-bd67",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "birds_2",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-faglar-2-3d5b"
+   "deck": "gissa-ordet-latt-faglar-2-bd67"
   },
   {
-   "slug": "rakna-i-diagram-faglar-dcbc",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-faglar-fb49",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "birds",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-faglar-dcbc"
+   "deck": "gissa-ordet-latt-faglar-fb49"
   },
   {
-   "slug": "rakna-i-diagram-farger-2fa0",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-farger-b1ea",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "colors",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-farger-2fa0"
+   "deck": "gissa-ordet-latt-farger-b1ea"
   },
   {
-   "slug": "rakna-i-diagram-fordon-121a",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-fordon-4cb6",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "vehicles",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-fordon-121a"
+   "deck": "gissa-ordet-latt-fordon-4cb6"
   },
   {
-   "slug": "rakna-i-diagram-former-bd2c",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-former-8d81",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "shapes",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-former-bd2c"
+   "deck": "gissa-ordet-latt-former-8d81"
   },
   {
-   "slug": "rakna-i-diagram-frukost-2f6f",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-frukost-50a3",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "breakfast",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-frukost-2f6f"
+   "deck": "gissa-ordet-latt-frukost-50a3"
   },
   {
-   "slug": "rakna-i-diagram-frukter-0f34",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-frukter-72ce",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "fruits",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-frukter-0f34"
+   "deck": "gissa-ordet-latt-frukter-72ce"
   },
   {
-   "slug": "rakna-i-diagram-gronsaker-3bcd",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-gronsaker-c393",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "vegetables",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-gronsaker-3bcd"
+   "deck": "gissa-ordet-latt-gronsaker-c393"
   },
   {
-   "slug": "rakna-i-diagram-havsliv-eb50",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-havsliv-ad80",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "ocean_life",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-havsliv-eb50"
+   "deck": "gissa-ordet-latt-havsliv-ad80"
   },
   {
-   "slug": "rakna-i-diagram-husdjur-8990",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-husdjur-79ca",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "pets",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-husdjur-8990"
+   "deck": "gissa-ordet-latt-husdjur-79ca"
   },
   {
-   "slug": "rakna-i-diagram-i-snabbkopet-0078",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-i-snabbkopet-063f",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "at_the_supermarket",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-i-snabbkopet-0078"
+   "deck": "gissa-ordet-latt-i-snabbkopet-063f"
   },
   {
-   "slug": "rakna-i-diagram-insekter-och-kryp-25d3",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-insekter-och-kryp-f0c7",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "insects_and_bugs",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-insekter-och-kryp-25d3"
+   "deck": "gissa-ordet-latt-insekter-och-kryp-f0c7"
   },
   {
-   "slug": "rakna-i-diagram-jul-34b2",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-jul-53ca",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "christmas",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-jul-34b2"
+   "deck": "gissa-ordet-latt-jul-53ca"
   },
   {
-   "slug": "rakna-i-diagram-klader-7eea",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-kanslor-f0ce",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "ak-1",
+   "deck": "gissa-ordet-latt-kanslor-f0ce"
+  },
+  {
+   "slug": "gissa-ordet-latt-klader-c353",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "clothing",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-klader-7eea"
+   "deck": "gissa-ordet-latt-klader-c353"
   },
   {
-   "slug": "rakna-i-diagram-klassrum-dc2d",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-klassrum-b900",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "classroom",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-klassrum-dc2d"
+   "deck": "gissa-ordet-latt-klassrum-b900"
   },
   {
-   "slug": "rakna-i-diagram-koksredskap-d75b",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-koksredskap-d03f",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "kitchen_tools",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-koksredskap-d75b"
+   "deck": "gissa-ordet-latt-koksredskap-d03f"
   },
   {
-   "slug": "rakna-i-diagram-leksaker-025e",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-kroppsdelar-0026",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "ak-1",
+   "deck": "gissa-ordet-latt-kroppsdelar-0026"
+  },
+  {
+   "slug": "gissa-ordet-latt-leksaker-ac0e",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "toys",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-leksaker-025e"
+   "deck": "gissa-ordet-latt-leksaker-ac0e"
   },
   {
-   "slug": "rakna-i-diagram-mobler-5129",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-mobler-da04",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "furniture",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-mobler-5129"
+   "deck": "gissa-ordet-latt-mobler-da04"
   },
   {
-   "slug": "rakna-i-diagram-musik-8f73",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-musik-2069",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "music",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-musik-8f73"
+   "deck": "gissa-ordet-latt-musik-2069"
   },
   {
-   "slug": "rakna-i-diagram-pask-b069",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-pask-c9c3",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "easter",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-pask-b069"
+   "deck": "gissa-ordet-latt-pask-c9c3"
   },
   {
-   "slug": "rakna-i-diagram-postkontor-f835",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-postkontor-10b4",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "post_office",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-postkontor-f835"
+   "deck": "gissa-ordet-latt-postkontor-10b4"
   },
   {
-   "slug": "rakna-i-diagram-reptiler-och-groddjur-60e4",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-reptiler-och-groddjur-de91",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "reptiles_and_amphibians",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-reptiler-och-groddjur-60e4"
+   "deck": "gissa-ordet-latt-reptiler-och-groddjur-de91"
   },
   {
-   "slug": "rakna-i-diagram-runt-huset-d246",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-runt-huset-d9fa",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "around_the_house",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-runt-huset-d246"
+   "deck": "gissa-ordet-latt-runt-huset-d9fa"
   },
   {
-   "slug": "rakna-i-diagram-rymden-39e3",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-rymden-14f3",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "space",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-rymden-39e3"
+   "deck": "gissa-ordet-latt-rymden-14f3"
   },
   {
-   "slug": "rakna-i-diagram-saker-som-flyger-d07c",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-saker-som-flyger-fa8b",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "things_that_fly",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-saker-som-flyger-d07c"
+   "deck": "gissa-ordet-latt-saker-som-flyger-fa8b"
   },
   {
-   "slug": "rakna-i-diagram-sjukhus-5651",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-sjukhus-04da",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "hospital",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-sjukhus-5651"
+   "deck": "gissa-ordet-latt-sjukhus-04da"
   },
   {
-   "slug": "rakna-i-diagram-skogsdjur-0ff2",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-skogsdjur-21a0",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "forest_creatures",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-skogsdjur-0ff2"
+   "deck": "gissa-ordet-latt-skogsdjur-21a0"
   },
   {
-   "slug": "rakna-i-diagram-strand-d835",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-sommar-dca3",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "ak-1",
+   "deck": "gissa-ordet-latt-sommar-dca3"
+  },
+  {
+   "slug": "gissa-ordet-latt-strand-51de",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "beach",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-strand-d835"
+   "deck": "gissa-ordet-latt-strand-51de"
   },
   {
-   "slug": "rakna-i-diagram-thanksgiving-f73c",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-thanksgiving-c4f4",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "thanksgivinng",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-thanksgiving-f73c"
+   "deck": "gissa-ordet-latt-thanksgiving-c4f4"
   },
   {
-   "slug": "rakna-i-diagram-tillbehor-0bee",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-tillbehor-68ec",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "accessories",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-tillbehor-0bee"
+   "deck": "gissa-ordet-latt-tillbehor-68ec"
   },
   {
-   "slug": "rakna-i-diagram-trad-ad00",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-trad-7acb",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "tree",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-trad-ad00"
+   "deck": "gissa-ordet-latt-trad-7acb"
   },
   {
-   "slug": "rakna-i-diagram-verktyg-4ea7",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-vader-3a6b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "ak-1",
+   "deck": "gissa-ordet-latt-vader-3a6b"
+  },
+  {
+   "slug": "gissa-ordet-latt-var-8f90",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "ak-1",
+   "deck": "gissa-ordet-latt-var-8f90"
+  },
+  {
+   "slug": "gissa-ordet-latt-verktyg-18a3",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "tools",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-verktyg-4ea7"
+   "deck": "gissa-ordet-latt-verktyg-18a3"
   },
   {
-   "slug": "rakna-i-diagram-yrken-ade4",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "gissa-ordet-latt-vinter-8b98",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "ak-1",
+   "deck": "gissa-ordet-latt-vinter-8b98"
+  },
+  {
+   "slug": "gissa-ordet-latt-yrken-ddc5",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "occupations",
    "level": "ak-1",
-   "deck": "rakna-i-diagram-yrken-ade4"
+   "deck": "gissa-ordet-latt-yrken-ddc5"
+  },
+  {
+   "slug": "gissa-ordet-normal-aktiviteter-cb16",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-aktiviteter-cb16"
+  },
+  {
+   "slug": "gissa-ordet-normal-bageri-8a09",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-bageri-8a09"
+  },
+  {
+   "slug": "gissa-ordet-normal-blommor-3e66",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-blommor-3e66"
+  },
+  {
+   "slug": "gissa-ordet-normal-bondgardsdjur-7626",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-bondgardsdjur-7626"
+  },
+  {
+   "slug": "gissa-ordet-normal-camping-838d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-camping-838d"
+  },
+  {
+   "slug": "gissa-ordet-normal-djur-8d1d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-djur-8d1d"
+  },
+  {
+   "slug": "gissa-ordet-normal-djurparksdjur-db3d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-djurparksdjur-db3d"
+  },
+  {
+   "slug": "gissa-ordet-normal-efterratter-och-godis-570d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-efterratter-och-godis-570d"
+  },
+  {
+   "slug": "gissa-ordet-normal-faglar-1e2c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-faglar-1e2c"
+  },
+  {
+   "slug": "gissa-ordet-normal-faglar-2-f309",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-faglar-2-f309"
+  },
+  {
+   "slug": "gissa-ordet-normal-farger-3854",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-farger-3854"
+  },
+  {
+   "slug": "gissa-ordet-normal-fordon-743c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-fordon-743c"
+  },
+  {
+   "slug": "gissa-ordet-normal-former-64a8",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-former-64a8"
+  },
+  {
+   "slug": "gissa-ordet-normal-frukost-c4ef",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-frukost-c4ef"
+  },
+  {
+   "slug": "gissa-ordet-normal-frukter-2d73",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-frukter-2d73"
+  },
+  {
+   "slug": "gissa-ordet-normal-gronsaker-cd29",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-gronsaker-cd29"
+  },
+  {
+   "slug": "gissa-ordet-normal-havsliv-9e6d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-havsliv-9e6d"
+  },
+  {
+   "slug": "gissa-ordet-normal-husdjur-1f6b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-husdjur-1f6b"
+  },
+  {
+   "slug": "gissa-ordet-normal-i-snabbkopet-0644",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-i-snabbkopet-0644"
+  },
+  {
+   "slug": "gissa-ordet-normal-insekter-och-kryp-2117",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-insekter-och-kryp-2117"
+  },
+  {
+   "slug": "gissa-ordet-normal-jul-63d9",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-jul-63d9"
+  },
+  {
+   "slug": "gissa-ordet-normal-kanslor-c058",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-kanslor-c058"
+  },
+  {
+   "slug": "gissa-ordet-normal-klader-3db1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-klader-3db1"
+  },
+  {
+   "slug": "gissa-ordet-normal-klassrum-87c0",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-klassrum-87c0"
+  },
+  {
+   "slug": "gissa-ordet-normal-koksredskap-1f73",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-koksredskap-1f73"
+  },
+  {
+   "slug": "gissa-ordet-normal-kroppsdelar-c45c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-kroppsdelar-c45c"
+  },
+  {
+   "slug": "gissa-ordet-normal-leksaker-9467",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-leksaker-9467"
+  },
+  {
+   "slug": "gissa-ordet-normal-mobler-f6ed",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-mobler-f6ed"
+  },
+  {
+   "slug": "gissa-ordet-normal-musik-7eae",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-musik-7eae"
+  },
+  {
+   "slug": "gissa-ordet-normal-pask-6ee1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-pask-6ee1"
+  },
+  {
+   "slug": "gissa-ordet-normal-postkontor-7585",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-postkontor-7585"
+  },
+  {
+   "slug": "gissa-ordet-normal-reptiler-och-groddjur-0854",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-reptiler-och-groddjur-0854"
+  },
+  {
+   "slug": "gissa-ordet-normal-runt-huset-aa33",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-runt-huset-aa33"
+  },
+  {
+   "slug": "gissa-ordet-normal-rymden-be8d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-rymden-be8d"
+  },
+  {
+   "slug": "gissa-ordet-normal-saker-som-flyger-48e2",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-saker-som-flyger-48e2"
+  },
+  {
+   "slug": "gissa-ordet-normal-sjukhus-a6b0",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-sjukhus-a6b0"
+  },
+  {
+   "slug": "gissa-ordet-normal-skogsdjur-9fe2",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-skogsdjur-9fe2"
+  },
+  {
+   "slug": "gissa-ordet-normal-sommar-4428",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-sommar-4428"
+  },
+  {
+   "slug": "gissa-ordet-normal-strand-c1fc",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-strand-c1fc"
+  },
+  {
+   "slug": "gissa-ordet-normal-thanksgiving-ec24",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-thanksgiving-ec24"
+  },
+  {
+   "slug": "gissa-ordet-normal-tillbehor-37f0",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-tillbehor-37f0"
+  },
+  {
+   "slug": "gissa-ordet-normal-trad-1454",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-trad-1454"
+  },
+  {
+   "slug": "gissa-ordet-normal-vader-1170",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-vader-1170"
+  },
+  {
+   "slug": "gissa-ordet-normal-var-d06e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-var-d06e"
+  },
+  {
+   "slug": "gissa-ordet-normal-verktyg-0cfb",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-verktyg-0cfb"
+  },
+  {
+   "slug": "gissa-ordet-normal-vinter-4577",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-vinter-4577"
+  },
+  {
+   "slug": "gissa-ordet-normal-yrken-e15b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "gissa-ordet-normal-yrken-e15b"
   }
  ]
 }

@@ -2,763 +2,675 @@
  "part": 93,
  "locale": "es",
  "classes": [
-  "grid-match::null",
-  "pattern-train::aab"
+  "find-objects::find-odd",
+  "alphabet-train::letter-hint"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 83,
  "pages": [
   {
-   "slug": "empareja-en-cuadricula-4-de-julio-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-4-de-julio-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-accesorios-98be",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-accesorios-e6a5",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "accessories",
    "level": "preescolar",
-   "deck": "empareja-en-cuadricula-accesorios-98be"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-accesorios-e6a5"
   },
   {
-   "slug": "empareja-en-cuadricula-actividades-98be",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-actividades-0b48",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "activities",
    "level": "preescolar",
-   "deck": "empareja-en-cuadricula-actividades-98be"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-actividades-0b48"
   },
   {
-   "slug": "empareja-en-cuadricula-animales",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "animals",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-animales"
-  },
-  {
-   "slug": "empareja-en-cuadricula-animales-de-granja-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-animales-de-granja-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-animales-del-zoologico-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-animales-del-zoologico-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-arboles-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "tree",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-arboles-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-aves-2-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-aves-2-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-aves-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "birds",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-aves-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-campamento-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "camping",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-campamento-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-clima-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "weather",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-clima-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-cosas-que-vuelan-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-cosas-que-vuelan-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-desayuno-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-desayuno-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-dia-de-accion-de-gracias-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-dia-de-accion-de-gracias-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-dinosaurios-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-dinosaurios-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-emociones-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "emotions",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-emociones-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-en-el-supermercado-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-en-el-supermercado-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-espacio-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "space",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-espacio-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-flores-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "flowers",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-flores-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-formas-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "shapes",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-formas-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-frutas-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "fruits",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-frutas-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-herramientas-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "tools",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-herramientas-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-hospital-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "hospital",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-hospital-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-insectos-y-bichos-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-insectos-y-bichos-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-invierno-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "winter",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-invierno-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-juguetes-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "toys",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-juguetes-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-mascotas-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "pets",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-mascotas-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-miscelaneo-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-miscelaneo-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-muebles-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "furniture",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-muebles-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-musica-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "music",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-musica-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-navidad-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "christmas",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-navidad-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-ocupaciones-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "occupations",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-ocupaciones-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-oficina-de-correos-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "post_office",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-oficina-de-correos-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-panaderia-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "bakery",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-panaderia-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-partes-del-cuerpo-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-partes-del-cuerpo-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-pascua-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "easter",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-pascua-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-playa-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "beach",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-playa-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-postres-y-dulces-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-postres-y-dulces-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-primavera-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "spring",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-primavera-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-reptiles-y-anfibios-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-reptiles-y-anfibios-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-ropa-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "clothing",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-ropa-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-salon-de-clases-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "classroom",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-salon-de-clases-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-utensilios-de-cocina-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-utensilios-de-cocina-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-vehiculos-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-vehiculos-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-verano-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "summer",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-verano-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-verduras-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-verduras-98be"
-  },
-  {
-   "slug": "empareja-en-cuadricula-vida-marina-98be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "preescolar",
-   "deck": "empareja-en-cuadricula-vida-marina-98be"
-  },
-  {
-   "slug": "tren-de-patrones-aab-4-de-julio-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "4th_of_july",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aab-4-de-julio-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aab-accesorios-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "accessories",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aab-accesorios-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aab-actividades-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "activities",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aab-actividades-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aab-alrededor-de-la-casa-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-alrededor-de-la-casa-16ec",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "around_the_house",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-alrededor-de-la-casa-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-alrededor-de-la-casa-16ec"
   },
   {
-   "slug": "tren-de-patrones-aab-animales-de-granja-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "farm_animals",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aab-animales-de-granja-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aab-animales-del-zoologico-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "zoo_animals",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aab-animales-del-zoologico-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aab-animales-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-animales-6dc4",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "animals",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-animales-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-animales-6dc4"
   },
   {
-   "slug": "tren-de-patrones-aab-arboles-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-animales-de-granja-14f8",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-animales-de-granja-14f8"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-animales-del-zoologico-0071",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-animales-del-zoologico-0071"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-arboles-f911",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "tree",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-arboles-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-arboles-f911"
   },
   {
-   "slug": "tren-de-patrones-aab-aves-2-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-aves-2-b696",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "birds_2",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-aves-2-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-aves-2-b696"
   },
   {
-   "slug": "tren-de-patrones-aab-aves-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-aves-6616",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "birds",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-aves-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-aves-6616"
   },
   {
-   "slug": "tren-de-patrones-aab-campamento-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-campamento-1c18",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "camping",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-campamento-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-campamento-1c18"
   },
   {
-   "slug": "tren-de-patrones-aab-clima-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-clima-8b26",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "weather",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-clima-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-clima-8b26"
   },
   {
-   "slug": "tren-de-patrones-aab-colores-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-colores-9b2b",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "colors",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-colores-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-colores-9b2b"
   },
   {
-   "slug": "tren-de-patrones-aab-cosas-que-vuelan-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-cosas-que-vuelan-cba5",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "things_that_fly",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-cosas-que-vuelan-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-cosas-que-vuelan-cba5"
   },
   {
-   "slug": "tren-de-patrones-aab-desayuno-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-criaturas-del-bosque-d2d3",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-criaturas-del-bosque-d2d3"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-desayuno-c2f2",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "breakfast",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-desayuno-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-desayuno-c2f2"
   },
   {
-   "slug": "tren-de-patrones-aab-dia-de-accion-de-gracias-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-dia-de-accion-de-gracias-6420",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "thanksgivinng",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-dia-de-accion-de-gracias-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-dia-de-accion-de-gracias-6420"
   },
   {
-   "slug": "tren-de-patrones-aab-dinosaurios-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-dinosaurios-2bec",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "dinosaurs",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-dinosaurios-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-dinosaurios-2bec"
   },
   {
-   "slug": "tren-de-patrones-aab-emociones-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-emociones-9787",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "emotions",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-emociones-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-emociones-9787"
   },
   {
-   "slug": "tren-de-patrones-aab-en-el-supermercado-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-en-el-supermercado-398c",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "at_the_supermarket",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-en-el-supermercado-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-en-el-supermercado-398c"
   },
   {
-   "slug": "tren-de-patrones-aab-flores-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-espacio-6b8a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-espacio-6b8a"
+  },
+  {
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-flores-4c19",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "flowers",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-flores-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-flores-4c19"
   },
   {
-   "slug": "tren-de-patrones-aab-formas-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-formas-aa52",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "shapes",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-formas-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-formas-aa52"
   },
   {
-   "slug": "tren-de-patrones-aab-frutas-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-frutas-8cf4",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "fruits",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-frutas-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-frutas-8cf4"
   },
   {
-   "slug": "tren-de-patrones-aab-herramientas-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-herramientas-648e",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "tools",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-herramientas-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-herramientas-648e"
   },
   {
-   "slug": "tren-de-patrones-aab-hospital-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-hospital-7ffe",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "hospital",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-hospital-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-hospital-7ffe"
   },
   {
-   "slug": "tren-de-patrones-aab-insectos-y-bichos-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-insectos-y-bichos-1423",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "insects_and_bugs",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-insectos-y-bichos-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-insectos-y-bichos-1423"
   },
   {
-   "slug": "tren-de-patrones-aab-invierno-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-invierno-4867",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "winter",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-invierno-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-invierno-4867"
   },
   {
-   "slug": "tren-de-patrones-aab-juguetes-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-juguetes-96d3",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "toys",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-juguetes-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-juguetes-96d3"
   },
   {
-   "slug": "tren-de-patrones-aab-mascotas-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-mascotas-ca74",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "pets",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-mascotas-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-mascotas-ca74"
   },
   {
-   "slug": "tren-de-patrones-aab-muebles-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-muebles-847c",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "furniture",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-muebles-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-muebles-847c"
   },
   {
-   "slug": "tren-de-patrones-aab-musica-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-musica-290e",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "music",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-musica-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-musica-290e"
   },
   {
-   "slug": "tren-de-patrones-aab-navidad-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-navidad-3002",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "christmas",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-navidad-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-navidad-3002"
   },
   {
-   "slug": "tren-de-patrones-aab-ocupaciones-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-ocupaciones-d554",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "occupations",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-ocupaciones-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-ocupaciones-d554"
   },
   {
-   "slug": "tren-de-patrones-aab-oficina-de-correos-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-oficina-de-correos-f15a",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "post_office",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-oficina-de-correos-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-oficina-de-correos-f15a"
   },
   {
-   "slug": "tren-de-patrones-aab-panaderia-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-panaderia-1247",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "bakery",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-panaderia-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-panaderia-1247"
   },
   {
-   "slug": "tren-de-patrones-aab-partes-del-cuerpo-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-partes-del-cuerpo-143c",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "body_parts",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-partes-del-cuerpo-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-partes-del-cuerpo-143c"
   },
   {
-   "slug": "tren-de-patrones-aab-pascua-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-pascua-66f4",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "easter",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-pascua-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-pascua-66f4"
   },
   {
-   "slug": "tren-de-patrones-aab-playa-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-playa-2c34",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "beach",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-playa-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-playa-2c34"
   },
   {
-   "slug": "tren-de-patrones-aab-postres-y-dulces-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-postres-y-dulces-3519",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "desserts_and_sweets",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-postres-y-dulces-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-postres-y-dulces-3519"
   },
   {
-   "slug": "tren-de-patrones-aab-primavera-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-primavera-f64f",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "spring",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-primavera-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-primavera-f64f"
   },
   {
-   "slug": "tren-de-patrones-aab-reptiles-y-anfibios-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-reptiles-y-anfibios-3b59",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "reptiles_and_amphibians",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-reptiles-y-anfibios-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-reptiles-y-anfibios-3b59"
   },
   {
-   "slug": "tren-de-patrones-aab-ropa-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-ropa-062a",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "clothing",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-ropa-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-ropa-062a"
   },
   {
-   "slug": "tren-de-patrones-aab-salon-de-clases-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-salon-de-clases-8852",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "classroom",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-salon-de-clases-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-salon-de-clases-8852"
   },
   {
-   "slug": "tren-de-patrones-aab-utensilios-de-cocina-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-utensilios-de-cocina-d868",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "kitchen_tools",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-utensilios-de-cocina-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-utensilios-de-cocina-d868"
   },
   {
-   "slug": "tren-de-patrones-aab-vehiculos-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-vehiculos-2e5e",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "vehicles",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-vehiculos-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-vehiculos-2e5e"
   },
   {
-   "slug": "tren-de-patrones-aab-verano-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-verano-63c8",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "summer",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-verano-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-verano-63c8"
   },
   {
-   "slug": "tren-de-patrones-aab-verduras-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-verduras-1bda",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "vegetables",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-verduras-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-verduras-1bda"
   },
   {
-   "slug": "tren-de-patrones-aab-vida-marina-fe63",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "encuentra-los-objetos-encontrar-el-diferente-vida-marina-0ee0",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "ocean_life",
    "level": "preescolar",
-   "deck": "tren-de-patrones-aab-vida-marina-fe63"
+   "deck": "encuentra-los-objetos-encontrar-el-diferente-vida-marina-0ee0"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-accesorios-8f0d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-accesorios-8f0d"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-actividades-8d61",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-actividades-8d61"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-alrededor-de-la-casa-a1a4",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-alrededor-de-la-casa-a1a4"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-animales-3f01",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-animales-3f01"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-animales-del-zoologico-6502",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-animales-del-zoologico-6502"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-arboles-b025",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-arboles-b025"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-aves-2-a64e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-aves-2-a64e"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-campamento-6e79",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-campamento-6e79"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-clima-c438",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-clima-c438"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-colores-096f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-colores-096f"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-cosas-que-vuelan-93ae",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-cosas-que-vuelan-93ae"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-criaturas-del-bosque-f867",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-criaturas-del-bosque-f867"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-desayuno-9fc3",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-desayuno-9fc3"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-dinosaurios-25f0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-dinosaurios-25f0"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-en-el-supermercado-2121",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-en-el-supermercado-2121"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-espacio-c5f6",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-espacio-c5f6"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-flores-be9e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-flores-be9e"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-frutas-4c9d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-frutas-4c9d"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-hospital-5946",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-hospital-5946"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-invierno-0bda",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-invierno-0bda"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-juguetes-27cd",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-juguetes-27cd"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-musica-035a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-musica-035a"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-navidad-2bfd",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-navidad-2bfd"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-ocupaciones-2941",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-ocupaciones-2941"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-panaderia-627d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-panaderia-627d"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-partes-del-cuerpo-626e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-partes-del-cuerpo-626e"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-pascua-0db7",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-pascua-0db7"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-playa-63bc",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-playa-63bc"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-primavera-93b0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-primavera-93b0"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-ropa-62e5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-ropa-62e5"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-salon-de-clases-0ed8",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-salon-de-clases-0ed8"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-utensilios-de-cocina-3c70",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-utensilios-de-cocina-3c70"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-vehiculos-4bdd",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-vehiculos-4bdd"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-verano-76ea",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-verano-76ea"
+  },
+  {
+   "slug": "tren-del-abecedario-pista-de-letra-vida-marina-9e8b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "tren-del-abecedario-pista-de-letra-vida-marina-9e8b"
   }
  ]
 }

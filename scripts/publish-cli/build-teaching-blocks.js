@@ -100,8 +100,10 @@ function renderHtml(copy, facts) {
   // Range first: the fact a teacher applies before any other filter. `chipLevel` is
   // locale-optional — English leads with ages because US Grade 1 equals UK Year 2, while
   // German bans age-in-years outright. The renderer stays agnostic; the copy system decides.
-  chips.push(copy.chipRange);
-  chips.push(copy.chipMode);
+  // Every chip is optional. A deck with no truthful band claim (more-less check-cross above
+  // ten) gets no band chip rather than an empty one.
+  if (copy.chipRange) chips.push(copy.chipRange);
+  if (copy.chipMode) chips.push(copy.chipMode);
   if (copy.chipTen) chips.push(copy.chipTen);
   if (copy.chipLevel) chips.push(copy.chipLevel);
 
@@ -167,6 +169,16 @@ function main() {
       process.exit(2);
     }
     copySystem = { build: function (f, ord) { return pa.build(f, ord, locale); } };
+  } else if (family === 'math-worksheet' || family === 'more-less' || family === 'code-addition') {
+    /* These three share one module for the same reason picture-arithmetic does: their copy
+     * needs no per-locale RULES, only per-locale strings. What differs between them is the
+     * mechanic, which is a family argument rather than a separate file. */
+    var tf = require('./teaching-copy/three-families.js');
+    if (tf.locales.indexOf(locale) === -1) {
+      console.error('no authored copy for ' + locale + ' in the ' + family + ' family yet (§21.3)');
+      process.exit(2);
+    }
+    copySystem = { build: function (f, ord) { return tf.build(f, ord, locale, family); } };
   } else {
     try {
       copySystem = require('./teaching-copy/' + locale + '.js');
@@ -189,7 +201,9 @@ function main() {
   for (var i = 0; i < facts.length; i++) {
     var f = facts[i];
     if (limit && Object.keys(out).length >= limit) break;
-    var group = f.mode + '|' + f.tenCase;
+    // Group by the mode actually MEASURED where one exists, so rotation scatters within a
+    // real mechanic rather than within a manifest tag that is wrong on hundreds of decks.
+    var group = (f.derivedMode || f.mode) + '|' + (f.tenCase || (f.band && f.band.ceiling) || '');
     groupCount[group] = (groupCount[group] || 0) + 1;
     var ordinal = groupCount[group] - 1;
 
@@ -206,11 +220,18 @@ function main() {
       text: plainText(copy),
       shapes: copy.shapes,
       namedObjects: copy.namedObjects || [],
-      // carried for the verifier: every claim must trace back to these
+      /* Carried for the verifier: every claim must trace back to these. Built defensively
+       * because the newer families have no ten-crossing and, for more-less and
+       * code-addition, no printable maximum at all. */
       facts: {
-        mode: f.mode, maxSeen: f.band.maxSeen, tenCase: f.tenCase,
-        crossesTen: f.regrouping.crossesTen, makesTen: f.regrouping.makesTen,
-        examples: f.examples, tenExample: f.tenExample, theme: f.theme, themeName: f.themeName,
+        mode: f.mode, derivedMode: f.derivedMode || null,
+        maxSeen: (f.band && f.band.maxSeen) || null,
+        ceiling: (f.band && f.band.ceiling) || null,
+        tenCase: f.tenCase || null,
+        crossesTen: f.regrouping ? f.regrouping.crossesTen : null,
+        makesTen: f.regrouping ? f.regrouping.makesTen : null,
+        examples: f.examples || null, tenExample: f.tenExample || null,
+        theme: f.theme, themeName: f.themeName,
       },
     };
   }

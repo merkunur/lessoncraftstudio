@@ -30,6 +30,14 @@ function checkOne(slug, block, f, fails) {
   var text = block.text;
   var add = function (kind, msg) { fails.push({ slug: slug, kind: kind, msg: msg }); };
 
+  /* Families whose content is not a list of two-operand sums are checked by their own rules
+   * and return here. Running the math-puzzle assertions over them would not merely be
+   * useless — `f.band.maxSeen` and `f.regrouping` do not exist on those records, so the
+   * gate would crash rather than report, which is the worst failure mode a gate has. */
+  if (f.type === 'math-worksheet' || f.type === 'more-less' || f.type === 'code-addition') {
+    return checkSpecialFamily(slug, block, f, add, text);
+  }
+
   /* A. every operation printed must be one of this deck's own */
   var own = {};
   (f.operations || []).forEach(function (o) { own[o.text.replace(/\s+/g, '')] = true; });
@@ -285,6 +293,118 @@ function run(blocksPath, factsPath) {
   });
   console.log(fails.length + ' FAILURES — do not ship.');
   return fails.length;
+}
+
+/**
+ * math-worksheet, more-less and code-addition.
+ *
+ * THE ASSERTION THAT MATTERS HERE IS THE ANSWER LEAK, and it is why these three needed a
+ * gate of their own rather than a looser version of the existing one. In this batch the same
+ * FIELD changes class between modes: a more-less count is printed beside the pictures in the
+ * relation mode and is the answer in check-cross. A rule written per family would have been
+ * right half the time. So the deriver marks the answers per deck in `answersDoNotPrint`, and
+ * this asserts their absence per deck.
+ *
+ * The numbers are matched as whole tokens. Substring matching would flag the "10" inside
+ * "0-10" and the gate would fail on the very band sentence it exists to permit.
+ */
+function checkSpecialFamily(slug, block, f, add, text) {
+  var ans = f.answersDoNotPrint || {};
+
+  /* Whole-token match. Substring matching would find the "10" inside "0-10" and fail the
+   * gate on the very band sentence it exists to allow. */
+  var bandCeiling = f.band ? f.band.ceiling : null;
+
+  /* ORDINALS ARE NOT VALUES. Danish, German and Norwegian write the school year as `1. klasse`
+   * / `2. trinn`, and the Danish reviewer ties each band to its year — a true and useful
+   * sentence. A symbol worth 1 on such a sheet made the leak test fire on 22 correct blocks.
+   *
+   * The strip is narrow deliberately: a digit, a period, then a LOWER-CASE word. A leaked
+   * value at the end of a sentence is followed by a capital or by nothing, so it still
+   * trips the assertion. */
+  function deordinal(s) { return String(s).replace(/(\d+)\.\s+(\p{Ll})/gu, ' $2'); }
+
+  function leaks(values, what, haystack) {
+    haystack = deordinal(haystack);
+    var seen = {};
+    (values || []).forEach(function (v) {
+      if (v === null || v === undefined || v === '' || (typeof v === 'number' && isNaN(v))) return;
+      /* An answer that HAPPENS to equal the band is not a leak. A German check-cross deck
+       * whose count is 10, on a page saying "Zahlenraum bis 10", and a code-addition deck
+       * whose total is 20 under "bis 20", both tripped this. The band sentence says only
+       * that nothing exceeds that number — a reader cannot tell which row it belongs to,
+       * and the band is printed by design on every deck at that level. Excluding it keeps
+       * the assertion pointed at real leaks instead of at a coincidence. */
+      if (bandCeiling !== null && Number(v) === bandCeiling) return;
+      var s = String(v);
+      if (seen[s]) return;
+      seen[s] = true;
+      var rx = new RegExp('(?:^|[^\\d\\p{L}])' + s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?![\\d\\p{L}])', 'u');
+      if (rx.test(haystack)) add('answer-leak', 'prints ' + s + ', which is ' + what + ' on this sheet');
+    });
+  }
+
+  if (f.type === 'math-worksheet') {
+    /* The equations are printed on the sheet and may be quoted; what each picture is WORTH
+     * is the answer. A literal inside a quoted equation may legitimately equal a symbol
+     * value, so the leak test runs over the prose with the equations removed. */
+    var prose = (f.equations || []).reduce(function (acc, eq) {
+      return acc.split(eq).join(' ');
+    }, text);
+    leaks(ans.symbolValues, 'what a picture is worth', prose);
+
+    var own = {};
+    (f.equations || []).forEach(function (e) { own[e.replace(/\s+/g, '')] = true; });
+    (text.match(/[^,.]+ = \d+/g) || []).forEach(function (q) {
+      var t = q.trim();
+      if (!own[t.replace(/\s+/g, '')]) add('equation', 'prints "' + t + '" which is not on this sheet');
+    });
+  }
+
+  if (f.type === 'more-less') {
+    // In check-cross the counts ARE the answer; in relation the same field is printed on the
+    // sheet and may be quoted. Same field, different class, one mode apart.
+    leaks(ans.crossCounts, 'a count the child has to work out', text);
+    var ownPairs = {};
+    (f.pairs || []).forEach(function (p) { ownPairs[p.replace(/\s+/g, '')] = true; });
+    (text.match(/\d+ \/ \d+/g) || []).forEach(function (p) {
+      if (!ownPairs[p.replace(/\s+/g, '')]) add('pair', 'prints ' + p + ' which is not on this sheet');
+    });
+  }
+
+  if (f.type === 'code-addition') {
+    // Every total is an answer, and the addends live only in the key baked into the image.
+    leaks(ans.sums, 'a total the child has to work out', text);
+    /* Nothing above the band may appear either. Numbers BELOW it are left alone because
+     * several locales name the year alongside the band — the Danish `som svarer til
+     * 1. klasse` is a level reference, not a leaked total, and banning every numeral would
+     * have failed a true and useful sentence. Hyphenated ranges (`0-10`) are skipped: both
+     * halves belong to the band phrase. */
+    var band = f.band ? f.band.ceiling : null;
+    if (band) {
+      (text.match(/(?<![\d-])\d+(?![\d-])/g) || []).forEach(function (s) {
+        var n = Number(s);
+        if (n > band) add('numeric', 'prints ' + n + ', above the band (' + band + ') this sheet stays inside');
+      });
+    }
+  }
+
+  /* The mode claim must match the mode MEASURED from the content. The manifest tag is wrong
+   * on 303 math-worksheet decks and 100 more-less decks, so a block built from the tag would
+   * describe the wrong mechanic — the shape key records what was actually used. */
+  var shape = (block.shapes && block.shapes.block1) || '';
+  var claimed = shape.split('/')[1];
+  if (claimed && f.derivedMode && claimed !== f.derivedMode) {
+    add('mode', 'block built for ' + claimed + ' but the content measures as ' + f.derivedMode);
+  }
+
+  /* Named objects must be on this sheet (§20.5 duplicate-marker normalisation on both sides). */
+  var strip = function (n) { return String(n).replace(/\s+\d+$/, '').toLowerCase(); };
+  var pictured = {};
+  (f.depictedNouns || []).forEach(function (n) { pictured[strip(n)] = true; });
+  (block.namedObjects || []).forEach(function (n) {
+    if (!pictured[strip(n)]) add('objects', 'names ' + n + ' which is not pictured on this sheet');
+  });
 }
 
 if (require.main === module) {

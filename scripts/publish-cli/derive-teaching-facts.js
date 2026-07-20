@@ -119,6 +119,261 @@ function collectDepictedNouns(ops) {
   return out;
 }
 
+/* ------------------------------------------------------- math-worksheet family */
+
+/**
+ * Symbol substitution. Each picture stands for a number; the child works out which.
+ *
+ * WHAT IS PRINTED AND WHAT IS THE ANSWER — the distinction that governs this whole family.
+ * The sheet shows the EQUATIONS with their results (`A + B = 6`), where A and B are pictures.
+ * The slots are `slotType:"symbol"` and their `expected` is what each picture is worth. So:
+ *
+ *   equations + results   printed on the sheet  ->  quotable, and per-deck unique
+ *   symbol values         the answer            ->  MUST NOT appear anywhere in the copy
+ *
+ * The values are carried in `answersDoNotPrint` so the verifier can assert their ABSENCE.
+ * Nothing in the build path may read that field. (§17.8.9 answer-bearing-field hygiene.)
+ *
+ * MODE IS DERIVED, NOT READ. 404 decks are tagged `exercise_mode: null` while carrying two,
+ * three or four symbols, and the three-symbol tag is worn by decks with two and four. The
+ * symbol count is the honest mode, so it is measured from `symbolsUsed`.
+ */
+function deriveMathWorksheet(manifest) {
+  var exercises = manifest.exercises || [];
+  var symbols = {};        // letter -> picture name
+  var values = {};         // letter -> value   (ANSWER-BEARING)
+  var equations = [];      // rendered with picture names
+  var results = [];
+  var plus = 0, minus = 0;
+
+  exercises.forEach(function (e) {
+    var map = e.imageMap || {};
+    Object.keys(map).forEach(function (letter) {
+      var n = map[letter] && (map[letter].name || map[letter].word);
+      if (n) symbols[letter] = String(n).replace(/\s+\d+$/, '');
+    });
+    var v = e.values || {};
+    Object.keys(v).forEach(function (letter) { values[letter] = v[letter]; });
+
+    (e.equations || []).forEach(function (eq) {
+      if (!eq || typeof eq.expr !== 'string') return;
+      if (eq.expr.indexOf('+') !== -1) plus++;
+      if (eq.expr.indexOf('-') !== -1) minus++;
+      // Substitute the picture name for its letter. A letter with no picture would make the
+      // line meaningless to a reader, so the whole equation is dropped rather than half-named.
+      var missing = false;
+      var rendered = eq.expr.replace(/[A-Z]/g, function (L) {
+        if (!symbols[L]) { missing = true; return L; }
+        return symbols[L];
+      });
+      if (missing) return;
+      if (typeof eq.result !== 'number') return;
+      equations.push(rendered + ' = ' + eq.result);
+      results.push(eq.result);
+      /* Numeric LITERALS inside the expression count toward the band too. Many equations
+       * mix pictures with plain numbers — `Grill + 13 = 14` — and 13 is on the page in front
+       * of the child. §22.1's strict reading: "within N" governs operands AND results, so
+       * reading only results would launder a within-20 sheet into a within-10 one. */
+      (eq.expr.match(/\d+/g) || []).forEach(function (d) { results.push(parseInt(d, 10)); });
+    });
+  });
+
+  var symbolCount = Object.keys(symbols).length;
+  var maxResult = results.length ? Math.max.apply(null, results) : 0;
+  var ceiling = maxResult <= 10 ? 10 : (maxResult <= 20 ? 20 : (maxResult <= 100 ? 100 : null));
+
+  return {
+    derivedMode: symbolCount === 2 ? 'two-symbols'
+      : symbolCount === 3 ? 'three-symbols'
+        : symbolCount === 4 ? 'four-symbols' : null,
+    symbolCount: symbolCount,
+    equationCount: equations.length,
+    equations: equations,
+    operators: { plus: plus, minus: minus },
+    mixesOperations: plus > 0 && minus > 0,
+    depictedNouns: Object.keys(symbols).sort().map(function (L) { return symbols[L]; }),
+    band: results.length ? {
+      maxSeen: maxResult,
+      minSeen: Math.min.apply(null, results),
+      ceiling: ceiling,
+      impliedLevel: ceiling === 10 ? 'kindergarten'
+        : ceiling === 20 ? 'grade-1' : ceiling === 100 ? 'grade-2' : 'above-k3',
+    } : null,
+    // ANSWER-BEARING — for the verifier's absence assertion only. Never read by the builder.
+    answersDoNotPrint: { symbolValues: Object.keys(values).sort().map(function (L) { return values[L]; }) },
+  };
+}
+
+/* ----------------------------------------------------------- more-less family */
+
+/**
+ * Two genuinely different mechanics ship under the single type name `more-less`, and the
+ * field that is safe to print in one is the ANSWER in the other. This is the reason the
+ * family gets its own adapter rather than a mode switch in the copy.
+ *
+ *   relation      Same object on BOTH sides — 384 of 384 sampled pairs — with a different
+ *                 number of it each side, and the child writes >, < or =. Holding the object
+ *                 constant is the pedagogical point: only the quantity differs, so the
+ *                 comparison cannot be answered by looking at WHAT the things are.
+ *                 The counts are printed on the sheet, so they may be quoted.
+ *                 `rel` is the answer and may not.
+ *
+ *   check-cross   TWO DIFFERENT objects scattered together (~16 items), and the child counts
+ *                 each kind and ticks the larger. Here the slots are `countA`/`countB`, so
+ *                 THE COUNTS ARE THE ANSWER and must not be printed — the same numbers that
+ *                 were quotable a paragraph ago.
+ *
+ * MODE IS DERIVED. Decks tagged `image-image` contain 396 image-to-number exercises and 100
+ * check-cross ones, and one deck whose slug says image-image renders check-cross. The
+ * per-exercise `comparisonMode` is the only truthful source.
+ */
+function deriveMoreLess(manifest, locale) {
+  var vocab = require('./teaching-vocab.js');
+  var exercises = manifest.exercises || [];
+  var kinds = {};
+  var pairs = [];            // printable: relation counts as the child sees them
+  var relations = [];        // ANSWER-BEARING
+  var crossCounts = [];      // ANSWER-BEARING (check-cross only)
+  var totals = [];
+  var sameObject = 0, differentObject = 0;
+  var nouns = [];
+  var seenNoun = {};
+
+  function addNoun(p) {
+    var n = vocab.localizedNoun(p, locale);
+    if (!n) return;
+    var k = n.toLowerCase();
+    if (seenNoun[k]) return;
+    seenNoun[k] = true;
+    nouns.push(n);
+  }
+
+  exercises.forEach(function (e) {
+    var cm = e.comparisonMode || 'unknown';
+    kinds[cm] = (kinds[cm] || 0) + 1;
+
+    if (cm === 'check-cross') {
+      addNoun(e.imageA); addNoun(e.imageB);
+      if (typeof e.countA === 'number') crossCounts.push(e.countA);
+      if (typeof e.countB === 'number') crossCounts.push(e.countB);
+      if (typeof e.totalCount === 'number') totals.push(e.totalCount);
+      if (e.moreImage) relations.push(e.moreImage);
+      return;
+    }
+
+    addNoun(e.L); addNoun(e.R);
+    if (e.L && e.R) { if (e.L === e.R) sameObject++; else differentObject++; }
+    if (typeof e.nL === 'number' && typeof e.nR === 'number') pairs.push([e.nL, e.nR]);
+    if (e.rel) relations.push(e.rel);
+  });
+
+  var counts = [];
+  pairs.forEach(function (p) { counts.push(p[0], p[1]); });
+
+  var hasRelation = !!(kinds['image-to-image'] || kinds['image-to-number']);
+  var hasCross = !!kinds['check-cross'];
+
+  return {
+    derivedMode: hasRelation && hasCross ? 'mixed' : hasCross ? 'check-cross'
+      : hasRelation ? 'relation' : null,
+    comparisonKinds: kinds,
+    comparisonCount: exercises.length,
+    // relation only — printed on the sheet, safe to quote
+    pairs: pairs.map(function (p) { return p[0] + ' / ' + p[1]; }),
+    countMin: counts.length ? Math.min.apply(null, counts) : null,
+    countMax: counts.length ? Math.max.apply(null, counts) : null,
+    sameObjectBothSides: differentObject === 0 && sameObject > 0,
+    // one side shows a numeral instead of a group — a real step up in abstraction
+    hasNumeralSide: !!kinds['image-to-number'],
+    hasPictureBothSides: !!kinds['image-to-image'],
+    scatterTotal: totals.length ? Math.max.apply(null, totals) : null,
+    depictedNouns: nouns,
+    /* The band covers BOTH mechanics' counts, not just the quotable relation ones.
+     *
+     * Relation counts run 1-6, so "the groups stay within ten" looked safe. Check-cross
+     * counts reach 12 — measured, not assumed — which would have made that sentence false on
+     * 85 decks. The band is therefore null above ten and the copy omits the claim rather
+     * than softening it. Counting only the printable counts would have hidden this, because
+     * the ones that break it are the ones that may not be printed. */
+    band: (function () {
+      var all = counts.concat(crossCounts);
+      if (!all.length) return null;
+      var m = Math.max.apply(null, all);
+      return m <= 10 ? { maxSeen: m, ceiling: 10, impliedLevel: 'kindergarten' } : null;
+    }()),
+    // ANSWER-BEARING — verifier absence assertion only, never read by the builder.
+    answersDoNotPrint: { relations: relations, crossCounts: crossCounts },
+  };
+}
+
+/* ------------------------------------------------------- code-addition family */
+
+/**
+ * Picture-code addition: each picture stands for a number given in a key, and the child adds
+ * the pictures in each row.
+ *
+ * THE MANIFEST HOLDS NO NUMBERS AT ALL — only the image groups. The sums live in the baked
+ * `deck.html` as `slots[].slotType === "sum"`, which is the §22.1 precedent for reading the
+ * rendered file when the manifest cannot answer the question.
+ *
+ * And every one of those sums is the ANSWER the child writes. So unlike every other family
+ * here, NOTHING numeric may be quoted per problem. What may be said is the BAND the totals
+ * stay inside — a band is a property of the sheet, a maximum is one of its answers. That
+ * distinction is why `band` carries a ceiling and deliberately does not carry `maxSeen`.
+ *
+ * The secret-word variant additionally maps each answer to a letter that spells a word; the
+ * letters are answers too, and the word length is the only safe fact about them.
+ */
+function deriveCodeAddition(manifest, deckDir) {
+  var exercises = manifest.exercises || [];
+  var settings = manifest.settings || {};
+  var nouns = [];
+  var seen = {};
+  var addends = [];
+
+  exercises.forEach(function (row) {
+    if (!Array.isArray(row)) return;
+    addends.push(row.length);
+    row.forEach(function (img) {
+      var n = img && (img.name || img.word);
+      if (!n) return;
+      n = String(n).replace(/\s+\d+$/, '');
+      var k = n.toLowerCase();
+      if (seen[k]) return;
+      seen[k] = true;
+      nouns.push(n);
+    });
+  });
+
+  var sums = [], letters = [];
+  try {
+    var bundle = require('./teaching-vocab.js')
+      .readDeckBundle(fs.readFileSync(path.join(deckDir, 'deck.html'), 'utf8'));
+    ((bundle && bundle.slots) || []).forEach(function (s) {
+      if (s.slotType === 'sum') sums.push(parseInt(s.expected, 10));
+      else if (s.slotType === 'letter') letters.push(s.expected);
+    });
+  } catch (e) { /* a deck whose sums cannot be read simply gets no band */ }
+
+  var maxSum = sums.length ? Math.max.apply(null, sums.filter(function (n) { return !isNaN(n); })) : 0;
+  var ceiling = !maxSum ? null : (maxSum <= 10 ? 10 : maxSum <= 20 ? 20 : maxSum <= 100 ? 100 : null);
+
+  return {
+    derivedMode: letters.length ? 'secret-word' : 'plain',
+    problemCount: exercises.length,
+    symbolCount: parseInt(settings.symbol_count, 10) || null,
+    addendsMin: addends.length ? Math.min.apply(null, addends) : null,
+    addendsMax: addends.length ? Math.max.apply(null, addends) : null,
+    secretWordLength: letters.length || null,
+    depictedNouns: nouns,
+    // NOTE the absent maxSeen: the largest total IS an answer. Only the band may be printed.
+    band: ceiling ? { ceiling: ceiling, impliedLevel: ceiling === 10 ? 'kindergarten'
+      : ceiling === 20 ? 'grade-1' : 'grade-2' } : null,
+    // ANSWER-BEARING — verifier absence assertion only, never read by the builder.
+    answersDoNotPrint: { sums: sums, letters: letters },
+  };
+}
+
 /* ---------------------------------------------------------------- grade band */
 
 /**
@@ -338,16 +593,28 @@ function deriveOne(deckDir) {
   var mechanic = describeMechanic(manifest);
   var regrouping = measureRegrouping(ops);
 
-  // The deck's own claimed level, for comparison only.
-  var taggedLevel = null;
-  try {
-    var html = path.join(deckDir, 'deck.html');
-    if (fs.existsSync(html)) {
-      var head = fs.readFileSync(html, 'utf8').slice(0, 60000);
-      var m = head.match(/"educationalLevel"\s*:\s*"([^"]+)"/);
-      if (m) taggedLevel = m[1];
-    }
-  } catch (e) { /* comparison is optional */ }
+  /* Families whose content is not a list of two-operand sums get their own adapter and
+   * return early: forcing them through collectOperations would yield zero operations and
+   * the "no data" conclusion this script exists to correct. */
+  var special = null;
+  if (manifest.exercise_type === 'math-worksheet') special = deriveMathWorksheet(manifest);
+  else if (manifest.exercise_type === 'more-less') special = deriveMoreLess(manifest, manifest.language || 'en');
+  else if (manifest.exercise_type === 'code-addition') special = deriveCodeAddition(manifest, deckDir);
+
+  if (special) {
+    special.slug = path.basename(deckDir).replace(/-v\d+$/, '');
+    special.language = manifest.language || null;
+    special.type = manifest.exercise_type;
+    special.mode = mode;                 // the tag, kept only so a disagreement is visible
+    special.theme = manifest.theme || null;
+    special.taggedLevel = readTaggedLevel(deckDir);
+    special.modeDisagreement = modeTagDisagrees(mode, special.derivedMode);
+    special.levelDisagreement = (special.band && special.taggedLevel)
+      ? !levelMatches(special.band.impliedLevel, special.taggedLevel) : null;
+    return special;
+  }
+
+  var taggedLevel = readTaggedLevel(deckDir);
 
   return {
     slug: path.basename(deckDir).replace(/-v\d+$/, ''),
@@ -371,6 +638,33 @@ function deriveOne(deckDir) {
     levelDisagreement: (band && taggedLevel)
       ? !levelMatches(band.impliedLevel, taggedLevel) : null,
   };
+}
+
+/**
+ * Does the manifest's mode tag contradict the mode measured from the content?
+ *
+ * A null tag is not a contradiction — it says nothing. A tag that names a different shape is:
+ * `three-symbols-add-sub` on a two-symbol sheet, `image-image` on a check-cross sheet. Only
+ * the measured value is ever used for copy; this exists so the scale of the drift is visible
+ * rather than silently absorbed.
+ */
+function modeTagDisagrees(tag, derived) {
+  if (!tag || !derived) return null;
+  var t = String(tag).toLowerCase();
+  if (derived === 'plain' || derived === 'mixed') return null;   // no single tag to compare
+  if (derived === 'relation') return t.indexOf('image') !== 0;
+  return t.indexOf(derived) !== 0;
+}
+
+/** The deck's own claimed level, read from its JSON-LD. For comparison only, never copy. */
+function readTaggedLevel(deckDir) {
+  try {
+    var html = path.join(deckDir, 'deck.html');
+    if (!fs.existsSync(html)) return null;
+    var head = fs.readFileSync(html, 'utf8').slice(0, 60000);
+    var m = head.match(/"educationalLevel"\s*:\s*"([^"]+)"/);
+    return m ? m[1] : null;
+  } catch (e) { return null; }
 }
 
 /** Tolerant comparison between our band keys and the deck's own educationalLevel string. */
@@ -415,21 +709,25 @@ function main() {
   fs.writeFileSync(outPath, JSON.stringify(results, null, 1));
 
   // Summary that says what was MEASURED, so the numbers can be argued with.
-  var byMode = {}, byBand = {}, disagree = 0, noOps = 0, crossing = 0;
+  var byMode = {}, byBand = {}, disagree = 0, noOps = 0, crossing = 0, modeWrong = 0;
   results.forEach(function (r) {
-    byMode[r.mode] = (byMode[r.mode] || 0) + 1;
+    // Families with a derived mode are summarised by the MEASURED mode, since the tag is
+    // what the derivation exists to distrust.
+    byMode[r.derivedMode || r.mode] = (byMode[r.derivedMode || r.mode] || 0) + 1;
     var b = r.band ? r.band.ceiling : 'none';
     byBand[b] = (byBand[b] || 0) + 1;
     if (r.levelDisagreement) disagree++;
-    if (!r.operationCount) noOps++;
-    if (r.regrouping.anyCrossing) crossing++;
+    if (r.modeDisagreement) modeWrong++;
+    if (!(r.operationCount || r.equationCount || r.comparisonCount || r.problemCount)) noOps++;
+    if (r.regrouping && r.regrouping.anyCrossing) crossing++;
   });
   console.log(locale + ' / ' + type + ': ' + results.length + ' decks');
   console.log('  by mode:            ' + JSON.stringify(byMode));
   console.log('  by measured ceiling:' + JSON.stringify(byBand));
-  console.log('  crosses the ten:    ' + crossing + '  (rest stay inside the ten)');
-  console.log('  no parsable ops:    ' + noOps);
+  if (crossing) console.log('  crosses the ten:    ' + crossing + '  (rest stay inside the ten)');
+  console.log('  nothing parsable:   ' + noOps);
   console.log('  measured band DISAGREES with the deck tag: ' + disagree);
+  if (modeWrong) console.log('  measured mode DISAGREES with the deck tag: ' + modeWrong);
   console.log('  -> ' + outPath);
 }
 

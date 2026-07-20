@@ -538,6 +538,28 @@
       "Differensiering: nybegynnere betaler små priser med enkroner alene; de som er klare for mer, utfordres til å bruke færrest mulig mynter — eller til å regne ut vekslepengene i hodet før selgeren teller dem opp."
     ]
   },
+  "choral-counting": {
+    "slug": "telle-i-kor",
+    "name": "Telle i kor",
+    "tagline": "Hele klassen teller høyt sammen — hvert trykk skriver neste tall inn i rutenettet.",
+    "metaTitle": "Telle i kor – tallrekker for småskolen | LessonCraftStudio",
+    "metaDescription": "Digital telletavle: hvert trykk skriver neste tall i rutenettet. Tell høyt sammen, marker mønstre og øv på tallrekker i småskolen – rett i nettleseren.",
+    "about": [
+      "Telle i kor er en digital telletavle for hele klassen. Dere teller høyt sammen, og for hvert trykk på «Neste» skrives det neste tallet inn i rutenettet — i lærerens tempo, aldri automatisk. Pausene er selve poenget: Klassen rekker å tenke før tallet kommer. Med tusjene kan dere fargelegge ruter og rader når noen oppdager et mønster, og spørsmålstegnet lar dere stoppe ved en tom rute og undre: Hva kommer her? Slå på talestemmen, så leses hvert tall opp mens tallene vokser fram på tavla.",
+      "Verktøyet dekker tallrekkene klassen møter i matematikk på 1. og 2. trinn (LK20): telle til 100, tierhopp, toere og femmere, telle baklengs og over hundrerne. Gratisversjonen lar dere telle med 1 og 10, med spørsmålstegnruter og oppleste tall — nok til den daglige samlingsstunden. Med Premium åpner du alle steg og starttall, baklengs telling, tusjene, kolonnevalget og de ferdige tellingene for skolestart, 1. og 2. trinn, og du kan lagre inntil åtte planlagte tellinger til senere økter."
+    ],
+    "howToUse": [
+      "Velg en ferdig telling, eller sett starttall, steg og antall kolonner selv.",
+      "Tell høyt i kor med klassen, og trykk på «Neste» for hvert tall — tavla venter alltid på dere.",
+      "Stopp underveis: Fargelegg ruter med tusjene og spør «Hva legger dere merke til?»",
+      "Sett et spørsmålstegn på en tom rute, la klassen forutsi tallet, og tell dere fram til svaret sammen."
+    ],
+    "classroomIdeas": [
+      "Samlingsstund: Tell til 30 i kor mens tallene vokser fram rad for rad, og la barna oppdage at kolonnene gjentar seg.",
+      "Tierhopp fra 7: La klassen forutsi neste tall, og fargelegg enerne — hvorfor står det en sjuer i alle rutene?",
+      "Tell baklengs fra 20 som overgangsrutine før friminuttet — sett et spørsmålstegn på et par ruter, og la klassen hviske tallet når dere kommer dit."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

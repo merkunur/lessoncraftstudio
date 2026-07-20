@@ -538,6 +538,28 @@
       "Stationstorget: spara ett torgstånd per grupp med priser i lagom band och låt grupperna rotera genom samma marknad."
     ]
   },
+  "choral-counting": {
+    "slug": "rakna-i-kor",
+    "name": "Räkna i kör",
+    "tagline": "Klassen räknar högt i kör — varje tryck skriver nästa tal i rutnätet.",
+    "metaTitle": "Räkna i kör – räkna högt tillsammans i klassen (F–åk 2)",
+    "metaDescription": "Ett tavelverktyg för gemensam räkning i F-klass–åk 2: varje tryck skriver nästa tal, klassen räknar högt och samtalar om mönstren. Räkna med 1 och 10 gratis.",
+    "about": [
+      "Räkna i kör är ett tavelverktyg för gemensam räkning i klassrummet. Klassen räknar högt tillsammans, och vid varje tryck på Nästa skrivs nästa tal in i rutnätet — verktyget går aldrig vidare av sig självt, för pausen är själva poängen. Stanna upp, sätt ett frågetecken på en tom ruta och låt barnen förutsäga vilket tal som ska stå där. Ni kan också låta enheten läsa upp varje tal, så att klassen hör hur talen låter medan de skrivs. Frågan som bär hela samtalet är densamma varje gång: vad lägger ni märke till?",
+      "Att räkna med 1 och 10 i taget är alltid gratis — med frågeteckensrutor, upplästa tal och två planerade räkningar för förskoleklassen. Med Premium öppnar ni resten: alla hopp och starttal (till exempel tvåhopp, femhopp eller 25-hopp), baklängesräkning, valfritt antal kolumner, att skriva nedåt i kolumner, pennorna och färgningen av ental och tiotal, hela hyllan med planerade räkningar för åk 1 och åk 2 samt upp till åtta sparade räkningar."
+    ],
+    "howToUse": [
+      "Välj en planerad räkning på hyllan eller ställ in starttal, hopp och antal kolumner själv.",
+      "Räkna högt i kör med klassen. När ni har sagt talet tillsammans trycker du på Nästa — och talet skrivs in i rutnätet.",
+      "Stanna upp och sätt ett frågetecken på en tom ruta: vilket tal ska stå här? Låt barnen motivera sina förslag innan ni räknar vidare.",
+      "Avsluta med samtalet: vad lägger ni märke till? Färga mönster med pennorna eller färga entalen och tiotalen."
+    ],
+    "classroomIdeas": [
+      "Gör räkningen till en fast punkt i samlingen — börja terminen med att räkna till 30 och låt räkningarna växa med klassen genom året.",
+      "Slå på Läs upp varje tal och välj Lyssna noga-räkningarna: klassen hör hur elva, tolv och tretton bryter mönstret, medan tjugoett och tjugotvå följer det.",
+      "Räkna baklänges från 20 som nedräkning inför rast eller utflykt — eller ta 25-hoppen till 500 i åk 2 och prata om hundraövergångarna."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

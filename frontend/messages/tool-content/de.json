@@ -539,6 +539,28 @@
       "Vom Legen zum Rechnen: Beide Wege zu einem Preis als Plusaufgaben ins Heft schreiben — zum Beispiel 50 = 20 + 20 + 10 und 50 = 10 + 10 + 10 + 10 + 10."
     ]
   },
+  "choral-counting": {
+    "slug": "zaehlen-im-chor",
+    "name": "Zählen im Chor",
+    "tagline": "Gemeinsam laut zählen, Muster entdecken — das digitale Zahlenblatt für den Morgenkreis.",
+    "metaTitle": "Gemeinsam zählen & Zahlenmuster entdecken – Zählen im Chor",
+    "metaDescription": "Die Klasse zählt laut, jedes Tippen schreibt die nächste Zahl aufs Zahlenblatt. Muster markieren, Zahlen anhören, staunen – von Kindergarten bis Klasse 2.",
+    "about": [
+      "Zählen im Chor bringt das gemeinsame laute Zählen an die Tafel: Die Klasse zählt im Chor, und bei jedem Antippen erscheint die nächste Zahl handschriftlich auf einem großen Zahlenblatt — Reihe für Reihe, wie auf Plakatpapier. Das Werkzeug zählt nie von selbst weiter; die Pause gehört dem Gespräch. So werden Zahlenmuster sichtbar: Die Einer wiederholen sich, die Zehner wachsen. Auf Wunsch spricht das Werkzeug jede Zahl vor — auf dem Blatt steht 21, im Raum klingt „einundzwanzig“. Genau diese Umkehrung übt das sichere Schreiben zweistelliger Zahlen und beugt Zahlendrehern vor.",
+      "Mit den Fragezeichen-Feldern markiert ihr leere Felder zum Mitdenken: Welche Zahl wird hier stehen? Kein Tipp wird bewertet — wenn die Zahl ankommt, freut sich die Klasse einfach mit. Bunte Stifte heben Muster hervor, ganze Zeilen und Spalten lassen sich färben. Fertige Zählungen für Kindergarten, Klasse 1 und Klasse 2 sowie die Gruppe „Genau hinhören“ liegen bereit. Das Zählen in Einer- und Zehnerschritten ist dauerhaft kostenlos; alle weiteren Schrittweiten, das Rückwärtszählen, die Stifte, die Spaltenwahl und gespeicherte Zählungen gehören zu Premium."
+    ],
+    "howToUse": [
+      "Wählt eine fertige Zählung aus oder stellt Startzahl, Schrittweite und Spalten selbst ein.",
+      "Zählt gemeinsam laut — tippt auf „Weiter“, sobald die Klasse die nächste Zahl gesprochen hat.",
+      "Haltet an und fragt: „Was fällt euch auf?“ Markiert Muster mit den Stiften oder färbt Einer und Zehner.",
+      "Setzt Fragezeichen auf leere Felder und zählt weiter, bis sich die Vermutung von selbst auflöst."
+    ],
+    "classroomIdeas": [
+      "Morgenkreis-Ritual: Jeden Tag ein Stück weiterzählen und das wachsende Zahlenblatt gemeinsam an der Tafel begleiten.",
+      "Zahlendreher-Training: Mit der „Zahlendreher-Strecke“ (18–42) hören die Kinder „einundzwanzig“, während 21 erscheint — und besprechen, was zuerst gesagt und was zuerst geschrieben wird.",
+      "Vermutungs-Spiel: Ein Fragezeichen weit unten im Blatt setzen — wer kann begründen, welche Zahl dort stehen wird, bevor die Klasse dort ankommt?"
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

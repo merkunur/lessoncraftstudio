@@ -538,6 +538,28 @@
       "Lancez un défi équivalences : payer 50 c sans la pièce de 50 c, payer 1 € sans la pièce de 1 € — combien de façons la classe peut-elle trouver ?"
     ]
   },
+  "choral-counting": {
+    "slug": "comptons-ensemble",
+    "name": "Comptons ensemble",
+    "tagline": "La classe compte à voix haute ; chaque appui écrit le nombre suivant dans le tableau.",
+    "metaTitle": "Rituel de comptage collectif — tableau des nombres interactif",
+    "metaDescription": "La classe compte à voix haute, chaque appui écrit le nombre suivant dans le tableau : feutres, cases « ? », nombres prononcés. De la maternelle au CE1.",
+    "about": [
+      "Comptons ensemble met à l’écran le rituel du comptage collectif — le « comptage choral » cher aux formateurs, cousin du jeu du furet. La classe compte à voix haute ; à chaque appui, le nombre suivant s’écrit dans un grand tableau, comme sur une affiche de classe. Rien n’avance tout seul : c’est la voix des élèves qui mène, et la pause fait partie de la leçon. Activez « Prononcer chaque nombre » et le tableau affiche 70 pendant que la classe entend « soixante-dix » — exactement là où l’écrit et l’oral se séparent, de soixante à cent.",
+      "Posez une case « ? » sur un nombre à venir et laissez la classe prédire — l’arrivée du nombre est une découverte, jamais une sanction. Les feutres colorent des cases, des lignes entières, ou les unités et les dizaines, pour faire parler les régularités après la question « Que remarquez-vous ? ». Des comptages préparés par niveau (Maternelle, CP, CE1) se lancent en un appui, et vos propres comptages s’enregistrent pour demain. Compter de 1 en 1 et de 10 en 10 reste gratuit ; les autres pas, les départs libres et les feutres font partie de Premium."
+    ],
+    "howToUse": [
+      "Choisissez un comptage préparé (Maternelle, CP ou CE1) ou réglez vous-même le départ, le pas et le nombre de colonnes.",
+      "La classe compte à voix haute ; appuyez sur « Suivant » quand le nombre est dit — il s’écrit aussitôt dans le tableau.",
+      "Posez des cases « ? » sur les nombres à venir, puis demandez « Que remarquez-vous ? » et coloriez les régularités au feutre.",
+      "Activez « Prononcer chaque nombre » pour entendre soixante-dix ou quatre-vingt-dix, et enregistrez le comptage pour le reprendre plus tard."
+    ],
+    "classroomIdeas": [
+      "En rituel du matin, façon jeu du furet : chaque élève dit le nombre suivant à tour de rôle, et le tableau garde la trace écrite de la chaîne orale.",
+      "En GS ou au CP, lancez « Tendez l’oreille » de 55 à 104 : la colonne des 60, 70, 80, 90, 100 s’empile, et la classe compare ce qu’elle entend à ce qui s’écrit.",
+      "Au CE1, comptez de 25 en 25 jusqu’à 500 : posez un « ? » sur la case qui suivra 75, laissez la classe débattre de ce qui va s’écrire, puis appuyez pour voir le nombre arriver."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

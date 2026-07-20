@@ -146,9 +146,18 @@ function claimsOf(phrase, m) {
   // languages we do not teach at all
   const foreign = FOREIGN.some((f) => p.includes(' ' + f + ' '))
     || TOO_YOUNG.some((y) => p.includes(' ' + y + ' '));
-  // subjects and activity kinds the phrase claims
+  /* Subjects, matched with singular/plural tolerance.
+   *
+   * "Initial Sound Worksheets Grade 2" landed on a MATH page because the list
+   * held "initial sounds" and the phrase said "initial sound". Patching one
+   * missing plural at a time is how this vocabulary has been wrong three times,
+   * so match both forms instead of adding another entry. */
   const subjects = new Set();
-  for (const w of SUBJECT_WORDS) if (p.includes(' ' + w + ' ')) subjects.add(w);
+  for (const w of SUBJECT_WORDS) {
+    const singular = w.replace(/s$/, '');
+    if (p.includes(' ' + w + ' ') || p.includes(' ' + singular + ' ')
+      || p.includes(' ' + singular + 's ')) subjects.add(w);
+  }
   return { levels, themes, langs, foreign, subjects };
 }
 

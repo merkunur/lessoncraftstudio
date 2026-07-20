@@ -111,6 +111,20 @@ function translateRow(text, locale) {
     // row is left in English instead — visibly wrong beats subtly wrong, and it shows up in
     // the "already localised" count rather than passing silently.
     if (leak) return null;
+
+    /* math-worksheet is the one row whose VALUE is itself English: `{equations}` arrives as
+     * "Moose plus Rabbit minus Bat equals 5, Rabbit plus 15 equals 21" — the picture names are
+     * localised but the operator words are not. They are translated with the words derived
+     * from this locale's own addition and subtraction rows, so a page cannot read "plus" on
+     * one line and the locale's word on the next. */
+    if (vals.equations) {
+      var w = T.arithmeticWords(locale);
+      if (!w) return null;
+      vals.equations = vals.equations
+        .replace(/ plus /g, w.plus)
+        .replace(/ minus /g, w.minus)
+        .replace(/ equals /g, w.equals);
+    }
     return target.replace(/\{([^}]*)\}/g, function (whole, name) {
       return Object.prototype.hasOwnProperty.call(vals, name) ? vals[name] : whole;
     });

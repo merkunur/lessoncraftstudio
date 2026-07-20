@@ -229,4 +229,8 @@ function main() {
   }
 }
 
-main();
+// Guarded so compose-title-meta.js can require() this module for its native
+// vocabulary WITHOUT executing the CLI (which writes the locale JSON).
+if (require.main === module) main();
+
+module.exports = { FR_JSON, GRADE_LABEL, META_CAP, META_FLAVOR, NO_CARRY_EXCLUDED_MODES, NO_CARRY_EXCLUDED_TYPES, NUMERIC_TYPES, REPO_ROOT, TAIL_NUMERIC, TAIL_OTHER, TAXONOMY, TYPE_MAP, WITHIN_10_STANDARDS, buildMeta, buildTitle, cap, gradeFor, loadTaxonomyThemes, noCarryFor, resolveOp, resolveQual, themeDisplay };

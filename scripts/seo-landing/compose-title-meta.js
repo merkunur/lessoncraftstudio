@@ -367,12 +367,63 @@ function buildLeadMap(locale, overrides, corpus) {
   return out;
 }
 
-/** Native operation name from the locale's own engine, if it has one. */
+/**
+ * Native operation name from the locale's own engine.
+ *
+ * `op` takes THREE shapes across the engines, and the third was missed at first:
+ *   string    "Addition Worksheets"
+ *   function  (coord, standard) => "..."
+ *   OBJECT    keyed by mode — sv pattern-train:
+ *             { null: "AB-mönster", aab: "AAB-mönster", abb: "ABB-mönster", ... }
+ *
+ * 8 of 11 locales use the object form for 4-10 types each (fi 10, da/no 9, nl/sv 8).
+ * Returning it unresolved put a literal "[object Object]" into live titles — caught
+ * in sv "tillbehör arbetsblad – förskola, [object object]".
+ *
+ * Resolving it is not merely a bug fix: these objects carry the MODE-SPECIFIC
+ * native operation names, which is precisely the distinction that was collapsing
+ * multi-mode siblings onto one title. Null mode is keyed as the string 'null',
+ * matching the convention resolveQual() already uses.
+ */
 function engineOp(type, coordinate, standard, engine) {
   const m = engine.TYPE_MAP && engine.TYPE_MAP[type];
-  if (!m) return null;
-  try { return typeof m.op === 'function' ? m.op(coordinate, standard) : m.op; }
-  catch { return null; }
+  if (!m || m.op == null) return null;
+  try {
+    if (typeof m.op === 'function') return m.op(coordinate, standard) || null;
+    if (typeof m.op === 'string') return m.op;
+    if (typeof m.op === 'object') {
+      const key = coordinate.mode == null ? 'null' : String(coordinate.mode);
+      const v = m.op[key] != null ? m.op[key] : m.op.null;
+      return typeof v === 'string' ? v : null;
+    }
+  } catch { /* fall through */ }
+  return null;
+}
+
+/**
+ * Does this type's operation name actually VARY by mode in this locale?
+ *
+ * Must be answered by probing, not by inspecting the shape. The object form is
+ * obviously mode-keyed, but the FUNCTION form may or may not be — en big-small is
+ * `c => c.mode === 'orderAsc' ? 'Order by Size' : 'Find the Biggest'` (varies),
+ * while plenty of other functions ignore the mode entirely (constant).
+ *
+ * Treating every function as mode-varying was worse than treating none as such:
+ * it replaced the taxonomy mode label — which WAS distinguishing — with a constant
+ * string, and collisions jumped fr 3->259, it 70->237, pt 25->189, da 0->96.
+ */
+function opVariesByMode(type, coordinate, standard, engine) {
+  const m = engine.TYPE_MAP && engine.TYPE_MAP[type];
+  if (!m || m.op == null) return false;
+  if (typeof m.op === 'object') return Object.keys(m.op).length > 1;
+  if (typeof m.op !== 'function') return false;
+  const base = engineOp(type, coordinate, standard, engine);
+  for (const alt of [null, 'orderAsc', 'findBig', 'mixed', 'i-spy', 'name', 'letter', 'make-whole']) {
+    if (alt === coordinate.mode) continue;
+    const probe = engineOp(type, { ...coordinate, mode: alt }, standard, engine);
+    if (probe && base && probe !== base) return true;
+  }
+  return false;
 }
 
 /**
@@ -445,6 +496,47 @@ function assertEngineAdapters(locale, landings, engine) {
            hasRangeMaps: !!(engine.RANGE_BY_STANDARD || engine.RANGE_BY_LEVEL || engine.BIS_BY_STANDARD) };
 }
 
+/**
+ * Theme display, via the LOCALE'S OWN engine.
+ *
+ * Reading the taxonomy name directly leaks the raw key whenever a theme is absent
+ * from the taxonomy — and 544 keys are, almost all picture-sort "-vs-" pairs.
+ * Measured before this: 230 titles in en/de/sv alone read
+ * "Animals-vs-birds Picture Sorting", ~1,253 across all 11 locales.
+ *
+ * Every engine's themeDisplay() already splits those pairs with its own
+ * connector — en "Animals and Birds", de "Tiere und Vögel", sv "Djur och Fåglar" —
+ * so this is reuse rather than new data. topics-taxonomy.json is deliberately NOT
+ * edited: its theme names feed rewrite-deck-html-title.js, deck-rich-alt.js and
+ * the topic-page route, so a change there reaches 22K+ already-indexed deck pages,
+ * which the §21.5a churn freeze exists to prevent.
+ */
+function themeDisplayFor(themeKey, locale, engine, themeAxis) {
+  if (!themeKey) return null;
+  let out = null;
+  if (typeof engine.themeDisplay === 'function') {
+    try { out = engine.themeDisplay(themeKey, themeAxis || {}); } catch { out = null; }
+  }
+  if (!out) out = taxonomyName('theme', themeKey, locale) || String(themeKey).replace(/_/g, ' ');
+  // Normalise the black-and-white marker. Upstream it is inconsistent already
+  // ("Animals BW" / "Christmas B&W" / "Classroom (B&W)" / de "SW" / sv "SV"), and
+  // b&w is a genuine search modifier for teachers without a colour printer — so
+  // surface it in a readable form rather than leaving a bare token. Display only.
+  if (/_bw$/.test(themeKey)) {
+    const bw = (BW_LABEL[locale] || BW_LABEL.en);
+    out = String(out).replace(/\s*[({]?\s*(B\s*&\s*W|BW|B\/W|SW|S\/W|SV|S&V|S\/V|BN|MV|NB|ZW|SH|PB)\s*[)}]?\s*$/i, '').trim();
+    out = `${out} ${bw}`;
+  }
+  return out;
+}
+
+/** Locale-native "black and white" marker, for the display normalisation above. */
+const BW_LABEL = {
+  en: '(Black & White)', de: '(Schwarz-Weiß)', es: '(Blanco y Negro)', fr: '(Noir et Blanc)',
+  it: '(Bianco e Nero)', nl: '(Zwart-Wit)', pt: '(Preto e Branco)', sv: '(Svartvit)',
+  da: '(Sort-Hvid)', no: '(Svart-Hvitt)', fi: '(Mustavalkoinen)',
+};
+
 /** Properly-cased level label from the engine, not the raw taxonomy name. */
 function engineLevel(level, locale, engine) {
   if (!level) return null;
@@ -478,7 +570,7 @@ function composeOne(l, row, ctx) {
   const demoted = descriptor ? null : fallback;
 
   // --- differentiators --------------------------------------------------------
-  const theme = c.theme ? (taxonomyName('theme', c.theme, locale) || String(c.theme).replace(/_/g, ' ')) : null;
+  const theme = themeDisplayFor(c.theme, locale, engine, ctx.themeAxis);
   const level = engineLevel(c.level, locale, engine);
   const mode = c.mode ? taxonomyName('exercise-mode', c.mode, locale) : null;
   const letter = c.letter ? String(c.letter).toUpperCase() : null;
@@ -488,18 +580,54 @@ function composeOne(l, row, ctx) {
   // --- title: Tier-A differentiator FIRST -------------------------------------
   // Order follows what the paired-SERP tests showed actually splits results:
   // target-language > enumerated letter > theme > skill/mode > level.
+  // Tier-A differentiator first, in the order the paired-SERP tests showed splits
+  // results: target-language > enumerated letter > theme.
+  //
+  // The theme MUST ride along with target-language and letter, not be replaced by
+  // them. Dropping it made all 48 English-wordsearch pages in a locale share one
+  // head — fr "anglais mots mêlés", sv "engelska ordsök", fi "englanti sanahaku" —
+  // which is the very cannibalization this program removes, just relocated to the
+  // cross-language tier.
   const head = [];
   if (c.target) head.push(`${taxonomyName('target-language', c.target, locale) || c.target}`);
   else if (letter) head.push(`${letter}`);
-  else if (theme) head.push(theme);
+  if (theme) head.push(theme);
 
   // range + qualifier ride WITH the operation, preserving the locked range-led
   // shape ("Addition bis 10 ohne Zehnerübergang") now that the theme leads.
+  // The MODE must survive whenever it is what tells siblings apart. Several types
+  // resolve their operation name per mode in the engine (en pattern-train ->
+  // "AB/AAB/ABB/AABB/ABC Patterns"), but `descriptor` comes from the demand lead,
+  // which is mode-INDEPENDENT — so using it silently collapsed all five pattern
+  // modes onto one title. Include the mode unless it is already spelled out in the
+  // descriptor or the qualifier.
+  // Where the engine names the operation PER MODE, that native name is the better
+  // mode marker than the generic taxonomy mode label — "AAB-mönster" beats
+  // "AAB-mönster"-less prose, and it is the locale's own wording.
+  //
+  // `op` encodes the mode in BOTH the object form (sv pattern-train) and the
+  // FUNCTION form — en big-small is `(c) => c.mode === 'orderAsc' ? 'Order by
+  // Size' : 'Find the Biggest'`. Checking only the object form left en/es/it
+  // big-small siblings identical ("4th of July Big and Small – Preschool" twice,
+  // 49 en / 97 es groups). Whenever op says something the demand lead does not,
+  // it IS the mode marker, and it is the locale's own wording.
+  const opVaries = opVariesByMode(c.type, c, l.standard, engine);
+  const modeLabel = (opVaries && op) ? op : mode;
+  const already = norm(`${descriptor || ''} ${qual || ''}`);
+  const modeToks = modeLabel ? toks(modeLabel) : [];
+  const modeRedundant = modeToks.length > 0 && modeToks.every((t) => already.includes(t));
+  // Where the mode is what separates siblings, it must land INSIDE the first ~50
+  // characters — that is where Google truncates, and two titles that differ only
+  // after char 50 present identically. Measured: pt "criaturas da floresta
+  // sequência lógica sequência a…" put five modes past the cut. So a mode-keyed
+  // label leads the body; otherwise it trails as a refinement.
+  const modeFirst = modeLabel && !modeRedundant && opVaries;
   const body = [
+    modeFirst ? modeLabel : null,
     descriptor || S.worksheet,
     range || null,
     qual || null,
-    mode && !descriptor ? mode : null,
+    !modeFirst && modeLabel && !modeRedundant ? modeLabel : null,
   ].filter(Boolean);
   const tail = [level, demoted].filter(Boolean);
 
@@ -548,5 +676,5 @@ function buildMeta({ l, S, descriptor, theme, level, factBits }) {
 
 module.exports = {
   SURFACE, NATIVE_LEAD, EDGE_STOPWORDS, TITLE_SOFT_CAP, META_MIN, META_MAX,
-  loadOverrides, loadEngine, loadCorpus, corpusHas, corpusHasCompound, demandLeadForType, composeOne, chromeTokens, buildLeadMap, assertEngineAdapters, engineQual, engineRange,
+  loadOverrides, loadEngine, loadCorpus, corpusHas, corpusHasCompound, demandLeadForType, composeOne, chromeTokens, engineOp, opVariesByMode, themeDisplayFor, BW_LABEL, buildLeadMap, assertEngineAdapters, engineQual, engineRange,
 };

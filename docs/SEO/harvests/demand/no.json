@@ -4,31 +4,36 @@
   "hl": "no",
   "gl": "no"
  },
- "generatedAt": "2026-07-20T08:57:48.401Z",
+ "generatedAt": "2026-07-20T09:57:36.529Z",
  "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
- "requestCount": 229,
+ "requestCount": 470,
  "seedCounts": {
-  "skill": 11,
-  "context": 6,
+  "skill": 24,
+  "context": 8,
   "audience": 4,
   "enumerated": 0,
   "pack": 1,
-  "cross": 207
+  "cross": 315,
+  "typeName": 118
  },
  "errorCount": 0,
  "errors": [],
  "newVsInventory": {
   "inventoryUnique": 743,
-  "demandUnique": 299,
-  "novel": 297,
-  "novelShare": 0.993
+  "demandUnique": 727,
+  "novel": 407,
+  "novelShare": 0.56
  },
  "deadSeeds": [
   "de 120 ordene",
+  "begynnende lesing",
+  "pluss og minus til 20",
   "lekser oppgaver",
   "stasjoner oppgaver",
   "ekstra trening oppgaver",
   "ekstra trening 1. trinn",
+  "vikartimer oppgaver",
+  "vikartimer 1. trinn",
   "norsk som andrespråk 1. trinn",
   "spesialundervisning oppgaver",
   "spesialundervisning 1. trinn",
@@ -36,8 +41,17 @@
   "4. juli telle",
   "4. juli bokstaver",
   "tilbehør matte",
+  "tilbehørmatte",
   "tilbehør telle",
+  "tilbehørtelle",
+  "tilbehørbokstaver",
+  "aktivitetermatte",
   "aktiviteter telle",
+  "aktivitetertelle",
+  "aktiviteterbokstaver",
+  "dyrmatte",
+  "dyrtelle",
+  "dyrbokstaver",
   "rundt i huset matte",
   "rundt i huset telle",
   "rundt i huset bokstaver",
@@ -45,148 +59,308 @@
   "i supermarkedet telle",
   "i supermarkedet bokstaver",
   "bakeri matte",
+  "bakerimatte",
   "bakeri telle",
+  "bakeritelle",
   "bakeri bokstaver",
+  "bakeribokstaver",
+  "strandmatte",
   "strand telle",
+  "strandtelle",
+  "strandbokstaver",
   "fugler matte",
-  "fugler 2 matte",
-  "fugler 2 telle",
-  "fugler 2 bokstaver",
+  "fuglermatte",
+  "fuglertelle",
+  "fuglerbokstaver",
   "kroppsdeler matte",
+  "kroppsdelermatte",
   "kroppsdeler telle",
+  "kroppsdelertelle",
+  "kroppsdelerbokstaver",
   "frokost matte",
+  "frokostmatte",
   "frokost telle",
+  "frokosttelle",
+  "frokostbokstaver",
+  "campingmatte",
   "camping telle",
+  "campingtelle",
   "camping bokstaver",
+  "campingbokstaver",
   "jul telle",
+  "jultelle",
+  "julbokstaver",
   "klasserom matte",
+  "klasserommatte",
   "klasserom telle",
+  "klasseromtelle",
+  "klasserombokstaver",
   "klær matte",
+  "klærmatte",
   "klær telle",
+  "klærtelle",
+  "klærbokstaver",
+  "fargermatte",
   "farger telle",
+  "fargertelle",
+  "fargerbokstaver",
   "desserter og godteri matte",
   "desserter og godteri telle",
   "desserter og godteri bokstaver",
   "dinosaurer matte",
+  "dinosaurermatte",
   "dinosaurer telle",
+  "dinosaurertelle",
   "dinosaurer bokstaver",
+  "dinosaurerbokstaver",
+  "påskematte",
   "påske telle",
+  "påsketelle",
+  "påskebokstaver",
   "følelser matte",
+  "følelsermatte",
   "følelser telle",
+  "følelsertelle",
   "følelser bokstaver",
+  "følelserbokstaver",
   "gårdsdyr matte",
+  "gårdsdyrmatte",
   "gårdsdyr telle",
+  "gårdsdyrtelle",
+  "gårdsdyrbokstaver",
   "blomster matte",
+  "blomstermatte",
   "blomster telle",
+  "blomstertelle",
+  "blomsterbokstaver",
   "skogsdyr matte",
+  "skogsdyrmatte",
   "skogsdyr telle",
+  "skogsdyrtelle",
+  "skogsdyrbokstaver",
   "frukter matte",
+  "fruktermatte",
   "frukter telle",
+  "fruktertelle",
+  "frukterbokstaver",
   "møbler matte",
+  "møblermatte",
   "møbler telle",
+  "møblertelle",
+  "møblerbokstaver",
   "sykehus matte",
+  "sykehusmatte",
   "sykehus telle",
+  "sykehustelle",
+  "sykehusbokstaver",
   "insekter og kryp matte",
   "insekter og kryp telle",
   "insekter og kryp bokstaver",
   "kjøkkenredskaper matte",
+  "kjøkkenredskapermatte",
   "kjøkkenredskaper telle",
+  "kjøkkenredskapertelle",
+  "kjøkkenredskaperbokstaver",
   "diverse matte",
+  "diversematte",
   "diverse telle",
+  "diversetelle",
+  "diversebokstaver",
+  "musikkmatte",
+  "musikktelle",
+  "musikkbokstaver",
+  "yrkermatte",
   "yrker telle",
+  "yrkertelle",
   "yrker bokstaver",
+  "yrkerbokstaver",
   "havliv matte",
+  "havlivmatte",
   "havliv telle",
+  "havlivtelle",
   "havliv bokstaver",
+  "havlivbokstaver",
   "kjæledyr matte",
+  "kjæledyrmatte",
   "kjæledyr telle",
+  "kjæledyrtelle",
+  "kjæledyrbokstaver",
   "postkontor matte",
+  "postkontormatte",
   "postkontor telle",
+  "postkontortelle",
   "postkontor bokstaver",
+  "postkontorbokstaver",
   "reptiler og amfibier matte",
   "reptiler og amfibier telle",
   "reptiler og amfibier bokstaver",
+  "formermatte",
   "former telle",
+  "formertelle",
+  "formerbokstaver",
   "verdensrommet matte",
+  "verdensrommetmatte",
   "verdensrommet telle",
+  "verdensrommettelle",
   "verdensrommet bokstaver",
+  "verdensrommetbokstaver",
   "vår matte",
+  "vårmatte",
   "vår telle",
+  "vårtelle",
+  "vårbokstaver",
+  "sommermatte",
   "sommer telle",
+  "sommertelle",
+  "sommerbokstaver",
+  "thanksgivingmatte",
   "thanksgiving telle",
+  "thanksgivingtelle",
   "thanksgiving bokstaver",
+  "thanksgivingbokstaver",
   "ting som flyr matte",
   "ting som flyr telle",
   "ting som flyr bokstaver",
+  "verktøymatte",
+  "verktøytelle",
+  "verktøybokstaver",
+  "lekermatte",
+  "lekertelle",
+  "lekerbokstaver",
   "trær matte",
+  "trærmatte",
   "trær telle",
+  "trærtelle",
+  "trærbokstaver",
   "grønnsaker matte",
+  "grønnsakermatte",
   "grønnsaker telle",
+  "grønnsakertelle",
+  "grønnsakerbokstaver",
   "kjøretøy matte",
+  "kjøretøymatte",
   "kjøretøy telle",
+  "kjøretøytelle",
+  "kjøretøybokstaver",
   "vær matte",
+  "værmatte",
   "vær telle",
+  "værtelle",
+  "værbokstaver",
+  "vintermatte",
   "vinter telle",
+  "vintertelle",
+  "vinterbokstaver",
   "dyrehagedyr matte",
+  "dyrehagedyrmatte",
   "dyrehagedyr telle",
+  "dyrehagedyrtelle",
   "dyrehagedyr bokstaver",
-  "dyr sh 2 matte",
-  "dyr sh 2 telle",
-  "dyr sh 2 bokstaver",
-  "dyr sh 3 matte",
-  "dyr sh 3 telle",
-  "dyr sh 3 bokstaver",
-  "dyr sh 4 matte",
-  "dyr sh 4 telle",
-  "dyr sh 4 bokstaver",
-  "dyr sh 5 matte",
-  "dyr sh 5 telle",
-  "dyr sh 5 bokstaver",
-  "strand sh 2 matte",
-  "strand sh 2 telle",
-  "strand sh 2 bokstaver",
-  "fugler s&h 2 matte",
-  "fugler s&h 2 telle",
-  "fugler s&h 2 bokstaver",
-  "jul s/h 2 matte",
-  "jul s/h 2 telle",
-  "jul s/h 2 bokstaver",
+  "dyrehagedyrbokstaver",
+  "dyr sh matte",
+  "dyr sh telle",
+  "dyr sh bokstaver",
+  "strand sh matte",
+  "strand sh telle",
+  "strand sh bokstaver",
+  "fugler s&h matte",
+  "fugler s&h telle",
+  "fugler s&h bokstaver",
+  "jul s/h matte",
+  "jul s/h telle",
+  "jul s/h bokstaver",
   "klasserom 2 (s/h) matte",
   "klasserom 2 (s/h) telle",
   "klasserom 2 (s/h) bokstaver",
-  "påske sh 2 matte",
-  "påske sh 2 telle",
-  "påske sh 2 bokstaver",
-  "mat sh 2 matte",
-  "mat sh 2 telle",
-  "mat sh 2 bokstaver",
-  "mat sh 3 matte",
-  "mat sh 3 telle",
-  "mat sh 3 bokstaver",
-  "hjem sh 2 matte",
-  "hjem sh 2 telle",
-  "hjem sh 2 bokstaver",
-  "havliv sh 2 matte",
-  "havliv sh 2 telle",
-  "havliv sh 2 bokstaver",
-  "sport sh 2 matte",
-  "sport sh 2 telle",
-  "sport sh 2 bokstaver",
-  "leker sh 2 matte",
-  "leker sh 2 telle",
-  "leker sh 2 bokstaver",
-  "valentinsdag sh 2 matte",
-  "valentinsdag sh 2 telle",
-  "valentinsdag sh 2 bokstaver",
-  "grønnsaker sh 2 matte",
-  "grønnsaker sh 2 telle",
-  "grønnsaker sh 2 bokstaver",
-  "kjøretøy sh 2 matte",
-  "kjøretøy sh 2 telle",
-  "kjøretøy sh 2 bokstaver",
-  "kjøretøy sh 3 matte",
-  "kjøretøy sh 3 telle",
-  "kjøretøy sh 3 bokstaver"
+  "påske sh matte",
+  "påske sh telle",
+  "påske sh bokstaver",
+  "mat sh matte",
+  "mat sh telle",
+  "mat sh bokstaver",
+  "hjem sh matte",
+  "hjem sh telle",
+  "hjem sh bokstaver",
+  "havliv sh matte",
+  "havliv sh telle",
+  "havliv sh bokstaver",
+  "sport sh matte",
+  "sport sh telle",
+  "sport sh bokstaver",
+  "leker sh matte",
+  "leker sh telle",
+  "leker sh bokstaver",
+  "valentinsdag sh matte",
+  "valentinsdag sh telle",
+  "valentinsdag sh bokstaver",
+  "grønnsaker sh matte",
+  "grønnsaker sh telle",
+  "grønnsaker sh bokstaver",
+  "kjøretøy sh matte",
+  "kjøretøy sh telle",
+  "kjøretøy sh bokstaver",
+  "bildesudoku",
+  "bildesudoku oppgaver",
+  "kryptogram oppgaver",
+  "bildevei oppgaver",
+  "kodeaddisjon",
+  "kodeaddisjon oppgaver",
+  "mer eller mindre oppgaver",
+  "mattepuslespill oppgaver",
+  "matteark oppgaver",
+  "stor eller liten oppgaver",
+  "tell i diagram oppgaver",
+  "mønstertoget",
+  "mønstertoget oppgaver",
+  "mønsterark oppgaver",
+  "rutenettmatch",
+  "rutenettmatch oppgaver",
+  "sorter bilder oppgaver",
+  "match skygger",
+  "match skygger oppgaver",
+  "alfabettoget",
+  "alfabettoget oppgaver",
+  "gjett ordet oppgaver",
+  "bokstavspill oppgaver",
+  "finn og tell oppgaver",
+  "finn objektene",
+  "finn objektene oppgaver",
+  "manglende brikker oppgaver",
+  "hvilken passer ikke oppgaver",
+  "telle bilder",
+  "telle bilder oppgaver",
+  "hundrerute oppgaver",
+  "sammenligne tall oppgaver",
+  "sammenligne mengder oppgaver",
+  "sammenligne størrelser oppgaver",
+  "plassverdi (tiere og enere)",
+  "plassverdi (tiere og enere) oppgaver",
+  "lese klokka oppgaver",
+  "diagram og data oppgaver",
+  "ganging med rader",
+  "ganging med rader oppgaver",
+  "logiske gåter oppgaver",
+  "visuell oppmerksomhet oppgaver",
+  "finne par oppgaver",
+  "plasseringsord oppgaver",
+  "sortere i grupper",
+  "sortere i grupper oppgaver",
+  "regne med bilder",
+  "regne med bilder oppgaver",
+  "sortere i naturfag",
+  "sortere i naturfag oppgaver",
+  "rekkefølge og livssykluser",
+  "rekkefølge og livssykluser oppgaver",
+  "para sammen i naturfag",
+  "para sammen i naturfag oppgaver",
+  "førstelyd",
+  "bokstavkjennskap",
+  "bokstavkjennskap oppgaver",
+  "ordbygging",
+  "ordbygging oppgaver",
+  "bildeordforråd",
+  "bildeordforråd oppgaver",
+  "språklig bevissthet oppgaver"
  ],
  "suggestions": {
   "de 120 ordene": {
@@ -215,6 +389,14 @@
     "bokstaver biltema"
    ]
   },
+  "bokstavlyder": {
+   "cls": "skill",
+   "s": [
+    "bokstavlyder",
+    "bokstavlyder norsk",
+    "lære bokstavlyder"
+   ]
+  },
   "lydering": {
    "cls": "skill",
    "s": [
@@ -225,6 +407,36 @@
     "lydering betydning",
     "lydering af bogstaver",
     "lydering opgaver"
+   ]
+  },
+  "lydrette ord": {
+   "cls": "skill",
+   "s": [
+    "lydrette ord",
+    "lydrette ord liste",
+    "lydrette ord 2 bogstaver",
+    "lydrette ord engelsk",
+    "lydrette ord med e",
+    "lydrette ordkort",
+    "lydrette ord med l",
+    "lydrette ord 1 klasse",
+    "lydrette ord med d",
+    "lydrette ord med s"
+   ]
+  },
+  "ordbilder": {
+   "cls": "skill",
+   "s": [
+    "ordbilder",
+    "ordbilder barn",
+    "ordbilder metoden",
+    "ordbilder åk 1",
+    "ordbilder kort",
+    "ordbilder att skriva ut",
+    "ordbilder media ab",
+    "ordbilder förskoleklass",
+    "ordbilder förskola",
+    "ordbilder kartläggning förskoleklass"
    ]
   },
   "rim": {
@@ -257,6 +469,10 @@
     "regnbue stavelser"
    ]
   },
+  "begynnende lesing": {
+   "cls": "skill",
+   "s": []
+  },
   "tall til 20": {
    "cls": "skill",
    "s": [
@@ -272,6 +488,21 @@
     "tall 20 gallon terrarium"
    ]
   },
+  "tallinje": {
+   "cls": "typeName",
+   "s": [
+    "tallinje",
+    "tallinje 0-20",
+    "tallinje 0-100",
+    "tallinje oppgaver",
+    "tallinjer",
+    "tallinje 0 100 utskrift",
+    "tallinje til 20",
+    "tallinje 0 100 gratis",
+    "tallinje med negative tall",
+    "tallinje til 100"
+   ]
+  },
   "pluss til 10": {
    "cls": "skill",
    "s": [
@@ -280,19 +511,59 @@
     "pluss 1000"
    ]
   },
+  "tiervenner": {
+   "cls": "skill",
+   "s": [
+    "tiervenner",
+    "tiervenner sang",
+    "tiervenner oppgaver",
+    "tiervenner plakat",
+    "tiervenner spill",
+    "tiervenner sang tekst",
+    "tiervenner arbeidsark",
+    "tiervenner undervisningsmetoder",
+    "tiervenner oppgaver pdf",
+    "tiervenner nettoppgaver"
+   ]
+  },
+  "pluss og minus til 20": {
+   "cls": "skill",
+   "s": []
+  },
+  "tiere og enere": {
+   "cls": "skill",
+   "s": [
+    "tiere og enere",
+    "tiere og enere oppgaver",
+    "tiere og enere arbeidsark",
+    "tiere og enere undervisningsopplegg",
+    "tiere og enere spill",
+    "tiere og enere salaby",
+    "tiere og enere mkx",
+    "tiere og enere multi",
+    "tiere og enere opgaver",
+    "hundrere tiere og enere"
+   ]
+  },
   "klokka": {
    "cls": "skill",
    "s": [
+    "klokka i norge",
     "klokka",
     "klokka nå",
+    "klokka nå med sekunder",
     "klokka i new york",
-    "klokka i usa nå",
-    "klokka i usa",
-    "klokka i norge",
-    "klokka i thailand",
     "klokkarstua",
-    "klokka i boston nå",
-    "klokka i new york nå"
+    "klokkarvik",
+    "klokka i usa",
+    "klokkarvik hjellestad",
+    "klokka i norge nå"
+   ]
+  },
+  "klokka hel og halv": {
+   "cls": "skill",
+   "s": [
+    "klokka hel og halv"
    ]
   },
   "geometriske former": {
@@ -310,6 +581,36 @@
     "geometriske former på engelsk"
    ]
   },
+  "speiling": {
+   "cls": "skill",
+   "s": [
+    "speilingsteori",
+    "speiling",
+    "speilingsteori mead",
+    "speiling definisjon",
+    "speiling matematikk",
+    "speiling kommunikasjon",
+    "speiling og symmetri",
+    "speiling medisin",
+    "speiling psykologi",
+    "speiling av telefon"
+   ]
+  },
+  "sortering": {
+   "cls": "skill",
+   "s": [
+    "sorteringsbokser",
+    "sortering av søppel",
+    "sorteringsskuffe",
+    "sortering",
+    "sorteringsboks",
+    "sorteringsskuffe s40",
+    "sorteringsbokser biltema",
+    "sorteringsguide",
+    "sorteringsskuffe s50",
+    "sorteringssamfunn"
+   ]
+  },
   "finmotorikk": {
    "cls": "skill",
    "s": [
@@ -323,6 +624,35 @@
     "finmotorikk 4 år",
     "finmotorikk trening",
     "finmotorikk oppgaver"
+   ]
+  },
+  "mønster": {
+   "cls": "typeName",
+   "s": [
+    "mønsterdybde sommerdekk",
+    "mønster kryssord",
+    "mønsterdybde vinterdekk",
+    "mønster",
+    "mønster energidrikk",
+    "mønsterdybde nye sommerdekk",
+    "mønsterdybde dekk",
+    "mønster til festdrakt dame",
+    "mønsterdybde",
+    "mønster bøttehatt"
+   ]
+  },
+  "øye-hånd-koordinasjon": {
+   "cls": "skill",
+   "s": [
+    "øye hånd koordinasjon",
+    "øye hånd koordinasjon øvelser",
+    "øye hånd koordinasjon øvelser barn",
+    "øye hånd koordinasjon baby",
+    "øye hånd koordinasjon håndball",
+    "øye hånd koordinasjon barn",
+    "øye hånd koordinasjon definisjon",
+    "øye hånd koordinasjon leker",
+    "øye hånd øye fot koordinasjon"
    ]
   },
   "lekser oppgaver": {
@@ -352,6 +682,14 @@
    "s": []
   },
   "ekstra trening 1. trinn": {
+   "cls": "context",
+   "s": []
+  },
+  "vikartimer oppgaver": {
+   "cls": "context",
+   "s": []
+  },
+  "vikartimer 1. trinn": {
    "cls": "context",
    "s": []
   },
@@ -406,7 +744,15 @@
    "cls": "cross",
    "s": []
   },
+  "tilbehørmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "tilbehør telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "tilbehørtelle": {
    "cls": "cross",
    "s": []
   },
@@ -424,6 +770,10 @@
     "tilbehør 8 bokstaver"
    ]
   },
+  "tilbehørbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "aktiviteter matte": {
    "cls": "cross",
    "s": [
@@ -432,7 +782,15 @@
     "matte aktiviteter på förskolan"
    ]
   },
+  "aktivitetermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "aktiviteter telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "aktivitetertelle": {
    "cls": "cross",
    "s": []
   },
@@ -443,6 +801,10 @@
     "aktiviteter 9 bokstaver"
    ]
   },
+  "aktiviteterbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "dyr matte": {
    "cls": "cross",
    "s": [
@@ -450,11 +812,19 @@
     "mummi matte dyr"
    ]
   },
+  "dyrmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "dyr telle": {
    "cls": "cross",
    "s": [
     "telle dyr"
    ]
+  },
+  "dyrtelle": {
+   "cls": "cross",
+   "s": []
   },
   "dyr bokstaver": {
    "cls": "cross",
@@ -470,6 +840,10 @@
     "dyr 9 bokstaver",
     "dyr 2 bokstaver"
    ]
+  },
+  "dyrbokstaver": {
+   "cls": "cross",
+   "s": []
   },
   "rundt i huset matte": {
    "cls": "cross",
@@ -499,11 +873,23 @@
    "cls": "cross",
    "s": []
   },
+  "bakerimatte": {
+   "cls": "cross",
+   "s": []
+  },
   "bakeri telle": {
    "cls": "cross",
    "s": []
   },
+  "bakeritelle": {
+   "cls": "cross",
+   "s": []
+  },
   "bakeri bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "bakeribokstaver": {
    "cls": "cross",
    "s": []
   },
@@ -521,7 +907,15 @@
     "strand matte got2b anwendung"
    ]
   },
+  "strandmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "strand telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "strandtelle": {
    "cls": "cross",
    "s": []
   },
@@ -534,7 +928,15 @@
     "strand 5 bokstaver"
    ]
   },
+  "strandbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "fugler matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "fuglermatte": {
    "cls": "cross",
    "s": []
   },
@@ -548,6 +950,10 @@
     "hvordan telle fugler",
     "hvordan telle fugler i hagen"
    ]
+  },
+  "fuglertelle": {
+   "cls": "cross",
+   "s": []
   },
   "fugler bokstaver": {
    "cls": "cross",
@@ -564,15 +970,7 @@
     "fugler 11 bokstaver"
    ]
   },
-  "fugler 2 matte": {
-   "cls": "cross",
-   "s": []
-  },
-  "fugler 2 telle": {
-   "cls": "cross",
-   "s": []
-  },
-  "fugler 2 bokstaver": {
+  "fuglerbokstaver": {
    "cls": "cross",
    "s": []
   },
@@ -580,7 +978,15 @@
    "cls": "cross",
    "s": []
   },
+  "kroppsdelermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "kroppsdeler telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "kroppsdelertelle": {
    "cls": "cross",
    "s": []
   },
@@ -590,11 +996,23 @@
     "kroppsdeler 6 bokstaver"
    ]
   },
+  "kroppsdelerbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "frokost matte": {
    "cls": "cross",
    "s": []
   },
+  "frokostmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "frokost telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "frokosttelle": {
    "cls": "cross",
    "s": []
   },
@@ -604,6 +1022,10 @@
     "frokost 4 bokstaver",
     "frokost kryssord 4 bokstaver"
    ]
+  },
+  "frokostbokstaver": {
+   "cls": "cross",
+   "s": []
   },
   "camping matte": {
    "cls": "cross",
@@ -616,11 +1038,23 @@
     "camping matte landi"
    ]
   },
+  "campingmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "camping telle": {
    "cls": "cross",
    "s": []
   },
+  "campingtelle": {
+   "cls": "cross",
+   "s": []
+  },
   "camping bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "campingbokstaver": {
    "cls": "cross",
    "s": []
   },
@@ -631,7 +1065,17 @@
     "god jul matte"
    ]
   },
+  "julmatte": {
+   "cls": "cross",
+   "s": [
+    "julmatte gratis"
+   ]
+  },
   "jul telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "jultelle": {
    "cls": "cross",
    "s": []
   },
@@ -642,11 +1086,23 @@
     "god jul bokstaver"
    ]
   },
+  "julbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "klasserom matte": {
    "cls": "cross",
    "s": []
   },
+  "klasserommatte": {
+   "cls": "cross",
+   "s": []
+  },
   "klasserom telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "klasseromtelle": {
    "cls": "cross",
    "s": []
   },
@@ -656,11 +1112,23 @@
     "bokstaver klasserom"
    ]
   },
+  "klasserombokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "klær matte": {
    "cls": "cross",
    "s": []
   },
+  "klærmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "klær telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "klærtelle": {
    "cls": "cross",
    "s": []
   },
@@ -676,13 +1144,25 @@
     "klær på 7 bokstaver"
    ]
   },
+  "klærbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "farger matte": {
    "cls": "cross",
    "s": [
     "matte farger"
    ]
   },
+  "fargermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "farger telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "fargertelle": {
    "cls": "cross",
    "s": []
   },
@@ -692,6 +1172,10 @@
     "bokstaver farger",
     "farger på 6 bokstaver"
    ]
+  },
+  "fargerbokstaver": {
+   "cls": "cross",
+   "s": []
   },
   "desserter og godteri matte": {
    "cls": "cross",
@@ -709,11 +1193,23 @@
    "cls": "cross",
    "s": []
   },
+  "dinosaurermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "dinosaurer telle": {
    "cls": "cross",
    "s": []
   },
+  "dinosaurertelle": {
+   "cls": "cross",
+   "s": []
+  },
   "dinosaurer bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "dinosaurerbokstaver": {
    "cls": "cross",
    "s": []
   },
@@ -723,7 +1219,15 @@
     "påske matte"
    ]
   },
+  "påskematte": {
+   "cls": "cross",
+   "s": []
+  },
   "påske telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "påsketelle": {
    "cls": "cross",
    "s": []
   },
@@ -733,7 +1237,15 @@
     "påske bokstaver"
    ]
   },
+  "påskebokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "følelser matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "følelsermatte": {
    "cls": "cross",
    "s": []
   },
@@ -741,7 +1253,15 @@
    "cls": "cross",
    "s": []
   },
+  "følelsertelle": {
+   "cls": "cross",
+   "s": []
+  },
   "følelser bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "følelserbokstaver": {
    "cls": "cross",
    "s": []
   },
@@ -749,7 +1269,15 @@
    "cls": "cross",
    "s": []
   },
+  "gårdsdyrmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "gårdsdyr telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "gårdsdyrtelle": {
    "cls": "cross",
    "s": []
   },
@@ -760,11 +1288,23 @@
     "gårdsdyr 3 bokstaver"
    ]
   },
+  "gårdsdyrbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "blomster matte": {
    "cls": "cross",
    "s": []
   },
+  "blomstermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "blomster telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "blomstertelle": {
    "cls": "cross",
    "s": []
   },
@@ -782,11 +1322,23 @@
     "blomster kryssord 8 bokstaver"
    ]
   },
+  "blomsterbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "skogsdyr matte": {
    "cls": "cross",
    "s": []
   },
+  "skogsdyrmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "skogsdyr telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "skogsdyrtelle": {
    "cls": "cross",
    "s": []
   },
@@ -797,11 +1349,23 @@
     "skogsdyr 5 bokstaver"
    ]
   },
+  "skogsdyrbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "frukter matte": {
    "cls": "cross",
    "s": []
   },
+  "fruktermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "frukter telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "fruktertelle": {
    "cls": "cross",
    "s": []
   },
@@ -814,11 +1378,23 @@
     "frukter 8 bokstaver"
    ]
   },
+  "frukterbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "møbler matte": {
    "cls": "cross",
    "s": []
   },
+  "møblermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "møbler telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "møblertelle": {
    "cls": "cross",
    "s": []
   },
@@ -830,11 +1406,23 @@
     "møbler 10 bokstaver"
    ]
   },
+  "møblerbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "sykehus matte": {
    "cls": "cross",
    "s": []
   },
+  "sykehusmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "sykehus telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "sykehustelle": {
    "cls": "cross",
    "s": []
   },
@@ -846,6 +1434,10 @@
     "sykehus 4 bokstaver",
     "sykehus 13 bokstaver"
    ]
+  },
+  "sykehusbokstaver": {
+   "cls": "cross",
+   "s": []
   },
   "insekter og kryp matte": {
    "cls": "cross",
@@ -863,7 +1455,15 @@
    "cls": "cross",
    "s": []
   },
+  "kjøkkenredskapermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "kjøkkenredskaper telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjøkkenredskapertelle": {
    "cls": "cross",
    "s": []
   },
@@ -873,11 +1473,23 @@
     "kjøkkenredskaper på 9 bokstaver"
    ]
   },
+  "kjøkkenredskaperbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "diverse matte": {
    "cls": "cross",
    "s": []
   },
+  "diversematte": {
+   "cls": "cross",
+   "s": []
+  },
   "diverse telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "diversetelle": {
    "cls": "cross",
    "s": []
   },
@@ -889,6 +1501,10 @@
     "diverse 5 bokstaver"
    ]
   },
+  "diversebokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "musikk matte": {
    "cls": "cross",
    "s": [
@@ -897,11 +1513,19 @@
     "musikk og matte"
    ]
   },
+  "musikkmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "musikk telle": {
    "cls": "cross",
    "s": [
     "telle musikk"
    ]
+  },
+  "musikktelle": {
+   "cls": "cross",
+   "s": []
   },
   "musikk bokstaver": {
    "cls": "cross",
@@ -918,6 +1542,10 @@
     "musikk 10 bokstaver"
    ]
   },
+  "musikkbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "yrker matte": {
    "cls": "cross",
    "s": [
@@ -926,7 +1554,15 @@
     "yrker med p matte"
    ]
   },
+  "yrkermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "yrker telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "yrkertelle": {
    "cls": "cross",
    "s": []
   },
@@ -934,7 +1570,15 @@
    "cls": "cross",
    "s": []
   },
+  "yrkerbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "havliv matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "havlivmatte": {
    "cls": "cross",
    "s": []
   },
@@ -942,7 +1586,15 @@
    "cls": "cross",
    "s": []
   },
+  "havlivtelle": {
+   "cls": "cross",
+   "s": []
+  },
   "havliv bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "havlivbokstaver": {
    "cls": "cross",
    "s": []
   },
@@ -950,7 +1602,15 @@
    "cls": "cross",
    "s": []
   },
+  "kjæledyrmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "kjæledyr telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjæledyrtelle": {
    "cls": "cross",
    "s": []
   },
@@ -963,7 +1623,15 @@
     "kjæledyr 8 bokstaver"
    ]
   },
+  "kjæledyrbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "postkontor matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "postkontormatte": {
    "cls": "cross",
    "s": []
   },
@@ -971,7 +1639,15 @@
    "cls": "cross",
    "s": []
   },
+  "postkontortelle": {
+   "cls": "cross",
+   "s": []
+  },
   "postkontor bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "postkontorbokstaver": {
    "cls": "cross",
    "s": []
   },
@@ -995,7 +1671,15 @@
     "olika former matte"
    ]
   },
+  "formermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "former telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "formertelle": {
    "cls": "cross",
    "s": []
   },
@@ -1008,7 +1692,15 @@
     "former 4 bokstaver"
    ]
   },
+  "formerbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "verdensrommet matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "verdensrommetmatte": {
    "cls": "cross",
    "s": []
   },
@@ -1016,7 +1708,15 @@
    "cls": "cross",
    "s": []
   },
+  "verdensrommettelle": {
+   "cls": "cross",
+   "s": []
+  },
   "verdensrommet bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "verdensrommetbokstaver": {
    "cls": "cross",
    "s": []
   },
@@ -1024,7 +1724,15 @@
    "cls": "cross",
    "s": []
   },
+  "vårmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "vår telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "vårtelle": {
    "cls": "cross",
    "s": []
   },
@@ -1035,13 +1743,25 @@
     "vår 5 bokstaver"
    ]
   },
+  "vårbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "sommer matte": {
    "cls": "cross",
    "s": [
     "sommer matte"
    ]
   },
+  "sommermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "sommer telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "sommertelle": {
    "cls": "cross",
    "s": []
   },
@@ -1052,17 +1772,33 @@
     "sommer 6 bokstaver"
    ]
   },
+  "sommerbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "thanksgiving matte": {
    "cls": "cross",
    "s": [
     "thanksgiving matte nails"
    ]
   },
+  "thanksgivingmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "thanksgiving telle": {
    "cls": "cross",
    "s": []
   },
+  "thanksgivingtelle": {
+   "cls": "cross",
+   "s": []
+  },
   "thanksgiving bokstaver": {
+   "cls": "cross",
+   "s": []
+  },
+  "thanksgivingbokstaver": {
    "cls": "cross",
    "s": []
   },
@@ -1085,11 +1821,19 @@
     "magnetisk verktøy matte"
    ]
   },
+  "verktøymatte": {
+   "cls": "cross",
+   "s": []
+  },
   "verktøy telle": {
    "cls": "cross",
    "s": [
     "telle verktøy"
    ]
+  },
+  "verktøytelle": {
+   "cls": "cross",
+   "s": []
   },
   "verktøy bokstaver": {
    "cls": "cross",
@@ -1106,6 +1850,10 @@
     "verktøy kryssord 8 bokstaver"
    ]
   },
+  "verktøybokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "leker matte": {
    "cls": "cross",
    "s": [
@@ -1113,12 +1861,20 @@
     "extra leker matte"
    ]
   },
+  "lekermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "leker telle": {
    "cls": "cross",
    "s": [
     "telle leker for barn",
     "telle leker"
    ]
+  },
+  "lekertelle": {
+   "cls": "cross",
+   "s": []
   },
   "leker bokstaver": {
    "cls": "cross",
@@ -1130,11 +1886,23 @@
     "leker 7 bokstaver"
    ]
   },
+  "lekerbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "trær matte": {
    "cls": "cross",
    "s": []
   },
+  "trærmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "trær telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "trærtelle": {
    "cls": "cross",
    "s": []
   },
@@ -1150,11 +1918,23 @@
     "trær på 5 bokstaver"
    ]
   },
+  "trærbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "grønnsaker matte": {
    "cls": "cross",
    "s": []
   },
+  "grønnsakermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "grønnsaker telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "grønnsakertelle": {
    "cls": "cross",
    "s": []
   },
@@ -1170,11 +1950,23 @@
     "grønnsaker kryssord 9 bokstaver"
    ]
   },
+  "grønnsakerbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "kjøretøy matte": {
    "cls": "cross",
    "s": []
   },
+  "kjøretøymatte": {
+   "cls": "cross",
+   "s": []
+  },
   "kjøretøy telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "kjøretøytelle": {
    "cls": "cross",
    "s": []
   },
@@ -1193,11 +1985,23 @@
     "kjøretøy 2 bokstaver"
    ]
   },
+  "kjøretøybokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "vær matte": {
    "cls": "cross",
    "s": []
   },
+  "værmatte": {
+   "cls": "cross",
+   "s": []
+  },
   "vær telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "værtelle": {
    "cls": "cross",
    "s": []
   },
@@ -1213,6 +2017,10 @@
     "vær hilset 5 bokstaver"
    ]
   },
+  "værbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "vinter matte": {
    "cls": "cross",
    "s": [
@@ -1220,7 +2028,15 @@
     "vinter matte premium varmecomfort"
    ]
   },
+  "vintermatte": {
+   "cls": "cross",
+   "s": []
+  },
   "vinter telle": {
+   "cls": "cross",
+   "s": []
+  },
+  "vintertelle": {
    "cls": "cross",
    "s": []
   },
@@ -1230,7 +2046,15 @@
     "vinter bokstaver"
    ]
   },
+  "vinterbokstaver": {
+   "cls": "cross",
+   "s": []
+  },
   "dyrehagedyr matte": {
+   "cls": "cross",
+   "s": []
+  },
+  "dyrehagedyrmatte": {
    "cls": "cross",
    "s": []
   },
@@ -1238,91 +2062,63 @@
    "cls": "cross",
    "s": []
   },
+  "dyrehagedyrtelle": {
+   "cls": "cross",
+   "s": []
+  },
   "dyrehagedyr bokstaver": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 2 matte": {
+  "dyrehagedyrbokstaver": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 2 telle": {
+  "dyr sh matte": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 2 bokstaver": {
+  "dyr sh telle": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 3 matte": {
+  "dyr sh bokstaver": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 3 telle": {
+  "strand sh matte": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 3 bokstaver": {
+  "strand sh telle": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 4 matte": {
+  "strand sh bokstaver": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 4 telle": {
+  "fugler s&h matte": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 4 bokstaver": {
+  "fugler s&h telle": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 5 matte": {
+  "fugler s&h bokstaver": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 5 telle": {
+  "jul s/h matte": {
    "cls": "cross",
    "s": []
   },
-  "dyr sh 5 bokstaver": {
+  "jul s/h telle": {
    "cls": "cross",
    "s": []
   },
-  "strand sh 2 matte": {
-   "cls": "cross",
-   "s": []
-  },
-  "strand sh 2 telle": {
-   "cls": "cross",
-   "s": []
-  },
-  "strand sh 2 bokstaver": {
-   "cls": "cross",
-   "s": []
-  },
-  "fugler s&h 2 matte": {
-   "cls": "cross",
-   "s": []
-  },
-  "fugler s&h 2 telle": {
-   "cls": "cross",
-   "s": []
-  },
-  "fugler s&h 2 bokstaver": {
-   "cls": "cross",
-   "s": []
-  },
-  "jul s/h 2 matte": {
-   "cls": "cross",
-   "s": []
-  },
-  "jul s/h 2 telle": {
-   "cls": "cross",
-   "s": []
-  },
-  "jul s/h 2 bokstaver": {
+  "jul s/h bokstaver": {
    "cls": "cross",
    "s": []
   },
@@ -1338,143 +2134,1006 @@
    "cls": "cross",
    "s": []
   },
-  "påske sh 2 matte": {
+  "påske sh matte": {
    "cls": "cross",
    "s": []
   },
-  "påske sh 2 telle": {
+  "påske sh telle": {
    "cls": "cross",
    "s": []
   },
-  "påske sh 2 bokstaver": {
+  "påske sh bokstaver": {
    "cls": "cross",
    "s": []
   },
-  "mat sh 2 matte": {
+  "mat sh matte": {
    "cls": "cross",
    "s": []
   },
-  "mat sh 2 telle": {
+  "mat sh telle": {
    "cls": "cross",
    "s": []
   },
-  "mat sh 2 bokstaver": {
+  "mat sh bokstaver": {
    "cls": "cross",
    "s": []
   },
-  "mat sh 3 matte": {
+  "hjem sh matte": {
    "cls": "cross",
    "s": []
   },
-  "mat sh 3 telle": {
+  "hjem sh telle": {
    "cls": "cross",
    "s": []
   },
-  "mat sh 3 bokstaver": {
+  "hjem sh bokstaver": {
    "cls": "cross",
    "s": []
   },
-  "hjem sh 2 matte": {
+  "havliv sh matte": {
    "cls": "cross",
    "s": []
   },
-  "hjem sh 2 telle": {
+  "havliv sh telle": {
    "cls": "cross",
    "s": []
   },
-  "hjem sh 2 bokstaver": {
+  "havliv sh bokstaver": {
    "cls": "cross",
    "s": []
   },
-  "havliv sh 2 matte": {
+  "sport sh matte": {
    "cls": "cross",
    "s": []
   },
-  "havliv sh 2 telle": {
+  "sport sh telle": {
    "cls": "cross",
    "s": []
   },
-  "havliv sh 2 bokstaver": {
+  "sport sh bokstaver": {
    "cls": "cross",
    "s": []
   },
-  "sport sh 2 matte": {
+  "leker sh matte": {
    "cls": "cross",
    "s": []
   },
-  "sport sh 2 telle": {
+  "leker sh telle": {
    "cls": "cross",
    "s": []
   },
-  "sport sh 2 bokstaver": {
+  "leker sh bokstaver": {
    "cls": "cross",
    "s": []
   },
-  "leker sh 2 matte": {
+  "valentinsdag sh matte": {
    "cls": "cross",
    "s": []
   },
-  "leker sh 2 telle": {
+  "valentinsdag sh telle": {
    "cls": "cross",
    "s": []
   },
-  "leker sh 2 bokstaver": {
+  "valentinsdag sh bokstaver": {
    "cls": "cross",
    "s": []
   },
-  "valentinsdag sh 2 matte": {
+  "grønnsaker sh matte": {
    "cls": "cross",
    "s": []
   },
-  "valentinsdag sh 2 telle": {
+  "grønnsaker sh telle": {
    "cls": "cross",
    "s": []
   },
-  "valentinsdag sh 2 bokstaver": {
+  "grønnsaker sh bokstaver": {
    "cls": "cross",
    "s": []
   },
-  "grønnsaker sh 2 matte": {
+  "kjøretøy sh matte": {
    "cls": "cross",
    "s": []
   },
-  "grønnsaker sh 2 telle": {
+  "kjøretøy sh telle": {
    "cls": "cross",
    "s": []
   },
-  "grønnsaker sh 2 bokstaver": {
+  "kjøretøy sh bokstaver": {
    "cls": "cross",
    "s": []
   },
-  "kjøretøy sh 2 matte": {
-   "cls": "cross",
+  "addisjon": {
+   "cls": "typeName",
+   "s": [
+    "addisjon",
+    "addisjonsmetoden",
+    "addisjon og subtraksjon",
+    "addisjon med brøk",
+    "addisjonsmetoden likningssett",
+    "addisjonsreaksjon",
+    "addisjon med tierovergang",
+    "addisjon oppgaver",
+    "addisjonspolymer",
+    "addisjonalitet"
+   ]
+  },
+  "addisjon oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "addisjon oppgaver",
+    "addisjon oppgaver utskrift",
+    "addisjon oppgaver 2. trinn",
+    "addisjon oppgaver 1 trinn",
+    "oppgaver addisjon og subtraksjon",
+    "oppgaver addisjon med tierovergang",
+    "oppstilt addisjon oppgaver",
+    "gjentatt addisjon oppgaver",
+    "addisjon oppstilling oppgaver",
+    "oppstilt addisjon oppgaver utskrift"
+   ]
+  },
+  "bildesudoku": {
+   "cls": "typeName",
    "s": []
   },
-  "kjøretøy sh 2 telle": {
-   "cls": "cross",
+  "bildesudoku oppgaver": {
+   "cls": "typeName",
    "s": []
   },
-  "kjøretøy sh 2 bokstaver": {
-   "cls": "cross",
+  "kryptogram": {
+   "cls": "typeName",
+   "s": [
+    "kryptogram",
+    "kryptogrammer",
+    "kryptogram as",
+    "kryptogram korsord",
+    "cryptogram",
+    "cryptogram letters and numbers answers",
+    "cryptogramma crispa",
+    "cryptogram level 83",
+    "cryptogram level 25",
+    "cryptogram level 77"
+   ]
+  },
+  "kryptogram oppgaver": {
+   "cls": "typeName",
    "s": []
   },
-  "kjøretøy sh 3 matte": {
-   "cls": "cross",
+  "bildevei": {
+   "cls": "typeName",
+   "s": [
+    "bildeveiledet intervensjon"
+   ]
+  },
+  "bildevei oppgaver": {
+   "cls": "typeName",
    "s": []
   },
-  "kjøretøy sh 3 telle": {
-   "cls": "cross",
+  "subtraksjon": {
+   "cls": "typeName",
+   "s": [
+    "subtraksjon",
+    "subtraksjon med låning",
+    "subtraksjon med tierovergang",
+    "subtraksjon med brøk",
+    "subtraksjon oppgaver",
+    "subtraksjon med veksling",
+    "subtraksjon spill",
+    "subtraksjon på tallinje",
+    "subtraksjon 1 trinn",
+    "subtraksjon av brøk med ulik nevner"
+   ]
+  },
+  "subtraksjon oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "subtraksjon oppgaver",
+    "subtraksjon oppgaver 2 trinn",
+    "subtraksjon oppgaver 3 trinn",
+    "subtraksjon oppgaver 1 trinn",
+    "subtraksjon oppgaver utskrift",
+    "subtraksjon oppgaver 4 trinn",
+    "oppgaver subtraksjon med låning",
+    "oppstilt subtraksjon oppgaver",
+    "oppstilling subtraksjon oppgaver",
+    "matematikk subtraksjon oppgaver"
+   ]
+  },
+  "kodeaddisjon": {
+   "cls": "typeName",
    "s": []
   },
-  "kjøretøy sh 3 bokstaver": {
-   "cls": "cross",
+  "kodeaddisjon oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mer eller mindre": {
+   "cls": "typeName",
+   "s": [
+    "mer eller mindre tegn",
+    "mer eller mindre",
+    "mer eller mindre synonym",
+    "mer eller mindre enn tegn",
+    "mer eller mindre symbol",
+    "mer eller mindre mann",
+    "mer eller mindre mann 2012",
+    "mer eller mindre enn",
+    "mer eller mindre glutenfritt mel",
+    "mer eller mindre betydning"
+   ]
+  },
+  "mer eller mindre oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mattepuslespill": {
+   "cls": "typeName",
+   "s": [
+    "mattepuslespill"
+   ]
+  },
+  "mattepuslespill oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "matteark": {
+   "cls": "typeName",
+   "s": [
+    "matteark",
+    "matteark 1 trinn",
+    "matteark 5 trinn",
+    "matteark 2. trinn",
+    "matteark 4 trinn",
+    "matteark 3.trinn",
+    "matteark addisjon",
+    "matteark 4 klasse",
+    "matteark til barn",
+    "matteark gangetabellen"
+   ]
+  },
+  "matteark oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "stor eller liten": {
+   "cls": "typeName",
+   "s": [
+    "stor eller liten bokstav etter kolon",
+    "stor eller liten forbokstav etter semikolon",
+    "stor eller liten sølje øverst",
+    "stor eller liten forbokstav",
+    "stor eller liten bokstav",
+    "stor eller liten bokstav etter tankestrek",
+    "stor eller liten forbokstav på månader",
+    "stor eller liten s i statsforvalteren",
+    "stor eller liten service bil",
+    "stor eller liten bokstav i punktlista"
+   ]
+  },
+  "stor eller liten oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tell i diagram": {
+   "cls": "typeName",
+   "s": [
+    "cell diagram"
+   ]
+  },
+  "tell i diagram oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mønstertoget": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mønstertoget oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mønsterark": {
+   "cls": "typeName",
+   "s": [
+    "mønsterark",
+    "mønsterark sy",
+    "mønsterark til broderi",
+    "mønsterark strikking",
+    "mønsterark scrapbooking",
+    "mønsterark jul",
+    "mønsterark søm",
+    "mønsterark bunad",
+    "mønsterark panduro",
+    "mønsterark med ruter"
+   ]
+  },
+  "mønsterark oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bingo": {
+   "cls": "typeName",
+   "s": [
+    "bingolotto",
+    "bingo",
+    "bingo rimér",
+    "bingolotto rätta lotten",
+    "bingolotto tv4",
+    "bingolotto i dag",
+    "bingo häggenås 2026",
+    "bingolotto programledare",
+    "bingo spill",
+    "bingobrett"
+   ]
+  },
+  "bingo oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "bingo oppgaver"
+   ]
+  },
+  "rutenettmatch": {
+   "cls": "typeName",
+   "s": []
+  },
+  "rutenettmatch oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "matching": {
+   "cls": "typeName",
+   "s": [
+    "matching set",
+    "matching set dame",
+    "matching",
+    "matching sett",
+    "matching tattoos",
+    "matching pfp",
+    "matching sets women",
+    "matching underwear for couples",
+    "matching wallpapers",
+    "matching pyjamas couple"
+   ]
+  },
+  "matching oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "matching oppgaver",
+    "matching oppgaver autisme",
+    "matching oppgaver barn"
+   ]
+  },
+  "sorter bilder": {
+   "cls": "typeName",
+   "s": [
+    "dahlia sorter bilder",
+    "sushi sorter bilder",
+    "klematis sorter bilder",
+    "thuja sorter bilder",
+    "hosta sorter bilder",
+    "palettblad sorter bilder",
+    "rosor sorter bilder",
+    "lösgodis sorter bilder",
+    "sommaräpplen sorter bilder"
+   ]
+  },
+  "sorter bilder oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "match skygger": {
+   "cls": "typeName",
+   "s": []
+  },
+  "match skygger oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "alfabettoget": {
+   "cls": "typeName",
+   "s": []
+  },
+  "alfabettoget oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "preposisjoner": {
+   "cls": "typeName",
+   "s": [
+    "preposisjoner",
+    "preposisjoner kryssord",
+    "preposisjoner tysk",
+    "preposisjoner norsk",
+    "preposisjoner engelsk",
+    "preposisjoner spansk",
+    "preposisjoner fransk",
+    "preposisjoner eksempler",
+    "preposisjoner oppgaver",
+    "preposisjoner liste"
+   ]
+  },
+  "preposisjoner oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "preposisjoner oppgaver",
+    "preposisjoner oppgaver pdf",
+    "preposisjoner oppgaver barnehage",
+    "preposisjoner oppgaver utskrift",
+    "preposisjoner oppgaver norsk",
+    "preposisjoner oppgaver barn",
+    "oppgaver preposisjoner engelsk",
+    "preposisjoner spansk oppgaver"
+   ]
+  },
+  "gjett ordet": {
+   "cls": "typeName",
+   "s": [
+    "gjett ordet",
+    "gjett ordet spill",
+    "gjett ordet coop",
+    "gjett ordet app",
+    "gjett ordet brettspill",
+    "gjett ordet norsk",
+    "gjett ordet fasit",
+    "gjett ordet nivå 8",
+    "gjett ordet ordnett",
+    "gjett ordet kortspill"
+   ]
+  },
+  "gjett ordet oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bokstavspill": {
+   "cls": "typeName",
+   "s": [
+    "bokstavspill",
+    "bokstavspill barn",
+    "bokstavspill kryssord",
+    "bokstavspill på nett",
+    "bokstavspill gratis",
+    "bokstavspill app",
+    "bokstavspill ark",
+    "bokstavspill barn app",
+    "bokstavspill app store"
+   ]
+  },
+  "bokstavspill oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ordleting": {
+   "cls": "typeName",
+   "s": [
+    "ordletingsvansker",
+    "ordleting",
+    "ordleting oppgaver",
+    "ordletingsvansker afasi",
+    "ordleting vansker",
+    "ordletingsvansker demens",
+    "ordletingsvansker adhd",
+    "ordletingsvansker barn",
+    "ordleting jul",
+    "ordleting kryssord"
+   ]
+  },
+  "ordleting oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "ordleting oppgaver"
+   ]
+  },
+  "kryssord": {
+   "cls": "typeName",
+   "s": [
+    "kryssord",
+    "kryssordhjelpen",
+    "kryssordbok",
+    "kryssord ordbok",
+    "kryssord gratis",
+    "kryssordkjempen",
+    "kryssord på nett",
+    "kryssordboka",
+    "kryssordløser",
+    "kryssord org"
+   ]
+  },
+  "kryssord oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "kryssord oppgaver",
+    "kryssord oppgaver barn",
+    "trivielle oppgaver kryssord",
+    "kittys oppgaver kryssord",
+    "politiske oppgaver kryssord"
+   ]
+  },
+  "finn og tell": {
+   "cls": "typeName",
+   "s": [
+    "finn tells tony about vito episode",
+    "finn tells about vito episode",
+    "finn teller",
+    "finn tellsgård",
+    "finn tells billy about mosley",
+    "finn tellefsen",
+    "finn teller nesodden",
+    "finn teller equinor",
+    "finn tells tony about vito",
+    "finn tells about vito"
+   ]
+  },
+  "finn og tell oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "finn objektene": {
+   "cls": "typeName",
+   "s": []
+  },
+  "finn objektene oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "skattejakt": {
+   "cls": "typeName",
+   "s": [
+    "skattejakt",
+    "skattejakt rebus barn",
+    "skattejakt for barn",
+    "skattejakt barnebursdag",
+    "skattejakt i fjæra nrk",
+    "skattejakten",
+    "skattejakten as",
+    "skattejakt filmer",
+    "skattejakt i fjæra nrk hvor",
+    "skattejakt rebus barn påske"
+   ]
+  },
+  "skattejakt oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "skattejakt oppgaver",
+    "skattejakt oppgaver barn"
+   ]
+  },
+  "manglende brikker": {
+   "cls": "typeName",
+   "s": [
+    "manglende brikker lego",
+    "manglende brikker"
+   ]
+  },
+  "manglende brikker oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "hvilken passer ikke": {
+   "cls": "typeName",
+   "s": [
+    "hvilken passer ikke ind",
+    "hvilken stjernetegn passer ikke sammen"
+   ]
+  },
+  "hvilken passer ikke oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "telle bilder": {
+   "cls": "typeName",
+   "s": []
+  },
+  "telle bilder oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tierramme": {
+   "cls": "typeName",
+   "s": [
+    "tierramme",
+    "tierrammer",
+    "tierramme oppgaver"
+   ]
+  },
+  "tierramme oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "tierramme oppgaver"
+   ]
+  },
+  "tellestreker": {
+   "cls": "typeName",
+   "s": [
+    "tellestreker",
+    "tellestreker oppgaver",
+    "tellestreker 5",
+    "tellestreker på engelsk"
+   ]
+  },
+  "tellestreker oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "tellestreker oppgaver"
+   ]
+  },
+  "hundrerute": {
+   "cls": "typeName",
+   "s": [
+    "hundrerrute",
+    "hundrerutenett"
+   ]
+  },
+  "hundrerute oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sammenligne tall": {
+   "cls": "typeName",
+   "s": [
+    "sammenligne tall i to kolonner i excel",
+    "sammenligne tall",
+    "sammenligne tall i excel"
+   ]
+  },
+  "sammenligne tall oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sammenligne mengder": {
+   "cls": "typeName",
+   "s": [
+    "sammenligne mengder"
+   ]
+  },
+  "sammenligne mengder oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sammenligne størrelser": {
+   "cls": "typeName",
+   "s": [
+    "sammenligne størrelser",
+    "sammenligne iphone størrelser"
+   ]
+  },
+  "sammenligne størrelser oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tallinje oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "tallinje oppgaver",
+    "tallinje oppgaver 2 trinn",
+    "tallinje oppgaver 1 trinn",
+    "tallinje oppgaver 3 trinn",
+    "tallinje oppgaver 4 trinn",
+    "tom tallinje oppgaver",
+    "brøk på tallinje oppgaver",
+    "desimaltall på tallinje oppgaver",
+    "tallinje 0-20 oppgaver"
+   ]
+  },
+  "plassverdi (tiere og enere)": {
+   "cls": "typeName",
+   "s": []
+  },
+  "plassverdi (tiere og enere) oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "lese klokka": {
+   "cls": "typeName",
+   "s": [
+    "hvordan lese klokka"
+   ]
+  },
+  "lese klokka oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "brøk": {
+   "cls": "typeName",
+   "s": [
+    "brøk kryssord",
+    "brøk",
+    "brøk kalkulator",
+    "brøkregning",
+    "brøkregelen",
+    "brøkregelen derivasjon",
+    "brøk til prosent",
+    "brøk oppgaver",
+    "brøkfunksjon",
+    "brøk på engelsk"
+   ]
+  },
+  "brøk oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "brøk oppgaver",
+    "brøk oppgaver 5 trinn",
+    "brøk oppgaver utskrift",
+    "brøk oppgaver 7 trinn",
+    "brøk oppgaver 8 trinn",
+    "brøk oppgaver 6 trinn",
+    "brøk oppgaver 4 trinn",
+    "brøk oppgaver 5 klasse",
+    "brøk oppgaver 10 trinn",
+    "brøk oppgaver med fasit"
+   ]
+  },
+  "diagram og data": {
+   "cls": "typeName",
+   "s": [
+    "diagram data",
+    "diagram database",
+    "diagram data flow",
+    "diagram database online",
+    "diagram database design",
+    "diagram data model",
+    "diagram database tool",
+    "diagram database architecture",
+    "diagram data warehouse",
+    "diagram data architecture"
+   ]
+  },
+  "diagram og data oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ganging med rader": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ganging med rader oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "geometri": {
+   "cls": "typeName",
+   "s": [
+    "geometrisk figur kryssord",
+    "geometry dash",
+    "geometry dash lite",
+    "geometri",
+    "geometriske figurer",
+    "geometriske former",
+    "geometrisk rekke",
+    "geometriske figurer 3d",
+    "geometri formler",
+    "geometrisk rekke formel"
+   ]
+  },
+  "geometri oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "geometri oppgaver",
+    "geometri oppgaver 9 trinn",
+    "geometri oppgaver 6 trinn",
+    "geometri oppgaver 10 trinn",
+    "geometri oppgaver 2p",
+    "geometri oppgaver 4 trinn",
+    "geometri oppgaver 7 trinn",
+    "geometri oppgaver 1 trinn",
+    "oppgaver geometri 2. trinn",
+    "geometri oppgaver pdf"
+   ]
+  },
+  "måling": {
+   "cls": "typeName",
+   "s": [
+    "måling kryssord",
+    "måling av blodsukker",
+    "måling",
+    "måling av blodtrykk",
+    "måling av langtidsblodsukker",
+    "målinger",
+    "måling av bentetthet",
+    "målingsdivisjon",
+    "måling av radon",
+    "måling blodsukker"
+   ]
+  },
+  "måling oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "måling oppgaver",
+    "måling oppgaver 3 trinn",
+    "måling oppgaver 2 trinn",
+    "oppgaver måling 4 trinn",
+    "oppgaver måling 1 trinn",
+    "måling vekt oppgaver",
+    "matematikk måling oppgaver",
+    "måling lengde oppgaver",
+    "praktiske oppgaver måling"
+   ]
+  },
+  "logiske gåter": {
+   "cls": "typeName",
+   "s": [
+    "logiske gåter",
+    "logiske gåter for barn",
+    "logiske gåter for voksne",
+    "logiske gåter med svar",
+    "vanskelige logiske gåter"
+   ]
+  },
+  "logiske gåter oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "visuell oppmerksomhet": {
+   "cls": "typeName",
+   "s": [
+    "visuell oppmerksomhet"
+   ]
+  },
+  "visuell oppmerksomhet oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "finne par": {
+   "cls": "typeName",
+   "s": [
+    "finne parkeringsbot",
+    "finne partner i voksen alder",
+    "finne parameterframstilling",
+    "finne partner",
+    "finne parkeringsbot på nett",
+    "finne parfyme",
+    "finne parkering",
+    "finne partner på nett",
+    "finne parkering i oslo",
+    "finne parkeringsplass"
+   ]
+  },
+  "finne par oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mønster oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "mønster oppgaver",
+    "mønster oppgaver barnehage",
+    "mønster oppgaver matematikk",
+    "geometriske mønster oppgaver"
+   ]
+  },
+  "plasseringsord": {
+   "cls": "typeName",
+   "s": [
+    "plasseringsord"
+   ]
+  },
+  "plasseringsord oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortere i grupper": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortere i grupper oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "regne med bilder": {
+   "cls": "typeName",
+   "s": []
+  },
+  "regne med bilder oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortere i naturfag": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sortere i naturfag oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "rekkefølge og livssykluser": {
+   "cls": "typeName",
+   "s": []
+  },
+  "rekkefølge og livssykluser oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "para sammen i naturfag": {
+   "cls": "typeName",
+   "s": []
+  },
+  "para sammen i naturfag oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "førstelyd": {
+   "cls": "typeName",
+   "s": []
+  },
+  "førstelyd oppgaver": {
+   "cls": "typeName",
+   "s": [
+    "første lyd oppgaver"
+   ]
+  },
+  "bokstavkjennskap": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bokstavkjennskap oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ordbygging": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ordbygging oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bildeordforråd": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bildeordforråd oppgaver": {
+   "cls": "typeName",
+   "s": []
+  },
+  "språklig bevissthet": {
+   "cls": "typeName",
+   "s": [
+    "språklig bevissthet",
+    "språklig bevissthet barn",
+    "språklig bevissthet aktiviteter",
+    "språklig bevissthet i barnehagen",
+    "språklig bevissthet definisjon",
+    "språklig bevissthet prøve",
+    "tras språklig bevissthet",
+    "jørgen frost språklig bevissthet",
+    "språkforståelse og språklig bevissthet",
+    "språklig og fonologisk bevissthet"
+   ]
+  },
+  "språklig bevissthet oppgaver": {
+   "cls": "typeName",
    "s": []
   }
  },
  "unique": [
   "100 plus",
+  "addisjon",
+  "addisjon med brøk",
+  "addisjon med tierovergang",
+  "addisjon og subtraksjon",
+  "addisjon oppgaver",
+  "addisjon oppgaver 1 trinn",
+  "addisjon oppgaver 2. trinn",
+  "addisjon oppgaver utskrift",
+  "addisjon oppstilling oppgaver",
+  "addisjonalitet",
+  "addisjonsmetoden",
+  "addisjonsmetoden likningssett",
+  "addisjonspolymer",
+  "addisjonsreaksjon",
   "aktiviteter 9 bokstaver",
   "aktiviteter med bokstaver",
+  "bildeveiledet intervensjon",
+  "bingo",
+  "bingo häggenås 2026",
+  "bingo oppgaver",
+  "bingo rimér",
+  "bingo spill",
+  "bingobrett",
+  "bingolotto",
+  "bingolotto i dag",
+  "bingolotto programledare",
+  "bingolotto rätta lotten",
+  "bingolotto tv4",
   "blomster 10 bokstaver",
   "blomster 5 bokstaver",
   "blomster 6 bokstaver",
@@ -1497,12 +3156,62 @@
   "bokstaver til barnerom",
   "bokstaver til russedress",
   "bokstaver til å stryke på klær",
+  "bokstavlyder",
+  "bokstavlyder norsk",
+  "bokstavspill",
+  "bokstavspill app",
+  "bokstavspill app store",
+  "bokstavspill ark",
+  "bokstavspill barn",
+  "bokstavspill barn app",
+  "bokstavspill gratis",
+  "bokstavspill kryssord",
+  "bokstavspill på nett",
+  "brøk",
+  "brøk kalkulator",
+  "brøk kryssord",
+  "brøk oppgaver",
+  "brøk oppgaver 10 trinn",
+  "brøk oppgaver 4 trinn",
+  "brøk oppgaver 5 klasse",
+  "brøk oppgaver 5 trinn",
+  "brøk oppgaver 6 trinn",
+  "brøk oppgaver 7 trinn",
+  "brøk oppgaver 8 trinn",
+  "brøk oppgaver med fasit",
+  "brøk oppgaver utskrift",
+  "brøk på engelsk",
+  "brøk på tallinje oppgaver",
+  "brøk til prosent",
+  "brøkfunksjon",
+  "brøkregelen",
+  "brøkregelen derivasjon",
+  "brøkregning",
   "camping matte",
   "camping matte isoliert",
   "camping matte landi",
   "camping matte outdoor",
   "camping matte selbstaufblasend",
   "camping matte vorzelt",
+  "cell diagram",
+  "cryptogram",
+  "cryptogram letters and numbers answers",
+  "cryptogram level 25",
+  "cryptogram level 77",
+  "cryptogram level 83",
+  "cryptogramma crispa",
+  "dahlia sorter bilder",
+  "desimaltall på tallinje oppgaver",
+  "diagram data",
+  "diagram data architecture",
+  "diagram data flow",
+  "diagram data model",
+  "diagram data warehouse",
+  "diagram database",
+  "diagram database architecture",
+  "diagram database design",
+  "diagram database online",
+  "diagram database tool",
   "diverse 3 bokstaver",
   "diverse 4 bokstaver",
   "diverse 5 bokstaver",
@@ -1529,6 +3238,26 @@
   "finmotorikk oppgaver",
   "finmotorikk trening",
   "finmotorikk øvelser",
+  "finn tellefsen",
+  "finn teller",
+  "finn teller equinor",
+  "finn teller nesodden",
+  "finn tells about vito",
+  "finn tells about vito episode",
+  "finn tells billy about mosley",
+  "finn tells tony about vito",
+  "finn tells tony about vito episode",
+  "finn tellsgård",
+  "finne parameterframstilling",
+  "finne parfyme",
+  "finne parkering",
+  "finne parkering i oslo",
+  "finne parkeringsbot",
+  "finne parkeringsbot på nett",
+  "finne parkeringsplass",
+  "finne partner",
+  "finne partner i voksen alder",
+  "finne partner på nett",
   "fondant former bokstaver",
   "former 10 bokstaver",
   "former 4 bokstaver",
@@ -1550,6 +3279,23 @@
   "fugler 7 bokstaver",
   "fugler 8 bokstaver",
   "fugler 9 bokstaver",
+  "første lyd oppgaver",
+  "geometri",
+  "geometri formler",
+  "geometri oppgaver",
+  "geometri oppgaver 1 trinn",
+  "geometri oppgaver 10 trinn",
+  "geometri oppgaver 2p",
+  "geometri oppgaver 4 trinn",
+  "geometri oppgaver 6 trinn",
+  "geometri oppgaver 7 trinn",
+  "geometri oppgaver 9 trinn",
+  "geometri oppgaver pdf",
+  "geometrisk figur kryssord",
+  "geometrisk rekke",
+  "geometrisk rekke formel",
+  "geometriske figurer",
+  "geometriske figurer 3d",
   "geometriske former",
   "geometriske former 3d",
   "geometriske former barnehage",
@@ -1560,6 +3306,20 @@
   "geometriske former og figurer",
   "geometriske former oppgaver",
   "geometriske former på engelsk",
+  "geometriske mønster oppgaver",
+  "geometry dash",
+  "geometry dash lite",
+  "gjentatt addisjon oppgaver",
+  "gjett ordet",
+  "gjett ordet app",
+  "gjett ordet brettspill",
+  "gjett ordet coop",
+  "gjett ordet fasit",
+  "gjett ordet kortspill",
+  "gjett ordet nivå 8",
+  "gjett ordet norsk",
+  "gjett ordet ordnett",
+  "gjett ordet spill",
   "god jul bokstaver",
   "god jul matte",
   "got2b.to be strand matte",
@@ -1572,11 +3332,21 @@
   "grønnsaker kryssord 9 bokstaver",
   "gårdsdyr 3 bokstaver",
   "gårdsdyr 4 bokstaver",
+  "hosta sorter bilder",
   "how to be 200cm tall",
+  "hundrere tiere og enere",
+  "hundrerrute",
+  "hundrerutenett",
+  "hvilken passer ikke ind",
+  "hvilken stjernetegn passer ikke sammen",
+  "hvordan lese klokka",
   "hvordan telle fugler",
   "hvordan telle fugler i hagen",
   "jul bokstaver",
   "jul matte",
+  "julmatte gratis",
+  "jørgen frost språklig bevissthet",
+  "kittys oppgaver kryssord",
   "kjæledyr 3 bokstaver",
   "kjæledyr 5 bokstaver",
   "kjæledyr 7 bokstaver",
@@ -1592,22 +3362,40 @@
   "kjøretøy 7 bokstaver",
   "kjøretøy 8 bokstaver",
   "kjøretøy 9 bokstaver",
+  "klematis sorter bilder",
   "klokka",
-  "klokka i boston nå",
+  "klokka hel og halv",
   "klokka i new york",
-  "klokka i new york nå",
   "klokka i norge",
-  "klokka i thailand",
+  "klokka i norge nå",
   "klokka i usa",
-  "klokka i usa nå",
   "klokka nå",
+  "klokka nå med sekunder",
   "klokkarstua",
+  "klokkarvik",
+  "klokkarvik hjellestad",
   "klær 10 bokstaver",
   "klær 3 bokstaver",
   "klær 6 bokstaver",
   "klær 7 bokstaver",
   "klær på 7 bokstaver",
   "kroppsdeler 6 bokstaver",
+  "kryptogram",
+  "kryptogram as",
+  "kryptogram korsord",
+  "kryptogrammer",
+  "kryssord",
+  "kryssord gratis",
+  "kryssord oppgaver",
+  "kryssord oppgaver barn",
+  "kryssord ordbok",
+  "kryssord org",
+  "kryssord på nett",
+  "kryssordbok",
+  "kryssordboka",
+  "kryssordhjelpen",
+  "kryssordkjempen",
+  "kryssordløser",
   "leker 2 bokstaver",
   "leker 7 bokstaver",
   "leker bokstaver",
@@ -1616,6 +3404,10 @@
   "lekser 1 trinn",
   "lesebestilling",
   "lesebestilling eksempel",
+  "logiske gåter",
+  "logiske gåter for barn",
+  "logiske gåter for voksne",
+  "logiske gåter med svar",
   "lydering",
   "lydering af bogstaver",
   "lydering av bokstaver",
@@ -1623,13 +3415,63 @@
   "lydering betydning",
   "lydering opgaver",
   "lydering oppgaver",
+  "lydrette ord",
+  "lydrette ord 1 klasse",
+  "lydrette ord 2 bogstaver",
+  "lydrette ord engelsk",
+  "lydrette ord liste",
+  "lydrette ord med d",
+  "lydrette ord med e",
+  "lydrette ord med l",
+  "lydrette ord med s",
+  "lydrette ordkort",
+  "lære bokstavlyder",
+  "lösgodis sorter bilder",
   "magnetisk verktøy matte",
+  "manglende brikker",
+  "manglende brikker lego",
+  "matching",
+  "matching oppgaver",
+  "matching oppgaver autisme",
+  "matching oppgaver barn",
+  "matching pfp",
+  "matching pyjamas couple",
+  "matching set",
+  "matching set dame",
+  "matching sets women",
+  "matching sett",
+  "matching tattoos",
+  "matching underwear for couples",
+  "matching wallpapers",
+  "matematikk måling oppgaver",
   "matematikk stasjoner 1 trinn",
+  "matematikk subtraksjon oppgaver",
   "matte aktiviteter for barn",
   "matte aktiviteter på förskolan",
   "matte aktiviteter ute",
   "matte dyr",
   "matte farger",
+  "matteark",
+  "matteark 1 trinn",
+  "matteark 2. trinn",
+  "matteark 3.trinn",
+  "matteark 4 klasse",
+  "matteark 4 trinn",
+  "matteark 5 trinn",
+  "matteark addisjon",
+  "matteark gangetabellen",
+  "matteark til barn",
+  "mattepuslespill",
+  "mer eller mindre",
+  "mer eller mindre betydning",
+  "mer eller mindre enn",
+  "mer eller mindre enn tegn",
+  "mer eller mindre glutenfritt mel",
+  "mer eller mindre mann",
+  "mer eller mindre mann 2012",
+  "mer eller mindre symbol",
+  "mer eller mindre synonym",
+  "mer eller mindre tegn",
   "mummi matte dyr",
   "muntlige oppgaver norsk som andrespråk",
   "musikk 10 bokstaver",
@@ -1645,9 +3487,47 @@
   "musikk i matte salaby",
   "musikk matte",
   "musikk og matte",
+  "måling",
+  "måling av bentetthet",
+  "måling av blodsukker",
+  "måling av blodtrykk",
+  "måling av langtidsblodsukker",
+  "måling av radon",
+  "måling blodsukker",
+  "måling kryssord",
+  "måling lengde oppgaver",
+  "måling oppgaver",
+  "måling oppgaver 2 trinn",
+  "måling oppgaver 3 trinn",
+  "måling vekt oppgaver",
+  "målinger",
+  "målingsdivisjon",
   "møbler 10 bokstaver",
   "møbler 5 bokstaver",
   "møbler 6 bokstaver",
+  "mønster",
+  "mønster bøttehatt",
+  "mønster energidrikk",
+  "mønster kryssord",
+  "mønster oppgaver",
+  "mønster oppgaver barnehage",
+  "mønster oppgaver matematikk",
+  "mønster til festdrakt dame",
+  "mønsterark",
+  "mønsterark bunad",
+  "mønsterark jul",
+  "mønsterark med ruter",
+  "mønsterark panduro",
+  "mønsterark scrapbooking",
+  "mønsterark strikking",
+  "mønsterark sy",
+  "mønsterark søm",
+  "mønsterark til broderi",
+  "mønsterdybde",
+  "mønsterdybde dekk",
+  "mønsterdybde nye sommerdekk",
+  "mønsterdybde sommerdekk",
+  "mønsterdybde vinterdekk",
   "norsk som andrespråk oppgaver",
   "norsk som andrespråk oppgaver pdf",
   "norsk stasjoner 1 trinn",
@@ -1662,8 +3542,59 @@
   "oppgavehefter",
   "oppgavehefter lek og skole",
   "oppgavehefter skole",
+  "oppgaver addisjon med tierovergang",
+  "oppgaver addisjon og subtraksjon",
+  "oppgaver geometri 2. trinn",
+  "oppgaver måling 1 trinn",
+  "oppgaver måling 4 trinn",
+  "oppgaver preposisjoner engelsk",
+  "oppgaver subtraksjon med låning",
+  "oppstilling subtraksjon oppgaver",
+  "oppstilt addisjon oppgaver",
+  "oppstilt addisjon oppgaver utskrift",
+  "oppstilt subtraksjon oppgaver",
+  "ordbilder",
+  "ordbilder att skriva ut",
+  "ordbilder barn",
+  "ordbilder förskola",
+  "ordbilder förskoleklass",
+  "ordbilder kartläggning förskoleklass",
+  "ordbilder kort",
+  "ordbilder media ab",
+  "ordbilder metoden",
+  "ordbilder åk 1",
+  "ordleting",
+  "ordleting jul",
+  "ordleting kryssord",
+  "ordleting oppgaver",
+  "ordleting vansker",
+  "ordletingsvansker",
+  "ordletingsvansker adhd",
+  "ordletingsvansker afasi",
+  "ordletingsvansker barn",
+  "ordletingsvansker demens",
+  "palettblad sorter bilder",
+  "plasseringsord",
   "pluss 10",
   "pluss 1000",
+  "politiske oppgaver kryssord",
+  "praktiske oppgaver måling",
+  "preposisjoner",
+  "preposisjoner eksempler",
+  "preposisjoner engelsk",
+  "preposisjoner fransk",
+  "preposisjoner kryssord",
+  "preposisjoner liste",
+  "preposisjoner norsk",
+  "preposisjoner oppgaver",
+  "preposisjoner oppgaver barn",
+  "preposisjoner oppgaver barnehage",
+  "preposisjoner oppgaver norsk",
+  "preposisjoner oppgaver pdf",
+  "preposisjoner oppgaver utskrift",
+  "preposisjoner spansk",
+  "preposisjoner spansk oppgaver",
+  "preposisjoner tysk",
   "påske bokstaver",
   "påske matte",
   "regnbue stavelser",
@@ -1677,11 +3608,59 @@
   "rimordbok",
   "rimowa",
   "rimowa koffert",
+  "rosor sorter bilder",
+  "sammenligne iphone størrelser",
+  "sammenligne mengder",
+  "sammenligne størrelser",
+  "sammenligne tall",
+  "sammenligne tall i excel",
+  "sammenligne tall i to kolonner i excel",
+  "skattejakt",
+  "skattejakt barnebursdag",
+  "skattejakt filmer",
+  "skattejakt for barn",
+  "skattejakt i fjæra nrk",
+  "skattejakt i fjæra nrk hvor",
+  "skattejakt oppgaver",
+  "skattejakt oppgaver barn",
+  "skattejakt rebus barn",
+  "skattejakt rebus barn påske",
+  "skattejakten",
+  "skattejakten as",
   "skogsdyr 3 bokstaver",
   "skogsdyr 5 bokstaver",
+  "sommaräpplen sorter bilder",
   "sommer 6 bokstaver",
   "sommer bokstaver",
   "sommer matte",
+  "sortering",
+  "sortering av søppel",
+  "sorteringsboks",
+  "sorteringsbokser",
+  "sorteringsbokser biltema",
+  "sorteringsguide",
+  "sorteringssamfunn",
+  "sorteringsskuffe",
+  "sorteringsskuffe s40",
+  "sorteringsskuffe s50",
+  "speiling",
+  "speiling av telefon",
+  "speiling definisjon",
+  "speiling kommunikasjon",
+  "speiling matematikk",
+  "speiling medisin",
+  "speiling og symmetri",
+  "speiling psykologi",
+  "speilingsteori",
+  "speilingsteori mead",
+  "språkforståelse og språklig bevissthet",
+  "språklig bevissthet",
+  "språklig bevissthet aktiviteter",
+  "språklig bevissthet barn",
+  "språklig bevissthet definisjon",
+  "språklig bevissthet i barnehagen",
+  "språklig bevissthet prøve",
+  "språklig og fonologisk bevissthet",
   "stasjoner 1 trinn",
   "stavelser",
   "stavelser arbeidsark",
@@ -1692,6 +3671,16 @@
   "stavelser oppgaver",
   "stavelser regler",
   "stavelser undervisningsopplegg",
+  "stor eller liten bokstav",
+  "stor eller liten bokstav etter kolon",
+  "stor eller liten bokstav etter tankestrek",
+  "stor eller liten bokstav i punktlista",
+  "stor eller liten forbokstav",
+  "stor eller liten forbokstav etter semikolon",
+  "stor eller liten forbokstav på månader",
+  "stor eller liten s i statsforvalteren",
+  "stor eller liten service bil",
+  "stor eller liten sølje øverst",
   "strand 4 bokstaver",
   "strand 5 bokstaver",
   "strand 7 bokstaver",
@@ -1705,6 +3694,22 @@
   "strand matte paste",
   "strand. 9 bokstaver",
   "strykemerker til klær bokstaver",
+  "subtraksjon",
+  "subtraksjon 1 trinn",
+  "subtraksjon av brøk med ulik nevner",
+  "subtraksjon med brøk",
+  "subtraksjon med låning",
+  "subtraksjon med tierovergang",
+  "subtraksjon med veksling",
+  "subtraksjon oppgaver",
+  "subtraksjon oppgaver 1 trinn",
+  "subtraksjon oppgaver 2 trinn",
+  "subtraksjon oppgaver 3 trinn",
+  "subtraksjon oppgaver 4 trinn",
+  "subtraksjon oppgaver utskrift",
+  "subtraksjon på tallinje",
+  "subtraksjon spill",
+  "sushi sorter bilder",
   "sykehus 13 bokstaver",
   "sykehus 4 bokstaver",
   "sykehus 7 bokstaver",
@@ -1718,6 +3723,21 @@
   "tall 20ft container",
   "tall til 20",
   "tall til 20 på spansk",
+  "tallinje",
+  "tallinje 0 100 gratis",
+  "tallinje 0 100 utskrift",
+  "tallinje 0-100",
+  "tallinje 0-20",
+  "tallinje 0-20 oppgaver",
+  "tallinje med negative tall",
+  "tallinje oppgaver",
+  "tallinje oppgaver 1 trinn",
+  "tallinje oppgaver 2 trinn",
+  "tallinje oppgaver 3 trinn",
+  "tallinje oppgaver 4 trinn",
+  "tallinje til 100",
+  "tallinje til 20",
+  "tallinjer",
   "telle dyr",
   "telle fugler",
   "telle fugler i hagen",
@@ -1727,7 +3747,34 @@
   "telle leker for barn",
   "telle musikk",
   "telle verktøy",
+  "tellestreker",
+  "tellestreker 5",
+  "tellestreker oppgaver",
+  "tellestreker på engelsk",
   "thanksgiving matte nails",
+  "thuja sorter bilder",
+  "tiere og enere",
+  "tiere og enere arbeidsark",
+  "tiere og enere mkx",
+  "tiere og enere multi",
+  "tiere og enere opgaver",
+  "tiere og enere oppgaver",
+  "tiere og enere salaby",
+  "tiere og enere spill",
+  "tiere og enere undervisningsopplegg",
+  "tierramme",
+  "tierramme oppgaver",
+  "tierrammer",
+  "tiervenner",
+  "tiervenner arbeidsark",
+  "tiervenner nettoppgaver",
+  "tiervenner oppgaver",
+  "tiervenner oppgaver pdf",
+  "tiervenner plakat",
+  "tiervenner sang",
+  "tiervenner sang tekst",
+  "tiervenner spill",
+  "tiervenner undervisningsmetoder",
   "tilbehør 10 bokstaver",
   "tilbehør 11 bokstaver",
   "tilbehør 13 bokstaver",
@@ -1737,6 +3784,9 @@
   "tilbehør 7 bokstaver",
   "tilbehør 8 bokstaver",
   "tilbehør 9 bokstaver",
+  "tom tallinje oppgaver",
+  "tras språklig bevissthet",
+  "trivielle oppgaver kryssord",
   "trær 4 bokstaver",
   "trær 5 bokstaver",
   "trær 6 bokstaver",
@@ -1745,6 +3795,7 @@
   "trær på 5 bokstaver",
   "trær på fire bokstaver",
   "ulike former matte",
+  "vanskelige logiske gåter",
   "verktøy 10 bokstaver",
   "verktøy 11 bokstaver",
   "verktøy 3 bokstaver",
@@ -1759,6 +3810,7 @@
   "vinter bokstaver",
   "vinter matte",
   "vinter matte premium varmecomfort",
+  "visuell oppmerksomhet",
   "vår 5 bokstaver",
   "vår bokstaver",
   "vær 3 bokstaver",
@@ -1770,12 +3822,25 @@
   "vær hilset 5 bokstaver",
   "yrker med matte",
   "yrker med p matte",
-  "yrker uten matte"
+  "yrker uten matte",
+  "øye hånd koordinasjon",
+  "øye hånd koordinasjon baby",
+  "øye hånd koordinasjon barn",
+  "øye hånd koordinasjon definisjon",
+  "øye hånd koordinasjon håndball",
+  "øye hånd koordinasjon leker",
+  "øye hånd koordinasjon øvelser",
+  "øye hånd koordinasjon øvelser barn",
+  "øye hånd øye fot koordinasjon"
  ],
  "novel": [
   "100 plus",
+  "addisjonalitet",
   "aktiviteter 9 bokstaver",
   "aktiviteter med bokstaver",
+  "bildeveiledet intervensjon",
+  "bingo häggenås 2026",
+  "bingolotto programledare",
   "blomster 10 bokstaver",
   "blomster 5 bokstaver",
   "blomster 6 bokstaver",
@@ -1798,12 +3863,24 @@
   "bokstaver til barnerom",
   "bokstaver til russedress",
   "bokstaver til å stryke på klær",
+  "bokstavlyder",
+  "bokstavlyder norsk",
+  "brøk oppgaver 10 trinn",
+  "brøk oppgaver 5 klasse",
+  "brøkfunksjon",
   "camping matte",
   "camping matte isoliert",
   "camping matte landi",
   "camping matte outdoor",
   "camping matte selbstaufblasend",
   "camping matte vorzelt",
+  "cryptogram",
+  "cryptogram letters and numbers answers",
+  "cryptogram level 25",
+  "cryptogram level 77",
+  "cryptogram level 83",
+  "cryptogramma crispa",
+  "diagram data architecture",
   "diverse 3 bokstaver",
   "diverse 4 bokstaver",
   "diverse 5 bokstaver",
@@ -1830,6 +3907,7 @@
   "finmotorikk oppgaver",
   "finmotorikk trening",
   "finmotorikk øvelser",
+  "finn teller equinor",
   "fondant former bokstaver",
   "former 10 bokstaver",
   "former 4 bokstaver",
@@ -1851,6 +3929,7 @@
   "fugler 7 bokstaver",
   "fugler 8 bokstaver",
   "fugler 9 bokstaver",
+  "geometrisk rekke formel",
   "geometriske former 3d",
   "geometriske former barnehage",
   "geometriske former i naturen",
@@ -1872,10 +3951,12 @@
   "gårdsdyr 3 bokstaver",
   "gårdsdyr 4 bokstaver",
   "how to be 200cm tall",
+  "hundrere tiere og enere",
   "hvordan telle fugler",
   "hvordan telle fugler i hagen",
   "jul bokstaver",
   "jul matte",
+  "julmatte gratis",
   "kjæledyr 3 bokstaver",
   "kjæledyr 5 bokstaver",
   "kjæledyr 7 bokstaver",
@@ -1892,21 +3973,25 @@
   "kjøretøy 8 bokstaver",
   "kjøretøy 9 bokstaver",
   "klokka",
-  "klokka i boston nå",
+  "klokka hel og halv",
   "klokka i new york",
-  "klokka i new york nå",
   "klokka i norge",
-  "klokka i thailand",
+  "klokka i norge nå",
   "klokka i usa",
-  "klokka i usa nå",
   "klokka nå",
+  "klokka nå med sekunder",
   "klokkarstua",
+  "klokkarvik",
+  "klokkarvik hjellestad",
   "klær 10 bokstaver",
   "klær 3 bokstaver",
   "klær 6 bokstaver",
   "klær 7 bokstaver",
   "klær på 7 bokstaver",
   "kroppsdeler 6 bokstaver",
+  "kryptogram as",
+  "kryssordboka",
+  "kryssordløser",
   "leker 2 bokstaver",
   "leker 7 bokstaver",
   "leker bokstaver",
@@ -1922,13 +4007,29 @@
   "lydering betydning",
   "lydering opgaver",
   "lydering oppgaver",
+  "lydrette ord",
+  "lydrette ord 1 klasse",
+  "lydrette ord 2 bogstaver",
+  "lydrette ord engelsk",
+  "lydrette ord liste",
+  "lydrette ord med d",
+  "lydrette ord med e",
+  "lydrette ord med l",
+  "lydrette ord med s",
+  "lydrette ordkort",
+  "lære bokstavlyder",
   "magnetisk verktøy matte",
+  "matching pyjamas couple",
+  "matching wallpapers",
   "matematikk stasjoner 1 trinn",
+  "matematikk subtraksjon oppgaver",
   "matte aktiviteter for barn",
   "matte aktiviteter på förskolan",
   "matte aktiviteter ute",
   "matte dyr",
   "matte farger",
+  "matteark gangetabellen",
+  "matteark til barn",
   "mummi matte dyr",
   "muntlige oppgaver norsk som andrespråk",
   "musikk 10 bokstaver",
@@ -1944,9 +4045,13 @@
   "musikk i matte salaby",
   "musikk matte",
   "musikk og matte",
+  "måling blodsukker",
   "møbler 10 bokstaver",
   "møbler 5 bokstaver",
   "møbler 6 bokstaver",
+  "mønster bøttehatt",
+  "mønster til festdrakt dame",
+  "mønsterark med ruter",
   "norsk som andrespråk oppgaver",
   "norsk som andrespråk oppgaver pdf",
   "norsk stasjoner 1 trinn",
@@ -1961,8 +4066,21 @@
   "oppgavehefter",
   "oppgavehefter lek og skole",
   "oppgavehefter skole",
+  "oppgaver preposisjoner engelsk",
+  "ordbilder",
+  "ordbilder att skriva ut",
+  "ordbilder barn",
+  "ordbilder förskola",
+  "ordbilder förskoleklass",
+  "ordbilder kartläggning förskoleklass",
+  "ordbilder kort",
+  "ordbilder media ab",
+  "ordbilder metoden",
+  "ordbilder åk 1",
+  "ordleting vansker",
   "pluss 10",
   "pluss 1000",
+  "preposisjoner liste",
   "påske bokstaver",
   "påske matte",
   "regnbue stavelser",
@@ -1976,11 +4094,33 @@
   "rimordbok",
   "rimowa",
   "rimowa koffert",
+  "skattejakt i fjæra nrk hvor",
   "skogsdyr 3 bokstaver",
   "skogsdyr 5 bokstaver",
   "sommer 6 bokstaver",
   "sommer bokstaver",
   "sommer matte",
+  "sortering",
+  "sortering av søppel",
+  "sorteringsboks",
+  "sorteringsbokser",
+  "sorteringsbokser biltema",
+  "sorteringsguide",
+  "sorteringssamfunn",
+  "sorteringsskuffe",
+  "sorteringsskuffe s40",
+  "sorteringsskuffe s50",
+  "speiling",
+  "speiling av telefon",
+  "speiling definisjon",
+  "speiling kommunikasjon",
+  "speiling matematikk",
+  "speiling medisin",
+  "speiling og symmetri",
+  "speiling psykologi",
+  "speilingsteori",
+  "speilingsteori mead",
+  "språklig og fonologisk bevissthet",
   "stasjoner 1 trinn",
   "stavelser",
   "stavelser arbeidsark",
@@ -1991,6 +4131,7 @@
   "stavelser oppgaver",
   "stavelser regler",
   "stavelser undervisningsopplegg",
+  "stor eller liten forbokstav etter semikolon",
   "strand 4 bokstaver",
   "strand 5 bokstaver",
   "strand 7 bokstaver",
@@ -2004,6 +4145,7 @@
   "strand matte paste",
   "strand. 9 bokstaver",
   "strykemerker til klær bokstaver",
+  "subtraksjon av brøk med ulik nevner",
   "sykehus 13 bokstaver",
   "sykehus 4 bokstaver",
   "sykehus 7 bokstaver",
@@ -2017,6 +4159,7 @@
   "tall 20ft container",
   "tall til 20",
   "tall til 20 på spansk",
+  "tallinje til 100",
   "telle dyr",
   "telle fugler",
   "telle fugler i hagen",
@@ -2027,6 +4170,25 @@
   "telle musikk",
   "telle verktøy",
   "thanksgiving matte nails",
+  "tiere og enere",
+  "tiere og enere arbeidsark",
+  "tiere og enere mkx",
+  "tiere og enere multi",
+  "tiere og enere opgaver",
+  "tiere og enere oppgaver",
+  "tiere og enere salaby",
+  "tiere og enere spill",
+  "tiere og enere undervisningsopplegg",
+  "tiervenner",
+  "tiervenner arbeidsark",
+  "tiervenner nettoppgaver",
+  "tiervenner oppgaver",
+  "tiervenner oppgaver pdf",
+  "tiervenner plakat",
+  "tiervenner sang",
+  "tiervenner sang tekst",
+  "tiervenner spill",
+  "tiervenner undervisningsmetoder",
   "tilbehør 10 bokstaver",
   "tilbehør 11 bokstaver",
   "tilbehør 13 bokstaver",
@@ -2069,7 +4231,15 @@
   "vær hilset 5 bokstaver",
   "yrker med matte",
   "yrker med p matte",
-  "yrker uten matte"
- ],
- "refilteredAt": "2026-07-20T08:58:53.406Z"
+  "yrker uten matte",
+  "øye hånd koordinasjon",
+  "øye hånd koordinasjon baby",
+  "øye hånd koordinasjon barn",
+  "øye hånd koordinasjon definisjon",
+  "øye hånd koordinasjon håndball",
+  "øye hånd koordinasjon leker",
+  "øye hånd koordinasjon øvelser",
+  "øye hånd koordinasjon øvelser barn",
+  "øye hånd øye fot koordinasjon"
+ ]
 }

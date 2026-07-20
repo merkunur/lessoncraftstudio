@@ -4,24 +4,30 @@
   "hl": "de",
   "gl": "de"
  },
- "generatedAt": "2026-07-20T08:48:34.193Z",
+ "generatedAt": "2026-07-20T09:41:41.535Z",
  "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
- "requestCount": 435,
+ "requestCount": 523,
  "seedCounts": {
   "skill": 18,
   "context": 12,
   "audience": 8,
   "enumerated": 49,
   "pack": 3,
-  "cross": 345
+  "cross": 315,
+  "typeName": 118
  },
- "errorCount": 0,
- "errors": [],
+ "errorCount": 1,
+ "errors": [
+  {
+   "seed": "meeresleben rechnen",
+   "err": "HTTP 500"
+  }
+ ],
  "newVsInventory": {
   "inventoryUnique": 2367,
-  "demandUnique": 975,
-  "novel": 936,
-  "novelShare": 0.96
+  "demandUnique": 1559,
+  "novel": 980,
+  "novelShare": 0.629
  },
  "deadSeeds": [
   "stationenlernen arbeitsblätter",
@@ -62,11 +68,6 @@
   "strand rechnen",
   "vögel mathe",
   "vögel rechnen",
-  "vögel 2 mathe",
-  "vögel 2 zählen",
-  "vögel 2 rechnen",
-  "vögel 2 buchstaben",
-  "vögel 2 silben",
   "körperteile rechnen",
   "körperteile silben",
   "frühstück zählen",
@@ -122,7 +123,6 @@
   "verschiedenes silben",
   "meeresleben mathe",
   "meeresleben zählen",
-  "meeresleben rechnen",
   "meeresleben buchstaben",
   "meeresleben silben",
   "haustiere mathe",
@@ -169,101 +169,116 @@
   "zootiere rechnen",
   "zootiere buchstaben",
   "zootiere silben",
-  "tiere sw 2 mathe",
-  "tiere sw 2 zählen",
-  "tiere sw 2 rechnen",
-  "tiere sw 2 buchstaben",
-  "tiere sw 2 silben",
-  "tiere sw 3 mathe",
-  "tiere sw 3 zählen",
-  "tiere sw 3 rechnen",
-  "tiere sw 3 buchstaben",
-  "tiere sw 3 silben",
-  "tiere sw 4 mathe",
-  "tiere sw 4 zählen",
-  "tiere sw 4 rechnen",
-  "tiere sw 4 buchstaben",
-  "tiere sw 4 silben",
-  "tiere sw 5 mathe",
-  "tiere sw 5 zählen",
-  "tiere sw 5 rechnen",
-  "tiere sw 5 buchstaben",
-  "tiere sw 5 silben",
-  "strand sw 2 mathe",
-  "strand sw 2 zählen",
-  "strand sw 2 rechnen",
-  "strand sw 2 buchstaben",
-  "strand sw 2 silben",
-  "vögel sw 2 mathe",
-  "vögel sw 2 zählen",
-  "vögel sw 2 rechnen",
-  "vögel sw 2 buchstaben",
-  "vögel sw 2 silben",
-  "weihnachten s/w 2 mathe",
-  "weihnachten s/w 2 zählen",
-  "weihnachten s/w 2 rechnen",
-  "weihnachten s/w 2 buchstaben",
-  "weihnachten s/w 2 silben",
+  "tiere sw mathe",
+  "tiere sw zählen",
+  "tiere sw rechnen",
+  "tiere sw buchstaben",
+  "tiere sw silben",
+  "strand sw mathe",
+  "strand sw zählen",
+  "strand sw rechnen",
+  "strand sw buchstaben",
+  "strand sw silben",
+  "vögel sw mathe",
+  "vögel sw zählen",
+  "vögel sw rechnen",
+  "vögel sw buchstaben",
+  "vögel sw silben",
+  "weihnachten s/w mathe",
+  "weihnachten s/w zählen",
+  "weihnachten s/w rechnen",
+  "weihnachten s/w buchstaben",
+  "weihnachten s/w silben",
   "klassenzimmer 2 (s/w) mathe",
   "klassenzimmer 2 (s/w) zählen",
   "klassenzimmer 2 (s/w) rechnen",
   "klassenzimmer 2 (s/w) buchstaben",
   "klassenzimmer 2 (s/w) silben",
-  "ostern sw 2 mathe",
-  "ostern sw 2 zählen",
-  "ostern sw 2 rechnen",
-  "ostern sw 2 buchstaben",
-  "ostern sw 2 silben",
-  "essen sw 2 mathe",
-  "essen sw 2 zählen",
-  "essen sw 2 rechnen",
-  "essen sw 2 buchstaben",
-  "essen sw 2 silben",
-  "essen sw 3 mathe",
-  "essen sw 3 zählen",
-  "essen sw 3 rechnen",
-  "essen sw 3 buchstaben",
-  "essen sw 3 silben",
-  "zuhause sw 2 mathe",
-  "zuhause sw 2 zählen",
-  "zuhause sw 2 rechnen",
-  "zuhause sw 2 buchstaben",
-  "zuhause sw 2 silben",
-  "meeresleben sw 2 mathe",
-  "meeresleben sw 2 zählen",
-  "meeresleben sw 2 rechnen",
-  "meeresleben sw 2 buchstaben",
-  "meeresleben sw 2 silben",
-  "sport sw 2 mathe",
-  "sport sw 2 zählen",
-  "sport sw 2 rechnen",
-  "sport sw 2 buchstaben",
-  "sport sw 2 silben",
-  "spielzeug sw 2 mathe",
-  "spielzeug sw 2 zählen",
-  "spielzeug sw 2 rechnen",
-  "spielzeug sw 2 buchstaben",
-  "spielzeug sw 2 silben",
-  "valentinstag sw 2 mathe",
-  "valentinstag sw 2 zählen",
-  "valentinstag sw 2 rechnen",
-  "valentinstag sw 2 buchstaben",
-  "valentinstag sw 2 silben",
-  "gemüse sw 2 mathe",
-  "gemüse sw 2 zählen",
-  "gemüse sw 2 rechnen",
-  "gemüse sw 2 buchstaben",
-  "gemüse sw 2 silben",
-  "fahrzeuge sw 2 mathe",
-  "fahrzeuge sw 2 zählen",
-  "fahrzeuge sw 2 rechnen",
-  "fahrzeuge sw 2 buchstaben",
-  "fahrzeuge sw 2 silben",
-  "fahrzeuge sw 3 mathe",
-  "fahrzeuge sw 3 zählen",
-  "fahrzeuge sw 3 rechnen",
-  "fahrzeuge sw 3 buchstaben",
-  "fahrzeuge sw 3 silben"
+  "ostern sw mathe",
+  "ostern sw zählen",
+  "ostern sw rechnen",
+  "ostern sw buchstaben",
+  "ostern sw silben",
+  "essen sw mathe",
+  "essen sw zählen",
+  "essen sw rechnen",
+  "essen sw buchstaben",
+  "essen sw silben",
+  "zuhause sw mathe",
+  "zuhause sw zählen",
+  "zuhause sw rechnen",
+  "zuhause sw buchstaben",
+  "zuhause sw silben",
+  "meeresleben sw mathe",
+  "meeresleben sw zählen",
+  "meeresleben sw rechnen",
+  "meeresleben sw buchstaben",
+  "meeresleben sw silben",
+  "sport sw mathe",
+  "sport sw zählen",
+  "sport sw rechnen",
+  "sport sw buchstaben",
+  "sport sw silben",
+  "spielzeug sw mathe",
+  "spielzeug sw zählen",
+  "spielzeug sw rechnen",
+  "spielzeug sw buchstaben",
+  "spielzeug sw silben",
+  "valentinstag sw mathe",
+  "valentinstag sw zählen",
+  "valentinstag sw rechnen",
+  "valentinstag sw buchstaben",
+  "valentinstag sw silben",
+  "gemüse sw mathe",
+  "gemüse sw zählen",
+  "gemüse sw rechnen",
+  "gemüse sw buchstaben",
+  "gemüse sw silben",
+  "fahrzeuge sw mathe",
+  "fahrzeuge sw zählen",
+  "fahrzeuge sw rechnen",
+  "fahrzeuge sw buchstaben",
+  "fahrzeuge sw silben",
+  "bilder-sudoku arbeitsblätter",
+  "kryptogramm arbeitsblätter",
+  "bildpfad arbeitsblätter",
+  "code-addition arbeitsblätter",
+  "mathe-arbeitsblatt arbeitsblätter",
+  "tabelle zählen arbeitsblätter",
+  "musterzug arbeitsblätter",
+  "musterarbeitsblatt",
+  "musterarbeitsblatt arbeitsblätter",
+  "bingo arbeitsblätter",
+  "gitter-zuordnung",
+  "gitter-zuordnung arbeitsblätter",
+  "bildersortierung arbeitsblätter",
+  "schatten zuordnen arbeitsblätter",
+  "buchstabenzug arbeitsblätter",
+  "wort raten arbeitsblätter",
+  "wortsuche arbeitsblätter",
+  "suchen und zählen arbeitsblätter",
+  "objekte finden arbeitsblätter",
+  "schatzsuche arbeitsblätter",
+  "was fehlt arbeitsblätter",
+  "zählen mit bildern",
+  "zählen mit bildern arbeitsblätter",
+  "zehnerfeld arbeitsblätter",
+  "größen vergleichen arbeitsblätter",
+  "erstes einmaleins",
+  "erstes einmaleins arbeitsblätter",
+  "bilder zuordnen arbeitsblätter",
+  "sortieren und ordnen arbeitsblätter",
+  "rechnen mit bildern arbeitsblätter",
+  "sachunterricht-sortieren",
+  "sachunterricht-sortieren arbeitsblätter",
+  "reihenfolge & lebenszyklen",
+  "reihenfolge & lebenszyklen arbeitsblätter",
+  "sachunterricht-zuordnen",
+  "sachunterricht-zuordnen arbeitsblätter",
+  "buchstaben erkennen arbeitsblätter",
+  "wörter bauen arbeitsblätter",
+  "wortschatz mit bildern arbeitsblätter",
+  "laute & silben arbeitsblätter"
  ],
  "suggestions": {
   "silben": {
@@ -282,7 +297,7 @@
    ]
   },
   "anlaute": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "anlaute",
     "anlaute üben",
@@ -312,7 +327,7 @@
    ]
   },
   "buchstaben erkennen": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "buchstaben erkennen",
     "buchstaben erkennen arbeitsblatt",
@@ -447,7 +462,7 @@
    ]
   },
   "uhrzeit lernen": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "uhrzeit lernen kinder",
     "uhrzeit lernen",
@@ -477,7 +492,7 @@
    ]
   },
   "muster fortsetzen": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "muster fortsetzen klasse 1",
     "muster fortsetzen",
@@ -502,8 +517,8 @@
     "schwungübungen kindergarten",
     "schwungübungen schreibschrift",
     "schwungübungen grundschule",
-    "schwungübungen erwachsene",
-    "schwungübungen pdf"
+    "schwungübungen zum ausdrucken",
+    "schwungübungen erwachsene"
    ]
   },
   "feinmotorik": {
@@ -1413,26 +1428,6 @@
     "vögel silben"
    ]
   },
-  "vögel 2 mathe": {
-   "cls": "cross",
-   "s": []
-  },
-  "vögel 2 zählen": {
-   "cls": "cross",
-   "s": []
-  },
-  "vögel 2 rechnen": {
-   "cls": "cross",
-   "s": []
-  },
-  "vögel 2 buchstaben": {
-   "cls": "cross",
-   "s": []
-  },
-  "vögel 2 silben": {
-   "cls": "cross",
-   "s": []
-  },
   "körperteile mathe": {
    "cls": "cross",
    "s": [
@@ -2217,10 +2212,6 @@
    "cls": "cross",
    "s": []
   },
-  "meeresleben rechnen": {
-   "cls": "cross",
-   "s": []
-  },
   "meeresleben buchstaben": {
    "cls": "cross",
    "s": []
@@ -2797,143 +2788,83 @@
    "cls": "cross",
    "s": []
   },
-  "tiere sw 2 mathe": {
+  "tiere sw mathe": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 2 zählen": {
+  "tiere sw zählen": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 2 rechnen": {
+  "tiere sw rechnen": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 2 buchstaben": {
+  "tiere sw buchstaben": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 2 silben": {
+  "tiere sw silben": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 3 mathe": {
+  "strand sw mathe": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 3 zählen": {
+  "strand sw zählen": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 3 rechnen": {
+  "strand sw rechnen": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 3 buchstaben": {
+  "strand sw buchstaben": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 3 silben": {
+  "strand sw silben": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 4 mathe": {
+  "vögel sw mathe": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 4 zählen": {
+  "vögel sw zählen": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 4 rechnen": {
+  "vögel sw rechnen": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 4 buchstaben": {
+  "vögel sw buchstaben": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 4 silben": {
+  "vögel sw silben": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 5 mathe": {
+  "weihnachten s/w mathe": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 5 zählen": {
+  "weihnachten s/w zählen": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 5 rechnen": {
+  "weihnachten s/w rechnen": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 5 buchstaben": {
+  "weihnachten s/w buchstaben": {
    "cls": "cross",
    "s": []
   },
-  "tiere sw 5 silben": {
-   "cls": "cross",
-   "s": []
-  },
-  "strand sw 2 mathe": {
-   "cls": "cross",
-   "s": []
-  },
-  "strand sw 2 zählen": {
-   "cls": "cross",
-   "s": []
-  },
-  "strand sw 2 rechnen": {
-   "cls": "cross",
-   "s": []
-  },
-  "strand sw 2 buchstaben": {
-   "cls": "cross",
-   "s": []
-  },
-  "strand sw 2 silben": {
-   "cls": "cross",
-   "s": []
-  },
-  "vögel sw 2 mathe": {
-   "cls": "cross",
-   "s": []
-  },
-  "vögel sw 2 zählen": {
-   "cls": "cross",
-   "s": []
-  },
-  "vögel sw 2 rechnen": {
-   "cls": "cross",
-   "s": []
-  },
-  "vögel sw 2 buchstaben": {
-   "cls": "cross",
-   "s": []
-  },
-  "vögel sw 2 silben": {
-   "cls": "cross",
-   "s": []
-  },
-  "weihnachten s/w 2 mathe": {
-   "cls": "cross",
-   "s": []
-  },
-  "weihnachten s/w 2 zählen": {
-   "cls": "cross",
-   "s": []
-  },
-  "weihnachten s/w 2 rechnen": {
-   "cls": "cross",
-   "s": []
-  },
-  "weihnachten s/w 2 buchstaben": {
-   "cls": "cross",
-   "s": []
-  },
-  "weihnachten s/w 2 silben": {
+  "weihnachten s/w silben": {
    "cls": "cross",
    "s": []
   },
@@ -2957,224 +2888,1299 @@
    "cls": "cross",
    "s": []
   },
-  "ostern sw 2 mathe": {
+  "ostern sw mathe": {
    "cls": "cross",
    "s": []
   },
-  "ostern sw 2 zählen": {
+  "ostern sw zählen": {
    "cls": "cross",
    "s": []
   },
-  "ostern sw 2 rechnen": {
+  "ostern sw rechnen": {
    "cls": "cross",
    "s": []
   },
-  "ostern sw 2 buchstaben": {
+  "ostern sw buchstaben": {
    "cls": "cross",
    "s": []
   },
-  "ostern sw 2 silben": {
+  "ostern sw silben": {
    "cls": "cross",
    "s": []
   },
-  "essen sw 2 mathe": {
+  "essen sw mathe": {
    "cls": "cross",
    "s": []
   },
-  "essen sw 2 zählen": {
+  "essen sw zählen": {
    "cls": "cross",
    "s": []
   },
-  "essen sw 2 rechnen": {
+  "essen sw rechnen": {
    "cls": "cross",
    "s": []
   },
-  "essen sw 2 buchstaben": {
+  "essen sw buchstaben": {
    "cls": "cross",
    "s": []
   },
-  "essen sw 2 silben": {
+  "essen sw silben": {
    "cls": "cross",
    "s": []
   },
-  "essen sw 3 mathe": {
+  "zuhause sw mathe": {
    "cls": "cross",
    "s": []
   },
-  "essen sw 3 zählen": {
+  "zuhause sw zählen": {
    "cls": "cross",
    "s": []
   },
-  "essen sw 3 rechnen": {
+  "zuhause sw rechnen": {
    "cls": "cross",
    "s": []
   },
-  "essen sw 3 buchstaben": {
+  "zuhause sw buchstaben": {
    "cls": "cross",
    "s": []
   },
-  "essen sw 3 silben": {
+  "zuhause sw silben": {
    "cls": "cross",
    "s": []
   },
-  "zuhause sw 2 mathe": {
+  "meeresleben sw mathe": {
    "cls": "cross",
    "s": []
   },
-  "zuhause sw 2 zählen": {
+  "meeresleben sw zählen": {
    "cls": "cross",
    "s": []
   },
-  "zuhause sw 2 rechnen": {
+  "meeresleben sw rechnen": {
    "cls": "cross",
    "s": []
   },
-  "zuhause sw 2 buchstaben": {
+  "meeresleben sw buchstaben": {
    "cls": "cross",
    "s": []
   },
-  "zuhause sw 2 silben": {
+  "meeresleben sw silben": {
    "cls": "cross",
    "s": []
   },
-  "meeresleben sw 2 mathe": {
+  "sport sw mathe": {
    "cls": "cross",
    "s": []
   },
-  "meeresleben sw 2 zählen": {
+  "sport sw zählen": {
    "cls": "cross",
    "s": []
   },
-  "meeresleben sw 2 rechnen": {
+  "sport sw rechnen": {
    "cls": "cross",
    "s": []
   },
-  "meeresleben sw 2 buchstaben": {
+  "sport sw buchstaben": {
    "cls": "cross",
    "s": []
   },
-  "meeresleben sw 2 silben": {
+  "sport sw silben": {
    "cls": "cross",
    "s": []
   },
-  "sport sw 2 mathe": {
+  "spielzeug sw mathe": {
    "cls": "cross",
    "s": []
   },
-  "sport sw 2 zählen": {
+  "spielzeug sw zählen": {
    "cls": "cross",
    "s": []
   },
-  "sport sw 2 rechnen": {
+  "spielzeug sw rechnen": {
    "cls": "cross",
    "s": []
   },
-  "sport sw 2 buchstaben": {
+  "spielzeug sw buchstaben": {
    "cls": "cross",
    "s": []
   },
-  "sport sw 2 silben": {
+  "spielzeug sw silben": {
    "cls": "cross",
    "s": []
   },
-  "spielzeug sw 2 mathe": {
+  "valentinstag sw mathe": {
    "cls": "cross",
    "s": []
   },
-  "spielzeug sw 2 zählen": {
+  "valentinstag sw zählen": {
    "cls": "cross",
    "s": []
   },
-  "spielzeug sw 2 rechnen": {
+  "valentinstag sw rechnen": {
    "cls": "cross",
    "s": []
   },
-  "spielzeug sw 2 buchstaben": {
+  "valentinstag sw buchstaben": {
    "cls": "cross",
    "s": []
   },
-  "spielzeug sw 2 silben": {
+  "valentinstag sw silben": {
    "cls": "cross",
    "s": []
   },
-  "valentinstag sw 2 mathe": {
+  "gemüse sw mathe": {
    "cls": "cross",
    "s": []
   },
-  "valentinstag sw 2 zählen": {
+  "gemüse sw zählen": {
    "cls": "cross",
    "s": []
   },
-  "valentinstag sw 2 rechnen": {
+  "gemüse sw rechnen": {
    "cls": "cross",
    "s": []
   },
-  "valentinstag sw 2 buchstaben": {
+  "gemüse sw buchstaben": {
    "cls": "cross",
    "s": []
   },
-  "valentinstag sw 2 silben": {
+  "gemüse sw silben": {
    "cls": "cross",
    "s": []
   },
-  "gemüse sw 2 mathe": {
+  "fahrzeuge sw mathe": {
    "cls": "cross",
    "s": []
   },
-  "gemüse sw 2 zählen": {
+  "fahrzeuge sw zählen": {
    "cls": "cross",
    "s": []
   },
-  "gemüse sw 2 rechnen": {
+  "fahrzeuge sw rechnen": {
    "cls": "cross",
    "s": []
   },
-  "gemüse sw 2 buchstaben": {
+  "fahrzeuge sw buchstaben": {
    "cls": "cross",
    "s": []
   },
-  "gemüse sw 2 silben": {
+  "fahrzeuge sw silben": {
    "cls": "cross",
    "s": []
   },
-  "fahrzeuge sw 2 mathe": {
-   "cls": "cross",
+  "addition": {
+   "cls": "typeName",
+   "s": [
+    "additionstheoreme",
+    "additionsverfahren",
+    "addition",
+    "additional",
+    "additionally",
+    "additional deutsch",
+    "additionally synonym",
+    "additionssatz",
+    "addition und subtraktion",
+    "addition deutsch"
+   ]
+  },
+  "addition arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "addition arbeitsblätter",
+    "addition arbeitsblätter kostenlos",
+    "addition arbeitsblätter pdf",
+    "arbeitsblätter addition und subtraktion bis 100",
+    "arbeitsblätter addition bis 100",
+    "arbeitsblätter addition bis 10",
+    "arbeitsblätter addition und subtraktion bis 1000",
+    "arbeitsblätter addition bis 20",
+    "arbeitsblätter addition bis 1000",
+    "arbeitsblätter addition und subtraktion bis 20"
+   ]
+  },
+  "bilder-sudoku": {
+   "cls": "typeName",
+   "s": [
+    "bilder sudoku",
+    "bilder sudoku für kinder zum ausdrucken",
+    "bilder sudoku zum ausdrucken",
+    "bilder sudoku für kinder",
+    "bilder sudoku für kinder online",
+    "bilder sudoku online",
+    "bilder sudoku weihnachten",
+    "sudoku kinder 4x4 bilder",
+    "sudoku schwer bilder",
+    "sudoku leicht bilder"
+   ]
+  },
+  "bilder-sudoku arbeitsblätter": {
+   "cls": "typeName",
    "s": []
   },
-  "fahrzeuge sw 2 zählen": {
-   "cls": "cross",
+  "kryptogramm": {
+   "cls": "typeName",
+   "s": [
+    "kryptogramm",
+    "kryptogramm rätsel",
+    "kryptogramm lösen",
+    "kryptogramme",
+    "kryptogramm von la buse",
+    "kryptogramm beispiele",
+    "kryptogramm kreditkarte",
+    "kryptogramm volksschule",
+    "kryptogramm erstellen",
+    "kryptogramm lösen online"
+   ]
+  },
+  "kryptogramm arbeitsblätter": {
+   "cls": "typeName",
    "s": []
   },
-  "fahrzeuge sw 2 rechnen": {
-   "cls": "cross",
+  "bildpfad": {
+   "cls": "typeName",
+   "s": [
+    "bildpfad in excel einfügen",
+    "bildpfad home assistant"
+   ]
+  },
+  "bildpfad arbeitsblätter": {
+   "cls": "typeName",
    "s": []
   },
-  "fahrzeuge sw 2 buchstaben": {
-   "cls": "cross",
+  "subtraktion": {
+   "cls": "typeName",
+   "s": [
+    "subtraktion",
+    "subtraktion begriffe",
+    "subtraktionsverfahren",
+    "subtraktion fachbegriffe",
+    "subtraktion mit zehnerübergang",
+    "subtraktion excel",
+    "subtraktion von brüchen",
+    "subtraktion von vektoren",
+    "subtraktionsangiographie",
+    "subtraktion schriftlich"
+   ]
+  },
+  "subtraktion arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "subtraktion arbeitsblätter",
+    "subtraktion arbeitsblätter klasse 1",
+    "subtraktion arbeitsblätter 3 klasse",
+    "subtraktion arbeitsblätter.pdf",
+    "subtraktion arbeitsblätter 2 klasse",
+    "arbeitsblätter subtraktion bis 100",
+    "arbeitsblätter subtraktion bis 1000",
+    "arbeitsblätter subtraktion bis 10",
+    "arbeitsblätter subtraktion mit zehnerübergang",
+    "arbeitsblätter subtraktion bis 20"
+   ]
+  },
+  "code-addition": {
+   "cls": "typeName",
+   "s": [
+    "code additions that explain circumstances that alter",
+    "code additions that explain circumstances that alter a provided service",
+    "code additionnel",
+    "code additionnel douane rdc",
+    "code additionnel douane pdf",
+    "code additionnel national douane",
+    "code additionnel 326",
+    "code additionnel taric",
+    "code additionnel 316",
+    "code additionnel communautaire"
+   ]
+  },
+  "code-addition arbeitsblätter": {
+   "cls": "typeName",
    "s": []
   },
-  "fahrzeuge sw 2 silben": {
-   "cls": "cross",
+  "mehr oder weniger": {
+   "cls": "typeName",
+   "s": [
+    "mehr oder weniger",
+    "mehr oder weniger spiel",
+    "mehr oder weniger zeichen",
+    "mehr oder weniger synonym",
+    "mehr oder weniger englisch",
+    "mehr oder weniger spanisch",
+    "mehr oder weniger französisch",
+    "mehr oder weniger bedeutung",
+    "mehr oder weniger spiel anleitung",
+    "mehr oder weniger spiel fragen"
+   ]
+  },
+  "mehr oder weniger arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "mehr oder weniger arbeitsblätter"
+   ]
+  },
+  "mathe-rätsel": {
+   "cls": "typeName",
+   "s": [
+    "mathe-rätsel für kinder 8 jahre",
+    "mathe-rätsel",
+    "mathe-rätsel schwer",
+    "mathe-rätsel klasse 1",
+    "mathe-rätsel kinder 12 jahre",
+    "mathe rätsel für erwachsene mit lösung",
+    "mathe rätsel logik",
+    "mathe rätsel mit lösung",
+    "mathe rätsel 3 klasse",
+    "mathe rätsel 4 klasse"
+   ]
+  },
+  "mathe-rätsel arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "mathe rätsel arbeitsblätter"
+   ]
+  },
+  "mathe-arbeitsblatt": {
+   "cls": "typeName",
+   "s": [
+    "mathe arbeitsblatt klasse 2",
+    "mathe arbeitsblatt klasse 1",
+    "mathe arbeitsblatt",
+    "mathe arbeitsblatt klasse 3",
+    "mathe arbeitsblatt klasse 4",
+    "mathe arbeitsblatt klasse 5",
+    "mathe arbeitsblatt generator",
+    "mathe arbeitsblatt klasse 6",
+    "mathe arbeitsblatt erstellen",
+    "mathe arbeitsblatt klasse 7"
+   ]
+  },
+  "mathe-arbeitsblatt arbeitsblätter": {
+   "cls": "typeName",
    "s": []
   },
-  "fahrzeuge sw 3 mathe": {
-   "cls": "cross",
+  "groß oder klein": {
+   "cls": "typeName",
+   "s": [
+    "groß oder klein nach doppelpunkt",
+    "groß oder klein",
+    "groß oder kleinschreibung",
+    "groß oder kleinschreibung nach doppelpunkt",
+    "groß oder klein nach semikolon",
+    "groß oder klein nach gedankenstrich",
+    "groß oder klein geschrieben",
+    "groß oder klein nach anrede",
+    "groß oder klein nach strichpunkt",
+    "groß oder kleinschreibung nach"
+   ]
+  },
+  "groß oder klein arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "zeitangaben groß oder klein arbeitsblätter"
+   ]
+  },
+  "tabelle zählen": {
+   "cls": "typeName",
+   "s": [
+    "tabelle zählen excel",
+    "zählenwenn tabelle",
+    "excel tabelle zählenwenn",
+    "excel tabelle zählen wie oft ein wert vorkommt",
+    "pivot tabelle zählen",
+    "tabelle geld zählen",
+    "pivot tabelle zählenwenn",
+    "excel tabelle zählen wie oft ein wort vorkommt",
+    "tabelle kalorien zählen",
+    "word tabelle zählen"
+   ]
+  },
+  "tabelle zählen arbeitsblätter": {
+   "cls": "typeName",
    "s": []
   },
-  "fahrzeuge sw 3 zählen": {
-   "cls": "cross",
+  "musterzug": {
+   "cls": "typeName",
+   "s": [
+    "musterzug",
+    "musterzug englisch",
+    "musterzug kabine",
+    "musterzug logistik",
+    "musterzug pharma",
+    "musterzug bedeutung",
+    "musterzug pharma englisch",
+    "musterzug gmp",
+    "repräsentativer musterzug"
+   ]
+  },
+  "musterzug arbeitsblätter": {
+   "cls": "typeName",
    "s": []
   },
-  "fahrzeuge sw 3 rechnen": {
-   "cls": "cross",
+  "musterarbeitsblatt": {
+   "cls": "typeName",
    "s": []
   },
-  "fahrzeuge sw 3 buchstaben": {
-   "cls": "cross",
+  "musterarbeitsblatt arbeitsblätter": {
+   "cls": "typeName",
    "s": []
   },
-  "fahrzeuge sw 3 silben": {
-   "cls": "cross",
+  "bingo": {
+   "cls": "typeName",
+   "s": [
+    "bingo",
+    "bingolotto",
+    "bingo zahlen",
+    "bingo live",
+    "bingo spielregeln",
+    "bingo regeln aida",
+    "bingo ndr heute",
+    "bingo zahlen heute mit buchstaben",
+    "bingo rimer",
+    "bingo jackpot"
+   ]
+  },
+  "bingo arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "gitter-zuordnung": {
+   "cls": "typeName",
+   "s": []
+  },
+  "gitter-zuordnung arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "zuordnung": {
+   "cls": "typeName",
+   "s": [
+    "zuordnung englisch",
+    "zuordnung",
+    "zuordnungen",
+    "zuordenbar",
+    "zuordnungsvorschrift",
+    "zuordnung mathe",
+    "zuordnung synonym",
+    "zuordnungsvorschriften kontenrahmen niedersachsen",
+    "zuordnungen mathe",
+    "zuordnungsspiel"
+   ]
+  },
+  "zuordnung arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "proportionale zuordnung arbeitsblätter",
+    "antiproportionale zuordnung arbeitsblätter",
+    "laut buchstaben zuordnung arbeitsblätter"
+   ]
+  },
+  "bildersortierung": {
+   "cls": "typeName",
+   "s": [
+    "bilder sortieren",
+    "bilder sortieren app",
+    "bilder sortieren mit ki",
+    "bilder sortieren nach datum",
+    "bilder sortieren pc",
+    "bilder sortieren programm",
+    "bilder sortieren samsung galerie",
+    "bilder sortieren windows",
+    "bilder sortieren apple",
+    "bilder sortieren und umbenennen"
+   ]
+  },
+  "bildersortierung arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "schatten zuordnen": {
+   "cls": "typeName",
+   "s": [
+    "schatten zuordnen",
+    "schatten zuordnen arbeitsblatt"
+   ]
+  },
+  "schatten zuordnen arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "buchstabenzug": {
+   "cls": "typeName",
+   "s": [
+    "buchstabenzug",
+    "buchstabenzug aus holz",
+    "buchstabenzug lied",
+    "buchstabenzug holz bunt",
+    "buchstabenzug lied text",
+    "buchstabenzug grundschule",
+    "buchstabenzug duplo",
+    "buchstabenzug lego duplo",
+    "buchstabenzug name",
+    "buchstabenzug zahlen"
+   ]
+  },
+  "buchstabenzug arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "präpositionen": {
+   "cls": "typeName",
+   "s": [
+    "präpositionen",
+    "präpositionen schwedisch",
+    "präpositionen englisch",
+    "präpositionen liste",
+    "präpositionen beispiele",
+    "präpositionen französisch",
+    "präpositionen mit dativ und akkusativ",
+    "präpositionen spanisch",
+    "präpositionen italienisch",
+    "präpositionen mit dativ"
+   ]
+  },
+  "präpositionen arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "präpositionen arbeitsblätter",
+    "präpositionen arbeitsblätter pdf",
+    "präpositionen arbeitsblätter kostenlos",
+    "präpositionen arbeitsblätter grundschule",
+    "präpositionen arbeitsblätter mit lösungen",
+    "arbeitsblätter präpositionen mit dativ und akkusativ",
+    "arbeitsblätter präpositionen 5 klasse",
+    "arbeitsblätter präpositionen vorschule",
+    "arbeitsblätter präpositionen kindergarten",
+    "arbeitsblätter präpositionen englisch"
+   ]
+  },
+  "wort raten": {
+   "cls": "typeName",
+   "s": [
+    "wort raten",
+    "wort raten spiel",
+    "wort raten deutsch",
+    "wort erraten app",
+    "wort erraten online",
+    "wort erraten 5 buchstaben",
+    "wort raten spiel online",
+    "wort raten englisch",
+    "imposter wort raten",
+    "tägliches wort raten"
+   ]
+  },
+  "wort raten arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "buchstabensalat": {
+   "cls": "typeName",
+   "s": [
+    "buchstabensalat",
+    "buchstabensalat lösen",
+    "buchstabensalat rätsel",
+    "buchstabensalat erstellen",
+    "buchstabensalat zum ausdrucken",
+    "buchstabensalat spiel",
+    "buchstabensalat lösen 9 buchstaben",
+    "buchstabensalat englisch lösen",
+    "buchstabensalat lösen online kostenlos",
+    "buchstabensalat lösung"
+   ]
+  },
+  "buchstabensalat arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "buchstabensalat arbeitsblätter kostenlos",
+    "buchstabensalat arbeitsblätter",
+    "grundschule arbeitsblätter buchstabensalat"
+   ]
+  },
+  "wortsuche": {
+   "cls": "typeName",
+   "s": [
+    "wortsuche rätsel für senioren",
+    "wortsuche",
+    "wortsuche rätsel",
+    "wortsuche 5 buchstaben",
+    "wortsuche buchstaben",
+    "wortsuche erstellen",
+    "wort suchen",
+    "wortsuche rätsel kostenlos",
+    "wortsuche spiel",
+    "wortsuche kostenlos"
+   ]
+  },
+  "wortsuche arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "kreuzworträtsel": {
+   "cls": "typeName",
+   "s": [
+    "kreuzworträtsel",
+    "kreuzworträtsel online",
+    "kreuzworträtsel erstellen",
+    "kreuzworträtsel schweiz",
+    "kreuzworträtsel noz",
+    "kreuzworträtsel 50",
+    "kreuzworträtsel krupion",
+    "kreuzworträtsel t-online",
+    "kreuzworträtsel hilfe",
+    "kreuzworträtsel stuttgarter zeitung"
+   ]
+  },
+  "kreuzworträtsel arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "kreuzworträtsel arbeitsblätter",
+    "kreuzworträtsel physik arbeitsblätter mit lösungen",
+    "grundschule arbeitsblätter kreuzworträtsel",
+    "deutsch arbeitsblätter kreuzworträtsel"
+   ]
+  },
+  "suchen und zählen": {
+   "cls": "typeName",
+   "s": [
+    "suchen und zählen",
+    "suchen und zählen excel",
+    "excel text suchen und zählen",
+    "excel wort suchen und zählen",
+    "excel begriff suchen und zählen",
+    "excel zeichen suchen und zählen",
+    "excel namen suchen und zählen",
+    "excel in tabelle suchen und zählen"
+   ]
+  },
+  "suchen und zählen arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "objekte finden": {
+   "cls": "typeName",
+   "s": [
+    "objekte finden spiel kostenlos",
+    "objekte finden",
+    "objekte finden spiel",
+    "objekte finden apple",
+    "objekte finden app",
+    "objekte finden iphone",
+    "versteckte objekte finden kostenlos spielen",
+    "versteckte objekte finden spielen deutsch",
+    "mietkauf objekte finden",
+    "gespeicherte objekte finden"
+   ]
+  },
+  "objekte finden arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "schatzsuche": {
+   "cls": "typeName",
+   "s": [
+    "schatzsuche kindergeburtstag",
+    "schatzsuche",
+    "schatzsuche kindergeburtstag 5 jahre",
+    "schatzsuche kindergeburtstag 6 jahre",
+    "schatzsuche kindergeburtstag 4 jahre",
+    "schatzsuche kindergeburtstag 7 jahre",
+    "schatzsuche kinder",
+    "schatzsuche kindergeburtstag 8 jahre",
+    "schatzsuche forza horizon 6",
+    "schatzsucher von oak island"
+   ]
+  },
+  "schatzsuche arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "was fehlt": {
+   "cls": "typeName",
+   "s": [
+    "was fehlt dem körper wenn man ständig friert",
+    "was fehlt meiner pflanze",
+    "was fehlt dem körper wenn man ständig müde ist",
+    "was fehlt wenn man immer müde ist",
+    "was fehlt dem hund wenn er gras frisst",
+    "was fehlt bei haarausfall",
+    "was fehlt bei brüchigen nägeln",
+    "was fehlt mir wenn mir schwindelig ist",
+    "was fehlt dem körper bei schuppenflechte",
+    "was fehlt der pflanze"
+   ]
+  },
+  "was fehlt arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "was passt nicht": {
+   "cls": "typeName",
+   "s": [
+    "was passt nicht in die reihe",
+    "was passt nicht",
+    "was passt nicht zu petersilie",
+    "was passt nicht zu basilikum",
+    "was passt nicht zu tomatenpflanzen",
+    "was passt nicht dazu",
+    "was passt nicht zu wassermann",
+    "was passt nicht neben petersilie",
+    "was passt nicht zu zwilling",
+    "was passt nicht zu dill"
+   ]
+  },
+  "was passt nicht arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "was passt nicht arbeitsblätter",
+    "vorschularbeitsblätter was passt nicht dazu"
+   ]
+  },
+  "zählen mit bildern": {
+   "cls": "typeName",
+   "s": []
+  },
+  "zählen mit bildern arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "zehnerfeld": {
+   "cls": "typeName",
+   "s": [
+    "zehnerfeld",
+    "zehnerfeld zum ausdrucken",
+    "zehnerfeld vorlage",
+    "zehnerfeld klasse 1",
+    "zehnerfelder",
+    "zehnerfeldkarten",
+    "zehnerfeld leer",
+    "zehnerfeld holz",
+    "zehnerfeld pdf",
+    "zehnerfeld blitzblick"
+   ]
+  },
+  "zehnerfeld arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "strichlisten": {
+   "cls": "typeName",
+   "s": [
+    "strichlisten",
+    "strichlisten app",
+    "strichlisten klasse 1",
+    "strichlisten erstellen",
+    "strichlisten bis 20",
+    "strichlisten und diagramme klasse 5 arbeitsblätter zum ausdrucken",
+    "strichlisten zahlenraum 20",
+    "strichlisten grundschule",
+    "strichlisten klasse 1 einführung",
+    "strichlisten und häufigkeitstabellen klasse 5"
+   ]
+  },
+  "strichlisten arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "arbeitsblätter strichlisten klasse 1",
+    "arbeitsblätter strichlisten",
+    "strichlisten klasse 5 arbeitsblätter",
+    "strichlisten klasse 5 arbeitsblätter zum ausdrucken"
+   ]
+  },
+  "hundertertafel": {
+   "cls": "typeName",
+   "s": [
+    "hundertertafel",
+    "hundertertafel zum ausdrucken",
+    "hundertertafel grundschule",
+    "hundertertafel übungen pdf",
+    "hundertertafel zum ausdrucken pdf kostenlos",
+    "hundertertafel pdf",
+    "hundertertafel zum ausdrucken kostenlos",
+    "hundertertafel zum ausdrucken pdf",
+    "hundertertafel zum drucken",
+    "hundertertafel übungen"
+   ]
+  },
+  "hundertertafel arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "hundertertafel arbeitsblätter",
+    "hundertertafel arbeitsblätter kostenlos",
+    "hundertertafel ausschnitte arbeitsblätter kostenlos",
+    "rechnen hundertertafel arbeitsblätter",
+    "hundertertafel grundschule arbeitsblätter",
+    "hundertertafel 2 klasse arbeitsblätter"
+   ]
+  },
+  "zahlen vergleichen": {
+   "cls": "typeName",
+   "s": [
+    "zahlen vergleichen",
+    "zahlen vergleichen klasse 1",
+    "zahlen vergleichen und ordnen",
+    "zahlen vergleichen bis 20",
+    "zahlen vergleichen zr 20",
+    "zahlen vergleichen übungen",
+    "zahlen vergleichen aufgaben",
+    "zahlen vergleichen online",
+    "zahlen vergleichen zahlenraum 20",
+    "zahlen vergleichen excel"
+   ]
+  },
+  "zahlen vergleichen arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "zahlen vergleichen arbeitsblätter",
+    "zahlen vergleichen klasse 5 arbeitsblätter",
+    "zahlen vergleichen 3 klasse arbeitsblätter"
+   ]
+  },
+  "mengen vergleichen": {
+   "cls": "typeName",
+   "s": [
+    "mengen vergleichen",
+    "mengen vergleichen vorschule",
+    "mengen vergleichen klasse 1 arbeitsblatt",
+    "mengen vergleichen klasse 1",
+    "mengen vergleichen arbeitsblatt",
+    "mengen vergleichen krokodil",
+    "mengen vergleichen mehr weniger",
+    "mengen vergleichen grundschule",
+    "mengen vergleichen pikas",
+    "mengen vergleichen kindergarten"
+   ]
+  },
+  "mengen vergleichen arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "mengen vergleichen arbeitsblätter"
+   ]
+  },
+  "größen vergleichen": {
+   "cls": "typeName",
+   "s": [
+    "größen vergleichen",
+    "größen vergleichen personen",
+    "größen vergleichen kleidung",
+    "größen vergleichen menschen",
+    "größen vergleichen paar",
+    "größen vergleichen tabelle",
+    "größen vergleichen mann und frau",
+    "größen vergleichen generator",
+    "größen vergleichen nebeneinander",
+    "größen vergleichen 2 menschen"
+   ]
+  },
+  "größen vergleichen arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "zahlenstrahl": {
+   "cls": "typeName",
+   "s": [
+    "zahlenstrahl",
+    "zahlenstrahl bis 20",
+    "zahlenstrahl bis 100",
+    "zahlenstrahl bis 1000",
+    "zahlenstrahl dezimalzahlen",
+    "zahlenstrahl brüche",
+    "zahlenstrahl bis 100 zum ausdrucken pdf",
+    "zahlenstrahl bis 20 zum ausdrucken",
+    "zahlenstrahl bis 10",
+    "zahlenstrahl 1. klasse"
+   ]
+  },
+  "zahlenstrahl arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "zahlenstrahl arbeitsblätter",
+    "zahlenstrahl arbeitsblätter kostenlos",
+    "zahlenstrahl arbeitsblätter 5 klasse",
+    "zahlenstrahl arbeitsblätter 4 klasse",
+    "arbeitsblätter zahlenstrahl bis 100",
+    "arbeitsblätter zahlenstrahl übungen",
+    "arbeitsblätter zahlenstrahl klasse 3",
+    "arbeitsblätter zahlenstrahl bis 20",
+    "arbeitsblätter zahlenstrahl übungen 5 klasse gymnasium kostenlos",
+    "arbeitsblätter zahlenstrahl bis 1000"
+   ]
+  },
+  "stellenwert": {
+   "cls": "typeName",
+   "s": [
+    "stellenwerttafel",
+    "stellenwert",
+    "stellenwerttafel dezimalzahlen",
+    "stellenwertsystem",
+    "stellenwerttafel längen",
+    "stellenwert bedeutung",
+    "stellenwert synonym",
+    "stellenwert englisch",
+    "stellenwerttafel gewichte",
+    "stellenwertverständnis"
+   ]
+  },
+  "stellenwert arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "stellenwert arbeitsblätter",
+    "arbeitsblätter stellenwert 4 klasse",
+    "stellenwerttabelle bestimmen arbeitsblätter"
+   ]
+  },
+  "uhrzeit lernen arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "uhrzeit lernen arbeitsblätter",
+    "uhrzeit lernen arbeitsblätter kostenlos",
+    "uhrzeit lernen arbeitsblätter zum ausdrucken kostenlos",
+    "uhrzeit lernen arbeitsblätter pdf",
+    "uhrzeit lernen arbeitsblätter zum ausdrucken",
+    "uhrzeit lernen kinder arbeitsblätter",
+    "uhrzeit lernen deutsch arbeitsblätter",
+    "uhrzeit lernen grundschule arbeitsblätter",
+    "uhrzeit lesen lernen arbeitsblätter",
+    "uhrzeit englisch lernen arbeitsblätter zum ausdrucken"
+   ]
+  },
+  "brüche": {
+   "cls": "typeName",
+   "s": [
+    "brüche multiplizieren",
+    "brüche addieren",
+    "brüche dividieren",
+    "brüche",
+    "brüche subtrahieren",
+    "brüche in dezimalzahlen umwandeln",
+    "brüche kürzen",
+    "brüche addieren und subtrahieren",
+    "brüche erweitern",
+    "bruchrechnen"
+   ]
+  },
+  "brüche arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "brüche arbeitsblätter",
+    "brüche arbeitsblätter klasse 6",
+    "brüche arbeitsblätter 5 klasse",
+    "brüche arbeitsblätter zum ausdrucken 4 klasse",
+    "brüche arbeitsblätter zum ausdrucken",
+    "brüche arbeitsblätter kostenlos",
+    "brüche arbeitsblätter mit lösungen",
+    "brüche arbeitsblätter pdf",
+    "brüche arbeitsblätter klasse 6 mit lösungen",
+    "brüche arbeitsblätter 4 klasse"
+   ]
+  },
+  "diagramme und daten": {
+   "cls": "typeName",
+   "s": [
+    "diagramme und daten",
+    "übungsblatt zu diagramme und daten"
+   ]
+  },
+  "diagramme und daten arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "daten und diagramme arbeitsblätter"
+   ]
+  },
+  "erstes einmaleins": {
+   "cls": "typeName",
+   "s": []
+  },
+  "erstes einmaleins arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "geometrie": {
+   "cls": "typeName",
+   "s": [
+    "geometrie",
+    "geometry dash",
+    "geometry dash lite",
+    "geometrie formen",
+    "geometrie 4. klasse",
+    "geometrie 3. klasse",
+    "geometrie 5 klasse",
+    "geometrieheft",
+    "geometrie formeln",
+    "geometrie körper"
+   ]
+  },
+  "geometrie arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "geometrie arbeitsblätter",
+    "geometrie arbeitsblätter 3 klasse",
+    "geometrie arbeitsblätter 6 klasse",
+    "geometrie arbeitsblätter klasse 5 gymnasium zum ausdrucken kostenlos",
+    "geometrie arbeitsblätter 4 klasse",
+    "geometrie arbeitsblätter 5 klasse",
+    "geometrie arbeitsblätter 7 klasse",
+    "geometrie arbeitsblätter 2 klasse",
+    "geometrie arbeitsblätter kostenlos",
+    "geometrie arbeitsblätter pdf"
+   ]
+  },
+  "messen": {
+   "cls": "typeName",
+   "s": [
+    "messenger",
+    "messenger facebook",
+    "messenger app",
+    "messen",
+    "messenger bag",
+    "messenger dienste",
+    "messen englisch",
+    "messen hannover 2026",
+    "messenger signal",
+    "messenger bag herren"
+   ]
+  },
+  "messen arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "messen arbeitsblätter",
+    "arbeitsblätter messen grundschule",
+    "arbeitsblätter messen 2 klasse",
+    "winkel messen arbeitsblätter",
+    "längen messen arbeitsblätter",
+    "winkel messen arbeitsblätter zum ausdrucken",
+    "messen und wiegen arbeitsblätter hauswirtschaft",
+    "messen und wiegen arbeitsblätter",
+    "messen mit körpermaßen arbeitsblätter"
+   ]
+  },
+  "logikrätsel": {
+   "cls": "typeName",
+   "s": [
+    "logikrätsel",
+    "logikrätsel erwachsene",
+    "logikrätsel kinder",
+    "logikrätsel mit lösung",
+    "logikrätsel erwachsene kostenlos",
+    "logikrätsel kinder 10 jahre",
+    "logikrätsel online",
+    "logikrätsel mit lösung pdf",
+    "logikrätsel erwachsene pdf",
+    "logikrätsel rätsel"
+   ]
+  },
+  "logikrätsel arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "logikrätsel arbeitsblätter"
+   ]
+  },
+  "visuelle wahrnehmung": {
+   "cls": "typeName",
+   "s": [
+    "visuelle wahrnehmung",
+    "visuelle wahrnehmungsstörung",
+    "visuelle wahrnehmungsstörung kind",
+    "visuelle wahrnehmung übungen",
+    "visuelle wahrnehmung kinder",
+    "visuelle wahrnehmung übungen pdf",
+    "visuelle wahrnehmungsstörung symptome",
+    "visuelle wahrnehmungsstörung test kinder",
+    "visuelle wahrnehmung fördern",
+    "visuelle wahrnehmungsstörung therapie"
+   ]
+  },
+  "visuelle wahrnehmung arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "visuelle wahrnehmung arbeitsblätter",
+    "visuelle wahrnehmung arbeitsblätter kostenlos",
+    "visuelle wahrnehmung arbeitsblätter kindergarten",
+    "visuelle wahrnehmung arbeitsblätter pdf",
+    "visuelle wahrnehmung fördern arbeitsblätter kostenlos",
+    "räumliche orientierung visuelle wahrnehmung arbeitsblätter kostenlos",
+    "arbeitsblätter visuelle wahrnehmung zum ausdrucken",
+    "arbeitsblätter visuelle wahrnehmung vorschule",
+    "arbeitsblätter visuelle wahrnehmung grundschule",
+    "arbeitsblätter visuelle wahrnehmung erwachsene"
+   ]
+  },
+  "bilder zuordnen": {
+   "cls": "typeName",
+   "s": [
+    "bilder zuordnen",
+    "bilder zuordnen spiel",
+    "bilder zuordnen vorschule",
+    "bilder zuordnen online",
+    "bilder zuordnen arbeitsblatt",
+    "bilder zuordnen kindergarten",
+    "bilder zuordnen kinder",
+    "bilder zuordnen tms",
+    "bilder zuordnen englisch",
+    "bilder zuordnen 1 klasse"
+   ]
+  },
+  "bilder zuordnen arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "muster fortsetzen arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "muster fortsetzen arbeitsblätter",
+    "muster fortsetzen klasse 3 arbeitsblätter",
+    "muster fortsetzen klasse 1 arbeitsblätter",
+    "arbeitsblätter muster fortsetzen grundschule"
+   ]
+  },
+  "lagebeziehungen": {
+   "cls": "typeName",
+   "s": [
+    "lagebeziehungen von geraden",
+    "lagebeziehungen von ebenen",
+    "lagebeziehungen von geraden und ebenen",
+    "lagebeziehungen",
+    "lagebeziehungen vektoren",
+    "lagebeziehungen klasse 1",
+    "lagebeziehungen von geraden im raum",
+    "lagebeziehungen grundschule",
+    "lagebeziehungen zweier geraden",
+    "lagebeziehungen zwischen geraden"
+   ]
+  },
+  "lagebeziehungen arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "arbeitsblätter lagebeziehungen",
+    "lagebeziehungen grundschule arbeitsblätter"
+   ]
+  },
+  "sortieren und ordnen": {
+   "cls": "typeName",
+   "s": [
+    "sortieren und ordnen",
+    "sortieren und ordnen im kindergarten",
+    "kinder sortieren und ordnen",
+    "unterschied sortieren und ordnen",
+    "fotos sortieren und ordnen",
+    "ikea sortieren und ordnen",
+    "sortieren ordnen englisch"
+   ]
+  },
+  "sortieren und ordnen arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "rechnen mit bildern": {
+   "cls": "typeName",
+   "s": [
+    "rechnen mit bildern",
+    "rechnen mit bildern 1 klasse",
+    "plus rechnen mit bildern",
+    "minus rechnen mit bildern",
+    "rechnen lernen mit bildern",
+    "geteilt rechnen mit bildern",
+    "erstes rechnen mit bildern",
+    "mal rechnen mit bildern",
+    "betzold rechnen mit bildern",
+    "rechnen bis 10 mit bildern"
+   ]
+  },
+  "rechnen mit bildern arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sachunterricht-sortieren": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sachunterricht-sortieren arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "reihenfolge & lebenszyklen": {
+   "cls": "typeName",
+   "s": []
+  },
+  "reihenfolge & lebenszyklen arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sachunterricht-zuordnen": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sachunterricht-zuordnen arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "anlaute arbeitsblätter": {
+   "cls": "typeName",
+   "s": [
+    "anlaute arbeitsblätter",
+    "anlaute arbeitsblätter pdf kostenlos",
+    "anlaute arbeitsblätter 1 klasse kostenlos",
+    "anlaute arbeitsblätter kostenlos",
+    "anlaute arbeitsblätter pdf",
+    "arbeitsblätter anlaute üben",
+    "arbeitsblätter anlaute vorschule",
+    "arbeitsblätter anlaute kindergarten",
+    "anlaute üben arbeitsblätter gratis",
+    "anlaute hören arbeitsblätter"
+   ]
+  },
+  "buchstaben erkennen arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "wörter bauen": {
+   "cls": "typeName",
+   "s": [
+    "wörter bauen",
+    "wörter bauen spiel",
+    "wörter bauen aus buchstaben",
+    "hubelino wörter bauen",
+    "wörter wortfamilie bauen",
+    "verwandte wörter bauen",
+    "wörter uhr selber bauen",
+    "wörter mit wortstamm bauen",
+    "sätze bauen wörter klauen"
+   ]
+  },
+  "wörter bauen arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "wortschatz mit bildern": {
+   "cls": "typeName",
+   "s": [
+    "wortschatz mit bildern pdf",
+    "wortschatz mit bildern",
+    "deutsch wortschatz mit bildern pdf",
+    "deutsch wortschatz mit bildern",
+    "wortschatz a1 mit bildern",
+    "wortschatz & grammatik üben mit bildern",
+    "weihnachten wortschatz mit bildern"
+   ]
+  },
+  "wortschatz mit bildern arbeitsblätter": {
+   "cls": "typeName",
+   "s": []
+  },
+  "laute & silben": {
+   "cls": "typeName",
+   "s": [
+    "laute silben wörter",
+    "laute silben",
+    "laute silben wörter schülerarbeitsheft",
+    "laute silben wörter dummer smoch",
+    "laute silben unterschied",
+    "laute silbentrennung",
+    "laute zu silben zusammenziehen",
+    "trainingsprogramm laute silben reime",
+    "laute in silben hören",
+    "lauter laute silben und reime"
+   ]
+  },
+  "laute & silben arbeitsblätter": {
+   "cls": "typeName",
    "s": []
   }
  },
@@ -3183,6 +4189,19 @@
   "abk im supermarkt 3 buchstaben kreuzworträtsel",
   "accessoires 7 buchstaben",
   "accessoires silben",
+  "addition",
+  "addition arbeitsblätter",
+  "addition arbeitsblätter kostenlos",
+  "addition arbeitsblätter pdf",
+  "addition deutsch",
+  "addition und subtraktion",
+  "additional",
+  "additional deutsch",
+  "additionally",
+  "additionally synonym",
+  "additionssatz",
+  "additionstheoreme",
+  "additionsverfahren",
   "aktivitäten buchstaben",
   "aktivitäten mit dem buchstaben b",
   "aktivitäten mit dem buchstaben c",
@@ -3194,14 +4213,22 @@
   "alle körperteile mathe",
   "anlaute",
   "anlaute arbeitsblatt",
+  "anlaute arbeitsblätter",
+  "anlaute arbeitsblätter 1 klasse kostenlos",
+  "anlaute arbeitsblätter kostenlos",
+  "anlaute arbeitsblätter pdf",
+  "anlaute arbeitsblätter pdf kostenlos",
   "anlaute erkennen",
   "anlaute hören",
+  "anlaute hören arbeitsblätter",
   "anlaute kindergarten",
   "anlaute was ist das",
   "anlaute üben",
+  "anlaute üben arbeitsblätter gratis",
   "anlauter",
   "anlautertal",
   "anlautertal radweg",
+  "antiproportionale zuordnung arbeitsblätter",
   "arbeitsblatt buchstabe l schreiben",
   "arbeitsblatt buchstabe m 1 klasse",
   "arbeitsblatt buchstabe m grundschule",
@@ -3213,6 +4240,16 @@
   "arbeitsblatt zahl 2 schreiben",
   "arbeitsblatt zahl 4 kindergarten",
   "arbeitsblatt zahl 6 schreiben",
+  "arbeitsblätter addition bis 10",
+  "arbeitsblätter addition bis 100",
+  "arbeitsblätter addition bis 1000",
+  "arbeitsblätter addition bis 20",
+  "arbeitsblätter addition und subtraktion bis 100",
+  "arbeitsblätter addition und subtraktion bis 1000",
+  "arbeitsblätter addition und subtraktion bis 20",
+  "arbeitsblätter anlaute kindergarten",
+  "arbeitsblätter anlaute vorschule",
+  "arbeitsblätter anlaute üben",
   "arbeitsblätter freiarbeit grundschule",
   "arbeitsblätter förderschule 1 klasse",
   "arbeitsblätter förderschule geistige entwicklung",
@@ -3222,6 +4259,33 @@
   "arbeitsblätter förderschule klasse 8",
   "arbeitsblätter förderschule klasse 9",
   "arbeitsblätter inklusion grundschule",
+  "arbeitsblätter lagebeziehungen",
+  "arbeitsblätter messen 2 klasse",
+  "arbeitsblätter messen grundschule",
+  "arbeitsblätter muster fortsetzen grundschule",
+  "arbeitsblätter präpositionen 5 klasse",
+  "arbeitsblätter präpositionen englisch",
+  "arbeitsblätter präpositionen kindergarten",
+  "arbeitsblätter präpositionen mit dativ und akkusativ",
+  "arbeitsblätter präpositionen vorschule",
+  "arbeitsblätter stellenwert 4 klasse",
+  "arbeitsblätter strichlisten",
+  "arbeitsblätter strichlisten klasse 1",
+  "arbeitsblätter subtraktion bis 10",
+  "arbeitsblätter subtraktion bis 100",
+  "arbeitsblätter subtraktion bis 1000",
+  "arbeitsblätter subtraktion bis 20",
+  "arbeitsblätter subtraktion mit zehnerübergang",
+  "arbeitsblätter visuelle wahrnehmung erwachsene",
+  "arbeitsblätter visuelle wahrnehmung grundschule",
+  "arbeitsblätter visuelle wahrnehmung vorschule",
+  "arbeitsblätter visuelle wahrnehmung zum ausdrucken",
+  "arbeitsblätter zahlenstrahl bis 100",
+  "arbeitsblätter zahlenstrahl bis 1000",
+  "arbeitsblätter zahlenstrahl bis 20",
+  "arbeitsblätter zahlenstrahl klasse 3",
+  "arbeitsblätter zahlenstrahl übungen",
+  "arbeitsblätter zahlenstrahl übungen 5 klasse gymnasium kostenlos",
   "aushang buchstaben klassenzimmer",
   "aushang buchstaben klassenzimmer schreibschrift",
   "ausmalbild ostern rechnen",
@@ -3239,6 +4303,46 @@
   "berufe ohne mathe",
   "berufe ohne rechnen",
   "berufe wo man rechnen muss",
+  "betzold rechnen mit bildern",
+  "bilder sortieren",
+  "bilder sortieren app",
+  "bilder sortieren apple",
+  "bilder sortieren mit ki",
+  "bilder sortieren nach datum",
+  "bilder sortieren pc",
+  "bilder sortieren programm",
+  "bilder sortieren samsung galerie",
+  "bilder sortieren und umbenennen",
+  "bilder sortieren windows",
+  "bilder sudoku",
+  "bilder sudoku für kinder",
+  "bilder sudoku für kinder online",
+  "bilder sudoku für kinder zum ausdrucken",
+  "bilder sudoku online",
+  "bilder sudoku weihnachten",
+  "bilder sudoku zum ausdrucken",
+  "bilder zuordnen",
+  "bilder zuordnen 1 klasse",
+  "bilder zuordnen arbeitsblatt",
+  "bilder zuordnen englisch",
+  "bilder zuordnen kinder",
+  "bilder zuordnen kindergarten",
+  "bilder zuordnen online",
+  "bilder zuordnen spiel",
+  "bilder zuordnen tms",
+  "bilder zuordnen vorschule",
+  "bildpfad home assistant",
+  "bildpfad in excel einfügen",
+  "bingo",
+  "bingo jackpot",
+  "bingo live",
+  "bingo ndr heute",
+  "bingo regeln aida",
+  "bingo rimer",
+  "bingo spielregeln",
+  "bingo zahlen",
+  "bingo zahlen heute mit buchstaben",
+  "bingolotto",
   "blumen buchstaben",
   "blumen buchstaben deko",
   "blumen buchstaben hochzeit",
@@ -3254,6 +4358,26 @@
   "blumen rechnen",
   "blumen silben",
   "blumen zählen",
+  "bruchrechnen",
+  "brüche",
+  "brüche addieren",
+  "brüche addieren und subtrahieren",
+  "brüche arbeitsblätter",
+  "brüche arbeitsblätter 4 klasse",
+  "brüche arbeitsblätter 5 klasse",
+  "brüche arbeitsblätter klasse 6",
+  "brüche arbeitsblätter klasse 6 mit lösungen",
+  "brüche arbeitsblätter kostenlos",
+  "brüche arbeitsblätter mit lösungen",
+  "brüche arbeitsblätter pdf",
+  "brüche arbeitsblätter zum ausdrucken",
+  "brüche arbeitsblätter zum ausdrucken 4 klasse",
+  "brüche dividieren",
+  "brüche erweitern",
+  "brüche in dezimalzahlen umwandeln",
+  "brüche kürzen",
+  "brüche multiplizieren",
+  "brüche subtrahieren",
   "buchstabe a arbeitsblatt",
   "buchstabe a arbeitsblatt kostenlos",
   "buchstabe a arbeitsblatt pdf",
@@ -3345,6 +4469,28 @@
   "buchstaben tiere malen",
   "buchstaben tiere zeichnen",
   "buchstaben weihnachten ausmalen",
+  "buchstabensalat",
+  "buchstabensalat arbeitsblätter",
+  "buchstabensalat arbeitsblätter kostenlos",
+  "buchstabensalat englisch lösen",
+  "buchstabensalat erstellen",
+  "buchstabensalat lösen",
+  "buchstabensalat lösen 9 buchstaben",
+  "buchstabensalat lösen online kostenlos",
+  "buchstabensalat lösung",
+  "buchstabensalat rätsel",
+  "buchstabensalat spiel",
+  "buchstabensalat zum ausdrucken",
+  "buchstabenzug",
+  "buchstabenzug aus holz",
+  "buchstabenzug duplo",
+  "buchstabenzug grundschule",
+  "buchstabenzug holz bunt",
+  "buchstabenzug lego duplo",
+  "buchstabenzug lied",
+  "buchstabenzug lied text",
+  "buchstabenzug name",
+  "buchstabenzug zahlen",
   "bäckerei 4 buchstaben",
   "bäckerei acht buchstaben",
   "bäckerei kreuzworträtsel 4 buchstaben",
@@ -3374,6 +4520,16 @@
   "camping sechs buchstaben",
   "camping unterlage acht buchstaben",
   "camping zubehör 8 buchstaben",
+  "code additionnel",
+  "code additionnel 316",
+  "code additionnel 326",
+  "code additionnel communautaire",
+  "code additionnel douane pdf",
+  "code additionnel douane rdc",
+  "code additionnel national douane",
+  "code additionnel taric",
+  "code additions that explain circumstances that alter",
+  "code additions that explain circumstances that alter a provided service",
   "daf arbeitsblätter",
   "daf arbeitsblätter a1",
   "daf arbeitsblätter a1 für kinder",
@@ -3393,6 +4549,7 @@
   "daf material grundschule",
   "daf spiele grundschule",
   "daf übungen grundschule",
+  "daten und diagramme arbeitsblätter",
   "daz arbeitsblätter",
   "daz arbeitsblätter a2",
   "daz arbeitsblätter grammatik",
@@ -3415,6 +4572,10 @@
   "daz grundschule pdf",
   "daz grundschule sommer",
   "demonologist krankenhaus buchstaben",
+  "deutsch arbeitsblätter kreuzworträtsel",
+  "deutsch wortschatz mit bildern",
+  "deutsch wortschatz mit bildern pdf",
+  "diagramme und daten",
   "digitale werkzeuge mathe",
   "dinosaurier 12 buchstaben",
   "dinosaurier 13 buchstaben",
@@ -3434,10 +4595,20 @@
   "emotionen sieben buchstaben",
   "emotionen silben",
   "englisch förderschule arbeitsblätter kostenlos",
+  "erstes rechnen mit bildern",
   "ethik vertretungsstunde grundschule",
+  "excel begriff suchen und zählen",
   "excel farben zählen ohne makro",
   "excel farben zählen vba",
+  "excel in tabelle suchen und zählen",
   "excel mit farben rechnen",
+  "excel namen suchen und zählen",
+  "excel tabelle zählen wie oft ein wert vorkommt",
+  "excel tabelle zählen wie oft ein wort vorkommt",
+  "excel tabelle zählenwenn",
+  "excel text suchen und zählen",
+  "excel wort suchen und zählen",
+  "excel zeichen suchen und zählen",
   "fahrzeuge 5 buchstaben",
   "fahrzeuge baumrinde 4 buchstaben",
   "fahrzeuge kw 5 buchstaben",
@@ -3479,6 +4650,7 @@
   "formen zählen",
   "formen zählen 1 klasse",
   "formen zählen arbeitsblatt",
+  "fotos sortieren und ordnen",
   "freiarbeit arbeitsblätter",
   "freiarbeit grundschule",
   "freiarbeit grundschule deutsch",
@@ -3554,6 +4726,24 @@
   "gemüse silben",
   "gemüse wie viele silben",
   "gemüse zählen",
+  "geometrie",
+  "geometrie 3. klasse",
+  "geometrie 4. klasse",
+  "geometrie 5 klasse",
+  "geometrie arbeitsblätter",
+  "geometrie arbeitsblätter 2 klasse",
+  "geometrie arbeitsblätter 3 klasse",
+  "geometrie arbeitsblätter 4 klasse",
+  "geometrie arbeitsblätter 5 klasse",
+  "geometrie arbeitsblätter 6 klasse",
+  "geometrie arbeitsblätter 7 klasse",
+  "geometrie arbeitsblätter klasse 5 gymnasium zum ausdrucken kostenlos",
+  "geometrie arbeitsblätter kostenlos",
+  "geometrie arbeitsblätter pdf",
+  "geometrie formeln",
+  "geometrie formen",
+  "geometrie körper",
+  "geometrieheft",
   "geometrische formen",
   "geometrische formen 3. klasse",
   "geometrische formen 3d",
@@ -3565,6 +4755,32 @@
   "geometrische formen rätsel",
   "geometrische formen zählen",
   "geometrische formen übersicht",
+  "geometry dash",
+  "geometry dash lite",
+  "gespeicherte objekte finden",
+  "geteilt rechnen mit bildern",
+  "groß oder klein",
+  "groß oder klein geschrieben",
+  "groß oder klein nach anrede",
+  "groß oder klein nach doppelpunkt",
+  "groß oder klein nach gedankenstrich",
+  "groß oder klein nach semikolon",
+  "groß oder klein nach strichpunkt",
+  "groß oder kleinschreibung",
+  "groß oder kleinschreibung nach",
+  "groß oder kleinschreibung nach doppelpunkt",
+  "grundschule arbeitsblätter buchstabensalat",
+  "grundschule arbeitsblätter kreuzworträtsel",
+  "größen vergleichen",
+  "größen vergleichen 2 menschen",
+  "größen vergleichen generator",
+  "größen vergleichen kleidung",
+  "größen vergleichen mann und frau",
+  "größen vergleichen menschen",
+  "größen vergleichen nebeneinander",
+  "größen vergleichen paar",
+  "größen vergleichen personen",
+  "größen vergleichen tabelle",
   "hameln bäume zählen",
   "hausaufgaben 1 klasse arbeitsblätter mathe",
   "hausaufgaben 2 klasse arbeitsblätter",
@@ -3589,9 +4805,27 @@
   "haustiere kreuzworträtsel 5 buchstaben",
   "haustiere mit 3 buchstaben",
   "haustiere nutztiere 4 buchstaben",
+  "hubelino wörter bauen",
+  "hundertertafel",
+  "hundertertafel 2 klasse arbeitsblätter",
+  "hundertertafel arbeitsblätter",
+  "hundertertafel arbeitsblätter kostenlos",
+  "hundertertafel ausschnitte arbeitsblätter kostenlos",
+  "hundertertafel grundschule",
+  "hundertertafel grundschule arbeitsblätter",
+  "hundertertafel pdf",
+  "hundertertafel zum ausdrucken",
+  "hundertertafel zum ausdrucken kostenlos",
+  "hundertertafel zum ausdrucken pdf",
+  "hundertertafel zum ausdrucken pdf kostenlos",
+  "hundertertafel zum drucken",
+  "hundertertafel übungen",
+  "hundertertafel übungen pdf",
   "ideenreise ostern rechnen",
+  "ikea sortieren und ordnen",
   "im supermarkt abkürzung drei buchstaben",
   "im supermarkt drei buchstaben",
+  "imposter wort raten",
   "inklusion arbeitsblätter",
   "inklusion grundschule",
   "inklusion grundschule bayern",
@@ -3604,6 +4838,7 @@
   "inklusion grundschule nrw",
   "inklusion grundschule rlp",
   "intervalle zählen musik",
+  "kinder sortieren und ordnen",
   "kinder zählen spielzeug",
   "kinga mathe accessoires",
   "klassenzimmer buchstaben",
@@ -3641,6 +4876,28 @@
   "krankenhaus sieben buchstaben",
   "krankenhaus silben",
   "krankenhaus österreichisch 6 buchstaben",
+  "kreuzworträtsel",
+  "kreuzworträtsel 50",
+  "kreuzworträtsel arbeitsblätter",
+  "kreuzworträtsel erstellen",
+  "kreuzworträtsel hilfe",
+  "kreuzworträtsel krupion",
+  "kreuzworträtsel noz",
+  "kreuzworträtsel online",
+  "kreuzworträtsel physik arbeitsblätter mit lösungen",
+  "kreuzworträtsel schweiz",
+  "kreuzworträtsel stuttgarter zeitung",
+  "kreuzworträtsel t-online",
+  "kryptogramm",
+  "kryptogramm beispiele",
+  "kryptogramm erstellen",
+  "kryptogramm kreditkarte",
+  "kryptogramm lösen",
+  "kryptogramm lösen online",
+  "kryptogramm rätsel",
+  "kryptogramm volksschule",
+  "kryptogramm von la buse",
+  "kryptogramme",
   "können bäume zählen",
   "können tiere rechnen",
   "körperteile 3 buchstaben",
@@ -3654,7 +4911,28 @@
   "körperteile fünf buchstaben",
   "körperteile mathe",
   "körperteile mathe 3 klasse",
+  "lagebeziehungen",
+  "lagebeziehungen grundschule",
+  "lagebeziehungen grundschule arbeitsblätter",
+  "lagebeziehungen klasse 1",
+  "lagebeziehungen vektoren",
+  "lagebeziehungen von ebenen",
+  "lagebeziehungen von geraden",
+  "lagebeziehungen von geraden im raum",
+  "lagebeziehungen von geraden und ebenen",
+  "lagebeziehungen zweier geraden",
+  "lagebeziehungen zwischen geraden",
   "laufzettel stationenlernen grundschule",
+  "laut buchstaben zuordnung arbeitsblätter",
+  "laute in silben hören",
+  "laute silben",
+  "laute silben unterschied",
+  "laute silben wörter",
+  "laute silben wörter dummer smoch",
+  "laute silben wörter schülerarbeitsheft",
+  "laute silbentrennung",
+  "laute zu silben zusammenziehen",
+  "lauter laute silben und reime",
   "lernpaket",
   "lernpaket daz",
   "lernpaket daz gefühle",
@@ -3686,7 +4964,30 @@
   "lesen lernen spiel",
   "lesen lernen vorschule",
   "lesen lernen übungen",
+  "logikrätsel",
+  "logikrätsel arbeitsblätter",
+  "logikrätsel erwachsene",
+  "logikrätsel erwachsene kostenlos",
+  "logikrätsel erwachsene pdf",
+  "logikrätsel kinder",
+  "logikrätsel kinder 10 jahre",
+  "logikrätsel mit lösung",
+  "logikrätsel mit lösung pdf",
+  "logikrätsel online",
+  "logikrätsel rätsel",
+  "längen messen arbeitsblätter",
+  "mal rechnen mit bildern",
   "mathe accessoires",
+  "mathe arbeitsblatt",
+  "mathe arbeitsblatt erstellen",
+  "mathe arbeitsblatt generator",
+  "mathe arbeitsblatt klasse 1",
+  "mathe arbeitsblatt klasse 2",
+  "mathe arbeitsblatt klasse 3",
+  "mathe arbeitsblatt klasse 4",
+  "mathe arbeitsblatt klasse 5",
+  "mathe arbeitsblatt klasse 6",
+  "mathe arbeitsblatt klasse 7",
   "mathe bäume",
   "mathe farben und formen",
   "mathe frühstück",
@@ -3697,6 +4998,12 @@
   "mathe gemüse",
   "mathe im supermarkt",
   "mathe kleidung",
+  "mathe rätsel 3 klasse",
+  "mathe rätsel 4 klasse",
+  "mathe rätsel arbeitsblätter",
+  "mathe rätsel für erwachsene mit lösung",
+  "mathe rätsel logik",
+  "mathe rätsel mit lösung",
   "mathe sommer karlsruhe",
   "mathe sommer ph karlsruhe",
   "mathe sommer ph karlsruhe 2025",
@@ -3704,6 +5011,22 @@
   "mathe spielzeug grundschule",
   "mathe spielzeug holz",
   "mathe spielzeug kinder",
+  "mathe-rätsel",
+  "mathe-rätsel für kinder 8 jahre",
+  "mathe-rätsel kinder 12 jahre",
+  "mathe-rätsel klasse 1",
+  "mathe-rätsel schwer",
+  "mehr oder weniger",
+  "mehr oder weniger arbeitsblätter",
+  "mehr oder weniger bedeutung",
+  "mehr oder weniger englisch",
+  "mehr oder weniger französisch",
+  "mehr oder weniger spanisch",
+  "mehr oder weniger spiel",
+  "mehr oder weniger spiel anleitung",
+  "mehr oder weniger spiel fragen",
+  "mehr oder weniger synonym",
+  "mehr oder weniger zeichen",
   "mengen erfassen",
   "mengen erfassen arbeitsblatt",
   "mengen erfassen arbeitsblätter kostenlos",
@@ -3714,7 +5037,34 @@
   "mengen erfassen pdf kostenlos",
   "mengen erfassen vorschule",
   "mengen erfassen übungen",
+  "mengen vergleichen",
+  "mengen vergleichen arbeitsblatt",
+  "mengen vergleichen arbeitsblätter",
+  "mengen vergleichen grundschule",
+  "mengen vergleichen kindergarten",
+  "mengen vergleichen klasse 1",
+  "mengen vergleichen klasse 1 arbeitsblatt",
+  "mengen vergleichen krokodil",
+  "mengen vergleichen mehr weniger",
+  "mengen vergleichen pikas",
+  "mengen vergleichen vorschule",
+  "messen",
+  "messen arbeitsblätter",
+  "messen englisch",
+  "messen hannover 2026",
+  "messen mit körpermaßen arbeitsblätter",
+  "messen und wiegen arbeitsblätter",
+  "messen und wiegen arbeitsblätter hauswirtschaft",
+  "messenger",
+  "messenger app",
+  "messenger bag",
+  "messenger bag herren",
+  "messenger dienste",
+  "messenger facebook",
+  "messenger signal",
+  "mietkauf objekte finden",
   "mikado farben zählen",
+  "minus rechnen mit bildern",
   "montessori farben mathe",
   "montessori rechnen spielzeug für kinder",
   "montessori spielzeug buchstaben",
@@ -3740,14 +5090,25 @@
   "musik zählen lernen",
   "muster fortsetzen",
   "muster fortsetzen arbeitsblatt kostenlos",
+  "muster fortsetzen arbeitsblätter",
   "muster fortsetzen grundschule",
   "muster fortsetzen klasse 1",
+  "muster fortsetzen klasse 1 arbeitsblätter",
   "muster fortsetzen klasse 1 pdf",
   "muster fortsetzen klasse 2",
   "muster fortsetzen klasse 3",
+  "muster fortsetzen klasse 3 arbeitsblätter",
   "muster fortsetzen klasse 4",
   "muster fortsetzen pdf",
   "muster fortsetzen vorschule",
+  "musterzug",
+  "musterzug bedeutung",
+  "musterzug englisch",
+  "musterzug gmp",
+  "musterzug kabine",
+  "musterzug logistik",
+  "musterzug pharma",
+  "musterzug pharma englisch",
   "möbel 3 buchstaben",
   "möbel 6 buchstaben",
   "möbel 8 buchstaben",
@@ -3757,6 +5118,12 @@
   "möbel regale 8 buchstaben",
   "möbel sieben buchstaben",
   "möbel vier buchstaben",
+  "objekte finden",
+  "objekte finden app",
+  "objekte finden apple",
+  "objekte finden iphone",
+  "objekte finden spiel",
+  "objekte finden spiel kostenlos",
   "obst und gemüse zählen",
   "ostern 5 buchstaben",
   "ostern 6 buchstaben",
@@ -3782,6 +5149,30 @@
   "ostern silben",
   "ostern trennung silben",
   "pausen zählen musik",
+  "pivot tabelle zählen",
+  "pivot tabelle zählenwenn",
+  "plus rechnen mit bildern",
+  "proportionale zuordnung arbeitsblätter",
+  "präpositionen",
+  "präpositionen arbeitsblätter",
+  "präpositionen arbeitsblätter grundschule",
+  "präpositionen arbeitsblätter kostenlos",
+  "präpositionen arbeitsblätter mit lösungen",
+  "präpositionen arbeitsblätter pdf",
+  "präpositionen beispiele",
+  "präpositionen englisch",
+  "präpositionen französisch",
+  "präpositionen italienisch",
+  "präpositionen liste",
+  "präpositionen mit dativ",
+  "präpositionen mit dativ und akkusativ",
+  "präpositionen schwedisch",
+  "präpositionen spanisch",
+  "rechnen bis 10 mit bildern",
+  "rechnen hundertertafel arbeitsblätter",
+  "rechnen lernen mit bildern",
+  "rechnen mit bildern",
+  "rechnen mit bildern 1 klasse",
   "rechnen musik",
   "rechnen weihnachten arbeitsblätter",
   "regeln stationenlernen grundschule",
@@ -3795,8 +5186,22 @@
   "reimwörter liste pdf",
   "reimwörter sonne",
   "reimwörterbuch",
+  "repräsentativer musterzug",
   "richtig zählen musik",
+  "räumliche orientierung visuelle wahrnehmung arbeitsblätter kostenlos",
   "salsa musik zählen",
+  "schatten zuordnen",
+  "schatten zuordnen arbeitsblatt",
+  "schatzsuche",
+  "schatzsuche forza horizon 6",
+  "schatzsuche kinder",
+  "schatzsuche kindergeburtstag",
+  "schatzsuche kindergeburtstag 4 jahre",
+  "schatzsuche kindergeburtstag 5 jahre",
+  "schatzsuche kindergeburtstag 6 jahre",
+  "schatzsuche kindergeburtstag 7 jahre",
+  "schatzsuche kindergeburtstag 8 jahre",
+  "schatzsucher von oak island",
   "schreiben lernen",
   "schreiben lernen für erwachsene",
   "schreiben lernen kinder",
@@ -3813,9 +5218,9 @@
   "schwungübungen grundschule",
   "schwungübungen kinder",
   "schwungübungen kindergarten",
-  "schwungübungen pdf",
   "schwungübungen schreibschrift",
   "schwungübungen vorschule",
+  "schwungübungen zum ausdrucken",
   "schwungübungen zum ausdrucken kostenlos",
   "silben",
   "silben lesen weihnachten",
@@ -3841,6 +5246,9 @@
   "sommer rechnen",
   "sommer silben",
   "sommer vier buchstaben",
+  "sortieren ordnen englisch",
+  "sortieren und ordnen",
+  "sortieren und ordnen im kindergarten",
   "spielzeug 4 buchstaben",
   "spielzeug 5 buchstaben",
   "spielzeug 7 buchstaben",
@@ -3860,6 +5268,18 @@
   "stationenlernen grundschule beispiele",
   "stationenlernen mathematik grundschule",
   "stationenlernen religion grundschule",
+  "stellenwert",
+  "stellenwert arbeitsblätter",
+  "stellenwert bedeutung",
+  "stellenwert englisch",
+  "stellenwert synonym",
+  "stellenwertsystem",
+  "stellenwerttabelle bestimmen arbeitsblätter",
+  "stellenwerttafel",
+  "stellenwerttafel dezimalzahlen",
+  "stellenwerttafel gewichte",
+  "stellenwerttafel längen",
+  "stellenwertverständnis",
   "strand 4 buchstaben",
   "strand 6 buchstaben",
   "strand 7 buchstaben",
@@ -3874,8 +5294,44 @@
   "strand wie viele silben",
   "strategische werkzeuge mathe",
   "strategische werkzeuge mathe grundschule",
+  "strichlisten",
+  "strichlisten app",
+  "strichlisten bis 20",
+  "strichlisten erstellen",
+  "strichlisten grundschule",
+  "strichlisten klasse 1",
+  "strichlisten klasse 1 einführung",
+  "strichlisten klasse 5 arbeitsblätter",
+  "strichlisten klasse 5 arbeitsblätter zum ausdrucken",
+  "strichlisten und diagramme klasse 5 arbeitsblätter zum ausdrucken",
+  "strichlisten und häufigkeitstabellen klasse 5",
+  "strichlisten zahlenraum 20",
   "stromkabel farben buchstaben",
   "strummi tiere mathe",
+  "subtraktion",
+  "subtraktion arbeitsblätter",
+  "subtraktion arbeitsblätter 2 klasse",
+  "subtraktion arbeitsblätter 3 klasse",
+  "subtraktion arbeitsblätter klasse 1",
+  "subtraktion arbeitsblätter.pdf",
+  "subtraktion begriffe",
+  "subtraktion excel",
+  "subtraktion fachbegriffe",
+  "subtraktion mit zehnerübergang",
+  "subtraktion schriftlich",
+  "subtraktion von brüchen",
+  "subtraktion von vektoren",
+  "subtraktionsangiographie",
+  "subtraktionsverfahren",
+  "suchen und zählen",
+  "suchen und zählen excel",
+  "sudoku kinder 4x4 bilder",
+  "sudoku leicht bilder",
+  "sudoku schwer bilder",
+  "sätze bauen wörter klauen",
+  "tabelle geld zählen",
+  "tabelle kalorien zählen",
+  "tabelle zählen excel",
   "tiere 4 silben",
   "tiere buchstaben",
   "tiere buchstaben n",
@@ -3890,16 +5346,28 @@
   "tiere zählen japanisch",
   "tiere zählen lebenserwartung",
   "tiere zählen mentales alter",
+  "trainingsprogramm laute silben reime",
+  "tägliches wort raten",
+  "uhrzeit englisch lernen arbeitsblätter zum ausdrucken",
   "uhrzeit lernen",
   "uhrzeit lernen 2 klasse",
   "uhrzeit lernen arbeitsblätter",
+  "uhrzeit lernen arbeitsblätter kostenlos",
+  "uhrzeit lernen arbeitsblätter pdf",
+  "uhrzeit lernen arbeitsblätter zum ausdrucken",
+  "uhrzeit lernen arbeitsblätter zum ausdrucken kostenlos",
+  "uhrzeit lernen deutsch arbeitsblätter",
   "uhrzeit lernen englisch",
   "uhrzeit lernen grundschule",
+  "uhrzeit lernen grundschule arbeitsblätter",
   "uhrzeit lernen kinder",
   "uhrzeit lernen kinder app",
+  "uhrzeit lernen kinder arbeitsblätter",
   "uhrzeit lernen kinder übungsblätter",
   "uhrzeit lernen online",
   "uhrzeit lernen pdf",
+  "uhrzeit lesen lernen arbeitsblätter",
+  "unterschied sortieren und ordnen",
   "verliebte zahlen",
   "verliebte zahlen 1 klasse",
   "verliebte zahlen arbeitsblatt",
@@ -3920,6 +5388,8 @@
   "verschiedenes neun buchstaben",
   "verschiedenes sechs buchstaben",
   "verschiedenes sieben buchstaben",
+  "versteckte objekte finden kostenlos spielen",
+  "versteckte objekte finden spielen deutsch",
   "vertretungsstunde grundschule",
   "vertretungsstunde grundschule ideen",
   "vertretungsstunde grundschule klasse 2",
@@ -3928,6 +5398,23 @@
   "vertretungsstunde musik grundschule",
   "vertretungsstunde musik grundschule kostenlos",
   "vertretungsstunde religion grundschule",
+  "verwandte wörter bauen",
+  "visuelle wahrnehmung",
+  "visuelle wahrnehmung arbeitsblätter",
+  "visuelle wahrnehmung arbeitsblätter kindergarten",
+  "visuelle wahrnehmung arbeitsblätter kostenlos",
+  "visuelle wahrnehmung arbeitsblätter pdf",
+  "visuelle wahrnehmung fördern",
+  "visuelle wahrnehmung fördern arbeitsblätter kostenlos",
+  "visuelle wahrnehmung kinder",
+  "visuelle wahrnehmung übungen",
+  "visuelle wahrnehmung übungen pdf",
+  "visuelle wahrnehmungsstörung",
+  "visuelle wahrnehmungsstörung kind",
+  "visuelle wahrnehmungsstörung symptome",
+  "visuelle wahrnehmungsstörung test kinder",
+  "visuelle wahrnehmungsstörung therapie",
+  "vorschularbeitsblätter was passt nicht dazu",
   "vögel 4 buchstaben",
   "vögel 5 buchstaben",
   "vögel 6 buchstaben",
@@ -3955,6 +5442,27 @@
   "waldtiere 6 buchstaben kreuzworträtsel",
   "waldtiere 7 buchstaben",
   "waldtiere buchstaben",
+  "was fehlt bei brüchigen nägeln",
+  "was fehlt bei haarausfall",
+  "was fehlt dem hund wenn er gras frisst",
+  "was fehlt dem körper bei schuppenflechte",
+  "was fehlt dem körper wenn man ständig friert",
+  "was fehlt dem körper wenn man ständig müde ist",
+  "was fehlt der pflanze",
+  "was fehlt meiner pflanze",
+  "was fehlt mir wenn mir schwindelig ist",
+  "was fehlt wenn man immer müde ist",
+  "was passt nicht",
+  "was passt nicht arbeitsblätter",
+  "was passt nicht dazu",
+  "was passt nicht in die reihe",
+  "was passt nicht neben petersilie",
+  "was passt nicht zu basilikum",
+  "was passt nicht zu dill",
+  "was passt nicht zu petersilie",
+  "was passt nicht zu tomatenpflanzen",
+  "was passt nicht zu wassermann",
+  "was passt nicht zu zwilling",
   "weihnachten buchstaben",
   "weihnachten mathe grundschule",
   "weihnachten mathe klasse 1",
@@ -3975,6 +5483,7 @@
   "weihnachten silben",
   "weihnachten tage zählen",
   "weihnachten trennen silben",
+  "weihnachten wortschatz mit bildern",
   "weihnachten zählen",
   "welche aktivitäten zählen unter anderem zu den adl",
   "welche berufe zählen als beamte",
@@ -4038,6 +5547,8 @@
   "wetter vier buchstaben",
   "wetter zählen",
   "wie viele bäume zählen als wald",
+  "winkel messen arbeitsblätter",
+  "winkel messen arbeitsblätter zum ausdrucken",
   "winter apfelsorte 6 buchstaben",
   "winter buchstaben",
   "winter fünf buchstaben",
@@ -4062,6 +5573,35 @@
   "wochenplan grundschule vorlage",
   "wochenplan grundschule vorlage kostenlos",
   "wochenplan grundschule vorlage word",
+  "word tabelle zählen",
+  "wort erraten 5 buchstaben",
+  "wort erraten app",
+  "wort erraten online",
+  "wort raten",
+  "wort raten deutsch",
+  "wort raten englisch",
+  "wort raten spiel",
+  "wort raten spiel online",
+  "wort suchen",
+  "wortschatz & grammatik üben mit bildern",
+  "wortschatz a1 mit bildern",
+  "wortschatz mit bildern",
+  "wortschatz mit bildern pdf",
+  "wortsuche",
+  "wortsuche 5 buchstaben",
+  "wortsuche buchstaben",
+  "wortsuche erstellen",
+  "wortsuche kostenlos",
+  "wortsuche rätsel",
+  "wortsuche rätsel für senioren",
+  "wortsuche rätsel kostenlos",
+  "wortsuche spiel",
+  "wörter bauen",
+  "wörter bauen aus buchstaben",
+  "wörter bauen spiel",
+  "wörter mit wortstamm bauen",
+  "wörter uhr selber bauen",
+  "wörter wortfamilie bauen",
   "zahl 1 arbeitsblatt",
   "zahl 1 arbeitsblatt kindergarten",
   "zahl 1 und 2 arbeitsblatt",
@@ -4089,6 +5629,19 @@
   "zahlen schreiben lernen pdf kostenlos",
   "zahlen schreiben üben",
   "zahlen schreiben üben pdf",
+  "zahlen vergleichen",
+  "zahlen vergleichen 3 klasse arbeitsblätter",
+  "zahlen vergleichen arbeitsblätter",
+  "zahlen vergleichen aufgaben",
+  "zahlen vergleichen bis 20",
+  "zahlen vergleichen excel",
+  "zahlen vergleichen klasse 1",
+  "zahlen vergleichen klasse 5 arbeitsblätter",
+  "zahlen vergleichen online",
+  "zahlen vergleichen und ordnen",
+  "zahlen vergleichen zahlenraum 20",
+  "zahlen vergleichen zr 20",
+  "zahlen vergleichen übungen",
   "zahlenraum bis 10",
   "zahlenraum bis 10 arbeitsblätter kostenlos",
   "zahlenraum bis 10 förderschule",
@@ -4109,6 +5662,20 @@
   "zahlenraum bis 20 klasse 1",
   "zahlenraum bis 20 pdf",
   "zahlenraum bis 20 spiele",
+  "zahlenstrahl",
+  "zahlenstrahl 1. klasse",
+  "zahlenstrahl arbeitsblätter",
+  "zahlenstrahl arbeitsblätter 4 klasse",
+  "zahlenstrahl arbeitsblätter 5 klasse",
+  "zahlenstrahl arbeitsblätter kostenlos",
+  "zahlenstrahl bis 10",
+  "zahlenstrahl bis 100",
+  "zahlenstrahl bis 100 zum ausdrucken pdf",
+  "zahlenstrahl bis 1000",
+  "zahlenstrahl bis 20",
+  "zahlenstrahl bis 20 zum ausdrucken",
+  "zahlenstrahl brüche",
+  "zahlenstrahl dezimalzahlen",
   "zahlzerlegung",
   "zahlzerlegung bis 10",
   "zahlzerlegung bis 10 frau locke",
@@ -4119,7 +5686,28 @@
   "zahlzerlegung spielerisch üben",
   "zahlzerlegung üben",
   "zahlzerlegungen",
+  "zehnerfeld",
+  "zehnerfeld blitzblick",
+  "zehnerfeld holz",
+  "zehnerfeld klasse 1",
+  "zehnerfeld leer",
+  "zehnerfeld pdf",
+  "zehnerfeld vorlage",
+  "zehnerfeld zum ausdrucken",
+  "zehnerfelder",
+  "zehnerfeldkarten",
+  "zeitangaben groß oder klein arbeitsblätter",
   "zu welchem gemüse zählen radieschen",
+  "zuordenbar",
+  "zuordnung",
+  "zuordnung englisch",
+  "zuordnung mathe",
+  "zuordnung synonym",
+  "zuordnungen",
+  "zuordnungen mathe",
+  "zuordnungsspiel",
+  "zuordnungsvorschrift",
+  "zuordnungsvorschriften kontenrahmen niedersachsen",
   "zählen blumen zu pflanzen",
   "zählen blumen zur kleingärtnerischen nutzung",
   "zählen bäume zu lebewesen",
@@ -4144,6 +5732,8 @@
   "zählen tiere zur natur",
   "zählen weihnachten und silvester als arbeitstage",
   "zählen weihnachten und silvester als ganze urlaubstage",
+  "zählenwenn tabelle",
+  "übungsblatt zu diagramme und daten",
   "übungsheft",
   "übungsheft auf englisch",
   "übungsheft lesen 2",
@@ -4180,6 +5770,7 @@
   "arbeitsblatt zahl 2 schreiben",
   "arbeitsblatt zahl 4 kindergarten",
   "arbeitsblatt zahl 6 schreiben",
+  "arbeitsblätter addition und subtraktion bis 20",
   "arbeitsblätter freiarbeit grundschule",
   "arbeitsblätter förderschule 1 klasse",
   "arbeitsblätter förderschule geistige entwicklung",
@@ -4189,6 +5780,7 @@
   "arbeitsblätter förderschule klasse 8",
   "arbeitsblätter förderschule klasse 9",
   "arbeitsblätter inklusion grundschule",
+  "arbeitsblätter visuelle wahrnehmung erwachsene",
   "aushang buchstaben klassenzimmer",
   "aushang buchstaben klassenzimmer schreibschrift",
   "ausmalbild ostern rechnen",
@@ -4206,6 +5798,11 @@
   "berufe ohne mathe",
   "berufe ohne rechnen",
   "berufe wo man rechnen muss",
+  "bilder sortieren apple",
+  "bilder sortieren und umbenennen",
+  "bilder sortieren windows",
+  "bingo live",
+  "bingo ndr heute",
   "blumen buchstaben",
   "blumen buchstaben deko",
   "blumen buchstaben hochzeit",
@@ -4302,6 +5899,9 @@
   "buchstaben tiere malen",
   "buchstaben tiere zeichnen",
   "buchstaben weihnachten ausmalen",
+  "buchstabensalat lösen 9 buchstaben",
+  "buchstabensalat lösen online kostenlos",
+  "buchstabenzug name",
   "bäckerei 4 buchstaben",
   "bäckerei acht buchstaben",
   "bäckerei kreuzworträtsel 4 buchstaben",
@@ -4331,6 +5931,7 @@
   "camping sechs buchstaben",
   "camping unterlage acht buchstaben",
   "camping zubehör 8 buchstaben",
+  "code additionnel communautaire",
   "daf arbeitsblätter",
   "daf arbeitsblätter a1",
   "daf arbeitsblätter a1 für kinder",
@@ -4511,6 +6112,8 @@
   "gemüse silben",
   "gemüse wie viele silben",
   "gemüse zählen",
+  "geometrie arbeitsblätter 7 klasse",
+  "geometrieheft",
   "geometrische formen",
   "geometrische formen 3. klasse",
   "geometrische formen 3d",
@@ -4522,6 +6125,8 @@
   "geometrische formen rätsel",
   "geometrische formen zählen",
   "geometrische formen übersicht",
+  "größen vergleichen 2 menschen",
+  "größen vergleichen nebeneinander",
   "hameln bäume zählen",
   "hausaufgaben 1 klasse arbeitsblätter mathe",
   "hausaufgaben 2 klasse arbeitsblätter",
@@ -4546,6 +6151,7 @@
   "haustiere kreuzworträtsel 5 buchstaben",
   "haustiere mit 3 buchstaben",
   "haustiere nutztiere 4 buchstaben",
+  "hundertertafel zum drucken",
   "ideenreise ostern rechnen",
   "im supermarkt abkürzung drei buchstaben",
   "im supermarkt drei buchstaben",
@@ -4598,6 +6204,13 @@
   "krankenhaus sieben buchstaben",
   "krankenhaus silben",
   "krankenhaus österreichisch 6 buchstaben",
+  "kreuzworträtsel hilfe",
+  "kreuzworträtsel krupion",
+  "kreuzworträtsel schweiz",
+  "kreuzworträtsel stuttgarter zeitung",
+  "kryptogramm lösen online",
+  "kryptogramm volksschule",
+  "kryptogramm von la buse",
   "können bäume zählen",
   "können tiere rechnen",
   "körperteile 3 buchstaben",
@@ -4611,6 +6224,7 @@
   "körperteile fünf buchstaben",
   "körperteile mathe",
   "körperteile mathe 3 klasse",
+  "lagebeziehungen zwischen geraden",
   "laufzettel stationenlernen grundschule",
   "lernpaket",
   "lernpaket daz",
@@ -4643,7 +6257,11 @@
   "lesen lernen spiel",
   "lesen lernen vorschule",
   "lesen lernen übungen",
+  "logikrätsel kinder 10 jahre",
+  "logikrätsel mit lösung pdf",
+  "logikrätsel rätsel",
   "mathe accessoires",
+  "mathe arbeitsblatt klasse 7",
   "mathe bäume",
   "mathe farben und formen",
   "mathe frühstück",
@@ -4671,6 +6289,9 @@
   "mengen erfassen pdf kostenlos",
   "mengen erfassen vorschule",
   "mengen erfassen übungen",
+  "mengen vergleichen grundschule",
+  "messenger bag herren",
+  "messenger signal",
   "mikado farben zählen",
   "montessori farben mathe",
   "montessori rechnen spielzeug für kinder",
@@ -4760,9 +6381,9 @@
   "schwungübungen grundschule",
   "schwungübungen kinder",
   "schwungübungen kindergarten",
-  "schwungübungen pdf",
   "schwungübungen schreibschrift",
   "schwungübungen vorschule",
+  "schwungübungen zum ausdrucken",
   "schwungübungen zum ausdrucken kostenlos",
   "silben",
   "silben lesen weihnachten",
@@ -4807,6 +6428,7 @@
   "stationenlernen grundschule beispiele",
   "stationenlernen mathematik grundschule",
   "stationenlernen religion grundschule",
+  "stellenwert englisch",
   "strand 4 buchstaben",
   "strand 6 buchstaben",
   "strand 7 buchstaben",
@@ -4821,6 +6443,8 @@
   "strand wie viele silben",
   "strategische werkzeuge mathe",
   "strategische werkzeuge mathe grundschule",
+  "strichlisten grundschule",
+  "strichlisten und häufigkeitstabellen klasse 5",
   "stromkabel farben buchstaben",
   "strummi tiere mathe",
   "tiere 4 silben",
@@ -4866,6 +6490,7 @@
   "vertretungsstunde musik grundschule",
   "vertretungsstunde musik grundschule kostenlos",
   "vertretungsstunde religion grundschule",
+  "vorschularbeitsblätter was passt nicht dazu",
   "vögel 4 buchstaben",
   "vögel 5 buchstaben",
   "vögel 6 buchstaben",
@@ -4893,6 +6518,9 @@
   "waldtiere 6 buchstaben kreuzworträtsel",
   "waldtiere 7 buchstaben",
   "waldtiere buchstaben",
+  "was fehlt der pflanze",
+  "was fehlt mir wenn mir schwindelig ist",
+  "was passt nicht zu zwilling",
   "weihnachten buchstaben",
   "weihnachten mathe grundschule",
   "weihnachten mathe klasse 1",
@@ -5000,6 +6628,9 @@
   "wochenplan grundschule vorlage",
   "wochenplan grundschule vorlage kostenlos",
   "wochenplan grundschule vorlage word",
+  "wortsuche kostenlos",
+  "wortsuche rätsel für senioren",
+  "wortsuche rätsel kostenlos",
   "zahl 1 arbeitsblatt",
   "zahl 1 arbeitsblatt kindergarten",
   "zahl 1 und 2 arbeitsblatt",
@@ -5027,6 +6658,7 @@
   "zahlen schreiben lernen pdf kostenlos",
   "zahlen schreiben üben",
   "zahlen schreiben üben pdf",
+  "zahlen vergleichen online",
   "zahlenraum bis 10",
   "zahlenraum bis 10 arbeitsblätter kostenlos",
   "zahlenraum bis 10 förderschule",
@@ -5057,6 +6689,8 @@
   "zahlzerlegung spielerisch üben",
   "zahlzerlegung üben",
   "zahlzerlegungen",
+  "zehnerfeld holz",
+  "zehnerfeld pdf",
   "zu welchem gemüse zählen radieschen",
   "zählen blumen zu pflanzen",
   "zählen blumen zur kleingärtnerischen nutzung",
@@ -5092,6 +6726,5 @@
   "übungshefte 1. klasse",
   "übungshefte 2. klasse",
   "übungshefte vorschule"
- ],
- "refilteredAt": "2026-07-20T08:58:53.375Z"
+ ]
 }

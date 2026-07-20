@@ -4,24 +4,25 @@
   "hl": "es",
   "gl": "mx"
  },
- "generatedAt": "2026-07-20T08:51:09.160Z",
+ "generatedAt": "2026-07-20T09:45:56.951Z",
  "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
- "requestCount": 325,
+ "requestCount": 419,
  "seedCounts": {
   "skill": 14,
   "context": 6,
   "audience": 2,
   "enumerated": 26,
   "pack": 1,
-  "cross": 276
+  "cross": 252,
+  "typeName": 118
  },
  "errorCount": 0,
  "errors": [],
  "newVsInventory": {
   "inventoryUnique": 2344,
-  "demandUnique": 920,
-  "novel": 908,
-  "novelShare": 0.987
+  "demandUnique": 1521,
+  "novel": 951,
+  "novelShare": 0.625
  },
  "deadSeeds": [
   "rincones fichas",
@@ -42,10 +43,6 @@
   "playa contar",
   "aves matemáticas",
   "aves sumas",
-  "aves 2 matemáticas",
-  "aves 2 contar",
-  "aves 2 sumas",
-  "aves 2 letras",
   "partes del cuerpo matemáticas",
   "desayuno matemáticas",
   "desayuno contar",
@@ -121,82 +118,100 @@
   "animales del zoológico contar",
   "animales del zoológico sumas",
   "animales del zoológico letras",
-  "animales bn 2 matemáticas",
-  "animales bn 2 contar",
-  "animales bn 2 sumas",
-  "animales bn 2 letras",
-  "animales bn 3 matemáticas",
-  "animales bn 3 contar",
-  "animales bn 3 sumas",
-  "animales bn 3 letras",
-  "animales bn 4 matemáticas",
-  "animales bn 4 contar",
-  "animales bn 4 sumas",
-  "animales bn 4 letras",
-  "animales bn 5 matemáticas",
-  "animales bn 5 contar",
-  "animales bn 5 sumas",
-  "animales bn 5 letras",
-  "playa bn 2 matemáticas",
-  "playa bn 2 contar",
-  "playa bn 2 sumas",
-  "playa bn 2 letras",
-  "aves byn 2 matemáticas",
-  "aves byn 2 contar",
-  "aves byn 2 sumas",
-  "aves byn 2 letras",
-  "navidad b&n 2 matemáticas",
-  "navidad b&n 2 contar",
-  "navidad b&n 2 sumas",
-  "navidad b&n 2 letras",
+  "animales bn matemáticas",
+  "animales bn contar",
+  "animales bn sumas",
+  "animales bn letras",
+  "playa bn matemáticas",
+  "playa bn contar",
+  "playa bn sumas",
+  "playa bn letras",
+  "aves byn matemáticas",
+  "aves byn contar",
+  "aves byn sumas",
+  "aves byn letras",
+  "navidad b&n matemáticas",
+  "navidad b&n contar",
+  "navidad b&n sumas",
+  "navidad b&n letras",
   "salón de clases 2 (b/n) matemáticas",
   "salón de clases 2 (b/n) contar",
   "salón de clases 2 (b/n) sumas",
   "salón de clases 2 (b/n) letras",
-  "pascua bn 2 matemáticas",
-  "pascua bn 2 contar",
-  "pascua bn 2 sumas",
-  "pascua bn 2 letras",
-  "comida bn 2 matemáticas",
-  "comida bn 2 contar",
-  "comida bn 2 sumas",
-  "comida bn 2 letras",
-  "comida bn 3 matemáticas",
-  "comida bn 3 contar",
-  "comida bn 3 sumas",
-  "comida bn 3 letras",
-  "hogar bn 2 matemáticas",
-  "hogar bn 2 contar",
-  "hogar bn 2 sumas",
-  "hogar bn 2 letras",
-  "vida marina bn 2 matemáticas",
-  "vida marina bn 2 contar",
-  "vida marina bn 2 sumas",
-  "vida marina bn 2 letras",
-  "deportes bn 2 matemáticas",
-  "deportes bn 2 contar",
-  "deportes bn 2 sumas",
-  "deportes bn 2 letras",
-  "juguetes bn 2 matemáticas",
-  "juguetes bn 2 contar",
-  "juguetes bn 2 sumas",
-  "juguetes bn 2 letras",
-  "san valentín bn 2 matemáticas",
-  "san valentín bn 2 contar",
-  "san valentín bn 2 sumas",
-  "san valentín bn 2 letras",
-  "verduras bn 2 matemáticas",
-  "verduras bn 2 contar",
-  "verduras bn 2 sumas",
-  "verduras bn 2 letras",
-  "vehículos bn 2 matemáticas",
-  "vehículos bn 2 contar",
-  "vehículos bn 2 sumas",
-  "vehículos bn 2 letras",
-  "vehículos bn 3 matemáticas",
-  "vehículos bn 3 contar",
-  "vehículos bn 3 sumas",
-  "vehículos bn 3 letras"
+  "pascua bn matemáticas",
+  "pascua bn contar",
+  "pascua bn sumas",
+  "pascua bn letras",
+  "comida bn matemáticas",
+  "comida bn contar",
+  "comida bn sumas",
+  "comida bn letras",
+  "hogar bn matemáticas",
+  "hogar bn contar",
+  "hogar bn sumas",
+  "hogar bn letras",
+  "vida marina bn matemáticas",
+  "vida marina bn contar",
+  "vida marina bn sumas",
+  "vida marina bn letras",
+  "deportes bn matemáticas",
+  "deportes bn contar",
+  "deportes bn sumas",
+  "deportes bn letras",
+  "juguetes bn matemáticas",
+  "juguetes bn contar",
+  "juguetes bn sumas",
+  "juguetes bn letras",
+  "san valentín bn matemáticas",
+  "san valentín bn contar",
+  "san valentín bn sumas",
+  "san valentín bn letras",
+  "verduras bn matemáticas",
+  "verduras bn contar",
+  "verduras bn sumas",
+  "verduras bn letras",
+  "vehículos bn matemáticas",
+  "vehículos bn contar",
+  "vehículos bn sumas",
+  "vehículos bn letras",
+  "sudoku de imágenes fichas",
+  "criptograma fichas",
+  "sendero de imágenes fichas",
+  "suma codificada",
+  "suma codificada fichas",
+  "rompecabezas matemático fichas",
+  "ficha matemática fichas",
+  "contar en gráfico",
+  "contar en gráfico fichas",
+  "tren de patrones fichas",
+  "ficha de patrones fichas",
+  "emparejar en cuadrícula",
+  "emparejar en cuadrícula fichas",
+  "clasificar imágenes fichas",
+  "emparejar sombras fichas",
+  "tren del abecedario fichas",
+  "letras revueltas fichas",
+  "busca y cuenta fichas",
+  "búsqueda del tesoro fichas",
+  "piezas faltantes fichas",
+  "el intruso fichas",
+  "contar con dibujos fichas",
+  "marcos de diez fichas",
+  "marcas de conteo fichas",
+  "comparar cantidades fichas",
+  "comparar tamaños fichas",
+  "gráficos y datos fichas",
+  "medición fichas",
+  "lógica visual fichas",
+  "emparejamiento visual fichas",
+  "clasificar y agrupar fichas",
+  "clasificar en ciencias fichas",
+  "secuencias y ciclos de vida",
+  "secuencias y ciclos de vida fichas",
+  "relacionar en ciencias",
+  "relacionar en ciencias fichas",
+  "conocimiento de letras fichas",
+  "vocabulario con dibujos fichas"
  ],
  "suggestions": {
   "silabario": {
@@ -320,7 +335,7 @@
    ]
   },
   "conciencia fonológica": {
-   "cls": "skill",
+   "cls": "typeName",
    "s": [
     "conciencia fonológica",
     "conciencia fonológica actividades",
@@ -783,14 +798,14 @@
    "s": [
     "cuadernillo",
     "cuadernillo para aprender a leer y escribir primer grado pdf gratis",
-    "cuadernillos cine",
     "cuadernillo de lectoescritura",
     "cuadernillo cuadriculado",
     "cuadernillos icfes",
     "cuadernillo icfes 2026 pdf con respuestas",
     "cuadernillo de pruebas nacionales 2025 pdf",
     "cuadernillo rubio",
-    "cuadernos rubio"
+    "cuadernos rubio",
+    "cuadernillo de actividades para 2 grado de primaria"
    ]
   },
   "4 de julio matemáticas": {
@@ -847,14 +862,14 @@
    "s": [
     "actividades matemáticas primer grado",
     "actividades matemáticas para cuarto grado",
-    "actividades matemáticas sexto grado",
-    "actividades matemáticas tercer grado",
     "actividades matemáticas",
-    "actividades matemáticas quinto grado",
-    "actividades matemáticas para preescolar",
+    "actividades matemáticas tercer grado",
+    "actividades matemáticas para quinto grado",
     "actividades matemáticas segundo grado",
+    "actividades matemáticas sexto grado",
+    "actividades matemáticas para preescolar",
     "actividades matemáticas secundaria",
-    "actividades matemáticas para primer grado de primaria"
+    "actividades matemáticas sobre el mundial 2026"
    ]
   },
   "actividades contar": {
@@ -1061,22 +1076,6 @@
     "letras aves de las tempestades",
     "letras aves solo cadaver"
    ]
-  },
-  "aves 2 matemáticas": {
-   "cls": "cross",
-   "s": []
-  },
-  "aves 2 contar": {
-   "cls": "cross",
-   "s": []
-  },
-  "aves 2 sumas": {
-   "cls": "cross",
-   "s": []
-  },
-  "aves 2 letras": {
-   "cls": "cross",
-   "s": []
   },
   "partes del cuerpo matemáticas": {
    "cls": "cross",
@@ -2274,115 +2273,67 @@
    "cls": "cross",
    "s": []
   },
-  "animales bn 2 matemáticas": {
+  "animales bn matemáticas": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 2 contar": {
+  "animales bn contar": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 2 sumas": {
+  "animales bn sumas": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 2 letras": {
+  "animales bn letras": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 3 matemáticas": {
+  "playa bn matemáticas": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 3 contar": {
+  "playa bn contar": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 3 sumas": {
+  "playa bn sumas": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 3 letras": {
+  "playa bn letras": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 4 matemáticas": {
+  "aves byn matemáticas": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 4 contar": {
+  "aves byn contar": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 4 sumas": {
+  "aves byn sumas": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 4 letras": {
+  "aves byn letras": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 5 matemáticas": {
+  "navidad b&n matemáticas": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 5 contar": {
+  "navidad b&n contar": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 5 sumas": {
+  "navidad b&n sumas": {
    "cls": "cross",
    "s": []
   },
-  "animales bn 5 letras": {
-   "cls": "cross",
-   "s": []
-  },
-  "playa bn 2 matemáticas": {
-   "cls": "cross",
-   "s": []
-  },
-  "playa bn 2 contar": {
-   "cls": "cross",
-   "s": []
-  },
-  "playa bn 2 sumas": {
-   "cls": "cross",
-   "s": []
-  },
-  "playa bn 2 letras": {
-   "cls": "cross",
-   "s": []
-  },
-  "aves byn 2 matemáticas": {
-   "cls": "cross",
-   "s": []
-  },
-  "aves byn 2 contar": {
-   "cls": "cross",
-   "s": []
-  },
-  "aves byn 2 sumas": {
-   "cls": "cross",
-   "s": []
-  },
-  "aves byn 2 letras": {
-   "cls": "cross",
-   "s": []
-  },
-  "navidad b&n 2 matemáticas": {
-   "cls": "cross",
-   "s": []
-  },
-  "navidad b&n 2 contar": {
-   "cls": "cross",
-   "s": []
-  },
-  "navidad b&n 2 sumas": {
-   "cls": "cross",
-   "s": []
-  },
-  "navidad b&n 2 letras": {
+  "navidad b&n letras": {
    "cls": "cross",
    "s": []
   },
@@ -2402,181 +2353,1297 @@
    "cls": "cross",
    "s": []
   },
-  "pascua bn 2 matemáticas": {
+  "pascua bn matemáticas": {
    "cls": "cross",
    "s": []
   },
-  "pascua bn 2 contar": {
+  "pascua bn contar": {
    "cls": "cross",
    "s": []
   },
-  "pascua bn 2 sumas": {
+  "pascua bn sumas": {
    "cls": "cross",
    "s": []
   },
-  "pascua bn 2 letras": {
+  "pascua bn letras": {
    "cls": "cross",
    "s": []
   },
-  "comida bn 2 matemáticas": {
+  "comida bn matemáticas": {
    "cls": "cross",
    "s": []
   },
-  "comida bn 2 contar": {
+  "comida bn contar": {
    "cls": "cross",
    "s": []
   },
-  "comida bn 2 sumas": {
+  "comida bn sumas": {
    "cls": "cross",
    "s": []
   },
-  "comida bn 2 letras": {
+  "comida bn letras": {
    "cls": "cross",
    "s": []
   },
-  "comida bn 3 matemáticas": {
+  "hogar bn matemáticas": {
    "cls": "cross",
    "s": []
   },
-  "comida bn 3 contar": {
+  "hogar bn contar": {
    "cls": "cross",
    "s": []
   },
-  "comida bn 3 sumas": {
+  "hogar bn sumas": {
    "cls": "cross",
    "s": []
   },
-  "comida bn 3 letras": {
+  "hogar bn letras": {
    "cls": "cross",
    "s": []
   },
-  "hogar bn 2 matemáticas": {
+  "vida marina bn matemáticas": {
    "cls": "cross",
    "s": []
   },
-  "hogar bn 2 contar": {
+  "vida marina bn contar": {
    "cls": "cross",
    "s": []
   },
-  "hogar bn 2 sumas": {
+  "vida marina bn sumas": {
    "cls": "cross",
    "s": []
   },
-  "hogar bn 2 letras": {
+  "vida marina bn letras": {
    "cls": "cross",
    "s": []
   },
-  "vida marina bn 2 matemáticas": {
+  "deportes bn matemáticas": {
    "cls": "cross",
    "s": []
   },
-  "vida marina bn 2 contar": {
+  "deportes bn contar": {
    "cls": "cross",
    "s": []
   },
-  "vida marina bn 2 sumas": {
+  "deportes bn sumas": {
    "cls": "cross",
    "s": []
   },
-  "vida marina bn 2 letras": {
+  "deportes bn letras": {
    "cls": "cross",
    "s": []
   },
-  "deportes bn 2 matemáticas": {
+  "juguetes bn matemáticas": {
    "cls": "cross",
    "s": []
   },
-  "deportes bn 2 contar": {
+  "juguetes bn contar": {
    "cls": "cross",
    "s": []
   },
-  "deportes bn 2 sumas": {
+  "juguetes bn sumas": {
    "cls": "cross",
    "s": []
   },
-  "deportes bn 2 letras": {
+  "juguetes bn letras": {
    "cls": "cross",
    "s": []
   },
-  "juguetes bn 2 matemáticas": {
+  "san valentín bn matemáticas": {
    "cls": "cross",
    "s": []
   },
-  "juguetes bn 2 contar": {
+  "san valentín bn contar": {
    "cls": "cross",
    "s": []
   },
-  "juguetes bn 2 sumas": {
+  "san valentín bn sumas": {
    "cls": "cross",
    "s": []
   },
-  "juguetes bn 2 letras": {
+  "san valentín bn letras": {
    "cls": "cross",
    "s": []
   },
-  "san valentín bn 2 matemáticas": {
+  "verduras bn matemáticas": {
    "cls": "cross",
    "s": []
   },
-  "san valentín bn 2 contar": {
+  "verduras bn contar": {
    "cls": "cross",
    "s": []
   },
-  "san valentín bn 2 sumas": {
+  "verduras bn sumas": {
    "cls": "cross",
    "s": []
   },
-  "san valentín bn 2 letras": {
+  "verduras bn letras": {
    "cls": "cross",
    "s": []
   },
-  "verduras bn 2 matemáticas": {
+  "vehículos bn matemáticas": {
    "cls": "cross",
    "s": []
   },
-  "verduras bn 2 contar": {
+  "vehículos bn contar": {
    "cls": "cross",
    "s": []
   },
-  "verduras bn 2 sumas": {
+  "vehículos bn sumas": {
    "cls": "cross",
    "s": []
   },
-  "verduras bn 2 letras": {
+  "vehículos bn letras": {
    "cls": "cross",
    "s": []
   },
-  "vehículos bn 2 matemáticas": {
-   "cls": "cross",
+  "suma": {
+   "cls": "typeName",
+   "s": [
+    "sumatriptan",
+    "sumatra",
+    "sumac",
+    "suma",
+    "sumak",
+    "sumatriptan 50 mg",
+    "suma de fracciones",
+    "sumas pay",
+    "sumar",
+    "sumas y restas"
+   ]
+  },
+  "suma fichas": {
+   "cls": "typeName",
+   "s": [
+    "suma fichas de domino",
+    "suma fichas",
+    "fichas suma y resta de fracciones",
+    "fichas suma y resta",
+    "fichas suma de fracciones",
+    "fichas suma infantil",
+    "fichas suma y resta de fracciones heterogéneas",
+    "fichas suma resta multiplicacion y division",
+    "fichas suma con llevadas",
+    "fichas suma de fracciones mismo denominador"
+   ]
+  },
+  "sudoku de imágenes": {
+   "cls": "typeName",
+   "s": [
+    "sudoku de imágenes",
+    "sudoku de imagenes para niños",
+    "sudoku de imagenes como se juega",
+    "sudoku de imagenes para imprimir"
+   ]
+  },
+  "sudoku de imágenes fichas": {
+   "cls": "typeName",
    "s": []
   },
-  "vehículos bn 2 contar": {
-   "cls": "cross",
+  "criptograma": {
+   "cls": "typeName",
+   "s": [
+    "criptograma",
+    "criptograma significado",
+    "criptograma numerico",
+    "criptograma la nacion",
+    "criptogramas para niños",
+    "criptogramas para imprimir",
+    "criptograma online",
+    "criptogramas de sumas y restas",
+    "criptograma de multiplicacion",
+    "criptograma ejemplos"
+   ]
+  },
+  "criptograma fichas": {
+   "cls": "typeName",
    "s": []
   },
-  "vehículos bn 2 sumas": {
-   "cls": "cross",
+  "sendero de imágenes": {
+   "cls": "typeName",
+   "s": [
+    "sendero imágenes"
+   ]
+  },
+  "sendero de imágenes fichas": {
+   "cls": "typeName",
    "s": []
   },
-  "vehículos bn 2 letras": {
-   "cls": "cross",
+  "resta": {
+   "cls": "typeName",
+   "s": [
+    "restaurantes cerca de mi",
+    "restaurantes estocolmo",
+    "restaurantes",
+    "restaurang",
+    "restaurants near me",
+    "restaurant",
+    "restaurante peruano en estocolmo",
+    "restaurant tradition",
+    "restaurang nära mig",
+    "restaurante el colombiano"
+   ]
+  },
+  "resta fichas": {
+   "cls": "typeName",
+   "s": [
+    "resta fichas",
+    "fichas resta con llevadas",
+    "fichas resta prestando",
+    "suma y resta fichas"
+   ]
+  },
+  "suma codificada": {
+   "cls": "typeName",
    "s": []
   },
-  "vehículos bn 3 matemáticas": {
-   "cls": "cross",
+  "suma codificada fichas": {
+   "cls": "typeName",
    "s": []
   },
-  "vehículos bn 3 contar": {
-   "cls": "cross",
+  "más o menos": {
+   "cls": "typeName",
+   "s": [
+    "más o menos",
+    "más o menos en inglés",
+    "más o menos o masomenos",
+    "más o menos símbolo",
+    "más o menos en francés",
+    "más o menos o masomenos rae",
+    "más o menos juego",
+    "más o menos bien",
+    "más o menos significado",
+    "más o menos sinonimo"
+   ]
+  },
+  "más o menos fichas": {
+   "cls": "typeName",
+   "s": [
+    "fichas de mas o menos"
+   ]
+  },
+  "rompecabezas matemático": {
+   "cls": "typeName",
+   "s": [
+    "rompecabezas matemáticos",
+    "rompecabezas matemáticos para secundaria",
+    "rompecabezas matemáticos online",
+    "rompecabezas matemáticos para imprimir",
+    "rompecabezas matemáticos pdf",
+    "rompecabezas matemáticos para niños de primaria",
+    "rompecabezas matemáticos para imprimir pdf",
+    "rompecabezas matemáticos resueltos",
+    "rompecabezas matemático de logica giochi",
+    "rompecabezas matemáticos para niños"
+   ]
+  },
+  "rompecabezas matemático fichas": {
+   "cls": "typeName",
    "s": []
   },
-  "vehículos bn 3 sumas": {
-   "cls": "cross",
+  "ficha matemática": {
+   "cls": "typeName",
+   "s": [
+    "ficha matemática",
+    "ficha matemáticas 1o primaria",
+    "ficha matemáticas 2 primaria",
+    "ficha matemáticas 4 primaria",
+    "ficha matemáticas 3 primaria",
+    "ficha matematicas infantil 5 años",
+    "ficha matemáticas 5 primaria"
+   ]
+  },
+  "ficha matemática fichas": {
+   "cls": "typeName",
    "s": []
   },
-  "vehículos bn 3 letras": {
-   "cls": "cross",
+  "grande o pequeño": {
+   "cls": "typeName",
+   "s": [
+    "grande o pequeño",
+    "grande o pequeño cada uno carga su leño",
+    "grande o pequeño en inglés",
+    "grande o pequeño cada uno carga su leño reparto",
+    "grande o pequeño cada uno carga su leño que capitulo es",
+    "grande o pequeño cada uno carga su leño como dice el dicho",
+    "grande o pequeño wordwall",
+    "grande o pequeño como dice el dicho",
+    "pecado grande o pequeño versículo",
+    "mas grande o pequeño"
+   ]
+  },
+  "grande o pequeño fichas": {
+   "cls": "typeName",
+   "s": [
+    "grande pequeño fichas",
+    "grande mediano pequeño fichas"
+   ]
+  },
+  "contar en gráfico": {
+   "cls": "typeName",
    "s": []
+  },
+  "contar en gráfico fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tren de patrones": {
+   "cls": "typeName",
+   "s": [
+    "tren de patrones"
+   ]
+  },
+  "tren de patrones fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ficha de patrones": {
+   "cls": "typeName",
+   "s": [
+    "ficha de patrones graficos",
+    "ficha de patrones numericos",
+    "ficha de patrones",
+    "ficha de patrones numericos para segundo grado",
+    "ficha de patrones aditivos para cuarto grado",
+    "ficha de patrones aditivos",
+    "ficha de patrones multiplicativos",
+    "ficha de patrones de repeticion",
+    "ficha de patrones graficos para tercer grado de primaria",
+    "ficha de patrones numericos para tercer grado"
+   ]
+  },
+  "ficha de patrones fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "bingo": {
+   "cls": "typeName",
+   "s": [
+    "bingo lotto",
+    "bingo",
+    "bingolotto idag",
+    "bingolotto ikväll",
+    "bingo bluey",
+    "bingos del norte",
+    "bingo online",
+    "bingo activo",
+    "bingo virtual",
+    "bingo musical"
+   ]
+  },
+  "bingo fichas": {
+   "cls": "typeName",
+   "s": [
+    "bingo fichas",
+    "bingo fichas de madera",
+    "bingo fichas gratis",
+    "fichas bingo magneticas",
+    "fichas bingo transparentes",
+    "fichas bingo de letras",
+    "fichas bingo blitz",
+    "fichas bingo amazon",
+    "fichas bingo stl",
+    "fichas bingo pdf"
+   ]
+  },
+  "emparejar en cuadrícula": {
+   "cls": "typeName",
+   "s": []
+  },
+  "emparejar en cuadrícula fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "emparejar": {
+   "cls": "typeName",
+   "s": [
+    "emparejar",
+    "emparejar mi dispositivo",
+    "emparejar auriculares",
+    "emparejar airpods",
+    "emparejar airpods 4",
+    "emparejar dispositivo",
+    "emparejar audifonos sony",
+    "emparejar redmi buds 6",
+    "emparejar airpods pro 3",
+    "emparejar crucigrama"
+   ]
+  },
+  "emparejar fichas": {
+   "cls": "typeName",
+   "s": [
+    "emparejar fichas",
+    "emparejar fichas online gratis",
+    "juegos emparejar fichas",
+    "juego de emparejar fichas gratis",
+    "juego de emparejar fichas chinas"
+   ]
+  },
+  "clasificar imágenes": {
+   "cls": "typeName",
+   "s": [
+    "clasificar imágenes",
+    "clasificar imágenes de alimentos saludables y no saludables",
+    "clasificar imagenes con ia",
+    "qué significa clasificar imágenes"
+   ]
+  },
+  "clasificar imágenes fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "emparejar sombras": {
+   "cls": "typeName",
+   "s": [
+    "emparejar sombras",
+    "juego de emparejar sombras"
+   ]
+  },
+  "emparejar sombras fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tren del abecedario": {
+   "cls": "typeName",
+   "s": [
+    "tren del abecedario",
+    "tren del abecedario para imprimir",
+    "tren del abecedario para colorear",
+    "tren del abecedario pdf",
+    "tren del abecedario para completar",
+    "tren del abecedario en foami",
+    "tren del abecedario en ingles",
+    "tren del abecedario para niños",
+    "tren del abecedario en español",
+    "decorativo tren del abecedario"
+   ]
+  },
+  "tren del abecedario fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "preposiciones": {
+   "cls": "typeName",
+   "s": [
+    "preposiciones en sueco",
+    "preposiciones",
+    "preposiciones en español",
+    "preposiciones en ingles",
+    "preposiciones de lugar en ingles",
+    "preposiciones ejemplos",
+    "preposiciones de lugar",
+    "preposiciones de tiempo en ingles",
+    "preposiciones en frances",
+    "preposiciones y conjunciones"
+   ]
+  },
+  "preposiciones fichas": {
+   "cls": "typeName",
+   "s": [
+    "preposiciones fichas",
+    "preposiciones fichas interactivas",
+    "preposiciones fichas de trabajo",
+    "preposiciones fichas para imprimir",
+    "fichas preposiciones y conjunciones 4 primaria",
+    "fichas preposiciones en ingles",
+    "fichas preposiciones 4 primaria",
+    "fichas preposiciones y conjunciones 5 primaria",
+    "fichas preposiciones conjunciones e interjecciones 4 primaria",
+    "fichas preposiciones y conjunciones 6 primaria"
+   ]
+  },
+  "adivina la palabra": {
+   "cls": "typeName",
+   "s": [
+    "adivina la palabra",
+    "adivina la palabra juego",
+    "adivina la palabra del dia",
+    "adivina la palabra secreta",
+    "adivina la palabra online",
+    "adivina la palabra con pistas",
+    "adivina la palabra baby shower",
+    "adivina la palabra con imagenes",
+    "adivina la palabra con otras palabras",
+    "adivina la palabra español"
+   ]
+  },
+  "adivina la palabra fichas": {
+   "cls": "typeName",
+   "s": [
+    "fichas adivina la palabra secreta"
+   ]
+  },
+  "letras revueltas": {
+   "cls": "typeName",
+   "s": [
+    "letras revueltas",
+    "letras revueltas para formar palabras",
+    "letras revueltas de la biblia",
+    "letras revueltas bíblicas con respuestas",
+    "letras revueltas mujeres de la biblia",
+    "letras revueltas libros de la biblia",
+    "letras revueltas salmo 91",
+    "letras revueltas con respuestas",
+    "letras revueltas 1 corintios 13",
+    "letras revueltas para imprimir"
+   ]
+  },
+  "letras revueltas fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sopa de letras": {
+   "cls": "typeName",
+   "s": [
+    "sopa de letras",
+    "sopa de letras para imprimir",
+    "sopa de letras crear",
+    "sopa de letras online",
+    "sopa de letras para niños",
+    "sopa de letras gratis",
+    "sopa de letras en ingles",
+    "sopa de letras del mundial 2026",
+    "sopa de letras baby shower",
+    "sopa de letras para adultos"
+   ]
+  },
+  "sopa de letras fichas": {
+   "cls": "typeName",
+   "s": [
+    "sopa de letras fichas",
+    "sopa de letras fichas interactivas",
+    "sopa de letras fichas bibliograficas",
+    "fichas sopa de letras para imprimir",
+    "fichas sopa de letras pdf",
+    "fichas sopa de letras primaria",
+    "fichas sopa de letras para niños",
+    "fichas de sopa de letras para niños pdf",
+    "fichas ingles sopa de letras",
+    "fichas interactivas liveworksheets sopa de letras"
+   ]
+  },
+  "crucigrama": {
+   "cls": "typeName",
+   "s": [
+    "crucigramas",
+    "crucigrama el pais",
+    "crucigramas difíciles",
+    "crucigrama la nacion",
+    "crucigramas online",
+    "crucigrama el diario",
+    "crucigramas gratis",
+    "crucigrama crear",
+    "crucigrama para niños",
+    "crucigramas para imprimir"
+   ]
+  },
+  "crucigrama fichas": {
+   "cls": "typeName",
+   "s": [
+    "crucigrama fichas"
+   ]
+  },
+  "busca y cuenta": {
+   "cls": "typeName",
+   "s": [
+    "busca y cuenta",
+    "busca y cuenta animales",
+    "busca y cuenta en el cole",
+    "busca y cuenta navidad",
+    "busca y cuenta bruño",
+    "busca y cuenta pdf",
+    "busca cuenta y colorea especial pokemon",
+    "busca cuenta y colorea",
+    "busca cuenta y colorea especial pokemon respuestas",
+    "busca cuenta y colorea pokemon"
+   ]
+  },
+  "busca y cuenta fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "encuentra los objetos": {
+   "cls": "typeName",
+   "s": [
+    "encuentra los objetos ocultos",
+    "encuentra los objetos",
+    "encuentra los objetos perdidos",
+    "encuentra los objetos en la imagen",
+    "encuentra los objetos ocultos pdf",
+    "encuentra los objetos roblox",
+    "encuentra los objetos ocultos para niños",
+    "encuentra los objetos ocultos dificil",
+    "encuentra los objetos 175 roblox",
+    "encuentra los objetos ocultos para colorear"
+   ]
+  },
+  "encuentra los objetos fichas": {
+   "cls": "typeName",
+   "s": [
+    "fichas encuentra los objetos"
+   ]
+  },
+  "búsqueda del tesoro": {
+   "cls": "typeName",
+   "s": [
+    "búsqueda del tesoro",
+    "búsqueda del tesoro forza horizon 6",
+    "búsqueda del tesoro pistas para imprimir",
+    "búsqueda del tesoro película",
+    "búsqueda del tesoro pistas",
+    "busqueda del tesoro para niños",
+    "búsqueda del tesoro para adultos",
+    "búsqueda del tesoro juego",
+    "búsqueda del tesoro en inglés",
+    "búsqueda del tesoro gta online"
+   ]
+  },
+  "búsqueda del tesoro fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "piezas faltantes": {
+   "cls": "typeName",
+   "s": [
+    "piezas faltantes lego",
+    "piezas faltantes",
+    "piezas faltantes de rompecabezas",
+    "piezas faltantes ikea",
+    "piezas faltantes panini",
+    "piezas faltantes lego colombia",
+    "piezas faltantes la ley y el orden",
+    "piezas faltantes lego mexico",
+    "piezas faltantes mega construx"
+   ]
+  },
+  "piezas faltantes fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "el intruso": {
+   "cls": "typeName",
+   "s": [
+    "el intruso",
+    "el intruso pelicula",
+    "el intruso bar",
+    "el intruso juego",
+    "el intruso libro",
+    "el intruso delmira agustini",
+    "el intruso outer wilds",
+    "el intruso roblox",
+    "el intruso película 2016",
+    "el intruso madrid"
+   ]
+  },
+  "el intruso fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "contar con dibujos": {
+   "cls": "typeName",
+   "s": [
+    "contar con dibujos",
+    "contar con dibujos para niños",
+    "contar historias con dibujos",
+    "contar cuentos con dibujos",
+    "contar numeros con dibujos",
+    "contar dibujos animados",
+    "aprender a contar.con dibujos",
+    "vamos a contar con dibujos",
+    "historias para contar con dibujos"
+   ]
+  },
+  "contar con dibujos fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "marcos de diez": {
+   "cls": "typeName",
+   "s": [
+    "marcos de diez",
+    "marcos diez de celis",
+    "marcos diez urólogo teléfono",
+    "marcos diez urologo",
+    "marcos diez traumatólogo",
+    "marcos diez urologo santa rosa la pampa",
+    "marcos diez poeta",
+    "marcos diez cornell",
+    "marcos diez poemas",
+    "marcos diez galan"
+   ]
+  },
+  "marcos de diez fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "marcas de conteo": {
+   "cls": "typeName",
+   "s": [
+    "marcas de conteo",
+    "marcas de conteo para niños",
+    "marcas de conteo en word",
+    "marcas de conteo y frecuencia",
+    "marcas de conteo copiar y pegar",
+    "marcas de conteo in english",
+    "marcas de conteo en excel",
+    "marcas de conteo en ingles",
+    "marcas de conteo tattoo significado",
+    "marcas de conteo tally marks"
+   ]
+  },
+  "marcas de conteo fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tabla del 100": {
+   "cls": "typeName",
+   "s": [
+    "tabla del 100",
+    "tabla del 1000",
+    "tabla del 100 para imprimir",
+    "tabla del 100 al 200",
+    "tabla del 100 al 1000",
+    "tabla del 100 abn",
+    "tabla del 100 de multiplicar",
+    "tabla del 1000 para imprimir",
+    "tabla del 1000 al 2000",
+    "tabla del 100 para completar"
+   ]
+  },
+  "tabla del 100 fichas": {
+   "cls": "typeName",
+   "s": [
+    "tabla del 100 fichas"
+   ]
+  },
+  "comparar números": {
+   "cls": "typeName",
+   "s": [
+    "comparar números",
+    "comparar números naturales",
+    "comparar números enteros",
+    "comparar números decimales",
+    "comparar números menores que 1000 utilizando los símbolos",
+    "comparar números de tres cifras",
+    "comparar números racionales",
+    "comparar números naturales menores que un millón utilizando los símbolos",
+    "comparar números de cuatro cifras",
+    "comparar números menores que 100 utilizando las relaciones de orden sin utilizar símbolos"
+   ]
+  },
+  "comparar números fichas": {
+   "cls": "typeName",
+   "s": [
+    "fichas comparar numeros decimales",
+    "fichas comparar numeros"
+   ]
+  },
+  "comparar cantidades": {
+   "cls": "typeName",
+   "s": [
+    "comparar cantidades",
+    "comparar cantidades primero basico",
+    "comparar cantidades primer grado",
+    "comparar cantidades segundo grado",
+    "comparar cantidades para niños",
+    "comparar cantidades preescolar",
+    "comparar cantidades monetarias",
+    "comparar cantidades en excel",
+    "comparar cantidades wordwall",
+    "comparar cantidades topworksheets"
+   ]
+  },
+  "comparar cantidades fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "comparar tamaños": {
+   "cls": "typeName",
+   "s": [
+    "comparar tamaños de paises",
+    "comparar tamaños",
+    "comparar tamaños de personas",
+    "comparar tamaños de ciudades",
+    "comparar tamaños de coches",
+    "comparar tamaños de celulares",
+    "comparar tamaños de iphone",
+    "comparar tamaños de autos",
+    "comparar tamaños de mouse",
+    "comparar tamaños de vehiculos"
+   ]
+  },
+  "comparar tamaños fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "recta numérica": {
+   "cls": "typeName",
+   "s": [
+    "recta numérica",
+    "recta numérica de fracciones",
+    "recta numerica para niños",
+    "recta numérica primaria",
+    "recta numérica de los números enteros",
+    "recta numérica para imprimir",
+    "recta numérica ejemplos",
+    "recta numérica con decimales",
+    "recta numérica online",
+    "recta numérica ejercicios"
+   ]
+  },
+  "recta numérica fichas": {
+   "cls": "typeName",
+   "s": [
+    "recta numerica fichas",
+    "fichas recta numerica infantil"
+   ]
+  },
+  "valor posicional": {
+   "cls": "typeName",
+   "s": [
+    "valor posicional",
+    "valor posicional de los números",
+    "valor posicional para niños",
+    "valor posicional de los números decimales",
+    "valor posicional de los números ejemplos",
+    "valor posicional de los números naturales",
+    "valor posicional para niños de tercer grado",
+    "valor posicional para niños de segundo grado",
+    "valor posicional para niños de primer grado",
+    "valor posicional actividades"
+   ]
+  },
+  "valor posicional fichas": {
+   "cls": "typeName",
+   "s": [
+    "valor posicional fichas",
+    "fichas para imprimir valor posicional",
+    "valor posicional con fichas de colores",
+    "valor posicional colorea las fichas para representar la cantidad numérica indicada",
+    "tablero de valor posicional fichas",
+    "fichas valor posicional de los numeros",
+    "fichas valor posicional 3 cifras",
+    "fichas valor posicional unidades y decenas"
+   ]
+  },
+  "aprender la hora": {
+   "cls": "typeName",
+   "s": [
+    "aprender la hora para niños",
+    "aprender la hora",
+    "aprender la hora en ingles para niños",
+    "aprender la hora en inglés",
+    "aprender la hora del reloj",
+    "aprender la hora en ingles facil",
+    "aprender la hora reloj de agujas",
+    "aprender la hora en español",
+    "aprender la hora en reloj analogo",
+    "aprender la hora con agujas"
+   ]
+  },
+  "aprender la hora fichas": {
+   "cls": "typeName",
+   "s": [
+    "aprender la hora fichas",
+    "aprender la hora fichas imprimir",
+    "fichas aprender la hora para niños",
+    "fichas para aprender la hora pdf",
+    "fichas para aprender la hora 2o primaria",
+    "fichas para aprender la hora digital",
+    "fichas para aprender la hora en ingles"
+   ]
+  },
+  "fracciones": {
+   "cls": "typeName",
+   "s": [
+    "fracciones",
+    "fracciones equivalentes",
+    "fracciones impropias",
+    "fracciones mixtas",
+    "fracciones propias",
+    "fracciones propias e impropias",
+    "fracciones parciales",
+    "fracciones decimales",
+    "fracciones heterogéneas",
+    "fracciones homogéneas"
+   ]
+  },
+  "fracciones fichas": {
+   "cls": "typeName",
+   "s": [
+    "fracciones fichas",
+    "fracciones fichas interactivas",
+    "fracciones fichas primaria",
+    "fracciones fichas para imprimir",
+    "fracciones fichas 5 primaria",
+    "fracciones fichas de trabajo",
+    "fracciones fichas pdf",
+    "fracciones fichas interactivas 5",
+    "fracciones fichas secundaria",
+    "fracciones fichas 4 primaria"
+   ]
+  },
+  "gráficos y datos": {
+   "cls": "typeName",
+   "s": [
+    "graficos y datos",
+    "graficos datos cualitativos",
+    "graficos datos agrupados",
+    "gráficos datos estadísticos",
+    "ipc mexico graficos y datos",
+    "gráficos y visualización de datos",
+    "graficos y visualizacion de datos en excel",
+    "graficos y analisis de datos",
+    "gráficos y tablas de datos",
+    "gráficos y representación de datos"
+   ]
+  },
+  "gráficos y datos fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "multiplicación": {
+   "cls": "typeName",
+   "s": [
+    "multiplicación",
+    "multiplicación de fracciones",
+    "multiplicación de dos cifras",
+    "multiplicación con decimales",
+    "multiplicación de polinomios",
+    "multiplicación de tres cifras",
+    "multiplicación de matrices",
+    "multiplicación de dos cifras para niños",
+    "multiplicación con punto decimal",
+    "multiplicación de signos"
+   ]
+  },
+  "multiplicación fichas": {
+   "cls": "typeName",
+   "s": [
+    "multiplicación fichas",
+    "multiplicacion fichas para imprimir",
+    "multiplicacion fichas interactivas",
+    "multiplicacion fichas de trabajo",
+    "fichas multiplicacion 3 primaria",
+    "fichas multiplicacion para niños",
+    "fichas multiplicacion de fracciones",
+    "fichas multiplicacion 2 primaria",
+    "fichas multiplicación como suma",
+    "fichas multiplicacion y division de fracciones"
+   ]
+  },
+  "geometría": {
+   "cls": "typeName",
+   "s": [
+    "geometría",
+    "geometría analítica",
+    "geometría euclidiana",
+    "geometría sagrada",
+    "geometría molecular",
+    "geometría descriptiva",
+    "geometría del taxista",
+    "geometría plana",
+    "geometría del espacio",
+    "geometría esferica"
+   ]
+  },
+  "geometría fichas": {
+   "cls": "typeName",
+   "s": [
+    "geometria fichas",
+    "geometria fichas para imprimir",
+    "geometria fichas secundaria",
+    "fichas geometria 4 primaria",
+    "fichas geometria 3 primaria",
+    "fichas geometria 5 primaria",
+    "fichas geometria 6 primaria",
+    "fichas geometria 2 primaria",
+    "fichas geometria 1 eso",
+    "fichas geometria 1 primaria"
+   ]
+  },
+  "medición": {
+   "cls": "typeName",
+   "s": [
+    "medición",
+    "medición de internet",
+    "medición de la fracción exhalada de óxido nítrico",
+    "medición de ángulos",
+    "medición cálculo y notación de rectas y ángulos en diferentes contextos",
+    "medición de presión arterial",
+    "medición de calor",
+    "medición del tiempo",
+    "medición de la temperatura",
+    "medición de glucosa"
+   ]
+  },
+  "medición fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "lógica visual": {
+   "cls": "typeName",
+   "s": [
+    "lógica visual",
+    "logica visual diseño grafico",
+    "logica visual espacial",
+    "logica visual sas",
+    "logica visual beghelli",
+    "logica visual software download",
+    "logica visual software",
+    "cuenta logica visual",
+    "juegos de logica visual",
+    "acertijos de logica visuales"
+   ]
+  },
+  "lógica visual fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "discriminación visual": {
+   "cls": "typeName",
+   "s": [
+    "discriminación visual",
+    "discriminación visual y auditiva",
+    "discriminación visual ejemplos",
+    "discriminacion visual para niños",
+    "discriminación visual ejercicios",
+    "discriminación visual y auditiva para primer grado",
+    "discriminación visual de letras",
+    "discriminación visual wordwall",
+    "discriminación visual actividades",
+    "discriminación visual vocales"
+   ]
+  },
+  "discriminación visual fichas": {
+   "cls": "typeName",
+   "s": [
+    "discriminación visual fichas",
+    "fichas discriminacion visual infantil",
+    "fichas discriminacion visual letras",
+    "fichas discriminacion visual vocales"
+   ]
+  },
+  "emparejamiento visual": {
+   "cls": "typeName",
+   "s": [
+    "emparejamiento visual",
+    "test de emparejamiento visual"
+   ]
+  },
+  "emparejamiento visual fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "patrones": {
+   "cls": "typeName",
+   "s": [
+    "patrones",
+    "patrones funcionales",
+    "patrones funcionales de marjory gordon",
+    "patrones de diseño",
+    "patrones gratis",
+    "patrones de bloqueo",
+    "patrones respiratorios",
+    "patrones de costura gratis",
+    "patrones de crochet",
+    "patrones de costura"
+   ]
+  },
+  "patrones fichas": {
+   "cls": "typeName",
+   "s": [
+    "patrones fichas",
+    "fichas patrones numericos",
+    "fichas patrones para niños",
+    "fichas patrones graficos",
+    "fichas patrones multiplicativos",
+    "fichas patrones aditivos",
+    "patrones con fichas de colores",
+    "patrones numericos fichas de trabajo",
+    "patrones geometricos fichas",
+    "patrones de repeticion fichas"
+   ]
+  },
+  "conceptos espaciales": {
+   "cls": "typeName",
+   "s": [
+    "conceptos espaciales",
+    "conceptos espaciales para niños",
+    "conceptos espaciales wordwall",
+    "conceptos espaciales infantil",
+    "conceptos espaciales arquitectura",
+    "conceptos espaciales arasaac",
+    "conceptos espaciales preescolar",
+    "conceptos espaciales pdf",
+    "conceptos espaciales y temporales",
+    "conceptos espaciales basicos"
+   ]
+  },
+  "conceptos espaciales fichas": {
+   "cls": "typeName",
+   "s": [
+    "conceptos espaciales fichas",
+    "fichas conceptos espaciales pdf",
+    "fichas conceptos espaciales 5 años",
+    "fichas conceptos espaciales infantil"
+   ]
+  },
+  "clasificar y agrupar": {
+   "cls": "typeName",
+   "s": [
+    "clasificar y agrupar es lo mismo",
+    "clasificar y agrupar",
+    "clasificar y agrupar diferencias",
+    "como clasificar y agrupar la biodiversidad",
+    "como clasificar y agrupar a los seres vivos",
+    "clasificar agrupar codificar crucigrama"
+   ]
+  },
+  "clasificar y agrupar fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sumas y restas con dibujos": {
+   "cls": "typeName",
+   "s": [
+    "sumas y restas con dibujos",
+    "sumas y restas con dibujos para primer grado",
+    "sumas y restas con dibujos para colorear",
+    "sumas y restas con dibujos para imprimir",
+    "sumas y restas con dibujos para segundo grado",
+    "sumas y restas con dibujos para tercer grado",
+    "sumas y restas con dibujos para niños",
+    "sumas y restas con dibujos para preescolar",
+    "sumas y restas con dibujos para cuarto grado"
+   ]
+  },
+  "sumas y restas con dibujos fichas": {
+   "cls": "typeName",
+   "s": [
+    "fichas sumas y restas con dibujos",
+    "fichas de sumas y restas con dibujos para imprimir"
+   ]
+  },
+  "clasificar en ciencias": {
+   "cls": "typeName",
+   "s": [
+    "clasificar en ciencias naturales",
+    "clasificar ciencias",
+    "que significa clasificar en ciencias naturales",
+    "clasificar es importante en ciencias porque"
+   ]
+  },
+  "clasificar en ciencias fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "secuencias y ciclos de vida": {
+   "cls": "typeName",
+   "s": []
+  },
+  "secuencias y ciclos de vida fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "relacionar en ciencias": {
+   "cls": "typeName",
+   "s": []
+  },
+  "relacionar en ciencias fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sonidos iniciales": {
+   "cls": "typeName",
+   "s": [
+    "sonidos iniciales",
+    "sonidos iniciales de las vocales",
+    "sonidos iniciales y finales",
+    "sonidos iniciales estrellita",
+    "sonidos iniciales en palabras sencillas",
+    "sonidos iniciales en palabras sencillas (conciencia fonológica)",
+    "sonidos iniciales actividades",
+    "sonidos iniciales wordwall",
+    "sonidos iniciales para niños de preescolar",
+    "sonidos iniciales de las palabras"
+   ]
+  },
+  "sonidos iniciales fichas": {
+   "cls": "typeName",
+   "s": [
+    "sonidos iniciales fichas"
+   ]
+  },
+  "conocimiento de letras": {
+   "cls": "typeName",
+   "s": [
+    "conocimiento de letras",
+    "conocimiento de letras y palabras",
+    "conocimiento letras bonitas",
+    "tuve conocimiento de 4 letras"
+   ]
+  },
+  "conocimiento de letras fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "formar palabras": {
+   "cls": "typeName",
+   "s": [
+    "formar palabras con letras",
+    "formar palabras",
+    "formar palabras con silabas",
+    "formar palabras con letras desordenadas",
+    "formar palabras con 7 letras",
+    "formar palabras wordwall",
+    "formar palabras con ma me mi mo mu",
+    "formar palabras con las silabas ma me mi mo mu",
+    "formar palabras con las siguientes letras",
+    "formar palabras para niños de primer grado"
+   ]
+  },
+  "formar palabras fichas": {
+   "cls": "typeName",
+   "s": [
+    "formar palabras fichas",
+    "fichas formar palabras con silabas",
+    "fichas formar palabras con letras"
+   ]
+  },
+  "vocabulario con dibujos": {
+   "cls": "typeName",
+   "s": [
+    "vocabulario con dibujos",
+    "vocabulario con dibujos en ingles",
+    "vocabulario con dibujos para niños",
+    "vocabulario español con dibujos",
+    "vocabulario dibujos profesiones en ingles",
+    "vocabulario dibujos animados",
+    "vocabulario en ingles con dibujos pdf",
+    "vocabulario en ingles con dibujos para niños",
+    "vocabulario en ingles con dibujos para colorear",
+    "vocabulario en kaqchikel con dibujos"
+   ]
+  },
+  "vocabulario con dibujos fichas": {
+   "cls": "typeName",
+   "s": []
+  },
+  "conciencia fonológica fichas": {
+   "cls": "typeName",
+   "s": [
+    "conciencia fonológica fichas",
+    "conciencia fonologica fichas pdf",
+    "conciencia fonologica fichas para imprimir",
+    "conciencia fonologica fichas interactivas",
+    "conciencia fonologica infantil fichas",
+    "conciencia fonologica vocales fichas",
+    "fichas conciencia fonológica 1 primaria pdf",
+    "fichas conciencia fonologica 5 años",
+    "fichas conciencia fonológica 4 años",
+    "fichas conciencia fonológica primaria pdf"
+   ]
   }
  },
  "unique": [
@@ -2593,6 +3660,7 @@
   "accesorios para letras 3d",
   "accesorios para letras copiar y pegar",
   "accesorios para pulseras letras",
+  "acertijos de logica visuales",
   "actividades contar",
   "actividades contar de 10 en 10",
   "actividades contar de 2 en 2",
@@ -2615,12 +3683,12 @@
   "actividades matemáticas",
   "actividades matemáticas para cuarto grado",
   "actividades matemáticas para preescolar",
-  "actividades matemáticas para primer grado de primaria",
+  "actividades matemáticas para quinto grado",
   "actividades matemáticas primer grado",
-  "actividades matemáticas quinto grado",
   "actividades matemáticas secundaria",
   "actividades matemáticas segundo grado",
   "actividades matemáticas sexto grado",
+  "actividades matemáticas sobre el mundial 2026",
   "actividades matemáticas tercer grado",
   "actividades navidad matemáticas",
   "actividades navidad matemáticas secundaria",
@@ -2635,6 +3703,16 @@
   "actividades sumas y restas primer grado",
   "actividades sumas y restas segundo grado",
   "actividades sumas y restas tercer grado",
+  "adivina la palabra",
+  "adivina la palabra baby shower",
+  "adivina la palabra con imagenes",
+  "adivina la palabra con otras palabras",
+  "adivina la palabra con pistas",
+  "adivina la palabra del dia",
+  "adivina la palabra español",
+  "adivina la palabra juego",
+  "adivina la palabra online",
+  "adivina la palabra secreta",
   "aldi juguetes letras",
   "alemán juguetes letras",
   "animales de granja con tres letras",
@@ -2649,12 +3727,58 @@
   "animales letras desordenadas",
   "animales matemáticas",
   "animales para matemáticas",
+  "aprender a contar.con dibujos",
+  "aprender la hora",
+  "aprender la hora con agujas",
+  "aprender la hora del reloj",
+  "aprender la hora en español",
+  "aprender la hora en ingles facil",
+  "aprender la hora en ingles para niños",
+  "aprender la hora en inglés",
+  "aprender la hora en reloj analogo",
+  "aprender la hora fichas",
+  "aprender la hora fichas imprimir",
+  "aprender la hora para niños",
+  "aprender la hora reloj de agujas",
   "atividade contar frutas",
   "aves letras",
   "aves letras bonitas",
   "aves migratorias letras",
   "barras de colores matemáticas",
   "beso de desayuno letras",
+  "bingo",
+  "bingo activo",
+  "bingo bluey",
+  "bingo fichas",
+  "bingo fichas de madera",
+  "bingo fichas gratis",
+  "bingo lotto",
+  "bingo musical",
+  "bingo online",
+  "bingo virtual",
+  "bingolotto idag",
+  "bingolotto ikväll",
+  "bingos del norte",
+  "busca cuenta y colorea",
+  "busca cuenta y colorea especial pokemon",
+  "busca cuenta y colorea especial pokemon respuestas",
+  "busca cuenta y colorea pokemon",
+  "busca y cuenta",
+  "busca y cuenta animales",
+  "busca y cuenta bruño",
+  "busca y cuenta en el cole",
+  "busca y cuenta navidad",
+  "busca y cuenta pdf",
+  "busqueda del tesoro para niños",
+  "búsqueda del tesoro",
+  "búsqueda del tesoro en inglés",
+  "búsqueda del tesoro forza horizon 6",
+  "búsqueda del tesoro gta online",
+  "búsqueda del tesoro juego",
+  "búsqueda del tesoro para adultos",
+  "búsqueda del tesoro película",
+  "búsqueda del tesoro pistas",
+  "búsqueda del tesoro pistas para imprimir",
   "caligrafia para niños",
   "caligrafía",
   "caligrafía copiar y pegar",
@@ -2679,6 +3803,16 @@
   "campamento nocturno 5 letras",
   "campamento provisional cinco letras",
   "chuy verduras letras",
+  "clasificar agrupar codificar crucigrama",
+  "clasificar ciencias",
+  "clasificar en ciencias naturales",
+  "clasificar es importante en ciencias porque",
+  "clasificar imagenes con ia",
+  "clasificar imágenes",
+  "clasificar imágenes de alimentos saludables y no saludables",
+  "clasificar y agrupar",
+  "clasificar y agrupar diferencias",
+  "clasificar y agrupar es lo mismo",
   "clima en sumas washington",
   "clima letras",
   "clima letras bonitas",
@@ -2705,13 +3839,62 @@
   "colores para matemáticas",
   "colores representativos de matemáticas",
   "colores sumas",
+  "como clasificar y agrupar a los seres vivos",
+  "como clasificar y agrupar la biodiversidad",
   "como contar aves",
+  "comparar cantidades",
+  "comparar cantidades en excel",
+  "comparar cantidades monetarias",
+  "comparar cantidades para niños",
+  "comparar cantidades preescolar",
+  "comparar cantidades primer grado",
+  "comparar cantidades primero basico",
+  "comparar cantidades segundo grado",
+  "comparar cantidades topworksheets",
+  "comparar cantidades wordwall",
+  "comparar números",
+  "comparar números de cuatro cifras",
+  "comparar números de tres cifras",
+  "comparar números decimales",
+  "comparar números enteros",
+  "comparar números menores que 100 utilizando las relaciones de orden sin utilizar símbolos",
+  "comparar números menores que 1000 utilizando los símbolos",
+  "comparar números naturales",
+  "comparar números naturales menores que un millón utilizando los símbolos",
+  "comparar números racionales",
+  "comparar tamaños",
+  "comparar tamaños de autos",
+  "comparar tamaños de celulares",
+  "comparar tamaños de ciudades",
+  "comparar tamaños de coches",
+  "comparar tamaños de iphone",
+  "comparar tamaños de mouse",
+  "comparar tamaños de paises",
+  "comparar tamaños de personas",
+  "comparar tamaños de vehiculos",
+  "conceptos espaciales",
+  "conceptos espaciales arasaac",
+  "conceptos espaciales arquitectura",
+  "conceptos espaciales basicos",
+  "conceptos espaciales fichas",
+  "conceptos espaciales infantil",
+  "conceptos espaciales para niños",
+  "conceptos espaciales pdf",
+  "conceptos espaciales preescolar",
+  "conceptos espaciales wordwall",
+  "conceptos espaciales y temporales",
+  "conciencia fonologica fichas interactivas",
+  "conciencia fonologica fichas para imprimir",
+  "conciencia fonologica fichas pdf",
+  "conciencia fonologica infantil fichas",
   "conciencia fonologica para niños",
+  "conciencia fonologica vocales fichas",
   "conciencia fonológica",
   "conciencia fonológica actividades",
   "conciencia fonológica actividades para imprimir pdf",
   "conciencia fonológica actividades para niños",
   "conciencia fonológica ejemplos",
+  "conciencia fonológica fichas",
   "conciencia fonológica infantil",
   "conciencia fonológica pdf",
   "conciencia fonológica vocales",
@@ -2733,6 +3916,9 @@
   "conjunto de ropa matemáticas",
   "conjunto de verduras matemáticas",
   "conjuntos de frutas matemáticas",
+  "conocimiento de letras",
+  "conocimiento de letras y palabras",
+  "conocimiento letras bonitas",
   "contar animales",
   "contar animales actividad",
   "contar animales cokitos",
@@ -2743,6 +3929,10 @@
   "contar animales hasta 10 cokitos",
   "contar animales marinos",
   "contar animales preescolar",
+  "contar con dibujos",
+  "contar con dibujos para niños",
+  "contar cuentos con dibujos",
+  "contar dibujos animados",
   "contar emociones",
   "contar espacio",
   "contar espacio en blanco excel",
@@ -2752,22 +3942,45 @@
   "contar frutas para niños",
   "contar frutas wordwall",
   "contar frutas y verduras",
+  "contar historias con dibujos",
   "contar juguetes",
   "contar navidad",
+  "contar numeros con dibujos",
   "contar partes del cuerpo",
   "contar primavera cokitos",
   "contar ropa",
   "contar verduras",
   "cosas que vuelan con las letras del abecedario",
+  "criptograma",
+  "criptograma de multiplicacion",
+  "criptograma ejemplos",
+  "criptograma la nacion",
+  "criptograma numerico",
+  "criptograma online",
+  "criptograma significado",
+  "criptogramas de sumas y restas",
+  "criptogramas para imprimir",
+  "criptogramas para niños",
+  "crucigrama crear",
+  "crucigrama el diario",
+  "crucigrama el pais",
+  "crucigrama fichas",
+  "crucigrama la nacion",
+  "crucigrama para niños",
+  "crucigramas",
+  "crucigramas difíciles",
+  "crucigramas gratis",
+  "crucigramas online",
+  "crucigramas para imprimir",
   "cuadernillo",
   "cuadernillo cuadriculado",
+  "cuadernillo de actividades para 2 grado de primaria",
   "cuadernillo de lectoescritura",
   "cuadernillo de pruebas nacionales 2025 pdf",
   "cuadernillo de refuerzo preescolar",
   "cuadernillo icfes 2026 pdf con respuestas",
   "cuadernillo para aprender a leer y escribir primer grado pdf gratis",
   "cuadernillo rubio",
-  "cuadernillos cine",
   "cuadernillos icfes",
   "cuaderno verano matemáticas 1 eso pdf con soluciones",
   "cuaderno verano matemáticas 3 eso con soluciones",
@@ -2782,6 +3995,8 @@
   "cuadrícula png",
   "cuadrícula una imagen",
   "cuadrículas fáciles",
+  "cuenta logica visual",
+  "decorativo tren del abecedario",
   "desayuno barrio letras",
   "desayuno letras",
   "desayuno letras bonitas",
@@ -2797,6 +4012,27 @@
   "dinosaurios sumas",
   "dinosaurios sumas y restas",
   "dinosaurios. matemáticas",
+  "discriminacion visual para niños",
+  "discriminación visual",
+  "discriminación visual actividades",
+  "discriminación visual de letras",
+  "discriminación visual ejemplos",
+  "discriminación visual ejercicios",
+  "discriminación visual fichas",
+  "discriminación visual vocales",
+  "discriminación visual wordwall",
+  "discriminación visual y auditiva",
+  "discriminación visual y auditiva para primer grado",
+  "el intruso",
+  "el intruso bar",
+  "el intruso delmira agustini",
+  "el intruso juego",
+  "el intruso libro",
+  "el intruso madrid",
+  "el intruso outer wilds",
+  "el intruso pelicula",
+  "el intruso película 2016",
+  "el intruso roblox",
   "emociones en matemáticas",
   "emociones letras",
   "emociones letras bonitas",
@@ -2806,6 +4042,30 @@
   "emociones para contar",
   "emociones para contar libro",
   "emociones para contar pdf",
+  "emparejamiento visual",
+  "emparejar",
+  "emparejar airpods",
+  "emparejar airpods 4",
+  "emparejar airpods pro 3",
+  "emparejar audifonos sony",
+  "emparejar auriculares",
+  "emparejar crucigrama",
+  "emparejar dispositivo",
+  "emparejar fichas",
+  "emparejar fichas online gratis",
+  "emparejar mi dispositivo",
+  "emparejar redmi buds 6",
+  "emparejar sombras",
+  "encuentra los objetos",
+  "encuentra los objetos 175 roblox",
+  "encuentra los objetos en la imagen",
+  "encuentra los objetos ocultos",
+  "encuentra los objetos ocultos dificil",
+  "encuentra los objetos ocultos para colorear",
+  "encuentra los objetos ocultos para niños",
+  "encuentra los objetos ocultos pdf",
+  "encuentra los objetos perdidos",
+  "encuentra los objetos roblox",
   "escuela de invierno matemáticas",
   "espacio curricular matemáticas",
   "espacio letras",
@@ -2830,8 +4090,61 @@
   "feliz pascua letras bonitas",
   "feliz pascua letras para imprimir",
   "ficha contar navidad",
+  "ficha de patrones",
+  "ficha de patrones aditivos",
+  "ficha de patrones aditivos para cuarto grado",
+  "ficha de patrones de repeticion",
+  "ficha de patrones graficos",
+  "ficha de patrones graficos para tercer grado de primaria",
+  "ficha de patrones multiplicativos",
+  "ficha de patrones numericos",
+  "ficha de patrones numericos para segundo grado",
+  "ficha de patrones numericos para tercer grado",
+  "ficha matematicas infantil 5 años",
+  "ficha matemática",
+  "ficha matemáticas 1o primaria",
+  "ficha matemáticas 2 primaria",
+  "ficha matemáticas 3 primaria",
+  "ficha matemáticas 4 primaria",
+  "ficha matemáticas 5 primaria",
+  "fichas adivina la palabra secreta",
+  "fichas aprender la hora para niños",
+  "fichas bingo amazon",
+  "fichas bingo blitz",
+  "fichas bingo de letras",
+  "fichas bingo magneticas",
+  "fichas bingo pdf",
+  "fichas bingo stl",
+  "fichas bingo transparentes",
+  "fichas comparar numeros",
+  "fichas comparar numeros decimales",
+  "fichas conceptos espaciales 5 años",
+  "fichas conceptos espaciales infantil",
+  "fichas conceptos espaciales pdf",
+  "fichas conciencia fonologica 5 años",
+  "fichas conciencia fonológica 1 primaria pdf",
+  "fichas conciencia fonológica 4 años",
+  "fichas conciencia fonológica primaria pdf",
   "fichas de colores matemáticas",
   "fichas de colores matemáticas segundo grado",
+  "fichas de mas o menos",
+  "fichas de sopa de letras para niños pdf",
+  "fichas de sumas y restas con dibujos para imprimir",
+  "fichas discriminacion visual infantil",
+  "fichas discriminacion visual letras",
+  "fichas discriminacion visual vocales",
+  "fichas encuentra los objetos",
+  "fichas formar palabras con letras",
+  "fichas formar palabras con silabas",
+  "fichas geometria 1 eso",
+  "fichas geometria 1 primaria",
+  "fichas geometria 2 primaria",
+  "fichas geometria 3 primaria",
+  "fichas geometria 4 primaria",
+  "fichas geometria 5 primaria",
+  "fichas geometria 6 primaria",
+  "fichas ingles sopa de letras",
+  "fichas interactivas liveworksheets sopa de letras",
   "fichas letra b infantil",
   "fichas letra b letrilandia",
   "fichas letra b mayúscula",
@@ -2908,8 +4221,31 @@
   "fichas letra z infantil",
   "fichas letra z para imprimir",
   "fichas letra ñ para infantil",
+  "fichas multiplicacion 2 primaria",
+  "fichas multiplicacion 3 primaria",
+  "fichas multiplicacion de fracciones",
+  "fichas multiplicacion para niños",
+  "fichas multiplicacion y division de fracciones",
+  "fichas multiplicación como suma",
   "fichas navidad sumas",
   "fichas para 4 años",
+  "fichas para aprender la hora 2o primaria",
+  "fichas para aprender la hora digital",
+  "fichas para aprender la hora en ingles",
+  "fichas para aprender la hora pdf",
+  "fichas para imprimir valor posicional",
+  "fichas patrones aditivos",
+  "fichas patrones graficos",
+  "fichas patrones multiplicativos",
+  "fichas patrones numericos",
+  "fichas patrones para niños",
+  "fichas preposiciones 4 primaria",
+  "fichas preposiciones conjunciones e interjecciones 4 primaria",
+  "fichas preposiciones en ingles",
+  "fichas preposiciones y conjunciones 4 primaria",
+  "fichas preposiciones y conjunciones 5 primaria",
+  "fichas preposiciones y conjunciones 6 primaria",
+  "fichas recta numerica infantil",
   "fichas refuerzo escolar 2025",
   "fichas refuerzo escolar 2025 primaria",
   "fichas refuerzo lengua 4 primaria",
@@ -2917,7 +4253,25 @@
   "fichas refuerzo matematicas 2 primaria",
   "fichas refuerzo matematicas 3 primaria",
   "fichas refuerzo matematicas 4 primaria",
+  "fichas resta con llevadas",
+  "fichas resta prestando",
+  "fichas sopa de letras para imprimir",
+  "fichas sopa de letras para niños",
+  "fichas sopa de letras pdf",
+  "fichas sopa de letras primaria",
+  "fichas suma con llevadas",
+  "fichas suma de fracciones",
+  "fichas suma de fracciones mismo denominador",
+  "fichas suma infantil",
+  "fichas suma resta multiplicacion y division",
+  "fichas suma y resta",
+  "fichas suma y resta de fracciones",
+  "fichas suma y resta de fracciones heterogéneas",
+  "fichas sumas y restas con dibujos",
   "fichas tarea",
+  "fichas valor posicional 3 cifras",
+  "fichas valor posicional de los numeros",
+  "fichas valor posicional unidades y decenas",
   "figuras geometricas para niños",
   "figuras geométricas",
   "figuras geométricas 3d",
@@ -2939,6 +4293,17 @@
   "flores para contar",
   "flores para contar y colorear",
   "flores para matemáticas",
+  "formar palabras",
+  "formar palabras con 7 letras",
+  "formar palabras con las siguientes letras",
+  "formar palabras con las silabas ma me mi mo mu",
+  "formar palabras con letras",
+  "formar palabras con letras desordenadas",
+  "formar palabras con ma me mi mo mu",
+  "formar palabras con silabas",
+  "formar palabras fichas",
+  "formar palabras para niños de primer grado",
+  "formar palabras wordwall",
   "formas de contar billetes",
   "formas de contar con los dedos",
   "formas de contar dinero",
@@ -2966,6 +4331,26 @@
   "formas matemáticas en español",
   "formas modulares matemáticas",
   "formas para matemáticas",
+  "fracciones",
+  "fracciones decimales",
+  "fracciones equivalentes",
+  "fracciones fichas",
+  "fracciones fichas 4 primaria",
+  "fracciones fichas 5 primaria",
+  "fracciones fichas de trabajo",
+  "fracciones fichas interactivas",
+  "fracciones fichas interactivas 5",
+  "fracciones fichas para imprimir",
+  "fracciones fichas pdf",
+  "fracciones fichas primaria",
+  "fracciones fichas secundaria",
+  "fracciones heterogéneas",
+  "fracciones homogéneas",
+  "fracciones impropias",
+  "fracciones mixtas",
+  "fracciones parciales",
+  "fracciones propias",
+  "fracciones propias e impropias",
   "frutas con letras d",
   "frutas con letras del abecedario en español",
   "frutas con letras e",
@@ -2981,7 +4366,25 @@
   "frutas para contar y colorear",
   "frutas para matemáticas",
   "frutas por letras",
+  "geometria fichas",
+  "geometria fichas para imprimir",
+  "geometria fichas secundaria",
+  "geometría",
+  "geometría analítica",
+  "geometría del espacio",
   "geometría del espacio matemáticas",
+  "geometría del taxista",
+  "geometría descriptiva",
+  "geometría esferica",
+  "geometría euclidiana",
+  "geometría molecular",
+  "geometría plana",
+  "geometría sagrada",
+  "graficos datos agrupados",
+  "graficos datos cualitativos",
+  "graficos y analisis de datos",
+  "graficos y datos",
+  "graficos y visualizacion de datos en excel",
   "grafomotricidad",
   "grafomotricidad 3 años",
   "grafomotricidad ejercicios",
@@ -2993,6 +4396,20 @@
   "grafomotricidad pdf",
   "grafomotricidad preescolar",
   "grafos y árboles matemáticas discretas",
+  "grande mediano pequeño fichas",
+  "grande o pequeño",
+  "grande o pequeño cada uno carga su leño",
+  "grande o pequeño cada uno carga su leño como dice el dicho",
+  "grande o pequeño cada uno carga su leño que capitulo es",
+  "grande o pequeño cada uno carga su leño reparto",
+  "grande o pequeño como dice el dicho",
+  "grande o pequeño en inglés",
+  "grande o pequeño wordwall",
+  "grande pequeño fichas",
+  "gráficos datos estadísticos",
+  "gráficos y representación de datos",
+  "gráficos y tablas de datos",
+  "gráficos y visualización de datos",
   "guia de refuerzo preescolar",
   "herramientas artísticas para contar una historia",
   "herramientas cinco letras",
@@ -3024,6 +4441,7 @@
   "herramientas para letras",
   "herramientas para letras 3d",
   "herramientas para letras corporeas",
+  "historias para contar con dibujos",
   "hospital 9 letras",
   "hospital 9 letras crucigrama",
   "hospital contar",
@@ -3037,6 +4455,12 @@
   "invierno letras bonitas",
   "invierno letras para colorear",
   "invierno letras para imprimir",
+  "ipc mexico graficos y datos",
+  "juego de emparejar fichas chinas",
+  "juego de emparejar fichas gratis",
+  "juego de emparejar sombras",
+  "juegos de logica visual",
+  "juegos emparejar fichas",
   "juguetes aprender a contar",
   "juguetes con letras del abecedario",
   "juguetes de matemáticas y para contar",
@@ -3227,6 +4651,16 @@
   "letras playa sola",
   "letras playa sola los invasores de nuevo león",
   "letras primavera azul",
+  "letras revueltas",
+  "letras revueltas 1 corintios 13",
+  "letras revueltas bíblicas con respuestas",
+  "letras revueltas con respuestas",
+  "letras revueltas de la biblia",
+  "letras revueltas libros de la biblia",
+  "letras revueltas mujeres de la biblia",
+  "letras revueltas para formar palabras",
+  "letras revueltas para imprimir",
+  "letras revueltas salmo 91",
   "letras ropa apretada",
   "letras ropa cara camilo",
   "letras ropa cara el jordan 23 pailita",
@@ -3242,6 +4676,34 @@
   "letrilandia letra l fichas",
   "letrilandia letra m fichas",
   "letrilandia letra p fichas",
+  "logica visual beghelli",
+  "logica visual diseño grafico",
+  "logica visual espacial",
+  "logica visual sas",
+  "logica visual software",
+  "logica visual software download",
+  "lógica visual",
+  "marcas de conteo",
+  "marcas de conteo copiar y pegar",
+  "marcas de conteo en excel",
+  "marcas de conteo en ingles",
+  "marcas de conteo en word",
+  "marcas de conteo in english",
+  "marcas de conteo para niños",
+  "marcas de conteo tally marks",
+  "marcas de conteo tattoo significado",
+  "marcas de conteo y frecuencia",
+  "marcos de diez",
+  "marcos diez cornell",
+  "marcos diez de celis",
+  "marcos diez galan",
+  "marcos diez poemas",
+  "marcos diez poeta",
+  "marcos diez traumatólogo",
+  "marcos diez urologo",
+  "marcos diez urologo santa rosa la pampa",
+  "marcos diez urólogo teléfono",
+  "mas grande o pequeño",
   "mascotas de sumas mentales",
   "mascotas de sumas mentales coloreado",
   "mascotas letras",
@@ -3249,6 +4711,16 @@
   "matemáticas formas geométricas",
   "matemáticas navidad 2 primaria",
   "matemáticas navidad secundaria",
+  "medición",
+  "medición cálculo y notación de rectas y ángulos en diferentes contextos",
+  "medición de calor",
+  "medición de glucosa",
+  "medición de internet",
+  "medición de la fracción exhalada de óxido nítrico",
+  "medición de la temperatura",
+  "medición de presión arterial",
+  "medición de ángulos",
+  "medición del tiempo",
   "mis mascotas letras",
   "mis mascotas letras bonitas",
   "mis mascotas letras para imprimir",
@@ -3261,6 +4733,30 @@
   "muebles con las letras del abecedario",
   "muebles letras",
   "muebles sumas pay",
+  "multiplicacion fichas de trabajo",
+  "multiplicacion fichas interactivas",
+  "multiplicacion fichas para imprimir",
+  "multiplicación",
+  "multiplicación con decimales",
+  "multiplicación con punto decimal",
+  "multiplicación de dos cifras",
+  "multiplicación de dos cifras para niños",
+  "multiplicación de fracciones",
+  "multiplicación de matrices",
+  "multiplicación de polinomios",
+  "multiplicación de signos",
+  "multiplicación de tres cifras",
+  "multiplicación fichas",
+  "más o menos",
+  "más o menos bien",
+  "más o menos en francés",
+  "más o menos en inglés",
+  "más o menos juego",
+  "más o menos o masomenos",
+  "más o menos o masomenos rae",
+  "más o menos significado",
+  "más o menos sinonimo",
+  "más o menos símbolo",
   "música contar que beijo em outra boca",
   "música de sumas perú",
   "música de sumas y restas",
@@ -3318,6 +4814,21 @@
   "pascua letras",
   "pascua letras bonitas",
   "pascua sopa de letras",
+  "patrones",
+  "patrones con fichas de colores",
+  "patrones de bloqueo",
+  "patrones de costura",
+  "patrones de costura gratis",
+  "patrones de crochet",
+  "patrones de diseño",
+  "patrones de repeticion fichas",
+  "patrones fichas",
+  "patrones funcionales",
+  "patrones funcionales de marjory gordon",
+  "patrones geometricos fichas",
+  "patrones gratis",
+  "patrones numericos fichas de trabajo",
+  "patrones respiratorios",
   "pauta montessori",
   "pauta montessori 5 mm",
   "pauta montessori en canva",
@@ -3328,6 +4839,16 @@
   "pauta montessori para imprimir",
   "pauta montessori para imprimir pdf",
   "pauta montessori pdf",
+  "pecado grande o pequeño versículo",
+  "piezas faltantes",
+  "piezas faltantes de rompecabezas",
+  "piezas faltantes ikea",
+  "piezas faltantes la ley y el orden",
+  "piezas faltantes lego",
+  "piezas faltantes lego colombia",
+  "piezas faltantes lego mexico",
+  "piezas faltantes mega construx",
+  "piezas faltantes panini",
   "planeacion por rincones preescolar",
   "playa de matemáticas",
   "playa letras",
@@ -3335,6 +4856,20 @@
   "playa letras de cartagena",
   "portada navidad matemáticas",
   "preescolar rincones de aprendizaje",
+  "preposiciones",
+  "preposiciones de lugar",
+  "preposiciones de lugar en ingles",
+  "preposiciones de tiempo en ingles",
+  "preposiciones ejemplos",
+  "preposiciones en español",
+  "preposiciones en frances",
+  "preposiciones en ingles",
+  "preposiciones en sueco",
+  "preposiciones fichas",
+  "preposiciones fichas de trabajo",
+  "preposiciones fichas interactivas",
+  "preposiciones fichas para imprimir",
+  "preposiciones y conjunciones",
   "primavera letras",
   "primavera letras animadas",
   "primavera letras bonitas",
@@ -3345,8 +4880,21 @@
   "primavera letras pdf",
   "primavera letras png",
   "primavera matemáticas",
+  "que significa clasificar en ciencias naturales",
   "quince letras desayuno",
+  "qué significa clasificar imágenes",
   "ray flores matemáticas",
+  "recta numerica fichas",
+  "recta numerica para niños",
+  "recta numérica",
+  "recta numérica con decimales",
+  "recta numérica de fracciones",
+  "recta numérica de los números enteros",
+  "recta numérica ejemplos",
+  "recta numérica ejercicios",
+  "recta numérica online",
+  "recta numérica para imprimir",
+  "recta numérica primaria",
   "refuerzo escolar para preescolar",
   "refuerzo fichas de lengua 1 primaria",
   "refuerzo fichas de matematicas 1 primaria",
@@ -3358,6 +4906,7 @@
   "repaso verano matemáticas 1 eso pdf",
   "repaso verano matemáticas 2 primaria",
   "repaso verano matemáticas 4 primaria pdf",
+  "resta fichas",
   "restas hasta 10",
   "restas hasta 10 con dibujos",
   "restas hasta 10 interactivo",
@@ -3368,6 +4917,16 @@
   "restas hasta 100 sin llevar",
   "restas hasta 1000",
   "restas hasta 10000",
+  "restaurang",
+  "restaurang nära mig",
+  "restaurant",
+  "restaurant tradition",
+  "restaurante el colombiano",
+  "restaurante peruano en estocolmo",
+  "restaurantes",
+  "restaurantes cerca de mi",
+  "restaurantes estocolmo",
+  "restaurants near me",
   "rincones de aprendizaje preescolar ejemplos",
   "rincones de aprendizaje preescolar nem",
   "rincones de aprendizaje preescolar pdf",
@@ -3375,6 +4934,16 @@
   "rincones matemáticas preescolar",
   "rincones para preescolar",
   "rincones preescolar",
+  "rompecabezas matemático de logica giochi",
+  "rompecabezas matemáticos",
+  "rompecabezas matemáticos online",
+  "rompecabezas matemáticos para imprimir",
+  "rompecabezas matemáticos para imprimir pdf",
+  "rompecabezas matemáticos para niños",
+  "rompecabezas matemáticos para niños de primaria",
+  "rompecabezas matemáticos para secundaria",
+  "rompecabezas matemáticos pdf",
+  "rompecabezas matemáticos resueltos",
   "ropa deportiva sumas pay",
   "ropa interior sumas pay",
   "ropa letras",
@@ -3384,6 +4953,7 @@
   "ropa para contar",
   "ropa sumas",
   "saliendo del hospital letras",
+  "sendero imágenes",
   "silabario",
   "silabario hispanoamericano",
   "silabario para aprender a leer",
@@ -3395,8 +4965,44 @@
   "silabario pdf",
   "silabario vigo",
   "silabas ma me mi mo mu para niños",
+  "sonidos iniciales",
+  "sonidos iniciales actividades",
+  "sonidos iniciales de las palabras",
+  "sonidos iniciales de las vocales",
+  "sonidos iniciales en palabras sencillas",
+  "sonidos iniciales en palabras sencillas (conciencia fonológica)",
+  "sonidos iniciales estrellita",
+  "sonidos iniciales fichas",
+  "sonidos iniciales para niños de preescolar",
+  "sonidos iniciales wordwall",
+  "sonidos iniciales y finales",
+  "sopa de letras",
   "sopa de letras 4 de julio",
+  "sopa de letras baby shower",
+  "sopa de letras crear",
+  "sopa de letras del mundial 2026",
+  "sopa de letras en ingles",
+  "sopa de letras fichas",
+  "sopa de letras fichas bibliograficas",
+  "sopa de letras fichas interactivas",
+  "sopa de letras gratis",
+  "sopa de letras online",
+  "sopa de letras para adultos",
+  "sopa de letras para imprimir",
+  "sopa de letras para niños",
   "sopa de letras utensilios de cocina",
+  "sudoku de imagenes como se juega",
+  "sudoku de imagenes para imprimir",
+  "sudoku de imagenes para niños",
+  "sudoku de imágenes",
+  "suma",
+  "suma de fracciones",
+  "suma fichas",
+  "suma fichas de domino",
+  "suma y resta fichas",
+  "sumac",
+  "sumak",
+  "sumar",
   "sumas animales",
   "sumas con partes del cuerpo",
   "sumas dinosaurios para niños",
@@ -3421,11 +5027,25 @@
   "sumas navidad primer grado",
   "sumas pascua",
   "sumas pascua cokitos",
+  "sumas pay",
   "sumas playa",
   "sumas primavera",
   "sumas primavera cokitos",
   "sumas primavera infantil",
   "sumas verano",
+  "sumas y restas",
+  "sumas y restas con dibujos",
+  "sumas y restas con dibujos para colorear",
+  "sumas y restas con dibujos para cuarto grado",
+  "sumas y restas con dibujos para imprimir",
+  "sumas y restas con dibujos para niños",
+  "sumas y restas con dibujos para preescolar",
+  "sumas y restas con dibujos para primer grado",
+  "sumas y restas con dibujos para segundo grado",
+  "sumas y restas con dibujos para tercer grado",
+  "sumatra",
+  "sumatriptan",
+  "sumatriptan 50 mg",
   "sílabas",
   "sílabas compuestas",
   "sílabas con ma me mi mo mu",
@@ -3444,6 +5064,18 @@
   "sílabas trabadas",
   "sílabas tónicas",
   "sílabas átonas",
+  "tabla del 100",
+  "tabla del 100 abn",
+  "tabla del 100 al 1000",
+  "tabla del 100 al 200",
+  "tabla del 100 de multiplicar",
+  "tabla del 100 fichas",
+  "tabla del 100 para completar",
+  "tabla del 100 para imprimir",
+  "tabla del 1000",
+  "tabla del 1000 al 2000",
+  "tabla del 1000 para imprimir",
+  "tablero de valor posicional fichas",
   "taller de refuerzo preescolar",
   "tapete de refuerzo preescolar",
   "tarea preescolar",
@@ -3458,15 +5090,41 @@
   "tarea preescolar vocales",
   "tarea presenta tus fichas",
   "tarea presenta tus fichas textuales",
+  "test de emparejamiento visual",
   "tiendas de ropa sumas pay",
   "tipos de árboles matemáticas discretas",
   "transmitir emociones contar historias expresar opiniones",
+  "tren de patrones",
+  "tren del abecedario",
+  "tren del abecedario en español",
+  "tren del abecedario en foami",
+  "tren del abecedario en ingles",
+  "tren del abecedario para colorear",
+  "tren del abecedario para completar",
+  "tren del abecedario para imprimir",
+  "tren del abecedario para niños",
+  "tren del abecedario pdf",
+  "tuve conocimiento de 4 letras",
   "utensilios de cocina 8 letras",
   "utensilios de cocina cinco letras",
   "utensilios de cocina con 6 letras",
   "utensilios de cocina con las letras del abecedario",
   "utensilios de cocina crucigrama 5 letras",
   "utensilios de cocina letras",
+  "valor posicional",
+  "valor posicional actividades",
+  "valor posicional colorea las fichas para representar la cantidad numérica indicada",
+  "valor posicional con fichas de colores",
+  "valor posicional de los números",
+  "valor posicional de los números decimales",
+  "valor posicional de los números ejemplos",
+  "valor posicional de los números naturales",
+  "valor posicional fichas",
+  "valor posicional para niños",
+  "valor posicional para niños de primer grado",
+  "valor posicional para niños de segundo grado",
+  "valor posicional para niños de tercer grado",
+  "vamos a contar con dibujos",
   "verano letras",
   "verano letras 3d",
   "verano letras animadas",
@@ -3494,6 +5152,16 @@
   "vida marina con 5 letras",
   "vida marina letras",
   "vida marina que lleve cuatro letras",
+  "vocabulario con dibujos",
+  "vocabulario con dibujos en ingles",
+  "vocabulario con dibujos para niños",
+  "vocabulario dibujos animados",
+  "vocabulario dibujos profesiones en ingles",
+  "vocabulario en ingles con dibujos para colorear",
+  "vocabulario en ingles con dibujos para niños",
+  "vocabulario en ingles con dibujos pdf",
+  "vocabulario en kaqchikel con dibujos",
+  "vocabulario español con dibujos",
   "árboles cinco letras",
   "árboles con peso matemáticas discretas",
   "árboles matemáticas discretas",
@@ -3537,12 +5205,12 @@
   "actividades matemáticas",
   "actividades matemáticas para cuarto grado",
   "actividades matemáticas para preescolar",
-  "actividades matemáticas para primer grado de primaria",
+  "actividades matemáticas para quinto grado",
   "actividades matemáticas primer grado",
-  "actividades matemáticas quinto grado",
   "actividades matemáticas secundaria",
   "actividades matemáticas segundo grado",
   "actividades matemáticas sexto grado",
+  "actividades matemáticas sobre el mundial 2026",
   "actividades matemáticas tercer grado",
   "actividades navidad matemáticas",
   "actividades navidad matemáticas secundaria",
@@ -3557,6 +5225,7 @@
   "actividades sumas y restas primer grado",
   "actividades sumas y restas segundo grado",
   "actividades sumas y restas tercer grado",
+  "adivina la palabra español",
   "aldi juguetes letras",
   "alemán juguetes letras",
   "animales de granja con tres letras",
@@ -3571,12 +5240,15 @@
   "animales letras desordenadas",
   "animales matemáticas",
   "animales para matemáticas",
+  "aprender la hora con agujas",
   "atividade contar frutas",
   "aves letras",
   "aves letras bonitas",
   "aves migratorias letras",
   "barras de colores matemáticas",
   "beso de desayuno letras",
+  "bingolotto ikväll",
+  "búsqueda del tesoro en inglés",
   "caligrafia para niños",
   "caligrafía",
   "caligrafía copiar y pegar",
@@ -3601,6 +5273,7 @@
   "campamento nocturno 5 letras",
   "campamento provisional cinco letras",
   "chuy verduras letras",
+  "clasificar ciencias",
   "clima en sumas washington",
   "clima letras",
   "clima letras bonitas",
@@ -3628,6 +5301,11 @@
   "colores representativos de matemáticas",
   "colores sumas",
   "como contar aves",
+  "comparar cantidades monetarias",
+  "comparar cantidades topworksheets",
+  "comparar números menores que 100 utilizando las relaciones de orden sin utilizar símbolos",
+  "comparar tamaños de iphone",
+  "conceptos espaciales y temporales",
   "conciencia fonológica actividades para niños",
   "concurso primavera matemáticas",
   "concurso primavera matemáticas 2025",
@@ -3672,15 +5350,17 @@
   "contar ropa",
   "contar verduras",
   "cosas que vuelan con las letras del abecedario",
+  "criptograma de multiplicacion",
+  "criptograma online",
   "cuadernillo",
   "cuadernillo cuadriculado",
+  "cuadernillo de actividades para 2 grado de primaria",
   "cuadernillo de lectoescritura",
   "cuadernillo de pruebas nacionales 2025 pdf",
   "cuadernillo de refuerzo preescolar",
   "cuadernillo icfes 2026 pdf con respuestas",
   "cuadernillo para aprender a leer y escribir primer grado pdf gratis",
   "cuadernillo rubio",
-  "cuadernillos cine",
   "cuadernillos icfes",
   "cuaderno verano matemáticas 1 eso pdf con soluciones",
   "cuaderno verano matemáticas 3 eso con soluciones",
@@ -3695,6 +5375,7 @@
   "cuadrícula png",
   "cuadrícula una imagen",
   "cuadrículas fáciles",
+  "decorativo tren del abecedario",
   "desayuno barrio letras",
   "desayuno letras",
   "desayuno letras bonitas",
@@ -3710,6 +5391,9 @@
   "dinosaurios sumas",
   "dinosaurios sumas y restas",
   "dinosaurios. matemáticas",
+  "discriminación visual actividades",
+  "discriminación visual vocales",
+  "el intruso película 2016",
   "emociones en matemáticas",
   "emociones letras",
   "emociones letras bonitas",
@@ -3719,6 +5403,8 @@
   "emociones para contar",
   "emociones para contar libro",
   "emociones para contar pdf",
+  "emparejar crucigrama",
+  "encuentra los objetos 175 roblox",
   "escuela de invierno matemáticas",
   "espacio curricular matemáticas",
   "espacio letras",
@@ -3743,7 +5429,10 @@
   "feliz pascua letras bonitas",
   "feliz pascua letras para imprimir",
   "ficha contar navidad",
+  "ficha de patrones multiplicativos",
+  "ficha de patrones numericos para tercer grado",
   "fichas de colores matemáticas",
+  "fichas ingles sopa de letras",
   "fichas letra b infantil",
   "fichas letra b letrilandia",
   "fichas letra b mayúscula",
@@ -3820,6 +5509,7 @@
   "fichas letra ñ para infantil",
   "fichas navidad sumas",
   "fichas para 4 años",
+  "fichas para aprender la hora digital",
   "fichas refuerzo escolar 2025",
   "fichas refuerzo escolar 2025 primaria",
   "fichas refuerzo lengua 4 primaria",
@@ -3827,6 +5517,7 @@
   "fichas refuerzo matematicas 2 primaria",
   "fichas refuerzo matematicas 3 primaria",
   "fichas refuerzo matematicas 4 primaria",
+  "fichas suma de fracciones mismo denominador",
   "fichas tarea",
   "figuras geometricas para niños",
   "figuras geométricas",
@@ -3849,6 +5540,7 @@
   "flores para contar",
   "flores para contar y colorear",
   "flores para matemáticas",
+  "formar palabras para niños de primer grado",
   "formas de contar billetes",
   "formas de contar con los dedos",
   "formas de contar dinero",
@@ -3876,6 +5568,7 @@
   "formas matemáticas en español",
   "formas modulares matemáticas",
   "formas para matemáticas",
+  "fracciones fichas 4 primaria",
   "frutas con letras d",
   "frutas con letras del abecedario en español",
   "frutas con letras e",
@@ -3892,6 +5585,7 @@
   "frutas para matemáticas",
   "frutas por letras",
   "geometría del espacio matemáticas",
+  "graficos y datos",
   "grafomotricidad",
   "grafomotricidad 3 años",
   "grafomotricidad ejercicios",
@@ -3903,6 +5597,7 @@
   "grafomotricidad pdf",
   "grafomotricidad preescolar",
   "grafos y árboles matemáticas discretas",
+  "gráficos y representación de datos",
   "guia de refuerzo preescolar",
   "herramientas artísticas para contar una historia",
   "herramientas cinco letras",
@@ -4137,6 +5832,8 @@
   "letras playa sola",
   "letras playa sola los invasores de nuevo león",
   "letras primavera azul",
+  "letras revueltas 1 corintios 13",
+  "letras revueltas salmo 91",
   "letras ropa apretada",
   "letras ropa cara camilo",
   "letras ropa cara el jordan 23 pailita",
@@ -4152,6 +5849,7 @@
   "letrilandia letra l fichas",
   "letrilandia letra m fichas",
   "letrilandia letra p fichas",
+  "logica visual sas",
   "mascotas de sumas mentales",
   "mascotas de sumas mentales coloreado",
   "mascotas letras",
@@ -4171,6 +5869,7 @@
   "muebles con las letras del abecedario",
   "muebles letras",
   "muebles sumas pay",
+  "más o menos sinonimo",
   "música contar que beijo em outra boca",
   "música de sumas perú",
   "música de sumas y restas",
@@ -4228,6 +5927,7 @@
   "pascua letras",
   "pascua letras bonitas",
   "pascua sopa de letras",
+  "patrones funcionales de marjory gordon",
   "pauta montessori",
   "pauta montessori 5 mm",
   "pauta montessori en canva",
@@ -4238,6 +5938,7 @@
   "pauta montessori para imprimir",
   "pauta montessori para imprimir pdf",
   "pauta montessori pdf",
+  "piezas faltantes la ley y el orden",
   "planeacion por rincones preescolar",
   "playa de matemáticas",
   "playa letras",
@@ -4245,6 +5946,7 @@
   "playa letras de cartagena",
   "portada navidad matemáticas",
   "preescolar rincones de aprendizaje",
+  "preposiciones fichas para imprimir",
   "primavera letras",
   "primavera letras animadas",
   "primavera letras bonitas",
@@ -4278,6 +5980,7 @@
   "restas hasta 100 sin llevar",
   "restas hasta 1000",
   "restas hasta 10000",
+  "restaurante el colombiano",
   "rincones de aprendizaje preescolar ejemplos",
   "rincones de aprendizaje preescolar nem",
   "rincones de aprendizaje preescolar pdf",
@@ -4305,7 +6008,11 @@
   "silabario pdf",
   "silabario vigo",
   "silabas ma me mi mo mu para niños",
+  "sonidos iniciales de las palabras",
+  "sonidos iniciales de las vocales",
   "sopa de letras 4 de julio",
+  "sopa de letras del mundial 2026",
+  "sopa de letras para adultos",
   "sopa de letras utensilios de cocina",
   "sumas animales",
   "sumas con partes del cuerpo",
@@ -4336,6 +6043,7 @@
   "sumas primavera cokitos",
   "sumas primavera infantil",
   "sumas verano",
+  "sumas y restas",
   "sílabas",
   "sílabas compuestas",
   "sílabas con ma me mi mo mu",
@@ -4354,6 +6062,7 @@
   "sílabas trabadas",
   "sílabas tónicas",
   "sílabas átonas",
+  "tabla del 100 para completar",
   "taller de refuerzo preescolar",
   "tapete de refuerzo preescolar",
   "tarea preescolar",
@@ -4377,6 +6086,8 @@
   "utensilios de cocina con las letras del abecedario",
   "utensilios de cocina crucigrama 5 letras",
   "utensilios de cocina letras",
+  "valor posicional actividades",
+  "valor posicional para niños de primer grado",
   "verano letras",
   "verano letras 3d",
   "verano letras animadas",
@@ -4410,6 +6121,5 @@
   "árboles matemáticas discretas pdf",
   "árboles y redes matemáticas discretas",
   "árboles y redes matemáticas discretas pdf"
- ],
- "refilteredAt": "2026-07-20T08:58:53.385Z"
+ ]
 }

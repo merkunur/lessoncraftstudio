@@ -4,24 +4,25 @@
   "hl": "fr",
   "gl": "fr"
  },
- "generatedAt": "2026-07-20T08:49:52.947Z",
+ "generatedAt": "2026-07-20T09:43:52.326Z",
  "method": "demand-first seeds (skill / context / audience / enumerated / pack) — NOT taxonomy-derived",
- "requestCount": 327,
+ "requestCount": 447,
  "seedCounts": {
-  "skill": 14,
-  "context": 6,
-  "audience": 4,
+  "skill": 33,
+  "context": 10,
+  "audience": 6,
   "enumerated": 26,
-  "pack": 1,
-  "cross": 276
+  "pack": 2,
+  "cross": 252,
+  "typeName": 118
  },
  "errorCount": 0,
  "errors": [],
  "newVsInventory": {
   "inventoryUnique": 2154,
-  "demandUnique": 618,
-  "novel": 616,
-  "novelShare": 0.997
+  "demandUnique": 1236,
+  "novel": 892,
+  "novelShare": 0.722
  },
  "deadSeeds": [
   "4 juillet maths",
@@ -46,10 +47,6 @@
   "plage additions",
   "oiseaux maths",
   "oiseaux additions",
-  "oiseaux 2 maths",
-  "oiseaux 2 compter",
-  "oiseaux 2 additions",
-  "oiseaux 2 lettres",
   "parties du corps maths",
   "parties du corps compter",
   "parties du corps additions",
@@ -157,82 +154,123 @@
   "animaux du zoo compter",
   "animaux du zoo additions",
   "animaux du zoo lettres",
-  "animaux nb 2 maths",
-  "animaux nb 2 compter",
-  "animaux nb 2 additions",
-  "animaux nb 2 lettres",
-  "animaux nb 3 maths",
-  "animaux nb 3 compter",
-  "animaux nb 3 additions",
-  "animaux nb 3 lettres",
-  "animaux nb 4 maths",
-  "animaux nb 4 compter",
-  "animaux nb 4 additions",
-  "animaux nb 4 lettres",
-  "animaux nb 5 maths",
-  "animaux nb 5 compter",
-  "animaux nb 5 additions",
-  "animaux nb 5 lettres",
-  "plage nb 2 maths",
-  "plage nb 2 compter",
-  "plage nb 2 additions",
-  "plage nb 2 lettres",
-  "oiseaux n&b 2 maths",
-  "oiseaux n&b 2 compter",
-  "oiseaux n&b 2 additions",
-  "oiseaux n&b 2 lettres",
-  "noël n&b 2 maths",
-  "noël n&b 2 compter",
-  "noël n&b 2 additions",
-  "noël n&b 2 lettres",
+  "animaux nb maths",
+  "animaux nb compter",
+  "animaux nb additions",
+  "animaux nb lettres",
+  "plage nb maths",
+  "plage nb compter",
+  "plage nb additions",
+  "plage nb lettres",
+  "oiseaux n&b maths",
+  "oiseaux n&b compter",
+  "oiseaux n&b additions",
+  "oiseaux n&b lettres",
+  "noël n&b maths",
+  "noël n&b compter",
+  "noël n&b additions",
+  "noël n&b lettres",
   "salle de classe 2 (n&b) maths",
   "salle de classe 2 (n&b) compter",
   "salle de classe 2 (n&b) additions",
   "salle de classe 2 (n&b) lettres",
-  "pâques nb 2 maths",
-  "pâques nb 2 compter",
-  "pâques nb 2 additions",
-  "pâques nb 2 lettres",
-  "nourriture nb 2 maths",
-  "nourriture nb 2 compter",
-  "nourriture nb 2 additions",
-  "nourriture nb 2 lettres",
-  "nourriture nb 3 maths",
-  "nourriture nb 3 compter",
-  "nourriture nb 3 additions",
-  "nourriture nb 3 lettres",
-  "maison nb 2 maths",
-  "maison nb 2 compter",
-  "maison nb 2 additions",
-  "maison nb 2 lettres",
-  "vie marine nb 2 maths",
-  "vie marine nb 2 compter",
-  "vie marine nb 2 additions",
-  "vie marine nb 2 lettres",
-  "sports nb 2 maths",
-  "sports nb 2 compter",
-  "sports nb 2 additions",
-  "sports nb 2 lettres",
-  "jouets nb 2 maths",
-  "jouets nb 2 compter",
-  "jouets nb 2 additions",
-  "jouets nb 2 lettres",
-  "saint-valentin nb 2 maths",
-  "saint-valentin nb 2 compter",
-  "saint-valentin nb 2 additions",
-  "saint-valentin nb 2 lettres",
-  "légumes nb 2 maths",
-  "légumes nb 2 compter",
-  "légumes nb 2 additions",
-  "légumes nb 2 lettres",
-  "véhicules nb 2 maths",
-  "véhicules nb 2 compter",
-  "véhicules nb 2 additions",
-  "véhicules nb 2 lettres",
-  "véhicules nb 3 maths",
-  "véhicules nb 3 compter",
-  "véhicules nb 3 additions",
-  "véhicules nb 3 lettres"
+  "pâques nb maths",
+  "pâques nb compter",
+  "pâques nb additions",
+  "pâques nb lettres",
+  "nourriture nb maths",
+  "nourriture nb compter",
+  "nourriture nb additions",
+  "nourriture nb lettres",
+  "maison nb maths",
+  "maison nb compter",
+  "maison nb additions",
+  "maison nb lettres",
+  "vie marine nb maths",
+  "vie marine nb compter",
+  "vie marine nb additions",
+  "vie marine nb lettres",
+  "sports nb maths",
+  "sports nb compter",
+  "sports nb additions",
+  "sports nb lettres",
+  "jouets nb maths",
+  "jouets nb compter",
+  "jouets nb additions",
+  "jouets nb lettres",
+  "saint-valentin nb maths",
+  "saint-valentin nb compter",
+  "saint-valentin nb additions",
+  "saint-valentin nb lettres",
+  "légumes nb maths",
+  "légumes nb compter",
+  "légumes nb additions",
+  "légumes nb lettres",
+  "véhicules nb maths",
+  "véhicules nb compter",
+  "véhicules nb additions",
+  "véhicules nb lettres",
+  "sudoku illustré fiches",
+  "parcours illustré",
+  "parcours illustré fiches",
+  "addition codée",
+  "addition codée fiches",
+  "plus ou moins fiches",
+  "puzzle mathématique fiches",
+  "fiche de mathématiques fiches",
+  "grand ou petit fiches",
+  "comptage graphique fiches",
+  "train de modèles",
+  "train de modèles fiches",
+  "fiche de modèles",
+  "fiche de modèles fiches",
+  "appariement en grille",
+  "appariement en grille fiches",
+  "appariement fiches",
+  "trier les images fiches",
+  "apparier les ombres",
+  "apparier les ombres fiches",
+  "train de l'alphabet fiches",
+  "prépositions fiches",
+  "devine le mot fiches",
+  "lettres mélangées fiches",
+  "mots mêlés fiches",
+  "trouve et compte fiches",
+  "trouve les objets fiches",
+  "pièces manquantes fiches",
+  "l'intrus fiches",
+  "compter des images",
+  "compter des images fiches",
+  "boîtes de dix fiches",
+  "comptage en bâtons",
+  "comptage en bâtons fiches",
+  "tableau des nombres fiches",
+  "comparer les nombres fiches",
+  "comparer les quantités fiches",
+  "comparer les tailles fiches",
+  "droite numérique fiches",
+  "dizaines et unités fiches",
+  "graphiques et données",
+  "graphiques et données fiches",
+  "multiplication en réseaux",
+  "multiplication en réseaux fiches",
+  "logique visuelle fiches",
+  "associations visuelles",
+  "associations visuelles fiches",
+  "suites logiques fiches",
+  "trier par catégories fiches",
+  "calcul illustré",
+  "calcul illustré fiches",
+  "tri en sciences",
+  "tri en sciences fiches",
+  "ordre et cycles de vie",
+  "ordre et cycles de vie fiches",
+  "associations en sciences fiches",
+  "sons initiaux fiches",
+  "connaissance des lettres fiches",
+  "construction de mots fiches",
+  "vocabulaire en images fiches",
+  "conscience phonologique fiches"
  ],
  "suggestions": {
   "coloriage magique": {
@@ -279,6 +317,51 @@
     "period 2 days late"
    ]
   },
+  "période 3": {
+   "cls": "skill",
+   "s": [
+    "période 3 lettres",
+    "période 30 glorieuses",
+    "période 3 école",
+    "période 3 scolaire",
+    "periode 3 tage überfällig",
+    "periode 3 lettres",
+    "periode 3",
+    "periode 3 tage zu früh",
+    "periode 3 tage",
+    "periode 3 tage normal"
+   ]
+  },
+  "période 4": {
+   "cls": "skill",
+   "s": [
+    "période 4 lettres",
+    "période 4",
+    "période 4 scolaire",
+    "période 4 ms",
+    "période 4 gs",
+    "période 4 moyenne section",
+    "période 4 ps",
+    "période 4 maternelle",
+    "période 4 cm2",
+    "période 4 petite section"
+   ]
+  },
+  "période 5": {
+   "cls": "skill",
+   "s": [
+    "période 5 lettres",
+    "période 5 gs",
+    "période 5 petite section",
+    "période 5 ms",
+    "période 5 moyenne section",
+    "période 5 maternelle",
+    "période 5 ps ms",
+    "période 5",
+    "période 5 gs maths",
+    "période 5 cp"
+   ]
+  },
   "graphème": {
    "cls": "skill",
    "s": [
@@ -307,6 +390,21 @@
     "phonème audioprothésiste",
     "phonème 3 lettres y",
     "phonème synonyme"
+   ]
+  },
+  "sons complexes": {
+   "cls": "skill",
+   "s": [
+    "sons complexes",
+    "sons complexes cp",
+    "sons complexes ce1",
+    "sons complexes cp exercices",
+    "sons complexes couleurs",
+    "sons complexes ce2",
+    "sons complexes gs",
+    "sons complexes lecture",
+    "sons complexes alphas",
+    "sons complexes français"
    ]
   },
   "avec corrigé": {
@@ -369,6 +467,21 @@
     "graphisme petite section"
    ]
   },
+  "écriture cursive": {
+   "cls": "skill",
+   "s": [
+    "écriture cursive",
+    "écriture cursive gs",
+    "écriture cursive exemple",
+    "écriture cursive à télécharger",
+    "écriture cursive russe",
+    "écriture cursive ou scripte",
+    "écriture cursive en ligne",
+    "écriture cursive cp",
+    "écriture cursive word",
+    "écriture cursive majuscule"
+   ]
+  },
   "lecture cp": {
    "cls": "skill",
    "s": [
@@ -382,6 +495,66 @@
     "lecture cp2",
     "lecture cp1",
     "lecture cp période 4"
+   ]
+  },
+  "confusion b d": {
+   "cls": "skill",
+   "s": [
+    "confusion b d",
+    "confusion b d cp",
+    "confusion b d p q",
+    "confusion b d exercices à imprimer",
+    "confusion b d exercices",
+    "confusion b d ce1",
+    "confusion b d p q oiseau",
+    "confusion b d logiciel educatif",
+    "confusion b et d pdf",
+    "confusion b et d orthophonie"
+   ]
+  },
+  "mots outils": {
+   "cls": "skill",
+   "s": [
+    "mots outils cp",
+    "mots outils",
+    "mots outils ce1",
+    "mots outils cp à imprimer",
+    "mots outils cp liste officielle 2025",
+    "mots outils cp pdf",
+    "mots outils ce2",
+    "mots outils taoki",
+    "mots outils cp taoki",
+    "mots outils cp piano"
+   ]
+  },
+  "dictée muette": {
+   "cls": "skill",
+   "s": [
+    "dictée muette gs",
+    "dictée muette cp",
+    "dictée muette",
+    "dictée muette ce1",
+    "dictée muette gs à imprimer",
+    "dictée muette montessori",
+    "dictée muette maternelle",
+    "dictée muette cp pdf",
+    "dictée muette ms",
+    "dictée muette à imprimer"
+   ]
+  },
+  "alphabet majuscule": {
+   "cls": "skill",
+   "s": [
+    "alphabet majuscule",
+    "alphabet majuscule cursive",
+    "alphabet majuscule et minuscule",
+    "alphabet majuscule attaché",
+    "alphabet majuscule calligraphie",
+    "alphabet majuscule à imprimer",
+    "alphabet majuscule script",
+    "alphabet majuscule et minuscule à imprimer",
+    "alphabet majuscule et minuscule cursive",
+    "alphabet majuscule manuscrit"
    ]
   },
   "additions jusqu’à 10": {
@@ -399,6 +572,51 @@
     "additions jusqu à 10 maitre lucas"
    ]
   },
+  "compléments à 10": {
+   "cls": "skill",
+   "s": [
+    "compléments à 10",
+    "compléments à 10 gs",
+    "compléments à 100 exercices à imprimer",
+    "compléments à 10 cp",
+    "compléments à 10 exercices à imprimer gs",
+    "compléments à 100",
+    "compléments à 1000 exercices à imprimer",
+    "compléments à 100 ce1",
+    "compléments à 1000",
+    "compléments à 10 exercices à imprimer cp"
+   ]
+  },
+  "décomposition des nombres": {
+   "cls": "skill",
+   "s": [
+    "décomposition des nombres",
+    "décomposition des nombres gs pdf",
+    "décomposition des nombres gs",
+    "décomposition des nombres cp",
+    "décomposition des nombres exercices",
+    "décomposition des nombres exercices pdf",
+    "décomposition des nombres ce2",
+    "décomposition des nombres ce1",
+    "décomposition des nombres maternelle",
+    "décomposition des nombres décimaux"
+   ]
+  },
+  "soustractions jusqu’à 10": {
+   "cls": "skill",
+   "s": [
+    "soustractions jusqu à 10",
+    "soustractions jusqu'à 1000 sans passage",
+    "soustractions jusqu'à 100",
+    "soustraction jusqu à 1000 avec passage",
+    "soustraction jusqu'à 1000",
+    "soustraction jusqu à 10 cp",
+    "exercices soustraction jusqu à 10",
+    "fiche soustraction jusqu'à 10",
+    "additions et soustractions jusqu à 1000 avec passage",
+    "additions et soustractions jusqu à 1000 sans passage"
+   ]
+  },
   "les nombres jusqu’à 20": {
    "cls": "skill",
    "s": [
@@ -412,6 +630,36 @@
     "les nombres jusqu à 20 en allemand",
     "les nombres jusqu à 20 gs",
     "les nombres jusqu à 200 ce1"
+   ]
+  },
+  "numération cp": {
+   "cls": "skill",
+   "s": [
+    "numération cp",
+    "numération cp période 5",
+    "numération cp période 4",
+    "numération cp exercices",
+    "numération cp école de crevette",
+    "numération cp ipotame",
+    "numération cp période 3",
+    "numération cp crevette",
+    "numération cp période 1",
+    "numération cp ce1"
+   ]
+  },
+  "dénombrement": {
+   "cls": "skill",
+   "s": [
+    "dénombrement",
+    "dénombrement terminale",
+    "dénombrement cours et exercices corrigés pdf",
+    "dénombrement formule",
+    "dénombrement def",
+    "dénombrement cours complet pdf",
+    "dénombrement exercices",
+    "dénombrement maths",
+    "dénombrement 1 bac sm",
+    "dénombrement maternelle"
    ]
   },
   "lire l’heure": {
@@ -444,6 +692,81 @@
     "formes géométriques ms"
    ]
   },
+  "suites logiques": {
+   "cls": "typeName",
+   "s": [
+    "suites logiques",
+    "suites logiques cp",
+    "suites logiques ce1",
+    "suites logiques maternelle",
+    "suites logiques cm2",
+    "suites logiques exercices",
+    "suites logiques exercices à imprimer",
+    "suites logiques gs",
+    "suites logiques cycle 3",
+    "suites logiques cm1"
+   ]
+  },
+  "discrimination visuelle": {
+   "cls": "typeName",
+   "s": [
+    "discrimination visuelle",
+    "discrimination visuelle maternelle",
+    "discrimination visuelle gs",
+    "discrimination visuelle ps",
+    "discrimination visuelle ms",
+    "discrimination visuelle à imprimer",
+    "discrimination visuelle cp",
+    "discrimination visuelle petite section",
+    "discrimination visuelle pdf",
+    "discrimination visuelle moyenne section"
+   ]
+  },
+  "repérage dans l’espace": {
+   "cls": "skill",
+   "s": [
+    "repérage dans l’espace",
+    "repérage dans l espace",
+    "repérage dans l'espace 4ème exercices corrigés pdf",
+    "repérage dans l espace cp",
+    "repérage dans l'espace exercices pdf",
+    "repérage dans l espace gs",
+    "repérage dans l espace ce1",
+    "repérage dans l'espace exercices corrigés pdf",
+    "repérage dans l espace 3eme exercices corrigés pdf",
+    "repérage dans l espace maternelle"
+   ]
+  },
+  "motricité fine": {
+   "cls": "skill",
+   "s": [
+    "motricité fine",
+    "motricité fine def",
+    "motricité fine maternelle",
+    "motricité fine bébé",
+    "motricité fine 4 ans",
+    "motricité fine 2 ans",
+    "motricité fine gs",
+    "motricité fine ps",
+    "motricité fine 3 ans",
+    "motricité fine exemple"
+   ]
+  },
+  "découpage collage": {
+   "cls": "skill",
+   "s": [
+    "découpage collage gs",
+    "découpage collage maternelle",
+    "découpage collage",
+    "découpage collage ms",
+    "découpage collage à imprimer pdf gratuit",
+    "découpage collage maternelle à imprimer gratuit",
+    "découpage collage cp",
+    "découpage collage ps",
+    "découpage collage gs printemps",
+    "découpage collage à imprimer pdf"
+   ]
+  },
   "ateliers fiches": {
    "cls": "context",
    "s": [
@@ -456,8 +779,8 @@
    "cls": "context",
    "s": [
     "ateliers maternelle",
-    "ateliers maternelle ps",
     "ateliers maternelle printemps",
+    "ateliers maternelle ps",
     "ateliers maternelle noel",
     "ateliers maternelle hiver",
     "ateliers maternelle automne",
@@ -508,6 +831,53 @@
     "correction maternelle"
    ]
   },
+  "rituels fiches": {
+   "cls": "context",
+   "s": [
+    "fiches rituels cp",
+    "fiches rituels ce2",
+    "fiches rituels ce1",
+    "fiches rituels"
+   ]
+  },
+  "rituels maternelle": {
+   "cls": "context",
+   "s": [
+    "rituels maternelle",
+    "rituels maternelle ms",
+    "rituels maternelle eduscol",
+    "rituels maternelle à imprimer",
+    "rituels maternelle affichage",
+    "rituels maternelle gs",
+    "rituels maternelle ms gs",
+    "rituels maternelle retz",
+    "rituels maternelle ps ms",
+    "rituels maternelle tbi"
+   ]
+  },
+  "plan de travail fiches": {
+   "cls": "context",
+   "s": [
+    "plan de travail fiche",
+    "plan de travail fiche technique",
+    "plan de travail egger fiche technique"
+   ]
+  },
+  "plan de travail maternelle": {
+   "cls": "context",
+   "s": [
+    "plan de travail maternelle",
+    "plan de travail maternelle modifiable",
+    "plan de travail maternelle ms",
+    "plan de travail maternelle gs",
+    "plan de travail maternelle ps ms",
+    "plan de travail maternelle vierge",
+    "plan de travail maternelle ps",
+    "plan de travail maternelle éduscol",
+    "plan de travail maternelle organisation",
+    "fonctionnement plan de travail maternelle"
+   ]
+  },
   "fle fiches": {
    "cls": "audience",
    "s": [
@@ -553,6 +923,27 @@
     "dyspraxie maternelle",
     "dysgraphie maternelle",
     "trouble dys maternelle"
+   ]
+  },
+  "ulis fiches": {
+   "cls": "audience",
+   "s": [
+    "ulis fiches"
+   ]
+  },
+  "ulis maternelle": {
+   "cls": "audience",
+   "s": [
+    "ulis maternelle",
+    "ulis maternelle lyon",
+    "ulis maternelle nice",
+    "ulis maternelle angouleme",
+    "ulis maternelle rhone",
+    "ulysse maternelle",
+    "classe ulis maternelle",
+    "ulis école maternelle",
+    "dispositif ulis maternelle",
+    "ulis tsa maternelle"
    ]
   },
   "lettre a fiche": {
@@ -783,6 +1174,21 @@
     "cahier d exercices 7e et 8e pdf",
     "cahier d exercices maths seconde pdf",
     "cahier d'exercices piano cp"
+   ]
+  },
+  "fichier": {
+   "cls": "pack",
+   "s": [
+    "fichier",
+    "fichier pdf",
+    "fichier ppsspp",
+    "fichier des véhicules assurés",
+    "fichier décès insee",
+    "fichier heic",
+    "fichier csv",
+    "fichier stl",
+    "fichiers (apple)",
+    "fichier zip"
    ]
   },
   "4 juillet maths": {
@@ -1024,22 +1430,6 @@
     "oiseaux huppes 9 lettres",
     "oiseaux marins 7 lettres"
    ]
-  },
-  "oiseaux 2 maths": {
-   "cls": "cross",
-   "s": []
-  },
-  "oiseaux 2 compter": {
-   "cls": "cross",
-   "s": []
-  },
-  "oiseaux 2 additions": {
-   "cls": "cross",
-   "s": []
-  },
-  "oiseaux 2 lettres": {
-   "cls": "cross",
-   "s": []
   },
   "parties du corps maths": {
    "cls": "cross",
@@ -1983,115 +2373,67 @@
    "cls": "cross",
    "s": []
   },
-  "animaux nb 2 maths": {
+  "animaux nb maths": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 2 compter": {
+  "animaux nb compter": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 2 additions": {
+  "animaux nb additions": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 2 lettres": {
+  "animaux nb lettres": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 3 maths": {
+  "plage nb maths": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 3 compter": {
+  "plage nb compter": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 3 additions": {
+  "plage nb additions": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 3 lettres": {
+  "plage nb lettres": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 4 maths": {
+  "oiseaux n&b maths": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 4 compter": {
+  "oiseaux n&b compter": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 4 additions": {
+  "oiseaux n&b additions": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 4 lettres": {
+  "oiseaux n&b lettres": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 5 maths": {
+  "noël n&b maths": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 5 compter": {
+  "noël n&b compter": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 5 additions": {
+  "noël n&b additions": {
    "cls": "cross",
    "s": []
   },
-  "animaux nb 5 lettres": {
-   "cls": "cross",
-   "s": []
-  },
-  "plage nb 2 maths": {
-   "cls": "cross",
-   "s": []
-  },
-  "plage nb 2 compter": {
-   "cls": "cross",
-   "s": []
-  },
-  "plage nb 2 additions": {
-   "cls": "cross",
-   "s": []
-  },
-  "plage nb 2 lettres": {
-   "cls": "cross",
-   "s": []
-  },
-  "oiseaux n&b 2 maths": {
-   "cls": "cross",
-   "s": []
-  },
-  "oiseaux n&b 2 compter": {
-   "cls": "cross",
-   "s": []
-  },
-  "oiseaux n&b 2 additions": {
-   "cls": "cross",
-   "s": []
-  },
-  "oiseaux n&b 2 lettres": {
-   "cls": "cross",
-   "s": []
-  },
-  "noël n&b 2 maths": {
-   "cls": "cross",
-   "s": []
-  },
-  "noël n&b 2 compter": {
-   "cls": "cross",
-   "s": []
-  },
-  "noël n&b 2 additions": {
-   "cls": "cross",
-   "s": []
-  },
-  "noël n&b 2 lettres": {
+  "noël n&b lettres": {
    "cls": "cross",
    "s": []
   },
@@ -2111,180 +2453,1048 @@
    "cls": "cross",
    "s": []
   },
-  "pâques nb 2 maths": {
+  "pâques nb maths": {
    "cls": "cross",
    "s": []
   },
-  "pâques nb 2 compter": {
+  "pâques nb compter": {
    "cls": "cross",
    "s": []
   },
-  "pâques nb 2 additions": {
+  "pâques nb additions": {
    "cls": "cross",
    "s": []
   },
-  "pâques nb 2 lettres": {
+  "pâques nb lettres": {
    "cls": "cross",
    "s": []
   },
-  "nourriture nb 2 maths": {
+  "nourriture nb maths": {
    "cls": "cross",
    "s": []
   },
-  "nourriture nb 2 compter": {
+  "nourriture nb compter": {
    "cls": "cross",
    "s": []
   },
-  "nourriture nb 2 additions": {
+  "nourriture nb additions": {
    "cls": "cross",
    "s": []
   },
-  "nourriture nb 2 lettres": {
+  "nourriture nb lettres": {
    "cls": "cross",
    "s": []
   },
-  "nourriture nb 3 maths": {
+  "maison nb maths": {
    "cls": "cross",
    "s": []
   },
-  "nourriture nb 3 compter": {
+  "maison nb compter": {
    "cls": "cross",
    "s": []
   },
-  "nourriture nb 3 additions": {
+  "maison nb additions": {
    "cls": "cross",
    "s": []
   },
-  "nourriture nb 3 lettres": {
+  "maison nb lettres": {
    "cls": "cross",
    "s": []
   },
-  "maison nb 2 maths": {
+  "vie marine nb maths": {
    "cls": "cross",
    "s": []
   },
-  "maison nb 2 compter": {
+  "vie marine nb compter": {
    "cls": "cross",
    "s": []
   },
-  "maison nb 2 additions": {
+  "vie marine nb additions": {
    "cls": "cross",
    "s": []
   },
-  "maison nb 2 lettres": {
+  "vie marine nb lettres": {
    "cls": "cross",
    "s": []
   },
-  "vie marine nb 2 maths": {
+  "sports nb maths": {
    "cls": "cross",
    "s": []
   },
-  "vie marine nb 2 compter": {
+  "sports nb compter": {
    "cls": "cross",
    "s": []
   },
-  "vie marine nb 2 additions": {
+  "sports nb additions": {
    "cls": "cross",
    "s": []
   },
-  "vie marine nb 2 lettres": {
+  "sports nb lettres": {
    "cls": "cross",
    "s": []
   },
-  "sports nb 2 maths": {
+  "jouets nb maths": {
    "cls": "cross",
    "s": []
   },
-  "sports nb 2 compter": {
+  "jouets nb compter": {
    "cls": "cross",
    "s": []
   },
-  "sports nb 2 additions": {
+  "jouets nb additions": {
    "cls": "cross",
    "s": []
   },
-  "sports nb 2 lettres": {
+  "jouets nb lettres": {
    "cls": "cross",
    "s": []
   },
-  "jouets nb 2 maths": {
+  "saint-valentin nb maths": {
    "cls": "cross",
    "s": []
   },
-  "jouets nb 2 compter": {
+  "saint-valentin nb compter": {
    "cls": "cross",
    "s": []
   },
-  "jouets nb 2 additions": {
+  "saint-valentin nb additions": {
    "cls": "cross",
    "s": []
   },
-  "jouets nb 2 lettres": {
+  "saint-valentin nb lettres": {
    "cls": "cross",
    "s": []
   },
-  "saint-valentin nb 2 maths": {
+  "légumes nb maths": {
    "cls": "cross",
    "s": []
   },
-  "saint-valentin nb 2 compter": {
+  "légumes nb compter": {
    "cls": "cross",
    "s": []
   },
-  "saint-valentin nb 2 additions": {
+  "légumes nb additions": {
    "cls": "cross",
    "s": []
   },
-  "saint-valentin nb 2 lettres": {
+  "légumes nb lettres": {
    "cls": "cross",
    "s": []
   },
-  "légumes nb 2 maths": {
+  "véhicules nb maths": {
    "cls": "cross",
    "s": []
   },
-  "légumes nb 2 compter": {
+  "véhicules nb compter": {
    "cls": "cross",
    "s": []
   },
-  "légumes nb 2 additions": {
+  "véhicules nb additions": {
    "cls": "cross",
    "s": []
   },
-  "légumes nb 2 lettres": {
+  "véhicules nb lettres": {
    "cls": "cross",
    "s": []
   },
-  "véhicules nb 2 maths": {
-   "cls": "cross",
+  "addition": {
+   "cls": "typeName",
+   "s": [
+    "addition en anglais",
+    "addition",
+    "addition heure",
+    "addition de fraction",
+    "additionner des heures",
+    "addition posée cp",
+    "addition en italien",
+    "addition elle",
+    "addition en espagnol",
+    "additionner des fractions"
+   ]
+  },
+  "addition fiches": {
+   "cls": "typeName",
+   "s": [
+    "fiches addition cp",
+    "fiches addition posée cp",
+    "fiches addition",
+    "fiches addition ce1",
+    "fiches addition gs"
+   ]
+  },
+  "sudoku illustré": {
+   "cls": "typeName",
+   "s": [
+    "sudoku illustré"
+   ]
+  },
+  "sudoku illustré fiches": {
+   "cls": "typeName",
    "s": []
   },
-  "véhicules nb 2 compter": {
-   "cls": "cross",
+  "cryptogramme": {
+   "cls": "typeName",
+   "s": [
+    "cryptogramme",
+    "cryptogramme visuel",
+    "cryptogramme carte bancaire",
+    "cryptogramme dynamique",
+    "cryptogramme veut dire quoi",
+    "cryptogramme la buse",
+    "cryptogramme carte visa",
+    "cryptogramme visa",
+    "cryptogramme jeu",
+    "cryptogramme carte"
+   ]
+  },
+  "cryptogramme fiches": {
+   "cls": "typeName",
+   "s": [
+    "code fiches"
+   ]
+  },
+  "parcours illustré": {
+   "cls": "typeName",
    "s": []
   },
-  "véhicules nb 2 additions": {
-   "cls": "cross",
+  "parcours illustré fiches": {
+   "cls": "typeName",
    "s": []
   },
-  "véhicules nb 2 lettres": {
-   "cls": "cross",
+  "soustraction": {
+   "cls": "typeName",
+   "s": [
+    "soustraction",
+    "soustraction avec retenue",
+    "soustraction excel",
+    "soustraction avec retenue ce1",
+    "soustraction heure",
+    "soustraction de fraction",
+    "soustraction posée",
+    "soustraction ce1",
+    "soustraction posée ce1",
+    "soustraction avec retenue ce2"
+   ]
+  },
+  "soustraction fiches": {
+   "cls": "typeName",
+   "s": [
+    "fiches soustraction cp",
+    "fiches soustraction ce2",
+    "fiches soustraction ce1",
+    "fiches soustraction"
+   ]
+  },
+  "addition codée": {
+   "cls": "typeName",
    "s": []
   },
-  "véhicules nb 3 maths": {
-   "cls": "cross",
+  "addition codée fiches": {
+   "cls": "typeName",
    "s": []
   },
-  "véhicules nb 3 compter": {
-   "cls": "cross",
+  "plus ou moins": {
+   "cls": "typeName",
+   "s": [
+    "plus ou moins",
+    "plus ou moins symbole",
+    "plus ou moins synonyme",
+    "plus ou moins en anglais",
+    "plus ou moins bien disposé",
+    "plus ou moins signe",
+    "plus ou moins en arabe",
+    "plus ou moins latex",
+    "plus ou moins bien disposé en 3 lettres",
+    "plus ou moins clavier"
+   ]
+  },
+  "plus ou moins fiches": {
+   "cls": "typeName",
    "s": []
   },
-  "véhicules nb 3 additions": {
-   "cls": "cross",
+  "puzzle mathématique": {
+   "cls": "typeName",
+   "s": [
+    "puzzle mathématiques à imprimer",
+    "puzzle mathématique",
+    "puzzle mathématique gratuit",
+    "puzzle mathématique gratuit en ligne"
+   ]
+  },
+  "puzzle mathématique fiches": {
+   "cls": "typeName",
    "s": []
   },
-  "véhicules nb 3 lettres": {
-   "cls": "cross",
+  "fiche de mathématiques": {
+   "cls": "typeName",
+   "s": [
+    "fiche de mathématiques",
+    "fiche de mathématiques ce2",
+    "fiche de mathématiques ce1",
+    "fiche de mathématiques cp1",
+    "fiche de mathématiques cp",
+    "fiche de mathématiques cm1",
+    "fiche de mathématiques cm2",
+    "fiche de mathématiques cp2",
+    "fiche de mathématiques ce1 pnapas",
+    "fiche de mathématiques à imprimer"
+   ]
+  },
+  "fiche de mathématiques fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "grand ou petit": {
+   "cls": "typeName",
+   "s": [
+    "grand ou petit",
+    "grand ou petit il s'agit des cartes en main",
+    "grand ou petit à versailles",
+    "grand ou petit plateau velo",
+    "grand ou petit anne sylvestre",
+    "grand ou petit verre pour le vin",
+    "grand ou petit capricorne",
+    "grand ou petit épeautre",
+    "grand ou petit carrelage pour petite piece",
+    "grand ou petit cousin"
+   ]
+  },
+  "grand ou petit fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "comptage graphique": {
+   "cls": "typeName",
+   "s": [
+    "compteur graphique",
+    "compteur graphique excel"
+   ]
+  },
+  "comptage graphique fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "train de modèles": {
+   "cls": "typeName",
+   "s": []
+  },
+  "train de modèles fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "fiche de modèles": {
+   "cls": "typeName",
+   "s": []
+  },
+  "fiche de modèles fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "loto": {
+   "cls": "typeName",
+   "s": [
+    "loto",
+    "loto foot",
+    "loto fdj",
+    "loto resultat",
+    "loto quebec",
+    "loto max",
+    "loto bonheur",
+    "loto ce soir",
+    "loto aujourd'hui",
+    "loto mercredi"
+   ]
+  },
+  "loto fiches": {
+   "cls": "typeName",
+   "s": [
+    "fiches loto"
+   ]
+  },
+  "appariement en grille": {
+   "cls": "typeName",
+   "s": []
+  },
+  "appariement en grille fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "appariement": {
+   "cls": "typeName",
+   "s": [
+    "appariement",
+    "appariement def",
+    "appariement télécommande orange",
+    "appariement synonyme",
+    "appariement en arabe",
+    "appariement def ses",
+    "appariement des chromosomes homologues",
+    "appariement ses",
+    "appariement haley",
+    "appariement par score de propension"
+   ]
+  },
+  "appariement fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "trier les images": {
+   "cls": "typeName",
+   "s": [
+    "trier images"
+   ]
+  },
+  "trier les images fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "apparier les ombres": {
+   "cls": "typeName",
+   "s": []
+  },
+  "apparier les ombres fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "train de l'alphabet": {
+   "cls": "typeName",
+   "s": [
+    "train de l'alphabet",
+    "train alphabet duplo",
+    "train alphabet mega bloks",
+    "train alphabet lego duplo",
+    "train alphabet lego",
+    "train alphabet youtube",
+    "train alphabet letters",
+    "train alphabet chart",
+    "train alphabet puzzle",
+    "train alphabet song"
+   ]
+  },
+  "train de l'alphabet fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "prépositions": {
+   "cls": "typeName",
+   "s": [
+    "prépositions",
+    "prépositions français",
+    "prépositions en anglais",
+    "prépositions de lieu",
+    "prépositions de lieu en anglais",
+    "prépositions liste",
+    "prépositions en allemand",
+    "prépositions en espagnol",
+    "prépositions de lieu en espagnol",
+    "prépositions de lieu exercices pdf"
+   ]
+  },
+  "prépositions fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "devine le mot": {
+   "cls": "typeName",
+   "s": [
+    "devine le mot",
+    "devine le mot du jour",
+    "devine le mot du jour solution",
+    "devine le mot jeu",
+    "devine le mot solution",
+    "devine le mot.fr",
+    "devine le mot du jour indice",
+    "devine le mot indice",
+    "devine le mot reponse",
+    "devine le mot rbo"
+   ]
+  },
+  "devine le mot fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "lettres mélangées": {
+   "cls": "typeName",
+   "s": [
+    "lettres mélangées",
+    "lettres mélangées pour former un mot",
+    "lettres mélangées gs",
+    "lettres mélangées solution",
+    "lettres mélangées trouver un mot",
+    "lettres mélangées scrabble",
+    "lettres mélangées en anglais",
+    "lettres mélangées cp",
+    "lettres mélangées à imprimer",
+    "lettres mélangées jeu"
+   ]
+  },
+  "lettres mélangées fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mots mêlés": {
+   "cls": "typeName",
+   "s": [
+    "mots mêlés",
+    "mots mêlés à imprimer",
+    "mots mêlés gratuit",
+    "mots mêlés à imprimer pdf",
+    "mots mêlés générateur",
+    "mots mêlés à imprimer adulte",
+    "mots mêlés à imprimer pour personnes âgées",
+    "mots mêlés ce2",
+    "mots mêlés à imprimer gratuit",
+    "mots mêlés - jeu de mots"
+   ]
+  },
+  "mots mêlés fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "mots croisés": {
+   "cls": "typeName",
+   "s": [
+    "mots croisés",
+    "mots croisés en ligne",
+    "mots croisés gratuits",
+    "mots croisés le parisien",
+    "mots croisés solutions",
+    "mots croisés faciles",
+    "mots croisés le devoir",
+    "mots croisés france info",
+    "mots croisés la croix",
+    "mots croisés notre temps"
+   ]
+  },
+  "mots croisés fiches": {
+   "cls": "typeName",
+   "s": [
+    "mots croisés fiche"
+   ]
+  },
+  "trouve et compte": {
+   "cls": "typeName",
+   "s": [
+    "cherche trouve et compte",
+    "cherche trouve et compte jusqu à 10",
+    "cherche trouve et compte les animaux",
+    "cherche trouve et compte livre"
+   ]
+  },
+  "trouve et compte fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "trouve les objets": {
+   "cls": "typeName",
+   "s": [
+    "trouve les objets",
+    "trouve les objets mentionnés par ariel",
+    "trouver les objets cachés",
+    "trouver les objets jeux"
+   ]
+  },
+  "trouve les objets fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "chasse au trésor": {
+   "cls": "typeName",
+   "s": [
+    "chasse au trésor dofus",
+    "chasse au trésor",
+    "chasse au trésor forza horizon 6",
+    "chasse au trésor gratuite à imprimer pdf",
+    "chasse au trésor gratuite à imprimer pdf 10 ans",
+    "chasse au trésor quotidienne dofus",
+    "chasse au trésor gratuite à imprimer pdf 8 ans",
+    "chasse au trésor gratuite à imprimer pdf 6 ans",
+    "chasse au trésor archéologique",
+    "chasse au trésor enfant"
+   ]
+  },
+  "chasse au trésor fiches": {
+   "cls": "typeName",
+   "s": [
+    "chasse au tresor fiche d'activité"
+   ]
+  },
+  "pièces manquantes": {
+   "cls": "typeName",
+   "s": [
+    "pièces manquantes lego",
+    "pièces manquantes jeux de société",
+    "pièces manquantes",
+    "pièces manquantes ikea",
+    "pièces manquantes puzzle",
+    "pièces manquantes playmobil",
+    "pièces manquantes puzzle ravensburger"
+   ]
+  },
+  "pièces manquantes fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "l'intrus": {
+   "cls": "typeName",
+   "s": [
+    "l'intruse",
+    "l'intruse freida mcfadden",
+    "l'intrusion",
+    "l'intruse livre",
+    "l'intrus",
+    "l'intruse freida",
+    "l'intruse freida mcfadden date de sortie",
+    "l'intrusion film",
+    "l'intruse mcfadden",
+    "l'intrus en arabe"
+   ]
+  },
+  "l'intrus fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "compter des images": {
+   "cls": "typeName",
+   "s": []
+  },
+  "compter des images fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "boîtes de dix": {
+   "cls": "typeName",
+   "s": [
+    "boite de dix"
+   ]
+  },
+  "boîtes de dix fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "comptage en bâtons": {
+   "cls": "typeName",
+   "s": []
+  },
+  "comptage en bâtons fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tableau des nombres": {
+   "cls": "typeName",
+   "s": [
+    "tableau des nombres",
+    "tableau des nombres décimaux",
+    "tableau des nombres jusqu'à 100",
+    "tableau des nombres cp",
+    "tableau des nombres de 0 à 100 en chiffres et en lettres pdf",
+    "tableau des nombres premiers",
+    "tableau des nombres cp à compléter",
+    "tableau des nombres à imprimer",
+    "tableau des nombres de 0 à 100",
+    "tableau des nombres décimaux cm2"
+   ]
+  },
+  "tableau des nombres fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "comparer les nombres": {
+   "cls": "typeName",
+   "s": [
+    "comparer les nombres décimaux",
+    "comparer les nombres décimaux cm1",
+    "comparer les nombres cp",
+    "comparer les nombres",
+    "comparer les nombres décimaux cm2",
+    "comparer les nombres décimaux exercices",
+    "comparer les nombres ce1",
+    "comparer les nombres gs",
+    "comparer les nombres décimaux cm1 exercices",
+    "comparer les nombres suivants"
+   ]
+  },
+  "comparer les nombres fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "comparer les quantités": {
+   "cls": "typeName",
+   "s": [
+    "comparer les quantités gs",
+    "comparer les quantités ms",
+    "comparer les quantités",
+    "comparer les quantités cp",
+    "comparer quantités maternelle"
+   ]
+  },
+  "comparer les quantités fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "comparer les tailles": {
+   "cls": "typeName",
+   "s": [
+    "comparer les tailles",
+    "comparer les tailles des pays",
+    "comparer les tailles de personnes",
+    "comparer les tailles d iphone",
+    "comparer les tailles de voitures",
+    "comparer les tailles gs",
+    "comment comparer les tailles us et française",
+    "site comparer les tailles",
+    "comparer tailles villes",
+    "site pour comparer les tailles des pays"
+   ]
+  },
+  "comparer les tailles fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "droite numérique": {
+   "cls": "typeName",
+   "s": [
+    "droite numérique",
+    "droite numérique à imprimer",
+    "droite numérique cp",
+    "droite numérique vierge",
+    "droite numérique ce1",
+    "droite numérique gs",
+    "droite numérique en ligne",
+    "droite numérique ce2",
+    "droite numérique exercices",
+    "droite numérique vierge à imprimer"
+   ]
+  },
+  "droite numérique fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "dizaines et unités": {
+   "cls": "typeName",
+   "s": [
+    "dizaines et unités",
+    "dizaines et unités cp",
+    "dizaines et unités cp exercices",
+    "dizaines et unités ce1",
+    "dizaines et unités à imprimer",
+    "dizaines et unités exercices",
+    "dizaines et unités gs",
+    "dizaines et unités maitre lucas",
+    "dizaines et unités exercices ce1",
+    "dizaines et unités cp exercices en ligne"
+   ]
+  },
+  "dizaines et unités fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "lire l'heure": {
+   "cls": "typeName",
+   "s": [
+    "lire l'heure",
+    "lire l'heure ce1",
+    "lire l'heure cp",
+    "lire l'heure ce2",
+    "lire l'heure sur une horloge",
+    "lire l'heure en anglais",
+    "lire l'heure maitre lucas",
+    "lire l'heure exercices",
+    "lire l'heure cm1",
+    "lire l'heure expression"
+   ]
+  },
+  "lire l'heure fiches": {
+   "cls": "typeName",
+   "s": [
+    "lire l heure fiche",
+    "lire l heure fiche exercice",
+    "lire l heure fiche ce1",
+    "lire l heure fiche ce2",
+    "lire l heure cp fiche"
+   ]
+  },
+  "fractions": {
+   "cls": "typeName",
+   "s": [
+    "fractions",
+    "fractions ce1",
+    "fractions ce2",
+    "fractions décimales cm1",
+    "fractions cm1",
+    "fractions décimales",
+    "fractions ce2 exercices",
+    "fractions cm2",
+    "fractions équivalentes",
+    "fractions exercices"
+   ]
+  },
+  "fractions fiches": {
+   "cls": "typeName",
+   "s": [
+    "fractions fiches",
+    "fiches fractions ce1",
+    "fiches fractions ce2",
+    "fiches fractions cm1",
+    "fiches fractions cm2",
+    "math fiches",
+    "fiches fractions décimales cm1"
+   ]
+  },
+  "graphiques et données": {
+   "cls": "typeName",
+   "s": []
+  },
+  "graphiques et données fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "multiplication en réseaux": {
+   "cls": "typeName",
+   "s": []
+  },
+  "multiplication en réseaux fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "géométrie": {
+   "cls": "typeName",
+   "s": [
+    "geometry dash",
+    "geometry dash lite",
+    "géométrie",
+    "géométrie dans l'espace",
+    "géométrie voiture",
+    "géométrie sacrée",
+    "géométrie dash lite",
+    "géométrie voiture prix",
+    "géométrie analytique",
+    "géométrie dans l'espace 3ac"
+   ]
+  },
+  "géométrie fiches": {
+   "cls": "typeName",
+   "s": [
+    "fiches géométrie ce2",
+    "fiches géométrie ce1",
+    "fiches géométrie cm1",
+    "fiches géométrie cm2",
+    "fiches géométrie cp",
+    "fiches geometrie dans l'espace",
+    "fiches géométrie",
+    "fiches géométrie gs"
+   ]
+  },
+  "mesures": {
+   "cls": "typeName",
+   "s": [
+    "mesures nominatives",
+    "mesures",
+    "mesures conservatoires",
+    "mesures bas de contention",
+    "mesures agraires",
+    "mesures en anglais",
+    "mesures coercitives",
+    "mesures conservatoires def",
+    "mesures individuelles conseil des ministres",
+    "mesures chaussettes de contention"
+   ]
+  },
+  "mesures fiches": {
+   "cls": "typeName",
+   "s": [
+    "fiches mesures radiante",
+    "fiches mesures",
+    "fiches mesures ce2",
+    "fiches mesures juzo",
+    "fiches mesures cp",
+    "fiches mesures ce1"
+   ]
+  },
+  "logique visuelle": {
+   "cls": "typeName",
+   "s": [
+    "logique visuelle",
+    "logique integrative visuelle",
+    "suite logique visuelle",
+    "enigme logique visuelle",
+    "test logique visuelle",
+    "jeux de logique visuelle",
+    "exercice de logique visuelle"
+   ]
+  },
+  "logique visuelle fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "discrimination visuelle fiches": {
+   "cls": "typeName",
+   "s": [
+    "discrimination visuelle fiche"
+   ]
+  },
+  "associations visuelles": {
+   "cls": "typeName",
+   "s": []
+  },
+  "associations visuelles fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "suites logiques fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "se repérer dans l'espace": {
+   "cls": "typeName",
+   "s": [
+    "se repérer dans l'espace",
+    "se repérer dans l'espace cp",
+    "se repérer dans l'espace ce1",
+    "se repérer dans l'espace gs",
+    "se repérer dans l'espace maternelle",
+    "se repérer dans l'espace ce2",
+    "se repérer dans l'espace 4eme",
+    "se repérer dans l'espace ps",
+    "se repérer dans l'espace ms",
+    "se repérer dans l'espace cycle 2"
+   ]
+  },
+  "se repérer dans l'espace fiches": {
+   "cls": "typeName",
+   "s": [
+    "se repérer dans l espace fiche",
+    "se repérer dans l'espace gs fiche",
+    "se repérer dans l'espace ps fiche",
+    "se repérer dans l'espace ms fiche",
+    "fiche se repérer dans l espace cp",
+    "fiche se repérer dans l espace ce1",
+    "fiche se repérer dans l espace maternelle"
+   ]
+  },
+  "trier par catégories": {
+   "cls": "typeName",
+   "s": [
+    "trier par catégories"
+   ]
+  },
+  "trier par catégories fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "calcul illustré": {
+   "cls": "typeName",
+   "s": []
+  },
+  "calcul illustré fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tri en sciences": {
+   "cls": "typeName",
+   "s": []
+  },
+  "tri en sciences fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ordre et cycles de vie": {
+   "cls": "typeName",
+   "s": []
+  },
+  "ordre et cycles de vie fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "associations en sciences": {
+   "cls": "typeName",
+   "s": [
+    "associations sciences po paris",
+    "associations sciences po"
+   ]
+  },
+  "associations en sciences fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "sons initiaux": {
+   "cls": "typeName",
+   "s": [
+    "sons initiaux"
+   ]
+  },
+  "sons initiaux fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "connaissance des lettres": {
+   "cls": "typeName",
+   "s": [
+    "connaissance des lettres gs",
+    "connaissance des lettres ms",
+    "connaissance des lettres",
+    "connaissance des lettres cp",
+    "connaissance des lettres maternelle",
+    "connaissance des lettres hatier",
+    "évaluation connaissance des lettres gs",
+    "evaluation connaissance des lettres maternelle",
+    "évaluation connaissance des lettres",
+    "jeu connaissance des lettres gs"
+   ]
+  },
+  "connaissance des lettres fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "construction de mots": {
+   "cls": "typeName",
+   "s": [
+    "construction de mots",
+    "construction de mots avec lettres",
+    "construction de mots croisés",
+    "construction de jardin mots fléchés",
+    "construction de rues mots fléchés",
+    "construction de treillage mots fléchés",
+    "construction de charpentes mots fléchés",
+    "construction de pont mots fléchés",
+    "construction de jardin mots fléchés 7 lettres",
+    "construction de castor mots fléchés"
+   ]
+  },
+  "construction de mots fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "vocabulaire en images": {
+   "cls": "typeName",
+   "s": [
+    "vocabulaire en images",
+    "vocabulaire en images français à imprimer",
+    "mots en images",
+    "vocabulaire de la bd en images"
+   ]
+  },
+  "vocabulaire en images fiches": {
+   "cls": "typeName",
+   "s": []
+  },
+  "conscience phonologique": {
+   "cls": "typeName",
+   "s": [
+    "conscience phonologique",
+    "conscience phonologique def",
+    "conscience phonologique maternelle",
+    "conscience phonologique et phonémique",
+    "conscience phonologique gs",
+    "conscience phonologique exercices à imprimer",
+    "conscience phonologique et principe alphabétique",
+    "conscience phonologique pdf",
+    "conscience phonologique cp",
+    "conscience phonologique jeux"
+   ]
+  },
+  "conscience phonologique fiches": {
+   "cls": "typeName",
    "s": []
   }
  },
@@ -2314,6 +3524,18 @@
   "activités maths moyenne section",
   "activités maths ms",
   "activités maths ps",
+  "addition",
+  "addition de fraction",
+  "addition elle",
+  "addition en anglais",
+  "addition en espagnol",
+  "addition en italien",
+  "addition heure",
+  "addition posée cp",
+  "additionner des fractions",
+  "additionner des heures",
+  "additions et soustractions jusqu à 1000 avec passage",
+  "additions et soustractions jusqu à 1000 sans passage",
   "additions jusqu à 10",
   "additions jusqu à 10 cp",
   "additions jusqu à 10 exercices",
@@ -2326,6 +3548,16 @@
   "additions jusqu'à 1000",
   "administrateur d un bureau de poste 8 lettres",
   "affiche salle de classe maths",
+  "alphabet majuscule",
+  "alphabet majuscule attaché",
+  "alphabet majuscule calligraphie",
+  "alphabet majuscule cursive",
+  "alphabet majuscule et minuscule",
+  "alphabet majuscule et minuscule cursive",
+  "alphabet majuscule et minuscule à imprimer",
+  "alphabet majuscule manuscrit",
+  "alphabet majuscule script",
+  "alphabet majuscule à imprimer",
   "animaux 3 lettres",
   "animaux 4 lettres",
   "animaux 5 lettres",
@@ -2352,6 +3584,16 @@
   "animaux transparents 9 lettres",
   "animaux à compter emilie vast",
   "animaux à compter vast",
+  "appariement",
+  "appariement def",
+  "appariement def ses",
+  "appariement des chromosomes homologues",
+  "appariement en arabe",
+  "appariement haley",
+  "appariement par score de propension",
+  "appariement ses",
+  "appariement synonyme",
+  "appariement télécommande orange",
   "arbres 3 lettres",
   "arbres 4 lettres",
   "arbres 5 lettres",
@@ -2364,6 +3606,8 @@
   "arbres fruitiers 9 lettres",
   "arbres maths",
   "arbres tropicaux 4 lettres",
+  "associations sciences po",
+  "associations sciences po paris",
   "ateliers maternelle",
   "ateliers maternelle automne",
   "ateliers maternelle hiver",
@@ -2375,6 +3619,7 @@
   "autour de la maison 6 lettres",
   "best camping additions",
   "bic 4 couleurs maths",
+  "boite de dix",
   "boite à compter animaux de la ferme",
   "boulangerie 8 lettres",
   "boulangerie campus lettres",
@@ -2409,6 +3654,23 @@
   "cap boulangerie maths",
   "cartes les animaux du zoo vers les maths ps",
   "chant latin d action de grâce 6 lettres",
+  "chasse au tresor fiche d'activité",
+  "chasse au trésor",
+  "chasse au trésor archéologique",
+  "chasse au trésor dofus",
+  "chasse au trésor enfant",
+  "chasse au trésor forza horizon 6",
+  "chasse au trésor gratuite à imprimer pdf",
+  "chasse au trésor gratuite à imprimer pdf 10 ans",
+  "chasse au trésor gratuite à imprimer pdf 6 ans",
+  "chasse au trésor gratuite à imprimer pdf 8 ans",
+  "chasse au trésor quotidienne dofus",
+  "cherche trouve et compte",
+  "cherche trouve et compte jusqu à 10",
+  "cherche trouve et compte les animaux",
+  "cherche trouve et compte livre",
+  "classe ulis maternelle",
+  "code fiches",
   "coloriage magique",
   "coloriage magique ce1",
   "coloriage magique ce2",
@@ -2419,6 +3681,39 @@
   "coloriage magique ms",
   "coloriage magique table de multiplication",
   "coloriage magique à imprimer",
+  "comment comparer les tailles us et française",
+  "comparer les nombres",
+  "comparer les nombres ce1",
+  "comparer les nombres cp",
+  "comparer les nombres décimaux",
+  "comparer les nombres décimaux cm1",
+  "comparer les nombres décimaux cm1 exercices",
+  "comparer les nombres décimaux cm2",
+  "comparer les nombres décimaux exercices",
+  "comparer les nombres gs",
+  "comparer les nombres suivants",
+  "comparer les quantités",
+  "comparer les quantités cp",
+  "comparer les quantités gs",
+  "comparer les quantités ms",
+  "comparer les tailles",
+  "comparer les tailles d iphone",
+  "comparer les tailles de personnes",
+  "comparer les tailles de voitures",
+  "comparer les tailles des pays",
+  "comparer les tailles gs",
+  "comparer quantités maternelle",
+  "comparer tailles villes",
+  "compléments à 10",
+  "compléments à 10 cp",
+  "compléments à 10 exercices à imprimer cp",
+  "compléments à 10 exercices à imprimer gs",
+  "compléments à 10 gs",
+  "compléments à 100",
+  "compléments à 100 ce1",
+  "compléments à 100 exercices à imprimer",
+  "compléments à 1000",
+  "compléments à 1000 exercices à imprimer",
   "compter animaux",
   "compter animaux japonais",
   "compter couleurs contraires formes et moi",
@@ -2433,6 +3728,44 @@
   "compter oiseaux chapeaux livre",
   "compter oiseaux jardin",
   "compter oiseaux lpo",
+  "compteur graphique",
+  "compteur graphique excel",
+  "confusion b d",
+  "confusion b d ce1",
+  "confusion b d cp",
+  "confusion b d exercices",
+  "confusion b d exercices à imprimer",
+  "confusion b d logiciel educatif",
+  "confusion b d p q",
+  "confusion b d p q oiseau",
+  "confusion b et d orthophonie",
+  "confusion b et d pdf",
+  "connaissance des lettres",
+  "connaissance des lettres cp",
+  "connaissance des lettres gs",
+  "connaissance des lettres hatier",
+  "connaissance des lettres maternelle",
+  "connaissance des lettres ms",
+  "conscience phonologique",
+  "conscience phonologique cp",
+  "conscience phonologique def",
+  "conscience phonologique et phonémique",
+  "conscience phonologique et principe alphabétique",
+  "conscience phonologique exercices à imprimer",
+  "conscience phonologique gs",
+  "conscience phonologique jeux",
+  "conscience phonologique maternelle",
+  "conscience phonologique pdf",
+  "construction de castor mots fléchés",
+  "construction de charpentes mots fléchés",
+  "construction de jardin mots fléchés",
+  "construction de jardin mots fléchés 7 lettres",
+  "construction de mots",
+  "construction de mots avec lettres",
+  "construction de mots croisés",
+  "construction de pont mots fléchés",
+  "construction de rues mots fléchés",
+  "construction de treillage mots fléchés",
   "contrôle avec corrigé sur la première guerre mondiale",
   "correction fiches d activités hatier 3eme",
   "correction fiches d activités hatier 3eme edition 2020",
@@ -2452,23 +3785,116 @@
   "couleurs variées 9 lettres",
   "cours d'été maths",
   "cours fle maternelle pdf",
+  "cryptogramme",
+  "cryptogramme carte",
+  "cryptogramme carte bancaire",
+  "cryptogramme carte visa",
+  "cryptogramme dynamique",
+  "cryptogramme jeu",
+  "cryptogramme la buse",
+  "cryptogramme veut dire quoi",
+  "cryptogramme visa",
+  "cryptogramme visuel",
+  "devine le mot",
+  "devine le mot du jour",
+  "devine le mot du jour indice",
+  "devine le mot du jour solution",
+  "devine le mot indice",
+  "devine le mot jeu",
+  "devine le mot rbo",
+  "devine le mot reponse",
+  "devine le mot solution",
+  "devine le mot.fr",
   "devoirs maternelle",
   "devoirs maternelle grande section",
   "devoirs maternelle moyenne section",
   "devoirs maternelle petite section",
+  "dictée muette",
+  "dictée muette ce1",
+  "dictée muette cp",
+  "dictée muette cp pdf",
+  "dictée muette gs",
+  "dictée muette gs à imprimer",
+  "dictée muette maternelle",
+  "dictée muette montessori",
+  "dictée muette ms",
+  "dictée muette à imprimer",
   "dinosaures 10 lettres",
   "dinosaures herbivores 11 lettres",
   "dinosaures lettres",
   "dinosaures à compter",
+  "discrimination visuelle",
+  "discrimination visuelle cp",
+  "discrimination visuelle fiche",
+  "discrimination visuelle gs",
+  "discrimination visuelle maternelle",
+  "discrimination visuelle moyenne section",
+  "discrimination visuelle ms",
+  "discrimination visuelle pdf",
+  "discrimination visuelle petite section",
+  "discrimination visuelle ps",
+  "discrimination visuelle à imprimer",
+  "dispositif ulis maternelle",
   "divers 5 lettres",
   "divers 6 lettres",
   "divers 9 lettres",
+  "dizaines et unités",
+  "dizaines et unités ce1",
+  "dizaines et unités cp",
+  "dizaines et unités cp exercices",
+  "dizaines et unités cp exercices en ligne",
+  "dizaines et unités exercices",
+  "dizaines et unités exercices ce1",
+  "dizaines et unités gs",
+  "dizaines et unités maitre lucas",
+  "dizaines et unités à imprimer",
+  "droite numérique",
+  "droite numérique ce1",
+  "droite numérique ce2",
+  "droite numérique cp",
+  "droite numérique en ligne",
+  "droite numérique exercices",
+  "droite numérique gs",
+  "droite numérique vierge",
+  "droite numérique vierge à imprimer",
+  "droite numérique à imprimer",
   "dys maternelle",
   "dysgraphie maternelle",
   "dyslexie fiches pédagogiques",
   "dyslexie maternelle",
   "dysphasie maternelle",
   "dyspraxie maternelle",
+  "décomposition des nombres",
+  "décomposition des nombres ce1",
+  "décomposition des nombres ce2",
+  "décomposition des nombres cp",
+  "décomposition des nombres décimaux",
+  "décomposition des nombres exercices",
+  "décomposition des nombres exercices pdf",
+  "décomposition des nombres gs",
+  "décomposition des nombres gs pdf",
+  "décomposition des nombres maternelle",
+  "découpage collage",
+  "découpage collage cp",
+  "découpage collage gs",
+  "découpage collage gs printemps",
+  "découpage collage maternelle",
+  "découpage collage maternelle à imprimer gratuit",
+  "découpage collage ms",
+  "découpage collage ps",
+  "découpage collage à imprimer pdf",
+  "découpage collage à imprimer pdf gratuit",
+  "dénombrement",
+  "dénombrement 1 bac sm",
+  "dénombrement cours complet pdf",
+  "dénombrement cours et exercices corrigés pdf",
+  "dénombrement def",
+  "dénombrement exercices",
+  "dénombrement formule",
+  "dénombrement maternelle",
+  "dénombrement maths",
+  "dénombrement terminale",
+  "enigme logique visuelle",
   "enigme maths fruits",
   "espace 10 lettres",
   "espace 3 lettres",
@@ -2486,12 +3912,14 @@
   "espace maths gs",
   "espace maths maternelle",
   "espace maths terminale",
+  "evaluation connaissance des lettres maternelle",
   "exercice avec corrigé probabilité",
   "exercice avec corrigé pythagore",
   "exercice avec corrigé statistique",
   "exercice avec corrigé sur les ensembles pdf",
   "exercice avec corrigé trigonométrie",
   "exercice avec corrigé vecteur seconde",
+  "exercice de logique visuelle",
   "exercice maternelle",
   "exercice maternelle grande section",
   "exercice maternelle grande section gratuit à imprimer",
@@ -2499,7 +3927,18 @@
   "exercice maternelle pdf",
   "exercice maternelle petite section",
   "exercices avec corrigés détaillés gestion des ressources humaines pdf",
+  "exercices soustraction jusqu à 10",
   "fete 11 juillet 4 lettres",
+  "fiche de mathématiques",
+  "fiche de mathématiques ce1",
+  "fiche de mathématiques ce1 pnapas",
+  "fiche de mathématiques ce2",
+  "fiche de mathématiques cm1",
+  "fiche de mathématiques cm2",
+  "fiche de mathématiques cp",
+  "fiche de mathématiques cp1",
+  "fiche de mathématiques cp2",
+  "fiche de mathématiques à imprimer",
   "fiche dissertation lettres d'une péruvienne",
   "fiche lettre b",
   "fiche lettre b cp",
@@ -2550,6 +3989,15 @@
   "fiche maths printemps",
   "fiche maths printemps gs",
   "fiche maths printemps ms",
+  "fiche se repérer dans l espace ce1",
+  "fiche se repérer dans l espace cp",
+  "fiche se repérer dans l espace maternelle",
+  "fiche soustraction jusqu'à 10",
+  "fiches addition",
+  "fiches addition ce1",
+  "fiches addition cp",
+  "fiches addition gs",
+  "fiches addition posée cp",
   "fiches ateliers",
   "fiches ateliers autonomes maternelle",
   "fiches devoirs cp",
@@ -2563,6 +4011,44 @@
   "fiches fle b2",
   "fiches fle pdf",
   "fiches fle pour débutants",
+  "fiches fractions ce1",
+  "fiches fractions ce2",
+  "fiches fractions cm1",
+  "fiches fractions cm2",
+  "fiches fractions décimales cm1",
+  "fiches geometrie dans l'espace",
+  "fiches géométrie",
+  "fiches géométrie ce1",
+  "fiches géométrie ce2",
+  "fiches géométrie cm1",
+  "fiches géométrie cm2",
+  "fiches géométrie cp",
+  "fiches géométrie gs",
+  "fiches loto",
+  "fiches mesures",
+  "fiches mesures ce1",
+  "fiches mesures ce2",
+  "fiches mesures cp",
+  "fiches mesures juzo",
+  "fiches mesures radiante",
+  "fiches rituels",
+  "fiches rituels ce1",
+  "fiches rituels ce2",
+  "fiches rituels cp",
+  "fiches soustraction",
+  "fiches soustraction ce1",
+  "fiches soustraction ce2",
+  "fiches soustraction cp",
+  "fichier",
+  "fichier csv",
+  "fichier des véhicules assurés",
+  "fichier décès insee",
+  "fichier heic",
+  "fichier pdf",
+  "fichier ppsspp",
+  "fichier stl",
+  "fichier zip",
+  "fichiers (apple)",
   "fle ecole maternelle",
   "fle fiches",
   "fle fiches de vocabulaire à imprimer",
@@ -2586,6 +4072,7 @@
   "fleurs maths",
   "fleurs odorantes 7 lettres",
   "fleurs printanieres 7 lettres",
+  "fonctionnement plan de travail maternelle",
   "formes cintrées 4 lettres",
   "formes exterieures 9 lettres",
   "formes géométriques",
@@ -2599,6 +4086,17 @@
   "formes géométriques à découper maternelle",
   "formes géométriques à imprimer pdf",
   "formes linguistiques 6 lettres",
+  "fractions",
+  "fractions ce1",
+  "fractions ce2",
+  "fractions ce2 exercices",
+  "fractions cm1",
+  "fractions cm2",
+  "fractions décimales",
+  "fractions décimales cm1",
+  "fractions exercices",
+  "fractions fiches",
+  "fractions équivalentes",
   "fruits 10 lettres",
   "fruits 5 lettres",
   "fruits 6 lettres",
@@ -2612,6 +4110,18 @@
   "fruits secs 6 lettres",
   "fruits surets 7 lettres",
   "fruits à compter",
+  "geometry dash",
+  "geometry dash lite",
+  "grand ou petit",
+  "grand ou petit anne sylvestre",
+  "grand ou petit capricorne",
+  "grand ou petit carrelage pour petite piece",
+  "grand ou petit cousin",
+  "grand ou petit il s'agit des cartes en main",
+  "grand ou petit plateau velo",
+  "grand ou petit verre pour le vin",
+  "grand ou petit à versailles",
+  "grand ou petit épeautre",
   "graphisme",
   "graphisme cp",
   "graphisme définition",
@@ -2632,6 +4142,14 @@
   "graphème phonème",
   "graphème phonème différence",
   "graphèmes français",
+  "géométrie",
+  "géométrie analytique",
+  "géométrie dans l'espace",
+  "géométrie dans l'espace 3ac",
+  "géométrie dash lite",
+  "géométrie sacrée",
+  "géométrie voiture",
+  "géométrie voiture prix",
   "hiver 4 lettres",
   "hiver 6 lettres",
   "hiver 8 lettres",
@@ -2641,9 +4159,21 @@
   "hôpital 4 lettres mots fléchés",
   "hôpital alpin 4 lettres",
   "hôpital en 7 lettres",
+  "jeu connaissance des lettres gs",
   "jeu fle maternelle",
   "jeu maths animaux",
   "jeunes animaux de la ferme en 9 lettres",
+  "jeux de logique visuelle",
+  "l'intrus",
+  "l'intrus en arabe",
+  "l'intruse",
+  "l'intruse freida",
+  "l'intruse freida mcfadden",
+  "l'intruse freida mcfadden date de sortie",
+  "l'intruse livre",
+  "l'intruse mcfadden",
+  "l'intrusion",
+  "l'intrusion film",
   "la lettre m fiche",
   "la lettre t fiche maternelle",
   "la lettre u fiche maternelle",
@@ -2702,6 +4232,16 @@
   "lettres d hiver lettres d été",
   "lettres hiver",
   "lettres hiver maternelle",
+  "lettres mélangées",
+  "lettres mélangées cp",
+  "lettres mélangées en anglais",
+  "lettres mélangées gs",
+  "lettres mélangées jeu",
+  "lettres mélangées pour former un mot",
+  "lettres mélangées scrabble",
+  "lettres mélangées solution",
+  "lettres mélangées trouver un mot",
+  "lettres mélangées à imprimer",
   "lettres printemps maternelle",
   "lettres printemps à colorier",
   "lettres printemps à imprimer",
@@ -2709,8 +4249,22 @@
   "lien musique maths",
   "lire l heure cm1",
   "lire l heure cp",
+  "lire l heure cp fiche",
+  "lire l heure fiche",
+  "lire l heure fiche ce1",
+  "lire l heure fiche ce2",
+  "lire l heure fiche exercice",
+  "lire l'heure",
+  "lire l'heure ce1",
+  "lire l'heure ce2",
+  "lire l'heure cm1",
+  "lire l'heure cp",
+  "lire l'heure en anglais",
   "lire l'heure exercices",
   "lire l'heure exercices pdf",
+  "lire l'heure expression",
+  "lire l'heure maitre lucas",
+  "lire l'heure sur une horloge",
   "lire l’heure",
   "lire l’heure ce1",
   "lire l’heure ce2",
@@ -2718,11 +4272,24 @@
   "lire l’heure en espagnol",
   "lire l’heure horloge",
   "livre a compter animaux de la ferme",
+  "logique integrative visuelle",
+  "logique visuelle",
+  "loto",
+  "loto aujourd'hui",
+  "loto bonheur",
+  "loto ce soir",
+  "loto fdj",
+  "loto foot",
+  "loto max",
+  "loto mercredi",
+  "loto quebec",
+  "loto resultat",
   "légumes 10 lettres",
   "légumes 11 lettres",
   "légumes 5 lettres",
   "légumes 6 lettres",
   "légumes 7 lettres",
+  "math fiches",
   "maths espace complet",
   "maths espace cp",
   "maths espace vectoriel",
@@ -2734,6 +4301,16 @@
   "maths printemps",
   "maths printemps maternelle",
   "maths printemps ms",
+  "mesures",
+  "mesures agraires",
+  "mesures bas de contention",
+  "mesures chaussettes de contention",
+  "mesures coercitives",
+  "mesures conservatoires",
+  "mesures conservatoires def",
+  "mesures en anglais",
+  "mesures individuelles conseil des ministres",
+  "mesures nominatives",
   "meubles 4 lettres",
   "meubles 5 lettres",
   "meubles 6 lettres",
@@ -2744,7 +4321,49 @@
   "meubles liturgiques 8 lettres",
   "meubles reposants 5 lettres",
   "meubles tv 5 lettres",
+  "motricité fine",
+  "motricité fine 2 ans",
+  "motricité fine 3 ans",
+  "motricité fine 4 ans",
+  "motricité fine bébé",
+  "motricité fine def",
+  "motricité fine exemple",
+  "motricité fine gs",
+  "motricité fine maternelle",
+  "motricité fine ps",
+  "mots croisés",
+  "mots croisés en ligne",
+  "mots croisés faciles",
+  "mots croisés fiche",
+  "mots croisés france info",
+  "mots croisés gratuits",
+  "mots croisés la croix",
+  "mots croisés le devoir",
+  "mots croisés le parisien",
+  "mots croisés notre temps",
+  "mots croisés solutions",
+  "mots en images",
   "mots hiver lettres mobiles",
+  "mots mêlés",
+  "mots mêlés - jeu de mots",
+  "mots mêlés ce2",
+  "mots mêlés gratuit",
+  "mots mêlés générateur",
+  "mots mêlés à imprimer",
+  "mots mêlés à imprimer adulte",
+  "mots mêlés à imprimer gratuit",
+  "mots mêlés à imprimer pdf",
+  "mots mêlés à imprimer pour personnes âgées",
+  "mots outils",
+  "mots outils ce1",
+  "mots outils ce2",
+  "mots outils cp",
+  "mots outils cp liste officielle 2025",
+  "mots outils cp pdf",
+  "mots outils cp piano",
+  "mots outils cp taoki",
+  "mots outils cp à imprimer",
+  "mots outils taoki",
   "musique 3 lettres",
   "musique 4 lettres",
   "musique 5 lettres",
@@ -2766,6 +4385,16 @@
   "météo 5 lettres",
   "météo maths",
   "notes musique lettres",
+  "numération cp",
+  "numération cp ce1",
+  "numération cp crevette",
+  "numération cp exercices",
+  "numération cp ipotame",
+  "numération cp période 1",
+  "numération cp période 3",
+  "numération cp période 4",
+  "numération cp période 5",
+  "numération cp école de crevette",
   "oiseaux 10 lettres",
   "oiseaux 4 lettres",
   "oiseaux 5 lettres",
@@ -2808,6 +4437,12 @@
   "periode 2 wochen zu früh",
   "periode 2 wochen zu spät bekommen",
   "periode 200 ml blutverlust",
+  "periode 3",
+  "periode 3 lettres",
+  "periode 3 tage",
+  "periode 3 tage normal",
+  "periode 3 tage zu früh",
+  "periode 3 tage überfällig",
   "petit déjeuner 5 lettres",
   "petit déjeuner anglais 9 lettres",
   "petit déjeuner complet 5 lettres",
@@ -2834,6 +4469,13 @@
   "phonèmes français",
   "picore autour de la maison 10 lettres",
   "picore autour de la maison des les premiers froids 10 lettres",
+  "pièces manquantes",
+  "pièces manquantes ikea",
+  "pièces manquantes jeux de société",
+  "pièces manquantes lego",
+  "pièces manquantes playmobil",
+  "pièces manquantes puzzle",
+  "pièces manquantes puzzle ravensburger",
   "plage 10 lettres",
   "plage 3 lettres",
   "plage 4 lettres",
@@ -2845,6 +4487,28 @@
   "plage landaise 7 lettres",
   "plage maths",
   "plage parisienne 9 lettres",
+  "plan de travail egger fiche technique",
+  "plan de travail fiche",
+  "plan de travail fiche technique",
+  "plan de travail maternelle",
+  "plan de travail maternelle gs",
+  "plan de travail maternelle modifiable",
+  "plan de travail maternelle ms",
+  "plan de travail maternelle organisation",
+  "plan de travail maternelle ps",
+  "plan de travail maternelle ps ms",
+  "plan de travail maternelle vierge",
+  "plan de travail maternelle éduscol",
+  "plus ou moins",
+  "plus ou moins bien disposé",
+  "plus ou moins bien disposé en 3 lettres",
+  "plus ou moins clavier",
+  "plus ou moins en anglais",
+  "plus ou moins en arabe",
+  "plus ou moins latex",
+  "plus ou moins signe",
+  "plus ou moins symbole",
+  "plus ou moins synonyme",
   "printemps 2 lettres",
   "printemps 2 lettres mots fléchés",
   "printemps 3 lettres",
@@ -2854,6 +4518,20 @@
   "printemps lettres mobiles",
   "printemps maths gs",
   "progression fle maternelle",
+  "prépositions",
+  "prépositions de lieu",
+  "prépositions de lieu en anglais",
+  "prépositions de lieu en espagnol",
+  "prépositions de lieu exercices pdf",
+  "prépositions en allemand",
+  "prépositions en anglais",
+  "prépositions en espagnol",
+  "prépositions français",
+  "prépositions liste",
+  "puzzle mathématique",
+  "puzzle mathématique gratuit",
+  "puzzle mathématique gratuit en ligne",
+  "puzzle mathématiques à imprimer",
   "pâques juive 6 lettres",
   "période 1",
   "période 1 ce1",
@@ -2866,12 +4544,111 @@
   "période 1600",
   "période 2",
   "période 2 lettres",
+  "période 3 lettres",
+  "période 3 scolaire",
+  "période 3 école",
+  "période 30 glorieuses",
+  "période 4",
+  "période 4 cm2",
+  "période 4 gs",
+  "période 4 lettres",
+  "période 4 maternelle",
+  "période 4 moyenne section",
+  "période 4 ms",
+  "période 4 petite section",
+  "période 4 ps",
+  "période 4 scolaire",
+  "période 5",
+  "période 5 cp",
+  "période 5 gs",
+  "période 5 gs maths",
+  "période 5 lettres",
+  "période 5 maternelle",
+  "période 5 moyenne section",
+  "période 5 ms",
+  "période 5 petite section",
+  "période 5 ps ms",
   "remédiation maternelle",
+  "repérage dans l espace",
+  "repérage dans l espace 3eme exercices corrigés pdf",
+  "repérage dans l espace ce1",
+  "repérage dans l espace cp",
+  "repérage dans l espace gs",
+  "repérage dans l espace maternelle",
+  "repérage dans l'espace 4ème exercices corrigés pdf",
+  "repérage dans l'espace exercices corrigés pdf",
+  "repérage dans l'espace exercices pdf",
+  "repérage dans l’espace",
+  "rituels maternelle",
+  "rituels maternelle affichage",
+  "rituels maternelle eduscol",
+  "rituels maternelle gs",
+  "rituels maternelle ms",
+  "rituels maternelle ms gs",
+  "rituels maternelle ps ms",
+  "rituels maternelle retz",
+  "rituels maternelle tbi",
+  "rituels maternelle à imprimer",
   "salle de classe maths",
   "se fait au bureau de poste 12 lettres",
   "se fait au bureau de poste 3 lettres",
+  "se repérer dans l espace fiche",
+  "se repérer dans l'espace",
+  "se repérer dans l'espace 4eme",
+  "se repérer dans l'espace ce1",
+  "se repérer dans l'espace ce2",
+  "se repérer dans l'espace cp",
+  "se repérer dans l'espace cycle 2",
+  "se repérer dans l'espace gs",
+  "se repérer dans l'espace gs fiche",
+  "se repérer dans l'espace maternelle",
+  "se repérer dans l'espace ms",
+  "se repérer dans l'espace ms fiche",
+  "se repérer dans l'espace ps",
+  "se repérer dans l'espace ps fiche",
+  "site comparer les tailles",
+  "site pour comparer les tailles des pays",
+  "sons complexes",
+  "sons complexes alphas",
+  "sons complexes ce1",
+  "sons complexes ce2",
+  "sons complexes couleurs",
+  "sons complexes cp",
+  "sons complexes cp exercices",
+  "sons complexes français",
+  "sons complexes gs",
+  "sons complexes lecture",
+  "sons initiaux",
+  "soustraction",
+  "soustraction avec retenue",
+  "soustraction avec retenue ce1",
+  "soustraction avec retenue ce2",
+  "soustraction ce1",
+  "soustraction de fraction",
+  "soustraction excel",
+  "soustraction heure",
+  "soustraction jusqu à 10 cp",
+  "soustraction jusqu à 1000 avec passage",
+  "soustraction jusqu'à 1000",
+  "soustraction posée",
+  "soustraction posée ce1",
+  "soustractions jusqu à 10",
+  "soustractions jusqu'à 100",
+  "soustractions jusqu'à 1000 sans passage",
   "stage été maths",
   "storm divers additions",
+  "sudoku illustré",
+  "suite logique visuelle",
+  "suites logiques",
+  "suites logiques ce1",
+  "suites logiques cm1",
+  "suites logiques cm2",
+  "suites logiques cp",
+  "suites logiques cycle 3",
+  "suites logiques exercices",
+  "suites logiques exercices à imprimer",
+  "suites logiques gs",
+  "suites logiques maternelle",
   "sujet avec corrigé brevet",
   "sujet maths musique grand oral",
   "syllabes",
@@ -2884,7 +4661,43 @@
   "syllabes finales ms",
   "syllabes maternelle",
   "syllabes poésie",
+  "tableau des nombres",
+  "tableau des nombres cp",
+  "tableau des nombres cp à compléter",
+  "tableau des nombres de 0 à 100",
+  "tableau des nombres de 0 à 100 en chiffres et en lettres pdf",
+  "tableau des nombres décimaux",
+  "tableau des nombres décimaux cm2",
+  "tableau des nombres jusqu'à 100",
+  "tableau des nombres premiers",
+  "tableau des nombres à imprimer",
+  "test logique visuelle",
+  "train alphabet chart",
+  "train alphabet duplo",
+  "train alphabet lego",
+  "train alphabet lego duplo",
+  "train alphabet letters",
+  "train alphabet mega bloks",
+  "train alphabet puzzle",
+  "train alphabet song",
+  "train alphabet youtube",
+  "train de l'alphabet",
+  "trier images",
+  "trier par catégories",
   "trouble dys maternelle",
+  "trouve les objets",
+  "trouve les objets mentionnés par ariel",
+  "trouver les objets cachés",
+  "trouver les objets jeux",
+  "ulis fiches",
+  "ulis maternelle",
+  "ulis maternelle angouleme",
+  "ulis maternelle lyon",
+  "ulis maternelle nice",
+  "ulis maternelle rhone",
+  "ulis tsa maternelle",
+  "ulis école maternelle",
+  "ulysse maternelle",
   "ustensiles de cuisine 10 lettres",
   "ustensiles de cuisine 11 lettres",
   "ustensiles de cuisine 4 lettres",
@@ -2894,6 +4707,9 @@
   "ustensiles de cuisine 7 lettres finissant par ille",
   "ustensiles de cuisine 8 lettres",
   "ustensiles de cuisine 9 lettres",
+  "vocabulaire de la bd en images",
+  "vocabulaire en images",
+  "vocabulaire en images français à imprimer",
   "vêtements 4 lettres",
   "vêtements 5 lettres",
   "vêtements 5 lettres mots fléchés",
@@ -2903,10 +4719,22 @@
   "vêtements 9 lettres",
   "vêtements ridicules 8 lettres",
   "école d été maths",
+  "écriture cursive",
+  "écriture cursive cp",
+  "écriture cursive en ligne",
+  "écriture cursive exemple",
+  "écriture cursive gs",
+  "écriture cursive majuscule",
+  "écriture cursive ou scripte",
+  "écriture cursive russe",
+  "écriture cursive word",
+  "écriture cursive à télécharger",
   "été 6 lettres",
   "été efficace 3 lettres",
   "été pernicieux 3 lettres",
-  "été victime 4 lettres"
+  "été victime 4 lettres",
+  "évaluation connaissance des lettres",
+  "évaluation connaissance des lettres gs"
  ],
  "novel": [
   "accessoires 10 lettres",
@@ -2934,6 +4762,9 @@
   "activités maths moyenne section",
   "activités maths ms",
   "activités maths ps",
+  "additionner des heures",
+  "additions et soustractions jusqu à 1000 avec passage",
+  "additions et soustractions jusqu à 1000 sans passage",
   "additions jusqu à 10",
   "additions jusqu à 10 cp",
   "additions jusqu à 10 exercices",
@@ -2946,6 +4777,16 @@
   "additions jusqu'à 1000",
   "administrateur d un bureau de poste 8 lettres",
   "affiche salle de classe maths",
+  "alphabet majuscule",
+  "alphabet majuscule attaché",
+  "alphabet majuscule calligraphie",
+  "alphabet majuscule cursive",
+  "alphabet majuscule et minuscule",
+  "alphabet majuscule et minuscule cursive",
+  "alphabet majuscule et minuscule à imprimer",
+  "alphabet majuscule manuscrit",
+  "alphabet majuscule script",
+  "alphabet majuscule à imprimer",
   "animaux 3 lettres",
   "animaux 4 lettres",
   "animaux 5 lettres",
@@ -2972,6 +4813,7 @@
   "animaux transparents 9 lettres",
   "animaux à compter emilie vast",
   "animaux à compter vast",
+  "appariement haley",
   "arbres 3 lettres",
   "arbres 4 lettres",
   "arbres 5 lettres",
@@ -3029,6 +4871,10 @@
   "cap boulangerie maths",
   "cartes les animaux du zoo vers les maths ps",
   "chant latin d action de grâce 6 lettres",
+  "chasse au trésor enfant",
+  "chasse au trésor gratuite à imprimer pdf 8 ans",
+  "classe ulis maternelle",
+  "code fiches",
   "coloriage magique",
   "coloriage magique ce1",
   "coloriage magique ce2",
@@ -3039,6 +4885,18 @@
   "coloriage magique ms",
   "coloriage magique table de multiplication",
   "coloriage magique à imprimer",
+  "comparer les nombres décimaux cm1 exercices",
+  "comparer les nombres suivants",
+  "compléments à 10",
+  "compléments à 10 cp",
+  "compléments à 10 exercices à imprimer cp",
+  "compléments à 10 exercices à imprimer gs",
+  "compléments à 10 gs",
+  "compléments à 100",
+  "compléments à 100 ce1",
+  "compléments à 100 exercices à imprimer",
+  "compléments à 1000",
+  "compléments à 1000 exercices à imprimer",
   "compter animaux",
   "compter animaux japonais",
   "compter couleurs contraires formes et moi",
@@ -3053,6 +4911,16 @@
   "compter oiseaux chapeaux livre",
   "compter oiseaux jardin",
   "compter oiseaux lpo",
+  "confusion b d",
+  "confusion b d ce1",
+  "confusion b d cp",
+  "confusion b d exercices",
+  "confusion b d exercices à imprimer",
+  "confusion b d logiciel educatif",
+  "confusion b d p q",
+  "confusion b d p q oiseau",
+  "confusion b et d orthophonie",
+  "confusion b et d pdf",
   "contrôle avec corrigé sur la première guerre mondiale",
   "correction fiches d activités hatier 3eme",
   "correction fiches d activités hatier 3eme edition 2020",
@@ -3072,23 +4940,69 @@
   "couleurs variées 9 lettres",
   "cours d'été maths",
   "cours fle maternelle pdf",
+  "cryptogramme jeu",
+  "devine le mot rbo",
   "devoirs maternelle",
   "devoirs maternelle grande section",
   "devoirs maternelle moyenne section",
   "devoirs maternelle petite section",
+  "dictée muette",
+  "dictée muette ce1",
+  "dictée muette cp",
+  "dictée muette cp pdf",
+  "dictée muette gs",
+  "dictée muette gs à imprimer",
+  "dictée muette maternelle",
+  "dictée muette montessori",
+  "dictée muette ms",
+  "dictée muette à imprimer",
   "dinosaures 10 lettres",
   "dinosaures herbivores 11 lettres",
   "dinosaures lettres",
   "dinosaures à compter",
+  "discrimination visuelle pdf",
+  "dispositif ulis maternelle",
   "divers 5 lettres",
   "divers 6 lettres",
   "divers 9 lettres",
+  "droite numérique en ligne",
+  "droite numérique gs",
   "dys maternelle",
   "dysgraphie maternelle",
   "dyslexie fiches pédagogiques",
   "dyslexie maternelle",
   "dysphasie maternelle",
   "dyspraxie maternelle",
+  "décomposition des nombres",
+  "décomposition des nombres ce1",
+  "décomposition des nombres ce2",
+  "décomposition des nombres cp",
+  "décomposition des nombres décimaux",
+  "décomposition des nombres exercices",
+  "décomposition des nombres exercices pdf",
+  "décomposition des nombres gs",
+  "décomposition des nombres gs pdf",
+  "décomposition des nombres maternelle",
+  "découpage collage",
+  "découpage collage cp",
+  "découpage collage gs",
+  "découpage collage gs printemps",
+  "découpage collage maternelle",
+  "découpage collage maternelle à imprimer gratuit",
+  "découpage collage ms",
+  "découpage collage ps",
+  "découpage collage à imprimer pdf",
+  "découpage collage à imprimer pdf gratuit",
+  "dénombrement",
+  "dénombrement 1 bac sm",
+  "dénombrement cours complet pdf",
+  "dénombrement cours et exercices corrigés pdf",
+  "dénombrement def",
+  "dénombrement exercices",
+  "dénombrement formule",
+  "dénombrement maternelle",
+  "dénombrement maths",
+  "dénombrement terminale",
   "enigme maths fruits",
   "espace 10 lettres",
   "espace 3 lettres",
@@ -3119,6 +5033,7 @@
   "exercice maternelle pdf",
   "exercice maternelle petite section",
   "exercices avec corrigés détaillés gestion des ressources humaines pdf",
+  "exercices soustraction jusqu à 10",
   "fete 11 juillet 4 lettres",
   "fiche dissertation lettres d'une péruvienne",
   "fiche lettre b",
@@ -3170,6 +5085,12 @@
   "fiche maths printemps",
   "fiche maths printemps gs",
   "fiche maths printemps ms",
+  "fiche soustraction jusqu'à 10",
+  "fiches addition",
+  "fiches addition ce1",
+  "fiches addition cp",
+  "fiches addition gs",
+  "fiches addition posée cp",
   "fiches ateliers",
   "fiches ateliers autonomes maternelle",
   "fiches devoirs cp",
@@ -3183,6 +5104,44 @@
   "fiches fle b2",
   "fiches fle pdf",
   "fiches fle pour débutants",
+  "fiches fractions ce1",
+  "fiches fractions ce2",
+  "fiches fractions cm1",
+  "fiches fractions cm2",
+  "fiches fractions décimales cm1",
+  "fiches geometrie dans l'espace",
+  "fiches géométrie",
+  "fiches géométrie ce1",
+  "fiches géométrie ce2",
+  "fiches géométrie cm1",
+  "fiches géométrie cm2",
+  "fiches géométrie cp",
+  "fiches géométrie gs",
+  "fiches loto",
+  "fiches mesures",
+  "fiches mesures ce1",
+  "fiches mesures ce2",
+  "fiches mesures cp",
+  "fiches mesures juzo",
+  "fiches mesures radiante",
+  "fiches rituels",
+  "fiches rituels ce1",
+  "fiches rituels ce2",
+  "fiches rituels cp",
+  "fiches soustraction",
+  "fiches soustraction ce1",
+  "fiches soustraction ce2",
+  "fiches soustraction cp",
+  "fichier",
+  "fichier csv",
+  "fichier des véhicules assurés",
+  "fichier décès insee",
+  "fichier heic",
+  "fichier pdf",
+  "fichier ppsspp",
+  "fichier stl",
+  "fichier zip",
+  "fichiers (apple)",
   "fle ecole maternelle",
   "fle fiches",
   "fle fiches de vocabulaire à imprimer",
@@ -3206,6 +5165,7 @@
   "fleurs maths",
   "fleurs odorantes 7 lettres",
   "fleurs printanieres 7 lettres",
+  "fonctionnement plan de travail maternelle",
   "formes cintrées 4 lettres",
   "formes exterieures 9 lettres",
   "formes géométriques",
@@ -3219,6 +5179,7 @@
   "formes géométriques à découper maternelle",
   "formes géométriques à imprimer pdf",
   "formes linguistiques 6 lettres",
+  "fractions fiches",
   "fruits 10 lettres",
   "fruits 5 lettres",
   "fruits 6 lettres",
@@ -3232,6 +5193,7 @@
   "fruits secs 6 lettres",
   "fruits surets 7 lettres",
   "fruits à compter",
+  "grand ou petit il s'agit des cartes en main",
   "graphisme",
   "graphisme cp",
   "graphisme définition",
@@ -3252,6 +5214,7 @@
   "graphème phonème",
   "graphème phonème différence",
   "graphèmes français",
+  "géométrie dans l'espace 3ac",
   "hiver 4 lettres",
   "hiver 6 lettres",
   "hiver 8 lettres",
@@ -3264,6 +5227,7 @@
   "jeu fle maternelle",
   "jeu maths animaux",
   "jeunes animaux de la ferme en 9 lettres",
+  "l'intrus en arabe",
   "la lettre m fiche",
   "la lettre t fiche maternelle",
   "la lettre u fiche maternelle",
@@ -3329,6 +5293,9 @@
   "lien musique maths",
   "lire l heure cm1",
   "lire l heure cp",
+  "lire l heure cp fiche",
+  "lire l heure fiche",
+  "lire l'heure expression",
   "lire l’heure",
   "lire l’heure ce1",
   "lire l’heure ce2",
@@ -3336,11 +5303,13 @@
   "lire l’heure en espagnol",
   "lire l’heure horloge",
   "livre a compter animaux de la ferme",
+  "loto aujourd'hui",
   "légumes 10 lettres",
   "légumes 11 lettres",
   "légumes 5 lettres",
   "légumes 6 lettres",
   "légumes 7 lettres",
+  "math fiches",
   "maths espace complet",
   "maths espace cp",
   "maths espace vectoriel",
@@ -3352,6 +5321,7 @@
   "maths printemps",
   "maths printemps maternelle",
   "maths printemps ms",
+  "mesures nominatives",
   "meubles 4 lettres",
   "meubles 5 lettres",
   "meubles 6 lettres",
@@ -3362,7 +5332,27 @@
   "meubles liturgiques 8 lettres",
   "meubles reposants 5 lettres",
   "meubles tv 5 lettres",
+  "motricité fine",
+  "motricité fine 2 ans",
+  "motricité fine 3 ans",
+  "motricité fine 4 ans",
+  "motricité fine bébé",
+  "motricité fine def",
+  "motricité fine exemple",
+  "motricité fine gs",
+  "motricité fine maternelle",
+  "motricité fine ps",
   "mots hiver lettres mobiles",
+  "mots outils",
+  "mots outils ce1",
+  "mots outils ce2",
+  "mots outils cp",
+  "mots outils cp liste officielle 2025",
+  "mots outils cp pdf",
+  "mots outils cp piano",
+  "mots outils cp taoki",
+  "mots outils cp à imprimer",
+  "mots outils taoki",
   "musique 3 lettres",
   "musique 4 lettres",
   "musique 5 lettres",
@@ -3384,6 +5374,16 @@
   "météo 5 lettres",
   "météo maths",
   "notes musique lettres",
+  "numération cp",
+  "numération cp ce1",
+  "numération cp crevette",
+  "numération cp exercices",
+  "numération cp ipotame",
+  "numération cp période 1",
+  "numération cp période 3",
+  "numération cp période 4",
+  "numération cp période 5",
+  "numération cp école de crevette",
   "oiseaux 10 lettres",
   "oiseaux 4 lettres",
   "oiseaux 5 lettres",
@@ -3426,6 +5426,12 @@
   "periode 2 wochen zu früh",
   "periode 2 wochen zu spät bekommen",
   "periode 200 ml blutverlust",
+  "periode 3",
+  "periode 3 lettres",
+  "periode 3 tage",
+  "periode 3 tage normal",
+  "periode 3 tage zu früh",
+  "periode 3 tage überfällig",
   "petit déjeuner 5 lettres",
   "petit déjeuner anglais 9 lettres",
   "petit déjeuner complet 5 lettres",
@@ -3463,6 +5469,19 @@
   "plage landaise 7 lettres",
   "plage maths",
   "plage parisienne 9 lettres",
+  "plan de travail egger fiche technique",
+  "plan de travail fiche",
+  "plan de travail fiche technique",
+  "plan de travail maternelle",
+  "plan de travail maternelle gs",
+  "plan de travail maternelle modifiable",
+  "plan de travail maternelle ms",
+  "plan de travail maternelle organisation",
+  "plan de travail maternelle ps",
+  "plan de travail maternelle ps ms",
+  "plan de travail maternelle vierge",
+  "plan de travail maternelle éduscol",
+  "plus ou moins bien disposé en 3 lettres",
   "printemps 2 lettres",
   "printemps 2 lettres mots fléchés",
   "printemps 3 lettres",
@@ -3472,6 +5491,7 @@
   "printemps lettres mobiles",
   "printemps maths gs",
   "progression fle maternelle",
+  "prépositions en allemand",
   "pâques juive 6 lettres",
   "période 1",
   "période 1 ce1",
@@ -3484,12 +5504,75 @@
   "période 1600",
   "période 2",
   "période 2 lettres",
+  "période 3 lettres",
+  "période 3 scolaire",
+  "période 3 école",
+  "période 30 glorieuses",
+  "période 4",
+  "période 4 cm2",
+  "période 4 gs",
+  "période 4 lettres",
+  "période 4 maternelle",
+  "période 4 moyenne section",
+  "période 4 ms",
+  "période 4 petite section",
+  "période 4 ps",
+  "période 4 scolaire",
+  "période 5",
+  "période 5 cp",
+  "période 5 gs",
+  "période 5 gs maths",
+  "période 5 lettres",
+  "période 5 maternelle",
+  "période 5 moyenne section",
+  "période 5 ms",
+  "période 5 petite section",
+  "période 5 ps ms",
   "remédiation maternelle",
+  "repérage dans l espace",
+  "repérage dans l espace 3eme exercices corrigés pdf",
+  "repérage dans l espace ce1",
+  "repérage dans l espace cp",
+  "repérage dans l espace gs",
+  "repérage dans l espace maternelle",
+  "repérage dans l'espace 4ème exercices corrigés pdf",
+  "repérage dans l'espace exercices corrigés pdf",
+  "repérage dans l'espace exercices pdf",
+  "repérage dans l’espace",
+  "rituels maternelle",
+  "rituels maternelle affichage",
+  "rituels maternelle eduscol",
+  "rituels maternelle gs",
+  "rituels maternelle ms",
+  "rituels maternelle ms gs",
+  "rituels maternelle ps ms",
+  "rituels maternelle retz",
+  "rituels maternelle tbi",
+  "rituels maternelle à imprimer",
   "salle de classe maths",
   "se fait au bureau de poste 12 lettres",
   "se fait au bureau de poste 3 lettres",
+  "se repérer dans l espace fiche",
+  "sons complexes",
+  "sons complexes alphas",
+  "sons complexes ce1",
+  "sons complexes ce2",
+  "sons complexes couleurs",
+  "sons complexes cp",
+  "sons complexes cp exercices",
+  "sons complexes français",
+  "sons complexes gs",
+  "sons complexes lecture",
+  "soustraction jusqu à 10 cp",
+  "soustraction jusqu à 1000 avec passage",
+  "soustraction jusqu'à 1000",
+  "soustractions jusqu à 10",
+  "soustractions jusqu'à 100",
+  "soustractions jusqu'à 1000 sans passage",
   "stage été maths",
   "storm divers additions",
+  "sudoku illustré",
+  "suites logiques exercices à imprimer",
   "sujet avec corrigé brevet",
   "sujet maths musique grand oral",
   "syllabes",
@@ -3503,6 +5586,17 @@
   "syllabes maternelle",
   "syllabes poésie",
   "trouble dys maternelle",
+  "trouve les objets",
+  "trouve les objets mentionnés par ariel",
+  "ulis fiches",
+  "ulis maternelle",
+  "ulis maternelle angouleme",
+  "ulis maternelle lyon",
+  "ulis maternelle nice",
+  "ulis maternelle rhone",
+  "ulis tsa maternelle",
+  "ulis école maternelle",
+  "ulysse maternelle",
   "ustensiles de cuisine 10 lettres",
   "ustensiles de cuisine 11 lettres",
   "ustensiles de cuisine 4 lettres",
@@ -3521,10 +5615,19 @@
   "vêtements 9 lettres",
   "vêtements ridicules 8 lettres",
   "école d été maths",
+  "écriture cursive",
+  "écriture cursive cp",
+  "écriture cursive en ligne",
+  "écriture cursive exemple",
+  "écriture cursive gs",
+  "écriture cursive majuscule",
+  "écriture cursive ou scripte",
+  "écriture cursive russe",
+  "écriture cursive word",
+  "écriture cursive à télécharger",
   "été 6 lettres",
   "été efficace 3 lettres",
   "été pernicieux 3 lettres",
   "été victime 4 lettres"
- ],
- "refilteredAt": "2026-07-20T08:58:53.380Z"
+ ]
 }

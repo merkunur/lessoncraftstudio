@@ -24,6 +24,13 @@
 /* ------------------------------------------------------- source patterns (en) */
 var en = {
   srWorksheetQuestions: 'Worksheet questions',
+  /* These three exist in NO translations file — the apps only ever had the hardcoded English
+   * literal, so nine locales were never even a fallback away from correct. Captured from the
+   * live pages rather than from a translations file. */
+  srExerciseWordGuess: 'Question {n}: Spell the word for the picture shown. Some letters are already filled in.',
+  srExerciseWordScramble: 'Question {n}: Unscramble the letters {letters} to spell the word for the picture shown.',
+  srExerciseAlphabetTrain: 'Question {n}: Drag the correct letter into wagon {n}.',
+  srExerciseMathWorksheet: 'Question {n}: Find what each picture equals using these equations: {equations}.',
   srExerciseAddition: 'Question {n}: {a} plus {b} equals blank.',
   srExerciseAdditionFindAddend: 'Question {n}: blank plus {b} equals {sum}.',
   srExerciseBigSmallFindBig: 'Question {n}: Circle the biggest one.',
@@ -59,6 +66,10 @@ var en = {
 
 /* ------------------------------------------------------------------- Dutch */
 var nl = {
+  srExerciseMathWorksheet: 'Vraag {n}: zoek uit hoeveel elke afbeelding waard is met behulp van deze vergelijkingen: {equations}.',
+  srExerciseWordGuess: 'Vraag {n}: spel het woord bij de afbeelding. Sommige letters zijn al ingevuld.',
+  srExerciseWordScramble: 'Vraag {n}: vorm met deze letters het woord bij de afbeelding: {letters}.',
+  srExerciseAlphabetTrain: 'Vraag {n}: sleep de juiste letter naar wagon {n}.',
   srWorksheetQuestions: 'Vragen op het blad',
   srExerciseAddition: 'Vraag {n}: {a} plus {b} is gelijk aan leeg vakje.',
   srExerciseAdditionFindAddend: 'Vraag {n}: leeg vakje plus {b} is gelijk aan {sum}.',
@@ -97,6 +108,10 @@ var nl = {
 /* No placeholder ever follows de/du/de la — the elision hazard (d'ovale, d'étoile) is avoided
  * outright. Size adjectives agree with the fixed feminine `image`, never with an inserted noun. */
 var fr = {
+  srExerciseMathWorksheet: "Question {n} : Trouve la valeur de chaque image à l'aide de ces équations : {equations}.",
+  srExerciseWordGuess: "Question {n} : écris le mot correspondant à l'image. Certaines lettres sont déjà inscrites.",
+  srExerciseWordScramble: "Question {n} : remets les lettres dans l'ordre pour écrire le mot correspondant à l'image : {letters}.",
+  srExerciseAlphabetTrain: 'Question {n} : glisse la bonne lettre dans le wagon {n}.',
   srWorksheetQuestions: 'Questions de la fiche',
   srExerciseAddition: 'Question {n} : {a} plus {b} égale case vide.',
   srExerciseAdditionFindAddend: 'Question {n} : case vide plus {b} égale {sum}.',
@@ -133,6 +148,10 @@ var fr = {
 
 /* ----------------------------------------------------------------- Spanish */
 var es = {
+  srExerciseMathWorksheet: 'Pregunta {n}: Averigua cuánto vale cada imagen usando estas ecuaciones: {equations}.',
+  srExerciseWordGuess: 'Pregunta {n}: Escribe la palabra de la imagen. Algunas letras ya están puestas.',
+  srExerciseWordScramble: 'Pregunta {n}: Ordena las letras para escribir la palabra de la imagen: {letters}.',
+  srExerciseAlphabetTrain: 'Pregunta {n}: Arrastra la letra correcta al vagón {n}.',
   srWorksheetQuestions: 'Preguntas de la ficha',
   srExerciseAddition: 'Pregunta {n}: {a} más {b} es igual a espacio en blanco.',
   srExerciseAdditionFindAddend: 'Pregunta {n}: espacio en blanco más {b} es igual a {sum}.',
@@ -171,6 +190,10 @@ var es = {
 /* Article allomorphy (il/lo/la/l') and preposition fusion (di+il→del) are both unknowable at
  * runtime, so every inserted noun sits after a colon or in a comma apposition. */
 var it = {
+  srExerciseMathWorksheet: 'Domanda {n}: scopri quanto vale ogni immagine usando queste equazioni: {equations}.',
+  srExerciseWordGuess: "Domanda {n}: scrivi la parola dell'immagine. Alcune lettere sono già inserite.",
+  srExerciseWordScramble: "Domanda {n}: rimetti in ordine le lettere per scrivere la parola dell'immagine: {letters}.",
+  srExerciseAlphabetTrain: 'Domanda {n}: trascina la lettera giusta nel vagone {n}.',
   srWorksheetQuestions: 'Domande della scheda',
   srExerciseAddition: 'Domanda {n}: {a} più {b} uguale spazio vuoto.',
   srExerciseAdditionFindAddend: 'Domanda {n}: spazio vuoto più {b} uguale {sum}.',
@@ -207,6 +230,10 @@ var it = {
 
 /* ----------------------------------------------- Portuguese (Brazilian) */
 var pt = {
+  srExerciseMathWorksheet: 'Questão {n}: Descubra quanto vale cada imagem usando estas equações: {equations}.',
+  srExerciseWordGuess: 'Questão {n}: Escreva a palavra da imagem. Algumas letras já estão preenchidas.',
+  srExerciseWordScramble: 'Questão {n}: Coloque as letras na ordem certa para escrever a palavra da imagem: {letters}.',
+  srExerciseAlphabetTrain: 'Questão {n}: Arraste a letra correta para o vagão {n}.',
   srWorksheetQuestions: 'Questões da atividade',
   srExerciseAddition: 'Questão {n}: {a} mais {b} é igual a lacuna.',
   srExerciseAdditionFindAddend: 'Questão {n}: lacuna mais {b} é igual a {sum}.',
@@ -243,6 +270,10 @@ var pt = {
 
 /* ----------------------------------------------------------------- Swedish */
 var sv = {
+  srExerciseMathWorksheet: 'Uppgift {n}: Ta reda på vad varje bild är värd med hjälp av dessa ekvationer: {equations}.',
+  srExerciseWordGuess: 'Uppgift {n}: Skriv ordet som bilden visar. Några bokstäver är redan ifyllda.',
+  srExerciseWordScramble: 'Uppgift {n}: Lägg bokstäverna i rätt ordning så att de bildar ordet som bilden visar: {letters}.',
+  srExerciseAlphabetTrain: 'Uppgift {n}: Dra rätt bokstav till vagn {n}.',
   srWorksheetQuestions: 'Arbetsbladets uppgifter',
   srExerciseAddition: 'Uppgift {n}: {a} plus {b} är lika med tom ruta.',
   srExerciseAdditionFindAddend: 'Uppgift {n}: tom ruta plus {b} är lika med {sum}.',
@@ -281,6 +312,10 @@ var sv = {
 /* Anaphora is anchored to a KNOWN-gender word — `billedet` (neuter), `halvdel` (common) —
  * never to the inserted noun, so `det`/`den` are always right. */
 var da = {
+  srExerciseMathWorksheet: 'Spørgsmål {n}: Find ud af, hvad hvert billede er værd, ved hjælp af disse ligninger: {equations}.',
+  srExerciseWordGuess: 'Spørgsmål {n}: Stav ordet, der passer til billedet. Nogle bogstaver er allerede sat ind.',
+  srExerciseWordScramble: 'Spørgsmål {n}: Sæt bogstaverne i den rigtige rækkefølge, så de danner ordet, der passer til billedet: {letters}.',
+  srExerciseAlphabetTrain: 'Spørgsmål {n}: Træk det rigtige bogstav ind i vogn {n}.',
   srWorksheetQuestions: 'Spørgsmål til arket',
   srExerciseAddition: 'Spørgsmål {n}: {a} plus {b} er lig med tomt felt.',
   srExerciseAdditionFindAddend: 'Spørgsmål {n}: Tomt felt plus {b} er lig med {sum}.',
@@ -319,6 +354,10 @@ var da = {
 /* The hardest locale and the reason the brief exists: an uninflectable nominative noun cannot
  * sit in a case-governed slot, so every one of them follows a colon. */
 var fi = {
+  srExerciseMathWorksheet: 'Tehtävä {n}: Päättele kunkin kuvan arvo näistä yhtälöistä: {equations}.',
+  srExerciseWordGuess: 'Tehtävä {n}: Kirjoita kuvaan sopiva sana. Osa kirjaimista on jo valmiina.',
+  srExerciseWordScramble: 'Tehtävä {n}: Järjestä kirjaimet niin, että niistä muodostuu kuvaan sopiva sana: {letters}.',
+  srExerciseAlphabetTrain: 'Tehtävä {n}: Vedä oikea kirjain vaunuun {n}.',
   srWorksheetQuestions: 'Tehtäväsivun tehtävät',
   srExerciseAddition: 'Lasku {n}: {a} plus {b} on yhtä kuin tyhjä ruutu.',
   srExerciseAdditionFindAddend: 'Lasku {n}: Tyhjä ruutu plus {b} on yhtä kuin {sum}.',
@@ -357,6 +396,10 @@ var fi = {
 /* Deliberately not a Swedish calque — `regnestykke` for a maths item, `vogn` not `vagn`, and
  * the demonstrative always attaches to `bildet`/`biten`, never to the inserted noun. */
 var no = {
+  srExerciseMathWorksheet: 'Spørsmål {n}: Finn ut hva hvert bilde er verdt ved hjelp av disse likningene: {equations}.',
+  srExerciseWordGuess: 'Spørsmål {n}: Skriv ordet som passer til bildet. Noen bokstaver er allerede fylt inn.',
+  srExerciseWordScramble: 'Spørsmål {n}: Sett bokstavene i riktig rekkefølge så de danner ordet som passer til bildet: {letters}.',
+  srExerciseAlphabetTrain: 'Spørsmål {n}: Dra riktig bokstav inn i vogn {n}.',
   srWorksheetQuestions: 'Spørsmål på arket',
   srExerciseAddition: 'Regnestykke {n}: {a} pluss {b} er lik tom rute.',
   srExerciseAdditionFindAddend: 'Regnestykke {n}: tom rute pluss {b} er lik {sum}.',
@@ -420,6 +463,34 @@ var SHAPES = {
   fi: { square: 'neliö', circle: 'ympyrä', triangle: 'kolmio', star: 'tähti', heart: 'sydän', hexagon: 'kuusikulmio', cube: 'kuutio', cylinder: 'lieriö' },
 };
 
+/* --------------------------------------------------------- arithmetic words */
+/**
+ * The locale's words for `plus`, `minus` and `equals`, DERIVED from its own addition and
+ * subtraction rows rather than declared again.
+ *
+ *   'Lasku {n}: {a} plus {b} on yhtä kuin tyhjä ruutu.'   -> plus ' plus ', equals ' on yhtä kuin '
+ *   'Lasku {n}: {operandA} miinus {operandB} on yhtä ...' -> minus ' miinus '
+ *
+ * math-worksheet's row embeds whole equations — "Moose plus Rabbit equals 5" — so those three
+ * words have to be translated INSIDE the value, not just around it. Deriving them from the
+ * sibling rows means a page cannot end up saying "plus" in one line and the locale's word in
+ * the next, and it means nobody had to author the same three words twice.
+ */
+function arithmeticWords(locale) {
+  var t = module.exports[locale];
+  if (!t || !t.srExerciseAddition || !t.srExerciseSubtraction) return null;
+  var add = t.srExerciseAddition.match(/\{a\}(.+?)\{b\}/);
+  var sub = t.srExerciseSubtraction.match(/\{operandA\}(.+?)\{operandB\}/);
+  /* The equals phrase is taken from the FIND-ADDEND row, where it sits between two
+   * placeholders and is therefore exactly delimited. Reading it from the plain addition row
+   * meant trimming off "the empty box", whose length differs per locale — two words in Dutch
+   * and Swedish, three in Spanish, one in Portuguese — and the first attempt duly produced
+   * " is gelijk aan leeg " instead of " is gelijk aan ". */
+  var eq = (t.srExerciseAdditionFindAddend || '').match(/\{b\}(.+?)\{sum\}/);
+  if (!add || !sub || !eq) return null;
+  return { plus: add[1], minus: sub[1], equals: eq[1] };
+}
+
 /** The locale's word for an English shape token, or null — a miss leaves the row untouched. */
 function shapeWord(englishToken, locale) {
   var table = SHAPES[locale];
@@ -430,4 +501,5 @@ function shapeWord(englishToken, locale) {
 module.exports = {
   en: en, nl: nl, fr: fr, es: es, it: it, pt: pt, sv: sv, da: da, no: no, fi: fi,
   shapeWord: shapeWord,
+  arithmeticWords: arithmeticWords,
 };

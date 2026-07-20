@@ -22,9 +22,11 @@ import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-sch
 import { getAxisSlug, getSubjectName, getSubjectSlugStrict, listSubjectKeys } from '@/lib/taxonomy';
 import {
   fetchDecksForSubjectLevel,
+  fetchLeadDeckForSubjectLevel,
   countDecksForSubjectLevel,
   TopicDeckSummary,
 } from '@/lib/topic-decks';
+import { ogImageFromLeadDeck } from '@/lib/seo/topic-og-image';
 import {
   resolveSubjectGrade,
   isOnlineHubAvailable,
@@ -43,7 +45,7 @@ import { canonicalDeckAssets } from '@/lib/seo/landing-content';
 import { listAllActivities, ActivityRow } from '@/lib/activities';
 import ResultCount from '@/components/catalog/ResultCount';
 import DeckGridClient, { TopicDeckCardData } from '../../DeckGridClient';
-import { buildDeckRichAlt } from '@/lib/deck-seo';
+import { buildDeckThumbAlt } from '@/lib/seo/deck-vocab';
 import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locales';
 
 const TOPIC_LOCALES = TOPIC_ENABLED_LOCALES;
@@ -147,6 +149,13 @@ export async function generateMetadata({ params }: { params: OnlineParams }): Pr
   if (enHref) hreflangAlternates['x-default'] = enHref;
 
   const indexable = count >= MIN_INDEXABLE_SUBJECT_HUB_DECKS;
+  // Per-hub social image from this hub's own first deck (see topicOgImage).
+  const altT = await getTranslations({ locale, namespace: 'seo.ogImageAlt' });
+  const ogImage = ogImageFromLeadDeck(
+    await fetchLeadDeckForSubjectLevel(subjectKey, levelKey, locale),
+    locale,
+    (key, p) => altT(key as never, p as never),
+  );
   return {
     title,
     description,
@@ -155,9 +164,9 @@ export async function generateMetadata({ params }: { params: OnlineParams }): Pr
     openGraph: {
       title, description, type: 'website', url: canonical, siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
-      images: [{ url: `${CANONICAL_HOST}/og-homepage.png`, width: 1200, height: 630, type: 'image/png', alt: 'LessonCraftStudio — K-3 worksheets in 11 languages' }],
+      images: [ogImage],
     },
-    twitter: { card: 'summary_large_image', title, description, images: [`${CANONICAL_HOST}/og-homepage.png`] },
+    twitter: { card: 'summary_large_image', title, description, images: [ogImage.url] },
   };
 }
 
@@ -175,6 +184,7 @@ export default async function OnlineHubPage({ params }: { params: OnlineParams }
 
   const t = await getTranslations({ locale, namespace: 'topicPage' });
   const tDeckAlt = await getTranslations({ locale, namespace: 'seo.deckCardAlt' });
+  const tMainAlt = await getTranslations({ locale, namespace: 'seo.worksheetMainAlt' });
   const tBreadcrumb = await getTranslations({ locale, namespace: 'topicPage.breadcrumb' });
 
   const h1 = onlineHubH1(locale, subjectKey, levelKey);
@@ -274,9 +284,10 @@ export default async function OnlineHubPage({ params }: { params: OnlineParams }
                 slug: deck.slug,
                 language: deck.language,
                 title,
-                richAlt: buildDeckRichAlt(
-                  { exerciseType: deck.exerciseType, subjectTags: deck.subjectTags, ageRange: deck.ageRange, title },
+                richAlt: buildDeckThumbAlt(
+                  { slug: deck.slug, exerciseType: deck.exerciseType, subjectTags: deck.subjectTags, ageRange: deck.ageRange, title },
                   locale,
+                  (key, p) => tMainAlt(key as never, p as never),
                   (key, p) => tDeckAlt(key, p),
                 ),
                 // Play-first: the card opens the in-browser play page, not the landing.

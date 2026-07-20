@@ -81,36 +81,79 @@ async function themeSubjectTagsWhere(
  *  - educational-level: deck.ageRange maps to the axis-key per
  *    CLAUDE.md §17.8.6 mapping table.
  */
+/** The default grid order (matches sort=newest, the canonical no-param view). */
+const TOPIC_DEFAULT_ORDER = [{ publishedAt: 'desc' as const }, { id: 'asc' as const }];
+
 export async function fetchDecksForAxis(
   axis: Axis,
   axisKey: string,
   locale: string
 ): Promise<TopicDeckSummary[]> {
-  if (axis === 'exercise-type') {
-    return prisma.deck.findMany({
-      where: { language: locale, status: 'published', contentLanguage: null, exerciseType: axisKey },
-      select: DECK_SELECT,
-      orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
-    }) as unknown as Promise<TopicDeckSummary[]>;
-  }
-  if (axis === 'theme') {
-    // De-orphan (Wave 5): match the theme exactly OR as a "-vs-" component (see themeSubjectTagsWhere).
-    return prisma.deck.findMany({
-      where: { language: locale, status: 'published', contentLanguage: null, ...(await themeSubjectTagsWhere(axisKey)) },
-      select: DECK_SELECT,
-      orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
-    }) as unknown as Promise<TopicDeckSummary[]>;
-  }
+  const where = await axisWhere(axis, axisKey, locale);
+  if (!where) return [];
+  return prisma.deck.findMany({
+    where,
+    select: DECK_SELECT,
+    orderBy: TOPIC_DEFAULT_ORDER,
+  }) as unknown as Promise<TopicDeckSummary[]>;
+}
+
+/**
+ * The published-deck WHERE for one (axis, axis-key, locale).
+ *
+ * Extracted from fetchDecksForAxis so the metadata path can ask for just the
+ * ONE lead deck without pulling the whole grid (a theme hub can hold hundreds
+ * of rows, and generateMetadata runs on every render). Returns null when the
+ * axis-key resolves to nothing — callers treat that as "no decks".
+ */
+export async function axisWhere(
+  axis: Axis,
+  axisKey: string,
+  locale: string
+): Promise<Record<string, unknown> | null> {
+  const base = { language: locale, status: 'published', ...MONOLINGUAL_WHERE };
+  if (axis === 'exercise-type') return { ...base, exerciseType: axisKey };
+  // De-orphan (Wave 5): match the theme exactly OR as a "-vs-" component (see themeSubjectTagsWhere).
+  if (axis === 'theme') return { ...base, ...(await themeSubjectTagsWhere(axisKey)) };
   if (axis === 'educational-level') {
     const ageRanges = levelKeyToAgeRanges(axisKey);
-    if (ageRanges.length === 0) return [];
-    return prisma.deck.findMany({
-      where: { language: locale, status: 'published', contentLanguage: null, ageRange: { in: ageRanges } },
-      select: DECK_SELECT,
-      orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
-    }) as unknown as Promise<TopicDeckSummary[]>;
+    if (ageRanges.length === 0) return null;
+    return { ...base, ageRange: { in: ageRanges } };
   }
-  return [];
+  return null;
+}
+
+/**
+ * The first deck a visitor sees on a topic hub — the one whose picture the page
+ * should use as its own og:image.
+ *
+ * Every topic hub used to share a single brand image (`/og-homepage.png`) across
+ * ~5,000 pages, on the most-crawled section of the site. Each deck already has a
+ * real 1200×630 composite next to it on disk (§17.8.19), so a hub can show
+ * something that is genuinely on the page at no asset cost.
+ *
+ * Cheap by construction: findFirst + a 4-column select, in the same order the
+ * grid renders (sort=newest), so the image matches the first card a visitor sees.
+ * Returns null for an empty hub — the caller falls back to the brand image.
+ */
+export async function fetchLeadDeckForAxes(
+  axes: Array<{ axis: Axis; axisKey: string }>,
+  locale: string
+): Promise<Pick<TopicDeckSummary, 'slug' | 'exerciseType' | 'ageRange' | 'subjectTags' | 'title'> | null> {
+  const clauses: Record<string, unknown>[] = [];
+  for (const a of axes) {
+    const w = await axisWhere(a.axis, a.axisKey, locale);
+    if (!w) return null; // an axis that resolves to nothing means an empty hub
+    clauses.push(w);
+  }
+  if (clauses.length === 0) return null;
+  // Conjunctive across axes, matching the grid's own multi-axis semantics.
+  const where = clauses.length === 1 ? clauses[0] : { AND: clauses };
+  return prisma.deck.findFirst({
+    where,
+    select: { slug: true, exerciseType: true, ageRange: true, subjectTags: true, title: true },
+    orderBy: TOPIC_DEFAULT_ORDER,
+  }) as unknown as Promise<Pick<TopicDeckSummary, 'slug' | 'exerciseType' | 'ageRange' | 'subjectTags' | 'title'> | null>;
 }
 
 /**
@@ -302,6 +345,24 @@ export async function latestDeckUpdateForSubjectLevel(
 }
 
 /** Count published decks for a subject×grade hub — empty-guard + header count. */
+/**
+ * The first deck on a subject×grade hub — its og:image source, same rationale
+ * as fetchLeadDeckForAxes (these hubs used the shared brand asset too).
+ */
+export async function fetchLeadDeckForSubjectLevel(
+  subjectKey: string,
+  levelKey: string,
+  locale: string
+): Promise<Pick<TopicDeckSummary, 'slug' | 'exerciseType' | 'ageRange' | 'subjectTags' | 'title'> | null> {
+  const w = buildSubjectLevelWhere(subjectKey, levelKey);
+  if (!w) return null;
+  return prisma.deck.findFirst({
+    where: { language: locale, status: 'published', ...MONOLINGUAL_WHERE, ...w },
+    select: { slug: true, exerciseType: true, ageRange: true, subjectTags: true, title: true },
+    orderBy: TOPIC_DEFAULT_ORDER,
+  }) as unknown as Promise<Pick<TopicDeckSummary, 'slug' | 'exerciseType' | 'ageRange' | 'subjectTags' | 'title'> | null>;
+}
+
 export async function countDecksForSubjectLevel(
   subjectKey: string,
   levelKey: string,

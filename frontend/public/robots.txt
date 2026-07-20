@@ -19,6 +19,39 @@ Disallow: /*/auth/
 Disallow: /*/dashboard/
 Disallow: /*/admin/
 
+# Prefixes removed in the 2026-05 teardown. They return 410 via middleware.ts
+# REMOVED_PREFIXES, and that 410 stays in place — this only stops Google asking.
+#
+# Why: measured on 19-20 Jul 2026 from the nginx logs, 225 of 850 Googlebot
+# requests (26.5%) went to these five prefixes and NOT ONE returned 200 — /blog
+# alone took 200 requests (133 x 410 + 67 x 301). The whole site gets roughly
+# 500 Googlebot requests a day, so a quarter of the budget was being spent
+# re-confirming ~132 dead URLs, most of them cross-locale ghosts Google
+# discovered from the old hreflang emission (e.g. a Portuguese blog slug under
+# /da/) that never existed as real pages. Meanwhile the 30,078 /worksheets/
+# landings received ZERO fetches. This is the cheapest way to free that budget.
+#
+# Trade-off accepted: a blocked URL can no longer be re-crawled, so Google stops
+# re-confirming the 410. These have been gone for months and have no external
+# links, so the cost is small and the reclaimed budget is immediate.
+#
+# /apps is deliberately NOT blocked — its requests are 301s into the live
+# /tools/<x>-maker landings (frontend/config/maker-redirects.ts), which is
+# ranking equity being recovered, not waste.
+#
+# Before removing any of these, re-measure first:
+#   grep -i googlebot /var/log/nginx/access.log | awk '{print $9}' | sort | uniq -c
+Disallow: /blog
+Disallow: /*/blog
+Disallow: /guides
+Disallow: /*/guides
+Disallow: /ideas
+Disallow: /*/ideas
+Disallow: /bundles
+Disallow: /*/bundles
+Disallow: /gallery
+Disallow: /*/gallery
+
 # Allow image crawlers explicit access to worksheet samples
 User-agent: Googlebot-Image
 Allow: /samples/

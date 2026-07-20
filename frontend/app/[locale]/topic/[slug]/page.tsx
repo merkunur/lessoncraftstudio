@@ -27,8 +27,9 @@ import {
   TopicSortKey,
   topicLastModified,
 } from '@/lib/topic-decks';
+import { topicOgImage } from '@/lib/seo/topic-og-image';
 import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
-import { buildDeckRichAlt } from '@/lib/deck-seo';
+import { buildDeckThumbAlt } from '@/lib/seo/deck-vocab';
 import {
   isSeasonalHubUpgraded,
   seasonalHubTitle,
@@ -286,6 +287,16 @@ export async function generateMetadata({
   const prosePreview = firstSentenceOf(prose, 155);
   const description = meta ?? prosePreview ?? t('description', { topic: topicName });
 
+  // Per-hub social image: the composite of the first deck in this hub's own
+  // grid, instead of the one brand asset ~5,000 hubs used to share. Falls back
+  // to the brand image for an empty hub (see topicOgImage).
+  const altT = await getTranslations({ locale, namespace: 'seo.ogImageAlt' });
+  const ogImage = await topicOgImage(
+    [{ axis, axisKey }],
+    locale,
+    (key, p) => altT(key as never, p as never),
+  );
+
   return {
     title: renderedTitle,
     description,
@@ -301,24 +312,13 @@ export async function generateMetadata({
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
       alternateLocale: otherSiblings.map(s => ogLocaleMap[s.locale] || s.locale),
-      // Brand-only 1200×630 OG asset (Direction A palette). Per-topic OG
-      // images are a separate asset-pipeline commission; brand-fallback is
-      // adequate for social-share previews on topic pages.
-      images: [
-        {
-          url: `${CANONICAL_HOST}/og-homepage.png`,
-          width: 1200,
-          height: 630,
-          type: 'image/png',
-          alt: 'LessonCraftStudio — K-3 worksheets in 11 languages',
-        },
-      ],
+      images: [ogImage],
     },
     twitter: {
       card: 'summary_large_image',
       title: renderedTitle,
       description,
-      images: [{ url: `${CANONICAL_HOST}/og-homepage.png`, alt: 'LessonCraftStudio — K-3 worksheets in 11 languages' }],
+      images: [{ url: ogImage.url, alt: ogImage.alt }],
     },
   };
 }
@@ -477,6 +477,7 @@ export default async function TopicPage({
 
   const t = await getTranslations({ locale, namespace: 'topicPage' });
   const tDeckAlt = await getTranslations({ locale, namespace: 'seo.deckCardAlt' });
+  const tMainAlt = await getTranslations({ locale, namespace: 'seo.worksheetMainAlt' });
   const topicName = getAxisName(axis, axisKey, locale) ?? params.slug;
   const intent = intentKey(axis);
   // No trailing slash — Next.js routes are trailing-slash-stripped per
@@ -790,14 +791,19 @@ export default async function TopicPage({
                     slug: deck.slug,
                     language: deck.language,
                     title,
-                    richAlt: buildDeckRichAlt(
+                    // Names this deck's actual contents when we know them
+                    // (build-time map, every name traced to the deck itself);
+                    // otherwise keeps the existing category-level wording.
+                    richAlt: buildDeckThumbAlt(
                       {
+                        slug: deck.slug,
                         exerciseType: deck.exerciseType,
                         subjectTags: deck.subjectTags,
                         ageRange: deck.ageRange,
                         title,
                       },
                       locale,
+                      (key, params) => tMainAlt(key as never, params as never),
                       (key, params) => tDeckAlt(key, params),
                     ),
                     href: deckLinkFor(deck),

@@ -341,7 +341,11 @@ export function getRelatedLandings(locale: string, self: Landing): MeshGroups {
 }
 
 /** Deck-asset URLs (nginx-served; trailing-slash dir; slug-prefixed PDFs). */
-export interface DeckAssets { deckDir: string; deckHtml: string; thumbnail: string; pdf: string; answerKey: string }
+export interface DeckAssets {
+  deckDir: string; deckHtml: string; thumbnail: string; pdf: string; answerKey: string;
+  /** The 1200×630 social composite written at publish time (§17.8.19). */
+  ogImage: string;
+}
 export function deckAssets(locale: string, deckSlug: string): DeckAssets {
   const dir = `${CANONICAL_HOST}/${locale}/decks/${deckSlug}/`;
   return {
@@ -350,6 +354,7 @@ export function deckAssets(locale: string, deckSlug: string): DeckAssets {
     thumbnail: `${dir}thumbnail.png`,
     pdf: `${dir}${deckSlug}-printable.pdf`,
     answerKey: `${dir}${deckSlug}-answer-key.pdf`,
+    ogImage: `${dir}og-image.png`,
   };
 }
 

@@ -94,7 +94,52 @@ const WRONG_INTENT = new RegExp('(' + [
 const ARTEFACT = /\b(worksheets?|printables?|activity sheets?|activity pages?|practice sheets?|work sheets?|handouts?|workbooks?|flash ?cards?|task cards?|colouring pages?|coloring pages?|word ?search(es)?|crosswords?|puzzles?|mazes?|cut and paste|tracing|matching|sorting|bingo|sudoku)\b/i;
 const AUDIENCE = /\b(kids?|children|child|toddlers?|preschool\w*|kindergarten\w*|pre-?k|nursery|reception|eyfs|early years|students?|classroom|homeschool\w*|grade\s*[1-3]|1st grade|2nd grade|3rd grade|[3-8]\s*year olds?|little ones)\b/i;
 
+/* Malformed harvest strings. Autocomplete occasionally returns text with
+ * punctuation lodged mid-phrase — "free activity worksheets for.preschoolers"
+ * survived every semantic check and would have shipped as a title. */
+const MALFORMED = /[.,;:!?]\S|\s[.,;:]|\d{4,}|https?:|www\.|[|<>{}[\]\/]/;
+
+/* Ages outside K-3, however phrased. The grade ceiling only recognised
+ * "4th grade" shapes, so "puzzles for kids age 10" passed.
+ *
+ * WRITTEN WITH Edit, NEVER THROUGH A SHELL HEREDOC. The first version of this
+ * line contained literal BACKSPACE characters (0x08) where \b was intended,
+ * because it was written via `python - <<'PY'`. The file displayed correctly in
+ * every viewer and `node --check` passed; the regex simply never matched. That
+ * is the third time this session a shell-escaped write has silently produced a
+ * dead regex — see assertNoControlChars below, which now fails loudly instead.
+ */
+const AGE_OUT_OF_RANGE = /\b(?:age|aged)\s*(?:9|1[0-9])\b|\b(?:9|1[0-9])\s*(?:\+|plus)?\s*year[s]?[\s-]*old/i;
+
+/* A dead regex is invisible: it never matches, so the filter it belongs to
+ * silently passes everything it was built to stop. This has now happened three
+ * times in one session, each time from writing `\b` through a shell heredoc,
+ * and each time the file looked correct in every viewer and passed
+ * `node --check`.
+ *
+ * Fail loudly at load instead of trusting that the source looks right.
+ *
+ * (The first attempt to install this guard did not install it at all — only a
+ * comment mentioning it — and the check that was supposed to confirm the
+ * installation searched for the function NAME, which the comment satisfied. A
+ * verification that a string appears is not a verification that code runs.)
+ */
+function assertNoControlChars() {
+  const self = fs.readFileSync(__filename, 'utf8');
+  for (let i = 0; i < self.length; i++) {
+    const c = self.charCodeAt(i);
+    if (c < 32 && c !== 9 && c !== 10 && c !== 13) {
+      throw new Error(`clean-bank.js: control character 0x${c.toString(16)} at offset ${i}. `
+        + 'A word-boundary written through a shell heredoc becomes a literal '
+        + 'backspace and silently disables its regex. Rewrite that line with Edit.');
+    }
+  }
+}
+assertNoControlChars();
+
 function classify(q) {
+  if (MALFORMED.test(q)) return 'malformed';
+  if (AGE_OUT_OF_RANGE.test(q)) return 'above-k3';
   if (!ARTEFACT.test(q)) return 'not-a-printable';
   if (!AUDIENCE.test(q)) return 'no-child-audience';
   /* The old single-signal EDU test is NOT applied here any more. It is
